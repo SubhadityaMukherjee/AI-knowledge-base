@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "25da26473f99a27f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0bf3047f6cb32628",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Simulations_Of_language.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8f402b2ef1b5c94",
+    "type": "split",
+    "children": [
+      {
+        "id": "f04b3195f480ba47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b5238805db00281",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d3c1c3bca622d08",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "layer nor",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "67b2794baf41f722",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa06cb69ac4f2689",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "487f724e32cf2dbd",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Simulations_Of_language.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6241963584402447,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "2a90576ee6d8c6df",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "d2a1aaf37a90e332",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Simulations_Of_language.md"
+              }
+            }
+          },
+          {
+            "id": "0313d4ded0807af1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Simulations_Of_language.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2e40e46680ceea7a",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "dab0d59dfe9a4f9f",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "473043f750e93b7e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "863417745269de5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "158884686aac826f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Simulations_Of_language.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0bf3047f6cb32628",
+  "lastOpenFiles": [
+    "Simulations_Of_language.md",
+    "Initialization.md",
+    "DeepLearning.md",
+    "index.md",
+    "Regularization.md",
+    "Architectures.md",
+    "LossFunctions.md",
+    "Layers.md",
+    "Attention.md",
+    "Fundamentals.md"
+  ]
+}

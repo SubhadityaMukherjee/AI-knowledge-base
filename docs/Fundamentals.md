@@ -1,0 +1,12 @@
+# Emperical Risk
+- $R(f) = \mathbb{E} _{(X,Y) \sim P(X,Y)}[l(y, f(x))]$
+- joint prob distribution P(X,Y) is unknown
+- Learning set $\mathcal L$ is finite
+- Need an estimator to evaluate it
+	- Supervised Learning
+		- Compute $\mathcal L_{train}$
+		- Risk train = (1/M)(sum of loss values for (y, f(x)))
+		- This is an unbiased estimator, so we can use it to approximate the optimal function f* that minimizes $\mathbb{R}$
+		- This means that we find $argmin_{f\in F} \hat R(f, \mathcal{L}_Train)$ (out of all the possible functions)
+		- $lim_{M\rightarrow \infty}(f^*_{\mathcal{L}_Train}) = f^*$ : converges to the fn that minimizes emprical risk
+	- Ordinary least squares regression

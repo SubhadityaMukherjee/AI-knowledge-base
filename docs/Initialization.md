@@ -1,0 +1,3 @@
+# He Init
+
+# Glorot/Xavier

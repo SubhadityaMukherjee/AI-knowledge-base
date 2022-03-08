@@ -1,0 +1,2 @@
+- Li, Xu, Taylor, Studer, Goldstein, Visualizing the Loss Landscape of Neural Nets, NeurlPS, 2018 [[Effect_Of_Depth]]
+- 

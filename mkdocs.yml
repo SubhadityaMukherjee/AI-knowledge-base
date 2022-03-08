@@ -39,4 +39,3 @@ extra_javascript:
 plugins:
   - search
   - roamlinks 
-  - mermaid2

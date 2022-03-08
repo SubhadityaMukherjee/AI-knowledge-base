@@ -102,7 +102,7 @@
             "id": "2a90576ee6d8c6df",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {}
             }
           },
@@ -149,6 +149,14 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "cb42c268734e41dd",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
               "state": {}
             }
           }

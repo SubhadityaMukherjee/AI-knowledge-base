@@ -27,14 +27,18 @@ markdown_extensions:
   - footnotes
   - pymdownx.details
   - pymdownx.magiclink
+  - pymdownx.keys
+  - pymdownx.tilde
+  - smarty
+  - nl2br
+  - tables
   - toc:
       permalink: true
 
 extra_javascript:
-  - javascripts/mathjax.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
   - https://cdn.jsdelivr.net/npm/latex.js/dist/latex.mjs
   - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 plugins:
   - search

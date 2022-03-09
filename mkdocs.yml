@@ -51,4 +51,3 @@ extra_javascript:
 plugins:
   - search
   - roamlinks 
-  - autoreflinks

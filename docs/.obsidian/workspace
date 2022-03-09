@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Simulations_Of_language.md",
+            "file": "Issues.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Simulations_Of_language.md",
+                "file": "Issues.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Simulations_Of_language.md"
+                "file": "Issues.md"
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Simulations_Of_language.md",
+                "file": "Issues.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Simulations_Of_language.md",
+                "file": "Issues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,6 +193,7 @@
   },
   "active": "0bf3047f6cb32628",
   "lastOpenFiles": [
+    "Issues.md",
     "Simulations_Of_language.md",
     "Initialization.md",
     "DeepLearning.md",
@@ -201,7 +202,6 @@
     "Architectures.md",
     "LossFunctions.md",
     "Layers.md",
-    "Attention.md",
-    "Fundamentals.md"
+    "Attention.md"
   ]
 }

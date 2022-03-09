@@ -33,3 +33,4 @@
 - If $P >> N$ : overparameterized
 - No of params not a good indicator of overfitting
 - Solution : [[Regularization]]
+

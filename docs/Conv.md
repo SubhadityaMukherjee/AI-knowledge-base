@@ -12,12 +12,12 @@
 - Output shape : $\frac{()_i-f+2p}{s}$
 	- If $p = \frac{f-1}{2}$ and $s=1$ then dimensions maintained
 
-# Padded Conv
+## Padded Conv
 - $(N_i, N_o, C, F)$
 - Filters transform from C -> F channels
 - Mirror, Reflect
 
-# Strided
+## Strided
 - Normally S = 1
 - S>1 -> Downsampling 
 - Dilated
@@ -25,14 +25,14 @@
 - D = 1 : normal conv aka D-1 spaces
 - Effective Filter size : $\hat F = F + (F-1)(D-1)$
 
-# Depthwise Separable
+## Depthwise Separable
 - Only transforms the input once and saves computation -> elongate it to more channels
 - From C -> F channels : Use F instances of a 1x1xC filter
 - ![[Pasted image 20220306122226.png]]
 
-# Causal 1D Conv
+## Causal 1D Conv
 - Only past info used for prediction
 - Conv works in both directions and can leak future information into predictions
 
-# Causal Dilated Conv
+## Causal Dilated Conv
 - Receptive field is how much of the input sequence is needed for one prediction

@@ -1,22 +1,24 @@
-# Dimensions
+# Features
 
-## Wide
+## Dimensions
+
+### Wide
 - Had to train
 - More number of neurons
 - Easy parallel
 - Infinitely wide -> Gaussian process
 
-## Deep
+### Deep
 - Easier to train
 - Less data
 - Linear amount
 - Difficult to parallelize
 
-# Why
+## Why
 - Domain Adaptation
 - Structure exploitation
 - Relevant features
 
-# Random Things
+## Random Things
 - 1 hidden layer perceptron -> Universal fn estimator
 - Best generalization -> First order optimization

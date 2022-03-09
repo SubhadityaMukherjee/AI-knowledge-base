@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Issues.md",
+            "file": "ActivationFunctions.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Issues.md",
+                "file": "ActivationFunctions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Issues.md"
+                "file": "ActivationFunctions.md"
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Issues.md",
+                "file": "ActivationFunctions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Issues.md",
+                "file": "ActivationFunctions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,15 +193,15 @@
   },
   "active": "0bf3047f6cb32628",
   "lastOpenFiles": [
-    "Issues.md",
-    "Simulations_Of_language.md",
-    "Initialization.md",
-    "DeepLearning.md",
-    "index.md",
-    "Regularization.md",
+    "ActivationFunctions.md",
     "Architectures.md",
     "LossFunctions.md",
+    "Effect_Of_Depth.md",
     "Layers.md",
-    "Attention.md"
+    "Simulations_Of_language.md",
+    "Regularization.md",
+    "Refs.md",
+    "Optimizers.md",
+    "Issues.md"
   ]
 }

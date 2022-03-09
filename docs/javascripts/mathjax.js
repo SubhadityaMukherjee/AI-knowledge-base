@@ -8,7 +8,13 @@ window.MathJax = {
   options: {
     ignoreHtmlClass: ".*|",
     processHtmlClass: "arithmatex"
-  }
+  },
+		chtml: {
+				scale: 1.3
+		},
+		svg:{
+				scale: 1.3
+		}
 };
 
 document$.subscribe(() => {

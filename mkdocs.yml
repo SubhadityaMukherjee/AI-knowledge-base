@@ -1,7 +1,11 @@
-site_name: AI Knowledge Base
+site_name: Subhaditya's AI Knowledge Base
 
 theme:
     name: 'material'
+    nav_style: dark
+    features:
+        - toc.follow
+        - navigation.top
     palette:
 
     # Light mode
@@ -26,6 +30,7 @@ theme:
 markdown_extensions:
   - footnotes
   - pymdownx.details
+  - meta
   - pymdownx.magiclink
   - pymdownx.keys
   - pymdownx.tilde
@@ -34,8 +39,7 @@ markdown_extensions:
   - tables
   - pymdownx.arithmatex:
       generic: true
-  - toc:
-      permalink: true
+  - toc
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6

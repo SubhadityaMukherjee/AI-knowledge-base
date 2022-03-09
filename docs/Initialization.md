@@ -1,3 +1,5 @@
-# He Init
+# Initialization
 
-# Glorot/Xavier
+## He Init
+
+## Glorot/Xavier

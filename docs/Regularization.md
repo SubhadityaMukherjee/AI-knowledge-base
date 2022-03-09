@@ -1,4 +1,6 @@
-# Dropout
+# Regularization
+
+## Dropout
 - Applied to Dense layers
 - Training : Randomly (Bernoulli, p = 0.5 say) set #activations to 0
 - Generally p = 0.1, 0.5
@@ -8,14 +10,14 @@
 - Decreases overfitting
 - Start with small rate : 20 %
 
-# Variational/Recurrent Dropout
+## Variational/Recurrent Dropout
 - RNN
 - Only on the non recurrent parts such as inputs and outputs
 - In recorrent parts, use the same dropout mask for all time steps
 - Same dropout mask for each time step
 - ![[Pasted image 20220306113950.png]]
 
-# Batch Normalization
+## Batch Normalization
 - bias=False for Linear/Conv2D for input and True for output #tricks
 - Normalizes #activations
 - Input distributions change per layer -> Make sure they stay similar
@@ -31,13 +33,13 @@
 - $\hat x_{ij} \leftarrow \frac{x_{ij}-\mu_j}{\sqrt{\sigma^2_j + \epsilon}}$
 - $\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$
 
-# Layer Normalization
+## Layer Normalization
 - For RNNs etc
 - Mean and variance calculated independantly for each element of the batch by aggregating over the features dimensions.
 
-[[Augmentation]]
+## [[Augmentation]]
 
-# Lp Regularization
+## Lp Regularization
 - Tikhonov
 - Penalty considering weights
 - $L^\ast(\theta) = L(\theta) + \lambda \Sigma_i |\theta_i|^p$

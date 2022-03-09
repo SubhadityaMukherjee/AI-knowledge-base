@@ -1,4 +1,6 @@
-# Emperical Risk
+# Fundamentals
+
+## Emperical Risk
 - $R(f) = \mathbb{E} _{(X,Y) \sim P(X,Y)}[l(y, f(x))]$
 - joint prob distribution P(X,Y) is unknown
 - Learning set $\mathcal L$ is finite

@@ -1,2 +1,3 @@
 # Fundamentals
 - [[Emperical Risk]]
+- [[LinearRegression]]

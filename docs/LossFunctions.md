@@ -8,3 +8,4 @@
 - [[Cross Entropy]]
 
 - [[Log Likelihood Loss]]
+- [[Quadratic Loss]]

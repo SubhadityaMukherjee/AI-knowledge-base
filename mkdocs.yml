@@ -40,7 +40,8 @@ markdown_extensions:
   - tables
   - pymdownx.arithmatex:
       generic: true
-  - toc
+  - toc:
+      toc_depth: 3
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -50,3 +51,4 @@ extra_javascript:
 plugins:
   - search
   - roamlinks 
+  - autoreflinks

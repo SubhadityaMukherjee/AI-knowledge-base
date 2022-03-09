@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0bf3047f6cb32628",
+        "id": "b17a6b4682b05348",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ActivationFunctions.md",
+            "file": "Architectures.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ActivationFunctions.md",
+                "file": "Architectures.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -93,7 +93,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.6241963584402447,
-                  "close": false
+                  "close": true
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ActivationFunctions.md"
+                "file": "Architectures.md"
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ActivationFunctions.md",
+                "file": "Architectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,8 +160,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "863417745269de5a",
@@ -173,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ActivationFunctions.md",
+                "file": "Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,20 +187,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 383.5
   },
-  "active": "0bf3047f6cb32628",
+  "active": "b17a6b4682b05348",
   "lastOpenFiles": [
-    "ActivationFunctions.md",
     "Architectures.md",
-    "LossFunctions.md",
-    "Effect_Of_Depth.md",
+    "Adam.md",
+    "Nasnet.md",
     "Layers.md",
-    "Simulations_Of_language.md",
-    "Regularization.md",
-    "Refs.md",
-    "Optimizers.md",
-    "Issues.md"
+    "Res Net.md",
+    "LossFunctions.md",
+    "0-1 Loss.md",
+    "Cross Entropy.md",
+    "DeepLearning.md",
+    "Augmentation.md"
   ]
 }

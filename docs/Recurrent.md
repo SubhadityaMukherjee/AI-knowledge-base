@@ -1,0 +1,20 @@
+## Recurrent
+- memory through state persisted between timesteps
+	- operation invariant to the sequence
+	- reduces no of params needed
+- variable sized inputs and outputs : encoder decoder
+- Three weight matrices and two bias vectors. 
+- $h_t = \sigma_h(W_{hh}h_{t-1} + W_{xh}x_t + b_h)$
+- $y_t = \sigma_y(W_{hy}h_t + b_y)$
+- Stateful : hidden state kept across batches of inputs
+- Activation usually sigmoid or tanh
+- BPTT
+	- ![[Pasted image 20220306185944.png]]![[Pasted image 20220306190603.png]]
+	- #gradients 
+		- If eigen decomposition $W = Q\wedge^tQ$, then $h_t = Q^T\wedge^tQ$
+		- If less than 0 then will converge to 0 or if bigger then will explore to infinity -> long sequences
+		- Element wise clipping #tricks 
+			- Clip if bigger than value
+		- Norm clipping
+			- Clip if $||g|| >v$ set $g = \frac{gv}{||g||}$
+			- v can be decided by trial and error

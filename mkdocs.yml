@@ -6,6 +6,7 @@ theme:
     features:
         - toc.follow
         - navigation.top
+        - navigation.sections
     palette:
 
     # Light mode

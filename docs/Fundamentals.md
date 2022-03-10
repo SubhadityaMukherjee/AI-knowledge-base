@@ -4,3 +4,4 @@
 - [[TemporalLearning]]
 - [[Dimensionality Reduction]]
 - [[Unsupervised Learning]]
+- [[Semi Supervised]]

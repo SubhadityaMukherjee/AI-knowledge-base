@@ -10,3 +10,5 @@
 - [[Log Likelihood Loss]]
 - [[Quadratic Loss]]
 - [[Intra cluster variance]]
+- [[Triplet Loss]]
+- [[Contrastive Loss]]

@@ -14,5 +14,6 @@
   "obsidian-code-block-enhancer",
   "obsidian-codemirror-options",
   "code-block-copy",
-  "breadcrumbs"
+  "breadcrumbs",
+  "obsidian-autocomplete-plugin"
 ]

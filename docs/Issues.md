@@ -10,4 +10,4 @@
 - [[Fitting]]
 
 - [[Freedom]]
-
+- [[Bias Variance Dilemma]]

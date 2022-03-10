@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Generative Models.md",
+            "file": "Emperical Risk.md",
             "mode": "source",
             "source": false
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Generative Models.md",
+                "file": "Emperical Risk.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Generative Models.md"
+                "file": "Emperical Risk.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Generative Models.md",
+                "file": "Emperical Risk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generative Models.md",
+                "file": "Emperical Risk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,15 +239,15 @@
   },
   "active": "8ba441e2e16d1859",
   "lastOpenFiles": [
+    "Emperical Risk.md",
+    "PCA.md",
+    "MSE.md",
     "Generative Models.md",
     "Mode Collapse.md",
     "Architectures.md",
     "Self Supervised.md",
     "Fundamentals.md",
     "Transfer Learning.md",
-    "DeepLearning.md",
-    "LossFunctions.md",
-    "VAE.md",
-    "Auto Encoders.md"
+    "DeepLearning.md"
   ]
 }

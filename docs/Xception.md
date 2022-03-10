@@ -1,3 +1,3 @@
 # Xception
-- Only use Depth wise separable convs + Inception modules
+- Only use [[Depthwise Separable]] convs + [[Inception]] modules
 - Cross channel and spatial correlations can be decoupled completely

@@ -1,3 +1,3 @@
 ## Nasnet
 - Neural Architecture Search
-- Controller RNN produces architectures and evaluated until convergence
+- Controller RNN ([[Basic RNN Architectures]]) produces architectures and evaluated until convergence

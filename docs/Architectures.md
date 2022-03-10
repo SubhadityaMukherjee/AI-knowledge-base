@@ -19,12 +19,6 @@
 
 - [[Basic RNN Architectures]]
 
-- [[Temporal Conv]]
-
-- [[Seq2Seq]]
-
 - [[Transformer]]
 
-- [[BERT]]
 
-- [[GPT]]

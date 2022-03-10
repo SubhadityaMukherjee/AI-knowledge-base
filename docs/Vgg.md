@@ -1,5 +1,5 @@
 # Vgg
-- Deeper AlexNet
+- Deeper [[Alex Net]]
 - Object detection and Image captioning
 - 5x5 -> two 3x3
 - No of filters increase according to depth

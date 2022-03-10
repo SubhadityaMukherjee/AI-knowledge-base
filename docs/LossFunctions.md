@@ -9,3 +9,4 @@
 
 - [[Log Likelihood Loss]]
 - [[Quadratic Loss]]
+- [[Intra cluster variance]]

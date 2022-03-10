@@ -1,4 +1,4 @@
-## Vgg
+# Vgg
 - Deeper AlexNet
 - Object detection and Image captioning
 - 5x5 -> two 3x3

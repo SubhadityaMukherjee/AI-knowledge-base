@@ -1,5 +1,4 @@
 # Architectures
-
 - [[Le Net]]
 
 - [[Alex Net]]

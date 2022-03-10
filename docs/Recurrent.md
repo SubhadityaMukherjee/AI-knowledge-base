@@ -18,3 +18,4 @@
 		- Norm clipping
 			- Clip if $||g|| >v$ set $g = \frac{gv}{||g||}$
 			- v can be decided by trial and error
+- [[Basic RNN Architectures]]

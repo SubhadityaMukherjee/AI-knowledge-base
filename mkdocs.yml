@@ -38,6 +38,9 @@ markdown_extensions:
   - smarty
   - nl2br
   - tables
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
   - toc:

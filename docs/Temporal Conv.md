@@ -1,2 +1,2 @@
 ## Temporal Conv
-- FCN + [[Conv#Causal 1D Conv]] + Residual
+- FCN + [[Causal 1D Conv]] + Residual

@@ -18,6 +18,7 @@
 - $(\Sigma^n_{j = 1} w^\ast_j \phi_j)$ is a vector on $\mathscr{F}$
 
 - [[Ridge Regression]]
+- [[Window Based Regression]]
 
 ## General Defination
 - Training data : $(x_i, y_i)_{i= 1,..,N}$ and $\in \mathbb{R}^k$ 

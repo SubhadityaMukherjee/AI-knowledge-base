@@ -8,5 +8,11 @@
   "juggl",
   "cm-typewriter-scroll-obsidian",
   "obsidian-dynamic-toc",
-  "note-refactor-obsidian"
+  "note-refactor-obsidian",
+  "obsidian-admonition",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-code-block-enhancer",
+  "obsidian-codemirror-options",
+  "code-block-copy",
+  "breadcrumbs"
 ]

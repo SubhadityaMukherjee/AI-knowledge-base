@@ -1,2 +1,2 @@
 ## Mobile Net
-- [[Conv#Depthwise Separable]]
+- [[Depthwise Separable]]

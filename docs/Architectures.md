@@ -22,3 +22,5 @@
 - [[Transformer]]
 
 - [[FaceNet]]
+- [[Auto Encoders]]
+- [[Generative Models]]

@@ -12,3 +12,5 @@
 - [[Intra cluster variance]]
 - [[Triplet Loss]]
 - [[Contrastive Loss]]
+- [[MSE]]
+- [[KL Divergence]]

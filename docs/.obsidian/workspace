@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Triplet Loss.md",
+            "file": "Generative Models.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "279edc67607e8829",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "LossFunctions.md",
             "mode": "source",
             "source": false
           }
@@ -52,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "$",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Triplet Loss.md",
+                "file": "Generative Models.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Triplet Loss.md"
+                "file": "Generative Models.md"
               }
             }
           },
@@ -135,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Triplet Loss.md",
+                "file": "Generative Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Triplet Loss.md",
+                "file": "Generative Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,15 +239,15 @@
   },
   "active": "8ba441e2e16d1859",
   "lastOpenFiles": [
-    "Triplet Loss.md",
+    "Generative Models.md",
+    "Mode Collapse.md",
     "Architectures.md",
-    "FaceNet.md",
-    "Semi Supervised.md",
-    "Contrastive Loss.md",
-    "Gradient Ascent.md",
-    "Gradient Descent gradients.md",
-    "Untitled.md",
+    "Self Supervised.md",
+    "Fundamentals.md",
+    "Transfer Learning.md",
+    "DeepLearning.md",
     "LossFunctions.md",
-    "Fundamentals.md"
+    "VAE.md",
+    "Auto Encoders.md"
   ]
 }

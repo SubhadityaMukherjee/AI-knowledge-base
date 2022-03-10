@@ -1,7 +1,7 @@
 ## Lp Regularization
 - Tikhonov
 - Penalty considering weights
-- $L^\ast(\theta) = L(\theta) + \lambda \Sigma_i |\theta_i|^p$
+- $$L^\ast(\theta) = L(\theta) + \lambda \Sigma_i |\theta_i|^p$$
 	- Lasso
 		- p = 1
 		- Sparse
@@ -11,7 +11,7 @@
 		- Bayesian
 		- Encourages optimization trajectory perpendicular to isocurves
 		- ![[Pasted image 20220306133032.png]]
-- Tune $\lambda$
+- Tune $$\lambda$$
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit
 	- Cross validation required

@@ -1,9 +1,9 @@
 ## Relu
-- $ReLU(x) = max(0,x)$
-- $\frac{d}{d_x}ReLU(X) = \begin{cases}0 & x \geq 0 \\ 1 & otherwise \end{cases}$
+- $$ReLU(x) = max(0,x)$$
+- $$\frac{d}{d_x}ReLU(X) = \begin{cases}0 & x \geq 0 \\ 1 & otherwise \end{cases}$$
 - He init
 - MLP, CNN : Hidden
 	- Leaky
-		- $max(0.01x,x)$
+		- $$max(0.01x,x)$$
 	- Parametric
-		- $max(\alpha x,x)$
+		- $$max(\alpha x,x)$$

@@ -5,3 +5,4 @@
 - [[Dimensionality Reduction]]
 - [[Unsupervised Learning]]
 - [[Semi Supervised]]
+- [[Self Supervised]]

@@ -13,3 +13,4 @@
 - [[Hidden Models]]
 - [[Generative Models]]
 - [[Anomaly Detection]]
+- [[Auto Encoders]]

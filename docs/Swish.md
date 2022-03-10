@@ -1,2 +1,2 @@
 ## Swish
-- $x\cdot sigmoid(x)$
+- $$x\cdot sigmoid(x)$$

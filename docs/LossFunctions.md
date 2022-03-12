@@ -1,4 +1,5 @@
 # Loss Functions
+- $$L :\varepsilon_{Y}\times \varepsilon_{Y} \rightarrow \mathbb{R}^{\geq 0} $$
 - [[0-1 Loss]]
 
 - [[Squared Error]]

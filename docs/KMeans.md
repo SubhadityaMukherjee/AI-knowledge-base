@@ -1,4 +1,5 @@
-# KNN
+# K Means
+- Codebook vectors. No manifolds.
 - Given: $$(x_i)_{i= 1,..,N} \in \mathbb{R}^n$$
 - Need : K clusters $$C_1 , … , C_K$$ 
 - Randomly assign training points to K sets : $$S_j (j = 1, …, K)$$

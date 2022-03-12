@@ -2,12 +2,7 @@
 - Discover useful things from raw data
 - Representation/Embedding Learning
 - If labels , train network and take intermediate layers
-
-## Clustering
-- [[KNN]]
-
-## Others
-- [[SOMs]]
+- [[Clustering]]
 - [[PCA]]
 - [[Feature Learning]]
 - [[Hidden Models]]

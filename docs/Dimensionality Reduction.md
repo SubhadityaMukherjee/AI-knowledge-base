@@ -8,6 +8,6 @@
 	- m such features : feature map
 		- $$(f_1 , …, f_m)' =: f : \mathbb{R}^n \rightarrow \mathbb{R}^m$$
 		- maps input vectors to feature vectors
-- [[KNN]]
+- [[KMeans]]
 - [[PCA]]
 - [[SOMs]]

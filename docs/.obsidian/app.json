@@ -4,5 +4,7 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "attachmentFolderPath": "assets",
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "foldHeading": true,
+  "showLineNumber": false
 }

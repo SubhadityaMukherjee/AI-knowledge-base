@@ -16,6 +16,14 @@
         }
       },
       {
+        "id": "abd01ece2077bae2",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
         "id": "279edc67607e8829",
         "type": "leaf",
         "state": {
@@ -64,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hypo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,11 +81,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "67b2794baf41f722",
@@ -240,14 +250,14 @@
   "active": "8ba441e2e16d1859",
   "lastOpenFiles": [
     "Bias Variance Dilemma.md",
-    "Issues.md",
+    "Fitting.md",
     "Emperical Risk.md",
+    "SOMs.md",
+    "LossFunctions.md",
+    "Refs.md",
+    "Initialization.md",
+    "KMeans.md",
     "PCA.md",
-    "MSE.md",
-    "Generative Models.md",
-    "Mode Collapse.md",
-    "Architectures.md",
-    "Self Supervised.md",
-    "Fundamentals.md"
+    "Dimensionality Reduction.md"
   ]
 }

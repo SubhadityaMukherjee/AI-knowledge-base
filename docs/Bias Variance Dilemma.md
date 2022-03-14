@@ -13,4 +13,12 @@
 - Tune on [[Emperical Risk]] instead using [[Optimizers]] 
 - $\mathcal{H}$ is hypothesis space (related to [[Fitting]]). 
 
+## Why is This a Dilemma
+- 
+
 ## [[Tuning Model Flexibility]]
+- [[Class Size]]
+- [[Regularization]]
+- [[Ridge Regression]]
+- [[Adding noise]]
+- [[Cross Validation]]

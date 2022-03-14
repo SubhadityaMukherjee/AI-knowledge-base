@@ -1,4 +1,5 @@
 # Regularization
+- [[Regularization Term]]
 - [[Dropout]]
 
 - [[VariationalRecurrent Dropout]]

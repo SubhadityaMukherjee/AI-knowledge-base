@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Recurrent.md",
+            "file": "Operator Fusion.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Recurrent.md",
+                "file": "Operator Fusion.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recurrent.md"
+                "file": "Operator Fusion.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recurrent.md",
+                "file": "Operator Fusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recurrent.md",
+                "file": "Operator Fusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,15 +216,15 @@
   },
   "active": "ab1d48b2a56e4f03",
   "lastOpenFiles": [
+    "Operator Fusion.md",
+    "Optimizing Code.md",
+    "Loop Tiling.md",
+    "Parallelization.md",
+    "Vectorization.md",
+    "DeepLearning.md",
     "Recurrent.md",
     "Softmax.md",
     "Basic RNN Architectures.md",
-    "Temporal Conv.md",
-    "Seq2Seq.md",
-    "Stacking RNN.md",
-    "Bi Directional RNN.md",
-    "random_dump.md",
-    "Bias Variance Dilemma.md",
-    "Cross Validation.md"
+    "Temporal Conv.md"
   ]
 }

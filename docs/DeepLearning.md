@@ -13,5 +13,6 @@
 - [[ActivationFunctions]]
 - [[Initialization]]
 - [[Augmentation]]
+- [[Optimizing Code]]
 - [[Useful Codes]]
 - [[Refs]]

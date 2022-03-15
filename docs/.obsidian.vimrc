@@ -36,3 +36,4 @@ vnoremap J 5j
 " Move up file lines
 noremap K 5k
 vnoremap K 5k
+:inoremap jj <Esc>

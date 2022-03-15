@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ab1d48b2a56e4f03",
+        "id": "8ea89f038fa57700",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operator Fusion.md",
+            "file": "Hierarchial Refinement.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Operator Fusion.md",
+                "file": "Hierarchial Refinement.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operator Fusion.md"
+                "file": "Hierarchial Refinement.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operator Fusion.md",
+                "file": "Hierarchial Refinement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operator Fusion.md",
+                "file": "Hierarchial Refinement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,17 +214,17 @@
     "direction": "horizontal",
     "width": 463.5
   },
-  "active": "ab1d48b2a56e4f03",
+  "active": "8ea89f038fa57700",
   "lastOpenFiles": [
-    "Operator Fusion.md",
-    "Optimizing Code.md",
-    "Loop Tiling.md",
-    "Parallelization.md",
-    "Vectorization.md",
-    "DeepLearning.md",
-    "Recurrent.md",
-    "Softmax.md",
-    "Basic RNN Architectures.md",
-    "Temporal Conv.md"
+    "Hierarchial Refinement.md",
+    "Continous -> Discrete.md",
+    "Neural Dynamics.md",
+    "Vector Quantization.md",
+    "Binning.md",
+    "Encodings.md",
+    "Fundamentals.md",
+    "Bias Variance Dilemma.md",
+    "Tuning Model Flexibility.md",
+    "Regularization.md"
   ]
 }

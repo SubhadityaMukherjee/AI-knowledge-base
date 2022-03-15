@@ -6,3 +6,4 @@
 - [[Unsupervised Learning]]
 - [[Semi Supervised]]
 - [[Self Supervised]]
+- [[Encodings]]

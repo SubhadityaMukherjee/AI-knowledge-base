@@ -10,6 +10,6 @@
 		- Dead model
 
 ## Types
-- [[Lp Regularization]] L2 norm
+- ![[Lp Regularization]] for p =2
 	- Soft models
 	- Squared sum of model params

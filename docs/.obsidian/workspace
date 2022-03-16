@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Frequentist.md",
+            "file": "Bayesian Model Estimation.md",
             "mode": "source",
             "source": false
           }
@@ -216,19 +216,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5
+    "width": 693.7973022460938
   },
   "active": "c8e60595c085f46d",
   "lastOpenFiles": [
     "Bayesian Model Estimation.md",
-    "Frequentist.md",
-    "Bayesian.md",
-    "Log Likelihood Loss.md",
-    "Probability.md",
-    "Law of large numbers.md",
-    "Fundamentals.md",
-    "Mesh refinement.md",
-    "Hierarchial Refinement.md",
-    "Voronoi Cell.md"
+    "Bayesian Posterior.md",
+    "Bayes Rule.md",
+    "Posterior Mean estimate.md",
+    "Bayesian Prior.md",
+    "Regularization Term.md",
+    "Stochastic ensemble learning.md",
+    "random_dump.md",
+    "Tuning Model Flexibility.md",
+    "Loop Tiling.md"
   ]
 }

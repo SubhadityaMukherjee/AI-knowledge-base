@@ -1,29 +1,24 @@
 # Bayesian Model Estimation
 - Unlike frequentist, sometimes things like sample mean is not a good metric because it has a high variance. Might give different results with different trials in a real valued distribution
 - The task is to estimate $\theta$ from the data
-- Use prior knowledge as beliefs (param vectors $\theta$). Cast in the form of a probability distribution over the space $\Theta$ .  -> **PRIOR DISTRIBUTION**
-	- Weak knowledge most times
-	- For a K parametric pdf $p_{x}$ , $\Theta \in \mathbb{R}^{K}$ . 
-	- Not connected to Random variable(RVS). 
-	- Does not model outcomes. Instead has "beliefs" about true distribution $P_{X_{i}}$
-	- Each $\theta \in \mathbb{R}^{K}$ corresponds to one specific pdf $p_{X}(\theta)$ -> single candidate distribution $\hat P_{X}$  for values $x_i$ (In frequentist, it models single data points)
-	- Since this is a distribution over distributions, it is a hyperdistribution
-	- N dim pdf $p_{\otimes}x_{i}: \mathbb{R}^{N} \rightarrow \mathbb{R}^{\geq 0}$  for the distribution of $RV \otimes_{i}X_{i}$ 
-		- $p_{\otimes_{i}}x_{i}((x_{i},…, x_{N})) = p_{x_{1}}, …, p_{x_{N}}(x_{N}) = \Pi_{i}p_{X}(x_{i})$
-		- $p_{\otimes_{i}}x(D|\theta)$ -> pdf values on a data sample D $p_{\otimes_{i}}x_{i}((x_{i},…, x_{N})) = p_{\otimes_{i}}(\theta)(D)$
-	- When $\theta$ is fixed then $p_{\otimes_{i}}x(D|\theta)$  is a function of data vectors D. For each sample, it describes how probable this distribution is assuming the true distribution of X is $p_{X}(\theta)$
-	- When D is fixed, then it is a function of $\theta$. But this does not really measure anything.
-		- Integral over $\theta$ is not 1
-		- It is a function of $\theta$ and so it is a likelihood function. [[MLE]]
-		- If given data D -> it can show which models are more likely than others.
-		- Higher values of	$p_{\otimes_{i}}x(D|\theta)$  are better
-
+- ![[Bayesian Prior]]
 - Now there are two sources of info about the true distribution $p_{X}(\theta)$
-	- The likelihood $p_{\otimes_{i}}x(D|\theta)$  of $\theta$
+	- The likelihood $p_{\otimes_{i}}x(D|\theta)$  of $\theta$ . Empirical data
 	- Prior plausibility in $h(\theta)$
 	- Since these are independant sources we can combine them by multiplication: $p_{\otimes_{i}}x(D|\theta)h(\theta)$ 
 		- High values -> Candidate model $\theta$ is a good estimate
-	- When D is fixed though, this becomes a function of Model Candidates
-	- Non negative on K dim param space
-	- Not a pdf but if we divide it by its integral -> pdf . **POSTERIOR DISTRIBUTION**
-		- $$\frac{p_{\otimes_{i}}x(D|\theta)h(\theta)}{\int_{\mathbb{R}^K}p_{\otimes_{i}}x(D|\theta)h(\theta)d\theta}$$
+		- ![[Bayesian Posterior]]
+		- ![[Posterior Mean estimate]]
+
+## Advantages
+- If priors are well chosen -> Better than frequentists with small sample sizes
+
+## Disadvantages
+- Computationally expensive
+
+## Example
+- ![[Pasted image 20220316120743.png]]
+- ![[Pasted image 20220316120803.png]]
+- Green : prior , Red: Posterior
+- The posterior mean estimate is obtained by integrating $\int_{\mathbb{R}}\mu h(\mu|D)d\mu$
+- Since this is different from sample mean -> Prior distribution really does influence the models

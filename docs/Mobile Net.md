@@ -1,2 +1,2 @@
 ## Mobile Net
-- [[Depthwise Separable]]
+- ![[Depthwise Separable]]

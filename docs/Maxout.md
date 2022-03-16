@@ -1,2 +1,2 @@
 ## Maxout
-- $$f(x) = max(x, x\cdot a)$$$$
+- $$f(x) = max(x, x\cdot a)$$

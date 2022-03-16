@@ -7,9 +7,17 @@
         "id": "046fc85a115ae3fc",
         "type": "leaf",
         "state": {
+          "type": "graph",
+          "state": {}
+        }
+      },
+      {
+        "id": "d2848cf16519c732",
+        "type": "leaf",
+        "state": {
           "type": "markdown",
           "state": {
-            "file": "Relu.md",
+            "file": "random_dump.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +78,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Relu.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -93,7 +100,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6241963584402447,
+                  "scale": 0.8579843991765224,
                   "close": true
                 }
               }
@@ -104,9 +111,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Relu.md"
-              }
+              "state": {}
             }
           },
           {
@@ -115,7 +120,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Relu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +193,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Relu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,15 +211,15 @@
   },
   "active": "046fc85a115ae3fc",
   "lastOpenFiles": [
-    "Relu.md",
-    "Noisy Relu.md",
+    "Pruning.md",
+    "Layerwise Magnitude Based Pruning.md",
+    "Volterra expansion.md",
+    "random_dump.md",
+    "Scoring Pruning Approaches.md",
+    "Regularization.md",
+    "Fundamentals.md",
+    "Universal Approximation Theorem.md",
     "ActivationFunctions.md",
-    "Elu.md",
-    "Maxout.md",
-    "PRelu.md",
-    "Parallel Runner.md",
-    "Leaky Relu.md",
-    "LossFunctions.md",
-    "Margin Ranking.md"
+    "Relu.md"
   ]
 }

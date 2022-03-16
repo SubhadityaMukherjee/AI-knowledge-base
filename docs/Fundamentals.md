@@ -8,3 +8,4 @@
 - [[Self Supervised]]
 - [[Encodings]]
 - [[Probability]]
+- [[Universal Approximation Theorem]]

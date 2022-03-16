@@ -11,3 +11,4 @@
 - [[Augmentation]]
 
 - [[Lp Regularization]]
+- [[Pruning]]

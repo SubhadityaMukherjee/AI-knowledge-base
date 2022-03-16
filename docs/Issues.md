@@ -11,3 +11,5 @@
 
 - [[Freedom]]
 - [[Bias Variance Dilemma]]
+- [[Complex Geometry]]
+- [[Lack of information]]

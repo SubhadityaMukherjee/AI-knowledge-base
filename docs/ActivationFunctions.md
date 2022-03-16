@@ -4,6 +4,8 @@
 - [[Sigmoid]]
 
 - [[Relu]]
+- [[Elu]]
+- [[Maxout]] 
 
 - [[Tanh]] 
 

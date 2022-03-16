@@ -3,7 +3,6 @@
 - $$\frac{d}{d_x}ReLU(X) = \begin{cases}0 & x \geq 0 \\ 1 & otherwise \end{cases}$$
 - He init
 - MLP, CNN : Hidden
-	- Leaky
-		- $$max(0.01x,x)$$
-	- Parametric
-		- $$max(\alpha x,x)$$
+- [[Leaky Relu]]
+- [[PRelu]]
+- [[Noisy Relu]]

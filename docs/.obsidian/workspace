@@ -7,17 +7,9 @@
         "id": "046fc85a115ae3fc",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
-        }
-      },
-      {
-        "id": "d2848cf16519c732",
-        "type": "leaf",
-        "state": {
           "type": "markdown",
           "state": {
-            "file": "random_dump.md",
+            "file": "Fundamentals.md",
             "mode": "source",
             "source": false
           }
@@ -78,6 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Fundamentals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -111,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Fundamentals.md"
+              }
             }
           },
           {
@@ -120,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,6 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,19 +204,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.8331604003906
+    "width": 572.7973022460938
   },
   "active": "046fc85a115ae3fc",
   "lastOpenFiles": [
-    "Pruning.md",
-    "Layerwise Magnitude Based Pruning.md",
-    "Volterra expansion.md",
-    "random_dump.md",
-    "Scoring Pruning Approaches.md",
-    "Regularization.md",
     "Fundamentals.md",
-    "Universal Approximation Theorem.md",
-    "ActivationFunctions.md",
-    "Relu.md"
+    "Features.md",
+    "Issues.md",
+    "Lack of information.md",
+    "Curse Of Dimensionality.md",
+    "Complex Geometry.md",
+    "Manifold.md",
+    "Adversarial Learning.md",
+    "random_dump.md",
+    "Federated Updates.md"
   ]
 }

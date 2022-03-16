@@ -7,5 +7,6 @@
   "defaultViewMode": "source",
   "foldHeading": true,
   "showLineNumber": true,
-  "vimMode": true
+  "vimMode": true,
+  "fileSortOrder": "byModifiedTime"
 }

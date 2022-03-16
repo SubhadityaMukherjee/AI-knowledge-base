@@ -4,7 +4,7 @@
 - memory through state persisted between timesteps
 	- operation invariant to the sequence
 	- reduces no of params needed
-- Output comes back  as input
+- Output comes back as input
 	- ![[Pasted image 20220314132442.png]]
 - variable sized inputs and outputs : encoder decoder
 - Three weight matrices and two bias vectors. 

@@ -7,3 +7,4 @@
 - [[Semi Supervised]]
 - [[Self Supervised]]
 - [[Encodings]]
+- [[Probability]]

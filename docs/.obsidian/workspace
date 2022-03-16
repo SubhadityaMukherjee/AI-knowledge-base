@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "56568592e98d76be",
+        "id": "c8e60595c085f46d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Recurrent.md",
+            "file": "Bayesian Model Estimation.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "b8020a252f1a2518",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Frequentist.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hypo",
+                "query": "discrete",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +82,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Recurrent.md",
+                "file": "Bayesian Model Estimation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -100,20 +112,12 @@
             }
           },
           {
-            "id": "2a90576ee6d8c6df",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "d2a1aaf37a90e332",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recurrent.md"
+                "file": "Bayesian Model Estimation.md"
               }
             }
           },
@@ -123,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recurrent.md",
+                "file": "Bayesian Model Estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recurrent.md",
+                "file": "Bayesian Model Estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,17 +218,17 @@
     "direction": "horizontal",
     "width": 463.5
   },
-  "active": "56568592e98d76be",
+  "active": "c8e60595c085f46d",
   "lastOpenFiles": [
-    "Recurrent.md",
-    "Basic RNN Architectures.md",
-    "Untitled.md",
-    "Binnng.md",
+    "Bayesian Model Estimation.md",
+    "Frequentist.md",
+    "Bayesian.md",
+    "Log Likelihood Loss.md",
+    "Probability.md",
+    "Law of large numbers.md",
+    "Fundamentals.md",
+    "Mesh refinement.md",
     "Hierarchial Refinement.md",
-    "Continous -> Discrete.md",
-    "Neural Dynamics.md",
-    "Vector Quantization.md",
-    "Binning.md",
-    "Encodings.md"
+    "Voronoi Cell.md"
   ]
 }

@@ -16,6 +16,8 @@
     "Adamic Adar",
     "Jaccard",
     "Overlap",
-    "Label Propagation"
+    "Label Propagation",
+    "Clustering Coefficient",
+    "BoW"
   ]
 }

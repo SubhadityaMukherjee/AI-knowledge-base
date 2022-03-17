@@ -55,4 +55,8 @@ extra_css:
 
 plugins:
   - search
-  - roamlinks 
+  - roamlinks
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true

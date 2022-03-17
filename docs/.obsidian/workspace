@@ -7,8 +7,12 @@
         "id": "046fc85a115ae3fc",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Res Net.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MLE",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,6 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Res Net.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -100,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Res Net.md"
+              }
             }
           },
           {
@@ -109,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Res Net.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,6 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Res Net.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,15 +209,15 @@
   },
   "active": "046fc85a115ae3fc",
   "lastOpenFiles": [
-    "Maxout.md",
-    "Frequentist.md",
-    "Fundamentals.md",
-    "Features.md",
-    "Issues.md",
-    "Lack of information.md",
-    "Curse Of Dimensionality.md",
-    "Complex Geometry.md",
-    "Manifold.md",
-    "Adversarial Learning.md"
+    "Res Net.md",
+    "Dice Score.md",
+    "LossFunctions.md",
+    "Ridge Regression.md",
+    "KMeans.md",
+    "Fitting.md",
+    "Depthwise Separable.md",
+    "Bayesian Posterior.md",
+    "ActivationFunctions.md",
+    "PRelu.md"
   ]
 }

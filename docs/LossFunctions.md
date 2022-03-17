@@ -25,3 +25,4 @@
 - [[Huber]]
 - [[Margin Ranking]]
 - [[BCE with Logits]]
+- [[Dice Score]]

@@ -4,9 +4,9 @@ theme:
     name: 'material'
     nav_style: dark
     features:
+        - toc.integrate
         - toc.follow
         - navigation.top
-        - navigation.sections
     palette:
 
     # Light mode

@@ -7,8 +7,12 @@
         "id": "046fc85a115ae3fc",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "DeepLearning.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "DeepLearning.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -98,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DeepLearning.md"
+              }
             }
           },
           {
@@ -107,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DeepLearning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +176,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "863417745269de5a",
@@ -180,6 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DeepLearning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,15 +208,15 @@
   },
   "active": "046fc85a115ae3fc",
   "lastOpenFiles": [
-    "architectures/Architectures.md",
-    "Le Net.md",
-    "Sampling.md",
-    "Fundamentals.md",
-    "Skip Connection.md",
-    "Architectures.md",
-    "SegNet.md",
-    "Unet.md",
-    "treecoverSegmentation.md",
-    "Point Cloud.md"
+    "DeepLearning.md",
+    "Dense.md",
+    "federated/Federated Updates.md",
+    "Sketched Update.md",
+    "federated/Federated Learning.md",
+    "federated/Advantages of Federated Learning.md",
+    "federated/Basics of Federated Learning.md",
+    "Backprop.md",
+    "Gradient Descent gradients.md",
+    "architectures/Generative Models.md"
   ]
 }

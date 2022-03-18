@@ -1,3 +1,0 @@
-# Augmentation
-
-## Image

@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "archite",
+  "search": "section: (architectures))",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 14.1916605705925,
   "linkStrength": 0.444281882467691,
   "linkDistance": 312,
-  "scale": 0.6315942052898155,
+  "scale": 0.5669341110691399,
   "close": false
 }

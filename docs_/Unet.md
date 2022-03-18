@@ -1,3 +1,0 @@
-# Unet
-
-- [[Skip Connection]]

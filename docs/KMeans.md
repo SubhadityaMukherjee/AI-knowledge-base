@@ -10,7 +10,7 @@
 		- If empty, dismiss and reduce K to K'
 - Error quantity does not increase
 	- [[Intra cluster variance]]
-	- Clusters are bounded by line boundaries and forms a [[Voronoi Cell]]
+	- Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
 - Does not work for curved boundaries
 
 ## Codebook Vector

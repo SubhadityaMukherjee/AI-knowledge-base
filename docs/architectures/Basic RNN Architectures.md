@@ -5,3 +5,4 @@
 - [[Bi Directional RNN]]
 - [[Seq2Seq]]
 - [[Temporal Conv]]
+- [[Gated Recurrent Unit (GRU)]]

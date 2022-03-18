@@ -10,3 +10,4 @@
 - [[Probability]]
 - [[Universal Approximation Theorem]]
 - [[Sampling]]
+- [[Distributions]]

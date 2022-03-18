@@ -1,8 +1,10 @@
-## Emperical Risk
+# Emperical Risk
 - TRAINING ERROR. Mean loss computed over training examples
 - $$R(f) = \mathbb{E} _{(X,Y) \sim P(X,Y)}[l(y, f(x))]$$
 - $$R^{emp}(h) = \frac{1}{N}\Sigma_{i=1}^{N}L(h(x_{i}), y_{i})$$
-- joint prob distribution P(X,Y) is unknown
+- joint prob distribution $P(X\in A,Y=c)$$ is unknown
+	- [[Decision Boundaries]]
+	
 - Learning set $$\mathcal L$$ is finite
 - Need an estimator to evaluate it
 	- Supervised Learning

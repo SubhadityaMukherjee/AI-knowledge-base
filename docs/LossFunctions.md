@@ -17,7 +17,7 @@
 - [[KL Divergence]]
 - [[Hinge Loss]]
 - [[Squared Hinge]]
-- [[Poisson]]
+- [[Poisson Loss]]
 - [[MSLE]]
 - [[MAPE]]
 - [[LogCosh]]

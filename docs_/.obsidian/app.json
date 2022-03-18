@@ -1,0 +1,12 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "assets",
+  "defaultViewMode": "source",
+  "foldHeading": true,
+  "showLineNumber": true,
+  "vimMode": true,
+  "fileSortOrder": "byModifiedTime"
+}

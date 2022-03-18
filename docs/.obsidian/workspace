@@ -7,12 +7,8 @@
         "id": "046fc85a115ae3fc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Res Net.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -49,13 +45,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "67b2794baf41f722",
@@ -71,7 +65,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Res Net.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -105,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Res Net.md"
-              }
+              "state": {}
             }
           },
           {
@@ -116,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Res Net.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +180,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Res Net.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,15 +198,15 @@
   },
   "active": "046fc85a115ae3fc",
   "lastOpenFiles": [
-    "Res Net.md",
-    "Dice Score.md",
-    "LossFunctions.md",
-    "Ridge Regression.md",
-    "KMeans.md",
-    "Fitting.md",
-    "Depthwise Separable.md",
-    "Bayesian Posterior.md",
-    "ActivationFunctions.md",
-    "PRelu.md"
+    "architectures/Architectures.md",
+    "Le Net.md",
+    "Sampling.md",
+    "Fundamentals.md",
+    "Skip Connection.md",
+    "Architectures.md",
+    "SegNet.md",
+    "Unet.md",
+    "treecoverSegmentation.md",
+    "Point Cloud.md"
   ]
 }

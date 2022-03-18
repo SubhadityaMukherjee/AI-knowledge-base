@@ -9,3 +9,4 @@
 - [[Encodings]]
 - [[Probability]]
 - [[Universal Approximation Theorem]]
+- [[Sampling]]

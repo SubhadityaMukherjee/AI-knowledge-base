@@ -10,7 +10,6 @@
 			- Chain Rule : $$\frac{dl}{d\theta_i} = \Sigma_{k \in parents(l)} \frac{\partial l}{\partial u_k} \frac{\partial u_k}{\partial \theta_i}$$
 			- $$\begin{align} &\frac{d\hat y}{d\mathbf{W_1}}\\ &= \frac{\partial \hat y}{\partial u_2} \frac{\partial u_2}{\partial h_1} \frac{\partial h_1}{\partial u_1} \frac{\partial u_1}{\partial \mathbf{W_1}} \\ &= \frac{\partial \sigma (u2)}{\partial u_2} \frac{\partial \mathbf{W}^T_2 h_1}{\partial h_1} \frac{\partial \sigma (u1)}{\partial u_1} \frac{\partial \mathbf{W}^T_1 x}{\partial \mathbf{W}_1} \end{align}$$
 			- Collecting all the $$\partial \sigma(u_i)$$ wrt params -> #gradients exponentially decreases wrt depth of the network : Vanishing
-<<<<<<< HEAD
 				- Solved by [[ActivationFunctions]]
 
 
@@ -20,9 +19,3 @@
 	* [[Backprop]]
 
 ## ...
-=======
-				- Solved by [[ActivationFunctions]]## Backlinks
-* [[Gradient Descent gradients]]
-	* [[Backprop]]
-
->>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

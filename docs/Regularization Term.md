@@ -12,7 +12,4 @@
 ## Types
 - [[Lp Regularization]] for p =2
 	- Soft models
-	- Squared sum of model params## Backlinks
-* [[Regularization]]
-	* [[Regularization Term]]
-
+	- Squared sum of model params

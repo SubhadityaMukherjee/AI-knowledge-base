@@ -14,7 +14,6 @@
 - Tune $$\lambda$$
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit
-<<<<<<< HEAD
 	- Cross validation required
 
 
@@ -30,15 +29,3 @@
 	* $\\lambda \\Sigma*i |r*i|$ is Lasso/L1 [[Lp Regularization]]
 
 ## ...
-=======
-	- Cross validation required## Backlinks
-* [[Regularization]]
-	* [[Lp Regularization]]
-* [[Sparse Dictionary Learning Loss]]
-	* $\\lambda \\Sigma*i |r*i|$ is Lasso/L1 [[Lp Regularization]]
-* [[Regularization Term]]
-	* [[Lp Regularization]] for p =2
-* [[Cosine Similarity]]
-	* [[Lp Regularization]] l2norm aka p = 2
-
->>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

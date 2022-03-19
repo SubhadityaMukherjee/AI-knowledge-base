@@ -22,7 +22,6 @@
 
 ## Refs
 - [tds](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
-<<<<<<< HEAD
 - [way more stuff : bjlkeng](https://bjlkeng.github.io/posts/manifolds/) #todo
 
 
@@ -32,9 +31,3 @@
 	* [[Manifold]]
 
 ## ...
-=======
-- [way more stuff : bjlkeng](https://bjlkeng.github.io/posts/manifolds/) #todo## Backlinks
-* [[Complex Geometry]]
-	* [[Manifold]]
-
->>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

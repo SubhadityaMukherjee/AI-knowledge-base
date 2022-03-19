@@ -4,7 +4,4 @@
 	- [[Augmentation]]
 - While the algo runs
 	- [[Dropout]]
-- [[Stochastic ensemble learning]]## Backlinks
-* [[Tuning Model Flexibility]]
-	* [[Adding noise]]
-
+- [[Stochastic ensemble learning]]

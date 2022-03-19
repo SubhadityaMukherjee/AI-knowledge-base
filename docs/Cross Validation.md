@@ -11,7 +11,6 @@
 
 ## Leave One Out
 - Each D contains a single training example
-<<<<<<< HEAD
 - For tiny datasets
 
 
@@ -21,9 +20,3 @@
 	* [[Cross Validation]]
 
 ## ...
-=======
-- For tiny datasets## Backlinks
-* [[Tuning Model Flexibility]]
-	* [[Cross Validation]]
-
->>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

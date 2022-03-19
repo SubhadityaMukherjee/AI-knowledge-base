@@ -9,17 +9,4 @@
 * [[Bayesian Model Estimation]]
 	* [[Bayesian Posterior]]
 
-<<<<<<< HEAD
 ## ...
-
-
-
-## Backlinks
-* [[Bayesian Model Estimation]]
-	* [[Bayesian Posterior]]
-* [[Bayesian Posterior]]
-	* [[Bayesian Posterior]]
-
-## ...
-=======
->>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

@@ -30,7 +30,4 @@
 - When flexibility is too low -> bias dominates(too good in train and horrible later) and underfits
 - When flexibility is too high -> variance dominates -> overfitting
 
-## [[Tuning Model Flexibility]]## Backlinks
-* [[Issues]]
-	* [[Bias Variance Dilemma]]
-
+## [[Tuning Model Flexibility]]

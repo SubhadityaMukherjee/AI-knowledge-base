@@ -15,7 +15,6 @@
 - ![[Pasted image 20220316173244.png]]
 
 ## Refs
-<<<<<<< HEAD
 - [mm](https://medium.com/hackernoon/illustrative-proof-of-universal-approximation-theorem-5845c02822f6)
 
 
@@ -25,9 +24,3 @@
 	* [[Universal Approximation Theorem]]
 
 ## ...
-=======
-- [mm](https://medium.com/hackernoon/illustrative-proof-of-universal-approximation-theorem-5845c02822f6)## Backlinks
-* [[Fundamentals]]
-	* [[Universal Approximation Theorem]]
-
->>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

@@ -16,9 +16,4 @@
 	- PDE , ODE
 - Long range
 	- [[HMM]]
-	- [[Recurrent]]## Backlinks
-* [[Window Based Regression]]
-	* [[TIme Series]]
-* [[Causal Systems]]
-	* [[TIme Series]]
-
+	- [[Recurrent]]

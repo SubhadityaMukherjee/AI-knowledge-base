@@ -1,5 +1,2 @@
 # Parallel
-- Independant work chunks -> operate simultaneously## Backlinks
-* [[Optimizing Code]]
-	* [[Parallelization]]
-
+- Independant work chunks -> operate simultaneously

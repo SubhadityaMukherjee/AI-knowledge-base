@@ -6,7 +6,4 @@
 - n = 2 : quadtree
 - n = 3 : octree
 - ![[Pasted image 20220316000739.png]]
-- [[Mesh refinement]]## Backlinks
-* [[Continous -> Discrete]]
-	* ## [[Hierarchial Refinement]]
-
+- [[Mesh refinement]]

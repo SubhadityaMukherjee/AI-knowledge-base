@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Relu.md",
+            "file": "LogCosh.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Relu.md",
+                "file": "LogCosh.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Relu.md"
+                "file": "LogCosh.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Relu.md",
+                "file": "LogCosh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Relu.md",
+                "file": "LogCosh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,6 @@
   },
   "active": "1eff1193295222c4",
   "lastOpenFiles": [
-    "Relu.md",
     "LogCosh.md",
     "Normal Distribution.md",
     "index.md",
@@ -216,6 +215,7 @@
     "Regularization Term.md",
     "Protein Modeling.md",
     "Perceptron.md",
-    "architectures/Mobile Net.md"
+    "architectures/Mobile Net.md",
+    "Frequentist.md"
   ]
 }

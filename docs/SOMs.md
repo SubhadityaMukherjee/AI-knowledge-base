@@ -12,9 +12,4 @@
 	- Regulated by $f_r(d(v_{kl}, v_{BMU}))$ 
 - Eventually this will lead to an organization. Covered evenly after a while. Eventually neighbors of $v_0$ would have weights towards $w(v_0)$ . And $w(v_{0)} \approx mean(all patterns x)$
 - Repeat until response stops. Each members BMU rate is too low to expand.
-- Start with large r and then slow down.## Backlinks
-* [[Clustering]]
-	* [[SOMs]]
-* [[Dimensionality Reduction]]
-	* [[SOMs]]
-
+- Start with large r and then slow down.

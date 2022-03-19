@@ -2,7 +2,4 @@
 - [[Vectorization]]
 - [[Parallelization]]
 - [[Loop Tiling]]
-- [[Operator Fusion]]## Backlinks
-* [[DeepLearning]]
-	* [[Optimizing Code]]
-
+- [[Operator Fusion]]

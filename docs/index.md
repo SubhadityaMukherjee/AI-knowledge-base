@@ -15,7 +15,4 @@
 - p : previous
 - n : next
 
-#anchor## Backlinks
-* [[DeepLearning]]
-	* # [[index]]
-
+#anchor

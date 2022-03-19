@@ -1,5 +1,2 @@
 # Parametric Relu
-- $$max(\alpha x,x)$$## Backlinks
-* [[Relu]]
-	* [[PRelu]]
-
+- $$max(\alpha x,x)$$

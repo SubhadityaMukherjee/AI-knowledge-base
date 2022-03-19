@@ -23,23 +23,7 @@
 - 1 hidden layer perceptron -> Universal fn estimator
 - Best generalization -> First order optimization
 ## Backlinks
-<<<<<<< HEAD
 * [[anchor]]
 	* [[Features]]
 
 ## ...
-
-
-
-## Backlinks
-* [[Features]]
-	* [[Features]]
-* [[anchor]]
-	* [[Features]]
-
-## ...
-=======
-* [[DeepLearning]]
-	* [[Features]]
-
->>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

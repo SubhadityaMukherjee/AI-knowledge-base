@@ -22,13 +22,7 @@
 ## Backlinks
 * [[Distributions]]
 	* [[Normal Distribution]]
-<<<<<<< HEAD
 * [[N Dim Normal Distribution]]
 	* [[Normal Distribution]]
 
 ## ...
-=======
-* [[N-dim Normal]]
-	* [[Normal Distribution]]
-
->>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

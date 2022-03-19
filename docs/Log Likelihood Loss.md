@@ -7,13 +7,7 @@
 
 $$ - \mathrm{sum}\left( \log\left( y \right) \right)$$
 ## Backlinks
-<<<<<<< HEAD
 * [[Loss Functions]]
 	* [[Log Likelihood Loss]]
 
 ## ...
-=======
-* [[LossFunctions]]
-	* [[Log Likelihood Loss]]
-
->>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

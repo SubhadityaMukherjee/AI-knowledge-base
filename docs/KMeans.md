@@ -16,9 +16,4 @@
 ## Codebook Vector
 - Each cluster represented by it
 - Vector pointing to the mean of all vectors in the cluster
-- Center of gravity## Backlinks
-* [[Clustering]]
-	* [[KMeans]]
-* [[Dimensionality Reduction]]
-	* [[KMeans]]
-
+- Center of gravity

@@ -4,3 +4,11 @@
 
 ## Refs
 - [wolf](https://mathworld.wolfram.com/VoronoiDiagram.html)
+
+
+
+## Backlinks
+* [[K Means]]
+	* Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
+
+## ...

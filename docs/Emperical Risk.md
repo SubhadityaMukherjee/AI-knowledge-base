@@ -14,3 +14,15 @@
 		- This means that we find $$argmin_{f\in F} \hat R(f, \mathcal{L}_Train)$$ (out of all the possible functions)
 		- $$lim_{M\rightarrow \infty}(f^*_{\mathcal{L}_Train}) = f^*$$ : converges to the fn that minimizes emprical risk
 	- Ordinary least squares regression
+
+
+
+## Backlinks
+* [[Cross Validation]]
+	* Get model with min [[Emperical Risk]]
+* [[Fundamentals]]
+	* [[Emperical Risk]]
+* [[Bias Vs Variance]]
+	* Tune on [[Emperical Risk]] instead using [[Optimizers]] 
+
+## ...

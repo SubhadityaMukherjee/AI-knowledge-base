@@ -7,3 +7,13 @@
 - Reduces co dependence between neurons
 - Decreases overfitting
 - Start with small rate : 20 %
+
+
+
+## Backlinks
+* [[Regularization]]
+	* [[Dropout]]
+* [[Noise]]
+	* [[Dropout]]
+
+## ...

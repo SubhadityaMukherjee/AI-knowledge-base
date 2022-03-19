@@ -6,3 +6,11 @@
 	- Approx Equal no of data points
 	- Reduced precision devices perform as well as the high precision ones
 	- Continuous range -> adaptive bin boundaris [[Decision Trees]]
+
+
+
+## Backlinks
+* [[Continous -> Discrete]]
+	* ## [[Binning]]
+
+## ...

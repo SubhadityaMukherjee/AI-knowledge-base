@@ -3,3 +3,11 @@
 - Use NN to generate hypothesis outputs vectors
 	- As many components as possible target symbols
 	- 
+
+
+
+## Backlinks
+* [[Continous -> Discrete]]
+	* ## [[Neural Dynamics]]
+
+## ...

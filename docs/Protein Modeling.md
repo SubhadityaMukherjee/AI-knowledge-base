@@ -21,3 +21,11 @@
 	- [[Dirichlet Distribution]] is used to represent it because parameterized with l = 20
 - ![[Pasted image 20220316123546.png]]
 - $\alpha$s fixed beforehand
+
+
+
+## Backlinks
+* [[Bayesian Model Estimation]]
+	* ### [[Protein Modeling]]
+
+## ...

@@ -6,3 +6,11 @@
 - it is a pdf which describes prob concentrated in the origin
 - Multi point distribution -> combine dirac deltas
 - ![[Pasted image 20220319135742.png]]
+
+
+
+## Backlinks
+* [[Point Distribution]]
+	* [[Dirac Delta]]
+
+## ...

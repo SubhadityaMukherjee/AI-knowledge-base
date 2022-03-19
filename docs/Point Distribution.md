@@ -3,3 +3,11 @@
 - Probability mass is concentrated in a few points
 - [[Dirac Delta]]
 - Hyperdistributions
+
+
+
+## Backlinks
+* [[Distributions]]
+	* [[Point Distribution]]
+
+## ...

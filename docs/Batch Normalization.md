@@ -13,3 +13,11 @@
 - $$\sigma^2_j \leftarrow \frac{1}{m}\Sigma^m_{i=1}(x_{ij}-\mu_j)^2$$
 - $$\hat x_{ij} \leftarrow \frac{x_{ij}-\mu_j}{\sqrt{\sigma^2_j + \epsilon}}$$
 - $$\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$$
+
+
+
+## Backlinks
+* [[Regularization]]
+	* [[Batch Normalization]]
+
+## ...

@@ -22,3 +22,18 @@
 ## Random Things
 - 1 hidden layer perceptron -> Universal fn estimator
 - Best generalization -> First order optimization
+## Backlinks
+* [[anchor]]
+	* [[Features]]
+
+## ...
+
+
+
+## Backlinks
+* [[Features]]
+	* [[Features]]
+* [[anchor]]
+	* [[Features]]
+
+## ...

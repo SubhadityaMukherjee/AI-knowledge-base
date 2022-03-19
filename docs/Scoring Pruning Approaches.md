@@ -3,3 +3,11 @@
 - Some authors suggest removing based on absolute values, others decide to prune based on the contributions of that parameter to the entire network. 
 - Others remove based on a score given. 
 - Some perform pruning locally, while others perform it globally across the network.
+
+
+
+## Backlinks
+* [[Pruning]]
+	* [[Scoring Pruning Approaches]]
+
+## ...

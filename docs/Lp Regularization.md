@@ -15,3 +15,17 @@
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit
 	- Cross validation required
+
+
+
+## Backlinks
+* [[Regularization]]
+	* [[Lp Regularization]]
+* [[Cosine Similarity]]
+	* [[Lp Regularization]] l2norm aka p = 2
+* [[Term]]
+	* [[Lp Regularization]] for p =2
+* [[Sparse Dict Learning Loss]]
+	* $\\lambda \\Sigma*i |r*i|$ is Lasso/L1 [[Lp Regularization]]
+
+## ...

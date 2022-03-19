@@ -4,3 +4,11 @@
 - $\odot$ is component wise multiply
 - $\epsilon$ is for stability
 - Doesnt forget past gradients
+
+
+
+## Backlinks
+* [[Optimization]]
+	* [[Adagrad]]
+
+## ...

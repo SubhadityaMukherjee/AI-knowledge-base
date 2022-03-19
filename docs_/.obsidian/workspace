@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "25da26473f99a27f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1eff1193295222c4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "LogCosh.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8f402b2ef1b5c94",
+    "type": "split",
+    "children": [
+      {
+        "id": "f04b3195f480ba47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b5238805db00281",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d3c1c3bca622d08",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "![[",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "67b2794baf41f722",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa06cb69ac4f2689",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "487f724e32cf2dbd",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "LogCosh.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8579843991765224,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "d2a1aaf37a90e332",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LogCosh.md"
+              }
+            }
+          },
+          {
+            "id": "0313d4ded0807af1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LogCosh.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2e40e46680ceea7a",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "dab0d59dfe9a4f9f",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "473043f750e93b7e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "cb42c268734e41dd",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "1d318015a4b72405",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "2e9229db8caa756d",
+            "type": "leaf",
+            "state": {
+              "type": "BC-stats",
+              "state": {}
+            }
+          },
+          {
+            "id": "b936d7768de63142",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "863417745269de5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "158884686aac826f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LogCosh.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 572.7973022460938
+  },
+  "active": "1eff1193295222c4",
+  "lastOpenFiles": [
+    "LogCosh.md",
+    "Normal Distribution.md",
+    "index.md",
+    "Ridge Regression.md",
+    "architectures/Res Net.md",
+    "Regularization Term.md",
+    "Protein Modeling.md",
+    "Perceptron.md",
+    "architectures/Mobile Net.md",
+    "Frequentist.md"
+  ]
+}

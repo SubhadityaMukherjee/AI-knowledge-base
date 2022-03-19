@@ -12,3 +12,19 @@
 
 - [[Lp Regularization]]
 - [[Pruning]]
+
+
+
+## Backlinks
+* [[anchor]]
+	* [[Regularization]]
+* [[Vanishingexploding gradients]]
+	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
+* [[Pruning]]
+	* [[Regularization]]
+* [[Freedom]]
+	* Solution : [[Regularization]]
+* [[Tuning Model Flexibility]]
+	* [[Regularization]]
+
+## ...

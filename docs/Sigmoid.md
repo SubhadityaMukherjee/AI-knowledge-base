@@ -6,3 +6,11 @@
 - Xavier/Glorot init
 - RNN : Hidden
 - Bernoulli Distribution over a binary variable
+
+
+
+## Backlinks
+* [[Activation Functions]]
+	* [[Sigmoid]]
+
+## ...

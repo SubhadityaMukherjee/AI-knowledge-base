@@ -11,3 +11,11 @@
 			- $$\begin{align} &\frac{d\hat y}{d\mathbf{W_1}}\\ &= \frac{\partial \hat y}{\partial u_2} \frac{\partial u_2}{\partial h_1} \frac{\partial h_1}{\partial u_1} \frac{\partial u_1}{\partial \mathbf{W_1}} \\ &= \frac{\partial \sigma (u2)}{\partial u_2} \frac{\partial \mathbf{W}^T_2 h_1}{\partial h_1} \frac{\partial \sigma (u1)}{\partial u_1} \frac{\partial \mathbf{W}^T_1 x}{\partial \mathbf{W}_1} \end{align}$$
 			- Collecting all the $$\partial \sigma(u_i)$$ wrt params -> #gradients exponentially decreases wrt depth of the network : Vanishing
 				- Solved by [[ActivationFunctions]]
+
+
+
+## Backlinks
+* [[Gradient Descent gradients]]
+	* [[Backprop]]
+
+## ...

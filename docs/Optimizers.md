@@ -10,3 +10,8 @@
 - [[Learning Rate Decay tricks]]
 
 - [[Early Stopping tricks]]
+## Backlinks
+* [[Adam]]
+	* [[Optimization]]
+
+## ...

@@ -6,3 +6,11 @@
 	- $$\delta = g'(z)\circ \nabla_y E$$
 	- $$\nabla_WE = \delta \cdot x^T$$ , $$\nabla_bE = \delta$$
 	- $$\nabla_xE = W^T\cdot \delta$$
+
+
+
+## Backlinks
+* [[Layers]]
+	* [[Dense]]
+
+## ...

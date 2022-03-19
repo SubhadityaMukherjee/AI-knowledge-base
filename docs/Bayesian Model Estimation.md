@@ -24,3 +24,15 @@
 - Since this is different from sample mean -> Prior distribution really does influence the models
 
 ### [[Protein Modeling]]
+
+
+
+## Backlinks
+* [[Bayesian Posterior]]
+	* [[Bayesian Model Estimation]]
+* [[Bayesian Prior]]
+	* [[Bayesian Model Estimation]]
+* [[Bayesian]]
+	* [[Bayesian Model Estimation]]
+
+## ...

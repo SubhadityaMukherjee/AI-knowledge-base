@@ -1,1 +1,9 @@
 # Uncertainty
+
+
+
+## Backlinks
+* [[anchor]]
+	* [[Uncertainty]]
+
+## ...

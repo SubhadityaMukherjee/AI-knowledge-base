@@ -8,3 +8,16 @@
 	- MSE
 		- Regression
 		- $$\mathscr{L}(\theta) = \frac{1}{2}\mathbb{E}_{(x,y) \sim P(X,Y)}||y-f(x;\theta)||^2$$
+
+
+
+## Backlinks
+* [[Loss Functions]]
+	* [[Cross Entropy]]
+* [[KL Divergence]]
+	* Entropy + [[Cross Entropy]]
+* [[BCE with Logits]]
+	* [[Cross Entropy]] + logits
+	$$\\left(  - \\mathrm{sum}\\left( y \\cdot \\mathrm{logsoftmax}\\left( ŷ \\right) \\cdot weight \\right) \\right) \\cdot \\mathrm{//}\\left( 1, \\mathrm{size}\\left( y, 2 \\right) \\right)$$
+
+## ...

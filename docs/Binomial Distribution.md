@@ -6,3 +6,13 @@
 - $N\choose s$ is binomial coefficient
 - $$X \sim Bi(N,s)$$
 - ![[Pasted image 20220319133401.png]]
+
+
+
+## Backlinks
+* [[Distributions]]
+	* [[Binomial Distribution]]
+* [[Multinomial]]
+	* Generalized [[Binomial Distribution]]
+
+## ...

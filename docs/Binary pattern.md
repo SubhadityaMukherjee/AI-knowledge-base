@@ -5,3 +5,11 @@
 - {a,b,c,d} -> {[0,0]', [0,1]', [1,0]', [1,1]'}
 - Non linear effort as it is a arbitrary encoding
 - Too intensive
+
+
+
+## Backlinks
+* [[Discrete -> Continous Transforms]]
+	* ## [[Binary pattern]]
+
+## ...

@@ -26,3 +26,11 @@
 - [[Margin Ranking]]
 - [[BCE with Logits]]
 - [[Dice Score]]
+
+
+
+## Backlinks
+* [[MSE]]
+	* [[Loss Functions]]
+
+## ...

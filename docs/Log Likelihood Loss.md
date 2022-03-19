@@ -6,3 +6,8 @@
 - Classification,  Smaller quicker training, Simple tasks.
 
 $$ - \mathrm{sum}\left( \log\left( y \right) \right)$$
+## Backlinks
+* [[Loss Functions]]
+	* [[Log Likelihood Loss]]
+
+## ...

@@ -27,3 +27,13 @@
 - [[Point Cloud]]
 - [[SegNet]]
 - [[Spiking Networks]]
+
+
+
+## Backlinks
+* [[anchor]]
+	* [[Architectures]]
+* [[Vanishingexploding gradients]]
+	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
+
+## ...

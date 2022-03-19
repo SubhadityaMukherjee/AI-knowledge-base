@@ -7,3 +7,13 @@
 - W is initialized with random values << 1 -> gradient decays exponentially in each layer (max eigenvalue of weight matrix)
 - Solutions
 	- [[Regularization]] , [[Optimizers]] , [[Architectures]]
+
+
+
+## Backlinks
+* [[Skip Connection]]
+	* Transfer #gradients to prevent [[Vanishingexploding gradients]]
+* [[Issues]]
+	* [[Vanishingexploding gradients]]
+
+## ...

@@ -35,3 +35,13 @@
 	- variances $\sigma_{1}^{2,}…,  \sigma_{n}^2$ are eigenvalues
 	- $C = U\Sigma U'$ to get PC vectors $u_k$ lined up in U and variances $\sigma_k^2$ as eigenvalues in $\Sigma$ 
 	- If we want to preserve 98% variance : Rhs of (1) st. ratio is (1-0.98)
+
+
+
+## Backlinks
+* [[Unsupervised]]
+	* [[PCA]]
+* [[Dimensionality Reduction]]
+	* [[PCA]]
+
+## ...

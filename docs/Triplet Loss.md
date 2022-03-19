@@ -6,3 +6,13 @@
 - For each triplet, this condition must hold $$||f(x^a) - f(x^p)||^2 + \alpha \gt f(x^a) - f(x^n)||^2$$
 - $\alpha$ is a margin b/w positive and neg
 - Loss to minimize $$L(\theta) = \Sigma_i^n||f(x^a) - f(x^p)||^2 + f(x^a) - f(x^n)||^2 + \alpha$$
+
+
+
+## Backlinks
+* [[Loss Functions]]
+	* [[Triplet Loss]]
+* [[Semi Supervised]]
+	* [[Triplet Loss]]
+
+## ...

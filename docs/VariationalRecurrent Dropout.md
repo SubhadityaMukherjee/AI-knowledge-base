@@ -4,3 +4,11 @@
 - In recorrent parts, use the same dropout mask for all time steps
 - Same dropout mask for each time step
 - ![[Pasted image 20220306113950.png]]
+
+
+
+## Backlinks
+* [[Regularization]]
+	* [[VariationalRecurrent Dropout]]
+
+## ...

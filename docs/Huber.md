@@ -9,3 +9,10 @@ $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( 0.5 \cdot \
 else
 
 $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \left\|y - ŷ\right\| - 0.5 \right)$$
+## Backlinks
+* [[MSE]]
+	* [[Huber]]
+* [[Loss Functions]]
+	* [[Huber]]
+
+## ...

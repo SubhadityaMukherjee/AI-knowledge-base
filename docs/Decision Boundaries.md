@@ -17,6 +17,7 @@
 - For patterns on these boundaries, two or more classifications are equally probable
 - Maximal if $$R_{i}= \{x \in P| i = argmax_{j} P(Y=c_{j})f_{j}(x)\}$$
 - Then $$h_{opt}: P \rightarrow C_{j}x \rightarrow c_{argmax_{j}P(Y=c_{j})f_{j}(x)}$$
+<<<<<<< HEAD
 - Algo learns estimates of the [[Class Conditional distribution]] and class probabilities aka priors
 
 
@@ -28,3 +29,11 @@
 	* Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
 
 ## ...
+=======
+- Algo learns estimates of the [[Class Conditional distribution]] and class probabilities aka priors## Backlinks
+* [[Emperical Risk]]
+	* [[Decision Boundaries]]
+* [[KMeans]]
+	* Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

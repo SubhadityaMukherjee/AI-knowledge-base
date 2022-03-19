@@ -6,6 +6,7 @@
 - Measurement process hard to carry out in reality
 - What does unbiased means? Especially because most things related to future input that we do not have yet
 - Distibution of data points
+<<<<<<< HEAD
 - [[MLE]]
 
 
@@ -15,3 +16,9 @@
 	* [[Frequentist]]
 
 ## ...
+=======
+- [[MLE]]## Backlinks
+* [[Probability]]
+	* [[Frequentist]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

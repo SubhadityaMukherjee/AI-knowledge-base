@@ -5,9 +5,15 @@
 $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \left( \log\left( y + 1 \right) - \log\left( ŷ + 1 \right) \right)^{2} \right)$$
 
 ## Backlinks
+<<<<<<< HEAD
 * [[MSE]]
 	* [[MSLE]]
 * [[Loss Functions]]
 	* [[MSLE]]
 
 ## ...
+=======
+* [[LossFunctions]]
+	* [[MSLE]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

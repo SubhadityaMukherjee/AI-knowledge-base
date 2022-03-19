@@ -5,6 +5,7 @@
 - s = 0,1,2..N
 - $N\choose s$ is binomial coefficient
 - $$X \sim Bi(N,s)$$
+<<<<<<< HEAD
 - ![[Pasted image 20220319133401.png]]
 
 
@@ -16,3 +17,11 @@
 	* Generalized [[Binomial Distribution]]
 
 ## ...
+=======
+- ![[Pasted image 20220319133401.png]]## Backlinks
+* [[Distributions]]
+	* [[Binomial Distribution]]
+* [[Multinomial Distribution]]
+	* Generalized [[Binomial Distribution]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

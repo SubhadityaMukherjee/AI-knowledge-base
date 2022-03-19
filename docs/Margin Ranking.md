@@ -3,6 +3,7 @@
 - If y=1y = 1y=1 then it assumed the first input should be ranked higher (have a larger value) than the second input, and vice-versa for y=−1y = -1y=−1 .
 - take avg
 
+<<<<<<< HEAD
 $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \mathrm{max}\left( 0, \left(  - y \right) \cdot x1 - x2 + margin \right) \right)$$
 
 
@@ -12,3 +13,9 @@ $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \mathrm{max
 	* [[Margin Ranking]]
 
 ## ...
+=======
+$$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \mathrm{max}\left( 0, \left(  - y \right) \cdot x1 - x2 + margin \right) \right)$$## Backlinks
+* [[LossFunctions]]
+	* [[Margin Ranking]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

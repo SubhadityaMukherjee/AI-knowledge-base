@@ -2,6 +2,7 @@
 - Takes the lowest values per layer in the network and prunes.
 - Modifying the global layerwise and applying it per layer instead. 
 - To do this, we first make a copy of the weights. Then for every layer in the array, we find the least n values, take the nth value and set all the others to 0.
+<<<<<<< HEAD
 - As an edge case, if the number of elements entered is greater than the total length of the layer, then the entire layer is set to 0.
 
 
@@ -11,3 +12,9 @@
 	* [[Layerwise Magnitude Based Pruning]]
 
 ## ...
+=======
+- As an edge case, if the number of elements entered is greater than the total length of the layer, then the entire layer is set to 0.## Backlinks
+* [[Pruning]]
+	* [[Layerwise Magnitude Based Pruning]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

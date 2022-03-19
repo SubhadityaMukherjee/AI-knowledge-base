@@ -20,6 +20,7 @@
 	- Continuous space and so can use pdf
 	- [[Dirichlet Distribution]] is used to represent it because parameterized with l = 20
 - ![[Pasted image 20220316123546.png]]
+<<<<<<< HEAD
 - $\alpha$s fixed beforehand
 
 
@@ -29,3 +30,9 @@
 	* ### [[Protein Modeling]]
 
 ## ...
+=======
+- $\alpha$s fixed beforehand## Backlinks
+* [[Bayesian Model Estimation]]
+	* ### [[Protein Modeling]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

@@ -22,3 +22,7 @@
 - [[Causal 1D Conv]]
 
 - [[Causal Dilated Conv]]
+## Backlinks
+* [[Layers]]
+	* [[Conv]]
+

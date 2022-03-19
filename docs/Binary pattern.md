@@ -4,6 +4,7 @@
 - Encode into binary vector of length $$\lceil log_{2} \rceil$$
 - {a,b,c,d} -> {[0,0]', [0,1]', [1,0]', [1,1]'}
 - Non linear effort as it is a arbitrary encoding
+<<<<<<< HEAD
 - Too intensive
 
 
@@ -13,3 +14,9 @@
 	* ## [[Binary pattern]]
 
 ## ...
+=======
+- Too intensive## Backlinks
+* [[Discrete -> Continuous]]
+	* ## [[Binary pattern]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

@@ -19,6 +19,7 @@
 - Move D in a direction to minimize loss and project it back
 	- [[Gradient Descent gradients]] or [[LinearRegression]]
 ## Backlinks
+<<<<<<< HEAD
 * [[Unsupervised]]
 	* [[Feature Learning]]
 
@@ -33,3 +34,8 @@
 	* [[Feature Learning]]
 
 ## ...
+=======
+* [[Unsupervised Learning]]
+	* [[Feature Learning]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

@@ -25,6 +25,7 @@
 - [[Huber]]
 - [[Margin Ranking]]
 - [[BCE with Logits]]
+<<<<<<< HEAD
 - [[Dice Score]]
 
 
@@ -34,3 +35,11 @@
 	* [[Loss Functions]]
 
 ## ...
+=======
+- [[Dice Score]]## Backlinks
+* [[DeepLearning]]
+	* [[LossFunctions]]
+* [[Bias Variance Dilemma]]
+	* Decision function should minimize [[LossFunctions]] and yield a function with risk h. This is hopeless $$R(h) = E[L(h(X), Y)]$$
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

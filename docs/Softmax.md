@@ -6,6 +6,7 @@
 
 ## T is the Temperature
 - Higher the T -> Softer it the distribution. Aka less confident about distribution
+<<<<<<< HEAD
 - Lower -> Harder. More confident
 
 
@@ -17,3 +18,11 @@
 	* [[Softmax]] but on every output vector simultaneously
 
 ## ...
+=======
+- Lower -> Harder. More confident## Backlinks
+* [[Recurrent]]
+	* [[Softmax]] but on every output vector simultaneously
+* [[ActivationFunctions]]
+	* [[Softmax]]
+
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

@@ -6,6 +6,7 @@
 * [[Contrastive Loss]]
 	* Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
 
+<<<<<<< HEAD
 ## ...
 
 
@@ -17,3 +18,5 @@
 	* Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
 
 ## ...
+=======
+>>>>>>> 1dd38fd29e2ea89a9d6c64b1ecd9e965740dd3c9

@@ -11,4 +11,9 @@
 - ![[Pasted image 20220319133622.png]]
 - Eg:
 	- N 1-hour protocols for calls : $n_{i} (i = 1, …, N)$ 
-	- $$\hat\lambda =\frac{1}{N}\Sigma_{i}n_{i}$$
+	- $$\hat\lambda =\frac{1}{N}\Sigma_{i}n_{i}$$## Backlinks
+* [[Distributions]]
+	* [[Poisson Distribution]]
+* [[Poisson Loss]]
+	* When data is from [[Poisson Distribution]]
+

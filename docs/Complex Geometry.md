@@ -1,2 +1,5 @@
 # Challenge of Complex Geometry
-- [[Manifold]]
+- [[Manifold]]## Backlinks
+* [[Issues]]
+	* [[Complex Geometry]]
+

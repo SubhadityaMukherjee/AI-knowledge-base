@@ -4,4 +4,4 @@
 - Not a pdf but if we divide it by its integral -> pdf . 
 	- $$\frac{p_{\otimes_{i}}x(D|\theta)h(\theta)}{\int_{\mathbb{R}^K}p_{\otimes_{i}}x(D|\theta)h(\theta)d\theta}$$
 	- Prob distrib over candidate models
-- If the denominator is replaced written as $p(D)$ then it looks like the ![[Bayes Rule]]
+- If the denominator is replaced written as $p(D)$ then it looks like the [[Bayes Rule]]

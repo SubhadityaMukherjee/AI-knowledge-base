@@ -5,6 +5,6 @@
 	- $$k \times d$$  dim matrix
 	- Flatten into $$d \cdot k$$ vector and apply [[Quadratic Loss]]
 
-## Non linearity
+## Non Linearity
 - Add fixed nonlinear transforms to input arguments : eg polynomials
 - [[Volterra expansion]]

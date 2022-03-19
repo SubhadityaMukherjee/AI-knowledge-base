@@ -11,5 +11,5 @@
 - [[Point Distribution]]
 - [[Uniform Distribution]]
 - [[Exponential Distribution]]
-- [[Gaussian/Normal Distribution]]
+- [[Normal Distribution]]
 - [[N-dim Normal]]

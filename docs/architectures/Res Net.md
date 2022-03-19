@@ -5,4 +5,4 @@
 - output of F(x) has the same dims as x -> add
 - If only spatial dims match (aka not channels) -> concat
 - less params than VGG
-- ![[Skip Connection]]
+- [[Skip Connection]]

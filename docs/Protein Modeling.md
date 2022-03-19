@@ -12,12 +12,12 @@
 
 - 20 dim pmf for amnio acid distrib : $\theta = (\theta_{1}, … ,\theta_{20})' = (P(X=A), …, P(X=Y))'$
 	- count vectors of amino acids found in a given site in training data D
-	- Distributed according to ![[Multinomial Distribution]] with l = 20
+	- Distributed according to [[Multinomial Distribution]] with l = 20
 
 ## Using Prior
 - 0 probabilities should not occur. $$\mathcal{H} = (\theta_{1}, …, \theta_{20})' \in \mathbb{R}^{20}|\theta_{j} \in (0,1)$$ and $$ \Sigma_{j} \theta_{j}=1$$
 	- 19 dim hypervolume
 	- Continuous space and so can use pdf
-	- ![[Dirichlet Distribution]] is used to represent it because parameterized with l = 20
+	- [[Dirichlet Distribution]] is used to represent it because parameterized with l = 20
 - ![[Pasted image 20220316123546.png]]
 - $\alpha$s fixed beforehand

@@ -13,6 +13,7 @@
 - [[ActivationFunctions]]
 - [[Initialization]]
 - [[Augmentation]]
+- [[Uncertainty]]
 - [[Optimizing Code]]
 - [[Useful Codes]]
 - [[Federated Learning]]

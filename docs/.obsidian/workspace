@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Distributions.md",
+            "file": "Sampling.md",
             "mode": "source",
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Distributions.md",
+                "file": "Sampling.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distributions.md"
+                "file": "Sampling.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributions.md",
+                "file": "Sampling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributions.md",
+                "file": "Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,15 +209,15 @@
   },
   "active": "1eff1193295222c4",
   "lastOpenFiles": [
+    "Sampling.md",
+    "Uncertainty.md",
+    "DeepLearning.md",
+    "Bayesian.md",
+    "N-dim Normal.md",
     "Distributions.md",
-    "architectures/Gated Recurrent Unit (GRU).md",
-    "architectures/Basic RNN Architectures.md",
-    "VariationalRecurrent Dropout.md",
-    "Quadratic risk.md",
-    "Architectures.md",
-    "PMF.md",
-    "PDF.md",
-    "Multinomial Distribution.md",
-    "Poisson Loss.md"
+    "Gaussian/Normal Distribution.md",
+    "Central Limit Theorem.md",
+    "Square Integrable.md",
+    "Exponential Distribution.md"
   ]
 }

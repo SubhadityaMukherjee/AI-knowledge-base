@@ -7,3 +7,11 @@
 - Final hidden state
 	- Linear interpolation between last hidden state and proposal
 	- $$h_t = (1-g_u)\cdot h_{t-1} + g_u \cdot \hat h_t$$
+
+
+
+## Backlinks
+* [[Basic RNN Architectures]]
+	* [[Gated Recurrent Unit (GRU)]]
+
+## ...

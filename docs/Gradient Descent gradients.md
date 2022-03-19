@@ -28,11 +28,12 @@
 ## Backlinks
 * [[Gradient Ascent]]
 	* To maximize loss function unlike [[Gradient Descent gradients]]
+	* Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
 * [[Contrastive Loss]]
 	* Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
-* [[Feature Learning]]
-	* [[Gradient Descent gradients]] or [[LinearRegression]]
 * [[Optimization]]
 	* [[Gradient Descent gradients]]
+* [[Feature Learning]]
+	* [[Gradient Descent gradients]] or [[LinearRegression]]
 
 ## ...

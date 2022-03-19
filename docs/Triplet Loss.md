@@ -10,9 +10,9 @@
 
 
 ## Backlinks
-* [[Semi Supervised]]
-	* [[Triplet Loss]]
 * [[Loss Functions]]
+	* [[Triplet Loss]]
+* [[Semi Supervised]]
 	* [[Triplet Loss]]
 
 ## ...

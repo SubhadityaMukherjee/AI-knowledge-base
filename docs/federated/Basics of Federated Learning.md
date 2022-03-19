@@ -9,3 +9,11 @@
 7 (#new). Find the difference between the original model and the personalized one's parameters. Do this for multiple users. Remove identifiable information.
 7.1 (#new). Aggregate (eg. average) the information and then send that to the main model
 8. Retrain the model on new data
+
+
+
+## Backlinks
+* [[Federated Learning]]
+	* [[Basics of Federated Learning]]
+
+## ...

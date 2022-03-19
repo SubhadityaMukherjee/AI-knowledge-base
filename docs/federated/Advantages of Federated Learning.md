@@ -4,3 +4,11 @@
 - Removes all connections to you
 - Allows the model to be updated and become better without compromizing on privacy
 - Nobody "owns" your data except you
+
+
+
+## Backlinks
+* [[Federated Learning]]
+	* [[Advantages of Federated Learning]]
+
+## ...

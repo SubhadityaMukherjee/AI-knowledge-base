@@ -21,3 +21,13 @@
 	* [[Bayesian Prior]]
 
 ## ...
+
+
+
+## Backlinks
+* [[Bayesian Model Estimation]]
+	* [[Bayesian Prior]]
+* [[Bayesian Prior]]
+	* [[Bayesian Prior]]
+
+## ...

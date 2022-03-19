@@ -28,6 +28,10 @@
 
 
 ## Backlinks
+* [[Bayesian Posterior]]
+	* [[Bayesian Model Estimation]]
+* [[Bayesian Prior]]
+	* [[Bayesian Model Estimation]]
 * [[Bayesian]]
 	* [[Bayesian Model Estimation]]
 

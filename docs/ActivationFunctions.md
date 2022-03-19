@@ -17,3 +17,13 @@
 
 ## Refs
 - [mlmastery](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/)
+
+
+
+## Backlinks
+* [[Elu]]
+	* [[Activation Functions]]
+* [[Maxout]]
+	* [[Activation Functions]]
+
+## ...

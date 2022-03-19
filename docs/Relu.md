@@ -10,6 +10,8 @@
 
 
 ## Backlinks
+* [[Noisy Relu]]
+	* [[Relu]]
 * [[Activation Functions]]
 	* [[Relu]]
 

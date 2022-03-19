@@ -6,3 +6,11 @@
 - If only spatial dims match (aka not channels) -> concat
 - less params than VGG
 - [[Skip Connection]]
+
+
+
+## Backlinks
+* [[Dense Net]]
+	* Generalized [[Res Net]]
+
+## ...

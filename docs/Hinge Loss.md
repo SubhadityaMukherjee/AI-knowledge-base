@@ -8,9 +8,9 @@ $$\mathrm{max}\left( 0, 1 + \mathrm{max}\left( w_{y} \cdot x - w_{t} \cdot x \ri
 
 
 ## Backlinks
-* [[Squared Hinge]]
-	* [[Hinge Loss]]
 * [[Loss Functions]]
+	* [[Hinge Loss]]
+* [[Squared Hinge]]
 	* [[Hinge Loss]]
 
 ## ...

@@ -11,4 +11,13 @@
 - [[Augmentation]]
 
 - [[Lp Regularization]]
-- [[Pruning]]
+- [[Pruning]]## Backlinks
+* [[Vanishingexploding gradients]]
+	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
+* [[DeepLearning]]
+	* [[Regularization]]
+* [[Freedom]]
+	* Solution : [[Regularization]]
+* [[Tuning Model Flexibility]]
+	* [[Regularization]]
+

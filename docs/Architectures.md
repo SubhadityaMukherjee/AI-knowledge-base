@@ -26,4 +26,9 @@
 - [[Generative Models]]
 - [[Point Cloud]]
 - [[SegNet]]
-- [[Spiking Networks]]
+- [[Spiking Networks]]## Backlinks
+* [[Vanishingexploding gradients]]
+	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
+* [[DeepLearning]]
+	* [[Architectures]]
+

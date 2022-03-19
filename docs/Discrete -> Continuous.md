@@ -6,4 +6,7 @@
 
 ## [[Linear scale]]
 
-## [[Word Vectors]]
+## [[Word Vectors]]## Backlinks
+* [[Encodings]]
+	* ## [[Discrete -> Continuous]]
+

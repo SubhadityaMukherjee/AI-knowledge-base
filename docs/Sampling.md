@@ -1,2 +1,5 @@
 # Sampling
-- Draw random samples from a probability distribution
+- Draw random samples from a probability distribution## Backlinks
+* [[Fundamentals]]
+	* [[Sampling]]
+

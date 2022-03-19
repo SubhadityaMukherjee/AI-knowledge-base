@@ -6,4 +6,9 @@
 	- Because after training values will increase by $$1/(1-p)$$
 - Reduces co dependence between neurons
 - Decreases overfitting
-- Start with small rate : 20 %
+- Start with small rate : 20 %## Backlinks
+* [[Regularization]]
+	* [[Dropout]]
+* [[Adding noise]]
+	* [[Dropout]]
+

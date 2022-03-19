@@ -2,4 +2,7 @@
 - Scale of loss landscape changes 
 - Reduce step size near optima
 - Factor $$\alpha_{i+1} = d\cdot \alpha_i$$
-- LR Scheduling
+- LR Scheduling## Backlinks
+* [[Optimizers]]
+	* [[Learning Rate Decay tricks]]
+

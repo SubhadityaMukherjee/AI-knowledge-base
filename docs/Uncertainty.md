@@ -1,1 +1,4 @@
-# Uncertainty
+# Uncertainty## Backlinks
+* [[DeepLearning]]
+	* [[Uncertainty]]
+

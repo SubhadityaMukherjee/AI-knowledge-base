@@ -7,4 +7,11 @@
 		- C is no of classes
 	- MSE
 		- Regression
-		- $$\mathscr{L}(\theta) = \frac{1}{2}\mathbb{E}_{(x,y) \sim P(X,Y)}||y-f(x;\theta)||^2$$
+		- $$\mathscr{L}(\theta) = \frac{1}{2}\mathbb{E}_{(x,y) \sim P(X,Y)}||y-f(x;\theta)||^2$$## Backlinks
+* [[KL Divergence]]
+	* Entropy + [[Cross Entropy]]
+* [[LossFunctions]]
+	* [[Cross Entropy]]
+* [[BCE with Logits]]
+	* [[Cross Entropy]] + logits
+

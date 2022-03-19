@@ -5,4 +5,7 @@
 - Logistic
 - Xavier/Glorot init
 - RNN : Hidden
-- Bernoulli Distribution over a binary variable
+- Bernoulli Distribution over a binary variable## Backlinks
+* [[ActivationFunctions]]
+	* [[Sigmoid]]
+

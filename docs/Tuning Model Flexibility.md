@@ -3,4 +3,7 @@
 - [[Regularization]]
 - [[Ridge Regression]]
 - [[Adding noise]]
-- [[Cross Validation]]
+- [[Cross Validation]]## Backlinks
+* [[Bias Variance Dilemma]]
+	* ## [[Tuning Model Flexibility]]
+

@@ -1,3 +1,6 @@
 # Probability
 - [[Frequentist]]
-- [[Bayesian]]
+- [[Bayesian]]## Backlinks
+* [[Fundamentals]]
+	* [[Probability]]
+

@@ -5,4 +5,7 @@
 - MLP, CNN : Hidden
 - [[Leaky Relu]]
 - [[PRelu]]
-- [[Noisy Relu]]
+- [[Noisy Relu]]## Backlinks
+* [[ActivationFunctions]]
+	* [[Relu]]
+

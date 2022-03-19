@@ -1,2 +1,7 @@
 # Spiking Networks
-- [[Poisson Process]]
+- [[Poisson Process]]## Backlinks
+* [[Exponential Distribution]]
+	* [[Spiking Networks]]
+* [[Architectures]]
+	* [[Spiking Networks]]
+

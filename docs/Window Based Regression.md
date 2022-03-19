@@ -7,4 +7,7 @@
 
 ## Non Linearity
 - Add fixed nonlinear transforms to input arguments : eg polynomials
-- [[Volterra expansion]]
+- [[Volterra expansion]]## Backlinks
+* [[LinearRegression]]
+	* [[Window Based Regression]]
+

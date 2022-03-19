@@ -30,4 +30,11 @@
 	- $$\mathcal{H}$$ is all linear functions from $$\mathbb{R}^n$$ to $$\mathbb{R}^k$$ 
 
 ## Random Notes
-- $$(A'A)^{-1}A'$$ is the left psuedo inverse
+- $$(A'A)^{-1}A'$$ is the left psuedo inverse## Backlinks
+* [[Ridge Regression]]
+	* [[LinearRegression]]
+* [[Feature Learning]]
+	* [[Gradient Descent gradients]] or [[LinearRegression]]
+* [[Fundamentals]]
+	* [[LinearRegression]]
+

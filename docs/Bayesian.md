@@ -1,4 +1,7 @@
 # Bayesian
 - Subjective
 - [[Bayesian Model Estimation]]
-- Probability density function
+- Probability density function## Backlinks
+* [[Probability]]
+	* [[Bayesian]]
+

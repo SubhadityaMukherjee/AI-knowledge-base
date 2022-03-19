@@ -7,4 +7,9 @@
 ## $X_{i}$ Are Identically Distributed
 - Regardless of shape of each $X_{i}$, distribution of normalized sum converges to $\mathscr{N}(0,1)$ 
 - Uniformly bounded
-- None of the $X_{i}$ dominates the other "washing out"
+- None of the $X_{i}$ dominates the other "washing out"## Backlinks
+* [[Normal Distribution]]
+	* [[Central Limit Theorem]]
+* [[N-dim Normal]]
+	* If data points are vectors $x = (x*{1}, …, x*{n})'$ and RVs X_i fulfill the [[Central Limit Theorem]], 
+

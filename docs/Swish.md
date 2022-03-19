@@ -1,2 +1,5 @@
 ## Swish
-- $$x\cdot sigmoid(x)$$
+- $$x\cdot sigmoid(x)$$## Backlinks
+* [[ActivationFunctions]]
+	* [[Swish]]
+

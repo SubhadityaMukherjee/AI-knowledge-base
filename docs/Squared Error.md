@@ -1,3 +1,6 @@
 ## Squared Error
 - $$(y- f(x))^2$$
-- Regression
+- Regression## Backlinks
+* [[LossFunctions]]
+	* [[Squared Error]]
+

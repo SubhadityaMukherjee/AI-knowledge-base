@@ -16,4 +16,9 @@
 - [[Swish]]
 
 ## Refs
-- [mlmastery](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/)
+- [mlmastery](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/)## Backlinks
+* [[Backprop]]
+	* Solved by [[ActivationFunctions]]
+* [[DeepLearning]]
+	* [[ActivationFunctions]]
+

@@ -8,4 +8,9 @@
 - [[Hidden Models]]
 - [[Generative Models]]
 - [[Anomaly Detection]]
-- [[Auto Encoders]]
+- [[Auto Encoders]]## Backlinks
+* [[Self Supervised]]
+	* Subset of [[Unsupervised Learning]]
+* [[Fundamentals]]
+	* [[Unsupervised Learning]]
+

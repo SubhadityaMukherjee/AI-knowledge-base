@@ -23,4 +23,7 @@
 - The posterior mean estimate is obtained by integrating $\int_{\mathbb{R}}\mu h(\mu|D)d\mu$
 - Since this is different from sample mean -> Prior distribution really does influence the models
 
-### [[Protein Modeling]]
+### [[Protein Modeling]]## Backlinks
+* [[Bayesian]]
+	* [[Bayesian Model Estimation]]
+

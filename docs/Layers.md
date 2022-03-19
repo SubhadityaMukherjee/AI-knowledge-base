@@ -28,4 +28,7 @@
 - [[Gated Recurrent Unit (GRU)]]
 
 - [[Convolutional RNN]]
-- [[Best Maching Unit]]
+- [[Best Maching Unit]]## Backlinks
+* [[DeepLearning]]
+	* [[Layers]]
+

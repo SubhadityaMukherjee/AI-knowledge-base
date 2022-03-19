@@ -4,4 +4,7 @@
 - tanh for last layer
 - maximum margin
 
-$$\mathrm{sum}\left( \left( \mathrm{max}\left( 0, 1 - y \cdot ŷ \right) \right)^{2} \right)$$
+$$\mathrm{sum}\left( \left( \mathrm{max}\left( 0, 1 - y \cdot ŷ \right) \right)^{2} \right)$$## Backlinks
+* [[LossFunctions]]
+	* [[Squared Hinge]]
+

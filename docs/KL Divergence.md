@@ -9,4 +9,9 @@ Then cce as defined before $$ - \mathrm{sum}\left( y \cdot \log\left( ŷ \right)
 
 Finally KLD $$entropy + crossentropyloss$$
 
- - $$KL(p,q) = \Sigma_x p(x) log\frac{p(x)}{q(x)}$$
+ - $$KL(p,q) = \Sigma_x p(x) log\frac{p(x)}{q(x)}$$## Backlinks
+* [[LossFunctions]]
+	* [[KL Divergence]]
+* [[VAE]]
+	* Eg: By Loss func [[KL Divergence]] and prob distribution $$L(X) = n^{-1}\\Sigma*i||x*i - D(E(\\tilde x))||^2 + \\lambda \\cdot KL(f_i, d)$$
+

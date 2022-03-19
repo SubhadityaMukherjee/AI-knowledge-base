@@ -21,4 +21,13 @@
 	- Nesterov Momentum
 		- Look ahead by computing grads wrt future params
 		- Better for rough landscapes
-		- $$\begin{align}& r_n = \gamma r_{n-1} + \alpha \nabla_\theta L(\theta - \gamma r_{n-1}) \\ & \Theta_{n+1} = \Theta_n -r_n \end{align}$$
+		- $$\begin{align}& r_n = \gamma r_{n-1} + \alpha \nabla_\theta L(\theta - \gamma r_{n-1}) \\ & \Theta_{n+1} = \Theta_n -r_n \end{align}$$## Backlinks
+* [[Gradient Ascent]]
+	* To maximize loss function unlike [[Gradient Descent gradients]]
+* [[Contrastive Loss]]
+	* Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
+* [[Optimizers]]
+	* [[Gradient Descent gradients]]
+* [[Feature Learning]]
+	* [[Gradient Descent gradients]] or [[LinearRegression]]
+

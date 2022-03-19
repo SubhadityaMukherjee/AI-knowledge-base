@@ -13,4 +13,11 @@
 		- This is an unbiased estimator, so we can use it to approximate the optimal function f* that minimizes $$\mathbb{R}$$
 		- This means that we find $$argmin_{f\in F} \hat R(f, \mathcal{L}_Train)$$ (out of all the possible functions)
 		- $$lim_{M\rightarrow \infty}(f^*_{\mathcal{L}_Train}) = f^*$$ : converges to the fn that minimizes emprical risk
-	- Ordinary least squares regression
+	- Ordinary least squares regression## Backlinks
+* [[Cross Validation]]
+	* Get model with min [[Emperical Risk]]
+* [[Bias Variance Dilemma]]
+	* Tune on [[Emperical Risk]] instead using [[Optimizers]] 
+* [[Fundamentals]]
+	* [[Emperical Risk]]
+

@@ -10,4 +10,7 @@
 - [[Probability]]
 - [[Universal Approximation Theorem]]
 - [[Sampling]]
-- [[Distributions]]
+- [[Distributions]]## Backlinks
+* [[DeepLearning]]
+	* [[Fundamentals]]
+

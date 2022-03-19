@@ -6,4 +6,7 @@
 
 ## [[Vector Quantization]]
 
-## [[Neural Dynamics]]
+## [[Neural Dynamics]]## Backlinks
+* [[Encodings]]
+	* ## [[Continous -> Discrete]]
+

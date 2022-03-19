@@ -10,4 +10,7 @@
 		- maps input vectors to feature vectors
 - [[KMeans]]
 - [[PCA]]
-- [[SOMs]]
+- [[SOMs]]## Backlinks
+* [[Fundamentals]]
+	* [[Dimensionality Reduction]]
+

@@ -2,4 +2,7 @@
 
 ## [[Discrete -> Continuous]]
 
-## [[Continous -> Discrete]]
+## [[Continous -> Discrete]]## Backlinks
+* [[Fundamentals]]
+	* [[Encodings]]
+

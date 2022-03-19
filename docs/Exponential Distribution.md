@@ -5,4 +5,9 @@
 - Expectation $$E(X) = \frac{1}{\lambda}$$
 - ![[Pasted image 20220319141230.png]]
 - Rate : $$\hat \lambda = \frac{1}{N-1}\Sigma_{i = 1, …, N}t_{i+1}-t_{i}$$
-- [[Spiking Networks]]
+- [[Spiking Networks]]## Backlinks
+* [[Poisson Process]]
+	* Waiting times between two consecutive spikes are [[Exponential Distribution]]
+* [[Distributions]]
+	* [[Exponential Distribution]]
+

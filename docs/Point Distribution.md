@@ -2,4 +2,7 @@
 - [[PDF]] is impossible to use
 - Probability mass is concentrated in a few points
 - [[Dirac Delta]]
-- Hyperdistributions
+- Hyperdistributions## Backlinks
+* [[Distributions]]
+	* [[Point Distribution]]
+

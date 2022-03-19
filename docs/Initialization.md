@@ -2,4 +2,9 @@
 
 ## He Init
 
-## Glorot/Xavier
+## Glorot/Xavier## Backlinks
+* [[ActivationFunctions]]
+	* [[Initialization]]
+* [[DeepLearning]]
+	* [[Initialization]]
+

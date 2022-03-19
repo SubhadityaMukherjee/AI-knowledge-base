@@ -7,4 +7,9 @@
 - $$D_\theta(x_1, x_2) = ||G_\theta(x_1) - G_\theta(x_2)||_2$$
 - $$L(\theta, y, x_1, x_2) = \frac{(1-y)(D_\theta(x_1, x_2))^2}{2} + \frac{y(max(0,m-D\theta(x_1, x_2)))^2}{2}$$
 	- m is enforced margin between similar and dissimilar
-	- Labeled points $$(y,x_1,x_2)$$ are generated
+	- Labeled points $$(y,x_1,x_2)$$ are generated## Backlinks
+* [[LossFunctions]]
+	* [[Contrastive Loss]]
+* [[Semi Supervised]]
+	* [[Contrastive Loss]]
+

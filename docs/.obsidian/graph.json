@@ -15,10 +15,10 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:anchor",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 11969259
       }
     }
   ],
@@ -32,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 166,
-  "scale": 0.871569418760578,
+  "scale": 0.1921428887691028,
   "close": false
 }

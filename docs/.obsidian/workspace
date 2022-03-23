@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1eff1193295222c4",
+        "id": "d43aae9f02c73e65",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "LogCosh.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -53,7 +49,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "67b2794baf41f722",
@@ -69,7 +66,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "LogCosh.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -103,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "LogCosh.md"
-              }
+              "state": {}
             }
           },
           {
@@ -114,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LogCosh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +181,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LogCosh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,17 +197,17 @@
     "direction": "horizontal",
     "width": 572.7973022460938
   },
-  "active": "1eff1193295222c4",
+  "active": "d43aae9f02c73e65",
   "lastOpenFiles": [
-    "LogCosh.md",
-    "Normal Distribution.md",
-    "index.md",
-    "Ridge Regression.md",
-    "architectures/Res Net.md",
-    "Regularization Term.md",
-    "Protein Modeling.md",
-    "Perceptron.md",
-    "architectures/Mobile Net.md",
-    "Frequentist.md"
+    "Entropy.md",
+    "Uncertainty.md",
+    "Bayesian.md",
+    "Bayesian Model Estimation.md",
+    "Bayes Prediction.md",
+    "Bayes Rule.md",
+    "Bayesian Posterior.md",
+    "Uncertainity in classification.md",
+    "Uncertainity in regression.md",
+    "LinearRegression.md"
   ]
 }

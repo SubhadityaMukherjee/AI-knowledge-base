@@ -1,8 +1,8 @@
 # Dimensionality Reduction
-- Given 
+- Given
 	- $$(x_i)_{i = 1, …,N}$$ raw data points, $$x_i \in \mathbb{R}^n$$ : High dim
 - To get
-	- Low dim $$x_i \in \mathbb{R}^m$$ where $$m <n$$ 
+	- Low dim $$x_i \in \mathbb{R}^m$$ where $$m <n$$
 - f(x) is composed of m component functions aka features
 	- $$f: \mathbb{R}^n \rightarrow \mathbb{R}$$ : scalar characteristic
 	- m such features : feature map
@@ -12,7 +12,7 @@
 - [[PCA]]
 - [[SOMs]]
 
-
+#anchor
 
 ## Backlinks
 * [[Fundamentals]]

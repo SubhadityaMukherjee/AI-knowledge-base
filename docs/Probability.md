@@ -2,7 +2,7 @@
 - [[Frequentist]]
 - [[Bayesian]]
 
-
+#anchor
 
 ## Backlinks
 * [[Fundamentals]]

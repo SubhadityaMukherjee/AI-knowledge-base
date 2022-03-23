@@ -14,7 +14,10 @@
 - If priors are well chosen -> Better than frequentists with small sample sizes
 
 ## Disadvantages
-- Computationally expensive
+- Integrating over millions of params and performing multiple preds for each param -> infeasible
+- How to encode or represent [[Bayesian Posterior]] as very high dim
+	- No closed form representation over weights
+	- Represent data with histograms and use [[Monte Carlo]]
 
 ## Example
 - ![[Pasted image 20220316120743.png]]
@@ -25,8 +28,6 @@
 
 ### [[Protein Modeling]]
 
-
-
 ## Backlinks
 * [[Bayesian Posterior]]
 	* [[Bayesian Model Estimation]]
@@ -35,4 +36,4 @@
 * [[Bayesian]]
 	* [[Bayesian Model Estimation]]
 
-## ...
+## …

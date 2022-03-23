@@ -5,9 +5,9 @@
 
 - [[Relu]]
 - [[Elu]]
-- [[Maxout]] 
+- [[Maxout]]
 
-- [[Tanh]] 
+- [[Tanh]]
 
 - [[Softmax]]
 
@@ -17,7 +17,7 @@
 
 ## Refs
 - [mlmastery](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/)
-
+#anchor
 
 
 ## Backlinks

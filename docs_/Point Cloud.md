@@ -1,4 +1,0 @@
-# Point Cloud Data
-- 
-- [[PointNet++]]
-- 

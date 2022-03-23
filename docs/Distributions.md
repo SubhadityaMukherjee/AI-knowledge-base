@@ -14,7 +14,7 @@
 - [[Normal Distribution]]
 - [[N-dim Normal]]
 
-
+#anchor
 
 ## Backlinks
 * [[Decision Boundaries]]

@@ -3,7 +3,7 @@
 - ConvNet trained with supervisory signals that are generated from data itself
 - Very much [[Transfer Learning]]
 
-
+#anchor
 
 ## Backlinks
 * [[Fundamentals]]

@@ -1,2 +1,0 @@
-# Spiking Networks
-- [[Poisson Process]]

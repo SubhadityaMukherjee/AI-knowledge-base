@@ -17,5 +17,7 @@
 ## Backlinks
 * [[Fundamentals]]
 	* [[Dimensionality Reduction]]
+* [[Curse of Dimensionality]]
+	* [[Dimensionality Reduction]]
 
 ## ...

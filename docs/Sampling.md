@@ -6,6 +6,14 @@
 - [[MCMC Sampling]]
 
 ## Backlinks
+* [[MCMC Sampling]]
+	* [[Sampling]]
+* [[Rejection Sampling]]
+	* [[Sampling]]
+* [[Sampler]]
+	* [[Sampling]]
+* [[Uniform Sampling]]
+	* [[Sampling]]
 * [[Fundamentals]]
 	* [[Sampling]]
 

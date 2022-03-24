@@ -12,3 +12,17 @@
 
 ## Discrete Spaces
 - [[Proto PMF]]
+## Backlinks
+* [[Bayesian Posterior]]
+	* [[Proto Distributions]] on $\\theta$ space
+
+## Backlinks
+* [[Proto Distributions]]
+	* [[Proto Distributions]] on $\\theta$ space
+* [[Proto PDF]]
+	* [[Proto Distributions]]
+* [[Proto PMF]]
+	* [[Proto Distributions]]
+* [[Bayesian Posterior]]
+	* [[Proto Distributions]] on $\\theta$ space
+

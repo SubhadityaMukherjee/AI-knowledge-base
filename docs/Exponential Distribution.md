@@ -10,9 +10,9 @@
 
 
 ## Backlinks
-* [[Poisson Process]]
-	* Waiting times between two consecutive spikes are [[Exponential Distribution]]
 * [[Distributions]]
 	* [[Exponential Distribution]]
+* [[Poisson Process]]
+	* Waiting times between two consecutive spikes are [[Exponential Distribution]]
 
 ## ...

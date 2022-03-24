@@ -6,6 +6,8 @@
 
 
 ## Backlinks
+* [[Uniform Sampling]]
+	* [[Uniform Distribution]]
 * [[Distributions]]
 	* [[Uniform Distribution]]
 * [[Entropy]]

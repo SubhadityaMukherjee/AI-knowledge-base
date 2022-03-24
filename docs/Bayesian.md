@@ -6,6 +6,8 @@
 - Probability density function
 
 ## Backlinks
+* [[Proto Distributions]]
+	* Occur in [[Bayesian]]
 * [[Probability]]
 	* [[Bayesian]]
 

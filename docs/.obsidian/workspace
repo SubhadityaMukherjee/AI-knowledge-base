@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Markov Chain.md",
+            "file": "Noise.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Markov Chain.md",
+                "file": "Noise.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markov Chain.md"
+                "file": "Noise.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markov Chain.md",
+                "file": "Noise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markov Chain.md",
+                "file": "Noise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,6 +208,7 @@
   },
   "active": "8fc917b21f9015ff",
   "lastOpenFiles": [
+    "Noise.md",
     "Markov Chain.md",
     "MCMC Sampling.md",
     "Boltzmann Distribution.md",
@@ -216,7 +217,6 @@
     "Distributions.md",
     "Bayesian Posterior.md",
     "Proto Distributions.md",
-    "Dimensionality Reduction.md",
-    "Curse Of Dimensionality.md"
+    "Dimensionality Reduction.md"
   ]
 }

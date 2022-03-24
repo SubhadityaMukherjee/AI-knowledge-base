@@ -10,9 +10,10 @@
 	* [[Aleatoric]]
 
 ## Backlinks
-* [[Aleatoric]]
-	* [[Aleatoric]]
 * [[Types of Uncertainty]]
+	* [[Aleatoric]]
+	* [[Aleatoric]]
+* [[Aleatoric]]
 	* [[Aleatoric]]
 * [[Heteroscedatic]]
 	* [[Aleatoric]]

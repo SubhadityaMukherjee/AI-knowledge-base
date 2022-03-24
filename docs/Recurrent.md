@@ -44,11 +44,12 @@
 	* [[Recurrent]]
 	* [[Recurrent]]
 	* [[Recurrent]]
+* [[Time Series Prediction]]
+	* [[Recurrent]]## Backlinks
+	* [[Recurrent]]
 * [[Temporal Learning]]
 	* [[Recurrent]]
 	* [[Recurrent]]
 * [[Layers]]
-	* [[Recurrent]]
-* [[Time Series Prediction]]
 	* [[Recurrent]]
 

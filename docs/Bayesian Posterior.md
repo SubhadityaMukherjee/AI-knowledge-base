@@ -10,6 +10,8 @@
 	- [[Proto Distributions]] on $\theta$ space
 
 ## Backlinks
+* [[Proto Distributions]]
+	* [[Bayesian Posterior]]
 * [[Bayesian Model Estimation]]
 	* [[Bayesian Posterior]]
 	* How to encode or represent [[Bayesian Posterior]] as very high dim

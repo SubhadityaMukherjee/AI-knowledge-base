@@ -1,5 +1,4 @@
 #!/bin/bash
-/home/erago/.yarn/bin/
 /home/erago/.yarn/bin/note-link-janitor/dist/index.js docs/
 /home/erago/.yarn/bin/note-link-janitor/dist/index.js docs/architectures/
 /home/erago/.yarn/bin/note-link-janitor/dist/index.js docs/applications/

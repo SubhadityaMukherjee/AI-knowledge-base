@@ -9,7 +9,7 @@
 ## Backlinks
 * [[Activation Functions]]
 	* [[Initialization]]
-* [[anchor]]
+* [[Index]]
 	* [[Initialization]]
 
 ## ...

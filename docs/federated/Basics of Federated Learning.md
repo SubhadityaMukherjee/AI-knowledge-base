@@ -1,4 +1,4 @@
-## Basics of Federated Learning
+# Basics of Federated Learning
 1. Get data (Hopefully a lot)
 2. Preprocess (aka clean up) the data
 3. Find/create an architecture

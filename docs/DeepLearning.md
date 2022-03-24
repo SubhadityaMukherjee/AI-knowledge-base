@@ -1,5 +1,4 @@
-
-# [[index]]
+# Index
 ---
 - [[Features]]
 - [[Fundamentals]]
@@ -22,8 +21,4 @@
 
 #anchor
 
-## Backlinks
-* [[Features]]
-	* [[anchor]]
-
-## ...
+## …

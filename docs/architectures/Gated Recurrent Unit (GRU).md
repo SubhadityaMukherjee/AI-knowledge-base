@@ -1,4 +1,4 @@
-## Gated Recurrent Unit (GRU)
+# Gated Recurrent Unit (GRU)
 - Two gates, sigmoid
 	- Reset : $$g_r = \sigma(W_{hr}h_{t-1} + W_{xr}x_t + b_r)$$
 	- Update :  $$g_u = \sigma(W_{hu}h_{t-1} + W_{xu}x_t + b_u)$$

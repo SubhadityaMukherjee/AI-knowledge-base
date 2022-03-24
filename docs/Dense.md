@@ -1,4 +1,4 @@
-## Dense
+# Dense
 - Weighted linear comb
 - Forward
 	- $$z = W\cdot x + b$$ , $$y=g(z)$$

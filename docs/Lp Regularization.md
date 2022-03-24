@@ -1,4 +1,4 @@
-## Lp Regularization
+# Lp Regularization
 - Tikhonov
 - Penalty considering weights
 - $$L^\ast(\theta) = L(\theta) + \lambda \Sigma_i |\theta_i|^p$$

@@ -4,3 +4,7 @@
 - basically gets y with different model parms w
 - prob of those params given input x
 - Model averaging
+## Backlinks
+* [[Bayesian]]
+	* [[Bayes Prediction]]
+

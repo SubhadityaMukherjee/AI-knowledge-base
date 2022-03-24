@@ -22,6 +22,8 @@
 ## Backlinks
 * [[Distributions]]
 	* [[Normal Distribution]]
+* [[Entropy]]
+	* [[Normal Distribution]] maximizes entropy for a fixed mean and variance.
 * [[N Dim Normal Distribution]]
 	* [[Normal Distribution]]
 

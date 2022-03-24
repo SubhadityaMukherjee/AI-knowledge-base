@@ -1,4 +1,4 @@
-## Rmsprop
+# Rmsprop
 - RL
 - More stable than Adagrad
 - Moving exponential avg : older grads given less weight

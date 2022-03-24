@@ -1,4 +1,4 @@
-## Huber/Smooth L1/Smooth MAE
+# Huber/Smooth L1/Smooth MAE
 - It is less sensitive to outliers than the [[MSE]] and in some cases prevents exploding #gradients
 - [[Fast-RCNN]]
 
@@ -9,10 +9,4 @@ $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( 0.5 \cdot \
 else
 
 $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \left\|y - ŷ\right\| - 0.5 \right)$$
-## Backlinks
-* [[MSE]]
-	* [[Huber]]
-* [[Loss Functions]]
-	* [[Huber]]
-
 ## ...

@@ -1,4 +1,4 @@
-## Advantages of Federated Learning
+# Advantages of Federated Learning
 - All your information is locally stored and is never sent anywhere
 - Saves your personalized data from being leaked
 - Removes all connections to you

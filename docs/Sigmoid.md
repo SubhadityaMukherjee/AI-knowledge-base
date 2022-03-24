@@ -1,4 +1,4 @@
-## Sigmoid
+# Sigmoid
 - $$\sigma(x) = \frac{1}{1+exp(-x)}$$
 - $$\frac{d\sigma}{dx}(x) = \sigma(x)(1-\sigma(x))$$
 	- max : 0.25
@@ -12,5 +12,7 @@
 ## Backlinks
 * [[Activation Functions]]
 	* [[Sigmoid]]
+* [[Uncertainty Classification]]
+	* Use [[Softmax]] or [[Sigmoid]]
 
 ## ...

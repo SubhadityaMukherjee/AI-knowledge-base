@@ -1,4 +1,4 @@
-## Res Net
+# Res Net
 - Deeper Networks have issues because of vanishing #gradients
 - Propagate gradients forward for deeper networks
 - Skip connections

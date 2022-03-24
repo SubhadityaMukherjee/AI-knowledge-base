@@ -1,4 +1,4 @@
-## Transformer
+# Transformer
 - Encoder Decoder
 - Auto regressive : decoder outputs fed back as inputs to decoder
 - [[Attention]]

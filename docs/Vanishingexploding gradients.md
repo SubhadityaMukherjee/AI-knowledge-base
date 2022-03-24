@@ -1,4 +1,4 @@
-## Vanishing/exploding #gradients
+# Vanishing/exploding #gradients
 - Ill conditioning - Something like a pit of despair
 - $$\nabla_xE  = W^T(g'(a)\circ \nabla_y E)$$
 	- $$g' = 1-g^2$$
@@ -9,11 +9,5 @@
 	- [[Regularization]] , [[Optimizers]] , [[Architectures]]
 
 
-
-## Backlinks
-* [[Skip Connection]]
-	* Transfer #gradients to prevent [[Vanishingexploding gradients]]
-* [[Issues]]
-	* [[Vanishingexploding gradients]]
 
 ## ...

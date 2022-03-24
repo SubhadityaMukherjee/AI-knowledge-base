@@ -1,4 +1,4 @@
-## Squared Hinge
+# Squared Hinge
 - [[Hinge Loss]]
 - problems involving yes/no (binary) decisions and when you’re not interested in knowing how certain the classifier is about the classification
 - tanh for last layer

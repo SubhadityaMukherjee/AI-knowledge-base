@@ -5,4 +5,7 @@
 - $$\epsilon \sim \mathcal{N}(0, \sigma^{2})$$
 - [[Homoscedatic]]
 - [[Heteroscedatic]]
-- ![[Pasted image 20220323154218.png]]
+- ![[Pasted image 20220323154218.png]]## Backlinks
+* [[Types of Uncertainty]]
+	* [[Aleatoric]]
+

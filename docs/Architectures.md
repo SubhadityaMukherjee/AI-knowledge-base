@@ -31,9 +31,9 @@
 #anchor
 
 ## Backlinks
-* [[anchor]]
+* [[Index]]
 	* [[Architectures]]
-* [[Vanishingexploding gradients]]
+* [[Vanishing/exploding #gradients]]
 	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
 
 ## ...

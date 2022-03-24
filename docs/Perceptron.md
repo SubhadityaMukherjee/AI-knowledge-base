@@ -1,4 +1,4 @@
-## Perceptron
+# Perceptron
 - $$f(x)=sign(\Sigma _i w_ix_i +b) = sign(\mathbf{w^Tx}+b)$$
 	- $$sign(x) = \begin{cases} 1 & x\geq0 \\ 0 & otherwise\end{cases}$$
 ![[Pasted image 20220304121008.png]]

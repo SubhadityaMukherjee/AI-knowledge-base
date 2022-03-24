@@ -1,4 +1,4 @@
-## Fitting
+# Fitting
 - Bayes risk
 	- Minimal expected risk over set of all functions $$R_B = min_{f\in y^X} R(f)$$
 	- If minimized -> Best possible function

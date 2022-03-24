@@ -1,4 +1,4 @@
-## Freedom
+# Freedom
 - (N, D, P) N samples,  D degrees of freedom
 - If N<D , then ill posed 
 - Need N >> D

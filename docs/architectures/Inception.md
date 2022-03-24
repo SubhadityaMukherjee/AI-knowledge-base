@@ -1,4 +1,4 @@
-## Inception
+# Inception
 
 ### V1
 - Conv at different filter scales to find different kinds of features -> stack them up

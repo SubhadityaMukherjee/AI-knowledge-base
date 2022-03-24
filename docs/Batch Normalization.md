@@ -1,4 +1,4 @@
-## Batch Normalization
+# Batch Normalization
 - bias=False for Linear/Conv2D for input and True for output #tricks
 - Normalizes #activations
 - Input distributions change per layer -> Make sure they stay similar

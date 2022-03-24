@@ -35,5 +35,7 @@
 	* [[Bayesian Model Estimation]]
 * [[Bayesian]]
 	* [[Bayesian Model Estimation]]
+* [[Uncertainty]]
+	* [[Bayesian Model Estimation]]
 
 ## …

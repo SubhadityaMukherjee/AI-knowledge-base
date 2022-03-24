@@ -1,4 +1,4 @@
-## Parallel Runner
+# Parallel Runner
 
 ```python
 import random

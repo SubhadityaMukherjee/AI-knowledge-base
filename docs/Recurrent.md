@@ -1,4 +1,4 @@
-## Recurrent
+# Recurrent
 - Sequences as inputs/outputs
 - Turing complete
 - memory through state persisted between timesteps
@@ -31,4 +31,11 @@
 	- The model first discovers the general word-space structure and then rapidly starts to learn the words.
 	- First starting with the short words and then eventually the longer ones.
 	- Topics and themes that span multiple words (and in general longer-term dependencies) start to emerge only much later.
-- [[Basic RNN Architectures]]
+- [[Basic RNN Architectures]]## Backlinks
+* [[Layers]]
+	* [[Recurrent]]
+* [[Time Series Prediction]]
+	* [[Recurrent]]
+* [[Temporal Learning]]
+	* [[Recurrent]]
+

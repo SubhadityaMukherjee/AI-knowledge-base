@@ -1,4 +1,4 @@
-## Softmax
+# Softmax
 - Output : probabilities
 - $$\frac{e^{\frac{x}{T}}}{\Sigma_k(e^{\frac{x_{k}}{T}})}$$
 - Softer argmax (0,1)
@@ -13,7 +13,11 @@
 ## Backlinks
 * [[Activation Functions]]
 	* [[Softmax]]
-* [[gradients]]
+* [[Recurrent]]
 	* [[Softmax]] but on every output vector simultaneously
+* [[Uncertainty]]
+	* Most networks are overconfident - [[Softmax]] confidences do not have a good probabilistic interpretation. Wrong predictions with more confidence
+* [[Uncertainty Classification]]
+	* Use [[Softmax]] or [[Sigmoid]]
 
 ## ...

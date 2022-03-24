@@ -16,6 +16,7 @@
 ## Backlinks
 * [[Bayesian Model Estimation]]
 	* [[Bayesian Posterior]]
+	* How to encode or represent [[Bayesian Posterior]] as very high dim
 * [[Bayesian Posterior]]
 	* [[Bayesian Posterior]]
 

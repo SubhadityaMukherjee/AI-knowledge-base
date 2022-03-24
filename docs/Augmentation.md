@@ -7,9 +7,9 @@
 ## Backlinks
 * [[Regularization]]
 	* [[Augmentation]]
-* [[anchor]]
-	* [[Augmentation]]
 * [[Noise]]
+	* [[Augmentation]]
+* [[Index]]
 	* [[Augmentation]]
 
 ## ...

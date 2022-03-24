@@ -1,4 +1,4 @@
-## Pooling
+# Pooling
 - Summarize low level features
 - Reduce input dims
 - Max/Avg

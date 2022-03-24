@@ -1,4 +1,4 @@
-## Maxout
+# Maxout
 - $$f(x) = max(x, x\cdot a)$$
 ## Backlinks
 * [[Activation Functions]]
@@ -10,7 +10,7 @@
 
 ## Backlinks
 * [[Activation Functions]]
-	* [[Maxout]] 
+	* [[Maxout]]
 * [[Maxout]]
 	* [[Maxout]] 
 

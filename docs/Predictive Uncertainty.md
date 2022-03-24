@@ -1,2 +1,5 @@
 # Predictive Uncertainty
-- ![[Pasted image 20220323154146.png]]
+- ![[Pasted image 20220323154146.png]]## Backlinks
+* [[Types of Uncertainty]]
+	* [[Predictive Uncertainty]]
+

@@ -1,4 +1,4 @@
-## Seq2Seq
+# Seq2Seq
 - RNNs
 - Encoder Decoder
 - Long term dependency issues

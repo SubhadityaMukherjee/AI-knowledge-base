@@ -1,4 +1,4 @@
-## Sketched Update
+# Sketched Update
 - Learn a full model update, then compress it before sending to the server.
 - First computes the full Hit during local training without any constraints, and then approximates, or encodes, the update in a (lossy) compressed form before sending to the server. The server decodes the updates before doing the aggregation. 
 - Subsampling - Instead of sending Hit , each client only communicates matrix Ĥit which is formed from a random subset of the (scaled) values of Hit.

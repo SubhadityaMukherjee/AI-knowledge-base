@@ -8,5 +8,7 @@
 ## Backlinks
 * [[Distributions]]
 	* [[Uniform Distribution]]
+* [[Entropy]]
+	* [[Uniform Distribution]] maximizes entropy. Results harder to predict
 
 ## ...

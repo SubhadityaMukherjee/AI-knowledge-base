@@ -1,4 +1,4 @@
-## Dropout
+# Dropout
 - Applied to Dense layers
 - Training : Randomly (Bernoulli, p = 0.5 say) set #activations to 0
 - Generally p = 0.1, 0.5

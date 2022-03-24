@@ -1,4 +1,4 @@
-## BERT
+# BERT
 - Bidirectional Encoder rep from transformers
 - Self supervised
 - Masked language modeling, next sentence prediction

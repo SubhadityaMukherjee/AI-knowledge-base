@@ -1,3 +1,3 @@
 # Uncertainty Classification
-- [[Distributions#Distributions Over Discrete Space]]
+- [[Distributions]]
 - Use [[Softmax]] or [[Sigmoid]]

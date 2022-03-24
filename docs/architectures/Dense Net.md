@@ -1,4 +1,4 @@
-## Dense Net
+# Dense Net
 - Generalized [[Res Net]]
 - Skip connections inside the Dense block itself
 - ![[Dense Skip Connections]]

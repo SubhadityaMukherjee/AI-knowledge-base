@@ -16,15 +16,15 @@
 
 
 ## Backlinks
-* [[anchor]]
-	* [[Regularization]]
-* [[Vanishingexploding gradients]]
-	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
 * [[Pruning]]
 	* [[Regularization]]
 * [[Freedom]]
 	* Solution : [[Regularization]]
 * [[Tuning Model Flexibility]]
 	* [[Regularization]]
+* [[Index]]
+	* [[Regularization]]
+* [[Vanishing/exploding #gradients]]
+	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
 
 ## ...

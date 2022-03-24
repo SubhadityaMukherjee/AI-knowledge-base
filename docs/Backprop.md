@@ -15,7 +15,7 @@
 
 
 ## Backlinks
-* [[Gradient Descent gradients]]
+* [[Gradient Descent #gradients]]
 	* [[Backprop]]
 
 ## ...

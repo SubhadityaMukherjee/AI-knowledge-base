@@ -1,4 +1,4 @@
-## Binary Pattern Encoding
+# Binary Pattern Encoding
 - If symbol alphabet has a large size k
 	- One hot is too huge
 - Encode into binary vector of length $$\lceil log_{2} \rceil$$
@@ -7,9 +7,5 @@
 - Too intensive
 
 
-
-## Backlinks
-* [[Discrete -> Continous Transforms]]
-	* ## [[Binary pattern]]
 
 ## ...

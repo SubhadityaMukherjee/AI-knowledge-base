@@ -1,4 +1,4 @@
-## Skip Connection
+# Skip Connection
 - ![[Pasted image 20220306120520.png]]
 - $$x_i = F(x_{i-1}) + x_{i-1}$$
 - [[Effect_Of_Depth]]

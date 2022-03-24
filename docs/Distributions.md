@@ -1,5 +1,8 @@
 # Distributions
 
+## General Distributions
+- [[Boltzmann Distribution]]
+
 ## Distributions Over Discrete Space
 - [[Bernoulli Distribution]]
 - [[Binomial Distribution]]
@@ -14,6 +17,8 @@
 - [[Normal Distribution]]
 - [[N-dim Normal]]
 
+## Others
+- ![[Pasted image 20220324120913.png]]
 #anchor
 
 ## Backlinks
@@ -26,4 +31,4 @@
 * [[Uncertainty Classification]]
 	* [[Distributions]]
 
-## ...
+## …

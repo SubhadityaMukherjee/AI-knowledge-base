@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architectures.md",
+            "file": "Markov Chain.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "67b2794baf41f722",
@@ -69,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Architectures.md",
+                "file": "Markov Chain.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architectures.md"
+                "file": "Markov Chain.md"
               }
             }
           },
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architectures.md",
+                "file": "Markov Chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,8 +177,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "863417745269de5a",
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architectures.md",
+                "file": "Markov Chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,19 +204,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 572.7973022460938
+    "width": 526.7973022460938
   },
   "active": "8fc917b21f9015ff",
   "lastOpenFiles": [
-    "Architectures.md",
-    "Skip Connection.md",
-    "Dense Skip Connections.md",
-    "architectures/Res Net.md",
-    "architectures/Dense Net.md",
-    "LossFunctions.md",
-    "Dropout.md",
-    "Adding noise.md",
-    "Optimizers.md",
-    "Linear Regression.md"
+    "Markov Chain.md",
+    "MCMC Sampling.md",
+    "Boltzmann Distribution.md",
+    "Markov Random Field.md",
+    "Restricted Boltzmann Machine.md",
+    "Distributions.md",
+    "Bayesian Posterior.md",
+    "Proto Distributions.md",
+    "Dimensionality Reduction.md",
+    "Curse Of Dimensionality.md"
   ]
 }

@@ -7,3 +7,9 @@
 * [[Types of Uncertainty]]
 	* [[Epistemic]]
 
+## Backlinks
+* [[Types of Uncertainty]]
+	* [[Epistemic]]
+* [[Epistemic]]
+	* [[Epistemic]]
+

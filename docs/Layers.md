@@ -33,6 +33,8 @@
 
 
 ## Backlinks
+* [[Recurrent]]
+	* [[Layers]]
 * [[Index]]
 	* [[Layers]]
 

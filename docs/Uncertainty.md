@@ -11,5 +11,7 @@
 ## Backlinks
 * [[Index]]
 	* [[Uncertainty]]
+* [[Entropy]]
+	* [[Uncertainty]]
 
 ## …

@@ -4,9 +4,9 @@
 
 
 ## Backlinks
-* [[Bayesian Posterior]]
-	* If the denominator is replaced written as $p(D)$ then it looks like the [[Bayes Rule]]
 * [[Bayesian]]
 	* [[Bayes Rule]]
+* [[Bayesian Posterior]]
+	* If the denominator is replaced written as $p(D)$ then it looks like the [[Bayes Rule]]
 
 ## ...

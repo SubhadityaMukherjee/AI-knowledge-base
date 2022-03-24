@@ -8,3 +8,9 @@
 * [[Bayesian]]
 	* [[Bayes Prediction]]
 
+## Backlinks
+* [[Bayes Prediction]]
+	* [[Bayes Prediction]]
+* [[Bayesian]]
+	* [[Bayes Prediction]]
+

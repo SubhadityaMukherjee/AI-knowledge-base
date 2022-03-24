@@ -7,3 +7,9 @@
 * [[Uncertainty]]
 	* [[Entropy]]
 
+## Backlinks
+* [[Entropy]]
+	* [[Entropy]]
+* [[Uncertainty]]
+	* [[Entropy]]
+

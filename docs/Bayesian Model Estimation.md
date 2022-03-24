@@ -29,11 +29,11 @@
 ### [[Protein Modeling]]
 
 ## Backlinks
+* [[Bayesian]]
+	* [[Bayesian Model Estimation]]
 * [[Bayesian Posterior]]
 	* [[Bayesian Model Estimation]]
 * [[Bayesian Prior]]
-	* [[Bayesian Model Estimation]]
-* [[Bayesian]]
 	* [[Bayesian Model Estimation]]
 * [[Uncertainty]]
 	* [[Bayesian Model Estimation]]

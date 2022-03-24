@@ -16,4 +16,7 @@
 	- PDE , ODE
 - Long range
 	- [[HMM]]
-	- [[Recurrent]]
+	- [[Recurrent]]## Backlinks
+* [[Recurrent]]
+	* [[Time Series Prediction]]
+

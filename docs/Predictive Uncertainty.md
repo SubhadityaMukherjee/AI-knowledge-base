@@ -3,3 +3,9 @@
 * [[Types of Uncertainty]]
 	* [[Predictive Uncertainty]]
 
+## Backlinks
+* [[Types of Uncertainty]]
+	* [[Predictive Uncertainty]]
+* [[Predictive Uncertainty]]
+	* [[Predictive Uncertainty]]
+

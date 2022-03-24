@@ -9,3 +9,11 @@
 * [[Types of Uncertainty]]
 	* [[Aleatoric]]
 
+## Backlinks
+* [[Aleatoric]]
+	* [[Aleatoric]]
+* [[Types of Uncertainty]]
+	* [[Aleatoric]]
+* [[Heteroscedatic]]
+	* [[Aleatoric]]
+

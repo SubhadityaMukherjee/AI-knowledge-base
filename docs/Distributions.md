@@ -19,10 +19,10 @@
 ## Backlinks
 * [[Decision Boundaries]]
 	* Minimal risk decision function is unique and must be represented in terms of [[Distributions]] of data generating RVs X and Y
-* [[Fundamentals]]
-	* [[Distributions]]
 * [[Uncertainty]]
 	* Model outputs [[Distributions]]
+* [[Fundamentals]]
+	* [[Distributions]]
 * [[Uncertainty Classification]]
 	* [[Distributions]]
 

@@ -7,11 +7,12 @@
 - First and second moments
 
 ## Backlinks
+* [[Optimization]]
+	* [[Adam]]
+	* [[Adam]]
+	* [[Adam]]
 * [[Adam]]
 	* [[Adam]]
-	* [[Adam]]
-	* [[Adam]]
-* [[Optimization]]
 	* [[Adam]]
 	* [[Adam]]
 

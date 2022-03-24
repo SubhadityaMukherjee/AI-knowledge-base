@@ -10,22 +10,5 @@
 - [[Learning Rate Decay tricks]]
 
 - [[Early Stopping tricks]]
-## Backlinks
-* [[Adam]]
-	* [[Optimization]]
 
-## ...## Backlinks
-* [[Adam]]
-	* [[Optimization]]
-* [[Optimization]]
-	* [[Optimization]]
-
-## Backlinks
-* [[Optimization]]
-	* [[Optimization]]
-	* [[Optimization]]
-	* [[Optimization]]
-	* [[Optimization]]
-* [[Adam]]
-	* [[Optimization]]
-
+## ...

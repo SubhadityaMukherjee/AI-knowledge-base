@@ -12,11 +12,9 @@
 
 
 ## Backlinks
-* [[Gradient Ascent]]
+* [[Semi Supervised]]
 	* [[Contrastive Loss]]
 * [[Loss Functions]]
-	* [[Contrastive Loss]]
-* [[Semi Supervised]]
 	* [[Contrastive Loss]]
 
 ## ...

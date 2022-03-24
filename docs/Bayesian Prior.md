@@ -16,18 +16,10 @@
 		- It is a function of $\theta$ and so it is a likelihood function. [[MLE]]
 		- If given data D -> it can show which models are more likely than others.
 		- Higher values of	$p_{\otimes_{i}}x(D|\theta)$  are better
-## Backlinks
-* [[Bayesian Model Estimation]]
-	* [[Bayesian Prior]]
-
-## ...
-
 
 
 ## Backlinks
 * [[Bayesian Model Estimation]]
-	* [[Bayesian Prior]]
-* [[Bayesian Prior]]
 	* [[Bayesian Prior]]
 
 ## ...

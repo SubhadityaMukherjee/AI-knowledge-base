@@ -20,10 +20,4 @@
 #anchor
 
 
-## Backlinks
-* [[Elu]]
-	* [[Activation Functions]]
-* [[Maxout]]
-	* [[Activation Functions]]
-
 ## ...

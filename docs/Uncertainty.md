@@ -9,9 +9,9 @@
 - [[Quantifying Uncertainty]]
 
 ## Backlinks
-* [[Index]]
-	* [[Uncertainty]]
 * [[Entropy]]
+	* [[Uncertainty]]
+* [[Index]]
 	* [[Uncertainty]]
 
 ## …

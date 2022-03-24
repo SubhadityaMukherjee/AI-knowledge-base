@@ -14,9 +14,9 @@
 ## Backlinks
 * [[KL Divergence]]
 	* Entropy + [[Cross Entropy]]
-* [[Loss Functions]]
-	* [[Cross Entropy]]
 * [[BCE Logits]]
 	* [[Cross Entropy]] + logits
+* [[Loss Functions]]
+	* [[Cross Entropy]]
 
 ## ...

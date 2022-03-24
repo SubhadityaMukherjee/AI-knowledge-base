@@ -5,19 +5,10 @@
 	- $$\frac{p_{\otimes_{i}}x(D|\theta)h(\theta)}{\int_{\mathbb{R}^K}p_{\otimes_{i}}x(D|\theta)h(\theta)d\theta}$$
 	- Prob distrib over candidate models
 - If the denominator is replaced written as $p(D)$ then it looks like the [[Bayes Rule]]
-## Backlinks
-* [[Bayesian Model Estimation]]
-	* [[Bayesian Posterior]]
-
-## ...
-
-
 
 ## Backlinks
 * [[Bayesian Model Estimation]]
 	* [[Bayesian Posterior]]
 	* How to encode or represent [[Bayesian Posterior]] as very high dim
-* [[Bayesian Posterior]]
-	* [[Bayesian Posterior]]
 
 ## ...

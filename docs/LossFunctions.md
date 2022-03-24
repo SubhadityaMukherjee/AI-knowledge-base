@@ -29,8 +29,4 @@
 
 
 
-## Backlinks
-* [[MSE]]
-	* [[Loss Functions]]
-
 ## ...

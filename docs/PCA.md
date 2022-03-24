@@ -39,9 +39,9 @@
 
 
 ## Backlinks
-* [[Unsupervised]]
-	* [[PCA]]
 * [[Dimensionality Reduction]]
+	* [[PCA]]
+* [[Unsupervised]]
 	* [[PCA]]
 
 ## ...

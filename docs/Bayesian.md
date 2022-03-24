@@ -6,8 +6,6 @@
 - Probability density function
 
 ## Backlinks
-* [[Bayes Prediction]]
-	* [[Bayesian]]
 * [[Probability]]
 	* [[Bayesian]]
 

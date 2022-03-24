@@ -9,19 +9,5 @@
 ## Backlinks
 * [[Optimization]]
 	* [[Adam]]
-	* [[Adam]]
-	* [[Adam]]
-* [[Adam]]
-	* [[Adam]]
-	* [[Adam]]
-	* [[Adam]]
-
-## …
-
-## Backlinks
-* [[Adam]]
-	* [[Adam]]
-* [[Optimization]]
-	* [[Adam]]
 
 ## …

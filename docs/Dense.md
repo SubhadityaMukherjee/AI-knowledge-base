@@ -1,5 +1,5 @@
 # Dense
-- Weighted linear comb
+- Weighted [[LinearRegression]]
 - Forward
 	- $$z = W\cdot x + b$$ , $$y=g(z)$$
 - Backward

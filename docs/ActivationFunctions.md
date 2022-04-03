@@ -1,3 +1,7 @@
+---
+title: Activation Functions
+---
+
 # Activation Functions
 - [[Initialization]]
 
@@ -19,5 +23,4 @@
 - [mlmastery](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/)
 #anchor
 
-
-## ...
+## …

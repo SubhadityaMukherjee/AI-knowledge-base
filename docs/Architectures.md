@@ -1,3 +1,7 @@
+---
+title: Architectures
+---
+
 # Architectures
 - [[Le Net]]
 
@@ -36,4 +40,4 @@
 * [[Vanishing/exploding #gradients]]
 	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
 
-## ...
+## …

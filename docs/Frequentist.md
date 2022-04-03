@@ -1,3 +1,7 @@
+---
+title: Frequentist
+---
+
 # Frequentist
 - Measure probablity -> Counting
 - Repeat an experiment n times and get the estimate : $\hat P$  (estimate based on finite amount of data)
@@ -8,10 +12,8 @@
 - Distibution of data points
 - [[MLE]]
 
-
-
 ## Backlinks
 * [[Probability]]
 	* [[Frequentist]]
 
-## ...
+## …

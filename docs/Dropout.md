@@ -1,3 +1,7 @@
+---
+title: Dropout
+---
+
 # Dropout
 - Applied to Dense layers
 - Training : Randomly (Bernoulli, p = 0.5 say) set #activations to 0
@@ -8,12 +12,10 @@
 - Decreases overfitting
 - Start with small rate : 20 %
 
-
-
 ## Backlinks
 * [[Regularization]]
 	* [[Dropout]]
 * [[Noise]]
 	* [[Dropout]]
 
-## ...
+## …

@@ -1,3 +1,7 @@
+---
+title: Layers
+---
+
 # Layers
 
 ## Notation
@@ -30,12 +34,10 @@
 - [[Convolutional RNN]]
 - [[Best Maching Unit]]
 
-
-
 ## Backlinks
 * [[Recurrent]]
 	* [[Layers]]
 * [[Index]]
 	* [[Layers]]
 
-## ...
+## …

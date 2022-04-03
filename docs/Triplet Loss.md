@@ -1,3 +1,7 @@
+---
+title: Triplet Loss
+---
+
 # Triplet Loss
 - Given an achor, pull similar closer and push dissimilar away
 - Face recog [[FaceNet]]
@@ -7,12 +11,10 @@
 - $\alpha$ is a margin b/w positive and neg
 - Loss to minimize $$L(\theta) = \Sigma_i^n||f(x^a) - f(x^p)||^2 + f(x^a) - f(x^n)||^2 + \alpha$$
 
-
-
 ## Backlinks
 * [[Semi Supervised]]
 	* [[Triplet Loss]]
 * [[Loss Functions]]
 	* [[Triplet Loss]]
 
-## ...
+## …

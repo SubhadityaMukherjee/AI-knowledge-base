@@ -1,3 +1,7 @@
+---
+title: Variational/Recurrent Dropout
+---
+
 # Variational/Recurrent Dropout
 - [[Basic RNN Architectures]]
 - Only on the non recurrent parts such as inputs and outputs
@@ -5,6 +9,4 @@
 - Same dropout mask for each time step
 - ![[Pasted image 20220306113950.png]]
 
-
-
-## ...
+## …

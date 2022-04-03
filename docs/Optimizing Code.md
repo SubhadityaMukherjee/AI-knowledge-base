@@ -1,3 +1,7 @@
+---
+title: Optimizing Work
+---
+
 # Optimizing Work
 - [[Vectorization]]
 - [[Parallelization]]

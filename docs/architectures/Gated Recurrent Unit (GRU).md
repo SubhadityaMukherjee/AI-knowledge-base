@@ -1,3 +1,7 @@
+---
+title: Gated Recurrent Unit (GRU)
+---
+
 # Gated Recurrent Unit (GRU)
 - Two gates, sigmoid
 	- Reset : $$g_r = \sigma(W_{hr}h_{t-1} + W_{xr}x_t + b_r)$$
@@ -8,10 +12,8 @@
 	- Linear interpolation between last hidden state and proposal
 	- $$h_t = (1-g_u)\cdot h_{t-1} + g_u \cdot \hat h_t$$
 
-
-
 ## Backlinks
 * [[Basic RNN Architectures]]
 	* [[Gated Recurrent Unit (GRU)]]
 
-## ...
+## …

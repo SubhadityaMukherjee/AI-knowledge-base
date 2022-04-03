@@ -1,8 +1,12 @@
+---
+title: Emperical Risk
+---
+
 # Emperical Risk
 - TRAINING ERROR. Mean loss computed over training examples
 - $$R(f) = \mathbb{E} _{(X,Y) \sim P(X,Y)}[l(y, f(x))]$$
 - $$R^{emp}(h) = \frac{1}{N}\Sigma_{i=1}^{N}L(h(x_{i}), y_{i})$$
-- joint prob distribution $P(X\in A,Y=c)$$ is unknown
+- joint prob distribution $P(X\in A,Y=c)$ is unknown
 	- [[Decision Boundaries]]
 	
 - Learning set $$\mathcal L$$ is finite
@@ -15,8 +19,6 @@
 		- $$lim_{M\rightarrow \infty}(f^*_{\mathcal{L}_Train}) = f^*$$ : converges to the fn that minimizes emprical risk
 	- Ordinary least squares regression
 
-
-
 ## Backlinks
 * [[Cross Validation]]
 	* Get model with min [[Emperical Risk]]
@@ -25,4 +27,4 @@
 * [[Bias Vs Variance]]
 	* Tune on [[Emperical Risk]] instead using [[Optimizers]] 
 
-## ...
+## …

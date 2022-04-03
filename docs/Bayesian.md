@@ -1,3 +1,7 @@
+---
+title: Bayesian
+---
+
 # Bayesian
 - Subjective
 - [[Bayes Prediction]]

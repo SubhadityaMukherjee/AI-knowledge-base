@@ -1,3 +1,7 @@
+---
+title: Bayesian Posterior
+---
+
 # Bayesian Posterior
 - When D is fixed though, this becomes a function of Model Candidates
 - Non negative on K dim param space

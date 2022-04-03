@@ -1,3 +1,7 @@
+---
+title: Vanishing/exploding #gradients
+---
+
 # Vanishing/exploding #gradients
 - Ill conditioning - Something like a pit of despair
 - $$\nabla_xE  = W^T(g'(a)\circ \nabla_y E)$$
@@ -8,6 +12,4 @@
 - Solutions
 	- [[Regularization]] , [[Optimizers]] , [[Architectures]]
 
-
-
-## ...
+## …

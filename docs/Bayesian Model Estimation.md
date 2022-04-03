@@ -1,3 +1,7 @@
+---
+title: Bayesian Model Estimation
+---
+
 # Bayesian Model Estimation
 - Unlike frequentist, sometimes things like sample mean is not a good metric because it has a high variance. Might give different results with different trials in a real valued distribution
 - The task is to estimate $\theta$ from the data

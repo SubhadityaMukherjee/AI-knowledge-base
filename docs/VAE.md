@@ -1,3 +1,7 @@
+---
+title: Variational Autoencoder
+---
+
 # Variational Autoencoder
 - Some control over distribution of learned features
 - Eg: Decoder as a generative model

@@ -1,3 +1,7 @@
+---
+title: Proto Distributions
+---
+
 # Proto Distributions
 - [[Distributions]]
 - Occur in [[Bayesian]]
@@ -12,6 +16,7 @@
 
 ## Discrete Spaces
 - [[Proto PMF]]
+
 ## Backlinks
 * [[Bayesian Posterior]]
 	* [[Proto Distributions]] on $\\theta$ space
@@ -25,4 +30,3 @@
 	* [[Proto Distributions]]
 * [[Bayesian Posterior]]
 	* [[Proto Distributions]] on $\\theta$ space
-

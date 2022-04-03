@@ -1,3 +1,7 @@
+---
+title: Bayes Prediction
+---
+
 # Bayes Prediction
 - $$P(y|x) = \int_{w}P(y|w,x)P(w|x)dw$$
 - w is model parameters
@@ -8,4 +12,3 @@
 ## Backlinks
 * [[Bayesian]]
 	* [[Bayes Prediction]]
-

@@ -1,3 +1,7 @@
+---
+title: Aleatoric
+---
+
 # Aleatoric
 - Uncertainty part of the data
 - Sensor noise etc
@@ -5,16 +9,4 @@
 - $$\epsilon \sim \mathcal{N}(0, \sigma^{2})$$
 - [[Homoscedatic]]
 - [[Heteroscedatic]]
-- ![[Pasted image 20220323154218.png]]## Backlinks
-* [[Types of Uncertainty]]
-	* [[Aleatoric]]
-
-## Backlinks
-* [[Types of Uncertainty]]
-	* [[Aleatoric]]
-	* [[Aleatoric]]
-* [[Aleatoric]]
-	* [[Aleatoric]]
-* [[Heteroscedatic]]
-	* [[Aleatoric]]
-
+- ![[Pasted image 20220323154218.png]]

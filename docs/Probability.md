@@ -1,3 +1,7 @@
+---
+title: Probability
+---
+
 # Probability
 - [[Frequentist]]
 - [[Bayesian]]
@@ -8,4 +12,4 @@
 * [[Fundamentals]]
 	* [[Probability]]
 
-## ...
+## …

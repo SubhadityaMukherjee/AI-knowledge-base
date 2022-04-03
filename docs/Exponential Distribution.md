@@ -1,3 +1,7 @@
+---
+title: Exponential Distribution
+---
+
 # Exponential Distribution
 - How long you have to wait for something after the it has happened once already
 - Average rate /unit reference time
@@ -7,12 +11,10 @@
 - Rate : $$\hat \lambda = \frac{1}{N-1}\Sigma_{i = 1, …, N}t_{i+1}-t_{i}$$
 - [[Spiking Networks]]
 
-
-
 ## Backlinks
 * [[Distributions]]
 	* [[Exponential Distribution]]
 * [[Poisson Process]]
 	* Waiting times between two consecutive spikes are [[Exponential Distribution]]
 
-## ...
+## …

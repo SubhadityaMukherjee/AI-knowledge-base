@@ -1,3 +1,7 @@
+---
+title: Noise
+---
+
 # Noise
 - To training input data
 	- Gaussian random noise

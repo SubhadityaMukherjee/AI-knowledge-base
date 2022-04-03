@@ -1,4 +1,8 @@
-# Unsupervised
+---
+title: Unsupervised Learning
+---
+
+# Unsupervised Learning
 - Discover useful things from raw data
 - Representation/Embedding Learning
 - If labels , train network and take intermediate layers
@@ -10,6 +14,4 @@
 - [[Anomaly Detection]]
 - [[Auto Encoders]]
 
-
-
-## ...
+## …

@@ -1,3 +1,7 @@
+---
+title: Heirarchial Refinement
+---
+
 # Heirarchial Refinement
 - Split n dim volume -> finite set of discrete regions
 	- n dim hypercubes
@@ -8,4 +12,4 @@
 - ![[Pasted image 20220316000739.png]]
 - [[Mesh refinement]]
 
-## ...
+## …

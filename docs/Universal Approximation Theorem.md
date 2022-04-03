@@ -1,3 +1,7 @@
+---
+title: Universal Approximation Theorem
+---
+
 # Universal Approximation Theorem
 - What this means that given an x and a y, the NN can identify a mapping between them. "Approximately".
 - This is required when we have non linearly separable data. 
@@ -17,10 +21,8 @@
 ## Refs
 - [mm](https://medium.com/hackernoon/illustrative-proof-of-universal-approximation-theorem-5845c02822f6)
 
-
-
 ## Backlinks
 * [[Fundamentals]]
 	* [[Universal Approximation Theorem]]
 
-## ...
+## …

@@ -1,3 +1,7 @@
+---
+title: Inception
+---
+
 # Inception
 
 ### V1
@@ -8,10 +12,8 @@
 - nxn conv -> 1xn followed by nx1 conv
 - ![[Pasted image 20220306121513.png]]
 
-
-
 ## Backlinks
 * [[Xception]]
 	* Only use [[Depthwise Separable]] convs + [[Inception]] modules
 
-## ...
+## …

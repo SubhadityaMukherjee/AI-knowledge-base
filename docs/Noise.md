@@ -1,1 +1,5 @@
+---
+title: Noise
+---
+
 # Noise

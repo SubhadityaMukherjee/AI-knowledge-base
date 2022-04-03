@@ -1,3 +1,7 @@
+---
+title: Regularization
+---
+
 # Regularization
 - [[Regularization Term]]
 - [[Dropout]]
@@ -13,8 +17,6 @@
 - [[Lp Regularization]]
 - [[Pruning]]
 
-
-
 ## Backlinks
 * [[Pruning]]
 	* [[Regularization]]
@@ -27,4 +29,4 @@
 * [[Vanishing/exploding #gradients]]
 	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
 
-## ...
+## …

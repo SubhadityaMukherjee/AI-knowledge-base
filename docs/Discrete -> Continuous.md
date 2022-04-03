@@ -1,3 +1,7 @@
+---
+title: Discrete -> Continous Transforms
+---
+
 # Discrete -> Continous Transforms
 
 ## [[One hot]]

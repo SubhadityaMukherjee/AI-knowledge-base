@@ -1,3 +1,7 @@
+---
+title: Vgg
+---
+
 # Vgg
 - Deeper [[Alex Net]]
 - Object detection and Image captioning

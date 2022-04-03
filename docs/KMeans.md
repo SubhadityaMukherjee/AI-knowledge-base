@@ -1,3 +1,7 @@
+---
+title: K Means
+---
+
 # K Means
 - Codebook vectors. No manifolds.
 - Given: $$(x_i)_{i= 1,..,N} \in \mathbb{R}^n$$

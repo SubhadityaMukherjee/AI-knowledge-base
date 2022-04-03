@@ -1,3 +1,7 @@
+---
+title: Uniform Sampling
+---
+
 # Uniform Sampling
 - Random sampler
 - [[Uniform Distribution]]
@@ -16,4 +20,3 @@
 	* [[Uniform Sampling]]
 * [[CDF]]
 	* [[Uniform Sampling]]
-

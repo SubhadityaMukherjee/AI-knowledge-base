@@ -1,3 +1,7 @@
+---
+title: Volterra
+---
+
 # Volterra
 - Add higher order polynomials
 - Adding too much leads to combinatorial explosion -> pruning scheme

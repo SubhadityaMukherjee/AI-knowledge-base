@@ -1,3 +1,7 @@
+---
+title: Gradient Descent #gradients
+---
+
 # Gradient Descent #gradients
 - [[Backprop]]
 - Params $$\theta$$
@@ -23,6 +27,4 @@
 		- Better for rough landscapes
 		- $$\begin{align}& r_n = \gamma r_{n-1} + \alpha \nabla_\theta L(\theta - \gamma r_{n-1}) \\ & \Theta_{n+1} = \Theta_n -r_n \end{align}$$
 
-
-
-## ...
+## …

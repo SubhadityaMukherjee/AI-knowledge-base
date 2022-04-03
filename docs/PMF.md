@@ -1,3 +1,7 @@
+---
+title: Probability Mass Function
+---
+
 # Probability Mass Function
 - pmf
 - Given a discrete sample space S

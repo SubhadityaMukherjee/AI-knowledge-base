@@ -1,3 +1,7 @@
+---
+title: Rejection Sampling
+---
+
 # Rejection Sampling
 - No [[CDF]] with a simple inverse
 - Importance sampling
@@ -23,4 +27,3 @@
 	* [[Rejection Sampling]]
 * [[Proto PDF]]
 	* [[Rejection Sampling]]
-

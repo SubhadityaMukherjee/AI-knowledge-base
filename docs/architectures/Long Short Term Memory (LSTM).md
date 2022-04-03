@@ -1,3 +1,7 @@
+---
+title: Long Short Term Memory (LSTM)
+---
+
 # Long Short Term Memory (LSTM)
 - Smaller chance of exploding or vanishing #gradients
 - Better ability to model long term dependencies

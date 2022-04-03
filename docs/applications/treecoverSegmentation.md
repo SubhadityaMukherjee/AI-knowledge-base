@@ -1,3 +1,7 @@
+---
+title: Tree Cover Segmentation
+---
+
 # Tree Cover Segmentation
 - treecover segmentation [[PointNet++]]
 	- Data collected from above

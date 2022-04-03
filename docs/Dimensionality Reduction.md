@@ -1,3 +1,7 @@
+---
+title: Dimensionality Reduction
+---
+
 # Dimensionality Reduction
 - Given
 	- $$(x_i)_{i = 1, …,N}$$ raw data points, $$x_i \in \mathbb{R}^n$$ : High dim
@@ -20,4 +24,4 @@
 * [[Curse of Dimensionality]]
 	* [[Dimensionality Reduction]]
 
-## ...
+## …

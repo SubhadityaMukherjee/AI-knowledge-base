@@ -1,3 +1,7 @@
+---
+title: SiteMap
+---
+
 # SiteMap
 - [[DeepLearning]]
 - [[Ethics]]

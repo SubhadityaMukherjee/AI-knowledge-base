@@ -1,3 +1,7 @@
+---
+title: Adam
+---
+
 # Adam
 - Supervised learning
 - RMSProp + Momentum

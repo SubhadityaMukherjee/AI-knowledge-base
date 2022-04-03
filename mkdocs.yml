@@ -63,6 +63,7 @@ plugins:
   - search
   - roamlinks
   - awesome-pages
+  - git-revision-date
   - minify:
       minify_html: true
       minify_js: true

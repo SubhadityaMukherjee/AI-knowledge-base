@@ -1,3 +1,7 @@
+---
+title: Continous -> Discrete
+---
+
 # Continous -> Discrete
 
 ## [[Binning]]
@@ -8,10 +12,8 @@
 
 ## [[Neural Dynamics]]
 
-
-
 ## Backlinks
 * [[Encoding]]
 	* ## [[Continous -> Discrete]]
 
-## ...
+## …

@@ -1,3 +1,7 @@
+---
+title: Gradient Ascent
+---
+
 # Gradient Ascent
 - To maximize loss function unlike [[Gradient Descent gradients]]
 - Proportional to positive of gradient
@@ -7,4 +11,4 @@
 * [[Contrastive Loss]]
 	* Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
 
-## ...
+## …

@@ -1,3 +1,7 @@
+---
+title: Window Based Regression
+---
+
 # Window Based Regression
 - [[TIme Series]]
 - input window : $$u(t-d+1), u(t-d+2), …. , u(t-1) , u(t)$$
@@ -9,10 +13,8 @@
 - Add fixed nonlinear transforms to input arguments : eg polynomials
 - [[Volterra expansion]]
 
-
-
 ## Backlinks
 * [[Linear Regression]]
 	* [[Window Based Regression]]
 
-## ...
+## …

@@ -1,3 +1,7 @@
+---
+title: Sampler
+---
+
 # Sampler
 - Given : 
 	- $P_{X}$ is a distribution on a measure space (E,B)
@@ -14,4 +18,3 @@
 	* [[Sampler]]
 * [[Sampler]]
 	* [[Sampler]]
-

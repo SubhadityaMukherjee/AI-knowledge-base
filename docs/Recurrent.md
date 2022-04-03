@@ -1,3 +1,7 @@
+---
+title: Recurrent
+---
+
 # Recurrent
 - Sequences as inputs/outputs
 - Turing complete
@@ -52,4 +56,3 @@
 	* [[Recurrent]]
 * [[Layers]]
 	* [[Recurrent]]
-

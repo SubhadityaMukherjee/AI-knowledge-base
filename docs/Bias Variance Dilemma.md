@@ -1,3 +1,7 @@
+---
+title: Bias Vs Variance
+---
+
 # Bias Vs Variance
 - ![[Pasted image 20220312132539.png]]
 - ![[Pasted image 20220312135948.png]]

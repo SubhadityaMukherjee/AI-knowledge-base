@@ -1,3 +1,7 @@
+---
+title: Binning
+---
+
 # Binning
 - k segments
 - Transform each symbol
@@ -7,10 +11,8 @@
 	- Reduced precision devices perform as well as the high precision ones
 	- Continuous range -> adaptive bin boundaris [[Decision Trees]]
 
-
-
 ## Backlinks
 * [[Continous -> Discrete]]
 	* ## [[Binning]]
 
-## ...
+## …

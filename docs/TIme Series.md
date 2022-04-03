@@ -1,3 +1,7 @@
+---
+title: Time Series Prediction
+---
+
 # Time Series Prediction
 - Task:
 	- discrete time, equidistant timesteps
@@ -25,4 +29,3 @@
 	* [[Time Series Prediction]]
 * [[Time Series Prediction]]
 	* [[Time Series Prediction]]
-

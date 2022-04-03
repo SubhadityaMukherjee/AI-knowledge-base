@@ -1,3 +1,7 @@
+---
+title: Useful Codes
+---
+
 # Useful Codes
 - [[Parallel Runner]]
 
@@ -5,4 +9,4 @@
 * [[Index]]
 	* [[Useful Codes]]
 
-## ...
+## …

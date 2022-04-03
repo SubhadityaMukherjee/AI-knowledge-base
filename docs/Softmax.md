@@ -1,3 +1,7 @@
+---
+title: Softmax
+---
+
 # Softmax
 - Output : probabilities
 - $$p = \frac{1}{\Sigma_{i = 1, .., n}e^{\frac{\alpha y_{i}}{T}}}(e^{\frac{\alpha y_{1}}{T}} , e^{\frac{\alpha y_{2}}{T}} , …, e^{\frac{\alpha y_{n}}{T}})'$$

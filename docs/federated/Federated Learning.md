@@ -1,3 +1,7 @@
+---
+title: Federated Learning
+---
+
 # Federated Learning
 - [[Basics of Federated Learning]]
 

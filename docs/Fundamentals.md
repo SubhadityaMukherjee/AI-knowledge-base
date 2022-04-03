@@ -1,3 +1,7 @@
+---
+title: Fundamentals
+---
+
 # Fundamentals
 - [[Emperical Risk]]
 - [[LinearRegression]]
@@ -12,10 +16,8 @@
 - [[Sampling]]
 - [[Distributions]]
 
-
-
 ## Backlinks
 * [[Index]]
 	* [[Fundamentals]]
 
-## ...
+## …

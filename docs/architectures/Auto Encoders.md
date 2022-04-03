@@ -1,3 +1,7 @@
+---
+title: AutoEncoder
+---
+
 # AutoEncoder
 - ![[Pasted image 20220310204652.png]]
 - Regression by predicting a reconstruction of the data

@@ -1,3 +1,7 @@
+---
+title: Convnd
+---
+
 # Convnd
 - Connect a neighbor only to spatial neighborhood -> spatial order
 	- Some rotation and illumination invariance

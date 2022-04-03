@@ -1,3 +1,7 @@
+---
+title: Reg Uncertainty
+---
+
 # Reg Uncertainty
 - [[LinearRegression]]
 - Confidence intervals

@@ -1,3 +1,7 @@
+---
+title: Index
+---
+
 # Index
 ---
 - [[Features]]
@@ -18,14 +22,4 @@
 - [[Reinforcement Learning]]
 - [[Refs]]
 
-
 #anchor
-
-## …## Backlinks
-* [[Reinforcement Learning]]
-	* [[Index]]
-
-## Backlinks
-* [[Index]]
-	* [[Index]]
-

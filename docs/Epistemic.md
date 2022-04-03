@@ -1,3 +1,7 @@
+---
+title: Epistemic
+---
+
 # Epistemic
 - Uncertainty produced by the model 
 - Class imbalance etc
@@ -13,4 +17,3 @@
 	* [[Epistemic]]
 * [[Epistemic]]
 	* [[Epistemic]]
-

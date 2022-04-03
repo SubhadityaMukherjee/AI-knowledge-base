@@ -1,3 +1,7 @@
+---
+title: Res Net
+---
+
 # Res Net
 - Deeper Networks have issues because of vanishing #gradients
 - Propagate gradients forward for deeper networks
@@ -7,10 +11,8 @@
 - less params than VGG
 - [[Skip Connection]]
 
-
-
 ## Backlinks
 * [[Dense Net]]
 	* Generalized [[Res Net]]
 
-## ...
+## …

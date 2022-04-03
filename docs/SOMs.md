@@ -1,3 +1,7 @@
+---
+title: Self Organizing Maps
+---
+
 # Self Organizing Maps
 - Kohonen maps
 - Crumbled up grid of SOM neurons

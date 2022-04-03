@@ -1,3 +1,7 @@
+---
+title: Linear Regression
+---
+
 # Linear Regression
 - Minimization problem $$(w,b) = argmin_{w^{\ast} , b^{\ast}} \Sigma^N_{i-1}(w^{\ast}x_{i} +b ^{\ast} - y_{i})^2$$
 	- b is a bias term which is padded at the end, size 1 : affine linear function

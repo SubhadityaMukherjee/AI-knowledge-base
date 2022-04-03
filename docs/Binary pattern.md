@@ -1,3 +1,7 @@
+---
+title: Binary Pattern Encoding
+---
+
 # Binary Pattern Encoding
 - If symbol alphabet has a large size k
 	- One hot is too huge
@@ -6,6 +10,4 @@
 - Non linear effort as it is a arbitrary encoding
 - Too intensive
 
-
-
-## ...
+## …

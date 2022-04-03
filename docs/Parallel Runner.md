@@ -1,3 +1,7 @@
+---
+title: Parallel Runner
+---
+
 # Parallel Runner
 
 ```python
@@ -71,4 +75,4 @@ def parallel(func, arr: Collection, max_workers: int = None, leave=False):  # %t
 * [[Useful Codes]]
 	* [[Parallel Runner]]
 
-## ...
+## …

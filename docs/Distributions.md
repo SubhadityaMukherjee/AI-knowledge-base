@@ -1,3 +1,7 @@
+---
+title: Distributions
+---
+
 # Distributions
 
 ## General Distributions

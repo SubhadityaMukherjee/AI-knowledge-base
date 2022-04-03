@@ -1,3 +1,7 @@
+---
+title: Issues
+---
+
 # Issues
 - [[Multiple Local Minima]]
 
@@ -14,10 +18,8 @@
 - [[Complex Geometry]]
 - [[Lack of information]]
 
-
-
 ## Backlinks
 * [[Index]]
 	* [[Issues]]
 
-## ...
+## …

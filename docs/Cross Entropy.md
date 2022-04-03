@@ -1,3 +1,7 @@
+---
+title: Cross Entropy
+---
+
 # Cross Entropy
 - implicit distribution $$p(Y|x;\theta)$$ -> use CE
 - $$\mathscr{L}(\theta) = -\mathbb{E}_{(x,y) \sim P(X,Y)} log (p_{model}(Y|x))$$
@@ -9,8 +13,6 @@
 		- Regression
 		- $$\mathscr{L}(\theta) = \frac{1}{2}\mathbb{E}_{(x,y) \sim P(X,Y)}||y-f(x;\theta)||^2$$
 
-
-
 ## Backlinks
 * [[KL Divergence]]
 	* Entropy + [[Cross Entropy]]
@@ -19,4 +21,4 @@
 * [[Loss Functions]]
 	* [[Cross Entropy]]
 
-## ...
+## …

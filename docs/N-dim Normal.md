@@ -1,3 +1,7 @@
+---
+title: N Dim Normal Distribution
+---
+
 # N Dim Normal Distribution
 - [[Normal Distribution]]
 - If data points are vectors $x = (x_{1}, …, x_{n})'$ and RVs X_i fulfill the [[Central Limit Theorem]], 

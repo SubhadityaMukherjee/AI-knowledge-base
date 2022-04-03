@@ -1,3 +1,7 @@
+---
+title: PCA
+---
+
 # PCA
 - m dim affine hyperplace spanned by first m eigenvectors. Only manifolds and no codebook vectors
 - Be able to reconstruct x from f(x) : decoding function $$x \approx d \circ f(x)$$
@@ -36,12 +40,10 @@
 	- $C = U\Sigma U'$ to get PC vectors $u_k$ lined up in U and variances $\sigma_k^2$ as eigenvalues in $\Sigma$ 
 	- If we want to preserve 98% variance : Rhs of (1) st. ratio is (1-0.98)
 
-
-
 ## Backlinks
 * [[Dimensionality Reduction]]
 	* [[PCA]]
 * [[Unsupervised]]
 	* [[PCA]]
 
-## ...
+## …

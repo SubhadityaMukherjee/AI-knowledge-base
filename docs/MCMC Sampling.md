@@ -1,14 +1,10 @@
+---
+title: MCMC Sampling
+---
+
 # MCMC Sampling
 - Complex distribution with only a proto pdf $g_{0}$ that is known
-- [[Markov Chain]]## Backlinks
-* [[Sampling]]
-	* [[MCMC Sampling]]
-
-## Backlinks
-* [[Sampling]]
-	* [[MCMC Sampling]]
-* [[Markov Chain]]
-	* [[MCMC Sampling]]
-* [[MCMC Sampling]]
-	* [[MCMC Sampling]]
-
+- [[Markov Chain]]
+- [[Detailed Balance]]
+	- Sufficient but not necessary for Markov chain to be a sampler for g
+- [[Factors for MC estimate]]

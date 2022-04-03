@@ -1,3 +1,7 @@
+---
+title: Backprop
+---
+
 # Backprop
 - Gradient $$\nabla l(\theta) = [\frac{\partial l}{\partial \theta_1}(\theta) , … , \frac{\partial L}{\partial \theta_L}(\theta)]$$
 	- partial derivs of the loss wrt weights
@@ -12,10 +16,8 @@
 			- Collecting all the $$\partial \sigma(u_i)$$ wrt params -> #gradients exponentially decreases wrt depth of the network : Vanishing
 				- Solved by [[ActivationFunctions]]
 
-
-
 ## Backlinks
 * [[Gradient Descent #gradients]]
 	* [[Backprop]]
 
-## ...
+## …

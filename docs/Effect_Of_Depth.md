@@ -1,3 +1,7 @@
+---
+title: Effect of Depth
+---
+
 # Effect of Depth
 - Adding skip connections make the loss surface smoother
 - ![[Pasted image 20220306132740.png]]

@@ -1,3 +1,7 @@
+---
+title: Tuning Model Flexibility
+---
+
 # Tuning Model Flexibility
 - [[Class Size]]
 - [[Regularization]]
@@ -5,10 +9,8 @@
 - [[Adding noise]]
 - [[Cross Validation]]
 
-
-
 ## Backlinks
 * [[Bias Vs Variance]]
 	* ## [[Tuning Model Flexibility]]
 
-## ...
+## …

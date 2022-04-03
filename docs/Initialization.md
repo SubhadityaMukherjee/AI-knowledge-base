@@ -1,10 +1,12 @@
+---
+title: Initialization
+---
+
 # Initialization
 
 ## He Init
 
 ## Glorot/Xavier
-
-
 
 ## Backlinks
 * [[Index]]
@@ -12,4 +14,4 @@
 * [[Activation Functions]]
 	* [[Initialization]]
 
-## ...
+## …

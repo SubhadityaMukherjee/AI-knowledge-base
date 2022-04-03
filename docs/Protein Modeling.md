@@ -1,3 +1,7 @@
+---
+title: Protein Modeling
+---
+
 # Protein Modeling
 - Using Bayesian models
 - Task : Estimate probability mass function(because discrete) for a finite, discrete distribution -> given a histogram from a sample
@@ -22,10 +26,8 @@
 - ![[Pasted image 20220316123546.png]]
 - $\alpha$s fixed beforehand
 
-
-
 ## Backlinks
 * [[Bayesian Model Estimation]]
 	* ### [[Protein Modeling]]
 
-## ...
+## …

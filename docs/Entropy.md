@@ -1,3 +1,7 @@
+---
+title: Entropy
+---
+
 # Entropy
 - Measure of information content
 - $$H = -\Sigma_{x}P(x)logP(x) = \Sigma_{x}P(x)log \frac{1}{P(x)}$$
@@ -12,4 +16,3 @@
 	* [[Entropy]]
 * [[Uncertainty]]
 	* [[Entropy]]
-

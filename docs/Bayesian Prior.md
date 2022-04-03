@@ -1,3 +1,7 @@
+---
+title: Bayesian Prior
+---
+
 # Bayesian Prior
 - Use prior knowledge as beliefs (param vectors $\theta$). Cast in the form of a probability distribution over the space $\Theta$ . 
 
@@ -17,9 +21,8 @@
 		- If given data D -> it can show which models are more likely than others.
 		- Higher values of	$p_{\otimes_{i}}x(D|\theta)$  are better
 
-
 ## Backlinks
 * [[Bayesian Model Estimation]]
 	* [[Bayesian Prior]]
 
-## ...
+## …

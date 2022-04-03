@@ -1,3 +1,7 @@
+---
+title: Batch Normalization
+---
+
 # Batch Normalization
 - bias=False for Linear/Conv2D for input and True for output #tricks
 - Normalizes #activations
@@ -14,10 +18,8 @@
 - $$\hat x_{ij} \leftarrow \frac{x_{ij}-\mu_j}{\sqrt{\sigma^2_j + \epsilon}}$$
 - $$\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$$
 
-
-
 ## Backlinks
 * [[Regularization]]
 	* [[Batch Normalization]]
 
-## ...
+## …

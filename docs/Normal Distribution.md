@@ -1,3 +1,7 @@
+---
+title: Normal Distribution
+---
+
 # Normal Distribution
 - $$p(x) = \frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}$$
 - Mean $\mu$ and std $\sigma$. $\mu$ is max and $\mu \pm \sigma$  is locations of zeros of second derivative
@@ -27,4 +31,4 @@
 * [[N Dim Normal Distribution]]
 	* [[Normal Distribution]]
 
-## ...
+## …

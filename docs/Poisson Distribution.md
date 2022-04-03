@@ -1,3 +1,7 @@
+---
+title: Possion Distribution
+---
+
 # Possion Distribution
 - Probability that an event occurs k times within a given time interval
 - Eg:

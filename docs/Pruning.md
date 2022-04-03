@@ -1,3 +1,7 @@
+---
+title: Pruning
+---
+
 # Pruning
 - Mainly that of being able to reduce the size, cost and computational requirements of my models, all while maintaning the accuracy (sort of atleast). 
 - Generally this comes about by removing parameters in some form or fashion. 
@@ -21,13 +25,12 @@
 
 - [[Random Pruning]]
 - [[Layerwise Magnitude Based Pruning]]
+
 ## Backlinks
 * [[Regularization]]
 	* [[Pruning]]
 
-## ...
-
-
+## …
 
 ## Backlinks
 * [[Regularization]]
@@ -35,4 +38,4 @@
 * [[Pruning]]
 	* [[Pruning]]
 
-## ...
+## …

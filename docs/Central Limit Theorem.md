@@ -1,3 +1,7 @@
+---
+title: Central Limit Theorem
+---
+
 # Central Limit Theorem
 - When random effects of many independant small sized causes sum up to large scale observable effects : one gets the normal distribution
 - Let $(X_{i})_{i\in N}$ is a seq of independant, real valued, [[Square Integrable]] random variable with non zero variances $Var(X_{i}) = E[(X_{i}- E[X_{i}])^{2}]$ . Then If the distributions $P_{S_{n}}$ of standardized sum variables converge weakly to $\mathscr{N}(0,1)$ . $$S_{n}= \frac{\Sigma_{i= 1}^{n}(X_{i}- E[X_{i}])}{\sigma(\Sigma^{n}_{i=1}X_{i})}$$
@@ -9,12 +13,10 @@
 - Uniformly bounded
 - None of the $X_{i}$ dominates the other "washing out"
 
-
-
 ## Backlinks
 * [[Normal Distribution]]
 	* [[Central Limit Theorem]]
 * [[N Dim Normal Distribution]]
 	* If data points are vectors $x = (x*{1}, …, x*{n})'$ and RVs X_i fulfill the [[Central Limit Theorem]], 
 
-## ...
+## …

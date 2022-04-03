@@ -1,3 +1,7 @@
+---
+title: Term
+---
+
 # Term
 - Penalty term
 - Cost function that penalizes model params $\theta$ with a high degree of flexibility

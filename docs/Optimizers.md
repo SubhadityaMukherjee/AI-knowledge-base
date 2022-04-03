@@ -1,3 +1,7 @@
+---
+title: Optimization
+---
+
 # Optimization
 - [[Gradient Descent gradients]]
 
@@ -11,4 +15,4 @@
 
 - [[Early Stopping tricks]]
 
-## ...
+## …

@@ -1,3 +1,7 @@
+---
+title: Binomial Distribution
+---
+
 # Binomial Distribution
 - [[Bernoulli Distribution]] repeated for N independant trials with success probability q
 	- Aka N times with only 2 outcomes
@@ -7,12 +11,10 @@
 - $$X \sim Bi(N,s)$$
 - ![[Pasted image 20220319133401.png]]
 
-
-
 ## Backlinks
 * [[Distributions]]
 	* [[Binomial Distribution]]
 * [[Multinomial]]
 	* Generalized [[Binomial Distribution]]
 
-## ...
+## …

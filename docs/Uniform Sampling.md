@@ -16,7 +16,8 @@ title: Uniform Sampling
 ## Backlinks
 * [[Sampling]]
 	* [[Uniform Sampling]]
-* [[Uniform Sampling]]
-	* [[Uniform Sampling]]
 * [[CDF]]
 	* [[Uniform Sampling]]
+* [[Uniform Sampling]]
+	* [[Uniform Sampling]]
+

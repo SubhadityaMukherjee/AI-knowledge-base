@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "da317b1a544b9868",
+        "id": "60657ffa50ca7f61",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Reinforcement Learning.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reinforcement Learning.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -103,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Reinforcement Learning.md"
-              }
+              "state": {}
             }
           },
           {
@@ -114,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reinforcement Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +180,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,8 +196,10 @@
     "direction": "horizontal",
     "width": 526.7973022460938
   },
-  "active": "da317b1a544b9868",
+  "active": "60657ffa50ca7f61",
   "lastOpenFiles": [
+    "Discrete -> Continous Transforms.md",
+    "Discrete -> Continuous.md",
     "Reinforcement Learning.md",
     "Markov Chain.md",
     "Markov Random Field.md",
@@ -214,8 +207,6 @@
     "Markov Transition Kernel.md",
     "Markov Initial Distribution.md",
     "architectures/Auto Encoders.md",
-    "AutoEncoder.md",
-    "Fitting.md",
-    "index.md"
+    "AutoEncoder.md"
   ]
 }

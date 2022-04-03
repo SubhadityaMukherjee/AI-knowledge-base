@@ -18,8 +18,18 @@ title: Proto Distributions
 - [[Proto PMF]]
 
 ## Backlinks
+* [[Proto Distributions]]
+	* [[Proto Distributions]]
+	* [[Proto Distributions]] on $\\theta$ space
+	* [[Proto Distributions]]
+	* [[Proto Distributions]]
+	* [[Proto Distributions]] on $\\theta$ space
 * [[Bayesian Posterior]]
 	* [[Proto Distributions]] on $\\theta$ space
+* [[Proto PDF]]
+	* [[Proto Distributions]]
+* [[Proto PMF]]
+	* [[Proto Distributions]]
 
 ## Backlinks
 * [[Proto Distributions]]

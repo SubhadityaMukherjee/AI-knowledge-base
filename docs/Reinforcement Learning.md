@@ -9,6 +9,5 @@ title: Reinforcement Learning
 ## Backlinks
 * [[Index]]
 	* [[Reinforcement Learning]]
-	* [[Reinforcement Learning]]
 
 ## …

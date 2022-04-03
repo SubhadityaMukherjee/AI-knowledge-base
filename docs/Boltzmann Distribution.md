@@ -11,11 +11,10 @@ title: Boltzmann Distribution
 	* [[Boltzmann Distribution]]
 
 ## Backlinks
-* [[Boltzmann Distribution]]
-	* [[Boltzmann Distribution]]
-* [[Markov Random Field]]
-	* [[Boltzmann Distribution]]
 * [[Distributions]]
+	* [[Boltzmann Distribution]]
+* [[Boltzmann Distribution]]
 	* [[Boltzmann Distribution]]
 * [[Restricted Boltzmann Machine]]
 	* [[Boltzmann Distribution]]
+

@@ -6,3 +6,7 @@ title: Types of Uncertainty
 - [[Aleatoric]]
 - [[Epistemic]]
 - [[Predictive Uncertainty]]
+## Backlinks
+* [[Epistemic]]
+	* [[Types of Uncertainty]]
+

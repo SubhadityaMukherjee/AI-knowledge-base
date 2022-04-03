@@ -43,7 +43,7 @@ title: PCA
 ## Backlinks
 * [[Dimensionality Reduction]]
 	* [[PCA]]
-* [[Unsupervised]]
+* [[Unsupervised Learning]]
 	* [[PCA]]
 
 ## …

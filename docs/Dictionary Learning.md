@@ -16,3 +16,7 @@ title: Dictionary Learning
 
 - After learning, these can be used as discriminative features
 	- Expensive to compute
+## Backlinks
+* [[Feature Learning]]
+	* [[Dictionary Learning]]
+

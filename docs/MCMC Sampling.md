@@ -8,3 +8,7 @@ title: MCMC Sampling
 - [[Detailed Balance]]
 	- Sufficient but not necessary for Markov chain to be a sampler for g
 - [[Factors for MC estimate]]
+## Backlinks
+* [[Sampling]]
+	* [[MCMC Sampling]]
+

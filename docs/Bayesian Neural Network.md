@@ -10,3 +10,7 @@ title: Bayesian Neural Network
 	- Model is now defined by structure and parameters
 - The parameters encode information about uncertainty
 	- Can be understood using [[Bayesian Predictive Posterior]]
+## Backlinks
+* [[Uncertainty]]
+	* [[Bayesian Neural Network]]
+

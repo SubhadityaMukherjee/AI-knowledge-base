@@ -11,13 +11,11 @@ title: Sampling
 - [[Gibbs Sampler]]
 
 ## Backlinks
-* [[MCMC Sampling]]
-	* [[Sampling]]
 * [[Rejection Sampling]]
 	* [[Sampling]]
-* [[Sampler]]
-	* [[Sampling]]
 * [[Uniform Sampling]]
+	* [[Sampling]]
+* [[Sampler]]
 	* [[Sampling]]
 * [[Fundamentals]]
 	* [[Sampling]]

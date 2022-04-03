@@ -15,3 +15,9 @@ title: Unsupervised Learning
 - [[Auto Encoders]]
 
 ## …
+## Backlinks
+* [[Fundamentals]]
+	* [[Unsupervised Learning]]
+* [[Self Supervised]]
+	* Subset of [[Unsupervised Learning]]
+

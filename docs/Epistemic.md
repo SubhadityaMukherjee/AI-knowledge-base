@@ -12,8 +12,8 @@ title: Epistemic
 	* [[Epistemic]]
 
 ## Backlinks
-* [[Types of Uncertainty]]
-	* [[Epistemic]]
-	* [[Epistemic]]
 * [[Epistemic]]
 	* [[Epistemic]]
+* [[Types of Uncertainty]]
+	* [[Epistemic]]
+

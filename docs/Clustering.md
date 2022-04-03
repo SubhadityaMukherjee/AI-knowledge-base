@@ -7,7 +7,7 @@ title: Clustering
 - [[SOMs]]
 
 ## Backlinks
-* [[Unsupervised]]
+* [[Unsupervised Learning]]
 	* [[Clustering]]
 
 ## …

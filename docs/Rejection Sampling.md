@@ -19,11 +19,12 @@ title: Rejection Sampling
 	* [[Rejection Sampling]]
 
 ## Backlinks
-* [[Sampling]]
-	* [[Rejection Sampling]]
 * [[Rejection Sampling]]
+	* [[Rejection Sampling]]
+* [[Sampling]]
 	* [[Rejection Sampling]]
 * [[CDF]]
 	* [[Rejection Sampling]]
 * [[Proto PDF]]
 	* [[Rejection Sampling]]
+

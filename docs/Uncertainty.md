@@ -13,9 +13,9 @@ title: Uncertainty
 - [[Quantifying Uncertainty]]
 
 ## Backlinks
-* [[Entropy]]
-	* [[Uncertainty]]
 * [[Index]]
+	* [[Uncertainty]]
+* [[Entropy]]
 	* [[Uncertainty]]
 
 ## …

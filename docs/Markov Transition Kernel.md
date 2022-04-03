@@ -8,3 +8,7 @@ title: Markov Transition Kernel
 - First get a value from a random drow from $P_{X_{1}}$
 - Then get the next from the distribution which is specified by the transition kernel
 - ![[Pasted image 20220324124409.png]]
+## Backlinks
+* [[Markov Chain]]
+	* [[Markov Transition Kernel]]
+

@@ -11,7 +11,14 @@ title: Proto PDF
 ## Backlinks
 * [[Proto Distributions]]
 	* [[Proto PDF]]
+	* [[Proto PDF]]
 * [[Rejection Sampling]]
+	* Now if we can take a [[Proto PDF]] $g\_{0} \\geq f$  where we can sample from the pdf g
+* [[Proto PDF]]
+	* Now if we can take a [[Proto PDF]] $g\_{0} \\geq f$  where we can sample from the pdf g
+	* [[Proto PDF]]
+	* [[Proto PDF]]
+	* [[Proto PDF]]
 	* Now if we can take a [[Proto PDF]] $g\_{0} \\geq f$  where we can sample from the pdf g
 
 ## Backlinks

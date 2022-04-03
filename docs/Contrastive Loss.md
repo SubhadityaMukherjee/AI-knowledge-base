@@ -14,6 +14,8 @@ title: Contrastive Loss
 	- Labeled points $$(y,x_1,x_2)$$ are generated
 
 ## Backlinks
+* [[Feature Learning]]
+	* [[Contrastive Loss]]
 * [[Semi Supervised]]
 	* [[Contrastive Loss]]
 * [[Loss Functions]]

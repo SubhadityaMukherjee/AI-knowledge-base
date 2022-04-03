@@ -18,13 +18,13 @@ title: Regularization
 - [[Pruning]]
 
 ## Backlinks
+* [[Index]]
+	* [[Regularization]]
 * [[Pruning]]
 	* [[Regularization]]
 * [[Freedom]]
 	* Solution : [[Regularization]]
 * [[Tuning Model Flexibility]]
-	* [[Regularization]]
-* [[Index]]
 	* [[Regularization]]
 * [[Vanishing/exploding #gradients]]
 	* [[Regularization]] , [[Optimizers]] , [[Architectures]]

@@ -4,7 +4,7 @@ title: Linear Regression
 
 # Linear Regression
 - Minimization problem $$(w,b) = argmin_{w^{\ast} , b^{\ast}} \Sigma^N_{i-1}(w^{\ast}x_{i} +b ^{\ast} - y_{i})^2$$
-	- b is a bias term which is padded at the end, size 1 : affine linear function
+	- [[Affine Function]]
 	- $$w = argmin_{w^\ast} || (\Sigma^n_{j = 1} w^\ast_j \phi_j) - y || ^2$$
 		- w* is just $$(w^\ast_1 … w^\ast_n)$$
 		- $$u_j$$ of U forms orthonormal basis of $$\mathscr{F}$$

@@ -1,0 +1,12 @@
+---
+title: Median Filter
+---
+
+# Median Filter
+- Values are replaced by the median in a local surrounding
+- non linear
+- preserves edges
+## Backlinks
+* [[Noise Suppression]]
+	* [[Median Filter]]
+

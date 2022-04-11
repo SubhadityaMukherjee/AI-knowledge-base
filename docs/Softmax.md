@@ -17,10 +17,10 @@ title: Softmax
 - Lower -> Harder. More confident
 
 ## Backlinks
-* [[Recurrent]]
-	* [[Softmax]] but on every output vector simultaneously
 * [[Uncertainty]]
 	* Most networks are overconfident - [[Softmax]] confidences do not have a good probabilistic interpretation. Wrong predictions with more confidence
+* [[Recurrent]]
+	* [[Softmax]] but on every output vector simultaneously
 * [[Activation Functions]]
 	* [[Softmax]]
 * [[Uncertainty Classification]]

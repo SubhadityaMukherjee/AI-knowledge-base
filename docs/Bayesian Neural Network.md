@@ -14,3 +14,11 @@ title: Bayesian Neural Network
 * [[Uncertainty]]
 	* [[Bayesian Neural Network]]
 
+## Backlinks
+* [[Uncertainty]]
+	* [[Bayesian Neural Network]]
+* [[Bayesian Neural Network]]
+	* [[Bayesian Neural Network]]
+* [[Bayesian Predictive Posterior]]
+	* [[Bayesian Neural Network]]
+

@@ -13,9 +13,9 @@ title: CDF
 ## Backlinks
 * [[Rejection Sampling]]
 	* No [[CDF]] with a simple inverse
+* [[Uniform Sampling]]
+	* [[CDF]]
 * [[CDF]]
 	* No [[CDF]] with a simple inverse
-	* [[CDF]]
-* [[Uniform Sampling]]
 	* [[CDF]]
 

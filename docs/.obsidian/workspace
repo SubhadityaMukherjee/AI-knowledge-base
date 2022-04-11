@@ -7,8 +7,12 @@
         "id": "60657ffa50ca7f61",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Visualization.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "67b2794baf41f722",
@@ -65,6 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Visualization.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -87,7 +93,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7218226579940036,
+                  "scale": 0.24367811381805718,
                   "close": true
                 }
               }
@@ -98,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Visualization.md"
+              }
             }
           },
           {
@@ -107,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Visualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,6 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Visualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,19 +204,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 526.7973022460938
+    "width": 181.5284423828125
   },
   "active": "60657ffa50ca7f61",
   "lastOpenFiles": [
-    "Discrete -> Continous Transforms.md",
-    "Discrete -> Continuous.md",
-    "Reinforcement Learning.md",
-    "Markov Chain.md",
-    "Markov Random Field.md",
-    "Markov for Continuous Distributions.md",
-    "Markov Transition Kernel.md",
-    "Markov Initial Distribution.md",
-    "architectures/Auto Encoders.md",
-    "AutoEncoder.md"
+    "Visualization.md",
+    "Particle Visualization.md",
+    "Mapping to Geometry.md",
+    "Contour.md",
+    "Isoline.md",
+    "Marching Squares.md",
+    "Midpoint Decider.md",
+    "Asymptotic Decider.md",
+    "Isosurface.md",
+    "Height Plots.md"
   ]
 }

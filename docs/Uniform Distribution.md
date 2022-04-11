@@ -8,11 +8,11 @@ title: Uniform Distribution
 - No need to learn, no shape that can be specified
 
 ## Backlinks
+* [[Entropy]]
+	* [[Uniform Distribution]] maximizes entropy. Results harder to predict
 * [[Distributions]]
 	* [[Uniform Distribution]]
 * [[Uniform Sampling]]
 	* [[Uniform Distribution]]
-* [[Entropy]]
-	* [[Uniform Distribution]] maximizes entropy. Results harder to predict
 
 ## …

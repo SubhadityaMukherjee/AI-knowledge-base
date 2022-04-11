@@ -14,3 +14,11 @@ title: Aleatoric
 * [[Types of Uncertainty]]
 	* [[Aleatoric]]
 
+## Backlinks
+* [[Types of Uncertainty]]
+	* [[Aleatoric]]
+* [[Aleatoric]]
+	* [[Aleatoric]]
+* [[Heteroscedatic]]
+	* [[Aleatoric]]
+

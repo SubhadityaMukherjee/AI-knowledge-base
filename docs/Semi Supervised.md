@@ -12,6 +12,8 @@ title: Semi Supervised
 #anchor
 
 ## Backlinks
+* [[Max Margin Loss]]
+	* [[Semi Supervised]]
 * [[Fundamentals]]
 	* [[Semi Supervised]]
 

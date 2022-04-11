@@ -24,10 +24,10 @@ title: Proto Distributions
 	* [[Proto Distributions]]
 	* [[Proto Distributions]]
 	* [[Proto Distributions]] on $\\theta$ space
-* [[Bayesian Posterior]]
-	* [[Proto Distributions]] on $\\theta$ space
 * [[Proto PDF]]
 	* [[Proto Distributions]]
+* [[Bayesian Posterior]]
+	* [[Proto Distributions]] on $\\theta$ space
 * [[Proto PMF]]
 	* [[Proto Distributions]]
 

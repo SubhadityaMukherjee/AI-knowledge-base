@@ -4,6 +4,8 @@ title: SiteMap
 
 # SiteMap
 - [[DeepLearning]]
+- [[Robotics]]
+- [[Visualization]]
 - [[Ethics]]
 
 ## Links

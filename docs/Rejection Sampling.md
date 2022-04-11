@@ -19,9 +19,9 @@ title: Rejection Sampling
 	* [[Rejection Sampling]]
 
 ## Backlinks
-* [[Rejection Sampling]]
-	* [[Rejection Sampling]]
 * [[Sampling]]
+	* [[Rejection Sampling]]
+* [[Rejection Sampling]]
 	* [[Rejection Sampling]]
 * [[CDF]]
 	* [[Rejection Sampling]]

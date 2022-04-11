@@ -14,3 +14,15 @@ title: Max Margin Loss
 * [[Loss Functions]]
 	* [[Max Margin Loss]]
 
+## Backlinks
+* [[Feature Learning]]
+	* [[Max Margin Loss]]
+* [[Max Margin Loss]]
+	* [[Max Margin Loss]]
+	* [[Max Margin Loss]]
+	* [[Max Margin Loss]]
+* [[Semi Supervised]]
+	* [[Max Margin Loss]]
+* [[Loss Functions]]
+	* [[Max Margin Loss]]
+

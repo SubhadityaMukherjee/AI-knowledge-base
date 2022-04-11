@@ -8,4 +8,7 @@ title: Encoding
 
 ## [[Continous -> Discrete]]
 
-## [[Position Encoding]]
+## [[Position Encoding]]## Backlinks
+* [[Position Encoding]]
+	* [[Encoding]]
+

@@ -9,3 +9,9 @@ title: Markov Initial Distribution
 * [[Markov Chain]]
 	* [[Markov Initial Distribution]]
 
+## Backlinks
+* [[Markov Chain]]
+	* [[Markov Initial Distribution]]
+* [[Markov Initial Distribution]]
+	* [[Markov Initial Distribution]]
+

@@ -11,6 +11,8 @@ title: Sampling
 - [[Gibbs Sampler]]
 
 ## Backlinks
+* [[MCMC Sampling]]
+	* [[Sampling]]
 * [[Rejection Sampling]]
 	* [[Sampling]]
 * [[Uniform Sampling]]

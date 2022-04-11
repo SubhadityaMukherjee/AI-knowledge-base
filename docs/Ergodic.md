@@ -12,3 +12,14 @@ title: Ergodic
 * [[Detailed Balance]]
 	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
 
+## Backlinks
+* [[Markov Chain]]
+	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
+* [[Detailed Balance]]
+	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
+* [[Ergodic]]
+	* [[Ergodic]]
+	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
+* [[Invariant Distribution]]
+	* [[Ergodic]]
+

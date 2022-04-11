@@ -20,3 +20,9 @@ title: Dictionary Learning
 * [[Feature Learning]]
 	* [[Dictionary Learning]]
 
+## Backlinks
+* [[Feature Learning]]
+	* [[Dictionary Learning]]
+* [[Dictionary Learning]]
+	* [[Dictionary Learning]]
+

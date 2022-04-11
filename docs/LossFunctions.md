@@ -33,3 +33,7 @@ title: Loss Functions
 - [[Max Margin Loss]]
 
 ## …
+## Backlinks
+* [[Max Margin Loss]]
+	* [[Loss Functions]]
+

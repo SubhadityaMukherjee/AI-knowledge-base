@@ -12,3 +12,15 @@ title: Detailed Balance
 * [[MCMC Sampling]]
 	* [[Detailed Balance]]
 
+## Backlinks
+* [[Markov Chain]]
+	* [[Detailed Balance]]
+* [[Detailed Balance]]
+	* [[Detailed Balance]]
+* [[Ergodic]]
+	* [[Detailed Balance]]
+* [[Invariant Distribution]]
+	* [[Detailed Balance]]
+* [[MCMC Sampling]]
+	* [[Detailed Balance]]
+

@@ -1,5 +1,5 @@
 ---
-title: {{title}}
+title: <% tp.file.title %>
 ---
 
-# {{title}}
+# <% tp.file.title %>

@@ -12,3 +12,9 @@ title: Markov Transition Kernel
 * [[Markov Chain]]
 	* [[Markov Transition Kernel]]
 
+## Backlinks
+* [[Markov Chain]]
+	* [[Markov Transition Kernel]]
+* [[Markov Transition Kernel]]
+	* [[Markov Transition Kernel]]
+

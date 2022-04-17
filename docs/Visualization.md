@@ -7,9 +7,9 @@ title: Visualization
 - [[Filtering]]
 - [[ColorMap]]
 - [[Region Growing]]
-- [[Differentiation on cartesian grids]]
 - [[Mapping to Geometry]]
 - [[Particle Visualization]]
+- [[Volume Visualization]]
 #anchor 
 
 

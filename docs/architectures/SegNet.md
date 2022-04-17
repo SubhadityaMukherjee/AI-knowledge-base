@@ -7,3 +7,5 @@ title: Seg Net
 - No Skip connections
 
 
+
+

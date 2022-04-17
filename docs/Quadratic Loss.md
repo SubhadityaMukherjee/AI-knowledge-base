@@ -8,6 +8,8 @@ title: Quadratic Loss
 
 
 
+
+
 ## Backlinks
 * [[Window Based Regression]]
 	* Flatten into $$d \\cdot k$$ vector and apply [[Quadratic Loss]]

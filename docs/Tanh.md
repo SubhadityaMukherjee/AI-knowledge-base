@@ -9,6 +9,8 @@ title: Tanh
 
 
 
+
+
 ## Backlinks
 * [[Activation Functions]]
 	* [[Tanh]]

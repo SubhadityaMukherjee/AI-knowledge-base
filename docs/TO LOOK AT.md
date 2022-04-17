@@ -10,3 +10,5 @@ title: To Look at
 - https://notesonai.com/Layer+Normalization
 
 
+
+

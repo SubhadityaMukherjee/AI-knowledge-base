@@ -20,6 +20,8 @@ title: Batch Normalization
 
 
 
+
+
 ## Backlinks
 * [[Regularization]]
 	* [[Batch Normalization]]

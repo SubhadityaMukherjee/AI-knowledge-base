@@ -8,6 +8,8 @@ title: Vectorization
 
 
 
+
+
 ## Backlinks
 * [[Optimizing Work]]
 	* [[Vectorization]]

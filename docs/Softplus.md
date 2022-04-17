@@ -7,6 +7,8 @@ title: Softplus
 
 
 
+
+
 ## Backlinks
 * [[Activation Functions]]
 	* [[Softplus]]

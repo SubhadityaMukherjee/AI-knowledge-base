@@ -11,7 +11,11 @@ title: Asymptotic Decider
 
 
 
+
+
 ## Backlinks
+* [[Marching Cubes]]
+	* [[Asymptotic Decider]]
 * [[Marching Squares]]
 	* [[Asymptotic Decider]]
 

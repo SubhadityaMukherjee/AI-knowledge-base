@@ -11,6 +11,8 @@ title: Bayesian Predictive Posterior
 
 
 
+
+
 ## Backlinks
 * [[Bayesian Neural Network]]
 	* Can be understood using [[Bayesian Predictive Posterior]]

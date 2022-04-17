@@ -13,6 +13,8 @@ title: Dirac Delta
 
 
 
+
+
 ## Backlinks
 * [[Point Distribution]]
 	* [[Dirac Delta]]

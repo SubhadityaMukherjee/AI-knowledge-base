@@ -18,6 +18,8 @@ title: Fundamentals
 
 
 
+
+
 ## Backlinks
 * [[Index]]
 	* [[Fundamentals]]

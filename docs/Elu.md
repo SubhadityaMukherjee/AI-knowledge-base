@@ -7,6 +7,8 @@ title: Elu
 
 
 
+
+
 ## Backlinks
 * [[Activation Functions]]
 	* [[Elu]]

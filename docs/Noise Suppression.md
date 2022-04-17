@@ -7,9 +7,11 @@ title: Noise Suppression
 (such as organs in medical imaging data)  
 -improve the detectability of edges between big structures,  
 - preserve small scale structures
-- [[Conv Based Noise Reduction]]
+![[Pasted image 20220418000525.png]]- [[Conv Based Noise Reduction]]
 - [[Average Filter]]
 - [[Gaussian Filter]]
+- [[Mesh Smoothing]]
+- [[Laplacian Grid Smoothing]]
 
 
 

@@ -8,7 +8,11 @@ title: Midpoint Decider
 
 
 
+
+
 ## Backlinks
+* [[Marching Cubes]]
+	* [[Midpoint Decider]]
 * [[Marching Squares]]
 	* [[Midpoint Decider]]
 

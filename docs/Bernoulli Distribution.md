@@ -9,6 +9,8 @@ title: Bernoulli Distribution
 
 
 
+
+
 ## Backlinks
 * [[Distributions]]
 	* [[Bernoulli Distribution]]

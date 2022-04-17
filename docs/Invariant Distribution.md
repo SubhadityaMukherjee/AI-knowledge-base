@@ -10,6 +10,8 @@ title: Invariant Distribution
 
 
 
+
+
 ## Backlinks
 * [[Markov for Continuous Distributions]]
 	* [[Invariant Distribution]]

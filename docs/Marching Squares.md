@@ -12,7 +12,11 @@ title: Marching Squares
 
 
 
+
+
 ## Backlinks
+* [[Marching Cubes]]
+	* 3D version of [[Marching Squares]]
 * [[Isoline]]
 	* [[Marching Squares]]
 

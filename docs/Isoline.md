@@ -16,7 +16,11 @@ title: Isoline
 
 
 
+
+
 ## Backlinks
+* [[Orthogonal Slicing]]
+	* Use visualization techniques for [[Isoline]], [[Height Plots]]
 * [[Contours]]
 	* [[Isoline]]
 

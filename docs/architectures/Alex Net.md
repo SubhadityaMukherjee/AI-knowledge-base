@@ -9,6 +9,8 @@ title: Alex Net
 
 
 
+
+
 ## Backlinks
 * [[Vgg]]
 	* Deeper [[Alex Net]]

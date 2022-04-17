@@ -13,3 +13,5 @@ title: Variational Autoencoder
 - Encoder predicts mean and std $$E(x_i) = (\mu(x_i) , log \sigma(x_i))$$
 
 
+
+

@@ -1,7 +1,0 @@
----
-title: Noise
----
-
-# Noise
-
-

@@ -18,6 +18,8 @@ title: Rejection Sampling
 
 
 
+
+
 ## Backlinks
 * [[Sampling]]
 	* [[Rejection Sampling]]

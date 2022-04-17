@@ -7,6 +7,8 @@ title: CDF
 
 
 
+
+
 ## Backlinks
 * [[Rejection Sampling]]
 	* No [[CDF]] with a simple inverse

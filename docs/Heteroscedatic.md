@@ -8,6 +8,8 @@ title: Heteroscedatic
 
 
 
+
+
 ## Backlinks
 * [[Aleatoric]]
 	* [[Heteroscedatic]]

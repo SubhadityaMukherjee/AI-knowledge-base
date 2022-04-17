@@ -8,6 +8,8 @@ title: Absolute Error
 
 
 
+
+
 ## Backlinks
 * [[Loss Functions]]
 	* [[Absolute Error]]

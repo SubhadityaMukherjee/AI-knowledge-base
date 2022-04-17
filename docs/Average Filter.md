@@ -10,6 +10,8 @@ title: Average Filter
 
 
 
+
+
 ## Backlinks
 * [[Noise Suppression]]
 	* [[Average Filter]]

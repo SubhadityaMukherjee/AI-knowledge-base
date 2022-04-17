@@ -15,3 +15,5 @@ title: Binary Pattern Encoding
 
 
 
+
+

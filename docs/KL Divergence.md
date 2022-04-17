@@ -19,6 +19,8 @@ Finally KLD $$entropy + crossentropyloss$$
 
 
 
+
+
 ## Backlinks
 * [[Loss Functions]]
 	* [[KL Divergence]]

@@ -14,6 +14,8 @@ title: Strided
 
 
 
+
+
 ## Backlinks
 * [[Convnd]]
 	* [[Strided]]

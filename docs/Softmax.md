@@ -20,6 +20,8 @@ title: Softmax
 
 
 
+
+
 ## Backlinks
 * [[Recurrent]]
 	* [[Softmax]] but on every output vector simultaneously

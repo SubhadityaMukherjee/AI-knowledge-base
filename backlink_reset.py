@@ -10,7 +10,7 @@ main_dir = Path("./docs/")
 files = glob(str(main_dir) + "/**/*.md", recursive=True)
 files.sort()
 #%%
-files
+# files
 # %%
 
 for i in files:
@@ -23,7 +23,7 @@ for i in files:
             else:
                 line_end += line
     line_end += "\n\n"
-    print(line_end)
+    # print(line_end)
     # break
     with open(i, "w+") as f:
         f.write(line_end)

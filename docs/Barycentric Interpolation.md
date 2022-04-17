@@ -10,6 +10,8 @@ title: Barycentric Interpolation
 
 
 
+
+
 ## Backlinks
 * [[Interpolation]]
 	* [[Barycentric Interpolation]]

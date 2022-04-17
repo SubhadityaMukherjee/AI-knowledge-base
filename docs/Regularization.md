@@ -21,6 +21,8 @@ title: Regularization
 
 
 
+
+
 ## Backlinks
 * [[Freedom]]
 	* Solution : [[Regularization]]

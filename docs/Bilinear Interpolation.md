@@ -10,6 +10,8 @@ title: Bilinear Interpolation
 
 
 
+
+
 ## Backlinks
 * [[Interpolation]]
 	* [[Bilinear Interpolation]]

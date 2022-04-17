@@ -13,6 +13,8 @@ title: Adagrad
 
 
 
+
+
 ## Backlinks
 * [[Optimization]]
 	* [[Adagrad]]

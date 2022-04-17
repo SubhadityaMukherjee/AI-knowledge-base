@@ -11,6 +11,8 @@ title: Uniform Distribution
 
 
 
+
+
 ## Backlinks
 * [[Entropy]]
 	* [[Uniform Distribution]] maximizes entropy. Results harder to predict

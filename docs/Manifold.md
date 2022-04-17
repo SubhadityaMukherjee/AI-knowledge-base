@@ -32,6 +32,8 @@ title: Manifold
 
 
 
+
+
 ## Backlinks
 * [[Challenge of Complex Geometry]]
 	* [[Manifold]]

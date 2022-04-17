@@ -10,6 +10,8 @@ title: Ergodic
 
 
 
+
+
 ## Backlinks
 * [[Invariant Distribution]]
 	* [[Ergodic]]

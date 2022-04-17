@@ -16,6 +16,8 @@ title: Frequentist
 
 
 
+
+
 ## Backlinks
 * [[Probability]]
 	* [[Frequentist]]

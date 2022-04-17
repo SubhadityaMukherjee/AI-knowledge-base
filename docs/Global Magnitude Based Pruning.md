@@ -9,6 +9,8 @@ title: Global Magnitude Based Pruning
 
 
 
+
+
 ## Backlinks
 * [[Pruning]]
 	* [[Global Magnitude Based Pruning]]

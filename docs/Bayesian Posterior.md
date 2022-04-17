@@ -17,6 +17,8 @@ title: Bayesian Posterior
 
 
 
+
+
 ## Backlinks
 * [[Bayesian Model Estimation]]
 	* [[Bayesian Posterior]]

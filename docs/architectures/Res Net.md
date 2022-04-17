@@ -15,6 +15,8 @@ title: Res Net
 
 
 
+
+
 ## Backlinks
 * [[Dense Net]]
 	* Generalized [[Res Net]]

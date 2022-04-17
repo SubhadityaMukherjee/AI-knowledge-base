@@ -14,6 +14,8 @@ title: Bayesian Neural Network
 
 
 
+
+
 ## Backlinks
 * [[Uncertainty]]
 	* [[Bayesian Neural Network]]

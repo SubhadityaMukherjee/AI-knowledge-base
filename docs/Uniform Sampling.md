@@ -9,15 +9,5 @@ title: Uniform Sampling
 	- Coordinate transform
 	- [[CDF]]
 	- Get a sampler for by $$X_{i} = \varphi^{-1}\circ U_{i}$$
-	- ![[Pasted image 20220324113838.png]]## Backlinks
-* [[Sampling]]
-	* [[Uniform Sampling]]
-
-## Backlinks
-* [[Sampling]]
-	* [[Uniform Sampling]]
-* [[Uniform Sampling]]
-	* [[Uniform Sampling]]
-* [[CDF]]
-	* [[Uniform Sampling]]
+	- ![[Pasted image 20220324113838.png]] 
 

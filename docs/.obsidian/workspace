@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Visualization.md",
+            "file": "Bayesian Model Estimation.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "67b2794baf41f722",
@@ -70,7 +69,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Visualization.md",
+                "file": "Bayesian Model Estimation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Visualization.md"
+                "file": "Bayesian Model Estimation.md"
               }
             }
           },
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Visualization.md",
+                "file": "Bayesian Model Estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Visualization.md",
+                "file": "Bayesian Model Estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,15 +207,15 @@
   },
   "active": "60657ffa50ca7f61",
   "lastOpenFiles": [
-    "Visualization.md",
-    "Particle Visualization.md",
-    "Mapping to Geometry.md",
-    "Contour.md",
-    "Isoline.md",
-    "Marching Squares.md",
-    "Midpoint Decider.md",
+    "Bayesian Model Estimation.md",
     "Asymptotic Decider.md",
-    "Isosurface.md",
-    "Height Plots.md"
+    "Uniform Distribution.md",
+    "Softmax.md",
+    "Semi Supervised.md",
+    "Sampling.md",
+    "Quadratic Loss.md",
+    "Visualization.md",
+    "Region Growing.md",
+    "Particle Visualization.md"
   ]
 }

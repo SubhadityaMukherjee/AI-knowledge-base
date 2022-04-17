@@ -16,13 +16,4 @@ title: Transformer
 - [[BERT]]
 
 - [[GPT]]
-## Backlinks
-* [[Attention]]
-	* [[Transformer]]
-
-## Backlinks
-* [[Attention]]
-	* [[Transformer]]
-* [[Transformer]]
-	* [[Transformer]]
 

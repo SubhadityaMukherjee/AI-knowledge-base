@@ -20,13 +20,5 @@ title: Time Series Prediction
 	- PDE , ODE
 - Long range
 	- [[HMM]]
-	- [[Recurrent]]## Backlinks
-* [[Recurrent]]
-	* [[Time Series Prediction]]
-
-## Backlinks
-* [[Recurrent]]
-	* [[Time Series Prediction]]
-* [[Time Series Prediction]]
-	* [[Time Series Prediction]]
+	- [[Recurrent]]
 

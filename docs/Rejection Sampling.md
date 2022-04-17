@@ -14,17 +14,5 @@ title: Rejection Sampling
 - Drop a point from $g_{0}(x)$ with that probability
 - Depends on how close g is to f of course
 - ![[Pasted image 20220324114746.png]]
-	- If the ratio $\frac{f}{g_{0}}$ is small. (aka f is bigger), then there are many rejections and the algo will be slow. Impossible to not do in high dim spaces## Backlinks
-* [[Sampling]]
-	* [[Rejection Sampling]]
-
-## Backlinks
-* [[Sampling]]
-	* [[Rejection Sampling]]
-* [[Rejection Sampling]]
-	* [[Rejection Sampling]]
-* [[CDF]]
-	* [[Rejection Sampling]]
-* [[Proto PDF]]
-	* [[Rejection Sampling]]
+	- If the ratio $\frac{f}{g_{0}}$ is small. (aka f is bigger), then there are many rejections and the algo will be slow. Impossible to not do in high dim spaces
 

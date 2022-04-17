@@ -10,10 +10,6 @@ title: Initialization
 
 
 
-
-
-
-
 ## Backlinks
 * [[Activation Functions]]
 	* [[Initialization]]

@@ -16,10 +16,6 @@ title: Basics of Federated Learning
 
 
 
-
-
-
-
 ## Backlinks
 * [[Federated Learning]]
 	* [[Basics of Federated Learning]]

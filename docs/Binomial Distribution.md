@@ -13,10 +13,6 @@ title: Binomial Distribution
 
 
 
-
-
-
-
 ## Backlinks
 * [[Distributions]]
 	* [[Binomial Distribution]]

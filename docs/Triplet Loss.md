@@ -13,10 +13,6 @@ title: Triplet Loss
 
 
 
-
-
-
-
 ## Backlinks
 * [[Feature Learning]]
 	* [[Triplet Loss]]

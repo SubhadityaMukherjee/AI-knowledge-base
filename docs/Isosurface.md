@@ -6,9 +6,6 @@ title: Isosurface
 
 
 
-
-
-
 ## Backlinks
 * [[Contours]]
 	* [[Isosurface]]

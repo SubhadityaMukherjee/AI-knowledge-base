@@ -18,10 +18,6 @@ title: Backprop
 
 
 
-
-
-
-
 ## Backlinks
 * [[Gradient Descent #gradients]]
 	* [[Backprop]]

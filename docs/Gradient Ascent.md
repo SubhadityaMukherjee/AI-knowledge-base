@@ -9,10 +9,6 @@ title: Gradient Ascent
 
 
 
-
-
-
-
 ## Backlinks
 * [[Contrastive Loss]]
 	* Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]

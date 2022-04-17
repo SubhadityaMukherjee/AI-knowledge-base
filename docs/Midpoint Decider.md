@@ -8,9 +8,6 @@ title: Midpoint Decider
 
 
 
-
-
-
 ## Backlinks
 * [[Marching Squares]]
 	* [[Midpoint Decider]]

@@ -7,9 +7,6 @@ title: Filtering
 
 
 
-
-
-
 ## Backlinks
 * [[Visualization]]
 	* [[Filtering]]

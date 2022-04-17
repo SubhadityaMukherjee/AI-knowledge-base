@@ -32,7 +32,3 @@ title: Gradient Descent #gradients
 ## …
 
 
-
-
-
-

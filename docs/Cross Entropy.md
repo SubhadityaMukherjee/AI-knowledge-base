@@ -18,10 +18,6 @@ title: Cross Entropy
 
 
 
-
-
-
-
 ## Backlinks
 * [[KL Divergence]]
 	* Entropy + [[Cross Entropy]]

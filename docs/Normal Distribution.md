@@ -25,10 +25,6 @@ title: Normal Distribution
 
 
 
-
-
-
-
 ## Backlinks
 * [[Distributions]]
 	* [[Normal Distribution]]

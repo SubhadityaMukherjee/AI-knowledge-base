@@ -18,8 +18,3 @@ title: Transformer
 - [[GPT]]
 
 
-
-
-
-
-

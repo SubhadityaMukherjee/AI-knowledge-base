@@ -10,7 +10,3 @@ title: Finite Differences
 - Central differences $$f'(x) = \frac{f(x_{i+1})-f(x_{i-1})}{2\Delta x}$$
 
 
-
-
-
-

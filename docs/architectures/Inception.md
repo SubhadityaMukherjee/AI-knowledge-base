@@ -14,10 +14,6 @@ title: Inception
 
 
 
-
-
-
-
 ## Backlinks
 * [[Xception]]
 	* Only use [[Depthwise Separable]] convs + [[Inception]] modules

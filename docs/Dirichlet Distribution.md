@@ -9,10 +9,6 @@ title: Dirichlet Distribution
 
 
 
-
-
-
-
 ## Backlinks
 * [[Distributions]]
 	* [[Dirichlet Distribution]]

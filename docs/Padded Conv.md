@@ -9,10 +9,6 @@ title: Padded Conv
 
 
 
-
-
-
-
 ## Backlinks
 * [[Convnd]]
 	* [[Padded Conv]]

@@ -7,9 +7,6 @@ title: Grids
 
 
 
-
-
-
 ## Backlinks
 * [[Data Structures]]
 	* [[Grids]]

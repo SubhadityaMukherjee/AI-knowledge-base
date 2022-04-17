@@ -22,10 +22,6 @@ title: Lp Regularization
 
 
 
-
-
-
-
 ## Backlinks
 * [[Regularization]]
 	* [[Lp Regularization]]

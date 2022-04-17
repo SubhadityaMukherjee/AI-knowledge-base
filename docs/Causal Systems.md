@@ -9,10 +9,6 @@ title: Causal Systems
 
 
 
-
-
-
-
 ## Backlinks
 * [[Temporal Learning]]
 	* [[Causal Systems]]

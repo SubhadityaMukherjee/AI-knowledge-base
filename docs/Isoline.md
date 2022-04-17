@@ -16,9 +16,6 @@ title: Isoline
 
 
 
-
-
-
 ## Backlinks
 * [[Contours]]
 	* [[Isoline]]

@@ -8,7 +8,3 @@ title: Sparse Dict Learning Loss
 - Predictions :  $$r = argmin_r ||x- Dr_i ||^2 + \lambda \Sigma_i |r_i|$$
 
 
-
-
-
-

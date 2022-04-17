@@ -8,10 +8,6 @@ title: Cosine Similarity
 
 
 
-
-
-
-
 ## Backlinks
 * [[Loss Functions]]
 	* [[Cosine Similarity]]

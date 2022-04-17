@@ -7,10 +7,6 @@ title: Layerwise Gradient Magnitude Based Pruning
 
 
 
-
-
-
-
 ## Backlinks
 * [[Pruning]]
 	* [[Layerwise Gradient Magnitude Based Pruning]]

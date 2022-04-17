@@ -23,10 +23,6 @@ title: Bayesian Prior
 
 
 
-
-
-
-
 ## Backlinks
 * [[Bayesian Model Estimation]]
 	* [[Bayesian Prior]]

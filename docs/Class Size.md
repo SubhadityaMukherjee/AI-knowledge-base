@@ -8,10 +8,6 @@ title: Class Size
 
 
 
-
-
-
-
 ## Backlinks
 * [[Tuning Model Flexibility]]
 	* [[Class Size]]

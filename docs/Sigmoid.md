@@ -13,10 +13,6 @@ title: Sigmoid
 
 
 
-
-
-
-
 ## Backlinks
 * [[Activation Functions]]
 	* [[Sigmoid]]

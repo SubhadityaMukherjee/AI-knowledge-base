@@ -9,9 +9,6 @@ title: Boltzmann Distribution
 
 
 
-
-
-
 ## Backlinks
 * [[Distributions]]
 	* [[Boltzmann Distribution]]

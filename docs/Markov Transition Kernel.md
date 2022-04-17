@@ -11,9 +11,6 @@ title: Markov Transition Kernel
 
 
 
-
-
-
 ## Backlinks
 * [[Markov Chain]]
 	* [[Markov Transition Kernel]]

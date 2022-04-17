@@ -11,10 +11,6 @@ title: Dense Skip Connections
 
 
 
-
-
-
-
 ## Backlinks
 * [[Layers]]
 	* [[Dense Skip Connections]]

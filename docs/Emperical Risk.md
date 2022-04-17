@@ -21,10 +21,6 @@ title: Emperical Risk
 
 
 
-
-
-
-
 ## Backlinks
 * [[Cross Validation]]
 	* Get model with min [[Emperical Risk]]

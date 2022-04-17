@@ -35,7 +35,3 @@ title: Loss Functions
 ## …
 
 
-
-
-
-

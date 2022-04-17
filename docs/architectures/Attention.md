@@ -17,9 +17,6 @@ title: Attention
 
 
 
-
-
-
 ## Backlinks
 * [[Transformer]]
 	* [[Attention]]

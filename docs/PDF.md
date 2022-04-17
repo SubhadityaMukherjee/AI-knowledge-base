@@ -9,6 +9,3 @@ title: Probability Density Function
     - eg. 1 when heads and 0 when tails
 
 
-
-
-

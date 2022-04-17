@@ -9,9 +9,6 @@ title: Max Margin Loss
 
 
 
-
-
-
 ## Backlinks
 * [[Feature Learning]]
 	* [[Max Margin Loss]]

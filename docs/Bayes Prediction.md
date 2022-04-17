@@ -11,10 +11,6 @@ title: Bayes Prediction
 
 
 
-
-
-
-
 ## Backlinks
 * [[Bayesian]]
 	* [[Bayes Prediction]]

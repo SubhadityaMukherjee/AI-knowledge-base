@@ -7,10 +7,6 @@ title: Maxout
 
 
 
-
-
-
-
 ## Backlinks
 * [[Activation Functions]]
 	* [[Maxout]]

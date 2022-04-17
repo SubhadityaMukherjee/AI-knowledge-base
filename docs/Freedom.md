@@ -13,10 +13,6 @@ title: Freedom
 
 
 
-
-
-
-
 ## Backlinks
 * [[Issues]]
 	* [[Freedom]]

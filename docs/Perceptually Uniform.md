@@ -7,7 +7,3 @@ title: Perceptually Uniform
 - e.g., CIELUV,CIELAB, (L*,a*,b*).
 
 
-
-
-
-

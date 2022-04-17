@@ -3,11 +3,6 @@ title: Operator Fusion
 ---
 
 # Operator Fusion
-- 
-
-
-
-
 
 
 

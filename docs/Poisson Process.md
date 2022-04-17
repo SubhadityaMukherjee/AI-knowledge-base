@@ -7,10 +7,6 @@ title: Poisson Process
 
 
 
-
-
-
-
 ## Backlinks
 * [[Spiking Networks]]
 	* [[Poisson Process]]

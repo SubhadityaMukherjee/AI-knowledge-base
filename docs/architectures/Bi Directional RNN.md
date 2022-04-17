@@ -10,10 +10,6 @@ title: Bi Directional RNN
 
 
 
-
-
-
-
 ## Backlinks
 * [[Basic RNN Architectures]]
 	* [[Bi Directional RNN]]

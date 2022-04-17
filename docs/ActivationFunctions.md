@@ -26,7 +26,3 @@ title: Activation Functions
 ## …
 
 
-
-
-
-

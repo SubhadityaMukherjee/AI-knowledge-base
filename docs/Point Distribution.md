@@ -10,10 +10,6 @@ title: Point Distribution
 
 
 
-
-
-
-
 ## Backlinks
 * [[Distributions]]
 	* [[Point Distribution]]

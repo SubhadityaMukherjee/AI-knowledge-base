@@ -15,10 +15,6 @@ title: Window Based Regression
 
 
 
-
-
-
-
 ## Backlinks
 * [[Linear Regression]]
 	* [[Window Based Regression]]

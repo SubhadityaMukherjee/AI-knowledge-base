@@ -7,10 +7,6 @@ title: Swish
 
 
 
-
-
-
-
 ## Backlinks
 * [[Activation Functions]]
 	* [[Swish]]

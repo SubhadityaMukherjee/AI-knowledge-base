@@ -19,6 +19,10 @@ title: Emperical Risk
 		- $$lim_{M\rightarrow \infty}(f^*_{\mathcal{L}_Train}) = f^*$$ : converges to the fn that minimizes emprical risk
 	- Ordinary least squares regression
 
+
+
+
+
 ## Backlinks
 * [[Cross Validation]]
 	* Get model with min [[Emperical Risk]]
@@ -27,4 +31,3 @@ title: Emperical Risk
 * [[Bias Vs Variance]]
 	* Tune on [[Emperical Risk]] instead using [[Optimizers]] 
 
-## …

@@ -5,8 +5,11 @@ title: Loop Tiling
 # Loop Tiling
 - Hardware memory layout in consideration
 
+
+
+
+
 ## Backlinks
 * [[Optimizing Work]]
 	* [[Loop Tiling]]
 
-## …

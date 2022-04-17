@@ -8,3 +8,7 @@ title: One Hot Encoding
 - Symbolic input
 - k dim one hot vector
 - ![[Pasted image 20220315234556.png]]
+
+
+
+

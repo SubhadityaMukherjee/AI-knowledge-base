@@ -25,18 +25,19 @@ title: Distributions
 - ![[Pasted image 20220324120913.png]]
 #anchor
 
+
+
+
+
 ## Backlinks
-* [[Boltzmann Distribution]]
-	* [[Distributions]]
-* [[Proto Distributions]]
-	* [[Distributions]]
 * [[Decision Boundaries]]
 	* Minimal risk decision function is unique and must be represented in terms of [[Distributions]] of data generating RVs X and Y
-* [[Uncertainty]]
-	* Model outputs [[Distributions]]
+* [[Proto Distributions]]
+	* [[Distributions]]
 * [[Fundamentals]]
 	* [[Distributions]]
+* [[Uncertainty]]
+	* Model outputs [[Distributions]]
 * [[Uncertainty Classification]]
 	* [[Distributions]]
 
-## …

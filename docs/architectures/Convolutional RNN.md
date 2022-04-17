@@ -8,3 +8,7 @@ title: Convolutional RNN
 - $$\star$$ is spatial conv
 - 5D shapes -> [samples, timesteps, width, height, channels]
 - Very memory intensive
+
+
+
+

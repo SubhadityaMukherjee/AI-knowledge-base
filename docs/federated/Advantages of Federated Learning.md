@@ -9,8 +9,11 @@ title: Advantages of Federated Learning
 - Allows the model to be updated and become better without compromizing on privacy
 - Nobody "owns" your data except you
 
+
+
+
+
 ## Backlinks
 * [[Federated Learning]]
 	* [[Advantages of Federated Learning]]
 
-## …

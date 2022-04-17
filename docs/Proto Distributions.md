@@ -17,3 +17,11 @@ title: Proto Distributions
 ## Discrete Spaces
 - [[Proto PMF]]
 
+
+
+
+
+## Backlinks
+* [[Bayesian Posterior]]
+	* [[Proto Distributions]] on $\\theta$ space
+

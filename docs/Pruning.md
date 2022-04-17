@@ -26,3 +26,11 @@ title: Pruning
 - [[Random Pruning]]
 - [[Layerwise Magnitude Based Pruning]]
 
+
+
+
+
+## Backlinks
+* [[Regularization]]
+	* [[Pruning]]
+

@@ -6,9 +6,11 @@ title: Interpolation
 - [[1D piecewise linear interpolation]]
 - [[Bilinear Interpolation]]
 - [[Barycentric Interpolation]]
-- [[Shepard Interpolation]]## Backlinks
-* [[Grids]]
-	* [[Interpolation]]
+
+
+
+
+## Backlinks
 * [[Marching Squares]]
 	* Also uses [[Interpolation]]
 

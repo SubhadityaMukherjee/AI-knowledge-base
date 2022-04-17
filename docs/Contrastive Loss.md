@@ -13,6 +13,10 @@ title: Contrastive Loss
 	- m is enforced margin between similar and dissimilar (m>0)
 	- Labeled points $$(y,x_1,x_2)$$ are generated
 
+
+
+
+
 ## Backlinks
 * [[Feature Learning]]
 	* [[Contrastive Loss]]
@@ -21,4 +25,3 @@ title: Contrastive Loss
 * [[Loss Functions]]
 	* [[Contrastive Loss]]
 
-## …

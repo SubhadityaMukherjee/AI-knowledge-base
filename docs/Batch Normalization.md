@@ -18,8 +18,11 @@ title: Batch Normalization
 - $$\hat x_{ij} \leftarrow \frac{x_{ij}-\mu_j}{\sqrt{\sigma^2_j + \epsilon}}$$
 - $$\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$$
 
+
+
+
+
 ## Backlinks
 * [[Regularization]]
 	* [[Batch Normalization]]
 
-## …

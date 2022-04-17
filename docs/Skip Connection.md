@@ -9,12 +9,15 @@ title: Skip Connection
 - Previous layer gradient carried to next module untouched -> loss surface is smoother
 - Transfer #gradients to prevent [[Vanishingexploding gradients]]
 
+
+
+
+
 ## Backlinks
-* [[Layers]]
-	* [[Skip Connection]]
 * [[Dense Skip Connections]]
+	* [[Skip Connection]]
+* [[Layers]]
 	* [[Skip Connection]]
 * [[Unet]]
 	* [[Skip Connection]]
 
-## …

@@ -27,20 +27,11 @@ title: Features
 - 1 hidden layer perceptron -> Universal fn estimator
 - Best generalization -> First order optimization
 
+
+
+
+
 ## Backlinks
-* [[Features]]
-	* [[Features]]
-	* [[Features]]
-	* [[Features]]
 * [[Index]]
 	* [[Features]]
 
-## …
-
-## Backlinks
-* [[Features]]
-	* [[Features]]
-* [[Index]]
-	* [[Features]]
-
-## …

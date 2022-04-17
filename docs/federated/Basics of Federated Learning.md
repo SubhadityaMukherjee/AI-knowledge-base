@@ -14,8 +14,11 @@ title: Basics of Federated Learning
 7.1 (#new). Aggregate (eg. average) the information and then send that to the main model
 8. Retrain the model on new data
 
+
+
+
+
 ## Backlinks
 * [[Federated Learning]]
 	* [[Basics of Federated Learning]]
 
-## …

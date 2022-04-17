@@ -13,31 +13,15 @@ title: Markov Chain
 - [[Markov Initial Distribution]]
 - [[Markov Transition Kernel]]
 - [[Markov for Continuous Distributions]]
-## Backlinks
-* [[MCMC Sampling]]
-	* [[Markov Chain]]
-* [[Markov Random Field]]
-	* Generalized [[Markov Chain]]
-* [[Detailed Balance]]
-	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
+
+
+
 
 ## Backlinks
-* [[Markov Chain]]
-	* [[Markov Chain]]
-	* Generalized [[Markov Chain]]
-	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
-* [[Detailed Balance]]
-	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
-* [[Ergodic]]
-	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
-* [[MCMC Sampling]]
-	* [[Markov Chain]]
-* [[Markov for Continuous Distributions]]
-	* [[Markov Chain]]
 * [[Markov Random Field]]
 	* Generalized [[Markov Chain]]
-* [[Markov Initial Distribution]]
-	* [[Markov Chain]]
-* [[Markov Transition Kernel]]
+* [[Detailed Balance]]
+	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
+* [[MCMC Sampling]]
 	* [[Markov Chain]]
 

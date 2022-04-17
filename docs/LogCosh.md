@@ -12,3 +12,7 @@ Then , $$x = ŷ - y$$
 logcosh = $$\mathrm{mean}\left( x + \mathrm{softplus}\left( -2 \cdot x \right) - \log\left( 2.0 \right) \right)$$
 
 ## …
+
+
+
+

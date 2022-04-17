@@ -7,20 +7,13 @@ title: Invariant Distribution
 - $$g(x) = \int_{\mathbb{R}^{k}}T(x|y)g(y)dy$$
 - Atleast one invariant distribution
 - [[Ergodic]]
-## Backlinks
-* [[Markov for Continuous Distributions]]
-	* [[Invariant Distribution]]
-* [[Detailed Balance]]
-	* If T(x|y) has detailed balance wrt g, then it is an [[Invariant Distribution]]
+
+
+
 
 ## Backlinks
-* [[Detailed Balance]]
-	* If T(x|y) has detailed balance wrt g, then it is an [[Invariant Distribution]]
-* [[Ergodic]]
-	* [[Invariant Distribution]]
-* [[Invariant Distribution]]
-	* [[Invariant Distribution]]
-	* If T(x|y) has detailed balance wrt g, then it is an [[Invariant Distribution]]
 * [[Markov for Continuous Distributions]]
 	* [[Invariant Distribution]]
+* [[Detailed Balance]]
+	* If T(x|y) has detailed balance wrt g, then it is an [[Invariant Distribution]]
 

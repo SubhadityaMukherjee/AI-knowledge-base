@@ -7,3 +7,7 @@ title: Optimizing Work
 - [[Parallelization]]
 - [[Loop Tiling]]
 - [[Operator Fusion]]
+
+
+
+

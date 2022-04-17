@@ -7,3 +7,7 @@ title: Curse of Dimensionality
 - Aka the higher the dimension -> wider the training points from each other
 - But there are fewer data points than dimensions and the distances are huge
 - [[Dimensionality Reduction]]
+
+
+
+

@@ -16,8 +16,11 @@ title: Backprop
 			- Collecting all the $$\partial \sigma(u_i)$$ wrt params -> #gradients exponentially decreases wrt depth of the network : Vanishing
 				- Solved by [[ActivationFunctions]]
 
+
+
+
+
 ## Backlinks
 * [[Gradient Descent #gradients]]
 	* [[Backprop]]
 
-## …

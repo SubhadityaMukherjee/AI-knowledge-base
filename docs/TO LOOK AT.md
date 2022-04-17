@@ -8,3 +8,7 @@ title: To Look at
 - http://torch.ch/blog/2015/09/07/spatial_transformers.html
 - http://dpmd.ai/Ithaca-blog
 - https://notesonai.com/Layer+Normalization
+
+
+
+

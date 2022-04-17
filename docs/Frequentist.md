@@ -12,8 +12,11 @@ title: Frequentist
 - Distibution of data points
 - [[MLE]]
 
+
+
+
+
 ## Backlinks
 * [[Probability]]
 	* [[Frequentist]]
 
-## …

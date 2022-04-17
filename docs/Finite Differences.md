@@ -8,7 +8,7 @@ title: Finite Differences
 - Forward differences $$f'(x) = \frac{f(x_{i+1})-f(x_{i})}{\Delta x}$$
 - Backward differences $$f'(x) = \frac{f(x_{i})-f(x_{i-1})}{\Delta x}$$
 - Central differences $$f'(x) = \frac{f(x_{i+1})-f(x_{i-1})}{2\Delta x}$$
-## Backlinks
-* [[Differentiation on cartesian grids]]
-	* [[Finite Differences]]
+
+
+
 

@@ -7,3 +7,7 @@ title: Linear Scale Encoding
 - A = {certainly not, rather not, dont know}
 
 ## …
+
+
+
+

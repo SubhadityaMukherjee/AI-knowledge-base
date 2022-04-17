@@ -23,12 +23,13 @@ title: Normal Distribution
 	- $$\phi(\frac{b-\mu}{\sigma})-\phi(\frac{a-\mu}{\sigma})$$
 - $$\hat \mu = \frac{1}{N}\Sigma_{i}(x_{i})$$ $$\hat \sigma^{2}= \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)^2$$
 
+
+
+
+
 ## Backlinks
-* [[Entropy]]
-	* [[Normal Distribution]] maximizes entropy for a fixed mean and variance.## Backlinks
 * [[Distributions]]
 	* [[Normal Distribution]]
 * [[N Dim Normal Distribution]]
 	* [[Normal Distribution]]
 
-## …

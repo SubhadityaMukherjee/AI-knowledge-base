@@ -10,6 +10,10 @@ title: Conv Based Noise Reduction
 - ![[Pasted image 20220411130419.png]]
 - ![[Pasted image 20220411130431.png]]
 - Spatially narrow (wide) filter has wide (narrow) spectrum and low (high) smoothing effect
+
+
+
+
 ## Backlinks
 * [[Noise Suppression]]
 	* [[Conv Based Noise Reduction]]

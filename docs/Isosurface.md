@@ -3,7 +3,11 @@ title: Isosurface
 ---
 
 # Isosurface
-- 3D## Backlinks
+
+
+
+
+## Backlinks
 * [[Contours]]
 	* [[Isosurface]]
 

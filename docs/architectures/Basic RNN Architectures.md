@@ -11,8 +11,11 @@ title: Basic RNN Architectures
 - [[Temporal Conv]]
 - [[Gated Recurrent Unit (GRU)]]
 
+
+
+
+
 ## Backlinks
 * [[Nasnet]]
 	* Controller RNN ([[Basic RNN Architectures]]) produces architectures and evaluated until convergence
 
-## …

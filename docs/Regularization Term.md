@@ -17,3 +17,7 @@ title: Term
 - [[Lp Regularization]] for p =2
 	- Soft models
 	- Squared sum of model params
+
+
+
+

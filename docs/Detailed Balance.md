@@ -8,19 +8,11 @@ title: Detailed Balance
 - $$\forall x,y \in \mathbb{R}^{k}: T(y|x)g(x) = T(x|y)g(y)$$
 - If T(x|y) has detailed balance wrt g, then it is an [[Invariant Distribution]]
 - $$\int_{\mathbb{R}^{k}}T(x|y)g(y)dy = \int_{\mathbb{R}^{k}}T(y|x)g(x)dy = g(x)\int_{\mathbb{R}^{k}}P(y|x)dy = g(x)$$
-## Backlinks
-* [[MCMC Sampling]]
-	* [[Detailed Balance]]
+
+
+
 
 ## Backlinks
-* [[Markov Chain]]
-	* [[Detailed Balance]]
-* [[Detailed Balance]]
-	* [[Detailed Balance]]
-* [[Ergodic]]
-	* [[Detailed Balance]]
-* [[Invariant Distribution]]
-	* [[Detailed Balance]]
 * [[MCMC Sampling]]
 	* [[Detailed Balance]]
 

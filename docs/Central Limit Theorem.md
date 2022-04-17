@@ -13,10 +13,13 @@ title: Central Limit Theorem
 - Uniformly bounded
 - None of the $X_{i}$ dominates the other "washing out"
 
+
+
+
+
 ## Backlinks
 * [[Normal Distribution]]
 	* [[Central Limit Theorem]]
 * [[N Dim Normal Distribution]]
 	* If data points are vectors $x = (x*{1}, …, x*{n})'$ and RVs X_i fulfill the [[Central Limit Theorem]], 
 
-## …

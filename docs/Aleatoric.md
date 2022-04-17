@@ -10,15 +10,11 @@ title: Aleatoric
 - [[Homoscedatic]]
 - [[Heteroscedatic]]
 - ![[Pasted image 20220323154218.png]]
-## Backlinks
-* [[Types of Uncertainty]]
-	* [[Aleatoric]]
+
+
+
 
 ## Backlinks
 * [[Types of Uncertainty]]
-	* [[Aleatoric]]
-* [[Aleatoric]]
-	* [[Aleatoric]]
-* [[Heteroscedatic]]
 	* [[Aleatoric]]
 

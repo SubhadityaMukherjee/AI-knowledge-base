@@ -35,3 +35,7 @@ title: Bias Vs Variance
 - When flexibility is too high -> variance dominates -> overfitting
 
 ## [[Tuning Model Flexibility]]
+
+
+
+

@@ -35,3 +35,7 @@ title: Linear Regression
 
 ## Random Notes
 - $$(A'A)^{-1}A'$$ is the left psuedo inverse
+
+
+
+

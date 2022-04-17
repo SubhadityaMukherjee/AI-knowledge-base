@@ -11,10 +11,13 @@ title: Exponential Distribution
 - Rate : $$\hat \lambda = \frac{1}{N-1}\Sigma_{i = 1, …, N}t_{i+1}-t_{i}$$
 - [[Spiking Networks]]
 
+
+
+
+
 ## Backlinks
-* [[Distributions]]
-	* [[Exponential Distribution]]
 * [[Poisson Process]]
 	* Waiting times between two consecutive spikes are [[Exponential Distribution]]
+* [[Distributions]]
+	* [[Exponential Distribution]]
 
-## …

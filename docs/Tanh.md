@@ -7,8 +7,11 @@ title: Tanh
 - RNN : Hidden
 - Xavier/Glorot init
 
+
+
+
+
 ## Backlinks
 * [[Activation Functions]]
 	* [[Tanh]]
 
-## …

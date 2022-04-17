@@ -14,14 +14,11 @@ title: Attention
 - [[Self Attention]]
 
 - [[Multi Head Attention]]
-## Backlinks
-* [[Transformer]]
-	* [[Attention]]
+
+
+
 
 ## Backlinks
-* [[Attention]]
-	* [[Attention]]
 * [[Transformer]]
-	* [[Attention]]
 	* [[Attention]]
 

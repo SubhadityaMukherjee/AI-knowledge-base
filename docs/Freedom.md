@@ -11,8 +11,11 @@ title: Freedom
 - No of params not a good indicator of overfitting
 - Solution : [[Regularization]]
 
+
+
+
+
 ## Backlinks
 * [[Issues]]
 	* [[Freedom]]
 
-## …

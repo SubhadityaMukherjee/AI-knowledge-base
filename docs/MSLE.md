@@ -8,8 +8,11 @@ title: MSLE
 
 $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \left( \log\left( y + 1 \right) - \log\left( ŷ + 1 \right) \right)^{2} \right)$$
 
+
+
+
+
 ## Backlinks
 * [[Loss Functions]]
 	* [[MSLE]]
 
-## …

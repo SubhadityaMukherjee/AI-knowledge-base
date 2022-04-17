@@ -20,3 +20,7 @@ title: Long Short Term Memory (LSTM)
 		- Final cell state : $$C_t = g_f \cdot C_{t-1} + g_i\cdot \hat C$$
 	- $$h_t$$ to predict output
 		- $$h_t = g_o \cdot \sigma_y(C_t)$$
+
+
+
+

@@ -8,10 +8,13 @@ title: Initialization
 
 ## Glorot/Xavier
 
+
+
+
+
 ## Backlinks
-* [[Index]]
-	* [[Initialization]]
 * [[Activation Functions]]
 	* [[Initialization]]
+* [[Index]]
+	* [[Initialization]]
 
-## …

@@ -8,15 +8,11 @@ title: Markov for Continuous Distributions
 - where $M^{m}= M \cdot M \cdot M … \cdot M$ (m times)
 - To get the pdf $$g^{n+1}(x) = \int_{\mathbb{R}^{k}}T(x|y)g^{n}(y)dy$$
 - [[Invariant Distribution]]
-## Backlinks
-* [[Markov Chain]]
-	* [[Markov for Continuous Distributions]]
+
+
+
 
 ## Backlinks
 * [[Markov Chain]]
-	* [[Markov for Continuous Distributions]]
-* [[Invariant Distribution]]
-	* [[Markov for Continuous Distributions]]
-* [[Markov for Continuous Distributions]]
 	* [[Markov for Continuous Distributions]]
 

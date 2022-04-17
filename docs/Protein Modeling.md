@@ -26,8 +26,11 @@ title: Protein Modeling
 - ![[Pasted image 20220316123546.png]]
 - $\alpha$s fixed beforehand
 
+
+
+
+
 ## Backlinks
 * [[Bayesian Model Estimation]]
 	* ### [[Protein Modeling]]
 
-## …

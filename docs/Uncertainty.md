@@ -12,12 +12,11 @@ title: Uncertainty
 - [[Bayesian Neural Network]]
 - [[Quantifying Uncertainty]]
 
+
+
+
+
 ## Backlinks
-* [[Entropy]]
-	* [[Uncertainty]]
-* [[Bayesian Neural Network]]
-	* [[Uncertainty]]
 * [[Index]]
 	* [[Uncertainty]]
 
-## …

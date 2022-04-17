@@ -21,8 +21,11 @@ title: Bayesian Prior
 		- If given data D -> it can show which models are more likely than others.
 		- Higher values of	$p_{\otimes_{i}}x(D|\theta)$  are better
 
+
+
+
+
 ## Backlinks
 * [[Bayesian Model Estimation]]
 	* [[Bayesian Prior]]
 
-## …

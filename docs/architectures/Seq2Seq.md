@@ -8,8 +8,11 @@ title: Seq2Seq
 - Long term dependency issues
 	- Even if hidden state vector has a high dimensionality, cannot hold all info
 
+
+
+
+
 ## Backlinks
 * [[Basic RNN Architectures]]
 	* [[Seq2Seq]]
 
-## …

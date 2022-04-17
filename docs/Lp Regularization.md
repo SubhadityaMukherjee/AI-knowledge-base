@@ -20,6 +20,10 @@ title: Lp Regularization
 	- Too large : underfit, too small : overfit
 	- Cross validation required
 
+
+
+
+
 ## Backlinks
 * [[Regularization]]
 	* [[Lp Regularization]]
@@ -30,4 +34,3 @@ title: Lp Regularization
 * [[Sparse Dict Learning Loss]]
 	* $\\lambda \\Sigma*i |r*i|$ is Lasso/L1 [[Lp Regularization]]
 
-## …

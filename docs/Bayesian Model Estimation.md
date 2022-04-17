@@ -32,10 +32,13 @@ title: Bayesian Model Estimation
 
 ### [[Protein Modeling]]
 
+
+
+
+
 ## Backlinks
-* [[Bayesian Neural Network]]
-	* [[Bayesian Model Estimation]]
 * [[Bayesian]]
 	* [[Bayesian Model Estimation]]
+* [[Bayesian Neural Network]]
+	* [[Bayesian Model Estimation]]
 
-## …

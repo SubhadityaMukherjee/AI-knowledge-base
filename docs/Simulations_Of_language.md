@@ -7,3 +7,7 @@ title: Mirman Et Al
 - Simple rnn performed like human learners
 	- sensitive to transitional prob and freq
 - 
+
+
+
+

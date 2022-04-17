@@ -15,10 +15,13 @@ Finally KLD $$entropy + crossentropyloss$$
 
  - $$KL(p,q) = \Sigma_x p(x) log\frac{p(x)}{q(x)}$$
 
+
+
+
+
 ## Backlinks
 * [[Loss Functions]]
 	* [[KL Divergence]]
 * [[Variational Autoencoder]]
 	* Eg: By Loss func [[KL Divergence]] and prob distribution $$L(X) = n^{-1}\\Sigma*i||x*i - D(E(\\tilde x))||^2 + \\lambda \\cdot KL(f_i, d)$$
 
-## …

@@ -34,10 +34,13 @@ title: Architectures
 
 #anchor
 
+
+
+
+
 ## Backlinks
 * [[Index]]
 	* [[Architectures]]
 * [[Vanishing/exploding #gradients]]
 	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
 
-## …

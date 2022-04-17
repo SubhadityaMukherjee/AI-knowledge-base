@@ -7,8 +7,11 @@ title: Padded Conv
 - Filters transform from C -> F channels
 - Mirror, Reflect
 
+
+
+
+
 ## Backlinks
 * [[Convnd]]
 	* [[Padded Conv]]
 
-## …

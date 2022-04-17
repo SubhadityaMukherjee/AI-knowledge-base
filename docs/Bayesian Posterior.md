@@ -13,13 +13,14 @@ title: Bayesian Posterior
 	- Integral not 1
 	- [[Proto Distributions]] on $\theta$ space
 
+
+
+
+
 ## Backlinks
-* [[Proto Distributions]]
-	* [[Bayesian Posterior]]
-* [[Bayesian Predictive Posterior]]
-	* Follows from [[Bayesian Posterior]]
 * [[Bayesian Model Estimation]]
 	* [[Bayesian Posterior]]
 	* How to encode or represent [[Bayesian Posterior]] as very high dim
+* [[Bayesian Predictive Posterior]]
+	* Follows from [[Bayesian Posterior]]
 
-## …

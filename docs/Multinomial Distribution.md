@@ -7,3 +7,7 @@ title: Multinomial
 - $N = n_{1}+ ….+ n_{l}$
 - Generalized [[Binomial Distribution]]
 - [[PMF]]
+
+
+
+

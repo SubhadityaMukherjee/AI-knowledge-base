@@ -8,3 +8,7 @@ title: Multi Head Attention
 	- $$head_i = Attention(QW_i^Q, KW_i^K , VW_i^V)$$
 - W is learnable projections for attention params
 - ![[Pasted image 20220307183058.png]]
+
+
+
+

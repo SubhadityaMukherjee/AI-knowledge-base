@@ -13,3 +13,7 @@ title: Effect of Depth
 ## Wider Architectures
 - Makes landscape smoother and flatter
 - ![[Pasted image 20220306132940.png]]
+
+
+
+

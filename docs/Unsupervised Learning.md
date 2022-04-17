@@ -15,11 +15,13 @@ title: Unsupervised Learning
 - [[Auto Encoders]]
 
 ## …
+
+
+
+
 ## Backlinks
-* [[Feature Learning]]
-	* [[Unsupervised Learning]]
-* [[Fundamentals]]
-	* [[Unsupervised Learning]]
 * [[Self Supervised]]
 	* Subset of [[Unsupervised Learning]]
+* [[Fundamentals]]
+	* [[Unsupervised Learning]]
 

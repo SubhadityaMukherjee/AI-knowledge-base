@@ -7,6 +7,10 @@ title: Uniform Distribution
 - [[PDF]] $$p(x) = \begin{cases}\frac{1}{(b_{1}-a_{1})\cdot…\cdot(b_{n}, a_{n})} & \text{if } x \in I\\[2ex]0&\text{if x }\notin I \end{cases}$$
 - No need to learn, no shape that can be specified
 
+
+
+
+
 ## Backlinks
 * [[Entropy]]
 	* [[Uniform Distribution]] maximizes entropy. Results harder to predict
@@ -15,4 +19,3 @@ title: Uniform Distribution
 * [[Uniform Sampling]]
 	* [[Uniform Distribution]]
 
-## …

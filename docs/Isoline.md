@@ -13,7 +13,11 @@ title: Isoline
 - No isoline inside cells with same signs  
 	- only consider cells with different signs  
 	- access look-up table for respective case  
-	- depending on marked nodes## Backlinks
+
+
+
+
+## Backlinks
 * [[Contours]]
 	* [[Isoline]]
 

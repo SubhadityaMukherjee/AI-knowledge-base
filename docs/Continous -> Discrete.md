@@ -12,8 +12,11 @@ title: Continous -> Discrete
 
 ## [[Neural Dynamics]]
 
+
+
+
+
 ## Backlinks
 * [[Encoding]]
 	* ## [[Continous -> Discrete]]
 
-## …

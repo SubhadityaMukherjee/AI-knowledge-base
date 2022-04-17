@@ -10,3 +10,7 @@ title: Vgg
 - No of filters : increase by power of two
 - Filter size : Odd numbers
 - SGD + LR Schedule
+
+
+
+

@@ -8,8 +8,11 @@ title: Point Distribution
 - [[Dirac Delta]]
 - Hyperdistributions
 
+
+
+
+
 ## Backlinks
 * [[Distributions]]
 	* [[Point Distribution]]
 
-## …

@@ -7,8 +7,11 @@ title: Image Data
 	- Too many weights to learn
 	- No translation equi-invariance
 
+
+
+
+
 ## Backlinks
 * [[Issues]]
 	* [[Image Data]]
 
-## …

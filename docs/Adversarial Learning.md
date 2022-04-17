@@ -8,8 +8,11 @@ title: Adversarial Learning
 - Add noise to the image such that the image now appears to be in a direction orthogonal to $\mathcal{M}$ -> value of pdf shrinks dramatically
 - Then the network has never seen this before and will return a random classification
 
+
+
+
+
 ## Backlinks
 * [[Manifold]]
 	* Can be exploited by [[Adversarial Learning]]
 
-## …

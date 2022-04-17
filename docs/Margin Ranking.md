@@ -9,8 +9,11 @@ title: Margin Ranking
 
 $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \mathrm{max}\left( 0, \left(  - y \right) \cdot x1 - x2 + margin \right) \right)$$
 
+
+
+
+
 ## Backlinks
 * [[Loss Functions]]
 	* [[Margin Ranking]]
 
-## …

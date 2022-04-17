@@ -34,10 +34,11 @@ title: Layers
 - [[Convolutional RNN]]
 - [[Best Maching Unit]]
 
+
+
+
+
 ## Backlinks
-* [[Recurrent]]
-	* [[Layers]]
 * [[Index]]
 	* [[Layers]]
 
-## …

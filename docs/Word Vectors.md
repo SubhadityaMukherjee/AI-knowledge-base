@@ -7,8 +7,11 @@ title: Word Vectors
 - Vectors that are metrically close to each other
 - ![[Pasted image 20220315235513.png]]
 
+
+
+
+
 ## Backlinks
 * [[Discrete -> Continous Transforms]]
 	* ## [[Word Vectors]]
 
-## …

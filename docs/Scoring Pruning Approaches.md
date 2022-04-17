@@ -8,8 +8,11 @@ title: Scoring Pruning Approaches
 - Others remove based on a score given. 
 - Some perform pruning locally, while others perform it globally across the network.
 
+
+
+
+
 ## Backlinks
 * [[Pruning]]
 	* [[Scoring Pruning Approaches]]
 
-## …

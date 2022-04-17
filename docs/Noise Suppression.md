@@ -10,7 +10,11 @@ title: Noise Suppression
 - [[Conv Based Noise Reduction]]
 - [[Average Filter]]
 - [[Gaussian Filter]]
-- [[Median Filter]]## Backlinks
+
+
+
+
+## Backlinks
 * [[Filtering]]
 	* [[Noise Suppression]]
 

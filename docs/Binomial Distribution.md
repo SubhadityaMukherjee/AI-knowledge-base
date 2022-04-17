@@ -11,10 +11,13 @@ title: Binomial Distribution
 - $$X \sim Bi(N,s)$$
 - ![[Pasted image 20220319133401.png]]
 
+
+
+
+
 ## Backlinks
 * [[Distributions]]
 	* [[Binomial Distribution]]
 * [[Multinomial]]
 	* Generalized [[Binomial Distribution]]
 
-## …

@@ -11,8 +11,11 @@ title: Dirac Delta
 - Multi point distribution -> combine dirac deltas
 - ![[Pasted image 20220319135742.png]]
 
+
+
+
+
 ## Backlinks
 * [[Point Distribution]]
 	* [[Dirac Delta]]
 
-## …

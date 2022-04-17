@@ -10,8 +10,11 @@ title: Pooling
 	- Multiple convs first 
 - Max pool + dilated/strided convs control effective receptive field size
 
+
+
+
+
 ## Backlinks
 * [[Layers]]
 	* [[Pooling]]
 
-## …

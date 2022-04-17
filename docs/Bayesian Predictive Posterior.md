@@ -8,13 +8,11 @@ title: Bayesian Predictive Posterior
 - Computes predictions y with different model parameters w and weights them by the probability of those params given an input x
 - Bayesian Model Averaging
 - $$P(y|x) = \int_{w}P(y|w,x)P(w|x)dx$$
-## Backlinks
-* [[Bayesian Neural Network]]
-	* Can be understood using [[Bayesian Predictive Posterior]]
+
+
+
 
 ## Backlinks
 * [[Bayesian Neural Network]]
-	* Can be understood using [[Bayesian Predictive Posterior]]
-* [[Bayesian Predictive Posterior]]
 	* Can be understood using [[Bayesian Predictive Posterior]]
 

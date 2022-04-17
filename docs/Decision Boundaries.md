@@ -23,10 +23,13 @@ title: Decision Boundaries
 - Then $$h_{opt}: P \rightarrow C_{j}x \rightarrow c_{argmax_{j}P(Y=c_{j})f_{j}(x)}$$
 - Algo learns estimates of the [[Class Conditional distribution]] and class probabilities aka priors
 
+
+
+
+
 ## Backlinks
 * [[Emperical Risk]]
 	* [[Decision Boundaries]]
 * [[K Means]]
 	* Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
 
-## …

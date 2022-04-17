@@ -7,8 +7,11 @@ title: Vector Quantization
 - Indices used as symbolic encodings
 - Discretization
 
+
+
+
+
 ## Backlinks
 * [[Continous -> Discrete]]
 	* ## [[Vector Quantization]]
 
-## …

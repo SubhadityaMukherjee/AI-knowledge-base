@@ -11,10 +11,13 @@ title: Fitting
 		- If low, $$\mathscr{F}  = R(f) - R_B$$ is large : Underfitting (Huge difference between best risk and current risk)
 		- If high, $$\mathscr{F}  = R(f) - R_B$$ is small : Overfitting (Tiny difference between best risk and current risk)
 
+
+
+
+
 ## Backlinks
 * [[Issues]]
 	* [[Fitting]]
 * [[Bias Vs Variance]]
 	* $\\mathcal{H}$ is hypothesis space (related to [[Fitting]]). 
 
-## …

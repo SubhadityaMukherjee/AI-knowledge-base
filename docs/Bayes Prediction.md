@@ -9,6 +9,10 @@ title: Bayes Prediction
 - prob of those params given input x
 - Model averaging
 
+
+
+
+
 ## Backlinks
 * [[Bayesian]]
 	* [[Bayes Prediction]]

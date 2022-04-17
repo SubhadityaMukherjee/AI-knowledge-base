@@ -9,3 +9,13 @@ title: Proto PDF
 - If we divide $g_{0}$ by its integral -> we get a normal pdf g
 
 
+
+
+
+
+## Backlinks
+* [[Proto Distributions]]
+	* [[Proto PDF]]
+* [[Rejection Sampling]]
+	* Now if we can take a [[Proto PDF]] $g\_{0} \\geq f$  where we can sample from the pdf g
+

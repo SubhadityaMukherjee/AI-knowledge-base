@@ -11,3 +11,7 @@ title: Binary Pattern Encoding
 - Too intensive
 
 ## …
+
+
+
+

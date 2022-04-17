@@ -15,3 +15,7 @@ else
 $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \left\|y - ŷ\right\| - 0.5 \right)$$
 
 ## …
+
+
+
+

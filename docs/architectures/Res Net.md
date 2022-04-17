@@ -11,8 +11,11 @@ title: Res Net
 - less params than VGG
 - [[Skip Connection]]
 
+
+
+
+
 ## Backlinks
 * [[Dense Net]]
 	* Generalized [[Res Net]]
 
-## …

@@ -8,6 +8,10 @@ title: Asymptotic Decider
 - the true isolines within a cell are hyperbolas  
 - investigate order of intersection points along x or y axis  
 - build pairs of first two and last two intersections
+
+
+
+
 ## Backlinks
 * [[Marching Squares]]
 	* [[Asymptotic Decider]]

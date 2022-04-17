@@ -7,12 +7,15 @@ title: Augmentation
 ## Image
 #anchor
 
+
+
+
+
 ## Backlinks
 * [[Regularization]]
 	* [[Augmentation]]
-* [[Index]]
-	* [[Augmentation]]
 * [[Noise]]
 	* [[Augmentation]]
+* [[Index]]
+	* [[Augmentation]]
 
-## …

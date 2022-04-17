@@ -16,12 +16,15 @@ title: Cross Entropy
 		- Regression
 		- $$\mathscr{L}(\theta) = \frac{1}{2}\mathbb{E}_{(x,y) \sim P(X,Y)}||y-f(x;\theta)||^2$$
 
+
+
+
+
 ## Backlinks
 * [[KL Divergence]]
 	* Entropy + [[Cross Entropy]]
-* [[Loss Functions]]
-	* [[Cross Entropy]]
 * [[BCE Logits]]
 	* [[Cross Entropy]] + logits
+* [[Loss Functions]]
+	* [[Cross Entropy]]
 
-## …

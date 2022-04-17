@@ -13,8 +13,11 @@ title: Window Based Regression
 - Add fixed nonlinear transforms to input arguments : eg polynomials
 - [[Volterra expansion]]
 
+
+
+
+
 ## Backlinks
 * [[Linear Regression]]
 	* [[Window Based Regression]]
 
-## …

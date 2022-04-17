@@ -11,10 +11,13 @@ title: Sigmoid
 - RNN : Hidden
 - Bernoulli Distribution over a binary variable
 
+
+
+
+
 ## Backlinks
 * [[Activation Functions]]
 	* [[Sigmoid]]
 * [[Uncertainty Classification]]
 	* Use [[Softmax]] or [[Sigmoid]]
 
-## …

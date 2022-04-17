@@ -8,8 +8,11 @@ title: Neural Dynamics
 	- As many components as possible target symbols
 	- 
 
+
+
+
+
 ## Backlinks
 * [[Continous -> Discrete]]
 	* ## [[Neural Dynamics]]
 
-## …

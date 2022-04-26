@@ -10,7 +10,5 @@ title: Markov Initial Distribution
 
 
 
-## Backlinks
-* [[Markov Chain]]
-	* [[Markov Initial Distribution]]
+
 

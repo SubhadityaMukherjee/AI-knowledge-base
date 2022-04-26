@@ -16,9 +16,5 @@ title: Dropout
 
 
 
-## Backlinks
-* [[Regularization]]
-	* [[Dropout]]
-* [[Noise]]
-	* [[Dropout]]
+
 

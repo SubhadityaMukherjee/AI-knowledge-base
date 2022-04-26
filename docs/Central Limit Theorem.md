@@ -17,9 +17,5 @@ title: Central Limit Theorem
 
 
 
-## Backlinks
-* [[Normal Distribution]]
-	* [[Central Limit Theorem]]
-* [[N Dim Normal Distribution]]
-	* If data points are vectors $x = (x*{1}, …, x*{n})'$ and RVs X_i fulfill the [[Central Limit Theorem]], 
+
 

@@ -21,7 +21,5 @@ title: Proto Distributions
 
 
 
-## Backlinks
-* [[Bayesian Posterior]]
-	* [[Proto Distributions]] on $\\theta$ space
+
 

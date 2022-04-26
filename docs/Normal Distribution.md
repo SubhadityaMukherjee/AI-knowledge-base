@@ -27,9 +27,5 @@ title: Normal Distribution
 
 
 
-## Backlinks
-* [[Distributions]]
-	* [[Normal Distribution]]
-* [[N Dim Normal Distribution]]
-	* [[Normal Distribution]]
+
 

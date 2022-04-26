@@ -11,11 +11,5 @@ title: Augmentation
 
 
 
-## Backlinks
-* [[Regularization]]
-	* [[Augmentation]]
-* [[Noise]]
-	* [[Augmentation]]
-* [[Index]]
-	* [[Augmentation]]
+
 

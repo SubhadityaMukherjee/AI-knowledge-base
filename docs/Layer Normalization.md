@@ -10,7 +10,5 @@ title: Layer Normalization
 
 
 
-## Backlinks
-* [[Regularization]]
-	* [[Layer Normalization]]
+
 

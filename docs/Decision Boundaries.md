@@ -27,9 +27,5 @@ title: Decision Boundaries
 
 
 
-## Backlinks
-* [[Emperical Risk]]
-	* [[Decision Boundaries]]
-* [[K Means]]
-	* Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
+
 

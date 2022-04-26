@@ -11,7 +11,5 @@ title: Neural Dynamics
 
 
 
-## Backlinks
-* [[Continous -> Discrete]]
-	* ## [[Neural Dynamics]]
+
 

@@ -11,7 +11,5 @@ title: Vector Quantization
 
 
 
-## Backlinks
-* [[Continous -> Discrete]]
-	* ## [[Vector Quantization]]
+
 

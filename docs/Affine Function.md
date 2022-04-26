@@ -10,9 +10,5 @@ title: Affine Function
 
 
 
-## Backlinks
-* [[Barycentric Interpolation]]
-	* Point x is an [[Affine Function]] of $x_i$ 
-* [[Linear Regression]]
-	* [[Affine Function]]
+
 

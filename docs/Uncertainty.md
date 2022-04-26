@@ -16,7 +16,5 @@ title: Uncertainty
 
 
 
-## Backlinks
-* [[Index]]
-	* [[Uncertainty]]
+
 

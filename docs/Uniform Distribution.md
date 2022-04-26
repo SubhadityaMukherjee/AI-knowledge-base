@@ -11,11 +11,5 @@ title: Uniform Distribution
 
 
 
-## Backlinks
-* [[Entropy]]
-	* [[Uniform Distribution]] maximizes entropy. Results harder to predict
-* [[Distributions]]
-	* [[Uniform Distribution]]
-* [[Uniform Sampling]]
-	* [[Uniform Distribution]]
+
 

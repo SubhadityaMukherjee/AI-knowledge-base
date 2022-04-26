@@ -15,9 +15,5 @@ title: Exponential Distribution
 
 
 
-## Backlinks
-* [[Poisson Process]]
-	* Waiting times between two consecutive spikes are [[Exponential Distribution]]
-* [[Distributions]]
-	* [[Exponential Distribution]]
+
 

@@ -12,9 +12,5 @@ title: Raycasting
 - [[Slice Based Volume Rendering]]
 
 
-## Backlinks
-* [[Volumetric Illumination]]
-	* [[Raycasting]]
-* [[Particle Visualization]]
-	* explicit (geometry) or implicit [[Raycasting]]
+
 

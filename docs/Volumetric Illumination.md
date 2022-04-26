@@ -9,7 +9,5 @@ title: Volumetric Illumination
 - [[Raycasting]]
 
 
-## Backlinks
-* [[Volume Visualization]]
-	* [[Volumetric Illumination]]
+
 

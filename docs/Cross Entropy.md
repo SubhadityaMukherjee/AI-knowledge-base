@@ -20,11 +20,5 @@ title: Cross Entropy
 
 
 
-## Backlinks
-* [[KL Divergence]]
-	* Entropy + [[Cross Entropy]]
-* [[BCE Logits]]
-	* [[Cross Entropy]] + logits
-* [[Loss Functions]]
-	* [[Cross Entropy]]
+
 

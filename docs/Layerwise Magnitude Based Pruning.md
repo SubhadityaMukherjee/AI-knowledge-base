@@ -12,7 +12,5 @@ title: Layerwise Magnitude Based Pruning
 
 
 
-## Backlinks
-* [[Pruning]]
-	* [[Layerwise Magnitude Based Pruning]]
+
 

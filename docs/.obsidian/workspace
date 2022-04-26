@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Color Compositing.md",
+            "file": "Mapping to Geometry.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Color Compositing.md",
+                "file": "Mapping to Geometry.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -94,7 +94,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.24367811381805718,
+                  "scale": 0.6926616089983871,
                   "close": true
                 }
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Color Compositing.md"
+                "file": "Mapping to Geometry.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Color Compositing.md",
+                "file": "Mapping to Geometry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Color Compositing.md",
+                "file": "Mapping to Geometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,19 +205,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 181.5284423828125
+    "width": 436.7156677246094
   },
   "active": "83690fe6056ffc18",
   "lastOpenFiles": [
-    "Color Compositing.md",
-    "Isosurface.md",
-    "Marching Cubes.md",
-    "Raycasting.md",
-    "Volume Rendering Equation.md",
-    "Classification Ray Casting.md",
-    "Post Classification.md",
-    "Pre Classification.md",
-    "Transfer Function.md",
-    "Opacity Correction.md"
+    "Mapping to Geometry.md",
+    "KMeans.md",
+    "Voronoi Cell.md",
+    "Manifold.md",
+    "PCA.md",
+    "Block Sparse Kernel.md",
+    "Sigmoid.md",
+    "Optimizers.md",
+    "Hidden Models.md",
+    "TIme Series.md"
   ]
 }

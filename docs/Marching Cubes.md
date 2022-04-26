@@ -26,9 +26,5 @@ title: Marching Cubes
 - Produces ringing artifacts!
 
 
-## Backlinks
-* [[Isosurface]]
-	* [[Marching Cubes]]
-* [[Color Compositing]]
-	* First is same as [[Marching Cubes]]
+
 

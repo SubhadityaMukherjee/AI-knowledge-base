@@ -30,7 +30,5 @@ title: Pruning
 
 
 
-## Backlinks
-* [[Regularization]]
-	* [[Pruning]]
+
 

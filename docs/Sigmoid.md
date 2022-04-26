@@ -13,11 +13,3 @@ title: Sigmoid
 
 
 
-
-
-## Backlinks
-* [[Activation Functions]]
-	* [[Sigmoid]]
-* [[Uncertainty Classification]]
-	* Use [[Softmax]] or [[Sigmoid]]
-

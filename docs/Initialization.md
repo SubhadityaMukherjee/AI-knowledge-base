@@ -12,9 +12,5 @@ title: Initialization
 
 
 
-## Backlinks
-* [[Activation Functions]]
-	* [[Initialization]]
-* [[Index]]
-	* [[Initialization]]
+
 

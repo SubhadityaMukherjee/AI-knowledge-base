@@ -11,7 +11,5 @@ $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( ŷ - \log\l
 
 
 
-## Backlinks
-* [[Loss Functions]]
-	* [[Poisson Loss]]
+
 

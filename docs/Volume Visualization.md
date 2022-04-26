@@ -9,7 +9,5 @@ title: Volume Visualization
 - [[Volumetric Illumination]]
 
 
-## Backlinks
-* [[Visualization]]
-	* [[Volume Visualization]]
+
 

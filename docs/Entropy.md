@@ -12,9 +12,5 @@ title: Entropy
 
 
 
-## Backlinks
-* [[Cross Entropy]]
-	* [[Entropy]]
-* [[Uncertainty]]
-	* [[Entropy]]
+
 

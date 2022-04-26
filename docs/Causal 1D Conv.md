@@ -10,9 +10,5 @@ title: Causal 1D Conv
 
 
 
-## Backlinks
-* [[Convnd]]
-	* [[Causal 1D Conv]]
-* [[Temporal Conv]]
-	* FCN + [[Causal 1D Conv]] + Residual
+
 

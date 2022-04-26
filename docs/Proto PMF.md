@@ -11,7 +11,5 @@ title: Proto PMF
 
 
 
-## Backlinks
-* [[Proto Distributions]]
-	* [[Proto PMF]]
+
 

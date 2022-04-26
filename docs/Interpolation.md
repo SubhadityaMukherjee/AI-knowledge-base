@@ -11,7 +11,5 @@ title: Interpolation
 
 
 
-## Backlinks
-* [[Marching Squares]]
-	* Also uses [[Interpolation]]
+
 

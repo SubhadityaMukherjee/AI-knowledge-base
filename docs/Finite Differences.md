@@ -14,9 +14,5 @@ title: Finite Differences
 	- Non isotropic
 
 
-## Backlinks
-* [[Marching Cubes]]
-	* [[Finite Differences]] Central
-* [[Volumetric Illumination]]
-	* [[Finite Differences]]
+
 

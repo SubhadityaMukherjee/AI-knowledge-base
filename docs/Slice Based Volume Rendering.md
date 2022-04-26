@@ -7,7 +7,5 @@ title: Slice Based Volume Rendering
 - ![[Pasted image 20220418002454.png]]
 
 
-## Backlinks
-* [[Raycasting]]
-	* [[Slice Based Volume Rendering]]
+
 

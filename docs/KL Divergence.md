@@ -19,9 +19,5 @@ Finally KLD $$entropy + crossentropyloss$$
 
 
 
-## Backlinks
-* [[Loss Functions]]
-	* [[KL Divergence]]
-* [[Variational Autoencoder]]
-	* Eg: By Loss func [[KL Divergence]] and prob distribution $$L(X) = n^{-1}\\Sigma*i||x*i - D(E(\\tilde x))||^2 + \\lambda \\cdot KL(f_i, d)$$
+
 

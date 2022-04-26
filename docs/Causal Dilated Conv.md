@@ -9,7 +9,5 @@ title: Causal Dilated Conv
 
 
 
-## Backlinks
-* [[Convnd]]
-	* [[Causal Dilated Conv]]
+
 

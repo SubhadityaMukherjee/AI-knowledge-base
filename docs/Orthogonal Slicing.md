@@ -8,7 +8,5 @@ title: Orthogonal Slicing
 - Use visualization techniques for [[Isoline]], [[Height Plots]]
 
 
-## Backlinks
-* [[Volume Visualization]]
-	* [[Orthogonal Slicing]]
+
 

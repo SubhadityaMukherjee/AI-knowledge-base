@@ -7,6 +7,9 @@ title: Optimizing Work
 - [[Parallelization]]
 - [[Loop Tiling]]
 - [[Operator Fusion]]
+- [[Block Sparse Kernel]]
+
+
 
 
 

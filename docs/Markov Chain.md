@@ -18,11 +18,5 @@ title: Markov Chain
 
 
 
-## Backlinks
-* [[Markov Random Field]]
-	* Generalized [[Markov Chain]]
-* [[Detailed Balance]]
-	* To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
-* [[MCMC Sampling]]
-	* [[Markov Chain]]
+
 

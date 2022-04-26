@@ -23,11 +23,5 @@ title: Emperical Risk
 
 
 
-## Backlinks
-* [[Cross Validation]]
-	* Get model with min [[Emperical Risk]]
-* [[Fundamentals]]
-	* [[Emperical Risk]]
-* [[Bias Vs Variance]]
-	* Tune on [[Emperical Risk]] instead using [[Optimizers]] 
+
 

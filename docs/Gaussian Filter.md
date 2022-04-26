@@ -10,7 +10,5 @@ title: Gaussian Filter
 
 
 
-## Backlinks
-* [[Noise Suppression]]
-	* [[Gaussian Filter]]
+
 

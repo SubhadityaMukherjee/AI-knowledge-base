@@ -7,7 +7,5 @@ title: Back To Front Raycasting
 - blending over operator for semi-transparent geometry
 
 
-## Backlinks
-* [[Raycasting]]
-	* [[Back To Front Raycasting]]
+
 

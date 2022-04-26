@@ -18,5 +18,3 @@ title: Optimization
 ## …
 
 
-
-

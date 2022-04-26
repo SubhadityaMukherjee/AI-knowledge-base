@@ -12,7 +12,5 @@ title: Adversarial Learning
 
 
 
-## Backlinks
-* [[Manifold]]
-	* Can be exploited by [[Adversarial Learning]]
+
 

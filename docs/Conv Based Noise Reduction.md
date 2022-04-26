@@ -15,7 +15,5 @@ title: Conv Based Noise Reduction
 
 
 
-## Backlinks
-* [[Noise Suppression]]
-	* preserve small scale structures
+
 

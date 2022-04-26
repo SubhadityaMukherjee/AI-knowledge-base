@@ -13,7 +13,5 @@ title: Detailed Balance
 
 
 
-## Backlinks
-* [[MCMC Sampling]]
-	* [[Detailed Balance]]
+
 

@@ -15,7 +15,5 @@ title: Perceptron
 
 
 
-## Backlinks
-* [[Layers]]
-	* [[Perceptron]]
+
 

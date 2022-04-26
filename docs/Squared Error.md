@@ -10,7 +10,5 @@ title: Squared Error
 
 
 
-## Backlinks
-* [[Loss Functions]]
-	* [[Squared Error]]
+
 

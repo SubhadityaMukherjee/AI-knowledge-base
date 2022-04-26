@@ -13,7 +13,5 @@ title: Self Supervised
 
 
 
-## Backlinks
-* [[Fundamentals]]
-	* [[Self Supervised]]
+
 

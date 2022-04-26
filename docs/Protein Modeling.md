@@ -30,7 +30,5 @@ title: Protein Modeling
 
 
 
-## Backlinks
-* [[Bayesian Model Estimation]]
-	* ### [[Protein Modeling]]
+
 

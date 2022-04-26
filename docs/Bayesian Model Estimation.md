@@ -36,9 +36,5 @@ title: Bayesian Model Estimation
 
 
 
-## Backlinks
-* [[Bayesian]]
-	* [[Bayesian Model Estimation]]
-* [[Bayesian Neural Network]]
-	* [[Bayesian Model Estimation]]
+
 

@@ -16,6 +16,8 @@ title: Gated Recurrent Unit (GRU)
 
 
 
+
+
 ## Backlinks
 * [[Basic RNN Architectures]]
 	* [[Gated Recurrent Unit (GRU)]]

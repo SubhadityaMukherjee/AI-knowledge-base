@@ -11,11 +11,5 @@ title: Transfer Function
 - [[Opacity Correction]]
 
 
-## Backlinks
-* [[Post Classification]]
-	* Classification via [[Transfer Function]]
-* [[Pre Classification]]
-	* Classification of scalars at each sample via [[Transfer Function]]
-* [[Classification Ray Casting]]
-	* [[Transfer Function]]
+
 

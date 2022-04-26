@@ -15,7 +15,5 @@ title: Dense
 
 
 
-## Backlinks
-* [[Layers]]
-	* [[Dense]]
+
 

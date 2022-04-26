@@ -7,7 +7,5 @@ title: Countouring with Transparency
 - assign “adequate” transparency
 
 
-## Backlinks
-* [[Contours]]
-	* [[Countouring with Transparency]]
+
 

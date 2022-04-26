@@ -8,7 +8,5 @@ title: Pre Classification
 - ![[Pasted image 20220418003142.png]]
 
 
-## Backlinks
-* [[Classification Ray Casting]]
-	* [[Pre Classification]]
+
 

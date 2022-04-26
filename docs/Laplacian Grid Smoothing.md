@@ -7,7 +7,5 @@ title: Laplacian Grid Smoothing
 - $$p_{i}=\frac{1}{N}\Sigma_{i…j}p_{j}$$
 
 
-## Backlinks
-* [[Noise Suppression]]
-	* [[Laplacian Grid Smoothing]]
+
 

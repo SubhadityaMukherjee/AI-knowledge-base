@@ -11,7 +11,5 @@ title: Word Vectors
 
 
 
-## Backlinks
-* [[Discrete -> Continous Transforms]]
-	* ## [[Word Vectors]]
+
 

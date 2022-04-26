@@ -13,11 +13,5 @@ title: Skip Connection
 
 
 
-## Backlinks
-* [[Dense Skip Connections]]
-	* [[Skip Connection]]
-* [[Layers]]
-	* [[Skip Connection]]
-* [[Unet]]
-	* [[Skip Connection]]
+
 

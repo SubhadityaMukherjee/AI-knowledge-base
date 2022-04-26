@@ -12,9 +12,5 @@ title: Invariant Distribution
 
 
 
-## Backlinks
-* [[Markov for Continuous Distributions]]
-	* [[Invariant Distribution]]
-* [[Detailed Balance]]
-	* If T(x|y) has detailed balance wrt g, then it is an [[Invariant Distribution]]
+
 

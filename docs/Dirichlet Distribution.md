@@ -11,9 +11,5 @@ title: Dirichlet Distribution
 
 
 
-## Backlinks
-* [[Distributions]]
-	* [[Dirichlet Distribution]]
-* [[Protein Modeling]]
-	* [[Dirichlet Distribution]] is used to represent it because parameterized with l = 20
+
 

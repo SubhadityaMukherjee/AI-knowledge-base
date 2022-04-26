@@ -9,7 +9,5 @@ title: Global Gradient Magnitude Based Pruning
 
 
 
-## Backlinks
-* [[Pruning]]
-	* [[Global Gradient Magnitude Based Pruning]]
+
 

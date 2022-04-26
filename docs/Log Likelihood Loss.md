@@ -10,9 +10,5 @@ title: Log Likelihood Loss
 
 
 
-## Backlinks
-* [[Loss Functions]]
-	* [[Log Likelihood Loss]]
-* [[Negative Log Likelihood]]
-	* [[Log Likelihood Loss]]
+
 

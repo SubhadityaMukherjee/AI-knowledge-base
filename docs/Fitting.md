@@ -15,9 +15,5 @@ title: Fitting
 
 
 
-## Backlinks
-* [[Issues]]
-	* [[Fitting]]
-* [[Bias Vs Variance]]
-	* $\\mathcal{H}$ is hypothesis space (related to [[Fitting]]). 
+
 

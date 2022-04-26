@@ -15,7 +15,5 @@ title: Aleatoric
 
 
 
-## Backlinks
-* [[Types of Uncertainty]]
-	* [[Aleatoric]]
+
 

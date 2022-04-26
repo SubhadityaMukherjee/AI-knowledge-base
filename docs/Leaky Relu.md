@@ -10,7 +10,5 @@ title: Leaky Relu
 
 
 
-## Backlinks
-* [[Relu]]
-	* [[Leaky Relu]]
+
 

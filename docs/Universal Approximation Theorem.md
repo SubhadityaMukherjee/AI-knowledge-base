@@ -25,7 +25,5 @@ title: Universal Approximation Theorem
 
 
 
-## Backlinks
-* [[Fundamentals]]
-	* [[Universal Approximation Theorem]]
+
 

@@ -8,7 +8,5 @@ title: Classification Ray Casting
 - [[Post Classification]]
 
 
-## Backlinks
-* [[Raycasting]]
-	* [[Classification Ray Casting]]
+
 

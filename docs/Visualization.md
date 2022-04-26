@@ -10,11 +10,10 @@ title: Visualization
 - [[Mapping to Geometry]]
 - [[Particle Visualization]]
 - [[Volume Visualization]]
+- [[Information Visualization]]
+- [[Graphs]]
+- [[Trees]]
 #anchor 
 
 
-
-## Backlinks
-* [[SiteMap]]
-	* [[Visualization]]
 

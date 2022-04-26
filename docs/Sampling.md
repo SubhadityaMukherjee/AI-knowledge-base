@@ -14,7 +14,5 @@ title: Sampling
 
 
 
-## Backlinks
-* [[Fundamentals]]
-	* [[Sampling]]
+
 

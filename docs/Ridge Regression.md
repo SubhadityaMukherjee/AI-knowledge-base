@@ -13,9 +13,5 @@ title: Ridge Regression
 
 
 
-## Backlinks
-* [[Tuning Model Flexibility]]
-	* [[Ridge Regression]]
-* [[Linear Regression]]
-	* [[Ridge Regression]]
+
 

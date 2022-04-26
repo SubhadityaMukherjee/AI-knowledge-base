@@ -8,7 +8,5 @@ title: Oblique Slicing
 • Store volume in 3D texture
 
 
-## Backlinks
-* [[Volume Visualization]]
-	* [[Oblique Slicing]]
+
 

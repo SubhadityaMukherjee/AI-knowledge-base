@@ -38,9 +38,5 @@ title: Architectures
 
 
 
-## Backlinks
-* [[Index]]
-	* [[Architectures]]
-* [[Vanishing/exploding #gradients]]
-	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
+
 

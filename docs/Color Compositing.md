@@ -19,9 +19,5 @@ I_{o}&otherwise
 	- Higher pixel accurate quality
 
 
-## Backlinks
-* [[Raycasting]]
-	* [[Color Compositing]]
-* [[Front to Back Raycasting]]
-	* [[Color Compositing]]
+
 

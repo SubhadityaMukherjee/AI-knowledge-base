@@ -9,9 +9,5 @@ title: Spiking Networks
 
 
 
-## Backlinks
-* [[Exponential Distribution]]
-	* [[Spiking Networks]]
-* [[Architectures]]
-	* [[Spiking Networks]]
+
 

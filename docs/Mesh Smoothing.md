@@ -9,7 +9,5 @@ title: Mesh Smoothing
 	- Eventually simplifies the grid
 
 
-## Backlinks
-* [[Noise Suppression]]
-	* [[Mesh Smoothing]]
+
 

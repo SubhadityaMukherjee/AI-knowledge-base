@@ -13,7 +13,5 @@ title: Rmsprop
 
 
 
-## Backlinks
-* [[Optimization]]
-	* [[Rmsprop]]
+
 

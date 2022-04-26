@@ -11,7 +11,5 @@ title: Image Data
 
 
 
-## Backlinks
-* [[Issues]]
-	* [[Image Data]]
+
 

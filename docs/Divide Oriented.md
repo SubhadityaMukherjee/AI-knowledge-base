@@ -9,7 +9,5 @@ title: Divide Oriented
 
 
 
-## Backlinks
-* [[Color Spaces]]
-	* [[Divide Oriented]]
+
 

@@ -9,11 +9,5 @@ title: Isosurface
 
 
 
-## Backlinks
-* [[Volume Visualization]]
-	* [[Isosurface]]
-* [[Contours]]
-	* [[Isosurface]]
-* [[Indirect Volume Visualization]]
-	* [[Isosurface]]
+
 

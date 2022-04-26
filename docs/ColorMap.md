@@ -10,7 +10,5 @@ title: ColorMap
 
 
 
-## Backlinks
-* [[Visualization]]
-	* [[ColorMap]]
+
 

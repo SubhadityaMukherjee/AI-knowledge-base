@@ -29,15 +29,5 @@ title: Distributions
 
 
 
-## Backlinks
-* [[Decision Boundaries]]
-	* Minimal risk decision function is unique and must be represented in terms of [[Distributions]] of data generating RVs X and Y
-* [[Proto Distributions]]
-	* [[Distributions]]
-* [[Fundamentals]]
-	* [[Distributions]]
-* [[Uncertainty]]
-	* Model outputs [[Distributions]]
-* [[Uncertainty Classification]]
-	* [[Distributions]]
+
 

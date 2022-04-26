@@ -11,9 +11,5 @@ title: Bernoulli Distribution
 
 
 
-## Backlinks
-* [[Distributions]]
-	* [[Bernoulli Distribution]]
-* [[Binomial Distribution]]
-	* [[Bernoulli Distribution]] repeated for N independant trials with success probability q
+
 

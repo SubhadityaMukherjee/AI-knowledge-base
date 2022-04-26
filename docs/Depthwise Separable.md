@@ -11,7 +11,5 @@ title: Depthwise Separable
 
 
 
-## Backlinks
-* [[Convnd]]
-	* [[Depthwise Separable]]
+
 

@@ -10,7 +10,5 @@ title: Homoscedatic
 
 
 
-## Backlinks
-* [[Aleatoric]]
-	* [[Homoscedatic]]
+
 

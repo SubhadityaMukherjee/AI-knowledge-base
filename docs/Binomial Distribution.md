@@ -15,9 +15,5 @@ title: Binomial Distribution
 
 
 
-## Backlinks
-* [[Distributions]]
-	* [[Binomial Distribution]]
-* [[Multinomial]]
-	* Generalized [[Binomial Distribution]]
+
 

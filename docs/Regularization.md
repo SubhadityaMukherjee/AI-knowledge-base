@@ -21,13 +21,5 @@ title: Regularization
 
 
 
-## Backlinks
-* [[Freedom]]
-	* Solution : [[Regularization]]
-* [[Tuning Model Flexibility]]
-	* [[Regularization]]
-* [[Index]]
-	* [[Regularization]]
-* [[Vanishing/exploding #gradients]]
-	* [[Regularization]] , [[Optimizers]] , [[Architectures]]
+
 

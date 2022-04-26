@@ -12,7 +12,5 @@ title: Opacity Correction
 	• apply before compositing`
 
 
-## Backlinks
-* [[Transfer Function]]
-	* [[Opacity Correction]]
+
 

@@ -12,7 +12,5 @@ title: Scoring Pruning Approaches
 
 
 
-## Backlinks
-* [[Pruning]]
-	* [[Scoring Pruning Approaches]]
+
 

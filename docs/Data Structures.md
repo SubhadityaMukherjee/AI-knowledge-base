@@ -9,9 +9,5 @@ title: Data Structures
 
 
 
-## Backlinks
-* [[Visualization]]
-	* [[Data Structures]]
-* [[Particle Visualization]]
-	* scattered data [[Data Structures]]
+
 

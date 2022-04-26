@@ -12,9 +12,5 @@ title: Height Plots
 
 
 
-## Backlinks
-* [[Orthogonal Slicing]]
-	* Use visualization techniques for [[Isoline]], [[Height Plots]]
-* [[Mapping to Geometry]]
-	* [[Height Plots]]
+
 

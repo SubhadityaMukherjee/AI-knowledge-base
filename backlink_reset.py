@@ -28,5 +28,5 @@ for i in files:
     with open(i, "w+") as f:
         f.write(line_end)
     # break
-
+print("Reset all backlinks")
 # %%

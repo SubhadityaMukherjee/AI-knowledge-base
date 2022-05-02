@@ -22,3 +22,5 @@ title: Bayesian Prior
 		- Higher values of	$p_{\otimes_{i}}x(D|\theta)$  are better
 
 
+
+

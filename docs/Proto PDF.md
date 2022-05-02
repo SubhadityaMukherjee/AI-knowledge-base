@@ -9,3 +9,5 @@ title: Proto PDF
 - If we divide $g_{0}$ by its integral -> we get a normal [[pdf]] g
 
 
+
+

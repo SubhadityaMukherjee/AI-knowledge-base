@@ -14,3 +14,5 @@ title: Contrastive Loss
 	- Labeled points $$(y,x_1,x_2)$$ are generated
 
 
+
+

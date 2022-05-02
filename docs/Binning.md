@@ -12,3 +12,5 @@ title: Binning
 	- Continuous range -> adaptive bin boundaris [[Decision Trees]]
 
 
+
+

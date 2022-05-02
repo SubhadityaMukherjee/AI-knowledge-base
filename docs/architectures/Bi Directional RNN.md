@@ -9,3 +9,5 @@ title: Bi Directional RNN
 - ![[Pasted image 20220307171243.png]]
 
 
+
+

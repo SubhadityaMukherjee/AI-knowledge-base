@@ -10,3 +10,5 @@ title: Bayesian Predictive Posterior
 - $$P(y|x) = \int_{w}P(y|w,x)P(w|x)dx$$
 
 
+
+

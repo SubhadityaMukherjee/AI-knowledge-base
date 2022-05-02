@@ -10,3 +10,5 @@ title: Factors for MC Estimate
 	- First value will depend to a decreasing degree on the distance from this timestep to the previous ones. Then washout (because old ones are too far away)
 
 
+
+

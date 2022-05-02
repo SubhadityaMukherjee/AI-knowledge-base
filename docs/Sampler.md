@@ -12,3 +12,5 @@ title: Sampler
 - Dream : All $X_{i}$ are uniformly distributed on [0,1]. (Impossible)
 
 
+
+

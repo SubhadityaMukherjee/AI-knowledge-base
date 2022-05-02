@@ -19,3 +19,5 @@ title: Batch Normalization
 - $$\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$$
 
 
+
+

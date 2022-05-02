@@ -7,3 +7,5 @@ title: Layer Normalization
 - Mean and variance calculated independantly for each element of the batch by aggregating over the features dimensions.
 
 
+
+

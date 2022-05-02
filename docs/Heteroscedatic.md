@@ -7,3 +7,5 @@ title: Heteroscedatic
 - ![[Pasted image 20220323153054.png]]
 
 
+
+

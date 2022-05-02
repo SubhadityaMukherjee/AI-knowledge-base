@@ -9,3 +9,5 @@ title: Seq2Seq
 	- Even if hidden state vector has a high dimensionality, cannot hold all info
 
 
+
+

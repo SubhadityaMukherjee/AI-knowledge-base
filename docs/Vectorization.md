@@ -7,3 +7,5 @@ title: Vectorization
 - Prioritize those are contiguous in memory
 
 
+
+

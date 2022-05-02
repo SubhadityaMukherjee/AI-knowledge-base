@@ -12,3 +12,5 @@ title: Res Net
 - [[Skip Connection]]
 
 
+
+

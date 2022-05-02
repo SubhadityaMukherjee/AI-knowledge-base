@@ -12,3 +12,5 @@ title: Basic RNN Architectures
 - [[Gated Recurrent Unit (GRU)]]
 
 
+
+

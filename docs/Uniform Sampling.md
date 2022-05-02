@@ -12,3 +12,5 @@ title: Uniform Sampling
 	- ![[Pasted image 20220324113838.png]] 
 
 
+
+

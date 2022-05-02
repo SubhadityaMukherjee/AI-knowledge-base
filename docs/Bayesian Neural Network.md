@@ -12,3 +12,5 @@ title: Bayesian Neural Network
 	- Can be understood using [[Bayesian Predictive Posterior]]
 
 
+
+

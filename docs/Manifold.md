@@ -29,3 +29,5 @@ title: Manifold
 - [way more stuff : bjlkeng](https://bjlkeng.github.io/posts/manifolds/) #todo
 
 
+
+

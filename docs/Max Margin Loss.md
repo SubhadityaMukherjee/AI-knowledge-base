@@ -8,3 +8,5 @@ title: Max Margin Loss
 - [[Hinge Loss]] probably ??
 
 
+
+

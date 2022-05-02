@@ -12,3 +12,5 @@ title: Triplet Loss
 - Loss to minimize $$L(\theta) = \Sigma_i^n||f(x^a) - f(x^p)||^2 + f(x^a) - f(x^n)||^2 + \alpha$$
 
 
+
+

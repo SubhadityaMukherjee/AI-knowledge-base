@@ -7,3 +7,5 @@ title: Intra Cluster Variance
 - Measure of how much the points in a given cluster spread
 
 
+
+

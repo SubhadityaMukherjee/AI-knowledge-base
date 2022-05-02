@@ -2,8 +2,10 @@
 title: Parametric Relu
 ---
 
-# Parametric Relu
+# Parametric [[Relu]]
 - $$max(\alpha x,x)$$
+
+
 
 
 

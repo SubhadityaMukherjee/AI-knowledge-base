@@ -7,3 +7,5 @@ title: Visual Encoding
 - [[Characteristics of Visual Variables]]
 
 
+
+

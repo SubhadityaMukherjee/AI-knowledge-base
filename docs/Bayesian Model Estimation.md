@@ -2,7 +2,7 @@
 title: Bayesian Model Estimation
 ---
 
-# Bayesian Model Estimation
+# [[Bayesian]] Model Estimation
 - Unlike frequentist, sometimes things like sample mean is not a good metric because it has a high variance. Might give different results with different trials in a real valued distribution
 - The task is to estimate $\theta$ from the data
 - [[Bayesian Prior]]
@@ -27,10 +27,12 @@ title: Bayesian Model Estimation
 - ![[Pasted image 20220316120743.png]]
 - ![[Pasted image 20220316120803.png]]
 - Green : prior , Red: Posterior
-- The posterior mean estimate is obtained by integrating $\int_{\mathbb{R}}\mu h(\mu|D)d\mu$
+- The [[posterior mean estimate]] is obtained by integrating $\int_{\mathbb{R}}\mu h(\mu|D)d\mu$
 - Since this is different from sample mean -> Prior distribution really does influence the models
 
 ### [[Protein Modeling]]
+
+
 
 
 

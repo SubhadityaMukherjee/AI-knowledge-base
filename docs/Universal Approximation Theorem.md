@@ -5,8 +5,8 @@ title: Universal Approximation Theorem
 # Universal Approximation Theorem
 - What this means that given an x and a y, the NN can identify a mapping between them. "Approximately".
 - This is required when we have non linearly separable data. 
-- So we take a non linear function, for example the sigmoid. $$\frac{1}{1 + e^{ - \left( w^{T}x + b \right)}}$$.
-- Then we have to combine multiple such neurons in a way such that we can accurately model our problem. The end result is a complex function and the existing weights are distributed across many layers. 
+- So we take a non linear function, for example the [[sigmoid]]. $$\frac{1}{1 + e^{ - \left( w^{T}x + b \right)}}$$.
+- Then we have to combine multiple such neurons in a way such that we can accurately model our problem. The end result is a complex function and the existing weights are distributed across many [[layers]]. 
 - The Universal approximation theorem states that
 	> a feed forward network with a single hidden layer containing a finite number of neurons can approximate continuous functions on compact subsets of $\mathbb{R}$ , under mild assumptions on the activation function.
 
@@ -20,6 +20,8 @@ title: Universal Approximation Theorem
 
 ## Refs
 - [mm](https://medium.com/hackernoon/illustrative-proof-of-universal-approximation-theorem-5845c02822f6)
+
+
 
 
 

@@ -2,7 +2,9 @@
 title: Intuitive Color spaces
 ---
 
-# Intuitive Color Spaces
+# Intuitive [[Color Spaces]]
+
+
 
 
 

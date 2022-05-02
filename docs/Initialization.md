@@ -6,7 +6,10 @@ title: Initialization
 
 ## He Init
 
-## Glorot/Xavier
+- [[Xavier Initialization]]
+
+
+
 
 
 

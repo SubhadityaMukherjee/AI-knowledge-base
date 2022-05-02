@@ -2,7 +2,7 @@
 title: Reg Uncertainty
 ---
 
-# Reg Uncertainty
+# Reg [[Uncertainty]]
 - [[LinearRegression]]
 - Confidence intervals
 	- Prob that output belongs to this interval
@@ -10,6 +10,8 @@ title: Reg Uncertainty
 - Mean and Variance
 	- $f(x) \pm \sigma$
 	- $f(x) \in [f(x) - \sigma,f(x) + \sigma]$
+
+
 
 
 

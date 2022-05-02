@@ -7,9 +7,11 @@ title: Dirac Delta
 - $$P(X \in A) = \int_{A}\delta(x)dx$$
 
 ## In $\mathbb{R}^{n}$
-- it is a pdf which describes prob concentrated in the origin
-- Multi point distribution -> combine dirac deltas
+- it is a [[pdf]] which describes prob concentrated in the origin
+- Multi [[point distribution]] -> combine dirac deltas
 - ![[Pasted image 20220319135742.png]]
+
+
 
 
 

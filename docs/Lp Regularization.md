@@ -2,7 +2,7 @@
 title: Lp Regularization
 ---
 
-# Lp Regularization
+# Lp [[Regularization]]
 - Tikhonov
 - Penalty considering weights
 - $$L^\ast(\theta) = L(\theta) + \lambda \Sigma_i |\theta_i|^p$$
@@ -12,13 +12,15 @@ title: Lp Regularization
 		- With linear model : feature selection
 	- Weight Decay
 		- p = 2
-		- Bayesian
+		- [[Bayesian]]
 		- Encourages optimization trajectory perpendicular to isocurves
 		- ![[Pasted image 20220306133032.png]]
 - Tune $$\lambda$$
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit
-	- Cross validation required
+	- [[Cross validation]] required
+
+
 
 
 

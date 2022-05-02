@@ -11,9 +11,9 @@ title: Decision Boundaries
 - If a test pattern falls into $R_{i}$ it is classified as class i
 
 ## Finding Decision Regions
-- which yields the lowerst misclassification rate or highest probability of correct classification
-- $f_{i}$ be the pdf for [[Class Conditional distribution]]
-- Probability of obtaining a correct classification for $R_{i}$ is $$\Sigma_{i=1}^{k}P(X \in R_{i}, Y = c_{i})$$
+- which yields the lowerst misclassification rate or highest [[probability]] of correct classification
+- $f_{i}$ be the [[pdf]] for [[Class Conditional distribution]]
+- [[Probability]] of obtaining a correct classification for $R_{i}$ is $$\Sigma_{i=1}^{k}P(X \in R_{i}, Y = c_{i})$$
 - ![[Pasted image 20220318161058.png]]
 - This region has curved boundaries aka decision boundaries
 	- Folded and on higher dims : very complex and fragmented
@@ -22,6 +22,8 @@ title: Decision Boundaries
 - Maximal if $$R_{i}= \{x \in P| i = argmax_{j} P(Y=c_{j})f_{j}(x)\}$$
 - Then $$h_{opt}: P \rightarrow C_{j}x \rightarrow c_{argmax_{j}P(Y=c_{j})f_{j}(x)}$$
 - Algo learns estimates of the [[Class Conditional distribution]] and class probabilities aka priors
+
+
 
 
 

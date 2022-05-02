@@ -15,7 +15,7 @@ title: Recurrent
 - $$h_t = \sigma_h(W_{hh}h_{t-1} + W_{xh}x_t + b_h)$$
 - $$y_t = \sigma_y(W_{hy}h_t + b_y)$$
 - Stateful : hidden state kept across batches of inputs
-- Activation usually sigmoid or tanh
+- Activation usually [[sigmoid]] or [[tanh]]
 - BPTT
 	- ![[Pasted image 20220306185944.png]]![[Pasted image 20220306190603.png]]
 	- #gradients 
@@ -36,6 +36,8 @@ title: Recurrent
 	- First starting with the short words and then eventually the longer ones.
 	- Topics and themes that span multiple words (and in general longer-term dependencies) start to emerge only much later.
 - [[Basic RNN Architectures]]
+
+
 
 
 

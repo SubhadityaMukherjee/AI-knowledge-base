@@ -5,7 +5,7 @@ title: Block Sparse Kernel
 # Block Sparse Kernel
 - For networks with block sparse weights
 - Can choose amount of sparsity
-- Can replace normal dense layers with sparse and wide or sparse and deep
+- Can replace normal [[dense]] [[layers]] with sparse and wide or sparse and deep
 	- ![[Pasted image 20220425233755.png]]
 - Enables wider and deeper networks
 	- Only compute on non zero blocks
@@ -17,5 +17,7 @@ title: Block Sparse Kernel
 
 ## Refs
 - [openai](https://openai.com/blog/block-sparse-gpu-kernels/)
+
+
 
 

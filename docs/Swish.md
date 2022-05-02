@@ -6,8 +6,3 @@ title: Swish
 - $$x\cdot sigmoid(x)$$
 
 
-
-
-
-
-

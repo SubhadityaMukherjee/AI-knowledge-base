@@ -11,7 +11,7 @@ title: Layers
 - Tensor shape : (w,h,c)
 - Matrix multi : $$A\cdot B$$
 - Hadmard prod (coeff wise) : $$A \circ B$$
-- Conv : $$A\ast B$$
+- [[Conv]] : $$A\ast B$$
 
 - [[Perceptron]]
 
@@ -33,6 +33,8 @@ title: Layers
 
 - [[Convolutional RNN]]
 - [[Best Maching Unit]]
+
+
 
 
 

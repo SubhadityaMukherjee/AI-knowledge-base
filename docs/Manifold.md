@@ -5,7 +5,7 @@ title: Manifold
 # Manifold
 - Data manifolds are an abstraction 
 - Only geometric insights are important
-- Locally around some point c where the pdf is large -> It will stay large only for a small fraction of directions
+- Locally around some point c where the [[pdf]] is large -> It will stay large only for a small fraction of directions
 	- Those directions span a low dimensional hyperplane around c
 	- "low dimensional sheets"
 	- curved path
@@ -27,6 +27,8 @@ title: Manifold
 ## Refs
 - [tds](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
 - [way more stuff : bjlkeng](https://bjlkeng.github.io/posts/manifolds/) #todo
+
+
 
 
 

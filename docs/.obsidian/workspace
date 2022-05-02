@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Brain Oscillations.md",
+            "file": "Functional Connectivity.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -71,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Brain Oscillations.md",
+                "file": "Functional Connectivity.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Brain Oscillations.md"
+                "file": "Functional Connectivity.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brain Oscillations.md",
+                "file": "Functional Connectivity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Brain Oscillations.md",
+                "file": "Functional Connectivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,15 +242,15 @@
   },
   "active": "ad353c4a0980abd2",
   "lastOpenFiles": [
-    "Brain Oscillations.md",
+    "Functional Connectivity.md",
+    "Granger Causallity.md",
+    "BrainWave Coherence.md",
+    "Autoregressive.md",
+    "Multi Variate AR.md",
+    "TIme Series.md",
+    "BrainWave CrossFrequency Coupling.md",
+    "BrainWave Synchronization.md",
     "Neuroscience.md",
-    "EEG.md",
-    "EEG Statistical Analysis.md",
-    "EEG Cluster Testing.md",
-    "EEG Baseline Correction.md",
-    "ERP.md",
-    "EEG Filtering.md",
-    "EEG Artifacts.md",
-    "ICA.md"
+    "Brain Oscillations.md"
   ]
 }

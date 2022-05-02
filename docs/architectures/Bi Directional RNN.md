@@ -11,3 +11,5 @@ title: Bi Directional RNN
 
 
 
+
+

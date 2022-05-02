@@ -23,5 +23,3 @@ title: Time Series Prediction
 	- [[Recurrent]]
 
 
-
-

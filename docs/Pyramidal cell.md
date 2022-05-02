@@ -9,3 +9,5 @@ title: Pyramidal cell
 	- Adds up so can be measured
 	- [[Equivalent Current Dipole]]
 
+
+

@@ -10,12 +10,3 @@ title: BERT
 - [CLS] : start of classification task, [SEP] between sentences, [MASK] : masked token
 
 
-
-
-
-
-
-
-
-
-

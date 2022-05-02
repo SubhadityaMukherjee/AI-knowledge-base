@@ -9,12 +9,3 @@ title: Invariant Distribution
 - [[Ergodic]]
 
 
-
-
-
-
-
-
-
-
-

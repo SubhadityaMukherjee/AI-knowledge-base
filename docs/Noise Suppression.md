@@ -14,10 +14,3 @@ title: Noise Suppression
 - [[Laplacian Grid Smoothing]]
 
 
-
-
-
-
-
-
-

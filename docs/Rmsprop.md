@@ -10,12 +10,3 @@ title: Rmsprop
 - $$\rho$$ is decay : 0.9, 0.99
 
 
-
-
-
-
-
-
-
-
-

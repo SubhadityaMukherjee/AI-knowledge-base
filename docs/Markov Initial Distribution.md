@@ -7,12 +7,3 @@ title: Markov Initial Distribution
 - Not needed for left right infinite ones
 
 
-
-
-
-
-
-
-
-
-

@@ -12,11 +12,3 @@ title: Variational/Recurrent Dropout
 ## …
 
 
-
-
-
-
-
-
-
-

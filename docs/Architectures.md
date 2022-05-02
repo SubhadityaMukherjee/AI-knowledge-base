@@ -35,12 +35,3 @@ title: Architectures
 #anchor
 
 
-
-
-
-
-
-
-
-
-

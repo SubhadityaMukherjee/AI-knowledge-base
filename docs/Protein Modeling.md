@@ -27,12 +27,3 @@ title: Protein Modeling
 - $\alpha$s fixed beforehand
 
 
-
-
-
-
-
-
-
-
-

@@ -9,11 +9,3 @@ title: Linear Scale Encoding
 ## …
 
 
-
-
-
-
-
-
-
-

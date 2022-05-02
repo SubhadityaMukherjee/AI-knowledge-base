@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Xavier Initialization.md",
+            "file": "index.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Xavier Initialization.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -93,7 +93,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6926616089983871,
+                  "scale": 0.7275147923099603,
                   "close": true
                 }
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Xavier Initialization.md"
+                "file": "index.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Xavier Initialization.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Xavier Initialization.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,19 +236,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 436.7156677246094
+    "width": 401.71575927734375
   },
   "active": "83690fe6056ffc18",
   "lastOpenFiles": [
-    "Xavier Initialization.md",
-    "Word Vectors.md",
-    "Window Based Regression.md",
-    "Voronoi Cell.md",
-    "Volume Visualization.md",
-    "Volumetric Illumination.md",
-    "Volume Rendering Equation.md",
-    "Volterra expansion.md",
-    "Visualization.md",
-    "Visual Encoding.md"
+    "index.md",
+    "Absolute Error.md",
+    "0-1 Loss.md",
+    "Beta Distribution.md",
+    "Distributions.md",
+    "Mixup.md",
+    "Augmentation.md",
+    "papers/Bag of Tricks For Image.md",
+    "Knowledge Distillation.md",
+    "Distillation Loss.md"
   ]
 }

@@ -18,12 +18,3 @@ title: Dictionary Learning
 	- Expensive to compute
 
 
-
-
-
-
-
-
-
-
-

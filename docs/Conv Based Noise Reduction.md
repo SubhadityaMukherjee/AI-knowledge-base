@@ -12,12 +12,3 @@ title: Conv Based Noise Reduction
 - Spatially narrow (wide) filter has wide (narrow) spectrum and low (high) smoothing effect
 
 
-
-
-
-
-
-
-
-
-

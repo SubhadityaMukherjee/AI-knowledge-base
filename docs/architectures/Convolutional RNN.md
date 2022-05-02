@@ -10,11 +10,3 @@ title: Convolutional RNN
 - Very memory intensive
 
 
-
-
-
-
-
-
-
-

@@ -10,12 +10,3 @@ title: Skip Connection
 - Transfer #gradients to prevent [[Vanishingexploding gradients]]
 
 
-
-
-
-
-
-
-
-
-

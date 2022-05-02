@@ -12,12 +12,3 @@ title: Exponential Distribution
 - [[Spiking Networks]]
 
 
-
-
-
-
-
-
-
-
-

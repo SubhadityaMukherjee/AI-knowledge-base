@@ -7,8 +7,3 @@ title: Mapping to Geometry
 - [[Contour]]
 
 
-
-
-
-
-

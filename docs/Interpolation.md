@@ -8,12 +8,3 @@ title: Interpolation
 - [[Barycentric Interpolation]]
 
 
-
-
-
-
-
-
-
-
-

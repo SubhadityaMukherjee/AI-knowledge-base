@@ -9,11 +9,3 @@ title: Encoding
 ## [[Continous -> Discrete]]
 
 
-
-
-
-
-
-
-
-

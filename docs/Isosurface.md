@@ -8,10 +8,3 @@ title: Isosurface
 - [[Marching Tetrahedra]]
 
 
-
-
-
-
-
-
-

@@ -8,12 +8,3 @@ title: Alex Net
 - ![[Pasted image 20220306120121.png]]
 
 
-
-
-
-
-
-
-
-
-

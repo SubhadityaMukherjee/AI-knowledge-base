@@ -5,12 +5,3 @@ title: Multiple Local Minima
 # Multiple Local Minima
 
 
-
-
-
-
-
-
-
-
-

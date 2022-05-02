@@ -18,12 +18,3 @@ title: Proto Distributions
 - [[Proto PMF]]
 
 
-
-
-
-
-
-
-
-
-

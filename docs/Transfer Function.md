@@ -11,9 +11,3 @@ title: Transfer Function
 - [[Opacity Correction]]
 
 
-
-
-
-
-
-

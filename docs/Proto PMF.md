@@ -8,12 +8,3 @@ title: Proto PMF
 - S is huge if there are many random variables
 
 
-
-
-
-
-
-
-
-
-

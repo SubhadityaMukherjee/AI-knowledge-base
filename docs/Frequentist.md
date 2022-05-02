@@ -13,12 +13,3 @@ title: Frequentist
 - [[MLE]]
 
 
-
-
-
-
-
-
-
-
-

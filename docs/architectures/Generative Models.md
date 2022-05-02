@@ -14,11 +14,3 @@ title: GAN
 - [[Mode Collapse]]
 
 
-
-
-
-
-
-
-
-

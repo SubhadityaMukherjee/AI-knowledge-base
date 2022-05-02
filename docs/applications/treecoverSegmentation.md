@@ -24,11 +24,3 @@ title: Tree Cover Segmentation
 - Adrian Stroker - Gottingen Uni Germany
 
 
-
-
-
-
-
-
-
-

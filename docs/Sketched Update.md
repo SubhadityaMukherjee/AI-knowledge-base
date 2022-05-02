@@ -10,11 +10,3 @@ title: Sketched Update
 - In the decoding phase, the server needs to perform the inverse rotation before aggregating all the updates.
 
 
-
-
-
-
-
-
-
-

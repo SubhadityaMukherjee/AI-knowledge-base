@@ -9,9 +9,3 @@ title: Volumetric Illumination
 - [[Raycasting]]
 
 
-
-
-
-
-
-

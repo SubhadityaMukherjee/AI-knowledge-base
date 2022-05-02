@@ -10,8 +10,3 @@ title: Voronoi Cell
 - [wolf](https://mathworld.wolfram.com/VoronoiDiagram.html)
 
 
-
-
-
-
-

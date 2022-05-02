@@ -14,10 +14,10 @@ title: Label Smoothing
 - The optimal Solution is
 	- $log((K-1)(1-\epsilon)/ \epsilon)+\alpha$ if $i=y$
 	- $\alpha$ otherwise
-
-
-
-
-
+		- Any real number
+		- Finite output from the last layer that generalizes well
+- If $\epsilon =0$ , $log((k-1)\frac{1-\epsilon}{\epsilon})$ is $\infty$
+- As $\epsilon$ increases, the gap decreases
+- If $\epsilon=\frac{K-1}{K}$, all optimizal $z^{\ast}_{i}$ are identical
 
 

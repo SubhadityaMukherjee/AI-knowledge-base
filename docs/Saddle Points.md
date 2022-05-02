@@ -5,12 +5,3 @@ title: Saddle Points
 # Saddle Points
 
 
-
-
-
-
-
-
-
-
-

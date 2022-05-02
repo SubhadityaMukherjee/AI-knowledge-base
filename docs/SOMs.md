@@ -19,11 +19,3 @@ title: Self Organizing Maps
 - Start with large r and then slow down.
 
 
-
-
-
-
-
-
-
-

@@ -8,12 +8,3 @@ title: GPT
 - ![[Pasted image 20220307184212.png]]
 
 
-
-
-
-
-
-
-
-
-

@@ -16,7 +16,3 @@ title: Proxy Objective
 - [openai](https://openai.com/blog/measuring-goodharts-law/)
 
 
-
-
-
-

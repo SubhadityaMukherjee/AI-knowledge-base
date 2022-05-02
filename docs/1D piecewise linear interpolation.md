@@ -6,11 +6,3 @@ title: 1D piecewise linear interpolation
 - ![[Pasted image 20220411124653.png]]
 
 
-
-
-
-
-
-
-
-

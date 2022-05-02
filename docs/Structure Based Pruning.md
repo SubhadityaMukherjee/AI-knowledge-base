@@ -7,12 +7,3 @@ title: Structure Based Pruning
 - Some others consider methods where they group certain parameters and remove them as groups. This is more optimized.
 
 
-
-
-
-
-
-
-
-
-

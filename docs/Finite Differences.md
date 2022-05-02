@@ -14,9 +14,3 @@ title: Finite Differences
 	- Non isotropic
 
 
-
-
-
-
-
-

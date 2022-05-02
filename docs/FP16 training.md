@@ -9,5 +9,3 @@ title: FP16 training
 - Multiply scalar to loss to align range of FP16
 
 
-
-

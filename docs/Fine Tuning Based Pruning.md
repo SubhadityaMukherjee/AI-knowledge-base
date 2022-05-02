@@ -7,12 +7,3 @@ title: Fine Tuning Based Pruning
 - Others somehow try to rewind to a previous state and reinitialize the network entirely
 
 
-
-
-
-
-
-
-
-
-

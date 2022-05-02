@@ -12,9 +12,3 @@ title: Raycasting
 - [[Slice Based Volume Rendering]]
 
 
-
-
-
-
-
-

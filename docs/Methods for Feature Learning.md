@@ -8,12 +8,3 @@ title: Methods for Feature Learning
 	- [[Gradient Descent gradients]] or [[LinearRegression]]
 
 
-
-
-
-
-
-
-
-
-

@@ -7,7 +7,3 @@ title: Cross angle Maximization
 - ![[Pasted image 20220418123203.png]]
 
 
-
-
-
-

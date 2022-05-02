@@ -13,12 +13,3 @@ title: Dropout
 - Start with small rate : 20 %
 
 
-
-
-
-
-
-
-
-
-

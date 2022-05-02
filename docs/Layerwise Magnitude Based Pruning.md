@@ -9,12 +9,3 @@ title: Layerwise Magnitude Based Pruning
 - As an edge case, if the number of elements entered is greater than the total length of the layer, then the entire layer is set to 0.
 
 
-
-
-
-
-
-
-
-
-

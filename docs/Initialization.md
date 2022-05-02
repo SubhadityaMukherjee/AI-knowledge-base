@@ -5,17 +5,6 @@ title: Initialization
 # Initialization
 
 ## He Init
-
 - [[Xavier Initialization]]
-
-
-
-
-
-
-
-
-
-
 
 

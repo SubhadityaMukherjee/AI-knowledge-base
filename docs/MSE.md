@@ -7,12 +7,3 @@ title: MSE
 - $$MSE = \frac{1}{N} \Sigma^N_{i=1}(p(x_i) - y_i)^2$$
 
 
-
-
-
-
-
-
-
-
-

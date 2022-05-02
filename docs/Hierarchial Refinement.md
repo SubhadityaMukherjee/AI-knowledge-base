@@ -15,11 +15,3 @@ title: Heirarchial Refinement
 ## …
 
 
-
-
-
-
-
-
-
-

@@ -8,9 +8,3 @@ title: Oblique Slicing
 • Store volume in 3D texture
 
 
-
-
-
-
-
-

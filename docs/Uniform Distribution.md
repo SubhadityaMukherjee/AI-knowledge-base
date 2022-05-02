@@ -8,12 +8,3 @@ title: Uniform Distribution
 - No need to learn, no shape that can be specified
 
 
-
-
-
-
-
-
-
-
-

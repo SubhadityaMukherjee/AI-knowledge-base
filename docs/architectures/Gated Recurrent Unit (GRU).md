@@ -13,12 +13,3 @@ title: Gated Recurrent Unit (GRU)
 	- $$h_t = (1-g_u)\cdot h_{t-1} + g_u \cdot \hat h_t$$
 
 
-
-
-
-
-
-
-
-
-

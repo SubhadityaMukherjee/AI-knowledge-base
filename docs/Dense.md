@@ -12,12 +12,3 @@ title: Dense
 	- $$\nabla_xE = W^T\cdot \delta$$
 
 
-
-
-
-
-
-
-
-
-

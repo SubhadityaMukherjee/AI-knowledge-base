@@ -8,11 +8,3 @@ title: Structured Update
 - Random mask. We restrict the update Hit to be a sparse matrix, following a pre-defined random sparsity pattern
 
 
-
-
-
-
-
-
-
-

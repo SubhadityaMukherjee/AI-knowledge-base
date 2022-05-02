@@ -5,11 +5,3 @@ title: PointNet++
 # PointNet++
 
 
-
-
-
-
-
-
-
-

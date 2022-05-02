@@ -12,5 +12,3 @@ title: Opacity Correction
 	• apply before compositing`
 
 
-
-

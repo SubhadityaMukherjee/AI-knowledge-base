@@ -19,7 +19,3 @@ title: Block Sparse Kernel
 - [openai](https://openai.com/blog/block-sparse-gpu-kernels/)
 
 
-
-
-
-

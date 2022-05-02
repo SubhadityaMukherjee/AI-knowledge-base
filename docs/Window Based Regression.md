@@ -14,12 +14,3 @@ title: Window Based Regression
 - [[Volterra expansion]]
 
 
-
-
-
-
-
-
-
-
-

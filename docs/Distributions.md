@@ -15,6 +15,7 @@ title: Distributions
 
 ## Distributions Over Continuous Space
 - [[Dirichlet Distribution]]
+- [[Beta Distribution]]
 - [[Point Distribution]]
 - [[Uniform Distribution]]
 - [[Exponential Distribution]]
@@ -24,14 +25,5 @@ title: Distributions
 ## Others
 - ![[Pasted image 20220324120913.png]]
 #anchor
-
-
-
-
-
-
-
-
-
 
 

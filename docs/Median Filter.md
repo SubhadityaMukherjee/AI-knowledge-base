@@ -8,11 +8,3 @@ title: Median Filter
 - preserves edges
 
 
-
-
-
-
-
-
-
-

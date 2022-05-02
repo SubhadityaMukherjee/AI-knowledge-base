@@ -9,12 +9,3 @@ title: Scoring Pruning Approaches
 - Some perform [[pruning]] locally, while others perform it globally across the network.
 
 
-
-
-
-
-
-
-
-
-

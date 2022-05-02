@@ -8,11 +8,3 @@ title: Early Stopping #tricks
 ## …
 
 
-
-
-
-
-
-
-
-

@@ -3,11 +3,3 @@
 - reflow gradient descent document
 
 
-
-
-
-
-
-
-
-

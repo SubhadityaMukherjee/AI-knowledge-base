@@ -7,11 +7,3 @@ title: Xception
 - Cross channel and spatial correlations can be decoupled completely
 
 
-
-
-
-
-
-
-
-

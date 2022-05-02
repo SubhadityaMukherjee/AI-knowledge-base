@@ -15,11 +15,3 @@ title: Vanishing/exploding #gradients
 ## …
 
 
-
-
-
-
-
-
-
-

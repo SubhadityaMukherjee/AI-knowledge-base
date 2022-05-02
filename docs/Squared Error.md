@@ -7,12 +7,3 @@ title: Squared Error
 - Regression
 
 
-
-
-
-
-
-
-
-
-

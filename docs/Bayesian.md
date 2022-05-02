@@ -10,12 +10,3 @@ title: Bayesian
 - [[Probability]] density function
 
 
-
-
-
-
-
-
-
-
-

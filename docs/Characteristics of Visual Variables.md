@@ -10,3 +10,5 @@ title: Characteristics of Visual Variables
 - Length (resolution) | Across how many changes in this variable are distinctions possible? [i.e., how many can I see?]
 
 
+
+

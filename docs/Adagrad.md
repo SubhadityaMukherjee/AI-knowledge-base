@@ -10,3 +10,5 @@ title: Adagrad
 - Doesnt forget past gradients
 
 
+
+

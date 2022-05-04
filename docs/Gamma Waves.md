@@ -8,3 +8,5 @@ title: Gamma Waves
 - ![[Pasted image 20220502161142.png]]
 
 
+
+

@@ -7,3 +7,5 @@ title: Beta Waves
 - ![[Pasted image 20220502161106.png]]
 
 
+
+

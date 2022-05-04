@@ -8,3 +8,5 @@ title: Alpha Waves
 - ![[Pasted image 20220502161020.png]]
 
 
+
+

@@ -7,3 +7,5 @@ title: Gaussian Filter
 - Weights follow $$G(x) = e^{-ax^{2}}$$
 
 
+
+

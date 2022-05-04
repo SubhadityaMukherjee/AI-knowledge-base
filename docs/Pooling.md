@@ -12,3 +12,5 @@ tag: architecture
 - Max pool + dilated/[[strided]] convs control effective receptive field size
 
 
+
+

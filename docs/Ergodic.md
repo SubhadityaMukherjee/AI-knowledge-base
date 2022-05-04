@@ -8,3 +8,5 @@ title: Ergodic
 - Asymptotic, stationary, equilibrium distribution
 
 
+
+

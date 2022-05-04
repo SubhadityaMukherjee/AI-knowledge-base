@@ -12,3 +12,5 @@ title: Freedom
 - Solution : [[Regularization]]
 
 
+
+

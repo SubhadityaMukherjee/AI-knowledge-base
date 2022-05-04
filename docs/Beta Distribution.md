@@ -9,3 +9,5 @@ title: Beta Distribution
 - Multiple variables is [[Dirichlet Distribution]]
 
 
+
+

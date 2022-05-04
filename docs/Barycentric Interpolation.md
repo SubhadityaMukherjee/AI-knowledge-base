@@ -8,3 +8,5 @@ title: Barycentric Interpolation
 - Point x is an [[Affine Function]] of $x_i$ 
 
 
+
+

@@ -14,3 +14,5 @@ title: Central Limit Theorem
 - None of the $X_{i}$ dominates the other "washing out"
 
 
+
+

@@ -7,3 +7,5 @@ tags: regularize
 - Finds the lowest absolute value per layer and removes them
 
 
+
+

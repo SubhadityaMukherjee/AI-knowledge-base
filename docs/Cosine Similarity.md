@@ -8,3 +8,5 @@ tags: loss
 - Cosine similarity is $$ - \mathrm{sum}\left( \mathrm{l2norm}\left( y \right) \cdot \mathrm{l2norm}\left( ŷ \right) \right)$$
 
 
+
+

@@ -14,3 +14,5 @@ tags: regularize
 - Start with small rate : 20 %
 
 
+
+

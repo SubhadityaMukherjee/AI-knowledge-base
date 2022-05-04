@@ -12,3 +12,5 @@ title: Binomial Distribution
 - ![[Pasted image 20220319133401.png]]
 
 
+
+

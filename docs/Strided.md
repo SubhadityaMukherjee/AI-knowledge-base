@@ -11,3 +11,5 @@ title: Strided
 - Effective Filter size : $$\hat F = F + (F-1)(D-1)$$
 
 
+
+

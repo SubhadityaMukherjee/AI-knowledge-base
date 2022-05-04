@@ -12,3 +12,5 @@ title: Change Blindness
 • A scene that should be the same but differs between cuts is known as continuity error
 
 
+
+

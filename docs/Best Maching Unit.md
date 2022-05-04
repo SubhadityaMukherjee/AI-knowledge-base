@@ -7,3 +7,5 @@ tag: architecture
 - Neuron whose weight vector best matches input pattern
 
 
+
+

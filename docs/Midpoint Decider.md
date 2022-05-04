@@ -7,3 +7,5 @@ title: Midpoint Decider
 - ![[Pasted image 20220411133835.png]]
 
 
+
+

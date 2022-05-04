@@ -9,3 +9,5 @@ title: Equivalent Current Dipole
 - Perpendicular is Magnetic field - MEG
 
 
+
+

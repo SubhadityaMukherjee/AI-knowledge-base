@@ -14,3 +14,5 @@ tag: architecture
 - Hadmard prod (coeff wise) : $$A \circ B$$
 
 
+
+

@@ -12,3 +12,5 @@ title: Reg Uncertainty
 	- $f(x) \in [f(x) - \sigma,f(x) + \sigma]$
 
 
+
+

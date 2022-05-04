@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ed03762d5c14ade",
+        "id": "459cd32075154950",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Brain Oscillations.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Brain Oscillations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -98,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Brain Oscillations.md"
+              }
             }
           },
           {
@@ -107,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Brain Oscillations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,6 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Brain Oscillations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,17 +239,17 @@
     "width": 510.7156677246094,
     "collapsed": true
   },
-  "active": "4ed03762d5c14ade",
+  "active": "459cd32075154950",
   "lastOpenFiles": [
-    "Pruning.md",
-    "Layerwise Magnitude Based Pruning.md",
-    "Random Pruning.md",
-    "Layerwise Gradient Magnitude Based Pruning.md",
-    "Global Gradient Magnitude Based Pruning.md",
-    "Global Magnitude Based Pruning.md",
-    "Fine Tuning Based Pruning.md",
-    "Scheduling.md",
-    "Scoring Pruning Approaches.md",
-    "Structure Based Pruning.md"
+    "Brain Oscillations.md",
+    "Bi Directional RNN.md",
+    "CDF.md",
+    "Barycentric Interpolation.md",
+    "Augmentation.md",
+    "Aleatoric.md",
+    "Adagrad.md",
+    "Skip Connection.md",
+    "Res Net.md",
+    "Architectures.md"
   ]
 }

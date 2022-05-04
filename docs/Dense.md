@@ -13,3 +13,5 @@ tag: architecture
 	- $$\nabla_xE = W^T\cdot \delta$$
 
 
+
+

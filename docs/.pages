@@ -1,7 +1,4 @@
 arrange:
     - index.md
     - DeepLearning.md
-    - architectures
-    - applications
-    - federated
     - ...

@@ -1,5 +1,6 @@
 ---
 title: Visualization
+tags: index
 ---
 
 # Visualization
@@ -13,10 +14,5 @@ title: Visualization
 - [[Information Visualization]]
 - [[Graphs]]
 - [[Trees]]
-#anchor 
-
-
-
-
 
 

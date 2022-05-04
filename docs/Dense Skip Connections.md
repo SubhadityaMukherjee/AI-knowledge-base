@@ -1,5 +1,6 @@
 ---
 title: Dense Skip Connections
+tag: architecture
 ---
 
 # [[Dense]] Skip Connections
@@ -8,9 +9,5 @@ title: Dense Skip Connections
 	- no of feature maps : $$k(i-1) + k_0$$ where k is growth rate (hyperparam)
 
 - [[Skip Connection]]
-
-
-
-
 
 

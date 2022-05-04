@@ -7,7 +7,3 @@ title: Law of Large Numbers
 - Kolmogorov axioms
 
 
-
-
-
-

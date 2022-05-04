@@ -1,5 +1,6 @@
 ---
 title: Squared Hinge
+tags: loss
 ---
 
 # Squared Hinge
@@ -9,9 +10,5 @@ title: Squared Hinge
 - maximum margin
 
 $$\mathrm{sum}\left( \left( \mathrm{max}\left( 0, 1 - y \cdot ŷ \right) \right)^{2} \right)$$
-
-
-
-
 
 

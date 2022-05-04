@@ -11,7 +11,3 @@ title: Mixup
 - New example $(\hat x, \hat y)$
 
 
-
-
-
-

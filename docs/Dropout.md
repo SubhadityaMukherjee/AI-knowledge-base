@@ -1,5 +1,6 @@
 ---
 title: Dropout
+tags: regularize
 ---
 
 # Dropout
@@ -11,9 +12,5 @@ title: Dropout
 - Reduces co dependence between neurons
 - Decreases overfitting
 - Start with small rate : 20 %
-
-
-
-
 
 

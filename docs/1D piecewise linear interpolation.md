@@ -1,12 +1,12 @@
 ---
 title: 1D piecewise linear interpolation
+
+tags:
 ---
+
+# 1D Piecewise Linear Interpolation
 
 # 1D Piecewise Linear [[Interpolation]]
 - ![[Pasted image 20220411124653.png]]
-
-
-
-
 
 

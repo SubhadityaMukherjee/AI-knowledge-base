@@ -15,7 +15,3 @@ title: Volume Rendering Equation
 - $$L_{1}^{n}= g(n)+T(n)L_{1}^{n-1}$$
 
 
-
-
-
-

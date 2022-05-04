@@ -7,7 +7,3 @@ title: Leaky Relu
 - $$max(0.01x,x)$$
 
 
-
-
-
-

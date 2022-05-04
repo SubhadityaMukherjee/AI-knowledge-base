@@ -24,7 +24,3 @@ title: Normal Distribution
 - $$\hat \mu = \frac{1}{N}\Sigma_{i}(x_{i})$$ $$\hat \sigma^{2}= \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)^2$$
 
 
-
-
-
-

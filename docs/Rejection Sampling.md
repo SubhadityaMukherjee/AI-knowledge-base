@@ -18,7 +18,3 @@ title: Rejection Sampling
 	- If the ratio $\frac{f}{g_{0}}$ is small. (aka f is bigger), then there are many rejections and the algo will be slow. Impossible to not do in high dim spaces
 
 
-
-
-
-

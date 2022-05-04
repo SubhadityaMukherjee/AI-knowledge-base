@@ -6,7 +6,3 @@ title: Indirect Volume Visualization
 - [[Isosurface]]
 
 
-
-
-
-

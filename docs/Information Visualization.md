@@ -10,7 +10,3 @@ title: Information Visualization
 - [[Visual Encoding]]
 
 
-
-
-
-

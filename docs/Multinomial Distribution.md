@@ -9,7 +9,3 @@ title: Multinomial
 - [[PMF]]
 
 
-
-
-
-

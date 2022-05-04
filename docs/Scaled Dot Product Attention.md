@@ -8,7 +8,3 @@ title: Scaled Dot Product Attention
 	- Generalization of [[soft attention]]
 
 
-
-
-
-

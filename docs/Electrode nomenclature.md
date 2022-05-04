@@ -1,5 +1,7 @@
----
+5---
+
 title: Electrode nomenclature
+
 ---
 
 # Electrode Nomenclature
@@ -14,7 +16,5 @@ title: Electrode nomenclature
 - Temporal : T
 - Posterior : Pz
 - Occipital : Oz
-
-
 
 

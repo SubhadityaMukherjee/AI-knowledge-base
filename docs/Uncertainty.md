@@ -13,7 +13,3 @@ title: Uncertainty
 - [[Quantifying Uncertainty]]
 
 
-
-
-
-

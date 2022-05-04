@@ -7,7 +7,3 @@ title: Affine Function
 - Function + bias
 
 
-
-
-
-

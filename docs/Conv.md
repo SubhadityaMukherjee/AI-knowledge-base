@@ -1,8 +1,10 @@
 ---
 title: Convnd
+tag: architecture
 ---
 
 # Convnd
+- $$A\ast B$$
 - Connect a neighbor only to spatial neighborhood -> spatial order
 	- Some rotation and illumination invariance
 - Slide over -> Same weights independant of location -> less weights
@@ -26,9 +28,5 @@ title: Convnd
 - [[Causal 1D Conv]]
 
 - [[Causal Dilated Conv]]
-
-
-
-
 
 

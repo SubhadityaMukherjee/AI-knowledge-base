@@ -18,7 +18,3 @@ title: Possion Distribution
 	- $$\hat\lambda =\frac{1}{N}\Sigma_{i}n_{i}$$
 
 
-
-
-
-

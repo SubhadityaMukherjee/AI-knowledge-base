@@ -24,7 +24,3 @@ title: Decision Boundaries
 - Algo learns estimates of the [[Class Conditional distribution]] and class probabilities aka priors
 
 
-
-
-
-

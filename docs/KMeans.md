@@ -23,7 +23,3 @@ title: K Means
 - Center of gravity
 
 
-
-
-
-

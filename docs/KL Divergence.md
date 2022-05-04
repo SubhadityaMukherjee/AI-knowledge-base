@@ -1,5 +1,6 @@
 ---
 title: KL Divergence
+tags: loss
 ---
 
 # KL Divergence
@@ -14,9 +15,5 @@ Then cce as defined before $$ - \mathrm{sum}\left( y \cdot \log\left( ŷ \right)
 Finally KLD $$entropy + crossentropyloss$$
 
  - $$KL(p,q) = \Sigma_x p(x) log\frac{p(x)}{q(x)}$$
-
-
-
-
 
 

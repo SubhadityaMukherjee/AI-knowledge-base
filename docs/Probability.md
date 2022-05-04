@@ -1,15 +1,10 @@
 ---
 title: Probability
+tags: index
 ---
 
 # Probability
 - [[Frequentist]]
 - [[Bayesian]]
-
-#anchor
-
-
-
-
 
 

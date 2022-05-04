@@ -9,7 +9,3 @@ title: Point Distribution
 - Hyperdistributions
 
 
-
-
-
-

@@ -10,7 +10,3 @@ title: MCMC Sampling
 - [[Factors for MC estimate]]
 
 
-
-
-
-

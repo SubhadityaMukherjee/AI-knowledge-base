@@ -8,7 +8,3 @@ title: Word Vectors
 - ![[Pasted image 20220315235513.png]]
 
 
-
-
-
-

@@ -8,7 +8,3 @@ title: Types of Uncertainty
 - [[Predictive Uncertainty]]
 
 
-
-
-
-

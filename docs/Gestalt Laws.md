@@ -8,7 +8,3 @@ title: Gestalt Laws
 - crossing swarms in our visual field are perceived as different swarms
 
 
-
-
-
-

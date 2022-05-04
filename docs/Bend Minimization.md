@@ -8,7 +8,3 @@ title: Bend Minimization
 - ![[Pasted image 20220418123038.png]]
 
 
-
-
-
-

@@ -10,7 +10,3 @@ title: No bias decay
 - [[LARS]]
 
 
-
-
-
-

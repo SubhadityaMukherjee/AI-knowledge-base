@@ -17,7 +17,3 @@ title: Backprop
 				- Solved by [[ActivationFunctions]]
 
 
-
-
-
-

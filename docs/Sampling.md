@@ -11,7 +11,3 @@ title: Sampling
 - [[Gibbs Sampler]]
 
 
-
-
-
-

@@ -1,5 +1,6 @@
 ---
 title: Pruning
+tags: regularize
 ---
 
 # Pruning
@@ -25,9 +26,5 @@ title: Pruning
 
 - [[Random Pruning]]
 - [[Layerwise Magnitude Based Pruning]]
-
-
-
-
 
 

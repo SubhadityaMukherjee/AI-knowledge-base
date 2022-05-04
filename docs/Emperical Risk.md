@@ -20,7 +20,3 @@ title: Emperical Risk
 	- Ordinary least squares regression
 
 
-
-
-
-

@@ -13,7 +13,3 @@ title: Continous -> Discrete
 ## [[Neural Dynamics]]
 
 
-
-
-
-

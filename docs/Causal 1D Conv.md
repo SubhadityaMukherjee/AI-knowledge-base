@@ -7,7 +7,3 @@ title: Causal 1D Conv
 - [[Conv]] works in both directions and can leak future information into predictions
 
 
-
-
-
-

@@ -1,13 +1,10 @@
 ---
 title: Squared Error
+tags: loss
 ---
 
 # Squared Error
 - $$(y- f(x))^2$$
 - Regression
-
-
-
-
 
 

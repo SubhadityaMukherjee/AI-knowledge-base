@@ -1,5 +1,6 @@
 ---
 title: Regularization
+tags: regularize
 ---
 
 # Regularization
@@ -16,9 +17,5 @@ title: Regularization
 
 - [[Lp Regularization]]
 - [[Pruning]]
-
-
-
-
 
 

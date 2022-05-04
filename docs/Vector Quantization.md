@@ -8,7 +8,3 @@ title: Vector Quantization
 - Discretization
 
 
-
-
-
-

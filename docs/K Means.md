@@ -5,7 +5,3 @@ title: Kmeans
 # Kmeans
 
 
-
-
-
-

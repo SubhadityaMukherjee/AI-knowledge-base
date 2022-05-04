@@ -8,7 +8,3 @@ title: Average Filter
 - flatten edges
 
 
-
-
-
-

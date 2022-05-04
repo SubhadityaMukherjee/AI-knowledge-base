@@ -12,7 +12,3 @@ title: Sigmoid
 - [[Bernoulli Distribution]] over a binary variable
 
 
-
-
-
-

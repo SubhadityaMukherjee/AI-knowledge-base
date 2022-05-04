@@ -1,5 +1,6 @@
 ---
 title: Lp Regularization
+tags: regularize
 ---
 
 # Lp [[Regularization]]
@@ -19,9 +20,5 @@ title: Lp Regularization
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit
 	- [[Cross validation]] required
-
-
-
-
 
 

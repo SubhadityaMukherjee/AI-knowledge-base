@@ -8,7 +8,3 @@ title: Mirman Et Al
 	- sensitive to transitional prob and freq
 
 
-
-
-
-

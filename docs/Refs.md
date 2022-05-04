@@ -9,7 +9,3 @@ title: References
 ## …
 
 
-
-
-
-

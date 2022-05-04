@@ -24,5 +24,7 @@
   "templater-obsidian",
   "obsidian-extract-pdf-highlights",
   "obsidian-pluck",
-  "obsidian-local-images"
+  "obsidian-local-images",
+  "metaedit",
+  "obsidian-frontmatter-tag-suggest"
 ]

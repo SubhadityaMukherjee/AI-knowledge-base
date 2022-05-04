@@ -1,5 +1,6 @@
 ---
 title: Index
+tags: index
 ---
 
 # Index
@@ -23,9 +24,5 @@ title: Index
 - [[Refs]]
 
 #anchor
-
-
-
-
 
 

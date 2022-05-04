@@ -14,7 +14,3 @@ title: Bayesian Posterior
 	- [[Proto Distributions]] on $\theta$ space
 
 
-
-
-
-

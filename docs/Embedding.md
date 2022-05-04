@@ -8,7 +8,3 @@ title: Embedding
 	- $$token\_embedding(i) = gather(W, i)$$
 
 
-
-
-
-

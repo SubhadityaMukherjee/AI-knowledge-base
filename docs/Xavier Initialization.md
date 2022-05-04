@@ -8,7 +8,3 @@ title: Xavier Initialization
 - For [[Batch Normalization]] [[layers]], $\gamma =1$ and $\beta=0$
 
 
-
-
-
-

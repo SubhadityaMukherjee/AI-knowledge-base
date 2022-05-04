@@ -1,5 +1,6 @@
 ---
 title: Variational/Recurrent Dropout
+tags: regularize
 ---
 
 # Variational/[[Recurrent]] Dropout
@@ -10,9 +11,5 @@ title: Variational/Recurrent Dropout
 - ![[Pasted image 20220306113950.png]]
 
 ## …
-
-
-
-
 
 

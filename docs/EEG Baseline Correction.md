@@ -11,5 +11,3 @@ title: EEG Baseline Correction
 - ![[Pasted image 20220502154359.png]]
 
 
-
-

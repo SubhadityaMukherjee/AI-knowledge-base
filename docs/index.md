@@ -1,5 +1,6 @@
 ---
 title: SiteMap
+tags: index
 ---
 
 # SiteMap
@@ -22,9 +23,5 @@ title: SiteMap
 - n : next
 
 #anchor
-
-
-
-
 
 

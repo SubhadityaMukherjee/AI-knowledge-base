@@ -11,7 +11,3 @@ title: Goodhart's Law
 - [openai](https://openai.com/blog/measuring-goodharts-law/)
 
 
-
-
-
-

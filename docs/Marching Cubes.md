@@ -26,7 +26,3 @@ title: Marching Cubes
 - Produces ringing artifacts!
 
 
-
-
-
-

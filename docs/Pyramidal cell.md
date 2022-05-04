@@ -10,4 +10,3 @@ title: Pyramidal cell
 	- [[Equivalent Current Dipole]]
 
 
-

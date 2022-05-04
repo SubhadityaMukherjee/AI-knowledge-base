@@ -1,5 +1,6 @@
 ---
 title: Augmentation
+tags: regularize
 ---
 
 # Augmentation
@@ -7,9 +8,5 @@ title: Augmentation
 ## Image
 - [[Mixup]]
 #anchor
-
-
-
-
 
 

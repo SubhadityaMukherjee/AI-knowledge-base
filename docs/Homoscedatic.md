@@ -7,7 +7,3 @@ title: Homoscedatic
 - ![[Pasted image 20220323153008.png]]
 
 
-
-
-
-

@@ -18,7 +18,3 @@ title: Cross Validation
 - For tiny datasets
 
 
-
-
-
-

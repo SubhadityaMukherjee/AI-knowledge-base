@@ -8,7 +8,3 @@ title: Initialization
 - [[Xavier Initialization]]
 
 
-
-
-
-

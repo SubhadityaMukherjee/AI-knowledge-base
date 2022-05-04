@@ -1,12 +1,9 @@
 ---
 title: Point Cloud Data
+tags: architecture
 ---
 
 # Point Cloud Data
 - [[PointNet++]]
-
-
-
-
 
 

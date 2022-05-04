@@ -10,7 +10,3 @@ title: Ridge Regression
 	- Solution to overfitting
 
 
-
-
-
-

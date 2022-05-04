@@ -5,5 +5,3 @@ title: fMRI
 # fMRI
 
 
-
-

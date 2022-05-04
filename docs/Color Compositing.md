@@ -19,7 +19,3 @@ I_{o}&otherwise
 	- Higher pixel accurate quality
 
 
-
-
-
-

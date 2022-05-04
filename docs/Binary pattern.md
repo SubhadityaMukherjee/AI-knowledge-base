@@ -13,7 +13,3 @@ title: Binary Pattern Encoding
 ## …
 
 
-
-
-
-

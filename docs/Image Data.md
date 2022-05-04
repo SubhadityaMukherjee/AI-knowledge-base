@@ -8,7 +8,3 @@ title: Image Data
 	- No translation equi-invariance
 
 
-
-
-
-

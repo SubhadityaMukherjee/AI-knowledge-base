@@ -7,7 +7,3 @@ title: Preattentive Processing
 - ![[Pasted image 20220418103924.png]]
 
 
-
-
-
-

@@ -1,5 +1,6 @@
 ---
 title: Huber/Smooth L1/Smooth MAE
+tags: loss
 ---
 
 # Huber/Smooth L1/Smooth MAE
@@ -15,9 +16,5 @@ else
 $$\frac{1}{\mathrm{length}\left( y \right)} \cdot \mathrm{sum}\left( \left\|y - ŷ\right\| - 0.5 \right)$$
 
 ## …
-
-
-
-
 
 

@@ -1,5 +1,6 @@
 ---
 title: Skip Connection
+tag: architecture
 ---
 
 # Skip Connection
@@ -8,9 +9,5 @@ title: Skip Connection
 - [[Effect_Of_Depth]]
 - Previous layer gradient carried to next module untouched -> loss surface is smoother
 - Transfer #gradients to prevent [[Vanishingexploding gradients]]
-
-
-
-
 
 

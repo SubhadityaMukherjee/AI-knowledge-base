@@ -14,3 +14,5 @@ title: Characteristics of Visual Variables
 
 
 
+
+

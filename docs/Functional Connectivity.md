@@ -1,5 +1,6 @@
 ---
 title: Functional Connectivity
+tags: brain
 ---
 
 # Functional Connectivity
@@ -12,9 +13,5 @@ title: Functional Connectivity
 
 ## Directed/Asymmetric
 - [[Granger Causallity]]
-
-
-
-
 
 

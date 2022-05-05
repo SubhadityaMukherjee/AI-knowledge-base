@@ -1,5 +1,6 @@
 ---
 title: BrainWave CrossFrequency Coupling
+tags: brain
 ---
 
 # BrainWave CrossFrequency Coupling
@@ -7,6 +8,8 @@ title: BrainWave CrossFrequency Coupling
 - ![[Pasted image 20220502162028.png]]
 - ![[Pasted image 20220502162052.png]]- 
 	- Electrode with low freq + high freq
+
+
 
 
 

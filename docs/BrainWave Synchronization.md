@@ -1,5 +1,6 @@
 ---
 title: BrainWave Synchronization
+tags: brain
 ---
 
 # BrainWave Synchronization
@@ -7,6 +8,8 @@ title: BrainWave Synchronization
 	- If 0 then perfect
 - ![[Pasted image 20220502161821.png]]
 - Phase Locking Value
+
+
 
 
 

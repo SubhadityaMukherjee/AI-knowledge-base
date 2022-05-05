@@ -1,5 +1,6 @@
 ---
 title: BrainWave Coherence
+tags: brain
 ---
 
 # BrainWave Coherence
@@ -9,6 +10,8 @@ title: BrainWave Coherence
 	- coherence vs freq
 	- decent coherence between CZ and O1
 	- O1 and PZ has little coherence
+
+
 
 
 

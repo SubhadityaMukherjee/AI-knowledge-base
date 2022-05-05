@@ -1,5 +1,6 @@
 ---
 title: Brain Oscillations
+tags: brain
 ---
 
 # Brain Oscillations
@@ -12,7 +13,5 @@ title: Brain Oscillations
 - [[Gamma Waves]]
 - [[Spectrogram]]
 - ![[Pasted image 20220502160132.png]]
-
-
 
 

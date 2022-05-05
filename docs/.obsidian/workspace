@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "459cd32075154950",
+        "id": "39506094317e65f2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Brain Oscillations.md",
+            "file": "Attention.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Brain Oscillations.md",
+                "file": "Attention.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Brain Oscillations.md"
+                "file": "Attention.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brain Oscillations.md",
+                "file": "Attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Brain Oscillations.md",
+                "file": "Attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,20 +236,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 510.7156677246094,
-    "collapsed": true
+    "width": 510.7156677246094
   },
-  "active": "459cd32075154950",
+  "active": "39506094317e65f2",
   "lastOpenFiles": [
-    "Brain Oscillations.md",
-    "Bi Directional RNN.md",
-    "CDF.md",
-    "Barycentric Interpolation.md",
-    "Augmentation.md",
-    "Aleatoric.md",
-    "Adagrad.md",
-    "Skip Connection.md",
-    "Res Net.md",
-    "Architectures.md"
+    "Attention.md",
+    "Alex Net.md",
+    "Adding noise.md",
+    "0-1 Loss.md",
+    "FP16 training.md",
+    "Alpha Waves.md",
+    "Affine Function.md",
+    "Adam.md",
+    "Absolute Error.md",
+    "Advantages of Federated Learning.md"
   ]
 }

@@ -1,5 +1,6 @@
 ---
 title: EEG
+tags: brain
 ---
 
 # EEG
@@ -17,9 +18,5 @@ title: EEG
 - [[ERP]]
 - [[EEG Baseline Correction]]
 - [[EEG Statistical Analysis]]
-
-
-
-
 
 

@@ -1,5 +1,6 @@
 ---
 title: Granger Causallity
+tags: brain
 ---
 
 # Granger Causallity
@@ -14,6 +15,8 @@ title: Granger Causallity
 	- Undirected
 	- From O1 to PZ is different from PZ to O1
 	- How well can activity in one channel predict one in another
+
+
 
 
 

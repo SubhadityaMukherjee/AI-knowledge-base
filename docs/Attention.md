@@ -17,7 +17,3 @@ tags: architecture
 - [[Multi Head Attention]]
 
 
-
-
-
-

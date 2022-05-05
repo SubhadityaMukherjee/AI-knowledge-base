@@ -12,3 +12,5 @@ title: Bernoulli Distribution
 
 
 
+
+

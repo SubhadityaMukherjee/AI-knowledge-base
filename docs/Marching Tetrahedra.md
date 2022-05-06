@@ -1,5 +1,6 @@
 ---
 title: Marching Tetrahedra
+tags: visualization
 ---
 
 # Marching Tetrahedra

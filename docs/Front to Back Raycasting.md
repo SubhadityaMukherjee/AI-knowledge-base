@@ -1,5 +1,6 @@
 ---
 title: Front to Back Raycasting
+tags: visualization
 ---
 
 # Front to Back [[Raycasting]]

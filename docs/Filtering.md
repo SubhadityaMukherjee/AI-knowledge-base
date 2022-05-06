@@ -1,5 +1,6 @@
 ---
 title: Filtering
+tags: visualization
 ---
 
 # Filtering

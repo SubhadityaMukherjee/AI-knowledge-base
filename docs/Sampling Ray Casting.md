@@ -1,5 +1,6 @@
 ---
 title: Sampling Ray Casting
+tags: visualization
 ---
 
 # [[Sampling]] Ray Casting

@@ -1,5 +1,6 @@
 ---
 title: Types of Uncertainty
+tags: uncertainty
 ---
 
 # Types of [[Uncertainty]]

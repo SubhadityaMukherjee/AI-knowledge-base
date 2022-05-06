@@ -1,5 +1,6 @@
 ---
 title: Gaussian Filter
+tags: visualization
 ---
 
 # Gaussian Filter

@@ -1,5 +1,6 @@
 ---
 title: Aleatoric
+tags: uncertainty
 ---
 
 # Aleatoric

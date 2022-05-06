@@ -1,5 +1,6 @@
 ---
 title: Grids
+tags: visualization
 ---
 
 # Grids

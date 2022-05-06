@@ -1,5 +1,6 @@
 ---
 title: Height Plots
+tags: visualization
 ---
 
 # Height Plots

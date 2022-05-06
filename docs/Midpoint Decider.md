@@ -1,5 +1,6 @@
 ---
 title: Midpoint Decider
+tags: visualization
 ---
 
 # Midpoint Decider

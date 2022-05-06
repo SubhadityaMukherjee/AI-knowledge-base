@@ -1,5 +1,6 @@
 ---
 title: Dirichlet Distribution
+tags: distribution
 ---
 
 # Dirichlet Distribution

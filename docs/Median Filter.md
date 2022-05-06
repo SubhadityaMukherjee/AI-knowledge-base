@@ -1,5 +1,6 @@
 ---
 title: Median Filter
+tags: visualization
 ---
 
 # Median Filter

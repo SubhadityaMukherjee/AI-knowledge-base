@@ -7,13 +7,8 @@
         "id": "39506094317e65f2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Linguistic details.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -41,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel",
+                "query": "tag:#brain",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -71,7 +67,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linguistic details.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -105,9 +100,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Linguistic details.md"
-              }
+              "state": {}
             }
           },
           {
@@ -116,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguistic details.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +226,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguistic details.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,15 +244,15 @@
   },
   "active": "39506094317e65f2",
   "lastOpenFiles": [
-    "Linguistic details.md",
-    "templates/titler.md",
-    "H3 View.md",
-    "Cosine Similarity.md",
-    "Entourage Plot.md",
-    "SIMD.md",
-    "Von Neumann Architecture.md",
-    "Batch Normalization.md",
-    "Countouring with Transparency.md",
-    "Encodings.md"
+    "Theta Waves.md",
+    "Uncertainty.md",
+    "Quantifying Uncertainty.md",
+    "Bayesian Neural Network.md",
+    "Bayesian Predictive Posterior.md",
+    "Entropy.md",
+    "Uncertainity in classification.md",
+    "Uncertainity in regression.md",
+    "Types of uncertainty.md",
+    "Predictive Uncertainty.md"
   ]
 }

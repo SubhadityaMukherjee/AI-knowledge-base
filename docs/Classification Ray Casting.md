@@ -1,5 +1,6 @@
 ---
 title: Classification Ray Casting
+tags: visualization
 ---
 
 # Classification Ray Casting

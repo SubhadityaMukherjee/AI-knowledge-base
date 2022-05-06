@@ -1,5 +1,6 @@
 ---
 title: Exponential Distribution
+tags: distribution
 ---
 
 # Exponential Distribution

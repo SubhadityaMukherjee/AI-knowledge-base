@@ -1,5 +1,6 @@
 ---
 title: ICA Noise Removal
+tags: visualization
 ---
 
 # ICA Noise Removal

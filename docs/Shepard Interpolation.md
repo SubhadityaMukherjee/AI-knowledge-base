@@ -1,5 +1,6 @@
 ---
 title: Shepard Interpolation
+tags: visualization
 ---
 
 # Shepard [[Interpolation]]

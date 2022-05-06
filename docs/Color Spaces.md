@@ -1,5 +1,6 @@
 ---
 title: Color Spaces
+tags: visualization
 ---
 
 # Color Spaces

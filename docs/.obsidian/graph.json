@@ -22,13 +22,6 @@
       }
     },
     {
-      "query": "tag:#index",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
-      }
-    },
-    {
       "query": "tag:#regularize",
       "color": {
         "a": 1,
@@ -40,6 +33,34 @@
       "color": {
         "a": 1,
         "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:#visualization",
+      "color": {
+        "a": 1,
+        "rgb": 12285874
+      }
+    },
+    {
+      "query": "tag:#distribution",
+      "color": {
+        "a": 1,
+        "rgb": 7039918
+      }
+    },
+    {
+      "query": "tag:#uncertainty",
+      "color": {
+        "a": 1,
+        "rgb": 6575250
+      }
+    },
+    {
+      "query": "tag:#parallel",
+      "color": {
+        "a": 1,
+        "rgb": 7110217
       }
     }
   ],
@@ -53,6 +74,6 @@
   "repelStrength": 10.5494505494506,
   "linkStrength": 1,
   "linkDistance": 53,
-  "scale": 0.06961650473006666,
+  "scale": 0.03781928311059032,
   "close": false
 }

@@ -1,5 +1,6 @@
 ---
 title: Isoline
+tags: visualization
 ---
 
 # Isoline
@@ -10,9 +11,9 @@ title: Isoline
 - ![[Pasted image 20220411133253.png]]
 - [[Marching Squares]]
 - ![[Pasted image 20220411133700.png]]
-- No isoline inside cells with same signs  
-	- only consider cells with different signs  
-	- access look-up table for respective case  
+- No isoline inside cells with same signs
+- only consider cells with different signs
+- access look-up table for respective case
 
 
 

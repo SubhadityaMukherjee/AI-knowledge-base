@@ -1,5 +1,6 @@
 ---
 title: Gestalt Laws
+tags: visualization
 ---
 
 # Gestalt Laws

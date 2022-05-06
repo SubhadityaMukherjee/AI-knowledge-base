@@ -1,5 +1,6 @@
 ---
 title: Predictive Uncertainty
+tags: uncertainty
 ---
 
 # Predictive [[Uncertainty]]

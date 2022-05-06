@@ -1,5 +1,6 @@
 ---
 title: Shading
+tags: visualization
 ---
 
 # Shading

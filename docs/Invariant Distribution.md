@@ -1,5 +1,6 @@
 ---
 title: Invariant Distribution
+tags: distribution
 ---
 
 # Invariant Distribution

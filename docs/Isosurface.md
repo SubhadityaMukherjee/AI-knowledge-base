@@ -1,5 +1,6 @@
 ---
 title: Isosurface
+tags: visualization
 ---
 
 # Isosurface

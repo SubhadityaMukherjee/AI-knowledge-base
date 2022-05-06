@@ -1,5 +1,6 @@
 ---
 title: Divide Oriented
+tags: visualization
 ---
 
 # Divide Oriented

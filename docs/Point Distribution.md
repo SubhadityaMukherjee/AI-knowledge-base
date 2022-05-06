@@ -1,5 +1,6 @@
 ---
 title: Point Distribution
+tags: distribution
 ---
 
 # Point Distribution

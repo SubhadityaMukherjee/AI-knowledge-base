@@ -1,6 +1,6 @@
 ---
 title: Visualization
-tags: index
+tags: index visualization
 ---
 
 # Visualization

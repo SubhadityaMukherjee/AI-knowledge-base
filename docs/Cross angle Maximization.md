@@ -1,5 +1,6 @@
 ---
 title: Cross angle Maximization
+tags: visualization
 ---
 
 # Cross Angle Maximization

@@ -1,6 +1,6 @@
 ---
 title: H3 View
-tags: visualization 
+tags: visualization
 ---
 
 # H3 View

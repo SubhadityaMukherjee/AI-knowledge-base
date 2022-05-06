@@ -1,5 +1,6 @@
 ---
 title: Bend Minimization
+tags: visualization
 ---
 
 # Bend Minimization

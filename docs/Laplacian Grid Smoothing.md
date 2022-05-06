@@ -1,5 +1,6 @@
 ---
 title: Laplacian Grid Smoothing
+tags: visualization
 ---
 
 # Laplacian Grid Smoothing

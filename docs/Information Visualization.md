@@ -1,5 +1,6 @@
 ---
 title: Information Visualization
+tags: visualization
 ---
 
 # Information [[Visualization]]

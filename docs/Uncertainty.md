@@ -1,5 +1,6 @@
 ---
 title: Uncertainty
+tags: uncertainty
 ---
 
 # Uncertainty

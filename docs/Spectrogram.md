@@ -1,6 +1,6 @@
 ---
 title: Spectrogram
-tags: brain
+tags: brain visualization
 ---
 
 # Spectrogram

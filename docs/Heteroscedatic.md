@@ -1,5 +1,6 @@
 ---
 title: Heteroscedatic
+tags: uncertainty
 ---
 
 # Heteroscedatic

@@ -1,5 +1,6 @@
 ---
 title: Entropy
+tags: uncertainty
 ---
 
 # Entropy

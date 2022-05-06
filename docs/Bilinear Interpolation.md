@@ -1,5 +1,6 @@
 ---
 title: Bilinear Interpolation
+tags: visualization
 ---
 
 # Bilinear [[Interpolation]]

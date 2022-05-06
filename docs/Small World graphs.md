@@ -1,5 +1,6 @@
 ---
 title: Small World graphs
+tags: visualization
 ---
 
 # Small World Graphs

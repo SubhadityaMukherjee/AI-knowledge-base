@@ -1,5 +1,6 @@
 ---
 title: Homoscedatic
+tags: uncertainty
 ---
 
 # Homoscedatic

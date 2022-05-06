@@ -1,5 +1,6 @@
 ---
 title: Early Ray Termination
+tags: visualization
 ---
 
 # Early Ray Termination

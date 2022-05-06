@@ -1,5 +1,6 @@
 ---
 title: Contour
+tags: visualization
 ---
 
 # Contours

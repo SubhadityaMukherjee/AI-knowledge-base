@@ -1,5 +1,6 @@
 ---
 title: Class Conditional Distribution
+tags: distribution
 ---
 
 # Class Conditional Distribution

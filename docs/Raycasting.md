@@ -1,5 +1,6 @@
 ---
 title: Raycasting
+tags: visualization
 ---
 
 # Raycasting

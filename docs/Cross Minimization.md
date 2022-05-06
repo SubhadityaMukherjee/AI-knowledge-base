@@ -1,5 +1,6 @@
 ---
 title: Cross Minimization
+tags: visualization
 ---
 
 # Cross Minimization

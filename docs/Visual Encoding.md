@@ -1,5 +1,6 @@
 ---
 title: Visual Encoding
+tags: visualization
 ---
 
 # Visual Encoding

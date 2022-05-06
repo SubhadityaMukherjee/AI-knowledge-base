@@ -1,5 +1,6 @@
 ---
 title: Distributions
+tags: distribution
 ---
 
 # Distributions

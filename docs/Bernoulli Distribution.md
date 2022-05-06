@@ -1,5 +1,6 @@
 ---
 title: Bernoulli Distribution
+tags: distribution
 ---
 
 # Bernoulli Distribution

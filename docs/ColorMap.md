@@ -1,5 +1,6 @@
 ---
 title: ColorMap
+tags: visualization
 ---
 
 # ColorMap

@@ -1,5 +1,6 @@
 ---
 title: Interpolation
+tags: visualization
 ---
 
 # Interpolation

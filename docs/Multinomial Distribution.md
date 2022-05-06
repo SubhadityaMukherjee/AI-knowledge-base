@@ -1,5 +1,6 @@
 ---
 title: Multinomial
+tags: distribution
 ---
 
 # Multinomial

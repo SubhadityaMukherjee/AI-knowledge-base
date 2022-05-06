@@ -1,5 +1,6 @@
 ---
 title: Volume Visualization
+tags: visualization
 ---
 
 # Volume [[Visualization]]

@@ -1,5 +1,6 @@
 ---
 title: Volumetric Illumination
+tags: visualization
 ---
 
 # Volumetric Illumination

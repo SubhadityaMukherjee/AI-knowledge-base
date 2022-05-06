@@ -7,8 +7,13 @@
         "id": "39506094317e65f2",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Linguistic details.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -66,6 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Linguistic details.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -99,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linguistic details.md"
+              }
             }
           },
           {
@@ -108,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linguistic details.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,6 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linguistic details.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,15 +253,15 @@
   },
   "active": "39506094317e65f2",
   "lastOpenFiles": [
-    "H3 View.md",
+    "Linguistic details.md",
     "templates/titler.md",
+    "H3 View.md",
     "Cosine Similarity.md",
     "Entourage Plot.md",
     "SIMD.md",
     "Von Neumann Architecture.md",
     "Batch Normalization.md",
     "Countouring with Transparency.md",
-    "Encodings.md",
-    "Layerwise Gradient Magnitude Based Pruning.md"
+    "Encodings.md"
   ]
 }

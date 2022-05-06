@@ -1,5 +1,6 @@
 ---
 title: Orthogonal Slicing
+tags: visualization
 ---
 
 # Orthogonal Slicing

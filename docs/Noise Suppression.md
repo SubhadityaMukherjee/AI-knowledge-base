@@ -1,11 +1,12 @@
 ---
 title: Noise Suppression
+tags: visualization
 ---
 
 # Noise Suppression
-- reduce the intensity variation in big structures  
-(such as organs in medical imaging data)  
--improve the detectability of edges between big structures,  
+- reduce the intensity variation in big structures
+(such as organs in medical imaging data)
+-improve the detectability of edges between big structures,
 - preserve small scale structures
 ![[Pasted image 20220418000525.png]]- [[Conv Based Noise Reduction]]
 - [[Average Filter]]

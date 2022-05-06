@@ -1,5 +1,6 @@
 ---
 title: Mapping to Geometry
+tags: visualization
 ---
 
 # Mapping to Geometry

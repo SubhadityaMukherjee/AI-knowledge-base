@@ -1,5 +1,6 @@
 ---
 title: Vectorization
+tags: parallel
 ---
 
 # Vectorization

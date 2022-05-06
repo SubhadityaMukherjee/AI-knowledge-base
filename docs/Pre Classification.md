@@ -1,5 +1,6 @@
 ---
 title: Pre Classification
+tags: visualization
 ---
 
 # Pre Classification

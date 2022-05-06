@@ -1,5 +1,6 @@
 ---
 title: Operator Fusion
+tags: parallel
 ---
 
 # Operator Fusion

@@ -1,7 +1,8 @@
 ---
 title: 1D piecewise linear interpolation
+tags: visualization
 
-tags: 
+tags:
 ---
 
 # 1D Piecewise Linear Interpolation

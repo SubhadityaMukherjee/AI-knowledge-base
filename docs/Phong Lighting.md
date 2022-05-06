@@ -1,5 +1,6 @@
 ---
 title: Phong Lighting
+tags: visualization
 ---
 
 # Phong Lighting

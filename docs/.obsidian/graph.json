@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#loss",
@@ -74,6 +74,6 @@
   "repelStrength": 10.5494505494506,
   "linkStrength": 1,
   "linkDistance": 53,
-  "scale": 0.03781928311059032,
+  "scale": 0.08093842032927316,
   "close": false
 }

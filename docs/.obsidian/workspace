@@ -45,8 +45,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -67,6 +66,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Block Sparse Kernel.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -100,7 +100,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Block Sparse Kernel.md"
+              }
             }
           },
           {
@@ -109,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Block Sparse Kernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,6 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Block Sparse Kernel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,15 +248,15 @@
   },
   "active": "39506094317e65f2",
   "lastOpenFiles": [
-    "Theta Waves.md",
-    "Uncertainty.md",
-    "Quantifying Uncertainty.md",
-    "Bayesian Neural Network.md",
-    "Bayesian Predictive Posterior.md",
-    "Entropy.md",
-    "Uncertainity in classification.md",
-    "Uncertainity in regression.md",
-    "Types of uncertainty.md",
-    "Predictive Uncertainty.md"
+    "Block Sparse Kernel.md",
+    "Optimizing Code.md",
+    "Operator Fusion.md",
+    "Loop Tiling.md",
+    "Parallelization.md",
+    "Vectorization.md",
+    "Asymptotic Decider.md",
+    "Causal Systems.md",
+    "Delta Waves.md",
+    "Flynn's Taxonomy.md"
   ]
 }

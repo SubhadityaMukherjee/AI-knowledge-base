@@ -1,5 +1,6 @@
 ---
 title: High pass filter
+tags: visualization
 ---
 
 # High Pass Filter

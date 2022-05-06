@@ -1,5 +1,6 @@
 ---
 title: Average Filter
+tags: visualization
 ---
 
 # Average Filter

@@ -1,22 +1,9 @@
 ---
 title: Parallel
+tag: parallel 
 ---
 
 # Parallel
 - Independant work chunks -> operate simultaneously
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

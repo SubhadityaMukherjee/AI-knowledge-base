@@ -3,7 +3,7 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gdk
 import sys
 
-tag = "uncertainty"
+tag = "visualization"
 
 class GUI:
     def __init__(self):

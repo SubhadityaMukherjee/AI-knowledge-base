@@ -1,5 +1,6 @@
 ---
 title: Notch filter
+tags: visualization
 ---
 
 # Notch Filter

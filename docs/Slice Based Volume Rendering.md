@@ -1,5 +1,6 @@
 ---
 title: Slice Based Volume Rendering
+tags: visualization
 ---
 
 # Slice Based Volume Rendering

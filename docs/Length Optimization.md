@@ -1,5 +1,6 @@
 ---
 title: Length Optimization
+tags: visualization
 ---
 
 # Length Optimization

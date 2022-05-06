@@ -1,5 +1,6 @@
 ---
 title: Symmetries Node Link
+tags: visualization
 ---
 
 # Symmetries Node Link

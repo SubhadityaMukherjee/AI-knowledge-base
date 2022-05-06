@@ -1,5 +1,6 @@
 ---
 title: Postattentive Amnesia
+tags: visualization
 ---
 
 # Postattentive Amnesia

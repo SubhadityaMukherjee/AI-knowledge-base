@@ -1,5 +1,6 @@
 ---
 title: Loop Tiling
+tags: parallel
 ---
 
 # Loop Tiling

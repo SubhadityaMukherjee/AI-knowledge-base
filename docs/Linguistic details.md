@@ -4,12 +4,11 @@ tags: language
 ---
 
 # Linguistic Details
-- [[Phonetics and phonology]]
+- [[Phonetics]]
+- [[Phonology]]
 - [[Morphology]]
 - [[Syntactic Analysis]]
 - [[Semantic Analysis]]
 - [[Pragmatics]]
-
-
 
 

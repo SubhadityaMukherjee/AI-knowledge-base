@@ -1,0 +1,11 @@
+---
+title: Entities involving in actions
+tags: language
+---
+
+# Entities Involving in Actions
+- Her house was broken into last week.
+- They took the TV and the stereo.
+- The pronoun ‘they’ should be recognized as referring to the burglars who broke into the house.
+
+

@@ -7,8 +7,13 @@
         "id": "39506094317e65f2",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Text Segmentation.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#brain",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +71,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Block Sparse Kernel.md",
+                "file": "Text Segmentation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -101,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Block Sparse Kernel.md"
+                "file": "Text Segmentation.md"
               }
             }
           },
@@ -111,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Block Sparse Kernel.md",
+                "file": "Text Segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Block Sparse Kernel.md",
+                "file": "Text Segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,15 +253,15 @@
   },
   "active": "39506094317e65f2",
   "lastOpenFiles": [
-    "Block Sparse Kernel.md",
-    "Optimizing Code.md",
-    "Operator Fusion.md",
-    "Loop Tiling.md",
-    "Parallelization.md",
-    "Vectorization.md",
-    "Asymptotic Decider.md",
-    "Causal Systems.md",
-    "Delta Waves.md",
-    "Flynn's Taxonomy.md"
+    "Text Segmentation.md",
+    "Text Preprocessing.md",
+    "Sentence Segmentation.md",
+    "Text Normalization.md",
+    "Word Segmentation.md",
+    "Document Triage.md",
+    "Latent Dirchlet Allocation.md",
+    "Transformer.md",
+    "Phonetics.md",
+    "Linguistic details.md"
   ]
 }

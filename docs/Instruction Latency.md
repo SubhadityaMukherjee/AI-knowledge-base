@@ -8,3 +8,5 @@ tags: parallel
 - function of how long it takes the data to get sent all the way from the start point to the end
 
 
+
+

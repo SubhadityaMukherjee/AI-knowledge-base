@@ -9,3 +9,5 @@ tags: parallel
 - Fine : Small computation between communication
 
 
+
+

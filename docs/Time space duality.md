@@ -8,3 +8,5 @@ tags: parallel
 - Vector : Instruction operates on multiple data elements in consecutive time steps
 
 
+
+

@@ -8,3 +8,5 @@ tags: parallel
 - Results of one pipeline are fed into operand registers of another pipeline
 
 
+
+

@@ -7,3 +7,5 @@ tags: parallel
 - Moves vectors between memory and registers
 
 
+
+

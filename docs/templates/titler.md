@@ -1,6 +1,6 @@
 ---
 title: <% tp.file.title %>
-tags: parallel 
+tags: language
 ---
 
 # <% tp.file.title %>

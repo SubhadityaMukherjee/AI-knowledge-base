@@ -8,3 +8,5 @@ tags: parallel
 - [[NUMA]]
 
 
+
+

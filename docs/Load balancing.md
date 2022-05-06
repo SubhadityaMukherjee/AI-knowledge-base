@@ -7,3 +7,5 @@ tags: parallel
 - divide the work equally among the available processors
 
 
+
+

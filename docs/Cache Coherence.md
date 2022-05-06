@@ -8,3 +8,5 @@ tags: parallel
 - if one processor updates a location in shared memory, all the other processors know about the update
 
 
+
+

@@ -7,3 +7,5 @@ tags: parallel
 - Single elements for interconnecting [[Vector Functional Units]], [[Vector Load Store Units]], and registers
 
 
+
+

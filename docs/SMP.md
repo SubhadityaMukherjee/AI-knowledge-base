@@ -9,3 +9,5 @@ tags: parallel
 - Connected by a bus 
 
 
+
+

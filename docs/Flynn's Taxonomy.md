@@ -10,3 +10,5 @@ tags: parallel
 - [[MISD]]
 - [[MIMD]]
 
+
+

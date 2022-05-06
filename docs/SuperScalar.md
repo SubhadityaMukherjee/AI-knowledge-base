@@ -9,3 +9,5 @@ tags: parallel
 - Simultaneously dispatches multiple instructions to multiple redundant functional units built inside the processor.
 
 
+
+

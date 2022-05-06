@@ -7,3 +7,5 @@ tags: parallel
 - Bandwidth is the maximum amount of data that can travel through a 'channel'
 
 
+
+

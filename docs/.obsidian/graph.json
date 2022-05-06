@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#loss",
@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 7110217
       }
+    },
+    {
+      "query": "tag:#language",
+      "color": {
+        "a": 1,
+        "rgb": 11185245
+      }
     }
   ],
   "collapse-display": true,
@@ -74,6 +81,6 @@
   "repelStrength": 10.5494505494506,
   "linkStrength": 1,
   "linkDistance": 53,
-  "scale": 0.08093842106280608,
+  "scale": 0.041923474628693204,
   "close": false
 }

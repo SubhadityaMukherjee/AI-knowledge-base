@@ -1,0 +1,9 @@
+---
+title: Polysynthetic words
+tags: language
+---
+
+# Polysynthetic Words
+- complex words that function as a sentence (Chukchi and Inuktitut)
+
+

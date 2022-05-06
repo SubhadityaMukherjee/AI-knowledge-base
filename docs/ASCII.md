@@ -1,0 +1,10 @@
+---
+title: ASCII
+tags: language
+---
+
+# ASCII
+- 7 bit character set
+- Roman, Latin
+
+

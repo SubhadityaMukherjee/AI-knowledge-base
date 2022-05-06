@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Attention.md",
+            "file": "Batch Normalization.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bayes risk",
+                "query": "tag:#parallel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Attention.md",
+                "file": "Batch Normalization.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attention.md"
+                "file": "Batch Normalization.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attention.md",
+                "file": "Batch Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,8 +208,20 @@
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "3396aa3e586def6a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 14
       },
       {
         "id": "863417745269de5a",
@@ -221,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attention.md",
+                "file": "Batch Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,19 +248,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 510.7156677246094
+    "width": 200.5
   },
   "active": "39506094317e65f2",
   "lastOpenFiles": [
-    "Attention.md",
-    "Alex Net.md",
-    "Adding noise.md",
-    "0-1 Loss.md",
-    "FP16 training.md",
-    "Alpha Waves.md",
-    "Affine Function.md",
-    "Adam.md",
-    "Absolute Error.md",
-    "Advantages of Federated Learning.md"
+    "Batch Normalization.md",
+    "Countouring with Transparency.md",
+    "Encodings.md",
+    "Layerwise Gradient Magnitude Based Pruning.md",
+    "Mesh refinement.md",
+    "Poisson Process.md",
+    "Scheduling.md",
+    "Sparse Dictionary Learning Loss.md",
+    "Universal Approximation Theorem.md",
+    "random_dump.md"
   ]
 }

@@ -1,14 +1,8 @@
 ---
 title: <% tp.file.title %>
-tags: <% tp.file.tags %>
+tags: parallel 
 ---
 
 # <% tp.file.title %>
-
-
-
-
-
-
 
 

@@ -1,0 +1,11 @@
+---
+title: SMP
+tags: parallel 
+---
+
+# SMP
+- Architecture where multiple processors share a single address space and access to all resources
+- Shared memory computing
+- Connected by a bus 
+
+

@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "25da26473f99a27f",
+    "id": "e4871692ff627ceb",
     "type": "split",
     "children": [
       {
-        "id": "39506094317e65f2",
+        "id": "bcd57bdb3c5d0ab6",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -20,15 +20,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e8f402b2ef1b5c94",
+    "id": "2ccccc666ef6499a",
     "type": "split",
     "children": [
       {
-        "id": "f04b3195f480ba47",
+        "id": "0540c734fb9a920c",
         "type": "tabs",
         "children": [
           {
-            "id": "8b5238805db00281",
+            "id": "9a7e775c5a38c45d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "3d3c1c3bca622d08",
+            "id": "67980bfcbf87ef96",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,187 +50,22 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "67b2794baf41f722",
+    "id": "94b3ada31412627e",
     "type": "split",
     "children": [
       {
-        "id": "aa06cb69ac4f2689",
+        "id": "016e2a78879a531c",
         "type": "tabs",
         "children": [
           {
-            "id": "487f724e32cf2dbd",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Morpheme.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7275147923099603,
-                  "close": true
-                }
-              }
-            }
-          },
-          {
-            "id": "d2a1aaf37a90e332",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Morpheme.md"
-              }
-            }
-          },
-          {
-            "id": "0313d4ded0807af1",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Morpheme.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "2e40e46680ceea7a",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "dab0d59dfe9a4f9f",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
-            "id": "473043f750e93b7e",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "cb42c268734e41dd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1d318015a4b72405",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "2e9229db8caa756d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b936d7768de63142",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "66715fe8ce378532",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "87ca5241fc8abd88",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "b47e2251578236a7",
-            "type": "leaf",
-            "state": {
-              "type": "BC-stats",
-              "state": {}
-            }
-          },
-          {
-            "id": "4e92348aa2f49d52",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "3396aa3e586def6a",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          }
-        ],
-        "currentTab": 14
-      },
-      {
-        "id": "863417745269de5a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "158884686aac826f",
+            "id": "c48c4eb95e80c76b",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -242,27 +77,101 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "7cc8c6c60d586e63",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Morpheme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2c308ea757dd3f43",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0e732e429260a040",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Morpheme.md"
+              }
+            }
+          },
+          {
+            "id": "7797d147e189890c",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "5520f27850569dfd",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "8af9f5303cbcadfe",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "f49713112aaba21e",
+            "type": "leaf",
+            "state": {
+              "type": "BC-stats",
+              "state": {}
+            }
+          },
+          {
+            "id": "d624131222d6920a",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f018f12f95c7769",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200.5
+    "width": 300,
+    "collapsed": true
   },
-  "active": "39506094317e65f2",
+  "active": "bcd57bdb3c5d0ab6",
   "lastOpenFiles": [
     "Morpheme.md",
-    "Morphotactic.md",
-    "Morpheme Generation.md",
-    "Morpheme Segmentation.md",
-    "Morphology.md",
-    "Lemmatization.md",
-    "Word Clipping.md",
-    "Word Blending.md",
-    "Word Compounding.md",
-    "Suppletion.md"
+    "Morphotactic.md"
   ]
 }

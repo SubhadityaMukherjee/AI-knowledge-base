@@ -60,7 +60,8 @@ extra_javascript:
 extra_css:
   - css/landing.css
 plugins:
-  - search
+  - search:
+     lang: en
   - roamlinks
   - awesome-pages
   - git-revision-date

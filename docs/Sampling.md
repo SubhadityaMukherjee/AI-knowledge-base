@@ -9,25 +9,6 @@ title: Sampling
 - [[Rejection Sampling]]
 - [[MCMC Sampling]]
 - [[Gibbs Sampler]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [[Stratified Random Sampling]]
 
 

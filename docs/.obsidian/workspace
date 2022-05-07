@@ -7,8 +7,13 @@
         "id": "39506094317e65f2",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Morpheme.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -67,6 +72,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Morpheme.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -100,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Morpheme.md"
+              }
             }
           },
           {
@@ -109,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Morpheme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,6 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Morpheme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,15 +254,15 @@
   },
   "active": "39506094317e65f2",
   "lastOpenFiles": [
-    "Word Segmentation.md",
-    "Lexical Word Segmentation.md",
-    "Hybrid Word Segmentation.md",
-    "Statistical Word Segmentation.md",
-    "Forward Backward Matching.md",
-    "Maximum Matching Algorithm.md",
-    "Text Segmentation.md",
-    "Application dependence.md",
-    "Tokenizer.md",
-    "Agglutinating words.md"
+    "Morpheme.md",
+    "Morphotactic.md",
+    "Morpheme Generation.md",
+    "Morpheme Segmentation.md",
+    "Morphology.md",
+    "Lemmatization.md",
+    "Word Clipping.md",
+    "Word Blending.md",
+    "Word Compounding.md",
+    "Suppletion.md"
   ]
 }

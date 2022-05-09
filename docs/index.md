@@ -18,11 +18,13 @@ tags: index
 - [My Art](https://www.instagram.com/aiexistential/)
 
 ## Keyboard Shortcuts for the Website
-- f , s , / : search
+- s : search
 - p : previous
 - n : next
 
 #anchor
+
+
 
 
 

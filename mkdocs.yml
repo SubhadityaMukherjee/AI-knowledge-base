@@ -1,16 +1,24 @@
-site_name: Subhaditya Mukherjee
+site_name: AIKB-Subhaditya Mukherjee
 
 theme:
-    name: 'material'
-    nav_style: dark
+    name: 'windmill'
+      # nav_style: dark
+      #name: null
+      #custom_dir: 'cinder'
     features:
       # - toc.integrate
         - toc.follow
         - search.suggest
         - search.share
         - search.highlight
-        - navigation.top
-        - navigation.indexes
+          #- navigation.indexes
+    include_sidebar: false
+
+    shortcuts:
+        help: 191    # ?
+        next: 78     # n
+        previous: 80 # p
+        search: 83   # s
     palette:
 
     # Light mode
@@ -30,6 +38,8 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+    extra:
+      - history_buttons: true
 
 # Extensions
 markdown_extensions:
@@ -49,16 +59,17 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
-  - toc:
-      toc_depth: 3
+        #- toc:
+        # toc_depth: 3
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - ./javascripts/extra.js
   - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/extras.js
 extra_css:
-  - css/landing.css
+    - css/extras.css
 plugins:
   - search:
      lang: en

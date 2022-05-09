@@ -4,6 +4,9 @@ from gi.repository import Gtk, Gdk
 import sys
 
 tag = "visualization"
+"""
+Visually add tags
+"""
 
 class GUI:
     def __init__(self):

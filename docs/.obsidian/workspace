@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "fMRI.md",
+            "file": "Word Blending.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 338.5
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fMRI.md",
+                "file": "Word Blending.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fMRI.md",
+                "file": "Word Blending.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fMRI.md"
+                "file": "Word Blending.md"
               }
             }
           },
@@ -163,24 +162,38 @@
               "state": {}
             }
           }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "52728400668610c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1b19415a37f9d09",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 752.5
   },
   "active": "97bced68c0d5ae3f",
   "lastOpenFiles": [
-    "fMRI.md",
-    "MRI.md",
-    "Cerebellum.md",
-    "Parietal lobe.md",
-    "Limbic system.md",
-    "Temporal lobe.md",
-    "Brain Areas.md",
-    "Volumetric Illumination.md",
-    "Cortical Homunculus.md",
-    "Brainstem.md"
+    "Word Blending.md",
+    "Convolutional RNN.md",
+    "Conv.md",
+    "Depthwise Separable.md",
+    "Xception.md",
+    "treecoverSegmentation.md",
+    "ActivationFunctions.md",
+    "Relu.md",
+    "Noisy Relu.md",
+    "fMRI.md"
   ]
 }

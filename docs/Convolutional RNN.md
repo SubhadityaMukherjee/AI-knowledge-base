@@ -10,42 +10,7 @@ tags: architecture
 - 5D shapes -> [samples, timesteps, width, height, channels]
 - Very memory intensive
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- $$x^{2}+x$$
+- 
 
 

@@ -9,3 +9,5 @@ tags: brain
 - They can make speech sounds, however they have difficulty understanding speech and are therefore unaware of their mistakes.
 
 
+
+

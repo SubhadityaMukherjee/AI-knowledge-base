@@ -48,24 +48,27 @@ fs.readdir(directoryPath, function (err, files) {
 		if (links != null) {
 			//Clean up
 			links = links.map(x => x.replace("]]", "").replace("[[", ""))
-			links = links.map(x => indexdict.get(x)).filter(x => x);
+			links = links.map(x => indexdict.get(x));
+// console.log(links)
+
 			var newfilename = file.replace("docs/", "").replace(".md", "");
 			//Replace with dictionary index
 			var connections = indexdict.get(newfilename);
+			// console.log(connections);
 			//Create empty array with length of number of files
 			(arr = []).length = allfiles.length;
 			arr.fill(0);
 			//Set connections to 1
 			if (connections.length > 0) {
-				connections.forEach(function (x) {
+				links.forEach(function (x) {
 					x => arr[x] = 1
 				});
 			} else {
-				arr[connections] = 1;
+				arr[links] = 1;
 			}
 			//Set adjacency matrix with connections
 			// adjacencyMatrix.set(indexdict.get(newfilename), arr);
-			adjs[indexdict.get(newfilename)] = arr;
+			// adjs[indexdict.get(newfilename)] = arr;
 		}
 
 		// var arrayadjs = Array.from(adjacencyMatrix)
@@ -87,19 +90,24 @@ fs.readdir(directoryPath, function (err, files) {
 				mapindex.push(index);
 			};
 		});
+		//TODO Add outgoing links
+
+		// adjs.map(y=>mapindex.push(y.filter(el=>el !=null)));
 		// console.log(mapindex);
 		if (!Array.isArray(mapindex)) {
 			adjacencyMatrix.set(x, reversedict.get(mapindex));
 		} else {
 			mapindex = mapindex.map(y => reversedict.get(y));
+			// console.log(mapindex)
 			adjacencyMatrix.set(x, mapindex);
 	}
 	});
+	// console.log(adjacencyMatrix);
 
 
-	// fs.writeFile('docs/searchindex.js', "let data=".concat(JSON.stringify(Object.fromEntries(adjacencyMatrix))), err => {
-	// 	if (err) {
-	// 		console.log(err);
-	// 	}
-	// });
+	fs.writeFile('docs/searchindex.js', "let data=".concat(JSON.stringify(Object.fromEntries(adjacencyMatrix))), err => {
+		if (err) {
+			console.log(err);
+		}
+	});
 });

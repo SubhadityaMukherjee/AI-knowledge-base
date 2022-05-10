@@ -48,3 +48,5 @@ $$\mathrm{sum}\left( \left( \mathrm{max}\left( 0, 1 - y \cdot ŷ \right) \right)
 
 
 
+
+

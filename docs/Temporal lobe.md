@@ -11,3 +11,5 @@ tags: brain
  - Long-term memory is processed in the hippocampus of the temporal lobe and is activated when you want to memorize something for a longer time.
 
 
+
+

@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 const yourFunction = async () => {
-  await delay(5000);
-  console.log("Waited 7 seconds");
+  await delay(3000);
+  console.log("Waited for a few seconds");
 
   let adjacencyMatrix = data;
   let index = adjacencyMatrix.saving_index;

@@ -116,4 +116,5 @@ fs.readdir(directoryPath, function (err, files) {
 			console.log(err);
 		}
 	});
+	console.log("Created index");
 });

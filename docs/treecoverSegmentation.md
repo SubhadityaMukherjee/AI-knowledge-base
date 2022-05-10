@@ -1,5 +1,6 @@
 ---
 title: Tree Cover Segmentation
+tags: application
 ---
 
 # Tree Cover Segmentation
@@ -22,6 +23,8 @@ title: Tree Cover Segmentation
 ## Ref
 - Max Freudenberg - Gottingen Uni Germany
 - Adrian Stroker - Gottingen Uni Germany
+
+
 
 
 

@@ -1,30 +1,8 @@
 ---
 title: <% tp.file.title %>
-tags: language
+tags: brain
 ---
 
 # <% tp.file.title %>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

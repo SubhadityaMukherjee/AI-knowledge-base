@@ -4,7 +4,7 @@
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
-  "working_directory": "",
+  "working_directory": "/home/erago/Dropbox/Obsidian/AI-knowledge-base",
   "default_shells": {
     "linux": "/bin/bash"
   },
@@ -15,7 +15,7 @@
   "shell_commands": {
     "0": {
       "platform_specific_commands": {
-        "default": "/home/erago/Dropbox/Obsidian/AI-knowledge-base/pusher.sh"
+        "default": "./pusher.sh"
       },
       "shells": {},
       "alias": "",

@@ -1,15 +1,12 @@
 [
-  "table-editor-obsidian",
   "obsidian-mind-map",
   "sliding-panes-obsidian",
   "obsidian-linter",
   "graph-analysis",
   "url-into-selection",
-  "juggl",
   "cm-typewriter-scroll-obsidian",
   "obsidian-dynamic-toc",
   "note-refactor-obsidian",
-  "obsidian-admonition",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-code-block-enhancer",
   "obsidian-codemirror-options",
@@ -18,7 +15,6 @@
   "obsidian-autocomplete-plugin",
   "quick-latex",
   "obsidian-vimrc-support",
-  "obsidian42-brat",
   "nlp",
   "obsidian-dynamic-embed",
   "templater-obsidian",
@@ -27,5 +23,7 @@
   "obsidian-local-images",
   "metaedit",
   "obsidian-frontmatter-tag-suggest",
-  "obsidian-file-cleaner"
+  "obsidian-file-cleaner",
+  "tag-wrangler",
+  "obsidian-shellcommands"
 ]

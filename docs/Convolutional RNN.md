@@ -11,10 +11,5 @@ tags: architecture
 - Very memory intensive
 
 - $$x^{2}+x$$
-- 
-
-
-
-
 
 

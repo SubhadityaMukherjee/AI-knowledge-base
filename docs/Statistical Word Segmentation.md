@@ -7,27 +7,3 @@ tags: language
 - use mutual information between characters from a corpus
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,27 +7,3 @@ tags: language
 - complex words that function as a sentence (Chukchi and Inuktitut)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

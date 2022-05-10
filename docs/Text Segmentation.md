@@ -13,29 +13,3 @@ tags: language
 - [[Application dependence]]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

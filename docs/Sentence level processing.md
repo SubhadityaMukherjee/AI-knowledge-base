@@ -10,29 +10,3 @@ tags: language
 - [[Approximately Compositional Semantic Parsing]]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

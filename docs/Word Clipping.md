@@ -8,25 +8,3 @@ tags: language
 - Doctor, laboratory, refrigerator
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

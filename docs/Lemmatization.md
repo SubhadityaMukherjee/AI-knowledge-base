@@ -9,25 +9,3 @@ tags: language
 - Morphological analysis : word-> set of {lemma, tag}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -5,30 +5,6 @@ tags: language
 
 # Hybrid Word Segmentation
 - combination
--  weighted Finite State Transducer to identify dictionary entries
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- weighted Finite State Transducer to identify dictionary entries
 
 

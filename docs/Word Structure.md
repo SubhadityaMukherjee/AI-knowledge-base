@@ -10,27 +10,3 @@ tags: language
 - [[Polysynthetic words]]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

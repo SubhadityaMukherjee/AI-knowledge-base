@@ -13,29 +13,3 @@ tags: language
 - [[Names of individuals]]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

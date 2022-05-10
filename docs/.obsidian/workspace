@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "handwritingRecognition.md",
+            "file": "EEG.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "handwritingRecognition.md",
+                "file": "EEG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "handwritingRecognition.md",
+                "file": "EEG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,6 +112,40 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "27b8a540cafb1ad3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "EEG.md"
+              }
+            }
+          },
+          {
+            "id": "42b028bd5fc3e3b9",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "81a5b0b6ee899ac9",
+            "type": "leaf",
+            "state": {
+              "type": "BC-stats",
+              "state": {}
+            }
+          },
+          {
+            "id": "f218811266e2761d",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
           }
         ]
       },
@@ -125,7 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "handwritingRecognition.md",
+                "file": "EEG.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -162,15 +196,15 @@
   },
   "active": "11cfd933daeb7721",
   "lastOpenFiles": [
+    "EEG.md",
+    "EEG Cap.md",
+    "ERP.md",
     "handwritingRecognition.md",
     "ha.md",
     "Word Blending.md",
     "Convolutional RNN.md",
     "Conv.md",
     "Depthwise Separable.md",
-    "Xception.md",
-    "treecoverSegmentation.md",
-    "ActivationFunctions.md",
-    "Relu.md"
+    "Xception.md"
   ]
 }

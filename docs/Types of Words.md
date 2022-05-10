@@ -8,29 +8,3 @@ tags: language
 - [[Function words]]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

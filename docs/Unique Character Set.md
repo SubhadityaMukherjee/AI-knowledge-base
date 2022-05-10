@@ -8,27 +8,3 @@ tags: language
 - Greek or Hebrew
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,29 +7,3 @@ tags: language
 - Properties of objects
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

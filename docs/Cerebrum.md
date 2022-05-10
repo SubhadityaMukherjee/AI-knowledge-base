@@ -15,11 +15,3 @@ tags: brain
 - [[Temporal lobe]]
 
 
-
-
-
-
-
-
-
-

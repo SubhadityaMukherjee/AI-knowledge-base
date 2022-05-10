@@ -8,29 +8,3 @@ tags: language
 - I cooked a duck belonging to her
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -8,25 +8,3 @@ tags: language
 - [[Free morpheme]]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

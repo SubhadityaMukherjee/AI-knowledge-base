@@ -8,11 +8,3 @@ tags: brain
 - Included in this system are the cingulate gyri, hypothalamus, amygdala (emotional reactions) and hippocampus (memory).
 
 
-
-
-
-
-
-
-
-

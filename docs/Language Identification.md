@@ -12,27 +12,3 @@ tags: language
 - sort the bytes in a ﬁle by frequency count and use the sorted list as a signature vector for comparison via an n-gram model
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

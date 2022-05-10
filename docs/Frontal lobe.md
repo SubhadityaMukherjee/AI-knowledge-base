@@ -11,11 +11,3 @@ tags: brain
 - Intelligence, concentration, self awareness
 
 
-
-
-
-
-
-
-
-

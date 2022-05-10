@@ -10,11 +10,3 @@ tags: brain
 - It secretes hormones that control sexual development, promote bone and muscle growth, and respond to stress.
 
 
-
-
-
-
-
-
-
-

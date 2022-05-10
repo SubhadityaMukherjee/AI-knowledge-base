@@ -7,29 +7,3 @@ tags: language
 - indicate specific object (a, the,that)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

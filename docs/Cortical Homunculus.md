@@ -7,11 +7,3 @@ tags: brain
 - ![[Pasted image 20220509154234.png]]
 
 
-
-
-
-
-
-
-
-

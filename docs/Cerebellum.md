@@ -9,11 +9,3 @@ tags: brain
 - It stores automatic learned memories like tying a shoe, playing an instrument, or riding a bike.
 
 
-
-
-
-
-
-
-
-

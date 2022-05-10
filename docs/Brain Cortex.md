@@ -12,11 +12,3 @@ tags: brain
 - [[Basal Ganglia]]
 
 
-
-
-
-
-
-
-
-

@@ -8,29 +8,3 @@ tags: language
 - eg. sounds of ‘k’, ‘t’ and ‘e’ in ‘kite
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

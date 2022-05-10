@@ -9,25 +9,3 @@ tags: language
 - N + N = N rain+bow rain-bow
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

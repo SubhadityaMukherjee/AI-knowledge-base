@@ -13,3 +13,5 @@ tags: application
 	- segmentation free
 	- ![[Pasted image 20220510125142.png]]
 	- ![[Pasted image 20220510125154.png]]
+
+

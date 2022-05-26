@@ -7,3 +7,5 @@ tags: parallel
 - Allow the execution of complete instructions or parts of instructions before being sure whether this execution is required
 
 
+
+

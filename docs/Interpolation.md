@@ -9,3 +9,5 @@ tags: visualization
 - [[Barycentric Interpolation]]
 
 
+
+

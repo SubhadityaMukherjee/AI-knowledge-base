@@ -8,3 +8,5 @@ tags: parallel
 - Prioritize those are contiguous in memory
 
 
+
+

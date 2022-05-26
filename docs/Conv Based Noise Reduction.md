@@ -13,3 +13,5 @@ tags: visualization
 - Spatially narrow (wide) filter has wide (narrow) spectrum and low (high) smoothing effect
 
 
+
+

@@ -7,3 +7,5 @@ tag: parallel
 - Independant work chunks -> operate simultaneously
 
 
+
+

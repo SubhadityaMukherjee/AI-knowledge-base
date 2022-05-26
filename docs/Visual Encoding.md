@@ -8,3 +8,5 @@ tags: visualization
 - [[Characteristics of Visual Variables]]
 
 
+
+

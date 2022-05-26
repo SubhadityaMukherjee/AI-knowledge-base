@@ -13,3 +13,5 @@ tags: parallel
 - Only after all older instructions have their results written back to the register file, then this result is written back to the register.
 
 
+
+

@@ -8,3 +8,5 @@ tags: loss
 - $$\Delta : \mathbb{R}^{n} \rightarrow \mathbb{R}, x \rightarrow E[Y|X = x]$$ is the gold standard for minimizing this. But $\Delta$ is unknown
 
 
+
+

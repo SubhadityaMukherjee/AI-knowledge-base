@@ -41,3 +41,5 @@ title: PCA
 	- If we want to preserve 98% variance : Rhs of (1) st. ratio is (1-0.98)
 
 
+
+

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "11cfd933daeb7721",
+        "id": "e3ed13337d77af91",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "EEG.md",
+            "file": "Transformer.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cortex",
+                "query": "brain",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EEG.md",
+                "file": "Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EEG.md",
+                "file": "Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,12 +119,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EEG.md"
+                "file": "Transformer.md"
               }
             }
           },
           {
-            "id": "42b028bd5fc3e3b9",
+            "id": "cd7b69a4fe81fb5b",
             "type": "leaf",
             "state": {
               "type": "BC-matrix",
@@ -132,15 +132,7 @@
             }
           },
           {
-            "id": "81a5b0b6ee899ac9",
-            "type": "leaf",
-            "state": {
-              "type": "BC-stats",
-              "state": {}
-            }
-          },
-          {
-            "id": "f218811266e2761d",
+            "id": "1a31a392cc51822a",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -159,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "EEG.md",
+                "file": "Transformer.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,7 +174,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.6672942708540951,
                   "close": false
                 }
               }
@@ -194,17 +186,17 @@
     "direction": "horizontal",
     "width": 168.5
   },
-  "active": "11cfd933daeb7721",
+  "active": "e3ed13337d77af91",
   "lastOpenFiles": [
-    "EEG.md",
-    "EEG Cap.md",
-    "ERP.md",
-    "handwritingRecognition.md",
-    "ha.md",
-    "Word Blending.md",
-    "Convolutional RNN.md",
-    "Conv.md",
-    "Depthwise Separable.md",
-    "Xception.md"
+    "Transformer.md",
+    "templates/titler.md",
+    "TREEQN.md",
+    "Bilinear Interpolation.md",
+    "Einsum.md",
+    "Self Attention GAN.md",
+    "GLOW.md",
+    "Spatial Transformer.md",
+    "Generative Models.md",
+    "Self Attention.md"
   ]
 }

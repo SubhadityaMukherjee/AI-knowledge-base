@@ -6,3 +6,5 @@ title: Bayes Rule
 - $$h(\theta|D) = \frac{p_{\otimes_{i}}x(D|\theta)h(\theta)}{p(D)}$$
 
 
+
+

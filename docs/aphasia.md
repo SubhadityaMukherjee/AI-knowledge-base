@@ -8,3 +8,5 @@ tags: brain
 - The type of aphasia depends on the brain area damaged
 
 
+
+

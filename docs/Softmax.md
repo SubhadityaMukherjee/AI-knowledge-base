@@ -17,3 +17,5 @@ title: Softmax
 - Lower -> Harder. More confident
 
 
+
+

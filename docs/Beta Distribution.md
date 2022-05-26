@@ -10,3 +10,5 @@ tags: distribution
 - Multiple variables is [[Dirichlet Distribution]]
 
 
+
+

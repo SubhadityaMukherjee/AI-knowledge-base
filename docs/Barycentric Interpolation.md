@@ -9,3 +9,5 @@ tags: visualization
 - Point x is an [[Affine Function]] of $x_i$
 
 
+
+

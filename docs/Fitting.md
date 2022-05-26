@@ -12,3 +12,5 @@ title: Fitting
 		- If high, $$\mathscr{F}  = R(f) - R_B$$ is small : Overfitting (Tiny difference between best risk and current risk)
 
 
+
+

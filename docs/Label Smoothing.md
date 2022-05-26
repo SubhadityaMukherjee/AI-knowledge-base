@@ -21,3 +21,5 @@ title: Label Smoothing
 - If $\epsilon=\frac{K-1}{K}$, all optimizal $z^{\ast}_{i}$ are identical
 
 
+
+

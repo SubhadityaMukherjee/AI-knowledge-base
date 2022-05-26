@@ -8,3 +8,5 @@ tags: regularize
 - Others somehow try to rewind to a previous state and reinitialize the network entirely
 
 
+
+

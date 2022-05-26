@@ -17,3 +17,5 @@ title: EEG Artifacts
 - Arteries in neck exposed when person is nervous
 
 
+
+

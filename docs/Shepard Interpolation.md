@@ -12,3 +12,5 @@ $$
 - Neighborhood N determines points aka radius
 
 
+
+

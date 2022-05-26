@@ -8,3 +8,5 @@ tags: parallel
 - determines whether a conditional branch (jump) in the instruction flow of a program is likely to be taken or not
 
 
+
+

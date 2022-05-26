@@ -10,3 +10,5 @@ tags: parallel
 - Each includes at least 2 read and 1 write ports
 
 
+
+

@@ -6,3 +6,5 @@ title: CDF
 - get cumulative density function $\varphi : \mathbb{R} \rightarrow [0,1]$
 
 
+
+

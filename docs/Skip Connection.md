@@ -11,3 +11,5 @@ tag: architecture
 - Transfer #gradients to prevent [[Vanishingexploding gradients]]
 
 
+
+

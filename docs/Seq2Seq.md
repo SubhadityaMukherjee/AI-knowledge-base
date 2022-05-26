@@ -10,3 +10,5 @@ tags: architecture
 	- Even if hidden state vector has a high dimensionality, cannot hold all info
 
 
+
+

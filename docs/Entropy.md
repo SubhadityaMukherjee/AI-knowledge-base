@@ -10,3 +10,5 @@ tags: uncertainty
 - [[Uniform Distribution]] maximizes entropy. Results harder to predict
 
 
+
+

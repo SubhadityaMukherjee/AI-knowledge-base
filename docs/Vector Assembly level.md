@@ -10,3 +10,5 @@ tags: parallel
 - ![[Pasted image 20220506154443.png]]
 
 
+
+

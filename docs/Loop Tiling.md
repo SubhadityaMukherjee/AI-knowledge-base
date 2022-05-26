@@ -7,3 +7,5 @@ tags: parallel
 - Hardware memory layout in consideration
 
 
+
+

@@ -20,3 +20,5 @@ tags: regularize
 - $$\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$$
 
 
+
+

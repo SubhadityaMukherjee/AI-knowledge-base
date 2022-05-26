@@ -13,3 +13,5 @@ tags: uncertainty
 - $f(x) \in [f(x) - \sigma,f(x) + \sigma]$
 
 
+
+

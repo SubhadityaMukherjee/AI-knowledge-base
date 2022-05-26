@@ -8,3 +8,5 @@ tags: visualization
 - $$p_{i}=\frac{1}{N}\Sigma_{i…j}p_{j}$$
 
 
+
+

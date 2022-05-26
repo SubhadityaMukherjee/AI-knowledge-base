@@ -9,3 +9,5 @@ tags: brain
 - ![[Pasted image 20220502160807.png]]
 
 
+
+

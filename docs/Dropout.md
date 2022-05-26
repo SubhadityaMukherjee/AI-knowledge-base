@@ -12,5 +12,6 @@ tags: regularize
 - Reduces co dependence between neurons
 - Decreases overfitting
 - Start with small rate : 20 %
+- Helps with small datasets
 
 

@@ -8,3 +8,5 @@ tags: loss
 - Measure of how much the points in a given cluster spread
 
 
+
+

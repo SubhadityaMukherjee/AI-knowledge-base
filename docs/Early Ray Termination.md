@@ -7,3 +7,5 @@ tags: visualization
 - General acceleration idea: neglect regions with irrelevant information
 
 
+
+

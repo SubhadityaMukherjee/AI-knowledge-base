@@ -15,3 +15,5 @@ tags: architecture
 - three non-linear activations (instead of one), which makes the function more discriminative
 
 
+
+

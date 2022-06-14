@@ -12,3 +12,5 @@ tags: architecture
 - observe experimentally that the linear separability of features increase monotonically along the depth of the model
 
 
+
+

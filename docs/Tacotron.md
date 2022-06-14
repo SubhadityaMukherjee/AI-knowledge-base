@@ -68,3 +68,5 @@ def forward_new(self, inputs, input_lengths=None):
 
 
 
+
+

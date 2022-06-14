@@ -15,3 +15,5 @@ tags: architecture
 - performance of a single really big net that has been trained for a very long time can be significantly improved by learning a large number of specialist nets, each of which learns to discriminate between the classes in a highly confusable cluster.
 
 
+
+

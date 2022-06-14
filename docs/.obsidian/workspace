@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Case Grammar.md",
+            "file": "FaceNet.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 338.5,
+    "collapsed": true
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -70,14 +71,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Case Grammar.md",
+                "file": "FaceNet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -87,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Case Grammar.md",
+                "file": "FaceNet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +109,7 @@
             "id": "5f018f12f95c7769",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph-analysis",
               "state": {}
             }
           },
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Case Grammar.md"
+                "file": "FaceNet.md"
               }
             }
           },
@@ -126,36 +127,12 @@
             "id": "cd7b69a4fe81fb5b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1a31a392cc51822a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0060c9e6836e7cba",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "186eb0a82eba0468",
-            "type": "leaf",
-            "state": {
               "type": "BC-matrix",
               "state": {}
             }
           },
           {
-            "id": "a3e54a73f5b703a8",
+            "id": "1a31a392cc51822a",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -174,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Case Grammar.md",
+                "file": "FaceNet.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,7 +174,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7303776794912809,
+                  "scale": 0.6672942708540951,
                   "close": false
                 }
               }
@@ -207,19 +184,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.24639892578125
+    "width": 168.5
   },
   "active": "e3ed13337d77af91",
   "lastOpenFiles": [
-    "Case Grammar.md",
-    "Central Limit Theorem.md",
-    "Brocas Area.md",
-    "BrainWave Synchronization.md",
-    "BrainWave Coherence.md",
-    "Brainstem.md",
-    "Brain Oscillations.md",
-    "Brain Cortex.md",
+    "FaceNet.md",
+    "Skip Connection.md",
+    "Res Net.md",
+    "templates/titler.md",
     "Brain Areas.md",
-    "Bottom Up Parsing.md"
+    "Transformer.md",
+    "TREEQN.md",
+    "Bilinear Interpolation.md",
+    "Einsum.md",
+    "Self Attention GAN.md"
   ]
 }

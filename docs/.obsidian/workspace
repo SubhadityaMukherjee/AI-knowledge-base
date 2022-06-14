@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Transformer.md",
+            "file": "Case Grammar.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5,
-    "collapsed": true
+    "width": 338.5
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -71,14 +70,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transformer.md",
+                "file": "Case Grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -88,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transformer.md",
+                "file": "Case Grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +108,7 @@
             "id": "5f018f12f95c7769",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {}
             }
           },
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transformer.md"
+                "file": "Case Grammar.md"
               }
             }
           },
@@ -127,12 +126,36 @@
             "id": "cd7b69a4fe81fb5b",
             "type": "leaf",
             "state": {
-              "type": "BC-matrix",
+              "type": "empty",
               "state": {}
             }
           },
           {
             "id": "1a31a392cc51822a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0060c9e6836e7cba",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "186eb0a82eba0468",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "a3e54a73f5b703a8",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -151,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Transformer.md",
+                "file": "Case Grammar.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,7 +197,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6672942708540951,
+                  "scale": 0.7303776794912809,
                   "close": false
                 }
               }
@@ -184,19 +207,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 168.5
+    "width": 348.24639892578125
   },
   "active": "e3ed13337d77af91",
   "lastOpenFiles": [
-    "Transformer.md",
-    "templates/titler.md",
-    "TREEQN.md",
-    "Bilinear Interpolation.md",
-    "Einsum.md",
-    "Self Attention GAN.md",
-    "GLOW.md",
-    "Spatial Transformer.md",
-    "Generative Models.md",
-    "Self Attention.md"
+    "Case Grammar.md",
+    "Central Limit Theorem.md",
+    "Brocas Area.md",
+    "BrainWave Synchronization.md",
+    "BrainWave Coherence.md",
+    "Brainstem.md",
+    "Brain Oscillations.md",
+    "Brain Cortex.md",
+    "Brain Areas.md",
+    "Bottom Up Parsing.md"
   ]
 }

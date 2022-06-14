@@ -9,7 +9,6 @@ tag: architecture
 - [[Effect_Of_Depth]]
 - Previous layer gradient carried to next module untouched -> loss surface is smoother
 - Transfer #gradients to prevent [[Vanishingexploding gradients]]
-
-
+- Learns the difference (residual) $$F(x) = H(x)-x$$
 
 

@@ -12,3 +12,5 @@ def gram_matrix_new(y):
 ```
 
 
+
+

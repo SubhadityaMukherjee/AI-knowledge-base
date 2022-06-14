@@ -1,5 +1,6 @@
 ---
 title: fMRI
+tags: brain cogneuro 
 ---
 
 # fMRI
@@ -8,7 +9,5 @@ title: fMRI
 - Blood oxygenation level dependant signal
 	- Indirect measure of neural activity
 	- Blood goes to a place
-
-
 
 

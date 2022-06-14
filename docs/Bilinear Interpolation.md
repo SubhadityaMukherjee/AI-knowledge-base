@@ -10,3 +10,5 @@ tags: visualization einsum
 - ik, jkl , il -> ij
 
 
+
+

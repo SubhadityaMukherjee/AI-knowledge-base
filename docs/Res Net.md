@@ -4,6 +4,7 @@ tags: architecture
 ---
 
 # Res Net
+- [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 - Deeper Networks have [[issues]] because of vanishing #gradients
 - Propagate gradients forward for deeper networks
 - Skip connections

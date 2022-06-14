@@ -10,3 +10,5 @@ title: Vector Quantization
 
 
 
+
+

@@ -20,6 +20,6 @@ tags: brain
 - [[EEG Statistical Analysis]]
 - [[EEG Cap]]
 
-
+- This might be related to [[fMRI]]
 
 

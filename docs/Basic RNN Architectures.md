@@ -4,7 +4,7 @@ tags: architecture einsum
 ---
 
 # Basic RNN Architectures
-![[Pasted image 20220307171009.png]]
+![im](assets/Pasted image 20220307171009.png)
 
 - [[Stacking RNN]]
 - [[Bi Directional RNN]]
@@ -55,6 +55,8 @@ class RNNNew(nn.Module):
         # take the final layer's hidden
         return self.fc(self.dropout(hidden[-1]))
 ```
+
+
 
 
 

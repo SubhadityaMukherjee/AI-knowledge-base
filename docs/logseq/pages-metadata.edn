@@ -1,2556 +1,2085 @@
 [{:block/name "0-1 loss",
-  :block/created-at 1655203841227,
-  :block/updated-at 1655203841227}
+  :block/created-at 1655207298873,
+  :block/updated-at 1655207298873}
  {:block/name "1d piecewise linear interpolation",
-  :block/created-at 1655203841257,
-  :block/updated-at 1655203841257}
+  :block/created-at 1655207298902,
+  :block/updated-at 1655207298902}
  {:block/name "2 byte character set",
-  :block/created-at 1655203841288,
-  :block/updated-at 1655203841288}
+  :block/created-at 1655207298925,
+  :block/updated-at 1655207298925}
  {:block/name "8 bit character set",
-  :block/created-at 1655203841326,
-  :block/updated-at 1655203841326}
- {:block/name "<% tp.file.title %>",
-  :block/created-at 1655203856037,
-  :block/updated-at 1655203856037}
+  :block/created-at 1655207298949,
+  :block/updated-at 1655207298949}
  {:block/name "a",
-  :block/created-at 1655204194640,
-  :block/updated-at 1655204194640}
+  :block/created-at 1655207670885,
+  :block/updated-at 1655207670885}
  {:block/name "absolute error",
-  :block/created-at 1655203841402,
-  :block/updated-at 1655203841402}
+  :block/created-at 1655207298987,
+  :block/updated-at 1655207298987}
  {:block/name "action transitive verb",
-  :block/created-at 1655203841439,
-  :block/updated-at 1655203841439}
+  :block/created-at 1655207299009,
+  :block/updated-at 1655207299009}
  {:block/name "activation functions",
-  :block/created-at 1655203841487,
-  :block/updated-at 1655203841487}
+  :block/created-at 1655207299036,
+  :block/updated-at 1655207299036}
  {:block/name "activationfunctions",
-  :block/created-at 1655203842334,
-  :block/updated-at 1655203842334}
+  :block/created-at 1655207299677,
+  :block/updated-at 1655207299677}
  {:block/name "activations",
-  :block/created-at 1655203842496,
-  :block/updated-at 1655203842496}
+  :block/created-at 1655207299806,
+  :block/updated-at 1655207299806}
  {:block/name "adagrad",
-  :block/created-at 1655203841537,
-  :block/updated-at 1655203841537}
+  :block/created-at 1655207299066,
+  :block/updated-at 1655207299066}
  {:block/name "adam",
-  :block/created-at 1655203841565,
-  :block/updated-at 1655203841565}
+  :block/created-at 1655207299089,
+  :block/updated-at 1655207299089}
  {:block/name "adding noise",
-  :block/created-at 1655203854575,
-  :block/updated-at 1655203854575}
+  :block/created-at 1655207311045,
+  :block/updated-at 1655207311045}
  {:block/name "adjective",
-  :block/created-at 1655203841629,
-  :block/updated-at 1655203841629}
+  :block/created-at 1655207299140,
+  :block/updated-at 1655207299140}
  {:block/name "advantages of federated learning",
-  :block/created-at 1655203841657,
-  :block/updated-at 1655203841657}
+  :block/created-at 1655207299162,
+  :block/updated-at 1655207299162}
  {:block/name "adverb",
-  :block/created-at 1655203841681,
-  :block/updated-at 1655203841681}
+  :block/created-at 1655207299181,
+  :block/updated-at 1655207299181}
  {:block/name "adversarial learning",
-  :block/created-at 1655203841713,
-  :block/updated-at 1655203841713}
+  :block/created-at 1655207299205,
+  :block/updated-at 1655207299205}
  {:block/name "affine function",
-  :block/created-at 1655203841741,
-  :block/updated-at 1655203841741}
+  :block/created-at 1655207299229,
+  :block/updated-at 1655207299229}
  {:block/name "agglutinating words",
-  :block/created-at 1655203841779,
-  :block/updated-at 1655203841779}
+  :block/created-at 1655207299251,
+  :block/updated-at 1655207299251}
  {:block/name "aleatoric",
-  :block/created-at 1655203841814,
-  :block/updated-at 1655203841814}
+  :block/created-at 1655207299281,
+  :block/updated-at 1655207299281}
  {:block/name "alex net",
-  :block/created-at 1655203841856,
-  :block/updated-at 1655203841856}
+  :block/created-at 1655207299306,
+  :block/updated-at 1655207299306}
  {:block/name "allomorph",
-  :block/created-at 1655203841906,
-  :block/updated-at 1655203841906}
+  :block/created-at 1655207299327,
+  :block/updated-at 1655207299327}
  {:block/name "alpha waves",
-  :block/created-at 1655203841933,
-  :block/updated-at 1655203841933}
+  :block/created-at 1655207299347,
+  :block/updated-at 1655207299347}
  {:block/name "amdahl's law",
-  :block/created-at 1655203841966,
-  :block/updated-at 1655203841966}
+  :block/created-at 1655207299371,
+  :block/updated-at 1655207299371}
  {:block/name "anchor",
-  :block/created-at 1655203841485,
-  :block/updated-at 1655203841485}
+  :block/created-at 1655207299036,
+  :block/updated-at 1655207299036}
  {:block/name "anomaly detection",
-  :block/created-at 1655203854944,
-  :block/updated-at 1655203854944}
+  :block/created-at 1655207311381,
+  :block/updated-at 1655207311381}
  {:block/name "aphasia",
-  :block/created-at 1655203843499,
-  :block/updated-at 1655203843499}
+  :block/created-at 1655207300627,
+  :block/updated-at 1655207300627}
  {:block/name "application",
-  :block/created-at 1655203853181,
-  :block/updated-at 1655203853181}
+  :block/created-at 1655207309646,
+  :block/updated-at 1655207309646}
  {:block/name "application dependence",
-  :block/created-at 1655203841995,
-  :block/updated-at 1655203841995}
+  :block/created-at 1655207299394,
+  :block/updated-at 1655207299394}
  {:block/name "application einsum",
-  :block/created-at 1655203853875,
-  :block/updated-at 1655203853875}
+  :block/created-at 1655207310350,
+  :block/updated-at 1655207310350}
  {:block/name "approximately compositional semantic parsing",
-  :block/created-at 1655203842019,
-  :block/updated-at 1655203842019}
+  :block/created-at 1655207299414,
+  :block/updated-at 1655207299414}
  {:block/name "architecture",
-  :block/created-at 1655203841861,
-  :block/updated-at 1655203841861}
+  :block/created-at 1655207299306,
+  :block/updated-at 1655207299306}
  {:block/name "architecture einsum",
-  :block/created-at 1655203842432,
-  :block/updated-at 1655203842432}
+  :block/created-at 1655207299758,
+  :block/updated-at 1655207299758}
  {:block/name "architectures",
-  :block/created-at 1655203844780,
-  :block/updated-at 1655203844780}
+  :block/created-at 1655215697525,
+  :block/updated-at 1655215697525}
  {:block/name "area minimization",
-  :block/created-at 1655203842042,
-  :block/updated-at 1655203842042}
+  :block/created-at 1655207299435,
+  :block/updated-at 1655207299435}
  {:block/name "ascii",
-  :block/created-at 1655203841372,
-  :block/updated-at 1655203841372}
+  :block/created-at 1655207298948,
+  :block/updated-at 1655207298948}
  {:block/name "asymptotic decider",
-  :block/created-at 1655203842072,
-  :block/updated-at 1655203842072}
+  :block/created-at 1655207299456,
+  :block/updated-at 1655207299456}
  {:block/name "attention",
-  :block/created-at 1655203842104,
-  :block/updated-at 1655203842104}
+  :block/created-at 1655207299481,
+  :block/updated-at 1655207299481}
  {:block/name "augmentation",
-  :block/created-at 1655203841594,
-  :block/updated-at 1655203841594}
+  :block/created-at 1655207299115,
+  :block/updated-at 1655207299115}
  {:block/name "auto encoders",
-  :block/created-at 1655203854944,
-  :block/updated-at 1655203854944}
+  :block/created-at 1655207311381,
+  :block/updated-at 1655207311381}
  {:block/name "autoencoder",
-  :block/created-at 1655203842167,
-  :block/updated-at 1655203842167}
+  :block/created-at 1655207299531,
+  :block/updated-at 1655207299531}
  {:block/name "autoregressive",
-  :block/created-at 1655203842199,
-  :block/updated-at 1655203842199}
+  :block/created-at 1655207299564,
+  :block/updated-at 1655207299564}
  {:block/name "average filter",
-  :block/created-at 1655203842222,
-  :block/updated-at 1655203842222}
+  :block/created-at 1655207299587,
+  :block/updated-at 1655207299587}
  {:block/name "b",
-  :block/created-at 1655204194641,
-  :block/updated-at 1655204194641}
+  :block/created-at 1655207670886,
+  :block/updated-at 1655207670886}
  {:block/name "back to front raycasting",
-  :block/created-at 1655203842297,
-  :block/updated-at 1655203842297}
+  :block/created-at 1655207299651,
+  :block/updated-at 1655207299651}
  {:block/name "backprop",
-  :block/created-at 1655203842336,
-  :block/updated-at 1655203842336}
+  :block/created-at 1655207299678,
+  :block/updated-at 1655207299678}
  {:block/name "barycentric interpolation",
-  :block/created-at 1655203842367,
-  :block/updated-at 1655203842367}
+  :block/created-at 1655207299701,
+  :block/updated-at 1655207299701}
  {:block/name "basal ganglia",
-  :block/created-at 1655203842396,
-  :block/updated-at 1655203842396}
+  :block/created-at 1655207299728,
+  :block/updated-at 1655207299728}
  {:block/name "basic rnn architectures",
-  :block/created-at 1655203842431,
-  :block/updated-at 1655203842431}
+  :block/created-at 1655207299757,
+  :block/updated-at 1655207299757}
  {:block/name "basics of federated learning",
-  :block/created-at 1655203842468,
-  :block/updated-at 1655203842468}
+  :block/created-at 1655207299783,
+  :block/updated-at 1655207299783}
  {:block/name "batch normalization",
-  :block/created-at 1655203842499,
-  :block/updated-at 1655203842499}
+  :block/created-at 1655207299808,
+  :block/updated-at 1655207299808}
  {:block/name "bayes prediction",
-  :block/created-at 1655203842533,
-  :block/updated-at 1655203842533}
+  :block/created-at 1655207299832,
+  :block/updated-at 1655207299832}
  {:block/name "bayes rule",
-  :block/created-at 1655203842559,
-  :block/updated-at 1655203842559}
+  :block/created-at 1655207299849,
+  :block/updated-at 1655207299849}
  {:block/name "bayesian",
-  :block/created-at 1655203842593,
-  :block/updated-at 1655203842593}
+  :block/created-at 1655207299881,
+  :block/updated-at 1655207299881}
  {:block/name "bayesian model estimation",
-  :block/created-at 1655203842603,
-  :block/updated-at 1655203842603}
+  :block/created-at 1655207299887,
+  :block/updated-at 1655207299887}
  {:block/name "bayesian neural network",
-  :block/created-at 1655203842644,
-  :block/updated-at 1655203842644}
+  :block/created-at 1655207299919,
+  :block/updated-at 1655207299919}
  {:block/name "bayesian posterior",
-  :block/created-at 1655203842597,
-  :block/updated-at 1655203842597}
+  :block/created-at 1655207299884,
+  :block/updated-at 1655207299884}
  {:block/name "bayesian predictive posterior",
-  :block/created-at 1655203842643,
-  :block/updated-at 1655203842643}
+  :block/created-at 1655207299918,
+  :block/updated-at 1655207299918}
  {:block/name "bayesian prior",
-  :block/created-at 1655203842595,
-  :block/updated-at 1655203842595}
+  :block/created-at 1655207299882,
+  :block/updated-at 1655207299882}
  {:block/name "bce logits",
-  :block/created-at 1655203842244,
-  :block/updated-at 1655203842244}
+  :block/created-at 1655207299606,
+  :block/updated-at 1655207299606}
  {:block/name "bend minimization",
-  :block/created-at 1655203842800,
-  :block/updated-at 1655203842800}
+  :block/created-at 1655207300053,
+  :block/updated-at 1655207300053}
+ {:block/name "benford's law",
+  :block/created-at 1655207300075,
+  :block/updated-at 1655207300075}
  {:block/name "bernoulli distribution",
-  :block/created-at 1655203842825,
-  :block/updated-at 1655203842825}
+  :block/created-at 1655207300097,
+  :block/updated-at 1655207300097}
  {:block/name "bert",
-  :block/created-at 1655203842270,
-  :block/updated-at 1655203842270}
+  :block/created-at 1655207299629,
+  :block/updated-at 1655207299629}
  {:block/name "best maching unit",
-  :block/created-at 1655203852620,
-  :block/updated-at 1655203852620}
+  :block/created-at 1655207309108,
+  :block/updated-at 1655207309108}
  {:block/name "best matching unit",
-  :block/created-at 1655203842845,
-  :block/updated-at 1655203842845}
+  :block/created-at 1655207300116,
+  :block/updated-at 1655207300116}
  {:block/name "beta distribution",
-  :block/created-at 1655203842866,
-  :block/updated-at 1655203842866}
+  :block/created-at 1655207300135,
+  :block/updated-at 1655207300135}
  {:block/name "beta waves",
-  :block/created-at 1655203842891,
-  :block/updated-at 1655203842891}
+  :block/created-at 1655207300155,
+  :block/updated-at 1655207300155}
  {:block/name "bi directional rnn",
-  :block/created-at 1655203842428,
-  :block/updated-at 1655203842428}
+  :block/created-at 1655207299754,
+  :block/updated-at 1655207299754}
  {:block/name "bias variance dilemma",
-  :block/created-at 1655203848072,
-  :block/updated-at 1655203848072}
+  :block/created-at 1655207304725,
+  :block/updated-at 1655207304725}
  {:block/name "bias vs variance",
-  :block/created-at 1655203842967,
-  :block/updated-at 1655203842967}
+  :block/created-at 1655207300210,
+  :block/updated-at 1655207300210}
  {:block/name "bilinear interpolation",
-  :block/created-at 1655203843016,
-  :block/updated-at 1655203843016}
+  :block/created-at 1655207300245,
+  :block/updated-at 1655207300245}
  {:block/name "binary pattern",
-  :block/created-at 1655203845224,
-  :block/updated-at 1655203845224}
+  :block/created-at 1655207302130,
+  :block/updated-at 1655207302130}
  {:block/name "binary pattern encoding",
-  :block/created-at 1655203843042,
-  :block/updated-at 1655203843042}
+  :block/created-at 1655207300270,
+  :block/updated-at 1655207300270}
  {:block/name "binning",
-  :block/created-at 1655203843068,
-  :block/updated-at 1655203843068}
+  :block/created-at 1655207300291,
+  :block/updated-at 1655207300291}
  {:block/name "binomial distribution",
-  :block/created-at 1655203843100,
-  :block/updated-at 1655203843100}
+  :block/created-at 1655207300316,
+  :block/updated-at 1655207300316}
  {:block/name "block sparse kernel",
-  :block/created-at 1655203843137,
-  :block/updated-at 1655203843137}
+  :block/created-at 1655207300345,
+  :block/updated-at 1655207300345}
  {:block/name "boltzmann distribution",
-  :block/created-at 1655203843172,
-  :block/updated-at 1655203843172}
+  :block/created-at 1655207300372,
+  :block/updated-at 1655207300372}
  {:block/name "bottom up parsing",
-  :block/created-at 1655203843195,
-  :block/updated-at 1655203843195}
+  :block/created-at 1655207300399,
+  :block/updated-at 1655207300399}
  {:block/name "bound morpheme",
-  :block/created-at 1655203843219,
-  :block/updated-at 1655203843219}
+  :block/created-at 1655207300422,
+  :block/updated-at 1655207300422}
  {:block/name "brain",
-  :block/created-at 1655203841935,
-  :block/updated-at 1655203841935}
+  :block/created-at 1655207299348,
+  :block/updated-at 1655207299348}
  {:block/name "brain areas",
-  :block/created-at 1655203843251,
-  :block/updated-at 1655204450354}
+  :block/created-at 1655207300443,
+  :block/updated-at 1655207300443}
+ {:block/name "brain cogneuro",
+  :block/created-at 1655207300648,
+  :block/updated-at 1655207300648}
  {:block/name "brain cortex",
-  :block/created-at 1655203843295,
-  :block/updated-at 1655203843295}
+  :block/created-at 1655207300470,
+  :block/updated-at 1655207300470}
  {:block/name "brain oscillations",
-  :block/created-at 1655203843329,
-  :block/updated-at 1655203843329}
+  :block/created-at 1655207300494,
+  :block/updated-at 1655207300494}
  {:block/name "brain visualization",
-  :block/created-at 1655203853565,
-  :block/updated-at 1655203853565}
+  :block/created-at 1655207310031,
+  :block/updated-at 1655207310031}
  {:block/name "brainstem",
-  :block/created-at 1655203843251,
-  :block/updated-at 1655203843251}
+  :block/created-at 1655207300442,
+  :block/updated-at 1655207300442}
  {:block/name "brainwave coherence",
-  :block/created-at 1655203843365,
-  :block/updated-at 1655203843365}
+  :block/created-at 1655207300524,
+  :block/updated-at 1655207300524}
  {:block/name "brainwave crossfrequency coupling",
-  :block/created-at 1655203843404,
-  :block/updated-at 1655203843404}
+  :block/created-at 1655207300546,
+  :block/updated-at 1655207300546}
  {:block/name "brainwave synchronization",
-  :block/created-at 1655203843432,
-  :block/updated-at 1655203843432}
+  :block/created-at 1655207300567,
+  :block/updated-at 1655207300567}
  {:block/name "branch prediction",
-  :block/created-at 1655203843477,
-  :block/updated-at 1655203843477}
+  :block/created-at 1655207300605,
+  :block/updated-at 1655207300605}
  {:block/name "brocas area",
-  :block/created-at 1655203843499,
-  :block/updated-at 1655203843499}
+  :block/created-at 1655207300628,
+  :block/updated-at 1655207300628}
  {:block/name "c",
-  :block/created-at 1655204194641,
-  :block/updated-at 1655204194641}
+  :block/created-at 1655207670886,
+  :block/updated-at 1655207670886}
  {:block/name "cache coherence",
-  :block/created-at 1655203843542,
-  :block/updated-at 1655203843542}
+  :block/created-at 1655207300715,
+  :block/updated-at 1655207300715}
  {:block/name "card",
-  :block/created-at 1655204194641,
-  :block/updated-at 1655204194641}
+  :block/created-at 1655207670885,
+  :block/updated-at 1655207670885}
  {:block/name "case grammar",
-  :block/created-at 1655203843567,
-  :block/updated-at 1655203843567}
+  :block/created-at 1655207300740,
+  :block/updated-at 1655207300740}
  {:block/name "causal 1d conv",
-  :block/created-at 1655203843594,
-  :block/updated-at 1655203843594}
+  :block/created-at 1655207300760,
+  :block/updated-at 1655207300760}
  {:block/name "causal dilated conv",
-  :block/created-at 1655203843620,
-  :block/updated-at 1655203843620}
+  :block/created-at 1655207300780,
+  :block/updated-at 1655207300780}
  {:block/name "causal systems",
-  :block/created-at 1655203843643,
-  :block/updated-at 1655203843643}
+  :block/created-at 1655207300799,
+  :block/updated-at 1655207300799}
+ {:block/name "ccn",
+  :block/created-at 1655207300647,
+  :block/updated-at 1655207300647}
  {:block/name "cdf",
-  :block/created-at 1655203843521,
-  :block/updated-at 1655203843521}
+  :block/created-at 1655207300664,
+  :block/updated-at 1655207300664}
+ {:block/name "centernet",
+  :block/created-at 1655207312383,
+  :block/updated-at 1655217892068}
  {:block/name "central limit theorem",
-  :block/created-at 1655203843671,
-  :block/updated-at 1655203843671}
+  :block/created-at 1655207300831,
+  :block/updated-at 1655207300831}
  {:block/name "cerebellum",
-  :block/created-at 1655203843249,
-  :block/updated-at 1655203843249}
+  :block/created-at 1655207300442,
+  :block/updated-at 1655207300442}
  {:block/name "cerebrum",
-  :block/created-at 1655203843248,
-  :block/updated-at 1655203843248}
+  :block/created-at 1655207300441,
+  :block/updated-at 1655207300441}
  {:block/name "challenge of complex geometry",
-  :block/created-at 1655203844034,
-  :block/updated-at 1655203844034}
+  :block/created-at 1655207301137,
+  :block/updated-at 1655207301137}
  {:block/name "change blindness",
-  :block/created-at 1655203843761,
-  :block/updated-at 1655203843761}
+  :block/created-at 1655207300906,
+  :block/updated-at 1655207300906}
  {:block/name "character-set dependence",
-  :block/created-at 1655203843786,
-  :block/updated-at 1655203843786}
+  :block/created-at 1655207300928,
+  :block/updated-at 1655207300928}
  {:block/name "characteristics of visual variables",
-  :block/created-at 1655203843813,
-  :block/updated-at 1655203843813}
+  :block/created-at 1655207300951,
+  :block/updated-at 1655207300951}
+ {:block/name "cifar",
+  :block/created-at 1655218127153,
+  :block/updated-at 1655218132065}
  {:block/name "circumfix",
-  :block/created-at 1655203843834,
-  :block/updated-at 1655203843834}
+  :block/created-at 1655207300970,
+  :block/updated-at 1655207300970}
  {:block/name "class conditional distribution",
-  :block/created-at 1655203843854,
-  :block/updated-at 1655203843854}
+  :block/created-at 1655207300988,
+  :block/updated-at 1655207300988}
  {:block/name "class size",
-  :block/created-at 1655203843874,
-  :block/updated-at 1655203843874}
+  :block/created-at 1655207301007,
+  :block/updated-at 1655207301007}
  {:block/name "classification ray casting",
-  :block/created-at 1655203843909,
-  :block/updated-at 1655203843909}
+  :block/created-at 1655207301027,
+  :block/updated-at 1655207301027}
  {:block/name "clustering",
-  :block/created-at 1655203843937,
-  :block/updated-at 1655203843937}
+  :block/created-at 1655207301047,
+  :block/updated-at 1655207301047}
+ {:block/name "coco",
+  :block/created-at 1655207300687,
+  :block/updated-at 1655207300687}
  {:block/name "color compositing",
-  :block/created-at 1655203843962,
-  :block/updated-at 1655203843962}
+  :block/created-at 1655207301068,
+  :block/updated-at 1655207301068}
  {:block/name "color spaces",
-  :block/created-at 1655203843988,
-  :block/updated-at 1655203843988}
+  :block/created-at 1655207301094,
+  :block/updated-at 1655207301094}
  {:block/name "colormap",
-  :block/created-at 1655203844012,
-  :block/updated-at 1655203844012}
+  :block/created-at 1655207301116,
+  :block/updated-at 1655207301116}
  {:block/name "complex geometry",
-  :block/created-at 1655203848072,
-  :block/updated-at 1655203848072}
+  :block/created-at 1655207304725,
+  :block/updated-at 1655207304725}
  {:block/name "conceptual parsing",
-  :block/created-at 1655203844055,
-  :block/updated-at 1655203844055}
+  :block/created-at 1655207301157,
+  :block/updated-at 1655207301157}
  {:block/name "concurrency",
-  :block/created-at 1655203844079,
-  :block/updated-at 1655203844079}
+  :block/created-at 1655207301178,
+  :block/updated-at 1655207301178}
  {:block/name "connectives",
-  :block/created-at 1655203844101,
-  :block/updated-at 1655203844101}
+  :block/created-at 1655207301198,
+  :block/updated-at 1655207301198}
  {:block/name "content morpheme",
-  :block/created-at 1655203844122,
-  :block/updated-at 1655203844122}
+  :block/created-at 1655207301217,
+  :block/updated-at 1655207301217}
  {:block/name "content words",
-  :block/created-at 1655203844147,
-  :block/updated-at 1655203844147}
+  :block/created-at 1655207301237,
+  :block/updated-at 1655207301237}
  {:block/name "contents",
-  :block/created-at 1655204194642,
-  :block/updated-at 1655204194642}
+  :block/created-at 1655207670887,
+  :block/updated-at 1655207670887}
  {:block/name "context free grammar",
-  :block/created-at 1655203844177,
-  :block/updated-at 1655203844177}
+  :block/created-at 1655207301263,
+  :block/updated-at 1655207301263}
  {:block/name "continous -> discrete",
-  :block/created-at 1655203844214,
-  :block/updated-at 1655203844214}
+  :block/created-at 1655207301294,
+  :block/updated-at 1655207301294}
  {:block/name "contour",
-  :block/created-at 1655203844244,
-  :block/updated-at 1655203844244}
+  :block/created-at 1655207301320,
+  :block/updated-at 1655207301320}
  {:block/name "contrastive loss",
-  :block/created-at 1655203844275,
-  :block/updated-at 1655203844275}
+  :block/created-at 1655207301346,
+  :block/updated-at 1655207301346}
  {:block/name "conv",
-  :block/created-at 1655203843593,
-  :block/updated-at 1655203843593}
+  :block/created-at 1655207300760,
+  :block/updated-at 1655207300760}
  {:block/name "conv based noise reduction",
-  :block/created-at 1655203844303,
-  :block/updated-at 1655203844303}
+  :block/created-at 1655207301371,
+  :block/updated-at 1655207301371}
  {:block/name "convnd",
-  :block/created-at 1655203844337,
-  :block/updated-at 1655203844337}
+  :block/created-at 1655207301399,
+  :block/updated-at 1655207301399}
  {:block/name "convolutional rnn",
-  :block/created-at 1655203844366,
-  :block/updated-at 1655203844366}
+  :block/created-at 1655207301428,
+  :block/updated-at 1655207301428}
  {:block/name "corpus callosum",
-  :block/created-at 1655203843728,
-  :block/updated-at 1655203843728}
+  :block/created-at 1655207300878,
+  :block/updated-at 1655207300878}
  {:block/name "corpus dependence",
-  :block/created-at 1655203844409,
-  :block/updated-at 1655203844409}
+  :block/created-at 1655207301468,
+  :block/updated-at 1655207301468}
  {:block/name "cortical homunculus",
-  :block/created-at 1655203844432,
-  :block/updated-at 1655203844432}
+  :block/created-at 1655207301491,
+  :block/updated-at 1655207301491}
  {:block/name "cosine learning rate decay",
-  :block/created-at 1655203844455,
-  :block/updated-at 1655203844455}
+  :block/created-at 1655207301511,
+  :block/updated-at 1655207301511}
  {:block/name "cosine similarity",
-  :block/created-at 1655203844479,
-  :block/updated-at 1655203844479}
+  :block/created-at 1655207301531,
+  :block/updated-at 1655207301531}
  {:block/name "countouring with transparency",
-  :block/created-at 1655203844244,
-  :block/updated-at 1655203844244}
+  :block/created-at 1655207301320,
+  :block/updated-at 1655207301320}
  {:block/name "cross angle maximization",
-  :block/created-at 1655203844629,
-  :block/updated-at 1655203844629}
+  :block/created-at 1655207301645,
+  :block/updated-at 1655207301645}
  {:block/name "cross entropy",
-  :block/created-at 1655203842244,
-  :block/updated-at 1655203842244}
+  :block/created-at 1655207299606,
+  :block/updated-at 1655207299606}
  {:block/name "cross minimization",
-  :block/created-at 1655203844572,
-  :block/updated-at 1655203844572}
+  :block/created-at 1655207301600,
+  :block/updated-at 1655207301600}
  {:block/name "cross validation",
-  :block/created-at 1655203844602,
-  :block/updated-at 1655203844602}
+  :block/created-at 1655207301623,
+  :block/updated-at 1655207301623}
  {:block/name "curse of dimensionality",
-  :block/created-at 1655203844656,
-  :block/updated-at 1655203844656}
+  :block/created-at 1655207301667,
+  :block/updated-at 1655207301667}
  {:block/name "data structures",
-  :block/created-at 1655203844679,
-  :block/updated-at 1655203844679}
+  :block/created-at 1655207301686,
+  :block/updated-at 1655207301686}
+ {:block/name "dataset",
+  :block/created-at 1655207300689,
+  :block/updated-at 1655207300689}
  {:block/name "decision boundaries",
-  :block/created-at 1655203844726,
-  :block/updated-at 1655203844726}
+  :block/created-at 1655207301715,
+  :block/updated-at 1655207301715}
  {:block/name "decision trees",
-  :block/created-at 1655203843068,
-  :block/updated-at 1655203843068}
+  :block/created-at 1655207300291,
+  :block/updated-at 1655207300291}
  {:block/name "deeplearning",
-  :block/created-at 1655203855971,
-  :block/updated-at 1655203855971}
+  :block/created-at 1655207312353,
+  :block/updated-at 1655207312353}
  {:block/name "delta waves",
-  :block/created-at 1655203843325,
-  :block/updated-at 1655203843325}
+  :block/created-at 1655207300492,
+  :block/updated-at 1655207300492}
  {:block/name "denoising autoencoder",
-  :block/created-at 1655203842166,
-  :block/updated-at 1655203842166}
+  :block/created-at 1655207299531,
+  :block/updated-at 1655207299531}
  {:block/name "dense",
-  :block/created-at 1655203843132,
-  :block/updated-at 1655203843132}
+  :block/created-at 1655207300344,
+  :block/updated-at 1655207300344}
  {:block/name "dense net",
-  :block/created-at 1655203844884,
-  :block/updated-at 1655203844884}
+  :block/created-at 1655207301846,
+  :block/updated-at 1655207301846}
  {:block/name "dense skip connections",
-  :block/created-at 1655203844882,
-  :block/updated-at 1655203844882}
+  :block/created-at 1655207301870,
+  :block/updated-at 1655207301870}
  {:block/name "depthwise separable",
-  :block/created-at 1655203844335,
-  :block/updated-at 1655203844335}
+  :block/created-at 1655207301398,
+  :block/updated-at 1655207301398}
  {:block/name "derivational morphology",
-  :block/created-at 1655203844982,
-  :block/updated-at 1655203844982}
+  :block/created-at 1655207301930,
+  :block/updated-at 1655207301930}
  {:block/name "detailed balance",
-  :block/created-at 1655203845021,
-  :block/updated-at 1655203845021}
+  :block/created-at 1655207301953,
+  :block/updated-at 1655207301953}
  {:block/name "determiners",
-  :block/created-at 1655203845044,
-  :block/updated-at 1655203845044}
+  :block/created-at 1655207301974,
+  :block/updated-at 1655207301974}
  {:block/name "dice score",
-  :block/created-at 1655203845090,
-  :block/updated-at 1655203845090}
+  :block/created-at 1655207302012,
+  :block/updated-at 1655207302012}
  {:block/name "dictionary learning",
-  :block/created-at 1655203845115,
-  :block/updated-at 1655203845115}
+  :block/created-at 1655207302033,
+  :block/updated-at 1655207302033}
  {:block/name "dimensionality reduction",
-  :block/created-at 1655203844655,
-  :block/updated-at 1655203844655}
+  :block/created-at 1655207301666,
+  :block/updated-at 1655207301666}
  {:block/name "dirac delta",
-  :block/created-at 1655203845178,
-  :block/updated-at 1655203845178}
+  :block/created-at 1655207302086,
+  :block/updated-at 1655207302086}
  {:block/name "dirichlet distribution",
-  :block/created-at 1655203842865,
-  :block/updated-at 1655203842865}
+  :block/created-at 1655207300134,
+  :block/updated-at 1655207300134}
  {:block/name "discrete -> continous transforms",
-  :block/created-at 1655203845226,
-  :block/updated-at 1655203845226}
+  :block/created-at 1655207302131,
+  :block/updated-at 1655207302131}
  {:block/name "discrete -> continuous",
-  :block/created-at 1655203845894,
-  :block/updated-at 1655203845894}
+  :block/created-at 1655207302720,
+  :block/updated-at 1655207302720}
  {:block/name "distillation loss",
-  :block/created-at 1655203845253,
-  :block/updated-at 1655203845253}
+  :block/created-at 1655207302158,
+  :block/updated-at 1655207302158}
  {:block/name "distribution",
-  :block/created-at 1655203842826,
-  :block/updated-at 1655203842826}
+  :block/created-at 1655207300097,
+  :block/updated-at 1655207300097}
  {:block/name "distributions",
-  :block/created-at 1655203842496,
-  :block/updated-at 1655203842496}
+  :block/created-at 1655207299807,
+  :block/updated-at 1655207299807}
  {:block/name "ditransitive verb",
-  :block/created-at 1655203845068,
-  :block/updated-at 1655203845068}
+  :block/created-at 1655207301993,
+  :block/updated-at 1655207301993}
  {:block/name "divide oriented",
-  :block/created-at 1655203843987,
-  :block/updated-at 1655203843987}
+  :block/created-at 1655207301093,
+  :block/updated-at 1655207301093}
  {:block/name "document triage",
-  :block/created-at 1655203845357,
-  :block/updated-at 1655203845357}
+  :block/created-at 1655207302245,
+  :block/updated-at 1655207302245}
  {:block/name "doing",
-  :block/created-at 1655204194641,
-  :block/updated-at 1655204194641}
+  :block/created-at 1655207670886,
+  :block/updated-at 1655207670886}
  {:block/name "done",
-  :block/created-at 1655204194641,
-  :block/updated-at 1655204194641}
+  :block/created-at 1655207670886,
+  :block/updated-at 1655207670886}
  {:block/name "dropout",
-  :block/created-at 1655203841595,
-  :block/updated-at 1655203841595}
+  :block/created-at 1655207299115,
+  :block/updated-at 1655207299115}
  {:block/name "dt",
-  :block/created-at 1655203844754,
-  :block/updated-at 1655203844754}
+  :block/created-at 1655207301740,
+  :block/updated-at 1655207301740}
  {:block/name "early ray termination",
-  :block/created-at 1655203845628,
-  :block/updated-at 1655203845628}
+  :block/created-at 1655207302486,
+  :block/updated-at 1655207302486}
  {:block/name "early stopping #tricks",
-  :block/created-at 1655203845654,
-  :block/updated-at 1655203845654}
+  :block/created-at 1655207302506,
+  :block/updated-at 1655207302506}
  {:block/name "early stopping tricks",
-  :block/created-at 1655203850681,
-  :block/updated-at 1655203850681}
+  :block/created-at 1655207307163,
+  :block/updated-at 1655207307163}
  {:block/name "eeg",
-  :block/created-at 1655203845572,
-  :block/updated-at 1655203845572}
+  :block/created-at 1655207302439,
+  :block/updated-at 1655207302439}
  {:block/name "eeg artifacts",
-  :block/created-at 1655203845416,
-  :block/updated-at 1655203845416}
+  :block/created-at 1655207302295,
+  :block/updated-at 1655207302295}
  {:block/name "eeg baseline correction",
-  :block/created-at 1655203845443,
-  :block/updated-at 1655203845443}
+  :block/created-at 1655207302317,
+  :block/updated-at 1655207302317}
  {:block/name "eeg cap",
-  :block/created-at 1655203845467,
-  :block/updated-at 1655203845467}
+  :block/created-at 1655207302337,
+  :block/updated-at 1655207302337}
  {:block/name "eeg cluster testing",
-  :block/created-at 1655203845494,
-  :block/updated-at 1655203845494}
+  :block/created-at 1655207302361,
+  :block/updated-at 1655207302361}
  {:block/name "eeg filtering",
-  :block/created-at 1655203845519,
-  :block/updated-at 1655203845519}
+  :block/created-at 1655207302391,
+  :block/updated-at 1655207302391}
  {:block/name "eeg statistical analysis",
-  :block/created-at 1655203845542,
-  :block/updated-at 1655203845542}
+  :block/created-at 1655207302412,
+  :block/updated-at 1655207302412}
  {:block/name "effect of depth",
-  :block/created-at 1655203845682,
-  :block/updated-at 1655203845682}
+  :block/created-at 1655207302530,
+  :block/updated-at 1655207302530}
  {:block/name "effect_of_depth",
-  :block/created-at 1655203852184,
-  :block/updated-at 1655203852184}
+  :block/created-at 1655207308640,
+  :block/updated-at 1655207308640}
+ {:block/name "efficientnet",
+  :block/created-at 1655218339040,
+  :block/updated-at 1655218362520}
  {:block/name "einsum",
-  :block/created-at 1655203845712,
-  :block/updated-at 1655203845712}
+  :block/created-at 1655207302559,
+  :block/updated-at 1655207302559}
  {:block/name "einsum architecture",
-  :block/created-at 1655203846151,
-  :block/updated-at 1655203846151}
+  :block/created-at 1655207302998,
+  :block/updated-at 1655207302998}
  {:block/name "electrode nomenclature",
-  :block/created-at 1655203845567,
-  :block/updated-at 1655203845567}
+  :block/created-at 1655207302435,
+  :block/updated-at 1655207302435}
  {:block/name "elements of sets",
-  :block/created-at 1655203845770,
-  :block/updated-at 1655203845770}
+  :block/created-at 1655207302616,
+  :block/updated-at 1655207302616}
  {:block/name "elu",
-  :block/created-at 1655203841479,
-  :block/updated-at 1655203841479}
+  :block/created-at 1655207299034,
+  :block/updated-at 1655207299034}
  {:block/name "embedding",
-  :block/created-at 1655203845815,
-  :block/updated-at 1655203845815}
+  :block/created-at 1655207302654,
+  :block/updated-at 1655207302654}
  {:block/name "emperical risk",
-  :block/created-at 1655203842961,
-  :block/updated-at 1655203842961}
+  :block/created-at 1655207300206,
+  :block/updated-at 1655207300206}
  {:block/name "encoder decoder attention",
-  :block/created-at 1655203842102,
-  :block/updated-at 1655203842102}
+  :block/created-at 1655207299480,
+  :block/updated-at 1655207299480}
  {:block/name "encoding",
-  :block/created-at 1655203845895,
-  :block/updated-at 1655203845895}
+  :block/created-at 1655207302721,
+  :block/updated-at 1655207302721}
  {:block/name "encodings",
-  :block/created-at 1655203846686,
-  :block/updated-at 1655203846686}
+  :block/created-at 1655207303523,
+  :block/updated-at 1655207303523}
+ {:block/name "ensemble distillation",
+  :block/created-at 1655207302746,
+  :block/updated-at 1655207302746}
  {:block/name "entities involving in actions",
-  :block/created-at 1655203845916,
-  :block/updated-at 1655203845916}
+  :block/created-at 1655207302768,
+  :block/updated-at 1655207302768}
  {:block/name "entourage plot",
-  :block/created-at 1655203845939,
-  :block/updated-at 1655203845939}
+  :block/created-at 1655207302787,
+  :block/updated-at 1655207302787}
  {:block/name "entropy",
-  :block/created-at 1655203844539,
-  :block/updated-at 1655203844539}
+  :block/created-at 1655207301573,
+  :block/updated-at 1655207301573}
  {:block/name "epistemic",
-  :block/created-at 1655203845987,
-  :block/updated-at 1655203845987}
+  :block/created-at 1655207302828,
+  :block/updated-at 1655207302828}
  {:block/name "equivalent current dipole",
-  :block/created-at 1655203846012,
-  :block/updated-at 1655203846012}
+  :block/created-at 1655207302848,
+  :block/updated-at 1655207302848}
  {:block/name "ergodic",
-  :block/created-at 1655203845017,
-  :block/updated-at 1655203845017}
+  :block/created-at 1655207301952,
+  :block/updated-at 1655207301952}
  {:block/name "erp",
-  :block/created-at 1655203845570,
-  :block/updated-at 1655203845570}
+  :block/created-at 1655207302437,
+  :block/updated-at 1655207302437}
  {:block/name "ethics",
-  :block/created-at 1655203855973,
-  :block/updated-at 1655203855973}
+  :block/created-at 1655207312354,
+  :block/updated-at 1655207312354}
  {:block/name "exponential distribution",
-  :block/created-at 1655203845294,
-  :block/updated-at 1655203845294}
+  :block/created-at 1655207302189,
+  :block/updated-at 1655207302189}
  {:block/name "facenet",
-  :block/created-at 1655203846102,
-  :block/updated-at 1655203846102}
+  :block/created-at 1655207302938,
+  :block/updated-at 1655207302938}
  {:block/name "factors for mc estimate",
-  :block/created-at 1655203846123,
-  :block/updated-at 1655203846123}
+  :block/created-at 1655207302965,
+  :block/updated-at 1655207302965}
  {:block/name "fast-rcnn",
-  :block/created-at 1655203847335,
-  :block/updated-at 1655203847335}
+  :block/created-at 1655207303017,
+  :block/updated-at 1655207303017}
+ {:block/name "faster rcnn",
+  :block/created-at 1655207303019,
+  :block/updated-at 1655207303019}
  {:block/name "fasttext",
-  :block/created-at 1655203846149,
-  :block/updated-at 1655203846149}
+  :block/created-at 1655207302997,
+  :block/updated-at 1655207302997}
  {:block/name "favorites",
-  :block/created-at 1655204194640,
-  :block/updated-at 1655204194640}
+  :block/created-at 1655207670885,
+  :block/updated-at 1655207670885}
  {:block/name "feature learning",
-  :block/created-at 1655203846174,
-  :block/updated-at 1655203846174}
+  :block/created-at 1655207303046,
+  :block/updated-at 1655207303046}
  {:block/name "features",
-  :block/created-at 1655203844778,
-  :block/updated-at 1655203844778}
+  :block/created-at 1655207301761,
+  :block/updated-at 1655207301761}
  {:block/name "federated learning",
-  :block/created-at 1655203844788,
-  :block/updated-at 1655203844788}
+  :block/created-at 1655207301767,
+  :block/updated-at 1655207301767}
  {:block/name "federated updates",
-  :block/created-at 1655203846231,
-  :block/updated-at 1655203846231}
+  :block/created-at 1655207303101,
+  :block/updated-at 1655207303101}
  {:block/name "filtering",
-  :block/created-at 1655203846281,
-  :block/updated-at 1655203846281}
+  :block/created-at 1655207303145,
+  :block/updated-at 1655207303145}
  {:block/name "fine tuning based pruning",
-  :block/created-at 1655203846309,
-  :block/updated-at 1655203846309}
+  :block/created-at 1655207303169,
+  :block/updated-at 1655207303169}
  {:block/name "finite differences",
-  :block/created-at 1655203846344,
-  :block/updated-at 1655203846344}
+  :block/created-at 1655207303190,
+  :block/updated-at 1655207303190}
  {:block/name "fitting",
-  :block/created-at 1655203842961,
-  :block/updated-at 1655203842961}
+  :block/created-at 1655207300206,
+  :block/updated-at 1655207300206}
  {:block/name "flynn's taxonomy",
-  :block/created-at 1655203846396,
-  :block/updated-at 1655203846396}
+  :block/created-at 1655207303239,
+  :block/updated-at 1655207303239}
  {:block/name "fmri",
-  :block/created-at 1655203845567,
-  :block/updated-at 1655203845567}
+  :block/created-at 1655207302439,
+  :block/updated-at 1655207302439}
  {:block/name "focal loss",
-  :block/created-at 1655203856084,
-  :block/updated-at 1655203856084}
+  :block/created-at 1655207303264,
+  :block/updated-at 1655207303264}
  {:block/name "force directed graph layout",
-  :block/created-at 1655203846421,
-  :block/updated-at 1655203846421}
+  :block/created-at 1655207303287,
+  :block/updated-at 1655207303287}
  {:block/name "forward backward matching",
-  :block/created-at 1655203846443,
-  :block/updated-at 1655203846443}
+  :block/created-at 1655207303308,
+  :block/updated-at 1655207303308}
  {:block/name "fp16 training",
-  :block/created-at 1655203846080,
-  :block/updated-at 1655203846080}
+  :block/created-at 1655207302911,
+  :block/updated-at 1655207302911}
  {:block/name "free morpheme",
-  :block/created-at 1655203846464,
-  :block/updated-at 1655203846464}
+  :block/created-at 1655207303327,
+  :block/updated-at 1655207303327}
  {:block/name "freedom",
-  :block/created-at 1655203846492,
-  :block/updated-at 1655203846492}
+  :block/created-at 1655207303348,
+  :block/updated-at 1655207303348}
  {:block/name "frequentist",
-  :block/created-at 1655203846518,
-  :block/updated-at 1655203846518}
+  :block/created-at 1655207303370,
+  :block/updated-at 1655207303370}
  {:block/name "front to back raycasting",
-  :block/created-at 1655203846545,
-  :block/updated-at 1655203846545}
+  :block/created-at 1655207303392,
+  :block/updated-at 1655207303392}
  {:block/name "frontal lobe",
-  :block/created-at 1655203843730,
-  :block/updated-at 1655203843730}
+  :block/created-at 1655207300879,
+  :block/updated-at 1655207300879}
  {:block/name "function words",
-  :block/created-at 1655203846593,
-  :block/updated-at 1655203846593}
+  :block/created-at 1655207303435,
+  :block/updated-at 1655207303435}
  {:block/name "functional connectivity",
-  :block/created-at 1655203846621,
-  :block/updated-at 1655203846621}
+  :block/created-at 1655207303471,
+  :block/updated-at 1655207303471}
  {:block/name "functional morpheme",
-  :block/created-at 1655203846645,
-  :block/updated-at 1655203846645}
+  :block/created-at 1655207303498,
+  :block/updated-at 1655207303498}
  {:block/name "fundamentals",
-  :block/created-at 1655203844778,
-  :block/updated-at 1655203844778}
+  :block/created-at 1655207301762,
+  :block/updated-at 1655207301762}
  {:block/name "gamma waves",
-  :block/created-at 1655203843327,
-  :block/updated-at 1655203843327}
+  :block/created-at 1655207300494,
+  :block/updated-at 1655207300494}
  {:block/name "gan",
-  :block/created-at 1655203846850,
-  :block/updated-at 1655203846850}
+  :block/created-at 1655207303662,
+  :block/updated-at 1655207303662}
  {:block/name "gated recurrent unit (gru)",
-  :block/created-at 1655203842430,
-  :block/updated-at 1655203842430}
+  :block/created-at 1655207299756,
+  :block/updated-at 1655207299756}
  {:block/name "gaussian filter",
-  :block/created-at 1655203846822,
-  :block/updated-at 1655203846822}
+  :block/created-at 1655207303638,
+  :block/updated-at 1655207303638}
  {:block/name "generative models",
-  :block/created-at 1655203852909,
-  :block/updated-at 1655203852909}
+  :block/created-at 1655207309389,
+  :block/updated-at 1655207309389}
  {:block/name "gestalt laws",
-  :block/created-at 1655203842799,
-  :block/updated-at 1655203842799}
+  :block/created-at 1655207300053,
+  :block/updated-at 1655207300053}
  {:block/name "gibbs sampler",
-  :block/created-at 1655203852728,
-  :block/updated-at 1655203852728}
+  :block/created-at 1655207309208,
+  :block/updated-at 1655207309208}
  {:block/name "global gradient magnitude based pruning",
-  :block/created-at 1655203846900,
-  :block/updated-at 1655203846900}
+  :block/created-at 1655207303707,
+  :block/updated-at 1655207303707}
  {:block/name "global magnitude based pruning",
-  :block/created-at 1655203846920,
-  :block/updated-at 1655203846920}
+  :block/created-at 1655207303727,
+  :block/updated-at 1655207303727}
  {:block/name "glow",
-  :block/created-at 1655203846719,
-  :block/updated-at 1655203846719}
+  :block/created-at 1655207303552,
+  :block/updated-at 1655207303552}
  {:block/name "goodhart's law",
-  :block/created-at 1655203846941,
-  :block/updated-at 1655203846941}
+  :block/created-at 1655207303748,
+  :block/updated-at 1655207303748}
  {:block/name "gpt",
-  :block/created-at 1655203846745,
-  :block/updated-at 1655203846745}
+  :block/created-at 1655207303572,
+  :block/updated-at 1655207303572}
  {:block/name "gradient ascent",
-  :block/created-at 1655203844273,
-  :block/updated-at 1655203844273}
+  :block/created-at 1655207301345,
+  :block/updated-at 1655207301345}
  {:block/name "gradient descent #gradients",
-  :block/created-at 1655203846996,
-  :block/updated-at 1655203846996}
+  :block/created-at 1655207303795,
+  :block/updated-at 1655207303795}
  {:block/name "gradient descent gradients",
-  :block/created-at 1655203842164,
-  :block/updated-at 1655203842164}
+  :block/created-at 1655207299530,
+  :block/updated-at 1655207299530}
  {:block/name "gradients",
-  :block/created-at 1655203842333,
-  :block/updated-at 1655203842333}
+  :block/created-at 1655207299677,
+  :block/updated-at 1655207299677}
  {:block/name "gram matrix",
-  :block/created-at 1655203847024,
-  :block/updated-at 1655203847024}
+  :block/created-at 1655207303824,
+  :block/updated-at 1655207303824}
  {:block/name "granger causallity",
-  :block/created-at 1655203846621,
-  :block/updated-at 1655203846621}
+  :block/created-at 1655207303471,
+  :block/updated-at 1655207303471}
  {:block/name "graphs",
-  :block/created-at 1655203847073,
-  :block/updated-at 1655203847073}
+  :block/created-at 1655207303871,
+  :block/updated-at 1655207303871}
  {:block/name "grids",
-  :block/created-at 1655203844678,
-  :block/updated-at 1655203844678}
+  :block/created-at 1655207301685,
+  :block/updated-at 1655207301685}
  {:block/name "gyrus",
-  :block/created-at 1655203843293,
-  :block/updated-at 1655203843293}
+  :block/created-at 1655207300469,
+  :block/updated-at 1655207300469}
  {:block/name "h3 view",
-  :block/created-at 1655203847135,
-  :block/updated-at 1655203847135}
+  :block/created-at 1655207303929,
+  :block/updated-at 1655207303929}
  {:block/name "handwritingrecognition",
-  :block/created-at 1655203855919,
-  :block/updated-at 1655203855919}
+  :block/created-at 1655207312306,
+  :block/updated-at 1655207312306}
+ {:block/name "harmonic embedding",
+  :block/created-at 1655207302937,
+  :block/updated-at 1655207302937}
+ {:block/name "harmonic triplet loss",
+  :block/created-at 1655207311015,
+  :block/updated-at 1655207311015}
  {:block/name "height plots",
-  :block/created-at 1655203847156,
-  :block/updated-at 1655203847156}
+  :block/created-at 1655207303948,
+  :block/updated-at 1655207303948}
  {:block/name "heirarchial refinement",
-  :block/created-at 1655203847204,
-  :block/updated-at 1655203847204}
+  :block/created-at 1655207303992,
+  :block/updated-at 1655207303992}
  {:block/name "heteroscedatic",
-  :block/created-at 1655203841812,
-  :block/updated-at 1655203841812}
+  :block/created-at 1655207299281,
+  :block/updated-at 1655207299281}
  {:block/name "hidden models",
-  :block/created-at 1655203854942,
-  :block/updated-at 1655203854942}
+  :block/created-at 1655207311380,
+  :block/updated-at 1655207311380}
  {:block/name "hierarchial refinement",
-  :block/created-at 1655203844211,
-  :block/updated-at 1655203844211}
+  :block/created-at 1655207301292,
+  :block/updated-at 1655207301292}
  {:block/name "hierarchical edge bundling",
-  :block/created-at 1655203847228,
-  :block/updated-at 1655203847228}
+  :block/created-at 1655207304015,
+  :block/updated-at 1655207304015}
  {:block/name "high pass filter",
-  :block/created-at 1655203847249,
-  :block/updated-at 1655203847249}
+  :block/created-at 1655207304035,
+  :block/updated-at 1655207304035}
  {:block/name "highway convolutions",
-  :block/created-at 1655203847269,
-  :block/updated-at 1655203847269}
+  :block/created-at 1655207304054,
+  :block/updated-at 1655207304054}
  {:block/name "hinge",
-  :block/created-at 1655203847290,
-  :block/updated-at 1655203847290}
+  :block/created-at 1655207304075,
+  :block/updated-at 1655207304075}
  {:block/name "hinge loss",
-  :block/created-at 1655203849630,
-  :block/updated-at 1655203849630}
+  :block/created-at 1655207306147,
+  :block/updated-at 1655207306147}
  {:block/name "hmm",
-  :block/created-at 1655203854052,
-  :block/updated-at 1655203854052}
+  :block/created-at 1655207310522,
+  :block/updated-at 1655207310522}
  {:block/name "homoscedatic",
-  :block/created-at 1655203841811,
-  :block/updated-at 1655203841811}
+  :block/created-at 1655207299280,
+  :block/updated-at 1655207299280}
  {:block/name "huber",
-  :block/created-at 1655203847337,
-  :block/updated-at 1655203847337}
+  :block/created-at 1655207304119,
+  :block/updated-at 1655207304119}
  {:block/name "huber/smooth l1",
-  :block/created-at 1655203847337,
-  :block/updated-at 1655203847337}
+  :block/created-at 1655207304119,
+  :block/updated-at 1655207304119}
  {:block/name "huber/smooth l1/smooth mae",
-  :block/created-at 1655203847336,
-  :block/updated-at 1655203847336}
+  :block/created-at 1655207304118,
+  :block/updated-at 1655207304118}
  {:block/name "hybrid word segmentation",
-  :block/created-at 1655203847360,
-  :block/updated-at 1655203847360}
+  :block/created-at 1655207304140,
+  :block/updated-at 1655207304140}
  {:block/name "hypothalamus",
-  :block/created-at 1655203842392,
-  :block/updated-at 1655203842392}
+  :block/created-at 1655207299726,
+  :block/updated-at 1655207299726}
  {:block/name "ica",
-  :block/created-at 1655203845412,
-  :block/updated-at 1655203845412}
+  :block/created-at 1655207302294,
+  :block/updated-at 1655207302294}
  {:block/name "ica noise removal",
-  :block/created-at 1655203847418,
-  :block/updated-at 1655203847418}
+  :block/created-at 1655207304181,
+  :block/updated-at 1655207304181}
+ {:block/name "ilsvrc",
+  :block/created-at 1655207303018,
+  :block/updated-at 1655207303018}
  {:block/name "image captioning",
-  :block/created-at 1655203855945,
-  :block/updated-at 1655203855945}
+  :block/created-at 1655207312328,
+  :block/updated-at 1655207312328}
  {:block/name "image data",
-  :block/created-at 1655203847468,
-  :block/updated-at 1655203847468}
+  :block/created-at 1655207304243,
+  :block/updated-at 1655207304243}
+ {:block/name "imagenet",
+  :block/created-at 1655218168181,
+  :block/updated-at 1655218174449}
  {:block/name "in-progress",
-  :block/created-at 1655204194642,
-  :block/updated-at 1655204194642}
+  :block/created-at 1655207670887,
+  :block/updated-at 1655207670887}
  {:block/name "inattentional blindness",
-  :block/created-at 1655203847489,
-  :block/updated-at 1655203847489}
+  :block/created-at 1655207304263,
+  :block/updated-at 1655207304263}
  {:block/name "inception",
-  :block/created-at 1655203847515,
-  :block/updated-at 1655203847515}
+  :block/created-at 1655207302937,
+  :block/updated-at 1655207302937}
  {:block/name "index",
-  :block/created-at 1655203844792,
-  :block/updated-at 1655203844792}
+  :block/created-at 1655207301770,
+  :block/updated-at 1655207301770}
  {:block/name "index visualization",
-  :block/created-at 1655203855377,
-  :block/updated-at 1655203855377}
+  :block/created-at 1655207311789,
+  :block/updated-at 1655207311789}
  {:block/name "indirect volume visualization",
-  :block/created-at 1655203847540,
-  :block/updated-at 1655203847540}
+  :block/created-at 1655207304319,
+  :block/updated-at 1655207304319}
  {:block/name "inductive bias",
-  :block/created-at 1655203847561,
-  :block/updated-at 1655203847561}
+  :block/created-at 1655207304337,
+  :block/updated-at 1655207304337}
  {:block/name "infix",
-  :block/created-at 1655203847584,
-  :block/updated-at 1655203847584}
+  :block/created-at 1655207304355,
+  :block/updated-at 1655207304355}
  {:block/name "inflectional morphology",
-  :block/created-at 1655203847606,
-  :block/updated-at 1655203847606}
+  :block/created-at 1655207304373,
+  :block/updated-at 1655207304373}
  {:block/name "inflectional words",
-  :block/created-at 1655203847628,
-  :block/updated-at 1655203847628}
+  :block/created-at 1655207304396,
+  :block/updated-at 1655207304396}
  {:block/name "information visualization",
-  :block/created-at 1655203847654,
-  :block/updated-at 1655203847654}
+  :block/created-at 1655207304417,
+  :block/updated-at 1655207304417}
  {:block/name "initialization",
-  :block/created-at 1655203841475,
-  :block/updated-at 1655203841475}
+  :block/created-at 1655207299033,
+  :block/updated-at 1655207299033}
  {:block/name "instruction bandwidth",
-  :block/created-at 1655203847702,
-  :block/updated-at 1655203847702}
+  :block/created-at 1655207304457,
+  :block/updated-at 1655207304457}
  {:block/name "instruction latency",
-  :block/created-at 1655203847725,
-  :block/updated-at 1655203847725}
+  :block/created-at 1655207304476,
+  :block/updated-at 1655207304476}
  {:block/name "instruction level programming",
-  :block/created-at 1655203847829,
-  :block/updated-at 1655203847829}
+  :block/created-at 1655207304545,
+  :block/updated-at 1655207304545}
  {:block/name "instruction pipelining",
-  :block/created-at 1655203847763,
-  :block/updated-at 1655203847763}
+  :block/created-at 1655207304498,
+  :block/updated-at 1655207304498}
  {:block/name "instruction throughput",
-  :block/created-at 1655203847760,
-  :block/updated-at 1655203847760}
+  :block/created-at 1655207304497,
+  :block/updated-at 1655207304497}
  {:block/name "interpolation",
-  :block/created-at 1655203841255,
-  :block/updated-at 1655203841255}
+  :block/created-at 1655207298901,
+  :block/updated-at 1655207298901}
  {:block/name "intra cluster variance",
-  :block/created-at 1655203847889,
-  :block/updated-at 1655203847889}
+  :block/created-at 1655207304591,
+  :block/updated-at 1655207304591}
  {:block/name "intuitive color spaces",
-  :block/created-at 1655203843988,
-  :block/updated-at 1655203843988}
+  :block/created-at 1655207301093,
+  :block/updated-at 1655207301093}
  {:block/name "invariant distribution",
-  :block/created-at 1655203845020,
-  :block/updated-at 1655203845020}
+  :block/created-at 1655207301953,
+  :block/updated-at 1655207301953}
  {:block/name "isolating words",
-  :block/created-at 1655203847972,
-  :block/updated-at 1655203847972}
+  :block/created-at 1655207304653,
+  :block/updated-at 1655207304653}
  {:block/name "isoline",
-  :block/created-at 1655203844242,
-  :block/updated-at 1655203844242}
+  :block/created-at 1655207301319,
+  :block/updated-at 1655207301319}
  {:block/name "isosurface",
-  :block/created-at 1655203844243,
-  :block/updated-at 1655203844243}
+  :block/created-at 1655207301319,
+  :block/updated-at 1655207301319}
  {:block/name "issues",
-  :block/created-at 1655203844779,
-  :block/updated-at 1655203844779}
+  :block/created-at 1655207301762,
+  :block/updated-at 1655207301762}
  {:block/name "jun 14th, 2022",
-  :block/created-at 1655203856815,
-  :block/updated-at 1655203856815}
+  :block/created-at 1655207313675,
+  :block/updated-at 1655218434488}
  {:block/name "k means",
-  :block/created-at 1655203848168,
-  :block/updated-at 1655203848168}
+  :block/created-at 1655207304794,
+  :block/updated-at 1655207304794}
  {:block/name "kl divergence",
-  :block/created-at 1655203844541,
-  :block/updated-at 1655203844541}
+  :block/created-at 1655207301574,
+  :block/updated-at 1655207301574}
  {:block/name "kmeans",
-  :block/created-at 1655203843935,
-  :block/updated-at 1655203843935}
+  :block/created-at 1655207301046,
+  :block/updated-at 1655207301046}
+ {:block/name "knn",
+  :block/created-at 1655207302936,
+  :block/updated-at 1655207302936}
  {:block/name "knowledge distillation",
-  :block/created-at 1655203848201,
-  :block/updated-at 1655203848201}
+  :block/created-at 1655207304821,
+  :block/updated-at 1655207304821}
  {:block/name "label smoothing",
-  :block/created-at 1655203848235,
-  :block/updated-at 1655203848235}
+  :block/created-at 1655207304847,
+  :block/updated-at 1655207304847}
+ {:block/name "labeled faces in the wild",
+  :block/created-at 1655207302936,
+  :block/updated-at 1655207302936}
  {:block/name "lack of information",
-  :block/created-at 1655203848073,
-  :block/updated-at 1655203848073}
+  :block/created-at 1655207304725,
+  :block/updated-at 1655207304725}
  {:block/name "language",
-  :block/created-at 1655203841291,
-  :block/updated-at 1655203841291}
+  :block/created-at 1655207298926,
+  :block/updated-at 1655207298926}
  {:block/name "language dependence",
-  :block/created-at 1655203848317,
-  :block/updated-at 1655203848317}
+  :block/created-at 1655207304936,
+  :block/updated-at 1655207304936}
  {:block/name "language identification",
-  :block/created-at 1655203845356,
-  :block/updated-at 1655203845356}
+  :block/created-at 1655207302244,
+  :block/updated-at 1655207302244}
  {:block/name "laplacian grid smoothing",
-  :block/created-at 1655203848336,
-  :block/updated-at 1655203848336}
+  :block/created-at 1655207304955,
+  :block/updated-at 1655207304955}
  {:block/name "large batch training",
-  :block/created-at 1655203848360,
-  :block/updated-at 1655203848360}
+  :block/created-at 1655207304977,
+  :block/updated-at 1655207304977}
  {:block/name "lars",
-  :block/created-at 1655203850355,
-  :block/updated-at 1655203850355}
+  :block/created-at 1655207306862,
+  :block/updated-at 1655207306862}
  {:block/name "latent dirchlet allocation",
-  :block/created-at 1655203848382,
-  :block/updated-at 1655203848382}
+  :block/created-at 1655207304999,
+  :block/updated-at 1655207304999}
  {:block/name "later",
-  :block/created-at 1655204194641,
-  :block/updated-at 1655204194641}
+  :block/created-at 1655207670886,
+  :block/updated-at 1655207670886}
  {:block/name "law of large numbers",
-  :block/created-at 1655203846516,
-  :block/updated-at 1655203846516}
+  :block/created-at 1655207303369,
+  :block/updated-at 1655207303369}
  {:block/name "layer normalization",
-  :block/created-at 1655203848425,
-  :block/updated-at 1655203848425}
+  :block/created-at 1655207305037,
+  :block/updated-at 1655207305037}
  {:block/name "layers",
-  :block/created-at 1655203843131,
-  :block/updated-at 1655203843131}
+  :block/created-at 1655207300343,
+  :block/updated-at 1655207300343}
  {:block/name "layerwise gradient magnitude based pruning",
-  :block/created-at 1655203848473,
-  :block/updated-at 1655203848473}
+  :block/created-at 1655207305079,
+  :block/updated-at 1655207305079}
  {:block/name "layerwise magnitude based pruning",
-  :block/created-at 1655203848499,
-  :block/updated-at 1655203848499}
+  :block/created-at 1655207305101,
+  :block/updated-at 1655207305101}
  {:block/name "le net",
-  :block/created-at 1655203848525,
-  :block/updated-at 1655203848525}
+  :block/created-at 1655207305121,
+  :block/updated-at 1655207305121}
  {:block/name "leaky relu",
-  :block/created-at 1655203848546,
-  :block/updated-at 1655203848546}
+  :block/created-at 1655207305140,
+  :block/updated-at 1655207305140}
  {:block/name "learning rate decay #tricks",
-  :block/created-at 1655203848567,
-  :block/updated-at 1655203848567}
+  :block/created-at 1655207305160,
+  :block/updated-at 1655207305160}
  {:block/name "learning rate decay tricks",
-  :block/created-at 1655203848591,
-  :block/updated-at 1655203848591}
+  :block/created-at 1655207305185,
+  :block/updated-at 1655207305185}
  {:block/name "learning rate scheduling",
-  :block/created-at 1655203848358,
-  :block/updated-at 1655203848358}
+  :block/created-at 1655207304975,
+  :block/updated-at 1655207304975}
  {:block/name "learning rate warmup",
-  :block/created-at 1655203844454,
-  :block/updated-at 1655203844454}
+  :block/created-at 1655207301510,
+  :block/updated-at 1655207301510}
  {:block/name "lemmatization",
-  :block/created-at 1655203848642,
-  :block/updated-at 1655203848642}
+  :block/created-at 1655207305228,
+  :block/updated-at 1655207305228}
  {:block/name "length optimization",
-  :block/created-at 1655203848664,
-  :block/updated-at 1655203848664}
+  :block/created-at 1655207305248,
+  :block/updated-at 1655207305248}
  {:block/name "lexical ambiguity",
-  :block/created-at 1655203848686,
-  :block/updated-at 1655203848686}
+  :block/created-at 1655207305267,
+  :block/updated-at 1655207305267}
  {:block/name "lexical disambiguation",
-  :block/created-at 1655203848685,
-  :block/updated-at 1655203848685}
+  :block/created-at 1655207305267,
+  :block/updated-at 1655207305267}
  {:block/name "lexical word segmentation",
-  :block/created-at 1655203848730,
-  :block/updated-at 1655203848730}
+  :block/created-at 1655207305308,
+  :block/updated-at 1655207305308}
  {:block/name "lexicon",
-  :block/created-at 1655203848749,
-  :block/updated-at 1655203848749}
+  :block/created-at 1655207305326,
+  :block/updated-at 1655207305326}
  {:block/name "limbic system",
-  :block/created-at 1655203842395,
-  :block/updated-at 1655203842395}
+  :block/created-at 1655207299727,
+  :block/updated-at 1655207299727}
+ {:block/name "linear classifier probes",
+  :block/created-at 1655207305367,
+  :block/updated-at 1655207305367}
  {:block/name "linear learning rate scaling",
-  :block/created-at 1655203848594,
-  :block/updated-at 1655203848594}
+  :block/created-at 1655207305187,
+  :block/updated-at 1655207305187}
  {:block/name "linear regression",
-  :block/created-at 1655203848844,
-  :block/updated-at 1655203848844}
+  :block/created-at 1655207305453,
+  :block/updated-at 1655207305453}
  {:block/name "linear scale",
-  :block/created-at 1655203845224,
-  :block/updated-at 1655203845224}
+  :block/created-at 1655207302131,
+  :block/updated-at 1655207302131}
  {:block/name "linear scale encoding",
-  :block/created-at 1655203848808,
-  :block/updated-at 1655203848808}
- {:block/name "linearregression",
-  :block/created-at 1655203844938,
-  :block/updated-at 1655203844938}
+  :block/created-at 1655207305406,
+  :block/updated-at 1655207305406}
  {:block/name "linguistic details",
-  :block/created-at 1655203848888,
-  :block/updated-at 1655203848888}
+  :block/created-at 1655207305489,
+  :block/updated-at 1655207305489}
  {:block/name "load balancing",
-  :block/created-at 1655203848915,
-  :block/updated-at 1655203848915}
+  :block/created-at 1655207305511,
+  :block/updated-at 1655207305511}
  {:block/name "log cosh",
-  :block/created-at 1655203848966,
-  :block/updated-at 1655203848966}
+  :block/created-at 1655207305554,
+  :block/updated-at 1655207305554}
  {:block/name "log likelihood loss",
-  :block/created-at 1655203846743,
-  :block/updated-at 1655203846743}
+  :block/created-at 1655207303571,
+  :block/updated-at 1655207303571}
  {:block/name "long short term memory (lstm)",
-  :block/created-at 1655203849001,
-  :block/updated-at 1655203849001}
+  :block/created-at 1655207305580,
+  :block/updated-at 1655207305580}
  {:block/name "loop tiling",
-  :block/created-at 1655203849032,
-  :block/updated-at 1655203849032}
+  :block/created-at 1655207305608,
+  :block/updated-at 1655207305608}
  {:block/name "loss",
-  :block/created-at 1655203841230,
-  :block/updated-at 1655203841230}
+  :block/created-at 1655207298874,
+  :block/updated-at 1655207298874}
  {:block/name "lossfunctions",
-  :block/created-at 1655203842960,
-  :block/updated-at 1655203842960}
+  :block/created-at 1655215695870,
+  :block/updated-at 1655215695870}
  {:block/name "lp regularization",
-  :block/created-at 1655203844478,
-  :block/updated-at 1655203844478}
+  :block/created-at 1655207301531,
+  :block/updated-at 1655207301531}
  {:block/name "manifold",
-  :block/created-at 1655203841710,
-  :block/updated-at 1655203841710}
+  :block/created-at 1655207299204,
+  :block/updated-at 1655207299204}
  {:block/name "mape",
-  :block/created-at 1655203849097,
-  :block/updated-at 1655203849097}
+  :block/created-at 1655207305659,
+  :block/updated-at 1655207305659}
  {:block/name "mapping to geometry",
-  :block/created-at 1655203849366,
-  :block/updated-at 1655203849366}
+  :block/created-at 1655207305905,
+  :block/updated-at 1655207305905}
  {:block/name "marching cubes",
-  :block/created-at 1655203843961,
-  :block/updated-at 1655203843961}
+  :block/created-at 1655207301067,
+  :block/updated-at 1655207301067}
  {:block/name "marching squares",
-  :block/created-at 1655203848002,
-  :block/updated-at 1655203848002}
+  :block/created-at 1655207304674,
+  :block/updated-at 1655207304674}
  {:block/name "marching tetrahedra",
-  :block/created-at 1655203848037,
-  :block/updated-at 1655203848037}
+  :block/created-at 1655207304699,
+  :block/updated-at 1655207304699}
  {:block/name "margin ranking",
-  :block/created-at 1655203849491,
-  :block/updated-at 1655203849491}
+  :block/created-at 1655207306008,
+  :block/updated-at 1655207306008}
  {:block/name "markov chain",
-  :block/created-at 1655203845016,
-  :block/updated-at 1655203845016}
+  :block/created-at 1655207301952,
+  :block/updated-at 1655207301952}
  {:block/name "markov for continuous distributions",
-  :block/created-at 1655203849515,
-  :block/updated-at 1655203849515}
+  :block/created-at 1655207306039,
+  :block/updated-at 1655207306039}
  {:block/name "markov initial distribution",
-  :block/created-at 1655203849514,
-  :block/updated-at 1655203849514}
+  :block/created-at 1655207306038,
+  :block/updated-at 1655207306038}
  {:block/name "markov random field",
-  :block/created-at 1655203843171,
-  :block/updated-at 1655203843171}
+  :block/created-at 1655207300371,
+  :block/updated-at 1655207300371}
  {:block/name "markov transition kernel",
-  :block/created-at 1655203849515,
-  :block/updated-at 1655203849515}
+  :block/created-at 1655207306039,
+  :block/updated-at 1655207306039}
  {:block/name "max margin loss",
-  :block/created-at 1655203846173,
-  :block/updated-at 1655203846173}
+  :block/created-at 1655207303045,
+  :block/updated-at 1655207303045}
  {:block/name "maximum matching algorithm",
-  :block/created-at 1655203849652,
-  :block/updated-at 1655203849652}
+  :block/created-at 1655207306169,
+  :block/updated-at 1655207306169}
  {:block/name "maxout",
-  :block/created-at 1655203841480,
-  :block/updated-at 1655203841480}
+  :block/created-at 1655207299034,
+  :block/updated-at 1655207299034}
  {:block/name "mcmc sampling",
-  :block/created-at 1655203849128,
-  :block/updated-at 1655203849128}
+  :block/created-at 1655207305688,
+  :block/updated-at 1655207305688}
  {:block/name "median filter",
-  :block/created-at 1655203849698,
-  :block/updated-at 1655203849698}
+  :block/created-at 1655207306210,
+  :block/updated-at 1655207306210}
  {:block/name "memory coupling",
-  :block/created-at 1655203849724,
-  :block/updated-at 1655203849724}
+  :block/created-at 1655207306235,
+  :block/updated-at 1655207306235}
  {:block/name "memory to memory architecture",
-  :block/created-at 1655203849747,
-  :block/updated-at 1655203849747}
+  :block/created-at 1655207306256,
+  :block/updated-at 1655207306256}
  {:block/name "mesh refinement",
-  :block/created-at 1655203847203,
-  :block/updated-at 1655203847203}
+  :block/created-at 1655207303991,
+  :block/updated-at 1655207303991}
  {:block/name "mesh smoothing",
-  :block/created-at 1655203849770,
-  :block/updated-at 1655203849770}
+  :block/created-at 1655207306278,
+  :block/updated-at 1655207306278}
  {:block/name "methods for feature learning",
-  :block/created-at 1655203846171,
-  :block/updated-at 1655203846171}
+  :block/created-at 1655207303044,
+  :block/updated-at 1655207303044}
  {:block/name "midpoint decider",
-  :block/created-at 1655203849394,
-  :block/updated-at 1655203849394}
+  :block/created-at 1655207305931,
+  :block/updated-at 1655207305931}
  {:block/name "mimd",
-  :block/created-at 1655203846396,
-  :block/updated-at 1655203846396}
+  :block/created-at 1655207303238,
+  :block/updated-at 1655207303238}
  {:block/name "minimizing communication",
-  :block/created-at 1655203849853,
-  :block/updated-at 1655203849853}
+  :block/created-at 1655207306366,
+  :block/updated-at 1655207306366}
  {:block/name "mirman et al",
-  :block/created-at 1655203853339,
-  :block/updated-at 1655203853339}
+  :block/created-at 1655207309797,
+  :block/updated-at 1655207309797}
  {:block/name "misd",
-  :block/created-at 1655203846395,
-  :block/updated-at 1655203846395}
+  :block/created-at 1655207303238,
+  :block/updated-at 1655207303238}
  {:block/name "mixup",
-  :block/created-at 1655203842131,
-  :block/updated-at 1655203842131}
+  :block/created-at 1655207299505,
+  :block/updated-at 1655207299505}
  {:block/name "mle",
-  :block/created-at 1655203842741,
-  :block/updated-at 1655203842741}
+  :block/created-at 1655207300005,
+  :block/updated-at 1655207300005}
+ {:block/name "mnist",
+  :block/created-at 1655207302746,
+  :block/updated-at 1655207302746}
  {:block/name "mobile net",
-  :block/created-at 1655203849899,
-  :block/updated-at 1655203849899}
+  :block/created-at 1655207306410,
+  :block/updated-at 1655207306410}
  {:block/name "mode collapse",
-  :block/created-at 1655203846849,
-  :block/updated-at 1655203846849}
+  :block/created-at 1655207303662,
+  :block/updated-at 1655207303662}
  {:block/name "monte carlo",
-  :block/created-at 1655203842598,
-  :block/updated-at 1655203842598}
+  :block/created-at 1655207299885,
+  :block/updated-at 1655207299885}
  {:block/name "morpheme",
-  :block/created-at 1655203849985,
-  :block/updated-at 1655203849985}
+  :block/created-at 1655207306501,
+  :block/updated-at 1655207306501}
  {:block/name "morpheme generation",
-  :block/created-at 1655203849936,
-  :block/updated-at 1655203849936}
+  :block/created-at 1655207306446,
+  :block/updated-at 1655207306446}
  {:block/name "morpheme segmentation",
-  :block/created-at 1655203849956,
-  :block/updated-at 1655203849956}
+  :block/created-at 1655207306469,
+  :block/updated-at 1655207306469}
  {:block/name "morphology",
-  :block/created-at 1655203848884,
-  :block/updated-at 1655203848884}
+  :block/created-at 1655207305487,
+  :block/updated-at 1655207305487}
  {:block/name "morphology affix",
-  :block/created-at 1655203841778,
-  :block/updated-at 1655203841778}
+  :block/created-at 1655207299251,
+  :block/updated-at 1655207299251}
  {:block/name "morphology stem",
-  :block/created-at 1655203849980,
-  :block/updated-at 1655203849980}
+  :block/created-at 1655207306498,
+  :block/updated-at 1655207306498}
  {:block/name "morphotactic",
-  :block/created-at 1655203849984,
-  :block/updated-at 1655203849984}
+  :block/created-at 1655207306501,
+  :block/updated-at 1655207306501}
  {:block/name "mri",
-  :block/created-at 1655203849224,
-  :block/updated-at 1655203849224}
+  :block/created-at 1655207305799,
+  :block/updated-at 1655207305799}
  {:block/name "mse",
-  :block/created-at 1655203842165,
-  :block/updated-at 1655203842165}
+  :block/created-at 1655207299530,
+  :block/updated-at 1655207299530}
  {:block/name "msle",
-  :block/created-at 1655203849283,
-  :block/updated-at 1655203849283}
+  :block/created-at 1655207305842,
+  :block/updated-at 1655207305842}
  {:block/name "multi head attention",
-  :block/created-at 1655203842103,
-  :block/updated-at 1655203842103}
+  :block/created-at 1655207299481,
+  :block/updated-at 1655207299481}
  {:block/name "multi variate ar",
-  :block/created-at 1655203842199,
-  :block/updated-at 1655203842199}
+  :block/created-at 1655207299564,
+  :block/updated-at 1655207299564}
  {:block/name "multinomial",
-  :block/created-at 1655203850173,
-  :block/updated-at 1655203850173}
+  :block/created-at 1655207306685,
+  :block/updated-at 1655207306685}
  {:block/name "multinomial distribution",
-  :block/created-at 1655203845290,
-  :block/updated-at 1655203845290}
+  :block/created-at 1655207302187,
+  :block/updated-at 1655207302187}
  {:block/name "multiple local minima",
-  :block/created-at 1655203848067,
-  :block/updated-at 1655203848067}
+  :block/created-at 1655207304722,
+  :block/updated-at 1655207304722}
  {:block/name "n dim normal distribution",
-  :block/created-at 1655203850218,
-  :block/updated-at 1655203850218}
+  :block/created-at 1655207306729,
+  :block/updated-at 1655207306729}
  {:block/name "n-dim normal",
-  :block/created-at 1655203845295,
-  :block/updated-at 1655203845295}
+  :block/created-at 1655207302190,
+  :block/updated-at 1655207302190}
  {:block/name "names of individuals",
-  :block/created-at 1655203850269,
-  :block/updated-at 1655203850269}
+  :block/created-at 1655207306779,
+  :block/updated-at 1655207306779}
  {:block/name "nasnet",
-  :block/created-at 1655203850290,
-  :block/updated-at 1655203850290}
+  :block/created-at 1655207306800,
+  :block/updated-at 1655207306800}
  {:block/name "negative log likelihood",
-  :block/created-at 1655203850311,
-  :block/updated-at 1655203850311}
+  :block/created-at 1655207306821,
+  :block/updated-at 1655207306821}
  {:block/name "neural dynamics",
-  :block/created-at 1655203844213,
-  :block/updated-at 1655203844213}
+  :block/created-at 1655207301293,
+  :block/updated-at 1655207301293}
+ {:block/name "neuro",
+  :block/created-at 1655216511929,
+  :block/updated-at 1655216511929}
  {:block/name "neuromorphic",
-  :block/created-at 1655203852620,
-  :block/updated-at 1655203852620}
+  :block/created-at 1655207309108,
+  :block/updated-at 1655207309108}
  {:block/name "neuroscience",
-  :block/created-at 1655203855973,
-  :block/updated-at 1655203855973}
+  :block/created-at 1655207312354,
+  :block/updated-at 1655207312354}
  {:block/name "no bias decay",
-  :block/created-at 1655203848359,
-  :block/updated-at 1655203848359}
+  :block/created-at 1655207304976,
+  :block/updated-at 1655207304976}
  {:block/name "node distribution",
-  :block/created-at 1655203850385,
-  :block/updated-at 1655203850385}
+  :block/created-at 1655207306884,
+  :block/updated-at 1655207306884}
  {:block/name "node link diagram",
-  :block/created-at 1655203850416,
-  :block/updated-at 1655203850416}
+  :block/created-at 1655207306909,
+  :block/updated-at 1655207306909}
  {:block/name "noise",
-  :block/created-at 1655203841597,
-  :block/updated-at 1655203841597}
+  :block/created-at 1655207299116,
+  :block/updated-at 1655207299116}
  {:block/name "noise suppression",
-  :block/created-at 1655203846280,
-  :block/updated-at 1655203846280}
+  :block/created-at 1655207303145,
+  :block/updated-at 1655207303145}
  {:block/name "noisy relu",
-  :block/created-at 1655203850473,
-  :block/updated-at 1655203850473}
+  :block/created-at 1655207306962,
+  :block/updated-at 1655207306962}
  {:block/name "normal distribution",
-  :block/created-at 1655203843668,
-  :block/updated-at 1655203843668}
+  :block/created-at 1655207300829,
+  :block/updated-at 1655207300829}
  {:block/name "notch filter",
-  :block/created-at 1655203847416,
-  :block/updated-at 1655203847416}
+  :block/created-at 1655207304181,
+  :block/updated-at 1655207304181}
  {:block/name "noun",
-  :block/created-at 1655203844143,
-  :block/updated-at 1655203844143}
+  :block/created-at 1655207301236,
+  :block/updated-at 1655207301236}
  {:block/name "now",
-  :block/created-at 1655204194642,
-  :block/updated-at 1655204194642}
+  :block/created-at 1655207670887,
+  :block/updated-at 1655207670887}
  {:block/name "numa",
-  :block/created-at 1655203850245,
-  :block/updated-at 1655203850245}
+  :block/created-at 1655207306755,
+  :block/updated-at 1655207306755}
  {:block/name "oblique slicing",
-  :block/created-at 1655203850559,
-  :block/updated-at 1655203850559}
+  :block/created-at 1655207307048,
+  :block/updated-at 1655207307048}
  {:block/name "occipital lobe",
-  :block/created-at 1655203843731,
-  :block/updated-at 1655203843731}
+  :block/created-at 1655207300880,
+  :block/updated-at 1655207300880}
  {:block/name "one hot",
-  :block/created-at 1655203843040,
-  :block/updated-at 1655203843040}
+  :block/created-at 1655207300269,
+  :block/updated-at 1655207300269}
  {:block/name "one hot encoding",
-  :block/created-at 1655203850611,
-  :block/updated-at 1655203850611}
+  :block/created-at 1655207307088,
+  :block/updated-at 1655207307088}
  {:block/name "online learning",
-  :block/created-at 1655203854209,
-  :block/updated-at 1655203854209}
+  :block/created-at 1655207310676,
+  :block/updated-at 1655207310676}
  {:block/name "opacity correction",
-  :block/created-at 1655203850634,
-  :block/updated-at 1655203850634}
+  :block/created-at 1655207307112,
+  :block/updated-at 1655207307112}
  {:block/name "operator fusion",
-  :block/created-at 1655203850656,
-  :block/updated-at 1655203850656}
+  :block/created-at 1655207307137,
+  :block/updated-at 1655207307137}
  {:block/name "optimization",
-  :block/created-at 1655203850681,
-  :block/updated-at 1655203850681}
+  :block/created-at 1655207307163,
+  :block/updated-at 1655207307163}
  {:block/name "optimizers",
-  :block/created-at 1655203842960,
-  :block/updated-at 1655203842960}
+  :block/created-at 1655207300206,
+  :block/updated-at 1655207300206}
  {:block/name "optimizing code",
-  :block/created-at 1655203844787,
-  :block/updated-at 1655203844787}
+  :block/created-at 1655207301766,
+  :block/updated-at 1655207301766}
  {:block/name "optimizing work",
-  :block/created-at 1655203850707,
-  :block/updated-at 1655203850707}
+  :block/created-at 1655207307192,
+  :block/updated-at 1655207307192}
  {:block/name "orthogonal slicing",
-  :block/created-at 1655203850741,
-  :block/updated-at 1655203850741}
+  :block/created-at 1655207307219,
+  :block/updated-at 1655207307219}
  {:block/name "out of order execution",
-  :block/created-at 1655203847825,
-  :block/updated-at 1655203847825}
+  :block/created-at 1655207304543,
+  :block/updated-at 1655207304543}
  {:block/name "padded conv",
-  :block/created-at 1655203844334,
-  :block/updated-at 1655203844334}
+  :block/created-at 1655207301397,
+  :block/updated-at 1655207301397}
  {:block/name "parallel",
-  :block/created-at 1655203841967,
-  :block/updated-at 1655203841967}
+  :block/created-at 1655207299372,
+  :block/updated-at 1655207299372}
  {:block/name "parallel granularity",
-  :block/created-at 1655203844076,
-  :block/updated-at 1655203844076}
+  :block/created-at 1655207301177,
+  :block/updated-at 1655207301177}
  {:block/name "parallel processing",
-  :block/created-at 1655203850940,
-  :block/updated-at 1655203850940}
+  :block/created-at 1655207307434,
+  :block/updated-at 1655207307434}
  {:block/name "parallel runner",
-  :block/created-at 1655203850963,
-  :block/updated-at 1655203850963}
+  :block/created-at 1655207307455,
+  :block/updated-at 1655207307455}
  {:block/name "parallelization",
-  :block/created-at 1655203850705,
-  :block/updated-at 1655203850705}
+  :block/created-at 1655207307190,
+  :block/updated-at 1655207307190}
  {:block/name "parametric relu",
-  :block/created-at 1655203850878,
-  :block/updated-at 1655203850878}
+  :block/created-at 1655207307374,
+  :block/updated-at 1655207307374}
  {:block/name "parietal lobe",
-  :block/created-at 1655203843731,
-  :block/updated-at 1655203843731}
+  :block/created-at 1655207300879,
+  :block/updated-at 1655207300879}
  {:block/name "particle visualization",
-  :block/created-at 1655203851033,
-  :block/updated-at 1655203851033}
+  :block/created-at 1655207307535,
+  :block/updated-at 1655207307535}
  {:block/name "parts of action",
-  :block/created-at 1655203851060,
-  :block/updated-at 1655203851060}
+  :block/created-at 1655207307560,
+  :block/updated-at 1655207307560}
  {:block/name "parts of entities",
-  :block/created-at 1655203851081,
-  :block/updated-at 1655203851081}
- {:block/name "pasted image 20220304121008.png",
-  :block/created-at 1655203851132,
-  :block/updated-at 1655203851132}
- {:block/name "pasted image 20220304121221.png",
-  :block/created-at 1655203851133,
-  :block/updated-at 1655203851133}
- {:block/name "pasted image 20220304123536.png",
-  :block/created-at 1655203842331,
-  :block/updated-at 1655203842331}
- {:block/name "pasted image 20220304123626.png",
-  :block/created-at 1655203842332,
-  :block/updated-at 1655203842332}
- {:block/name "pasted image 20220306113950.png",
-  :block/created-at 1655203855057,
-  :block/updated-at 1655203855057}
- {:block/name "pasted image 20220306114903.png",
-  :block/created-at 1655203842497,
-  :block/updated-at 1655203842497}
- {:block/name "pasted image 20220306115954.png",
-  :block/created-at 1655203848524,
-  :block/updated-at 1655203848524}
- {:block/name "pasted image 20220306120121.png",
-  :block/created-at 1655203841853,
-  :block/updated-at 1655203841853}
- {:block/name "pasted image 20220306120214.png",
-  :block/created-at 1655203847513,
-  :block/updated-at 1655203847513}
- {:block/name "pasted image 20220306120520.png",
-  :block/created-at 1655203853382,
-  :block/updated-at 1655203853382}
- {:block/name "pasted image 20220306121513.png",
-  :block/created-at 1655203847515,
-  :block/updated-at 1655203847515}
- {:block/name "pasted image 20220306122226.png",
-  :block/created-at 1655203844961,
-  :block/updated-at 1655203844961}
- {:block/name "pasted image 20220306132740.png",
-  :block/created-at 1655203845679,
-  :block/updated-at 1655203845679}
- {:block/name "pasted image 20220306132843.png",
-  :block/created-at 1655203845680,
-  :block/updated-at 1655203845680}
- {:block/name "pasted image 20220306132940.png",
-  :block/created-at 1655203845680,
-  :block/updated-at 1655203845680}
- {:block/name "pasted image 20220306133032.png",
-  :block/created-at 1655203849062,
-  :block/updated-at 1655203849062}
- {:block/name "pasted image 20220306185944.png",
-  :block/created-at 1655203852137,
-  :block/updated-at 1655203852137}
- {:block/name "pasted image 20220306190603.png",
-  :block/created-at 1655203852136,
-  :block/updated-at 1655203852136}
- {:block/name "pasted image 20220307171009.png",
-  :block/created-at 1655203842426,
-  :block/updated-at 1655203842426}
- {:block/name "pasted image 20220307171139.png",
-  :block/created-at 1655203853690,
-  :block/updated-at 1655203853690}
- {:block/name "pasted image 20220307171243.png",
-  :block/created-at 1655203842916,
-  :block/updated-at 1655203842916}
- {:block/name "pasted image 20220307181112.png",
-  :block/created-at 1655203853446,
-  :block/updated-at 1655203853446}
- {:block/name "pasted image 20220307183058.png",
-  :block/created-at 1655203850126,
-  :block/updated-at 1655203850126}
- {:block/name "pasted image 20220307183126.png",
-  :block/created-at 1655203854472,
-  :block/updated-at 1655203854472}
- {:block/name "pasted image 20220307183552.png",
-  :block/created-at 1655203855944,
-  :block/updated-at 1655203855944}
- {:block/name "pasted image 20220307183916.png",
-  :block/created-at 1655203842269,
-  :block/updated-at 1655203842269}
- {:block/name "pasted image 20220307184212.png",
-  :block/created-at 1655203846744,
-  :block/updated-at 1655203846744}
- {:block/name "pasted image 20220309132129.png",
-  :block/created-at 1655203848840,
-  :block/updated-at 1655203848840}
- {:block/name "pasted image 20220310200651.png",
-  :block/created-at 1655203854548,
-  :block/updated-at 1655203854548}
- {:block/name "pasted image 20220310204652.png",
-  :block/created-at 1655203842162,
-  :block/updated-at 1655203842162}
- {:block/name "pasted image 20220310210209.png",
-  :block/created-at 1655203846846,
-  :block/updated-at 1655203846846}
- {:block/name "pasted image 20220312115438.png",
-  :block/created-at 1655203850802,
-  :block/updated-at 1655203850802}
- {:block/name "pasted image 20220312132539.png",
-  :block/created-at 1655203842957,
-  :block/updated-at 1655203842957}
- {:block/name "pasted image 20220312134708.png",
-  :block/created-at 1655203842958,
-  :block/updated-at 1655203842958}
- {:block/name "pasted image 20220312134752.png",
-  :block/created-at 1655203842959,
-  :block/updated-at 1655203842959}
- {:block/name "pasted image 20220312135948.png",
-  :block/created-at 1655203842957,
-  :block/updated-at 1655203842957}
- {:block/name "pasted image 20220314132442.png",
-  :block/created-at 1655203852134,
-  :block/updated-at 1655203852134}
- {:block/name "pasted image 20220315232708.png",
-  :block/created-at 1655203842963,
-  :block/updated-at 1655203842963}
- {:block/name "pasted image 20220315232721.png",
-  :block/created-at 1655203842964,
-  :block/updated-at 1655203842964}
- {:block/name "pasted image 20220315234556.png",
-  :block/created-at 1655203850610,
-  :block/updated-at 1655203850610}
- {:block/name "pasted image 20220315235513.png",
-  :block/created-at 1655203855764,
-  :block/updated-at 1655203855764}
- {:block/name "pasted image 20220316000739.png",
-  :block/created-at 1655203847203,
-  :block/updated-at 1655203847203}
- {:block/name "pasted image 20220316104505.png",
-  :block/created-at 1655203855554,
-  :block/updated-at 1655203855554}
- {:block/name "pasted image 20220316120743.png",
-  :block/created-at 1655203842599,
-  :block/updated-at 1655203842599}
- {:block/name "pasted image 20220316120803.png",
-  :block/created-at 1655203842600,
-  :block/updated-at 1655203842600}
- {:block/name "pasted image 20220316121901.png",
-  :block/created-at 1655203851754,
-  :block/updated-at 1655203851754}
- {:block/name "pasted image 20220316123546.png",
-  :block/created-at 1655203851759,
-  :block/updated-at 1655203851759}
- {:block/name "pasted image 20220316173226.png",
-  :block/created-at 1655203854909,
-  :block/updated-at 1655203854909}
- {:block/name "pasted image 20220316173244.png",
-  :block/created-at 1655203854910,
-  :block/updated-at 1655203854910}
- {:block/name "pasted image 20220316181643.png",
-  :block/created-at 1655203849321,
-  :block/updated-at 1655203849321}
- {:block/name "pasted image 20220316181947.png",
-  :block/created-at 1655203849321,
-  :block/updated-at 1655203849321}
- {:block/name "pasted image 20220316182354.png",
-  :block/created-at 1655203849322,
-  :block/updated-at 1655203849322}
- {:block/name "pasted image 20220316182449.png",
-  :block/created-at 1655203849323,
-  :block/updated-at 1655203849323}
- {:block/name "pasted image 20220318094643.png",
-  :block/created-at 1655203856083,
-  :block/updated-at 1655203856083}
- {:block/name "pasted image 20220318100323.png",
-  :block/created-at 1655203856085,
-  :block/updated-at 1655203856085}
- {:block/name "pasted image 20220318100634.png",
-  :block/created-at 1655203856086,
-  :block/updated-at 1655203856086}
- {:block/name "pasted image 20220318161058.png",
-  :block/created-at 1655203844724,
-  :block/updated-at 1655203844724}
- {:block/name "pasted image 20220319133401.png",
-  :block/created-at 1655203843099,
-  :block/updated-at 1655203843099}
- {:block/name "pasted image 20220319133622.png",
-  :block/created-at 1655203851374,
-  :block/updated-at 1655203851374}
- {:block/name "pasted image 20220319135742.png",
-  :block/created-at 1655203845177,
-  :block/updated-at 1655203845177}
- {:block/name "pasted image 20220319141230.png",
-  :block/created-at 1655203846056,
-  :block/updated-at 1655203846056}
- {:block/name "pasted image 20220319144034.png",
-  :block/created-at 1655203850497,
-  :block/updated-at 1655203850497}
- {:block/name "pasted image 20220319151038.png",
-  :block/created-at 1655203850217,
-  :block/updated-at 1655203850217}
- {:block/name "pasted image 20220323153008.png",
-  :block/created-at 1655203847311,
-  :block/updated-at 1655203847311}
- {:block/name "pasted image 20220323153054.png",
-  :block/created-at 1655203847179,
-  :block/updated-at 1655203847179}
- {:block/name "pasted image 20220323154101.png",
-  :block/created-at 1655203845986,
-  :block/updated-at 1655203845986}
- {:block/name "pasted image 20220323154146.png",
-  :block/created-at 1655203851653,
-  :block/updated-at 1655203851653}
- {:block/name "pasted image 20220323154218.png",
-  :block/created-at 1655203841813,
-  :block/updated-at 1655203841813}
- {:block/name "pasted image 20220324113838.png",
-  :block/created-at 1655203854855,
-  :block/updated-at 1655203854855}
- {:block/name "pasted image 20220324114746.png",
-  :block/created-at 1655203852372,
-  :block/updated-at 1655203852372}
- {:block/name "pasted image 20220324115318.png",
-  :block/created-at 1655203851796,
-  :block/updated-at 1655203851796}
- {:block/name "pasted image 20220324120913.png",
-  :block/created-at 1655203845297,
-  :block/updated-at 1655203845297}
- {:block/name "pasted image 20220324124409.png",
-  :block/created-at 1655203849581,
-  :block/updated-at 1655203849581}
- {:block/name "pasted image 20220411124545.png",
-  :block/created-at 1655203847094,
-  :block/updated-at 1655203847094}
- {:block/name "pasted image 20220411124653.png",
-  :block/created-at 1655203841256,
-  :block/updated-at 1655203841256}
- {:block/name "pasted image 20220411124724.png",
-  :block/created-at 1655203843014,
-  :block/updated-at 1655203843014}
- {:block/name "pasted image 20220411124941.png",
-  :block/created-at 1655203842365,
-  :block/updated-at 1655203842365}
- {:block/name "pasted image 20220411130419.png",
-  :block/created-at 1655203844302,
-  :block/updated-at 1655203844302}
- {:block/name "pasted image 20220411130431.png",
-  :block/created-at 1655203844303,
-  :block/updated-at 1655203844303}
- {:block/name "pasted image 20220411131307.png",
-  :block/created-at 1655203852209,
-  :block/updated-at 1655203852209}
- {:block/name "pasted image 20220411131651.png",
-  :block/created-at 1655203846342,
-  :block/updated-at 1655203846342}
- {:block/name "pasted image 20220411132754.png",
-  :block/created-at 1655203844011,
-  :block/updated-at 1655203844011}
- {:block/name "pasted image 20220411133101.png",
-  :block/created-at 1655203847156,
-  :block/updated-at 1655203847156}
- {:block/name "pasted image 20220411133253.png",
-  :block/created-at 1655203848001,
-  :block/updated-at 1655203848001}
- {:block/name "pasted image 20220411133621.png",
-  :block/created-at 1655203849437,
-  :block/updated-at 1655203849437}
- {:block/name "pasted image 20220411133645.png",
-  :block/created-at 1655203849440,
-  :block/updated-at 1655203849440}
- {:block/name "pasted image 20220411133700.png",
-  :block/created-at 1655203848003,
-  :block/updated-at 1655203848003}
- {:block/name "pasted image 20220411133754.png",
-  :block/created-at 1655203842070,
-  :block/updated-at 1655203842070}
- {:block/name "pasted image 20220411133835.png",
-  :block/created-at 1655203849832,
-  :block/updated-at 1655203849832}
- {:block/name "pasted image 20220417235620.png",
-  :block/created-at 1655203850737,
-  :block/updated-at 1655203850737}
- {:block/name "pasted image 20220417235824.png",
-  :block/created-at 1655203848035,
-  :block/updated-at 1655203848035}
- {:block/name "pasted image 20220417235937.png",
-  :block/created-at 1655203849395,
-  :block/updated-at 1655203849395}
- {:block/name "pasted image 20220418000525.png",
-  :block/created-at 1655203850447,
-  :block/updated-at 1655203850447}
- {:block/name "pasted image 20220418000844.png",
-  :block/created-at 1655203851197,
-  :block/updated-at 1655203851197}
- {:block/name "pasted image 20220418001034.png",
-  :block/created-at 1655203853226,
-  :block/updated-at 1655203853226}
- {:block/name "pasted image 20220418001932.png",
-  :block/created-at 1655203842296,
-  :block/updated-at 1655203842296}
- {:block/name "pasted image 20220418002010.png",
-  :block/created-at 1655203846544,
-  :block/updated-at 1655203846544}
- {:block/name "pasted image 20220418002036.png",
-  :block/created-at 1655203843959,
-  :block/updated-at 1655203843959}
- {:block/name "pasted image 20220418002410.png",
-  :block/created-at 1655203852695,
-  :block/updated-at 1655203852695}
- {:block/name "pasted image 20220418002454.png",
-  :block/created-at 1655203853407,
-  :block/updated-at 1655203853407}
- {:block/name "pasted image 20220418002619.png",
-  :block/created-at 1655203854421,
-  :block/updated-at 1655203854421}
- {:block/name "pasted image 20220418002958.png",
-  :block/created-at 1655203854422,
-  :block/updated-at 1655203854422}
- {:block/name "pasted image 20220418003142.png",
-  :block/created-at 1655203851607,
-  :block/updated-at 1655203851607}
- {:block/name "pasted image 20220418003153.png",
-  :block/created-at 1655203851506,
-  :block/updated-at 1655203851506}
- {:block/name "pasted image 20220418003237.png",
-  :block/created-at 1655203843960,
-  :block/updated-at 1655203843960}
- {:block/name "pasted image 20220418103924.png",
-  :block/created-at 1655203851632,
-  :block/updated-at 1655203851632}
- {:block/name "pasted image 20220418104002.png",
-  :block/created-at 1655203846876,
-  :block/updated-at 1655203846876}
- {:block/name "pasted image 20220418104606.png",
-  :block/created-at 1655203855340,
-  :block/updated-at 1655203855340}
- {:block/name "pasted image 20220418104939.png",
-  :block/created-at 1655203854524,
-  :block/updated-at 1655203854524}
- {:block/name "pasted image 20220418105118.png",
-  :block/created-at 1655203844571,
-  :block/updated-at 1655203844571}
- {:block/name "pasted image 20220418123038.png",
-  :block/created-at 1655203842800,
-  :block/updated-at 1655203842800}
- {:block/name "pasted image 20220418123113.png",
-  :block/created-at 1655203842042,
-  :block/updated-at 1655203842042}
- {:block/name "pasted image 20220418123203.png",
-  :block/created-at 1655203844628,
-  :block/updated-at 1655203844628}
- {:block/name "pasted image 20220418123246.png",
-  :block/created-at 1655203848664,
-  :block/updated-at 1655203848664}
+  :block/created-at 1655207307581,
+  :block/updated-at 1655207307581}
+ {:block/name "pascal voc",
+  :block/created-at 1655207303019,
+  :block/updated-at 1655207303019}
  {:block/name "pasted image 20220418123314.png",
-  :block/created-at 1655203853956,
-  :block/updated-at 1655203853956}
- {:block/name "pasted image 20220418123429.png",
-  :block/created-at 1655203850382,
-  :block/updated-at 1655203850382}
- {:block/name "pasted image 20220418123559.png",
-  :block/created-at 1655203846421,
-  :block/updated-at 1655203846421}
- {:block/name "pasted image 20220418123656.png",
-  :block/created-at 1655203847227,
-  :block/updated-at 1655203847227}
- {:block/name "pasted image 20220425233333.png",
-  :block/created-at 1655203853154,
-  :block/updated-at 1655203853154}
- {:block/name "pasted image 20220425233755.png",
-  :block/created-at 1655203843132,
-  :block/updated-at 1655203843132}
- {:block/name "pasted image 20220425233903.png",
-  :block/created-at 1655203843135,
-  :block/updated-at 1655203843135}
- {:block/name "pasted image 20220502134210.png",
-  :block/created-at 1655203852425,
-  :block/updated-at 1655203852425}
- {:block/name "pasted image 20220502134254.png",
-  :block/created-at 1655203844455,
-  :block/updated-at 1655203844455}
- {:block/name "pasted image 20220502144709.png",
-  :block/created-at 1655203851978,
-  :block/updated-at 1655203851978}
- {:block/name "pasted image 20220502144737.png",
-  :block/created-at 1655203851979,
-  :block/updated-at 1655203851979}
- {:block/name "pasted image 20220502144906.png",
-  :block/created-at 1655203846010,
-  :block/updated-at 1655203846010}
- {:block/name "pasted image 20220502144943.png",
-  :block/created-at 1655203846011,
-  :block/updated-at 1655203846011}
- {:block/name "pasted image 20220502145048.png",
-  :block/created-at 1655203845740,
-  :block/updated-at 1655203845740}
- {:block/name "pasted image 20220502145423.png",
-  :block/created-at 1655203845413,
-  :block/updated-at 1655203845413}
- {:block/name "pasted image 20220502145641.png",
-  :block/created-at 1655203845414,
-  :block/updated-at 1655203845414}
- {:block/name "pasted image 20220502145656.png",
-  :block/created-at 1655203845415,
-  :block/updated-at 1655203845415}
- {:block/name "pasted image 20220502145805.png",
-  :block/created-at 1655203845415,
-  :block/updated-at 1655203845415}
- {:block/name "pasted image 20220502150051.png",
-  :block/created-at 1655203847446,
-  :block/updated-at 1655203847446}
- {:block/name "pasted image 20220502150936.png",
-  :block/created-at 1655203847413,
-  :block/updated-at 1655203847413}
- {:block/name "pasted image 20220502150943.png",
-  :block/created-at 1655203847414,
-  :block/updated-at 1655203847414}
- {:block/name "pasted image 20220502150951.png",
-  :block/created-at 1655203847415,
-  :block/updated-at 1655203847415}
- {:block/name "pasted image 20220502153920.png",
-  :block/created-at 1655203845518,
-  :block/updated-at 1655203845518}
- {:block/name "pasted image 20220502154125.png",
-  :block/created-at 1655203845605,
-  :block/updated-at 1655203845605}
- {:block/name "pasted image 20220502154154.png",
-  :block/created-at 1655203845606,
-  :block/updated-at 1655203845606}
- {:block/name "pasted image 20220502154210.png",
-  :block/created-at 1655203845606,
-  :block/updated-at 1655203845606}
- {:block/name "pasted image 20220502154359.png",
-  :block/created-at 1655203845442,
-  :block/updated-at 1655203845442}
- {:block/name "pasted image 20220502155613.png",
-  :block/created-at 1655203845493,
-  :block/updated-at 1655203845493}
- {:block/name "pasted image 20220502160132.png",
-  :block/created-at 1655203843328,
-  :block/updated-at 1655203843328}
- {:block/name "pasted image 20220502160646.png",
-  :block/created-at 1655203853563,
-  :block/updated-at 1655203853563}
- {:block/name "pasted image 20220502160733.png",
-  :block/created-at 1655203844825,
-  :block/updated-at 1655203844825}
- {:block/name "pasted image 20220502160807.png",
-  :block/created-at 1655203854327,
-  :block/updated-at 1655203854327}
- {:block/name "pasted image 20220502161020.png",
-  :block/created-at 1655203841933,
-  :block/updated-at 1655203841933}
- {:block/name "pasted image 20220502161106.png",
-  :block/created-at 1655203842890,
-  :block/updated-at 1655203842890}
- {:block/name "pasted image 20220502161142.png",
-  :block/created-at 1655203846771,
-  :block/updated-at 1655203846771}
- {:block/name "pasted image 20220502161507.png",
-  :block/created-at 1655203846618,
-  :block/updated-at 1655203846618}
- {:block/name "pasted image 20220502161821.png",
-  :block/created-at 1655203843431,
-  :block/updated-at 1655203843431}
- {:block/name "pasted image 20220502162028.png",
-  :block/created-at 1655203843402,
-  :block/updated-at 1655203843402}
- {:block/name "pasted image 20220502162052.png",
-  :block/created-at 1655203843403,
-  :block/updated-at 1655203843403}
- {:block/name "pasted image 20220502162343.png",
-  :block/created-at 1655203847046,
-  :block/updated-at 1655203847046}
- {:block/name "pasted image 20220502162442.png",
-  :block/created-at 1655203843363,
-  :block/updated-at 1655203843363}
- {:block/name "pasted image 20220502162559.png",
-  :block/created-at 1655203847047,
-  :block/updated-at 1655203847047}
- {:block/name "pasted image 20220506150237.png",
-  :block/created-at 1655203855532,
-  :block/updated-at 1655203855532}
- {:block/name "pasted image 20220506150728.png",
-  :block/created-at 1655203852572,
-  :block/updated-at 1655203852572}
- {:block/name "pasted image 20220506150837.png",
-  :block/created-at 1655203852543,
-  :block/updated-at 1655203852543}
- {:block/name "pasted image 20220506150933.png",
-  :block/created-at 1655203849190,
-  :block/updated-at 1655203849190}
- {:block/name "pasted image 20220506151115.png",
-  :block/created-at 1655203849160,
-  :block/updated-at 1655203849160}
- {:block/name "pasted image 20220506151823.png",
-  :block/created-at 1655203849723,
-  :block/updated-at 1655203849723}
- {:block/name "pasted image 20220506153159.png",
-  :block/created-at 1655203852232,
-  :block/updated-at 1655203852232}
- {:block/name "pasted image 20220506153552.png",
-  :block/created-at 1655203849747,
-  :block/updated-at 1655203849747}
- {:block/name "pasted image 20220506153707.png",
-  :block/created-at 1655203852255,
-  :block/updated-at 1655203852255}
- {:block/name "pasted image 20220506154412.png",
-  :block/created-at 1655203855084,
-  :block/updated-at 1655203855084}
- {:block/name "pasted image 20220506154420.png",
-  :block/created-at 1655203855085,
-  :block/updated-at 1655203855085}
- {:block/name "pasted image 20220506154432.png",
-  :block/created-at 1655203855086,
-  :block/updated-at 1655203855086}
- {:block/name "pasted image 20220506154443.png",
-  :block/created-at 1655203855087,
-  :block/updated-at 1655203855087}
- {:block/name "pasted image 20220506154858.png",
-  :block/created-at 1655203844078,
-  :block/updated-at 1655203844078}
- {:block/name "pasted image 20220506155757.png",
-  :block/created-at 1655203845938,
-  :block/updated-at 1655203845938}
- {:block/name "pasted image 20220506155815.png",
-  :block/created-at 1655203844479,
-  :block/updated-at 1655203844479}
- {:block/name "pasted image 20220506155853.png",
-  :block/created-at 1655203847135,
-  :block/updated-at 1655203847135}
- {:block/name "pasted image 20220506183208.png",
-  :block/created-at 1655203844174,
-  :block/updated-at 1655203844174}
- {:block/name "pasted image 20220506183223.png",
-  :block/created-at 1655203844174,
-  :block/updated-at 1655203844174}
- {:block/name "pasted image 20220506183307.png",
-  :block/created-at 1655203854398,
-  :block/updated-at 1655203854398}
- {:block/name "pasted image 20220506183325.png",
-  :block/created-at 1655203843194,
-  :block/updated-at 1655203843194}
- {:block/name "pasted image 20220506185317.png",
-  :block/created-at 1655203848382,
-  :block/updated-at 1655203848382}
- {:block/name "pasted image 20220509154234.png",
-  :block/created-at 1655203844432,
-  :block/updated-at 1655203844432}
+  :block/created-at 1655207312416,
+  :block/updated-at 1655207312416}
  {:block/name "pasted image 20220509154852.png",
-  :block/created-at 1655203843247,
-  :block/updated-at 1655203843247}
- {:block/name "pasted image 20220509155051.png",
-  :block/created-at 1655203843730,
-  :block/updated-at 1655203843730}
- {:block/name "pasted image 20220509155537.png",
-  :block/created-at 1655203843292,
-  :block/updated-at 1655203843292}
- {:block/name "pasted image 20220510124223.png",
-  :block/created-at 1655203855916,
-  :block/updated-at 1655203855916}
- {:block/name "pasted image 20220510124259.png",
-  :block/created-at 1655203855917,
-  :block/updated-at 1655203855917}
- {:block/name "pasted image 20220510125142.png",
-  :block/created-at 1655203855918,
-  :block/updated-at 1655203855918}
- {:block/name "pasted image 20220510125154.png",
-  :block/created-at 1655203855918,
-  :block/updated-at 1655203855918}
- {:block/name "pasted image 20220510230806.png|",
-  :block/created-at 1655203845466,
-  :block/updated-at 1655203845466}
- {:block/name "pasted image 20220518144509.png",
-  :block/created-at 1655203845467,
-  :block/updated-at 1655203845467}
- {:block/name "pasted image 20220525183444.png",
-  :block/created-at 1655203852940,
-  :block/updated-at 1655203852940}
- {:block/name "pasted image 20220526133045.png",
-  :block/created-at 1655203852787,
-  :block/updated-at 1655203852787}
+  :block/created-at 1655207312434,
+  :block/updated-at 1655207312434}
  {:block/name "pca",
-  :block/created-at 1655203845147,
-  :block/updated-at 1655203845147}
+  :block/created-at 1655207302059,
+  :block/updated-at 1655207302059}
  {:block/name "pdf",
-  :block/created-at 1655203841711,
-  :block/updated-at 1655203841711}
+  :block/created-at 1655207299205,
+  :block/updated-at 1655207299205}
+ {:block/name "people art dataset",
+  :block/created-at 1655207307600,
+  :block/updated-at 1655207307600}
  {:block/name "perception",
-  :block/created-at 1655203847652,
-  :block/updated-at 1655203847652}
+  :block/created-at 1655207304416,
+  :block/updated-at 1655207304416}
  {:block/name "perceptron",
-  :block/created-at 1655203846199,
-  :block/updated-at 1655203846199}
+  :block/created-at 1655207303071,
+  :block/updated-at 1655207303071}
  {:block/name "perceptually uniform",
-  :block/created-at 1655203851155,
-  :block/updated-at 1655203851155}
+  :block/created-at 1655207307670,
+  :block/updated-at 1655207307670}
  {:block/name "phonetics",
-  :block/created-at 1655203848883,
-  :block/updated-at 1655203848883}
+  :block/created-at 1655207305486,
+  :block/updated-at 1655207305486}
  {:block/name "phong lighting",
-  :block/created-at 1655203851198,
-  :block/updated-at 1655203851198}
+  :block/created-at 1655207307709,
+  :block/updated-at 1655207307709}
  {:block/name "phonology",
-  :block/created-at 1655203848884,
-  :block/updated-at 1655203848884}
+  :block/created-at 1655207305487,
+  :block/updated-at 1655207305487}
+ {:block/name "picasso dataset",
+  :block/created-at 1655207307748,
+  :block/updated-at 1655207307748}
  {:block/name "pineal gland",
-  :block/created-at 1655203842394,
-  :block/updated-at 1655203842394}
+  :block/created-at 1655207299727,
+  :block/updated-at 1655207299727}
  {:block/name "pipes",
-  :block/created-at 1655203851260,
-  :block/updated-at 1655203851260}
+  :block/created-at 1655207307789,
+  :block/updated-at 1655207307789}
  {:block/name "pituitary gland",
-  :block/created-at 1655203842393,
-  :block/updated-at 1655203842393}
+  :block/created-at 1655207299726,
+  :block/updated-at 1655207299726}
  {:block/name "pmf",
-  :block/created-at 1655203842824,
-  :block/updated-at 1655203842824}
+  :block/created-at 1655207300096,
+  :block/updated-at 1655207300096}
  {:block/name "point cloud data",
-  :block/created-at 1655203851302,
-  :block/updated-at 1655203851302}
+  :block/created-at 1655207307831,
+  :block/updated-at 1655207307831}
  {:block/name "point distribution",
-  :block/created-at 1655203845176,
-  :block/updated-at 1655203845176}
+  :block/created-at 1655207302086,
+  :block/updated-at 1655207302086}
  {:block/name "pointnet++",
-  :block/created-at 1655203851302,
-  :block/updated-at 1655203851302}
+  :block/created-at 1655207307830,
+  :block/updated-at 1655207307830}
  {:block/name "poisson distribution",
-  :block/created-at 1655203845288,
-  :block/updated-at 1655203845288}
+  :block/created-at 1655207302187,
+  :block/updated-at 1655207302187}
  {:block/name "poisson loss",
-  :block/created-at 1655203851400,
-  :block/updated-at 1655203851400}
+  :block/created-at 1655207307931,
+  :block/updated-at 1655207307931}
  {:block/name "poisson process",
-  :block/created-at 1655203851421,
-  :block/updated-at 1655203851421}
+  :block/created-at 1655207307951,
+  :block/updated-at 1655207307951}
  {:block/name "polysynthetic words",
-  :block/created-at 1655203851440,
-  :block/updated-at 1655203851440}
+  :block/created-at 1655207307970,
+  :block/updated-at 1655207307970}
  {:block/name "pooling",
-  :block/created-at 1655203851464,
-  :block/updated-at 1655203851464}
+  :block/created-at 1655207307991,
+  :block/updated-at 1655207307991}
  {:block/name "position encoding",
-  :block/created-at 1655203851485,
-  :block/updated-at 1655203851485}
+  :block/created-at 1655207308012,
+  :block/updated-at 1655207308012}
  {:block/name "possion distribution",
-  :block/created-at 1655203851375,
-  :block/updated-at 1655203851375}
+  :block/created-at 1655207307905,
+  :block/updated-at 1655207307905}
  {:block/name "post classification",
-  :block/created-at 1655203843908,
-  :block/updated-at 1655203843908}
+  :block/created-at 1655207301026,
+  :block/updated-at 1655207301026}
  {:block/name "postattentive amnesia",
-  :block/created-at 1655203851104,
-  :block/updated-at 1655203851104}
+  :block/created-at 1655207307622,
+  :block/updated-at 1655207307622}
  {:block/name "posterior mean estimate",
-  :block/created-at 1655203842601,
-  :block/updated-at 1655203842601}
+  :block/created-at 1655207299886,
+  :block/updated-at 1655207299886}
  {:block/name "pragmatics",
-  :block/created-at 1655203848886,
-  :block/updated-at 1655203848886}
+  :block/created-at 1655207305488,
+  :block/updated-at 1655207305488}
  {:block/name "pre classification",
-  :block/created-at 1655203843907,
-  :block/updated-at 1655203843907}
+  :block/created-at 1655207301026,
+  :block/updated-at 1655207301026}
  {:block/name "preattentive processing",
-  :block/created-at 1655203851103,
-  :block/updated-at 1655203851103}
+  :block/created-at 1655207307621,
+  :block/updated-at 1655207307621}
  {:block/name "predictive uncertainty",
-  :block/created-at 1655203851654,
-  :block/updated-at 1655203851654}
+  :block/created-at 1655207308166,
+  :block/updated-at 1655207308166}
  {:block/name "prefix",
-  :block/created-at 1655203850013,
-  :block/updated-at 1655203850013}
+  :block/created-at 1655207306532,
+  :block/updated-at 1655207306532}
  {:block/name "prelu",
-  :block/created-at 1655203852400,
-  :block/updated-at 1655203852400}
+  :block/created-at 1655207308868,
+  :block/updated-at 1655207308868}
  {:block/name "prepositions",
-  :block/created-at 1655203846592,
-  :block/updated-at 1655203846592}
+  :block/created-at 1655207303435,
+  :block/updated-at 1655207303435}
  {:block/name "probability",
-  :block/created-at 1655203842642,
-  :block/updated-at 1655203842642}
+  :block/created-at 1655207299918,
+  :block/updated-at 1655207299918}
  {:block/name "probability density function",
-  :block/created-at 1655203850837,
-  :block/updated-at 1655203850837}
+  :block/created-at 1655207307331,
+  :block/updated-at 1655207307331}
  {:block/name "probability mass function",
-  :block/created-at 1655203850859,
-  :block/updated-at 1655203850859}
+  :block/created-at 1655207307355,
+  :block/updated-at 1655207307355}
  {:block/name "pronoun",
-  :block/created-at 1655203854371,
-  :block/updated-at 1655203854371}
+  :block/created-at 1655207310846,
+  :block/updated-at 1655207310846}
  {:block/name "protein modeling",
-  :block/created-at 1655203842602,
-  :block/updated-at 1655203842602}
+  :block/created-at 1655207299886,
+  :block/updated-at 1655207299886}
  {:block/name "proto distributions",
-  :block/created-at 1655203842673,
-  :block/updated-at 1655203842673}
+  :block/created-at 1655207299944,
+  :block/updated-at 1655207299944}
  {:block/name "proto pdf",
-  :block/created-at 1655203851795,
-  :block/updated-at 1655203851795}
+  :block/created-at 1655207308291,
+  :block/updated-at 1655207308291}
  {:block/name "proto pmf",
-  :block/created-at 1655203851797,
-  :block/updated-at 1655203851797}
+  :block/created-at 1655207308292,
+  :block/updated-at 1655207308292}
  {:block/name "proxy objective",
-  :block/created-at 1655203846940,
-  :block/updated-at 1655203846940}
+  :block/created-at 1655207303747,
+  :block/updated-at 1655207303747}
  {:block/name "pruning",
-  :block/created-at 1655203846308,
-  :block/updated-at 1655203846308}
+  :block/created-at 1655207303168,
+  :block/updated-at 1655207303168}
  {:block/name "punctuation",
-  :block/created-at 1655203851958,
-  :block/updated-at 1655203851958}
+  :block/created-at 1655207308429,
+  :block/updated-at 1655207308429}
  {:block/name "pyramidal cell",
-  :block/created-at 1655203845566,
-  :block/updated-at 1655203845566}
+  :block/created-at 1655207302435,
+  :block/updated-at 1655207302435}
  {:block/name "quadratic loss",
-  :block/created-at 1655203842963,
-  :block/updated-at 1655203842963}
+  :block/created-at 1655207300208,
+  :block/updated-at 1655207300208}
  {:block/name "quantifiers",
-  :block/created-at 1655203846592,
-  :block/updated-at 1655203846592}
+  :block/created-at 1655207303434,
+  :block/updated-at 1655207303434}
  {:block/name "quantifying uncertainty",
-  :block/created-at 1655203852044,
-  :block/updated-at 1655203852044}
+  :block/created-at 1655207308514,
+  :block/updated-at 1655207308514}
+ {:block/name "randaugment",
+  :block/created-at 1655217963767,
+  :block/updated-at 1655218185077}
  {:block/name "random dump",
-  :block/created-at 1655203856017,
-  :block/updated-at 1655203856017}
+  :block/created-at 1655207312464,
+  :block/updated-at 1655207312464}
  {:block/name "random pruning",
-  :block/created-at 1655203851928,
-  :block/updated-at 1655203851928}
+  :block/created-at 1655207308399,
+  :block/updated-at 1655207308399}
  {:block/name "raycasting",
-  :block/created-at 1655203842294,
-  :block/updated-at 1655203842294}
+  :block/created-at 1655207299650,
+  :block/updated-at 1655207299650}
  {:block/name "recurrent",
-  :block/created-at 1655203846796,
-  :block/updated-at 1655203846796}
+  :block/created-at 1655207303613,
+  :block/updated-at 1655207303613}
  {:block/name "references",
-  :block/created-at 1655203852185,
-  :block/updated-at 1655203852185}
+  :block/created-at 1655207308641,
+  :block/updated-at 1655207308641}
  {:block/name "refs",
-  :block/created-at 1655203844790,
-  :block/updated-at 1655203844790}
+  :block/created-at 1655207301767,
+  :block/updated-at 1655207301767}
  {:block/name "reg uncertainty",
-  :block/created-at 1655203854704,
-  :block/updated-at 1655203854704}
+  :block/created-at 1655207311163,
+  :block/updated-at 1655207311163}
  {:block/name "region growing",
-  :block/created-at 1655203852210,
-  :block/updated-at 1655203852210}
+  :block/created-at 1655207308663,
+  :block/updated-at 1655207308663}
+ {:block/name "region proposal",
+  :block/created-at 1655207303017,
+  :block/updated-at 1655207303017}
  {:block/name "register renaming",
-  :block/created-at 1655203847825,
-  :block/updated-at 1655203847825}
+  :block/created-at 1655207304544,
+  :block/updated-at 1655207304544}
  {:block/name "register to register architecture",
-  :block/created-at 1655203852255,
-  :block/updated-at 1655203852255}
+  :block/created-at 1655207308731,
+  :block/updated-at 1655207308731}
+ {:block/name "regnet",
+  :block/created-at 1655218266534,
+  :block/updated-at 1655218339042}
  {:block/name "regularization",
-  :block/created-at 1655203844782,
-  :block/updated-at 1655203844782}
+  :block/created-at 1655207301764,
+  :block/updated-at 1655207301764}
  {:block/name "regularization term",
-  :block/created-at 1655203852310,
-  :block/updated-at 1655203852310}
+  :block/created-at 1655207308784,
+  :block/updated-at 1655207308784}
  {:block/name "regularize",
-  :block/created-at 1655203842135,
-  :block/updated-at 1655203842135}
+  :block/created-at 1655207299506,
+  :block/updated-at 1655207299506}
  {:block/name "reinforcement learning",
-  :block/created-at 1655203844789,
-  :block/updated-at 1655203844789}
+  :block/created-at 1655207301767,
+  :block/updated-at 1655207301767}
  {:block/name "rejection sampling",
-  :block/created-at 1655203846941,
-  :block/updated-at 1655203846941}
+  :block/created-at 1655207303747,
+  :block/updated-at 1655207303747}
  {:block/name "relu",
-  :block/created-at 1655203841478,
-  :block/updated-at 1655203841478}
+  :block/created-at 1655207299033,
+  :block/updated-at 1655207299033}
  {:block/name "res net",
-  :block/created-at 1655203844881,
-  :block/updated-at 1655203844881}
+  :block/created-at 1655207301845,
+  :block/updated-at 1655207301845}
  {:block/name "res net d",
-  :block/created-at 1655203852425,
-  :block/updated-at 1655203852425}
+  :block/created-at 1655207308891,
+  :block/updated-at 1655207308891}
  {:block/name "restricted boltzmann machine",
-  :block/created-at 1655203852474,
-  :block/updated-at 1655203852474}
+  :block/created-at 1655207308938,
+  :block/updated-at 1655207308938}
+ {:block/name "retinanet",
+  :block/created-at 1655207303264,
+  :block/updated-at 1655207303264}
  {:block/name "ridge regression",
-  :block/created-at 1655203848841,
-  :block/updated-at 1655203848841}
+  :block/created-at 1655207305451,
+  :block/updated-at 1655207305451}
  {:block/name "rmsprop",
-  :block/created-at 1655203841563,
-  :block/updated-at 1655203841563}
+  :block/created-at 1655207299089,
+  :block/updated-at 1655207299089}
  {:block/name "robotics",
-  :block/created-at 1655203855971,
-  :block/updated-at 1655203855971}
+  :block/created-at 1655207312353,
+  :block/updated-at 1655207312353}
  {:block/name "saddle points",
-  :block/created-at 1655203848068,
-  :block/updated-at 1655203848068}
+  :block/created-at 1655207304723,
+  :block/updated-at 1655207304723}
  {:block/name "sampler",
-  :block/created-at 1655203849126,
-  :block/updated-at 1655203849126}
+  :block/created-at 1655207305686,
+  :block/updated-at 1655207305686}
  {:block/name "sampling",
-  :block/created-at 1655203846688,
-  :block/updated-at 1655203846688}
+  :block/created-at 1655207303524,
+  :block/updated-at 1655207303524}
  {:block/name "sampling ray casting",
-  :block/created-at 1655203852096,
-  :block/updated-at 1655203852096}
+  :block/created-at 1655207308562,
+  :block/updated-at 1655207308562}
  {:block/name "scalar register",
-  :block/created-at 1655203852755,
-  :block/updated-at 1655203852755}
+  :block/created-at 1655207309237,
+  :block/updated-at 1655207309237}
  {:block/name "scaled dot product attention",
-  :block/created-at 1655203842101,
-  :block/updated-at 1655203842101}
+  :block/created-at 1655207299480,
+  :block/updated-at 1655207299480}
  {:block/name "scatter and gather",
-  :block/created-at 1655203852821,
-  :block/updated-at 1655203852821}
+  :block/created-at 1655207309293,
+  :block/updated-at 1655207309293}
  {:block/name "scheduling",
-  :block/created-at 1655203848590,
-  :block/updated-at 1655203848590}
+  :block/created-at 1655207305183,
+  :block/updated-at 1655207305183}
  {:block/name "scoring pruning approaches",
-  :block/created-at 1655203851924,
-  :block/updated-at 1655203851924}
+  :block/created-at 1655207308397,
+  :block/updated-at 1655207308397}
  {:block/name "seg net",
-  :block/created-at 1655203852886,
-  :block/updated-at 1655203852886}
+  :block/created-at 1655207309365,
+  :block/updated-at 1655207309365}
  {:block/name "self attention",
-  :block/created-at 1655203842102,
-  :block/updated-at 1655203842102}
+  :block/created-at 1655207299480,
+  :block/updated-at 1655207299480}
  {:block/name "self attention gan",
-  :block/created-at 1655203852910,
-  :block/updated-at 1655203852910}
+  :block/created-at 1655207309390,
+  :block/updated-at 1655207309390}
  {:block/name "self organizing maps",
-  :block/created-at 1655203852621,
-  :block/updated-at 1655203852621}
+  :block/created-at 1655207309109,
+  :block/updated-at 1655207309109}
  {:block/name "self supervised",
-  :block/created-at 1655203842268,
-  :block/updated-at 1655203842268}
+  :block/created-at 1655207299628,
+  :block/updated-at 1655207299628}
  {:block/name "semantic analysis",
-  :block/created-at 1655203842018,
-  :block/updated-at 1655203842018}
+  :block/created-at 1655207299414,
+  :block/updated-at 1655207299414}
  {:block/name "semantic grammar",
-  :block/created-at 1655203853022,
-  :block/updated-at 1655203853022}
+  :block/created-at 1655207309497,
+  :block/updated-at 1655207309497}
  {:block/name "semantic markers",
-  :block/created-at 1655203848709,
-  :block/updated-at 1655203848709}
+  :block/created-at 1655207305288,
+  :block/updated-at 1655207305288}
  {:block/name "semi supervised",
-  :block/created-at 1655203846684,
-  :block/updated-at 1655203846684}
+  :block/created-at 1655207303523,
+  :block/updated-at 1655207303523}
  {:block/name "sentence boundary detection",
-  :block/created-at 1655203853094,
-  :block/updated-at 1655203853094}
+  :block/created-at 1655207309563,
+  :block/updated-at 1655207309563}
  {:block/name "sentence boundary disambiguation",
-  :block/created-at 1655203853095,
-  :block/updated-at 1655203853095}
+  :block/created-at 1655207309563,
+  :block/updated-at 1655207309563}
  {:block/name "sentence boundary recognition",
-  :block/created-at 1655203853096,
-  :block/updated-at 1655203853096}
+  :block/created-at 1655207309564,
+  :block/updated-at 1655207309564}
  {:block/name "sentence level processing",
-  :block/created-at 1655203852998,
-  :block/updated-at 1655203852998}
+  :block/created-at 1655207309474,
+  :block/updated-at 1655207309474}
  {:block/name "sentence segmentation",
-  :block/created-at 1655203853097,
-  :block/updated-at 1655203853097}
+  :block/created-at 1655207309564,
+  :block/updated-at 1655207309564}
  {:block/name "sentiment neuron",
-  :block/created-at 1655203853155,
-  :block/updated-at 1655203853155}
+  :block/created-at 1655207309623,
+  :block/updated-at 1655207309623}
  {:block/name "sentimentanalysis",
-  :block/created-at 1655203853180,
-  :block/updated-at 1655203853180}
+  :block/created-at 1655207309645,
+  :block/updated-at 1655207309645}
  {:block/name "seq2seq",
-  :block/created-at 1655203842429,
-  :block/updated-at 1655203842429}
+  :block/created-at 1655207299754,
+  :block/updated-at 1655207299754}
  {:block/name "shading",
-  :block/created-at 1655203853227,
-  :block/updated-at 1655203853227}
+  :block/created-at 1655207309687,
+  :block/updated-at 1655207309687}
  {:block/name "shared character set",
-  :block/created-at 1655203848292,
-  :block/updated-at 1655203848292}
+  :block/created-at 1655207304913,
+  :block/updated-at 1655207304913}
  {:block/name "shepard interpolation",
-  :block/created-at 1655203853272,
-  :block/updated-at 1655203853272}
+  :block/created-at 1655207309733,
+  :block/updated-at 1655207309733}
  {:block/name "shufflenet",
-  :block/created-at 1655203853294,
-  :block/updated-at 1655203853294}
+  :block/created-at 1655207309755,
+  :block/updated-at 1655207309755}
  {:block/name "sigmoid",
-  :block/created-at 1655203841477,
-  :block/updated-at 1655203841477}
+  :block/created-at 1655207299033,
+  :block/updated-at 1655207299033}
  {:block/name "simd",
-  :block/created-at 1655203846394,
-  :block/updated-at 1655203846394}
+  :block/created-at 1655207303237,
+  :block/updated-at 1655207303237}
  {:block/name "sisd",
-  :block/created-at 1655203846394,
-  :block/updated-at 1655203846394}
+  :block/created-at 1655207303237,
+  :block/updated-at 1655207303237}
  {:block/name "sitemap",
-  :block/created-at 1655203855977,
-  :block/updated-at 1655203855977}
+  :block/created-at 1655207312356,
+  :block/updated-at 1655207312356}
  {:block/name "sketched update",
-  :block/created-at 1655203846256,
-  :block/updated-at 1655203846256}
+  :block/created-at 1655207303127,
+  :block/updated-at 1655207303127}
  {:block/name "skip connection",
-  :block/created-at 1655203844913,
-  :block/updated-at 1655203844913}
+  :block/created-at 1655207301870,
+  :block/updated-at 1655207301870}
  {:block/name "slice based volume rendering",
-  :block/created-at 1655203852097,
-  :block/updated-at 1655203852097}
+  :block/created-at 1655207308563,
+  :block/updated-at 1655207308563}
  {:block/name "small world graphs",
-  :block/created-at 1655203843135,
-  :block/updated-at 1655203843135}
+  :block/created-at 1655207300344,
+  :block/updated-at 1655207300344}
  {:block/name "smp",
-  :block/created-at 1655203849158,
-  :block/updated-at 1655203849158}
+  :block/created-at 1655207305719,
+  :block/updated-at 1655207305719}
  {:block/name "soft attention",
-  :block/created-at 1655203842100,
-  :block/updated-at 1655203842100}
+  :block/created-at 1655207299479,
+  :block/updated-at 1655207299479}
  {:block/name "softmax",
-  :block/created-at 1655203841482,
-  :block/updated-at 1655203841482}
+  :block/created-at 1655207299035,
+  :block/updated-at 1655207299035}
  {:block/name "softmax#t is the temperature",
-  :block/created-at 1655203852139,
-  :block/updated-at 1655203852139}
+  :block/created-at 1655207308603,
+  :block/updated-at 1655207308603}
  {:block/name "softplus",
-  :block/created-at 1655203841483,
-  :block/updated-at 1655203841483}
+  :block/created-at 1655207299035,
+  :block/updated-at 1655207299035}
  {:block/name "soms",
-  :block/created-at 1655203843936,
-  :block/updated-at 1655203843936}
+  :block/created-at 1655207301047,
+  :block/updated-at 1655207301047}
  {:block/name "sparse dict learning loss",
-  :block/created-at 1655203853513,
-  :block/updated-at 1655203853513}
+  :block/created-at 1655207309989,
+  :block/updated-at 1655207309989}
  {:block/name "sparse dictionary learning loss",
-  :block/created-at 1655203845114,
-  :block/updated-at 1655203845114}
+  :block/created-at 1655207302033,
+  :block/updated-at 1655207302033}
  {:block/name "spatial transformer",
-  :block/created-at 1655203853541,
-  :block/updated-at 1655203853541}
+  :block/created-at 1655207310010,
+  :block/updated-at 1655207310010}
  {:block/name "spectrogram",
-  :block/created-at 1655203843328,
-  :block/updated-at 1655203843328}
+  :block/created-at 1655207300494,
+  :block/updated-at 1655207300494}
  {:block/name "speculative execution",
-  :block/created-at 1655203847827,
-  :block/updated-at 1655203847827}
+  :block/created-at 1655207304544,
+  :block/updated-at 1655207304544}
  {:block/name "spiking networks",
-  :block/created-at 1655203846057,
-  :block/updated-at 1655203846057}
+  :block/created-at 1655207302888,
+  :block/updated-at 1655207302888}
+ {:block/name "spnet",
+  :block/created-at 1655207303016,
+  :block/updated-at 1655207303016}
  {:block/name "square integrable",
-  :block/created-at 1655203843670,
-  :block/updated-at 1655203843670}
+  :block/created-at 1655207300830,
+  :block/updated-at 1655207300830}
  {:block/name "squared error",
-  :block/created-at 1655203853645,
-  :block/updated-at 1655203853645}
+  :block/created-at 1655207310115,
+  :block/updated-at 1655207310115}
  {:block/name "squared hinge",
-  :block/created-at 1655203853668,
-  :block/updated-at 1655203853668}
+  :block/created-at 1655207310143,
+  :block/updated-at 1655207310143}
  {:block/name "stacking rnn",
-  :block/created-at 1655203842427,
-  :block/updated-at 1655203842427}
+  :block/created-at 1655207299753,
+  :block/updated-at 1655207299753}
  {:block/name "statistical word segmentation",
-  :block/created-at 1655203853711,
-  :block/updated-at 1655203853711}
+  :block/created-at 1655207310189,
+  :block/updated-at 1655207310189}
  {:block/name "stoch ensemble learning",
-  :block/created-at 1655203853731,
-  :block/updated-at 1655203853731}
+  :block/created-at 1655207310213,
+  :block/updated-at 1655207310213}
  {:block/name "stochastic ensemble learning",
-  :block/created-at 1655203841596,
-  :block/updated-at 1655203841596}
+  :block/created-at 1655207299116,
+  :block/updated-at 1655207299116}
  {:block/name "stratified random sampling",
-  :block/created-at 1655203852729,
-  :block/updated-at 1655203852729}
+  :block/created-at 1655207309208,
+  :block/updated-at 1655207309208}
  {:block/name "strided",
-  :block/created-at 1655203844334,
-  :block/updated-at 1655203844334}
+  :block/created-at 1655207301398,
+  :block/updated-at 1655207301398}
  {:block/name "strip mining",
-  :block/created-at 1655203853791,
-  :block/updated-at 1655203853791}
+  :block/created-at 1655207310271,
+  :block/updated-at 1655207310271}
  {:block/name "structure based pruning",
-  :block/created-at 1655203851924,
-  :block/updated-at 1655203851924}
+  :block/created-at 1655207308396,
+  :block/updated-at 1655207308396}
  {:block/name "structured update",
-  :block/created-at 1655203846255,
-  :block/updated-at 1655203846255}
+  :block/created-at 1655207303126,
+  :block/updated-at 1655207303126}
  {:block/name "suffix",
-  :block/created-at 1655203850014,
-  :block/updated-at 1655203850014}
+  :block/created-at 1655207306533,
+  :block/updated-at 1655207306533}
  {:block/name "super resolution",
-  :block/created-at 1655203853873,
-  :block/updated-at 1655203853873}
+  :block/created-at 1655207310348,
+  :block/updated-at 1655207310348}
  {:block/name "superscalar",
-  :block/created-at 1655203847824,
-  :block/updated-at 1655203847824}
+  :block/created-at 1655207304543,
+  :block/updated-at 1655207304543}
  {:block/name "suppletion",
-  :block/created-at 1655203850066,
-  :block/updated-at 1655203850066}
+  :block/created-at 1655207306584,
+  :block/updated-at 1655207306584}
+ {:block/name "svhn",
+  :block/created-at 1655218150677,
+  :block/updated-at 1655218156376}
  {:block/name "swish",
-  :block/created-at 1655203841484,
-  :block/updated-at 1655203841484}
+  :block/created-at 1655207299036,
+  :block/updated-at 1655207299036}
  {:block/name "symmetries node link",
-  :block/created-at 1655203850413,
-  :block/updated-at 1655203850413}
+  :block/created-at 1655207306908,
+  :block/updated-at 1655207306908}
  {:block/name "syntactic ambiguity",
-  :block/created-at 1655203853978,
-  :block/updated-at 1655203853978}
+  :block/created-at 1655207310453,
+  :block/updated-at 1655207310453}
  {:block/name "syntactic analysis",
-  :block/created-at 1655203844054,
-  :block/updated-at 1655203844054}
+  :block/created-at 1655207301157,
+  :block/updated-at 1655207301157}
  {:block/name "tacotron",
-  :block/created-at 1655203854125,
-  :block/updated-at 1655203854125}
+  :block/created-at 1655207310592,
+  :block/updated-at 1655207310592}
  {:block/name "tanh",
-  :block/created-at 1655203841481,
-  :block/updated-at 1655203841481}
+  :block/created-at 1655207299034,
+  :block/updated-at 1655207299034}
+ {:block/name "template",
+  :block/created-at 1655207312481,
+  :block/updated-at 1655216915498}
  {:block/name "temporal conv",
-  :block/created-at 1655203842430,
-  :block/updated-at 1655203842430}
+  :block/created-at 1655207299754,
+  :block/updated-at 1655207299754}
  {:block/name "temporal learning",
-  :block/created-at 1655203854210,
-  :block/updated-at 1655203854210}
+  :block/created-at 1655207310676,
+  :block/updated-at 1655207310676}
  {:block/name "temporal lobe",
-  :block/created-at 1655203843732,
-  :block/updated-at 1655203843732}
+  :block/created-at 1655207300880,
+  :block/updated-at 1655207300880}
  {:block/name "temporallearning",
-  :block/created-at 1655203846680,
-  :block/updated-at 1655203846680}
+  :block/created-at 1655207303522,
+  :block/updated-at 1655207303522}
  {:block/name "term",
-  :block/created-at 1655203852282,
-  :block/updated-at 1655203852282}
+  :block/created-at 1655207308756,
+  :block/updated-at 1655207308756}
  {:block/name "text normalization",
-  :block/created-at 1655203854230,
-  :block/updated-at 1655203854230}
+  :block/created-at 1655207310705,
+  :block/updated-at 1655207310705}
  {:block/name "text preprocessing",
-  :block/created-at 1655203854254,
-  :block/updated-at 1655203854254}
+  :block/created-at 1655207310730,
+  :block/updated-at 1655207310730}
  {:block/name "text segmentation",
-  :block/created-at 1655203854253,
-  :block/updated-at 1655203854253}
+  :block/created-at 1655207310730,
+  :block/updated-at 1655207310730}
  {:block/name "thalamus",
-  :block/created-at 1655203842395,
-  :block/updated-at 1655203842395}
+  :block/created-at 1655207299727,
+  :block/updated-at 1655207299727}
  {:block/name "theta waves",
-  :block/created-at 1655203843325,
-  :block/updated-at 1655203843325}
+  :block/created-at 1655207300493,
+  :block/updated-at 1655207300493}
  {:block/name "tightly coupled",
-  :block/created-at 1655203849723,
-  :block/updated-at 1655203849723}
+  :block/created-at 1655207306235,
+  :block/updated-at 1655207306235}
  {:block/name "time series",
-  :block/created-at 1655203842198,
-  :block/updated-at 1655203842198}
+  :block/created-at 1655207299563,
+  :block/updated-at 1655207299563}
  {:block/name "time series prediction",
-  :block/created-at 1655203854053,
-  :block/updated-at 1655203854053}
+  :block/created-at 1655207310523,
+  :block/updated-at 1655207310523}
  {:block/name "time space duality",
-  :block/created-at 1655203852545,
-  :block/updated-at 1655203852545}
+  :block/created-at 1655207309026,
+  :block/updated-at 1655207309026}
  {:block/name "to look at",
-  :block/created-at 1655203854080,
-  :block/updated-at 1655203854080}
+  :block/created-at 1655207310550,
+  :block/updated-at 1655207310550}
  {:block/name "todo",
-  :block/created-at 1655204194641,
-  :block/updated-at 1655204194641}
+  :block/created-at 1655207670886,
+  :block/updated-at 1655207670886}
  {:block/name "tokenizer",
-  :block/created-at 1655203841994,
-  :block/updated-at 1655203841994}
+  :block/created-at 1655207299393,
+  :block/updated-at 1655207299393}
  {:block/name "top down parsing",
-  :block/created-at 1655203844175,
-  :block/updated-at 1655203844175}
+  :block/created-at 1655207301262,
+  :block/updated-at 1655207301262}
  {:block/name "transfer function",
-  :block/created-at 1655203843906,
-  :block/updated-at 1655203843906}
+  :block/created-at 1655207301025,
+  :block/updated-at 1655207301025}
  {:block/name "transfer learning",
-  :block/created-at 1655203852973,
-  :block/updated-at 1655203852973}
+  :block/created-at 1655207309450,
+  :block/updated-at 1655207309450}
  {:block/name "transformer",
-  :block/created-at 1655203853541,
-  :block/updated-at 1655203853541}
+  :block/created-at 1655207310010,
+  :block/updated-at 1655207310010}
  {:block/name "transitive verb",
-  :block/created-at 1655203854502,
-  :block/updated-at 1655203854502}
+  :block/created-at 1655207310970,
+  :block/updated-at 1655207310970}
  {:block/name "tree cover segmentation",
-  :block/created-at 1655203856087,
-  :block/updated-at 1655203856087}
+  :block/created-at 1655207312525,
+  :block/updated-at 1655207312525}
  {:block/name "treeqn",
-  :block/created-at 1655203854100,
-  :block/updated-at 1655203854100}
+  :block/created-at 1655207310569,
+  :block/updated-at 1655207310569}
  {:block/name "trees",
-  :block/created-at 1655203854525,
-  :block/updated-at 1655203854525}
+  :block/created-at 1655207310992,
+  :block/updated-at 1655207310992}
  {:block/name "tricks",
-  :block/created-at 1655203842495,
-  :block/updated-at 1655203842495}
+  :block/created-at 1655207299806,
+  :block/updated-at 1655207299806}
  {:block/name "triplet loss",
-  :block/created-at 1655203846173,
-  :block/updated-at 1655203846173}
+  :block/created-at 1655207302935,
+  :block/updated-at 1655207302935}
  {:block/name "tuning model flexibility",
-  :block/created-at 1655203842965,
-  :block/updated-at 1655203842965}
+  :block/created-at 1655207300209,
+  :block/updated-at 1655207300209}
  {:block/name "types of uncertainty",
-  :block/created-at 1655203854627,
-  :block/updated-at 1655203854627}
+  :block/created-at 1655207311091,
+  :block/updated-at 1655207311091}
  {:block/name "types of words",
-  :block/created-at 1655203844173,
-  :block/updated-at 1655203844173}
+  :block/created-at 1655207301262,
+  :block/updated-at 1655207301262}
  {:block/name "uma",
-  :block/created-at 1655203854023,
-  :block/updated-at 1655203854023}
+  :block/created-at 1655207310496,
+  :block/updated-at 1655207310496}
  {:block/name "uncertainity in classification",
-  :block/created-at 1655203854747,
-  :block/updated-at 1655203854747}
+  :block/created-at 1655207311190,
+  :block/updated-at 1655207311190}
  {:block/name "uncertainity in regression",
-  :block/created-at 1655203854746,
-  :block/updated-at 1655203854746}
+  :block/created-at 1655207311190,
+  :block/updated-at 1655207311190}
  {:block/name "uncertainty",
-  :block/created-at 1655203841810,
-  :block/updated-at 1655203841810}
+  :block/created-at 1655207299280,
+  :block/updated-at 1655207299280}
  {:block/name "uncertainty classification",
-  :block/created-at 1655203854677,
-  :block/updated-at 1655203854677}
+  :block/created-at 1655207311139,
+  :block/updated-at 1655207311139}
  {:block/name "unet",
-  :block/created-at 1655203852885,
-  :block/updated-at 1655203852885}
+  :block/created-at 1655207309364,
+  :block/updated-at 1655207309364}
  {:block/name "unicode 5.0",
-  :block/created-at 1655203843785,
-  :block/updated-at 1655203843785}
+  :block/created-at 1655207300928,
+  :block/updated-at 1655207300928}
  {:block/name "uniform distribution",
-  :block/created-at 1655203845293,
-  :block/updated-at 1655203845293}
+  :block/created-at 1655207302189,
+  :block/updated-at 1655207302189}
  {:block/name "uniform sampling",
-  :block/created-at 1655203852726,
-  :block/updated-at 1655203852726}
+  :block/created-at 1655207309206,
+  :block/updated-at 1655207309206}
  {:block/name "unique character set",
-  :block/created-at 1655203848291,
-  :block/updated-at 1655203848291}
+  :block/created-at 1655207304912,
+  :block/updated-at 1655207304912}
  {:block/name "universal approximation theorem",
-  :block/created-at 1655203846687,
-  :block/updated-at 1655203846687}
+  :block/created-at 1655207303524,
+  :block/updated-at 1655207303524}
  {:block/name "unsupervised learning",
-  :block/created-at 1655203846682,
-  :block/updated-at 1655203846682}
+  :block/created-at 1655207303522,
+  :block/updated-at 1655207303522}
  {:block/name "useful codes",
-  :block/created-at 1655203844787,
-  :block/updated-at 1655203844787}
+  :block/created-at 1655207301766,
+  :block/updated-at 1655207301766}
  {:block/name "vae",
-  :block/created-at 1655203842166,
-  :block/updated-at 1655203842166}
+  :block/created-at 1655207299531,
+  :block/updated-at 1655207299531}
  {:block/name "vanishing",
-  :block/created-at 1655203855026,
-  :block/updated-at 1655203855026}
+  :block/created-at 1655207311456,
+  :block/updated-at 1655207311456}
  {:block/name "vanishing/exploding #gradients",
-  :block/created-at 1655203855025,
-  :block/updated-at 1655203855025}
+  :block/created-at 1655207311455,
+  :block/updated-at 1655207311455}
  {:block/name "vanishingexploding gradients",
-  :block/created-at 1655203848069,
-  :block/updated-at 1655203848069}
+  :block/created-at 1655207304723,
+  :block/updated-at 1655207304723}
  {:block/name "variational",
-  :block/created-at 1655203855058,
-  :block/updated-at 1655203855058}
+  :block/created-at 1655207311483,
+  :block/updated-at 1655207311483}
  {:block/name "variational autoencoder",
-  :block/created-at 1655203854997,
-  :block/updated-at 1655203854997}
+  :block/created-at 1655207311428,
+  :block/updated-at 1655207311428}
  {:block/name "variational/recurrent dropout",
-  :block/created-at 1655203855057,
-  :block/updated-at 1655203855057}
+  :block/created-at 1655207311483,
+  :block/updated-at 1655207311483}
  {:block/name "variationalrecurrent dropout",
-  :block/created-at 1655203852311,
-  :block/updated-at 1655203852311}
+  :block/created-at 1655207308785,
+  :block/updated-at 1655207308785}
  {:block/name "vector assembly level",
-  :block/created-at 1655203855088,
-  :block/updated-at 1655203855088}
+  :block/created-at 1655207311507,
+  :block/updated-at 1655207311507}
  {:block/name "vector chaining",
-  :block/created-at 1655203855112,
-  :block/updated-at 1655203855112}
+  :block/created-at 1655207311528,
+  :block/updated-at 1655207311528}
  {:block/name "vector functional units",
-  :block/created-at 1655203852755,
-  :block/updated-at 1655203852755}
+  :block/created-at 1655207309236,
+  :block/updated-at 1655207309236}
  {:block/name "vector load store units",
-  :block/created-at 1655203852754,
-  :block/updated-at 1655203852754}
+  :block/created-at 1655207309236,
+  :block/updated-at 1655207309236}
  {:block/name "vector processor",
-  :block/created-at 1655203852544,
-  :block/updated-at 1655203852544}
+  :block/created-at 1655207309025,
+  :block/updated-at 1655207309025}
  {:block/name "vector quantization",
-  :block/created-at 1655203844212,
-  :block/updated-at 1655203844212}
+  :block/created-at 1655207301293,
+  :block/updated-at 1655207301293}
  {:block/name "vector register",
-  :block/created-at 1655203855183,
-  :block/updated-at 1655203855183}
+  :block/created-at 1655207311590,
+  :block/updated-at 1655207311590}
  {:block/name "vectorization",
-  :block/created-at 1655203850704,
-  :block/updated-at 1655203850704}
+  :block/created-at 1655207307189,
+  :block/updated-at 1655207307189}
  {:block/name "verb",
-  :block/created-at 1655203844144,
-  :block/updated-at 1655203844144}
+  :block/created-at 1655207301237,
+  :block/updated-at 1655207301237}
  {:block/name "vgg",
-  :block/created-at 1655203855311,
-  :block/updated-at 1655203855311}
+  :block/created-at 1655207303018,
+  :block/updated-at 1655207303018}
+ {:block/name "vision transformer",
+  :block/created-at 1655218432887,
+  :block/updated-at 1655218729538}
+ {:block/name "visual commonsense reasoning",
+  :block/created-at 1655207311737,
+  :block/updated-at 1655207311737}
  {:block/name "visual encoding",
-  :block/created-at 1655203847653,
-  :block/updated-at 1655203847653}
+  :block/created-at 1655207304417,
+  :block/updated-at 1655207304417}
  {:block/name "visualization",
-  :block/created-at 1655203842044,
-  :block/updated-at 1655203842044}
+  :block/created-at 1655207299435,
+  :block/updated-at 1655207299435}
  {:block/name "visualization einsum",
-  :block/created-at 1655203843017,
-  :block/updated-at 1655203843017}
+  :block/created-at 1655207300247,
+  :block/updated-at 1655207300247}
  {:block/name "volterra",
-  :block/created-at 1655203855405,
-  :block/updated-at 1655203855405}
+  :block/created-at 1655207311815,
+  :block/updated-at 1655207311815}
  {:block/name "volterra expansion",
-  :block/created-at 1655203855601,
-  :block/updated-at 1655203855601}
+  :block/created-at 1655207311976,
+  :block/updated-at 1655207311976}
  {:block/name "volume rendering equation",
-  :block/created-at 1655203852092,
-  :block/updated-at 1655203852092}
+  :block/created-at 1655207308560,
+  :block/updated-at 1655207308560}
  {:block/name "volume visualization",
-  :block/created-at 1655203855372,
-  :block/updated-at 1655203855372}
+  :block/created-at 1655207311785,
+  :block/updated-at 1655207311785}
  {:block/name "volumetric illumination",
-  :block/created-at 1655203855471,
-  :block/updated-at 1655203855471}
+  :block/created-at 1655207311864,
+  :block/updated-at 1655207311864}
  {:block/name "von neumann architecture",
-  :block/created-at 1655203855533,
-  :block/updated-at 1655203855533}
+  :block/created-at 1655207311911,
+  :block/updated-at 1655207311911}
  {:block/name "voronoi cell",
-  :block/created-at 1655203848166,
-  :block/updated-at 1655203848166}
+  :block/created-at 1655207304793,
+  :block/updated-at 1655207304793}
  {:block/name "wait",
-  :block/created-at 1655204194642,
-  :block/updated-at 1655204194642}
+  :block/created-at 1655207670887,
+  :block/updated-at 1655207670887}
  {:block/name "waiting",
-  :block/created-at 1655204194640,
-  :block/updated-at 1655204194640}
+  :block/created-at 1655207670884,
+  :block/updated-at 1655207670885}
  {:block/name "watershed",
-  :block/created-at 1655203856085,
-  :block/updated-at 1655203856085}
+  :block/created-at 1655207312524,
+  :block/updated-at 1655207312524}
  {:block/name "wernicke area",
-  :block/created-at 1655203854186,
-  :block/updated-at 1655203854186}
+  :block/created-at 1655207310653,
+  :block/updated-at 1655207310653}
  {:block/name "window based regression",
-  :block/created-at 1655203848842,
-  :block/updated-at 1655203848842}
+  :block/created-at 1655207305451,
+  :block/updated-at 1655207305451}
  {:block/name "word blending",
-  :block/created-at 1655203850067,
-  :block/updated-at 1655203850067}
+  :block/created-at 1655207306585,
+  :block/updated-at 1655207306585}
  {:block/name "word clipping",
-  :block/created-at 1655203850067,
-  :block/updated-at 1655203850067}
+  :block/created-at 1655207306585,
+  :block/updated-at 1655207306585}
  {:block/name "word compounding",
-  :block/created-at 1655203850066,
-  :block/updated-at 1655203850066}
+  :block/created-at 1655207306585,
+  :block/updated-at 1655207306585}
  {:block/name "word segmentation",
-  :block/created-at 1655203854277,
-  :block/updated-at 1655203854277}
+  :block/created-at 1655207310754,
+  :block/updated-at 1655207310754}
  {:block/name "word structure",
-  :block/created-at 1655203854372,
-  :block/updated-at 1655203854372}
+  :block/created-at 1655207310847,
+  :block/updated-at 1655207310847}
  {:block/name "word vectors",
-  :block/created-at 1655203845225,
-  :block/updated-at 1655203845225}
+  :block/created-at 1655207302131,
+  :block/updated-at 1655207302131}
  {:block/name "www.github.com",
-  :block/created-at 1655203855974,
-  :block/updated-at 1655203855974}
+  :block/created-at 1655207312355,
+  :block/updated-at 1655207312355}
  {:block/name "www.github.com/subhadityamukherjee",
-  :block/created-at 1655203855974,
-  :block/updated-at 1655203855974}
+  :block/created-at 1655207312355,
+  :block/updated-at 1655207312355}
  {:block/name "xavier initialization",
-  :block/created-at 1655203847678,
-  :block/updated-at 1655203847678}
+  :block/created-at 1655207304438,
+  :block/updated-at 1655207304438}
  {:block/name "xception",
-  :block/created-at 1655203855812, 
-  :block/updated-at 1655203855812}]
+  :block/created-at 1655207312159,
+  :block/updated-at 1655207312159}
+ {:block/name "yolo",
+  :block/created-at 1655207312189,
+  :block/updated-at 1655207312189}
+ {:block/name "zeiler fergus",
+  :block/created-at 1655207302937, 
+  :block/updated-at 1655207302937}]

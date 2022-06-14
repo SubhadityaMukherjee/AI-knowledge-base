@@ -4,12 +4,14 @@ tags: visualization
 ---
 
 # Marching Squares
-- ![[Pasted image 20220411133621.png]]
+- ![im](assets/Pasted image 20220411133621.png)
 - Also uses [[Interpolation]]
 - Symmetries
-- ![[Pasted image 20220411133645.png]]
+- ![im](assets/Pasted image 20220411133645.png)
 - [[Asymptotic Decider]]
 - [[Midpoint Decider]]
+
+
 
 
 

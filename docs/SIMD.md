@@ -8,11 +8,13 @@ tags: parallel
 - Graphics, Image processing
 - Synchronous, Deterministic
 - GPU
-- ![[Pasted image 20220506150837.png]]
+- ![im](assets/Pasted image 20220506150837.png)
 - [[Vector Processor]]
 - Limited by [[Amdahl's Law]]
 - More energy efficient than [[MIMD]]
 - [[Time space duality]]
+
+
 
 
 

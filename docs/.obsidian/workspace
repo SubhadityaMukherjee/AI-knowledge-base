@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FaceNet.md",
+            "file": "pages/Vision Transformer.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FaceNet.md",
+                "file": "pages/Vision Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FaceNet.md",
+                "file": "pages/Vision Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FaceNet.md"
+                "file": "pages/Vision Transformer.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "FaceNet.md",
+                "file": "pages/Vision Transformer.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,15 +188,15 @@
   },
   "active": "e3ed13337d77af91",
   "lastOpenFiles": [
+    "pages/Vision Transformer.md",
+    "Res Net.md",
     "FaceNet.md",
     "Skip Connection.md",
-    "Res Net.md",
     "templates/titler.md",
     "Brain Areas.md",
     "Transformer.md",
     "TREEQN.md",
     "Bilinear Interpolation.md",
-    "Einsum.md",
-    "Self Attention GAN.md"
+    "Einsum.md"
   ]
 }

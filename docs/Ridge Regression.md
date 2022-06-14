@@ -9,10 +9,3 @@ title: Ridge Regression
 	- $$w'_{opt} = (XX' + \alpha ^2 I_{nxn})^{-1}XY$$
 	- Solution to overfitting
 
-
-
-
-
-
-
-

@@ -4,7 +4,9 @@ tags: distribution
 ---
 
 # Node Distribution
-![[Pasted image 20220418123429.png]]-
+![im](assets/Pasted image 20220418123429.png)-
+
+
 
 
 

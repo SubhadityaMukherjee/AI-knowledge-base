@@ -4,7 +4,9 @@ tags: parallel
 ---
 
 # Von Neumann Architecture
-![[Pasted image 20220506150237.png]]-
+![im](assets/Pasted image 20220506150237.png)-
+
+
 
 
 

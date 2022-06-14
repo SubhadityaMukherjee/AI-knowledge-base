@@ -10,6 +10,3 @@ tags: architecture
 - loss function that directly corresponds to detection performance and the entire model is trained jointly
 - [[Picasso Dataset]], [[People Art Dataset]]
 
-
-
-

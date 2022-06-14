@@ -5,7 +5,7 @@ title: Electrode nomenclature
 ---
 
 # Electrode Nomenclature
-- ![[Pasted image 20220502145048.png]]
+- ![im](assets/Pasted image 20220502145048.png)
 - Bathing cap
 - Top of head
 - Cz : middle of head
@@ -16,6 +16,8 @@ title: Electrode nomenclature
 - Temporal : T
 - Posterior : Pz
 - Occipital : Oz
+
+
 
 
 

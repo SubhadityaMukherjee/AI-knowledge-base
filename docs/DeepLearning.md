@@ -3,8 +3,6 @@ title: Index
 tags: index
 ---
 
-# Index
----
 - [[Features]]
 - [[Fundamentals]]
 - [[Issues]]
@@ -22,13 +20,6 @@ tags: index
 - [[Federated Learning]]
 - [[Reinforcement Learning]]
 - [[Refs]]
-
-#anchor
-
-
-
-
-
-
-
+  
+  #anchor
 

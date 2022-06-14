@@ -4,7 +4,9 @@ tags: language
 ---
 
 # Bottom Up Parsing
-- ![[Pasted image 20220506183325.png]]
+- ![im](assets/Pasted image 20220506183325.png)
+
+
 
 
 

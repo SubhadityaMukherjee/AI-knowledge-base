@@ -4,7 +4,9 @@ tags: brain
 ---
 
 # Cortical Homunculus
-- ![[Pasted image 20220509154234.png]]
+- ![im](assets/Pasted image 20220509154234.png)
+
+
 
 
 

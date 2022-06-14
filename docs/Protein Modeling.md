@@ -6,7 +6,7 @@ title: Protein Modeling
 - Using [[Bayesian]] models
 - Task : Estimate [[probability]] mass function(because discrete) for a finite, discrete distribution -> given a histogram from a sample
 - Large number of categories and small number of observations
-- ![[Pasted image 20220316121901.png]]
+- ![im](assets/Pasted image 20220316121901.png)
 	- Estimate [[probability]] distrib of amino acids in each column in a protein class. 20 dim [[pmf]] (one for each site)
 	- Can be aligned
 	- High chances of class not being present in data
@@ -23,8 +23,10 @@ title: Protein Modeling
 	- 19 dim hypervolume
 	- Continuous space and so can use [[pdf]]
 	- [[Dirichlet Distribution]] is used to represent it because parameterized with l = 20
-- ![[Pasted image 20220316123546.png]]
+- ![im](assets/Pasted image 20220316123546.png)
 - $\alpha$s fixed beforehand
+
+
 
 
 

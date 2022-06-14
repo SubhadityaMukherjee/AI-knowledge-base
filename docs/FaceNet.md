@@ -20,5 +20,3 @@ tags: architecture
 - [[Harmonic Embedding]]
 
 
-
-

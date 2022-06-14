@@ -5,7 +5,9 @@ tags: visualization
 
 # Cross Angle Maximization
 - avoid ambiguities
-- ![[Pasted image 20220418123203.png]]
+- ![im](assets/Pasted image 20220418123203.png)
+
+
 
 
 

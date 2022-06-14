@@ -9,7 +9,9 @@ title: Dirac Delta
 ## In $\mathbb{R}^{n}$
 - it is a [[pdf]] which describes prob concentrated in the origin
 - Multi [[point distribution]] -> combine dirac deltas
-- ![[Pasted image 20220319135742.png]]
+- ![im](assets/Pasted image 20220319135742.png)
+
+
 
 
 

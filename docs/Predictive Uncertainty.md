@@ -4,7 +4,9 @@ tags: uncertainty
 ---
 
 # Predictive [[Uncertainty]]
-- ![[Pasted image 20220323154146.png]]
+- ![im](assets/Pasted image 20220323154146.png)
+
+
 
 
 

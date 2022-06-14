@@ -16,7 +16,7 @@ tags: architecture
 	- without dilation
 	- padding $p = (k-1)/2p$
 	- since $out = in +2p -k +1$
-- ![[Pasted image 20220306120214.png]]
+- ![im](assets/Pasted image 20220306120214.png)
 
 ### V2/V3
 - nxn [[conv]] -> 1xn followed by nx1 [[conv]]
@@ -24,7 +24,9 @@ tags: architecture
 - More filters (wider)
 - Distributed the computational budget in a balanced way between the depth and width of the network
 - Added [[batch normalization]]
-- ![[Pasted image 20220306121513.png]]
+- ![im](assets/Pasted image 20220306121513.png)
+
+
 
 
 

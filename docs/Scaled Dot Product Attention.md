@@ -14,7 +14,9 @@ tags: architecture
 	- Euclidean length is $\sqrt{kc}$
 - $$Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{K}})V$$
 - Generalization of [[soft attention]]
-- ![[Pasted image 20220526133045.png]]
+- ![im](assets/Pasted image 20220526133045.png)
+
+
 
 
 

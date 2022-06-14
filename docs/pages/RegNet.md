@@ -5,3 +5,5 @@
 - widths and depths of good networks can be explained by a quantized linear function
 - outperforms [[EfficientNet]]
 
+
+

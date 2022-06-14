@@ -7,3 +7,5 @@ title: Methods for Feature Learning
 - Move D in a direction to minimize loss and project it back
 	- [[Gradient Descent gradients]] or [[LinearRegression]]
 
+
+

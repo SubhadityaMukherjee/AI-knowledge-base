@@ -12,3 +12,5 @@ tag: architecture
 	- $$\nabla_WE = \delta \cdot x^T$$ , $$\nabla_bE = \delta$$
 	- $$\nabla_xE = W^T\cdot \delta$$
 
+
+

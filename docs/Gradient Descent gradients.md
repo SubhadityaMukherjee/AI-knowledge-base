@@ -40,3 +40,5 @@ title: Gradient Descent #gradients
 
 
 
+
+

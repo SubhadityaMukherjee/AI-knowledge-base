@@ -12,3 +12,5 @@ tags: uncertainty
 - $f(x) \pm \sigma$
 - $f(x) \in [f(x) - \sigma,f(x) + \sigma]$
 
+
+

@@ -7,3 +7,5 @@ tags: architecture
 - Spatial dims reduce with depth, no of neurons increase
 - ![im](assets/Pasted image 20220306115954.png)
 
+
+

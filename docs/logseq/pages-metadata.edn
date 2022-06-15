@@ -10,6 +10,18 @@
  {:block/name "8 bit character set",
   :block/created-at 1655207298949,
   :block/updated-at 1655207298949}
+ {:block/name
+  "[conditional negative sampling for contrastive learning of visual representations](https:",
+  :block/created-at 1655221724346,
+  :block/updated-at 1655221724346}
+ {:block/name
+  "[conditional negative sampling for contrastive learning of visual representations](https://arxiv.org",
+  :block/created-at 1655221724348,
+  :block/updated-at 1655221724348}
+ {:block/name
+  "[conditional negative sampling for contrastive learning of visual representations](https://arxiv.org/abs",
+  :block/created-at 1655221724349,
+  :block/updated-at 1655221724349}
  {:block/name "a",
   :block/created-at 1655207670885,
   :block/updated-at 1655207670885}
@@ -34,9 +46,15 @@
  {:block/name "adam",
   :block/created-at 1655207299089,
   :block/updated-at 1655207299089}
+ {:block/name "adamw",
+  :block/created-at 1655287313744,
+  :block/updated-at 1655287313744}
  {:block/name "adding noise",
   :block/created-at 1655207311045,
   :block/updated-at 1655207311045}
+ {:block/name "ade20k",
+  :block/created-at 1655286210803,
+  :block/updated-at 1655286219219}
  {:block/name "adjective",
   :block/created-at 1655207299140,
   :block/updated-at 1655207299140}
@@ -178,6 +196,9 @@
  {:block/name "bce logits",
   :block/created-at 1655207299606,
   :block/updated-at 1655207299606}
+ {:block/name "beit",
+  :block/created-at 1655285811762,
+  :block/updated-at 1655285898898}
  {:block/name "bend minimization",
   :block/created-at 1655207300053,
   :block/updated-at 1655207300053}
@@ -274,6 +295,12 @@
  {:block/name "brocas area",
   :block/created-at 1655207300628,
   :block/updated-at 1655207300628}
+ {:block/name "byol",
+  :block/created-at 1655220621572,
+  :block/updated-at 1655221860215}
+ {:block/name "byol loss",
+  :block/created-at 1655220800212,
+  :block/updated-at 1655221041503}
  {:block/name "c",
   :block/created-at 1655207670886,
   :block/updated-at 1655207670886}
@@ -385,6 +412,9 @@
  {:block/name "contour",
   :block/created-at 1655207301320,
   :block/updated-at 1655207301320}
+ {:block/name "contrastive learning",
+  :block/created-at 1655221811769,
+  :block/updated-at 1655221811769}
  {:block/name "contrastive loss",
   :block/created-at 1655207301346,
   :block/updated-at 1655207301346}
@@ -397,6 +427,9 @@
  {:block/name "convnd",
   :block/created-at 1655207301399,
   :block/updated-at 1655207301399}
+ {:block/name "convnext",
+  :block/created-at 1655286881996,
+  :block/updated-at 1655287586955}
  {:block/name "convolutional rnn",
   :block/created-at 1655207301428,
   :block/updated-at 1655207301428}
@@ -433,6 +466,9 @@
  {:block/name "curse of dimensionality",
   :block/created-at 1655207301667,
   :block/updated-at 1655207301667}
+ {:block/name "cvt",
+  :block/created-at 1655286652064,
+  :block/updated-at 1655286742608}
  {:block/name "data structures",
   :block/created-at 1655207301686,
   :block/updated-at 1655207301686}
@@ -448,6 +484,9 @@
  {:block/name "deeplearning",
   :block/created-at 1655207312353,
   :block/updated-at 1655207312353}
+ {:block/name "deit",
+  :block/created-at 1655219794918,
+  :block/updated-at 1655220054757}
  {:block/name "delta waves",
   :block/created-at 1655207300492,
   :block/updated-at 1655207300492}
@@ -499,6 +538,9 @@
  {:block/name "distillation loss",
   :block/created-at 1655207302158,
   :block/updated-at 1655207302158}
+ {:block/name "distillation token",
+  :block/created-at 1655219862893,
+  :block/updated-at 1655219885213}
  {:block/name "distribution",
   :block/created-at 1655207300097,
   :block/updated-at 1655207300097}
@@ -724,6 +766,9 @@
  {:block/name "gaussian filter",
   :block/created-at 1655207303638,
   :block/updated-at 1655207303638}
+ {:block/name "gelu",
+  :block/created-at 1655287377572,
+  :block/updated-at 1655287377572}
  {:block/name "generative models",
   :block/created-at 1655207309389,
   :block/updated-at 1655207309389}
@@ -933,7 +978,10 @@
   :block/updated-at 1655207301762}
  {:block/name "jun 14th, 2022",
   :block/created-at 1655207313675,
-  :block/updated-at 1655218434488}
+  :block/updated-at 1655222018990}
+ {:block/name "jun 15th, 2022",
+  :block/created-at 1655287743660,
+  :block/updated-at 1655287743660}
  {:block/name "k means",
   :block/created-at 1655207304794,
   :block/updated-at 1655207304794}
@@ -1165,12 +1213,18 @@
  {:block/name "mle",
   :block/created-at 1655207300005,
   :block/updated-at 1655207300005}
+ {:block/name "mlp-mixer",
+  :block/created-at 1655285796235,
+  :block/updated-at 1655285796235}
  {:block/name "mnist",
   :block/created-at 1655207302746,
   :block/updated-at 1655207302746}
  {:block/name "mobile net",
   :block/created-at 1655207306410,
   :block/updated-at 1655207306410}
+ {:block/name "moco",
+  :block/created-at 1655221905216,
+  :block/updated-at 1655222006891}
  {:block/name "mode collapse",
   :block/created-at 1655207303662,
   :block/updated-at 1655207303662}
@@ -1234,12 +1288,18 @@
  {:block/name "nasnet",
   :block/created-at 1655207306800,
   :block/updated-at 1655207306800}
+ {:block/name "nce",
+  :block/created-at 1655221724350,
+  :block/updated-at 1655221852055}
  {:block/name "negative log likelihood",
   :block/created-at 1655207306821,
   :block/updated-at 1655207306821}
  {:block/name "neural dynamics",
   :block/created-at 1655207301293,
   :block/updated-at 1655207301293}
+ {:block/name "neural radiance field",
+  :block/created-at 1655220325947,
+  :block/updated-at 1655220537222}
  {:block/name "neuro",
   :block/created-at 1655216511929,
   :block/updated-at 1655216511929}
@@ -1567,6 +1627,9 @@
  {:block/name "relu",
   :block/created-at 1655207299033,
   :block/updated-at 1655207299033}
+ {:block/name "repvgg",
+  :block/created-at 1655286655048,
+  :block/updated-at 1655287746224}
  {:block/name "res net",
   :block/created-at 1655207301845,
   :block/updated-at 1655207301845}
@@ -1585,6 +1648,9 @@
  {:block/name "rmsprop",
   :block/created-at 1655207299089,
   :block/updated-at 1655207299089}
+ {:block/name "roam-highlights",
+  :block/created-at 1655220330176,
+  :block/updated-at 1655220330176}
  {:block/name "robotics",
   :block/created-at 1655207312353,
   :block/updated-at 1655207312353}
@@ -1630,6 +1696,9 @@
  {:block/name "self supervised",
   :block/created-at 1655207299628,
   :block/updated-at 1655207299628}
+ {:block/name "self supervised vision transformers",
+  :block/created-at 1655286659040,
+  :block/updated-at 1655286798511}
  {:block/name "semantic analysis",
   :block/created-at 1655207299414,
   :block/updated-at 1655207299414}
@@ -1681,6 +1750,9 @@
  {:block/name "sigmoid",
   :block/created-at 1655207299033,
   :block/updated-at 1655207299033}
+ {:block/name "simclr",
+  :block/created-at 1655221096672,
+  :block/updated-at 1655221875131}
  {:block/name "simd",
   :block/created-at 1655207303237,
   :block/updated-at 1655207303237}
@@ -1792,6 +1864,9 @@
  {:block/name "svhn",
   :block/created-at 1655218150677,
   :block/updated-at 1655218156376}
+ {:block/name "swin transformer",
+  :block/created-at 1655286068276,
+  :block/updated-at 1655286982986}
  {:block/name "swish",
   :block/created-at 1655207299036,
   :block/updated-at 1655207299036}
@@ -1855,6 +1930,9 @@
  {:block/name "time space duality",
   :block/created-at 1655207309026,
   :block/updated-at 1655207309026}
+ {:block/name "titler",
+  :block/created-at 1655287641163,
+  :block/updated-at 1655287641163}
  {:block/name "to look at",
   :block/created-at 1655207310550,
   :block/updated-at 1655207310550}
@@ -1998,7 +2076,7 @@
   :block/updated-at 1655207303018}
  {:block/name "vision transformer",
   :block/created-at 1655218432887,
-  :block/updated-at 1655218729538}
+  :block/updated-at 1655285796235}
  {:block/name "visual commonsense reasoning",
   :block/created-at 1655207311737,
   :block/updated-at 1655207311737}
@@ -2032,6 +2110,9 @@
  {:block/name "voronoi cell",
   :block/created-at 1655207304793,
   :block/updated-at 1655207304793}
+ {:block/name "vtab",
+  :block/created-at 1655219447502,
+  :block/updated-at 1655219453147}
  {:block/name "wait",
   :block/created-at 1655207670887,
   :block/updated-at 1655207670887}

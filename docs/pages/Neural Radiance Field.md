@@ -9,3 +9,5 @@
 	- set of images with known camera poses
 	- They describe how to effectively optimize neural radiance fields to render photorealistic novel views of scenes
 
+
+

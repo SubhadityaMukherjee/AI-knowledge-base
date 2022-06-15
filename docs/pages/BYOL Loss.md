@@ -5,3 +5,5 @@
 - $f_\theta$ is discarded, $y_\theta$ is used as image representation
 - ![](../assets/byol.jpg)
 
+
+

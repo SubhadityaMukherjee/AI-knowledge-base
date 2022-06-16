@@ -12,6 +12,7 @@ tags: architecture
 - If only spatial dims match (aka not channels) -> concat
 - less params than VGG
 - [[Skip Connection]]
+- Sadly, one of the creators Jian Sun passed away yesterday. (16-6-22)
 
 ```python
 def make_layer(inplanes, planes, block, n_blocks, stride=1):

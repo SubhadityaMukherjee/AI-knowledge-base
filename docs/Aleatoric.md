@@ -10,7 +10,9 @@ tags: uncertainty
 - $$\epsilon \sim \mathcal{N}(0, \sigma^{2})$$
 - [[Homoscedatic]]
 - [[Heteroscedatic]]
-- ![im](assets/Pasted image 20220323154218.png)
+- ![[../assets/Pasted image 20220323154218.png]]
+
+
 
 
 

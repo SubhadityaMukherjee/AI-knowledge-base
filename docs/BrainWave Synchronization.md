@@ -6,8 +6,10 @@ tags: brain
 # BrainWave Synchronization
 - Consistency of phase difference
 	- If 0 then perfect
-- ![im](assets/Pasted image 20220502161821.png)
+- ![[../assets/Pasted image 20220502161821.png]]
 - Phase Locking Value
+
+
 
 
 

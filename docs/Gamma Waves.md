@@ -6,7 +6,9 @@ tags: brain
 # Gamma Waves
 - 28-90 Hz
 - Attention/Consciousness
-- ![im](assets/Pasted image 20220502161142.png)
+- ![[../assets/Pasted image 20220502161142.png]]
+
+
 
 
 

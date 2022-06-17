@@ -7,7 +7,9 @@ tags: visualization
 - Automatic Segmentation
 - Requires seed point
 - Leakage through holes in [[contour]]
-- ![im](assets/Pasted image 20220411131307.png)
+- ![[../assets/Pasted image 20220411131307.png]]
+
+
 
 
 

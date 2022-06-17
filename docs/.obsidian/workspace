@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f3da09ed5f34fbfc",
+        "id": "3b2a3bee77d2c913",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "journals/2022-06-15.md",
+            "file": "journals/2022-06-17.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "brain",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5,
-    "collapsed": true
+    "width": 338.5
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -71,14 +70,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-06-15.md",
+                "file": "journals/2022-06-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -88,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-06-15.md",
+                "file": "journals/2022-06-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-06-15.md"
+                "file": "journals/2022-06-17.md"
               }
             }
           },
@@ -151,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-06-15.md",
+                "file": "journals/2022-06-17.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -186,17 +185,17 @@
     "direction": "horizontal",
     "width": 168.5
   },
-  "active": "f3da09ed5f34fbfc",
+  "active": "3b2a3bee77d2c913",
   "lastOpenFiles": [
-    "journals/2022-06-15.md",
-    "pages/ConvNeXt.md",
-    "templates/titler.md",
-    "journals/2022_06_15.md",
-    "Absolute Error.md",
-    "journals/2022_06_14.md",
-    "Self Attention GAN.md",
-    "Recurrent.md",
-    "Pipes.md",
-    "Node LInk Diagram.md"
+    "journals/2022-06-17.md",
+    "Inhibitory Control Network.md",
+    "Default mode network.md",
+    "Functional Connectivity.md",
+    "Brain Cortex.md",
+    "Gyrus.md",
+    "Cerebrum.md",
+    "Gaming addiction.md",
+    "Brain Areas.md",
+    "Transformer.md"
   ]
 }

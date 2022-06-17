@@ -10,8 +10,10 @@ title: ICA
 - Better after noise removal
 - Remove fewer than 20%
 - Remove really bad parts first
-- ![im](assets/Pasted image 20220502150051.png)
+- ![[../assets/Pasted image 20220502150051.png]]
 - [[ICA Noise Removal]]
+
+
 
 
 

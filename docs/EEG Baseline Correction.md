@@ -8,7 +8,9 @@ title: EEG Baseline Correction
 - Subtract average value from post stimulus period
 - Period where nothing is going on
 - 100-200 ms
-- ![im](assets/Pasted image 20220502154359.png)
+- ![[../assets/Pasted image 20220502154359.png]]
+
+
 
 
 

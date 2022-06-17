@@ -24,8 +24,10 @@ tags: distribution
 - [[N-dim Normal]]
 
 ## Others
-- ![im](assets/Pasted image 20220324120913.png)
+- ![[../assets/Pasted image 20220324120913.png]]
 #anchor
+
+
 
 
 

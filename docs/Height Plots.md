@@ -7,7 +7,9 @@ tags: visualization
 - 2D scalar field
 - $$\{(x,y, f(x,y))|(x,y)\in \mathbb{R}^{2}\}$$
 - Displacement along $z = f(x,y)$
-- ![im](assets/Pasted image 20220411133101.png)
+- ![[../assets/Pasted image 20220411133101.png]]
+
+
 
 
 

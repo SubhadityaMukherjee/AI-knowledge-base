@@ -1,8 +1,12 @@
 
 ---
+
 title: <% tp.file.title %>
-tags: architecture 
+
+tags: brain, psychology
+
 ---
+
 # <% tp.file.title %>
 
 

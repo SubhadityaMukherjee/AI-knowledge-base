@@ -7,7 +7,9 @@ tags: parallel
 - All vector operations occur between vector registers
 - If necessary, operands are fetched from main memory into a set of vector registers (load-store unit)
 - [[SIMD]] based on this
-- ![im](assets/Pasted image 20220506153707.png)
+- ![[../assets/Pasted image 20220506153707.png]]
+
+
 
 
 

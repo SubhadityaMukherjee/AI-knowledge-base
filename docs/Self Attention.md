@@ -4,7 +4,7 @@ tags: architecture einsum
 ---
 
 # Self Attention
-- ![im](assets/Scaled Dot Product Attention]]
+- ![[../assets/Scaled Dot Product Attention]]
 - Q,K,V all from same module but prev layer
 - Weighted average over all input vectors $$y_{i}= \Sigma_{j}w_{ij}x_{j}$$
 	- j is over the sequence
@@ -14,7 +14,7 @@ tags: architecture einsum
 		- $$w_{ij} = \frac{exp\ w'_{ij}}{\Sigma_{j}exp\ w'_{ij}}$$
 	- $x_i$ is the input vector at the same pos as the current output vector $y_i$
 - Propagates info between vectors
-- ![im](assets/Pasted image 20220525183444.png)
+- ![[../assets/Pasted image 20220525183444.png]]
 - The process
 	- Assign every word t in the vocabular an [[Embedding]]
 	- Feeding this into a self attention layer we get another seq of vectors $y_{the}$ , $y_{cat}$ etc
@@ -38,6 +38,8 @@ def attention(K, V, Q):
 
 ## Ref
 - [perterbloem](https://peterbloem.nl/blog/transformers)
+
+
 
 
 

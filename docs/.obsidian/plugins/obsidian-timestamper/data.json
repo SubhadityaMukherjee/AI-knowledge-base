@@ -1,6 +1,6 @@
 {
-  "timeStampFormat": "**hh:mm**",
+  "timeStampFormat": "- **hh:mm** ",
   "dateStampFormat": "YYYY-MM-DD",
   "lastFormat": "",
-  "newLine": true
+  "newLine": false
 }

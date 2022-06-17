@@ -15,11 +15,13 @@ tags: regularize
 		- p = 2
 		- [[Bayesian]]
 		- Encourages optimization trajectory perpendicular to isocurves
-		- ![im](assets/Pasted image 20220306133032.png)
+		- ![[../assets/Pasted image 20220306133032.png]]
 - Tune $$\lambda$$
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit
 	- [[Cross validation]] required
+
+
 
 
 

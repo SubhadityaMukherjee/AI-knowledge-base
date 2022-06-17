@@ -8,11 +8,13 @@ tags: visualization
 (such as organs in medical imaging data)
 -improve the detectability of edges between big structures,
 - preserve small scale structures
-![im](assets/Pasted image 20220418000525.png)- [[Conv Based Noise Reduction]]
+![[../assets/Pasted image 20220418000525.png]]- [[Conv Based Noise Reduction]]
 - [[Average Filter]]
 - [[Gaussian Filter]]
 - [[Mesh Smoothing]]
 - [[Laplacian Grid Smoothing]]
+
+
 
 
 

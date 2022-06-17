@@ -24,13 +24,15 @@ title: Bayesian Model Estimation
 	- Represent data with histograms and use [[Monte Carlo]]
 
 ## Example
-- ![im](assets/Pasted image 20220316120743.png)
-- ![im](assets/Pasted image 20220316120803.png)
+- ![[../assets/Pasted image 20220316120743.png]]
+- ![[../assets/Pasted image 20220316120803.png]]
 - Green : prior , Red: Posterior
 - The [[posterior mean estimate]] is obtained by integrating $\int_{\mathbb{R}}\mu h(\mu|D)d\mu$
 - Since this is different from sample mean -> Prior distribution really does influence the models
 
 ### [[Protein Modeling]]
+
+
 
 
 

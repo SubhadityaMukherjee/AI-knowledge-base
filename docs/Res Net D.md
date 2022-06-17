@@ -4,7 +4,9 @@ tags: architecture
 ---
 
 # Res Net D
-- ![im](assets/Pasted image 20220502134210.png)
+- ![[../assets/Pasted image 20220502134210.png]]
+
+
 
 
 

@@ -4,7 +4,7 @@ tags: architecture einsum
 ---
 
 # Multi Head Attention
-- ![im](assets/Scaled Dot Product Attention]]
+- ![[../assets/Scaled Dot Product Attention]]
 - Multiple attention instances, each focusing on a different part of the input
 - Words can mean different things in context
 	- If using [[Self Attention]], then this just gets summed up. Which is not very nice
@@ -13,7 +13,7 @@ tags: architecture einsum
 - $$MultiHead(Q,K,V) = Concat(head_1, head_2, …., head_h)W^O$$
 	- $$head_i = Attention(QW_i^Q, KW_i^K , VW_i^V)$$
 - W is learnable projections for attention params
-- ![im](assets/Pasted image 20220307183058.png)
+- ![[../assets/Pasted image 20220307183058.png]]
 - To improve efficiency
 	- Cut the incoming vector into chunks -> no of attention heads
 
@@ -51,6 +51,8 @@ class MultiHeadAttentionNew(nn.Module):
         output = self.layer_norm(output + residual)
         return output, attn
 ```
+
+
 
 
 

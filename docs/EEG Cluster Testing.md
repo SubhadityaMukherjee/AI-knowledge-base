@@ -12,8 +12,10 @@ title: EEG Cluster Testing
 	- Compute clusters for 100 or so distr of randomized data
 	- Decide if its rare
 - $$sumT = \text{sum of all t stats}$$
-- ![im](assets/Pasted image 20220502155613.png)
+- ![[../assets/Pasted image 20220502155613.png]]
 	- There was a significant difference between easy and more difficult trials between 712 ms post-stimulus and 768 ms post-stimulus. This difference was initially localized to a few central electrodes but over time spread out more posteriorly. This is consistent with previous studies that have shown
+
+
 
 
 

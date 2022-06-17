@@ -9,7 +9,9 @@ title: Uniform Sampling
 	- Coordinate transform
 	- [[CDF]]
 	- Get a [[sampler]] for by $$X_{i} = \varphi^{-1}\circ U_{i}$$
-	- ![im](assets/Pasted image 20220324113838.png) 
+	- ![[../assets/Pasted image 20220324113838.png]] 
+
+
 
 
 

@@ -4,7 +4,7 @@ title: Unsupervised Learning
 
 # Unsupervised Learning
 - Discover useful things from raw data
-- Representation/Embedding Learning
+- Representation/[Embedding](Embedding.md) Learning
 - If labels , train network and take intermediate [[layers]]
 - [[Clustering]]
 - [[PCA]]

@@ -17,8 +17,8 @@ tags: architecture einsum
 - ![[../assets/Pasted image 20220525183444.png]]
 - The process
 	- Assign every word t in the vocabular an [[Embedding]]
-	- Feeding this into a self attention layer we get another seq of vectors $y_{the}$ , $y_{cat}$ etc
-	- each of the $y_{something}$ is a weighted sum over all the embedding vectors in the first seq weighted by their normalized dot product with $v_{something}$
+	- Feeding this into a self [attention](Attention.md) layer we get another seq of vectors $y_{the}$ , $y_{cat}$ etc
+	- each of the $y_{something}$ is a weighted sum over all the [embedding](Embedding.md) vectors in the first seq weighted by their normalized dot product with $v_{something}$
 	- the dot product shows how related the vectors are in the sequence
 		- weights determined by them
 - Properties

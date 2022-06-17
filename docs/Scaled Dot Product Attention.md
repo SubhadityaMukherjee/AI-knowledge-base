@@ -9,7 +9,7 @@ tags: architecture
 	- $w_{ij}' = q_{i}^{T}k_{j}$ 
 	- $y_{i}= \Sigma_{j}w_{ij}v_{j}$
 - [[Softmax]] is sensitive to large values. Which sucks for the #gradients 
-- The avg value of the dot product grows with embedding dimension k. So scale back.
+- The avg value of the dot product grows with [embedding](Embedding.md) dimension k. So scale back.
 	- $\sqrt{k}$ . Vector in $\mathbb{R}^{k}$  with all values as c
 	- Euclidean length is $\sqrt{kc}$
 - $$Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{K}})V$$

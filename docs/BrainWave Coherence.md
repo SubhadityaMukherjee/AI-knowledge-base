@@ -4,7 +4,7 @@ tags: brain
 ---
 
 # BrainWave Coherence
-- Correlation in the frequency domain
+- [Correlation](Correlation.md) in the frequency domain
 - Unlike synchronization, this also depends on signal amplitude
 - ![[../assets/Pasted image 20220502162442.png]]
 	- coherence vs freq

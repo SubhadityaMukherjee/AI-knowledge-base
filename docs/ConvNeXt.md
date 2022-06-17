@@ -26,7 +26,7 @@ tags: architecture
 	- [[ImageNet]]
 	- [[COCO]]
 	- [[ADE20K]]
-	- A case in point is multi-modal learning, in which a cross-attention module may be preferable for modeling feature interactions across many modalities
+	- A case in point is multi-modal learning, in which a cross-[attention](Attention.md) module may be preferable for modeling feature interactions across many modalities
 	- Transformers may be more flexible when used for tasks requiring discretized, sparse, or structured outputs
 
 

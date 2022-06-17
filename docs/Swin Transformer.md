@@ -15,7 +15,7 @@ tags: architecture
 	- linear computational complexity with respect to input image size
 	- shifted window based [[Self Attention]]
 	- address the challenges in adapting Transformer from language to vision
-	- limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection
+	- limiting self-[attention](Attention.md) computation to non-overlapping local windows while also allowing for cross-window connection
 	- flexibility to model at various scales
 	- linear computational complexity with respect to image size
 	- [[ImageNet]]

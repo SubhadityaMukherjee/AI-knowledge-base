@@ -18,7 +18,7 @@ tags: architecture
 	- [[ImageNet]]
 	- [[Position Encoding]] , a crucial component in existing Vision Transformers, can be safely removed in our model
 	- potential advantage for adaption
-	- built-in local context structure introduced by convolutions, CvT no longer requires a position embedding
+	- built-in local context structure introduced by convolutions, CvT no longer requires a position [embedding](Embedding.md)
 
 
 

@@ -9,7 +9,7 @@ title: Softmax
 - Multinoulli
 
 ## Entropy
-- $\alpha$ determines entropy
+- $\alpha$ determines [entropy](Entropy.md)
 - If it is 0, and [[uniform distribution]] and limit to infinity -> binary vector which is 0 everywhere except at position i when y is maximal
 
 ## Temperature

@@ -12,10 +12,10 @@ tags: architecture einsum
 	- Concatenate them and pass through a linear transform -> dimension back to k
 - $$MultiHead(Q,K,V) = Concat(head_1, head_2, …., head_h)W^O$$
 	- $$head_i = Attention(QW_i^Q, KW_i^K , VW_i^V)$$
-- W is learnable projections for attention params
+- W is learnable projections for [attention](Attention.md) params
 - ![[../assets/Pasted image 20220307183058.png]]
 - To improve efficiency
-	- Cut the incoming vector into chunks -> no of attention heads
+	- Cut the incoming vector into chunks -> no of [attention](Attention.md) heads
 
 ```python
 class MultiHeadAttentionNew(nn.Module):

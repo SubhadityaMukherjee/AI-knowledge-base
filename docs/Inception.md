@@ -11,7 +11,7 @@ tags: architecture
 - [[Conv]] at different filter scales to find different kinds of features -> stack them up
 - Increasing both the depth and width of the network while keeping computations at a manageable level
 - Human visual system wherein information is processed at multiple scales and then aggregated locally
-- channel dimensionality reduction, by reducing the output channels of the input
+- channel [dimensionality reduction](Dimensionality%20Reduction.md), by reducing the output channels of the input
 - To enable concatenation of features convolved with different kernels, they pad the output to make it the same size as the input.
 	- without dilation
 	- padding $p = (k-1)/2p$

@@ -5,7 +5,7 @@ tags: loss
 
 # Contrastive Loss
 - Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
-- Learn Embedding/Feature space using neighbors
+- Learn [Embedding](Embedding.md)/Feature space using neighbors
 - dim(Embedding d) < dim(input Space D)
 - Encoded using a learnable function(NN) $$G_\theta(x) : \mathcal{R}^D \rightarrow \mathcal{R}^d$$
 - Binary labels : similar or not

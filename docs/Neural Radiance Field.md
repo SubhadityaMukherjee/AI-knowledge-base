@@ -20,3 +20,5 @@ tags: architecture
 	- They describe how to effectively optimize neural radiance fields to render photorealistic novel views of scenes
 
 
+
+

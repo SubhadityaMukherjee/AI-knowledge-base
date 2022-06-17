@@ -12,3 +12,5 @@ tags: brain, psychology
 - [[inferior Frontal Gyri]] and [[Medial Frontal Gyri]], the [[Opercular Cingulate]], [[Insular Cingulate]], [[Orbital Posterior Cingulate]] and [[Posterior Parietal Cortex]]
 
 
+
+

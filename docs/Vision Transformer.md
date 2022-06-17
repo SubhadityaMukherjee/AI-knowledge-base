@@ -24,3 +24,5 @@ tags: architecture
 	- [[MLP-Mixer]]
 
 
+
+

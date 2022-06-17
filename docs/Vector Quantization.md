@@ -24,3 +24,5 @@ title: Vector Quantization
 
 
 
+
+

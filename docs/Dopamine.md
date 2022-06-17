@@ -17,3 +17,5 @@ tags: brain, psychology
 	- And should the expected reward not be received, dopamine activity drops, sending a negative feedback signal to the relevant parts of the brain, weakening the positive association
 
 
+
+

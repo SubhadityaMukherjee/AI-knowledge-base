@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 338.5,
+    "collapsed": true
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -138,7 +139,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "d0ace91d3b548220",
@@ -188,14 +190,14 @@
   "active": "3b2a3bee77d2c913",
   "lastOpenFiles": [
     "journals/2022-06-17.md",
-    "Inhibitory Control Network.md",
-    "Default mode network.md",
-    "Functional Connectivity.md",
-    "Brain Cortex.md",
-    "Gyrus.md",
-    "Cerebrum.md",
-    "Gaming addiction.md",
+    "Stroop Task.md",
+    "PIUQ.md",
+    "templates/titler.md",
+    "BOLD.md",
+    "fMRI.md",
+    "3.md",
+    "Neuroscience.md",
     "Brain Areas.md",
-    "Transformer.md"
+    "journals/2022-06-16.md"
   ]
 }

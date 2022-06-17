@@ -3,7 +3,7 @@
 
 title: <% tp.file.title %>
 
-tags: brain, psychology
+tags: brain cogneuro 
 
 ---
 

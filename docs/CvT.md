@@ -21,3 +21,5 @@ tags: architecture
 	- built-in local context structure introduced by convolutions, CvT no longer requires a position embedding
 
 
+
+

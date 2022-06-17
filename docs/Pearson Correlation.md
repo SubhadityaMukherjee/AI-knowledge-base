@@ -12,3 +12,5 @@ tags: statistics
 - $$r = \frac{n(\Sigma xy) - (\Sigma x)(\Sigma y)}{\sqrt{[n\Sigma x^{2} - (\Sigma x)^{2}][n\Sigma y^{2} - (\Sigma y)^{2}]}}$$ 
 
 
+
+

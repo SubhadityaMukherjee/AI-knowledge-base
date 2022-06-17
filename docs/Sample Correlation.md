@@ -14,3 +14,5 @@ tags: statistics
 - $s_y$ is the sample [[Covariance]]
 
 
+
+

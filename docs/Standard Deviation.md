@@ -14,3 +14,5 @@ tags: statistics
 - $$std = \sqrt{\frac{\Sigma(x-\bar x)^{2}}{n-1}}$$
 
 
+
+

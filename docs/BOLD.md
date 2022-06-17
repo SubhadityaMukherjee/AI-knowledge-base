@@ -17,3 +17,5 @@ tags: brain cogneuro
 - Factors such as drugs, substances [3](https://psychology.fandom.com/wiki/BOLD_response#cite_note-3) and excitation [4](https://psychology.fandom.com/wiki/BOLD_response#cite_note-4) have been shown to increase BOLD response. Conversely, age and brain pathology [5](https://psychology.fandom.com/wiki/BOLD_response#cite_note-5) have been shown to decrease BOLD response
 
 
+
+

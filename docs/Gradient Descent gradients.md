@@ -50,3 +50,5 @@ title: Gradient Descent #gradients
 
 
 
+
+

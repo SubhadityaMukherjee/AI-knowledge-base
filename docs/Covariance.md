@@ -14,3 +14,5 @@ tags: statistics
 - $\bar x$ is the mean of x
 
 
+
+

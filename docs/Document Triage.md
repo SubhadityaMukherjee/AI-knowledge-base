@@ -1,6 +1,4 @@
 ---
-
-​￼---
 title: Document Triage
 tags: language
 ---
@@ -10,25 +8,5 @@ tags: language
 - Character Encoding Identification ([[ASCII]], UNICODE..)
 - [[Language Identification]] (English, French,..)
 - Text Sectioning
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

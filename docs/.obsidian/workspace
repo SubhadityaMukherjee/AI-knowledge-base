@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "83a922390803f8dc",
+        "id": "28a91904de557e28",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Document Triage.md",
+            "file": "journals/2022-06-19.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -17,12 +17,25 @@
         }
       },
       {
-        "id": "4cfe2b91eca158f1",
+        "id": "866c42621f2847ec",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ERP.md",
+            "file": "journals/2022-06-19.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "bc699ddd456d317e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "journals/2022-06-17.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -83,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ERP.md",
+                "file": "journals/2022-06-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ERP.md",
+                "file": "journals/2022-06-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ERP.md"
+                "file": "journals/2022-06-19.md"
               }
             }
           },
@@ -163,7 +176,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ERP.md",
+                "file": "journals/2022-06-19.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -198,17 +211,17 @@
     "direction": "horizontal",
     "width": 168.5
   },
-  "active": "4cfe2b91eca158f1",
+  "active": "866c42621f2847ec",
   "lastOpenFiles": [
+    "journals/2022-06-19.md",
+    "journals/2022-06-17.md",
+    "journals/2022-06-16.md",
+    "Action Transitive verb.md",
+    "Document Triage.md",
     "ERP.md",
     "Equivalent Current Dipole.md",
     "Ergodic.md",
     "Epistemic.md",
-    "Entropy.md",
-    "Entourage Plot.md",
-    "Entities involving in actions.md",
-    "Ensemble Distillation.md",
-    "Encodings.md",
-    "Encoder Decoder Attention.md"
+    "Entropy.md"
   ]
 }

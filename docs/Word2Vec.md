@@ -10,9 +10,5 @@ tags: architecture
 - possible to train high quality word vectors using very simple model architectures
 
 
-## Backlinks
 
-> - [](journals/2022-06-20.md)
->   - [[Word2Vec]]
 
-_Backlinks last generated 2022-06-20 17:57:49_

@@ -12,9 +12,5 @@ tags: loss
 - This is also equivalent to the exponentiation of the [Cross Entropy](Cross%20Entropy.md) between the data and model predictions
 
 
-## Backlinks
 
-> - [Speech Recognition](Speech Recognition.md)
->   - 50% reduction of [[Perplexity]]
 
-_Backlinks last generated 2022-06-20 17:57:49_

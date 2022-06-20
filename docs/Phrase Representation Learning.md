@@ -15,9 +15,5 @@ tags: architecture
 - [BLEU](BLEU.md)
 
 
-## Backlinks
 
-> - [](journals/2022-06-20.md)
->   - [[Phrase Representation Learning]]
 
-_Backlinks last generated 2022-06-20 17:57:49_

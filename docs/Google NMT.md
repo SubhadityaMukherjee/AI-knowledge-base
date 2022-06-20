@@ -14,9 +14,5 @@ tags: architecture
 	- [[Beam search]] technique employs a length-normalization procedure and uses a coverage penalty
 
 
-## Backlinks
 
-> - [](journals/2022-06-20.md)
->   - [[Google NMT]]
 
-_Backlinks last generated 2022-06-20 17:57:49_

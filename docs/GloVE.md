@@ -17,9 +17,5 @@ tags: architecture
 - global log-bilinear [LinearRegression](LinearRegression.md) model for the unsupervised learning of word representations
 
 
-## Backlinks
 
-> - [](journals/2022-06-20.md)
->   - [[GloVE]]
 
-_Backlinks last generated 2022-06-20 17:57:49_

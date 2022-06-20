@@ -13,9 +13,5 @@ tags: architecture
 	- break the myth that language modeling is just about counting n-grams, and that the only reasonable way how to improve results is by acquiring new training dat
 
 
-## Backlinks
 
-> - [](journals/2022-06-20.md)
->   - [[Speech Recognition]]
 
-_Backlinks last generated 2022-06-20 17:57:49_

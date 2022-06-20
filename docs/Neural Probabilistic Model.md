@@ -14,9 +14,5 @@ tags: architecture
 - significantly improves on state-of-the-art [[n gram]] models
 
 
-## Backlinks
 
-> - [](journals/2022-06-20.md)
->   - [[Neural Probabilistic Model]]
 
-_Backlinks last generated 2022-06-20 17:57:49_

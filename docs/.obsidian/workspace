@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "957271d940bcdeb6",
+        "id": "98a7759ea31984a5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Issues.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "bdce7b17949ac63d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "journals/2022-06-20.md",
+            "file": "Recurrent.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -84,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-06-20.md",
+                "file": "Recurrent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-06-20.md",
+                "file": "Recurrent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-06-20.md"
+                "file": "Recurrent.md"
               }
             }
           },
@@ -164,22 +151,22 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-06-20.md",
+                "file": "Recurrent.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
-                  "localInterlinks": false,
+                  "localInterlinks": true,
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": false,
-                  "textFadeMultiplier": 0,
+                  "textFadeMultiplier": -1.3,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
@@ -187,8 +174,8 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6818651728872552,
-                  "close": false
+                  "scale": 0.47602629881326214,
+                  "close": true
                 }
               }
             }
@@ -199,17 +186,17 @@
     "direction": "horizontal",
     "width": 291.5
   },
-  "active": "bdce7b17949ac63d",
+  "active": "98a7759ea31984a5",
   "lastOpenFiles": [
-    "journals/2022-06-20.md",
-    "Google NMT.md",
-    "Attention NMT.md",
-    "Bahdanau Attention.md",
-    "Phrase Representation Learning.md",
-    "Seq2Seq.md",
-    "BLEU.md",
-    "WMT14.md",
-    "GloVE.md",
-    "LinearRegression.md"
+    "Recurrent.md",
+    "Tanh.md",
+    "ActivationFunctions.md",
+    "Softplus.md",
+    "Relu.md",
+    "Transformer.md",
+    "GPT.md",
+    "Unsupervised Learning.md",
+    "Imagen.md",
+    "SegNet.md"
   ]
 }

@@ -9,3 +9,5 @@ tags: architecture
 	- [Attention](Attention.md) mechanism (borrowed from the field of information retrieval) within the context of NLP
 
 
+
+

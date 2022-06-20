@@ -9,6 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
+            "file": "Issues.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "bdce7b17949ac63d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
             "file": "journals/2022-06-20.md",
             "mode": "source",
             "backlinks": false,
@@ -174,7 +187,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6672942708540951,
+                  "scale": 0.6818651728872552,
                   "close": false
                 }
               }
@@ -184,19 +197,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 168.5
+    "width": 291.5
   },
-  "active": "957271d940bcdeb6",
+  "active": "bdce7b17949ac63d",
   "lastOpenFiles": [
     "journals/2022-06-20.md",
-    "Imagen.md",
-    "DrawBench.md",
-    "MobileOne.md",
-    "Pix2Seq.md",
-    "Instant NeRF.md",
-    "Regularization.md",
-    "Effects of Regularization.md",
-    "Masked Autoencoders.md",
-    "VICReg.md"
+    "Google NMT.md",
+    "Attention NMT.md",
+    "Bahdanau Attention.md",
+    "Phrase Representation Learning.md",
+    "Seq2Seq.md",
+    "BLEU.md",
+    "WMT14.md",
+    "GloVE.md",
+    "LinearRegression.md"
   ]
 }

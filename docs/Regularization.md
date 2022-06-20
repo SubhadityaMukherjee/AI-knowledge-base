@@ -17,29 +17,5 @@ tags: regularize
 
 - [[Lp Regularization]]
 - [[Pruning]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [[Effects of Regularization]]
 

@@ -1,18 +1,9 @@
-
 ---
-
 title: <% tp.file.title %>
 
-tags: brain cogneuro 
-
+tags: architecture 
 ---
 
 # <% tp.file.title %>
-
-
-
-
-
-
 
 

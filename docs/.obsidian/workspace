@@ -4,38 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "28a91904de557e28",
+        "id": "957271d940bcdeb6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "journals/2022-06-19.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "866c42621f2847ec",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "journals/2022-06-19.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "bc699ddd456d317e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "journals/2022-06-17.md",
+            "file": "journals/2022-06-20.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -80,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 338.5,
+    "collapsed": true
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -96,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-06-19.md",
+                "file": "journals/2022-06-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-06-19.md",
+                "file": "journals/2022-06-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-06-19.md"
+                "file": "journals/2022-06-20.md"
               }
             }
           },
@@ -176,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-06-19.md",
+                "file": "journals/2022-06-20.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,17 +186,17 @@
     "direction": "horizontal",
     "width": 168.5
   },
-  "active": "866c42621f2847ec",
+  "active": "957271d940bcdeb6",
   "lastOpenFiles": [
-    "journals/2022-06-19.md",
-    "journals/2022-06-17.md",
-    "PIUQ.md",
-    "Stroop Task.md",
-    "Inhibitory Control Network.md",
-    "Default mode network.md",
-    "journals/2022-06-16.md",
-    "Action Transitive verb.md",
-    "Document Triage.md",
-    "ERP.md"
+    "journals/2022-06-20.md",
+    "Imagen.md",
+    "DrawBench.md",
+    "MobileOne.md",
+    "Pix2Seq.md",
+    "Instant NeRF.md",
+    "Regularization.md",
+    "Effects of Regularization.md",
+    "Masked Autoencoders.md",
+    "VICReg.md"
   ]
 }

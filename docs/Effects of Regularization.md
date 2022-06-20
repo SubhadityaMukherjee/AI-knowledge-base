@@ -20,3 +20,5 @@ tags: regularize
 - Conversely, color jitter does not affect shape or texture-based categories (for e.g., zebra), but affects color-based categories (for e.g., basket ball)
 
 
+
+

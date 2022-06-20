@@ -18,3 +18,5 @@ tags: architecture
 - With DrawBench, we compare Imagen with recent methods including [[VQGAN]]+[[CLIP]], [[Latent Diffusion]] Models, and [[DALL-E]], and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment
 
 
+
+

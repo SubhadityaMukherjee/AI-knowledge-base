@@ -18,3 +18,5 @@ tags: architecture
 - building an entire neighborhood in San Francisco from 2.8M images using a grid of Block-NeRFs, forming the largest neural scene representation to date
 
 
+
+

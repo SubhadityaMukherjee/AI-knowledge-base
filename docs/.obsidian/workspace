@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Recurrent.md",
+            "file": "Bahdanau Attention.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recurrent.md",
+                "file": "Bahdanau Attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recurrent.md",
+                "file": "Bahdanau Attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recurrent.md"
+                "file": "Bahdanau Attention.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Recurrent.md",
+                "file": "Bahdanau Attention.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,15 +188,15 @@
   },
   "active": "98a7759ea31984a5",
   "lastOpenFiles": [
-    "Recurrent.md",
-    "Gated Recurrent Unit (GRU).md",
-    "Basic RNN Architectures.md",
-    "SRN.md",
-    "Long Short Term Memory (LSTM).md",
+    "Bahdanau Attention.md",
+    "Additive Attention.md",
     "journals/2022-06-21.md",
-    "Seq2Seq.md",
-    "Bi Directional RNN.md",
-    "Stacking RNN.md",
-    "Misyak et al 2010.md"
+    "Attention.md",
+    "Dot Product Attention.md",
+    "Attention Alignment.md",
+    "Relative Multi Head Self Attention.md",
+    "Location Aware Attention.md",
+    "Soft Attention.md",
+    "Scaled Dot Product Attention.md"
   ]
 }

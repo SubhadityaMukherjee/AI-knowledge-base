@@ -5,6 +5,10 @@ tags: architecture
 
 # Gated [[Recurrent]] Unit (GRU)
 - ![](assets/Pasted%20image%2020220621124840.png)
+- Simplified [Long Short Term Memory (LSTM)](Long%20Short%20Term%20Memory%20(LSTM).md)
+- It has an input and forget gate, no output gate
+- Faster than LSTM in training, but does not perform well in many tasks
+- Tries to forget what is not important
 
 ## The Math
 - Two gates, [[sigmoid]]
@@ -15,11 +19,5 @@ tags: architecture
 - Final hidden state
 	- Linear [[interpolation]] between last hidden state and proposal
 	- $$h_t = (1-g_u)\cdot h_{t-1} + g_u \cdot \hat h_t$$
-
-
-
-
-
-
 
 

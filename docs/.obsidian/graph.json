@@ -69,6 +69,13 @@
         "a": 1,
         "rgb": 11185245
       }
+    },
+    {
+      "query": "tag:#todo",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
     }
   ],
   "collapse-display": false,
@@ -81,6 +88,6 @@
   "repelStrength": 10.5494505494506,
   "linkStrength": 1,
   "linkDistance": 53,
-  "scale": 0.06000271376911237,
+  "scale": 0.07624579972281242,
   "close": false
 }

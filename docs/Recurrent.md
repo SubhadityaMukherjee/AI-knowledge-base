@@ -1,6 +1,6 @@
 ---
 title: Recurrent
-tag: architecture
+tag: todo architecture
 ---
 
 # Recurrent
@@ -36,12 +36,5 @@ tag: architecture
 	- The model first discovers the general word-space structure and then rapidly starts to learn the words.
 	- First starting with the short words and then eventually the longer ones.
 	- Topics and themes that span multiple words (and in general longer-term dependencies) start to emerge only much later.
-- [[Basic RNN Architectures]]
-
-
-
-
-
-
 
 

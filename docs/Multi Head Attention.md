@@ -4,7 +4,7 @@ tags: architecture einsum
 ---
 
 # Multi Head Attention
-- ![[../assets/Scaled Dot Product Attention]]
+- [ZihangDai et al., 2019](https://arxiv.org/abs/1901.02860)
 - Multiple attention instances, each focusing on a different part of the input
 - Words can mean different things in context
 	- If using [[Self Attention]], then this just gets summed up. Which is not very nice
@@ -51,45 +51,5 @@ class MultiHeadAttentionNew(nn.Module):
         output = self.layer_norm(output + residual)
         return output, attn
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

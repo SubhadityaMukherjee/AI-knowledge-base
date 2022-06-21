@@ -1,17 +1,9 @@
 ---
 title: <% tp.file.title %>
 
-tags: language psychology 
+tags: architecture 
 ---
 
 # <% tp.file.title %>
-
-
-
-
-
-
-
-
 
 

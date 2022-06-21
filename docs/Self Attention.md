@@ -4,14 +4,14 @@ tags: architecture einsum
 ---
 
 # Self Attention
-- ![[../assets/Scaled Dot Product Attention]]
+- [paper](https://arxiv.org/abs/1706.03762v5)
+- Basically [Scaled Dot Product Attention](Scaled%20Dot%20Product%20Attention.md)
 - Q,K,V all from same module but prev layer
 - Weighted average over all input vectors $$y_{i}= \Sigma_{j}w_{ij}x_{j}$$
 	- j is over the sequence
 	- weights sum to 1 over j
-	- $w_{ij}$ is derived  $w^{'}_{ij}=x_{i}^{T}x_{j}$ 
+	- $w_{ij}$ is derived  $w^{'}_{ij}=x_{i}^{T}x_{j}$
 		- Any value between -inf to +inf so [[Softmax]] is applied
-		- $$w_{ij} = \frac{exp\ w'_{ij}}{\Sigma_{j}exp\ w'_{ij}}$$
 	- $x_i$ is the input vector at the same pos as the current output vector $y_i$
 - Propagates info between vectors
 - ![[../assets/Pasted image 20220525183444.png]]
@@ -21,11 +21,12 @@ tags: architecture einsum
 	- each of the $y_{something}$ is a weighted sum over all the [embedding](Embedding.md) vectors in the first seq weighted by their normalized dot product with $v_{something}$
 	- the dot product shows how related the vectors are in the sequence
 		- weights determined by them
+		- Self-Attention layer may give more weights to those input vectors that are more similar to each other when generating the output vectors
 - Properties
 	- Inputs are a set (not sequence)
 	- If input seq is permuted, the output is too
 	- Ignores the sequential nature of input by itself
-- Code 
+- Code
 
 ```python
 def attention(K, V, Q):
@@ -38,47 +39,5 @@ def attention(K, V, Q):
 
 ## Ref
 - [perterbloem](https://peterbloem.nl/blog/transformers)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

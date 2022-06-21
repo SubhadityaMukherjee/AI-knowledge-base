@@ -28,3 +28,5 @@ tags: architecture
 		- $$h_t = g_o \cdot \sigma_y(C_t)$$
 
 
+
+

@@ -13,8 +13,9 @@ tags: architecture
 - The avg value of the dot product grows with [embedding](Embedding.md) dimension k. So scale back.
 	- $\sqrt{k}$ . Vector in $\mathbb{R}^{k}$  with all values as c
 	- Euclidean length is $\sqrt{kc}$
-- $$Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{K}})V$$
+- $$Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{d_{k}}})V$$
 - Generalization of [[soft attention]]
 - ![[../assets/Pasted image 20220526133045.png]]
+- [Attention Alignment](Attention%20Alignment.md) score $$\alpha_{t,i} = \frac{s_{t}^{T}h_{i}}{\sqrt{n}}$$
 
 

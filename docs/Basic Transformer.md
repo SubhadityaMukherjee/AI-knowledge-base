@@ -14,9 +14,5 @@ tags: architecture
 - [[Position Wise Feed Forward]]
 
 
-## Backlinks
 
-> - [Transformer](Transformer.md)
->   - [[Basic Transformer]]
 
-_Backlinks last generated 2022-06-21 17:08:56_

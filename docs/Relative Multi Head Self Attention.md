@@ -9,9 +9,5 @@ tags: architecture
 - 
 
 
-## Backlinks
 
-> - [Attention](Attention.md)
->   - [[Relative Multi Head Self Attention]]
 
-_Backlinks last generated 2022-06-21 17:08:56_

@@ -12,3 +12,11 @@ tags: architecture
 - [CLS] : start of classification task, [SEP] between sentences, [MASK] : masked token
 
 
+
+
+## Backlinks
+
+> - [BEiT](BEiT.md)
+>   - proposed method is critical to make [[BERT]] like pre-training (i.e., auto-encoding with masked input) work well for image Transformers
+
+_Backlinks last generated 2022-06-21 18:32:55_

@@ -75,6 +75,8 @@ plugins:
        #- roamlinks
   - awesome-pages
   - git-revision-date
+  - ezlinks:
+      wikilinks: false
   - minify:
       minify_html: true
       minify_js: true

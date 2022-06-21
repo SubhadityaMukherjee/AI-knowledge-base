@@ -4,10 +4,13 @@ tags: architecture
 ---
 
 # Long Short Term Memory (LSTM)
+- ![](assets/Pasted%20image%2020220621124622.png)
 - Smaller chance of exploding or vanishing #gradients
 - Better ability to model long term dependencies
 - Gated connections
 - Splitting state into parts -> output pred and feature learning
+
+## The Math
 - Gates
 	- Forget $$g_f = \sigma(W_{hf}h_{t-1} + W_{xf}x_t + b_f)$$
 		- How much of the previous cell state is used
@@ -21,39 +24,5 @@ tags: architecture
 		- Final cell state : $$C_t = g_f \cdot C_{t-1} + g_i\cdot \hat C$$
 	- $$h_t$$ to predict output
 		- $$h_t = g_o \cdot \sigma_y(C_t)$$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

@@ -35,12 +35,5 @@ tags: language psychology
 - [[Challenges of Words-and-rules]]
 	
 
-## Backlinks
 
-> - [Challenges of Words-and-rules](Challenges of Words-and-rules.md)
->   - [[Words-and-Rules]] fits a lot of the data, but is vague on
->    
-> - [](journals/2022-06-21.md)
->   - [[Words-and-Rules]]
 
-_Backlinks last generated 2022-06-21 11:57:32_

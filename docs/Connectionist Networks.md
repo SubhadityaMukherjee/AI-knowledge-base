@@ -9,9 +9,5 @@ tags: language psychology
 - Basically deep learning
 
 
-## Backlinks
 
-> - [](journals/2022-06-21.md)
->   - [[Connectionist Networks]]
 
-_Backlinks last generated 2022-06-21 11:57:32_

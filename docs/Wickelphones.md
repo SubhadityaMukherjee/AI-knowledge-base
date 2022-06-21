@@ -25,9 +25,5 @@ tags: language psychology
 - No distinction between tokens and types, each verb simply included once
 
 
-## Backlinks
 
-> - [](journals/2022-06-21.md)
->   - [[Wickelphones]]
 
-_Backlinks last generated 2022-06-21 11:57:32_

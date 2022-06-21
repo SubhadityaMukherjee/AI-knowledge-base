@@ -10,5 +10,7 @@
   "vimMode": true,
   "fileSortOrder": "alphabetical",
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "foldIndent": true,
+  "showIndentGuide": false
 }

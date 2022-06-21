@@ -22,9 +22,5 @@ tags: language psychology
 - [Basic RNN Architectures](Basic%20RNN%20Architectures.md) can find these
 
 
-## Backlinks
 
-> - [](journals/2022-06-21.md)
->   - [[Elman 1990]]
 
-_Backlinks last generated 2022-06-21 11:57:32_

@@ -16,9 +16,5 @@ tags: language psychology
 - multiple long-distance dependencies
 
 
-## Backlinks
 
-> - [](journals/2022-06-21.md)
->   - [[Memory-based learning]]
 
-_Backlinks last generated 2022-06-21 11:57:32_

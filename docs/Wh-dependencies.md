@@ -9,9 +9,5 @@ tags: language psychology
 - Nobody knows [what] the brain is doing [t].
 
 
-## Backlinks
 
-> - [Non-adjacent Dependencies](Non-adjacent dependencies.md)
->   - [[Wh-dependencies]]
 
-_Backlinks last generated 2022-06-21 11:57:32_

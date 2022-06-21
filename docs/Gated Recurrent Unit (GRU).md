@@ -4,6 +4,9 @@ tags: architecture
 ---
 
 # Gated [[Recurrent]] Unit (GRU)
+- ![](assets/Pasted%20image%2020220621124840.png)
+
+## The Math
 - Two gates, [[sigmoid]]
 	- Reset : $$g_r = \sigma(W_{hr}h_{t-1} + W_{xr}x_t + b_r)$$
 	- Update :  $$g_u = \sigma(W_{hu}h_{t-1} + W_{xu}x_t + b_u)$$
@@ -12,39 +15,5 @@ tags: architecture
 - Final hidden state
 	- Linear [[interpolation]] between last hidden state and proposal
 	- $$h_t = (1-g_u)\cdot h_{t-1} + g_u \cdot \hat h_t$$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

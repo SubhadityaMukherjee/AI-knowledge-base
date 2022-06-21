@@ -10,9 +10,5 @@ tags: language psychology
 	- Exactly how learning proceeds
 
 
-## Backlinks
 
-> - [Words-and-Rules](Words-and-Rules.md)
->   - [[Challenges of Words-and-rules]]
 
-_Backlinks last generated 2022-06-21 11:57:32_

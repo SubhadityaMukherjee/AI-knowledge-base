@@ -27,9 +27,5 @@ tags: language psychology
 - Adults then lose this ability
 
 
-## Backlinks
 
-> - [](journals/2022-06-21.md)
->   - [[Misyak et al 2010]]
 
-_Backlinks last generated 2022-06-21 11:57:32_

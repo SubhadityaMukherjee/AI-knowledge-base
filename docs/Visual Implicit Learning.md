@@ -16,9 +16,5 @@ tags: language psychology
 - Learning simple dependencies is not so difficult it seems. But natural language has many dependencies at a distance
 
 
-## Backlinks
 
-> - [](journals/2022-06-21.md)
->   - [[Visual Implicit Learning]]
 
-_Backlinks last generated 2022-06-21 11:57:32_

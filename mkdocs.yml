@@ -72,7 +72,7 @@ extra_css:
 plugins:
   - search:
      lang: en
-  - roamlinks
+       #- roamlinks
   - awesome-pages
   - git-revision-date
   - minify:

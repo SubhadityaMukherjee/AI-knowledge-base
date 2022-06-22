@@ -6,7 +6,9 @@ tags: visualization
 # [[Sampling]] Ray Casting
 - selection of positions along the ray
 - [[Early Ray Termination]]
-- ![[../assets/Pasted image 20220418002410.png]]
+- ![im](assets/Pasted image 20220418002410.png)
+
+
 
 
 

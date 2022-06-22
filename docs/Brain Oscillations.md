@@ -12,7 +12,9 @@ tags: brain
 - [[Beta Waves]]
 - [[Gamma Waves]]
 - [[Spectrogram]]
-- ![[../assets/Pasted image 20220502160132.png]]
+- ![im](assets/Pasted image 20220502160132.png)
+
+
 
 
 

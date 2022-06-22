@@ -12,7 +12,9 @@ tags: loss
 - $\theta$ is trained weights
 - $\xi$ is exponentially moving average of $\theta$ and sg is stop gradient
 - $f_\theta$ is discarded, $y_\theta$ is used as image representation
-- ![](../assets/byol.jpg)
+- ![](assets/byol.jpg)
+
+
 
 
 

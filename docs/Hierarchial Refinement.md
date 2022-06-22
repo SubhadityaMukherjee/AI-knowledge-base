@@ -10,10 +10,12 @@ tags: visualization
 - Fine grained info encoded -> smaller hypercubes to increase resolution
 - n = 2 : quadtree
 - n = 3 : octree
-- ![[../assets/Pasted image 20220316000739.png]]
+- ![im](assets/Pasted image 20220316000739.png)
 - [[Mesh refinement]]
 
 ## …
+
+
 
 
 

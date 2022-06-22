@@ -3,7 +3,7 @@
 
 title: RepVGG
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -16,36 +16,6 @@ tags: architecture
 	- identity and 1 \times 1 branches, but only for training
 	- [[ImageNet]]
 	- higher accuracy and show favorable accuracy-speed trade-off compared to the state-of-the-art models like [[EfficientNet]] and [[RegNet]]
-	- ![](../assets/RepVGG.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	- ![](assets/RepVGG.jpg)
 
 

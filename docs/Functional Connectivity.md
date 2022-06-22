@@ -4,7 +4,7 @@ tags: brain
 ---
 
 # Functional Connectivity
-- ![[../assets/Pasted image 20220502161507.png]]
+- ![im](assets/Pasted image 20220502161507.png)
 
 ## Symmetric
 - [[BrainWave Synchronization]]
@@ -13,6 +13,8 @@ tags: brain
 
 ## Directed/Asymmetric
 - [[Granger Causallity]]
+
+
 
 
 

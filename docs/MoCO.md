@@ -3,7 +3,7 @@
 
 title: MoCO
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -22,37 +22,7 @@ tags: architecture
 - oldest mini-batch dequeued
 - slowly progressing encoder
 - momentum update with the query encoder
-- ![](../assets/moco1.jpg)
-- ![](../assets/moco2.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- ![](assets/moco1.jpg)
+- ![](assets/moco2.jpg)
 
 

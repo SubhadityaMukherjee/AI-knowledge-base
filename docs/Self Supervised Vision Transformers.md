@@ -3,7 +3,7 @@
 
 title: Self Supervised Vision Transformers
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -14,36 +14,6 @@ tags: architecture
 	- instability is a major issue that degrades accuracy, and it can be hidden by apparently good results
 	- improved when training is made more stable
 	- [[MoCO]] v3, a framework which offers an incremental improvement of [[MoCO]]
-	- ![](../assets/moco3.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	- ![](assets/moco3.jpg)
 
 

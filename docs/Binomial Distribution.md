@@ -10,7 +10,9 @@ tags: distribution
 - s = 0,1,2..N
 - $N\choose s$ is binomial coefficient
 - $$X \sim Bi(N,s)$$
-- ![[../assets/Pasted image 20220319133401.png]]
+- ![im](assets/Pasted image 20220319133401.png)
+
+
 
 
 

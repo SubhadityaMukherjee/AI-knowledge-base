@@ -4,7 +4,7 @@ tags: architecture
 ---
 
 # AutoEncoder
-- ![[../assets/Pasted image 20220310204652.png]]
+- ![im](assets/Pasted image 20220310204652.png)
 - Regression by predicting a reconstruction of the data
 - Encoder $$E : \mathscr{X} \rightarrow \mathscr{F}$$
 - Decoder $$\mathscr{F} \rightarrow \mathscr{D}$$
@@ -20,6 +20,8 @@ tags: architecture
 ## Types
 - [[Denoising Autoencoder]]
 - [[VAE]]
+
+
 
 
 

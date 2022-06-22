@@ -8,8 +8,8 @@ tags: visualization
 - Ideal low-pass filter
 - multiply with box filter in frequency domain
 - convolution with sinc in spatial domain (impractical: infinite extent)
-- ![[../assets/Pasted image 20220411130419.png]]
-- ![[../assets/Pasted image 20220411130431.png]]
+- ![im](assets/Pasted image 20220411130419.png)
+- ![im](assets/Pasted image 20220411130431.png)
 - Spatially narrow (wide) filter has wide (narrow) spectrum and low (high) smoothing effect
 
 
@@ -59,3 +59,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Noise Suppression](Noise Suppression.md)
+>   - ![im](assets/Pasted image 20220418000525.png)- [[Conv Based Noise Reduction]]
+
+_Backlinks last generated 2022-06-22 11:03:50_

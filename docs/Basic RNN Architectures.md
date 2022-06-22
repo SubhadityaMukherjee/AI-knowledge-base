@@ -4,7 +4,7 @@ tags: architecture
 ---
 
 # Basic RNN Architectures
-![[../assets/Pasted image 20220307171009.png]]
+![im](assets/Pasted image 20220307171009.png)
 - [Recurrent](Recurrent.md)
 - [[SRN]]
 - [[Stacking RNN]]
@@ -13,6 +13,8 @@ tags: architecture
 - [[Temporal Conv]]
 - [[Gated Recurrent Unit (GRU)]]
 - [Long Short Term Memory (LSTM)](Long%20Short%20Term%20Memory%20(LSTM).md)
+
+
 
 
 

@@ -4,7 +4,9 @@ tags: visualization
 ---
 
 # Grids
-- ![[../assets/Pasted image 20220411124545.png]]
+- ![im](assets/Pasted image 20220411124545.png)
+
+
 
 
 

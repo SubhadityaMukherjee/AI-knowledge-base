@@ -6,7 +6,9 @@ tags: architecture
 # GPT
 - Pretrained using [[Unsupervised Learning]] and finetuned
 - [[Log Likelihood Loss]]
-- ![[../assets/Pasted image 20220307184212.png]]
+- ![im](assets/Pasted image 20220307184212.png)
+
+
 
 
 

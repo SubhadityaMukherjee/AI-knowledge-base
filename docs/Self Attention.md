@@ -14,7 +14,7 @@ tags: architecture einsum
 		- Any value between -inf to +inf so [[Softmax]] is applied
 	- $x_i$ is the input vector at the same pos as the current output vector $y_i$
 - Propagates info between vectors
-- ![[../assets/Pasted image 20220525183444.png]]
+- ![im](assets/Pasted image 20220525183444.png)
 - The process
 	- Assign every word t in the vocabular an [[Embedding]]
 	- Feeding this into a self [attention](Attention.md) layer we get another seq of vectors $y_{the}$ , $y_{cat}$ etc
@@ -39,5 +39,7 @@ def attention(K, V, Q):
 
 ## Ref
 - [perterbloem](https://peterbloem.nl/blog/transformers)
+
+
 
 

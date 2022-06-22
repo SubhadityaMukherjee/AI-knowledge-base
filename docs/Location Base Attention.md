@@ -9,9 +9,5 @@ tags: architecture
 - [Attention Alignment](Attention%20Alignment.md) score $\alpha_{t,i} = softmax(W_{\alpha}s_{t})$
 
 
-## Backlinks
 
-> - [Attention](Attention.md)
->   - [[Location Base Attention]]
 
-_Backlinks last generated 2022-06-21 18:32:55_

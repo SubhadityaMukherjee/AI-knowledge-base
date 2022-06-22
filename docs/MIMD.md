@@ -10,7 +10,9 @@ tags: parallel
 - Grids
 - Multi processor [[SMP]] computers
 - Also include [[SIMD]] sub components
-- ![[../assets/Pasted image 20220506151115.png]]
+- ![im](assets/Pasted image 20220506151115.png)
+
+
 
 
 

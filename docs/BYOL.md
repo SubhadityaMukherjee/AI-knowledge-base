@@ -19,7 +19,8 @@ tags: architecture
 	- [[Res Net]]
 	- dependent on existing sets of [[Augmentation]] that are specific to vision applications
 	- [[BYOL Loss]]
-	  id:: 62a8aa38-6fee-480e-9fc7-5511c0ae6836
+
+
 
 
 

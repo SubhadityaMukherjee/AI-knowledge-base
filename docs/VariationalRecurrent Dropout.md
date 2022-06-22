@@ -8,9 +8,11 @@ tags: regularize
 - Only on the non [[recurrent]] parts such as inputs and outputs
 - In recorrent parts, use the same [dropout](Dropout.md) mask for all time steps
 - Same [dropout](Dropout.md) mask for each time step
-- ![[../assets/Pasted image 20220306113950.png]]
+- ![im](assets/Pasted image 20220306113950.png)
 
 ## …
+
+
 
 
 

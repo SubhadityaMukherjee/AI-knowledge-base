@@ -5,7 +5,9 @@ tags: brain
 
 # Beta Waves
 - Movement
-- ![im](assets/Pasted image 20220502161106.png)
+- ![im](assets/Pasted%20Image%2020220502161106.png)
+
+
 
 
 

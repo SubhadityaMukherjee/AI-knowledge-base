@@ -18,13 +18,15 @@ tags: visualization
 - [[Midpoint Decider]]
 - [[Asymptotic Decider]]
 - 8. Go to next cell
-- ![im](assets/Pasted image 20220417235937.png)
+- ![im](assets/Pasted%20Image%2020220417235937.png)
 
 ## Limitations
 - Produces many triangles
 - Cannot represent sharp edges
 - Produces “ugly” (thin) triangles
 - Produces ringing artifacts!
+
+
 
 
 

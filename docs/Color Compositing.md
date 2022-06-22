@@ -4,11 +4,11 @@ tags: visualization
 ---
 
 # Color Compositing
-- ![im](assets/Pasted image 20220418002036.png)
+- ![im](assets/Pasted%20Image%2020220418002036.png)
 - $$C_{i}= c_{i}+ (1-o_{i})C_{i-1}$$
 - where
 - $$c_{i}= o_{i}c_{i}'$$
-- ![im](assets/Pasted image 20220418003237.png)
+- ![im](assets/Pasted%20Image%2020220418003237.png)
 - First is same as [[Marching Cubes]]
 - $$I(p) = \begin{cases*}
 
@@ -18,6 +18,8 @@ I_{o}&otherwise
 
 \end{cases*}$$
 - Higher pixel accurate quality
+
+
 
 
 

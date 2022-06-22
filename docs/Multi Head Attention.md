@@ -13,7 +13,7 @@ tags: architecture einsum
 - $$MultiHead(Q,K,V) = Concat(head_1, head_2, …., head_h)W^O$$
 	- $$head_i = Attention(QW_i^Q, KW_i^K , VW_i^V)$$
 - W is learnable projections for [attention](Attention.md) params
-- ![im](assets/Pasted image 20220307183058.png)
+- ![im](assets/Pasted%20Image%2020220307183058.png)
 - To improve efficiency
 	- Cut the incoming vector into chunks -> no of [attention](Attention.md) heads
 
@@ -51,6 +51,8 @@ class MultiHeadAttentionNew(nn.Module):
         output = self.layer_norm(output + residual)
         return output, attn
 ```
+
+
 
 
 

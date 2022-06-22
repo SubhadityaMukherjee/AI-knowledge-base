@@ -4,7 +4,9 @@ tags: visualization
 ---
 
 # Length Optimization
-- ![im](assets/Pasted image 20220418123246.png)
+- ![im](assets/Pasted%20Image%2020220418123246.png)
+
+
 
 
 

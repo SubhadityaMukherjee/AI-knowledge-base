@@ -14,7 +14,7 @@ title: Linear Regression
 	- If y is has vector data too (size k)
 		- $$W' = (XX')^{-1}XY$$
 		- Y : N x k matrix 
-- ![im](assets/Pasted image 20220309132129.png)
+- ![im](assets/Pasted%20Image%2020220309132129.png)
 - $$\phi _1  , \phi_2 …$$ form a subspace $$\mathscr{F}$$ with dim = n
 	- linearly independant vectors. If not, drop as many as possible
 - The optimal solution y_opt is the projection of y on that subspace and has the smallest distance from y
@@ -35,6 +35,8 @@ title: Linear Regression
 
 ## Random Notes
 - $$(A'A)^{-1}A'$$ is the left psuedo inverse
+
+
 
 
 

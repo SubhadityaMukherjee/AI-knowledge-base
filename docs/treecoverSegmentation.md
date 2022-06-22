@@ -10,17 +10,19 @@ tags: application
 	- Rotation
 	- Jiggling ??
 	- Labeling
-		- ![im](assets/Pasted image 20220318094643.png) Segmentation algorithm. Canopy hide model
+		- ![im](assets/Pasted%20Image%2020220318094643.png) Segmentation algorithm. Canopy hide model
 		- Weighted loss + [[Focal Loss]]
 ## 2d Methods
 - [[Watershed]] + [[Unet]]
-- ![im](assets/Pasted image 20220318100323.png)
-- ![im](assets/Pasted image 20220318100634.png)
+- ![im](assets/Pasted%20Image%2020220318100323.png)
+- ![im](assets/Pasted%20Image%2020220318100634.png)
 	- $\Theta$ is just clippingpng]]
 	- The sqrt makes it a little smoother
 ## Ref
 - Max Freudenberg - Gottingen Uni Germany
 - Adrian Stroker - Gottingen Uni Germany
+
+
 
 
 

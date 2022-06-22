@@ -5,12 +5,13 @@ tag: todo architecture
 
 # Recurrent
 - Sequences as inputs/outputs
+- Sequential processing
 - Turing complete
 - memory through state persisted between timesteps
 	- operation invariant to the sequence
 	- reduces no of params needed
 - Output comes back as input
-	- ![im](assets/Pasted image 20220314132442.png)
+	- ![im](assets/Pasted%20Image%2020220314132442.png)
 - variable sized inputs and outputs : encoder decoder
 - Three weight matrices and two bias vectors.
 - $$h_t = \sigma_h(W_{hh}h_{t-1} + W_{xh}x_t + b_h)$$
@@ -18,7 +19,7 @@ tag: todo architecture
 - Stateful : hidden state kept across batches of inputs
 - Activation usually [[sigmoid]] or [[tanh]]
 - BPTT
-	- ![im](assets/Pasted image 20220306185944.png)![im](assets/Pasted image 20220306190603.png)
+	- ![im](assets/Pasted%20Image%2020220306185944.png)![im](assets/Pasted%20Image%2020220306190603.png)
 	- #gradients
 		- If eigen decomposition $$W = Q\wedge^tQ$$, then $$h_t = Q^T\wedge^tQ$$
 		- If less than 0 then will converge to 0 or if bigger then will explore to infinity -> long sequences
@@ -36,9 +37,5 @@ tag: todo architecture
 	- The model first discovers the general word-space structure and then rapidly starts to learn the words.
 	- First starting with the short words and then eventually the longer ones.
 	- Topics and themes that span multiple words (and in general longer-term dependencies) start to emerge only much later.
-
-
-
-
 
 

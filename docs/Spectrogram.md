@@ -4,7 +4,9 @@ tags: brain visualization
 ---
 
 # Spectrogram
-- ![im](assets/Pasted image 20220502160646.png)
+- ![im](assets/Pasted%20Image%2020220502160646.png)
+
+
 
 
 

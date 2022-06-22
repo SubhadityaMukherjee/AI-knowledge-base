@@ -4,7 +4,9 @@ tags: distribution
 ---
 
 # Node Distribution
-![im](assets/Pasted image 20220418123429.png)-
+![im](assets/Pasted%20Image%2020220418123429.png)-
+
+
 
 
 

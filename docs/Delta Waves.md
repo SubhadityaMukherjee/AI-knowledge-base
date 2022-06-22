@@ -6,7 +6,9 @@ tags: brain
 # Delta Waves
 - 2-4 Hz 
 - sleep
-- ![im](assets/Pasted image 20220502160733.png)
+- ![im](assets/Pasted%20Image%2020220502160733.png)
+
+
 
 
 

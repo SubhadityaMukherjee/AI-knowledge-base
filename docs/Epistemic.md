@@ -7,7 +7,9 @@ tags: uncertainty
 - [[Uncertainty]] produced by the model
 - Class imbalance etc
 - Reduce by adding more info
-- ![im](assets/Pasted image 20220323154101.png)
+- ![im](assets/Pasted%20Image%2020220323154101.png)
+
+
 
 
 

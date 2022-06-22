@@ -4,7 +4,9 @@ tags: visualization
 ---
 
 # Grids
-- ![im](assets/Pasted image 20220411124545.png)
+- ![im](assets/Pasted%20Image%2020220411124545.png)
+
+
 
 
 

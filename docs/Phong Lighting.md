@@ -4,7 +4,9 @@ tags: visualization
 ---
 
 # Phong Lighting
-- ![im](assets/Pasted image 20220418000844.png)
+- ![im](assets/Pasted%20Image%2020220418000844.png)
+
+
 
 
 

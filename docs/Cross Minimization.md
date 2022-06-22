@@ -6,7 +6,9 @@ tags: visualization
 # Cross Minimization
 - planar graph: can be drawn on a plane without edge crossings
 - from Euler’s formula - the maximum number of edges for planar graphs: $$e \leq 3v-6$$
-- ![im](assets/Pasted image 20220418105118.png)
+- ![im](assets/Pasted%20Image%2020220418105118.png)
+
+
 
 
 

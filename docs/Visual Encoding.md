@@ -4,8 +4,10 @@ tags: visualization
 ---
 
 # Visual Encoding
-- ![im](assets/Pasted image 20220418104606.png)
+- ![im](assets/Pasted%20Image%2020220418104606.png)
 - [[Characteristics of Visual Variables]]
+
+
 
 
 

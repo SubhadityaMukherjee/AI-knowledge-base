@@ -6,7 +6,9 @@ tags: visualization
 # Pre Classification
 - Classification of scalars at each sample via [[Transfer Function]]
 - [[Interpolation]] of RGBA values
-- ![im](assets/Pasted image 20220418003142.png)
+- ![im](assets/Pasted%20Image%2020220418003142.png)
+
+
 
 
 

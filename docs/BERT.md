@@ -8,8 +8,10 @@ tags: architecture
 - Uses [Token Embedding](Token%20Embedding.md)
 - [[Self supervised]]
 - Masked language modeling, next sentence prediction
-- ![im](assets/Pasted image 20220307183916.png)
+- ![im](assets/Pasted%20Image%2020220307183916.png)
 - [CLS] : start of classification task, [SEP] between sentences, [MASK] : masked token
+
+
 
 
 

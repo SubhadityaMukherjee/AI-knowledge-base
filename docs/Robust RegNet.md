@@ -23,3 +23,5 @@ tags: architecture
 - large-scale self-supervised pre-training yields more robust, fair, less harmful, and less biased results than supervised models or models trained on object centric datasets such as ImageNet
 
 
+
+

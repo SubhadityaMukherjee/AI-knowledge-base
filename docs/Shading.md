@@ -4,7 +4,9 @@ tags: visualization
 ---
 
 # Shading
-- ![im](assets/Pasted image 20220418001034.png)
+- ![im](assets/Pasted%20Image%2020220418001034.png)
+
+
 
 
 

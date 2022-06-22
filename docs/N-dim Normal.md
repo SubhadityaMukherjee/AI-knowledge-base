@@ -9,8 +9,10 @@ tags: distribution
 - [[PDF]] $$p(x) = \frac{1}{(2\pi)^{n/2}det(\Sigma)^{\frac{1}{2}}}exp\left(-\frac{1}{2}(x-\mu)'\Sigma^{-1}(x-\mu)\right)$$
 - $\mu$ is expectation $E[(X_{1}, …, X_{n})']$ and $\Sigma$ is the [covariance](Covariance.md) matrix
 - $$\Sigma(i,j) = E[(X_{i} - E[X_{i}])(X_{j}-E[X_{j}])]$$
-- ![im](assets/Pasted image 20220319151038.png)
+- ![im](assets/Pasted%20Image%2020220319151038.png)
 - $$\hat \mu = \frac{1}{N}\Sigma_{i}x_{i}$$ and $$\hat \Sigma = \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)(x_{i}-\hat\mu)'$$
+
+
 
 
 

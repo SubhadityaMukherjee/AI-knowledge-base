@@ -1,0 +1,26 @@
+---
+title: conditioning
+
+tags: language cogneuro psychology 
+---
+
+# Conditioning
+- Unconditioned Stimulus (US) (=food)
+- Another feature or cue (bell), becomes Conditioned Stimulus (CS)
+- A response that indicates association (salvation)
+- The unconditioned stimulus is what we want to predict, our outcome
+- Conditioned Stimuli or cues are the features we are learning to use to predict the outcome (US)
+- Current Vector V t ij changes with each learning instance
+- $$V_{ij}^{t+1}= V_{ij}^{t}+ \Delta V_{ij}^{t}$$
+- $$\Delta V_{ij}^{t}=(1-\text{connection weight}_{j}^{t})$$
+- ▶ V = association strength ▶ i = current input (cue) ▶ j = current output (outcome) ▶ ∆ V : Change in association strength
+- Pavlov discovered evidence of positive associations
+- Associations increase in strength whenever a feature and a cue occur together
+
+
+## Backlinks
+
+> - [](journals/2022-06-23.md)
+>   - [[conditioning]]
+
+_Backlinks last generated 2022-06-23 15:42:06_

@@ -1,0 +1,20 @@
+---
+title: Symbolic models
+
+tags: language cogneuro psychology 
+---
+
+# Symbolic Models
+- Code letters separately from order
+- This type of model does make transposition errors ◮ Can because B is a 'thing' on its own, separate from order
+- Botvinick, M. M., & Plaut, D. C. (2006). Short-term memory for serial order: a recurrent neural network model. Psychological review, 113(2), 201.
+- Model could later correctly reproduce novel sequences
+- But all letters had occurred in each position
+
+
+## Backlinks
+
+> - [](journals/2022-06-23.md)
+>   - [[Symbolic models]]
+
+_Backlinks last generated 2022-06-23 15:42:06_

@@ -10,3 +10,5 @@ title: Position Encoding
 	- Something like ("Hello", 1) , ("from",2) , ("me", 3)
 
 
+
+

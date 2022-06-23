@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Basic Transformer.md",
+            "file": "journals/2022-06-23.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basic Transformer.md",
+                "file": "journals/2022-06-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basic Transformer.md",
+                "file": "journals/2022-06-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basic Transformer.md"
+                "file": "journals/2022-06-23.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Basic Transformer.md",
+                "file": "journals/2022-06-23.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,15 +188,15 @@
   },
   "active": "98a7759ea31984a5",
   "lastOpenFiles": [
-    "Basic Transformer.md",
-    "Transformer.md",
-    "Vision Transformer.md",
-    "SRN.md",
-    "Basic RNN Architectures.md",
-    "Recurrent.md",
-    "Scaled Dot Product Attention.md",
-    "Self Attention.md",
-    "Attention.md",
-    "Position Encoding.md"
+    "journals/2022-06-23.md",
+    "Saffran, Aslin and Newport.md",
+    "Overhypotheses.md",
+    "Second order generalization.md",
+    "First order generalization.md",
+    "Inductive Learning.md",
+    "Deductive Approaches.md",
+    "Milin et al..md",
+    "Attentions and salience.md",
+    "Rescorla-Wagner Algorithm.md"
   ]
 }

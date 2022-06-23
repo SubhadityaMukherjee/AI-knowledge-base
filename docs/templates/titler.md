@@ -1,15 +1,9 @@
 ---
 title: <% tp.file.title %>
 
-tags: architecture 
+tags: language cogneuro psychology 
 ---
 
 # <% tp.file.title %>
-
-
-
-
-
-
 
 

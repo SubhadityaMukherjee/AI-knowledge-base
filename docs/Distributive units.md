@@ -10,9 +10,11 @@ tags: language cogneuro psychology
 - The states of individual units are uninterpretable
 
 
+
+
 ## Backlinks
 
-> - [](journals/2022-06-23.md)
+> - [CSL](journals/2022-06-23.md)
 >   - [[Distributive units]]
 
-_Backlinks last generated 2022-06-23 15:42:06_
+_Backlinks last generated 2022-06-23 16:11:10_

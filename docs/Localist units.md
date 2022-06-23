@@ -11,9 +11,11 @@ tags: language cogneuro psychology
 - In the hidden units: is there evidence of localist encoding developing?
 
 
+
+
 ## Backlinks
 
-> - [](journals/2022-06-23.md)
+> - [CSL](journals/2022-06-23.md)
 >   - [[Localist units]]
 
-_Backlinks last generated 2022-06-23 15:42:06_
+_Backlinks last generated 2022-06-23 16:11:10_

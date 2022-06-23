@@ -12,9 +12,11 @@ tags: language cogneuro psychology
 - But all letters had occurred in each position
 
 
+
+
 ## Backlinks
 
-> - [](journals/2022-06-23.md)
+> - [CSL](journals/2022-06-23.md)
 >   - [[Symbolic models]]
 
-_Backlinks last generated 2022-06-23 15:42:06_
+_Backlinks last generated 2022-06-23 16:11:10_

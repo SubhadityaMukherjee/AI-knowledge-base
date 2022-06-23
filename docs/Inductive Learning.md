@@ -25,9 +25,11 @@ tags: language cogneuro psychology
 - using observations from the lowest level (data) and calculating statistical inferences
 
 
+
+
 ## Backlinks
 
-> - [](journals/2022-06-23.md)
+> - [CSL](journals/2022-06-23.md)
 >   - [[Inductive Learning]]
 
-_Backlinks last generated 2022-06-23 15:42:06_
+_Backlinks last generated 2022-06-23 16:11:10_

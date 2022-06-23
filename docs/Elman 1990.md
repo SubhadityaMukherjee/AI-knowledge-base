@@ -6,7 +6,7 @@ tags: language psychology
 
 # Elman 1990
 - The network learned generalizations
-- examine hidden unit activation pattern for each word measure distance between each pattern and every other pattern (Euclidean distance)
+- examine hidden unit activation pattern for each word measure distance between each pattern and every other pattern ([Euclidean distance](Euclidean%20Distance.md))
 - Use this to create a hierarchical cluster.
 - Network learned semantic classes
 - If the input to a simulation is preselected to avoid problems, one has instantiated an expert filtering system.
@@ -20,6 +20,8 @@ tags: language psychology
 - language is very redundant, so certain simplifications actually remove helpful features
 - Categories can 'emerge' via statistical regularities
 - [Basic RNN Architectures](Basic%20RNN%20Architectures.md) can find these
+
+
 
 
 

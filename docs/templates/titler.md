@@ -1,7 +1,7 @@
 ---
 title: <% tp.file.title %>
 
-tags: language cogneuro psychology 
+tags: handwritingRecognition 
 ---
 
 # <% tp.file.title %>

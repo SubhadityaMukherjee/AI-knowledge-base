@@ -8,3 +8,5 @@ tags: visualization
 - Weights follow $$G(x) = e^{-ax^{2}}$$
 
 
+
+

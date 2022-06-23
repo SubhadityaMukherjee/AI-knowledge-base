@@ -17,9 +17,11 @@ tags: language cogneuro psychology
 - Recurrent networks trained to store multiple things at the same time over the same set of units learn highly selective (localist) representations
 
 
+
+
 ## Backlinks
 
-> - [](journals/2022-06-23.md)
+> - [CSL](journals/2022-06-23.md)
 >   - [[Superposition Catastrophe]]
 
-_Backlinks last generated 2022-06-23 15:42:06_
+_Backlinks last generated 2022-06-23 16:11:10_

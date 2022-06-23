@@ -4,8 +4,10 @@ tags: visualization
 ---
 
 # Perceptually Uniform
-- Euclidean distance corresponds to perceptual difference
+- [Euclidean distance](Euclidean%20Distance.md) corresponds to perceptual difference
 - e.g., CIELUV,CIELAB, (L*,a*,b*).
+
+
 
 
 

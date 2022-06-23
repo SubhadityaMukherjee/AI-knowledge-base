@@ -19,9 +19,11 @@ tags: language cogneuro psychology
 - The model only learns when the predicted outcome differs from actual outcome
 
 
+
+
 ## Backlinks
 
-> - [](journals/2022-06-23.md)
+> - [CSL](journals/2022-06-23.md)
 >   - [[Rescorla-Wagner Algorithm]]
 
-_Backlinks last generated 2022-06-23 15:42:06_
+_Backlinks last generated 2022-06-23 16:11:10_

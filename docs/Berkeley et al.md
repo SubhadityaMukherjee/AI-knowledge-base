@@ -26,9 +26,11 @@ tags: language cogneuro psychology
 - Problem for localist representations, but even more serious with distributed representations
 
 
+
+
 ## Backlinks
 
-> - [](journals/2022-06-23.md)
+> - [CSL](journals/2022-06-23.md)
 >   - [[Berkeley et al]]
 
-_Backlinks last generated 2022-06-23 15:42:06_
+_Backlinks last generated 2022-06-23 16:11:10_

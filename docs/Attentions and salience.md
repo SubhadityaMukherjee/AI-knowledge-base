@@ -20,9 +20,11 @@ tags: language cogneuro psychology
 - even though they co-occur with different verb forms, these are hard to learn
 
 
+
+
 ## Backlinks
 
-> - [](journals/2022-06-23.md)
+> - [CSL](journals/2022-06-23.md)
 >   - [[Attentions and salience]]
 
-_Backlinks last generated 2022-06-23 15:42:06_
+_Backlinks last generated 2022-06-23 16:11:10_

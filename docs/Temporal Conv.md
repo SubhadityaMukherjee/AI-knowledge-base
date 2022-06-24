@@ -1,9 +1,12 @@
 ---
 title: Temporal Conv
+tags: architecture 
 ---
 
 # Temporal [[Conv]]
 - FCN + [[Causal 1D Conv]] + Residual
+
+
 
 
 

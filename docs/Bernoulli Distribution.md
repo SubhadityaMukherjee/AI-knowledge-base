@@ -63,3 +63,14 @@ tags: distribution
 
 
 
+
+
+## Backlinks
+
+> - [Sigmoid](Sigmoid.md)
+>   - [[Bernoulli Distribution]] over a binary variable
+>    
+> - [Binomial Distribution](Binomial Distribution.md)
+>   - [[Bernoulli Distribution]] repeated for N independant trials with success [[probability]] q
+
+_Backlinks last generated 2022-06-24 12:00:32_

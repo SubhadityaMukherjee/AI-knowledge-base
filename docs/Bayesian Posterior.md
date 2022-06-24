@@ -68,3 +68,15 @@ title: Bayesian Posterior
 
 
 
+
+
+## Backlinks
+
+> - [[[Bayesian]] Model Estimation](Bayesian Model Estimation.md)
+>   - [[Bayesian Posterior]]
+>   - How to encode or represent [[Bayesian Posterior]] as very high dim
+>    
+> - [[Bayesian](Bayesian.md) Predictive Posterior](Bayesian Predictive Posterior.md)
+>   - Follows from [[Bayesian Posterior]]
+
+_Backlinks last generated 2022-06-24 12:00:32_

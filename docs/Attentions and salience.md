@@ -17,14 +17,10 @@ tags: language cogneuro psychology
 - L2 learners go through phases where time is marked with adverbials alone (Bardovi-Harlig 1992; Meisel 1987)
 - This seems to block acquisition of other cues
 - temporal adverbs are highly salient (and easier) so they get stronger associations
-- even though they co-occur with different verb forms, these are hard to learn
+- even though they co-occur with different [verb](Verb.md) forms, these are hard to learn
 
 
 
 
-## Backlinks
 
-> - [CSL](journals/2022-06-23.md)
->   - [[Attentions and salience]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

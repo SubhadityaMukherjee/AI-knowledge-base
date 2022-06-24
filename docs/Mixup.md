@@ -1,5 +1,6 @@
 ---
 title: Mixup
+tags: regularize 
 ---
 
 # Mixup
@@ -9,6 +10,8 @@ title: Mixup
 - $$\hat y = \lambda y_{i}+(1-\lambda)y_{j}$$
 - $\lambda \in [0,1]$  is a random number from [[Beta Distribution]]
 - New example $(\hat x, \hat y)$
+
+
 
 
 

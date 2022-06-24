@@ -1,5 +1,6 @@
 ---
 title: Window Based Regression
+tags: architecture 
 ---
 
 # Window Based Regression
@@ -12,6 +13,8 @@ title: Window Based Regression
 ## Non Linearity
 - Add fixed nonlinear transforms to input arguments : eg polynomials
 - [[Volterra expansion]]
+
+
 
 
 

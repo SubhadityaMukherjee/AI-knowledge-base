@@ -11,10 +11,12 @@ tags: architecture
 - aggregated global word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space
 - whether distributional word representations are best learned from count-based methods or from prediction-based methods
 - probe the underlying co-occurrence statistics of the corpus
-- reformulated word2vec optimizations as a special kind of factorization for word co-occurence matrices
+- reformulated [word2vec](Word2Vec.md) optimizations as a special kind of factorization for word co-occurence matrices
 - Note that GloVe does not use neural networks
-- utilizes this main benefit of count data while simultaneously capturing the meaningful linear substructures prevalent in recent log-bilinear prediction-based methods like word2vec
-- global log-bilinear [LinearRegression](LinearRegression.md) model for the unsupervised learning of word representations
+- utilizes this main benefit of count data while simultaneously capturing the meaningful linear substructures prevalent in recent log-bilinear prediction-based methods like [word2vec](Word2Vec.md)
+- global log-bilinear [LinearRegression](LinearRegression.md) model for the [unsupervised learning](Unsupervised%20Learning.md) of word representations
+
+
 
 
 

@@ -3,7 +3,9 @@ title: Causal Dilated Conv
 ---
 
 # Causal Dilated [[Conv]]
-- Receptive field is how much of the input sequence is needed for one prediction
+- [Receptive field](Receptive%20field.md) is how much of the input sequence is needed for one prediction
+
+
 
 
 

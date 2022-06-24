@@ -1,62 +1,10 @@
 ---
 title: Encoder Decoder Attention
+tags: architecture 
 ---
 
 # Encoder Decoder Attention
-- ![im](assets/Scaled Dot Product Attention]]]
 - Q comes from prev decoder
 - K,V from encoder
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

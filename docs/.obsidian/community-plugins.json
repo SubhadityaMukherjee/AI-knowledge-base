@@ -26,5 +26,7 @@
   "obsidian-file-cleaner",
   "tag-wrangler",
   "obsidian-timestamper",
-  "obsidian-footnotes"
+  "obsidian-footnotes",
+  "file-tree-alternative",
+  "find-unlinked-files"
 ]

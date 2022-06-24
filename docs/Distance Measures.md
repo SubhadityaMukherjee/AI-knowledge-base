@@ -1,7 +1,7 @@
 ---
 title: Distance Measures
 
-tags: 
+tags: distance 
 ---
 
 # Distance Measures

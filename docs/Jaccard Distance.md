@@ -16,9 +16,5 @@ tags: handwritingRecognition
 - text similarity analysis to measure how much word choice overlap there is between documents
 
 
-## Backlinks
 
-> - [Distance Measures](Distance Measures.md)
->   - [[Jaccard Distance]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

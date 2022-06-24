@@ -11,7 +11,7 @@ title: PCA
 1. Center data (A)
 	- Subtract their mean from each pattern. 
 	- $$\mu = \frac{1}{N}\Sigma_{i}x_{i}$$ and getting patterns $$\hat x_{i}=x_{i}-\mu$$
-	- Point cloud with center of gravity : origin
+	- [Point cloud](Point%20Cloud.md) with center of gravity : origin
 		- Extend more in some "directions" characterized by unit norm direction vectors $u \in \mathbb{R}^n$ . 
 		- Distance of a point from the origin in the direction of u : projection of $\bar x_i$ on u aka inner product $u'\bar x_i$
 		- Extension of cloud in direction u : Mean square dist to origin.
@@ -39,6 +39,8 @@ title: PCA
 	- variances $\sigma_{1}^{2,}…,  \sigma_{n}^2$ are eigenvalues
 	- $C = U\Sigma U'$ to get PC vectors $u_k$ lined up in U and variances $\sigma_k^2$ as eigenvalues in $\Sigma$ 
 	- If we want to preserve 98% variance : Rhs of (1) st. ratio is (1-0.98)
+
+
 
 
 

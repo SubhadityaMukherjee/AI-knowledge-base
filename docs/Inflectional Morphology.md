@@ -3,9 +3,11 @@ title: Inflectional Morphology
 tags: language
 ---
 
-# Inflectional Morphology
+# Inflectional [Morphology](Morphology.md)
 - creates the new forms of the same word
 - e.g.bring, brought, brings
+
+
 
 
 

@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98a7759ea31984a5",
+        "id": "c2d294e834cf92a7",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Distance Measures.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -49,13 +44,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "8b15f83899a85dd7",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 338.5,
-    "collapsed": true
+    "width": 359.5
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -71,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distance Measures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distance Measures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Distance Measures.md"
-              }
+              "state": {}
             }
           },
           {
@@ -151,7 +149,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Distance Measures.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,7 +171,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.47602629881326214,
+                  "scale": 0.2366051067286888,
                   "close": true
                 }
               }
@@ -186,17 +183,17 @@
     "direction": "horizontal",
     "width": 291.5
   },
-  "active": "98a7759ea31984a5",
+  "active": "c2d294e834cf92a7",
   "lastOpenFiles": [
-    "Distance Measures.md",
-    "Jaccard Distance.md",
-    "Minkowski Distance.md",
-    "Hausdorff Distance.md",
-    "Chebyshev Distance.md",
-    "Manhattan Distance.md",
-    "Hamming Distance.md",
-    "Cosine Similarity.md",
-    "Euclidean Distance.md",
-    "Chi Squared Distance.md"
+    "files without tags.md",
+    "Adam.md",
+    "Adagrad.md",
+    "Elu.md",
+    "Encoder Decoder Attention.md",
+    "K Means.md",
+    "KMeans.md",
+    "Label Smoothing.md",
+    "Leaky Relu.md",
+    "Mixup.md"
   ]
 }

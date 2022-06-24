@@ -3,9 +3,11 @@ title: Action Transitive verb
 tags: language
 ---
 
-# Action Transitive Verb
-- a verb has a direct object + verb
+# Action Transitive [Verb](Verb.md)
+- a [verb](Verb.md) has a direct object + [verb](Verb.md)
 - I made her lower her head or body
+
+
 
 
 

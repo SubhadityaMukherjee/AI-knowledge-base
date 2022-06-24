@@ -13,3 +13,5 @@ tags: loss
 - high-dimensional data and when the magnitude of the vectors is not of importance
 
 
+
+

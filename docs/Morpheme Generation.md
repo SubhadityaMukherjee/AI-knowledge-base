@@ -4,7 +4,9 @@ tags: language
 ---
 
 # Morpheme Generation
-- See +past.verb = saw
+- See +past.[verb](Verb.md) = saw
+
+
 
 
 

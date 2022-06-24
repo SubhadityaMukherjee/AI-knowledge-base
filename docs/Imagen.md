@@ -15,7 +15,9 @@ tags: architecture
 - FID score
 - [COCO](COCO.md)
 - [[DrawBench]]
-- With DrawBench, we compare Imagen with recent methods including [[VQGAN]]+[[CLIP]], [[Latent Diffusion]] Models, and [[DALL-E]], and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment
+- With [DrawBench](DrawBench.md), we compare Imagen with recent methods including [[VQGAN]]+[[CLIP]], [[Latent Diffusion]] Models, and [[DALL-E]], and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment
+
+
 
 
 

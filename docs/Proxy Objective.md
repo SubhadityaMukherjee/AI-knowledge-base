@@ -1,5 +1,6 @@
 ---
 title: Proxy Objective
+tags: distribution 
 ---
 
 # Proxy Objective
@@ -14,6 +15,8 @@ title: Proxy Objective
 
 ## Refs
 - [openai](https://openai.com/blog/measuring-goodharts-law/)
+
+
 
 
 

@@ -11,14 +11,10 @@ tags: language cogneuro psychology
 - Do children generalize learned object names as representing shape rather than other features? Yes!
 - [[First order generalization]]
 - [[Second order generalization]]
-- Suggests that learning of overhypotheses can also be modeled with Bayesian learning
+- Suggests that learning of overhypotheses can also be modeled with [Bayesian](Bayesian.md) learning
 
 
 
 
-## Backlinks
 
-> - [CSL](journals/2022-06-23.md)
->   - [[Overhypotheses]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

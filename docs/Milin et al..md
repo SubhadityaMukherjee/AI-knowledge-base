@@ -9,11 +9,11 @@ tags: language cogneuro psychology
 - Identify difficult and easy forms (from lemma to plural form)
 - Check if human participants also react differently to independently identified difficult and easy forms Compare NDL learning model to TiMBL and human results
 - MDVM computes the distance between two values of a feature to reflect their patterns of co-occurrence with categories
-- Using MDVM adds an unsupervised learning component to MBL Hoste (2005) because essentially it clusters feature values and uses that information
+- Using MDVM adds an [unsupervised learning](Unsupervised%20Learning.md) component to MBL Hoste (2005) because essentially it clusters feature values and uses that information
 - Using larger values of k with MDVM is helpful
 - Easy words that are frequent tokens (forms) are reacted to faster
 - Maybe this interaction doesn't occur with difficult words because there is less variation in the frequency of the difficult words?
-- This seems similar to results with regular past tense forms in English:
+- This seems similar to results with regular [past tense](past%20tense.md) forms in English:
 - Strikingly, TiMBL's inflectional class probabilities turn out to be predictive in production and comprehension, i. e., for lexical decision latencies.
 - Two Grapheme to Lexeme Measures
 - Diversity Sum of the absolute values of the activations of all possible outcomes, given a set of input cues.
@@ -42,9 +42,5 @@ tags: language cogneuro psychology
 
 
 
-## Backlinks
 
-> - [CSL](journals/2022-06-23.md)
->   - [[Milin et al.]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

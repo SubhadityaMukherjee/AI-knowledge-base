@@ -1,5 +1,6 @@
 ---
 title: Uniform Sampling
+tags: distribution 
 ---
 
 # Uniform [[Sampling]]
@@ -10,6 +11,8 @@ title: Uniform Sampling
 	- [[CDF]]
 	- Get a [[sampler]] for by $$X_{i} = \varphi^{-1}\circ U_{i}$$
 	- ![im](assets/Pasted%20Image%2020220324113838.png) 
+
+
 
 
 

@@ -50,3 +50,11 @@ tags: statistics
 
 
 
+
+
+## Backlinks
+
+> - [Sample [Correlation](Correlation.md)](Sample Correlation.md)
+>   - $s_y$ is the sample [[Covariance]]
+
+_Backlinks last generated 2022-06-24 12:00:32_

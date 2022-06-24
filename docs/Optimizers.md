@@ -1,5 +1,6 @@
 ---
 title: Optimization
+tags: regularize 
 ---
 
 # Optimization
@@ -16,6 +17,8 @@ title: Optimization
 - [[Early Stopping tricks]]
 
 ## …
+
+
 
 
 

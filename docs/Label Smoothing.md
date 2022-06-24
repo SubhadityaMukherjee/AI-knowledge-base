@@ -1,5 +1,6 @@
 ---
 title: Label Smoothing
+tags: regularize 
 ---
 
 # Label Smoothing
@@ -19,6 +20,8 @@ title: Label Smoothing
 - If $\epsilon =0$ , $log((k-1)\frac{1-\epsilon}{\epsilon})$ is $\infty$
 - As $\epsilon$ increases, the gap decreases
 - If $\epsilon=\frac{K-1}{K}$, all optimizal $z^{\ast}_{i}$ are identical
+
+
 
 
 

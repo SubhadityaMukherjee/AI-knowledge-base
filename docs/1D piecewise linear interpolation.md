@@ -3,10 +3,12 @@ title: 1D piecewise linear interpolation
 tags: visualization
 ---
 
-# 1D Piecewise Linear Interpolation
+# 1D Piecewise Linear [Interpolation](Interpolation.md)
 
 # 1D Piecewise Linear [[Interpolation]]
 - ![im](assets/Pasted%20Image%2020220411124653.png)
+
+
 
 
 

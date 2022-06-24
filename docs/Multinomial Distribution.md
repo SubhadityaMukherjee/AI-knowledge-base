@@ -64,3 +64,11 @@ tags: distribution
 
 
 
+
+
+## Backlinks
+
+> - [Protein Modeling](Protein Modeling.md)
+>   - Distributed according to [[Multinomial Distribution]] with l = 20
+
+_Backlinks last generated 2022-06-24 12:00:32_

@@ -13,9 +13,5 @@ tags: handwritingRecognition
 - works great when you have low-dimensional data and the magnitude of the vectors is important to be measured
 
 
-## Backlinks
 
-> - [Distance Measures](Distance Measures.md)
->   - [[Euclidean Distance]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

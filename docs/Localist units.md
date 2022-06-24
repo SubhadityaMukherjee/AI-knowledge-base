@@ -13,9 +13,5 @@ tags: language cogneuro psychology
 
 
 
-## Backlinks
 
-> - [CSL](journals/2022-06-23.md)
->   - [[Localist units]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

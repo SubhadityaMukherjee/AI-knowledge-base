@@ -5,7 +5,9 @@ tags: language
 ---
 
 # Past Tense
-- When a speaker needs to say the past tense form of a verb if the verb has an irregular form, choose that if not, add -ed
+- When a speaker needs to say the past tense form of a [verb](Verb.md) if the [verb](Verb.md) has an irregular form, choose that if not, add -ed
+
+
 
 
 

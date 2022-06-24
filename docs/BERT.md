@@ -22,3 +22,14 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [GELU](GELU.md)
+>   - Used in [[GPT3]], [[Transformer]], [[Vision Transformer]], [[BERT]]
+>    
+> - [BEiT](BEiT.md)
+>   - proposed method is critical to make [[BERT]] like pre-training (i.e., auto-encoding with masked input) work well for image Transformers
+
+_Backlinks last generated 2022-06-24 12:00:32_

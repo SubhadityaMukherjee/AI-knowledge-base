@@ -1,9 +1,12 @@
 ---
 title: Restricted Boltzmann Machine
+tags: architecture 
 ---
 
 # Restricted Boltzmann Machine
 - Start of Deep learning
+
+
 
 
 

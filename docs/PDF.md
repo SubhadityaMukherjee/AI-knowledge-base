@@ -1,5 +1,6 @@
 ---
 title: Probability Density Function
+tags: distribution 
 ---
 
 # [[Probability]] Density Function
@@ -7,6 +8,8 @@ title: Probability Density Function
 	- For every subvolume $A \subseteq S$ of S, the prob $P(X \in A)$ that X gives a value in A is $$P(X\in A) = \int_Af(x)dx$$
 - Function which maps from a random process to a quantified version
     - eg. 1 when heads and 0 when tails
+
+
 
 
 

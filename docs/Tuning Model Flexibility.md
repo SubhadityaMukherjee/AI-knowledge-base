@@ -1,5 +1,6 @@
 ---
 title: Tuning Model Flexibility
+tags: regularize 
 ---
 
 # Tuning Model Flexibility
@@ -8,6 +9,8 @@ title: Tuning Model Flexibility
 - [[Ridge Regression]]
 - [[Adding noise]]
 - [[Cross Validation]]
+
+
 
 
 

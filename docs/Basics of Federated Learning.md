@@ -2,7 +2,7 @@
 title: Basics of Federated Learning
 ---
 
-# Basics of Federated Learning
+# Basics of [Federated Learning](Federated%20Learning.md)
 1. Get data (Hopefully a lot)
 2. Preprocess (aka clean up) the data
 3. Find/create an architecture
@@ -13,6 +13,8 @@ title: Basics of Federated Learning
 7 (#new). Find the difference between the original model and the personalized one's parameters. Do this for multiple users. Remove identifiable information.
 7.1 (#new). Aggregate (eg. average) the information and then send that to the main model
 8. Retrain the model on new data
+
+
 
 
 

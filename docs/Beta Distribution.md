@@ -64,3 +64,11 @@ tags: distribution
 
 
 
+
+
+## Backlinks
+
+> - [Mixup](Mixup.md)
+>   - $\lambda \in [0,1]$  is a random number from [[Beta Distribution]]
+
+_Backlinks last generated 2022-06-24 12:00:32_

@@ -1,7 +1,7 @@
 ---
 title: <% tp.file.title %>
 
-tags: handwritingRecognition 
+tags: 
 ---
 
 # <% tp.file.title %>

@@ -1,5 +1,6 @@
 ---
 title: Negative Log Likelihood
+tags: loss 
 ---
 
 # Negative Log Likelihood
@@ -7,6 +8,8 @@ title: Negative Log Likelihood
 
 $$ - \mathrm{sum}\left( \log\left( y \right) \right)$$
 - [[Log Likelihood Loss]]
+
+
 
 
 

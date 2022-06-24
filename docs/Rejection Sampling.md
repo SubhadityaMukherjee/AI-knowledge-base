@@ -1,5 +1,6 @@
 ---
 title: Rejection Sampling
+tags: distribution 
 ---
 
 # Rejection [[Sampling]]
@@ -72,3 +73,11 @@ title: Rejection Sampling
 
 
 
+
+
+## Backlinks
+
+> - [Goodhart's Law](Goodhart's Law.md)
+>   - [[Rejection Sampling]]
+
+_Backlinks last generated 2022-06-24 12:00:32_

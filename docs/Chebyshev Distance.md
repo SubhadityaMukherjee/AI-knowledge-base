@@ -13,9 +13,5 @@ tags: handwritingRecognition
 - warehouse logistics as it closely resembles the time an overhead crane takes to move an object
 
 
-## Backlinks
 
-> - [Distance Measures](Distance Measures.md)
->   - [[Chebyshev Distance]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

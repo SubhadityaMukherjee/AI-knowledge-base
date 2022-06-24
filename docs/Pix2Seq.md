@@ -11,10 +11,12 @@ tags: architecture
 - Object descriptions (e.g., bounding boxes and class labels) are expressed as sequences of discrete tokens, and we train a neural network to perceive the image and generate the desired sequence
 - [COCO](COCO.md)
 - output can be represented by a relatively concise sequence of discrete tokens (e.g., keypoint detection, image captioning, visual question answering)
-- autoregressive
+- [autoregressive](Autoregressive.md)
 - stop inference when the ending token is produced
 - applying it to offline inference, or online scenarios where the objects of interest are relatively sparse
 - entirely based on human annotation
+
+
 
 
 

@@ -63,3 +63,14 @@ tags: distribution
 
 
 
+
+
+## Backlinks
+
+> - [Entropy](Entropy.md)
+>   - [[Uniform Distribution]] maximizes entropy. Results harder to predict
+>    
+> - [Uniform [[Sampling]]](Uniform Sampling.md)
+>   - [[Uniform Distribution]]
+
+_Backlinks last generated 2022-06-24 12:00:32_

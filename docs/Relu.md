@@ -1,5 +1,6 @@
 ---
 title: Relu
+tags: architecture 
 ---
 
 # Relu
@@ -10,6 +11,8 @@ title: Relu
 - [[Leaky Relu]]
 - [[PRelu]]
 - [[Noisy Relu]]
+
+
 
 
 

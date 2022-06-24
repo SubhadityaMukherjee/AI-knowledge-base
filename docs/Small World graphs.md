@@ -2,8 +2,10 @@
 title: Small World graphs
 ---
 
-# Small World Graphs
+# Small World [Graphs](Graphs.md)
 - Any two nodes in the graph are connected via a smalll number of steps
+
+
 
 
 

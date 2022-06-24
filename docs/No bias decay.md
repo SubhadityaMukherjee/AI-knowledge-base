@@ -1,5 +1,6 @@
 ---
 title: No bias decay
+tags: regularize 
 ---
 
 # No Bias Decay
@@ -8,6 +9,8 @@ title: No bias decay
 - Only apply [[regularization]] to the weights
 - Leave [[Batch Normalization]] [[layers]] alone
 - [[LARS]]
+
+
 
 
 

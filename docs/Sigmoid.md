@@ -1,5 +1,6 @@
 ---
 title: Sigmoid
+tags: architecture 
 ---
 
 # Sigmoid
@@ -10,6 +11,8 @@ title: Sigmoid
 - Xavier/Glorot init
 - RNN : Hidden
 - [[Bernoulli Distribution]] over a binary variable
+
+
 
 
 

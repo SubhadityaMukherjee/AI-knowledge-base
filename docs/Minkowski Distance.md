@@ -1,7 +1,7 @@
 ---
 title: Minkowski Distance
 
-tags:
+tags: distance
 ---
 
 # Minkowski Distance
@@ -19,9 +19,5 @@ tags:
 - The upside to p is the possibility to iterate over it and find the distance measure that works best for your use case.
 
 
-## Backlinks
 
-> - [Distance Measures](Distance Measures.md)
->   - [[Minkowski Distance]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

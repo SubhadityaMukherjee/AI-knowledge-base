@@ -10,7 +10,7 @@ tags: architecture
 - Skip connections
 - output of F(x) has the same dims as x -> add
 - If only spatial dims match (aka not channels) -> concat
-- less params than VGG
+- less params than [VGG](Vgg.md)
 - [[Skip Connection]]
 - Sadly, one of the creators Jian Sun passed away yesterday. (16-6-22)
 
@@ -57,6 +57,8 @@ def ResNetNew(block, layers, num_classes=1000):
             m.bias.data.zero_()
     return resnet
 ```
+
+
 
 
 

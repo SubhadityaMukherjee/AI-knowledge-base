@@ -3,9 +3,11 @@ title: DiTransitive verb
 tags: language
 ---
 
-# DiTransitive Verb
-- a verb has two [[noun]] objects 
+# DiTransitive [Verb](Verb.md)
+- a [verb](Verb.md) has two [[noun]] objects 
 - I cooked a duck for her
+
+
 
 
 

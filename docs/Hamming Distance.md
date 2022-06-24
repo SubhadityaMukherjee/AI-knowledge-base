@@ -11,9 +11,5 @@ tags: handwritingRecognition
 - difficult to use when two vectors are not of equal length
 
 
-## Backlinks
 
-> - [Distance Measures](Distance Measures.md)
->   - [[Hamming Distance]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

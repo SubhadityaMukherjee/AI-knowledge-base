@@ -12,10 +12,10 @@ tags: language cogneuro psychology
 - Model is better at mapping two-syllable sequences to words when it has already been exposed to those sequences and they had high probabilities
 - Novel-sequence non-word labels initially learned nearly as fast as word up to intermediate point.
 - exposure to familiarization input allowed network to created distinct hidden representations for each syllable
-- SRN can show how statistical learning supports word learning, showing a link
+- [SRN](SRN.md) can show how statistical learning supports word learning, showing a link
 - Humans are good at learning sequences, even when the data is presented implicitly and even when the relationships are non-adjacent
-- We aren't just sensitive to frequency: we are sensitive to actual transitional probabilities
-- SRNs with very simple assumptions model non-adjacent learning and transitional probabilities
+- We aren't just sensitive to frequency: we are sensitive to actual [transitional probabilities](Transitional%20probabilities.md)
+- SRNs with very simple assumptions model non-adjacent learning and [transitional probabilities](Transitional%20probabilities.md)
 - Biological arguments for distributed representations
 - Makes more sense that neurons get randomly assigned to be active for different inputs
 - We can start with randomness and with learning it will become structured
@@ -25,9 +25,5 @@ tags: language cogneuro psychology
 
 
 
-## Backlinks
 
-> - [CSL](journals/2022-06-23.md)
->   - [[Mirman et al.]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

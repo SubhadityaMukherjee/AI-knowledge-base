@@ -11,9 +11,5 @@ tags:
 - Feature A: target word class should survive competit with the other word classes (emerging needle from the heterogeneous hay stack)
 
 
-## Backlinks
 
-> - [CSL](journals/2022-06-23.md)
->   - [[Hit list]]
 
-_Backlinks last generated 2022-06-23 16:11:10_

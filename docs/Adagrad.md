@@ -1,5 +1,6 @@
 ---
 title: Adagrad
+tags: architecture 
 ---
 
 # Adagrad
@@ -8,6 +9,8 @@ title: Adagrad
 - $\odot$ is component wise multiply
 - $\epsilon$ is for stability
 - Doesnt forget past gradients
+
+
 
 
 

@@ -17,9 +17,5 @@ tags:
 - [Optimizers](Optimizers.md)
 
 
-## Backlinks
 
-> - [Inductive Bias](Inductive Bias.md)
->   - [[Non Relational Inductive Bias]]
 
-_Backlinks last generated 2022-06-24 12:00:32_

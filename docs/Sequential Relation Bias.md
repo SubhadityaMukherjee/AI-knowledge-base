@@ -9,9 +9,5 @@ tags:
 - ![](assets/seq-249x300.webp)
 
 
-## Backlinks
 
-> - [Relational Inductive Bias](Relational Inductive Bias.md)
->   - [[Sequential Relation Bias]]
 
-_Backlinks last generated 2022-06-24 12:00:32_

@@ -9,9 +9,5 @@ tags:
 - ![](assets/fc-300x231.webp)
 
 
-## Backlinks
 
-> - [Relational Inductive Bias](Relational Inductive Bias.md)
->   - [[Weak Relation Bias]]
 
-_Backlinks last generated 2022-06-24 12:00:32_

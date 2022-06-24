@@ -52,9 +52,5 @@ tags: statistics
 
 
 
-## Backlinks
 
-> - [Sample [Correlation](Correlation.md)](Sample Correlation.md)
->   - $s_{x}$, $s_y$ are the sample [[Standard Deviation]]
 
-_Backlinks last generated 2022-06-24 12:00:32_

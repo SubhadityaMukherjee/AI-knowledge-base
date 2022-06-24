@@ -69,9 +69,5 @@ tags: distribution
 
 
 
-## Backlinks
 
-> - [Poisson Process](Poisson Process.md)
->   - Waiting times between two consecutive spikes are [[Exponential Distribution]]
 
-_Backlinks last generated 2022-06-24 12:00:32_

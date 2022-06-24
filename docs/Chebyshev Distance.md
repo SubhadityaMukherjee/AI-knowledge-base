@@ -1,7 +1,7 @@
 ---
 title: Chebyshev Distance
 
-tags: handwritingRecognition 
+tags: distance 
 ---
 
 # Chebyshev Distance
@@ -11,6 +11,8 @@ tags: handwritingRecognition
 - Chessboard distance since the minimum number of moves needed by a king to go from one square to another is equal to Chebyshev distance
 - can be used to extract the minimum number of moves needed to go from one square to another
 - warehouse logistics as it closely resembles the time an overhead crane takes to move an object
+
+
 
 
 

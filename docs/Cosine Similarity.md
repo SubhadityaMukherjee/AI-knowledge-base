@@ -1,6 +1,6 @@
 ---
 title: Cosine Similarity
-tags: loss
+tags: distance loss
 ---
 
 # Cosine Similarity
@@ -11,6 +11,8 @@ tags: loss
 - In practice, this means that the differences in values are not fully taken into account
 - If you take a recommender system, for example, then the cosine similarity does not take into account the difference in rating scale between different users
 - high-dimensional data and when the magnitude of the vectors is not of importance
+
+
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Hamming Distance
 
-tags: handwritingRecognition 
+tags: distance 
 ---
 
 # Hamming Distance
@@ -9,6 +9,8 @@ tags: handwritingRecognition
 - Hamming distance is the number of values that are different between two vectors
 - It is typically used to compare two binary strings of equal length.
 - difficult to use when two vectors are not of equal length
+
+
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Euclidean Distance
 
-tags: handwritingRecognition 
+tags: distance 
 ---
 
 # Euclidean Distance
@@ -11,6 +11,8 @@ tags: handwritingRecognition
 - Euclidean distance is not scale in-variant which means that distances computed might be skewed depending on the units of the features. Typically, one needs to normalize the data before using this distance measure.
 - Moreover, as the dimensionality increases of your data, the less useful Euclidean distance becomes. This has to do with the curse of dimensionality
 - works great when you have low-dimensional data and the magnitude of the vectors is important to be measured
+
+
 
 
 

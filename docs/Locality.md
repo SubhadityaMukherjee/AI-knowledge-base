@@ -10,9 +10,5 @@ tags:
 - ![](assets/locality-194x300.webp)
 
 
-## Backlinks
 
-> - [Relational Inductive Bias](Relational Inductive Bias.md)
->   - [[Locality]]
 
-_Backlinks last generated 2022-06-24 12:00:32_

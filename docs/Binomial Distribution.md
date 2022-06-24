@@ -69,9 +69,5 @@ tags: distribution
 
 
 
-## Backlinks
 
-> - [Multinomial](Multinomial Distribution.md)
->   - Generalized [[Binomial Distribution]]
 
-_Backlinks last generated 2022-06-24 12:00:32_

@@ -74,27 +74,5 @@ tags: architecture
 
 
 
-## Backlinks
 
-> - [Uncertainty](Uncertainty.md)
->   - Most networks are overconfident - [[Softmax]] confidences do not have a good probabilistic interpretation. Wrong predictions with more confidence
->    
-> - [Recurrent](Recurrent.md)
->   - [[Softmax]] but on every output vector simultaneously
->    
-> - [Activation Functions](ActivationFunctions.md)
->   - [[Softmax]]
->    
-> - [Scaled [Dot Product Attention](Dot%20Product%20Attention.md)](Scaled Dot Product Attention.md)
->   - [[Softmax]] is sensitive to large values. Which sucks for the #gradients
->    
-> - [Self Attention](Self Attention.md)
->   - Any value between -inf to +inf so [[Softmax]] is applied
->    
-> - [Distillation Loss](Distillation Loss.md)
->   - T is the temperature to make [[Softmax]] smoother
->    
-> - [[[Uncertainty]] Classification](Uncertainity in classification.md)
->   - Use [[Softmax]] or [[Sigmoid]]
 
-_Backlinks last generated 2022-06-24 12:00:32_

@@ -14,9 +14,5 @@ tags: architecture
 - ![](https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-27_at_12.48.44_PM.png)
 
 
-## Backlinks
 
-> - [ConvNeXt](ConvNeXt.md)
->   - [[GELU]] instead of [[Relu]] , a single activation for each block (the original [[Transformer]] module has just one activation after the MLP), fewer normalization [[layers]], [[Batch Normalization]] substituted by [[Layer Normalization]] , and separate downsampling layer
 
-_Backlinks last generated 2022-06-24 12:00:32_

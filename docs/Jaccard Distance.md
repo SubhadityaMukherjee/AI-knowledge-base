@@ -1,7 +1,7 @@
 ---
 title: Jaccard Distance
 
-tags: handwritingRecognition 
+tags: distance 
 ---
 
 # Jaccard Distance
@@ -14,6 +14,8 @@ tags: handwritingRecognition
 - The Jaccard index is often used in applications where binary or binarized data are used
 - deep learning model predicting segments of an image
 - text similarity analysis to measure how much word choice overlap there is between documents
+
+
 
 
 

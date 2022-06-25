@@ -15,9 +15,5 @@ tags: distance
 - Note that it is much less suited if the distances by themselves are already not that large. The curvature will not have that large of an impact.
 
 
-## Backlinks
 
-> - [Distance Measures](Distance Measures.md)
->   - [[Haversine Distance]]
 
-_Backlinks last generated 2022-06-24 12:16:25_

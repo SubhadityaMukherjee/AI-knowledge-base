@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Distance Measures.md",
+            "file": "ALBERT.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "misyak",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,7 +59,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distance Measures.md",
+                "file": "ALBERT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distance Measures.md",
+                "file": "ALBERT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distance Measures.md"
+                "file": "ALBERT.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Distance Measures.md",
+                "file": "ALBERT.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,15 +197,15 @@
   },
   "active": "c2d294e834cf92a7",
   "lastOpenFiles": [
-    "Distance Measures.md",
-    "Bhattacharya Distance.md",
-    "Sørensen-Dice Index.md",
-    "Haversine Distance.md",
-    "Jaccard Distance.md",
-    "Minkowski Distance.md",
-    "Chi Squared Distance.md",
-    "Hausdorff Distance.md",
-    "Chebyshev Distance.md",
-    "Manhattan Distance.md"
+    "ALBERT.md",
+    "GLUE.md",
+    "SQuAD.md",
+    "RACE.md",
+    "templates/titler.md",
+    "inter-sentence coherence loss.md",
+    "cross-layer parameter sharing.md",
+    "Factorized Embedding Parameters.md",
+    "journals/2022-06-25.md",
+    "Isotropic Architectures.md"
   ]
 }

@@ -10,9 +10,5 @@ tags: distance
 - $$BC(p,q) = \Sigma_{x\in X}\sqrt{p(x)q(x)}$$
 
 
-## Backlinks
 
-> - [Distance Measures](Distance Measures.md)
->   - [[Bhattacharya Distance]]
 
-_Backlinks last generated 2022-06-24 12:16:25_

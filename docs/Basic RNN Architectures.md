@@ -25,3 +25,17 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [Mirman Et Al](Simulations_Of_language.md)
+>   - [[Basic RNN Architectures]]
+>    
+> - [Variational/[[Recurrent]] [Dropout](Dropout.md)](VariationalRecurrent Dropout.md)
+>   - [[Basic RNN Architectures]]
+>    
+> - [Nasnet](Nasnet.md)
+>   - Controller RNN ([[Basic RNN Architectures]]) produces architectures and evaluated until convergence
+
+_Backlinks last generated 2022-06-25 23:45:48_

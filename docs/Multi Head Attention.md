@@ -5,6 +5,7 @@ tags: architecture einsum
 
 # Multi Head Attention
 - [ZihangDai et al., 2019](https://arxiv.org/abs/1901.02860)
+- which computes self-attention over the inputs, then adds back the residual and layer normalizes everything. The attention head can be split into multiple segments, hence the name _multi-head_
 - Multiple attention instances, each focusing on a different part of the input
 - Words can mean different things in context
 	- If using [[Self Attention]], then this just gets summed up. Which is not very nice
@@ -51,19 +52,5 @@ class MultiHeadAttentionNew(nn.Module):
         output = self.layer_norm(output + residual)
         return output, attn
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

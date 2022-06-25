@@ -14,9 +14,5 @@ tags: distance
 - ![](assets/Pasted%20image%2020220624121258.png)
 
 
-## Backlinks
 
-> - [Distance Measures](Distance Measures.md)
->   - [[Sørensen-Dice Index]]
 
-_Backlinks last generated 2022-06-24 12:16:25_

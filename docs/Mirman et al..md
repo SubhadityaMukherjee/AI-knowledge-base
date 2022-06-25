@@ -8,7 +8,7 @@ tags: language cogneuro psychology
 - train syllables in words, predicting the next syllable
 - use network to train on different types of individual words, matching them with one of five objects, simulating word learning
 - 75 epocs 1000 syllable sequence, then it predicted almost perfectly the next syllable (teaching phonotactics of the language)
-- Model trained to recognize one of five objects for each of five different two-syllable input patterns of three types 1. words (100% transitional probability) 2. partwords (25% probability transitions) 3. nonwords (0% transitions)
+- Model trained to recognize one of five objects for each of five different two-syllable input patterns of three types 1. words (100% transitional [probability](Probability.md)) 2. partwords (25% [probability](Probability.md) transitions) 3. nonwords (0% transitions)
 - Model is better at mapping two-syllable sequences to words when it has already been exposed to those sequences and they had high probabilities
 - Novel-sequence non-word labels initially learned nearly as fast as word up to intermediate point.
 - exposure to familiarization input allowed network to created distinct hidden representations for each syllable
@@ -21,6 +21,8 @@ tags: language cogneuro psychology
 - We can start with randomness and with learning it will become structured
 - concepts are just bundles of features, that together become something
 - Prevents catastrophic failures
+
+
 
 
 

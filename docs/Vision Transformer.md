@@ -7,10 +7,10 @@ tags: architecture
 
 ---
 
-# Vision Transformer
+# Vision [Transformer](Transformer.md)
 - [paper](https://arxiv.org/abs/2010.11929)
 - ![](assets/vit.png)
-- Transformer applied directly to sequences/patches of images
+- [Transformer](Transformer.md) applied directly to sequences/patches of images
 - Lower computational resources
 - [[ImageNet]] , [[CIFAR]], [[VTAB]]
 - [Do Vision Transformers See Like Convolutional Neural Networks?](https://arxiv.org/abs/2108.08810)
@@ -22,6 +22,8 @@ tags: architecture
 - discovering ViTs successfully preserve input spatial information with CLS tokens
 - finding larger ViT models develop significantly stronger intermediate representations through larger pretraining datasets
 - [[MLP-Mixer]]
+
+
 
 
 

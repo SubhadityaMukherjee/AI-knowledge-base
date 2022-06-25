@@ -22,9 +22,5 @@ tags: architecture
 - [[Cityscapes]]
 
 
-## Backlinks
 
-> - [](journals/2022-06-25.md)
->   - **10:39** [[ADVENT]]
 
-_Backlinks last generated 2022-06-25 23:45:48_

@@ -74,3 +74,14 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [AutoEncoder](Auto Encoders.md)
+>   - [[VAE]]
+>    
+> - [BEiT](BEiT.md)
+>   - discrete [[VAE]] (dVAE) which acts as an “image [tokenizer](Tokenizer.md)” learnt via autoencoding-style reconstruction
+
+_Backlinks last generated 2022-06-26 00:07:54_

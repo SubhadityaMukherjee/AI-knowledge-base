@@ -3,9 +3,11 @@ title: Neural Dynamics
 ---
 
 # Neural Dynamics
-- Continous -> Discrete seq of words
+- [Continous -> Discrete](Continous%20->%20Discrete.md) seq of words
 - Use NN to generate hypothesis outputs vectors
 	- As many components as possible target symbols
+
+
 
 
 

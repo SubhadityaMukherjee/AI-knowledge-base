@@ -15,7 +15,9 @@ tags: brain, psychology
 - [Functional connectivity](Functional%20Connectivity.md) within DMN may predict successful quitting, the intensity of withdrawal-induced craving and the degree of cognitive decline in addictions
 - They [^1] found altered relationship between the [[Dorsolateral Prefrontal cortex]] (as key node of the cognitive control network) and the [[Anterior Cingulate]]/[[Prefrontal cortex]] (as key nodes of the DMN)
 
-[^1]: Brain structures and functional connectivity associated with individual differences in Internet tendency in healthy young adults , Neuropsychologia
+[^1]: Brain structures and [functional connectivity](Functional%20Connectivity.md) associated with individual differences in Internet tendency in healthy young adults , Neuropsychologia
+
+
 
 
 

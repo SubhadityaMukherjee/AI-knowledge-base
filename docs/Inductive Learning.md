@@ -17,12 +17,14 @@ tags: language cogneuro psychology
 - [Clustering](Clustering.md) based on biology worked worse!
 - [Clustering](Clustering.md) using linguistic co-occurrences with latent semantic analysis also worked worse!
 - Human subject judgements of similarity worked best
-- Suggests some human reasoning relies on probability
+- Suggests some human reasoning relies on [probability](Probability.md)
 - [Bayesian](Bayesian.md) learning can also learn categories
 - Models are capable of making generalizations about the specific objects as well as the appropriate generalizations about categorization (superordinate categories!) in general.
 - Advanced learning means learn constraints on what is a possible hypothesis
 - Hierarchical [Bayesian](Bayesian.md) Modelling (HBM) can explain how we acquire [overhypotheses](Overhypotheses.md)
 - using observations from the lowest level (data) and calculating statistical inferences
+
+
 
 
 

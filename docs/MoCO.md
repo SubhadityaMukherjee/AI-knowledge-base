@@ -12,7 +12,7 @@ tags: architecture
 - unsupervised visual representation learning
 - contrastive learning as dictionary look-up, MoCo builds a dynamic dictionary with a queue and a moving-averaged encoder
 - large and consistent dictionary on-the-fly
-- ImageNet
+- [ImageNet](ImageNet.md)
 - transfer well to downstream tasks.
 - PASCAL VOC
 - [COCO](COCO.md)
@@ -24,6 +24,8 @@ tags: architecture
 - momentum update with the query encoder
 - ![](assets/moco1.jpg)
 - ![](assets/moco2.jpg)
+
+
 
 
 

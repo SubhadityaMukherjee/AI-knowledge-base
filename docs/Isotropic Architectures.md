@@ -11,9 +11,5 @@ tags: architecture
 - Like [Transformer](Transformer.md) , [MLP-Mixer](MLP-Mixer)
 
 
-## Backlinks
 
-> - [](journals/2022-06-25.md)
->   - **10:49** [[Isotropic Architectures]]
 
-_Backlinks last generated 2022-06-25 23:45:48_

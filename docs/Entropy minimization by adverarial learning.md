@@ -14,9 +14,5 @@ tags:
 - discriminate outputs coming from source and target images, and at the same time, train the segmentation network to fool the discriminator.
 
 
-## Backlinks
 
-> - [ADVENT](ADVENT.md)
->   - [[Entropy minimization by adverarial learning]]
 
-_Backlinks last generated 2022-06-25 23:45:48_

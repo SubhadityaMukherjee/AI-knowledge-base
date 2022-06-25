@@ -47,7 +47,7 @@ def ResNetNew(block, layers, num_classes=1000):
         nn.Linear(512 * e, num_classes),
     )
     
-    # initialization
+    # [initialization](Initialization.md)
     for m in resnet.modules():
         if isinstance(m, nn.Conv2d):
             n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels
@@ -57,6 +57,8 @@ def ResNetNew(block, layers, num_classes=1000):
             m.bias.data.zero_()
     return resnet
 ```
+
+
 
 
 

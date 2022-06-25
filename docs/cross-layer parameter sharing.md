@@ -13,9 +13,5 @@ tags: architecture
 - the stabilization of the neural network due to parameter sharing. In other words, beyond simply reducing the computational cost involved with training, the paper suggests that sharing parameters can also improve the training process.
 
 
-## Backlinks
 
-> - [ALBERT](ALBERT.md)
->   - [[cross-layer parameter sharing]]
 
-_Backlinks last generated 2022-06-25 23:45:48_

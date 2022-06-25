@@ -9,10 +9,10 @@ tags: einsum architecture
 
 ```python
 class CBHG_Old(nn.Module):
-    """CBHG module: a recurrent neural network composed of:
+    """CBHG module: a [recurrent](Recurrent.md) neural network composed of:
         - 1-d convolution banks
         - Highway networks + residual connections
-        - Bidirectional gated recurrent units
+        - Bidirectional gated [recurrent](Recurrent.md) units
     """
 
     def __init__(self, in_dim, K=16, projections=[128, 128]):
@@ -64,6 +64,8 @@ def forward_new(self, inputs, input_lengths=None):
 
     return outputs
 ```
+
+
 
 
 

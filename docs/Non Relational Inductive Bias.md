@@ -4,7 +4,7 @@ title: Non Relational Inductive Bias
 tags: 
 ---
 
-# Non Relational Inductive Bias
+# Non [Relational Inductive Bias](Relational%20Inductive%20Bias.md)
 - [ActivationFunctions](ActivationFunctions.md)
 	- allow the model to capture the non-linearity hidden in the data
 - [Dropout](Dropout.md)
@@ -15,6 +15,8 @@ tags:
 	- Reduces [[Covariate Shift]]
 - [Augmentation](Augmentation.md)
 - [Optimizers](Optimizers.md)
+
+
 
 
 

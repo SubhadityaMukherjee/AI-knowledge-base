@@ -13,3 +13,5 @@ tags: architecture
 \end{align}
 $$
 - Suggested $\gamma=0.9$ and $\eta= 0.001$
+
+

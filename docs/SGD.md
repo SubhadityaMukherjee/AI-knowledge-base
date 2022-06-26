@@ -11,3 +11,5 @@ tags: optimizer gradients
 - Due to an increase in the number of iterations, the overall computation time increases.
 - $$\theta = \theta - \eta \cdot \nabla_{\theta} J(\theta ; x^{i}; y^{i} )$$
 	- For each example $x^{i}$ and label $y^{i}$
+
+

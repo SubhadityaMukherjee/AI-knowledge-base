@@ -13,3 +13,5 @@ tags:
 	- Besides the architectural differences between them, one must also conclude that CNNs make data essentially sparser while SVMs do not.
 
 
+
+

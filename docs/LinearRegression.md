@@ -70,24 +70,5 @@ title: Linear Regression
 
 
 
-## Backlinks
 
-> - [Fundamentals](Fundamentals.md)
->   - [[LinearRegression]]
->    
-> - [YOLO](YOLO.md)
->   - [[LinearRegression]] problem
->    
-> - [Reg [[Uncertainty]]](Uncertainity in regression.md)
->   - [[LinearRegression]]
->    
-> - [Dense](Dense.md)
->   - Weighted [[LinearRegression]]
->    
-> - [Ridge Regression](Ridge Regression.md)
->   - [[LinearRegression]]
->    
-> - [Methods for [Feature Learning](Feature%20Learning.md)](Methods for Feature Learning.md)
->   - [[Gradient Descent gradients]] or [[LinearRegression]]
 
-_Backlinks last generated 2022-06-26 00:07:54_

@@ -19,26 +19,5 @@ title: Gradient Descent #gradients
 - [Adam](Adam.md)
 ## …
 
-## Backlinks
-> - [Learning Rate [[Scheduling]]](Learning Rate Scheduling.md)
->   - [[Gradient Descent gradients]]
->
-> - [Contrastive Loss](Contrastive Loss.md)
->   - Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
->
-> - [Gradient Ascent](Gradient Ascent.md)
->   - To maximize loss function unlike [[Gradient Descent gradients]]
->
-> - [Optimization](Optimizers.md)
->   - [[Gradient Descent gradients]]
->
-> - [AutoEncoder](Auto Encoders.md)
->   - Learn using [[Gradient Descent gradients]]
->
-> - [GAN](Generative Models.md)
->   - G : [[Gradient Descent gradients]]
->
-> - [Methods for [Feature Learning](Feature%20Learning.md)](Methods for Feature Learning.md)
->   - [[Gradient Descent gradients]] or [[LinearRegression]]
 
-_Backlinks last generated 2022-06-26 00:07:54_
+

@@ -2,7 +2,7 @@
 title: EEG Cluster Testing
 ---
 
-# EEG Cluster Testing
+# [EEG](EEG.md) Cluster Testing
 - If done for each point, same test repeated and false positives increase
 - eg: t test in each electrode
 - A result is more believable if it occurs in a set of adjacent channels:  
@@ -84,3 +84,11 @@ title: EEG Cluster Testing
 
 
 
+
+
+## Backlinks
+
+> - [[EEG](EEG.md) Statistical Analysis](EEG Statistical Analysis.md)
+>   - [[EEG Cluster Testing]]
+
+_Backlinks last generated 2022-06-26 15:19:30_

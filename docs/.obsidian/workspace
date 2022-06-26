@@ -49,21 +49,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "8b15f83899a85dd7",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -197,14 +189,14 @@
   "active": "c2d294e834cf92a7",
   "lastOpenFiles": [
     "journals/2022-06-26.md",
-    "Basic Transformer.md",
-    "journals/2022-06-21.md",
-    "journals/2022-06-23.md",
-    "journals/2022-06-24.md",
-    "journals/2022-06-25.md",
-    "journals/2022-06-16.md",
-    "journals/2022-06-15.md",
-    "journals/2022-06-19.md",
-    "journals/2022-06-20.md"
+    "Lisht.md",
+    "FTSwish.md",
+    "Swish.md",
+    "Softmax.md",
+    "Elu.md",
+    "PRelu.md",
+    "Leaky Relu.md",
+    "Tanh.md",
+    "Sigmoid.md"
   ]
 }

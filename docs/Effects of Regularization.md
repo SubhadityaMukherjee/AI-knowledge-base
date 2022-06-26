@@ -9,7 +9,7 @@ tags: regularize
 - Current Deep Networks heavily rely on regularizers such as data [Augmentation](Augmentation.md) (DA) or [[Weight Decay]], and employ structural risk minimization, i.e., [Cross Validation](Cross%20Validation.md), to select the optimal regularization hyper-parameters
 - weight decay increases the average test performances at the cost of significant performance drops on some specific classes
 - unfair across classes
-- By focusing on maximizing aggregate performance statistics we have produced learning mechanisms that can be potentially harmful, especially in transfer learning tasks
+- By focusing on maximizing aggregate performance statistics we have produced learning mechanisms that can be potentially harmful, especially in [transfer learning](Transfer%20Learning.md) tasks
 - optimal amount of DA or weight decay found from cross-validation leads to disastrous model performances on some classes
 - only by introducing random crop DA during training
 - such performance drop also appears when introducing uninformative regularization techniques such as weight decay
@@ -18,6 +18,8 @@ tags: regularize
 - designing novel regularizers without class-dependent bias remains an open research question
 - Categories largely identifiable by color or texture (for e.g., yellow bird, textured mushroom) are unaffected by aggressive cropping, while categories identifiable by shape (for e.g., corkscrew) see a performance degradation with aggressive cropping that only contains part of the object
 - Conversely, color jitter does not affect shape or texture-based categories (for e.g., zebra), but affects color-based categories (for e.g., basket ball)
+
+
 
 
 

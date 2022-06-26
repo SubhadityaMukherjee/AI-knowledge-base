@@ -1,13 +1,9 @@
 ---
 title: <% tp.file.title %>
 
-tags: optimizer gradients 
+tags: architecture 
 ---
 
 # <% tp.file.title %>
-
-
-
-
 
 

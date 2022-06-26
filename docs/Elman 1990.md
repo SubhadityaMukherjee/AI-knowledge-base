@@ -9,7 +9,7 @@ tags: language psychology
 - examine hidden unit activation pattern for each word measure distance between each pattern and every other pattern ([Euclidean distance](Euclidean%20Distance.md))
 - Use this to create a hierarchical cluster.
 - Network learned semantic classes
-- If the input to a simulation is preselected to avoid problems, one has instantiated an expert filtering system.
+- If the input to a simulation is preselected to avoid problems, one has instantiated an expert [filtering](Filtering.md) system.
 - in order to accomplish the goal of creating word classes by surface structure alone, it appears that the input must be filtered in just the right way.
 - Instead of semantic representations, semantics gets replaced with distributional information
 	- This is not what humans know about word classes.
@@ -20,6 +20,8 @@ tags: language psychology
 - language is very redundant, so certain simplifications actually remove helpful features
 - Categories can 'emerge' via statistical regularities
 - [Basic RNN Architectures](Basic%20RNN%20Architectures.md) can find these
+
+
 
 
 

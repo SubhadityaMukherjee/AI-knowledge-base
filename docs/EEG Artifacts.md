@@ -2,7 +2,7 @@
 title: EEG Artifacts
 ---
 
-# EEG Artifacts
+# [EEG](EEG.md) Artifacts
 - [[ICA]]
 - ![im](assets/Pasted%20Image%2020220502145423.png)
 
@@ -15,6 +15,8 @@ title: EEG Artifacts
 ## Periodic - Probably From ECG
 - ![im](assets/Pasted%20Image%2020220502145805.png)
 - Arteries in neck exposed when person is nervous
+
+
 
 
 

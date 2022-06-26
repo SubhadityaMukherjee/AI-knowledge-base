@@ -72,11 +72,6 @@ extra_css:
 plugins:
   - search:
      lang: en
-  - ezlinks:
-      warn_ambiguities: true
-      wikilinks: true
-      reference_links: true
-  - roamlinks
   - awesome-pages
   - git-revision-date
   - minify:

@@ -11,9 +11,5 @@ tags: optimizer gradients
 - The process repeats until the local minimum is reached. A local minimum is a point beyond which it can not proceed.
 
 
-## Backlinks
 
-> - [Gradient Descent #gradients](Gradient Descent gradients.md)
->   - [[Simple Gradient Descent]]
 
-_Backlinks last generated 2022-06-26 12:48:16_

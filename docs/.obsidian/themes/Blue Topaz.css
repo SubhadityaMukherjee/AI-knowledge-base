@@ -2247,7 +2247,7 @@ settings:
     level: 2
     collapsed: true
     description.zh:  ❗cssclass：inline-list❗列表项横向排布。
-    description:  ❗cssclass：inline-list❗ To make the list show in a horizontal row. Meanwhile, it makes the list show inline which can be used with inline images (like ![[xxx.jpg|inlineR]])
+    description:  ❗cssclass：inline-list❗ To make the list show in a horizontal row. Meanwhile, it makes the list show inline which can be used with inline images (like ![inlineR](xxx.jpg))
   -
     id: built-in-style-img-grid
     title:  Image Grid
@@ -2255,7 +2255,7 @@ settings:
     type: heading
     level: 2
     collapsed: true
-    description.zh:  ❗cssclass：img-grid❗实现图片类似网格一样自适应横排显示。也可以使用类似格式单独调整![[obsidian_image.png|inl|100]]  (adapted from https://github.com/iEchoxu/obsidian_orange/blob/main/.obsidian/snippets/image-grid.css)
+    description.zh:  ❗cssclass：img-grid❗实现图片类似网格一样自适应横排显示。也可以使用类似格式单独调整![inl|100](obsidian_image.png)  (adapted from https://github.com/iEchoxu/obsidian_orange/blob/main/.obsidian/snippets/image-grid.css)
     description: ❗cssclass：img-grid❗ To make images, which are not separated by line breaks, arrange in a grid in the preview mode. (adapted from https://github.com/iEchoxu/obsidian_orange/blob/main/.obsidian/snippets/image-grid.css)
   -
     id: built-in-style-matrix

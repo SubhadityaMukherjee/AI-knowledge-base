@@ -3205,7 +3205,7 @@ var __assign =
           }
           if (wasLinkText !== state.linkText) {
             if (!wasLinkText) {
-              if (current === "[[" || current === "]]") {
+              if (current === "[| current === "](" )") {
                 // Check wiki link
                 state.hmdLinkType = 4 /* WIKILINK */;
               } else {

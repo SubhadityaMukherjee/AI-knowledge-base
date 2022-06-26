@@ -12,9 +12,5 @@ tags: regularize
 - Adaptively computes affine params from style input
 
 
-## Backlinks
 
-> - [DALL-E](DALL-E.md)
->   - [[AdaIn]]
 
-_Backlinks last generated 2022-06-26 12:48:16_

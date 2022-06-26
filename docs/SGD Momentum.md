@@ -11,9 +11,5 @@ tags: optimizer gradients
 \end{align}$$
 
 
-## Backlinks
 
-> - [Gradient Descent #gradients](Gradient Descent gradients.md)
->   - [[SGD Momentum]]
 
-_Backlinks last generated 2022-06-26 12:48:16_

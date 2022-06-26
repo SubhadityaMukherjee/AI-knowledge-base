@@ -13,3 +13,5 @@ tags: optimizer gradients
 	- For each example $x^{i}$ and label $y^{i}$
 
 
+
+

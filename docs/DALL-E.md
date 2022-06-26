@@ -24,9 +24,5 @@ tags: architecture
 	- Graphic design, with e.g. the creation of a variety of icons.
 
 
-## Backlinks
 
-> - [Imagen](Imagen.md)
->   - With [DrawBench](DrawBench.md), we compare Imagen with recent methods including [[VQGAN]]+[[CLIP]], [[Latent Diffusion]] Models, and [[DALL-E]], and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment
 
-_Backlinks last generated 2022-06-26 12:48:16_

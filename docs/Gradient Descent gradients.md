@@ -21,3 +21,5 @@ title: Gradient Descent #gradients
 
 
 
+
+

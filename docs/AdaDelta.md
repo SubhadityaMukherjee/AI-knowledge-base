@@ -12,9 +12,5 @@ $$\begin{align}\\
 \end{align}$$
 
 
-## Backlinks
 
-> - [Gradient Descent #gradients](Gradient Descent gradients.md)
->   - [[AdaDelta]]
 
-_Backlinks last generated 2022-06-26 12:48:16_

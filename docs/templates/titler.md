@@ -1,11 +1,7 @@
 ---
 title: <% tp.file.title %>
 
-tags: dataset 
+tags: optimizer gradients 
 ---
 
 # <% tp.file.title %>
-
-
-
-

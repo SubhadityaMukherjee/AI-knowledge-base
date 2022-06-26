@@ -7,8 +7,13 @@
         "id": "c2d294e834cf92a7",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "journals/2022-06-21.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -53,12 +58,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -74,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "journals/2022-06-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "journals/2022-06-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "journals/2022-06-21.md"
+              }
             }
           },
           {
@@ -150,6 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "journals/2022-06-21.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -186,15 +196,15 @@
   },
   "active": "c2d294e834cf92a7",
   "lastOpenFiles": [
-    "Transformer.md",
-    "Vision Transformer.md",
-    "Spatial Transformer.md",
-    "Proto PMF.md",
-    "Hierarchial Refinement.md",
-    "Load balancing.md",
-    "Symbolic learning model.md",
-    "VTAB.md",
-    "Binomial Distribution.md",
-    "Bias nodes.md"
+    "journals/2022-06-21.md",
+    "journals/2022-06-23.md",
+    "journals/2022-06-24.md",
+    "journals/2022-06-25.md",
+    "journals/2022-06-26.md",
+    "journals/2022-06-16.md",
+    "journals/2022-06-15.md",
+    "journals/2022-06-19.md",
+    "journals/2022-06-20.md",
+    "DALL-E.md"
   ]
 }

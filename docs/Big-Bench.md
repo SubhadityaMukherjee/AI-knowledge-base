@@ -15,9 +15,5 @@ tags: benchmark
 - valuate the behavior of OpenAI’s GPT models, Google-internal dense transformer architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[Big-Bench]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

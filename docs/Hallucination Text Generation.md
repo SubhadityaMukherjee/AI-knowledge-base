@@ -10,9 +10,5 @@ tags: architecture
 - hallucinated texts
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[Hallucination Text Generation]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

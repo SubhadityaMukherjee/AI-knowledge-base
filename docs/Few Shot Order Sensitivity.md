@@ -14,9 +14,5 @@ tags:
 - identity performant permutations for prompts using entropy-based statistics over this set, which yields a 13% relative improvement for GPT-family models across eleven different established text classification tasks
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[Few Shot Order Sensitivity]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

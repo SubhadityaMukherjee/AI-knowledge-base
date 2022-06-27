@@ -14,9 +14,5 @@ tags: architecture
 - can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans
 
 
-## Backlinks
 
-> - [GELU](GELU.md)
->   - Used in [[GPT3]], [[Transformer]], [[Vision Transformer]], [[BERT]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

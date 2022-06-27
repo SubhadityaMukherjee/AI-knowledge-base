@@ -15,9 +15,5 @@ tags: benchmark
 - Directional Expectation Test: In the Invariance Test, they expect the outputs after the perturbation to be the same. However, sometimes they might expect the output after perturbation to change. That is when Directional Expectation Tests comes in handy
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[CheckList]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

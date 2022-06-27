@@ -13,9 +13,5 @@ tags: architecture
 - uses a permutation language modeling objective to combine the advantages of autoregressive and autoencoder methods
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[XLNet]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

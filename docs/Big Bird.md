@@ -10,9 +10,5 @@ tags: architecture
 - sparse attention mechanism that reduces this quadratic complexity to linear
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[Big Bird]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

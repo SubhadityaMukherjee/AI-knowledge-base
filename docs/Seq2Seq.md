@@ -16,3 +16,5 @@ tags: architecture
 - reversing the order of the words in all source sentences (but not target sentences) improved the LSTM’s performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier
 
 
+
+

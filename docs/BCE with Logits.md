@@ -82,3 +82,5 @@ $$\left(  - \mathrm{sum}\left( y \cdot \mathrm{logsoftmax}\left( ŷ \right) \cdo
 
 
 
+
+

@@ -15,9 +15,5 @@ tags: architecture
 - only the masked language model objective
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[RoBERTa]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

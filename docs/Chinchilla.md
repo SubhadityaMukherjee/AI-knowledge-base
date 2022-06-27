@@ -16,9 +16,5 @@ tags: architecture
 - [[MMLU]]
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[Chinchilla]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

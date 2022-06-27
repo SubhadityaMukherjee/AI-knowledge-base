@@ -16,9 +16,5 @@ tags: architecture
 - Penn Treebank
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[Transformer-XL]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

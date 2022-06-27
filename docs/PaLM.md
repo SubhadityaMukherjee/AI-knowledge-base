@@ -24,9 +24,5 @@ tags: architecture
 - ethical considerations related to large language models and discuss potential mitigation strategies
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[PaLM]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

@@ -12,9 +12,5 @@ tags:
 - chain of thought processing is an emergent property of model scale that can be induced via prompting and can enable sufficiently large language models to better perform reasoning tasks that otherwise have flat scaling curves.
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[Chain of Thought]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

@@ -17,9 +17,5 @@ tags: architecture
 - performs comparably to RoBERTa and XLNet while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[ELECTRA]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

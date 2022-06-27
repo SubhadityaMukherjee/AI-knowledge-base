@@ -16,9 +16,5 @@ tags: architecture
 - fine-tuning GPT-3 using behavior cloning, and then performing rejection sampling against a reward model trained to predict human preferences
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[WebGPT]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

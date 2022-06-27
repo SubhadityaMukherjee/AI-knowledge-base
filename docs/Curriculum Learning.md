@@ -19,9 +19,5 @@ tags: architecture
 - cheaper to formalize than full proofs
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[Curriculum Learning]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

@@ -17,9 +17,5 @@ tags: architecture
 - identify important neurons through GradCAM and combine it with neuron names to provide textual explanations for model decisions
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[GradCAM]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

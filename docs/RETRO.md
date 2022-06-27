@@ -17,9 +17,5 @@ tags: architecture
 - improving semi-parametric language models through explicit memory can provide an orthogonal, more efficient approach than raw parameter scaling as they seek to build more powerful language models
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[RETRO]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

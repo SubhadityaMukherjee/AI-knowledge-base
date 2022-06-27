@@ -19,3 +19,5 @@ tags: architecture
 - [Attention Alignment](Attention%20Alignment.md) score $$\alpha_{t,i} = \frac{s_{t}^{T}h_{i}}{\sqrt{n}}$$
 
 
+
+

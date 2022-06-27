@@ -16,9 +16,5 @@ tags:
 - This paper confirms all the above by introducing UDG using LMs, even for complex higher-order tasks and empirically shows classical fine-tuning with more data works better.
 
 
-## Backlinks
 
-> - [](journals/2022-06-27.md)
->   - [[Zero Label Language Learning]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

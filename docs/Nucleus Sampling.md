@@ -9,9 +9,5 @@ tags: distribution
 - By sampling text from the dynamic nucleus of the probability distribution, which allows for diversity while effectively truncating the less reliable tail of the distribution, the resulting text better demonstrates the quality of human text, yielding enhanced diversity without sacrificing fluency and coherence.
 
 
-## Backlinks
 
-> - [Neural Text Degeneration](Neural Text Degeneration.md)
->   - [[Nucleus Sampling]]
 
-_Backlinks last generated 2022-06-27 22:06:24_

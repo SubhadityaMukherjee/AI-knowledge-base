@@ -5,8 +5,24 @@ tags: architecture
 ---
 
 # BART
-- Bi directional + Auto regressive
-- [BERT](BERT.md) + [GPT](GPT.md) into one [Seq2Seq](Seq2Seq.md) model
-- Almost like [Basic Transformer](Basic%20Transformer.md)
+- [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461)
+- denoising autoencoder
+- pretraining sequence-to-sequence
+- trained by corrupting text with an arbitrary noising function, and learning a model to reconstruct the original text
+- generalizing BERT (due to the bidirectional encoder), GPT (with the left-to-right decoder),
+- finding the best performance by both randomly shuffling the order of the original sentences and using a novel in-filling scheme, where spans of text are replaced with a single mask token
+- With BERT, random tokens are replaced with masks, and the document is encoded bidirectionally. Missing tokens are predicted independently, so BERT cannot easily be used for generation.
+- With GPT, tokens are predicted auto-regressively (generation of a new token is conditioned on the prior tokens), meaning GPT can be used for generation.
+- noising schemes to an input document and thus corrupts it by replacing spans of text with mask symbols
+- effective when finetuned for text generation but also works well for comprehension tasks
+- matches the performance of [RoBERTa](../RoBERTa.md) with comparable training resource
+- [[GLUE]]
+- [[SQuAD]]
 
 
+## Backlinks
+
+> - [](journals/2022-06-27.md)
+>   - [[BART]]
+
+_Backlinks last generated 2022-06-27 22:06:24_

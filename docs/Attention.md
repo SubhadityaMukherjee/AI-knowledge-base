@@ -22,28 +22,6 @@ tags: architecture
 - [[Global and Sliding Window Attention]]
 - [[Content Based Attention]]
 - [[Location Base Attention]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [Mixed chunk attention](Mixed%20chunk%20attention.md)
 
 

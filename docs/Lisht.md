@@ -16,3 +16,5 @@ tags: activations
     - In their work, Roy et al. (2019) report based on empirical testing that indeed, the vanishing gradient problems is reduced compared to [Swish](Swish.md) and traditional ReLU. Additional correlations between network learning and the shape of e.g. the LiSHT loss landscape were identified.
 
 
+
+

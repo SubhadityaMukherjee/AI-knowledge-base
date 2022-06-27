@@ -7,7 +7,9 @@ tags: brain
  - Interprets language, words
  - Sense of touch, pain, temperature (sensory strip)
  - Interprets signals from vision, hearing, motor, sensory and memory
- - Spatial and visual perception
+ - Spatial and visual [perception](Perception.md)
+
+
 
 
 

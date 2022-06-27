@@ -13,3 +13,5 @@ tags: activations
 - However, what I must note is that this function does not protect us from the dying ReLU problem: the gradients for $x < 0$ are zero, as with ReLU.
 
 
+
+

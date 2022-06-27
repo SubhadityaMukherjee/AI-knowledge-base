@@ -25,28 +25,3 @@ tags: loss
 	- Final scores calculated with a [Softmax](Softmax.md)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -12,9 +12,3 @@ tags: regularize
 - First and second moments
 
 
-
-
-
-
-
-

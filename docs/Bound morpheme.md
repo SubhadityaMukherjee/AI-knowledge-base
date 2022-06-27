@@ -3,9 +3,11 @@ title: Bound morpheme
 tags: language
 ---
 
-# Bound Morpheme
+# Bound [Morpheme](Morpheme.md)
 - morphemes that cannot appear as a word by itself
 - e.g., +ing, +s, +ness,ly,ed
+
+
 
 
 

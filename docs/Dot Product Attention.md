@@ -15,27 +15,3 @@ tags: architecture
 - ![](assets/Pasted%20image%2020220621174933.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

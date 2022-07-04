@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Attention.md",
+            "file": "journals/2022-07-04.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attention.md",
+                "file": "journals/2022-07-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attention.md",
+                "file": "journals/2022-07-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attention.md"
+                "file": "journals/2022-07-04.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Attention.md",
+                "file": "journals/2022-07-04.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,6 +188,7 @@
   },
   "active": "fc8b5b73a0ababb6",
   "lastOpenFiles": [
+    "journals/2022-07-04.md",
     "Attention.md",
     "Google NMT.md",
     "Global and Sliding Window Attention.md",
@@ -196,7 +197,6 @@
     "Central Limit Theorem.md",
     "Attention NMT.md",
     "Locality.md",
-    "Pruning.md",
-    "Vector Functional Units.md"
+    "Pruning.md"
   ]
 }

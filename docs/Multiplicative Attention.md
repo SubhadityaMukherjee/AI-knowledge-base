@@ -41,9 +41,5 @@ tags: architecture
 
 
 
-## Backlinks
 
-> - [Dot Product [Attention](Attention.md)](Dot Product Attention.md)
->   - Equivalent to [[Multiplicative Attention]] with no trainable weight matrix. Performs better at larger dimensions
 
-_Backlinks last generated 2022-07-04 23:34:47_

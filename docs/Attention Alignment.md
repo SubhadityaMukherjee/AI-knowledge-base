@@ -31,9 +31,5 @@ tags: loss
 
 
 
-## Backlinks
 
-> - [Additive [Attention](Attention.md)](Additive Attention.md)
->   - Uses a one layer feedforward network to calculate [[Attention Alignment]]
 
-_Backlinks last generated 2022-07-04 23:34:47_

@@ -8,7 +8,7 @@ tags: architecture
 - [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://arxiv.org/abs/2201.05989)
 - [Neural Radiance Field](Neural%20Radiance%20Field.md)
 - Neural graphics primitives, parameterized by fully connected neural networks, can be costly to train and evaluate
-- rely on task specific data structures
+- rely on task specific [data structures](Data%20Structures.md)
 - new input encoding that permits the use of a smaller network without sacrificing quality
 - educing the number of floating point and memory access operations
 - near-instant training of neural graphics primitives on a single GPU for multiple tasks
@@ -22,6 +22,8 @@ tags: architecture
 - disambiguate hash collisions, making for a simple architecture that is trivial to parallelize on modern GPUs
 - parallelism
 - fully-fused [Operator Fusion](Operator%20Fusion.md) CUDA kernels with a focus on minimizing wasted bandwidth and compute operations
+
+
 
 
 

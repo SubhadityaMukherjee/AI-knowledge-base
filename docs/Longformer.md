@@ -15,8 +15,10 @@ tags: architecture
 - local windowed attention with a task motivated global attention
 - text8
 - enwik8
-- consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA
+- consistently outperforms [RoBERTa](RoBERTa.md) on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA
 - Longformer-Encoder-Decoder (LED), a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset
+
+
 
 
 

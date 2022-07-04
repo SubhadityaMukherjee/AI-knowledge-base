@@ -14,7 +14,9 @@ tags: architecture
 - more compute-efficient and results in better performance on downstream tasks
 - particularly strong for small models
 - GLUE
-- performs comparably to RoBERTa and XLNet while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
+- performs comparably to [[[RoBERTa](RoBERTa.md)](RoBERTa.md)](RoBERTa.md) and [XLNet](XLNet.md) while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
+
+
 
 
 

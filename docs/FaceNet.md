@@ -9,7 +9,7 @@ tags: architecture
 - Optimize the [embedding](Embedding.md) itself
 - FaceNet directly trains its output to be a compact 128-D [embedding](Embedding.md) using a [[Triplet Loss]] function
 - Choosing which triplets to use turns out to be very important for achieving good performance
-	- inspired by curriculum learning
+	- inspired by [curriculum learning](Curriculum%20Learning.md)
 	- online negative exemplar mining strategy which ensures consistently increasing difficulty of triplets as the network trains
 	- also explore hard-positive mining techniques which encourage spherical clusters for the embeddings of a single person
 - squared [[Lp Regularization]] L2 distance,  in the [embedding](Embedding.md) space directly correspond to face similarity: faces of the same person have small distances and faces of distinct people have large distances
@@ -18,6 +18,8 @@ tags: architecture
 - [[Zeiler Fergus]]
 - [[Inception]]
 - [[Harmonic Embedding]]
+
+
 
 
 

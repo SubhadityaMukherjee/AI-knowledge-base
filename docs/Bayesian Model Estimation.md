@@ -3,7 +3,7 @@ title: Bayesian Model Estimation
 ---
 
 # [[Bayesian]] Model Estimation
-- Unlike frequentist, sometimes things like sample mean is not a good metric because it has a high variance. Might give different results with different trials in a real valued distribution
+- Unlike [frequentist](Frequentist.md), sometimes things like sample mean is not a good metric because it has a high variance. Might give different results with different trials in a real valued distribution
 - The task is to estimate $\theta$ from the data
 - [[Bayesian Prior]]
 - Now there are two sources of info about the true distribution $p_{X}(\theta)$
@@ -31,6 +31,8 @@ title: Bayesian Model Estimation
 - Since this is different from sample mean -> Prior distribution really does influence the models
 
 ### [[Protein Modeling]]
+
+
 
 
 

@@ -14,7 +14,7 @@ tags: architecture
 - large and consistent dictionary on-the-fly
 - [ImageNet](ImageNet.md)
 - transfer well to downstream tasks.
-- PASCAL VOC
+- [PASCAL VOC](PASCAL%20VOC.md)
 - [COCO](COCO.md)
 - visual representation encoder by matching an encoded query
 - to a dictionary of encoded keys using a contrastive loss
@@ -24,6 +24,8 @@ tags: architecture
 - momentum update with the query encoder
 - ![](assets/moco1.jpg)
 - ![](assets/moco2.jpg)
+
+
 
 
 

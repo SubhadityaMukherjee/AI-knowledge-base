@@ -6,7 +6,7 @@ tags: architecture
 
 # BART
 - [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461)
-- denoising autoencoder
+- [denoising autoencoder](Denoising%20Autoencoder.md)
 - pretraining sequence-to-sequence
 - trained by corrupting text with an arbitrary noising function, and learning a model to reconstruct the original text
 - generalizing BERT (due to the bidirectional encoder), GPT (with the left-to-right decoder),
@@ -18,6 +18,8 @@ tags: architecture
 - matches the performance of [RoBERTa](../RoBERTa.md) with comparable training resource
 - [[GLUE]]
 - [[SQuAD]]
+
+
 
 
 

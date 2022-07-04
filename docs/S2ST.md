@@ -1,0 +1,22 @@
+---
+title: S2ST
+
+tags: architecture 
+---
+
+# S2ST
+- [Direct Speech-to-speech Translation with Discrete Units](https://arxiv.org/abs/2107.05604)
+- direct speech-to-speech translation (S2ST) model that translates speech from one language to speech in another language without relying on intermediate text generation
+- self-supervised discrete speech encoder on the target speech
+- training a sequence-to-sequence speech-to-unit translation
+- model to predict the discrete representations of the target speech
+- When target text transcripts are available, they design a joint speech and text training framework that enables the model to generate dual modality output (speech and text) simultaneously in the same inference pass
+- [[Fisher Spanish-English]]
+
+
+## Backlinks
+
+> - [](journals/2022-07-04.md)
+>   - [[S2ST]]
+
+_Backlinks last generated 2022-07-04 23:31:26_

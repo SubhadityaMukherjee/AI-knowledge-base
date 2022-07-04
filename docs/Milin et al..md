@@ -17,7 +17,7 @@ tags: language cogneuro psychology
 - Strikingly, TiMBL's inflectional class probabilities turn out to be predictive in production and comprehension, i. e., for lexical decision latencies.
 - Two Grapheme to Lexeme Measures
 - Diversity Sum of the absolute values of the activations of all possible outcomes, given a set of input cues.
-- Input cues that activate many different outcomes give rise to a highly diverse activation vector, which in turn indicates a high degree of uncertainty about the intended outcome.
+- Input cues that activate many different outcomes give rise to a highly diverse activation vector, which in turn indicates a high degree of [uncertainty](Uncertainty.md) about the intended outcome.
 - G2L-Prior Sum of the absolute values of the weights on the connections from all cues to a given outcome.
 - independent of the actual cues encountered in the input
 - reflects the prior availability of an outcome, its entrenchment in the learning network
@@ -38,6 +38,8 @@ tags: language cogneuro psychology
 - Some linguistic things can be learned with NDL and this might show use something about the problem
 - What made NDL so nice for animal learning might not scale up to linguistic phenomena
 - Inductive approaches to cognition
+
+
 
 
 

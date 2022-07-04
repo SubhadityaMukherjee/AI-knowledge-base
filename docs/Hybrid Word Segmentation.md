@@ -3,9 +3,11 @@ title: Hybrid Word Segmentation
 tags: language
 ---
 
-# Hybrid Word Segmentation
+# Hybrid [Word Segmentation](Word%20Segmentation.md)
 - combination
 - weighted Finite State Transducer to identify dictionary entries
+
+
 
 
 

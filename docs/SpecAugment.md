@@ -16,9 +16,5 @@ tags: regularize
 - converts ASR from an over-fitting to an under-fitting problem, and they are able to gain performance by using bigger networks and training longer
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[SpecAugment]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

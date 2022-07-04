@@ -13,9 +13,5 @@ tags: architecture
 - [LibriSpeech](LibriSpeech.md)
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[Conformer]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

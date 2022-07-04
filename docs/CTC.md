@@ -15,9 +15,5 @@ tags: loss
 - TIMIT speech corpus
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[CTC]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

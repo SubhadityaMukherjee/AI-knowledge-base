@@ -14,9 +14,5 @@ tags: architecture
 - successful control of Diffusion-LM for six challenging fine-grained control tasks
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[Diffusion LM]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

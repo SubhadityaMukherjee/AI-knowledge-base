@@ -15,9 +15,5 @@ tags: architecture
 - possibility of multilingual modeling without sacrificing per-language performance
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[XLM-R]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

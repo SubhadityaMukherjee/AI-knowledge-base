@@ -4,7 +4,7 @@ title: Attention Alignment
 tags: loss
 ---
 
-# Attention Alignment
+# [Attention](Attention.md) Alignment
 - If there are sequences $x, y$
 	- Encoder is any [Recurrent](Recurrent.md) with a forward state $$\overrightarrow h^{T}$$ and $$\overleftarrow h^{T}$$ for backward
 	- Concat them represents the preceding and following word annotations
@@ -29,3 +29,11 @@ tags: loss
 
 
 
+
+
+## Backlinks
+
+> - [Additive [Attention](Attention.md)](Additive Attention.md)
+>   - Uses a one layer feedforward network to calculate [[Attention Alignment]]
+
+_Backlinks last generated 2022-07-04 23:34:47_

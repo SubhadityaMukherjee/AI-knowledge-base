@@ -17,9 +17,5 @@ tags: architecture
 - Most suggested changes involve modifications to high-level constructs like API/Data Structure usages or other algorithmic changes, often spanning multiple methods, which cannot be optimized away automatically by the C`#` compiler and could, therefore, lead to slow-downs on the user’s side
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[DeepPERF]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

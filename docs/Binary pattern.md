@@ -89,3 +89,5 @@ title: Binary Pattern Encoding
 
 
 
+
+

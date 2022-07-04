@@ -19,9 +19,5 @@ tags: architecture
 - x-vectors are compared with i-vector baselines on [[Speakers in the Wild]] and [[NIST SRE 2016 Cantonese]] where they achieve superior performance on the evaluation datasets
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[X Vectors]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

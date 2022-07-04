@@ -12,9 +12,5 @@ tags: architecture
 - relies on the deep feature matching losses of the discriminators to improve the perceptual quality of enhanced speech
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[HiFI-GAN_Denoising]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

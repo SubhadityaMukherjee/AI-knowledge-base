@@ -16,9 +16,5 @@ tags: architecture
 - number of discrete units (50, 100, or 200) matters in a task-dependent and encoder-dependent way, and that some combinations approach text-based systems
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[Generative Spoken Language Modeling]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

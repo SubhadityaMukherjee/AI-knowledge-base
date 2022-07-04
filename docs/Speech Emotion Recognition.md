@@ -13,9 +13,5 @@ tags: architecture
 - even after the data on the client is lost, their model can generate similar data that can be used for model bootstrapping in the future
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[Speech Emotion Recognition]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

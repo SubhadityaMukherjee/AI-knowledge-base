@@ -15,9 +15,5 @@ tags: architecture
 - using a compact acoustic intermediate representation enables significant simplification of the WaveNet architecture
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[Tacotron 2]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

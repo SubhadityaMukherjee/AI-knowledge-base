@@ -23,9 +23,5 @@ tags: architecture
 - Up until d-vectors, the state-of-the-art [speaker verification](Speaker%20Verification.md) systems were based on the concept of i-vectors
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[Joint Factor Analysis]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

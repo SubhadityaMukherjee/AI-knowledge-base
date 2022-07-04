@@ -17,9 +17,5 @@ tags: architecture
 - possibility of flexibly selecting a generator configuration according to the target specifications without the need for a time-consuming hyper-parameter search for the discriminators
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[HiFI-GAN Synthesis]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

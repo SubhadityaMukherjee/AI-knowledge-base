@@ -16,9 +16,5 @@ tags: architecture
 - multi-stream transformer language model (MS-TLM) of speech, represented as discovered unit and prosodic feature streams, and an adapted HiFi-GAN model converting MS-TLM outputs to waveform
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[pGLSM]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

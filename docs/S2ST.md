@@ -14,9 +14,5 @@ tags: architecture
 - [[Fisher Spanish-English]]
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[S2ST]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

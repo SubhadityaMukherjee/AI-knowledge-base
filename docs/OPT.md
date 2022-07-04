@@ -12,9 +12,5 @@ tags: architecture
 - OPT-175B is comparable to GPT-3, while requiring only 1/7th the carbon footprint to develop
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[OPT]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

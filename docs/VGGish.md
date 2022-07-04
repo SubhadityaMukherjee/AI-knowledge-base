@@ -20,9 +20,5 @@ tags: architecture
 - model using embeddings learned from the video-level task do much better than a baseline on the [[AudioSet classification]] task
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[VGGish]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

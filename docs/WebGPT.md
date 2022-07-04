@@ -13,7 +13,9 @@ tags: architecture
 - models must collect references while browsing in support of their answers
 - ELI5
 - dataset of questions asked by Reddit users
-- fine-tuning GPT-3 using behavior cloning, and then performing rejection sampling against a reward model trained to predict human preferences
+- fine-tuning GPT-3 using behavior cloning, and then performing [rejection sampling](Rejection%20Sampling.md) against a reward model trained to predict human preferences
+
+
 
 
 

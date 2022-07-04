@@ -14,9 +14,5 @@ tags: loss
 - [[MultiReader technique]]
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[GE2E]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

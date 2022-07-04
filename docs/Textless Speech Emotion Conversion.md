@@ -16,9 +16,5 @@ tags: architecture
 - model non-verbal vocalizations, such as laughter insertion, yawning removal, etc
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[Textless Speech Emotion Conversion]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

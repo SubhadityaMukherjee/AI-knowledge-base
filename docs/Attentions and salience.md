@@ -5,11 +5,11 @@ tags: language cogneuro psychology
 ---
 
 # Attentions and Salience
-- Learning is related to attention
-- We give more attention to salient items
-- Selective attention leads to overshadowing
+- Learning is related to [attention](Attention.md)
+- We give more [attention](Attention.md) to salient items
+- Selective [attention](Attention.md) leads to overshadowing
 - Two cues presented together jointly predict outcomes
-- salience (and then attention) leads to one cue being strongly associated
+- salience (and then [attention](Attention.md)) leads to one cue being strongly associated
 - ther cue is only weakly associated (overshadowed)
 - Overshadowing leads to blocking
 - Blocking could model interference
@@ -18,6 +18,8 @@ tags: language cogneuro psychology
 - This seems to block acquisition of other cues
 - temporal adverbs are highly salient (and easier) so they get stronger associations
 - even though they co-occur with different [verb](Verb.md) forms, these are hard to learn
+
+
 
 
 

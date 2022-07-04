@@ -17,9 +17,5 @@ tags: architecture
 - helps when they have even small amounts of unlabeled speech, since languages for which they have little data can benefit from languages for which more data is available
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[wave2vec 2]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

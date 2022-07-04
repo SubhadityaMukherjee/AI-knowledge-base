@@ -3,13 +3,13 @@ title: Multi Head Attention
 tags: architecture einsum 
 ---
 
-# Multi Head Attention
+# Multi Head [Attention](Attention.md)
 - [ZihangDai et al., 2019](https://arxiv.org/abs/1901.02860)
-- which computes self-attention over the inputs, then adds back the residual and layer normalizes everything. The attention head can be split into multiple segments, hence the name _multi-head_
-- Multiple attention instances, each focusing on a different part of the input
+- which computes self-[attention](Attention.md) over the inputs, then adds back the residual and layer normalizes everything. The [attention](Attention.md) head can be split into multiple segments, hence the name _multi-head_
+- Multiple [attention](Attention.md) instances, each focusing on a different part of the input
 - Words can mean different things in context
 	- If using [[Self Attention]], then this just gets summed up. Which is not very nice
-	- Several attention heads -> different output vectors
+	- Several [attention](Attention.md) heads -> different output vectors
 	- Concatenate them and pass through a linear transform -> dimension back to k
 - $$MultiHead(Q,K,V) = Concat(head_1, head_2, …., head_h)W^O$$
 	- $$head_i = Attention(QW_i^Q, KW_i^K , VW_i^V)$$
@@ -52,6 +52,8 @@ class MultiHeadAttentionNew(nn.Module):
         output = self.layer_norm(output + residual)
         return output, attn
 ```
+
+
 
 
 

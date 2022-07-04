@@ -3,7 +3,7 @@ title: Self Attention
 tags: architecture einsum 
 ---
 
-# Self Attention
+# Self [Attention](Attention.md)
 - [paper](https://arxiv.org/abs/1706.03762v5)
 - Basically [Scaled Dot Product Attention](Scaled%20Dot%20Product%20Attention.md)
 - Q,K,V all from same module but prev layer
@@ -21,7 +21,7 @@ tags: architecture einsum
 	- each of the $y_{something}$ is a weighted sum over all the [embedding](Embedding.md) vectors in the first seq weighted by their normalized dot product with $v_{something}$
 	- the dot product shows how related the vectors are in the sequence
 		- weights determined by them
-		- Self-Attention layer may give more weights to those input vectors that are more similar to each other when generating the output vectors
+		- Self-[Attention](Attention.md) layer may give more weights to those input vectors that are more similar to each other when generating the output vectors
 - Properties
 	- Inputs are a set (not sequence)
 	- If input seq is permuted, the output is too
@@ -39,6 +39,8 @@ def attention(K, V, Q):
 
 ## Ref
 - [perterbloem](https://peterbloem.nl/blog/transformers)
+
+
 
 
 

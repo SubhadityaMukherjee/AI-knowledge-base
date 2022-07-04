@@ -14,9 +14,5 @@ tags: architecture
 - DNN based speaker verification system achieves good performance compared to a popular i-vector system on a small footprint text-dependent speaker verification task
 
 
-## Backlinks
 
-> - [](journals/2022-07-04.md)
->   - [[Speaker Verification]]
 
-_Backlinks last generated 2022-07-04 23:31:26_

@@ -1,13 +1,9 @@
 ---
 title: <% tp.file.title %>
 
-tags: dataset 
+tags: architecture 
 ---
 
 # <% tp.file.title %>
-
-
-
-
 
 

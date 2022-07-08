@@ -1,0 +1,23 @@
+---
+title: DeepNet
+
+tags: architecture 
+---
+
+# DeepNet
+- [DeepNet: Scaling Transformers to 1,000 Layers](https://arxiv.org/abs/2203.00555)
+- allows train extremely deep transformers with 1000L+ layers
+- fundamental, effective and simple
+- can be used in any Transformer architecture (encoder, decoder, encoder-decoder) which covers almost all different tasks across AI areas (language, vision, speech, multimodal, and beyond)
+- newly proposed normalization function
+- [[DeepNorm]]
+- It works alongside a dedicated initialization scheme based on Xavier initialization.
+- These two tricks lead to greater stability during the training which allows the authors to scale their modified Transformer architecture (DeepNet) up to 1000 layers
+
+
+## Backlinks
+
+> - [](journals/2022-07-07.md)
+>   - [[DeepNet]]
+
+_Backlinks last generated 2022-07-08 11:24:38_

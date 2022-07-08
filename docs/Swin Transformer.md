@@ -3,7 +3,7 @@
 
 title: Swin Transformer
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -23,69 +23,5 @@ tags: architecture
 	- [[ADE20K]]
 	- The hierarchical design and the shifted window approach also prove beneficial for all [[Perception]] [[Architectures]].
 	- Ratio of 1:1:3:1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

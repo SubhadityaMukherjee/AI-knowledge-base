@@ -12,9 +12,11 @@ tags: architecture
 - [[GAU]]
 - [[Mixed chunk attention]] 
 -
-- outperforms three baselines: vanilla Transformer, Performer and Combiner in terms of quality and efficiency
+- outperforms three baselines: vanilla [Transformer](Transformer.md), Performer and Combiner in terms of quality and efficiency
 - Wiki
 - PG-19
+
+
 
 
 

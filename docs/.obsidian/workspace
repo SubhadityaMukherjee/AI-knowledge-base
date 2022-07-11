@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "fc8b5b73a0ababb6",
+        "id": "6cac8f2295fb4c34",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -170,17 +170,17 @@
     "direction": "horizontal",
     "width": 236.5
   },
-  "active": "fc8b5b73a0ababb6",
+  "active": "6cac8f2295fb4c34",
   "lastOpenFiles": [
     "journals/2022-07-11.md",
-    "Conv.md",
-    "Morpheme Generation.md",
-    "Frontal lobe.md",
-    "Opacity Correction.md",
-    "Sparse Transformer.md",
-    "Agglutinating words.md",
-    "EEG.md",
-    "VTAB.md",
-    "Sampler.md"
+    "Inceptionism.md",
+    "Research Debt.md",
+    "Research Distillation.md",
+    "Clear Thinking.md",
+    "Interpretive Labor.md",
+    "Research Intimacy.md",
+    "Micromarriage.md",
+    "templates/titler.md",
+    "Interpretability vs Neuroscience.md"
   ]
 }

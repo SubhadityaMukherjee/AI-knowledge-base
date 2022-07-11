@@ -12,9 +12,5 @@ tags: architecture
 - his allows one to, for example, reduce discrimination in the generated pictures
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Style GAN]]
 
-_Backlinks last generated 2022-07-11 17:30:01_

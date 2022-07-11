@@ -1,13 +1,9 @@
 ---
 title: <% tp.file.title %>
 
-tags: architecture 
+tags: random
 ---
 
 # <% tp.file.title %>
-
-
-
-
 
 

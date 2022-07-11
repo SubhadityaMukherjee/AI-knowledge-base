@@ -19,8 +19,10 @@ tags: language cogneuro psychology
 - Biological arguments for distributed representations
 - Makes more sense that neurons get randomly assigned to be active for different inputs
 - We can start with randomness and with learning it will become structured
-- concepts are just bundles of features, that together become something
+- concepts are just bundles of [features](Features.md), that together become something
 - Prevents catastrophic failures
+
+
 
 
 

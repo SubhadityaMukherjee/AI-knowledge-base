@@ -5,7 +5,7 @@ tags: regularize
 
 # Layer Normalization
 - For RNNs etc
-- Mean and variance calculated independantly for each element of the batch by aggregating over the features dimensions.
+- Mean and variance calculated independantly for each element of the batch by aggregating over the [features](Features.md) dimensions.
 - ![](assets/Pasted%20image%2020220621163906.jpg) (Compared to [Batch Normalization](Batch%20Normalization.md))
 - $$ \begin{align*}\\
 &\mu_{\mathcal{B}} \leftarrow \frac{1}{m}\Sigma_{i=1}^{m}x_{i}\\
@@ -14,6 +14,8 @@ tags: regularize
 &y_{i}= \gamma \hat x_{i}+ \beta
 \end{align*}
 $$
+
+
 
 
 

@@ -20,8 +20,10 @@ tags: architecture
 - hese estimators lower-bound mutual information
 - higher bias but lower variance than NCE [[Bias Vs Variance]]
 - Applying these estimators as objectives in contrastive representation learning
-- transferring features to a variety of new image [distributions](Distributions.md) from the meta-dataset collection
+- transferring [features](Features.md) to a variety of new image [distributions](Distributions.md) from the meta-dataset collection
 - [[Contrastive Loss]]
+
+
 
 
 

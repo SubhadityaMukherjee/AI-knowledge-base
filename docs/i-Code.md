@@ -20,9 +20,5 @@ tags: architecture
 - mechanisms that merge and cross the attention scores of different modalities, namely merge-attention (based on self-attention) and co-attention (based on self- and cross-attention) respectively
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[i-Code]]
 
-_Backlinks last generated 2022-07-11 15:15:43_

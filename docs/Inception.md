@@ -8,11 +8,11 @@ tags: architecture
 - [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
 
 ### V1
-- [[Conv]] at different filter scales to find different kinds of features -> stack them up
+- [[Conv]] at different filter scales to find different kinds of [features](Features.md) -> stack them up
 - Increasing both the depth and width of the network while keeping computations at a manageable level
 - Human visual system wherein information is processed at multiple scales and then aggregated locally
 - channel [dimensionality reduction](Dimensionality%20Reduction.md), by reducing the output channels of the input
-- To enable concatenation of features convolved with different kernels, they pad the output to make it the same size as the input.
+- To enable concatenation of [features](Features.md) convolved with different kernels, they pad the output to make it the same size as the input.
 	- without dilation
 	- padding $p = (k-1)/2p$
 	- since $out = in +2p -k +1$
@@ -25,6 +25,8 @@ tags: architecture
 - Distributed the computational budget in a balanced way between the depth and width of the network
 - Added [[batch normalization]]
 - ![im](assets/Pasted%20Image%2020220306121513.png)
+
+
 
 
 

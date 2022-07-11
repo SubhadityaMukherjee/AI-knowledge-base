@@ -12,5 +12,6 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "foldIndent": true,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "communityPluginSortOrder": "release"
 }

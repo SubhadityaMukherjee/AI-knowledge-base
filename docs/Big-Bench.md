@@ -12,7 +12,9 @@ tags: benchmark
 - 204 tasks, contributed by 442 authors across 132 institutions
 - Task topics are diverse, drawing problems from linguistics, childhood development, math, common-sense reasoning, biology, physics, social bias, software development
 - tasks that are believed to be beyond the capabilities of current language models
-- valuate the behavior of OpenAI’s GPT models, Google-internal dense [transformer](Transformer.md) architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters
+- valuate the behavior of OpenAI’s [GPT](GPT.md) models, Google-internal dense [transformer](Transformer.md) architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters
+
+
 
 
 

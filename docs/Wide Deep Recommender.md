@@ -9,7 +9,7 @@ tags: architecture recommender
 - Generalized linear models with nonlinear feature transformations are widely used for large-scale regression and classification problems with sparse inputs.
 - Memorization of feature interactions through a wide set of cross-product feature transformations are effective and interpretable, while generalization requires more feature engineering effort
 - However, memorization and generalization are both important for recommender systems.
-- With less feature engineering, deep neural networks can generalize better to unseen feature combinations through low-dimensional dense embeddings learned for the sparse features
+- With less feature engineering, deep neural networks can generalize better to unseen feature combinations through low-dimensional dense embeddings learned for the sparse [features](Features.md)
 - However, deep neural networks with embeddings can over-generalize and recommend less relevant items when the user-item interactions are sparse and high-rank.
 - jointly trained wide linear models and deep neural networks – to combine the benefits of memorization and generalization for recommender systems
 - Wide linear models can effectively memorize sparse feature interactions using cross-product feature transformations, while deep neural networks can generalize to previously unseen feature interactions through low dimensional embeddings
@@ -18,9 +18,5 @@ tags: architecture recommender
 - Google Play Store
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Wide Deep Recommender]]
 
-_Backlinks last generated 2022-07-11 15:15:43_

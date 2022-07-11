@@ -14,7 +14,7 @@ tags: loss
 			- $$c_{t}= \Sigma_{i=1}^{n}\alpha_{t,i}h_{i}$$
 			- How well the two words are aligned is given by
 			- $$\alpha_{t,i} = align(y_{t}, x_{i})$$
-			- Taking softmax
+			- Taking [softmax](Softmax.md)
 				- $$\frac{exp(score(s_{t-1}, h_{i}))}{\Sigma_{i'-1}^{n}exp(score(s_{t-1}, h_{i}'))}$$
 - $$f_{att}(h_{i}, s_{j}) = v_{a}^{T}tanh(W_{a}[h_{i};s_{j}])$$
 - $v_{a}$ and $W_{a}$ are the learned [Attention](Attention.md) params
@@ -23,6 +23,8 @@ tags: loss
 - Matrix of alignment
 	- ![](assets/Pasted%20image%2020220621170423.png)
 	- Final scores calculated with a [Softmax](Softmax.md)
+
+
 
 
 

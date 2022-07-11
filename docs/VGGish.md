@@ -13,11 +13,13 @@ tags: architecture
 - gives log-mel spectrogram patches that are passed on as input to all classifiers
 - Acoustic Event Detection
 - train a classifier on embeddings learned from the video-level task on AudioSet
-- model for AED with embeddings learned from these classifiers does much better than raw features on the Audio Set AED classification task
+- model for AED with embeddings learned from these classifiers does much better than raw [features](Features.md) on the Audio Set AED classification task
 - derivatives of image classification networks do well on the audio classification task
 - increasing the number of labels they train on provides some improved performance over subsets of labels
 - performance of models improves as they increase training set size,
 - model using embeddings learned from the video-level task do much better than a baseline on the [[AudioSet classification]] task
+
+
 
 
 

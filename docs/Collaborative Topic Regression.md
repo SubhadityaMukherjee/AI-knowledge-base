@@ -15,9 +15,5 @@ tags: architecture recommender
 - generalizing recent advances in deep learning from i.i.d input to non-i.i.d (CF-based) input and propose a hierarchical Bayesian model called collaborative deep learning (CDL), which jointly performs deep representation learning for the content information and collaborative filtering for the ratings (feedback) matrix.
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Collaborative Topic Regression]]
 
-_Backlinks last generated 2022-07-11 15:15:43_

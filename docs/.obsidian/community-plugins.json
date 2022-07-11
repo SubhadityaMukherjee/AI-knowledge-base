@@ -1,5 +1,4 @@
 [
-  "obsidian-mind-map",
   "sliding-panes-obsidian",
   "obsidian-linter",
   "graph-analysis",
@@ -10,15 +9,11 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-code-block-enhancer",
   "obsidian-codemirror-options",
-  "code-block-copy",
-  "breadcrumbs",
-  "obsidian-autocomplete-plugin",
   "quick-latex",
   "obsidian-vimrc-support",
   "nlp",
   "obsidian-dynamic-embed",
   "templater-obsidian",
-  "obsidian-extract-pdf-highlights",
   "obsidian-pluck",
   "obsidian-local-images",
   "metaedit",
@@ -27,5 +22,6 @@
   "tag-wrangler",
   "obsidian-timestamper",
   "obsidian-footnotes",
-  "find-unlinked-files"
+  "find-unlinked-files",
+  "obsidian-doubleshift"
 ]

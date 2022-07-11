@@ -17,9 +17,5 @@ tags: architecture
 - Transformer sequence models are effective as multi-task multi-embodiment policies, including for real-world text, vision and robotics tasks
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Gato]]
 
-_Backlinks last generated 2022-07-11 15:15:43_

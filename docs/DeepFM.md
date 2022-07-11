@@ -11,15 +11,11 @@ tags: architecture recommender
 - an end-to-end learning model that emphasizes both low- and high-order feature interactions
 - DeepFM is a Factorization-Machine (FM) based Neural Network for CTR prediction, to overcome the shortcomings of the state-of-the-art models and to achieve better performance.
 - DeepFM trains a deep component and an FM component jointly and models low-order feature interactions through FM and models high-order feature interactions through the DNN
-- DeepFM can be trained end-to-end with a shared input to its “wide” and “deep” parts, with no need of feature engineering besides raw features.
-- 1) it does not need any pre-training; 2) it learns both high- and low-order feature interactions; 3) it introduces a sharing strategy of feature embedding to avoid feature engineering
-- combines the power of factorization machines for recommendation and deep learning for feature learning in a new neural network architecture
+- DeepFM can be trained end-to-end with a shared input to its “wide” and “deep” parts, with no need of feature engineering besides raw [features](Features.md).
+- 1) it does not need any pre-training; 2) it learns both high- and low-order feature interactions; 3) it introduces a sharing strategy of feature [embedding](Embedding.md) to avoid feature engineering
+- combines the power of factorization machines for recommendation and deep learning for [feature learning](Feature%20Learning.md) in a new neural network architecture
 - Criteo
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[DeepFM]]
 
-_Backlinks last generated 2022-07-11 15:15:43_

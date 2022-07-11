@@ -14,8 +14,10 @@ title: Dictionary Learning
 		- $$||d_i|| \leq 1$$
 - [[Sparse Dictionary Learning Loss]]
 
-- After learning, these can be used as discriminative features
+- After learning, these can be used as discriminative [features](Features.md)
 	- Expensive to compute
+
+
 
 
 

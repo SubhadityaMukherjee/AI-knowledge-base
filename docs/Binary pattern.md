@@ -97,3 +97,5 @@ title: Binary Pattern Encoding
 
 
 
+
+

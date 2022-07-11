@@ -15,9 +15,5 @@ tags: architecture
 - Through scene controllability, they introduce several new capabilities: (i) scene editing, (ii) text editing with anchor scenes, (iii) overcoming out-of-distribution text prompts, and (iv) story illustration generation
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Scene based text to image generation]]
 
-_Backlinks last generated 2022-07-11 15:15:43_

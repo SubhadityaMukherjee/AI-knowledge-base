@@ -16,7 +16,7 @@ tags: language cogneuro psychology
 - Effect = units only respond to a limited number of inputs
 - Bands appear when weights into HUs cancel each other out
 - Activations of hidden neurons can be organized into bands
-- Bands are associated with interpretable features
+- Bands are associated with interpretable [features](Features.md)
 - Lesion studies show bands are essential to solving problem
 - For some problems under some circumstances, neural networks develop highly selective hidden units
 - Looks like localist coding (grandmother cells)
@@ -24,6 +24,8 @@ tags: language cogneuro psychology
 - But realistically, more than one pattern might be activated simultaneously
 - Superimposing two or more patterns over same units leads to an ambiguous blend
 - Problem for localist representations, but even more serious with distributed representations
+
+
 
 
 

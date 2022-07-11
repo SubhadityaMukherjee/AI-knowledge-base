@@ -18,9 +18,5 @@ tags: architecture
 - Flamingo models can be trained on large-scale multimodal web corpora containing arbitrarily interleaved text and images, which is key to endow them with in-context few-shot learning capabilities
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Flamingo]]
 
-_Backlinks last generated 2022-07-11 15:15:43_

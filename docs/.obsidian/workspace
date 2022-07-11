@@ -14,44 +14,7 @@
             "backlinks": false,
             "source": false
           }
-        },
-        "group": "49a5a6ac70da8cdd"
-      },
-      {
-        "id": "c2cef800c7a71fb5",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "DLRM.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1.0198311708221026,
-              "close": false
-            }
-          }
-        },
-        "group": "49a5a6ac70da8cdd"
+        }
       }
     ],
     "direction": "vertical"
@@ -159,22 +122,6 @@
                 "file": "journals/2022-07-11.md"
               }
             }
-          },
-          {
-            "id": "cd7b69a4fe81fb5b",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "1a31a392cc51822a",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
           }
         ]
       },
@@ -226,14 +173,14 @@
   "active": "fc8b5b73a0ababb6",
   "lastOpenFiles": [
     "journals/2022-07-11.md",
-    "DLRM.md",
-    "DeepFM.md",
-    "Wide Deep Recommender.md",
-    "Collaborative Topic Regression.md",
-    "templates/titler.md",
-    "Flamingo.md",
-    "FLAVA.md",
-    "VL-BEIT.md",
-    "i-Code.md"
+    "Conv.md",
+    "Morpheme Generation.md",
+    "Frontal lobe.md",
+    "Opacity Correction.md",
+    "Sparse Transformer.md",
+    "Agglutinating words.md",
+    "EEG.md",
+    "VTAB.md",
+    "Sampler.md"
   ]
 }

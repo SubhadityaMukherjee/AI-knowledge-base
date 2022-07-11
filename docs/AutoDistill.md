@@ -18,9 +18,5 @@ tags: architecture
 - higher than BERT_BASE, DistillBERT, TinyBERT, NAS-BERT, and MobileBERT
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[AutoDistill]]
 
-_Backlinks last generated 2022-07-11 15:15:43_

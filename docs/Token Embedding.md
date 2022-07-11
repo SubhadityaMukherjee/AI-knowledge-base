@@ -4,8 +4,10 @@ title: Token Embedding
 tags: architecture 
 ---
 
-# Token Embedding
+# Token [Embedding](Embedding.md)
 - WordPiece [Tokenizer](Tokenizer.md)
+
+
 
 
 

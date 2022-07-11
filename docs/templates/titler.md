@@ -1,10 +1,12 @@
 ---
 title: <% tp.file.title %>
 
-tags: architecture recommender
+tags: architecture 
 ---
 
 # <% tp.file.title %>
+
+
 
 
 

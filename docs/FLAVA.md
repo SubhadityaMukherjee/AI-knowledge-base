@@ -11,9 +11,5 @@ tags: architecture
 - wide range of 35 tasks spanning these target modalities
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[FLAVA]]
 
-_Backlinks last generated 2022-07-11 15:15:43_

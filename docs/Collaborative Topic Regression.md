@@ -1,0 +1,23 @@
+---
+title: Collaborative Topic Regression
+
+tags: architecture recommender
+---
+
+# Collaborative Topic Regression
+- [Collaborative Deep Learning for Recommender Systems](https://arxiv.org/abs/1409.2944)
+- Collaborative filtering (CF) is a successful approach commonly used by many recommender systems
+- Conventional CF-based methods use the ratings given to items by users as the sole source of information for learning to make recommendation
+- However, the ratings are often very sparse in many applications, causing CF-based methods to degrade significantly in their recommendation performance
+- To address this sparsity problem, auxiliary information such as item content information may be utilized
+- Collaborative topic regression (CTR) is an appealing recent method taking this approach which tightly couples the two components that learn from two different sources of information
+- Nevertheless, the latent representation learned by CTR may not be very effective when the auxiliary information is very sparse.
+- generalizing recent advances in deep learning from i.i.d input to non-i.i.d (CF-based) input and propose a hierarchical Bayesian model called collaborative deep learning (CDL), which jointly performs deep representation learning for the content information and collaborative filtering for the ratings (feedback) matrix.
+
+
+## Backlinks
+
+> - [](journals/2022-07-11.md)
+>   - [[Collaborative Topic Regression]]
+
+_Backlinks last generated 2022-07-11 15:15:43_

@@ -20,9 +20,5 @@ tags: uncertainty
 - present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches
 
 
-## Backlinks
 
-> - [](journals/2022-07-07.md)
->   - [[SHAP]]
 
-_Backlinks last generated 2022-07-08 11:24:38_

@@ -15,12 +15,5 @@ tags: architecture
 - they convert all of a dataset’s classes into captions such as “a photo of a dog” and predict the class of the caption CLIP estimates best pairs with a given image
 
 
-## Backlinks
 
-> - [Imagen](Imagen.md)
->   - With [DrawBench](DrawBench.md), we compare Imagen with recent methods including [[VQGAN]]+[[CLIP]], [[Latent Diffusion]] Models, and [[DALL-E]], and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment
->    
-> - [](journals/2022-07-07.md)
->   - [[CLIP]]
 
-_Backlinks last generated 2022-07-08 11:24:38_

@@ -15,9 +15,5 @@ tags: architecture
 - negative sampling
 
 
-## Backlinks
 
-> - [](journals/2022-07-07.md)
->   - [[Contrastive Predictive Coding]]
 
-_Backlinks last generated 2022-07-08 11:24:38_

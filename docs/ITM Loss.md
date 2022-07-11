@@ -9,9 +9,5 @@ tags: loss
 - ITM requires positive and negative pairs
 
 
-## Backlinks
 
-> - [ViLT](ViLT.md)
->   - [[ITM Loss]]
 
-_Backlinks last generated 2022-07-08 11:24:38_

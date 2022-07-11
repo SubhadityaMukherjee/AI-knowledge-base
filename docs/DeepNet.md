@@ -15,9 +15,5 @@ tags: architecture
 - These two tricks lead to greater stability during the training which allows the authors to scale their modified Transformer architecture (DeepNet) up to 1000 layers
 
 
-## Backlinks
 
-> - [](journals/2022-07-07.md)
->   - [[DeepNet]]
 
-_Backlinks last generated 2022-07-08 11:24:38_

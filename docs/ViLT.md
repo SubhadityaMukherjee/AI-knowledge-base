@@ -27,9 +27,5 @@ tags: architecture
 - VLP needs to focus more on the multi-modality interactions aspect inside the transformer module rather than engaging in an arms race that merely powers up unimodal embedders
 
 
-## Backlinks
 
-> - [](journals/2022-07-07.md)
->   - [[ViLT]]
 
-_Backlinks last generated 2022-07-08 11:24:38_

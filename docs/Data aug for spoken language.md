@@ -14,9 +14,5 @@ tags:
 - leads to improvement in intent recognition error rate (IRER) on their golden utterance test set by 93% relative to the baseline without seeing a negative impact on other test metrics
 
 
-## Backlinks
 
-> - [](journals/2022-07-07.md)
->   - [[Data aug for spoken language]]
 
-_Backlinks last generated 2022-07-08 11:24:38_

@@ -9,12 +9,49 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "journals/2022-07-07.md",
+            "file": "journals/2022-07-11.md",
             "mode": "source",
             "backlinks": false,
             "source": false
           }
-        }
+        },
+        "group": "49a5a6ac70da8cdd"
+      },
+      {
+        "id": "c2cef800c7a71fb5",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "DLRM.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1.0198311708221026,
+              "close": false
+            }
+          }
+        },
+        "group": "49a5a6ac70da8cdd"
       }
     ],
     "direction": "vertical"
@@ -71,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-07-07.md",
+                "file": "journals/2022-07-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-07-07.md",
+                "file": "journals/2022-07-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-07-07.md"
+                "file": "journals/2022-07-11.md"
               }
             }
           },
@@ -151,7 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-07-07.md",
+                "file": "journals/2022-07-11.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,15 +225,15 @@
   },
   "active": "fc8b5b73a0ababb6",
   "lastOpenFiles": [
-    "journals/2022-07-07.md",
-    "Swin Transformer.md",
-    "Transformer.md",
-    "Vision Transformer.md",
-    "journals/2022-06-20.md",
-    "journals/2022-06-21.md",
-    "journals/2022-06-15.md",
-    "DeepNet.md",
-    "DeepNorm.md",
-    "MLIM.md"
+    "journals/2022-07-11.md",
+    "DLRM.md",
+    "DeepFM.md",
+    "Wide Deep Recommender.md",
+    "Collaborative Topic Regression.md",
+    "templates/titler.md",
+    "Flamingo.md",
+    "FLAVA.md",
+    "VL-BEIT.md",
+    "i-Code.md"
   ]
 }

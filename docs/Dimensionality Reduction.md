@@ -12,11 +12,13 @@ title: Dimensionality Reduction
 	- m such [features](Features.md) : feature map
 		- $$(f_1 , …, f_m)' =: f : \mathbb{R}^n \rightarrow \mathbb{R}^m$$
 		- maps input vectors to feature vectors
-- [[KMeans]]
-- [[PCA]]
-- [[SOMs]]
+- [KMeans](KMeans.md)
+- [PCA](PCA.md)
+- [SOMs](SOMs.md)
 
 #anchor
+
+
 
 
 

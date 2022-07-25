@@ -3,9 +3,11 @@ title: Federated Updates
 ---
 
 # Federated Updates
-- [[Structured Update]] 
+- [Structured Update](Structured%20Update.md) 
 
-- [[Sketched Update]]
+- [Sketched Update](Sketched%20Update.md)
+
+
 
 
 

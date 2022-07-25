@@ -4,7 +4,9 @@ tags: visualization
 ---
 
 # Challenge of Complex Geometry
-- [[Manifold]]
+- [Manifold](Manifold.md)
+
+
 
 
 

@@ -3,10 +3,12 @@ title: Sampling Ray Casting
 tags: visualization
 ---
 
-# [[Sampling]] Ray Casting
+# [Sampling](Sampling) Ray Casting
 - selection of positions along the ray
-- [[Early Ray Termination]]
+- [Early Ray Termination](Early%20Ray%20Termination.md)
 - ![im](assets/Pasted%20Image%2020220418002410.png)
+
+
 
 
 

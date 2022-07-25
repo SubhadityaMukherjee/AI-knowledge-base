@@ -5,8 +5,10 @@ tags: architecture
 
 # Stacking RNN
 - Deeper 
-- Each level -> output is seq of [features](Features.md) that is input at next set of [[layers]] in the hierarchy
+- Each level -> output is seq of [features](Features.md) that is input at next set of [Layers](Layers.md) in the hierarchy
 - ![im](assets/Pasted%20Image%2020220307171139.png)
+
+
 
 
 

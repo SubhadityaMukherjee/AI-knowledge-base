@@ -4,9 +4,11 @@ title: Encoding
 
 # Encoding
 
-## [[Discrete -> Continuous]]
+## [Discrete -> Continuous](Discrete%20-%3E%20Continuous.md)
 
-## [[Continous -> Discrete]]
+## [Continous -> Discrete](Continous%20-%3E%20Discrete.md)
+
+
 
 
 

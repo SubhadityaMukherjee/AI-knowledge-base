@@ -7,13 +7,15 @@ tags: brain
 - Also called Cerebral Cortex
 - It has a folded appearance with hills and valleys
 - The nerve cell bodies color the cortex grey-brown giving it its name – gray matter
-- Beneath the cortex are long nerve fibers (axons) that connect [[brain areas]] to each other — called white matter
+- Beneath the cortex are long nerve fibers (axons) that connect [Brain Areas](Brain%20Areas.md) to each other — called white matter
 - ![im](assets/Pasted%20Image%2020220509155537.png)
-- [[Gyrus]]
-- [[Basal Ganglia]]
+- [Gyrus](Gyrus.md)
+- [Basal Ganglia](Basal%20Ganglia.md)
 - Divided into parts
-	- [[Medial Prefrontal Cortex]], and the [[Posterior Cingulate Cortex]] with the nearby [[Precuneus]] and [[Lateral Parietal Cortex]]
+	- [Medial Prefrontal Cortex](Medial%20Prefrontal%20Cortex), and the [Posterior Cingulate Cortex](Posterior%20Cingulate%20Cortex) with the nearby [Precuneus](Precuneus) and [Lateral Parietal Cortex](Lateral%20Parietal%20Cortex)
 **
+
+
 
 
 

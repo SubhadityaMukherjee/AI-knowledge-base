@@ -3,7 +3,9 @@ title: Intuitive Color spaces
 tags: visualization
 ---
 
-# Intuitive [[Color Spaces]]
+# Intuitive [Color Spaces](Color%20Spaces.md)
+
+
 
 
 

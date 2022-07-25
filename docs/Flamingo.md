@@ -12,10 +12,12 @@ tags: architecture
 - bridge powerful pretrained vision-only and language-only models
 - handle sequences of arbitrarily interleaved visual and textual data
 - seamlessly ingest images or videos as inputs
-- Interleave cross-attention layers with language-only self-attention layers (frozen).
+- Interleave cross-attention [layers](Layers.md) with language-only self-attention [layers](Layers.md) (frozen).
 - Perceiver-based architecture that transforms the input sequence data (videos) into a fixed number of visual token
 - Large-scale (web) multi-modal data by scraping webpages which has inter-leaved text and images
 - Flamingo models can be trained on large-scale multimodal web corpora containing arbitrarily interleaved text and images, which is key to endow them with in-context few-shot learning capabilities
+
+
 
 
 

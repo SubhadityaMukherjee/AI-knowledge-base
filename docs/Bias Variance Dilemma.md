@@ -13,9 +13,9 @@ title: Bias Vs Variance
 	- Best: min point in curve. But it is defined on test data which we do not have
 - ![im](assets/Pasted%20Image%2020220312134708.png)
 - ![im](assets/Pasted%20Image%2020220312134752.png)
-- Decision function should minimize [[LossFunctions]] and yield a function with risk h. This is hopeless $$R(h) = E[L(h(X), Y)]$$
-- Tune on [[Emperical Risk]] instead using [[Optimizers]]
-- $\mathcal{H}$ is hypothesis space (related to [[Fitting]]).
+- Decision function should minimize [LossFunctions](LossFunctions) and yield a function with risk h. This is hopeless $$R(h) = E[L(h(X), Y)]$$
+- Tune on [Emperical Risk](Emperical%20Risk.md) instead using [Optimizers](Optimizers.md)
+- $\mathcal{H}$ is hypothesis space (related to [Fitting](Fitting.md)).
 ## Why is This a Dilemma
 - Any learning algo $\mathcal{A}$
 - If we run $\mathcal{A}$ repeatedly but for different "fresh" sampled data -> $\hat h$ varies from trial to trial
@@ -24,7 +24,7 @@ title: Bias Vs Variance
 	- value determined by drawn training samples
 	- rep by distribution $P_{X,Y}$  (which we cannot really know)
 	- Expectation $E_{retrain}[\hat h(x)]$ . aka taken over ALL possible training runs with sampled data
-- [[Quadratic Loss]] (risk) is minimized by the function $$\Delta(x) = E_{Y|X=x}[Y]$$
+- [Quadratic Loss](Quadratic%20Loss.md) (risk) is minimized by the function $$\Delta(x) = E_{Y|X=x}[Y]$$
 	- Expectation of Y given x.
 - ![im](assets/Pasted%20Image%2020220315232708.png)
 - ![im](assets/Pasted%20Image%2020220315232721.png)
@@ -32,7 +32,9 @@ title: Bias Vs Variance
 - Variance measures how strongly the results vary around the expected value $E_{retrain}$
 - When flexibility is too low -> bias dominates(too good in train and horrible later) and underfits
 - When flexibility is too high -> variance dominates -> overfitting
-## [[Tuning Model Flexibility]]
+## [Tuning Model Flexibility](Tuning%20Model%20Flexibility.md)
+
+
 
 
 

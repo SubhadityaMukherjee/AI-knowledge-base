@@ -3,7 +3,9 @@ title: Useful Codes
 ---
 
 # Useful Codes
-- [[Parallel Runner]]
+- [Parallel Runner](Parallel%20Runner.md)
+
+
 
 
 

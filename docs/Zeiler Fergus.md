@@ -4,7 +4,9 @@ tags: architecture
 ---
 
 # Zeiler Fergus
-- multiple interleaved layers of [[Conv]], non-linear [[ActivationFunctions]], local response normalizations, and max [[Pooling]]
+- multiple interleaved [layers](Layers.md) of [Conv](Conv.md), non-linear [ActivationFunctions](ActivationFunctions.md), local response normalizations, and max [Pooling](Pooling.md)
+
+
 
 
 

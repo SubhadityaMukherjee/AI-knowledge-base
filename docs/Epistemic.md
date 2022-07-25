@@ -4,10 +4,12 @@ tags: uncertainty
 ---
 
 # Epistemic
-- [[Uncertainty]] produced by the model
+- [Uncertainty](Uncertainty.md) produced by the model
 - Class imbalance etc
 - Reduce by adding more info
 - ![im](assets/Pasted%20Image%2020220323154101.png)
+
+
 
 
 

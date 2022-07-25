@@ -4,8 +4,10 @@ tags: language
 ---
 
 # Transitive [Verb](Verb.md)
-- a [verb](Verb.md) with a direct [[noun]] object
+- a [verb](Verb.md) with a direct [noun](noun) object
 - I cooked a duck belonging to her
+
+
 
 
 

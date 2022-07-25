@@ -4,7 +4,7 @@ tags: einsum architecture
 ---
 
 # Spatial [Transformer](Transformer.md)
-- [[Transformer]]
+- [Transformer](Transformer.md)
 
 ```python
 class SpacialTransformNew(nn.Module):
@@ -35,6 +35,8 @@ class SpacialTransformNew(nn.Module):
         grid = F.affine_grid(self.compute_theta(x), x.size())
         return F.grid_sample(x, grid)
 ```
+
+
 
 
 

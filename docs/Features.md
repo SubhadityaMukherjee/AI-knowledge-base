@@ -24,8 +24,10 @@ title: Features
 - Relevant features
 
 ## Random Things
-- 1 hidden layer [[perceptron]] -> Universal fn estimator
+- 1 hidden layer [Perceptron](Perceptron.md) -> Universal fn estimator
 - Best generalization -> First order optimization
+
+
 
 
 

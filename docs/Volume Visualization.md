@@ -3,11 +3,13 @@ title: Volume Visualization
 tags: visualization
 ---
 
-# Volume [[Visualization]]
-- [[Orthogonal Slicing]]
-- [[Oblique Slicing]]
-- [[Isosurface]]
-- [[Volumetric Illumination]]
+# Volume [Visualization](Visualization)
+- [Orthogonal Slicing](Orthogonal%20Slicing.md)
+- [Oblique Slicing](Oblique%20Slicing.md)
+- [Isosurface](Isosurface.md)
+- [Volumetric Illumination](Volumetric%20Illumination.md)
+
+
 
 
 

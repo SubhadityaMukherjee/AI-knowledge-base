@@ -10,22 +10,24 @@ tags: regularize
 - In most cases, the network is first trained for a while. Then pruned. Which reduces its accuracy and is thus trained again (fine tuning). This cycle is repeated until we get the results we require.
 - Major Types of Pruning Methods
 
-- [[Structure Based Pruning]]
+- [Structure Based Pruning](Structure%20Based%20Pruning.md)
 
-- [[Scoring Pruning Approaches]]
+- [Scoring Pruning Approaches](Scoring%20Pruning%20Approaches.md)
 
-- [[Scheduling]]
+- [Scheduling](Scheduling.md)
 
-- [[Fine Tuning Based Pruning]]
+- [Fine Tuning Based Pruning](Fine%20Tuning%20Based%20Pruning.md)
 
-- [[Global Magnitude Based Pruning]]
+- [Global Magnitude Based Pruning](Global%20Magnitude%20Based%20Pruning.md)
 
-- [[Global Gradient Magnitude Based Pruning]]
+- [Global Gradient Magnitude Based Pruning](Global%20Gradient%20Magnitude%20Based%20Pruning.md)
 
-- [[Layerwise Gradient Magnitude Based Pruning]]
+- [Layerwise Gradient Magnitude Based Pruning](Layerwise%20Gradient%20Magnitude%20Based%20Pruning.md)
 
-- [[Random Pruning]]
-- [[Layerwise Magnitude Based Pruning]]
+- [Random Pruning](Random%20Pruning.md)
+- [Layerwise Magnitude Based Pruning](Layerwise%20Magnitude%20Based%20Pruning.md)
+
+
 
 
 

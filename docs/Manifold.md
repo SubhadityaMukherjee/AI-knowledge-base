@@ -5,7 +5,7 @@ title: Manifold
 # Manifold
 - Data manifolds are an abstraction 
 - Only geometric insights are important
-- Locally around some point c where the [[pdf]] is large -> It will stay large only for a small fraction of directions
+- Locally around some point c where the [PDF](PDF.md) is large -> It will stay large only for a small fraction of directions
 	- Those directions span a low dimensional hyperplane around c
 	- "low dimensional sheets"
 	- curved path
@@ -15,7 +15,7 @@ title: Manifold
 		- Locally represents Euclidean space
 - Only surface and not interior
 - No sharp edges or spikes
-- Can be exploited by [[Adversarial Learning]]
+- Can be exploited by [Adversarial Learning](Adversarial%20Learning.md)
 - Examples
 	- 1 dim -> Lines in some high dim figure : B
 	- 2 dim -> Surfaces : A
@@ -27,6 +27,8 @@ title: Manifold
 ## Refs
 - [tds](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
 - [way more stuff : bjlkeng](https://bjlkeng.github.io/posts/manifolds/) #todo
+
+
 
 
 

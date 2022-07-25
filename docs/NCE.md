@@ -9,7 +9,7 @@ tags: architecture
 
 # NCE
 - [Conditional Negative Sampling for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2010.02037)
-- [[Contrastive Learning]]
+- [Contrastive Learning](Contrastive%20Learning)
 - noise-contrastive estimation
 - bound on mutual information between two views of an image
 - randomly sampled negative examples to normalize the objective
@@ -18,10 +18,12 @@ tags: architecture
 - sample negatives conditionally
 - in a “ring” around each positive, by approximating the partition function using samples from a class of conditional [distributions](Distributions.md)
 - hese estimators lower-bound mutual information
-- higher bias but lower variance than NCE [[Bias Vs Variance]]
+- higher bias but lower variance than NCE [Bias Vs Variance](Bias%20Vs%20Variance)
 - Applying these estimators as objectives in contrastive representation learning
 - transferring [features](Features.md) to a variety of new image [distributions](Distributions.md) from the meta-dataset collection
-- [[Contrastive Loss]]
+- [Contrastive Loss](Contrastive%20Loss.md)
+
+
 
 
 

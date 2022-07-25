@@ -8,7 +8,7 @@ tags: distribution
 - Mean $\mu$ and std $\sigma$. $\mu$ is max and $\mu \pm \sigma$  is locations of zeros of second derivative
 - ![im](assets/Pasted%20Image%2020220319144034.png)
 - $\mathcal{N}(0,1)$
-- [[Central Limit Theorem]]
+- [Central Limit Theorem](Central%20Limit%20Theorem.md)
 
 ## Properties
 - Linear combinations of normal distributed independant RVs are normal distributed
@@ -23,6 +23,8 @@ tags: distribution
 - Iterative solvers
 - $$\phi(\frac{b-\mu}{\sigma})-\phi(\frac{a-\mu}{\sigma})$$
 - $$\hat \mu = \frac{1}{N}\Sigma_{i}(x_{i})$$ $$\hat \sigma^{2}= \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)^2$$
+
+
 
 
 

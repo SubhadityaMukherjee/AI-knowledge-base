@@ -9,12 +9,14 @@ tags: architecture
 - weaknesses in handling long sequences
 - FLASH
 - performant layer (gated linear unit) and by combining it with an accelerator-efficient approximation strategy ([mixed chunk attention](Mixed%20chunk%20attention.md))
-- [[GAU]]
-- [[Mixed chunk attention]] 
+- [GAU](GAU.md)
+- [Mixed chunk attention](Mixed%20chunk%20attention.md) 
 -
 - outperforms three baselines: vanilla [Transformer](Transformer.md), Performer and Combiner in terms of quality and efficiency
 - Wiki
 - PG-19
+
+
 
 
 

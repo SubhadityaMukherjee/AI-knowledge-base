@@ -14,7 +14,7 @@ tags: architecture
 - As a result, researchers specializing in one modality often adopt a totally different strategy than those specializing in another.
 - For each modality, algorithms anticipate distinct units: pixels or visual tokens for images, words for the text, and learned sound inventories for voice
 - teaching models to anticipate their own representations of the incoming data, regardless of mode
-- Instead of predicting visual tokens, phrases, or sounds, a single algorithm may work with completely different sorts of input by focusing on these representations — the layers of a neural network
+- Instead of predicting visual tokens, phrases, or sounds, a single algorithm may work with completely different sorts of input by focusing on these representations — the [layers](Layers.md) of a neural network
 - robust normalization of the [features](Features.md) for the job that would be trustworthy in different modalities to directly predict representations.
 - The method starts by computing target representations from an image, a piece of text, or a voice utterance using a teacher network
 - After that, a portion of the input was masked and repeated with a student network, which predicts the teacher’s latent representations
@@ -32,6 +32,8 @@ tags: architecture
 - For computer vision, they have used the ViT-strategy of encoding an image as a sequence of patches, each spanning 16x16 pixels, input to a linear transformation.
 - Speech data is encoded using a multi-layer 1-D convolutional neural network that maps 16 kHz waveform to 50 Hz representations.
 - Text is pre-processed to obtain sub-word units, which are then embedded in distributional space via learned [embedding](Embedding.md) vectors.
+
+
 
 
 

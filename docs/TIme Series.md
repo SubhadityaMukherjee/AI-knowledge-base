@@ -19,8 +19,10 @@ title: Time Series Prediction
 - Short range
 	- PDE , ODE
 - Long range
-	- [[HMM]]
-	- [[Recurrent]]
+	- [HMM](HMM)
+	- [Recurrent](Recurrent.md)
+
+
 
 
 

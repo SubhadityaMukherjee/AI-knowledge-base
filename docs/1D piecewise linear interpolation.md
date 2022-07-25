@@ -5,8 +5,10 @@ tags: visualization
 
 # 1D Piecewise Linear [Interpolation](Interpolation.md)
 
-# 1D Piecewise Linear [[Interpolation]]
+# 1D Piecewise Linear [Interpolation](Interpolation.md)
 - ![im](assets/Pasted%20Image%2020220411124653.png)
+
+
 
 
 

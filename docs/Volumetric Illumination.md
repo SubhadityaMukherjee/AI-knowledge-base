@@ -4,10 +4,12 @@ tags: visualization
 ---
 
 # Volumetric Illumination
-- [[Phong Lighting]]
-- [[Finite Differences]]
-- [[Shading]]
-- [[Raycasting]]
+- [Phong Lighting](Phong%20Lighting.md)
+- [Finite Differences](Finite%20Differences.md)
+- [Shading](Shading.md)
+- [Raycasting](Raycasting.md)
+
+
 
 
 

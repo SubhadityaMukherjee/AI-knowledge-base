@@ -9,7 +9,7 @@ tags: visualization
 - where
 - $$c_{i}= o_{i}c_{i}'$$
 - ![im](assets/Pasted%20Image%2020220418003237.png)
-- First is same as [[Marching Cubes]]
+- First is same as [Marching Cubes](Marching%20Cubes.md)
 - $$I(p) = \begin{cases*}
 
 f(\sigma)&  $\exists t \in [0,T], s(t) = \sigma$ \\
@@ -18,6 +18,8 @@ I_{o}&otherwise
 
 \end{cases*}$$
 - Higher pixel accurate quality
+
+
 
 
 

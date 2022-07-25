@@ -16,9 +16,11 @@ tags: architecture
 - coupled with an auxiliary decoder and trained on publicly available parallel corpora
 - learn a classifier on top of the resulting embeddings using English annotated data only, and transfer it to any of the 93 languages without any modification
 - [XNLI](XNLI)
-- [[MLDoc]]
-- [[BUCC]]
+- [MLDoc](MLDoc.md)
+- [BUCC](BUCC.md)
 - test set of aligned sentences in 112 languages
+
+
 
 
 

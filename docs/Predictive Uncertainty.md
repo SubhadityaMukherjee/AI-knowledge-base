@@ -3,8 +3,10 @@ title: Predictive Uncertainty
 tags: uncertainty
 ---
 
-# Predictive [[Uncertainty]]
+# Predictive [Uncertainty](Uncertainty.md)
 - ![im](assets/Pasted%20Image%2020220323154146.png)
+
+
 
 
 

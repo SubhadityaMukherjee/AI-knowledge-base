@@ -11,7 +11,9 @@ tags: architecture
 - training a sequence-to-sequence speech-to-unit translation
 - model to predict the discrete representations of the target speech
 - When target text transcripts are available, they design a joint speech and text training framework that enables the model to generate dual modality output (speech and text) simultaneously in the same inference pass
-- [[Fisher Spanish-English]]
+- [Fisher Spanish-English](Fisher%20Spanish-English.md)
+
+
 
 
 

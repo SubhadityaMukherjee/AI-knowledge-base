@@ -14,8 +14,10 @@ tags: architecture
 - increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model
 - FID score
 - [COCO](COCO.md)
-- [[DrawBench]]
-- With [DrawBench](DrawBench.md), we compare Imagen with recent methods including [[VQGAN]]+[[CLIP]], [[Latent Diffusion]] Models, and [[DALL-E]], and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment
+- [DrawBench](DrawBench.md)
+- With [DrawBench](DrawBench.md), we compare Imagen with recent methods including [VQGAN](VQGAN)+[CLIP](CLIP.md), [Latent Diffusion](Latent%20Diffusion) Models, and [DALL-E](DALL-E.md), and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment
+
+
 
 
 

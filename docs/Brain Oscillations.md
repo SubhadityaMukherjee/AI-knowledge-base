@@ -6,13 +6,15 @@ tags: brain
 # Brain Oscillations
 - Periodic 
 - Brain waves
-- [[Delta Waves]]
-- [[Theta Waves]]
-- [[Alpha Waves]]
-- [[Beta Waves]]
-- [[Gamma Waves]]
-- [[Spectrogram]]
+- [Delta Waves](Delta%20Waves.md)
+- [Theta Waves](Theta%20Waves.md)
+- [Alpha Waves](Alpha%20Waves.md)
+- [Beta Waves](Beta%20Waves.md)
+- [Gamma Waves](Gamma%20Waves.md)
+- [Spectrogram](Spectrogram.md)
 - ![im](assets/Pasted%20Image%2020220502160132.png)
+
+
 
 
 

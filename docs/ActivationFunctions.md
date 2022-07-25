@@ -3,27 +3,29 @@ title: Activation Functions
 ---
 
 # Activation Functions
-- [[Initialization]]
+- [Initialization](Initialization.md)
 
-- [[Sigmoid]]
+- [Sigmoid](Sigmoid.md)
 
-- [[Relu]]
-- [[Elu]]
-- [[Maxout]]
+- [Relu](Relu.md)
+- [Elu](Elu.md)
+- [Maxout](Maxout.md)
 
-- [[Tanh]]
+- [Tanh](Tanh.md)
 
-- [[Softmax]]
+- [Softmax](Softmax.md)
 
-- [[Softplus]]
+- [Softplus](Softplus.md)
 
-- [[Swish]]
+- [Swish](Swish.md)
 
 ## Refs
 - [mlmastery](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/)
 #anchor
 
 ## …
+
+
 
 
 

@@ -12,7 +12,7 @@ tags: architecture
 	- contrastive learning of visual representations
 	- without requiring specialized architectures or a memory bank
 	- composition of data augmentations plays a critical role in defining effective predictive tasks
-	- introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations
+	- introducing a learnable nonlinear transformation between the representation and the [contrastive loss](Contrastive%20Loss.md) substantially improves the quality of the learned representations
 	- contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning
 	- use of a nonlinear head at the end of the network, and the loss function
 	- [Res Net](Res%20Net.md)
@@ -23,6 +23,8 @@ tags: architecture
 	- encoder $f(\cdot)$
 	- representation $h$
 	- ![](assets/simclr.jpg)
+
+
 
 
 

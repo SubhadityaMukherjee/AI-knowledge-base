@@ -9,7 +9,7 @@ tags: language psychology
 		- No past-tense stored? Generate form
 	- Why symbolic? It uses the abstract '[verb](Verb.md)'
 	- Rules that refer to these categories are used to guide processing
-	- [[past tense]]
+	- [past tense](past%20tense.md)
 	- Irregular forms stored in associative memory (declarative memory)
 	- Symbolic rules produce [past tense](past%20tense.md) forms (procedural memory)
 	- look-up is quicker than rule application
@@ -32,8 +32,10 @@ tags: language psychology
 		- No difference between frequent and infrequent regulars
 	- Maybe because experiments always present the root form? (1) This is a girl who knows how to dance. She did the same
 		- Root presentation might mask differences due to frequency in regulars
-- [[Challenges of Words-and-rules]]
+- [Challenges of Words-and-rules](Challenges%20of%20Words-and-rules.md)
 	
+
+
 
 
 

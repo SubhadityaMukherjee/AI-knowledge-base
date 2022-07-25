@@ -9,7 +9,9 @@ tag: architecture
 - Max/Avg
 - Too much pooling reduces performance
 	- Multiple convs first 
-- Max pool + dilated/[[strided]] convs control effective [receptive field](Receptive%20field.md) size
+- Max pool + dilated/[Strided](Strided.md) convs control effective [receptive field](Receptive%20field.md) size
+
+
 
 
 

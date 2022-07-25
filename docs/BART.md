@@ -16,8 +16,10 @@ tags: architecture
 - noising schemes to an input document and thus corrupts it by replacing spans of text with mask symbols
 - effective when finetuned for text generation but also works well for comprehension tasks
 - matches the performance of [RoBERTa](../RoBERTa.md) with comparable training resource
-- [[GLUE]]
-- [[SQuAD]]
+- [GLUE](GLUE.md)
+- [SQuAD](SQuAD.md)
+
+
 
 
 

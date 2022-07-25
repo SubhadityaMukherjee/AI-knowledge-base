@@ -3,8 +3,10 @@ title: Clustering
 ---
 
 # Clustering
-- [[KMeans]]
-- [[SOMs]]
+- [KMeans](KMeans.md)
+- [SOMs](SOMs.md)
+
+
 
 
 

@@ -11,9 +11,11 @@ tags: visualization
 - n = 2 : quadtree
 - n = 3 : octree
 - ![im](assets/Pasted%20Image%2020220316000739.png)
-- [[Mesh refinement]]
+- [Mesh refinement](Mesh%20refinement.md)
 
 ## …
+
+
 
 
 

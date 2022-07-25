@@ -4,7 +4,7 @@ tags: einsum architecture
 ---
 
 # Highway Convolutions
-- [[Conv]]
+- [Conv](Conv.md)
 
 ```python
 class HighwayConv1dNew(nn.Conv1d):
@@ -14,6 +14,8 @@ class HighwayConv1dNew(nn.Conv1d):
         torch.sigmoid_(H1)
         return H1 * H2 + (1.0 - H1) * inputs
 ```
+
+
 
 
 

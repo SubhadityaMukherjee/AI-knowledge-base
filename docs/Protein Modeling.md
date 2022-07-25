@@ -3,28 +3,30 @@ title: Protein Modeling
 ---
 
 # Protein Modeling
-- Using [[Bayesian]] models
-- Task : Estimate [[probability]] mass function(because discrete) for a finite, discrete distribution -> given a histogram from a sample
+- Using [Bayesian](Bayesian.md) models
+- Task : Estimate [Probability](Probability.md) mass function(because discrete) for a finite, discrete distribution -> given a histogram from a sample
 - Large number of categories and small number of observations
 - ![im](assets/Pasted%20Image%2020220316121901.png)
-	- Estimate [[probability]] distrib of amino acids in each column in a protein class. 20 dim [[pmf]] (one for each site)
+	- Estimate [Probability](Probability.md) distrib of amino acids in each column in a protein class. 20 dim [PMF](PMF.md) (one for each site)
 	- Can be aligned
 	- High chances of class not being present in data
-		- [[MLE]] will assign 0 [[probability]] to X
+		- [MLE](MLE) will assign 0 [Probability](Probability.md) to X
 		- Wrong decision made for a lot of them that were not in the training set
 		- Cannot use
 
-- 20 dim [[pmf]] for amnio acid distrib : $\theta = (\theta_{1}, … ,\theta_{20})' = (P(X=A), …, P(X=Y))'$
+- 20 dim [PMF](PMF.md) for amnio acid distrib : $\theta = (\theta_{1}, … ,\theta_{20})' = (P(X=A), …, P(X=Y))'$
 	- count vectors of amino acids found in a given site in training data D
-	- Distributed according to [[Multinomial Distribution]] with l = 20
+	- Distributed according to [Multinomial Distribution](Multinomial%20Distribution.md) with l = 20
 
 ## Using Prior
 - 0 probabilities should not occur. $$\mathcal{H} = (\theta_{1}, …, \theta_{20})' \in \mathbb{R}^{20}|\theta_{j} \in (0,1)$$ and $$ \Sigma_{j} \theta_{j}=1$$
 	- 19 dim hypervolume
-	- Continuous space and so can use [[pdf]]
-	- [[Dirichlet Distribution]] is used to represent it because parameterized with l = 20
+	- Continuous space and so can use [PDF](PDF.md)
+	- [Dirichlet Distribution](Dirichlet%20Distribution.md) is used to represent it because parameterized with l = 20
 - ![im](assets/Pasted%20Image%2020220316123546.png)
 - $\alpha$s fixed beforehand
+
+
 
 
 

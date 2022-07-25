@@ -5,9 +5,11 @@ tags: language
 
 # Sentence Segmentation
 - identify the processing unit, consists of one or more words
-- [[Sentence boundary detection]]
-- [[Sentence boundary disambiguation]]
-- [[Sentence boundary recognition]]
+- [Sentence boundary detection](Sentence%20boundary%20detection)
+- [Sentence boundary disambiguation](Sentence%20boundary%20disambiguation)
+- [Sentence boundary recognition](Sentence%20boundary%20recognition)
+
+
 
 
 

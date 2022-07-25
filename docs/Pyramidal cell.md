@@ -7,7 +7,9 @@ title: Pyramidal cell
 - ![im](assets/Pasted%20Image%2020220502144737.png)
 	- Folds on sides have same charge
 	- Adds up so can be measured
-	- [[Equivalent Current Dipole]]
+	- [Equivalent Current Dipole](Equivalent%20Current%20Dipole.md)
+
+
 
 
 

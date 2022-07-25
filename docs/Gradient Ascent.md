@@ -3,9 +3,11 @@ title: Gradient Ascent
 ---
 
 # Gradient Ascent
-- To maximize loss function unlike [[Gradient Descent gradients]]
+- To maximize loss function unlike [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
 - Proportional to positive of gradient
 - $$\theta_{t+1} = \theta{t} + \eta_t \Sigma_{n=1}^N(\nabla l_n(\theta_t))^T$$
+
+
 
 
 

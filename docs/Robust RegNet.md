@@ -17,10 +17,12 @@ tags: architecture
 - without any data pre-processing or prior assumptions about what we want the model to learn
 - [RegNet](RegNet.md)
 - scaled to a dense 10 billion parameters
-- pre-trained using the [[SwaV]] self-supervised method on a large collection of 1 billion randomly selected public images from Instagram with a diversity of gender, ethnicity, cultures, and locations
+- pre-trained using the [SwaV](SwaV) self-supervised method on a large collection of 1 billion randomly selected public images from Instagram with a diversity of gender, ethnicity, cultures, and locations
 - captures well semantic information
 - captures information about artistic style and learns salient information such as geo-locations and multilingual word embeddings based on visual content only.
 - large-scale self-supervised pre-training yields more robust, fair, less harmful, and less biased results than supervised models or models trained on object centric datasets such as [ImageNet](ImageNet.md)
+
+
 
 
 

@@ -15,9 +15,11 @@ tags: regularize
 		- Dead model
 
 ## Types
-- [[Lp Regularization]] for p =2
+- [Lp Regularization](Lp%20Regularization.md) for p =2
 	- Soft models
 	- Squared sum of model params
+
+
 
 
 

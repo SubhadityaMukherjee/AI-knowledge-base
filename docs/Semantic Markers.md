@@ -7,7 +7,9 @@ tags: language
 - PHYSICAL-OBJECT
 - ANIMATE-OBJECT
 - ABSTRACT-OBJECT
-- Unfortunately, to solve [[lexical disambiguation]] problem complete, it becomes necessary to introduce more and more finely grained semantic markers
+- Unfortunately, to solve [Lexical Disambiguation](Lexical%20Disambiguation.md) problem complete, it becomes necessary to introduce more and more finely grained semantic markers
+
+
 
 
 

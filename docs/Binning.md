@@ -9,7 +9,9 @@ title: Binning
 	- Simplest -> k equal bins
 	- Approx Equal no of data points
 	- Reduced precision devices perform as well as the high precision ones
-	- Continuous range -> adaptive bin boundaris [[Decision Trees]]
+	- Continuous range -> adaptive bin boundaris [Decision Trees](Decision%20Trees.md)
+
+
 
 
 

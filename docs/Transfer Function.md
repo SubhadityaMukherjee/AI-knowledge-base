@@ -9,7 +9,9 @@ tags: visualization
 - Can be stored inside a color lookup table (LUT)
 - ![im](assets/Pasted%20Image%2020220418002619.png)
 - ![im](assets/Pasted%20Image%2020220418002958.png)
-- [[Opacity Correction]]
+- [Opacity Correction](Opacity%20Correction.md)
+
+
 
 
 

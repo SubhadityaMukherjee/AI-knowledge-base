@@ -17,13 +17,15 @@ tags: architecture
 - [PASCAL VOC](PASCAL%20VOC.md)
 - [COCO](COCO.md)
 - visual representation encoder by matching an encoded query
-- to a dictionary of encoded keys using a contrastive loss
+- to a dictionary of encoded keys using a [contrastive loss](Contrastive%20Loss.md)
 - dictionary is built as a queue, with the current mini-batch enqueued
 - oldest mini-batch dequeued
 - slowly progressing encoder
 - momentum update with the query encoder
 - ![](assets/moco1.jpg)
 - ![](assets/moco2.jpg)
+
+
 
 
 

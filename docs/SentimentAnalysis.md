@@ -4,8 +4,10 @@ tags: application
 ---
 
 # SentimentAnalysis
-- [[Sentiment Neuron]]
-- [[Block Sparse Kernel]]
+- [Sentiment Neuron](Sentiment%20Neuron.md)
+- [Block Sparse Kernel](Block%20Sparse%20Kernel.md)
+
+
 
 
 

@@ -5,10 +5,12 @@ title: Noise
 # Noise
 - To training input data
 	- Gaussian random noise
-	- [[Augmentation]]
+	- [Augmentation](Augmentation.md)
 - While the algo runs
-	- [[Dropout]]
-- [[Stochastic ensemble learning]]
+	- [Dropout](Dropout.md)
+- [Stochastic ensemble learning](Stochastic%20ensemble%20learning.md)
+
+
 
 
 

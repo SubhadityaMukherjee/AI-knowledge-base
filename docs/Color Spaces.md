@@ -4,8 +4,10 @@ tags: visualization
 ---
 
 # Color Spaces
-- [[Divide Oriented]]
-- [[Intuitive Color spaces]]
+- [Divide Oriented](Divide%20Oriented.md)
+- [Intuitive Color spaces](Intuitive%20Color%20spaces.md)
+
+
 
 
 

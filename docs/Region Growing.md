@@ -6,8 +6,10 @@ tags: visualization
 # Region Growing
 - Automatic Segmentation
 - Requires seed point
-- Leakage through holes in [[contour]]
+- Leakage through holes in [Contour](Contour.md)
 - ![im](assets/Pasted%20Image%2020220411131307.png)
+
+
 
 
 

@@ -5,7 +5,7 @@ tags: architecture
 
 # Rmsprop
 - RL
-- More stable than [[Adagrad]]
+- More stable than [Adagrad](Adagrad.md)
 - Moving exponential avg : older grads given less weight
 - $$\begin{align}\\
 & E[g^{2}]_{t}= 0.9E[g^{2}]_{t-1}+ 0.1g^{2}_{t}\\
@@ -13,6 +13,8 @@ tags: architecture
 \end{align}
 $$
 - Suggested $\gamma=0.9$ and $\eta= 0.001$
+
+
 
 
 

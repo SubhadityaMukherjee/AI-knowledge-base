@@ -10,8 +10,10 @@ tags: architecture
 - Weights inputs by percentile, rather than by sign like [ReLU](Relu.md)
 - $$GELU(x) = xP(X \leq x) = x\Phi(x) = x. \frac{1}{2}\left[ 1+erf\left( \frac{x}{\sqrt{ 2 }} \right) \right]$$
 - If $X \sim \mathscr{N}(0,1)$
-- Used in [[GPT3]], [[Transformer]], [[Vision Transformer]], [[BERT]]
+- Used in [GPT3](GPT3.md), [Transformer](Transformer.md), [Vision Transformer](Vision%20Transformer.md), [BERT](BERT.md)
 - ![](https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-27_at_12.48.44_PM.png)
+
+
 
 
 

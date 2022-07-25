@@ -172,15 +172,15 @@
   },
   "active": "6cac8f2295fb4c34",
   "lastOpenFiles": [
-    "fastai.md",
-    "Fastai Deployment.md",
-    "Gradio.md",
-    "Fastai Interpretation.md",
-    "Fastai Blocks.md",
-    "journals/2022-07-25.md",
-    "Pytorch Tricks.md",
-    "templates/titler.md",
-    "assets/Pasted image 20220725104005.png",
-    "Visualization Of Layers.md"
+    "Augmentation.md",
+    "Pooling.md",
+    "Names of individuals.md",
+    "Basic RNN Architectures.md",
+    "First order generalization.md",
+    "Volterra expansion.md",
+    "Intra cluster variance.md",
+    "MLIM.md",
+    "Generative Models.md",
+    "VariationalRecurrent Dropout.md"
   ]
 }

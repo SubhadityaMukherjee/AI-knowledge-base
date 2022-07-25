@@ -3,7 +3,7 @@ title: Lp Regularization
 tags: regularize
 ---
 
-# Lp [[Regularization]]
+# Lp [Regularization](Regularization.md)
 - ![](assets/Pasted%20image%2020220626150853.png) (from [link](https://github.com/christianversloot/machine-learning-articles/blob/main/which-regularizer-do-i-need-for-training-my-neural-network.md))
 - Tikhonov
 - Penalty considering weights
@@ -14,13 +14,15 @@ tags: regularize
 		- With linear model : feature selection
 	- Weight Decay
 		- p = 2
-		- [[Bayesian]]
+		- [Bayesian](Bayesian.md)
 		- Encourages optimization trajectory perpendicular to isocurves
 		- ![im](assets/Pasted%20Image%2020220306133032.png)
 - Tune $$\lambda$$
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit
-	- [[Cross validation]] required
+	- [Cross Validation](Cross%20Validation.md) required
+
+
 
 
 

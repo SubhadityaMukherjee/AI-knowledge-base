@@ -3,10 +3,12 @@ title: Proto PMF
 tags: distribution 
 ---
 
-# Proto [[PMF]]
-- Generalized [[PMF]]
+# Proto [PMF](PMF.md)
+- Generalized [PMF](PMF.md)
 - $$p(x|\theta) = \frac{1}{\Sigma_{x \in S}p_{0}(s)}p_{0}(x)$$
 - S is huge if there are many random variables
+
+
 
 
 

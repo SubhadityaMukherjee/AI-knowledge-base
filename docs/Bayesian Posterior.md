@@ -2,16 +2,18 @@
 title: Bayesian Posterior
 ---
 
-# [[Bayesian]] Posterior
+# [Bayesian](Bayesian.md) Posterior
 - When D is fixed though, this becomes a function of Model Candidates
 - Non negative on K dim param space
-- Not a [[pdf]] but if we divide it by its integral -> [[pdf]] . 
+- Not a [PDF](PDF.md) but if we divide it by its integral -> [PDF](PDF.md) . 
 	- $$\frac{p_{\otimes_{i}}x(D|\theta)h(\theta)}{\int_{\mathbb{R}^K}p_{\otimes_{i}}x(D|\theta)h(\theta)d\theta}$$
 	- Prob distrib over candidate models
-- If the denominator is replaced written as $p(D)$ then it looks like the [[Bayes Rule]]
+- If the denominator is replaced written as $p(D)$ then it looks like the [Bayes Rule](Bayes%20Rule.md)
 - Shape : $P(D|\theta)h(\theta)$ 
 	- Integral not 1
-	- [[Proto Distributions]] on $\theta$ space
+	- [Proto Distributions](Proto%20Distributions.md) on $\theta$ space
+
+
 
 
 

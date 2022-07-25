@@ -4,9 +4,11 @@ tags: architecture
 ---
 
 # Alex Net
-- [Dropout](Dropout.md) + [[Relu]]
+- [Dropout](Dropout.md) + [Relu](Relu.md)
 - No of filters increase according to depth
 - ![im](assets/Pasted%20Image%2020220306120121.png)
+
+
 
 
 

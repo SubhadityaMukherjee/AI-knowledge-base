@@ -4,10 +4,12 @@ tags: language
 ---
 
 # Word Structure
-- [[Isolating words]]
-- [[Agglutinating words]]
-- [[Inflectional words]]
-- [[Polysynthetic words]]
+- [Isolating words](Isolating%20words.md)
+- [Agglutinating words](Agglutinating%20words.md)
+- [Inflectional words](Inflectional%20words.md)
+- [Polysynthetic words](Polysynthetic%20words.md)
+
+
 
 
 

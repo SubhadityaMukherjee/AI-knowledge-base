@@ -3,8 +3,10 @@ title: Global Magnitude Based Pruning
 tags: regularize
 ---
 
-# Global Magnitude Based [[Pruning]]
+# Global Magnitude Based [Pruning](Pruning.md)
 - Takes the lowest values in the entire network. Drops them.
+
+
 
 
 

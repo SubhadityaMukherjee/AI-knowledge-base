@@ -12,10 +12,12 @@ tags:
 - in [LinearRegression](LinearRegression.md)
 	- we assume that the variable Y is linearly dependent on the explanatory variables X.
 	- Therefore, the resulting model linearly fits the training data. However, this assumption can limit the model’s capacity to learn non-linear functions.
-- in [[Logistic Regression]]
+- in [Logistic Regression](Logistic%20Regression)
 	- assume that there’s a hyperplane that separates the two classes from each other. This simplifies the problem, but one can imagine that if the assumption is not valid, we won’t have a good model.
-- [[Non Relational Inductive Bias]]
-- [[Relational Inductive Bias]]
+- [Non Relational Inductive Bias](Non%20Relational%20Inductive%20Bias.md)
+- [Relational Inductive Bias](Relational%20Inductive%20Bias.md)
+
+
 
 
 

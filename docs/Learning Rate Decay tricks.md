@@ -6,9 +6,11 @@ title: Learning Rate Decay #tricks
 - Scale of loss landscape changes
 - Reduce step size near optima
 - Factor $$\alpha_{i+1} = d\cdot \alpha_i$$
-- [[Cosine Learning Rate Decay]]
+- [Cosine Learning Rate Decay](Cosine%20Learning%20Rate%20Decay.md)
 
 ## …
+
+
 
 
 

@@ -4,7 +4,9 @@ tags: language
 ---
 
 # Conceptual Parsing
-- [[Syntactic Analysis]] and [[Semantic Analysis]] knowledge are combined into a single interpretation system that is driven by the semantic knowledge
+- [Syntactic Analysis](Syntactic%20Analysis.md) and [Semantic Analysis](Semantic%20Analysis.md) knowledge are combined into a single interpretation system that is driven by the semantic knowledge
+
+
 
 
 

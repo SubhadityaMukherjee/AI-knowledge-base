@@ -17,7 +17,7 @@ tag: todo architecture
 - $$h_t = \sigma_h(W_{hh}h_{t-1} + W_{xh}x_t + b_h)$$
 - $$y_t = \sigma_y(W_{hy}h_t + b_y)$$
 - Stateful : hidden state kept across batches of inputs
-- Activation usually [[sigmoid]] or [[tanh]]
+- Activation usually [Sigmoid](Sigmoid.md) or [Tanh](Tanh.md)
 - BPTT
 	- ![im](assets/Pasted%20Image%2020220306185944.png)![im](assets/Pasted%20Image%2020220306190603.png)
 	- #gradients
@@ -29,14 +29,16 @@ tag: todo architecture
 			- Clip if $$||g|| >v$$ set $$g = \frac{gv}{||g||}$$
 			- v can be decided by trial and error
 - Training stuff
-	- [[Softmax]] but on every output vector simultaneously
-		- If [[Softmax#T is the Temperature]] is lower (eg between 0 and 0.5). It becomes more confident and hence more conservative
+	- [Softmax](Softmax.md) but on every output vector simultaneously
+		- If [](Softmax.md#T%20is%20the%20Temperature) is lower (eg between 0 and 0.5). It becomes more confident and hence more conservative
 		- Near 0 is very diverse and less confident
 	- Feed a char into the RNN -> distribution over characters that comes next -> Sample from it -> Feed it back
 - Some basic patterns [from here](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 	- The model first discovers the general word-space structure and then rapidly starts to learn the words.
 	- First starting with the short words and then eventually the longer ones.
 	- Topics and themes that span multiple words (and in general longer-term dependencies) start to emerge only much later.
+
+
 
 
 

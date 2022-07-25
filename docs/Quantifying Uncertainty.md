@@ -2,7 +2,9 @@
 title: Quantifying Uncertainty
 ---
 
-# Quantifying [[Uncertainty]]
+# Quantifying [Uncertainty](Uncertainty.md)
+
+
 
 
 

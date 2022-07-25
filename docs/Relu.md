@@ -9,9 +9,11 @@ tags: architecture
 - He init
 - MLP, CNN : Hidden
 - ![](assets/Pasted%20image%2020220626151636.jpg)
-- [[Leaky Relu]]
-- [[PRelu]]
-- [[Noisy Relu]]
+- [Leaky Relu](Leaky%20Relu.md)
+- [PRelu](PRelu.md)
+- [Noisy Relu](Noisy%20Relu.md)
+
+
 
 
 

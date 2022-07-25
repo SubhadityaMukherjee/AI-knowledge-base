@@ -5,14 +5,10 @@ tags: library
 ---
 
 # Fastai
-- [[Fastai Blocks]]
-- [[Fastai Interpretation]]
-- [[Fastai Deployment]]
+- [Fastai Blocks](Fastai%20Blocks.md)
+- [Fastai Interpretation](Fastai%20Interpretation.md)
+- [Fastai Deployment](Fastai%20Deployment.md)
 
 
-## Backlinks
 
-> - [](journals/2022-07-25.md)
->   - [[fastai]]
 
-_Backlinks last generated 2022-07-25 17:11:34_

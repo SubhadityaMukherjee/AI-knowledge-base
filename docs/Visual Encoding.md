@@ -5,7 +5,9 @@ tags: visualization
 
 # Visual Encoding
 - ![im](assets/Pasted%20Image%2020220418104606.png)
-- [[Characteristics of Visual Variables]]
+- [Characteristics of Visual Variables](Characteristics%20of%20Visual%20Variables.md)
+
+
 
 
 

@@ -4,9 +4,11 @@ tags: visualization
 ---
 
 # Classification Ray Casting
-- [[Transfer Function]]
-- [[Pre Classification]]
-- [[Post Classification]]
+- [Transfer Function](Transfer%20Function.md)
+- [Pre Classification](Pre%20Classification.md)
+- [Post Classification](Post%20Classification.md)
+
+
 
 
 

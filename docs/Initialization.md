@@ -5,7 +5,9 @@ title: Initialization
 # Initialization
 
 ## He Init
-- [[Xavier Initialization]]
+- [Xavier Initialization](Xavier%20Initialization.md)
+
+
 
 
 

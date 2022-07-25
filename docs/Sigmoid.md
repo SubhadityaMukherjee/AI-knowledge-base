@@ -10,8 +10,10 @@ tags: architecture
 - Logistic
 - Xavier/Glorot init
 - RNN : Hidden
-- [[Bernoulli Distribution]] over a binary variable
+- [Bernoulli Distribution](Bernoulli%20Distribution.md) over a binary variable
 - ![](assets/Pasted%20image%2020220626151646.jpg)
+
+
 
 
 

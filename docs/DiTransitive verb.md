@@ -4,8 +4,10 @@ tags: language
 ---
 
 # DiTransitive [Verb](Verb.md)
-- a [verb](Verb.md) has two [[noun]] objects 
+- a [verb](Verb.md) has two [noun](noun) objects 
 - I cooked a duck for her
+
+
 
 
 

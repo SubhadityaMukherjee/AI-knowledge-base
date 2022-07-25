@@ -11,12 +11,14 @@ tags: language cogneuro psychology
 - negative instances are also useful to learning
 - Logical Problem of Lang Acquisition
 - Children don't get negative evidence = must be innate
-- [[Cross-situational learning]]
-- [[Propose-but-verify]]
-- [[Rescorla-Wagner Blocking]]
+- [Cross-situational learning](Cross-situational%20learning.md)
+- [Propose-but-verify](Propose-but-verify.md)
+- [Rescorla-Wagner Blocking](Rescorla-Wagner%20Blocking.md)
 - Rescorla-Wagner = error-driven
 - After a strong association is made, as long as it is confirmed by data, no new learning will occur
 - The model only learns when the predicted outcome differs from actual outcome
+
+
 
 
 

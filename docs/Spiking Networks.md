@@ -4,7 +4,9 @@ tags: architecture
 ---
 
 # Spiking Networks
-- [[Poisson Process]]
+- [Poisson Process](Poisson%20Process.md)
+
+
 
 
 

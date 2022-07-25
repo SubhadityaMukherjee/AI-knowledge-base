@@ -3,8 +3,10 @@ title: Autoregressive
 ---
 
 # Autoregressive
-- predict the future by past of [[TIme Series]]
-- [[Multi Variate AR]]
+- predict the future by past of [TIme Series](TIme%20Series.md)
+- [Multi Variate AR](Multi%20Variate%20AR.md)
+
+
 
 
 

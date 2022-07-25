@@ -4,7 +4,9 @@ tags: language
 ---
 
 # Approximately Compositional Semantic Parsing
-- which [[Semantic Analysis]] processing is applied to the result of performing a syntactic parse
+- which [Semantic Analysis](Semantic%20Analysis.md) processing is applied to the result of performing a syntactic parse
+
+
 
 
 

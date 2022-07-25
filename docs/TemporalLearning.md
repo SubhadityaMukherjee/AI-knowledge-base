@@ -4,9 +4,11 @@ tags: architecture
 ---
 
 # Temporal Learning
-- [[Recurrent]]
-- [[Online Learning]]
-- [[Causal Systems]]
+- [Recurrent](Recurrent.md)
+- [Online Learning](Online%20Learning)
+- [Causal Systems](Causal%20Systems.md)
+
+
 
 
 

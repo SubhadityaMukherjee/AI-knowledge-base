@@ -3,9 +3,11 @@ title: Back To Front Raycasting
 tags: visualization
 ---
 
-# Back To Front [[Raycasting]]
+# Back To Front [Raycasting](Raycasting.md)
 - ![im](assets/Pasted%20Image%2020220418001932.png)
 - blending over operator for semi-transparent geometry
+
+
 
 
 

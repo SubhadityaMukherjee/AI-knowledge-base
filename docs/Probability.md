@@ -4,8 +4,10 @@ tags: index
 ---
 
 # Probability
-- [[Frequentist]]
-- [[Bayesian]]
+- [Frequentist](Frequentist.md)
+- [Bayesian](Bayesian.md)
+
+
 
 
 

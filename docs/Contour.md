@@ -9,9 +9,11 @@ tags: visualization
 - Never self instersect
 - Nested
 - Contours cut the plane into values smaller or larger than the isovalue c
-- [[Isoline]]
-- [[Isosurface]]
-- [[Countouring with Transparency]]
+- [Isoline](Isoline.md)
+- [Isosurface](Isosurface.md)
+- [Countouring with Transparency](Countouring%20with%20Transparency.md)
+
+
 
 
 

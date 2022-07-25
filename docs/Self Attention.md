@@ -11,12 +11,12 @@ tags: architecture einsum
 	- j is over the sequence
 	- weights sum to 1 over j
 	- $w_{ij}$ is derived  $w^{'}_{ij}=x_{i}^{T}x_{j}$
-		- Any value between -inf to +inf so [[Softmax]] is applied
+		- Any value between -inf to +inf so [Softmax](Softmax.md) is applied
 	- $x_i$ is the input vector at the same pos as the current output vector $y_i$
 - Propagates info between vectors
 - ![im](assets/Pasted%20Image%2020220525183444.png)
 - The process
-	- Assign every word t in the vocabular an [[Embedding]]
+	- Assign every word t in the vocabular an [Embedding](Embedding.md)
 	- Feeding this into a self [attention](Attention.md) layer we get another seq of vectors $y_{the}$ , $y_{cat}$ etc
 	- each of the $y_{something}$ is a weighted sum over all the [embedding](Embedding.md) vectors in the first seq weighted by their normalized dot product with $v_{something}$
 	- the dot product shows how related the vectors are in the sequence
@@ -39,6 +39,8 @@ def attention(K, V, Q):
 
 ## Ref
 - [perterbloem](https://peterbloem.nl/blog/transformers)
+
+
 
 
 

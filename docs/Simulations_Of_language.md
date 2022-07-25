@@ -3,9 +3,11 @@ title: Mirman Et Al
 ---
 
 # Mirman Et Al
-[[Basic RNN Architectures]]
+[Basic RNN Architectures](Basic%20RNN%20Architectures.md)
 - Simple rnn performed like human learners
 	- sensitive to transitional prob and freq
+
+
 
 
 

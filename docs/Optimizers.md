@@ -4,19 +4,21 @@ tags: regularize
 ---
 
 # Optimization
-- [[Gradient Descent gradients]]
+- [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
 
-- [[Adagrad]]
+- [Adagrad](Adagrad.md)
 
-- [[Rmsprop]]
+- [Rmsprop](Rmsprop.md)
 
-- [[Adam]]
+- [Adam](Adam.md)
 
-- [[Learning Rate Decay tricks]]
+- [Learning Rate Decay tricks](Learning%20Rate%20Decay%20tricks.md)
 
-- [[Early Stopping tricks]]
+- [Early Stopping tricks](Early%20Stopping%20tricks.md)
 
 ## …
+
+
 
 
 

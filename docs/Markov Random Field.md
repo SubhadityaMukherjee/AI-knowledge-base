@@ -3,7 +3,9 @@ title: Markov Random Field
 ---
 
 # Markov Random Field
-- Generalized [[Markov Chain]]
+- Generalized [Markov Chain](Markov%20Chain.md)
+
+
 
 
 

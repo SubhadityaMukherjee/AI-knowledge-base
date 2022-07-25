@@ -18,7 +18,9 @@ tags: architecture
 - producing character sequences without making any independence assumptions between the characters is the key improvement of LAS over previous end-to-end [CTC](CTC.md) models
 - used samples from the [softmax](Softmax.md) classifier in the decoder as inputs to the next step prediction during training
 - show how a language model trained on additional text can be used to rerank their top hypotheses
-- [[Google voice search task]]
+- [Google voice search task](Google%20voice%20search%20task.md)
+
+
 
 
 

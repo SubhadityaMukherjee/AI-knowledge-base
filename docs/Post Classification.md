@@ -4,9 +4,11 @@ tags: visualization
 ---
 
 # Post Classification
-- [[Interpolation]] of scalars at several vertices
-- Classification via [[Transfer Function]]
+- [Interpolation](Interpolation.md) of scalars at several vertices
+- Classification via [Transfer Function](Transfer%20Function.md)
 - ![im](assets/Pasted%20Image%2020220418003153.png)
+
+
 
 
 

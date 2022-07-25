@@ -8,7 +8,7 @@ tags: architecture einsum
 - which computes self-[attention](Attention.md) over the inputs, then adds back the residual and layer normalizes everything. The [attention](Attention.md) head can be split into multiple segments, hence the name _multi-head_
 - Multiple [attention](Attention.md) instances, each focusing on a different part of the input
 - Words can mean different things in context
-	- If using [[Self Attention]], then this just gets summed up. Which is not very nice
+	- If using [Self Attention](Self%20Attention.md), then this just gets summed up. Which is not very nice
 	- Several [attention](Attention.md) heads -> different output vectors
 	- Concatenate them and pass through a linear transform -> dimension back to k
 - $$MultiHead(Q,K,V) = Concat(head_1, head_2, …., head_h)W^O$$
@@ -52,6 +52,8 @@ class MultiHeadAttentionNew(nn.Module):
         output = self.layer_norm(output + residual)
         return output, attn
 ```
+
+
 
 
 

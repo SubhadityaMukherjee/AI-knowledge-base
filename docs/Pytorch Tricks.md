@@ -22,9 +22,5 @@ def plot_relu(m,b):
 ```
 
 
-## Backlinks
 
-> - [](journals/2022-07-25.md)
->   - [[Pytorch Tricks]]
 
-_Backlinks last generated 2022-07-25 17:11:34_

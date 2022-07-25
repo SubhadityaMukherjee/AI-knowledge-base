@@ -6,8 +6,10 @@ tags: language
 # Syntactic Analysis
 - concerned with the construction of sentences.
 - Syntactic structure indicates how the words are related to each other
-- Syntax tree is assigned by a grammer and a [[Lexicon]]
-- [[Context Free Grammar]]
+- Syntax tree is assigned by a grammer and a [Lexicon](Lexicon.md)
+- [Context Free Grammar](Context%20Free%20Grammar.md)
+
+
 
 
 

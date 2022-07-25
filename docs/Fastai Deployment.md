@@ -23,9 +23,5 @@ learn_inf.dls.vocab
 ```
 
 
-## Backlinks
 
-> - [Fastai](fastai.md)
->   - [[Fastai Deployment]]
 
-_Backlinks last generated 2022-07-25 17:11:34_

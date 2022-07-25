@@ -4,8 +4,10 @@ tags: parallel
 ---
 
 # TIghtly Coupled
-- [[UMA]]
-- [[NUMA]]
+- [UMA](UMA.md)
+- [NUMA](NUMA.md)
+
+
 
 
 

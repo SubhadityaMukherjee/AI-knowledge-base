@@ -33,9 +33,5 @@ gr.Interface(fn=predict,inputs=gr.inputs.Image(shape=(512, 512)),outputs=gr.outp
 ```
 
 
-## Backlinks
 
-> - [](journals/2022-07-25.md)
->   - [[Gradio]]
 
-_Backlinks last generated 2022-07-25 17:11:34_

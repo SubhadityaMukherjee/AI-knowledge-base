@@ -3,7 +3,7 @@ title: EEG Artifacts
 ---
 
 # [EEG](EEG.md) Artifacts
-- [[ICA]]
+- [ICA](ICA.md)
 - ![im](assets/Pasted%20Image%2020220502145423.png)
 
 ## Drift
@@ -15,6 +15,8 @@ title: EEG Artifacts
 ## Periodic - Probably From ECG
 - ![im](assets/Pasted%20Image%2020220502145805.png)
 - Arteries in neck exposed when person is nervous
+
+
 
 
 

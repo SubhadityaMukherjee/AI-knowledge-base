@@ -10,9 +10,11 @@ title: Markov Chain
 - Right infinite : n = 1, 2, 3, …
 - Left right infinite : Integers
 	- No start
-- [[Markov Initial Distribution]]
-- [[Markov Transition Kernel]]
-- [[Markov for Continuous Distributions]]
+- [Markov Initial Distribution](Markov%20Initial%20Distribution.md)
+- [Markov Transition Kernel](Markov%20Transition%20Kernel.md)
+- [Markov for Continuous Distributions](Markov%20for%20Continuous%20Distributions.md)
+
+
 
 
 

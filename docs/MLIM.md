@@ -17,16 +17,18 @@ tags: architecture
 - MLM loss is negative log-likelihood for masked word
 - RECON loss is an an average of pixel-wise sum of squared errors (SSE)
 - Both image and word masking is realized by replacing an [embedding](Embedding.md) with the [embedding](Embedding.md) of `[MASK]`
-- transformer layers recognize `[MASK]`
+- transformer [layers](Layers.md) recognize `[MASK]`
 - ’s [embedding](Embedding.md) as a special [embedding](Embedding.md) that needs to be “filled in”, independent of the modality, by attending to other vectors in the layer inputs
 - unlike other architectures (LXMERT, UNiTER, ViLBERT, VLP, VL-BERT, VisualBERT, etc.), image masking is not based on image regions detected by the object detector, but a shallow CNN as an image embedder which is much more lightweight than deep models like ResNet and is designed to be masking friendly
 - MLM + RECON losses apply only to the masked text/image areas and measure reconstructed text and image quality.
 - no specific alignment loss
 - Modality Aware Masking (MAM) to boost cross-modality interaction and take advantage of MLM and RECON losses that separately capture text and image reconstruction quality
-- Since the the task of finding closely-matching (CM) item pairs requires a pair of image+text inputs, they exploit this multi-modality by employing [[Modality Dropout]]
+- Since the the task of finding closely-matching (CM) item pairs requires a pair of image+text inputs, they exploit this multi-modality by employing [Modality Dropout](Modality%20Dropout.md)
 - text-only, image-only, and image-text mode
-- However, RECON instead of ITM loss offers better PR AUC
-- Similarly, using the ITM loss together with MLM and RECON does not change the performance
+- However, RECON instead of [ITM loss](ITM%20Loss.md) offers better PR AUC
+- Similarly, using the [ITM loss](ITM%20Loss.md) together with MLM and RECON does not change the performance
+
+
 
 
 

@@ -3,20 +3,22 @@ title: Rejection Sampling
 tags: distribution 
 ---
 
-# Rejection [[Sampling]]
-- Also called Best-of-n [[sampling]]
-- No [[CDF]] with a simple inverse
-- Importance [[sampling]]
-- Use a simpler distribution which is somewhat related to the target [[pdf]] 
+# Rejection [Sampling](Sampling)
+- Also called Best-of-n [sampling](sampling)
+- No [CDF](CDF.md) with a simple inverse
+- Importance [sampling](sampling)
+- Use a simpler distribution which is somewhat related to the target [PDF](PDF.md) 
 	- Sample by transformation
-- Now if we can take a [[Proto PDF]] $g_{0} \geq f$  where we can sample from the [[pdf]] g
-- Take a point from g with [[probability]] $f(\tilde x)/g_{0}(\tilde x)$
-	- Either accept or reject if satisfies [[probability]]
+- Now if we can take a [Proto PDF](Proto%20PDF.md) $g_{0} \geq f$  where we can sample from the [PDF](PDF.md) g
+- Take a point from g with [Probability](Probability.md) $f(\tilde x)/g_{0}(\tilde x)$
+	- Either accept or reject if satisfies [Probability](Probability.md)
 	- If accepted then return the sample
-- Drop a point from $g_{0}(x)$ with that [[probability]]
+- Drop a point from $g_{0}(x)$ with that [Probability](Probability.md)
 - Depends on how close g is to f of course
 - ![im](assets/Pasted%20Image%2020220324114746.png)
 	- If the ratio $\frac{f}{g_{0}}$ is small. (aka f is bigger), then there are many rejections and the algo will be slow. Impossible to not do in high dim spaces
+
+
 
 
 

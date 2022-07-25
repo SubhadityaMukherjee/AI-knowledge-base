@@ -39,9 +39,5 @@ classify_image(im)
 ```
 
 
-## Backlinks
 
-> - [Fastai](fastai.md)
->   - [[Fastai Interpretation]]
 
-_Backlinks last generated 2022-07-25 17:11:34_

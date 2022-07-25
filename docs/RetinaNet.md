@@ -4,7 +4,9 @@ tags: architecture
 ---
 
 # RetinaNet
-- Simple [dense](Dense.md) detector for [[Focal Loss]]
+- Simple [dense](Dense.md) detector for [Focal Loss](Focal%20Loss.md)
+
+
 
 
 

@@ -4,7 +4,9 @@ tags: visualization
 ---
 
 # Data Structures
-- [[Grids]]
+- [Grids](Grids.md)
+
+
 
 
 

@@ -12,9 +12,11 @@ tags: architecture
 - trained to predict the correct speech unit for masked parts of the audio, while at the same time learning what the speech units should be
 - [LibriSpeech](LibriSpeech.md)
 - feasibility of speech recognition with limited amounts of labeled data
-- [[XLSR]]
+- [XLSR](XLSR.md)
 - learn speech units common to several languages
 - helps when they have even small amounts of unlabeled speech, since languages for which they have little data can benefit from languages for which more data is available
+
+
 
 
 

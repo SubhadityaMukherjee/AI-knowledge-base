@@ -4,13 +4,15 @@ title: Continous -> Discrete
 
 # Continous -> Discrete
 
-## [[Binning]]
+## [Binning](Binning.md)
 
-## [[Hierarchial Refinement]]
+## [Hierarchial Refinement](Hierarchial%20Refinement.md)
 
-## [[Vector Quantization]]
+## [Vector Quantization](Vector%20Quantization.md)
 
-## [[Neural Dynamics]]
+## [Neural Dynamics](Neural%20Dynamics.md)
+
+
 
 
 

@@ -7,11 +7,13 @@ tags: architecture
 # Basic [Transformer](Transformer.md)
 - ![im](assets/Pasted%20image%2020220307183126.png)
 - ![](assets/Pasted%20image%2020220621164717.jpg)
-- Feed forward blocks, are two [[Dense]] MLPs with [[relu]]. Residual connections in between
+- Feed forward blocks, are two [Dense](Dense.md) MLPs with [Relu](Relu.md). Residual connections in between
 - Uses [Attention](Attention.md)
-- [Embedding](Embedding.md) [[layers]] transform between 1 hot and vector rep
-- [[Position Encoding]] + [[Token Embedding]]
-- [[Position Wise Feed Forward]]
+- [Embedding](Embedding.md) [Layers](Layers.md) transform between 1 hot and vector rep
+- [Position Encoding](Position%20Encoding.md) + [Token Embedding](Token%20Embedding.md)
+- [Position Wise Feed Forward](Position%20Wise%20Feed%20Forward.md)
+
+
 
 
 

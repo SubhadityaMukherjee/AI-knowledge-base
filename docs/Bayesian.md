@@ -4,10 +4,12 @@ title: Bayesian
 
 # Bayesian
 - Subjective
-- [[Bayes Prediction]]
-- [[Bayes Rule]]
-- [[Bayesian Model Estimation]]
-- [[Probability]] density function
+- [Bayes Prediction](Bayes%20Prediction.md)
+- [Bayes Rule](Bayes%20Rule.md)
+- [Bayesian Model Estimation](Bayesian%20Model%20Estimation.md)
+- [Probability](Probability.md) density function
+
+
 
 
 

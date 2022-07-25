@@ -3,8 +3,10 @@ title: Noisy Relu
 tags: architecture 
 ---
 
-# Noisy [[Relu]]
+# Noisy [Relu](Relu.md)
 - $$f(x) = max(0, x+Y) $$ where $$Y\in Normal(0,1)$$
+
+
 
 
 

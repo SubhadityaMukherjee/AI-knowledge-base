@@ -9,7 +9,9 @@ tags: language
 - Nachkriegszeit ; Nichtraucher
 - Single token words - end-of-line
 - Multi-token words – Delhi-based
-- String of [[Morphology Affix]]
+- String of [Morphology Affix](Morphology%20Affix.md)
+
+
 
 
 

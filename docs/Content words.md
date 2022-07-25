@@ -5,10 +5,12 @@ tags: language
 
 # Content Words
 - Identifies part of a word
- - [[Noun]]
-- [[Adjective]]
-- [[Verb]]
-- [[Adverb]]
+ - [Noun](Noun)
+- [Adjective](Adjective.md)
+- [Verb](Verb.md)
+- [Adverb](Adverb.md)
+
+
 
 
 

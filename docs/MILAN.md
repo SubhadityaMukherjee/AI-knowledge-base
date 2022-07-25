@@ -15,11 +15,13 @@ tags: architecture
   - mutual-information-guided linguistic annotation of neurons
   - generate open-ended, compositional, natural language descriptions of individual neurons in deep networks
   - generates a description by searching for a natural language string that maximizes pointwise mutual information with the image regions in which the neuron is active
-  - [[MILANNOTATIONS]] 
+  - [MILANNOTATIONS](MILANNOTATIONS.md) 
   - fine-grained descriptions that capture categorical, relational, and logical structure in learned [features](Features.md)
   - characterizing the distribution and importance of neurons selective for attribute, category, and relational information in vision models.
   - auditing, surfacing neurons sensitive to protected categories like race and gender in models trained on datasets intended to obscure these [features](Features.md)
   - editing, improving robustness in an image classifier by deleting neurons sensitive to text [features](Features.md) spuriously correlated with class labels
+
+
 
 
 

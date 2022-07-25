@@ -5,9 +5,11 @@ tags: language
 
 # Verb
 - Actions, relationships
-- [[Transitive verb]]
-- [[DiTransitive verb]]
-- [[Action Transitive verb]]
+- [Transitive verb](Transitive%20verb.md)
+- [DiTransitive verb](DiTransitive%20verb.md)
+- [Action Transitive verb](Action%20Transitive%20verb.md)
+
+
 
 
 

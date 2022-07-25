@@ -8,7 +8,7 @@ tags: architecture
 - [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
 
 ### V1
-- [[Conv]] at different filter scales to find different kinds of [features](Features.md) -> stack them up
+- [Conv](Conv.md) at different filter scales to find different kinds of [features](Features.md) -> stack them up
 - Increasing both the depth and width of the network while keeping computations at a manageable level
 - Human visual system wherein information is processed at multiple scales and then aggregated locally
 - channel [dimensionality reduction](Dimensionality%20Reduction.md), by reducing the output channels of the input
@@ -19,12 +19,14 @@ tags: architecture
 - ![im](assets/Pasted%20Image%2020220306120214.png)
 
 ### V2/V3
-- nxn [[conv]] -> 1xn followed by nx1 [[conv]]
-- 5x5, 7x7 -> 2 and three 3x3 seq [[Conv]]
+- nxn [Conv](Conv.md) -> 1xn followed by nx1 [Conv](Conv.md)
+- 5x5, 7x7 -> 2 and three 3x3 seq [Conv](Conv.md)
 - More filters (wider)
 - Distributed the computational budget in a balanced way between the depth and width of the network
-- Added [[batch normalization]]
+- Added [Batch Normalization](Batch%20Normalization.md)
 - ![im](assets/Pasted%20Image%2020220306121513.png)
+
+
 
 
 

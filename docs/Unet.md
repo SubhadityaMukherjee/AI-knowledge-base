@@ -4,7 +4,9 @@ tags: architecture
 ---
 
 # Unet
-- [[Skip Connection]]
+- [Skip Connection](Skip%20Connection.md)
+
+
 
 
 

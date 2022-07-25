@@ -23,7 +23,7 @@ tags: cogneuro uncertainty
 - weight-tying,
 - force many neurons to have the same weights
 - he most common use of this is in convolutional neural networks, where each neuron has translated copies of itself with the same weights.
-- in ImageNet conv nets, weight-tying often reduces the number of unique neurons in early vision by 10,000x or even more
+- in ImageNet [conv](Conv.md) nets, weight-tying often reduces the number of unique neurons in early vision by 10,000x or even more
 - This results in artificial neural networks having many fewer neurons for early vision than their biological counterparts
 - This means we can just literally study every single neuron.
 
@@ -46,7 +46,7 @@ tags: cogneuro uncertainty
 - One can easily ablate neurons or set them to particular activations
 - But one can also do more powerful "circuit editing" where one modifies parameters at a finer grained level.
 - In image generation, [Bau et al., 2018](https://gandissect.csail.mit.edu/) show that you can ablate neurons to remove objects like tress and windows from generated images
-- In RL, [Hilton et al., 2020](https://distill.pub/2020/understanding-rl-vision/) show that you can ablate features to blind an agent to a particular enemy while leaving other competencies in tact
+- In RL, [Hilton et al., 2020](https://distill.pub/2020/understanding-rl-vision/) show that you can ablate [features](Features.md) to blind an agent to a particular enemy while leaving other competencies in tact
 - More recently, [Cammarata et al, 2021](https://distill.pub/2020/circuits/curve-circuits/) reimplements a large chunk of neural network from scratch, and then splices it into a model.
 
 ## We Can Study the Exact Same Model.
@@ -55,6 +55,8 @@ tags: cogneuro uncertainty
 - In fact, the neuroscientists studying the original neuron will quickly lose access to it: probes can't be left in indefinitely, organisms die, human subjects leave, and even setting that aside neurons change over time.
 - Studying artificial networks, we can collaboratively reverse engineer the same “brain", building on each other.
 - we have a shared web of thousands of "footholds" into InceptionV1, consisting of neurons we understand fairly well and know the connections between, which makes it massively easier to explore
+
+
 
 
 

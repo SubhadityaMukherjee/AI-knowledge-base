@@ -5,7 +5,7 @@ tags: architecture
 ---
 
 # DALL-E
-- [[AdaIn]]
+- [AdaIn](AdaIn.md)
 - it was capable of generating text that could not be distinguished from human-written text
 - named after Salvador Dalí and Pixar's WALL·E
 - based on the [GPT3](GPT3)
@@ -27,6 +27,8 @@ tags: architecture
 - simple decoder-only transformer that receives both the text and the image as a single stream of 1280 tokens—256 for the text and 1024 for the image—and models all of them autoregressively
 - They find that sufficient data and scale can lead to improved generalization, both in terms of zero-shot performance relative to previous domain-specific approaches
 - and in terms of the range of capabilities that emerge from a single generative model.
+
+
 
 
 

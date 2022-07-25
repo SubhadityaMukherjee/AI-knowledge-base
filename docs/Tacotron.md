@@ -5,7 +5,7 @@ tags: einsum architecture
 
 # Tacotron
 - CBHG
-	- [[Conv]] + [[Highway Convolutions]] + [[Skip Connection]] + [[Gated Recurrent Unit (GRU)]]
+	- [Conv](Conv.md) + [Highway Convolutions](Highway%20Convolutions.md) + [Skip Connection](Skip%20Connection.md) + [Gated Recurrent Unit (GRU)](Gated%20Recurrent%20Unit%20(GRU).md)
 
 ```python
 class CBHG_Old(nn.Module):
@@ -64,6 +64,8 @@ def forward_new(self, inputs, input_lengths=None):
 
     return outputs
 ```
+
+
 
 
 

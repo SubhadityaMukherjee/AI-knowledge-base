@@ -12,9 +12,5 @@ tags: random
 - We can’t solve [research debt](Research%20Debt.md) by having one person write a textbook
 
 
-## Backlinks
 
-> - [Research Debt](Research Debt.md)
->   - [[Research Distillation]]
 
-_Backlinks last generated 2022-07-11 20:19:21_

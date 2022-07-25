@@ -11,9 +11,5 @@ tags: random
 - Most people do not include being coercively forced into a marriage when calculating micromarriages.
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Micromarriage]]
 
-_Backlinks last generated 2022-07-11 20:19:21_

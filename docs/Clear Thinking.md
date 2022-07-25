@@ -10,9 +10,5 @@ tags: random
 - Conversely, if we can’t explain an idea well, that’s often a sign that we don’t understand it as well as we could.
 
 
-## Backlinks
 
-> - [Research Debt](Research Debt.md)
->   - [[Clear Thinking]]
 
-_Backlinks last generated 2022-07-11 20:19:21_

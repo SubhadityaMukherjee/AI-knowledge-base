@@ -45,9 +45,5 @@ tags: visualization uncertainty
 - It also makes us wonder whether neural networks could become a tool for artists—a new way to remix visual concepts—or perhaps even shed a little light on the roots of the creative process in general.
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Inceptionism]]
 
-_Backlinks last generated 2022-07-11 20:19:21_

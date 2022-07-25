@@ -22,9 +22,5 @@ tags: random
 - It becomes harder to understand and build on each other’s work and the field fragments.
 
 
-## Backlinks
 
-> - [Research Debt](Research Debt.md)
->   - [[Interpretive Labor]]
 
-_Backlinks last generated 2022-07-11 20:19:21_

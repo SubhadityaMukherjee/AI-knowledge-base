@@ -57,9 +57,5 @@ tags: cogneuro uncertainty
 - we have a shared web of thousands of "footholds" into InceptionV1, consisting of neurons we understand fairly well and know the connections between, which makes it massively easier to explore
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Interpretability vs Neuroscience]]
 
-_Backlinks last generated 2022-07-11 20:19:21_

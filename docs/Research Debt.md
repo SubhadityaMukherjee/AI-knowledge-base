@@ -23,9 +23,5 @@ tags: random
 - [[Research Distillation]]
 
 
-## Backlinks
 
-> - [](journals/2022-07-11.md)
->   - [[Research Debt]] This is so true. I guess thats a huge problem..
 
-_Backlinks last generated 2022-07-11 20:19:21_

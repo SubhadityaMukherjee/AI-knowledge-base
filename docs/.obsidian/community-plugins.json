@@ -8,10 +8,8 @@
   "note-refactor-obsidian",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-code-block-enhancer",
-  "obsidian-codemirror-options",
   "quick-latex",
   "obsidian-vimrc-support",
-  "nlp",
   "obsidian-dynamic-embed",
   "templater-obsidian",
   "obsidian-pluck",
@@ -24,5 +22,6 @@
   "obsidian-footnotes",
   "find-unlinked-files",
   "obsidian-doubleshift",
-  "daily-activity"
+  "daily-activity",
+  "typing-transformer-obsidian"
 ]

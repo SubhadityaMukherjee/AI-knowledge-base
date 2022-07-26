@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fastai Blocks.md",
+            "file": "Adversarial Learning.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fastai Blocks.md",
+                "file": "Adversarial Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fastai Blocks.md",
+                "file": "Adversarial Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fastai Blocks.md"
+                "file": "Adversarial Learning.md"
               }
             }
           }
@@ -136,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Fastai Blocks.md",
+                "file": "Adversarial Learning.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -173,15 +173,15 @@
   },
   "active": "6cac8f2295fb4c34",
   "lastOpenFiles": [
-    "Factorized Embedding Parameters.md",
-    "Pytorch Tricks.md",
-    "Xavier Initialization.md",
-    "Initialization.md",
-    "He Initialization.md",
-    "journals/2022-07-26.md",
-    "ULMFit.md",
-    "fastai.md",
-    "Fasai Tricks.md",
-    "Fastai Blocks.md"
+    "GAU.md",
+    "wave2vec.md",
+    "Central Limit Theorem.md",
+    "Tokenizer.md",
+    "GloVE.md",
+    "XLSR.md",
+    "UMA.md",
+    "Lack of information.md",
+    "MNIST.md",
+    "Pix2Seq.md"
   ]
 }

@@ -21,6 +21,11 @@ def plot_relu(m,b):
 	plot_function(partial(relu, m, b), ylim = (-1, 4))
 ```
 
-
+## Set Dataset Directory
+```python
+import os
+os.environ["TORCH_HOME"] = "/media/hdd/Datasets/"
+os.environ["FASTAI_HOME"] = "/media/hdd/Datasets/"
+```
 
 

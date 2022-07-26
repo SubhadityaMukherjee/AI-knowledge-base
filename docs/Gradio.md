@@ -35,3 +35,5 @@ gr.Interface(fn=predict,inputs=gr.inputs.Image(shape=(512, 512)),outputs=gr.outp
 
 
 
+
+

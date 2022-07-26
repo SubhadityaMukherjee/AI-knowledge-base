@@ -7,7 +7,6 @@ tags: library
 # Fastai Blocks
 
 ## Building Blocks
-
 ```python
 # Image Classification
 dls = DataBlock(
@@ -21,6 +20,17 @@ dls = DataBlock(
 dls.show_batch(max_n=6)
 learn = cnn_learner(dls, resnet18, metrics=error_rate)
 learn.fine_tune(8)
+```
+
+```python
+# Label regex
+pets = DataBlock(blocks = (ImageBlock, CategoryBlock),
+                 get_items=get_image_files, 
+                 splitter=RandomSplitter(seed=42),
+                 get_y=using_attr(RegexLabeller(r'(.+)_\d+.jpg$'), 'name'),
+                 item_tfms=Resize(460),
+                 batch_tfms=aug_transforms(size=224, min_scale=0.75))
+dls = pets.dataloaders(path/"images")
 ```
 
 - DataBlock is more general
@@ -69,7 +79,5 @@ learn.fine_tune(8)
 ```python
 learn.export('model.pkl')
 ```
-
-
 
 

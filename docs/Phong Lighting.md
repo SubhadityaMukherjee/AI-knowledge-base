@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Phong Lighting
-- ![im](assets/Pasted%20Image%2020220418000844.png)
+- ![[assets/Pasted image 20220418000844.png|im]]
 
 
 
@@ -101,3 +101,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Volumetric Illumination](Volumetric Illumination.md)
+>   - [[Phong Lighting]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

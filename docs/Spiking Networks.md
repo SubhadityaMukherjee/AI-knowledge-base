@@ -4,7 +4,7 @@ tags: architecture
 ---
 
 # Spiking Networks
-- [Poisson Process](Poisson%20Process.md)
+- [[Poisson Process]]
 
 
 
@@ -101,3 +101,11 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [Exponential Distribution](Exponential Distribution.md)
+>   - [[Spiking Networks]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

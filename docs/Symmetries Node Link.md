@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Symmetries Node Link
-- ![im](assets/Pasted%20Image%2020220418123314.png)
+- ![[assets/Pasted image 20220418123314.png|im]]
 
 
 
@@ -101,3 +101,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Node LInk Diagram](Node LInk Diagram.md)
+>   - [[Symmetries Node Link]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

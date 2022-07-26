@@ -19,15 +19,17 @@ tag: architecture
 	- If $$p = \frac{f-1}{2}$$ and $$s=1$$ then dimensions maintained
 - One operation repeated over and over starting with raw
 
-- [Padded Conv](Padded%20Conv.md)
+- [[Padded Conv]]
 
-- [Strided](Strided.md)
+- [[Strided]]
 
-- [Depthwise Separable](Depthwise%20Separable.md)
+- [[Depthwise Separable]]
 
-- [Causal 1D Conv](Causal%201D%20Conv.md)
+- [[Causal 1D Conv]]
 
-- [Causal Dilated Conv](Causal%20Dilated%20Conv.md)
+- [[Causal Dilated Conv]]
+
+
 
 
 

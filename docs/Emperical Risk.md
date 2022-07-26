@@ -7,7 +7,7 @@ title: Emperical Risk
 - $$R(f) = \mathbb{E} _{(X,Y) \sim P(X,Y)}[l(y, f(x))]$$
 - $$R^{emp}(h) = \frac{1}{N}\Sigma_{i=1}^{N}L(h(x_{i}), y_{i})$$
 - joint prob distribution $P(X\in A,Y=c)$ is unknown
-	- [Decision Boundaries](Decision%20Boundaries.md)
+	- [[Decision Boundaries]]
 	
 - Learning set $$\mathcal L$$ is finite
 - Need an estimator to evaluate it
@@ -114,3 +114,17 @@ title: Emperical Risk
 
 
 
+
+
+## Backlinks
+
+> - [Fundamentals](Fundamentals.md)
+>   - [[Emperical Risk]]
+>    
+> - [Bias Vs Variance](Bias Variance Dilemma.md)
+>   - Tune on [[Emperical Risk]] instead using [[Optimizers]]
+>    
+> - [Cross Validation](Cross Validation.md)
+>   - Get model with min [[Emperical Risk]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

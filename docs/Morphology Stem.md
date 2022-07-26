@@ -3,9 +3,9 @@ title: Morphology Stem
 tags: language
 ---
 
-# [Morphology](Morphology.md) Stem
-- The core meaning bearing units – Main [morpheme](Morpheme.md) of the word
-- [Free morpheme](Free%20morpheme.md)
+# [[Morphology]] Stem
+- The core meaning bearing units – Main [[Morpheme|morpheme]] of the word
+- [[Free morpheme]]
 
 
 
@@ -102,3 +102,11 @@ tags: language
 
 
 
+
+
+## Backlinks
+
+> - [Morpheme](Morpheme.md)
+>   - [[Morphology Stem]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

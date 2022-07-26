@@ -3,8 +3,8 @@ title: Morpheme Generation
 tags: language
 ---
 
-# [Morpheme](Morpheme.md) Generation
-- See +past.[verb](Verb.md) = saw
+# [[Morpheme]] Generation
+- See +past.[[Verb|verb]] = saw
 
 
 
@@ -101,3 +101,11 @@ tags: language
 
 
 
+
+
+## Backlinks
+
+> - [Morpheme](Morpheme.md)
+>   - [[Morpheme Generation]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

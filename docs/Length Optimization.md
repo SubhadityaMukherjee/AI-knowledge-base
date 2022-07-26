@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Length Optimization
-- ![im](assets/Pasted%20Image%2020220418123246.png)
+- ![[assets/Pasted image 20220418123246.png|im]]
 
 
 
@@ -101,3 +101,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Node LInk Diagram](Node LInk Diagram.md)
+>   - [[Length Optimization]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

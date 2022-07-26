@@ -101,3 +101,11 @@ tag: architecture
 
 
 
+
+
+## Backlinks
+
+> - [Self Organizing Maps](SOMs.md)
+>   - For each new pattern, identify [[Best Maching Unit]] based on current vectors. Reduce the value of r. And pull the point to the part of the grid with similar weight vectors.
+
+_Backlinks last generated 2022-07-26 20:33:15_

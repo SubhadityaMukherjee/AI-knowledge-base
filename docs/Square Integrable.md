@@ -3,7 +3,7 @@ title: Square Integrable
 ---
 
 # Square Integrable
-- Real valued RV with [PDF](PDF.md) p is square integrable if the Uncentered Second moment is finite
+- Real valued RV with [[PDF]] p is square integrable if the Uncentered Second moment is finite
 - $$E[X^{2}] = \int_\mathbb{R} x^{2}p(x)dx$$ is finite
 
 
@@ -101,3 +101,11 @@ title: Square Integrable
 
 
 
+
+
+## Backlinks
+
+> - [Central Limit Theorem](Central Limit Theorem.md)
+>   - Let $(X_{i})_{i\in N}$ is a seq of independant, real valued, [[Square Integrable]] random variable with non zero variances $Var(X_{i}) = E[[X_{i}- E[X_{i}])^{2}]$ . Then If the [distributions](distributions|(X_{i}- E[X_{i}]] $P_{S_{n}}$ of standardized sum variables converge weakly to $\mathscr{N}(0,1)$ . $$S_{n}= \frac{\Sigma_{i= 1}^{n}(X_{i}- E[X_{i}])}{\sigma(\Sigma^{n}_{i=1}X_{i})}$$
+
+_Backlinks last generated 2022-07-26 20:33:15_

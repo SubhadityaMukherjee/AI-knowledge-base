@@ -5,7 +5,7 @@ tags: architecture
 
 # Vgg
 - [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
-- Deeper [Alex Net](Alex%20Net.md)
+- Deeper [[Alex Net]]
 - Object detection and Image captioning
 - 5x5 -> two 3x3
 - No of filters increase according to depth
@@ -105,3 +105,11 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [Faster RCNN](Faster RCNN.md)
+>   - [[Vgg]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

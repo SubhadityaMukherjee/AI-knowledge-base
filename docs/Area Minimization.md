@@ -6,7 +6,7 @@ tags: visualization
 # Area Minimization
 - Small areas preferable
 - aspect ratio can play role
-- ![im](assets/Pasted%20Image%2020220418123113.png)
+- ![[assets/Pasted image 20220418123113.png|im]]
 
 
 
@@ -103,3 +103,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Node LInk Diagram](Node LInk Diagram.md)
+>   - [[Area Minimization]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

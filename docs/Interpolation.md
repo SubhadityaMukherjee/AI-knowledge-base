@@ -4,9 +4,11 @@ tags: visualization
 ---
 
 # Interpolation
-- [1D piecewise linear interpolation](1D%20piecewise%20linear%20interpolation.md)
-- [Bilinear Interpolation](Bilinear%20Interpolation.md)
-- [Barycentric Interpolation](Barycentric%20Interpolation.md)
+- [[1D piecewise linear interpolation]]
+- [[Bilinear Interpolation]]
+- [[Barycentric Interpolation]]
+
+
 
 
 

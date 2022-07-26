@@ -2,9 +2,9 @@
 title: Uncertainty Classification
 ---
 
-# [Uncertainty](Uncertainty.md) Classification
-- [Distributions](Distributions)
-- Use [Softmax](Softmax.md) or [Sigmoid](Sigmoid.md)
+# [[Uncertainty]] Classification
+- [[Distributions]]
+- Use [[Softmax]] or [[Sigmoid]]
 
 
 
@@ -101,3 +101,11 @@ title: Uncertainty Classification
 
 
 
+
+
+## Backlinks
+
+> - [Uncertainty](Uncertainty.md)
+>   - [[Uncertainity in classification]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

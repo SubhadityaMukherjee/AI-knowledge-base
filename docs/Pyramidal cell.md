@@ -3,11 +3,11 @@ title: Pyramidal cell
 ---
 
 # Pyramidal Cell
-- ![im](assets/Pasted%20Image%2020220502144709.png)
-- ![im](assets/Pasted%20Image%2020220502144737.png)
+- ![[assets/Pasted image 20220502144709.png|im]]
+- ![[assets/Pasted image 20220502144737.png|im]]
 	- Folds on sides have same charge
 	- Adds up so can be measured
-	- [Equivalent Current Dipole](Equivalent%20Current%20Dipole.md)
+	- [[Equivalent Current Dipole]]
 
 
 
@@ -104,3 +104,11 @@ title: Pyramidal cell
 
 
 
+
+
+## Backlinks
+
+> - [EEG](EEG.md)
+>   - [[Pyramidal cell]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

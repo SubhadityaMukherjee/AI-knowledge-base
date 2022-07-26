@@ -53,3 +53,14 @@ tags: distance
 
 
 
+
+
+## Backlinks
+
+> - [Distance Measures](Distance Measures.md)
+>   - [[Chebyshev Distance]]
+>    
+> - [Minkowski Distance](Minkowski Distance.md)
+>   - p=$\infty$  — [[Chebyshev Distance]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

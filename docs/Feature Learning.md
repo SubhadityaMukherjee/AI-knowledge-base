@@ -3,11 +3,13 @@ title: Feature Learning
 ---
 
 # Feature Learning
-- [Dictionary Learning](Dictionary%20Learning.md)
-- [Methods for Feature Learning](Methods%20for%20Feature%20Learning.md)
-- [Contrastive Loss](Contrastive%20Loss.md)
-- [Max Margin Loss](Max%20Margin%20Loss.md)
-- [Triplet Loss](Triplet%20Loss.md)
+- [[Dictionary Learning]]
+- [[Methods for Feature Learning]]
+- [[Contrastive Loss]]
+- [[Max Margin Loss]]
+- [[Triplet Loss]]
+
+
 
 
 

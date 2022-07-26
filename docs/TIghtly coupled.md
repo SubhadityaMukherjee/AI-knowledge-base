@@ -4,8 +4,8 @@ tags: parallel
 ---
 
 # TIghtly Coupled
-- [UMA](UMA.md)
-- [NUMA](NUMA.md)
+- [[UMA]]
+- [[NUMA]]
 
 
 
@@ -102,3 +102,11 @@ tags: parallel
 
 
 
+
+
+## Backlinks
+
+> - [Memory Coupling](Memory Coupling.md)
+>   - [[TIghtly coupled]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

@@ -4,9 +4,9 @@ tags: visualization
 ---
 
 # Orthogonal Slicing
-- ![im](assets/Pasted%20Image%2020220417235620.png)
+- ![[assets/Pasted image 20220417235620.png|im]]
 - Interactively resample the data on slices perpendicular to x-,y-,z-axis
-- Use [visualization](visualization) techniques for [Isoline](Isoline.md), [Height Plots](Height%20Plots.md)
+- Use [[visualization]] techniques for [[Isoline]], [[Height Plots]]
 
 
 
@@ -103,3 +103,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Volume [[Visualization]]](Volume Visualization.md)
+>   - [[Orthogonal Slicing]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

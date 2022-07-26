@@ -35,3 +35,11 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [ELECTRA](ELECTRA.md)
+>   - performs comparably to [[RoBERTa|[[RoBERTa]]](RoBERTa.md)](RoBERTa.md) and [[XLNet]] while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
+
+_Backlinks last generated 2022-07-26 20:33:15_

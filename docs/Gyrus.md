@@ -103,3 +103,11 @@ tags: brain
 
 
 
+
+
+## Backlinks
+
+> - [Brain Cortex](Brain Cortex.md)
+>   - [[Gyrus]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

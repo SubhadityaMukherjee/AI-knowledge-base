@@ -4,8 +4,10 @@ tags: visualization
 ---
 
 # Mapping to Geometry
-- [Height Plots](Height%20Plots.md)
-- [Contour](Contour.md)
+- [[Height Plots]]
+- [[Contour]]
+
+
 
 
 

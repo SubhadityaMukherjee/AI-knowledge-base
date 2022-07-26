@@ -4,10 +4,10 @@ tags: visualization
 ---
 
 # Volumetric Illumination
-- [Phong Lighting](Phong%20Lighting.md)
-- [Finite Differences](Finite%20Differences.md)
-- [Shading](Shading.md)
-- [Raycasting](Raycasting.md)
+- [[Phong Lighting]]
+- [[Finite Differences]]
+- [[Shading]]
+- [[Raycasting]]
 
 
 
@@ -104,3 +104,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Volume [[Visualization]]](Volume Visualization.md)
+>   - [[Volumetric Illumination]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

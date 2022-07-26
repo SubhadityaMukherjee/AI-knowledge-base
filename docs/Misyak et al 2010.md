@@ -5,7 +5,7 @@ tags: language psychology
 ---
 
 # Misyak Et Al 2010
-- Does the ability to learn statistical [non-adjacent dependencies](Non-adjacent%20dependencies.md) correlate with the ability to process [non-adjacent dependencies](Non-adjacent%20dependencies.md) in language?
+- Does the ability to learn statistical [[Non-adjacent dependencies|non-adjacent dependencies]] correlate with the ability to process [[Non-adjacent dependencies|non-adjacent dependencies]] in language?
 - Can we model non-adjacent dependency learning with simple SRNs?
 - allows us to see the continuous timecourse of statistical processing
 - Uses both linguistic stimulus tokens and auditory cues
@@ -16,7 +16,7 @@ tags: language psychology
 	- Intervening second word creates non-adjacency
 - After final block: Prediction task where participants had to say what the third word was from two word sequences
 - People can learn non-adjacent sequences with only implicit exposure
-- [SRN](SRN.md) can capture performance on AGL tasks
+- [[SRN]] can capture performance on AGL tasks
 - SRNs can deal with temporal structures and associations
 - Localist representations: 30 input and output units, each unique unit corresponding to each nonword
 - Standard backpropagation with a learning rate of 0.1 and momentum at 0.8
@@ -25,6 +25,8 @@ tags: language psychology
 - Is it possible that sequential learning and language learning are unrelated
 - Maybe children are better at sequential learning, which helps them acquire languag
 - Adults then lose this ability
+
+
 
 
 

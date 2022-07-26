@@ -50,3 +50,11 @@ tags: language cogneuro psychology
 
 
 
+
+
+## Backlinks
+
+> - [Overhypotheses](Overhypotheses.md)
+>   - [[First order generalization]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

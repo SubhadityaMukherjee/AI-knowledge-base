@@ -100,3 +100,12 @@ title: Posterior Mean Estimate
 
 
 
+
+
+## Backlinks
+
+> - [[[Bayesian]] Model Estimation](Bayesian Model Estimation.md)
+>   - [[Posterior Mean estimate]]
+>   - The [[Posterior Mean estimate]] is obtained by integrating $\int_{\mathbb{R}}\mu h(\mu|D)d\mu$
+
+_Backlinks last generated 2022-07-26 20:33:15_

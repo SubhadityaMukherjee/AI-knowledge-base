@@ -5,9 +5,9 @@ title: Semi Supervised
 # Semi Supervised
 - Obtain weak labels instead of class labels
 - Eg: "similar"
-- [Contrastive Loss](Contrastive%20Loss.md)
-- [Triplet Loss](Triplet%20Loss.md)
-- [Max Margin Loss](Max%20Margin%20Loss.md)
+- [[Contrastive Loss]]
+- [[Triplet Loss]]
+- [[Max Margin Loss]]
 
 #anchor
 
@@ -106,3 +106,11 @@ title: Semi Supervised
 
 
 
+
+
+## Backlinks
+
+> - [Fundamentals](Fundamentals.md)
+>   - [[Semi Supervised]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

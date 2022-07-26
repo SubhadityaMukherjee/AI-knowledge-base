@@ -4,13 +4,13 @@ tags: brain
 ---
 
 # Granger Causallity
-- [Autoregressive](Autoregressive.md)
+- [[Autoregressive]]
 - If significant then electrode Granger-causes another 
 - Theres some causality but not sure if physical or causal
-- ![im](assets/Pasted%20Image%2020220502162343.png)
+- ![[assets/Pasted image 20220502162343.png|im]]
 - Partial Directed Coherence
 - Directed Transfer Function
-- ![im](assets/Pasted%20Image%2020220502162559.png)
+- ![[assets/Pasted image 20220502162559.png|im]]
 	- Magnitude vs freq
 	- Undirected
 	- From O1 to PZ is different from PZ to O1
@@ -111,3 +111,11 @@ tags: brain
 
 
 
+
+
+## Backlinks
+
+> - [Functional Connectivity](Functional Connectivity.md)
+>   - [[Granger Causallity]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

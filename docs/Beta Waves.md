@@ -5,7 +5,7 @@ tags: brain
 
 # Beta Waves
 - Movement
-- ![im](assets/Pasted%20Image%2020220502161106.png)
+- ![[assets/Pasted image 20220502161106.png|im]]
 
 
 
@@ -102,3 +102,11 @@ tags: brain
 
 
 
+
+
+## Backlinks
+
+> - [Brain Oscillations](Brain Oscillations.md)
+>   - [[Beta Waves]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

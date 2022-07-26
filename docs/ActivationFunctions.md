@@ -3,21 +3,21 @@ title: Activation Functions
 ---
 
 # Activation Functions
-- [Initialization](Initialization.md)
+- [[Initialization]]
 
-- [Sigmoid](Sigmoid.md)
+- [[Sigmoid]]
 
-- [Relu](Relu.md)
-- [Elu](Elu.md)
-- [Maxout](Maxout.md)
+- [[Relu]]
+- [[Elu]]
+- [[Maxout]]
 
-- [Tanh](Tanh.md)
+- [[Tanh]]
 
-- [Softmax](Softmax.md)
+- [[Softmax]]
 
-- [Softplus](Softplus.md)
+- [[Softplus]]
 
-- [Swish](Swish.md)
+- [[Swish]]
 
 ## Refs
 - [mlmastery](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/)
@@ -120,3 +120,20 @@ title: Activation Functions
 
 
 
+
+
+## Backlinks
+
+> - [Non [[Relational Inductive Bias]]](Non Relational Inductive Bias.md)
+>   - [[ActivationFunctions]]
+>    
+> - [](DeepLearning.md)
+>   - [[ActivationFunctions]]
+>    
+> - [Zeiler Fergus](Zeiler Fergus.md)
+>   - multiple interleaved [[Layers|layers]] of [[Conv]], non-linear [[ActivationFunctions]], local response normalizations, and max [[Pooling]]
+>    
+> - [Backprop](Backprop.md)
+>   - Solved by [[ActivationFunctions]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

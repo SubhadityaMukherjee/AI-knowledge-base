@@ -102,3 +102,11 @@ tags: loss
 
 
 
+
+
+## Backlinks
+
+> - [K Means](KMeans.md)
+>   - [[Intra cluster variance]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

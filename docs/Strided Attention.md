@@ -4,15 +4,15 @@ title: Strided Attention
 tags: architecture 
 ---
 
-# [Strided](Strided.md) [Attention](Attention.md)
+# [[Strided]] [[Attention]]
 - [paper](https://arxiv.org/abs/1904.10509v1)
-- Sparse factorizations of the [attention](Attention.md) matrix
+- Sparse factorizations of the [[Attention|attention]] matrix
 - Reduce to $O(n\sqrt{n})$
-- Recompute [attention](Attention.md) matrices to save memory
-- Fast [attention](Attention.md) kernels
+- Recompute [[Attention|attention]] matrices to save memory
+- Fast [[Attention|attention]] kernels
 - Works nicely for images, music etc with a periodic structure
-- Otherwise with the [strided](Strided.md) pattern , the spatial coordinates do not correlate with the positions the elements might be more relevant in the future
-- ![](assets/Pasted%20image%2020220621175944.png)
+- Otherwise with the [[Strided|strided]] pattern , the spatial coordinates do not correlate with the positions the elements might be more relevant in the future
+- ![[assets/Pasted image 20220621175944.png]]
 
 
 
@@ -63,3 +63,14 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [Sparse [[Transformer]]](Sparse Transformer.md)
+>   - Uses [[Strided Attention]]
+>    
+> - [Attention](Attention.md)
+>   - [[Strided Attention]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

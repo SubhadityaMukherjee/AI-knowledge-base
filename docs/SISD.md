@@ -6,7 +6,7 @@ tags: parallel
 # SISD
 - Single Instruction, Single Data
 - Deterministic
-- ![im](assets/Pasted%20Image%2020220506150728.png)- 
+- ![[assets/Pasted image 20220506150728.png|im]]- 
 
 
 
@@ -103,3 +103,11 @@ tags: parallel
 
 
 
+
+
+## Backlinks
+
+> - [Flynn's Taxonomy](Flynn's Taxonomy.md)
+>   - [[SISD]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

@@ -4,10 +4,12 @@ tags: language
 ---
 
 # Lexical Ambiguity
-- [Lexical Disambiguation](Lexical%20Disambiguation.md)
+- [[Lexical Disambiguation]]
 - Will will Will’s will
 - Buffalo buffalo Buffalo buffalo
 - Rose rose roes rows
+
+
 
 
 

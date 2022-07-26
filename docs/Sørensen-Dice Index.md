@@ -11,7 +11,7 @@ tags: distance
 - As a result, it could dominate the average score taken over multiple sets
 - It weights each item inversely proportionally to the size of the relevant set rather than treating them equally.
 - $$D(x,y) = \frac{2|x\cap y|}{|x|+|y|}$$
-- ![](assets/Pasted%20image%2020220624121258.png)
+- ![[assets/Pasted image 20220624121258.png]]
 
 
 
@@ -50,3 +50,11 @@ tags: distance
 
 
 
+
+
+## Backlinks
+
+> - [Distance Measures](Distance Measures.md)
+>   - [[Sørensen-Dice Index]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

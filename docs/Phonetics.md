@@ -102,3 +102,11 @@ tags: language
 
 
 
+
+
+## Backlinks
+
+> - [Linguistic Details](Linguistic details.md)
+>   - [[Phonetics]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

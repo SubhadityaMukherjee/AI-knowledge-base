@@ -8,8 +8,10 @@ tags: architecture
 - S>1 -> Downsampling 
 - Dilated
 - Spaces in the filter kernel
-- D = 1 : normal [Conv](Conv.md) aka D-1 spaces
+- D = 1 : normal [[Conv]] aka D-1 spaces
 - Effective Filter size : $$\hat F = F + (F-1)(D-1)$$
+
+
 
 
 

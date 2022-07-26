@@ -3,7 +3,7 @@ title: Statistical Word Segmentation
 tags: language
 ---
 
-# Statistical [Word Segmentation](Word%20Segmentation.md)
+# Statistical [[Word Segmentation]]
 - use mutual information between characters from a corpus
 
 
@@ -101,3 +101,11 @@ tags: language
 
 
 
+
+
+## Backlinks
+
+> - [Word Segmentation](Word Segmentation.md)
+>   - [[Statistical Word Segmentation]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

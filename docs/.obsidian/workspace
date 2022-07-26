@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adversarial Learning.md",
+            "file": "journals/2022-07-26.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adversarial Learning.md",
+                "file": "journals/2022-07-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Adversarial Learning.md",
+                "file": "journals/2022-07-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adversarial Learning.md"
+                "file": "journals/2022-07-26.md"
               }
             }
           }
@@ -136,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Adversarial Learning.md",
+                "file": "journals/2022-07-26.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -173,6 +173,7 @@
   },
   "active": "6cac8f2295fb4c34",
   "lastOpenFiles": [
+    "Adversarial Learning.md",
     "GAU.md",
     "wave2vec.md",
     "Central Limit Theorem.md",
@@ -181,7 +182,6 @@
     "XLSR.md",
     "UMA.md",
     "Lack of information.md",
-    "MNIST.md",
-    "Pix2Seq.md"
+    "MNIST.md"
   ]
 }

@@ -3,11 +3,11 @@ title: Scoring Pruning Approaches
 tags: regularize
 ---
 
-# Scoring [Pruning](Pruning.md) Approaches
+# Scoring [[Pruning]] Approaches
 - Like all networks, scoring becomes essential when we try to choose which parameter to get rid of. 
 - Some authors suggest removing based on absolute values, others decide to prune based on the contributions of that parameter to the entire network. 
 - Others remove based on a score given. 
-- Some perform [Pruning](Pruning.md) locally, while others perform it globally across the network.
+- Some perform [[Pruning]] locally, while others perform it globally across the network.
 
 
 
@@ -104,3 +104,11 @@ tags: regularize
 
 
 
+
+
+## Backlinks
+
+> - [Pruning](Pruning.md)
+>   - [[Scoring Pruning Approaches]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

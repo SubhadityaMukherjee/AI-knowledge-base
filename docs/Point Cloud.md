@@ -4,7 +4,9 @@ tags: architecture
 ---
 
 # Point Cloud Data
-- [PointNet++](PointNet++.md)
+- [[PointNet++]]
+
+
 
 
 

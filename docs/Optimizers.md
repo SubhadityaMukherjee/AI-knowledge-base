@@ -4,17 +4,17 @@ tags: regularize
 ---
 
 # Optimization
-- [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
+- [[Gradient Descent gradients]]
 
-- [Adagrad](Adagrad.md)
+- [[Adagrad]]
 
-- [Rmsprop](Rmsprop.md)
+- [[Rmsprop]]
 
-- [Adam](Adam.md)
+- [[Adam]]
 
-- [Learning Rate Decay tricks](Learning%20Rate%20Decay%20tricks.md)
+- [[Learning Rate Decay tricks]]
 
-- [Early Stopping tricks](Early%20Stopping%20tricks.md)
+- [[Early Stopping tricks]]
 
 ## …
 
@@ -113,3 +113,20 @@ tags: regularize
 
 
 
+
+
+## Backlinks
+
+> - [Non [[Relational Inductive Bias]]](Non Relational Inductive Bias.md)
+>   - [[Optimizers]]
+>    
+> - [](DeepLearning.md)
+>   - [[Optimizers]]
+>    
+> - [Bias Vs Variance](Bias Variance Dilemma.md)
+>   - Tune on [[Emperical Risk]] instead using [[Optimizers]]
+>    
+> - [Vanishing/exploding #gradients](Vanishingexploding gradients.md)
+>   - [[Regularization]] , [[Optimizers]] , [[Architectures]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

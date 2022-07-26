@@ -4,9 +4,9 @@ tags: distribution
 ---
 
 # Point Distribution
-- [PDF](PDF.md) is impossible to use
-- [Probability](Probability.md) mass is concentrated in a few points
-- [Dirac Delta](Dirac%20Delta.md)
+- [[PDF]] is impossible to use
+- [[Probability]] mass is concentrated in a few points
+- [[Dirac Delta]]
 - Hyperdistributions
 
 
@@ -104,3 +104,11 @@ tags: distribution
 
 
 
+
+
+## Backlinks
+
+> - [Dirac Delta](Dirac Delta.md)
+>   - Multi [[Point Distribution]] -> combine dirac deltas
+
+_Backlinks last generated 2022-07-26 20:33:15_

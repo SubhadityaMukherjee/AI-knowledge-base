@@ -10,8 +10,8 @@ tags: architecture
 - Logistic
 - Xavier/Glorot init
 - RNN : Hidden
-- [Bernoulli Distribution](Bernoulli%20Distribution.md) over a binary variable
-- ![](assets/Pasted%20image%2020220626151646.jpg)
+- [[Bernoulli Distribution]] over a binary variable
+- ![[assets/Pasted image 20220626151646.jpg]]
 
 
 
@@ -38,3 +38,26 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [FTSwish](FTSwish.md)
+>   - [[Relu]] + [[Sigmoid]]
+>    
+> - [Recurrent](Recurrent.md)
+>   - Activation usually [[Sigmoid]] or [[Tanh]]
+>    
+> - [Activation Functions](ActivationFunctions.md)
+>   - [[Sigmoid]]
+>    
+> - [Universal Approximation Theorem](Universal Approximation Theorem.md)
+>   - So we take a non linear function, for example the [[Sigmoid]]. $$\frac{1}{1 + e^{ - \left( w^{T}x + b \right)}}$$.
+>    
+> - [Gated [[Recurrent]] Unit (GRU)](Gated Recurrent Unit (GRU).md)
+>   - Two gates, [[Sigmoid]]
+>    
+> - [[[Uncertainty]] Classification](Uncertainity in classification.md)
+>   - Use [[Softmax]] or [[Sigmoid]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

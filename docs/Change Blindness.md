@@ -107,3 +107,14 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Perception](Perception.md)
+>   - [[Change Blindness]]
+>    
+> - [Inattentional Blindness](Inattentional Blindness.md)
+>   - Related to [[Change Blindness]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

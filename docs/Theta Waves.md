@@ -6,7 +6,7 @@ tags: brain
 # Theta Waves
 - 4-9 Hz theta
 - Memory/Decision
-- ![im](assets/Pasted%20Image%2020220502160807.png)
+- ![[assets/Pasted image 20220502160807.png|im]]
 
 
 
@@ -103,3 +103,11 @@ tags: brain
 
 
 
+
+
+## Backlinks
+
+> - [Brain Oscillations](Brain Oscillations.md)
+>   - [[Theta Waves]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

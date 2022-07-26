@@ -3,7 +3,7 @@ title: Layerwise Gradient Magnitude Based Pruning
 tags: regularize
 ---
 
-# Layerwise Gradient Magnitude Based [Pruning](Pruning.md)
+# Layerwise Gradient Magnitude Based [[Pruning]]
 - Finds the lowest absolute value per layer and removes them
 
 
@@ -101,3 +101,11 @@ tags: regularize
 
 
 
+
+
+## Backlinks
+
+> - [Pruning](Pruning.md)
+>   - [[Layerwise Gradient Magnitude Based Pruning]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

@@ -6,7 +6,7 @@ tags: brain
 # Alpha Waves
 - 9-14 Hz
 - Drowsy/Inhibition
-- ![im](assets/Pasted%20Image%2020220502161020.png)
+- ![[assets/Pasted image 20220502161020.png|im]]
 
 
 
@@ -103,3 +103,11 @@ tags: brain
 
 
 
+
+
+## Backlinks
+
+> - [Brain Oscillations](Brain Oscillations.md)
+>   - [[Alpha Waves]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

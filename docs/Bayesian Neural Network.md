@@ -2,14 +2,14 @@
 title: Bayesian Neural Network
 ---
 
-# [Bayesian](Bayesian.md) Neural Network
-- [Bayesian Model Estimation](Bayesian%20Model%20Estimation.md)
-- Generally we want to learn Joint [Probability](Probability.md) distribution $P(y|x)$ but this does not use the model parameters w
+# [[Bayesian]] Neural Network
+- [[Bayesian Model Estimation]]
+- Generally we want to learn Joint [[Probability]] distribution $P(y|x)$ but this does not use the model parameters w
 - We need $$P(w|D) = \frac{P(D|w)P(w)}{P(D)}$$
 	- D is the labelled dataset
 	- Model is now defined by structure and parameters
-- The parameters encode information about [Uncertainty](Uncertainty.md)
-	- Can be understood using [Bayesian Predictive Posterior](Bayesian%20Predictive%20Posterior.md)
+- The parameters encode information about [[Uncertainty]]
+	- Can be understood using [[Bayesian Predictive Posterior]]
 
 
 
@@ -106,3 +106,11 @@ title: Bayesian Neural Network
 
 
 
+
+
+## Backlinks
+
+> - [Uncertainty](Uncertainty.md)
+>   - [[Bayesian Neural Network]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

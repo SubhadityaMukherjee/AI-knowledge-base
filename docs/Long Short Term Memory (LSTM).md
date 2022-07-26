@@ -4,13 +4,13 @@ tags: architecture
 ---
 
 # Long Short Term Memory (LSTM)
-- ![](assets/Pasted%20image%2020220621124622.png)
+- ![[assets/Pasted image 20220621124622.png]]
 - Smaller chance of exploding or vanishing #gradients
 - Better ability to model long term dependencies
 - Gated connections
 - Gates that learn to forget some aspects, and remember others better
-- Splitting state into parts -> output pred and [feature learning](Feature%20Learning.md)
-- At the end of the day, these could not handle too long sequences. Therefore -> [Transformer](Transformer.md)
+- Splitting state into parts -> output pred and [[Feature Learning|feature learning]]
+- At the end of the day, these could not handle too long sequences. Therefore -> [[Transformer]]
 
 ## The Math
 - Gates
@@ -26,6 +26,8 @@ tags: architecture
 		- Final cell state : $$C_t = g_f \cdot C_{t-1} + g_i\cdot \hat C$$
 	- $$h_t$$ to predict output
 		- $$h_t = g_o \cdot \sigma_y(C_t)$$
+
+
 
 
 

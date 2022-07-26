@@ -4,22 +4,22 @@ tags: architecture
 ---
 
 # AutoEncoder
-- ![im](assets/Pasted%20Image%2020220310204652.png)
+- ![[assets/Pasted image 20220310204652.png|im]]
 - Regression by predicting a reconstruction of the data
 - Encoder $$E : \mathscr{X} \rightarrow \mathscr{F}$$
 - Decoder $$\mathscr{F} \rightarrow \mathscr{D}$$
 - $$E_\theta, D_\theta = argmin_{E_\theta, D\theta}||X-D(E(X))||^2$$
-	- Learn using [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
+	- Learn using [[Gradient Descent gradients]]
 - Compressed rep of data -> Good for Classification or Regression
-- [MSE](MSE.md) : Unsupervised
+- [[MSE]] : Unsupervised
 
 ## Difficulties
 - dim $\mathscr{F} \lt \mathscr{X}$
 	- Cannot learn the identity function
 
 ## Types
-- [Denoising Autoencoder](Denoising%20Autoencoder.md)
-- [VAE](VAE.md)
+- [[Denoising Autoencoder]]
+- [[VAE]]
 
 
 
@@ -116,3 +116,14 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [Unsupervised Learning](Unsupervised Learning.md)
+>   - [[Auto Encoders]]
+>    
+> - [Masked Autoencoders](Masked Autoencoders.md)
+>   - [[ImageNet]] and in [[Transfer Learning]] that an [[Auto Encoders]] —- a simple self-supervised method similar to techniques in NLP – provides scalable benefits
+
+_Backlinks last generated 2022-07-26 20:33:15_

@@ -3,8 +3,10 @@ title: Indirect Volume Visualization
 tags: visualization
 ---
 
-# Indirect Volume [Visualization](Visualization)
-- [Isosurface](Isosurface.md)
+# Indirect Volume [[Visualization]]
+- [[Isosurface]]
+
+
 
 
 

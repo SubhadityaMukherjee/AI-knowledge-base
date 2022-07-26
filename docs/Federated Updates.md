@@ -3,9 +3,9 @@ title: Federated Updates
 ---
 
 # Federated Updates
-- [Structured Update](Structured%20Update.md) 
+- [[Structured Update]] 
 
-- [Sketched Update](Sketched%20Update.md)
+- [[Sketched Update]]
 
 
 
@@ -102,3 +102,11 @@ title: Federated Updates
 
 
 
+
+
+## Backlinks
+
+> - [Federated Learning](Federated Learning.md)
+>   - [[Federated Updates]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

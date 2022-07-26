@@ -7,7 +7,7 @@ tags: brain
  - Interprets language, words
  - Sense of touch, pain, temperature (sensory strip)
  - Interprets signals from vision, hearing, motor, sensory and memory
- - Spatial and visual [perception](Perception.md)
+ - Spatial and visual [[Perception|perception]]
 
 
 
@@ -104,3 +104,11 @@ tags: brain
 
 
 
+
+
+## Backlinks
+
+> - [Cerebrum](Cerebrum.md)
+>   - [[Parietal lobe]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

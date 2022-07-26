@@ -18,7 +18,7 @@ tags: index
 	- Language
 
 ## Links
-- [My Github](www.github.com/SubhadityaMukherjee)
+- [[www.github.com/SubhadityaMukherjee|My Github]]
 - [Blogs](https://subhadityamukherjee.github.io/SubhadityaMukherjeegit/deeplearning.html)
 - [Medium -> More blogs](https://msubhaditya.medium.com/)
 - [My Linkedin](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100)
@@ -30,6 +30,8 @@ tags: index
 	- Maybe one day I will re implement the graph on the website, until then….
 
 #anchor
+
+
 
 
 

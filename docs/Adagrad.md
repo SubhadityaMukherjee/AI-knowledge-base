@@ -39,3 +39,17 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [Optimization](Optimizers.md)
+>   - [[Adagrad]]
+>    
+> - [Gradient Descent #gradients](Gradient Descent gradients.md)
+>   - [[Adagrad]]
+>    
+> - [Rmsprop](Rmsprop.md)
+>   - More stable than [[Adagrad]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

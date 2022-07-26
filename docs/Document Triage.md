@@ -5,8 +5,8 @@ tags: language
 
 # Document Triage
 - Characters in file must be MACHINE READABLE (Character Encoding)
-- Character Encoding Identification ([ASCII](ASCII.md), UNICODE..)
-- [Language Identification](Language%20Identification.md) (English, French,..)
+- Character Encoding Identification ([[ASCII]], UNICODE..)
+- [[Language Identification]] (English, French,..)
 - Text Sectioning
 
 
@@ -82,3 +82,11 @@ tags: language
 
 
 
+
+
+## Backlinks
+
+> - [Text Preprocessing](Text Preprocessing.md)
+>   - [[Document Triage]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

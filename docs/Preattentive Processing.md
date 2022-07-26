@@ -4,7 +4,7 @@ title: Preattentive Processing
 
 # Preattentive Processing
 - some visual properties are detected very rapidly and in parallel by low level visual processes
-- ![im](assets/Pasted%20Image%2020220418103924.png)
+- ![[assets/Pasted image 20220418103924.png|im]]
 
 
 
@@ -101,3 +101,11 @@ title: Preattentive Processing
 
 
 
+
+
+## Backlinks
+
+> - [Perception](Perception.md)
+>   - [[Preattentive Processing]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

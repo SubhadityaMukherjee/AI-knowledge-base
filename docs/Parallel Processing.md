@@ -4,9 +4,11 @@ tags: parallel
 ---
 
 # Parallel Processing
-- [Load balancing](Load%20balancing.md)
-- [Minimizing Communication](Minimizing%20Communication.md)
+- [[Load balancing]]
+- [[Minimizing Communication]]
 - Overlap Communication
+
+
 
 
 

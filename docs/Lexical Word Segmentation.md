@@ -3,7 +3,7 @@ title: Lexical Word Segmentation
 tags: language
 ---
 
-# Lexical [Word Segmentation](Word%20Segmentation.md)
+# Lexical [[Word Segmentation]]
 - rule-based – syntax; semantics; morphological rules
 
 
@@ -101,3 +101,11 @@ tags: language
 
 
 
+
+
+## Backlinks
+
+> - [Word Segmentation](Word Segmentation.md)
+>   - [[Lexical Word Segmentation]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

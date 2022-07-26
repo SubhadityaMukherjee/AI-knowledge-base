@@ -105,3 +105,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Visual Encoding](Visual Encoding.md)
+>   - [[Characteristics of Visual Variables]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

@@ -5,7 +5,7 @@ tags: library
 ---
 
 # Fastai Deployment
-- [Gradio](Gradio.md)
+- [[Gradio]]
 
 ## Save
 
@@ -27,3 +27,11 @@ learn_inf.dls.vocab
 
 
 
+
+
+## Backlinks
+
+> - [Fastai](fastai.md)
+>   - [[Fastai Deployment]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

@@ -3,10 +3,10 @@ title: 1D piecewise linear interpolation
 tags: visualization
 ---
 
-# 1D Piecewise Linear [Interpolation](Interpolation.md)
+# 1D Piecewise Linear [[Interpolation]]
 
-# 1D Piecewise Linear [Interpolation](Interpolation.md)
-- ![im](assets/Pasted%20Image%2020220411124653.png)
+# 1D Piecewise Linear [[Interpolation]]
+- ![[assets/Pasted image 20220411124653.png|im]]
 
 
 
@@ -141,3 +141,14 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Interpolation](Interpolation.md)
+>   - [[1D piecewise linear interpolation]]
+>    
+> - [Mixup](Mixup.md)
+>   - New example by weighted [[1D piecewise linear interpolation]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

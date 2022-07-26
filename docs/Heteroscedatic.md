@@ -5,7 +5,7 @@ tags: uncertainty
 
 # Heteroscedatic
 - if $\sigma^{2}$ is a function of the input or variable in $\epsilon \sim \mathcal{N}(0, \sigma^{2})$
-- ![im](assets/Pasted%20Image%2020220323153054.png)
+- ![[assets/Pasted image 20220323153054.png|im]]
 
 
 
@@ -102,3 +102,11 @@ tags: uncertainty
 
 
 
+
+
+## Backlinks
+
+> - [Aleatoric](Aleatoric.md)
+>   - [[Heteroscedatic]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

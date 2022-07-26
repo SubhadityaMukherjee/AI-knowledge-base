@@ -34,9 +34,5 @@ ens_preds = torch.stack(learns).mean(0) # stack and mean
 ```
 
 
-## Backlinks
 
-> - [Fastai](fastai.md)
->   - [[Fasai Tricks]]
 
-_Backlinks last generated 2022-07-26 19:32:48_

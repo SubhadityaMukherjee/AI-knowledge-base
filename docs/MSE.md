@@ -102,3 +102,23 @@ tags: loss
 
 
 
+
+
+## Backlinks
+
+> - [Cross [[Entropy]]](Cross Entropy.md)
+>   - [[MSE]]
+>    
+> - [AutoEncoder](Auto Encoders.md)
+>   - [[MSE]] : Unsupervised
+>    
+> - [MSLE](MSLE.md)
+>   - [[MSE]] log error
+>    
+> - [Log Cosh](LogCosh.md)
+>   - works like the [[MSE]], but is smoothed towards large errors (presumably caused by outliers) so that the final error score isn’t impacted thoroughly.
+>    
+> - [Huber/Smooth L1/Smooth MAE](Huber.md)
+>   - It is less sensitive to outliers than the [[MSE]] and in some cases prevents exploding #gradients
+
+_Backlinks last generated 2022-07-26 20:33:15_

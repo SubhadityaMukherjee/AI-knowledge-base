@@ -3,20 +3,20 @@ title: Issues
 ---
 
 # Issues
-- [Multiple Local Minima](Multiple%20Local%20Minima.md)
+- [[Multiple Local Minima]]
 
-- [Saddle Points](Saddle%20Points.md)
+- [[Saddle Points]]
 
-- [Vanishingexploding gradients](Vanishingexploding%20gradients.md)
+- [[Vanishingexploding gradients]]
 
-- [Image Data](Image%20Data.md)
+- [[Image Data]]
 
-- [Fitting](Fitting.md)
+- [[Fitting]]
 
-- [Freedom](Freedom.md)
-- [Bias Variance Dilemma](Bias%20Variance%20Dilemma.md)
-- [Complex Geometry](Complex%20Geometry.md)
-- [Lack of information](Lack%20of%20information.md)
+- [[Freedom]]
+- [[Bias Variance Dilemma]]
+- [[Complex Geometry]]
+- [[Lack of information]]
 
 
 
@@ -81,3 +81,23 @@ title: Issues
 
 
 
+
+
+## Backlinks
+
+> - [](DeepLearning.md)
+>   - [[Issues]]
+>    
+> - [Res Net](Res Net.md)
+>   - Deeper Networks have [[Issues]] because of vanishing #gradients
+>    
+> - [RandAugment](RandAugment.md)
+>   - [[Issues]]
+>    
+> - [GAN](Generative Models.md)
+>   - ## [[Issues]]
+>    
+> - [Seq2Seq](Seq2Seq.md)
+>   - Long term dependency [[Issues]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

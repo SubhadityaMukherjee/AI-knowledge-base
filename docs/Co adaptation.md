@@ -32,3 +32,11 @@ tags: optimizer gradients
 
 
 
+
+
+## Backlinks
+
+> - [Dropout](Dropout.md)
+>   - Reducing [[Co adaptation]] by making the presence of other hidden [neurons] unreliable
+
+_Backlinks last generated 2022-07-26 20:33:15_

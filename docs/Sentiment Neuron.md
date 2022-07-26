@@ -3,14 +3,14 @@ title: Sentiment Neuron
 ---
 
 # Sentiment Neuron
-- Linear model + L1 [Lp Regularization](Lp%20Regularization.md)
+- Linear model + L1 [[Lp Regularization]]
 - Uses very few learned units
 - Single sentiment neuron that predicts the sentiment value
-- ![im](assets/Pasted%20Image%2020220425233333.png)
-- Can be useful for [Unsupervised Learning](Unsupervised%20Learning.md)
+- ![[assets/Pasted image 20220425233333.png|im]]
+- Can be useful for [[Unsupervised Learning]]
 
 ## Refs
-- [openai](https://openai.com/blog/unsupervised-sentiment-neuron/#methodology)
+- [[https://openai.com/blog/unsupervised-sentiment-neuron/#methodology]]
 
 
 
@@ -107,3 +107,11 @@ title: Sentiment Neuron
 
 
 
+
+
+## Backlinks
+
+> - [SentimentAnalysis](SentimentAnalysis.md)
+>   - [[Sentiment Neuron]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

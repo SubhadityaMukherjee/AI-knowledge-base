@@ -100,3 +100,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Heirarchial Refinement](Hierarchial Refinement.md)
+>   - [[Mesh refinement]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

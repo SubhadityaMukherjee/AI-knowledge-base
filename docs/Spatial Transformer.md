@@ -3,14 +3,14 @@ title: Spatial Transformer
 tags: einsum architecture 
 ---
 
-# Spatial [Transformer](Transformer.md)
-- [Transformer](Transformer.md)
+# Spatial [[Transformer]]
+- [[Transformer]]
 
 ```python
 class SpacialTransformNew(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
-        # Spatial [[transformer](Transformer.md)](Transformer.md) localization-network
+        # Spatial [[Transformer|[transformer]]](Transformer.md) localization-network
         linear = nn.Linear(32, 3 * 2)
         # Initialize the weights/bias with identity transformation
         linear.weight.data.zero_()
@@ -35,6 +35,8 @@ class SpacialTransformNew(nn.Module):
         grid = F.affine_grid(self.compute_theta(x), x.size())
         return F.grid_sample(x, grid)
 ```
+
+
 
 
 

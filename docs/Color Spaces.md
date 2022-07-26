@@ -4,8 +4,8 @@ tags: visualization
 ---
 
 # Color Spaces
-- [Divide Oriented](Divide%20Oriented.md)
-- [Intuitive Color spaces](Intuitive%20Color%20spaces.md)
+- [[Divide Oriented]]
+- [[Intuitive Color spaces]]
 
 
 
@@ -102,3 +102,14 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [ColorMap](ColorMap.md)
+>   - [[Color Spaces]]
+>    
+> - [Intuitive [[Color Spaces]]](Intuitive Color spaces.md)
+>   - # Intuitive [[Color Spaces]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

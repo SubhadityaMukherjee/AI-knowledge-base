@@ -4,9 +4,9 @@ tags: visualization
 ---
 
 # Isosurface
-- ![im](assets/Pasted%20Image%2020220417235824.png)
-- [Marching Cubes](Marching%20Cubes.md)
-- [Marching Tetrahedra](Marching%20Tetrahedra.md)
+- ![[assets/Pasted image 20220417235824.png|im]]
+- [[Marching Cubes]]
+- [[Marching Tetrahedra]]
 
 
 
@@ -103,3 +103,17 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Volume [[Visualization]]](Volume Visualization.md)
+>   - [[Isosurface]]
+>    
+> - [Indirect Volume [[Visualization]]](Indirect Volume Visualization.md)
+>   - [[Isosurface]]
+>    
+> - [Contours](Contour.md)
+>   - [[Isosurface]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

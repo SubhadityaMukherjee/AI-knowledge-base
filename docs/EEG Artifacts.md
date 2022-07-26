@@ -2,18 +2,18 @@
 title: EEG Artifacts
 ---
 
-# [EEG](EEG.md) Artifacts
-- [ICA](ICA.md)
-- ![im](assets/Pasted%20Image%2020220502145423.png)
+# [[EEG]] Artifacts
+- [[ICA]]
+- ![[assets/Pasted image 20220502145423.png|im]]
 
 ## Drift
-- ![im](assets/Pasted%20Image%2020220502145641.png)A
+- ![[assets/Pasted image 20220502145641.png|im]]A
 
 ## Probably Disconnected
-- ![im](assets/Pasted%20Image%2020220502145656.png)
+- ![[assets/Pasted image 20220502145656.png|im]]
 
 ## Periodic - Probably From ECG
-- ![im](assets/Pasted%20Image%2020220502145805.png)
+- ![[assets/Pasted image 20220502145805.png|im]]
 - Arteries in neck exposed when person is nervous
 
 
@@ -111,3 +111,11 @@ title: EEG Artifacts
 
 
 
+
+
+## Backlinks
+
+> - [EEG](EEG.md)
+>   - [[EEG Artifacts]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

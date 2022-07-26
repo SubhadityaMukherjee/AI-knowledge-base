@@ -11,9 +11,5 @@ tags: regularize
 - For Sigmoid based activation functions
 
 
-## Backlinks
 
-> - [Initialization](Initialization.md)
->   - [[He Initialization]]
 
-_Backlinks last generated 2022-07-26 19:32:48_

@@ -4,17 +4,17 @@ tags: parallel
 ---
 
 # Vector Processor
-- [Memory to Memory Architecture](Memory%20to%20Memory%20Architecture.md)
-- [Register to Register Architecture](Register%20to%20Register%20Architecture.md)
-- [Vector Register](Vector%20Register.md)
-- [Scalar Register](Scalar%20Register.md)
-- [Vector Functional Units](Vector%20Functional%20Units.md)
-- [Vector Load Store Units](Vector%20Load%20Store%20Units.md)
-- [Strip Mining](Strip%20Mining.md)
-- [Vector Chaining](Vector%20Chaining.md)
-- [Scatter and Gather](Scatter%20and%20Gather.md)
-- [Pipes](Pipes.md)
-- [Vector Assembly level](Vector%20Assembly%20level.md)
+- [[Memory to Memory Architecture]]
+- [[Register to Register Architecture]]
+- [[Vector Register]]
+- [[Scalar Register]]
+- [[Vector Functional Units]]
+- [[Vector Load Store Units]]
+- [[Strip Mining]]
+- [[Vector Chaining]]
+- [[Scatter and Gather]]
+- [[Pipes]]
+- [[Vector Assembly level]]
 
 
 
@@ -111,3 +111,11 @@ tags: parallel
 
 
 
+
+
+## Backlinks
+
+> - [SIMD](SIMD.md)
+>   - [[Vector Processor]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

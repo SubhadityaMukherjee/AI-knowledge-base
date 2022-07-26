@@ -4,12 +4,12 @@ tags: visualization
 ---
 
 # Marching Squares
-- ![im](assets/Pasted%20Image%2020220411133621.png)
-- Also uses [Interpolation](Interpolation.md)
+- ![[assets/Pasted image 20220411133621.png|im]]
+- Also uses [[Interpolation]]
 - Symmetries
-- ![im](assets/Pasted%20Image%2020220411133645.png)
-- [Asymptotic Decider](Asymptotic%20Decider.md)
-- [Midpoint Decider](Midpoint%20Decider.md)
+- ![[assets/Pasted image 20220411133645.png|im]]
+- [[Asymptotic Decider]]
+- [[Midpoint Decider]]
 
 
 
@@ -106,3 +106,14 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Isoline](Isoline.md)
+>   - [[Marching Squares]]
+>    
+> - [Marching Cubes](Marching Cubes.md)
+>   - 3D version of [[Marching Squares]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

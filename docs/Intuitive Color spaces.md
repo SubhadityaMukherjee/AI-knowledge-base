@@ -3,7 +3,7 @@ title: Intuitive Color spaces
 tags: visualization
 ---
 
-# Intuitive [Color Spaces](Color%20Spaces.md)
+# Intuitive [[Color Spaces]]
 
 
 
@@ -100,3 +100,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Color Spaces](Color Spaces.md)
+>   - [[Intuitive Color spaces]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

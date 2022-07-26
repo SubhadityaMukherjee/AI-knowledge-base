@@ -3,9 +3,11 @@ title: Trees
 ---
 
 # Trees
-- [Decision Trees](Decision%20Trees.md)
-- ![im](assets/Pasted%20Image%2020220418104939.png)
-- [Node LInk Diagram](Node%20LInk%20Diagram.md)
+- [[Decision Trees]]
+- ![[assets/Pasted image 20220418104939.png|im]]
+- [[Node LInk Diagram]]
+
+
 
 
 

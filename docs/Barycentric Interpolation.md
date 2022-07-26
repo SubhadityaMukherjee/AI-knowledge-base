@@ -3,10 +3,10 @@ title: Barycentric Interpolation
 tags: visualization
 ---
 
-# Barycentric [Interpolation](Interpolation.md)
-- ![im](assets/Pasted%20Image%2020220411124941.png)
+# Barycentric [[Interpolation]]
+- ![[assets/Pasted image 20220411124941.png|im]]
 - d+1 points
-- Point x is an [Affine Function](Affine%20Function.md) of $x_i$
+- Point x is an [[Affine Function]] of $x_i$
 
 
 
@@ -103,3 +103,11 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Interpolation](Interpolation.md)
+>   - [[Barycentric Interpolation]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

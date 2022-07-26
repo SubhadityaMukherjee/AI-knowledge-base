@@ -4,7 +4,7 @@ tags: brain visualization
 ---
 
 # Spectrogram
-- ![im](assets/Pasted%20Image%2020220502160646.png)
+- ![[assets/Pasted image 20220502160646.png|im]]
 
 
 
@@ -101,3 +101,11 @@ tags: brain visualization
 
 
 
+
+
+## Backlinks
+
+> - [Brain Oscillations](Brain Oscillations.md)
+>   - [[Spectrogram]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

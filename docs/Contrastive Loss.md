@@ -4,8 +4,8 @@ tags: loss
 ---
 
 # Contrastive Loss
-- Minimize distance between similar inputs [Gradient Descent gradients](Gradient%20Descent%20gradients.md), maximize between dissimilar [Gradient Ascent](Gradient%20Ascent.md)
-- Learn [Embedding](Embedding.md)/Feature space using neighbors
+- Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
+- Learn [[Embedding]]/Feature space using neighbors
 - dim(Embedding d) < dim(input Space D)
 - Encoded using a learnable function(NN) $$G_\theta(x) : \mathcal{R}^D \rightarrow \mathcal{R}^d$$
 - Binary labels : similar or not
@@ -109,3 +109,17 @@ tags: loss
 
 
 
+
+
+## Backlinks
+
+> - [Feature Learning](Feature Learning.md)
+>   - [[Contrastive Loss]]
+>    
+> - [NCE](NCE.md)
+>   - [[Contrastive Loss]]
+>    
+> - [Semi Supervised](Semi Supervised.md)
+>   - [[Contrastive Loss]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

@@ -4,11 +4,11 @@ title: Bahdanau Attention
 tags: architecture 
 ---
 
-# Bahdanau [Attention](Attention.md)
+# Bahdanau [[Attention]]
 - [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
-	- [Attention](Attention.md) mechanism (borrowed from the field of information retrieval) within the context of NLP
-- Same as [Additive Attention](Additive%20Attention.md)
-- ![](assets/Pasted%20image%2020220621170726.png)
+	- [[Attention]] mechanism (borrowed from the field of information retrieval) within the context of NLP
+- Same as [[Additive Attention]]
+- ![[assets/Pasted image 20220621170726.png]]
 
 
 
@@ -59,3 +59,11 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [Additive [[Attention]]](Additive Attention.md)
+>   - Oh, basically it is the same as [[Bahdanau Attention]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

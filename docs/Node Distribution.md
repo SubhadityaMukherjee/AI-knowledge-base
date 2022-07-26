@@ -4,7 +4,7 @@ tags: distribution
 ---
 
 # Node Distribution
-![im](assets/Pasted%20Image%2020220418123429.png)-
+![[assets/Pasted image 20220418123429.png|im]]-
 
 
 
@@ -101,3 +101,11 @@ tags: distribution
 
 
 
+
+
+## Backlinks
+
+> - [Node LInk Diagram](Node LInk Diagram.md)
+>   - [[Node Distribution]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

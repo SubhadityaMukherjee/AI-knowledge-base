@@ -4,7 +4,7 @@ tags: brain
 ---
 
 # Brainstem
-- relay center connecting the [cerebrum](Cerebrum.md) and [cerebellum](Cerebellum.md) to the spinal cord. It performs many automatic functions such as breathing, heart rate, body temperature, wake and sleep cycles, digestion, sneezing, coughing, vomiting, and swallowing
+- relay center connecting the [[Cerebrum|cerebrum]] and [[Cerebellum|cerebellum]] to the spinal cord. It performs many automatic functions such as breathing, heart rate, body temperature, wake and sleep cycles, digestion, sneezing, coughing, vomiting, and swallowing
 
 
 
@@ -101,3 +101,11 @@ tags: brain
 
 
 
+
+
+## Backlinks
+
+> - [Brain Areas](Brain Areas.md)
+>   - [[Brainstem]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

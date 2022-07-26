@@ -101,3 +101,14 @@ title: Affine Function
 
 
 
+
+
+## Backlinks
+
+> - [Linear Regression](LinearRegression.md)
+>   - [[Affine Function]]
+>    
+> - [Barycentric [[Interpolation]]](Barycentric Interpolation.md)
+>   - Point x is an [[Affine Function]] of $x_i$
+
+_Backlinks last generated 2022-07-26 20:33:15_

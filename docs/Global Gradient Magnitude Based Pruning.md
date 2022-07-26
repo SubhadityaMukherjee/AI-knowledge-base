@@ -3,7 +3,7 @@ title: Global Gradient Magnitude Based Pruning
 tags: regularize
 ---
 
-# Global Gradient Magnitude Based [Pruning](Pruning.md)
+# Global Gradient Magnitude Based [[Pruning]]
 - Identifies lowest absolute value $(weight*gradient)$ in the whole network and removes them
 
 
@@ -101,3 +101,11 @@ tags: regularize
 
 
 
+
+
+## Backlinks
+
+> - [Pruning](Pruning.md)
+>   - [[Global Gradient Magnitude Based Pruning]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

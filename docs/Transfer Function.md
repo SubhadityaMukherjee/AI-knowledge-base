@@ -5,11 +5,11 @@ tags: visualization
 
 # Transfer Function
 - Map a scalar to color and opacity
-- Determines which [features](Features.md) of the data are visible / highlighted
+- Determines which [[Features|features]] of the data are visible / highlighted
 - Can be stored inside a color lookup table (LUT)
-- ![im](assets/Pasted%20Image%2020220418002619.png)
-- ![im](assets/Pasted%20Image%2020220418002958.png)
-- [Opacity Correction](Opacity%20Correction.md)
+- ![[assets/Pasted image 20220418002619.png|im]]
+- ![[assets/Pasted image 20220418002958.png|im]]
+- [[Opacity Correction]]
 
 
 
@@ -106,3 +106,17 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Pre Classification](Pre Classification.md)
+>   - Classification of scalars at each sample via [[Transfer Function]]
+>    
+> - [Classification Ray Casting](Classification Ray Casting.md)
+>   - [[Transfer Function]]
+>    
+> - [Post Classification](Post Classification.md)
+>   - Classification via [[Transfer Function]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

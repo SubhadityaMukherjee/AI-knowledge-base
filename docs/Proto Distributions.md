@@ -4,19 +4,19 @@ tags: distribution
 ---
 
 # Proto Distributions
-- [Distributions](Distributions)
-- Occur in [Bayesian](Bayesian.md)
+- [[Distributions]]
+- Occur in [[Bayesian]]
 
 ## Continuous Spaces
-- [Proto PDF](Proto%20PDF.md)
+- [[Proto PDF]]
 - $$p(x|\theta) = \frac{1}{\int_{\mathbb{R}^{k}}p_{0}(x| \theta)dx}p_{0}(x|\theta)$$
-- $p_{0}$ gives the shape of the [PDF](PDF.md)
+- $p_{0}$ gives the shape of the [[PDF]]
 - $\frac{1}{\int_{\mathbb{R}^{k}}p_{0}(x| \theta)dx}$  is a normalization so it integrates to 1
-- ![im](assets/Pasted%20Image%2020220324115318.png)
+- ![[assets/Pasted image 20220324115318.png|im]]
 - Most of the time we dont know a distribution but only its proto distribution. This is actually enough sometimes
 
 ## Discrete Spaces
-- [Proto PMF](Proto%20PMF.md)
+- [[Proto PMF]]
 
 
 
@@ -113,3 +113,11 @@ tags: distribution
 
 
 
+
+
+## Backlinks
+
+> - [[[Bayesian]] Posterior](Bayesian Posterior.md)
+>   - [[Proto Distributions]] on $\theta$ space
+
+_Backlinks last generated 2022-07-26 20:33:15_

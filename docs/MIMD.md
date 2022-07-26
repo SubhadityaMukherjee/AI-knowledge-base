@@ -7,10 +7,10 @@ tags: parallel
 - Multiple instruction, multiple data
 - Synchronous/Async , deterministic/non deterministic
 - Most supercomputers
-- [Grids](Grids.md)
-- Multi processor [SMP](SMP.md) computers
-- Also include [SIMD](SIMD.md) sub components
-- ![im](assets/Pasted%20Image%2020220506151115.png)
+- [[Grids]]
+- Multi processor [[SMP]] computers
+- Also include [[SIMD]] sub components
+- ![[assets/Pasted image 20220506151115.png|im]]
 
 
 
@@ -107,3 +107,14 @@ tags: parallel
 
 
 
+
+
+## Backlinks
+
+> - [Flynn's Taxonomy](Flynn's Taxonomy.md)
+>   - [[MIMD]]
+>    
+> - [SIMD](SIMD.md)
+>   - More energy efficient than [[MIMD]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

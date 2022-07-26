@@ -9,7 +9,7 @@ title: Freedom
 - If P learnable params , $$P<N$$ : underspecified
 - If $$P >> N$$ : overparameterized
 - No of params not a good indicator of overfitting
-- Solution : [Regularization](Regularization.md)
+- Solution : [[Regularization]]
 
 
 
@@ -106,3 +106,11 @@ title: Freedom
 
 
 
+
+
+## Backlinks
+
+> - [Issues](Issues.md)
+>   - [[Freedom]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

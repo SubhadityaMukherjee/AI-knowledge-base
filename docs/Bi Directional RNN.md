@@ -7,7 +7,7 @@ tags: architecture
 - Not causal
 - Looks at the forward timestep dimension and also the backward
 	- Both combined to make a prediction
-- ![im](assets/Pasted%20Image%2020220307171243.png)
+- ![[assets/Pasted image 20220307171243.png|im]]
 
 
 
@@ -104,3 +104,11 @@ tags: architecture
 
 
 
+
+
+## Backlinks
+
+> - [Basic RNN Architectures](Basic RNN Architectures.md)
+>   - [[Bi Directional RNN]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

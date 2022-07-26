@@ -4,7 +4,9 @@ tags: visualization
 ---
 
 # Filtering
-- [Noise Suppression](Noise%20Suppression.md)
+- [[Noise Suppression]]
+
+
 
 
 

@@ -106,3 +106,17 @@ title: Fitting
 
 
 
+
+
+## Backlinks
+
+> - [Bias Vs Variance](Bias Variance Dilemma.md)
+>   - $\mathcal{H}$ is hypothesis space (related to [[Fitting]]).
+>    
+> - [Fastai Blocks](Fastai Blocks.md)
+>   - [[Fitting]] because pretrained models are not going to be there
+>    
+> - [Issues](Issues.md)
+>   - [[Fitting]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

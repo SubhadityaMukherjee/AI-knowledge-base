@@ -3,8 +3,8 @@ title: DiTransitive verb
 tags: language
 ---
 
-# DiTransitive [Verb](Verb.md)
-- a [verb](Verb.md) has two [noun](noun) objects 
+# DiTransitive [[Verb]]
+- a [[Verb|verb]] has two [[noun]] objects 
 - I cooked a duck for her
 
 
@@ -102,3 +102,11 @@ tags: language
 
 
 
+
+
+## Backlinks
+
+> - [Verb](Verb.md)
+>   - [[DiTransitive verb]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

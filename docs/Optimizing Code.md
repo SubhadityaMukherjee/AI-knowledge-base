@@ -3,11 +3,11 @@ title: Optimizing Work
 ---
 
 # Optimizing Work
-- [Vectorization](Vectorization.md)
-- [Parallelization](Parallelization.md)
-- [Loop Tiling](Loop%20Tiling.md)
-- [Operator Fusion](Operator%20Fusion.md)
-- [Block Sparse Kernel](Block%20Sparse%20Kernel.md)
+- [[Vectorization]]
+- [[Parallelization]]
+- [[Loop Tiling]]
+- [[Operator Fusion]]
+- [[Block Sparse Kernel]]
 
 
 
@@ -104,3 +104,11 @@ title: Optimizing Work
 
 
 
+
+
+## Backlinks
+
+> - [](DeepLearning.md)
+>   - [[Optimizing Code]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

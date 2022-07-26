@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Grids
-- ![im](assets/Pasted%20Image%2020220411124545.png)
+- ![[assets/Pasted image 20220411124545.png|im]]
 
 
 
@@ -101,3 +101,17 @@ tags: visualization
 
 
 
+
+
+## Backlinks
+
+> - [Marching Tetrahedra](Marching Tetrahedra.md)
+>   - Unstructured [[Grids]]
+>    
+> - [Data Structures](Data Structures.md)
+>   - [[Grids]]
+>    
+> - [MIMD](MIMD.md)
+>   - [[Grids]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

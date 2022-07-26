@@ -4,9 +4,9 @@ tags: brain
 ---
 
 # BrainWave Coherence
-- [Correlation](Correlation.md) in the frequency domain
+- [[Correlation]] in the frequency domain
 - Unlike synchronization, this also depends on signal amplitude
-- ![im](assets/Pasted%20Image%2020220502162442.png)
+- ![[assets/Pasted image 20220502162442.png|im]]
 	- coherence vs freq
 	- decent coherence between CZ and O1
 	- O1 and PZ has little coherence
@@ -106,3 +106,11 @@ tags: brain
 
 
 
+
+
+## Backlinks
+
+> - [Functional Connectivity](Functional Connectivity.md)
+>   - [[BrainWave Coherence]]
+
+_Backlinks last generated 2022-07-26 20:33:15_

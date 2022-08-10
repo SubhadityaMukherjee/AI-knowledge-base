@@ -2,6 +2,8 @@
 title: Speech Emotion Recognition
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Speech Emotion Recognition
@@ -11,25 +13,4 @@ tags: architecture
 - nvestigate the usage of GANs for capturing the data [manifold](Manifold.md) when the data is eyes-off, i.e., where they can train networks using the data but cannot copy it from the clients
 - CNN-based GAN with spectral normalization on both the generator and discriminator, both of which are pre-trained on large unlabeled speech corpora
 - even after the data on the client is lost, their model can generate similar data that can be used for model bootstrapping in the future
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

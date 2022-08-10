@@ -2,6 +2,8 @@
 title: X Vectors
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # X Vectors
@@ -14,28 +16,7 @@ tags: architecture
 - Reverberation involves convolving room impulse responses (RIR) with audio
 - simulated RIRs described by [Ko et al.](https://danielpovey.com/files/2017_icassp_reverberation.pdf)
 - reverberation itself is performed with the multicondition training tools in the Kaldi ASpIRE recipe
-- For additive noise, they use the [MUSAN](MUSAN.md) dataset, 
+- For additive noise, they use the [MUSAN](MUSAN.md) dataset,
 - PLDA classifier is used in the x-vector framework to make the final decision, similar to i-vector systems
 - x-vectors are compared with i-vector baselines on [Speakers in the Wild](Speakers%20in%20the%20Wild.md) and [NIST SRE 2016 Cantonese](NIST%20SRE%202016%20Cantonese.md) where they achieve superior performance on the evaluation datasets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: Adaptive Input Representation
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Adaptive Input Representation
@@ -11,29 +13,4 @@ tags: architecture
 - more than twice as fast to train than the popular character input CNN while having a lower number of parameters
 - [English Wikipedia](English%20Wikipedia.md)
 - [Billion Word](Billion%20Word.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

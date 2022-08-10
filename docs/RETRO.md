@@ -2,6 +2,8 @@
 title: RETRO
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # RETRO
@@ -15,29 +17,4 @@ tags: architecture
 - Wikitext103
 - Pile
 - improving semi-parametric language models through explicit memory can provide an orthogonal, more efficient approach than raw parameter scaling as they seek to build more powerful language models
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

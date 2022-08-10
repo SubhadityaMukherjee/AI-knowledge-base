@@ -2,6 +2,8 @@
 title: FLASH
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # FLASH
@@ -10,34 +12,8 @@ tags: architecture
 - FLASH
 - performant layer (gated linear unit) and by combining it with an accelerator-efficient approximation strategy ([mixed chunk attention](Mixed%20chunk%20attention.md))
 - [GAU](GAU.md)
-- [Mixed chunk attention](Mixed%20chunk%20attention.md) 
--
+- [Mixed chunk attention](Mixed%20chunk%20attention.md)
 - outperforms three baselines: vanilla [Transformer](Transformer.md), Performer and Combiner in terms of quality and efficiency
 - Wiki
 - PG-19
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

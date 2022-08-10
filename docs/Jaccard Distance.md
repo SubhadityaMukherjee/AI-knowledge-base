@@ -2,6 +2,8 @@
 title: Jaccard Distance
 
 tags: distance 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Jaccard Distance
@@ -14,47 +16,4 @@ tags: distance
 - The Jaccard index is often used in applications where binary or binarized data are used
 - deep learning model predicting segments of an image
 - text similarity analysis to measure how much word choice overlap there is between documents
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

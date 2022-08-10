@@ -2,6 +2,8 @@
 title: CheckList
 
 tags: benchmark
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # CheckList
@@ -13,29 +15,4 @@ tags: benchmark
 - Minimum Functionality Test (MFT): A Minimum Functionality Test (MFT) uses simple examples to make sure the model can perform a specific task well. For example, they might want to test the performance of a sentiment model when dealing with negations
 - Invariance Test: Besides testing the functionality of a model, they might also want to test if the model prediction stays the same when trivial parts of inputs are slightly perturbed. These tests are called Invariance Tests (IV)
 - Directional Expectation Test: In the Invariance Test, they expect the outputs after the perturbation to be the same. However, sometimes they might expect the output after perturbation to change. That is when Directional Expectation Tests comes in handy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: Haversine Distance
 
 tags: distance 
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Haversine Distance
@@ -13,43 +15,4 @@ tags: distance
 - As you might have expected, Haversine distance is often used in navigation
 - calculate the distance between two countries when flying between them
 - Note that it is much less suited if the distances by themselves are already not that large. The curvature will not have that large of an impact.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

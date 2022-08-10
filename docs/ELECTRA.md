@@ -2,6 +2,8 @@
 title: ELECTRA
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # ELECTRA
@@ -15,29 +17,4 @@ tags: architecture
 - particularly strong for small models
 - GLUE
 - performs comparably to [[RoBERTa|[[RoBERTa](RoBERTa.md)](RoBERTa.md) and [XLNet](XLNet.md) while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

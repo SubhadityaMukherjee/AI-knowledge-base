@@ -2,6 +2,8 @@
 title: SRN
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # SRN
@@ -11,29 +13,4 @@ tags: architecture
 - [Vanishingexploding gradients](Vanishingexploding%20gradients.md) , in [Backprop](Backprop.md), they break down when sequences are long.
 - Distance between the relevant words are too long
 - Followed up [Long Short Term Memory (LSTM|[LSTM)](Long%20Short%20Term%20Memory%20(LSTM)]].md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

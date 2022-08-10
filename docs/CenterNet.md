@@ -1,9 +1,14 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
 title: CenterNet
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -20,85 +25,4 @@ tags: architecture
 - [COCO](COCO.md)
 - Single stage
   id:: 62a89d42-312d-4f3d-8235-c54a9dfafadf
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

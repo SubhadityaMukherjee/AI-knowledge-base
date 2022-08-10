@@ -2,6 +2,8 @@
 title: Mirman et al.
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Mirman Et Al.
@@ -21,49 +23,4 @@ tags: language cogneuro psychology
 - We can start with randomness and with learning it will become structured
 - concepts are just bundles of [features](Features.md), that together become something
 - Prevents catastrophic failures
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

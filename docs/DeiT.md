@@ -1,9 +1,14 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
 title: DeiT
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -22,85 +27,4 @@ tags: architecture
 - #+BEGIN_CAUTION
   Heh. Didnt they say no convs?
   #+END_CAUTION
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

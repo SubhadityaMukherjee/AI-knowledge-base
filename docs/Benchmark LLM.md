@@ -2,6 +2,8 @@
 title: Benchmark LLM
 
 tags: dataset 
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Benchmark LLM
@@ -11,25 +13,4 @@ tags: dataset
 - current benchmarks are relatively simplistic and the performance over these benchmarks cannot be used as an evidence to support
 - extensible assessment framework motivated by the above gaps in current benchmarks to test the abilities of LLMs on a central aspect of human intelligence, which is reasoning about actions and change
 - multiple test cases
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

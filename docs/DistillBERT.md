@@ -2,6 +2,8 @@
 title: DistillBERT
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # DistillBERT
@@ -11,29 +13,4 @@ tags: architecture
 - 40% smaller, 60% faster, cheaper to pre-train, and retains 97% of the language understanding capabilities
 - [knowledge distillation](Knowledge%20Distillation.md) during the pre-training phase
 - triple loss combining language modeling, distillation and cosine-distance losses
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

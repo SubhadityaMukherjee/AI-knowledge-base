@@ -2,6 +2,8 @@
 title: i-Code
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:21 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # i-Code
@@ -18,17 +20,4 @@ tags: architecture
 - merge-attention [layers](Layers.md) and (b) co-[attention](Attention.md) [layers](Layers.md)
 - fusion architecture
 - mechanisms that merge and cross the [attention](Attention.md) scores of different modalities, namely merge-[attention](Attention.md) (based on self-[attention](Attention.md)) and co-[attention](Attention.md) (based on self- and cross-[attention](Attention.md)) respectively
-
-
-
-
-
-
-
-
-
-
-
-
-
 

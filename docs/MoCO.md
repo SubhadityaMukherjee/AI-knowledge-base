@@ -1,3 +1,8 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
@@ -24,53 +29,4 @@ tags: architecture
 - momentum update with the query encoder
 - ![moco1](assets/moco1.jpg)
 - ![moco2](assets/moco2.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

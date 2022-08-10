@@ -2,6 +2,8 @@
 title: SHAP
 
 tags: uncertainty 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # SHAP
@@ -18,19 +20,4 @@ tags: uncertainty
 - theoretical results showing there is a unique solution in this class with a set of desirable properties
 - notable because several recent methods in the class lack the proposed desirable properties
 - present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

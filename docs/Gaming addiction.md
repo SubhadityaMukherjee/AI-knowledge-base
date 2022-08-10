@@ -1,3 +1,8 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
@@ -13,85 +18,4 @@ tags: brain, psychology
 - These areas are the rewarding areas
 - The results show that the same addiction to substance can share the same neuro-biological mechanisms with the extreme gaming demands of online gaming addiction.
 - [Paper](https://dergipark.org.tr/en/pub/makuiibf/issue/41626/435845)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

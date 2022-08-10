@@ -2,6 +2,8 @@
 title: AdaDelta
 
 tags: optimizer gradients 
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # AdaDelta
@@ -10,37 +12,4 @@ $$\begin{align}\\
 & \Delta \theta_{t}= -\frac{RMS[\Delta \theta]_{t-1}}{RMS[g]_{t}}g_{t}\\
 & \theta_{t+1}= \theta_{t}+ \Delta \theta_{t}
 \end{align}$$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

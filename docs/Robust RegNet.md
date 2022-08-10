@@ -1,3 +1,8 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
@@ -21,53 +26,4 @@ tags: architecture
 - captures well semantic information
 - captures information about artistic style and learns salient information such as geo-locations and multilingual word embeddings based on visual content only.
 - large-scale self-supervised pre-training yields more robust, fair, less harmful, and less biased results than supervised models or models trained on object centric datasets such as [ImageNet](ImageNet.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: Wide Deep Recommender
 
 tags: architecture recommender
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Wide Deep Recommender
@@ -16,17 +18,4 @@ tags: architecture recommender
 - In other words, the fusion of wide and deep models combines the strengths of memorization and generalization, and provides us with better recommendation systems
 - The two models are trained jointly with the same loss function.
 - Google Play Store
-
-
-
-
-
-
-
-
-
-
-
-
-
 

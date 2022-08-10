@@ -2,6 +2,8 @@
 title: Symbolic models
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Symbolic Models
@@ -10,49 +12,4 @@ tags: language cogneuro psychology
 - Botvinick, M. M., & Plaut, D. C. (2006). Short-term memory for serial order: a recurrent neural network model. Psychological review, 113(2), 201.
 - Model could later correctly reproduce novel sequences
 - But all letters had occurred in each position
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

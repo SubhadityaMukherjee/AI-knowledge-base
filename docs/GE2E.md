@@ -2,6 +2,8 @@
 title: GE2E
 
 tags: loss 
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # GE2E
@@ -12,25 +14,4 @@ tags: loss
 - pushes the [embedding](Embedding.md) towards the centroid of the true speaker, and away from the centroid of the most similar different speaker
 - does not require an initial stage of example selection
 - [MultiReader technique](MultiReader%20technique.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,5 +1,8 @@
 ---
+tags: temp
 title: Bias Vs Variance
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Bias Vs Variance
@@ -16,13 +19,14 @@ title: Bias Vs Variance
 - Decision function should minimize [LossFunctions](LossFunctions) and yield a function with risk h. This is hopeless $$R(h) = E[L(h(X), Y)]$$
 - Tune on [Emperical Risk](Emperical%20Risk.md) instead using [Optimizers](Optimizers.md)
 - $\mathcal{H}$ is hypothesis space (related to [Fitting](Fitting.md)).
+
 ## Why is This a Dilemma
 - Any learning algo $\mathcal{A}$
 - If we run $\mathcal{A}$ repeatedly but for different "fresh" sampled data -> $\hat h$ varies from trial to trial
 - For any fixed x, $\hat h(x)$
 	- is a random variable
 	- value determined by drawn training samples
-	- rep by distribution $P_{X,Y}$  (which we cannot really know)
+	- rep by distribution $P_{X,Y}$ (which we cannot really know)
 	- Expectation $E_{retrain}[\hat h(x)]$ . aka taken over ALL possible training runs with sampled data
 - [Quadratic Loss](Quadratic%20Loss.md) (risk) is minimized by the function $$\Delta(x) = E_{Y|X=x}[Y]$$
 	- Expectation of Y given x.
@@ -32,93 +36,6 @@ title: Bias Vs Variance
 - Variance measures how strongly the results vary around the expected value $E_{retrain}$
 - When flexibility is too low -> bias dominates(too good in train and horrible later) and underfits
 - When flexibility is too high -> variance dominates -> overfitting
+
 ## [Tuning Model Flexibility](Tuning%20Model%20Flexibility.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

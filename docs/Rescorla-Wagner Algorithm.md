@@ -2,6 +2,8 @@
 title: Rescorla-Wagner Algorithm
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Rescorla-Wagner Algorithm
@@ -17,49 +19,4 @@ tags: language cogneuro psychology
 - Rescorla-Wagner = error-driven
 - After a strong association is made, as long as it is confirmed by data, no new learning will occur
 - The model only learns when the predicted outcome differs from actual outcome
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

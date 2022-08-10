@@ -2,6 +2,8 @@
 title: OPT
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # OPT
@@ -10,25 +12,4 @@ tags: architecture
 - collection of auto-regressive/decoder-only pre-trained transformer-based language models ranging in size from 125M to 175B parameters, which we aim to fully and responsibly share with interested researchers
 - replicate the performance and sizes of the [GPT](GPT.md)-3 class of models, while also applying the latest best practices in data curation and training efficiency
 - OPT-175B is comparable to [GPT](GPT.md)-3, while requiring only 1/7th the carbon footprint to develop
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

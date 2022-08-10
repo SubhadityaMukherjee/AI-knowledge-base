@@ -2,6 +2,8 @@
 title: DALL-E 2
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # [DALL-E](DALL-E.md) 2
@@ -12,16 +14,4 @@ tags: architecture
 - explicitly generating image representations improves image diversity with minimal loss in photorealism and caption similarity
 - decoder, which is conditioned on image representations, can also produce variations of an image that preserve both its semantics and style, while varying the non-essential details absent from the image representation
 - diffusion models for the decoder and experiment with both autoregressive and diffusion models for the prior, finding that the latter are computationally more efficient and produce higher-quality samples
-
-
-
-
-
-
-
-
-
-
-
-
 

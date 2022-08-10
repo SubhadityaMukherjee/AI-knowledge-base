@@ -2,6 +2,8 @@
 title: DALL-E
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # DALL-E
@@ -27,19 +29,4 @@ tags: architecture
 - simple decoder-only transformer that receives both the text and the image as a single stream of 1280 tokens—256 for the text and 1024 for the image—and models all of them autoregressively
 - They find that sufficient data and scale can lead to improved generalization, both in terms of zero-shot performance relative to previous domain-specific approaches
 - and in terms of the range of capabilities that emerge from a single generative model.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

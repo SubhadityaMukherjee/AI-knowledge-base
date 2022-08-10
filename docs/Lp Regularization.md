@@ -1,6 +1,8 @@
 ---
 title: Lp Regularization
 tags: regularize
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Lp [Regularization](Regularization.md)
@@ -21,31 +23,4 @@ tags: regularize
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit
 	- [Cross Validation](Cross%20Validation.md) required
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

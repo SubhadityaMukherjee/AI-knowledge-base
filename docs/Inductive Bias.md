@@ -1,6 +1,8 @@
 ---
 title: Inductive Bias
-tags:
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Inductive Bias
@@ -16,45 +18,4 @@ tags:
 	- assume that there’s a hyperplane that separates the two classes from each other. This simplifies the problem, but one can imagine that if the assumption is not valid, we won’t have a good model.
 - [Non Relational Inductive Bias](Non%20Relational%20Inductive%20Bias.md)
 - [Relational Inductive Bias](Relational%20Inductive%20Bias.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: Wickelphones
 
 tags: language psychology 
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Wickelphones
@@ -23,67 +25,4 @@ tags: language psychology
 - Children don't show vocabulary burst between State 2 and 3 (needed to produce U-shaped learning with Connectionist Model)
 - Thousands of exposures
 - No distinction between tokens and types, each [verb](Verb.md) simply included once
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

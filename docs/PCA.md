@@ -1,5 +1,8 @@
 ---
+tags: temp
 title: PCA
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # PCA
@@ -9,10 +12,10 @@ title: PCA
 
 ## Steps
 1. Center data (A)
-	- Subtract their mean from each pattern. 
+	- Subtract their mean from each pattern.
 	- $$\mu = \frac{1}{N}\Sigma_{i}x_{i}$$ and getting patterns $$\hat x_{i}=x_{i}-\mu$$
 	- [Point cloud](Point%20Cloud.md) with center of gravity : origin
-		- Extend more in some "directions" characterized by unit norm direction vectors $u \in \mathbb{R}^n$ . 
+		- Extend more in some "directions" characterized by unit norm direction vectors $u \in \mathbb{R}^n$ .
 		- Distance of a point from the origin in the direction of u : projection of $\bar x_i$ on u aka inner product $u'\bar x_i$
 		- Extension of cloud in direction u : Mean square dist to origin.
 		- Largest extension : $$u_{1}= argmax_{u_{1}, ||u|| = 1} \frac{1}{N}\Sigma_{i}(u
@@ -36,104 +39,7 @@ title: PCA
 		- Ratio very small as index k grows. Very little info lost by reducing dims. Aka good for very high dim stuff.
 7. Compute SVD
 	- $u_{1,}…u_{n}$ form orthonormal, real eigenvectors
-	- variances $\sigma_{1}^{2,}…,  \sigma_{n}^2$ are eigenvalues
-	- $C = U\Sigma U'$ to get PC vectors $u_k$ lined up in U and variances $\sigma_k^2$ as eigenvalues in $\Sigma$ 
+	- variances $\sigma_{1}^{2,}…, \sigma_{n}^2$ are eigenvalues
+	- $C = U\Sigma U'$ to get PC vectors $u_k$ lined up in U and variances $\sigma_k^2$ as eigenvalues in $\Sigma$
 	- If we want to preserve 98% variance : Rhs of (1) st. ratio is (1-0.98)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

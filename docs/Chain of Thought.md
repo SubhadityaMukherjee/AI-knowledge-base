@@ -1,7 +1,9 @@
 ---
 title: Chain of Thought
 
-tags: 
+tags: temp 
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Chain of Thought
@@ -10,29 +12,4 @@ tags:
 - series of short sentences that mimic the reasoning process a person might have when responding to a question
 - the more complex the task of interest is (in the sense of requiring multi-step reasoning approach), the bigger the boost from the chain of thought prompting!
 - chain of thought processing is an emergent property of model scale that can be induced via prompting and can enable sufficiently large language models to better perform reasoning tasks that otherwise have flat scaling curves.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

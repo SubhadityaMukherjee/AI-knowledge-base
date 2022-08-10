@@ -2,6 +2,8 @@
 title: Milin et al.
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Milin Et Al.
@@ -38,49 +40,4 @@ tags: language cogneuro psychology
 - Some linguistic things can be learned with NDL and this might show use something about the problem
 - What made NDL so nice for animal learning might not scale up to linguistic phenomena
 - Inductive approaches to cognition
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

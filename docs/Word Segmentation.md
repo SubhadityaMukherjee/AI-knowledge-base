@@ -1,6 +1,8 @@
 ---
 title: Word Segmentation
 tags: language
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Word Segmentation
@@ -10,25 +12,4 @@ tags: language
 - [Statistical Word Segmentation](Statistical%20Word%20Segmentation.md)
 - [Lexical Word Segmentation](Lexical%20Word%20Segmentation.md)
 - [Hybrid Word Segmentation](Hybrid%20Word%20Segmentation.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

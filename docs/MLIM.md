@@ -2,6 +2,8 @@
 title: MLIM
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # MLIM
@@ -27,19 +29,4 @@ tags: architecture
 - text-only, image-only, and image-text mode
 - However, RECON instead of [ITM loss](ITM%20Loss.md) offers better PR AUC
 - Similarly, using the [ITM loss](ITM%20Loss.md) together with MLM and RECON does not change the performance
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

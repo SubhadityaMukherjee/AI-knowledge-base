@@ -2,6 +2,8 @@
 title: wave2vec 2
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:20 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # wave2vec 2
@@ -15,25 +17,4 @@ tags: architecture
 - [XLSR](XLSR.md)
 - learn speech units common to several languages
 - helps when they have even small amounts of unlabeled speech, since languages for which they have little data can benefit from languages for which more data is available
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: GPT3
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # GPT3
@@ -12,29 +14,4 @@ tags: architecture
 - on-the-fly reasoning or domain adaptation
 - methodological [issues](Issues.md) related to training on large web corpora
 - can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

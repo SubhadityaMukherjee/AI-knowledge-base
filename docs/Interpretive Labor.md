@@ -2,6 +2,8 @@
 title: Interpretive Labor
 
 tags: random
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Interpretive Labor
@@ -20,13 +22,4 @@ tags: random
 - Young ideas aren’t ending points for us to put in a paper and abandon.
 - When we let things stop there the debt piles up.
 - It becomes harder to understand and build on each other’s work and the field fragments.
-
-
-
-
-
-
-
-
-
 

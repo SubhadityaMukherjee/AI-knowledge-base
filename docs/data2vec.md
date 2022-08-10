@@ -2,6 +2,8 @@
 title: data2vec
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:21 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # data2vec
@@ -32,17 +34,4 @@ tags: architecture
 - For computer vision, they have used the ViT-strategy of encoding an image as a sequence of patches, each spanning 16x16 pixels, input to a linear transformation.
 - Speech data is encoded using a multi-layer 1-D convolutional neural network that maps 16 kHz waveform to 50 Hz representations.
 - Text is pre-processed to obtain sub-word units, which are then embedded in distributional space via learned [embedding](Embedding.md) vectors.
-
-
-
-
-
-
-
-
-
-
-
-
-
 

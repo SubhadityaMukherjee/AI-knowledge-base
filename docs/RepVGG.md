@@ -1,3 +1,8 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
@@ -17,53 +22,4 @@ tags: architecture
 	- [ImageNet](ImageNet.md)
 	- higher accuracy and show favorable accuracy-speed trade-off compared to the state-of-the-art models like [EfficientNet](EfficientNet.md) and [RegNet](RegNet.md)
 	- ![repvgg](assets/repvgg.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

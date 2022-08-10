@@ -2,6 +2,8 @@
 title: Superposition Catastrophe
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Superposition Catastrophe
@@ -15,49 +17,4 @@ tags: language cogneuro psychology
 - This means: when ambiguity/superposition catastrophe is very possible, hidden units learn selective responses
 - Selective responses 'emerge' as a response to the potential for superposition catastrophe
 - [Recurrent](Recurrent.md) networks trained to store multiple things at the same time over the same set of units learn highly selective (localist) representations
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,7 +1,9 @@
 ---
 title: Direct entropy minimization
 
-tags: 
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Direct Entropy Minimization
@@ -13,41 +15,4 @@ tags:
 - to produce high-confident predictions on target samples similarly to source samples
 - entropy loss $\mathcal{L}_{ent}$ to maximize directly the prediction confidence in the target domain.
 - [Shannon Entropy](Shannon%20Entropy)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

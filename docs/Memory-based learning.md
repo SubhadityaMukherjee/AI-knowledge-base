@@ -2,6 +2,8 @@
 title: Memory-based learning
 
 tags: language psychology 
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Memory-based Learning
@@ -14,67 +16,4 @@ tags: language psychology
 - Don't trim down the number of examples of a frequent form you have in the model. This effects it.
 - Learning is storing, classification is analogy
 - multiple long-distance dependencies
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

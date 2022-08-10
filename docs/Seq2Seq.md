@@ -1,6 +1,8 @@
 ---
 title: Seq2Seq
 tags: architecture
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Seq2Seq
@@ -14,29 +16,4 @@ tags: architecture
 - [WMT14](WMT14.md)
 - [BLEU](BLEU.md) score
 - reversing the order of the words in all source sentences (but not target sentences) improved the LSTM’s performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

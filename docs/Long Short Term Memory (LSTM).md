@@ -1,6 +1,8 @@
 ---
 title: Long Short Term Memory (LSTM)
 tags: architecture
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Long Short Term Memory (LSTM)
@@ -26,57 +28,4 @@ tags: architecture
 		- Final cell state : $$C_t = g_f \cdot C_{t-1} + g_i\cdot \hat C$$
 	- $$h_t$$ to predict output
 		- $$h_t = g_o \cdot \sigma_y(C_t)$$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

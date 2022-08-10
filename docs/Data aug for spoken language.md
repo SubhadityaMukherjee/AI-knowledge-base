@@ -1,7 +1,9 @@
 ---
 title: Data aug for spoken language
 
-tags: 
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Data Aug for Spoken Language
@@ -12,19 +14,4 @@ tags:
 - improving the annotation quality of existing training utterances and augmenting the training data with varying amounts of synthetic data
 - both data-centric approaches to improving E2E SLU achieved the desired effect, although data [augmentation](Augmentation.md) was much more powerful than annotation standardization.
 - leads to improvement in intent recognition error rate (IRER) on their golden utterance test set by 93% relative to the baseline without seeing a negative impact on other test metrics
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

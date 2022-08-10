@@ -1,9 +1,14 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
 title: Covariance
 
-tags: statistics 
+tags: statistics
 
 ---
 
@@ -12,83 +17,4 @@ tags: statistics
 - ![Pasted image 20220617141519](assets/Pasted%20image%2020220617141519.png)
 - $$Cov(X,Y) = \frac{\Sigma(x_{i}- \bar x)(y_{i}- \bar y)}{N-1}$$
 - $\bar x$ is the mean of x
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

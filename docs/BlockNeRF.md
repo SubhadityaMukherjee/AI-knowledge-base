@@ -2,6 +2,8 @@
 title: BlockNeRF
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # BlockNeRF
@@ -16,75 +18,4 @@ tags: architecture
 - appearance [Embedding](Embedding.md), learned pose refinement, and controllable exposure to each individual NeRF
 - procedure for aligning appearance between adjacent NeRFs so that they can be seamlessly combined
 - building an entire neighborhood in San Francisco from 2.8M images using a grid of Block-NeRFs, forming the largest neural scene representation to date
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

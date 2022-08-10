@@ -1,5 +1,8 @@
 ---
+tags: temp
 title: Central Limit Theorem
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Central Limit Theorem
@@ -9,104 +12,7 @@ title: Central Limit Theorem
 	- Lebesgue Integrals
 
 ## $X_{i}$ Are Identically Distributed
-- Regardless of shape of each $X_{i}$, distribution of normalized sum converges to $\mathscr{N}(0,1)$ 
+- Regardless of shape of each $X_{i}$, distribution of normalized sum converges to $\mathscr{N}(0,1)$
 - Uniformly bounded
 - None of the $X_{i}$ dominates the other "washing out"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

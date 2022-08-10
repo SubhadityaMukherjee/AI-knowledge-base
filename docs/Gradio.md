@@ -2,6 +2,8 @@
 title: Gradio
 
 tags: library 
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Gradio
@@ -31,11 +33,4 @@ enable_queue=True
 
 gr.Interface(fn=predict,inputs=gr.inputs.Image(shape=(512, 512)),outputs=gr.outputs.Label(num_top_classes=3),title=title,description=description,article=article,examples=examples,interpretation=interpretation,enable_queue=enable_queue).launch()
 ```
-
-
-
-
-
-
-
 

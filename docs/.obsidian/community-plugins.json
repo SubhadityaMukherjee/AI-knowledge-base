@@ -23,5 +23,7 @@
   "daily-activity",
   "obsidian-link-converter",
   "obsidian-extract-pdf-highlights",
-  "obsidian-linter"
+  "obsidian-linter",
+  "tag-page-preview",
+  "dataview"
 ]

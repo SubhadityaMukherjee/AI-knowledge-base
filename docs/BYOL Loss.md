@@ -1,9 +1,14 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
 title: BYOL Loss
 
-tags: loss 
+tags: loss
 
 ---
 
@@ -13,85 +18,4 @@ tags: loss
 - $\xi$ is exponentially moving average of $\theta$ and sg is stop gradient
 - $f_\theta$ is discarded, $y_\theta$ is used as image representation
 - ![byol](assets/byol.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: Style GAN
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Style GAN
@@ -10,15 +12,4 @@ tags: architecture
 - every new layer can benefit from the less granular results of the previous ones
 - better separate the generator and the discriminator, which ensures less dependence of the generator on the training set
 - his allows one to, for example, reduce discrimination in the generated pictures
-
-
-
-
-
-
-
-
-
-
-
 

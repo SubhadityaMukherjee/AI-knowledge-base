@@ -2,6 +2,8 @@
 title: MobileOne
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # MobileOne
@@ -13,75 +15,4 @@ tags: architecture
 - Either [ReLU](Relu.md) or SE-[ReLU](Relu.md) is used as activation. The trivial over-parameterization factor $k$ is a hyperparameter which is tuned for every variant.
 - better top-1 accuracy on [ImageNet](ImageNet.md) than [EfficientNet](EfficientNet.md) at similar latency
 - ![Pasted image 20220620164552](assets/Pasted%20image%2020220620164552.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

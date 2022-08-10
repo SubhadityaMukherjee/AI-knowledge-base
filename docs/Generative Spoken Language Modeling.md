@@ -2,6 +2,8 @@
 title: Generative Spoken Language Modeling
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Generative Spoken Language Modeling
@@ -14,25 +16,4 @@ tags: architecture
 - speech decoder (generating a waveform from pseudo-text)
 - trained without supervision
 - number of discrete units (50, 100, or 200) matters in a task-dependent and encoder-dependent way, and that some combinations approach text-based systems
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: BART
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # BART
@@ -18,29 +20,4 @@ tags: architecture
 - matches the performance of [RoBERTa](RoBERTa.md) with comparable training resource
 - [GLUE](GLUE.md)
 - [SQuAD](SQuAD.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: Sliding Window Attention
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Sliding Window [Attention](Attention.md)
@@ -14,55 +16,4 @@ tags: architecture
 	- $w$ should be small compared to $n$
 - With $l$ layers, [receptive field](Receptive%20field.md) size is $l \times w$
 - ![Pasted image 20220621181138](assets/Pasted%20image%2020220621181138.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

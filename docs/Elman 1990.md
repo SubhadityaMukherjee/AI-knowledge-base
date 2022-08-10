@@ -2,6 +2,8 @@
 title: Elman 1990
 
 tags: language psychology 
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Elman 1990
@@ -20,67 +22,4 @@ tags: language psychology
 - language is very redundant, so certain simplifications actually remove helpful [features](Features.md)
 - Categories can 'emerge' via statistical regularities
 - [Basic RNN Architectures](Basic%20RNN%20Architectures.md) can find these
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

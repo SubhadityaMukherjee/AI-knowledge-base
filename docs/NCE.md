@@ -1,9 +1,14 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
 title: NCE
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -22,85 +27,4 @@ tags: architecture
 - Applying these estimators as objectives in contrastive representation learning
 - transferring [features](Features.md) to a variety of new image [distributions](Distributions.md) from the meta-dataset collection
 - [Contrastive Loss](Contrastive%20Loss.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,6 +1,8 @@
 ---
 title: Brain Cortex
 tags: brain
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Brain Cortex
@@ -14,85 +16,4 @@ tags: brain
 - Divided into parts
 	- [Medial Prefrontal Cortex](Medial%20Prefrontal%20Cortex), and the [Posterior Cingulate Cortex](Posterior%20Cingulate%20Cortex) with the nearby [Precuneus](Precuneus) and [Lateral Parietal Cortex](Lateral%20Parietal%20Cortex)
 **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

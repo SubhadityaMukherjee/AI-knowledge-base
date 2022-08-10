@@ -2,6 +2,8 @@
 title: WaveGlow
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # WaveGlow
@@ -11,25 +13,4 @@ tags: architecture
 - mplemented using only a single network, trained using only a single cost function: maximizing the likelihood of the training data, which makes the training procedure simple and stable
 - more than 500 kHz on an NVIDIA V100 GPU
 - Mean Opinion Scores
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

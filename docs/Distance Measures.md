@@ -2,6 +2,8 @@
 title: Distance Measures
 
 tags: distance 
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Distance Measures
@@ -18,42 +20,4 @@ tags: distance
 - [Haversine Distance](Haversine%20Distance.md)
 - [Sørensen-Dice Index](S%C3%B8rensen-Dice%20Index.md)
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

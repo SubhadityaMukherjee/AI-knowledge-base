@@ -2,6 +2,8 @@
 title: Manhattan Distance
 
 tags: distance 
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Manhattan Distance
@@ -11,47 +13,4 @@ tags: distance
 - Manhattan distance seems to work okay for high dim data, it is a measure that is somewhat less intuitive than [euclidean distance](Euclidean%20Distance.md), especially when using in high-dimensional data
 - more likely to give a higher distance value than [euclidean distance](Euclidean%20Distance.md) since it does not the shortest path possible.
 - When your dataset has discrete and/or binary attributes, Manhattan seems to work quite well since it takes into account the paths that realistically could be taken within values of those attributes.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

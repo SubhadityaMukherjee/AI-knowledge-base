@@ -2,6 +2,8 @@
 title: Bahdanau Attention
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Bahdanau [Attention](Attention.md)
@@ -9,55 +11,4 @@ tags: architecture
 	- [Attention](Attention.md) mechanism (borrowed from the field of information retrieval) within the context of NLP
 - Same as [Additive Attention](Additive%20Attention.md)
 - ![Pasted image 20220621170726](assets/Pasted%20image%2020220621170726.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

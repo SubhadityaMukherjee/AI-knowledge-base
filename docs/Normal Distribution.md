@@ -1,18 +1,20 @@
 ---
 title: Normal Distribution
 tags: distribution
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Normal Distribution
 - $$p(x) = \frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}$$
-- Mean $\mu$ and std $\sigma$. $\mu$ is max and $\mu \pm \sigma$  is locations of zeros of second derivative
+- Mean $\mu$ and std $\sigma$. $\mu$ is max and $\mu \pm \sigma$ is locations of zeros of second derivative
 - ![im](assets/Pasted%20image%2020220319144034.png)
 - $\mathcal{N}(0,1)$
 - [Central Limit Theorem](Central%20Limit%20Theorem.md)
 
 ## Properties
 - Linear combinations of normal distributed independant RVs are normal distributed
-- X,Y have means $\mu$ and v and variances $\sigma^{2}$ and $\tau^{2}$. Then $aX + bY$  is normally distributed and has mean : $a\mu + bv$ and variance $\alpha^{2}\sigma^{2}+b^{2}\tau^{2}$
+- X,Y have means $\mu$ and v and variances $\sigma^{2}$ and $\tau^{2}$. Then $aX + bY$ is normally distributed and has mean : $a\mu + bv$ and variance $\alpha^{2}\sigma^{2}+b^{2}\tau^{2}$
 
 ## Computing the Value
 - $$\int_{a}^{b} \frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}dx$$
@@ -23,101 +25,4 @@ tags: distribution
 - Iterative solvers
 - $$\phi(\frac{b-\mu}{\sigma})-\phi(\frac{a-\mu}{\sigma})$$
 - $$\hat \mu = \frac{1}{N}\Sigma_{i}(x_{i})$$ $$\hat \sigma^{2}= \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)^2$$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

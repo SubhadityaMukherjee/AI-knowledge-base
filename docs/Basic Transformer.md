@@ -2,6 +2,8 @@
 title: Basic Transformer
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Basic [Transformer](Transformer.md)
@@ -12,29 +14,4 @@ tags: architecture
 - [Embedding](Embedding.md) [Layers](Layers.md) transform between 1 hot and vector rep
 - [Position Encoding](Position%20Encoding.md) + [Token Embedding](Token%20Embedding.md)
 - [Position Wise Feed Forward](Position%20Wise%20Feed%20Forward.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

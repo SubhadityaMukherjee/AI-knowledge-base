@@ -1,9 +1,14 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
 title: Distillation Token
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -11,85 +16,4 @@ tags: architecture
 - A learned vector that flows through the network along with the transformed [image data](Image%20Data.md)
 - cues the model for its distillation output, which can differ from its class output
 - Specific to Transformers
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

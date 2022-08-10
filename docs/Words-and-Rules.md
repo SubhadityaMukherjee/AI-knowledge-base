@@ -2,6 +2,8 @@
 title: Words-and-Rules
 
 tags: language psychology 
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Words-and-Rules
@@ -34,66 +36,4 @@ tags: language psychology
 		- Root presentation might mask differences due to frequency in regulars
 - [Challenges of Words-and-rules](Challenges%20of%20Words-and-rules.md)
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

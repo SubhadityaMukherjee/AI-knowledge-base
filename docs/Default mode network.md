@@ -1,3 +1,8 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
@@ -16,85 +21,4 @@ tags: brain, psychology
 - They [^1](Dorsolateral%20Prefrontal%20cortex) (as key node of the cognitive control network) and the [Anterior Cingulate](Anterior%20Cingulate)/[Prefrontal cortex](Prefrontal%20cortex) (as key nodes of the DMN)
 
 [^1](Functional%20Connectivity.md) associated with individual differences in Internet tendency in healthy young adults , Neuropsychologia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

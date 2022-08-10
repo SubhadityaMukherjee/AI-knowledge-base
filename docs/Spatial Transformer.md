@@ -1,6 +1,8 @@
 ---
 title: Spatial Transformer
 tags: einsum architecture 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Spatial [Transformer](Transformer.md)
@@ -35,99 +37,4 @@ class SpacialTransformNew(nn.Module):
         grid = F.affine_grid(self.compute_theta(x), x.size())
         return F.grid_sample(x, grid)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,6 +1,8 @@
 ---
 title: Proto Distributions
 tags: distribution
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Proto Distributions
@@ -11,107 +13,10 @@ tags: distribution
 - [Proto PDF](Proto%20PDF.md)
 - $$p(x|\theta) = \frac{1}{\int_{\mathbb{R}^{k}}p_{0}(x| \theta)dx}p_{0}(x|\theta)$$
 - $p_{0}$ gives the shape of the [PDF](PDF.md)
-- $\frac{1}{\int_{\mathbb{R}^{k}}p_{0}(x| \theta)dx}$  is a normalization so it integrates to 1
+- $\frac{1}{\int_{\mathbb{R}^{k}}p_{0}(x| \theta)dx}$ is a normalization so it integrates to 1
 - ![im](assets/Pasted%20image%2020220324115318.png)
 - Most of the time we dont know a distribution but only its proto distribution. This is actually enough sometimes
 
 ## Discrete Spaces
 - [Proto PMF](Proto%20PMF.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

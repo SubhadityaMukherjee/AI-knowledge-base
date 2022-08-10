@@ -1,6 +1,8 @@
 ---
 title: Color Compositing
 tags: visualization
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Color Compositing
@@ -12,107 +14,11 @@ tags: visualization
 - First is same as [Marching Cubes](Marching%20Cubes.md)
 - $$I(p) = \begin{cases*}
 
-f(\sigma)&  $\exists t \in [0,T], s(t) = \sigma$ \\
+f(\sigma)& $\exists t \in [0,T], s(t) = \sigma$ \\
 
 I_{o}&otherwise
 
 \end{cases*}$$
+
 - Higher pixel accurate quality
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

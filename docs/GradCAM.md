@@ -2,6 +2,8 @@
 title: GradCAM
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # GradCAM
@@ -15,29 +17,4 @@ tags: architecture
 - are more faithful to the underlying model
 - help achieve model generalization by identifying dataset bias
 - identify important neurons through GradCAM and combine it with neuron names to provide textual explanations for model decisions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

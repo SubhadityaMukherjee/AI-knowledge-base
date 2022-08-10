@@ -1,51 +1,12 @@
 ---
 title: Weak Relation Bias
 
-tags: 
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:03 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Weak Relation Bias
 - relationship between the neural units is weak, meaning that they’re somewhat independent of each other. The choice of including a fully connected layer in the net can represent this kind of relationship
 - ![fc-300x231](assets/fc-300x231.webp)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

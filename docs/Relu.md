@@ -1,6 +1,8 @@
 ---
 title: Relu
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Relu
@@ -12,31 +14,4 @@ tags: architecture
 - [Leaky Relu](Leaky%20Relu.md)
 - [PRelu](PRelu.md)
 - [Noisy Relu](Noisy%20Relu.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

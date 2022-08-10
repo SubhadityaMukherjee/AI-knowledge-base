@@ -2,6 +2,8 @@
 title: Learning Rate Range Test
 
 tags: regularize 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Learning Rate Range Test
@@ -14,15 +16,4 @@ tags: regularize
 for i in range(moving_average, len(learning_rates)):
     loss_changes.append((losses[i] - losses[i - moving_average]) / moving_average)
 ```
-
-
-
-
-
-
-
-
-
-
-
 

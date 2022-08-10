@@ -2,6 +2,8 @@
 title: Attentions and salience
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Attentions and Salience
@@ -18,49 +20,4 @@ tags: language cogneuro psychology
 - This seems to block acquisition of other cues
 - temporal adverbs are highly salient (and easier) so they get stronger associations
 - even though they co-occur with different [verb](Verb.md) forms, these are hard to learn
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

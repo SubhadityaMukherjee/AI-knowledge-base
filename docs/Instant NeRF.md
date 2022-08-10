@@ -2,6 +2,8 @@
 title: Instant NeRF
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Instant NeRF
@@ -22,75 +24,4 @@ tags: architecture
 - disambiguate hash collisions, making for a simple architecture that is trivial to parallelize on modern GPUs
 - parallelism
 - fully-fused [Operator Fusion](Operator%20Fusion.md) CUDA kernels with a focus on minimizing wasted bandwidth and compute operations
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

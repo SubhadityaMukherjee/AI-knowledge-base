@@ -2,6 +2,8 @@
 title: Listen Attend Spell
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Listen Attend Spell
@@ -19,25 +21,4 @@ tags: architecture
 - used samples from the [softmax](Softmax.md) classifier in the decoder as inputs to the next step prediction during training
 - show how a language model trained on additional text can be used to rerank their top hypotheses
 - [Google voice search task](Google%20voice%20search%20task.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

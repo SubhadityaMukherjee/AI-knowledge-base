@@ -2,6 +2,8 @@
 title: VL-BEIT
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # VL-BEIT
@@ -12,17 +14,4 @@ tags: architecture
 - solely employs generative pretraining tasks, including masked language modeling on texts, masked image modeling on images, and masked vision-language modeling on image-text pairs
 - learned from scratch with one unified pretraining task, one shared backbone, and one-stage training which renders it conceptually simple and empirically effective
 - transferable visual [features](Features.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
 

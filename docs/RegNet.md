@@ -2,6 +2,8 @@
 title: RegNet
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # RegNet
@@ -10,41 +12,4 @@ tags: architecture
 - arrives at a low-dimensional design space consisting of simple, regular networks
 - widths and depths of good networks can be explained by a quantized linear function
 - outperforms [EfficientNet](EfficientNet.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

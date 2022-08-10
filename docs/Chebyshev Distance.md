@@ -2,6 +2,8 @@
 title: Chebyshev Distance
 
 tags: distance 
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Chebyshev Distance
@@ -11,47 +13,4 @@ tags: distance
 - Chessboard distance since the minimum number of moves needed by a king to go from one square to another is equal to Chebyshev distance
 - can be used to extract the minimum number of moves needed to go from one square to another
 - warehouse logistics as it closely resembles the time an overhead crane takes to move an object
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

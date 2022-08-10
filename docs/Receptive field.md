@@ -1,6 +1,8 @@
 ---
 title: Receptive field
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Receptive Field
@@ -17,45 +19,4 @@ tags: architecture
 	- Add [pooling](Pooling.md) or higher stride
 	- [Causal Dilated Conv](Causal%20Dilated%20Conv.md)
 	- [Depthwise Separable](Depthwise%20Separable.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

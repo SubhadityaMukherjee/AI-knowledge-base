@@ -2,6 +2,8 @@
 title: SGD
 
 tags: optimizer gradients 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # SGD
@@ -11,37 +13,4 @@ tags: optimizer gradients
 - Due to an increase in the number of iterations, the overall computation time increases.
 - $$\theta = \theta - \eta \cdot \nabla_{\theta} J(\theta ; x^{i}; y^{i} )$$
 	- For each example $x^{i}$ and label $y^{i}$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

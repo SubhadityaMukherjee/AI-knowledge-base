@@ -2,6 +2,8 @@
 title: DeepFM
 
 tags: architecture recommender
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # DeepFM
@@ -15,17 +17,4 @@ tags: architecture recommender
 - 1) it does not need any pre-training; 2) it learns both high- and low-order feature interactions; 3) it introduces a sharing strategy of feature [embedding](Embedding.md) to avoid feature engineering
 - combines the power of factorization machines for recommendation and deep learning for [feature learning](Feature%20Learning.md) in a new neural network architecture
 - Criteo
-
-
-
-
-
-
-
-
-
-
-
-
-
 

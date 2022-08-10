@@ -2,6 +2,8 @@
 title: Misyak et al 2010
 
 tags: language psychology 
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Misyak Et Al 2010
@@ -25,67 +27,4 @@ tags: language psychology
 - Is it possible that sequential learning and language learning are unrelated
 - Maybe children are better at sequential learning, which helps them acquire languag
 - Adults then lose this ability
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,6 +1,8 @@
 ---
 title: Self Attention GAN
 tags: einsum architecture 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # [Self Attention](Self%20Attention.md) GAN
@@ -27,99 +29,4 @@ class Self_Attn_New(nn.Module):
                                          **parse_shape(x, 'b c h w'))
         return out, attention
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

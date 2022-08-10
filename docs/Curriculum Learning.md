@@ -2,6 +2,8 @@
 title: Curriculum Learning
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Curriculum Learning
@@ -17,29 +19,4 @@ tags: architecture
 - automatically solving multiple challenging problems drawn from high school olympiads
 - lack of self-play in the formal mathematics setup can be effectively compensated for by automatically as well as manually curated sets of formal statement
 - cheaper to formalize than full proofs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

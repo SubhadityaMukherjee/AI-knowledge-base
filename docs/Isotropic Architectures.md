@@ -2,6 +2,8 @@
 title: Isotropic Architectures
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Isotropic Architectures
@@ -9,41 +11,4 @@ tags: architecture
 - And precisely that is what an isotropic architecture is. Isotropic architectures do not produce pyramid shaped data transformations, but rather _fixed_ ones where data does not change in shape and size
 - In other (simpler) words, when you take a look at the value going through an _isotropic_ network, it doesn't change in size.
 - Like [Transformer](Transformer.md) , [MLP-Mixer](MLP-Mixer)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

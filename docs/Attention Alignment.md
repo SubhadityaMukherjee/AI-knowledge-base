@@ -2,6 +2,8 @@
 title: Attention Alignment
 
 tags: loss
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # [Attention](Attention.md) Alignment
@@ -23,29 +25,4 @@ tags: loss
 - Matrix of alignment
 	- ![Pasted image 20220621170423](assets/Pasted%20image%2020220621170423.png)
 	- Final scores calculated with a [Softmax](Softmax.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

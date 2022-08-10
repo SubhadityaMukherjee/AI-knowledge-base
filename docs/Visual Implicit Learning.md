@@ -2,6 +2,8 @@
 title: Visual Implicit Learning
 
 tags: language psychology 
+date modified: Wednesday, August 10th 2022, 11:41:21 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Visual Implicit Learning
@@ -14,67 +16,4 @@ tags: language psychology
 - Ability to pick up/learn statistical dependencies seems almost to be a new cognitive function
 - Shows a potential connection between sequence learning and language modelling ability
 - Learning simple dependencies is not so difficult it seems. But natural language has many dependencies at a distance
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: Scene based text to image generation
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Scene Based Text to Image Generation
@@ -13,17 +15,4 @@ tags: architecture
 - They attempt to progress text-to-image generation towards a more interactive experience, where people can perceive more control over the generated outputs, thus enabling real-world applications such as storytelling
 - focus on improving key image aspects that are significant in human perception, such as faces and salient objects, resulting in higher favorability of their method in human evaluations and objective metrics
 - Through scene controllability, they introduce several new capabilities: (i) scene editing, (ii) text editing with anchor scenes, (iii) overcoming out-of-distribution text prompts, and (iv) story illustration generation
-
-
-
-
-
-
-
-
-
-
-
-
-
 

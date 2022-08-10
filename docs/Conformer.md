@@ -2,6 +2,8 @@
 title: Conformer
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Conformer
@@ -11,25 +13,4 @@ tags: architecture
 - importance of each component, and demonstrated that the inclusion of convolution modules is critical to the performance of the Conformer model
 - propose the convolution-augmented [transformer](Transformer.md) for speech recognition, named Conformer
 - [LibriSpeech](LibriSpeech.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: Flamingo
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Flamingo
@@ -16,17 +18,4 @@ tags: architecture
 - Perceiver-based architecture that transforms the input sequence data (videos) into a fixed number of visual token
 - Large-scale (web) multi-modal data by scraping webpages which has inter-leaved text and images
 - Flamingo models can be trained on large-scale multimodal web corpora containing arbitrarily interleaved text and images, which is key to endow them with in-context few-shot learning capabilities
-
-
-
-
-
-
-
-
-
-
-
-
-
 

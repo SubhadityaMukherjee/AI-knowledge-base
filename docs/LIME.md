@@ -2,6 +2,8 @@
 title: LIME
 
 tags: uncertainty 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # LIME
@@ -12,19 +14,4 @@ tags: uncertainty
 - method to explain models by selectingrepresentative individual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization problem and providing a global view of the model to users
 - flexibility of these methods by explaining different models for text (e.g random forests) and image classification (e.g neural networks)
 - usefulness of explanations is shown via novel experiments, both simulated and with human subjects
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

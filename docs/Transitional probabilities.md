@@ -2,6 +2,8 @@
 title: Transitional probabilities
 
 tags: language psychology cogneuro 
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Transitional Probabilities
@@ -11,49 +13,4 @@ tags: language psychology cogneuro
 - But then you can also manipulate the frequency at which each word occurs, and in doing so, also the frequency of the syllables
 - Graf Estes et al
 - Transition frequencies can be made high because two words occur very often next to each other
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: VGGish
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # VGGish
@@ -18,25 +20,4 @@ tags: architecture
 - increasing the number of labels they train on provides some improved performance over subsets of labels
 - performance of models improves as they increase training set size,
 - model using embeddings learned from the video-level task do much better than a baseline on the [AudioSet classification](AudioSet%20classification.md) task
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

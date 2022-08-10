@@ -1,3 +1,8 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
@@ -15,53 +20,4 @@ tags: architecture
 	- improved when training is made more stable
 	- [MoCO](MoCO.md) v3, a framework which offers an incremental improvement of [MoCO](MoCO.md)
 	- ![moco3](assets/moco3.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

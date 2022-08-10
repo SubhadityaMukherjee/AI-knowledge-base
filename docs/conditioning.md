@@ -2,6 +2,8 @@
 title: conditioning
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:21 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Conditioning
@@ -16,49 +18,4 @@ tags: language cogneuro psychology
 - ▶ V = association strength ▶ i = current input (cue) ▶ j = current output (outcome) ▶ ∆ V : Change in association strength
 - Pavlov discovered evidence of positive associations
 - Associations increase in strength whenever a feature and a cue occur together
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

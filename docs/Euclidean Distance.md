@@ -2,6 +2,8 @@
 title: Euclidean Distance
 
 tags: distance 
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Euclidean Distance
@@ -11,47 +13,4 @@ tags: distance
 - Euclidean distance is not scale in-variant which means that distances computed might be skewed depending on the units of the [features](Features.md). Typically, one needs to normalize the data before using this distance measure.
 - Moreover, as the dimensionality increases of your data, the less useful Euclidean distance becomes. This has to do with the [curse of dimensionality](Curse%20Of%20Dimensionality.md)
 - works great when you have low-dimensional data and the magnitude of the vectors is important to be measured
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

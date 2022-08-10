@@ -1,9 +1,14 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
 title: BEiT
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -24,85 +29,4 @@ tags: architecture
 	- directly fine-tune the model parameters on downstream tasks by appending task [layers](Layers.md) upon the pretrained encoder
 	- [ImageNet](ImageNet.md)
 	- outperforming from-scratch [DeiT](DeiT.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

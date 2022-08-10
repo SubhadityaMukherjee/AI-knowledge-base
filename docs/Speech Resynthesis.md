@@ -2,6 +2,8 @@
 title: Speech Resynthesis
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Speech Resynthesis
@@ -11,25 +13,4 @@ tags: architecture
 - This allows to synthesize speech in a controllable manner
 - evaluate the F0 reconstruction, speaker identification performance (for both resynthesis and voice conversion), recordings’ intelligibility, and overall quality using subjective human evaluation
 - ultra-lightweight speech codec
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: Longformer
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Longformer
@@ -17,29 +19,4 @@ tags: architecture
 - enwik8
 - consistently outperforms [RoBERTa](RoBERTa.md) on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA
 - Longformer-Encoder-Decoder (LED), a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

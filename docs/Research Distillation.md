@@ -2,6 +2,8 @@
 title: Research Distillation
 
 tags: random
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Research Distillation
@@ -10,13 +12,4 @@ tags: random
 - It’s tempting to think of explaining an idea as just putting a layer of polish on it, but good explanations often involve transforming the idea.
 - This kind of refinement of an idea can take just as much effort and deep understanding as the initial discovery.
 - We can’t solve [research debt](Research%20Debt.md) by having one person write a textbook
-
-
-
-
-
-
-
-
-
 

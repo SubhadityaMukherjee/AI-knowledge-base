@@ -2,6 +2,8 @@
 title: Minkowski Distance
 
 tags: distance
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Minkowski Distance
@@ -15,49 +17,6 @@ tags: distance
 - Common values of p are:
 	- p=1 — [Manhattan Distance](Manhattan%20Distance.md)
 	- p=2 — [Euclidean Distance](Euclidean%20Distance.md)
-	- p=$\infty$  — [Chebyshev Distance](Chebyshev%20Distance.md)
+	- p=$\infty$ — [Chebyshev Distance](Chebyshev%20Distance.md)
 - The upside to p is the possibility to iterate over it and find the distance measure that works best for your use case.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

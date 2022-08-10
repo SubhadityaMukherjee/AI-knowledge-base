@@ -2,6 +2,8 @@
 title: Localist units
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Localist Units
@@ -9,49 +11,4 @@ tags: language cogneuro psychology
 - In Input: when we build a network and let each input unit represent a a specific word
 - In Output: when we allow outputs of single unit to be interpreted
 - In the hidden units: is there evidence of localist encoding developing?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

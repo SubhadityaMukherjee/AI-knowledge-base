@@ -2,6 +2,8 @@
 title: Speaker Verification
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Speaker Verification
@@ -12,25 +14,4 @@ tags: architecture
 - d-vector is extracted for each utterance and compared to the enrolled speaker model to make a verification decision by calculating the cosine distance between the test d-vector and the claimed speaker’s d-vector, similar to the i-vector framework
 - A verification decision is made by comparing the distance to a threshold
 - DNN based speaker verification system achieves good performance compared to a popular i-vector system on a small footprint text-dependent speaker verification task
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

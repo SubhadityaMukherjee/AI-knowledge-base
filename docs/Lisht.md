@@ -2,6 +2,8 @@
 title: Lisht
 
 tags: activations 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Lisht
@@ -14,31 +16,4 @@ tags: activations
     - $$LiSHT(x) = x \times tanh(x)$$
     - Essentially, LiSHT looks very much like [Swish](Swish.md) in terms of the first-order derivative. However, the range is expanded into the negative as well, which means that the vanishing gradient problem is reduced even further - at least in theory.
     - In their work, Roy et al. (2019) report based on empirical testing that indeed, the vanishing gradient problems is reduced compared to [Swish](Swish.md) and traditional ReLU. Additional correlations between network learning and the shape of e.g. the LiSHT loss landscape were identified.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

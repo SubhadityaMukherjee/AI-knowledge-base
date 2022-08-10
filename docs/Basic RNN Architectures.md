@@ -1,6 +1,8 @@
 ---
 title: Basic RNN Architectures
 tags: architecture
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Basic RNN Architectures
@@ -15,51 +17,4 @@ tags: architecture
 - [Temporal Conv](Temporal%20Conv.md)
 - [Gated Recurrent Unit (GRU|[GRU)](Gated%20Recurrent%20Unit%20(GRU)]].md)
 - [Long Short Term Memory (LSTM|[LSTM)](Long%20Short%20Term%20Memory%20(LSTM)]].md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

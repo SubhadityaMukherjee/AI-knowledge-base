@@ -1,6 +1,8 @@
 ---
 title: Self Attention
 tags: architecture einsum 
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Self [Attention](Attention.md)
@@ -10,7 +12,7 @@ tags: architecture einsum
 - Weighted average over all input vectors $$y_{i}= \Sigma_{j}w_{ij}x_{j}$$
 	- j is over the sequence
 	- weights sum to 1 over j
-	- $w_{ij}$ is derived  $w^{'}_{ij}=x_{i}^{T}x_{j}$
+	- $w_{ij}$ is derived $w^{'}_{ij}=x_{i}^{T}x_{j}$
 		- Any value between -inf to +inf so [Softmax](Softmax.md) is applied
 	- $x_i$ is the input vector at the same pos as the current output vector $y_i$
 - Propagates info between vectors
@@ -39,29 +41,4 @@ def attention(K, V, Q):
 
 ## Ref
 - [perterbloem](https://peterbloem.nl/blog/transformers)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -2,6 +2,8 @@
 title: PaLM
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # PaLM
@@ -22,29 +24,4 @@ tags: architecture
 - model’s generation (rather than just understanding) capabilities can be immensely beneficial even for tasks that are modeled as categorical prediction or regression, which typically do not require significant language generation
 - comprehensive analysis on bias and toxicity, and study the extent of training data memorization with respect to model scale
 - ethical considerations related to large language models and discuss potential mitigation strategies
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

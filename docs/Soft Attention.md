@@ -1,6 +1,8 @@
 ---
 title: Soft Attention
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Soft [Attention](Attention.md)
@@ -8,29 +10,4 @@ tags: architecture
 - $$c_i = \Sigma_{j=1}^T \alpha_{ij} h_j$$
 - $$a_{ij} = \frac{exp(e_{ij})}{\Sigma_{k=1}^T exp(e_{ij})}$$
 - ![im](assets/Pasted%20image%2020220307181112.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

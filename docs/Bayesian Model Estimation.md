@@ -1,5 +1,8 @@
 ---
+tags: temp
 title: Bayesian Model Estimation
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # [Bayesian](Bayesian.md) Model Estimation
@@ -7,9 +10,9 @@ title: Bayesian Model Estimation
 - The task is to estimate $\theta$ from the data
 - [Bayesian Prior](Bayesian%20Prior.md)
 - Now there are two sources of info about the true distribution $p_{X}(\theta)$
-	- The likelihood $p_{\otimes_{i}}x(D|\theta)$  of $\theta$ . Empirical data
+	- The likelihood $p_{\otimes_{i}}x(D|\theta)$ of $\theta$ . Empirical data
 	- Prior plausibility in $h(\theta)$
-	- Since these are independant sources we can combine them by multiplication: $p_{\otimes_{i}}x(D|\theta)h(\theta)$ 
+	- Since these are independant sources we can combine them by multiplication: $p_{\otimes_{i}}x(D|\theta)h(\theta)$
 		- High values -> Candidate model $\theta$ is a good estimate
 		- [Bayesian Posterior](Bayesian%20Posterior.md)
 		- [Posterior Mean estimate](Posterior%20Mean%20estimate.md)
@@ -31,101 +34,4 @@ title: Bayesian Model Estimation
 - Since this is different from sample mean -> Prior distribution really does influence the models
 
 ### [Protein Modeling](Protein%20Modeling.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

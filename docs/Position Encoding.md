@@ -1,6 +1,8 @@
 ---
 title: Position Encoding
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Position Encoding
@@ -9,51 +11,4 @@ tags: architecture
 - $$PE(pos, 2i+1) = cos(\frac{pos}{10000^\frac{2i}{d_{model}}})$$
 - Conceptually, adding word order to a sentence
 	- Something like ("Hello", 1) , ("from",2) , ("me", 3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

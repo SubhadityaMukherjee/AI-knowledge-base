@@ -2,6 +2,8 @@
 title: Cyclic Learning Rate
 
 tags: optimizer 
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Cyclic Learning Rate
@@ -10,31 +12,4 @@ tags: optimizer
 - ![Pasted image 20220626150653](assets/Pasted%20image%2020220626150653.png)
 - ![Pasted image 20220626150655](assets/Pasted%20image%2020220626150655.png)
 - ![Pasted image 20220626150701](assets/Pasted%20image%2020220626150701.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

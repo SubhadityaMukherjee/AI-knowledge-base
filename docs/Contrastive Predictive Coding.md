@@ -2,6 +2,8 @@
 title: Contrastive Predictive Coding
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Contrastive Predictive Coding
@@ -13,19 +15,4 @@ tags: architecture
 - InfoNCE induces the latent space to capture information that is maximally useful to predict future samples
 - combines autoregressive modeling and noise-contrastive estimation with intuitions from predictive coding to learn abstract representations in an unsupervised fashion
 - negative sampling
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

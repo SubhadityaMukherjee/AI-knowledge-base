@@ -2,6 +2,8 @@
 title: Neural Probabilistic Model
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Neural Probabilistic Model
@@ -12,71 +14,4 @@ tags: architecture
 - The model learns simultaneously (i) a distributed representation for each word along with (ii) the [probability](Probability.md) function for word sequences, expressed in terms of these representations
 - Generalization is obtained because a sequence of words that has never been seen before gets high [probability](Probability.md) if it is made of words that are similar
 - significantly improves on state-of-the-art [n gram](n%20gram) models
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

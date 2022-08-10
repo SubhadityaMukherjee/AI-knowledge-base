@@ -1,11 +1,14 @@
 ---
+tags: temp
 title: Gradient Descent #gradients
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Gradient Descent #gradients
 - [Backprop](Backprop.md)
 - Gradient Direction ~ Steepest Descent $$\theta = tan^{-1}(\frac{\frac{\partial f}{\partial y}}{\frac{\partial f}{\partial x}})$$
-- Gradient Magnitude ~ Edge Strength $$||\triangledown f|| = \sqrt{(\frac{\partial f}{\partial x})^{2} + (\frac{\partial f}{\partial y})^{2}}$$
+- Gradient Magnitude ~ Edge Strength $$||\triangledown f|| = \sqrt{(\frac{\partial f}{\partial x})^{2} + (\frac{\partial f}{\partial y})^{2}}$
 - Params $$\theta$$
 - Minimize loss function $$\mathscr{L}(\theta) = \Sigma^N_{n=1}l_n(\theta)$$
 - [Simple Gradient Descent](Simple%20Gradient%20Descent.md)
@@ -17,39 +20,6 @@ title: Gradient Descent #gradients
 - [AdaDelta](AdaDelta.md)
 - [Rmsprop](Rmsprop.md)
 - [Adam](Adam.md)
+
 ## …
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

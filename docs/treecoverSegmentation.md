@@ -1,6 +1,8 @@
 ---
 title: Tree Cover Segmentation
 tags: application
+date modified: Wednesday, August 10th 2022, 11:41:20 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Tree Cover Segmentation
@@ -12,101 +14,15 @@ tags: application
 	- Labeling
 		- ![im](assets/Pasted%20image%2020220318094643.png) Segmentation algorithm. Canopy hide model
 		- Weighted loss + [Focal Loss](Focal%20Loss.md)
+
 ## 2d Methods
 - [Watershed](Watershed) + [Unet](Unet.md)
 - ![im](assets/Pasted%20image%2020220318100323.png)
 - ![im](assets/Pasted%20image%2020220318100634.png)
 	- $\Theta$ is just clippingpng]]
 	- The sqrt makes it a little smoother
+
 ## Ref
 - Max Freudenberg - Gottingen Uni Germany
 - Adrian Stroker - Gottingen Uni Germany
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

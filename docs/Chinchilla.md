@@ -2,6 +2,8 @@
 title: Chinchilla
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Chinchilla
@@ -14,29 +16,4 @@ tags: architecture
 - significantly outperforms Gopher (280B), [GPT](GPT.md)-3 (175B), Jurassic-1 (178B), and Megatron-Turing NLG (530B) on a large range of downstream evaluation tasks
 - ubstantially less compute for fine-tuning and inference, greatly facilitating downstream usage
 - [MMLU](MMLU.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

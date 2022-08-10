@@ -2,6 +2,8 @@
 title: Strided Attention
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # [Strided](Strided.md) [Attention](Attention.md)
@@ -13,55 +15,4 @@ tags: architecture
 - Works nicely for images, music etc with a periodic structure
 - Otherwise with the [strided](Strided.md) pattern , the spatial coordinates do not correlate with the positions the elements might be more relevant in the future
 - ![Pasted image 20220621175944](assets/Pasted%20image%2020220621175944.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

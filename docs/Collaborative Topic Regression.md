@@ -2,6 +2,8 @@
 title: Collaborative Topic Regression
 
 tags: architecture recommender
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Collaborative Topic Regression
@@ -13,17 +15,4 @@ tags: architecture recommender
 - Collaborative topic regression (CTR) is an appealing recent method taking this approach which tightly couples the two components that learn from two different sources of information
 - Nevertheless, the latent representation learned by CTR may not be very effective when the auxiliary information is very sparse.
 - generalizing recent advances in deep learning from i.i.d input to non-i.i.d (CF-based) input and propose a hierarchical [Bayesian](Bayesian.md) model called collaborative deep learning (CDL), which jointly performs deep representation learning for the content information and collaborative [filtering](Filtering.md) for the ratings (feedback) matrix.
-
-
-
-
-
-
-
-
-
-
-
-
-
 

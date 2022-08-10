@@ -1,7 +1,7 @@
 site_name: AIKB-Subhaditya Mukherjee
 
 theme:
-    name: material
+    name: 'windmill'
       # nav_style: dark
       #name: null
       #custom_dir: 'cinder'
@@ -76,8 +76,8 @@ plugins:
   - search:
      lang: en
   - awesome-pages
-  - git-revision-date
   - tags
+  - git-revision-date
   - minify:
       minify_html: true
       minify_js: true

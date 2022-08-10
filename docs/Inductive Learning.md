@@ -2,6 +2,8 @@
 title: Inductive Learning
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Inductive Learning
@@ -23,49 +25,4 @@ tags: language cogneuro psychology
 - Advanced learning means learn constraints on what is a possible hypothesis
 - Hierarchical [Bayesian](Bayesian.md) Modelling (HBM) can explain how we acquire [overhypotheses](Overhypotheses.md)
 - using observations from the lowest level (data) and calculating statistical inferences
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

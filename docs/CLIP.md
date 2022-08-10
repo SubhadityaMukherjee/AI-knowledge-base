@@ -2,6 +2,8 @@
 title: CLIP
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # CLIP
@@ -13,19 +15,4 @@ tags: architecture
 - pre-trains an image encoder and a text encoder to predict which images were paired with which texts in our dataset
 - zero-shot classifier
 - they convert all of a dataset’s classes into captions such as “a photo of a dog” and predict the class of the caption CLIP estimates best pairs with a given image
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

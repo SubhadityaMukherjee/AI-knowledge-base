@@ -1,6 +1,9 @@
 ---
+tags: temp
 title: Recurrent
 tag: todo architecture
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Recurrent
@@ -26,7 +29,7 @@ tag: todo architecture
 		- Element wise clipping #tricks
 			- Clip if bigger than value
 		- Norm clipping
-			- Clip if $$||g|| >v$$ set $$g = \frac{gv}{||g||}$$
+			- Clip if $$||g|| >v$ set $g = \frac{gv}{||g||}$
 			- v can be decided by trial and error
 - Training stuff
 	- [Softmax](Softmax.md) but on every output vector simultaneously
@@ -37,51 +40,4 @@ tag: todo architecture
 	- The model first discovers the general word-space structure and then rapidly starts to learn the words.
 	- First starting with the short words and then eventually the longer ones.
 	- Topics and themes that span multiple words (and in general longer-term dependencies) start to emerge only much later.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

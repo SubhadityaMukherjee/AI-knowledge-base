@@ -1,3 +1,8 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
@@ -23,19 +28,4 @@ tags: architecture
 	- [ADE20K](ADE20K.md)
 	- The hierarchical design and the shifted window approach also prove beneficial for all [Perception](Perception.md) [Architectures](Architectures).
 	- Ratio of 1:1:3:1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

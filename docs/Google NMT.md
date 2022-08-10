@@ -2,6 +2,8 @@
 title: Google NMT
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Google NMT
@@ -12,71 +14,4 @@ tags: architecture
 	- improve handling of rare words, we divide words into a limited set of common sub-word units
 	- good balance between the flexibility of “character”-delimited models and the efficiency of “word”-delimited models
 	- [Beam search](Beam%20search) technique employs a length-normalization procedure and uses a coverage penalty
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

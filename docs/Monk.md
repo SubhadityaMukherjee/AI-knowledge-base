@@ -2,6 +2,8 @@
 title: Monk
 
 tags: handwritingRecognition
+date modified: Wednesday, August 10th 2022, 11:41:26 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Monk
@@ -9,47 +11,4 @@ tags: handwritingRecognition
 - ![Pasted image 20220623155259](assets/Pasted%20image%2020220623155259.png)
 
 ![Pasted image 20220623155317](assets/Pasted%20image%2020220623155317.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

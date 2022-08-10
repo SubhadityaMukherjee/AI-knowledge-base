@@ -1,6 +1,8 @@
 ---
 title: Term
 tags: regularize
+date modified: Wednesday, August 10th 2022, 11:41:24 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Term
@@ -11,108 +13,11 @@ tags: regularize
 	- Larger : soft models
 	- Increasing -> Down regulating flexibility
 	- 0 = overfitting and unregularized risk
-	- $\infty$   does not care about training data at all. Only cares about minimal penalty
+	- $\infty$ does not care about training data at all. Only cares about minimal penalty
 		- Dead model
 
 ## Types
 - [Lp Regularization](Lp%20Regularization.md) for p =2
 	- Soft models
 	- Squared sum of model params
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

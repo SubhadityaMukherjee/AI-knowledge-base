@@ -2,6 +2,8 @@
 title: cross-layer parameter sharing
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:21 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Cross-layer Parameter Sharing
@@ -11,41 +13,4 @@ tags: architecture
 	- The same is true for the feedforward segments.
 - The consequence of this change is that the number of parameters is reduced significantly, simply because they are shared.
 - the stabilization of the neural network due to parameter sharing. In other words, beyond simply reducing the computational cost involved with training, the paper suggests that sharing parameters can also improve the training process.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

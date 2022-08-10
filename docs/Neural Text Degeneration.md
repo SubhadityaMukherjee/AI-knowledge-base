@@ -2,6 +2,8 @@
 title: Neural Text Degeneration
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Neural Text Degeneration
@@ -12,30 +14,4 @@ tags: architecture
 - likelihood maximizing decoding causes repetition and overly generic language usage
 - sampling methods without truncation risk sampling from the low-confidence tail of a model’s predicted distribution
 - [Nucleus Sampling](Nucleus%20Sampling.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

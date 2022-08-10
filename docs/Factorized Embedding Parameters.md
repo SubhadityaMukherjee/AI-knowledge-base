@@ -2,6 +2,8 @@
 title: Factorized Embedding Parameters
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Factorized [Embedding](Embedding.md) Parameters
@@ -11,41 +13,4 @@ tags: architecture
 - First of all, theoretically, the matrix E captures context-independent information
 - whereas the hidden representation H captures context-dependent information
 - [ALBERT](ALBERT.md) solves this issue by decomposing the [embedding](Embedding.md) parameters into two smaller matrices, allowing a two-step mapping between the original [word vectors](Word%20Vectors.md) and the space of the hidden state. In terms of computational cost, this no longer means $\text{O(VxH)}$ but rather $\text{O(VxE + ExH)}$, which brings a significant reduction when $\text{H >> E}$.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,9 +1,14 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
 title: BYOL
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -19,85 +24,4 @@ tags: architecture
 	- [Res Net](Res%20Net.md)
 	- dependent on existing sets of [Augmentation](Augmentation.md) that are specific to vision applications
 	- [BYOL Loss](BYOL%20Loss.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

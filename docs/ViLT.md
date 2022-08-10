@@ -2,6 +2,8 @@
 title: ViLT
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:22 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # ViLT
@@ -25,19 +27,4 @@ tags: architecture
 - [Flickr30K](Flickr30K.md)
 - ViLT is over 10x faster than previous VLP models, yet with competitive or better downstream task performance
 - VLP needs to focus more on the multi-modality interactions aspect inside the transformer module rather than engaging in an arms race that merely powers up unimodal embedders
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

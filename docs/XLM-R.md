@@ -2,6 +2,8 @@
 title: XLM-R
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:21 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # XLM-R
@@ -13,25 +15,4 @@ tags: architecture
 - positive transfer and capacity dilution
 - performance of high and low resource languages at scale
 - possibility of multilingual modeling without sacrificing per-language performance
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

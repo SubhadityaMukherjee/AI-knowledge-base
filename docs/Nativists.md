@@ -2,71 +2,10 @@
 title: Nativists
 
 tags: language psychology 
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Nativists
 - noun and [verb](Verb.md) and determiner phrase and various sentence constituents are not only real mental primitives, but are innately given inherently linguistic primitives of the mind.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

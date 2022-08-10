@@ -2,6 +2,8 @@
 title: Interpreting Attention
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Interpreting [Attention](Attention.md)
@@ -11,29 +13,4 @@ tags: architecture
 - However, in the former case, the [attention](Attention.md) mechanism learns to give higher weights to tokens relevant to both kinds of sentiment.
 - They show that [attention](Attention.md) weights in single sequence tasks do not provide a reason for the prediction, which in the case of pairwise tasks, [attention](Attention.md) do reflect the reasoning behind model output
 - [BertViz](https://github.com/jessevig/bertviz) repo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

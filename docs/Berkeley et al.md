@@ -2,6 +2,8 @@
 title: Berkeley et al
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:31 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Berkeley Et Al
@@ -24,49 +26,4 @@ tags: language cogneuro psychology
 - But realistically, more than one pattern might be activated simultaneously
 - Superimposing two or more patterns over same units leads to an ambiguous blend
 - Problem for localist representations, but even more serious with distributed representations
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

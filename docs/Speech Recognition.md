@@ -2,6 +2,8 @@
 title: Speech Recognition
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:23 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Speech Recognition
@@ -16,25 +18,4 @@ tags: architecture
 	- combination of the deep bidirectional LSTM recurrent neural network architecture and a modified Connectionist Temporal Classification ([CTC](CTC.md)) objective function
 	- word error rate
 	- [Wall Street Journal task](Wall%20Street%20Journal%20task.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

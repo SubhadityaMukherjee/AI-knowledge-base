@@ -1,6 +1,8 @@
 ---
 title: BERT
 tags: architecture
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # BERT
@@ -10,7 +12,6 @@ tags: architecture
 - Masked language modeling, next sentence prediction
 - ![im](assets/Pasted%20image%2020220307183916.png)
 - [CLS] : start of classification task, [SEP] between sentences, [MASK] : masked token
-
 - [christianversloot](https://github.com/christianversloot/machine-learning-articles/blob/main/intuitive-introduction-to-bert.md) #[Roam-Highlights](Roam-Highlights)
     - BERT base $\text{BERT}_\text{BASE}$, which has 12 Encoder Segments stacked on top of each other, has 768-dimensional intermediate state, and utilizes 12 [attention](Attention.md) heads (with hence 768/12 = 64-dimensional [attention](Attention.md) heads).
     - BERT large ($\text{BERT}_\text{LARGE}$), which has 24 Encoder Segments, 1024-dimensional intermediate state, and 16 [attention](Attention.md) heads (64-dimensional [attention](Attention.md) heads again).
@@ -31,41 +32,4 @@ tags: architecture
         - Text-empty pair in text classification.
     - Yes, you read it right: sentence B is empty if your goal is to fine-tune for text classification. There simply is no sentence after the token.
     - Fine-tuning is also really inexpensive
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

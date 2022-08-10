@@ -2,6 +2,8 @@
 title: Overhypotheses
 
 tags: language cogneuro psychology 
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Overhypotheses
@@ -12,49 +14,4 @@ tags: language cogneuro psychology
 - [First order generalization](First%20order%20generalization.md)
 - [Second order generalization](Second%20order%20generalization.md)
 - Suggests that learning of overhypotheses can also be modeled with [Bayesian](Bayesian.md) learning
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

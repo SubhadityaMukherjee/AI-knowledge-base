@@ -1,9 +1,14 @@
+---
+tags: temp
+date modified: Wednesday, August 10th 2022, 11:41:30 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
 
 ---
 
 title: CvT
 
-tags: architecture 
+tags: architecture
 
 ---
 
@@ -19,85 +24,4 @@ tags: architecture
 	- [Position Encoding](Position%20Encoding.md) , a crucial component in existing Vision Transformers, can be safely removed in our model
 	- potential advantage for adaption
 	- built-in local context structure introduced by convolutions, CvT no longer requires a position [embedding](Embedding.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

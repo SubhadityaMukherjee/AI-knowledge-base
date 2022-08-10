@@ -2,6 +2,8 @@
 title: FTSwish
 
 tags: activations 
+date modified: Wednesday, August 10th 2022, 11:41:29 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # FTSwish
@@ -11,31 +13,4 @@ tags: activations
 - As we can see, the sparsity principle is still true - the neurons that produce negative values are taken out.
 - What we also see is that the derivative of FTSwish is smooth, which is what made [Swish](Swish.md) theoretically better than ReLU in terms of the loss landscape
 - However, what I must note is that this function does not protect us from the dying ReLU problem: the gradients for $x < 0$ are zero, as with ReLU.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

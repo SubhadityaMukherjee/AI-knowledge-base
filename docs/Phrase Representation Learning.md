@@ -2,6 +2,8 @@
 title: Phrase Representation Learning
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:25 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Phrase Representation Learning
@@ -13,71 +15,4 @@ tags: architecture
 - RNN Encoder–Decoder to score each phrase pair in the phrase table
 - capture linguistic regularities in the phrase pairs well
 - [BLEU](BLEU.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

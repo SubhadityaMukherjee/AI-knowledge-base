@@ -2,6 +2,8 @@
 title: GloVE
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:28 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # GloVE
@@ -15,71 +17,4 @@ tags: architecture
 - Note that GloVe does not use neural networks
 - utilizes this main benefit of count data while simultaneously capturing the meaningful linear substructures prevalent in recent log-bilinear prediction-based methods like [word2vec](Word2Vec.md)
 - global log-bilinear [LinearRegression](LinearRegression.md) model for the [unsupervised learning](Unsupervised%20Learning.md) of word representations
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

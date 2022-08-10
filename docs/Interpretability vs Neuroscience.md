@@ -2,6 +2,8 @@
 title: Interpretability vs Neuroscience
 
 tags: cogneuro uncertainty 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Interpretability Vs Neuroscience
@@ -55,13 +57,4 @@ tags: cogneuro uncertainty
 - In fact, the neuroscientists studying the original neuron will quickly lose access to it: probes can't be left in indefinitely, organisms die, human subjects leave, and even setting that aside neurons change over time.
 - Studying artificial networks, we can collaboratively reverse engineer the same “brain", building on each other.
 - we have a shared web of thousands of "footholds" into InceptionV1, consisting of neurons we understand fairly well and know the connections between, which makes it massively easier to explore
-
-
-
-
-
-
-
-
-
 

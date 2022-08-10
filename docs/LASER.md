@@ -2,6 +2,8 @@
 title: LASER
 
 tags: architecture 
+date modified: Wednesday, August 10th 2022, 11:41:27 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # LASER
@@ -19,29 +21,4 @@ tags: architecture
 - [MLDoc](MLDoc.md)
 - [BUCC](BUCC.md)
 - test set of aligned sentences in 112 languages
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

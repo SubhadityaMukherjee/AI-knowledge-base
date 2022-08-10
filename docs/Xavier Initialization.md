@@ -1,6 +1,8 @@
 ---
 title: Xavier Initialization
 tags: regularize 
+date modified: Wednesday, August 10th 2022, 11:41:21 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Xavier [Initialization](Initialization.md)
@@ -8,7 +10,4 @@ tags: regularize
 - Random values drawn uniformly from $[-a,a]$
 - For [Batch Normalization](Batch%20Normalization.md) [Layers](Layers.md), $\gamma =1$ and $\beta=0$
 - For Tanh based activating neural nets
-
-
-
 

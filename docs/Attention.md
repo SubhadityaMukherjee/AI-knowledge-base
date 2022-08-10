@@ -1,11 +1,12 @@
 ---
 title: Attention
 tags: architecture
+date modified: Wednesday, August 10th 2022, 11:41:32 am
+date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Attention
 - Model can decide where to look in the input
-
 - [Self Attention](Self%20Attention.md)
 - [Additive Attention](Additive%20Attention.md)
 - [Dot Product Attention](Dot%20Product%20Attention.md)

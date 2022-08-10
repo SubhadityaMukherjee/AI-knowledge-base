@@ -24,16 +24,3 @@ tags: architecture
 - [Location Base Attention](Location%20Base%20Attention.md)
 - [Mixed chunk attention](Mixed%20chunk%20attention.md)
 
-
-
-
-
-
-
-
-
-
-
-
-
-

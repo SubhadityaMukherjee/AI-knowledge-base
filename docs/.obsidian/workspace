@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Advantages of Federated Learning.md",
+            "file": "Attention.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advantages of Federated Learning.md",
+                "file": "Attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advantages of Federated Learning.md",
+                "file": "Attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advantages of Federated Learning.md"
+                "file": "Attention.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Advantages of Federated Learning.md",
+                "file": "Attention.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,15 +171,15 @@
   },
   "active": "907c5c27f76d4045",
   "lastOpenFiles": [
+    "Self Attention.md",
+    "Attention.md",
+    "Manifold.md",
+    "Adversarial Learning.md",
+    "Advantages of Federated Learning.md",
     "Additive Attention.md",
     "Adaptive Input Representation.md",
     "AdaIn.md",
     "Adagrad.md",
-    "AdaDelta.md",
-    "ActivationFunctions.md",
-    "Absolute Error.md",
-    "1D piecewise linear interpolation.md",
-    "0-1 Loss.md",
-    "journals/2022-08-10.md"
+    "AdaDelta.md"
   ]
 }

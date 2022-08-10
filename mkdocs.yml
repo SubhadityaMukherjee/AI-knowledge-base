@@ -1,7 +1,7 @@
 site_name: AIKB-Subhaditya Mukherjee
 
 theme:
-    name: 'windmill'
+    name: material
       # nav_style: dark
       #name: null
       #custom_dir: 'cinder'

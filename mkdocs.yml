@@ -45,6 +45,7 @@ theme:
 markdown_extensions:
   - footnotes
   - pymdownx.details
+  - wikilinks
   - meta
   - md_in_html
   - pymdownx.magiclink

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "journals/2022-08-10.md",
+            "file": "index.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-08-10.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-08-10.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-08-10.md"
+                "file": "index.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-08-10.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,6 +171,7 @@
   },
   "active": "6c267aa37e383e50",
   "lastOpenFiles": [
+    "journals/2022-08-10.md",
     "Layers.md",
     "Vision Transformer.md",
     "Transformer.md",
@@ -179,7 +180,6 @@
     "Lexical Word Segmentation.md",
     "Word Vectors.md",
     "Hierarchical Edge Bundling.md",
-    "journals/2022-07-04.md",
-    "Marching Squares.md"
+    "journals/2022-07-04.md"
   ]
 }

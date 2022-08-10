@@ -1,0 +1,20 @@
+---
+title: Static Graph Execution
+
+tags: temp 
+date modified: Wednesday, August 10th 2022, 4:36:33 pm
+date created: Thursday, July 28th 2022, 5:59:06 pm
+---
+
+# Static Graph Execution
+- [[Computational Graph]] is first built then is executed
+- less readable code and more difficult to debug
+- better performance
+- once compiled the graph architecture is static
+
+## Backlinks
+
+> - [Dynamic Eager Execution](Dynamic Eager Execution.md)
+>   - lower performance than [[Static Graph Execution]]
+
+_Backlinks last generated 2022-08-10 16:56:31_

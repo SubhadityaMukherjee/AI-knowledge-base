@@ -6,6 +6,7 @@ ___
 - [Alpha Waves.md](Alpha%20Waves.md)
 - [Basal Ganglia.md](Basal%20Ganglia.md)
 - [Beta Waves.md](Beta%20Waves.md)
+- [Biological Neuron.md](Biological%20Neuron.md)
 - [Brain Areas.md](Brain%20Areas.md)
 - [Brain Cortex.md](Brain%20Cortex.md)
 - [Brain Oscillations.md](Brain%20Oscillations.md)

@@ -1,11 +1,11 @@
 ---
 tags: temp
 title: Initialization
-date modified: Wednesday, August 10th 2022, 11:41:27 am
+date modified: Wednesday, August 10th 2022, 4:41:10 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Initialization
-- [He Initialization](He%20Initialization.md)
-- [Xavier Initialization](Xavier%20Initialization.md)
+- ![](assets/Pasted%20image%2020220810164105.png)
+- [Xavier Initialization](Xavier%20Initialization.md) , [He Initialization](He%20Initialization.md) , [[LeCun Init]]
 

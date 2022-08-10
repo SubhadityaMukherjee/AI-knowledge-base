@@ -1,7 +1,7 @@
 ---
 title: GAN
 tags: architecture
-date modified: Wednesday, August 10th 2022, 11:41:28 am
+date modified: Wednesday, August 10th 2022, 3:55:21 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -14,6 +14,16 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Min Max game $$max_D min_G V(G,D)$$ where $$V(G,D) = \mathbb{E}_{p_{data}(x)}logD(x) + \mathbb{E}_{p_{data}(x)}log(1-D(x))$$
 - G : [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
 - D : [Gradient Ascent](Gradient%20Ascent.md)
+- Discriminator Loss (Given Generator)
+	- $$L_{disc}(D_\theta) =-\frac{1}{2}(\mathbb{E}_{x\sim p_{real}(x)}[log(D_{theta}(x))] + \mathbb{E}_{x\sim p_{latent}(x)}[log(1- D_\theta(G_\phi(z)))])$$
+- Generator Loss (Given Discriminator)
+	- $$L_{gen}(G_{\phi})= - \mathbb{E}_{z\sim p_{latent}(z)}[log(D_\theta(G_\phi(z)))]$$
+	- This is low if Discriminator is fooled by Gen, $D_{\theta}(x_{gen}) \approx 1$
+
+## Training
+- pick mini batch of samples 
+- update discriminator with Gradient Descent based on discriminator loss with generator obtained from previous update
+- update the generator with Gradient Descent based on generator loss with the discriminator from the previous step
 
 ## [Issues](Issues.md)
 - [Mode Collapse](Mode%20Collapse.md)

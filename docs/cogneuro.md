@@ -29,5 +29,4 @@ ___
 - [conditioning.md](conditioning.md)
 - [fMRI.md](fMRI.md)
 - [memory trace.md](memory%20trace.md)
-- [templates/titler.md](templates/titler.md)
 

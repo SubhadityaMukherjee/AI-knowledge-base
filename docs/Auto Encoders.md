@@ -1,7 +1,7 @@
 ---
 title: AutoEncoder
 tags: architecture
-date modified: Wednesday, August 10th 2022, 11:41:32 am
+date modified: Wednesday, August 10th 2022, 3:49:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Regression by predicting a reconstruction of the data
 - Encoder $$E : \mathscr{X} \rightarrow \mathscr{F}$$
 - Decoder $$\mathscr{F} \rightarrow \mathscr{D}$$
-- $$E_\theta, D_\theta = argmin_{E_\theta, D\theta}||X-D(E(X))||^2$
+- $$E_\theta, D_\theta = argmin_{E_\theta, D\theta}||X-D(E(X))||^2$$
 	- Learn using [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
 - Compressed rep of data -> Good for Classification or Regression
 - [MSE](MSE.md) : Unsupervised
@@ -18,6 +18,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ## Difficulties
 - dim $\mathscr{F} \lt \mathscr{X}$
 	- Cannot learn the identity function
+- usages
+    - data compression / dimensionality reduction
+    - encoder to obtain features (use the latent variable as feature)
+    - denoising autoencoders
+        - input noisy image and try to obtain image without noise
+    - sparse auto-encoder
+    - contractive autoencoder
 
 ## Types
 - [Denoising Autoencoder](Denoising%20Autoencoder.md)

@@ -100,12 +100,3 @@ tags: architecture
 
 
 
-## Backlinks
-
-> - [BlockNeRF](BlockNeRF.md)
->   - variant of [[Neural Radiance Field]]
->    
-> - [Instant NeRF](Instant NeRF.md)
->   - [[Neural Radiance Field]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

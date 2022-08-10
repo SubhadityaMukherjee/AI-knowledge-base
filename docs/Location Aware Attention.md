@@ -4,7 +4,7 @@ title: Location Aware Attention
 tags: architecture 
 ---
 
-# Location Aware [[Attention]]
+# Location Aware [Attention](Attention.md)
 - [Chorowski et al., 2015](http://papers.nips.cc/paper/5847-attention-based-models-for-speech-recognition.pdf)
 - 
 
@@ -60,9 +60,3 @@ tags: architecture
 
 
 
-## Backlinks
-
-> - [Attention](Attention.md)
->   - [[Location Aware Attention]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

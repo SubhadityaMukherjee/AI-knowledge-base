@@ -7,7 +7,7 @@ title: Markov Transition Kernel
 - Homogenous if $$T_{n}(x|y) = T_{n'}(x|y)$$ for all n,n'
 - First get a value from a random drow from $P_{X_{1}}$
 - Then get the next from the distribution which is specified by the transition kernel
-- ![[assets/Pasted image 20220324124409.png|im]]
+- ![im](assets/Pasted%20image%2020220324124409.png)
 
 
 
@@ -106,9 +106,3 @@ title: Markov Transition Kernel
 
 
 
-## Backlinks
-
-> - [Markov Chain](Markov Chain.md)
->   - [[Markov Transition Kernel]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

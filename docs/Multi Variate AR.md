@@ -3,7 +3,7 @@ title: Multi Variate AR
 ---
 
 # Multi Variate AR
-- predict future from past of another [[TIme Series|time series]]
+- predict future from past of another [time series](TIme%20Series.md)
 
 
 
@@ -102,9 +102,3 @@ title: Multi Variate AR
 
 
 
-## Backlinks
-
-> - [Autoregressive](Autoregressive.md)
->   - [[Multi Variate AR]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

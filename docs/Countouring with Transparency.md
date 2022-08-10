@@ -104,9 +104,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Contours](Contour.md)
->   - [[Countouring with Transparency]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

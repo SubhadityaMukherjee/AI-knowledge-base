@@ -9,7 +9,7 @@ tags: brain, psychology
 
 # Dopamine
 - Dopamine is chemically expressed as C2H11NO2.
-- It is a neuro-chemical created in various parts of the brain and is critical for all kinds of brain functions including thinking, carrying, sleeping, mood, [[Attention|attention]], motivation, seeking and rewarding.
+- It is a neuro-chemical created in various parts of the brain and is critical for all kinds of brain functions including thinking, carrying, sleeping, mood, [attention](Attention.md), motivation, seeking and rewarding.
 - The dopamine is responsible for the feeling of pleasure. 
 - When a person eats, drinks or performs a pleasurable action, dopamine is stimulated in his brain to repeat the action.
 - Unexpected rewards increase the activity of dopamine neurons, acting as positive feedback signals for the brain regions associated with the preceding behavior.
@@ -97,9 +97,3 @@ tags: brain, psychology
 
 
 
-## Backlinks
-
-> - [Magical Maybe](Magical maybe.md)
->   - According to this idea; the individual may or may not find a notification when looking on the phone. There is a large increase in [[Dopamine]] levels when the indication is seen.
-
-_Backlinks last generated 2022-07-26 20:33:15_

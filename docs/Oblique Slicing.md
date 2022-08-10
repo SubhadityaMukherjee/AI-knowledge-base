@@ -105,9 +105,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Volume [[Visualization]]](Volume Visualization.md)
->   - [[Oblique Slicing]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

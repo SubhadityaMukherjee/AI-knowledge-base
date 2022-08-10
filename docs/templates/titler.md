@@ -1,17 +1,8 @@
 ---
 title: <% tp.file.title %>
 
-tags: library 
+tags: cogneuro 
 ---
 
 # <% tp.file.title %>
-
-
-
-
-
-
-
-
-
 

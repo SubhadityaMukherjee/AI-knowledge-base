@@ -4,7 +4,7 @@ tags: architecture
 ---
 
 # Xception
-- Only use [[Depthwise Separable]] convs + [[Inception]] modules
+- Only use [Depthwise Separable](Depthwise%20Separable.md) convs + [Inception](Inception.md) modules
 - Cross channel and spatial correlations can be decoupled completely
 
 

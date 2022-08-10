@@ -12,7 +12,7 @@ title: Backprop
 			- Chain Rule : $$\frac{dl}{d\theta_i} = \Sigma_{k \in parents(l)} \frac{\partial l}{\partial u_k} \frac{\partial u_k}{\partial \theta_i}$$
 			- $$\begin{align} &\frac{d\hat y}{d\mathbf{W_1}}\\ &= \frac{\partial \hat y}{\partial u_2} \frac{\partial u_2}{\partial h_1} \frac{\partial h_1}{\partial u_1} \frac{\partial u_1}{\partial \mathbf{W_1}} \\ &= \frac{\partial \sigma (u2)}{\partial u_2} \frac{\partial \mathbf{W}^T_2 h_1}{\partial h_1} \frac{\partial \sigma (u1)}{\partial u_1} \frac{\partial \mathbf{W}^T_1 x}{\partial \mathbf{W}_1} \end{align}$$
 			- Collecting all the $$\partial \sigma(u_i)$$ wrt params -> #gradients exponentially decreases wrt depth of the network : Vanishing
-				- Solved by [[ActivationFunctions]]
+				- Solved by [ActivationFunctions](ActivationFunctions.md)
 
 
 
@@ -95,15 +95,3 @@ title: Backprop
 
 
 
-## Backlinks
-
-> - [Gradient Descent #gradients](Gradient Descent gradients.md)
->   - [[Backprop]]
->    
-> - [SRN](SRN.md)
->   - [[Vanishingexploding gradients]] , in [[Backprop]], they break down when sequences are long.
->    
-> - [Vanishing/exploding #gradients](Vanishingexploding gradients.md)
->   - Active neurons saturate -> prevent error #[[Backprop]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

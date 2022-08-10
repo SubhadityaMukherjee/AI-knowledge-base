@@ -4,8 +4,8 @@ tags: visualization
 ---
 
 # ColorMap
-- [[Color Spaces]]
-- ![[assets/Pasted image 20220411132754.png|im]]
+- [Color Spaces](Color%20Spaces.md)
+- ![im](assets/Pasted%20image%2020220411132754.png)
 
 
 

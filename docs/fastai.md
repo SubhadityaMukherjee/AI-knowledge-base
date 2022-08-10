@@ -5,10 +5,10 @@ tags: library
 ---
 
 # Fastai
-- [[Fastai Blocks]]
-- [[Fastai Interpretation]]
-- [[Fastai Deployment]]
-- [[Fasai Tricks]]
+- [Fastai Blocks](Fastai%20Blocks.md)
+- [Fastai Interpretation](Fastai%20Interpretation.md)
+- [Fastai Deployment](Fastai%20Deployment.md)
+- [Fasai Tricks](Fasai%20Tricks.md)
 
 
 

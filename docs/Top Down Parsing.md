@@ -4,7 +4,7 @@ tags: language
 ---
 
 # Top Down Parsing
-- ![[assets/Pasted image 20220506183307.png|im]]
+- ![im](assets/Pasted%20image%2020220506183307.png)
 
 
 
@@ -103,9 +103,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Context Free Grammar](Context Free Grammar.md)
->   - [[Top Down Parsing]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -4,7 +4,7 @@ tags: distribution
 ---
 
 # Possion Distribution
-- [[Probability]] that an event occurs k times within a given time interval
+- [Probability](Probability.md) that an event occurs k times within a given time interval
 - Eg:
 - k meteors within 100 years
 - k calls in an hour
@@ -12,8 +12,8 @@ tags: distribution
 - no of dust particles in a mm of air
 - no of diamons in ton of ore
 - Expected no of events $E[X]$ : rate $\lambda$
-- [[PMF]] : $$p(k) = \frac{\lambda^{k}e^{-k}}{k!}$$
-- ![[assets/Pasted image 20220319133622.png|im]]
+- [PMF](PMF.md) : $$p(k) = \frac{\lambda^{k}e^{-k}}{k!}$$
+- ![im](assets/Pasted%20image%2020220319133622.png)
 - Eg:
 - N 1-hour protocols for calls : $n_{i} (i = 1, …, N)$
 - $$\hat\lambda =\frac{1}{N}\Sigma_{i}n_{i}$$
@@ -115,9 +115,3 @@ tags: distribution
 
 
 
-## Backlinks
-
-> - [Poisson Loss](Poisson Loss.md)
->   - When data is from [[Poisson Distribution]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

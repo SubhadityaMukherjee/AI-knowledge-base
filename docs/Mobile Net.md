@@ -4,7 +4,7 @@ tags: architecture
 ---
 
 # Mobile Net
-- [[Depthwise Separable]]
+- [Depthwise Separable](Depthwise%20Separable.md)
 
 
 

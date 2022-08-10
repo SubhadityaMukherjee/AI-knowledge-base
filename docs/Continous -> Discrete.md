@@ -4,13 +4,13 @@ title: Continous -> Discrete
 
 # Continous -> Discrete
 
-## [[Binning]]
+## [Binning](Binning.md)
 
-## [[Hierarchial Refinement]]
+## [Hierarchial Refinement](Hierarchial%20Refinement.md)
 
-## [[Vector Quantization]]
+## [Vector Quantization](Vector%20Quantization.md)
 
-## [[Neural Dynamics]]
+## [Neural Dynamics](Neural%20Dynamics.md)
 
 
 
@@ -109,12 +109,3 @@ title: Continous -> Discrete
 
 
 
-## Backlinks
-
-> - [Encoding](Encodings.md)
->   - ## [[Continous -> Discrete]]
->    
-> - [Neural Dynamics](Neural Dynamics.md)
->   - [[Continous -> Discrete]] seq of words
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -18,9 +18,3 @@ tags: random
 
 
 
-## Backlinks
-
-> - [Research Debt](Research Debt.md)
->   - [[Clear Thinking]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

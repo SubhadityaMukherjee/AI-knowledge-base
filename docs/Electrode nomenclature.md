@@ -5,7 +5,7 @@ title: Electrode nomenclature
 ---
 
 # Electrode Nomenclature
-- ![[assets/Pasted image 20220502145048.png|im]]
+- ![im](assets/Pasted%20image%2020220502145048.png)
 - Bathing cap
 - Top of head
 - Cz : middle of head
@@ -114,9 +114,3 @@ title: Electrode nomenclature
 
 
 
-## Backlinks
-
-> - [EEG](EEG.md)
->   - [[Electrode nomenclature]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

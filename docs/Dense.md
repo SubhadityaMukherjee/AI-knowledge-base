@@ -4,7 +4,7 @@ tag: architecture
 ---
 
 # Dense
-- Weighted [[LinearRegression]]
+- Weighted [LinearRegression](LinearRegression.md)
 - Forward
 	- $$z = W\cdot x + b$$ , $$y=g(z)$$
 - Backward

@@ -57,12 +57,3 @@ tags: architecture
 
 
 
-## Backlinks
-
-> - [Basic [[Transformer]]](Basic Transformer.md)
->   - [[Position Encoding]] + [[Token Embedding]]
->    
-> - [CvT](CvT.md)
->   - [[Position Encoding]] , a crucial component in existing Vision Transformers, can be safely removed in our model
-
-_Backlinks last generated 2022-07-26 20:33:15_

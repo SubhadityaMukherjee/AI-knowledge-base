@@ -4,8 +4,8 @@ tags: parallel
 ---
 
 # Memory Coupling
-- ![[assets/Pasted image 20220506151823.png|im]]
-- [[TIghtly coupled]]
+- ![im](assets/Pasted%20image%2020220506151823.png)
+- [TIghtly coupled](TIghtly%20coupled.md)
 
 
 

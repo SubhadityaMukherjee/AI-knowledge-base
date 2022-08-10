@@ -105,9 +105,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Morphology](Morphology.md)
->   - [[Word Compounding]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

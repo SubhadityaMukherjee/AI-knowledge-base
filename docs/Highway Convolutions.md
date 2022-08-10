@@ -4,7 +4,7 @@ tags: einsum architecture
 ---
 
 # Highway Convolutions
-- [[Conv]]
+- [Conv](Conv.md)
 
 ```python
 class HighwayConv1dNew(nn.Conv1d):
@@ -110,9 +110,3 @@ class HighwayConv1dNew(nn.Conv1d):
 
 
 
-## Backlinks
-
-> - [Tacotron](Tacotron.md)
->   - [[Conv]] + [[Highway Convolutions]] + [[Skip Connection]] + [[GRU)](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU)]].md)
-
-_Backlinks last generated 2022-07-26 20:33:15_

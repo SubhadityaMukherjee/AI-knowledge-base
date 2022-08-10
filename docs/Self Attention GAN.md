@@ -3,8 +3,8 @@ title: Self Attention GAN
 tags: einsum architecture 
 ---
 
-# [[Self Attention]] GAN
-- [[Self Attention]] + [[Generative Models]]
+# [Self Attention](Self%20Attention.md) GAN
+- [Self Attention](Self%20Attention.md) + [Generative Models](Generative%20Models.md)
 
 ```python
 class Self_Attn_New(nn.Module):

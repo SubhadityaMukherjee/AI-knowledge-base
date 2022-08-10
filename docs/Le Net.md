@@ -5,7 +5,7 @@ tags: architecture
 
 # Le Net
 - Spatial dims reduce with depth, no of neurons increase
-- ![[assets/Pasted image 20220306115954.png|im]]
+- ![im](assets/Pasted%20image%2020220306115954.png)
 
 
 
@@ -95,9 +95,3 @@ tags: architecture
 
 
 
-## Backlinks
-
-> - [Inceptionism](Inceptionism.md)
->   - [[Le Net]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

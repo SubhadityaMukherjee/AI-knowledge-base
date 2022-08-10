@@ -4,7 +4,7 @@ tags: brain
 ---
 
 # Temporal Lobe
- - Understanding language ([[Wernicke Area]])
+ - Understanding language ([Wernicke Area](Wernicke%20Area.md))
  - Memory
  - Hearing
  - Sequencing and organization
@@ -107,9 +107,3 @@ tags: brain
 
 
 
-## Backlinks
-
-> - [Cerebrum](Cerebrum.md)
->   - [[Temporal lobe]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

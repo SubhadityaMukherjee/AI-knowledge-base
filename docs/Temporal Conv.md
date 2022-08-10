@@ -3,8 +3,8 @@ title: Temporal Conv
 tags: architecture 
 ---
 
-# Temporal [[Conv]]
-- FCN + [[Causal 1D Conv]] + Residual
+# Temporal [Conv](Conv.md)
+- FCN + [Causal 1D Conv](Causal%201D%20Conv.md) + Residual
 
 
 
@@ -103,9 +103,3 @@ tags: architecture
 
 
 
-## Backlinks
-
-> - [Basic RNN Architectures](Basic RNN Architectures.md)
->   - [[Temporal Conv]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

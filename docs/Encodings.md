@@ -4,9 +4,9 @@ title: Encoding
 
 # Encoding
 
-## [[Discrete -> Continuous]]
+## [Discrete -> Continuous](Discrete%20-%3E%20Continuous.md)
 
-## [[Continous -> Discrete]]
+## [Continous -> Discrete](Continous%20-%3E%20Discrete.md)
 
 
 
@@ -105,9 +105,3 @@ title: Encoding
 
 
 
-## Backlinks
-
-> - [Fundamentals](Fundamentals.md)
->   - [[Encodings]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

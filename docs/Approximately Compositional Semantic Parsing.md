@@ -4,7 +4,7 @@ tags: language
 ---
 
 # Approximately Compositional Semantic Parsing
-- which [[Semantic Analysis]] processing is applied to the result of performing a syntactic parse
+- which [Semantic Analysis](Semantic%20Analysis.md) processing is applied to the result of performing a syntactic parse
 
 
 
@@ -103,9 +103,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Sentence Level Processing](Sentence level processing.md)
->   - [[Approximately Compositional Semantic Parsing]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

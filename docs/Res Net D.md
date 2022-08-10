@@ -3,8 +3,8 @@ title: Res Net D
 tags: architecture 
 ---
 
-# [[Res Net]] D
-- ![[assets/Pasted image 20220502134210.png|im]]
+# [Res Net](Res%20Net.md) D
+- ![im](assets/Pasted%20image%2020220502134210.png)
 
 
 

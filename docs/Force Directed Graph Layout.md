@@ -8,7 +8,7 @@ tags: visualization
 - Attractive forces between adjacent nodes
 - edges are modeled as springs with uniform length
 - Repulsive forces between non-adjacent nodes could be seen as springs of infinite length or repelling forces of electrically charged metal spheres
-- ![[assets/Pasted image 20220418123559.png|im]]
+- ![im](assets/Pasted%20image%2020220418123559.png)
 
 
 
@@ -107,9 +107,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Node LInk Diagram](Node LInk Diagram.md)
->   - [[Force Directed Graph Layout]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

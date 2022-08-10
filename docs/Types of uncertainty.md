@@ -3,10 +3,10 @@ title: Types of Uncertainty
 tags: uncertainty
 ---
 
-# Types of [[Uncertainty]]
-- [[Aleatoric]]
-- [[Epistemic]]
-- [[Predictive Uncertainty]]
+# Types of [Uncertainty](Uncertainty.md)
+- [Aleatoric](Aleatoric.md)
+- [Epistemic](Epistemic.md)
+- [Predictive Uncertainty](Predictive%20Uncertainty.md)
 
 
 
@@ -105,9 +105,3 @@ tags: uncertainty
 
 
 
-## Backlinks
-
-> - [Uncertainty](Uncertainty.md)
->   - [[Types of uncertainty]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

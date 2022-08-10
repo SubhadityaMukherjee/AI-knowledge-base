@@ -4,7 +4,7 @@ tags: brain
 ---
 
 # Wernicke Area
-- Damage to this area causes Wernicke's [[aphasia]]. 
+- Damage to this area causes Wernicke's [aphasia](aphasia.md). 
 - The individual may speak in long sentences that have no meaning, add unnecessary words, and even create new words.
 - They can make speech sounds, however they have difficulty understanding speech and are therefore unaware of their mistakes.
 
@@ -105,9 +105,3 @@ tags: brain
 
 
 
-## Backlinks
-
-> - [Temporal Lobe](Temporal lobe.md)
->   - Understanding language ([[Wernicke Area]])
-
-_Backlinks last generated 2022-07-26 20:33:15_

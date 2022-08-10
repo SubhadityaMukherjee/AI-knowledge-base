@@ -10,24 +10,9 @@ tags: architecture
 - During decoding, consider pairwise relationshop between decoder state and all the returned states from the encoder
 	- Some words relevant, others are not
 - Transform all hidden states from the encoder into context vectors, that shows how the decoding step is relevant to the input sequences
-- [[Attention]]
-- [[Basic Transformer]]
+- [Attention](Attention.md)
+- [Basic Transformer](Basic%20Transformer.md)
 
 ## Nice Little Blogs
 - [lillog](https://lilianweng.github.io/posts/2018-06-24-attention/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

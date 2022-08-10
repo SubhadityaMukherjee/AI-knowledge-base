@@ -8,7 +8,7 @@ tags: architecture
 - training many different models on the same data and then to average their predictions
 - making predictions using a whole ensemble of models is cumbersome and may be too computationally expensive to allow deployment to a large number of users, especially if the individual models are large neural nets
 - compress the knowledge in an ensemble into a single model
-- [[MNIST]]
+- [MNIST](MNIST.md)
 - ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse
 - specialist models can be trained rapidly and in parallel
 - distillation works remarkably well even when the transfer set that is used to train the distilled model lacks any examples of one or more of the classes

@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Gaussian Filter
-- [[Filtering]] with a discretized Gaussian function
+- [Filtering](Filtering.md) with a discretized Gaussian function
 - Weights follow $$G(x) = e^{-ax^{2}}$$
 
 
@@ -52,9 +52,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Noise Suppression](Noise Suppression.md)
->   - [[Gaussian Filter]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

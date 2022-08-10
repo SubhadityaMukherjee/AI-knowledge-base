@@ -2,7 +2,7 @@
 title: Advantages of Federated Learning
 ---
 
-# Advantages of [[Federated Learning]]
+# Advantages of [Federated Learning](Federated%20Learning.md)
 - All your information is locally stored and is never sent anywhere
 - Saves your personalized data from being leaked
 - Removes all connections to you
@@ -106,9 +106,3 @@ title: Advantages of Federated Learning
 
 
 
-## Backlinks
-
-> - [Federated Learning](Federated Learning.md)
->   - [[Advantages of Federated Learning]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

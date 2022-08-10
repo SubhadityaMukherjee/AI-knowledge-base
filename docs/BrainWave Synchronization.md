@@ -6,7 +6,7 @@ tags: brain
 # BrainWave Synchronization
 - Consistency of phase difference
 	- If 0 then perfect
-- ![[assets/Pasted image 20220502161821.png|im]]
+- ![im](assets/Pasted%20image%2020220502161821.png)
 - Phase Locking Value
 
 
@@ -106,9 +106,3 @@ tags: brain
 
 
 
-## Backlinks
-
-> - [Functional Connectivity](Functional Connectivity.md)
->   - [[BrainWave Synchronization]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

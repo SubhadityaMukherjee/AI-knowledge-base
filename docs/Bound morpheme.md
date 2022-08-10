@@ -3,7 +3,7 @@ title: Bound morpheme
 tags: language
 ---
 
-# Bound [[Morpheme]]
+# Bound [Morpheme](Morpheme.md)
 - morphemes that cannot appear as a word by itself
 - e.g., +ing, +s, +ness,ly,ed
 
@@ -104,9 +104,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [[[Morphology]] Affix](Morphology Affix.md)
->   - [[Bound morpheme]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

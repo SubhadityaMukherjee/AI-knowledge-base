@@ -4,9 +4,9 @@ tags: architecture
 ---
 
 # Temporal Learning
-- [[Recurrent]]
-- [[Online Learning]]
-- [[Causal Systems]]
+- [Recurrent](Recurrent.md)
+- [Online Learning](Online%20Learning)
+- [Causal Systems](Causal%20Systems.md)
 
 
 
@@ -105,9 +105,3 @@ tags: architecture
 
 
 
-## Backlinks
-
-> - [Fundamentals](Fundamentals.md)
->   - [[TemporalLearning]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

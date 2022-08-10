@@ -4,7 +4,7 @@ tags: parallel
 ---
 
 # Scalar Register
-- Single elements for interconnecting [[Vector Functional Units]], [[Vector Load Store Units]], and registers
+- Single elements for interconnecting [Vector Functional Units](Vector%20Functional%20Units.md), [Vector Load Store Units](Vector%20Load%20Store%20Units.md), and registers
 
 
 
@@ -103,9 +103,3 @@ tags: parallel
 
 
 
-## Backlinks
-
-> - [Vector Processor](Vector Processor.md)
->   - [[Scalar Register]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

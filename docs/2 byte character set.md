@@ -107,9 +107,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Character-set Dependence](Character-set dependence.md)
->   - [[2 byte character set]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -104,9 +104,3 @@ title: Image Data
 
 
 
-## Backlinks
-
-> - [Issues](Issues.md)
->   - [[Image Data]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

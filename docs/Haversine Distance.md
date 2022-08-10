@@ -5,7 +5,7 @@ tags: distance
 ---
 
 # Haversine Distance
-- ![[assets/Pasted image 20220624120834.png]]
+- ![Pasted image 20220624120834](assets/Pasted%20image%2020220624120834.png)
 - $$d = 2r\times arcsin(\sqrt{sin^{2}(\frac{\varphi_{2}-\varphi_{1}}{2})+cos(\varphi_{1})cos(\varphi_{2})sin^{2}(\frac{\lambda_{2}-\lambda_{1}}{2}))}$$
 - Haversine distance is the distance between two points on a sphere given their longitudes and latitudes
 - The main difference is that no straight line is possible since the assumption here is that the two points are on a sphere.
@@ -53,9 +53,3 @@ tags: distance
 
 
 
-## Backlinks
-
-> - [Distance Measures](Distance Measures.md)
->   - [[Haversine Distance]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

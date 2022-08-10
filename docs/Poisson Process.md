@@ -3,7 +3,7 @@ title: Poisson Process
 ---
 
 # Poisson Process
-- Waiting times between two consecutive spikes are [[Exponential Distribution]]
+- Waiting times between two consecutive spikes are [Exponential Distribution](Exponential%20Distribution.md)
 
 
 
@@ -102,9 +102,3 @@ title: Poisson Process
 
 
 
-## Backlinks
-
-> - [Spiking Networks](Spiking Networks.md)
->   - [[Poisson Process]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

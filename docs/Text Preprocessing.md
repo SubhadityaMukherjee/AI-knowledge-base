@@ -4,8 +4,8 @@ tags: language
 ---
 
 # Text Preprocessing
-- [[Document Triage]]
-- [[Text Segmentation]]
+- [Document Triage](Document%20Triage.md)
+- [Text Segmentation](Text%20Segmentation.md)
 
 
 

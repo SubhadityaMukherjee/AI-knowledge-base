@@ -6,9 +6,9 @@ tags: distribution
 # Normal Distribution
 - $$p(x) = \frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}$$
 - Mean $\mu$ and std $\sigma$. $\mu$ is max and $\mu \pm \sigma$  is locations of zeros of second derivative
-- ![[assets/Pasted image 20220319144034.png|im]]
+- ![im](assets/Pasted%20image%2020220319144034.png)
 - $\mathcal{N}(0,1)$
-- [[Central Limit Theorem]]
+- [Central Limit Theorem](Central%20Limit%20Theorem.md)
 
 ## Properties
 - Linear combinations of normal distributed independant RVs are normal distributed
@@ -121,22 +121,3 @@ tags: distribution
 
 
 
-## Backlinks
-
-> - [Central Limit Theorem](Central Limit Theorem.md)
->   - When random effects of many independant small sized causes sum up to large scale observable effects : one gets the [[Normal Distribution]]
->    
-> - [GELU](GELU.md)
->   - $$x\Phi(x)$$ where $\Phi(x)$ is the [[Normal Distribution]] [[CDF]]
->    
-> - [Denoising Autoencoder](Denoising Autoencoder.md)
->   - [[Normal Distribution]]
->    
-> - [N Dim [[Normal Distribution]]](N-dim Normal.md)
->   - # N Dim [[Normal Distribution]]
->   - [[Normal Distribution]]
->    
-> - [Standard Deviation](Standard Deviation.md)
->   - [[Normal Distribution]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

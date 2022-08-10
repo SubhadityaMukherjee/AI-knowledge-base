@@ -5,7 +5,7 @@ tags: architecture
 
 # Nasnet
 - Neural Architecture Search
-- Controller RNN ([[Basic RNN Architectures]]) produces architectures and evaluated until convergence
+- Controller RNN ([Basic RNN Architectures](Basic%20RNN%20Architectures.md)) produces architectures and evaluated until convergence
 
 
 

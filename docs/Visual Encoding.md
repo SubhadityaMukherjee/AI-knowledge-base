@@ -4,8 +4,8 @@ tags: visualization
 ---
 
 # Visual Encoding
-- ![[assets/Pasted image 20220418104606.png|im]]
-- [[Characteristics of Visual Variables]]
+- ![im](assets/Pasted%20image%2020220418104606.png)
+- [Characteristics of Visual Variables](Characteristics%20of%20Visual%20Variables.md)
 
 
 
@@ -104,9 +104,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Information [[Visualization]]](Information Visualization.md)
->   - [[Visual Encoding]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

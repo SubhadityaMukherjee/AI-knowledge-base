@@ -103,9 +103,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Content Words](Content words.md)
->   - [[Adjective]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

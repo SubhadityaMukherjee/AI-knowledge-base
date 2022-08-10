@@ -55,9 +55,3 @@ tags: language cogneuro psychology
 
 
 
-## Backlinks
-
-> - [Locality](Locality.md)
->   - [[Localist units]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -99,9 +99,3 @@ tags: dataset
 
 
 
-## Backlinks
-
-> - [FaceNet](FaceNet.md)
->   - [[Labeled Faces in the Wild]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

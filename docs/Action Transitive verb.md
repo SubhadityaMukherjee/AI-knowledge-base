@@ -3,8 +3,8 @@ title: Action Transitive verb
 tags: language
 ---
 
-# Action Transitive [[Verb]]
-- a [[Verb|verb]] has a direct object + [[Verb|verb]]
+# Action Transitive [Verb](Verb.md)
+- a [verb](Verb.md) has a direct object + [verb](Verb.md)
 - I made her lower her head or body
 
 
@@ -104,9 +104,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Verb](Verb.md)
->   - [[Action Transitive verb]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

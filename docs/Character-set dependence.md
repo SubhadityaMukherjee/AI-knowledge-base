@@ -4,10 +4,10 @@ tags: language
 ---
 
 # Character-set Dependence
-- [[ASCII]]
-- [[8 bit character set]]
-- [[2 byte character set]]
-- [[Unicode 5.0]]
+- [ASCII](ASCII.md)
+- [8 bit character set](8%20bit%20character%20set.md)
+- [2 byte character set](2%20byte%20character%20set.md)
+- [Unicode 5.0](Unicode%205.0.md)
 
 
 
@@ -106,9 +106,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Text Segmentation](Text Segmentation.md)
->   - [[Character-set dependence]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

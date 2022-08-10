@@ -10,14 +10,14 @@ tags: architecture
 - Most current pretraining methods, however, are limited to one or two modalities.
 - jointly learns representations for vision, language and speech into a unified, shared and general-purpose vector representation
 - data from each modality are first given to pretrained single-modality encoder
-- The encoder outputs are then integrated with a multimodal fusion network, which uses novel [[Attention|attention]] mechanisms and other architectural innovations to effectively combine information from the different modalities
+- The encoder outputs are then integrated with a multimodal fusion network, which uses novel [attention](Attention.md) mechanisms and other architectural innovations to effectively combine information from the different modalities
 - new objectives including (i) masked modality modeling and (ii) cross-modality contrastive learning
 - pretraining on dual-modality datasets can also yield competitive or even better performance than pretraining on videos, the data resource that previous three-modality models were restricted to
 - dynamically process single, dual, and triple-modality data during training and inference, flexibly projecting different combinations of modalities into a single representation space
 - GLUE
-- merge-attention [[Layers|layers]] and (b) co-[[Attention|attention]] [[Layers|layers]]
+- merge-attention [layers](Layers.md) and (b) co-[attention](Attention.md) [layers](Layers.md)
 - fusion architecture
-- mechanisms that merge and cross the [[Attention|attention]] scores of different modalities, namely merge-[[Attention|attention]] (based on self-[[Attention|attention]]) and co-[[Attention|attention]] (based on self- and cross-[[Attention|attention]]) respectively
+- mechanisms that merge and cross the [attention](Attention.md) scores of different modalities, namely merge-[attention](Attention.md) (based on self-[attention](Attention.md)) and co-[attention](Attention.md) (based on self- and cross-[attention](Attention.md)) respectively
 
 
 

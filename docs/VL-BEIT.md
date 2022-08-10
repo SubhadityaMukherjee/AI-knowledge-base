@@ -11,7 +11,7 @@ tags: architecture
 - conducts masked prediction on both monomodal and multimodal data with a shared Transformer
 - solely employs generative pretraining tasks, including masked language modeling on texts, masked image modeling on images, and masked vision-language modeling on image-text pairs
 - learned from scratch with one unified pretraining task, one shared backbone, and one-stage training which renders it conceptually simple and empirically effective
-- transferable visual [[Features|features]]
+- transferable visual [features](Features.md)
 
 
 

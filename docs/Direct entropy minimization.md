@@ -12,7 +12,7 @@ tags:
 - constrain
 - to produce high-confident predictions on target samples similarly to source samples
 - entropy loss $\mathcal{L}_{ent}$ to maximize directly the prediction confidence in the target domain.
-- [[Shannon Entropy]]
+- [Shannon Entropy](Shannon%20Entropy)
 
 
 
@@ -51,9 +51,3 @@ tags:
 
 
 
-## Backlinks
-
-> - [ADVENT](ADVENT.md)
->   - [[Direct entropy minimization]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

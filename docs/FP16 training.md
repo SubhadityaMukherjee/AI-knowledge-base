@@ -105,9 +105,3 @@ title: FP16 training
 
 
 
-## Backlinks
-
-> - [Google NMT](Google NMT.md)
->   - low-precision arithmetic during inference computations ([[FP16 training]] ???)
-
-_Backlinks last generated 2022-07-26 20:33:15_

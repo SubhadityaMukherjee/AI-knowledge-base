@@ -3,9 +3,9 @@ title: Front to Back Raycasting
 tags: visualization
 ---
 
-# Front to Back [[Raycasting]]
-- ![[assets/Pasted image 20220418002010.png|im]]
-- [[Color Compositing]]
+# Front to Back [Raycasting](Raycasting.md)
+- ![im](assets/Pasted%20image%2020220418002010.png)
+- [Color Compositing](Color%20Compositing.md)
 
 
 
@@ -104,9 +104,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Raycasting](Raycasting.md)
->   - [[Front to Back Raycasting]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

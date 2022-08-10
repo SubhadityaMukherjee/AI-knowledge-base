@@ -98,9 +98,3 @@ tags: dataset
 
 
 
-## Backlinks
-
-> - [YOLO](YOLO.md)
->   - [[Picasso Dataset]], [[People Art Dataset]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

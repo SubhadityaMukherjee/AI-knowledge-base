@@ -109,9 +109,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Transfer Function](Transfer Function.md)
->   - [[Opacity Correction]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

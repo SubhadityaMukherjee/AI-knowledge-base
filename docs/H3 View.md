@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # H3 View
-- ![[assets/Pasted image 20220506155853.png|im]]
+- ![im](assets/Pasted%20image%2020220506155853.png)
 
 
 

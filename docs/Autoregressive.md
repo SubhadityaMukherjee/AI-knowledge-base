@@ -3,8 +3,8 @@ title: Autoregressive
 ---
 
 # Autoregressive
-- predict the future by past of [[TIme Series]]
-- [[Multi Variate AR]]
+- predict the future by past of [TIme Series](TIme%20Series.md)
+- [Multi Variate AR](Multi%20Variate%20AR.md)
 
 
 
@@ -103,9 +103,3 @@ title: Autoregressive
 
 
 
-## Backlinks
-
-> - [Granger Causallity](Granger Causallity.md)
->   - [[Autoregressive]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

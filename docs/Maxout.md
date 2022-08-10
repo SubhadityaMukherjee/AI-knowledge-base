@@ -102,9 +102,3 @@ title: Maxout
 
 
 
-## Backlinks
-
-> - [Activation Functions](ActivationFunctions.md)
->   - [[Maxout]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

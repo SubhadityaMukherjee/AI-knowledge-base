@@ -3,11 +3,11 @@ title: Federated Learning
 ---
 
 # Federated Learning
-- [[Basics of Federated Learning]]
+- [Basics of Federated Learning](Basics%20of%20Federated%20Learning.md)
 
-- [[Advantages of Federated Learning]]
+- [Advantages of Federated Learning](Advantages%20of%20Federated%20Learning.md)
 
-- [[Federated Updates]] 
+- [Federated Updates](Federated%20Updates.md) 
 
 ## Refs
 - [OpenMined Blog](https://blog.openmined.org/upgrade-to-federated-learning-in-10-lines/)

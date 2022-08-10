@@ -3,8 +3,8 @@ title: Predictive Uncertainty
 tags: uncertainty
 ---
 
-# Predictive [[Uncertainty]]
-- ![[assets/Pasted image 20220323154146.png|im]]
+# Predictive [Uncertainty](Uncertainty.md)
+- ![im](assets/Pasted%20image%2020220323154146.png)
 
 
 
@@ -103,9 +103,3 @@ tags: uncertainty
 
 
 
-## Backlinks
-
-> - [Types of [[Uncertainty]]](Types of uncertainty.md)
->   - [[Predictive Uncertainty]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

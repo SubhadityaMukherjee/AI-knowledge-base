@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Challenge of Complex Geometry
-- [[Manifold]]
+- [Manifold](Manifold.md)
 
 
 
@@ -103,9 +103,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Issues](Issues.md)
->   - [[Complex Geometry]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

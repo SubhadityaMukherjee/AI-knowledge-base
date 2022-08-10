@@ -104,12 +104,3 @@ tags: parallel
 
 
 
-## Backlinks
-
-> - [Instant NeRF](Instant NeRF.md)
->   - fully-fused [[Operator Fusion]] CUDA kernels with a focus on minimizing wasted bandwidth and compute operations
->    
-> - [Optimizing Work](Optimizing Code.md)
->   - [[Operator Fusion]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

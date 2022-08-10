@@ -5,11 +5,11 @@ tags: parallel
 
 # UMA
 - Uniform memory access
-- [[SMP]]
+- [SMP](SMP.md)
 - Identical processors
 - Identical processors
 - Equal access and access times to memory
-- [[Cache Coherence]]
+- [Cache Coherence](Cache%20Coherence.md)
 
 
 

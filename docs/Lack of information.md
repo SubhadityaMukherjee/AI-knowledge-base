@@ -4,7 +4,7 @@ title: Lack of Information
 
 # Lack of Information
 - Data does not show how to extract optimal info
-- [[Curse Of Dimensionality]]
+- [Curse Of Dimensionality](Curse%20Of%20Dimensionality.md)
 
 
 
@@ -103,9 +103,3 @@ title: Lack of Information
 
 
 
-## Backlinks
-
-> - [Issues](Issues.md)
->   - [[Lack of information]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

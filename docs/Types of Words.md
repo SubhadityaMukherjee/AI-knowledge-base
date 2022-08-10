@@ -4,8 +4,8 @@ tags: language
 ---
 
 # Types of Words
-- [[Content words]]
-- [[Function words]]
+- [Content words](Content%20words.md)
+- [Function words](Function%20words.md)
 
 
 
@@ -104,9 +104,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Context Free Grammar](Context Free Grammar.md)
->   - [[Types of Words]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

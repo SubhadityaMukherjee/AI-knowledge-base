@@ -104,9 +104,3 @@ tags: parallel
 
 
 
-## Backlinks
-
-> - [Parallel Processing](Parallel Processing.md)
->   - [[Minimizing Communication]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -3,13 +3,13 @@ title: Morphology Affix
 tags: language
 ---
 
-# [[Morphology]] Affix
+# [Morphology](Morphology.md) Affix
 - Bits and pieces that adhere to stems to change their meanings and grammatical functions
-- [[Bound morpheme]]
-- [[Prefix]]
-- [[Suffix]]
-- [[Infix]]
-- [[Circumfix]]
+- [Bound morpheme](Bound%20morpheme.md)
+- [Prefix](Prefix.md)
+- [Suffix](Suffix.md)
+- [Infix](Infix.md)
+- [Circumfix](Circumfix.md)
 
 
 
@@ -108,12 +108,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Agglutinating Words](Agglutinating words.md)
->   - String of [[Morphology Affix]]
->    
-> - [Morpheme](Morpheme.md)
->   - [[Morphology Affix]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

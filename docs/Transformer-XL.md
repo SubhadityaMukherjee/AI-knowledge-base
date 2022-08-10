@@ -12,7 +12,7 @@ tags: architecture
 - resolves the context fragmentation problem
 - enwiki8
 - WikiText
-- One [[Billion Word]]
+- One [Billion Word](Billion%20Word.md)
 - Penn Treebank
 
 

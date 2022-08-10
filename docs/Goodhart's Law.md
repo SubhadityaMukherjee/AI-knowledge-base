@@ -4,8 +4,8 @@ title: Goodhart's Law
 
 # Goodhart's Law
 - “When a measure becomes a target, it ceases to be a good measure.”
-- [[Proxy Objective]]
-- [[Rejection Sampling]]
+- [Proxy Objective](Proxy%20Objective.md)
+- [Rejection Sampling](Rejection%20Sampling.md)
 
 ## Refs
 - [openai](https://openai.com/blog/measuring-goodharts-law/)

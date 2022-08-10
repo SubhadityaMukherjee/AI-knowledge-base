@@ -3,7 +3,7 @@ title: Useful Codes
 ---
 
 # Useful Codes
-- [[Parallel Runner]]
+- [Parallel Runner](Parallel%20Runner.md)
 
 
 
@@ -102,9 +102,3 @@ title: Useful Codes
 
 
 
-## Backlinks
-
-> - [](DeepLearning.md)
->   - [[Useful Codes]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

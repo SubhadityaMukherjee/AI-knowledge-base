@@ -4,15 +4,15 @@ title: Effect of Depth
 
 # Effect of Depth
 - Adding skip connections make the loss surface smoother
-- ![[assets/Pasted image 20220306132740.png|im]]
+- ![im](assets/Pasted%20image%2020220306132740.png)
 
 ## Deeper Architectures
 - Makes more uneven and chaotic
-- ![[assets/Pasted image 20220306132843.png|im]]
+- ![im](assets/Pasted%20image%2020220306132843.png)
 
 ## Wider Architectures
 - Makes landscape smoother and flatter
-- ![[assets/Pasted image 20220306132940.png|im]]
+- ![im](assets/Pasted%20image%2020220306132940.png)
 
 
 
@@ -111,12 +111,3 @@ title: Effect of Depth
 
 
 
-## Backlinks
-
-> - [References](Refs.md)
->   - Li, Xu, Taylor, Studer, Goldstein, Visualizing the Loss Landscape of Neural Nets, NeurlPS, 2018 [[Effect_Of_Depth]]
->    
-> - [Skip Connection](Skip Connection.md)
->   - [[Effect_Of_Depth]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

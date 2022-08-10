@@ -4,7 +4,7 @@ tags: parallel
 ---
 
 # Memory to Memory Architecture
-- ![[assets/Pasted image 20220506153552.png|im]]
+- ![im](assets/Pasted%20image%2020220506153552.png)
 - For all vector operation, operands are fetched directly from main memory, then routed to the functional unit
 - Results are written back to main memory
 - Large startup time
@@ -106,9 +106,3 @@ tags: parallel
 
 
 
-## Backlinks
-
-> - [Vector Processor](Vector Processor.md)
->   - [[Memory to Memory Architecture]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

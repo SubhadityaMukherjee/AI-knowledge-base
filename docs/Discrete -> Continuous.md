@@ -4,13 +4,13 @@ title: Discrete -> Continous Transforms
 
 # Discrete -> Continous Transforms
 
-## [[One hot]]
+## [One hot](One%20hot.md)
 
-## [[Binary pattern]]
+## [Binary pattern](Binary%20pattern.md)
 
-## [[Linear scale]]
+## [Linear scale](Linear%20scale.md)
 
-## [[Word Vectors]]
+## [Word Vectors](Word%20Vectors.md)
 
 
 
@@ -109,9 +109,3 @@ title: Discrete -> Continous Transforms
 
 
 
-## Backlinks
-
-> - [Encoding](Encodings.md)
->   - ## [[Discrete -> Continuous]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

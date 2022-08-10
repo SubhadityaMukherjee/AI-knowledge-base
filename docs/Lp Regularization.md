@@ -3,8 +3,8 @@ title: Lp Regularization
 tags: regularize
 ---
 
-# Lp [[Regularization]]
-- ![[assets/Pasted image 20220626150853.png]] (from [link](https://github.com/christianversloot/machine-learning-articles/blob/main/which-regularizer-do-i-need-for-training-my-neural-network.md))
+# Lp [Regularization](Regularization.md)
+- ![[assets/Pasted image 20220626150853.png](from%20%5Blink))
 - Tikhonov
 - Penalty considering weights
 - $$L^\ast(\theta) = L(\theta) + \lambda \Sigma_i |\theta_i|^p$$
@@ -14,13 +14,13 @@ tags: regularize
 		- With linear model : feature selection
 	- Weight Decay
 		- p = 2
-		- [[Bayesian]]
+		- [Bayesian](Bayesian.md)
 		- Encourages optimization trajectory perpendicular to isocurves
-		- ![[assets/Pasted image 20220306133032.png|im]]
+		- ![im](assets/Pasted%20image%2020220306133032.png)
 - Tune $$\lambda$$
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit
-	- [[Cross Validation]] required
+	- [Cross Validation](Cross%20Validation.md) required
 
 
 
@@ -49,27 +49,3 @@ tags: regularize
 
 
 
-## Backlinks
-
-> - [Sparse Dict Learning Loss](Sparse Dictionary Learning Loss.md)
->   - $\lambda \Sigma_i |r_i|$ is Lasso/L1 [[Lp Regularization]]
->    
-> - [Regularization](Regularization.md)
->   - [[Lp Regularization]]
->    
-> - [Cosine Similarity](Cosine Similarity.md)
->   - [[Lp Regularization]] l2norm aka p = 2
->    
-> - [Term](Regularization Term.md)
->   - [[Lp Regularization]] for p =2
->    
-> - [No Bias Decay](No bias decay.md)
->   - Equivalent to [[Lp Regularization]] L2 to all parameters to drive the values towards 0
->    
-> - [Sentiment Neuron](Sentiment Neuron.md)
->   - Linear model + L1 [[Lp Regularization]]
->    
-> - [FaceNet](FaceNet.md)
->   - squared [[Lp Regularization]] L2 distance,  in the [[Embedding|embedding]] space directly correspond to face similarity: faces of the same person have small distances and faces of distinct people have large distances
-
-_Backlinks last generated 2022-07-26 20:33:15_

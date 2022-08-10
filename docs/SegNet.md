@@ -4,7 +4,7 @@ tags: architecture
 ---
 
 # Seg Net
-- Precursor to [[Unet]]
+- Precursor to [Unet](Unet.md)
 - No Skip connections
 
 

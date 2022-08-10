@@ -2,7 +2,7 @@
 title: Basics of Federated Learning
 ---
 
-# Basics of [[Federated Learning]]
+# Basics of [Federated Learning](Federated%20Learning.md)
 1. Get data (Hopefully a lot)
 2. Preprocess (aka clean up) the data
 3. Find/create an architecture
@@ -111,9 +111,3 @@ title: Basics of Federated Learning
 
 
 
-## Backlinks
-
-> - [Federated Learning](Federated Learning.md)
->   - [[Basics of Federated Learning]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

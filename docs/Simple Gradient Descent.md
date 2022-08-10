@@ -43,9 +43,3 @@ tags: optimizer gradients
 
 
 
-## Backlinks
-
-> - [Gradient Descent #gradients](Gradient Descent gradients.md)
->   - [[Simple Gradient Descent]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -39,9 +39,3 @@ gr.Interface(fn=predict,inputs=gr.inputs.Image(shape=(512, 512)),outputs=gr.outp
 
 
 
-## Backlinks
-
-> - [Fastai Deployment](Fastai Deployment.md)
->   - [[Gradio]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

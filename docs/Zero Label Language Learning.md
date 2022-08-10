@@ -6,7 +6,7 @@ tags:
 
 # Zero Label Language Learning
 - [Towards Zero-Label Language Learning](https://arxiv.org/abs/2109.09193)
-- [[Unsupervised Data Generation]]
+- [Unsupervised Data Generation](Unsupervised%20Data%20Generation.md)
 - SuperGLUE
 - Treat LMs as few-shot generators (rather than few-shot learners)
 - Create prompts with <sample, label> pair(s)

@@ -4,20 +4,20 @@ tags: regularize
 ---
 
 # Regularization
-- [[Regularization Term]]
-- [[Dropout]]
+- [Regularization Term](Regularization%20Term.md)
+- [Dropout](Dropout.md)
 
-- [[VariationalRecurrent Dropout]]
+- [VariationalRecurrent Dropout](VariationalRecurrent%20Dropout.md)
 
-- [[Batch Normalization]]
+- [Batch Normalization](Batch%20Normalization.md)
 
-- [[Layer Normalization]]
+- [Layer Normalization](Layer%20Normalization.md)
 
-- [[Augmentation]]
+- [Augmentation](Augmentation.md)
 
-- [[Lp Regularization]]
-- [[Pruning]]
-- [[Effects of Regularization]]
+- [Lp Regularization](Lp%20Regularization.md)
+- [Pruning](Pruning.md)
+- [Effects of Regularization](Effects%20of%20Regularization.md)
 
 
 

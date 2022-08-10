@@ -12,9 +12,9 @@ title: Dictionary Learning
 		- D is a dict with basis vectors
 		- R contains weights. Scalar
 		- $$||d_i|| \leq 1$$
-- [[Sparse Dictionary Learning Loss]]
+- [Sparse Dictionary Learning Loss](Sparse%20Dictionary%20Learning%20Loss.md)
 
-- After learning, these can be used as discriminative [[Features|features]]
+- After learning, these can be used as discriminative [features](Features.md)
 	- Expensive to compute
 
 

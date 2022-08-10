@@ -4,8 +4,8 @@ tags: language
 ---
 
 # Application Dependence
-- Word and [[Sentence Segmentation|sentence segmentation]] are necessary
-- [[Tokenizer]]
+- Word and [sentence segmentation](Sentence%20Segmentation.md) are necessary
+- [Tokenizer](Tokenizer.md)
 
 
 
@@ -104,9 +104,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Text Segmentation](Text Segmentation.md)
->   - [[Application dependence]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -3,8 +3,8 @@ title: Transitive verb
 tags: language
 ---
 
-# Transitive [[Verb]]
-- a [[Verb|verb]] with a direct [[noun]] object
+# Transitive [Verb](Verb.md)
+- a [verb](Verb.md) with a direct [noun](noun) object
 - I cooked a duck belonging to her
 
 

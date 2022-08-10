@@ -5,12 +5,12 @@ tags: visualization
 
 # Isoline
 - 2D
-- [[Contour]] line
+- [Contour](Contour.md) line
 - $$\{(x,y|f(x,y)=c\}$$
 - Curve along function has constant value c
-- ![[assets/Pasted image 20220411133253.png|im]]
-- [[Marching Squares]]
-- ![[assets/Pasted image 20220411133700.png|im]]
+- ![im](assets/Pasted%20image%2020220411133253.png)
+- [Marching Squares](Marching%20Squares.md)
+- ![im](assets/Pasted%20image%2020220411133700.png)
 - No isoline inside cells with same signs
 - only consider cells with different signs
 - access look-up table for respective case
@@ -112,12 +112,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Orthogonal Slicing](Orthogonal Slicing.md)
->   - Use [[visualization]] techniques for [[Isoline]], [[Height Plots]]
->    
-> - [Contours](Contour.md)
->   - [[Isoline]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

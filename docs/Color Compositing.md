@@ -4,12 +4,12 @@ tags: visualization
 ---
 
 # Color Compositing
-- ![[assets/Pasted image 20220418002036.png|im]]
+- ![im](assets/Pasted%20image%2020220418002036.png)
 - $$C_{i}= c_{i}+ (1-o_{i})C_{i-1}$$
 - where
 - $$c_{i}= o_{i}c_{i}'$$
-- ![[assets/Pasted image 20220418003237.png|im]]
-- First is same as [[Marching Cubes]]
+- ![im](assets/Pasted%20image%2020220418003237.png)
+- First is same as [Marching Cubes](Marching%20Cubes.md)
 - $$I(p) = \begin{cases*}
 
 f(\sigma)&  $\exists t \in [0,T], s(t) = \sigma$ \\
@@ -116,12 +116,3 @@ I_{o}&otherwise
 
 
 
-## Backlinks
-
-> - [Front to Back [[Raycasting]]](Front to Back Raycasting.md)
->   - [[Color Compositing]]
->    
-> - [Raycasting](Raycasting.md)
->   - [[Color Compositing]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

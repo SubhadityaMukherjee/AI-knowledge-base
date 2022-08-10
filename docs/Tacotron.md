@@ -5,14 +5,14 @@ tags: einsum architecture
 
 # Tacotron
 - CBHG
-	- [[Conv]] + [[Highway Convolutions]] + [[Skip Connection]] + [[GRU)](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU)]].md)
+	- [Gated Recurrent Unit (GRU|[Conv](Gated%20Recurrent%20Unit%20(GRU)]].md)
 
 ```python
 class CBHG_Old(nn.Module):
-    """CBHG module: a [[Recurrent|recurrent]] neural network composed of:
+    """CBHG module: a [recurrent](Recurrent.md) neural network composed of:
         - 1-d convolution banks
         - Highway networks + residual connections
-        - Bidirectional gated [[Recurrent|recurrent]] units
+        - Bidirectional gated [recurrent](Recurrent.md) units
     """
 
     def __init__(self, in_dim, K=16, projections=[128, 128]):

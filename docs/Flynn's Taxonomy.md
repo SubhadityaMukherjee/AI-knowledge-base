@@ -5,10 +5,10 @@ tags: parallel
 
 # Flynn's Taxonomy
 - Classify multi processor architectures
-- [[SISD]]
-- [[SIMD]]
-- [[MISD]]
-- [[MIMD]]
+- [SISD](SISD.md)
+- [SIMD](SIMD.md)
+- [MISD](MISD.md)
+- [MIMD](MIMD.md)
 
 
 

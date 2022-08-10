@@ -12,7 +12,6 @@
   "obsidian-vimrc-support",
   "obsidian-dynamic-embed",
   "templater-obsidian",
-  "obsidian-pluck",
   "obsidian-local-images",
   "metaedit",
   "obsidian-frontmatter-tag-suggest",
@@ -24,5 +23,6 @@
   "obsidian-doubleshift",
   "daily-activity",
   "typing-transformer-obsidian",
-  "obsidian-link-converter"
+  "obsidian-link-converter",
+  "obsidian-extract-pdf-highlights"
 ]

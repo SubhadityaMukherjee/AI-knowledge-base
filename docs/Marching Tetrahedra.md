@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Marching Tetrahedra
-- Unstructured [[Grids]]
+- Unstructured [Grids](Grids.md)
 - May split other cell types into tetrahedra, however, at the cost of introduced error
 
 
@@ -104,9 +104,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Isosurface](Isosurface.md)
->   - [[Marching Tetrahedra]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

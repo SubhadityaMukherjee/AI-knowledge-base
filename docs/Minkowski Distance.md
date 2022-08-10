@@ -5,7 +5,7 @@ tags: distance
 ---
 
 # Minkowski Distance
-- ![[assets/Pasted image 20220623160934.png]]
+- ![Pasted image 20220623160934](assets/Pasted%20image%2020220623160934.png)
 - $$D(x,y) = (\Sigma_{i=1}^{n}|x_{i}-y_{i}|^{p})^{\frac{1}{p}}$$
 - It is a metric used in Normed vector space (n-dimensional real space), which means that it can be used in a space where distances can be represented as a vector that has a length.
 	- Zero Vector — The zero vector has a length of zero whereas every other vector has a positive length. For example, if we travel from one place to another, then that distance is always positive. However, if we travel from one place to itself, then that distance is zero.
@@ -13,9 +13,9 @@ tags: distance
 	- Triangle Inequality — The shortest distance between two points is a straight line.
 - Most interestingly about this distance measure is the use of parameter p. We can use this parameter to manipulate the distance metrics to closely resemble others.
 - Common values of p are:
-	- p=1 — [[Manhattan Distance]]
-	- p=2 — [[Euclidean Distance]]
-	- p=$\infty$  — [[Chebyshev Distance]]
+	- p=1 — [Manhattan Distance](Manhattan%20Distance.md)
+	- p=2 — [Euclidean Distance](Euclidean%20Distance.md)
+	- p=$\infty$  — [Chebyshev Distance](Chebyshev%20Distance.md)
 - The upside to p is the possibility to iterate over it and find the distance measure that works best for your use case.
 
 
@@ -61,9 +61,3 @@ tags: distance
 
 
 
-## Backlinks
-
-> - [Distance Measures](Distance Measures.md)
->   - [[Minkowski Distance]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

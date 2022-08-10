@@ -19,8 +19,8 @@ title: Time Series Prediction
 - Short range
 	- PDE , ODE
 - Long range
-	- [[HMM]]
-	- [[Recurrent]]
+	- [HMM](HMM)
+	- [Recurrent](Recurrent.md)
 
 
 
@@ -119,15 +119,3 @@ title: Time Series Prediction
 
 
 
-## Backlinks
-
-> - [Window Based Regression](Window Based Regression.md)
->   - [[TIme Series]]
->    
-> - [Autoregressive](Autoregressive.md)
->   - predict the future by past of [[TIme Series]]
->    
-> - [Causal Systems](Causal Systems.md)
->   - [[TIme Series]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

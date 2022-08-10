@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Entourage Plot
-- ![[assets/Pasted image 20220506155757.png|im]]
+- ![im](assets/Pasted%20image%2020220506155757.png)
 
 
 

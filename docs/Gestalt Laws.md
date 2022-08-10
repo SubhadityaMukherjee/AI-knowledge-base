@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Gestalt Laws
-- ![[assets/Pasted image 20220418104002.png|im]]
+- ![im](assets/Pasted%20image%2020220418104002.png)
 - Good form can dominate other laws
 - crossing swarms in our visual field are perceived as different swarms
 
@@ -105,12 +105,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Perception](Perception.md)
->   - [[Gestalt Laws]]
->    
-> - [Bend Minimization](Bend Minimization.md)
->   - Curved lines easier to follow than edged lines  [[Gestalt Laws]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

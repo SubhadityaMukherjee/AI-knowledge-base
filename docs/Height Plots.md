@@ -7,7 +7,7 @@ tags: visualization
 - 2D scalar field
 - $$\{(x,y, f(x,y))|(x,y)\in \mathbb{R}^{2}\}$$
 - Displacement along $z = f(x,y)$
-- ![[assets/Pasted image 20220411133101.png|im]]
+- ![im](assets/Pasted%20image%2020220411133101.png)
 
 
 
@@ -106,12 +106,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Orthogonal Slicing](Orthogonal Slicing.md)
->   - Use [[visualization]] techniques for [[Isoline]], [[Height Plots]]
->    
-> - [Mapping to Geometry](Mapping to Geometry.md)
->   - [[Height Plots]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

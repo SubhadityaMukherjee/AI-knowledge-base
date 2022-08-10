@@ -104,15 +104,3 @@ tags: loss
 
 
 
-## Backlinks
-
-> - [Window Based Regression](Window Based Regression.md)
->   - Flatten into $$d \cdot k$$ vector and apply [[Quadratic Loss]]
->    
-> - [Bias Vs Variance](Bias Variance Dilemma.md)
->   - [[Quadratic Loss]] (risk) is minimized by the function $$\Delta(x) = E_{Y|X=x}[Y]$$
->    
-> - [Linear Regression](LinearRegression.md)
->   - [[Quadratic Loss]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

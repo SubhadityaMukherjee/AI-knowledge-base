@@ -3,7 +3,7 @@ title: Content Morpheme
 tags: language
 ---
 
-# Content [[Morpheme]]
+# Content [Morpheme](Morpheme.md)
 - carry some semantic content
 - e.g. able, un, van
 
@@ -104,9 +104,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Morpheme](Morpheme.md)
->   - [[Content Morpheme]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -4,7 +4,7 @@ tags: application
 ---
 
 # Image Captioning
-![[assets/Pasted image 20220307183552.png|im]]
+![im](assets/Pasted%20image%2020220307183552.png)
 
 
 

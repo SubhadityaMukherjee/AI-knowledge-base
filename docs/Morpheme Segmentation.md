@@ -3,7 +3,7 @@ title: Morpheme Segmentation
 tags: language
 ---
 
-# [[Morpheme]] Segmentation
+# [Morpheme](Morpheme.md) Segmentation
 - De-nation-al-iz-ation
 
 
@@ -103,9 +103,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Morpheme](Morpheme.md)
->   - [[Morpheme Segmentation]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

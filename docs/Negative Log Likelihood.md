@@ -7,7 +7,7 @@ tags: loss
 - Classification,  Smaller quicker training, Simple tasks.
 
 $$ - \mathrm{sum}\left( \log\left( y \right) \right)$$
-- [[Log Likelihood Loss]]
+- [Log Likelihood Loss](Log%20Likelihood%20Loss.md)
 
 
 

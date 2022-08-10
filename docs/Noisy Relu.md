@@ -3,7 +3,7 @@ title: Noisy Relu
 tags: architecture 
 ---
 
-# Noisy [[Relu]]
+# Noisy [Relu](Relu.md)
 - $$f(x) = max(0, x+Y) $$ where $$Y\in Normal(0,1)$$
 
 
@@ -103,9 +103,3 @@ tags: architecture
 
 
 
-## Backlinks
-
-> - [Relu](Relu.md)
->   - [[Noisy Relu]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

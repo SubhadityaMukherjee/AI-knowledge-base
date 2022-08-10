@@ -105,9 +105,3 @@ tags: language
 
 
 
-## Backlinks
-
-> - [Pragmatics](Pragmatics.md)
->   - [[Parts of entities]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

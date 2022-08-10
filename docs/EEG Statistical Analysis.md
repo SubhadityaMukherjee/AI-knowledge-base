@@ -2,8 +2,8 @@
 title: EEG Statistical Analysis
 ---
 
-# [[EEG]] Statistical Analysis
-- [[EEG Cluster Testing]]
+# [EEG](EEG.md) Statistical Analysis
+- [EEG Cluster Testing](EEG%20Cluster%20Testing.md)
 
 
 
@@ -102,9 +102,3 @@ title: EEG Statistical Analysis
 
 
 
-## Backlinks
-
-> - [EEG](EEG.md)
->   - [[EEG Statistical Analysis]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

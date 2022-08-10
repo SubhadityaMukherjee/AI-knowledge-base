@@ -9,7 +9,7 @@ tags: architecture
 - Huggingface
 - general-purpose pre-trained version of BERT
 - 40% smaller, 60% faster, cheaper to pre-train, and retains 97% of the language understanding capabilities
-- [[Knowledge Distillation|knowledge distillation]] during the pre-training phase
+- [knowledge distillation](Knowledge%20Distillation.md) during the pre-training phase
 - triple loss combining language modeling, distillation and cosine-distance losses
 
 

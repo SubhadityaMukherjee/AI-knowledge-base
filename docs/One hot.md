@@ -7,7 +7,7 @@ title: One Hot Encoding
 - Turn each $a_{v}$ into k dim binary vector $v_{v} \in {0,1}^{k}$ which is 0 everywhere execpt at position v
 - Symbolic input
 - k dim one hot vector
-- ![[assets/Pasted image 20220315234556.png|im]]
+- ![im](assets/Pasted%20image%2020220315234556.png)
 
 
 
@@ -106,12 +106,3 @@ title: One Hot Encoding
 
 
 
-## Backlinks
-
-> - [Binary Pattern Encoding](Binary pattern.md)
->   - [[One hot]] is too huge
->    
-> - [Discrete -> Continous Transforms](Discrete -> Continuous.md)
->   - ## [[One hot]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -2,9 +2,9 @@
 title: EEG Filtering
 ---
 
-# [[EEG]] [[Filtering]]
-- ![[assets/Pasted image 20220502153920.png|im]]
-- Remove 50/60Hz [[Notch filter|notch filter]] for line noise
+# [EEG](EEG.md) [Filtering](Filtering.md)
+- ![im](assets/Pasted%20image%2020220502153920.png)
+- Remove 50/60Hz [notch filter](Notch%20filter.md) for line noise
 - Might introduce distortion
 
 
@@ -104,9 +104,3 @@ title: EEG Filtering
 
 
 
-## Backlinks
-
-> - [EEG](EEG.md)
->   - [[EEG Filtering]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

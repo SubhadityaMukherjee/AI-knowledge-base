@@ -3,8 +3,8 @@ title: Reg Uncertainty
 tags: uncertainty
 ---
 
-# Reg [[Uncertainty]]
-- [[LinearRegression]]
+# Reg [Uncertainty](Uncertainty.md)
+- [LinearRegression](LinearRegression.md)
 - Confidence intervals
 - Prob that output belongs to this interval
 - $f(x) \in [a,b]$
@@ -100,9 +100,3 @@ tags: uncertainty
 
 
 
-## Backlinks
-
-> - [Uncertainty](Uncertainty.md)
->   - [[Uncertainity in regression]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

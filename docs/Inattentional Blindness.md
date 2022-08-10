@@ -4,8 +4,8 @@ tags: visualization
 ---
 
 # Inattentional Blindness
-- Viewers can fail to perceive visual elements or activities caused by an absence of [[Attention|attention]] to the unseen object
-- Related to [[Change Blindness]]
+- Viewers can fail to perceive visual elements or activities caused by an absence of [attention](Attention.md) to the unseen object
+- Related to [Change Blindness](Change%20Blindness.md)
 
 
 
@@ -104,9 +104,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Perception](Perception.md)
->   - [[Inattentional Blindness]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

@@ -4,7 +4,7 @@ tags: visualization
 ---
 
 # Shading
-- ![[assets/Pasted image 20220418001034.png|im]]
+- ![im](assets/Pasted%20image%2020220418001034.png)
 
 
 
@@ -103,9 +103,3 @@ tags: visualization
 
 
 
-## Backlinks
-
-> - [Volumetric Illumination](Volumetric Illumination.md)
->   - [[Shading]]
-
-_Backlinks last generated 2022-07-26 20:33:15_

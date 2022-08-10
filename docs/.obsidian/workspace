@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "93ea861b4ea35418",
+        "id": "2c57aea00f99005a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "dataset.md",
+            "file": "index.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#parallel",
+                "query": "tag:#loss",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dataset.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dataset.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dataset.md"
+                "file": "index.md"
               }
             }
           }
@@ -135,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "dataset.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -170,17 +170,17 @@
     "direction": "horizontal",
     "width": 236.5
   },
-  "active": "93ea861b4ea35418",
+  "active": "9a7e775c5a38c45d",
   "lastOpenFiles": [
-    "visualization.md",
-    "language.md",
-    "Curriculum.md",
+    "psychology.md",
+    "Elman 1990.md",
+    "index.md",
     "architecture.md",
-    "Architectures.md",
-    "Roam-Highlights.md",
-    "ADVENT.md",
-    "Direct entropy minimization.md",
-    "ADE20K.md",
-    "Kvasir Dataset.md"
+    "Token Embedding.md",
+    "Word2Vec.md",
+    "Adaptive Input Representation.md",
+    "Adagrad.md",
+    "AdaDelta.md",
+    "Action Transitive verb.md"
   ]
 }

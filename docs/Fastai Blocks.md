@@ -2,7 +2,7 @@
 title: Fastai Blocks
 
 tags: library 
-date modified: Wednesday, August 10th 2022, 11:41:29 am
+date modified: Wednesday, August 10th 2022, 2:01:41 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 

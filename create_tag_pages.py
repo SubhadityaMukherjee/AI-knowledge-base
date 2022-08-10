@@ -9,7 +9,7 @@ main_dir = Path("./docs/")
 files = glob(str(main_dir) + "/**/*.md", recursive=True)
 files.sort()
 
-tag_list = ["architecture", "language", "visualization", "dataset", "psychology", "loss", "regularize", "uncertainty", "cogneuro"]
+tag_list = ["architecture", "language", "visualization", "dataset", "psychology", "loss", "regularize", "uncertainty", "cogneuro", "brain"]
 
 dict_tags = {x:[] for x in tag_list}
 
@@ -44,5 +44,5 @@ for tag in tag_list:
     with open(f"docs/{tag}.md", "w+") as tagfile:
         tagfile.write(f_string)
         for fle in files_in_tag:
-            fle = fle.replace('docs/','')
-            tagfile.write(f"- [{fle}]({fle})\n")
+            fle = fle.replace('docs/','').replace(" ", "%20")
+            tagfile.write(f"- [{fle.replace('%20', ' ')}]({fle})\n")

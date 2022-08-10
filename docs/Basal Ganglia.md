@@ -1,7 +1,7 @@
 ---
 title: Basal Ganglia
 tags: brain
-date modified: Wednesday, August 10th 2022, 11:41:31 am
+date modified: Wednesday, August 10th 2022, 7:05:56 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,4 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Pineal gland](Pineal%20gland.md)
 - [Thalamus](Thalamus.md)
 - [Limbic system](Limbic%20system.md)
+
+# Basal Ganglia
+- A group of structures below the cortex involved in motor, cognitive, and emotional functions.
 

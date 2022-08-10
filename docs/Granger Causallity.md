@@ -1,7 +1,7 @@
 ---
 title: Granger Causallity
 tags: brain
-date modified: Wednesday, August 10th 2022, 11:41:28 am
+date modified: Wednesday, August 10th 2022, 7:05:52 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Theres some causality but not sure if physical or causal
 - ![im](assets/Pasted%20image%2020220502162343.png)
 - Partial Directed Coherence
-- Directed Transfer Function
+- Directed [Transfer Function](Transfer%20Function.md)
 - ![im](assets/Pasted%20image%2020220502162559.png)
 	- Magnitude vs freq
 	- Undirected

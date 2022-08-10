@@ -2,7 +2,7 @@
 title: i-Code
 
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 11:41:21 am
+date modified: Wednesday, August 10th 2022, 7:05:44 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -16,7 +16,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - new objectives including (i) masked modality modeling and (ii) cross-modality contrastive learning
 - pretraining on dual-modality datasets can also yield competitive or even better performance than pretraining on videos, the data resource that previous three-modality models were restricted to
 - dynamically process single, dual, and triple-modality data during training and inference, flexibly projecting different combinations of modalities into a single representation space
-- GLUE
+- [GLUE](GLUE.md)
 - merge-attention [layers](Layers.md) and (b) co-[attention](Attention.md) [layers](Layers.md)
 - fusion architecture
 - mechanisms that merge and cross the [attention](Attention.md) scores of different modalities, namely merge-[attention](Attention.md) (based on self-[attention](Attention.md)) and co-[attention](Attention.md) (based on self- and cross-[attention](Attention.md)) respectively

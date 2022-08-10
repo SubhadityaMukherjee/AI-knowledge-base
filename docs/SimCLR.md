@@ -1,6 +1,6 @@
 ---
 tags: temp
-date modified: Wednesday, August 10th 2022, 11:41:23 am
+date modified: Wednesday, August 10th 2022, 7:05:47 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -19,7 +19,7 @@ tags: architecture
 	- composition of data augmentations plays a critical role in defining effective predictive tasks
 	- introducing a learnable nonlinear transformation between the representation and the [contrastive loss](Contrastive%20Loss.md) substantially improves the quality of the learned representations
 	- contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning
-	- use of a nonlinear head at the end of the network, and the loss function
+	- use of a nonlinear head at the end of the network, and the [loss](loss.md) function
 	- [Res Net](Res%20Net.md)
 	- Two separate data [augmentation](Augmentation.md) operators are sampled from the same family of augmentations
 	- applied to each data example to obtain two correlated views

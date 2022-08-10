@@ -2,7 +2,7 @@
 title: ViLT
 
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 11:41:22 am
+date modified: Wednesday, August 10th 2022, 7:05:45 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,7 +15,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - minimal VLP model, which is monolithic in that the processing of visual inputs is drastically simplified to just the same convolution-free manner that they process textual inputs
 - removing the need for object detectors
 - avoiding heavyweight image encoders by directly [embedding](Embedding.md) low-level pixel data with a single-layer projection and achieves similar results with reduced complexity,
-- Self-supervision is accomplished using (i) Image Text Matching (ITM) loss and (ii) Masked Language Model (MLM) loss
+- Self-supervision is accomplished using (i) Image Text Matching (ITM) [loss](loss.md) and (ii) Masked Language Model (MLM) [loss](loss.md)
 - [ITM Loss](ITM%20Loss.md)
 - For text, ViLT simply reuses Masked Language Model - (MLM), used in BERT.
 - [MSCOCO](MSCOCO.md)

@@ -1,0 +1,9 @@
+---
+tags: brain
+date created: Wednesday, August 10th 2022, 7:05:00 pm
+date modified: Wednesday, August 10th 2022, 7:05:40 pm
+---
+
+# [Axon](Axon.md) Terminal
+- The very end of the [axon](Axon.md), where electrochemical signals are passed through the synapse to neighboring cells by means of neurotransmitters and other neurochemicals. A collection of axons coming from, or going to, a specific brain area may be called a white matter fiber tract.
+

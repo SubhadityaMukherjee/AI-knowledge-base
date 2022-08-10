@@ -1,0 +1,9 @@
+---
+tags: robotics
+date created: Wednesday, August 10th 2022, 5:41:04 pm
+date modified: Wednesday, August 10th 2022, 7:05:41 pm
+---
+
+# Compliant Robot
+- A robot that performs tasks, with respect to external forces, by modifying its motions in a manner that minimizes those forces. The indicated or allowed motion is accomplished through lateral (horizontal), axial (vertical) or rotational compliance.
+

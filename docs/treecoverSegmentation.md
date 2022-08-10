@@ -1,7 +1,7 @@
 ---
 title: Tree Cover Segmentation
 tags: application
-date modified: Wednesday, August 10th 2022, 11:41:20 am
+date modified: Wednesday, August 10th 2022, 7:05:43 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,7 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Jiggling ??
 	- Labeling
 		- ![im](assets/Pasted%20image%2020220318094643.png) Segmentation algorithm. Canopy hide model
-		- Weighted loss + [Focal Loss](Focal%20Loss.md)
+		- Weighted [loss](loss.md) + [Focal Loss](Focal%20Loss.md)
 
 ## 2d Methods
 - [Watershed](Watershed) + [Unet](Unet.md)

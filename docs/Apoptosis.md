@@ -1,0 +1,9 @@
+---
+tags: brain
+date created: Wednesday, August 10th 2022, 7:05:00 pm
+date modified: Wednesday, August 10th 2022, 7:05:40 pm
+---
+
+# Apoptosis
+- A form of programmed cell death that occurs as part of normal growth and development.
+

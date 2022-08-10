@@ -2,7 +2,7 @@
 title: Interpretability vs Neuroscience
 
 tags: cogneuro uncertainty 
-date modified: Wednesday, August 10th 2022, 11:41:27 am
+date modified: Wednesday, August 10th 2022, 7:05:51 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,8 +15,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Turn arounds are much faster than biological experiments
 - There's no recording noise, No synaptic fatigue.
 
-## Not Only Do You Have the Connectome, You Have the Weights!
-- A major undertaking in neuroscience is the attempt to access the connectome
+## Not Only Do You Have the [Connectome](Connectome.md), You Have the Weights!
+- A major undertaking in neuroscience is the attempt to access the [connectome](Connectome.md)
 - Even if they succeed, they won’t know the weights of those connections
 - With artificial neural networks, all the connections and weights are simply there for us to look at.
 - And since we also know how these artificial neurons are computed, in principle we have everything we need to just reason through and understand the neural network.
@@ -30,20 +30,20 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - This means we can just literally study every single neuron.
 
 ## Establishing Causality by Optimizing the Input
-- one of the thorniest issues in understanding neurons in artificial networks is separating correlation from causation.
+- one of the thorniest issues in understanding neurons in artificial networks is separating [correlation](Correlation.md) from causation.
 - Does a neuron detect a dog head? Or does it just detect part of a dog head?
 - There's a second very closely related problem: we don't know what the space of likely functions a neuron might perform is.
 - this is also a challenge in neuroscience.
 - We create stimuli “from scratch” to strongly activate neurons (or combinations of neurons) in artificial neural networks, by starting with random noise and optimizing the input.
-- The key property of feature visualization is that anything in the resulting visualization there because it caused the neuron to fire more
-- If feature visualization gives you a fully formed dog head with eyes and ears arranged appropriately, it must be detecting an entire dog head
+- The key property of feature [visualization](visualization.md) is that anything in the resulting [visualization](visualization.md) there because it caused the neuron to fire more
+- If feature [visualization](visualization.md) gives you a fully formed dog head with eyes and ears arranged appropriately, it must be detecting an entire dog head
 - If it just gives an eye, it's probably only (or at least primarily) responding to that.
 - Recent efforts in neuroscience have tried to develop similar methods [], by using an artificial neural network as a proxy for a biological one.
 - unclear they give you the same ability to establish a causal link.
-- It seems hard to exclude the possibility that the resulting stimulus might have content which causes the artificial neurons predicting the biological neuron to fire more, but aren't causally necessary for the biological neuron to fire.
+- It seems hard to exclude the possibility that the resulting stimulus might have content which causes the artificial neurons predicting the [biological neuron](Biological%20Neuron.md) to fire more, but aren't causally necessary for the [biological neuron](Biological%20Neuron.md) to fire.
 
 ## Interventions, Ablations, and Edits
-- Optogenetics has been a major methodological advance for neuroscience in allowing neuroscientists to temporarily ablate neurons, or to force them to activate.
+- [Optogenetics](Optogenetics.md) has been a major methodological advance for neuroscience in allowing neuroscientists to temporarily ablate neurons, or to force them to activate.
 - Artificial neural networks are trivial to manipulate at the level of neurons
 - One can easily ablate neurons or set them to particular activations
 - But one can also do more powerful "circuit editing" where one modifies parameters at a finer grained level.

@@ -1,7 +1,7 @@
 ---
 title: SiteMap
 tags: index
-date modified: Wednesday, August 10th 2022, 2:11:05 pm
+date modified: Wednesday, August 10th 2022, 5:47:53 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- In essence, it will have something on things that I learn
 - How to go about finding things?
 	- Scroll the sidebar and pick something you like. Click the links inside it to go about. Choose your own adventure.
-- Major topics
+- Major topics (These index pages are auto generated and might have errors sometimes)
 	- Deep learning
 		- [Deep Learning architectures](architecture.md)
 		- [Loss Functions](loss.md)
@@ -20,6 +20,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- [Pytorch Tricks](Pytorch%20Tricks.md)
 		- [Regularizing stuff](regularize.md)
 	- Others
+		- [Robotics](robotics.md)
 		- [Brain](brain.md)
 		- [Visualization](visualization.md)
 		- [Language](language.md)

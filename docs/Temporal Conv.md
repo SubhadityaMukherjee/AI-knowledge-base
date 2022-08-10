@@ -1,7 +1,7 @@
 ---
 title: Temporal Conv
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 3:48:24 pm
+date modified: Wednesday, August 10th 2022, 7:05:46 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 

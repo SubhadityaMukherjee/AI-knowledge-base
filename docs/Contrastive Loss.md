@@ -1,11 +1,11 @@
 ---
 title: Contrastive Loss
 tags: loss
-date modified: Wednesday, August 10th 2022, 11:41:30 am
+date modified: Wednesday, August 10th 2022, 7:05:55 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Contrastive Loss
+# Contrastive [Loss](loss.md)
 - Minimize distance between similar inputs [Gradient Descent gradients](Gradient%20Descent%20gradients.md), maximize between dissimilar [Gradient Ascent](Gradient%20Ascent.md)
 - Learn [Embedding](Embedding.md)/Feature space using neighbors
 - dim(Embedding d) < dim(input Space D)

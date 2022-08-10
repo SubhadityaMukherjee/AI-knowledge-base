@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0884556b16fee866",
+        "id": "d70d785e3b14199b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "LeCun Init.md",
+            "file": "Visual Cortex.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#activations",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100,
-    "collapsed": true
+    "width": 198
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeCun Init.md",
+                "file": "Visual Cortex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LeCun Init.md",
+                "file": "Visual Cortex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,12 +118,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LeCun Init.md"
+                "file": "Visual Cortex.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d0ace91d3b548220",
@@ -136,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "LeCun Init.md",
+                "file": "Visual Cortex.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,20 +167,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
-    "collapsed": true
+    "width": 236.5
   },
-  "active": "0884556b16fee866",
+  "active": "d70d785e3b14199b",
   "lastOpenFiles": [
-    "Initialization.md",
-    "Orthogonal Initialization.md",
-    "Xavier Initialization.md",
-    "Computational Graph.md",
-    "Static Graph Execution.md",
+    "Vestibular System.md",
+    "Akaike Information Criterion.md",
+    "Confusion Matrix.md",
+    "Double Descent.md",
+    "Dynamic Eager Execution.md",
+    "Gradient Accumulation.md",
     "Adaptive Gradient Clipping.md",
     "Gradient Clipping.md",
-    "Gradient Accumulation.md",
-    "Dynamic Eager Execution.md",
-    "Double Descent.md"
+    "Static Graph Execution.md",
+    "Computational Graph.md"
   ]
 }

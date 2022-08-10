@@ -2,7 +2,7 @@
 title: Z Normalization
 
 tags: temp 
-date modified: Wednesday, August 10th 2022, 4:29:48 pm
+date modified: Wednesday, August 10th 2022, 7:05:42 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

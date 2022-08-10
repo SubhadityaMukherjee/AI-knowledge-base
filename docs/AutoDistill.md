@@ -2,7 +2,7 @@
 title: AutoDistill
 
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 11:41:32 am
+date modified: Wednesday, August 10th 2022, 7:05:57 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -16,6 +16,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - proposed search comprehensively considers both prediction accuracy and serving latency on target hardware
 - TPUv4i
 - MobileBERT
-- GLUE
+- [GLUE](GLUE.md)
 - higher than BERT_BASE, DistillBERT, TinyBERT, NAS-BERT, and MobileBERT
 

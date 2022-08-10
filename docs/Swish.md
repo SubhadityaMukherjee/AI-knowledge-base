@@ -1,7 +1,7 @@
 ---
 title: Swish
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 11:41:23 am
+date modified: Wednesday, August 10th 2022, 7:05:46 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,7 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - non monotonic
 - First, it is bounded below. Swish therefore benefits from sparsity similar to ReLU. Very negative weights are simply zeroed out.
 - Second, it is unbounded above. This means that for very large values, the outputs do not saturate to the maximum value (i.e., to 1 for all the neurons). According to the authors of the Swish paper, this is what set ReLU apart from the more traditional activation functions.
-- Third, separating Swish from ReLU, the fact that it is a smooth curve means that its output landscape will be smooth. This provides benefits when optimizing the model in terms of convergence towards the minimum loss.
+- Third, separating Swish from ReLU, the fact that it is a smooth curve means that its output landscape will be smooth. This provides benefits when optimizing the model in terms of convergence towards the minimum [loss](loss.md).
 - Fourth, small negative values are zeroed out in ReLU (since f(x) = 0 for x < 0). However, those negative values may still be relevant for capturing patterns underlying the data, whereas large negative values may be zeroed out (for reasons of sparsity, as we saw above). The smoothness property and the values of f(x) < 0 for x ≈ 0 yield this benefit. This is a clear win over ReLU.
 - ![Pasted image 20220626151728](assets/Pasted%20image%2020220626151728.png)
 

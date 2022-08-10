@@ -2,7 +2,7 @@
 title: ELECTRA
 
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 11:41:29 am
+date modified: Wednesday, August 10th 2022, 7:05:54 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,6 +15,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Then, instead of training a model that predicts the original identities of the corrupted tokens, the key idea is training a discriminative text encoder model to distinguish input tokens from high-quality negative samples produced by an small generator network
 - more compute-efficient and results in better performance on downstream tasks
 - particularly strong for small models
-- GLUE
+- [GLUE](GLUE.md)
 - performs comparably to [[RoBERTa|[[RoBERTa](RoBERTa.md)](RoBERTa.md) and [XLNet](XLNet.md) while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
 

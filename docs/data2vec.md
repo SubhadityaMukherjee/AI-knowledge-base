@@ -2,7 +2,7 @@
 title: data2vec
 
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 11:41:21 am
+date modified: Wednesday, August 10th 2022, 7:05:44 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -24,7 +24,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - The instructor network is identical to the student network, except with somewhat out-of-date weights.
 - ImageNet
 - surpassed wav2vec 2.0 and HuBERT
-- GLUE
+- [GLUE](GLUE.md)
 - Method:
 - data2vec is trained by predicting the model representations of the full input data given a partial view of the input
 - They first encode a masked version of the training sample (model in student mode) and then construct training targets by encoding the unmasked version of the input sample with the same model but when parameterized as an exponentially moving average of the model weights (model in teacher mode)

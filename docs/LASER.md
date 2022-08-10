@@ -2,7 +2,7 @@
 title: LASER
 
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 11:41:27 am
+date modified: Wednesday, August 10th 2022, 7:05:51 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -21,4 +21,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [MLDoc](MLDoc.md)
 - [BUCC](BUCC.md)
 - test set of aligned sentences in 112 languages
+
+# Laser
+- Acronym for Light Amplification by Stimulated Emission of Radiation. A device that produces a coherent monochromatic beam of light which is extremely narrow and focused but still within the visible light spectrum. This is commonly used as a non-[contact sensor](Contact%20Sensor.md) for robots. Robotic applications include: distance finding, identifying accurate locations, surface mapping, bar code scanning, cutting, welding etc.
 

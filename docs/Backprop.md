@@ -1,13 +1,13 @@
 ---
 tags: temp
 title: Backprop
-date modified: Wednesday, August 10th 2022, 11:41:32 am
+date modified: Wednesday, August 10th 2022, 7:05:56 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Backprop
 - Gradient $$\nabla l(\theta) = [\frac{\partial l}{\partial \theta_1}(\theta) , … , \frac{\partial L}{\partial \theta_L}(\theta)]$$
-	- partial derivs of the loss wrt weights
+	- partial derivs of the [loss](loss.md) wrt weights
 	 Forward pass
 		- Store result of operation in u
 	- Backward Pass

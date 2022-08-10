@@ -2,7 +2,7 @@
 title: Wide Deep Recommender
 
 tags: architecture recommender
-date modified: Wednesday, August 10th 2022, 11:41:22 am
+date modified: Wednesday, August 10th 2022, 7:05:45 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -16,6 +16,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - jointly trained wide linear models and deep neural networks – to combine the benefits of memorization and generalization for recommender systems
 - Wide linear models can effectively memorize sparse feature interactions using cross-product feature transformations, while deep neural networks can generalize to previously unseen feature interactions through low dimensional embeddings
 - In other words, the fusion of wide and deep models combines the strengths of memorization and generalization, and provides us with better recommendation systems
-- The two models are trained jointly with the same loss function.
+- The two models are trained jointly with the same [loss](loss.md) function.
 - Google Play Store
 

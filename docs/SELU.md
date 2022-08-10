@@ -2,7 +2,7 @@
 title: SELU
 
 tags: activations 
-date modified: Wednesday, August 10th 2022, 3:38:27 pm
+date modified: Wednesday, August 10th 2022, 7:05:42 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -22,8 +22,8 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
         - SELU as activation 
         - custom [Initialization](Initialization.md)
             - zero mean
-            - standard deviation: $\sqrt{\frac{1}{ \#inputs}}$
-        - if all layers are dense (in paper), but other research showed that it also works for CNNs
+            - [standard deviation](Standard%20Deviation.md): $\sqrt{\frac{1}{ \#inputs}}$
+        - if all [layers](Layers.md) are dense (in paper), but other research showed that it also works for CNNs
 - has two fixed parameters α and λ
     - not hyperparameters nor learnt parameters
     - derived from the inputs (μ=0, std=1)
@@ -37,7 +37,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- Computational heavier
 
 ## Backlinks
-
 > - [](ActivationFunctions.md)
 >   - [[SELU]] > [Elu](Elu.md) > [Leaky Relu](Leaky%20Relu.md) > [Relu](Relu.md) > [Tanh](Tanh.md) > [Sigmoid](Sigmoid.md)
 

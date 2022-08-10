@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d70d785e3b14199b",
+        "id": "37f0308df55c67e9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Visual Cortex.md",
+            "file": "TPU Slice.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Visual Cortex.md",
+                "file": "TPU Slice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Visual Cortex.md",
+                "file": "TPU Slice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Visual Cortex.md"
+                "file": "TPU Slice.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Visual Cortex.md",
+                "file": "TPU Slice.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -167,19 +167,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 236.5,
+    "collapsed": true
   },
-  "active": "d70d785e3b14199b",
+  "active": "37f0308df55c67e9",
   "lastOpenFiles": [
-    "Vestibular System.md",
-    "Akaike Information Criterion.md",
-    "Confusion Matrix.md",
-    "Double Descent.md",
-    "Dynamic Eager Execution.md",
-    "Gradient Accumulation.md",
-    "Adaptive Gradient Clipping.md",
-    "Gradient Clipping.md",
-    "Static Graph Execution.md",
-    "Computational Graph.md"
+    "Trajectory.md",
+    "Wisdom of the Crowd.md",
+    "Weighted Alternating Least Squares.md",
+    "Upweighting.md",
+    "Translational Invariance.md",
+    "Training-serving Skew.md",
+    "Unawareness.md",
+    "Variable Importances.md",
+    "Bucketing.md",
+    "temp.md"
   ]
 }

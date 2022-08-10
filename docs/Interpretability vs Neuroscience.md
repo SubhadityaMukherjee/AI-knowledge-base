@@ -2,7 +2,7 @@
 title: Interpretability vs Neuroscience
 
 tags: cogneuro uncertainty 
-date modified: Wednesday, August 10th 2022, 7:05:51 pm
+date modified: Thursday, August 11th 2022, 12:32:52 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 

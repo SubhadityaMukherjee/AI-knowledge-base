@@ -2,7 +2,7 @@
 title: Adaptive Input Representation
 
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 7:05:57 pm
+date modified: Thursday, August 11th 2022, 12:32:58 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 

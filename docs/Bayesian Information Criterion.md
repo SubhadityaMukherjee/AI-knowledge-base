@@ -2,7 +2,7 @@
 title: Bayesian Information Criterion
 
 tags: loss 
-date modified: Wednesday, August 10th 2022, 7:05:42 pm
+date modified: Thursday, August 11th 2022, 12:32:40 am
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

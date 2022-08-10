@@ -2,7 +2,7 @@
 title: <% tp.file.title %>
 
 tags: brain 
-date modified: Wednesday, August 10th 2022, 5:52:29 pm
+date modified: Thursday, August 11th 2022, 12:32:42 am
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

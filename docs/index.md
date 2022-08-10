@@ -1,7 +1,7 @@
 ---
 title: SiteMap
 tags: index
-date modified: Wednesday, August 10th 2022, 5:47:53 pm
+date modified: Wednesday, August 10th 2022, 11:58:52 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -24,6 +24,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- [Brain](brain.md)
 		- [Visualization](visualization.md)
 		- [Language](language.md)
+		- [Medical](medical.md)
 		- [Psychology](psychology.md)
 
 ## Links

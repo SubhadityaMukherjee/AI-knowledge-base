@@ -2,7 +2,7 @@
 title: VICReg
 
 tags: architecture 
-date modified: Wednesday, August 10th 2022, 7:05:45 pm
+date modified: Thursday, August 11th 2022, 12:32:44 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 - [VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning](https://arxiv.org/abs/2105.04906)

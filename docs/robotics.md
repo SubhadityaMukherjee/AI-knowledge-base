@@ -88,5 +88,4 @@ ___
 - [Work Envelope.md](Work%20Envelope.md)
 - [Wrist.md](Wrist.md)
 - [Yaw.md](Yaw.md)
-- [robotics.md](robotics.md)
 

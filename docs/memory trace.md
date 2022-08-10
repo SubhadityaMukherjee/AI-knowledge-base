@@ -2,7 +2,7 @@
 title: memory trace
 
 tags: cogneuro 
-date modified: Wednesday, August 10th 2022, 7:05:43 pm
+date modified: Thursday, August 11th 2022, 12:32:42 am
 date created: Tuesday, August 2nd 2022, 9:20:39 pm
 ---
 

@@ -2,7 +2,7 @@
 title: GauGAN2
 
 tags: art
-date modified: Wednesday, August 10th 2022, 7:05:52 pm
+date modified: Thursday, August 11th 2022, 12:32:53 am
 date created: Thursday, July 28th 2022, 6:01:14 pm
 ---
 

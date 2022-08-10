@@ -2,7 +2,7 @@
 title: Monk
 
 tags: handwritingRecognition
-date modified: Wednesday, August 10th 2022, 7:05:49 pm
+date modified: Thursday, August 11th 2022, 12:32:50 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 

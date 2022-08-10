@@ -1,6 +1,5 @@
 [
   "sliding-panes-obsidian",
-  "obsidian-linter",
   "graph-analysis",
   "url-into-selection",
   "cm-typewriter-scroll-obsidian",
@@ -22,7 +21,7 @@
   "find-unlinked-files",
   "obsidian-doubleshift",
   "daily-activity",
-  "typing-transformer-obsidian",
   "obsidian-link-converter",
-  "obsidian-extract-pdf-highlights"
+  "obsidian-extract-pdf-highlights",
+  "obsidian-linter"
 ]

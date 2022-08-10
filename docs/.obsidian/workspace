@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6c267aa37e383e50",
+        "id": "907c5c27f76d4045",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "Advantages of Federated Learning.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#uncertainty",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Advantages of Federated Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Advantages of Federated Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Advantages of Federated Learning.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "index.md",
+                "file": "Advantages of Federated Learning.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,17 +169,17 @@
     "direction": "horizontal",
     "width": 236.5
   },
-  "active": "6c267aa37e383e50",
+  "active": "907c5c27f76d4045",
   "lastOpenFiles": [
-    "journals/2022-08-10.md",
-    "Layers.md",
-    "Vision Transformer.md",
-    "Transformer.md",
-    "index.md",
-    "Basic Transformer.md",
-    "Lexical Word Segmentation.md",
-    "Word Vectors.md",
-    "Hierarchical Edge Bundling.md",
-    "journals/2022-07-04.md"
+    "Additive Attention.md",
+    "Adaptive Input Representation.md",
+    "AdaIn.md",
+    "Adagrad.md",
+    "AdaDelta.md",
+    "ActivationFunctions.md",
+    "Absolute Error.md",
+    "1D piecewise linear interpolation.md",
+    "0-1 Loss.md",
+    "journals/2022-08-10.md"
   ]
 }

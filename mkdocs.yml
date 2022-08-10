@@ -6,9 +6,11 @@ theme:
       #name: null
       #custom_dir: 'cinder'
     features:
-      # - toc.integrate
+        - toc.integrate
         - toc.follow
         - search.suggest
+        - navigation.top
+        - navigation.instant
         - search.share
         - search.highlight
           #- navigation.indexes
@@ -47,6 +49,7 @@ markdown_extensions:
   - pymdownx.details
   - wikilinks
   - meta
+  - tags
   - md_in_html
   - pymdownx.magiclink
   - pymdownx.pathconverter

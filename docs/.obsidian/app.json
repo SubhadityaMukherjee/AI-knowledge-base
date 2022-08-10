@@ -8,7 +8,7 @@
   "foldHeading": true,
   "showLineNumber": true,
   "vimMode": true,
-  "fileSortOrder": "byCreatedTime",
+  "fileSortOrder": "alphabetical",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "foldIndent": true,

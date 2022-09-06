@@ -23,7 +23,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 ## Weight-tying Massively Reduces the Number of Unique Neurons!
 - weight-tying,
-- force many neurons to have the same weights
+- [force](Force.md) many neurons to have the same weights
 - he most common use of this is in convolutional neural networks, where each neuron has translated copies of itself with the same weights.
 - in ImageNet [conv](Conv.md) nets, weight-tying often reduces the number of unique neurons in early vision by 10,000x or even more
 - This results in artificial neural networks having many fewer neurons for early vision than their biological counterparts
@@ -43,7 +43,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - It seems hard to exclude the possibility that the resulting stimulus might have content which causes the artificial neurons predicting the [biological neuron](Biological%20Neuron.md) to fire more, but aren't causally necessary for the [biological neuron](Biological%20Neuron.md) to fire.
 
 ## Interventions, Ablations, and Edits
-- [Optogenetics](Optogenetics.md) has been a major methodological advance for neuroscience in allowing neuroscientists to temporarily ablate neurons, or to force them to activate.
+- [Optogenetics](Optogenetics.md) has been a major methodological advance for neuroscience in allowing neuroscientists to temporarily ablate neurons, or to [force](Force.md) them to activate.
 - Artificial neural networks are trivial to manipulate at the level of neurons
 - One can easily ablate neurons or set them to particular activations
 - But one can also do more powerful "circuit editing" where one modifies parameters at a finer grained level.

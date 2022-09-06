@@ -1,6 +1,13 @@
+---
+tags: temp
+date created: Wednesday, August 10th 2022, 12:46:31 pm
+date modified: Sunday, August 14th 2022, 6:17:32 pm
+---
 
 ---
+
 tags: anchor
+
 ___
 
 - [ADVENT.md](ADVENT.md)

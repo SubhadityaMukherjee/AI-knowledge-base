@@ -5,7 +5,7 @@ date modified: Thursday, August 11th 2022, 12:32:53 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Force Directed Graph Layout
+# [Force](Force.md) Directed Graph Layout
 - Model a graph as rings and springs
 - Attractive forces between adjacent nodes
 - edges are modeled as springs with uniform length

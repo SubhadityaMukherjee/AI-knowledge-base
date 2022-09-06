@@ -20,4 +20,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
     - number of neurons: $\approx 10^{11}$
     - number of connections per neuron: $\approx 10^4$
 - networks are organized into hierarchical structures
+- Irreplacable
+- Requires constant supply of [Glucose](Glucose.md)
 

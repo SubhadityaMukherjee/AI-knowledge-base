@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#loss",
@@ -83,11 +83,11 @@
   "textFadeMultiplier": -1.9,
   "nodeSizeMultiplier": 1.12083333333333,
   "lineSizeMultiplier": 0.8875,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.447674418604651,
   "repelStrength": 10.5494505494506,
   "linkStrength": 1,
   "linkDistance": 53,
-  "scale": 0.4778111437478853,
+  "scale": 0.8290331553683721,
   "close": false
 }

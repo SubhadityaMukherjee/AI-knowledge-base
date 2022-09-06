@@ -1,8 +1,8 @@
 ---
 title: <% tp.file.title %>
 
-tags: brain 
-date modified: Thursday, August 11th 2022, 12:32:42 am
+tags: physics 
+date modified: Tuesday, September 6th 2022, 1:30:53 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

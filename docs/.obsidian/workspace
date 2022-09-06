@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TPU Slice.md",
+            "file": "Gravity.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TPU Slice.md",
+                "file": "Gravity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TPU Slice.md",
+                "file": "Gravity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TPU Slice.md"
+                "file": "Gravity.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TPU Slice.md",
+                "file": "Gravity.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -157,7 +157,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.38354809457065486,
+                  "scale": 0.7650899441627146,
                   "close": true
                 }
               }
@@ -167,20 +167,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
-    "collapsed": true
+    "width": 236.5
   },
   "active": "37f0308df55c67e9",
   "lastOpenFiles": [
-    "Trajectory.md",
-    "Wisdom of the Crowd.md",
-    "Weighted Alternating Least Squares.md",
-    "Upweighting.md",
-    "Translational Invariance.md",
-    "Training-serving Skew.md",
-    "Unawareness.md",
-    "Variable Importances.md",
-    "Bucketing.md",
-    "temp.md"
+    "Newtons Laws.md",
+    "Equations of motion.md",
+    "Conservation Of Momentum.md",
+    "Capacitance.md",
+    "Transformer Physics.md",
+    "Power.md",
+    "Charge.md",
+    "Gas Law.md",
+    "Change in Gravitational Potential Energy.md",
+    "Kinetic Energy.md"
   ]
 }

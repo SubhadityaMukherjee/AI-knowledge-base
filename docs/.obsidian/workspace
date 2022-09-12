@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Gravity.md",
+            "file": "journals/2022-09-12.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 198
+    "width": 198,
+    "collapsed": true
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -70,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gravity.md",
+                "file": "journals/2022-09-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gravity.md",
+                "file": "journals/2022-09-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gravity.md"
+                "file": "journals/2022-09-12.md"
               }
             }
           }
@@ -134,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Gravity.md",
+                "file": "journals/2022-09-12.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,15 +172,15 @@
   },
   "active": "37f0308df55c67e9",
   "lastOpenFiles": [
-    "Newtons Laws.md",
-    "Equations of motion.md",
-    "Conservation Of Momentum.md",
-    "Capacitance.md",
-    "Transformer Physics.md",
-    "Power.md",
-    "Charge.md",
-    "Gas Law.md",
-    "Change in Gravitational Potential Energy.md",
-    "Kinetic Energy.md"
+    "Game Based Learning.md",
+    "journals/2022-09-12.md",
+    "Gamification.md",
+    "Serious Games.md",
+    "Ideas for Fact Learning.md",
+    "Attention.md",
+    "Adagrad.md",
+    "Extensions to SlimStampen.md",
+    "SlimStampen.md",
+    "templates/titler.md"
   ]
 }

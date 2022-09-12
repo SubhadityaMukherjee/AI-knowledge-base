@@ -19,7 +19,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- accuracy
 	- eye tracking
 	- biometric
-	- pupil dilation
+	- [pupil dilation](Pupil%20Dilation.md)
 - Framework
 	- [[Gamification]]
 

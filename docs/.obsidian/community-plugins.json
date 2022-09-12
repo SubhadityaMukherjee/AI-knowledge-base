@@ -1,9 +1,7 @@
 [
   "sliding-panes-obsidian",
-  "graph-analysis",
   "url-into-selection",
   "cm-typewriter-scroll-obsidian",
-  "obsidian-dynamic-toc",
   "note-refactor-obsidian",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-code-block-enhancer",
@@ -18,11 +16,9 @@
   "obsidian-timestamper",
   "obsidian-footnotes",
   "find-unlinked-files",
-  "obsidian-doubleshift",
-  "daily-activity",
   "obsidian-link-converter",
-  "obsidian-extract-pdf-highlights",
   "obsidian-linter",
   "tag-page-preview",
-  "dataview"
+  "dataview",
+  "obisidian-note-linker"
 ]

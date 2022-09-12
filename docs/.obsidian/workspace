@@ -106,14 +106,6 @@
             }
           },
           {
-            "id": "5f018f12f95c7769",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
             "id": "27b8a540cafb1ad3",
             "type": "leaf",
             "state": {
@@ -172,15 +164,15 @@
   },
   "active": "37f0308df55c67e9",
   "lastOpenFiles": [
-    "Game Based Learning.md",
+    "Pupil Dilation.md",
     "journals/2022-09-12.md",
+    "Gaze position.md",
+    "Eye Tracking.md",
+    "Game Based Learning.md",
     "Gamification.md",
     "Serious Games.md",
     "Ideas for Fact Learning.md",
     "Attention.md",
-    "Adagrad.md",
-    "Extensions to SlimStampen.md",
-    "SlimStampen.md",
-    "templates/titler.md"
+    "Adagrad.md"
   ]
 }

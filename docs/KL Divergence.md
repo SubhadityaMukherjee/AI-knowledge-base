@@ -1,7 +1,7 @@
 ---
 title: KL Divergence
 tags: loss
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Wednesday, September 14th 2022, 12:19:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 

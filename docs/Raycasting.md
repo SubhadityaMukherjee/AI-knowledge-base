@@ -1,7 +1,7 @@
 ---
 title: Raycasting
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:47 am
+date modified: Wednesday, September 14th 2022, 12:13:53 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,4 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Sampling Ray Casting](Sampling%20Ray%20Casting.md)
 - [Classification Ray Casting](Classification%20Ray%20Casting.md)
 - [Slice Based Volume Rendering](Slice%20Based%20Volume%20Rendering.md)
+- [[Voxel Projection]]
 

@@ -2,7 +2,7 @@
 title: Ideas for Fact Learning
 
 tags: usermodel 
-date modified: Monday, September 12th 2022, 3:16:31 pm
+date modified: Monday, September 12th 2022, 4:16:17 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -17,14 +17,13 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Increase system info about the user
 	- Reaction times
 	- accuracy
-	- eye tracking
+	- [Eye Tracking](Eye%20Tracking.md)
 	- biometric
 	- [pupil dilation](Pupil%20Dilation.md)
 - Framework
 	- [[Gamification]]
 
 ## Backlinks
-
 > - [](journals/2022-09-12.md)
 >   - [[Ideas for Fact Learning]]
 

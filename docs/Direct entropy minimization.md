@@ -6,7 +6,7 @@ date modified: Thursday, August 11th 2022, 12:32:54 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Direct Entropy Minimization
+# Direct [Entropy](Entropy.md) Minimization
  - On the source domain we train our model,
 - as usual using a supervised loss
 - For the target domain, we do not have annotations and we can no longer use the segmentation loss to train

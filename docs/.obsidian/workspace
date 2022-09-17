@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "journals/2022-09-14.md",
+            "file": "journals/2022-09-17.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 198,
-    "collapsed": true
+    "width": 198
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-09-14.md",
+                "file": "journals/2022-09-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-09-14.md",
+                "file": "journals/2022-09-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-09-14.md"
+                "file": "journals/2022-09-17.md"
               }
             }
           }
@@ -127,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-09-14.md",
+                "file": "journals/2022-09-17.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -164,15 +163,15 @@
   },
   "active": "3827bedc1b61fd2b",
   "lastOpenFiles": [
-    "Clutter In Visualisation.md",
-    "HyperStreamlines.md",
-    "journals/2022-09-14.md",
-    "SuperQuadrics.md",
-    "Cylinders.md",
-    "Cuboids.md",
-    "Ellipsoids.md",
-    "CRISPR (clustered Regularly-interspaced Short Palindromic repeats).md",
-    "Isosurface.md",
-    "Eigenvector.md"
+    "visualization.md",
+    "Stream Ribbons.md",
+    "Helmholtz Theorem.md",
+    "journals/2022-09-17.md",
+    "Diffusion LM.md",
+    "architecture.md",
+    "Google NMT.md",
+    "index.md",
+    "Adrenaline.md",
+    "Streamline Stopping Criterion.md"
   ]
 }

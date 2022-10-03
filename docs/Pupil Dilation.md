@@ -16,7 +16,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Light based response - parasympathetic
 - Increases with emotional stimulation
 - ![](assets/Screenshot%202022-09-12%20at%204.08.53%20PM.png)
-
+- Speech replacement
 ## Backlinks
 
 > - [Gaze Position](Gaze position.md)

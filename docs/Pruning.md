@@ -1,7 +1,7 @@
 ---
 title: Pruning
 tags: regularize
-date modified: Thursday, August 11th 2022, 12:32:47 am
+date modified: Monday, October 3rd 2022, 2:32:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 

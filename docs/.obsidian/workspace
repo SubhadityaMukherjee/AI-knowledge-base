@@ -4,17 +4,96 @@
     "type": "split",
     "children": [
       {
-        "id": "3827bedc1b61fd2b",
+        "id": "a5c2a3a830b6910c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "localgraph",
           "state": {
-            "file": "journals/2022-09-17.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
+            "file": "GOMS.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": true,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": false,
+              "showArrow": false,
+              "textFadeMultiplier": -1.3,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 0.729740607183528,
+              "close": true
+            }
           }
         }
+      },
+      {
+        "id": "de74b89511b32123",
+        "type": "split",
+        "children": [
+          {
+            "id": "abc22a02ef6c3066",
+            "type": "leaf",
+            "dimension": 76.17924528301887,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GOMS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2aa3f080e4712b7",
+            "type": "leaf",
+            "dimension": 23.82075471698113,
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "GOMS.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8388683088718369,
+                  "close": true
+                }
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -26,15 +105,8 @@
       {
         "id": "0540c734fb9a920c",
         "type": "tabs",
+        "dimension": 29.26829268292683,
         "children": [
-          {
-            "id": "9a7e775c5a38c45d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
           {
             "id": "67980bfcbf87ef96",
             "type": "leaf",
@@ -49,28 +121,14 @@
                 "sortOrder": "alphabetical"
               }
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 198
-  },
-  "right": {
-    "id": "94b3ada31412627e",
-    "type": "split",
-    "children": [
-      {
-        "id": "016e2a78879a531c",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "c48c4eb95e80c76b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-09-17.md",
+                "file": "GOMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-09-17.md",
+                "file": "GOMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,68 +168,51 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-09-17.md"
+                "file": "GOMS.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "d0ace91d3b548220",
+        "id": "09ea97e62e4ee243",
         "type": "tabs",
+        "dimension": 70.73170731707317,
         "children": [
           {
-            "id": "a5c2a3a830b6910c",
+            "id": "9a7e775c5a38c45d",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "journals/2022-09-17.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": false,
-                  "textFadeMultiplier": -1.3,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7650899441627146,
-                  "close": true
-                }
-              }
+              "type": "file-explorer",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 198
   },
-  "active": "3827bedc1b61fd2b",
+  "right": {
+    "id": "94b3ada31412627e",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 236.5,
+    "collapsed": true
+  },
+  "active": "abc22a02ef6c3066",
   "lastOpenFiles": [
-    "visualization.md",
-    "Stream Ribbons.md",
-    "Helmholtz Theorem.md",
-    "journals/2022-09-17.md",
-    "Diffusion LM.md",
-    "architecture.md",
-    "Google NMT.md",
-    "index.md",
-    "Adrenaline.md",
-    "Streamline Stopping Criterion.md"
+    "journals/2022-10-03.md",
+    "GOMS.md",
+    "Recommender System.md",
+    "Knowledge Distillation.md",
+    "Filter Bubble Problem.md",
+    "Satisficing Heuristic.md",
+    "Cosine Similarity.md",
+    "Declarative memory.md",
+    "templates/titler.md",
+    "Rational inference.md"
   ]
 }

@@ -12,7 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Why symbolic? It uses the abstract '[verb](Verb.md)'
 	- Rules that refer to these categories are used to guide processing
 	- [past tense](past%20tense.md)
-	- Irregular forms stored in associative memory (declarative memory)
+	- Irregular forms stored in associative memory ([declarative memory](Declarative%20memory.md))
 	- Symbolic rules produce [past tense](past%20tense.md) forms (procedural memory)
 	- look-up is quicker than rule application
 	- rule application takes more time but is always done 'on-the-fly'

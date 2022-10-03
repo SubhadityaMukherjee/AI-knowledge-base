@@ -2,7 +2,7 @@
 title: Ideas for Fact Learning
 
 tags: usermodel 
-date modified: Monday, September 12th 2022, 4:16:17 pm
+date modified: Monday, September 19th 2022, 3:09:43 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -20,6 +20,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- [Eye Tracking](Eye%20Tracking.md)
 	- biometric
 	- [pupil dilation](Pupil%20Dilation.md)
+	- Detect learning styles
 - Framework
 	- [[Gamification]]
 

@@ -3,16 +3,16 @@
 tags: anchor
 ___
 
-- [Aleatoric.md](Aleatoric.md)
-- [Entropy.md](Entropy.md)
-- [Epistemic.md](Epistemic.md)
-- [Heteroscedatic.md](Heteroscedatic.md)
-- [Homoscedatic.md](Homoscedatic.md)
-- [Inceptionism.md](Inceptionism.md)
-- [Interpretability vs Neuroscience.md](Interpretability%20vs%20Neuroscience.md)
-- [LIME.md](LIME.md)
-- [Predictive Uncertainty.md](Predictive%20Uncertainty.md)
-- [SHAP.md](SHAP.md)
-- [Types of uncertainty.md](Types%20of%20uncertainty.md)
-- [Uncertainity in regression.md](Uncertainity%20in%20regression.md)
+- [[Aleatoric|Aleatoric.md]]
+- [[Entropy|Entropy.md]]
+- [[Epistemic|Epistemic.md]]
+- [[Heteroscedatic|Heteroscedatic.md]]
+- [[Homoscedatic|Homoscedatic.md]]
+- [[Inceptionism|Inceptionism.md]]
+- [[Interpretability vs Neuroscience|Interpretability vs Neuroscience.md]]
+- [[LIME|LIME.md]]
+- [[Predictive Uncertainty|Predictive Uncertainty.md]]
+- [[SHAP|SHAP.md]]
+- [[Types of uncertainty|Types of uncertainty.md]]
+- [[Uncertainity in regression|Uncertainity in regression.md]]
 

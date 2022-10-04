@@ -7,7 +7,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Computational Graph
-- ![](assets/Pasted%20image%2020220810163656.png)
+- ![[assets/Pasted image 20220810163656.png]]
 - patterns in backward flow
 	- add gate: gradient distributor
 	- max gate: gradient router
@@ -18,10 +18,10 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- easily define new nodes using forward/backward pattern (i.e. only these two functions must be implemented)
 	- any complex learning architecture can be composed of atomic nodes (node composition or factorization)
 	- no need to compute manually complex gradients
-	- [loss](loss.md) function can be seen as extra nodes in the end of the graph
+	- [[loss]] function can be seen as extra nodes in the end of the graph
 
 ## Backlinks
-> - [Static Graph Execution](Static Graph Execution.md)
->   - [[Computational Graph]] is first built then is executed
+> - [[Static Graph Execution]]
+>   - [[.md|Computational Graph]] is first built then is executed
 
 _Backlinks last generated 2022-08-10 16:56:31_

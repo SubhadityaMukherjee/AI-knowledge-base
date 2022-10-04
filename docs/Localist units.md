@@ -12,3 +12,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - In Output: when we allow outputs of single unit to be interpreted
 - In the hidden units: is there evidence of localist encoding developing?
 
+## Backlinks
+
+> - [Locality](Locality.md)
+>   - [[Localist units]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

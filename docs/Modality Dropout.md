@@ -6,6 +6,12 @@ date modified: Thursday, August 11th 2022, 12:32:50 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Modality [Dropout](Dropout.md)
+# Modality [[Dropout]]
 - MDO improves fine-tuning by randomly dropping one of the modalities
 
+## Backlinks
+
+> - [MLIM](MLIM.md)
+>   - Since the the task of finding closely-matching (CM) item pairs requires a pair of image+text inputs, they exploit this multi-modality by employing [[Modality Dropout]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

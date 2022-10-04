@@ -5,8 +5,8 @@ date modified: Thursday, August 11th 2022, 12:32:57 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# BCE Logits
-- [Cross Entropy](Cross%20Entropy.md) + logits
+# BCE [[Logits]]
+- [[Cross Entropy]] + [[Logits|logits]]
 $$\left( - \mathrm{sum}\left( y \cdot \mathrm{logsoftmax}\left( ŷ \right) \cdot weight \right) \right) \cdot \mathrm{//}\left( 1, \mathrm{size}\left( y, 2 \right) \right)$$
 
 ## …

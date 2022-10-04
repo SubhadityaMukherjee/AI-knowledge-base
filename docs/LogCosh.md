@@ -6,9 +6,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Log Cosh
-- works like the [MSE](MSE.md), but is smoothed towards large errors (presumably caused by outliers) so that the final error score isn’t impacted thoroughly.
+- works like the [[MSE]], but is smoothed towards large errors (presumably caused by outliers) so that the final error score isn’t impacted thoroughly.
 
-We first define the [Softplus](Softplus.md) function $$\log\left( e^{x} + 1 \right)$$
+We first define the [[Softplus]] function $$\log\left( e^{x} + 1 \right)$$
 
 Then , $$x = ŷ - y$$
 

@@ -5,7 +5,13 @@ date modified: Thursday, August 11th 2022, 12:32:57 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Back To Front [Raycasting](Raycasting.md)
-- ![im](assets/Pasted%20image%2020220418001932.png)
+# Back To Front [[Raycasting]]
+- ![[assets/Pasted image 20220418001932.png|im]]
 - blending over operator for semi-transparent geometry
 
+## Backlinks
+
+> - [Raycasting](Raycasting.md)
+>   - [[Back To Front Raycasting]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

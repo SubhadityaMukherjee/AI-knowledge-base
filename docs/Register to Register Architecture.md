@@ -8,6 +8,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Register to Register Architecture
 - All vector operations occur between vector registers
 - If necessary, operands are fetched from main memory into a set of vector registers (load-store unit)
-- [SIMD](SIMD.md) based on this
-- ![im](assets/Pasted%20image%2020220506153707.png)
+- [[SIMD]] based on this
+- ![[assets/Pasted image 20220506153707.png|im]]
 
+## Backlinks
+
+> - [Vector Processor](Vector Processor.md)
+>   - [[Register to Register Architecture]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

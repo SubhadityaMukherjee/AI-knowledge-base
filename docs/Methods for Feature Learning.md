@@ -5,8 +5,14 @@ date modified: Thursday, August 11th 2022, 12:32:50 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Methods for [Feature Learning](Feature%20Learning.md)
+# Methods for [[Feature Learning]]
 - Start with a random dict and rep. Update D while keeping r fixed -> find best r while keeping D fixed. Repeat until convergence.
 - Move D in a direction to minimize loss and project it back
-	- [Gradient Descent gradients](Gradient%20Descent%20gradients.md) or [LinearRegression](LinearRegression.md)
+	- [[Gradient Descent gradients]] or [[LinearRegression]]
 
+## Backlinks
+
+> - [Feature Learning](Feature Learning.md)
+>   - [[Methods for Feature Learning]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

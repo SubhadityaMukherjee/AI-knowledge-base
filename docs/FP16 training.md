@@ -11,3 +11,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Also copy to FP32 for parameter updates
 - Multiply scalar to loss to align range of FP16
 
+## Backlinks
+
+> - [Google NMT](Google NMT.md)
+>   - low-precision arithmetic during inference computations ([[FP16 training]] ???)
+
+_Backlinks last generated 2022-10-04 13:01:19_

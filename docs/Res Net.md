@@ -7,13 +7,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Res Net
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
-- Deeper Networks have [Issues](Issues.md) because of vanishing #gradients
+- Deeper Networks have [[Issues]] because of vanishing #gradients
 - Propagate gradients forward for deeper networks
 - Skip connections
 - output of F(x) has the same dims as x -> add
 - If only spatial dims match (aka not channels) -> concat
-- less params than [VGG](Vgg.md)
-- [Skip Connection](Skip%20Connection.md)
+- less params than [[Vgg|VGG]]
+- [[Skip Connection]]
 - Sadly, one of the creators Jian Sun passed away yesterday. (16-6-22)
 
 ```python
@@ -49,7 +49,7 @@ def ResNetNew(block, layers, num_classes=1000):
         nn.Linear(512 * e, num_classes),
     )
     
-    # [initialization](Initialization.md)
+    # [[Initialization|initialization]]
     for m in resnet.modules():
         if isinstance(m, nn.Conv2d):
             n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels

@@ -12,7 +12,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
 ## Backlinks
 
-> - [Efferent](Efferent.md)
->   - Also includes [[Somatic]] + [[Autonomic]]
+> - [[Efferent]]
+>   - Also includes [[.md|Somatic]] + [[Autonomic]]
 
 _Backlinks last generated 2022-09-06 13:32:14_

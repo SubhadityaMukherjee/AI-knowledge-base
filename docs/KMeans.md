@@ -16,8 +16,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- Create new sets by putting points into set where $||x_i-\mu_j||$ is minimal
 		- If empty, dismiss and reduce K to K'
 - Error quantity does not increase
-	- [Intra cluster variance](Intra%20cluster%20variance.md)
-	- Clusters are bounded by line [Decision Boundaries](Decision%20Boundaries.md) and forms a [Voronoi Cell](Voronoi%20Cell.md)
+	- [[Intra cluster variance]]
+	- Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
 - Does not work for curved boundaries
 
 ## Codebook Vector
@@ -25,3 +25,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Vector pointing to the mean of all vectors in the cluster
 - Center of gravity
 
+## Backlinks
+
+> - [Dimensionality Reduction](Dimensionality Reduction.md)
+>   - [[KMeans]]
+>    
+> - [Clustering](Clustering.md)
+>   - [[KMeans]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

@@ -12,9 +12,3 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - [[Collaborative Recommender]]
 - [[Content Based Recommender]]
 
-## Backlinks
-
-> - [](journals/2022-10-03.md)
->   - [[Recommender System]]
-
-_Backlinks last generated 2022-10-03 15:37:32_

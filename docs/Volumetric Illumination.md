@@ -6,8 +6,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Volumetric Illumination
-- [Phong Lighting](Phong%20Lighting.md)
-- [Finite Differences](Finite%20Differences.md)
-- [Shading](Shading.md)
-- [Raycasting](Raycasting.md)
+- [[Phong Lighting]]
+- [[Finite Differences]]
+- [[Shading]]
+- [[Raycasting]]
 
+## Backlinks
+
+> - [Volume [[visualization|Visualization]]](Volume Visualization.md)
+>   - [[Volumetric Illumination]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

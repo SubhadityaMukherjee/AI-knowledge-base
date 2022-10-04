@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:38 am
 ---
 
 # Participation Bias
-- Synonym for non-response bias
+- Synonym for [[Non-response Bias|non-response bias]]
 

@@ -6,8 +6,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Huber/Smooth L1/Smooth MAE
-- It is less sensitive to outliers than the [MSE](MSE.md) and in some cases prevents exploding #gradients
-- [Fast-RCNN](Fast-RCNN)
+- It is less sensitive to outliers than the [[MSE]] and in some cases prevents exploding #gradients
+- [[Fast-RCNN]]
 
 if $$\left( \left\|y - ŷ\right\| \lt 1.0 \right) >1 $$
 

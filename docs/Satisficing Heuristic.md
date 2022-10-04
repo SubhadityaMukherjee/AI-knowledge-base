@@ -11,9 +11,3 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Less time
 - Less knowledge
 
-## Backlinks
-
-> - [](journals/2022-10-03.md)
->   - Humans - [[Rational inference]] vs [[Satisficing Heuristic]]
-
-_Backlinks last generated 2022-10-03 15:37:32_

@@ -17,15 +17,10 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Increase system info about the user
 	- Reaction times
 	- accuracy
-	- [Eye Tracking](Eye%20Tracking.md)
+	- [[Eye Tracking]]
 	- biometric
-	- [pupil dilation](Pupil%20Dilation.md)
+	- [[Pupil Dilation|pupil dilation]]
 	- Detect learning styles
 - Framework
 	- [[Gamification]]
 
-## Backlinks
-> - [](journals/2022-09-12.md)
->   - [[Ideas for Fact Learning]]
-
-_Backlinks last generated 2022-09-12 15:45:44_

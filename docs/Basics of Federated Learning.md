@@ -5,7 +5,7 @@ date modified: Thursday, August 11th 2022, 12:32:57 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Basics of [Federated Learning](Federated%20Learning.md)
+# Basics of [[Federated Learning]]
 1. Get data (Hopefully a lot)
 2. Preprocess (aka clean up) the data
 3. Find/create an architecture
@@ -17,3 +17,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 7.1 (#new). Aggregate (eg. average) the information and then send that to the main model
 8. Retrain the model on new data
 
+## Backlinks
+
+> - [Federated Learning](Federated Learning.md)
+>   - [[Basics of Federated Learning]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

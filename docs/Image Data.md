@@ -10,3 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Too many weights to learn
 	- No translation equi-invariance
 
+## Backlinks
+
+> - [Issues](Issues.md)
+>   - [[Image Data]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

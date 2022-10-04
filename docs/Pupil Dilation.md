@@ -12,14 +12,14 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- Harder problems - thinking time
 	- Reaches an asymptote when the task is too difficult , processing load
 - Measure of resource allocation
-- ![](assets/Screenshot%202022-09-12%20at%204.01.29%20PM.png)
-- Light based response - parasympathetic
+- ![[assets/Screenshot 2022-09-12 at 4.01.29 PM.png]]
+- Light based response - [[Parasympathetic|parasympathetic]]
 - Increases with emotional stimulation
-- ![](assets/Screenshot%202022-09-12%20at%204.08.53%20PM.png)
+- ![[assets/Screenshot 2022-09-12 at 4.08.53 PM.png]]
 - Speech replacement
 ## Backlinks
 
-> - [Gaze Position](Gaze position.md)
->   - [[Pupil Dilation]]
+> - [[Gaze position|Gaze Position]]
+>   - [[.md|Pupil Dilation]]
 
 _Backlinks last generated 2022-09-12 16:10:33_

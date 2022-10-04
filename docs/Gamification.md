@@ -12,12 +12,12 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Interface
 - Mechanics
 - Design
-- [Serious Games](Serious%20Games.md)
-- [Game Based Learning](Game%20Based%20Learning.md)
+- [[Serious Games]]
+- [[Game Based Learning]]
 
 ## Backlinks
 
-> - [Ideas for Fact Learning](Ideas for Fact Learning.md)
->   - [[Gamification]]
+> - [[Ideas for Fact Learning]]
+>   - [[.md|Gamification]]
 
 _Backlinks last generated 2022-09-12 15:45:44_

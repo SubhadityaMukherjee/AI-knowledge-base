@@ -6,19 +6,19 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Tree Cover Segmentation
-- treecover segmentation [PointNet++](PointNet++.md)
+- treecover segmentation [[PointNet++]]
 	- Data collected from above
 	- Normalization : height, xy
 	- Rotation
 	- Jiggling ??
 	- Labeling
-		- ![im](assets/Pasted%20image%2020220318094643.png) Segmentation algorithm. Canopy hide model
-		- Weighted [loss](loss.md) + [Focal Loss](Focal%20Loss.md)
+		- ![[assets/Pasted image 20220318094643.png|im]] Segmentation algorithm. Canopy hide model
+		- Weighted [[loss]] + [[Focal Loss]]
 
 ## 2d Methods
-- [Watershed](Watershed) + [Unet](Unet.md)
-- ![im](assets/Pasted%20image%2020220318100323.png)
-- ![im](assets/Pasted%20image%2020220318100634.png)
+- [[Watershed]] + [[Unet]]
+- ![[assets/Pasted image 20220318100323.png|im]]
+- ![[assets/Pasted image 20220318100634.png|im]]
 	- $\Theta$ is just clippingpng]]
 	- The sqrt makes it a little smoother
 

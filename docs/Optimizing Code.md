@@ -6,9 +6,15 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Optimizing Work
-- [Vectorization](Vectorization.md)
-- [Parallelization](Parallelization.md)
-- [Loop Tiling](Loop%20Tiling.md)
-- [Operator Fusion](Operator%20Fusion.md)
-- [Block Sparse Kernel](Block%20Sparse%20Kernel.md)
+- [[Vectorization]]
+- [[Parallelization]]
+- [[Loop Tiling]]
+- [[Operator Fusion]]
+- [[Block Sparse Kernel]]
 
+## Backlinks
+
+> - [](DeepLearning.md)
+>   - [[Optimizing Code]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

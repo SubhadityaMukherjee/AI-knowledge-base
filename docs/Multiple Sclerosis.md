@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 ---
 
 # Multiple Sclerosis
-- A progressive neurodegenerative disease involving damage to the protective [myelin](Myelin.md) sheaths of nerve cells in the brain and spinal cord. Symptoms include impaired movement, pain, and fatigue.
+- A progressive neurodegenerative disease involving damage to the protective [[Myelin|myelin]] sheaths of nerve cells in the brain and spinal cord. Symptoms include impaired movement, pain, and fatigue.
 

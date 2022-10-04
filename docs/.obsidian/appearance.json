@@ -1,4 +1,9 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "Minimal"
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "obsidian",
+    "bulletrels",
+    "tagcols"
+  ]
 }

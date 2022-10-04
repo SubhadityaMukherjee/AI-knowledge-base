@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 ---
 
 # Angiography
-- A [medical](medical.md) imaging technique that allows clinicians to visualize the interior of blood vessels, arteries, veins, and the heart.
+- A [[medical]] imaging technique that allows clinicians to visualize the interior of blood vessels, arteries, veins, and the heart.
 

@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 ---
 
 # Vertebral Arteries
-- The major arteries of the neck, which merge to form the [basilar artery](Basilar%20Artery.md).
+- The major arteries of the neck, which merge to form the [[Basilar Artery|basilar artery]].
 

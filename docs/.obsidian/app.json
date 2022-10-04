@@ -9,7 +9,7 @@
   "showLineNumber": true,
   "vimMode": true,
   "fileSortOrder": "byModifiedTime",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "newLinkFormat": "relative",
   "foldIndent": true,
   "showIndentGuide": false,

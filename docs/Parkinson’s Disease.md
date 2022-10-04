@@ -6,5 +6,5 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 
 # Parkinson’s Disease
 - A neurodegenerative disorder characterized by tremor, slowed movement, and speech changes due to the death of dopamine
-- neurons located in the [substantia nigra](Substantia%20Nigra.md).
+- neurons located in the [[Substantia Nigra|substantia nigra]].
 

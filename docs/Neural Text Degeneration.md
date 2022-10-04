@@ -13,5 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - decoding strategies alone can dramatically effect the quality of machine text, even when generated from exactly the same neural language model
 - likelihood maximizing decoding causes repetition and overly generic language usage
 - sampling methods without truncation risk sampling from the low-confidence tail of a model’s predicted distribution
-- [Nucleus Sampling](Nucleus%20Sampling.md)
+- [[Nucleus Sampling]]
 

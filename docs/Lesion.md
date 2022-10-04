@@ -10,3 +10,9 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 # Lesion
 - Damage or change to tissue, such as a cut, a wound or a sore
 
+## Backlinks
+
+> - [Berkeley Et Al](Berkeley et al.md)
+>   - [[Lesion]] studies show bands are essential to solving problem
+
+_Backlinks last generated 2022-10-04 13:01:19_

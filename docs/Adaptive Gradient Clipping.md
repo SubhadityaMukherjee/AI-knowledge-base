@@ -14,7 +14,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
     - Allows for even larger batch size training
 
 ## Backlinks
-> - [Gradient Clipping](Gradient Clipping.md)
->   - [[Adaptive Gradient Clipping]]
+> - [[Gradient Clipping]]
+>   - [[.md|Adaptive Gradient Clipping]]
 
 _Backlinks last generated 2022-08-10 16:56:31_

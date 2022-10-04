@@ -10,12 +10,12 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - $$x(t+ \Delta t) = x(t)+ \Delta t f(x,t)$$
 - Global error proportional to $\Delta t$
 - Not stable
-- ![](assets/Screenshot%202022-09-14%20at%2012.32.13%20PM.png)
-- ![](assets/Screenshot%202022-09-14%20at%2012.33.45%20PM.png)
+- ![[assets/Screenshot 2022-09-14 at 12.32.13 PM.png]]
+- ![[assets/Screenshot 2022-09-14 at 12.33.45 PM.png]]
 
 ## Backlinks
 
-> - [Euler Integration](Euler Integration.md)
->   - [[First order integration]]
+> - [[Euler Integration]]
+>   - [[.md|First order integration]]
 
 _Backlinks last generated 2022-09-14 13:06:49_

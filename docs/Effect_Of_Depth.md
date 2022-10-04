@@ -7,13 +7,19 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Effect of Depth
 - Adding skip connections make the loss surface smoother
-- ![im](assets/Pasted%20image%2020220306132740.png)
+- ![[assets/Pasted image 20220306132740.png|im]]
 
 ## Deeper Architectures
 - Makes more uneven and chaotic
-- ![im](assets/Pasted%20image%2020220306132843.png)
+- ![[assets/Pasted image 20220306132843.png|im]]
 
 ## Wider Architectures
 - Makes landscape smoother and flatter
-- ![im](assets/Pasted%20image%2020220306132940.png)
+- ![[assets/Pasted image 20220306132940.png|im]]
 
+## Backlinks
+
+> - [Skip Connection](Skip Connection.md)
+>   - [[Effect_Of_Depth]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

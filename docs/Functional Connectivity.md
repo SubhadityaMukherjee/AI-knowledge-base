@@ -6,13 +6,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Functional Connectivity
-- ![im](assets/Pasted%20image%2020220502161507.png)
+- ![[assets/Pasted image 20220502161507.png|im]]
 
 ## Symmetric
-- [BrainWave Synchronization](BrainWave%20Synchronization.md)
-- [BrainWave Coherence](BrainWave%20Coherence.md)
-- [BrainWave CrossFrequency Coupling](BrainWave%20CrossFrequency%20Coupling.md)
+- [[BrainWave Synchronization]]
+- [[BrainWave Coherence]]
+- [[BrainWave CrossFrequency Coupling]]
 
 ## Directed/Asymmetric
-- [Granger Causallity](Granger%20Causallity.md)
+- [[Granger Causallity]]
 

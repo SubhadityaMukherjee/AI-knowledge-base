@@ -5,9 +5,15 @@ date modified: Thursday, August 11th 2022, 12:32:46 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Scoring [Pruning](Pruning.md) Approaches
+# Scoring [[Pruning]] Approaches
 - Like all networks, scoring becomes essential when we try to choose which parameter to get rid of.
 - Some authors suggest removing based on absolute values, others decide to prune based on the contributions of that parameter to the entire network.
 - Others remove based on a score given.
-- Some perform [Pruning](Pruning.md) locally, while others perform it globally across the network.
+- Some perform [[Pruning]] locally, while others perform it globally across the network.
 
+## Backlinks
+
+> - [Pruning](Pruning.md)
+>   - [[Scoring Pruning Approaches]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

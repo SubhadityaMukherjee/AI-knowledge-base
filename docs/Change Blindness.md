@@ -14,3 +14,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Change blindness also in animations if temporal separation spans multiple scenes
 - A scene that should be the same but differs between cuts is known as continuity error
 
+## Backlinks
+
+> - [Inattentional Blindness](Inattentional Blindness.md)
+>   - Related to [[Change Blindness]]
+>    
+> - [Perception](Perception.md)
+>   - [[Change Blindness]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

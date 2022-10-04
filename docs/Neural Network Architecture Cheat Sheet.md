@@ -7,12 +7,12 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Neural Network Architecture Cheat Sheet
-- [Spiking Networks](Spiking%20Networks.md)
-- [Hidden Models](Hidden%20Models)
+- [[Spiking Networks]]
+- [[Hidden Models]]
 - [[Capsule Network]]
-- [Probability](Probability.md)
-- [Recurrent](Recurrent.md)
-- [Conv](Conv.md)
+- [[Probability]]
+- [[Recurrent]]
+- [[Conv]]
 
-![](assets/NeuralNetworkZoo20042019.png)
+![[assets/NeuralNetworkZoo20042019.png]]
 

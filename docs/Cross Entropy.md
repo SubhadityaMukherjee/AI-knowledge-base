@@ -5,17 +5,38 @@ date modified: Thursday, August 11th 2022, 12:32:55 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Cross [Entropy](Entropy.md)
-- [Entropy](Entropy.md)
-- Cross-[entropy](Entropy.md) is a measure from the field of information theory, building upon [entropy](Entropy.md) and generally calculating the difference between two [Probability](Probability.md) [distributions](distributions).
-- It is closely related to but is different from [KL Divergence](KL%20Divergence.md) that calculates the relative [entropy](Entropy.md) between two [Probability](Probability.md) [distributions](distributions), whereas cross-[entropy](Entropy.md) can be thought to calculate the total [entropy](Entropy.md) between the [distributions](Distributions.md).
+# Cross [[Entropy]]
+- [[Entropy]]
+- Cross-[[Entropy|entropy]] is a measure from the field of information theory, building upon [[Entropy|entropy]] and generally calculating the difference between two [[Probability]] [[distributions]].
+- It is closely related to but is different from [[KL Divergence]] that calculates the relative [[Entropy|entropy]] between two [[Probability]] [[distributions]], whereas cross-[[Entropy|entropy]] can be thought to calculate the total [[Entropy|entropy]] between the [[Distributions.md|distributions]].
 - implicit distribution $$p(Y|x;\theta)$$ -> use CE
 - $$\mathscr{L}(\theta) = -\mathbb{E}_{(x,y) \sim P(X,Y)} log (p_{model}(Y|x))$$
 	- Categorical CE
 		- Classification
 		- $$\mathscr{L}(\theta) = -\mathbb{E}_{(x,y) \sim P(X,Y)} \Sigma_{i=1}^C 1(y=i)log (p_{model}f_i(x|\theta))$$
 		- C is no of classes
-	- [MSE](MSE.md)
+	- [[MSE]]
 		- Regression
 		- $$\mathscr{L}(\theta) = \frac{1}{2}\mathbb{E}_{(x,y) \sim P(X,Y)}||y-f(x;\theta)||^2$
 
+## Backlinks
+
+> - [Distillation Loss](Distillation Loss.md)
+>   - Negative [[Cross Entropy]] + other
+>    
+> - [KL Divergence](KL Divergence.md)
+>   - [[Entropy]] + [[Cross Entropy]]
+>    
+> - [BCE [[Logits]]](BCE with Logits.md)
+>   - [[Cross Entropy]] + [[Logits|logits]]
+>    
+> - [Label Smoothing](Label Smoothing.md)
+>   - During training, minimize negative [[Cross Entropy]] loss to make these [[Distributions.md|distributions]] similar
+>    
+> - [Perplexity](Perplexity.md)
+>   - This is also equivalent to the exponentiation of the [[Cross Entropy]] between the data and model predictions
+>    
+> - [Focal Loss](Focal Loss.md)
+>   - modulating term to [[Cross Entropy]] in order to focus learning on hard misclassified examples
+
+_Backlinks last generated 2022-10-04 13:01:19_

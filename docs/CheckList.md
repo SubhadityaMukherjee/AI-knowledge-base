@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # CheckList
 - [Beyond Accuracy: Behavioral Testing of NLP Models with CheckList](https://arxiv.org/abs/2005.04118)
-- ML systems can run to completion without throwing any errors (indicating functional correctness) but can still produce incorrect outputs (indicating behavioral [issues](Issues.md))
+- ML systems can run to completion without throwing any errors (indicating functional correctness) but can still produce incorrect outputs (indicating behavioral [[Issues|issues]])
 - CheckList
 - model-agnostic and task-agnostic methodology for testing NLP models inspired by principles of behavioral testing
 - matrix of general linguistic capabilities and test types that facilitate comprehensive test ideation

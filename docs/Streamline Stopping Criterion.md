@@ -13,7 +13,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
 ## Backlinks
 
-> - [Streamlines](Streamlines.md)
->   - [[Streamline Stopping Criterion]]
+> - [[Streamlines]]
+>   - [[.md|Streamline Stopping Criterion]]
 
 _Backlinks last generated 2022-09-14 13:06:49_

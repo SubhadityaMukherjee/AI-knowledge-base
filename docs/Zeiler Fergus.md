@@ -6,5 +6,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Zeiler Fergus
-- multiple interleaved [layers](Layers.md) of [Conv](Conv.md), non-linear [ActivationFunctions](ActivationFunctions.md), local response normalizations, and max [Pooling](Pooling.md)
+- multiple interleaved [[Layers|layers]] of [[Conv]], non-linear [[ActivationFunctions]], local response normalizations, and max [[Pooling]]
 
+## Backlinks
+
+> - [FaceNet](FaceNet.md)
+>   - [[Zeiler Fergus]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

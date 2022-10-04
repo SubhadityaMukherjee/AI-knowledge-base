@@ -7,11 +7,14 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Ogliodendrocytes
-- Wrap and insulate, forms [Myelin](Myelin.md) sheath
+- Wrap and insulate, forms [[Myelin]] sheath
 
 ## Backlinks
 
+> - [Schwann Cell](Schwann Cell.md)
+>   - Similar to [[Ogliodendrocytes]]
+>    
 > - [Glia](Glia.md)
 >   - [[Ogliodendrocytes]]
 
-_Backlinks last generated 2022-09-06 13:32:14_
+_Backlinks last generated 2022-10-04 13:01:19_

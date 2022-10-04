@@ -6,9 +6,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Label Smoothing
-- [Dense](Dense.md) layer is generally the last one and combined with soft max leads to a [Probability](Probability.md) distribution
-- Assume true label to be y, then a truth [Probability](Probability.md) distribution would be $p_i=1$ If i=y and 0 otherwise
-- During training, minimize negative [Cross Entropy](Cross%20Entropy.md) loss to make these [distributions](Distributions.md) similar
+- [[Dense]] layer is generally the last one and combined with soft max leads to a [[Probability]] distribution
+- Assume true label to be y, then a truth [[Probability]] distribution would be $p_i=1$ If i=y and 0 otherwise
+- During training, minimize negative [[Cross Entropy]] loss to make these [[Distributions.md|distributions]] similar
 - We know, $$\mathscr{l}(p,q) = -log p_y = -z_y + log(\Sigma^{K}_{i=1}exp(z_i))$$
 - Where the optimal solution is $z^{\ast}_{y}=\inf$
 	- The output scores are encouraged to be distinctive which leads to overfitting
@@ -23,3 +23,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - As $\epsilon$ increases, the gap decreases
 - If $\epsilon=\frac{K-1}{K}$, all optimizal $z^{\ast}_{i}$ are identical
 
+## Backlinks
+
+> - [ConvNeXt](ConvNeXt.md)
+>   - extending the number of epochs, using [[AdamW]] optimizer, Stochastic Depth, [[Label Smoothing]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

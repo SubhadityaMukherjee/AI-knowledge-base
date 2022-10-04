@@ -12,3 +12,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Quantitative | Can the difference between two marks in this variable be interpreted numerically? [i.e., corresponds to 5?]
 - Length (resolution) | Across how many changes in this variable are distinctions possible? [i.e., how many can I see?]
 
+## Backlinks
+
+> - [Visual Encoding](Visual Encoding.md)
+>   - [[Characteristics of Visual Variables]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

@@ -7,12 +7,12 @@ date modified: Sunday, August 14th 2022, 7:13:14 pm
 # Glia
 - The supporting cells of the central nervous system. They may contribute to the transmission of nerve impulses and play a critical role in protecting and nourishing neurons.
 - Previously thought of as protective covering
-- [Central Nervous System](Central%20Nervous%20System.md)
-	- [Astrocyte](Astrocyte.md)
-	- [Microglia](Microglia.md)
+- [[Central Nervous System]]
+	- [[Astrocyte]]
+	- [[Microglia]]
 	- [[Ependymal Cell]]
 	- [[Ogliodendrocytes]]
-- [Peripheral Nervous System](Peripheral%20Nervous%20System.md)
+- [[Peripheral Nervous System]]
 	- [[Satellite Cell]]
 	- [[Schwann Cell]]
 

@@ -6,13 +6,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Long Short Term Memory (LSTM)
-- ![Pasted image 20220621124622](assets/Pasted%20image%2020220621124622.png)
+- ![[assets/Pasted image 20220621124622.png]]
 - Smaller chance of exploding or vanishing #gradients
 - Better ability to model long term dependencies
 - Gated connections
 - Gates that learn to forget some aspects, and remember others better
-- Splitting state into parts -> output pred and [feature learning](Feature%20Learning.md)
-- At the end of the day, these could not handle too long sequences. Therefore -> [Transformer](Transformer.md)
+- Splitting state into parts -> output pred and [[Feature Learning|feature learning]]
+- At the end of the day, these could not handle too long sequences. Therefore -> [[Transformer]]
 
 ## The Math
 - Gates

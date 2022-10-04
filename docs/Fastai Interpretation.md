@@ -6,7 +6,7 @@ date modified: Thursday, August 11th 2022, 12:32:53 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Fastai Interpretation
+# [[fastai|Fastai]] Interpretation
 
 ## Classification Interpretation
 ```python
@@ -37,3 +37,9 @@ return dict(zip(categories, map(float,probs)))
 classify_image(im)
 ```
 
+## Backlinks
+
+> - [Fastai](fastai.md)
+>   - [[Fastai Interpretation]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

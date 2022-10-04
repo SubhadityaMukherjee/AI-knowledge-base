@@ -13,3 +13,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Same Character Set - Different Frequencies
 - Norwegian & Swedish
 
+## Backlinks
+
+> - [Language Identification](Language Identification.md)
+>   - [[Shared Character Set]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

@@ -13,7 +13,8 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - once compiled the graph architecture is static
 
 ## Backlinks
-> - [Dynamic Eager Execution](Dynamic Eager Execution.md)
+
+> - [Dynamic [[Eager Execution]]](Dynamic Eager Execution.md)
 >   - lower performance than [[Static Graph Execution]]
 
-_Backlinks last generated 2022-08-10 16:56:31_
+_Backlinks last generated 2022-10-04 13:01:19_

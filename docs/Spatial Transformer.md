@@ -5,14 +5,14 @@ date modified: Thursday, August 11th 2022, 12:32:45 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Spatial [Transformer](Transformer.md)
-- [Transformer](Transformer.md)
+# Spatial [[Transformer]]
+- [[Transformer]]
 
 ```python
 class SpacialTransformNew(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
-        # Spatial [[Transformer|[transformer](Transformer.md) localization-network
+        # Spatial [[Transformer|[Transformer|[transformer]] localization-network
         linear = nn.Linear(32, 3 * 2)
         # Initialize the weights/bias with identity transformation
         linear.weight.data.zero_()

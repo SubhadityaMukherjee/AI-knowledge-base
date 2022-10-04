@@ -6,5 +6,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # RetinaNet
-- Simple [dense](Dense.md) detector for [Focal Loss](Focal%20Loss.md)
+- Simple [[Dense|dense]] detector for [[Focal Loss]]
 
+## Backlinks
+
+> - [Focal Loss](Focal Loss.md)
+>   - [[RetinaNet]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

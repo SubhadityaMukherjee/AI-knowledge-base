@@ -7,7 +7,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Encoding
 
-## [Discrete -> Continuous](Discrete%20-%3E%20Continuous.md)
+## [[Discrete -> Continuous]]
 
-## [Continous -> Discrete](Continous%20-%3E%20Discrete.md)
+## [[Continous -> Discrete]]
 
+## Backlinks
+
+> - [Fundamentals](Fundamentals.md)
+>   - [[Encodings]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

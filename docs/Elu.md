@@ -7,5 +7,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Elu
 - $$f(x) = max(x, a \cdot (e^x-1))$$
-- ![Pasted image 20220626151712](assets/Pasted%20image%2020220626151712.png)
+- ![[assets/Pasted image 20220626151712.png]]
 
+## Backlinks
+
+> - [SELU](SELU.md)
+>   - scaled variant of the [[Elu]] function
+>    
+> - [](ActivationFunctions.md)
+>   - [[SELU]] > [[Elu]] > [[Leaky Relu]] > [[Relu]] > [[Tanh]] > [[Sigmoid]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

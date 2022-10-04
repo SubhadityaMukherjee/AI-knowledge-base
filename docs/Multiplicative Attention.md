@@ -6,8 +6,14 @@ date modified: Thursday, August 11th 2022, 12:32:49 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Multiplicative [Attention](Attention.md)
-- ![Pasted image 20220621174943](assets/Pasted%20image%2020220621174943.png)
+# Multiplicative [[Attention]]
+- ![[assets/Pasted image 20220621174943.png]]
 - $$f_{att}(h_{i}, s_{j}) = h_{i}^{T}W_{a}s_{j}$$
-- Since [Additive Attention](Additive%20Attention.md) performs better for scale, use a factor [Scaled Dot Product Attention](Scaled%20Dot%20Product%20Attention.md)
+- Since [[Additive Attention]] performs better for scale, use a factor [[Scaled Dot Product Attention]]
 
+## Backlinks
+
+> - [Dot Product [[Attention]]](Dot Product Attention.md)
+>   - Equivalent to [[Multiplicative Attention]] with no trainable weight matrix. Performs better at larger dimensions
+
+_Backlinks last generated 2022-10-04 13:01:19_

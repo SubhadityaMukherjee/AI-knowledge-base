@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 ---
 
 # Axon
-- A long, single nerve fiber that transmits messages, via electrochemical impulses, from the body of the neuron to [dendrites](Dendrites.md) of other neurons, or directly to body tissues such as muscles.
+- A long, single nerve fiber that transmits messages, via electrochemical impulses, from the body of the neuron to [[Dendrites|dendrites]] of other neurons, or directly to body tissues such as muscles.
 

@@ -12,3 +12,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Conceptually, adding word order to a sentence
 	- Something like ("Hello", 1) , ("from",2) , ("me", 3)
 
+## Backlinks
+
+> - [Basic [[Transformer]]](Basic Transformer.md)
+>   - [[Position Encoding]] + [[Token Embedding]]
+>    
+> - [CvT](CvT.md)
+>   - [[Position Encoding]] , a crucial component in existing Vision Transformers, can be safely removed in our model
+
+_Backlinks last generated 2022-10-04 13:01:19_

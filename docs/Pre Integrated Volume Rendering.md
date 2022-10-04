@@ -15,5 +15,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - becomes
 - $$c_{i}= \int_{0}^{L}g(t)e^{-\int_{t}^{L}{\kappa(t')d_{t}}}dt' $$
 - $$o_{i}= e^{\int_{0}^{L}\kappa(t)}d_{t} $$
-- ![](assets/Screenshot%202022-09-14%20at%2012.18.54%20PM.png)
+- ![[assets/Screenshot 2022-09-14 at 12.18.54 PM.png]]
 

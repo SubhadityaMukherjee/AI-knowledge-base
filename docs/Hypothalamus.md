@@ -10,3 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - It plays a role in controlling behaviors such as hunger, thirst, sleep, and sexual response.
 - It also regulates body temperature, blood pressure, emotions, and secretion of hormones.
 
+## Backlinks
+
+> - [Basal Ganglia](Basal Ganglia.md)
+>   - [[Hypothalamus]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

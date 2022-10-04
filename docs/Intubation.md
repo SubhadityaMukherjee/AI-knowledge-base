@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:38 am
 ---
 
 # Intubation
-- [Medical](medical.md) insertion of a tube into the body, for example, into the throat to assist with breathing
+- [[medical|Medical]] insertion of a tube into the body, for example, into the throat to assist with breathing
 

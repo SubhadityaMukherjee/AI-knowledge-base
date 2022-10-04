@@ -16,7 +16,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - breakthrough performance on reasoning tasks, which require multi-step logical inference
 - combination of scale and chain-of-thought prompting, where the model is explicitly prompted to generate a natural language logical inference chain before making its predictio
 - write explicit logical inference chains to both explain jokes and answer complex questions about scenarios
-- [Big-Bench](Big-Bench.md)
+- [[Big-Bench]]
 - suggest that the improvements from scale for few-shot language understanding have not yet plateaued
 - When they compare results from PaLM 540B to our own identically trained 62B and 8B model variants, improvements are typically log-linear.
 - certain capabilities of language models only emerge when trained at sufficient scale, and there are additional capabilities that could emerge from future generations of models
@@ -25,3 +25,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - comprehensive analysis on bias and toxicity, and study the extent of training data memorization with respect to model scale
 - ethical considerations related to large language models and discuss potential mitigation strategies
 
+## Backlinks
+
+> - [Benchmark LLM](Benchmark LLM.md)
+>   - From [[GPT3]] to [[PaLM]], the state-of-the-art performance on natural [[language]] tasks is being pushed forward with every new large [[language]] model
+
+_Backlinks last generated 2022-10-04 13:01:19_

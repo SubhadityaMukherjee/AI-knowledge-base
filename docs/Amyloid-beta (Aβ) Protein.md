@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 ---
 
 # Amyloid-beta (Aβ) Protein
-- A naturally occurring protein in brain cells. Large, abnormal clumps of this protein form the amyloid plaques that are a physiological hallmark of [Alzheimer’s disease](Alzheimer’s%20Disease.md).
+- A naturally occurring protein in brain cells. Large, abnormal clumps of this protein form the amyloid plaques that are a physiological hallmark of [[Alzheimer’s Disease|Alzheimer’s disease]].
 

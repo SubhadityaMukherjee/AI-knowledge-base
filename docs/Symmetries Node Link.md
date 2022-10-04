@@ -6,5 +6,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Symmetries Node Link
-- ![im](assets/Pasted%20image%2020220418123314.png)
+- ![[assets/Pasted image 20220418123314.png|im]]
 
+## Backlinks
+
+> - [Node LInk Diagram](Node LInk Diagram.md)
+>   - [[Symmetries Node Link]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

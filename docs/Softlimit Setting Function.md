@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:40 am
 ---
 
 # Softlimit Setting Function
-- The Softlimit Setting Function is a function to set the axis travel limit range of the manipulator motion in software.
+- The Softlimit Setting Function is a function to set the axis travel limit range of the [[Manipulator|manipulator]] motion in software.
 

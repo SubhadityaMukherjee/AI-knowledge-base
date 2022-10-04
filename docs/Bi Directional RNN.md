@@ -9,5 +9,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Not causal
 - Looks at the forward timestep dimension and also the backward
 	- Both combined to make a prediction
-- ![im](assets/Pasted%20image%2020220307171243.png)
+- ![[assets/Pasted image 20220307171243.png|im]]
 
+## Backlinks
+
+> - [Basic RNN Architectures](Basic RNN Architectures.md)
+>   - [[Bi Directional RNN]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

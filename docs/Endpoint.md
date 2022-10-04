@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:40 am
 ---
 
 # Endpoint
-- The nominal commanded position that a manipulator will attempt to achieve at the end of a path of motion. The end of the distal link.
+- The nominal commanded position that a [[Manipulator|manipulator]] will attempt to achieve at the end of a path of motion. The end of the distal link.
 

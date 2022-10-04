@@ -6,7 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Lexical Ambiguity
-- [Lexical Disambiguation](Lexical%20Disambiguation.md)
+- [[Lexical Disambiguation]]
 - Will will Will’s will
 - Buffalo buffalo Buffalo buffalo
 - Rose rose roes rows

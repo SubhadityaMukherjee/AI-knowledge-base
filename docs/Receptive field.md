@@ -6,7 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Receptive Field
-- Not for Dense, only local connected [layers](Layers.md) like [Conv](Conv.md), [Pooling](Pooling.md)
+- Not for Dense, only local connected [[Layers|layers]] like [[Conv]], [[Pooling]]
 - A neuron's receptive field is the patch of the total field of view that a single neuron has access to
 - Almost a logarithmic relationship between classification accuracy and receptive field size
 	- Large fields are almost necessary for high level recognition tasks, but with diminishing rewards
@@ -15,8 +15,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Recursive
 	- $$r_{0} = \Sigma^{L}_{i=1}((k_{i}-1)\Pi_{j=1}^{l-1}s_{j})+1$$
 - How to increase receptive field
-	- Add more [Conv](Conv.md)
-	- Add [pooling](Pooling.md) or higher stride
-	- [Causal Dilated Conv](Causal%20Dilated%20Conv.md)
-	- [Depthwise Separable](Depthwise%20Separable.md)
+	- Add more [[Conv]]
+	- Add [[Pooling|pooling]] or higher stride
+	- [[Causal Dilated Conv]]
+	- [[Depthwise Separable]]
 
+## Backlinks
+
+> - [Causal Dilated [[Conv]]](Causal Dilated Conv.md)
+>   - [[Receptive field]] is how much of the input sequence is needed for one prediction
+
+_Backlinks last generated 2022-10-04 13:01:19_

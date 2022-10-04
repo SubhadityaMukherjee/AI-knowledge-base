@@ -1,3 +1,3 @@
-# Pressure = [Force](Force.md)/Area
+# Pressure = [[Force]]/Area
 - $$P = \frac{F}{A}$$
 

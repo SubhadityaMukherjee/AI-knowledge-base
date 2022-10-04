@@ -10,3 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [What type of network] do you plan to build [t]?
 - Nobody knows [what] the brain is doing [t].
 
+## Backlinks
+
+> - [Non-adjacent Dependencies](Non-adjacent dependencies.md)
+>   - [[Wh-dependencies]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

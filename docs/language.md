@@ -3,135 +3,135 @@
 tags: anchor
 ___
 
-- [2 byte character set.md](2%20byte%20character%20set.md)
-- [8 bit character set.md](8%20bit%20character%20set.md)
-- [ASCII.md](ASCII.md)
-- [Action Transitive verb.md](Action%20Transitive%20verb.md)
-- [Adjective.md](Adjective.md)
-- [Adverb.md](Adverb.md)
-- [Agglutinating words.md](Agglutinating%20words.md)
-- [Allomorph.md](Allomorph.md)
-- [Application dependence.md](Application%20dependence.md)
-- [Approximately Compositional Semantic Parsing.md](Approximately%20Compositional%20Semantic%20Parsing.md)
-- [Attentions and salience.md](Attentions%20and%20salience.md)
-- [Berkeley et al.md](Berkeley%20et%20al.md)
-- [Bottom Up Parsing.md](Bottom%20Up%20Parsing.md)
-- [Bound morpheme.md](Bound%20morpheme.md)
-- [Case Grammar.md](Case%20Grammar.md)
-- [Challenges of Words-and-rules.md](Challenges%20of%20Words-and-rules.md)
-- [Character-set dependence.md](Character-set%20dependence.md)
-- [Circumfix.md](Circumfix.md)
-- [Conceptual Parsing.md](Conceptual%20Parsing.md)
-- [Connectionism.md](Connectionism.md)
-- [Connectionist Networks.md](Connectionist%20Networks.md)
-- [Connectives.md](Connectives.md)
-- [Content Morpheme.md](Content%20Morpheme.md)
-- [Content words.md](Content%20words.md)
-- [Context Free Grammar.md](Context%20Free%20Grammar.md)
-- [Corpus dependence.md](Corpus%20dependence.md)
-- [Cross-situational learning.md](Cross-situational%20learning.md)
-- [Deductive Approaches.md](Deductive%20Approaches.md)
-- [Derivational Morphology.md](Derivational%20Morphology.md)
-- [Determiners.md](Determiners.md)
-- [DiTransitive verb.md](DiTransitive%20verb.md)
-- [Distributive units.md](Distributive%20units.md)
-- [Document Triage.md](Document%20Triage.md)
-- [Elements of sets.md](Elements%20of%20sets.md)
-- [Elman 1990.md](Elman%201990.md)
-- [Emergentism.md](Emergentism.md)
-- [Entities involving in actions.md](Entities%20involving%20in%20actions.md)
-- [Extra-position.md](Extra-position.md)
-- [First order generalization.md](First%20order%20generalization.md)
-- [Forward Backward Matching.md](Forward%20Backward%20Matching.md)
-- [Free morpheme.md](Free%20morpheme.md)
-- [Function words.md](Function%20words.md)
-- [Functional Morpheme.md](Functional%20Morpheme.md)
-- [Hybrid Word Segmentation.md](Hybrid%20Word%20Segmentation.md)
-- [Inductive Learning.md](Inductive%20Learning.md)
-- [Infix.md](Infix.md)
-- [Inflectional Morphology.md](Inflectional%20Morphology.md)
-- [Inflectional words.md](Inflectional%20words.md)
-- [Isolating words.md](Isolating%20words.md)
-- [Language Identification.md](Language%20Identification.md)
-- [Language dependence.md](Language%20dependence.md)
-- [Latent Dirchlet Allocation.md](Latent%20Dirchlet%20Allocation.md)
-- [Lemmatization.md](Lemmatization.md)
-- [Lexical Ambiguity.md](Lexical%20Ambiguity.md)
-- [Lexical Disambiguation.md](Lexical%20Disambiguation.md)
-- [Lexical Word Segmentation.md](Lexical%20Word%20Segmentation.md)
-- [Lexicon.md](Lexicon.md)
-- [Linguistic details.md](Linguistic%20details.md)
-- [Localist units.md](Localist%20units.md)
-- [Maximum Matching Algorithm.md](Maximum%20Matching%20Algorithm.md)
-- [Memory-based learning.md](Memory-based%20learning.md)
-- [Milin et al..md](Milin%20et%20al..md)
-- [Mirman et al..md](Mirman%20et%20al..md)
-- [Misyak et al 2010.md](Misyak%20et%20al%202010.md)
-- [Morpheme Generation.md](Morpheme%20Generation.md)
-- [Morpheme Segmentation.md](Morpheme%20Segmentation.md)
-- [Morpheme.md](Morpheme.md)
-- [Morphology Affix.md](Morphology%20Affix.md)
-- [Morphology Stem.md](Morphology%20Stem.md)
-- [Morphology.md](Morphology.md)
-- [Morphotactic.md](Morphotactic.md)
-- [Names of individuals.md](Names%20of%20individuals.md)
-- [Nativists.md](Nativists.md)
-- [Non-adjacent dependencies.md](Non-adjacent%20dependencies.md)
-- [Object-relative clauses.md](Object-relative%20clauses.md)
-- [Overhypotheses.md](Overhypotheses.md)
-- [Parts of action.md](Parts%20of%20action.md)
-- [Parts of entities.md](Parts%20of%20entities.md)
-- [Phonetics.md](Phonetics.md)
-- [Phonology.md](Phonology.md)
-- [Polysynthetic words.md](Polysynthetic%20words.md)
-- [Pragmatics.md](Pragmatics.md)
-- [Prefix.md](Prefix.md)
-- [Prepositions.md](Prepositions.md)
-- [Propose-but-verify.md](Propose-but-verify.md)
-- [Punctuation.md](Punctuation.md)
-- [Quantifiers.md](Quantifiers.md)
-- [Rescorla-Wagner Algorithm.md](Rescorla-Wagner%20Algorithm.md)
-- [Rescorla-Wagner Blocking.md](Rescorla-Wagner%20Blocking.md)
-- [Saffran, Aslin and Newport.md](Saffran,%20Aslin%20and%20Newport.md)
-- [Second order generalization.md](Second%20order%20generalization.md)
-- [Semantic Analysis.md](Semantic%20Analysis.md)
-- [Semantic Grammar.md](Semantic%20Grammar.md)
-- [Semantic Markers.md](Semantic%20Markers.md)
-- [Semantics influences form.md](Semantics%20influences%20form.md)
-- [Sentence Segmentation.md](Sentence%20Segmentation.md)
-- [Sentence level processing.md](Sentence%20level%20processing.md)
-- [Shared Character Set.md](Shared%20Character%20Set.md)
-- [Single unit recording.md](Single%20unit%20recording.md)
-- [Statistical Word Segmentation.md](Statistical%20Word%20Segmentation.md)
-- [Subject relative.md](Subject%20relative.md)
-- [Subject-verb agreement.md](Subject-verb%20agreement.md)
-- [Suffix.md](Suffix.md)
-- [Superposition Catastrophe.md](Superposition%20Catastrophe.md)
-- [Suppletion.md](Suppletion.md)
-- [Symbolic learning model.md](Symbolic%20learning%20model.md)
-- [Symbolic models.md](Symbolic%20models.md)
-- [Syntactic Ambiguity.md](Syntactic%20Ambiguity.md)
-- [Syntactic Analysis.md](Syntactic%20Analysis.md)
-- [Text Normalization.md](Text%20Normalization.md)
-- [Text Preprocessing.md](Text%20Preprocessing.md)
-- [Text Segmentation.md](Text%20Segmentation.md)
-- [Tokenizer.md](Tokenizer.md)
-- [Top Down Parsing.md](Top%20Down%20Parsing.md)
-- [Transitional probabilities.md](Transitional%20probabilities.md)
-- [Transitive verb.md](Transitive%20verb.md)
-- [Types of Words.md](Types%20of%20Words.md)
-- [Unicode 5.0.md](Unicode%205.0.md)
-- [Unique Character Set.md](Unique%20Character%20Set.md)
-- [Verb.md](Verb.md)
-- [Visual Implicit Learning.md](Visual%20Implicit%20Learning.md)
-- [Wh-dependencies.md](Wh-dependencies.md)
-- [Wickelphones.md](Wickelphones.md)
-- [Word Blending.md](Word%20Blending.md)
-- [Word Clipping.md](Word%20Clipping.md)
-- [Word Compounding.md](Word%20Compounding.md)
-- [Word Segmentation.md](Word%20Segmentation.md)
-- [Word Structure.md](Word%20Structure.md)
-- [Words-and-Rules.md](Words-and-Rules.md)
-- [conditioning.md](conditioning.md)
-- [past tense.md](past%20tense.md)
+- [[2 byte character set|2 byte character set.md]]
+- [[8 bit character set|8 bit character set.md]]
+- [[ASCII|ASCII.md]]
+- [[Action Transitive verb|Action Transitive verb.md]]
+- [[Adjective|Adjective.md]]
+- [[Adverb|Adverb.md]]
+- [[Agglutinating words|Agglutinating words.md]]
+- [[Allomorph|Allomorph.md]]
+- [[Application dependence|Application dependence.md]]
+- [[Approximately Compositional Semantic Parsing|Approximately Compositional Semantic Parsing.md]]
+- [[Attentions and salience|Attentions and salience.md]]
+- [[Berkeley et al|Berkeley et al.md]]
+- [[Bottom Up Parsing|Bottom Up Parsing.md]]
+- [[Bound morpheme|Bound morpheme.md]]
+- [[Case Grammar|Case Grammar.md]]
+- [[Challenges of Words-and-rules|Challenges of Words-and-rules.md]]
+- [[Character-set dependence|Character-set dependence.md]]
+- [[Circumfix|Circumfix.md]]
+- [[Conceptual Parsing|Conceptual Parsing.md]]
+- [[Connectionism|Connectionism.md]]
+- [[Connectionist Networks|Connectionist Networks.md]]
+- [[Connectives|Connectives.md]]
+- [[Content Morpheme|Content Morpheme.md]]
+- [[Content words|Content words.md]]
+- [[Context Free Grammar|Context Free Grammar.md]]
+- [[Corpus dependence|Corpus dependence.md]]
+- [[Cross-situational learning|Cross-situational learning.md]]
+- [[Deductive Approaches|Deductive Approaches.md]]
+- [[Derivational Morphology|Derivational Morphology.md]]
+- [[Determiners|Determiners.md]]
+- [[DiTransitive verb|DiTransitive verb.md]]
+- [[Distributive units|Distributive units.md]]
+- [[Document Triage|Document Triage.md]]
+- [[Elements of sets|Elements of sets.md]]
+- [[Elman 1990|Elman 1990.md]]
+- [[Emergentism|Emergentism.md]]
+- [[Entities involving in actions|Entities involving in actions.md]]
+- [[Extra-position|Extra-position.md]]
+- [[First order generalization|First order generalization.md]]
+- [[Forward Backward Matching|Forward Backward Matching.md]]
+- [[Free morpheme|Free morpheme.md]]
+- [[Function words|Function words.md]]
+- [[Functional Morpheme|Functional Morpheme.md]]
+- [[Hybrid Word Segmentation|Hybrid Word Segmentation.md]]
+- [[Inductive Learning|Inductive Learning.md]]
+- [[Infix|Infix.md]]
+- [[Inflectional Morphology|Inflectional Morphology.md]]
+- [[Inflectional words|Inflectional words.md]]
+- [[Isolating words|Isolating words.md]]
+- [[Language Identification|Language Identification.md]]
+- [[Language dependence|Language dependence.md]]
+- [[Latent Dirchlet Allocation|Latent Dirchlet Allocation.md]]
+- [[Lemmatization|Lemmatization.md]]
+- [[Lexical Ambiguity|Lexical Ambiguity.md]]
+- [[Lexical Disambiguation|Lexical Disambiguation.md]]
+- [[Lexical Word Segmentation|Lexical Word Segmentation.md]]
+- [[Lexicon|Lexicon.md]]
+- [[Linguistic details|Linguistic details.md]]
+- [[Localist units|Localist units.md]]
+- [[Maximum Matching Algorithm|Maximum Matching Algorithm.md]]
+- [[Memory-based learning|Memory-based learning.md]]
+- [[Milin et al.|Milin et al..md]]
+- [[Mirman et al.|Mirman et al..md]]
+- [[Misyak et al 2010|Misyak et al 2010.md]]
+- [[Morpheme Generation|Morpheme Generation.md]]
+- [[Morpheme Segmentation|Morpheme Segmentation.md]]
+- [[Morpheme|Morpheme.md]]
+- [[Morphology Affix|Morphology Affix.md]]
+- [[Morphology Stem|Morphology Stem.md]]
+- [[Morphology|Morphology.md]]
+- [[Morphotactic|Morphotactic.md]]
+- [[Names of individuals|Names of individuals.md]]
+- [[Nativists|Nativists.md]]
+- [[Non-adjacent dependencies|Non-adjacent dependencies.md]]
+- [[Object-relative clauses|Object-relative clauses.md]]
+- [[Overhypotheses|Overhypotheses.md]]
+- [[Parts of action|Parts of action.md]]
+- [[Parts of entities|Parts of entities.md]]
+- [[Phonetics|Phonetics.md]]
+- [[Phonology|Phonology.md]]
+- [[Polysynthetic words|Polysynthetic words.md]]
+- [[Pragmatics|Pragmatics.md]]
+- [[Prefix|Prefix.md]]
+- [[Prepositions|Prepositions.md]]
+- [[Propose-but-verify|Propose-but-verify.md]]
+- [[Punctuation|Punctuation.md]]
+- [[Quantifiers|Quantifiers.md]]
+- [[Rescorla-Wagner Algorithm|Rescorla-Wagner Algorithm.md]]
+- [[Rescorla-Wagner Blocking|Rescorla-Wagner Blocking.md]]
+- [[Saffran, Aslin and Newport|Saffran, Aslin and Newport.md]]
+- [[Second order generalization|Second order generalization.md]]
+- [[Semantic Analysis|Semantic Analysis.md]]
+- [[Semantic Grammar|Semantic Grammar.md]]
+- [[Semantic Markers|Semantic Markers.md]]
+- [[Semantics influences form|Semantics influences form.md]]
+- [[Sentence Segmentation|Sentence Segmentation.md]]
+- [[Sentence level processing|Sentence level processing.md]]
+- [[Shared Character Set|Shared Character Set.md]]
+- [[Single unit recording|Single unit recording.md]]
+- [[Statistical Word Segmentation|Statistical Word Segmentation.md]]
+- [[Subject relative|Subject relative.md]]
+- [[Subject-verb agreement|Subject-verb agreement.md]]
+- [[Suffix|Suffix.md]]
+- [[Superposition Catastrophe|Superposition Catastrophe.md]]
+- [[Suppletion|Suppletion.md]]
+- [[Symbolic learning model|Symbolic learning model.md]]
+- [[Symbolic models|Symbolic models.md]]
+- [[Syntactic Ambiguity|Syntactic Ambiguity.md]]
+- [[Syntactic Analysis|Syntactic Analysis.md]]
+- [[Text Normalization|Text Normalization.md]]
+- [[Text Preprocessing|Text Preprocessing.md]]
+- [[Text Segmentation|Text Segmentation.md]]
+- [[Tokenizer|Tokenizer.md]]
+- [[Top Down Parsing|Top Down Parsing.md]]
+- [[Transitional probabilities|Transitional probabilities.md]]
+- [[Transitive verb|Transitive verb.md]]
+- [[Types of Words|Types of Words.md]]
+- [[Unicode 5.0|Unicode 5.0.md]]
+- [[Unique Character Set|Unique Character Set.md]]
+- [[Verb|Verb.md]]
+- [[Visual Implicit Learning|Visual Implicit Learning.md]]
+- [[Wh-dependencies|Wh-dependencies.md]]
+- [[Wickelphones|Wickelphones.md]]
+- [[Word Blending|Word Blending.md]]
+- [[Word Clipping|Word Clipping.md]]
+- [[Word Compounding|Word Compounding.md]]
+- [[Word Segmentation|Word Segmentation.md]]
+- [[Word Structure|Word Structure.md]]
+- [[Words-and-Rules|Words-and-Rules.md]]
+- [[conditioning|conditioning.md]]
+- [[past tense|past tense.md]]
 

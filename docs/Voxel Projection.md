@@ -11,11 +11,11 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - One kernel at each grid voxel  
 - Each kernel leaves a 2D footprint on screen
 - Weighted footprints accumulate into image
-- ![](assets/Screenshot%202022-09-14%20at%2012.15.19%20PM.png)
+- ![[assets/Screenshot 2022-09-14 at 12.15.19 PM.png]]
 
 ## Backlinks
 
-> - [Raycasting](Raycasting.md)
->   - [[Voxel Projection]]
+> - [[Raycasting]]
+>   - [[.md|Voxel Projection]]
 
 _Backlinks last generated 2022-09-14 13:06:49_

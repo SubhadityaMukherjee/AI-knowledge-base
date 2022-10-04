@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:40 am
 ---
 
 # Roll
-- Rotation of the robot end effector in a plane perpendicular to the end of the manipulator arm.
+- Rotation of the robot end effector in a plane perpendicular to the end of the [[Manipulator|manipulator]] arm.
 

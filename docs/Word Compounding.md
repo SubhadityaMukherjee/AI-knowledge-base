@@ -10,3 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Adj +Adj= Adj bitter + sweet : bitter-sweet
 - N + N = N rain+bow rain-bow
 
+## Backlinks
+
+> - [Morphology](Morphology.md)
+>   - [[Word Compounding]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

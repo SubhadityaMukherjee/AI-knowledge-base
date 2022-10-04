@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Pytorch Tricks
-- Also look at [fastai](fastai.md)
+- Also look at [[fastai]]
 
 ## Get Params of a Layer
 ```python
@@ -31,3 +31,9 @@ os.environ["TORCH_HOME"] = "/media/hdd/Datasets/"
 os.environ["FASTAI_HOME"] = "/media/hdd/Datasets/"
 ```
 
+## Backlinks
+
+> - [](index.md)
+>   - [[Pytorch Tricks]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

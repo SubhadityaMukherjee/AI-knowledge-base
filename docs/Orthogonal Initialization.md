@@ -7,7 +7,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Orthogonal Initialization
-- simple approach to solving the problem [Vanishingexploding gradients](Vanishingexploding%20gradients.md)
+- simple approach to solving the problem [[Vanishingexploding gradients]]
 - when applying repeated matrix multiplications, the eigenvalues are what dictate the growth or death of the result
 - eigenvalues of orthogonal matrices have an absolute value of 1
 - no matter how many matrix multiplications the result doesen't explode nor vanishes

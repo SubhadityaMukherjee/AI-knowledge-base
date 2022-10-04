@@ -5,7 +5,7 @@ date modified: Thursday, August 11th 2022, 12:32:54 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# [EEG](EEG.md) Cluster Testing
+# [[EEG]] Cluster Testing
 - If done for each point, same test repeated and false positives increase
 - eg: t test in each electrode
 - A result is more believable if it occurs in a set of adjacent channels:  
@@ -15,6 +15,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Compute clusters for 100 or so distr of randomized data
 	- Decide if its rare
 - $$sumT = \text{sum of all t stats}$$
-- ![im](assets/Pasted%20image%2020220502155613.png)
+- ![[assets/Pasted image 20220502155613.png|im]]
 	- There was a significant difference between easy and more difficult trials between 712 ms post-stimulus and 768 ms post-stimulus. This difference was initially localized to a few central electrodes but over time spread out more posteriorly. This is consistent with previous studies that have shown
 
+## Backlinks
+
+> - [[[EEG]] Statistical Analysis](EEG Statistical Analysis.md)
+>   - [[EEG Cluster Testing]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

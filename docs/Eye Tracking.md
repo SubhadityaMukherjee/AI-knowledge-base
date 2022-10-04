@@ -11,7 +11,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
 ## Backlinks
 
-> - [](journals/2022-09-12.md)
->   - **03:47** [[Eye Tracking]]
+> - [Ideas for Fact Learning](Ideas for Fact Learning.md)
+>   - [[Eye Tracking]]
 
-_Backlinks last generated 2022-09-12 16:10:33_
+_Backlinks last generated 2022-10-04 13:01:19_

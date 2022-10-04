@@ -12,3 +12,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Big-5 - Complex Mandarin
 	- GB - Simple form
 
+## Backlinks
+
+> - [Character-set Dependence](Character-set dependence.md)
+>   - [[2 byte character set]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

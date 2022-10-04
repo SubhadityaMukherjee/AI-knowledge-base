@@ -17,7 +17,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- Dead model
 
 ## Types
-- [Lp Regularization](Lp%20Regularization.md) for p =2
+- [[Lp Regularization]] for p =2
 	- Soft models
 	- Squared sum of model params
 
+## Backlinks
+
+> - [Regularization](Regularization.md)
+>   - [[Regularization Term]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

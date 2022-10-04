@@ -12,5 +12,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Simplest -> k equal bins
 	- Approx Equal no of data points
 	- Reduced precision devices perform as well as the high precision ones
-	- Continuous range -> adaptive bin boundaris [Decision Trees](Decision%20Trees.md)
+	- Continuous range -> adaptive bin boundaris [[Decision Trees]]
 
+## Backlinks
+
+> - [Continous -> Discrete](Continous -> Discrete.md)
+>   - ## [[Binning]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

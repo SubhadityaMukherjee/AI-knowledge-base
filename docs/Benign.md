@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:38 am
 ---
 
 # Benign
-- Refers to a tumor that is neither cancerous nor malignant
+- Refers to a tumor that is neither cancerous nor [[Malignant|malignant]]
 

@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 ---
 
 # Somatosensory Cortex
-- Located in the [parietal lobe](Parietal%20lobe.md), this region of the brain processes touch, pressure, and pain information.
+- Located in the [[Parietal lobe|parietal lobe]], this region of the brain processes touch, pressure, and pain information.
 

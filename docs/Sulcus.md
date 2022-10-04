@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 ---
 
 # Sulcus
-- A shallower groove on the brain’s [cerebrum](Cerebrum.md) (deeper grooves are called fissures).
+- A shallower groove on the brain’s [[Cerebrum|cerebrum]] (deeper grooves are called fissures).
 

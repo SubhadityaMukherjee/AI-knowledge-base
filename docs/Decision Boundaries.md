@@ -6,7 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Decision Boundaries
-- Minimal risk decision function is unique and must be represented in terms of [Distributions](Distributions) of data generating RVs X and Y
+- Minimal risk decision function is unique and must be represented in terms of [[Distributions]] of data generating RVs X and Y
 	- A is some subvolume of P. (n dimensional hypercubes or volume bodies)
 	- $P_{X,Y}$ is ground truth
 		- Function that assigns every choice of $A \subseteq P , c \in C$ the number P
@@ -14,15 +14,24 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - If a test pattern falls into $R_{i}$ it is classified as class i
 
 ## Finding Decision Regions
-- which yields the lowerst misclassification rate or highest [Probability](Probability.md) of correct classification
-- $f_{i}$ be the [PDF](PDF.md) for [Class Conditional distribution](Class%20Conditional%20distribution.md)
-- [Probability](Probability.md) of obtaining a correct classification for $R_{i}$ is $$\Sigma_{i=1}^{k}P(X \in R_{i}, Y = c_{i})$$
-- ![im](assets/Pasted%20image%2020220318161058.png)
+- which yields the lowerst misclassification rate or highest [[Probability]] of correct classification
+- $f_{i}$ be the [[PDF]] for [[Class Conditional distribution]]
+- [[Probability]] of obtaining a correct classification for $R_{i}$ is $$\Sigma_{i=1}^{k}P(X \in R_{i}, Y = c_{i})$$
+- ![[assets/Pasted image 20220318161058.png|im]]
 - This region has curved boundaries aka decision boundaries
 	- Folded and on higher dims : very complex and fragmented
 - x is a vector
 - For patterns on these boundaries, two or more classifications are equally probable
 - Maximal if $$R_{i}= \{x \in P| i = argmax_{j} P(Y=c_{j})f_{j}(x)\}$$
 - Then $$h_{opt}: P \rightarrow C_{j}x \rightarrow c_{argmax_{j}P(Y=c_{j})f_{j}(x)}$$
-- Algo learns estimates of the [Class Conditional distribution](Class%20Conditional%20distribution.md) and class probabilities aka priors
+- Algo learns estimates of the [[Class Conditional distribution]] and class probabilities aka priors
 
+## Backlinks
+
+> - [Emperical Risk](Emperical Risk.md)
+>   - [[Decision Boundaries]]
+>    
+> - [K Means](KMeans.md)
+>   - Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

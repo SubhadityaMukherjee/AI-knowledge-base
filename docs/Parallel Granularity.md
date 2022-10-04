@@ -10,3 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Coarse : Large computation between communication
 - Fine : Small computation between communication
 
+## Backlinks
+
+> - [Concurrency](Concurrency.md)
+>   - Both the maximum and the average degrees of concurrency usually increase as the [[Parallel Granularity]] of tasks becomes smaller (finer)
+
+_Backlinks last generated 2022-10-04 13:01:19_

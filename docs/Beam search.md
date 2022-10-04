@@ -7,7 +7,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Beam Search
-- ![](assets/Pasted%20image%2020220810155603.png)
+- ![[assets/Pasted image 20220810155603.png]]
 - ([from](https://publish.obsidian.md/fabian-groeger/Machine+Learning+%26+Deep+Learning/Deep+Learning/Architectures/RNN/Beam+Search))
 - at each step, keep track of the k mos probable translation hypotheses (k, beam size)
 - examine the k most probable words for each hypothesis, compute their entire scores, keep k best ones
@@ -22,3 +22,9 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
     - the larger, the more are considered, but the more computing expensive it is (better results, slower)
     - try out different values and cross check
 
+## Backlinks
+
+> - [Google NMT](Google NMT.md)
+>   - [[Beam search]] technique employs a length-normalization procedure and uses a coverage penalty
+
+_Backlinks last generated 2022-10-04 13:01:19_

@@ -10,5 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 $$ - \mathrm{sum}\left( \log\left( y \right) \right)$$
 
-- [Log Likelihood Loss](Log%20Likelihood%20Loss.md)
+- [[Log Likelihood Loss]]
 

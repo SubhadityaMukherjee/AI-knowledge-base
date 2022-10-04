@@ -19,7 +19,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
 ## Backlinks
 
-> - [Kinesthetic Teaching](Kinesthetic Teaching.md)
->   - [[Familar Object Grasping Object Viiew recog]]
+> - [[Kinesthetic Teaching]]
+>   - [[.md|Familar Object Grasping Object Viiew recog]]
 
 _Backlinks last generated 2022-10-03 15:37:32_

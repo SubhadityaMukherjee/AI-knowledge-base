@@ -5,10 +5,16 @@ date modified: Thursday, August 11th 2022, 12:32:52 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# [ICA](ICA.md) Noise Removal
-- ![im](assets/Pasted%20image%2020220502150936.png)
-- ![im](assets/Pasted%20image%2020220502150943.png)
-- ![im](assets/Pasted%20image%2020220502150951.png)
-- [Notch filter](Notch%20filter.md)
-- [High pass filter](High%20pass%20filter.md)
+# [[ICA]] Noise Removal
+- ![[assets/Pasted image 20220502150936.png|im]]
+- ![[assets/Pasted image 20220502150943.png|im]]
+- ![[assets/Pasted image 20220502150951.png|im]]
+- [[Notch filter]]
+- [[High pass filter]]
 
+## Backlinks
+
+> - [ICA](ICA.md)
+>   - [[ICA Noise Removal]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

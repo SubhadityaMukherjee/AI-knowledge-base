@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 ---
 
 # Sono-stimulation
-- The activation of neural networks using ultrasound.
+- The activation of neural networks using [[Ultrasound|ultrasound]].
 

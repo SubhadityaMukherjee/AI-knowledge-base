@@ -7,5 +7,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Midpoint Decider
 - check value in cell center and decide accordingly
-- ![im](assets/Pasted%20image%2020220411133835.png)
+- ![[assets/Pasted image 20220411133835.png|im]]
 
+## Backlinks
+
+> - [Marching Squares](Marching Squares.md)
+>   - [[Midpoint Decider]]
+>    
+> - [Marching Cubes](Marching Cubes.md)
+>   - [[Midpoint Decider]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

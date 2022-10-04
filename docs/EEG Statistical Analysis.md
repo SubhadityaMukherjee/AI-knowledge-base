@@ -5,6 +5,12 @@ date modified: Thursday, August 11th 2022, 12:32:54 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# [EEG](EEG.md) Statistical Analysis
-- [EEG Cluster Testing](EEG%20Cluster%20Testing.md)
+# [[EEG]] Statistical Analysis
+- [[EEG Cluster Testing]]
 
+## Backlinks
+
+> - [EEG](EEG.md)
+>   - [[EEG Statistical Analysis]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

@@ -3,47 +3,47 @@
 tags: anchor
 ___
 
-- [0-1 Loss.md](0-1%20Loss.md)
-- [Absolute Error.md](Absolute%20Error.md)
-- [Akaike Information Criterion.md](Akaike%20Information%20Criterion.md)
-- [Attention Alignment.md](Attention%20Alignment.md)
-- [BCE with Logits.md](BCE%20with%20Logits.md)
-- [BLEU.md](BLEU.md)
-- [Bayesian Information Criterion.md](Bayesian%20Information%20Criterion.md)
-- [CTC.md](CTC.md)
-- [Confusion Matrix.md](Confusion%20Matrix.md)
-- [Contrastive Loss.md](Contrastive%20Loss.md)
-- [Cosine Similarity.md](Cosine%20Similarity.md)
-- [Cross Entropy.md](Cross%20Entropy.md)
-- [Dice Score.md](Dice%20Score.md)
-- [Focal Loss.md](Focal%20Loss.md)
-- [GE2E.md](GE2E.md)
-- [Hinge Loss.md](Hinge%20Loss.md)
-- [Huber.md](Huber.md)
-- [ITM Loss.md](ITM%20Loss.md)
-- [Intra cluster variance.md](Intra%20cluster%20variance.md)
-- [KL Divergence.md](KL%20Divergence.md)
-- [Log Likelihood Loss.md](Log%20Likelihood%20Loss.md)
-- [LogCosh.md](LogCosh.md)
-- [MAPE.md](MAPE.md)
-- [MSE.md](MSE.md)
-- [MSLE.md](MSLE.md)
-- [Mallows Cp Statistic.md](Mallows%20Cp%20Statistic.md)
-- [Margin Ranking.md](Margin%20Ranking.md)
-- [Max Margin Loss.md](Max%20Margin%20Loss.md)
-- [Negative Log Likelihood.md](Negative%20Log%20Likelihood.md)
-- [Perplexity.md](Perplexity.md)
-- [Poisson Loss.md](Poisson%20Loss.md)
-- [Precision Recall Curve.md](Precision%20Recall%20Curve.md)
-- [Precision.md](Precision.md)
-- [Quadratic Loss.md](Quadratic%20Loss.md)
-- [ROC Curve.md](ROC%20Curve.md)
-- [Recall.md](Recall.md)
-- [Sensitivity.md](Sensitivity.md)
-- [Sparse Dictionary Learning Loss.md](Sparse%20Dictionary%20Learning%20Loss.md)
-- [Specificity.md](Specificity.md)
-- [Squared Error.md](Squared%20Error.md)
-- [Squared Hinge.md](Squared%20Hinge.md)
-- [Triplet Loss.md](Triplet%20Loss.md)
-- [inter-sentence coherence loss.md](inter-sentence%20coherence%20loss.md)
+- [[0-1 Loss|0-1 Loss.md]]
+- [[Absolute Error|Absolute Error.md]]
+- [[Akaike Information Criterion|Akaike Information Criterion.md]]
+- [[Attention Alignment|Attention Alignment.md]]
+- [[BCE with Logits|BCE with Logits.md]]
+- [[BLEU|BLEU.md]]
+- [[Bayesian Information Criterion|Bayesian Information Criterion.md]]
+- [[CTC|CTC.md]]
+- [[Confusion Matrix|Confusion Matrix.md]]
+- [[Contrastive Loss|Contrastive Loss.md]]
+- [[Cosine Similarity|Cosine Similarity.md]]
+- [[Cross Entropy|Cross Entropy.md]]
+- [[Dice Score|Dice Score.md]]
+- [[Focal Loss|Focal Loss.md]]
+- [[GE2E|GE2E.md]]
+- [[Hinge Loss|Hinge Loss.md]]
+- [[Huber|Huber.md]]
+- [[ITM Loss|ITM Loss.md]]
+- [[Intra cluster variance|Intra cluster variance.md]]
+- [[KL Divergence|KL Divergence.md]]
+- [[Log Likelihood Loss|Log Likelihood Loss.md]]
+- [[LogCosh|LogCosh.md]]
+- [[MAPE|MAPE.md]]
+- [[MSE|MSE.md]]
+- [[MSLE|MSLE.md]]
+- [[Mallows Cp Statistic|Mallows Cp Statistic.md]]
+- [[Margin Ranking|Margin Ranking.md]]
+- [[Max Margin Loss|Max Margin Loss.md]]
+- [[Negative Log Likelihood|Negative Log Likelihood.md]]
+- [[Perplexity|Perplexity.md]]
+- [[Poisson Loss|Poisson Loss.md]]
+- [[Precision Recall Curve|Precision Recall Curve.md]]
+- [[Precision|Precision.md]]
+- [[Quadratic Loss|Quadratic Loss.md]]
+- [[ROC Curve|ROC Curve.md]]
+- [[Recall|Recall.md]]
+- [[Sensitivity|Sensitivity.md]]
+- [[Sparse Dictionary Learning Loss|Sparse Dictionary Learning Loss.md]]
+- [[Specificity|Specificity.md]]
+- [[Squared Error|Squared Error.md]]
+- [[Squared Hinge|Squared Hinge.md]]
+- [[Triplet Loss|Triplet Loss.md]]
+- [[inter-sentence coherence loss|inter-sentence coherence loss.md]]
 

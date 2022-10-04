@@ -9,8 +9,8 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 # Teacher Forcing
 - [from](https://publish.obsidian.md/fabian-groeger/Machine+Learning+%26+Deep+Learning/Deep+Learning/Architectures/RNN/Teacher+Forcing)
 - Technique where the target word (ground truth word) is passed as the next input to the decoder instead of its last prediction.
-- common technique to train [Basic RNN Architectures](Basic%20RNN%20Architectures.md) or [Transformer](Transformer.md)
-    - used in [imageCaptioning](imageCaptioning.md) , Machine Translation
+- common technique to train [[Basic RNN Architectures]] or [[Transformer]]
+    - used in [[imageCaptioning]] , Machine Translation
     - but also in Time Series forecasting
 - intuition
     - math exam with dependent questions, e.g. a) depends on b), b) on c) and so on
@@ -21,7 +21,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - no memorization can happen
     - the network can not look into the future
     - ground truth is only fed as last $y_{t-1}$ prediction not as the current $y_{t}$
-- [loss](loss.md) does not need to be updated at each timestep, only needs to have a list with the true predictions of the model from which then the [loss](loss.md) is calculated
+- [[loss]] does not need to be updated at each timestep, only needs to have a list with the true predictions of the model from which then the [[loss]] is calculated
 - pros
     - training converges faster, because early predictions are very bad
 - cons

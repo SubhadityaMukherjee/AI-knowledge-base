@@ -8,8 +8,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Noise
 - To training input data
 	- Gaussian random noise
-	- [Augmentation](Augmentation.md)
+	- [[Augmentation]]
 - While the algo runs
-	- [Dropout](Dropout.md)
-- [Stochastic ensemble learning](Stochastic%20ensemble%20learning.md)
+	- [[Dropout]]
+- [[Stochastic ensemble learning]]
 
+## Backlinks
+
+> - [Tuning Model Flexibility](Tuning Model Flexibility.md)
+>   - [[Adding noise]]
+
+_Backlinks last generated 2022-10-04 13:01:19_

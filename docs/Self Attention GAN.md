@@ -5,8 +5,8 @@ date modified: Thursday, August 11th 2022, 12:32:46 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# [Self Attention](Self%20Attention.md) GAN
-- [Self Attention](Self%20Attention.md) + [Generative Models](Generative%20Models.md)
+# [[Self Attention]] GAN
+- [[Self Attention]] + [[Generative Models]]
 
 ```python
 class Self_Attn_New(nn.Module):

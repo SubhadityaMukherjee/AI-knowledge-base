@@ -6,7 +6,7 @@ date modified: Monday, September 12th 2022, 3:12:05 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
-# Extensions to SlimStampen
+# Extensions to [[SlimStampen]]
 - Konteksti
 	- Semantic similarity
 - Increase activation of similar facts
@@ -27,9 +27,3 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- play against an ACT-R
 	- answer faster
 
-## Backlinks
-
-> - [](journals/2022-09-12.md)
->   - [[Extensions to SlimStampen]]
-
-_Backlinks last generated 2022-09-12 15:45:44_

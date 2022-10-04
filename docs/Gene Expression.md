@@ -6,6 +6,6 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 
 # Gene Expression
 - The process by which a gene
-- ’s [nucleotide](Nucleotide.md) sequence is transcribed into the form of RNA
+- ’s [[Nucleotide|nucleotide]] sequence is transcribed into the form of RNA
 - —often as a prelude to being translated into a protein.
 

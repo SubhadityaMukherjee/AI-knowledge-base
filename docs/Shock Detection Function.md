@@ -5,5 +5,5 @@ date modified: Thursday, August 11th 2022, 12:32:40 am
 ---
 
 # Shock Detection Function
-- Shock detection is a function supported by the Yaskawa robot controller that reduces the impact of a robot collision by stopping the manipulator without any external sensor when the tool or the manipulator collide with a peripheral device.
+- Shock detection is a function supported by the Yaskawa robot controller that reduces the impact of a robot collision by stopping the [[Manipulator|manipulator]] without any external sensor when the tool or the [[Manipulator|manipulator]] collide with a peripheral device.
 

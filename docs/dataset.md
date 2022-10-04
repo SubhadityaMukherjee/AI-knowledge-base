@@ -3,53 +3,53 @@
 tags: anchor
 ___
 
-- [AudioSet classification.md](AudioSet%20classification.md)
-- [BUCC.md](BUCC.md)
-- [Benchmark LLM.md](Benchmark%20LLM.md)
-- [Billion Word.md](Billion%20Word.md)
-- [BooksCorpus.md](BooksCorpus.md)
-- [CIFAR.md](CIFAR.md)
-- [COCO.md](COCO.md)
-- [Cityscapes.md](Cityscapes.md)
-- [CommonCrawl.md](CommonCrawl.md)
-- [DrawBench.md](DrawBench.md)
-- [English Wikipedia.md](English%20Wikipedia.md)
-- [Europarl-ST.md](Europarl-ST.md)
-- [Fashion MNIST.md](Fashion%20MNIST.md)
-- [Fisher Spanish-English.md](Fisher%20Spanish-English.md)
-- [Flickr30K.md](Flickr30K.md)
-- [GLUE.md](GLUE.md)
-- [GTA5.md](GTA5.md)
-- [Google Conceptual Captions.md](Google%20Conceptual%20Captions.md)
-- [Google voice search task.md](Google%20voice%20search%20task.md)
-- [ILSVRC.md](ILSVRC.md)
-- [IMDB.md](IMDB.md)
-- [Kvasir Dataset.md](Kvasir%20Dataset.md)
-- [Labeled Faces in the Wild.md](Labeled%20Faces%20in%20the%20Wild.md)
-- [LibriSpeech.md](LibriSpeech.md)
-- [MILANNOTATIONS.md](MILANNOTATIONS.md)
-- [MLDoc.md](MLDoc.md)
-- [MMLU.md](MMLU.md)
-- [MNIST.md](MNIST.md)
-- [MSCOCO.md](MSCOCO.md)
-- [MUSAN.md](MUSAN.md)
-- [NIST 2008 Speaker Recognition Evaluation dataset.md](NIST%202008%20Speaker%20Recognition%20Evaluation%20dataset.md)
-- [NIST SRE 2016 Cantonese.md](NIST%20SRE%202016%20Cantonese.md)
-- [NLVR2.md](NLVR2.md)
-- [PASCAL VOC.md](PASCAL%20VOC.md)
-- [People Art Dataset.md](People%20Art%20Dataset.md)
-- [Picasso Dataset.md](Picasso%20Dataset.md)
-- [RACE.md](RACE.md)
-- [SBU Captions.md](SBU%20Captions.md)
-- [SQuAD.md](SQuAD.md)
-- [SYNTHIA.md](SYNTHIA.md)
-- [Shapes Dataset.md](Shapes%20Dataset.md)
-- [Speakers in the Wild.md](Speakers%20in%20the%20Wild.md)
-- [Swichboard.md](Swichboard.md)
-- [VQAv2.md](VQAv2.md)
-- [Visual Commonsense Reasoning.md](Visual%20Commonsense%20Reasoning.md)
-- [Visual Genome.md](Visual%20Genome.md)
-- [WMT14.md](WMT14.md)
-- [Wall Street Journal task.md](Wall%20Street%20Journal%20task.md)
-- [XLSR.md](XLSR.md)
+- [[AudioSet classification|AudioSet classification.md]]
+- [[BUCC|BUCC.md]]
+- [[Benchmark LLM|Benchmark LLM.md]]
+- [[Billion Word|Billion Word.md]]
+- [[BooksCorpus|BooksCorpus.md]]
+- [[CIFAR|CIFAR.md]]
+- [[COCO|COCO.md]]
+- [[Cityscapes|Cityscapes.md]]
+- [[CommonCrawl|CommonCrawl.md]]
+- [[DrawBench|DrawBench.md]]
+- [[English Wikipedia|English Wikipedia.md]]
+- [[Europarl-ST|Europarl-ST.md]]
+- [[Fashion MNIST|Fashion MNIST.md]]
+- [[Fisher Spanish-English|Fisher Spanish-English.md]]
+- [[Flickr30K|Flickr30K.md]]
+- [[GLUE|GLUE.md]]
+- [[GTA5|GTA5.md]]
+- [[Google Conceptual Captions|Google Conceptual Captions.md]]
+- [[Google voice search task|Google voice search task.md]]
+- [[ILSVRC|ILSVRC.md]]
+- [[IMDB|IMDB.md]]
+- [[Kvasir Dataset|Kvasir Dataset.md]]
+- [[Labeled Faces in the Wild|Labeled Faces in the Wild.md]]
+- [[LibriSpeech|LibriSpeech.md]]
+- [[MILANNOTATIONS|MILANNOTATIONS.md]]
+- [[MLDoc|MLDoc.md]]
+- [[MMLU|MMLU.md]]
+- [[MNIST|MNIST.md]]
+- [[MSCOCO|MSCOCO.md]]
+- [[MUSAN|MUSAN.md]]
+- [[NIST 2008 Speaker Recognition Evaluation dataset|NIST 2008 Speaker Recognition Evaluation dataset.md]]
+- [[NIST SRE 2016 Cantonese|NIST SRE 2016 Cantonese.md]]
+- [[NLVR2|NLVR2.md]]
+- [[PASCAL VOC|PASCAL VOC.md]]
+- [[People Art Dataset|People Art Dataset.md]]
+- [[Picasso Dataset|Picasso Dataset.md]]
+- [[RACE|RACE.md]]
+- [[SBU Captions|SBU Captions.md]]
+- [[SQuAD|SQuAD.md]]
+- [[SYNTHIA|SYNTHIA.md]]
+- [[Shapes Dataset|Shapes Dataset.md]]
+- [[Speakers in the Wild|Speakers in the Wild.md]]
+- [[Swichboard|Swichboard.md]]
+- [[VQAv2|VQAv2.md]]
+- [[Visual Commonsense Reasoning|Visual Commonsense Reasoning.md]]
+- [[Visual Genome|Visual Genome.md]]
+- [[WMT14|WMT14.md]]
+- [[Wall Street Journal task|Wall Street Journal task.md]]
+- [[XLSR|XLSR.md]]
 

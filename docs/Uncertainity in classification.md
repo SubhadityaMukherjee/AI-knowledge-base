@@ -5,7 +5,7 @@ date modified: Thursday, August 11th 2022, 12:32:44 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# [Uncertainty](Uncertainty.md) Classification
-- [Distributions](Distributions)
-- Use [Softmax](Softmax.md) or [Sigmoid](Sigmoid.md)
+# [[Uncertainty]] Classification
+- [[Distributions]]
+- Use [[Softmax]] or [[Sigmoid]]
 

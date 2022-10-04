@@ -13,7 +13,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
 ## Backlinks
 
-> - [Peripheral Nervous System](Peripheral Nervous System.md)
->   - [[Afferent]] + [[Efferent]]
+> - [[Peripheral Nervous System]]
+>   - [[Afferent]] + [[.md|Efferent]]
 
 _Backlinks last generated 2022-09-06 13:32:14_

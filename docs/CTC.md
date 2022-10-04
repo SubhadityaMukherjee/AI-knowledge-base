@@ -16,3 +16,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - probabilistic principles
 - TIMIT speech corpus
 
+## Backlinks
+
+> - [Listen Attend Spell](Listen Attend Spell.md)
+>   - bypass the [[Conditional Independence|conditional independence]] assumptions of [[CTC]], and show how they can learn an implicit language model that can generate multiple spelling variants given the same acoustics
+>   - producing character sequences without making any independence assumptions between the characters is the key improvement of LAS over previous end-to-end [[CTC]] models
+>    
+> - [Speech Recognition](Speech Recognition.md)
+>   - combination of the deep bidirectional LSTM recurrent neural network architecture and a modified Connectionist Temporal Classification ([[CTC]]) objective function
+
+_Backlinks last generated 2022-10-04 13:01:19_

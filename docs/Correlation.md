@@ -18,5 +18,5 @@ tags: statistics
 	- 1 indicates a strong positive relationship.
 	- -1 indicates a strong negative relationship.
 	- A result of zero indicates no relationship at all.
-	- ![Pasted image 20220617141155](assets/Pasted%20image%2020220617141155.png)
+	- ![[assets/Pasted image 20220617141155.png]]
 

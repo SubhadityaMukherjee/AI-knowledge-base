@@ -1,0 +1,18 @@
+---
+title: IDRiD
+
+tags: dataset 
+date modified: Wednesday, October 5th 2022, 2:31:29 pm
+date created: Wednesday, October 5th 2022, 2:31:16 pm
+---
+
+# IDRiD
+- IDRiD is con- cerned with the disease grade recognition of retina images, and the presence or absence of diseases is recognized from exudates and hemorrhages.
+- IDRiD includes a segmentation label of disease regions annotated by a specialist
+
+## Backlinks
+
+> - [Embedding Human Knowledge into Deep Neural Network via Attention Map](Embedding Human Knowledge into Deep Neural Network via Attention Map.md)
+>   - [[IDRiD]]
+
+_Backlinks last generated 2022-10-05 15:25:18_

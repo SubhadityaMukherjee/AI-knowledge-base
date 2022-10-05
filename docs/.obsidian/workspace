@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4e7524063f5fe205",
+        "id": "4405f0ab403cdd0a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Distilling the Knowledge in a Neural Network.md",
+            "file": "journals/2022-10-05.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distilling the Knowledge in a Neural Network.md",
+                "file": "journals/2022-10-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -66,7 +66,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distilling the Knowledge in a Neural Network.md",
+                "file": "journals/2022-10-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -89,7 +89,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Distilling the Knowledge in a Neural Network.md",
+                "file": "journals/2022-10-05.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distilling the Knowledge in a Neural Network.md"
+                "file": "journals/2022-10-05.md"
               }
             }
           }
@@ -158,17 +158,17 @@
     "width": 236.5,
     "collapsed": true
   },
-  "active": "4e7524063f5fe205",
+  "active": "4405f0ab403cdd0a",
   "lastOpenFiles": [
-    "Knowledge Distillation.md",
-    "journals/2022-10-04.md",
     "Collectivity, Distributivity, and the Interpretation of Plural Numerical Expressions in Child and Adult Language.md",
-    "Evidence For Distributivity Effects in Comprehension.md",
-    "Yaw.md",
-    "He Initialization.md",
-    "Picky Puppet Method.md",
-    "regularize.md",
-    "Optimizers.md",
-    "Learning Rate Decay tricks.md"
+    "Force.md",
+    "Gravity Loading.md",
+    "Gravity.md",
+    "Vectorization.md",
+    "Central Sulcus.md",
+    "Morpheme.md",
+    "Strip Mining.md",
+    "Infix.md",
+    "Point Cloud.md"
   ]
 }

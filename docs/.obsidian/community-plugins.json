@@ -20,5 +20,6 @@
   "obsidian-linter",
   "tag-page-preview",
   "dataview",
-  "obisidian-note-linker"
+  "obisidian-note-linker",
+  "obsidian-plugin-toc"
 ]

@@ -18,3 +18,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - help achieve model generalization by identifying dataset bias
 - identify important neurons through GradCAM and combine it with neuron names to provide textual explanations for model decisions
 
+## Backlinks
+
+> - [Embedding Human Knowledge into Deep Neural Network via Attention Map](Embedding Human Knowledge into Deep Neural Network via Attention Map.md)
+>   - Typical visual explanation approaches in- clude class activation mapping (CAM) and [[GradCAM]]
+>    
+> - [Generalizing Adversarial Explanations with Grad-CAM](Generalizing Adversarial Explanations with Grad-CAM.md)
+>   - The drawback of [[GradCAM]] is that it cannot be used to generalize CNN behaviour.
+
+_Backlinks last generated 2022-10-05 15:25:18_

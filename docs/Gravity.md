@@ -2,7 +2,7 @@
 title: Gravity
 
 tags: physics
-date modified: Tuesday, September 6th 2022, 1:32:22 pm
+date modified: Wednesday, October 5th 2022, 3:20:07 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

@@ -6,7 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Vector Quantization
-- Partitioned into k cells whose center of gravity vectors are indexed
+- Partitioned into k cells whose center of [[gravity]] vectors are indexed
 - Indices used as symbolic [[Encodings|encodings]]
 - Discretization
 

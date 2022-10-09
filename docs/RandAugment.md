@@ -1,15 +1,9 @@
 ---
-tags: temp
-date modified: Thursday, August 11th 2022, 12:32:47 am
-date created: Tuesday, July 26th 2022, 8:33:15 pm
----
-
----
-
 title: RandAugment
 
-tags: regularize
-
+tags: augment
+date modified: Friday, October 7th 2022, 12:18:33 pm
+date created: Tuesday, July 26th 2022, 5:03:15 pm
 ---
 
 # RandAugment

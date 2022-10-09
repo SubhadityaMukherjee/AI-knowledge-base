@@ -31,14 +31,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [tds](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
 - [way more stuff : bjlkeng](https://bjlkeng.github.io/posts/manifolds/) #todo
 
-## Backlinks
-
-> - [Adversarial Learning](Adversarial Learning.md)
->   - Consider data in a [[Manifold]]. The [[PDF]] is concentrated along a low dim [[Manifold]] $\mathcal{M}$
->   - Consider data in a [[Manifold]]. The [[PDF]] is concentrated along a low dim [[Manifold]] $\mathcal{M}$
->   - Now the original picture is a point on the [[Manifold]] (dim = output layer size)
->    
-> - [Challenge of Complex Geometry](Complex Geometry.md)
->   - [[Manifold]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

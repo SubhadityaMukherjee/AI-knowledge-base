@@ -6,6 +6,6 @@
   "customFolder": "",
   "fileNamePrefix": "",
   "transcludeByDefault": false,
-  "noteLinkTemplate": "",
-  "refactoredNoteTemplate": ""
+  "noteLinkTemplate": "- {{new_note_link}}",
+  "refactoredNoteTemplate": "---\ntitle: {{new_note_title}}\ntags: augment\n---\n\n{{new_note_content}}"
 }

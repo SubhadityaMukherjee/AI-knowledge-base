@@ -13,14 +13,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- [[Lexical Disambiguation]]
 - [[Sentence level processing]]
 
-## Backlinks
-> - [Approximately Compositional Semantic Parsing](Approximately Compositional Semantic Parsing.md)
->   - which [[Semantic Analysis]] processing is applied to the result of performing a syntactic parse
->
-> - [Linguistic Details](Linguistic details.md)
->   - [[Semantic Analysis]]
->
-> - [Conceptual Parsing](Conceptual Parsing.md)
->   - [[Syntactic Analysis]] and [[Semantic Analysis]] knowledge are combined into a single interpretation system that is driven by the semantic knowledge
-
-_Backlinks last generated 2022-10-04 13:01:19_

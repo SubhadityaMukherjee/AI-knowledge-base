@@ -17,7 +17,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Simple [[Clustering|clustering]] methods can be used to get the data to automatically create the hypothesis space needed for [[Bayesian]] modelling
 - Probabilities of different sets then match with human judgments surprisingly well
 - [[Clustering]] based on biology worked worse!
-- [[Clustering]] using linguistic co-occurrences with latent semantic analysis also worked worse!
+- [[Clustering]] using linguistic co-occurrences with [[latent semantic analysis]] also worked worse!
 - Human subject judgements of similarity worked best
 - Suggests some human reasoning relies on [[Probability|probability]]
 - [[Bayesian]] learning can also learn categories

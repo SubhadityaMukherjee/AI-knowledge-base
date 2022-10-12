@@ -1,0 +1,22 @@
+---
+title: Causability
+
+tags: explainability 
+date modified: Wednesday, October 12th 2022, 4:42:52 pm
+date created: Wednesday, October 12th 2022, 4:42:51 pm
+---
+
+# Causability
+```toc
+```
+
+- measures how exact an interpretable model is in imitating the behavior of a black box.
+fidelity
+- It is measured in terms of the accuracy score, but with respect to the outcome of the black box, similarly to the model accuracy.
+
+## Backlinks
+
+> - [Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey](Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md)
+>   - [[Causability]]
+
+_Backlinks last generated 2022-10-12 16:45:05_

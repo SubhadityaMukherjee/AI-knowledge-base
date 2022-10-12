@@ -53,5 +53,4 @@ ___
 - [SpecAugment.md](SpecAugment.md)
 - [Test-time Augmentation.md](Test-time%20Augmentation.md)
 - [Visual Context Augmentation.md](Visual%20Context%20Augmentation.md)
-- [templates/titler.md](templates/titler.md)
 

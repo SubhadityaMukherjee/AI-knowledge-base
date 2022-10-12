@@ -1,0 +1,22 @@
+---
+title: Bayesian Rule List
+
+tags: explainability 
+date modified: Wednesday, October 12th 2022, 4:42:59 pm
+date created: Wednesday, October 12th 2022, 4:42:58 pm
+---
+
+# Bayesian Rule List
+```toc
+```
+
+- The BRL is a generative model that yields a posterior distribution over possible decision lists, which consist of a series of if-then statements that discretize a high-dimensional, multivariate feature space into a series of simple, readily interpretable decision statements. The if statements define a partition of a set of features, and the then statements correspond to the predicted outcome of interest.
+- According to the authors, their experiments showed that the BRL has predictive accuracy on par with the current top algorithms for prediction in Machine Learning
+- The BRL is able to be used to produce highly accurate and interpretable medical scoring systems
+
+## Backlinks
+
+> - [Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey](Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md)
+>   - [[Bayesian Rule List]]
+
+_Backlinks last generated 2022-10-12 16:45:05_

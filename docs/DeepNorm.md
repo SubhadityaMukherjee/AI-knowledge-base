@@ -2,7 +2,7 @@
 title: DeepNorm
 
 tags: regularize 
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - DeepNorm modifies the residual connection in the Transformer architecture by up-scaling it before performing [[Layer Normalization|layer normalization]]
 
 ## Backlinks
-
 > - [DeepNet](DeepNet.md)
 >   - [[DeepNorm]]
 

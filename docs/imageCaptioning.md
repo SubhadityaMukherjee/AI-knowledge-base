@@ -1,7 +1,7 @@
 ---
 title: Image Captioning
 tags: application
-date modified: Thursday, August 11th 2022, 12:32:43 am
+date modified: Monday, October 10th 2022, 2:02:12 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ![[assets/Pasted image 20220307183552.png|im]]
 
 ## Backlinks
-
 > - [Teacher Forcing](Teacher Forcing.md)
 >   - used in [[imageCaptioning]] , Machine Translation
 

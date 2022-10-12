@@ -1,7 +1,7 @@
 ---
 title: Tanh
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:45 am
+date modified: Monday, October 10th 2022, 2:02:15 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,22 +12,21 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![[assets/Pasted image 20220626151651.jpg]]
 
 ## Backlinks
-
 > - [[[visualization|Visualization]] Of Layers](Visualization Of Layers.md)
 >   - [[Tanh]]
->    
+>
 > - [Xavier [[Initialization]]](Xavier Initialization.md)
 >   - For [[Tanh]] based activating neural nets
->    
+>
 > - [Squared Hinge](Squared Hinge.md)
 >   - [[Tanh]] for last layer
->    
+>
 > - [Lisht](Lisht.md)
 >   - his activation function simply uses the [[Tanh]] function and scales it linearly, as follows
->    
+>
 > - [](ActivationFunctions.md)
 >   - [[SELU]] > [[Elu]] > [[Leaky Relu]] > [[Relu]] > [[Tanh]] > [[Sigmoid]]
->    
+>
 > - [Recurrent](Recurrent.md)
 >   - Activation usually [[Sigmoid]] or [[Tanh]]
 

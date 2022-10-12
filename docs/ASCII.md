@@ -1,7 +1,7 @@
 ---
 title: ASCII
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:58 am
+date modified: Monday, October 10th 2022, 2:02:35 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,16 +10,15 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Roman, Latin
 
 ## Backlinks
-
 > - [Document Triage](Document Triage.md)
 >   - Character Encoding Identification ([[ASCII]], UNICODE..)
->    
+>
 > - [Character-set Dependence](Character-set dependence.md)
 >   - [[ASCII]]
->    
+>
 > - [8 Bit Character Set](8 bit character set.md)
 >   - First 128 characters are reserved for [[ASCII]]
->    
+>
 > - [Unicode 5.0](Unicode 5.0.md)
 >   - [[ASCII]] requires 1 byte
 

@@ -2,7 +2,7 @@
 title: Offline Distillation
 
 tags: knowledgedistillation 
-date modified: Tuesday, October 4th 2022, 11:46:18 am
+date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:45:59 am
 ---
 
@@ -13,7 +13,6 @@ date created: Tuesday, October 4th 2022, 11:45:59 am
 - Moreover, the capacity gap between large teacher and small student always exists, and student often largely relies on teacher.
 
 ## Backlinks
-
 > - [Distillation Schemes](Distillation Schemes.md)
 >   - [[Offline Distillation]]
 

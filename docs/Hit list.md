@@ -2,7 +2,7 @@
 title: Hit list
 
 tags: temp 
-date modified: Thursday, August 11th 2022, 12:32:52 am
+date modified: Monday, October 10th 2022, 2:02:26 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Feature A: target word class should survive competit with the other word classes (emerging needle from the heterogeneous hay stack)
 
 ## Backlinks
-
 > - [Monk](Monk.md)
 >   - [[Hit list]]
 

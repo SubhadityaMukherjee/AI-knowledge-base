@@ -2,7 +2,7 @@
 title: Adaptive Gradient Clipping
 
 tags: gradients 
-date modified: Thursday, August 11th 2022, 12:32:40 am
+date modified: Monday, October 10th 2022, 2:02:35 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

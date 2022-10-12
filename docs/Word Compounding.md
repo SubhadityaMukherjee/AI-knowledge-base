@@ -1,7 +1,7 @@
 ---
 title: Word Compounding
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:44 am
+date modified: Monday, October 10th 2022, 2:02:13 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - N + N = N rain+bow rain-bow
 
 ## Backlinks
-
 > - [Morphology](Morphology.md)
 >   - [[Word Compounding]]
 

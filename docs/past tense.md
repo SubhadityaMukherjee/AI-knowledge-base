@@ -2,7 +2,7 @@
 title: past tense
 
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:42 am
+date modified: Monday, October 10th 2022, 2:02:10 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,15 +10,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - When a speaker needs to say the past tense form of a [[Verb|verb]] if the [[Verb|verb]] has an irregular form, choose that if not, add -ed
 
 ## Backlinks
-
 > - [Words-and-Rules](Words-and-Rules.md)
 >   - [[past tense]]
 >   - Symbolic rules produce [[past tense]] forms (procedural memory)
 >   - new and novel verbs will get regular endings in [[past tense]] unless exposed to irregular past
->    
+>
 > - [Milin Et Al.](Milin et al..md)
 >   - This seems similar to results with regular [[past tense]] forms in English:
->    
+>
 > - [Wickelphones](Wickelphones.md)
 >   - Verbs with same stem and [[past tense]]
 

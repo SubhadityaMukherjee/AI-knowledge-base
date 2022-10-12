@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Bayesian Prior
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -24,10 +24,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- Higher values of	$p_{\otimes_{i}}x(D|\theta)$ are better
 
 ## Backlinks
-
 > - [Inductive Bias](Inductive Bias.md)
 >   - [[Bayesian Prior]] can shape the [[Bayesian Posterior]] in the way that it can be a similar distribution to the former
->    
+>
 > - [[[Bayesian]] Model Estimation](Bayesian Model Estimation.md)
 >   - [[Bayesian Prior]]
 

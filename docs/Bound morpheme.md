@@ -1,7 +1,7 @@
 ---
 title: Bound morpheme
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - e.g., +ing, +s, +ness,ly,ed
 
 ## Backlinks
-
 > - [[[Morphology]] Affix](Morphology Affix.md)
 >   - [[Bound morpheme]]
 

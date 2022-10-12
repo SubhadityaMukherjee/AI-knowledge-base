@@ -2,7 +2,7 @@
 title: Classifying a specific image region using convolutional nets with an ROI mask as input
 
 tags: mastersthesis explainability
-date modified: Wednesday, October 5th 2022, 3:11:57 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 12:58:22 pm
 ---
 
@@ -52,7 +52,6 @@ date created: Wednesday, October 5th 2022, 12:58:22 pm
 - ![[assets/Pasted image 20221005125850.png]]
 
 ## Backlinks
-
 > - [](journals/2022-10-05.md)
 >   - [[Classifying a specific image region using convolutional nets with an ROI mask as input]]
 

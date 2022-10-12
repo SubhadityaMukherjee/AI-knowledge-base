@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Detailed Balance
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\int_{\mathbb{R}^{k}}T(x|y)g(y)dy = \int_{\mathbb{R}^{k}}T(y|x)g(x)dy = g(x)\int_{\mathbb{R}^{k}}P(y|x)dy = g(x)$$
 
 ## Backlinks
-
 > - [MCMC [[Sampling]]](MCMC Sampling.md)
 >   - [[Detailed Balance]]
 

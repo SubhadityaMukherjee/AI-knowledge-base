@@ -2,7 +2,7 @@
 title: Unsupervised Data Generation
 
 tags: temp
-date modified: Thursday, August 11th 2022, 12:32:44 am
+date modified: Monday, October 10th 2022, 2:02:14 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - training data creation procedure named Unsupervised Data Generation (UDG), which leverages few-shot prompts to synthesize high-quality training data without real human annotations
 
 ## Backlinks
-
 > - [Zero Label Language Learning](Zero Label Language Learning.md)
 >   - [[Unsupervised Data Generation]]
 

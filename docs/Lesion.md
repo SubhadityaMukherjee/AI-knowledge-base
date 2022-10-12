@@ -1,7 +1,7 @@
 ---
 tags: brain
 date created: Wednesday, August 10th 2022, 7:05:01 pm
-date modified: Thursday, August 11th 2022, 12:32:39 am
+date modified: Monday, October 10th 2022, 2:02:23 pm
 ---
 
 # Lesion
@@ -11,7 +11,6 @@ date modified: Thursday, August 11th 2022, 12:32:39 am
 - Damage or change to tissue, such as a cut, a wound or a sore
 
 ## Backlinks
-
 > - [Berkeley Et Al](Berkeley et al.md)
 >   - [[Lesion]] studies show bands are essential to solving problem
 

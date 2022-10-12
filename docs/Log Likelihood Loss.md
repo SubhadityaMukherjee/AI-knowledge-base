@@ -1,7 +1,7 @@
 ---
 title: Log Likelihood Loss
 tags: loss
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Monday, October 10th 2022, 2:02:23 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,10 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - k is size of context window of past tokens
 
 ## Backlinks
-
 > - [GPT](GPT.md)
 >   - [[Log Likelihood Loss]]
->    
+>
 > - [Negative Log Likelihood](Negative Log Likelihood.md)
 >   - [[Log Likelihood Loss]]
 

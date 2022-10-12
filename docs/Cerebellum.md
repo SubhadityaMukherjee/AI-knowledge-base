@@ -1,7 +1,7 @@
 ---
 title: Cerebellum
 tags: brain
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - It stores automatic learned memories like tying a shoe, playing an instrument, or riding a bike.
 
 ## Backlinks
-
 > - [Brain Areas](Brain Areas.md)
 >   - [[Cerebellum]]
 

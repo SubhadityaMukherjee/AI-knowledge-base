@@ -2,7 +2,7 @@
 title: Chi Squared Distance
 
 tags: distance 
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$d= \Sigma_{i}\frac{p_{i}-q_{i}}{p_{i}+q_{i}}$$
 
 ## Backlinks
-
 > - [Distance Measures](Distance Measures.md)
 >   - [[Chi Squared Distance]]
 

@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Parallel Runner
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -74,7 +74,6 @@ def parallel(func, arr: Collection, max_workers: int = None, leave=False):  # %t
 ```
 
 ## Backlinks
-
 > - [Useful Codes](Useful Codes.md)
 >   - [[Parallel Runner]]
 

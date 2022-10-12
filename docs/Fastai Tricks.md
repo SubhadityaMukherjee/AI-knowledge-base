@@ -2,7 +2,7 @@
 title: Fasai Tricks
 
 tags: library 
-date modified: Thursday, August 11th 2022, 12:32:42 am
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Friday, July 29th 2022, 4:06:12 pm
 ---
 
@@ -36,7 +36,6 @@ ens_preds = torch.stack(learns).mean(0) # stack and mean
 ```
 
 ## Backlinks
-
 > - [Fastai](fastai.md)
 >   - [[Fastai Tricks]]
 

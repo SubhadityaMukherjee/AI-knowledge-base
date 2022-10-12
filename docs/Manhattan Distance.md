@@ -2,7 +2,7 @@
 title: Manhattan Distance
 
 tags: distance 
-date modified: Thursday, August 11th 2022, 12:32:50 am
+date modified: Monday, October 10th 2022, 2:02:22 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,10 +15,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - When your dataset has discrete and/or binary attributes, Manhattan seems to work quite well since it takes into account the paths that realistically could be taken within values of those attributes.
 
 ## Backlinks
-
 > - [Minkowski Distance](Minkowski Distance.md)
 >   - p=1 — [[Manhattan Distance]]
->    
+>
 > - [Distance Measures](Distance Measures.md)
 >   - [[Manhattan Distance]]
 

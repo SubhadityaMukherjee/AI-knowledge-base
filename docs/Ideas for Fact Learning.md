@@ -2,7 +2,7 @@
 title: Ideas for Fact Learning
 
 tags: usermodel 
-date modified: Monday, September 19th 2022, 3:09:43 pm
+date modified: Monday, October 10th 2022, 2:02:25 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: GridMask
 tags: augment
+date created: Sunday, October 9th 2022, 12:21:26 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # GridMask
@@ -9,7 +11,6 @@ tags: augment
 - The number of masking grids and their sizes are tuneable
 
 ## Backlinks
-
 > - [Image Mixing and Deletion](Image Mixing and Deletion.md)
 >   - [[GridMask]]
 

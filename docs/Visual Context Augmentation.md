@@ -1,6 +1,8 @@
 ---
 title: Visual Context Augmentation
 tags: augment
+date created: Sunday, October 9th 2022, 12:21:26 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # Visual Context Augmentation
@@ -12,28 +14,7 @@ tags: augment
 
 ## Backlinks
 
-> - [RandAugment](RandAugment.md)
->   - [[Augmentation]]
->    
-> - [BYOL](BYOL.md)
->   - dependent on existing sets of [[Augmentation]] that are specific to vision applications
->    
-> - [](DeepLearning.md)
->   - [[Augmentation]]
->    
-> - [Non [[Relational Inductive Bias]]](Non Relational Inductive Bias.md)
->   - [[Augmentation]]
->    
-> - [Regularization](Regularization.md)
->   - [[Augmentation]]
->    
-> - [Effects of [[Regularization]]](Effects of Regularization.md)
->   - Current Deep Networks heavily rely on regularizers such as data [[Augmentation]] (DA) or [[Weight Decay]], and employ structural risk minimization, i.e., [[Cross Validation]], to select the optimal [[Regularization|regularization]] hyper-parameters
->    
 > - [Image Mixing and Deletion](Image Mixing and Deletion.md)
 >   - [[Visual Context Augmentation]]
->    
-> - [Noise](Adding noise.md)
->   - [[Augmentation]]
 
-_Backlinks last generated 2022-10-09 12:22:37_
+_Backlinks last generated 2022-10-12 10:22:04_

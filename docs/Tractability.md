@@ -1,7 +1,7 @@
 ---
 tags: temp
 date created: Tuesday, September 6th 2022, 12:43:44 pm
-date modified: Tuesday, September 6th 2022, 1:30:57 pm
+date modified: Monday, October 10th 2022, 2:02:15 pm
 ---
 
 # Tractability

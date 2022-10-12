@@ -2,7 +2,7 @@
 title: Lagrangian Coherent Structure
 
 tags: visualization 
-date modified: Wednesday, September 14th 2022, 12:47:54 pm
+date modified: Monday, October 10th 2022, 2:02:24 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - ![[assets/Screenshot 2022-09-14 at 12.47.50 PM.png]]
 
 ## Backlinks
-
 > - [[Time Dependant Vector Field]]
 >   - [[.md|Lagrangian Coherent Structure]]
 

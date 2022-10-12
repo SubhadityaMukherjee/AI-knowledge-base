@@ -1,6 +1,6 @@
 ---
 tags: temp
-date modified: Thursday, August 11th 2022, 12:32:50 am
+date modified: Monday, October 10th 2022, 2:02:22 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -31,7 +31,6 @@ tags: architecture
 - ![[assets/moco2.jpg]]
 
 ## Backlinks
-
 > - [Self Supervised Vision Transformers](Self Supervised Vision Transformers.md)
 >   - [[MoCO]] v3, a framework which offers an incremental improvement of [[MoCO]]
 >   - [[MoCO]] v3, a framework which offers an incremental improvement of [[MoCO]]

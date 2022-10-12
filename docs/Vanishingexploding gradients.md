@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Vanishing/exploding #gradients
-date modified: Thursday, August 11th 2022, 12:32:44 am
+date modified: Monday, October 10th 2022, 2:02:14 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -18,22 +18,21 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ## …
 
 ## Backlinks
-
 > - [Swish](Swish.md)
 >   - While Swish reportedly improves model performance (Ramachandran et al., 2017), it still does not allow you to avoid [[Vanishingexploding gradients]]
->    
+>
 > - [SELU](SELU.md)
 >   - no [[Vanishingexploding gradients]]
->    
+>
 > - [Orthogonal Initialization](Orthogonal Initialization.md)
 >   - simple approach to solving the problem [[Vanishingexploding gradients]]
->    
+>
 > - [Issues](Issues.md)
 >   - [[Vanishingexploding gradients]]
->    
+>
 > - [SRN](SRN.md)
 >   - [[Vanishingexploding gradients]] , in [[Backprop]], they break down when sequences are long.
->    
+>
 > - [Skip Connection](Skip Connection.md)
 >   - Transfer #gradients to prevent [[Vanishingexploding gradients]]
 

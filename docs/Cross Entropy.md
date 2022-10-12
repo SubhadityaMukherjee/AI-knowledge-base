@@ -1,7 +1,7 @@
 ---
 title: Cross Entropy
 tags: loss
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -20,22 +20,21 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- $$\mathscr{L}(\theta) = \frac{1}{2}\mathbb{E}_{(x,y) \sim P(X,Y)}||y-f(x;\theta)||^2$
 
 ## Backlinks
-
 > - [Distillation Loss](Distillation Loss.md)
 >   - Negative [[Cross Entropy]] + other
->    
+>
 > - [KL Divergence](KL Divergence.md)
 >   - [[Entropy]] + [[Cross Entropy]]
->    
+>
 > - [BCE [[Logits]]](BCE with Logits.md)
 >   - [[Cross Entropy]] + [[Logits|logits]]
->    
+>
 > - [Label Smoothing](Label Smoothing.md)
 >   - During training, minimize negative [[Cross Entropy]] loss to make these [[Distributions.md|distributions]] similar
->    
+>
 > - [Perplexity](Perplexity.md)
 >   - This is also equivalent to the exponentiation of the [[Cross Entropy]] between the data and model predictions
->    
+>
 > - [Focal Loss](Focal Loss.md)
 >   - modulating term to [[Cross Entropy]] in order to focus learning on hard misclassified examples
 

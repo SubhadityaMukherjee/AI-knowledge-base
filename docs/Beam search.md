@@ -2,7 +2,7 @@
 title: Beam search
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:41 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -23,7 +23,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
     - try out different values and cross check
 
 ## Backlinks
-
 > - [Google NMT](Google NMT.md)
 >   - [[Beam search]] technique employs a length-normalization procedure and uses a coverage penalty
 

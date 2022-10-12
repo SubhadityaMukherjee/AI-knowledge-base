@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Affine Function
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:34 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,10 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Function + bias
 
 ## Backlinks
-
 > - [Linear Regression](LinearRegression.md)
 >   - [[Affine Function]]
->    
+>
 > - [Barycentric [[Interpolation]]](Barycentric Interpolation.md)
 >   - Point x is an [[Affine Function]] of $x_i$
 

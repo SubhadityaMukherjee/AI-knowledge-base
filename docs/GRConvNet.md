@@ -2,7 +2,7 @@
 title: GRConvNet
 
 tags: robotics architecture 
-date modified: Wednesday, September 28th 2022, 9:40:55 pm
+date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -17,7 +17,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - ![[assets/Pasted image 20220928214106.png]]
 
 ## Backlinks
-
 > - [[Grasp Point Detection]]
 >   - [[GGCNN]], [[.md|GRConvNet]], [[MVGrasp]], [[Unet Grasping]], [[Learning to Detect Grasp Affordance]], [[Volumetric Grasping Network]] , [[Affordance Detection Task Specific]]
 

@@ -1,7 +1,7 @@
 ---
 title: Receptive field
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:47 am
+date modified: Monday, October 10th 2022, 2:02:18 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -21,7 +21,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- [[Depthwise Separable]]
 
 ## Backlinks
-
 > - [Causal Dilated [[Conv]]](Causal Dilated Conv.md)
 >   - [[Receptive field]] is how much of the input sequence is needed for one prediction
 

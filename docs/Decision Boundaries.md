@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Decision Boundaries
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -27,10 +27,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Algo learns estimates of the [[Class Conditional distribution]] and class probabilities aka priors
 
 ## Backlinks
-
 > - [Emperical Risk](Emperical Risk.md)
 >   - [[Decision Boundaries]]
->    
+>
 > - [K Means](KMeans.md)
 >   - Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
 

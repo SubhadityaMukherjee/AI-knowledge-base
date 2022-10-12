@@ -1,7 +1,7 @@
 ---
 title: Seq2Seq
 tags: architecture
-date modified: Thursday, August 11th 2022, 12:32:46 am
+date modified: Monday, October 10th 2022, 2:02:17 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -18,10 +18,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - reversing the order of the words in all source sentences (but not target sentences) improved the LSTM’s performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier
 
 ## Backlinks
-
 > - [Soft [[Attention]]](Soft Attention.md)
 >   - For a simple [[Seq2Seq]], all hidden state vectors $h_t$ across timesteps are linearly combined
->    
+>
 > - [Basic RNN Architectures](Basic RNN Architectures.md)
 >   - [[Seq2Seq]]
 

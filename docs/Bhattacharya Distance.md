@@ -2,7 +2,7 @@
 title: Bhattacharya Distance
 
 tags: distance 
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$BC(p,q) = \Sigma_{x\in X}\sqrt{p(x)q(x)}$$
 
 ## Backlinks
-
 > - [Distance Measures](Distance Measures.md)
 >   - [[Bhattacharya Distance]]
 

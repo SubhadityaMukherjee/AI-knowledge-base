@@ -2,7 +2,7 @@
 title: Salicon dataset
 
 tags: dataset 
-date modified: Thursday, October 6th 2022, 1:38:16 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Thursday, October 6th 2022, 1:38:15 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Thursday, October 6th 2022, 1:38:15 pm
 - Although this dataset is not the fixation dataset, it is well known that the distribution of mouse tracking points is similar to the distribution of fixations and that the parameters of the model trained on Salicon dataset are useful for saliency map estimation
 
 ## Backlinks
-
 > - [Influence of Image Classification Accuracy on Saliency Map Estimation](Influence of image classification accuracy on saliency map estimation.md)
 >   - [[Salicon dataset]]
 

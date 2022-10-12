@@ -1,6 +1,6 @@
 ---
 tags: temp
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -19,10 +19,9 @@ tags: statistics
 - $\bar x$ is the mean of x
 
 ## Backlinks
-
 > - [Sample [[Correlation]]](Sample Correlation.md)
 >   - $s_y$ is the sample [[Covariance]]
->    
+>
 > - [Population [[Correlation]]](Population Correlation.md)
 >   - $\sigma_{xy}$ is the [[Covariance]]
 

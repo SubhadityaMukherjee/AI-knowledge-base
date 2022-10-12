@@ -2,7 +2,7 @@
 title: Afferent
 
 tags: neuroscience
-date modified: Sunday, August 14th 2022, 7:03:16 pm
+date modified: Monday, October 10th 2022, 2:02:34 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Sensory Division
 
 ## Backlinks
-
 > - [[Peripheral Nervous System]]
 >   - [[.md|Afferent]] + [[Efferent]]
 

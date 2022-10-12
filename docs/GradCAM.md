@@ -2,7 +2,7 @@
 title: GradCAM
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:26 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -19,10 +19,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - identify important neurons through GradCAM and combine it with neuron names to provide textual explanations for model decisions
 
 ## Backlinks
-
 > - [Embedding Human Knowledge into Deep Neural Network via Attention Map](Embedding Human Knowledge into Deep Neural Network via Attention Map.md)
 >   - Typical visual explanation approaches in- clude class activation mapping (CAM) and [[GradCAM]]
->    
+>
 > - [Generalizing Adversarial Explanations with Grad-CAM](Generalizing Adversarial Explanations with Grad-CAM.md)
 >   - The drawback of [[GradCAM]] is that it cannot be used to generalize CNN behaviour.
 

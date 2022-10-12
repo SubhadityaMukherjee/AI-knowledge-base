@@ -2,7 +2,7 @@
 title: CIFAR
 
 tags: dataset 
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -13,10 +13,9 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - 50'000 training, 10'000 testing
 
 ## Backlinks
-
 > - [RandAugment](RandAugment.md)
 >   - [[CIFAR]], [[COCO]], [[SVHN]], [[ImageNet]]
->    
+>
 > - [Vision [[Transformer]]](Vision Transformer.md)
 >   - [[ImageNet]] , [[CIFAR]], [[VTAB]]
 

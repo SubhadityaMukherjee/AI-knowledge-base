@@ -2,7 +2,7 @@
 title: Variation in Dissimilarity Variation in Dissimilarity
 
 tags: explainability adversarial 
-date modified: Wednesday, October 5th 2022, 3:03:16 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 3:02:27 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Wednesday, October 5th 2022, 3:02:27 pm
 - $$VID = \sqrt{\frac{\Sigma(NISSIM_{eps}-m_{h})^{2}}{eps}}$$
 
 ## Backlinks
-
 > - [Generalizing Adversarial Explanations with Grad-CAM](Generalizing Adversarial Explanations with Grad-CAM.md)
 >   - [[Variation in Dissimilarity Variation in Dissimilarity]]
 

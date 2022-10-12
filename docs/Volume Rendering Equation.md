@@ -1,7 +1,7 @@
 ---
 title: Volume Rendering Equation
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:44 am
+date modified: Monday, October 10th 2022, 2:02:13 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -18,7 +18,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$L_{1}^{n}= g(n)+T(n)L_{1}^{n-1}$$
 
 ## Backlinks
-
 > - [Raycasting](Raycasting.md)
 >   - [[Volume Rendering Equation]]
 

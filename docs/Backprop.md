@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Backprop
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -18,13 +18,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 				- Solved by [[ActivationFunctions]]
 
 ## Backlinks
-
 > - [Vanishing/exploding #gradients](Vanishingexploding gradients.md)
 >   - Active neurons saturate -> prevent error #[[Backprop]]
->    
+>
 > - [SRN](SRN.md)
 >   - [[Vanishingexploding gradients]] , in [[Backprop]], they break down when sequences are long.
->    
+>
 > - [Gradient Descent #gradients](Gradient Descent gradients.md)
 >   - [[Backprop]]
 

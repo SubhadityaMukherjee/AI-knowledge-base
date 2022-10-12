@@ -2,7 +2,7 @@
 title: Content Based Attention
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Attention Alignment]] score $score(s_{t}, h_{i}) = cosine[s_{t}, h_{i}]$$
 
 ## Backlinks
-
 > - [Attention](Attention.md)
 >   - [[Content Based Attention]]
 

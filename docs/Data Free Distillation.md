@@ -2,7 +2,7 @@
 title: Data Free Distillation
 
 tags: knowledgedistillation 
-date modified: Tuesday, October 4th 2022, 11:52:26 am
+date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:51:35 am
 ---
 
@@ -15,7 +15,6 @@ date created: Tuesday, October 4th 2022, 11:51:35 am
 - data distillation, which is similar to data-free distillation (Radosavovic et al., 2018; Liu et al., 2019d; Zhang et al., 2020d). In data distillation, new training annotations of unlabeled data generated from the teacher model are employed to train a student model.
 
 ## Backlinks
-
 > - [Distillation Algorithms](Distillation Algorithms.md)
 >   - [[Data Free Distillation]]
 

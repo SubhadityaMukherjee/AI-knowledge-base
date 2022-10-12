@@ -2,7 +2,7 @@
 title: Direct entropy minimization
 
 tags: temp
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:29 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,7 +17,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Shannon Entropy]]
 
 ## Backlinks
-
 > - [ADVENT](ADVENT.md)
 >   - [[Direct entropy minimization]]
 

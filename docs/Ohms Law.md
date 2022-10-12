@@ -1,3 +1,9 @@
+---
+tags: temp
+date created: Sunday, August 14th 2022, 4:49:58 pm
+date modified: Monday, October 10th 2022, 2:02:20 pm
+---
+
 # Ohms Law
  - Potential difference = current x [[Resistance|resistance]]
  - $$V= IR$$

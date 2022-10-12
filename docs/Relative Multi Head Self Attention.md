@@ -2,7 +2,7 @@
 title: Relative Multi Head Self Attention
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:47 am
+date modified: Monday, October 10th 2022, 2:02:18 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [ZihangDai et al., 2019](https://arxiv.org/abs/1901.02860)
 
 ## Backlinks
-
 > - [Attention](Attention.md)
 >   - [[Relative Multi Head Self Attention]]
 

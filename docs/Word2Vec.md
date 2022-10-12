@@ -2,7 +2,7 @@
 title: Word2Vec
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:44 am
+date modified: Monday, October 10th 2022, 2:02:13 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - possible to train high quality [[Word Vectors|word vectors]] using very simple model architectures
 
 ## Backlinks
-
 > - [GloVE](GloVE.md)
 >   - [[Word2Vec]] relies only on local information of language. That is, the semantics learnt for a given word, is only affected by the surrounding words.
 

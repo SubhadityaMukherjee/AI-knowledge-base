@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Time Series Prediction
-date modified: Thursday, August 11th 2022, 12:32:45 am
+date modified: Monday, October 10th 2022, 2:02:15 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -26,13 +26,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- [[Recurrent]]
 
 ## Backlinks
-
 > - [Causal Systems](Causal Systems.md)
 >   - [[TIme Series]]
->    
+>
 > - [Autoregressive](Autoregressive.md)
 >   - predict the future by past of [[TIme Series]]
->    
+>
 > - [Window Based Regression](Window Based Regression.md)
 >   - [[TIme Series]]
 

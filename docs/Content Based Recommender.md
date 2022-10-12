@@ -2,7 +2,7 @@
 title: Content Based Recommender
 
 tags: usermodel 
-date modified: Monday, October 3rd 2022, 3:16:57 pm
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - eg: Google
 
 ## Backlinks
-
 > - [[Recommender System]]
 >   - [[.md|Content Based Recommender]]
 

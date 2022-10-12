@@ -1,7 +1,7 @@
 ---
 title: Cache Coherence
 tags: parallel 
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,10 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - if one processor updates a location in shared memory, all the other processors know about the update
 
 ## Backlinks
-
 > - [UMA](UMA.md)
 >   - [[Cache Coherence]]
->    
+>
 > - [NUMA](NUMA.md)
 >   - [[Cache Coherence]]
 

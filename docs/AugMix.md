@@ -1,6 +1,8 @@
 ---
 title: AugMix
 tags: augment
+date created: Sunday, October 9th 2022, 12:21:26 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # AugMix
@@ -12,7 +14,6 @@ tags: augment
 - This new image is later mixed with the original image to generate the final augmented output image,
 
 ## Backlinks
-
 > - [Image Mixing and Deletion](Image Mixing and Deletion.md)
 >   - [[AugMix]]
 

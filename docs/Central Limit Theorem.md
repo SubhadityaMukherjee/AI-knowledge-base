@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Central Limit Theorem
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,10 +17,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - None of the $X_{i}$ dominates the other "washing out"
 
 ## Backlinks
-
 > - [N Dim [[Normal Distribution]]](N-dim Normal.md)
 >   - If data points are vectors $x = (x_{1}, …, x_{n})'$ and RVs X_i fulfill the [[Central Limit Theorem]],
->    
+>
 > - [Normal Distribution](Normal Distribution.md)
 >   - [[Central Limit Theorem]]
 

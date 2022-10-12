@@ -2,7 +2,7 @@
 title: Euclidean Distance
 
 tags: distance 
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,13 +15,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - works great when you have low-dimensional data and the magnitude of the vectors is important to be measured
 
 ## Backlinks
-
 > - [Minkowski Distance](Minkowski Distance.md)
 >   - p=2 — [[Euclidean Distance]]
->    
+>
 > - [Distance Measures](Distance Measures.md)
 >   - [[Euclidean Distance]]
->    
+>
 > - [Self Organizing Maps](SOMs.md)
 >   - d is [[Euclidean Distance]] between two neurons in grid.
 

@@ -1,7 +1,7 @@
 ---
 title: Batch Normalization
 tags: regularize
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -22,29 +22,28 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$$
 
 ## Backlinks
-
 > - [Large Batch Training](Large Batch Training.md)
 >   - Modified [[Batch Normalization]] with $\gamma=0$ for all BNs at the end of a residual block that micmics networks with less [[Layers]] and is easier to train at the start
->    
+>
 > - [Non [[Relational Inductive Bias]]](Non Relational Inductive Bias.md)
 >   - [[Batch Normalization]] , [[Layer Normalization]] , [[Instance Normalization]]
->    
+>
 > - [Regularization](Regularization.md)
 >   - [[Batch Normalization]]
->    
+>
 > - [ConvNeXt](ConvNeXt.md)
 >   - [[GELU]] instead of [[Relu]] , a single activation for each block (the original [[Transformer]] module has just one activation after the MLP), fewer normalization [[Layers]], [[Batch Normalization]] substituted by [[Layer Normalization]] , and separate [[Downsampling|downsampling]] layer
->    
+>
 > - [Xavier [[Initialization]]](Xavier Initialization.md)
 >   - For [[Batch Normalization]] [[Layers]], $\gamma =1$ and $\beta=0$
->    
+>
 > - [Layer Normalization](Layer Normalization.md)
 >   - ![[assets/Pasted image 20220621163906.jpg]] (Compared to [[Batch Normalization]])
->    
+>
 > - [Inception](Inception.md)
 >   - Added [[Batch Normalization]]
 >   - was not able to fix with lowering the Learning Rate or [[Batch Normalization]]
->    
+>
 > - [No Bias Decay](No bias decay.md)
 >   - Leave [[Batch Normalization]] [[Layers]] alone
 

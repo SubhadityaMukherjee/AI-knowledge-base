@@ -1,7 +1,7 @@
 ---
 title: Temporal Conv
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:45 am
+date modified: Monday, October 10th 2022, 2:02:15 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Outperforms [[Basic RNN Architectures]] such as [[LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM)]].md) and [[GRU)](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU)]].md)
 
 ## Backlinks
-
 > - [Basic RNN Architectures](Basic RNN Architectures.md)
 >   - [[Temporal Conv]]
 

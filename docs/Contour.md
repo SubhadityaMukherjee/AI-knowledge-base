@@ -1,7 +1,7 @@
 ---
 title: Contour
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -16,13 +16,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Countouring with Transparency]]
 
 ## Backlinks
-
 > - [Mapping to Geometry](Mapping to Geometry.md)
 >   - [[Contour]]
->    
+>
 > - [Region Growing](Region Growing.md)
 >   - Leakage through holes in [[Contour]]
->    
+>
 > - [Isoline](Isoline.md)
 >   - [[Contour]] line
 

@@ -3,95 +3,106 @@
 tags: anchor
 ___
 
-- [[Active Compliant Robot|Active Compliant Robot.md]]
-- [[Actuator|Actuator.md]]
-- [[Articulated Manipulator|Articulated Manipulator.md]]
-- [[Articulation|Articulation.md]]
-- [[Assembly Robot|Assembly Robot.md]]
-- [[Base Link|Base Link.md]]
-- [[Burn-in|Burn-in.md]]
-- [[Carousel|Carousel.md]]
-- [[Centrifugal Force|Centrifugal Force.md]]
-- [[Circular Motion Type|Circular Motion Type.md]]
-- [[Clamp|Clamp.md]]
-- [[Clamping|Clamping.md]]
-- [[Compliant Robot|Compliant Robot.md]]
-- [[Contact Sensor|Contact Sensor.md]]
-- [[Continuous Path|Continuous Path.md]]
-- [[Cyclo Drive|Cyclo Drive.md]]
-- [[Cylindrical Topology|Cylindrical Topology.md]]
-- [[Degrees of Freedom|Degrees of Freedom.md]]
-- [[Direct-drive|Direct-drive.md]]
-- [[Drop Delivery|Drop Delivery.md]]
-- [[Enabling Device|Enabling Device.md]]
-- [[End-effector|End-effector.md]]
-- [[Endpoint|Endpoint.md]]
-- [[Forward Kinematic Solution|Forward Kinematic Solution.md]]
-- [[Forward Kinematics|Forward Kinematics.md]]
-- [[Gantry Robot|Gantry Robot.md]]
-- [[Gravity Loading|Gravity Loading.md]]
-- [[Gripper|Gripper.md]]
-- [[Hand Guiding|Hand Guiding.md]]
-- [[Harmonic Drive|Harmonic Drive.md]]
-- [[Harness|Harness.md]]
-- [[Inductive Sensor|Inductive Sensor.md]]
-- [[Instruction Cycle|Instruction Cycle.md]]
-- [[Joint Interpolated Motion|Joint Interpolated Motion.md]]
-- [[Joint Motion Type|Joint Motion Type.md]]
-- [[Joint Space|Joint Space.md]]
-- [[Ladle Gripper|Ladle Gripper.md]]
-- [[Linear Interpolated Motion|Linear Interpolated Motion.md]]
-- [[Load Cycle Time|Load Cycle Time.md]]
-- [[Magnetic Detectors|Magnetic Detectors.md]]
-- [[Material Processing Robot|Material Processing Robot.md]]
-- [[Mirror Shift Function|Mirror Shift Function.md]]
-- [[Mode Switch|Mode Switch.md]]
-- [[Optical Encoder|Optical Encoder.md]]
-- [[Optical Proximity Sensors|Optical Proximity Sensors.md]]
-- [[Palletizing|Palletizing.md]]
-- [[Parallel Shift Function|Parallel Shift Function.md]]
-- [[Pendant Teaching|Pendant Teaching.md]]
-- [[Pick and Place Cycle|Pick and Place Cycle.md]]
-- [[Pinch Points|Pinch Points.md]]
-- [[Point-to-Point|Point-to-Point.md]]
-- [[PFL).md](Power and Force Limiting (PFL|Power and Force Limiting (PFL).md]].md)
-- [[Presence-sensing Safeguarding Device|Presence-sensing Safeguarding Device.md]]
-- [[PLC).md](Programmable Logical Controller (PLC|Programmable Logical Controller (PLC).md]].md)
-- [[Proximity Sensor|Proximity Sensor.md]]
-- [[Pulse Coordinates|Pulse Coordinates.md]]
-- [[Quasi-static Clamping|Quasi-static Clamping.md]]
-- [[Revolute Joint|Revolute Joint.md]]
-- [[Risk Mitigation|Risk Mitigation.md]]
-- [[Robot Range Limit Monitoring|Robot Range Limit Monitoring.md]]
-- [[Roll|Roll.md]]
-- [[Rotary Joint|Rotary Joint.md]]
-- [[RV).md](Rotary Vector Drive (RV|Rotary Vector Drive (RV).md]].md)
-- [[Safeguard|Safeguard.md]]
-- [[Safety Integrity Level|Safety Integrity Level.md]]
-- [[Safety Logic Circuit|Safety Logic Circuit.md]]
-- [[Sensory Feedback|Sensory Feedback.md]]
-- [[Servo Control|Servo Control.md]]
-- [[Servo Motor|Servo Motor.md]]
-- [[Servo Pack|Servo Pack.md]]
-- [[Servo-controlled Robot|Servo-controlled Robot.md]]
-- [[Servo-system|Servo-system.md]]
-- [[Shock Detection Function|Shock Detection Function.md]]
-- [[Singularity|Singularity.md]]
-- [[Softlimit Setting Function|Softlimit Setting Function.md]]
-- [[Spline Motion Type|Spline Motion Type.md]]
-- [[Spline|Spline.md]]
-- [[Teach Lock|Teach Lock.md]]
-- [[Through-beam|Through-beam.md]]
-- [[Time Measuring Function|Time Measuring Function.md]]
-- [[Transducer|Transducer.md]]
-- [[Vacuum Cup Hand|Vacuum Cup Hand.md]]
-- [[Work Envelope|Work Envelope.md]]
-- [[Wrist|Wrist.md]]
-- [[Yaw|Yaw.md]]
-
-## Backlinks
-
-> - [Gato](Gato.md)
->   - Transformer sequence models are effective as multi-task multi-embodiment policies, including for real-world text, vision and [[robotics]] tasks
-
-_Backlinks last generated 2022-10-04 13:01:19_
+- [Active Compliant Robot.md](Active%20Compliant%20Robot.md)
+- [Actuator.md](Actuator.md)
+- [Affordance Detection Task Specific.md](Affordance%20Detection%20Task%20Specific.md)
+- [Anthropomorphic.md](Anthropomorphic.md)
+- [Articulated Manipulator.md](Articulated%20Manipulator.md)
+- [Articulation.md](Articulation.md)
+- [Assembly Robot.md](Assembly%20Robot.md)
+- [Base Link.md](Base%20Link.md)
+- [Burn-in.md](Burn-in.md)
+- [Carousel.md](Carousel.md)
+- [Centrifugal Force.md](Centrifugal%20Force.md)
+- [Circular Motion Type.md](Circular%20Motion%20Type.md)
+- [Clamp.md](Clamp.md)
+- [Clamping.md](Clamping.md)
+- [Compliant Robot.md](Compliant%20Robot.md)
+- [Contact Sensor.md](Contact%20Sensor.md)
+- [Continuous Path.md](Continuous%20Path.md)
+- [Cyclo Drive.md](Cyclo%20Drive.md)
+- [Cylindrical Topology.md](Cylindrical%20Topology.md)
+- [Degrees of Freedom.md](Degrees%20of%20Freedom.md)
+- [Direct-drive.md](Direct-drive.md)
+- [Drop Delivery.md](Drop%20Delivery.md)
+- [Enabling Device.md](Enabling%20Device.md)
+- [End-effector.md](End-effector.md)
+- [Endpoint.md](Endpoint.md)
+- [Familar Object Grasping Object Viiew recog.md](Familar%20Object%20Grasping%20Object%20Viiew%20recog.md)
+- [Forward Kinematic Solution.md](Forward%20Kinematic%20Solution.md)
+- [Forward Kinematics.md](Forward%20Kinematics.md)
+- [GGCNN.md](GGCNN.md)
+- [GRConvNet.md](GRConvNet.md)
+- [Gantry Robot.md](Gantry%20Robot.md)
+- [Grasp Point Detection.md](Grasp%20Point%20Detection.md)
+- [Gravity Loading.md](Gravity%20Loading.md)
+- [Gripper.md](Gripper.md)
+- [Hand Guiding.md](Hand%20Guiding.md)
+- [Harmonic Drive.md](Harmonic%20Drive.md)
+- [Harness.md](Harness.md)
+- [Heightmaps Kinesthetic.md](Heightmaps%20Kinesthetic.md)
+- [Inductive Sensor.md](Inductive%20Sensor.md)
+- [Instruction Cycle.md](Instruction%20Cycle.md)
+- [Inverse Kinematics.md](Inverse%20Kinematics.md)
+- [Joint Interpolated Motion.md](Joint%20Interpolated%20Motion.md)
+- [Joint Motion Type.md](Joint%20Motion%20Type.md)
+- [Joint Space.md](Joint%20Space.md)
+- [Kinesthetic Teaching.md](Kinesthetic%20Teaching.md)
+- [Ladle Gripper.md](Ladle%20Gripper.md)
+- [Learning to Detect Grasp Affordance.md](Learning%20to%20Detect%20Grasp%20Affordance.md)
+- [Linear Interpolated Motion.md](Linear%20Interpolated%20Motion.md)
+- [Load Cycle Time.md](Load%20Cycle%20Time.md)
+- [MVGrasp.md](MVGrasp.md)
+- [Magnetic Detectors.md](Magnetic%20Detectors.md)
+- [Manipulator.md](Manipulator.md)
+- [Material Processing Robot.md](Material%20Processing%20Robot.md)
+- [Mirror Shift Function.md](Mirror%20Shift%20Function.md)
+- [Mode Switch.md](Mode%20Switch.md)
+- [Optical Encoder.md](Optical%20Encoder.md)
+- [Optical Proximity Sensors.md](Optical%20Proximity%20Sensors.md)
+- [Palletizing.md](Palletizing.md)
+- [Parallel Shift Function.md](Parallel%20Shift%20Function.md)
+- [Pendant Teaching.md](Pendant%20Teaching.md)
+- [Pick and Place Cycle.md](Pick%20and%20Place%20Cycle.md)
+- [Pinch Points.md](Pinch%20Points.md)
+- [Point-to-Point.md](Point-to-Point.md)
+- [Power and Force Limiting (PFL).md](Power%20and%20Force%20Limiting%20(PFL).md)
+- [Presence-sensing Safeguarding Device.md](Presence-sensing%20Safeguarding%20Device.md)
+- [Prismatic Joint.md](Prismatic%20Joint.md)
+- [Programmable Logical Controller (PLC).md](Programmable%20Logical%20Controller%20(PLC).md)
+- [Proximity Sensor.md](Proximity%20Sensor.md)
+- [Pulse Coordinates.md](Pulse%20Coordinates.md)
+- [Quasi-static Clamping.md](Quasi-static%20Clamping.md)
+- [Revolute Joint.md](Revolute%20Joint.md)
+- [Risk Mitigation.md](Risk%20Mitigation.md)
+- [Robot Range Limit Monitoring.md](Robot%20Range%20Limit%20Monitoring.md)
+- [Robotic Joints.md](Robotic%20Joints.md)
+- [Roll.md](Roll.md)
+- [Rotary Joint.md](Rotary%20Joint.md)
+- [Rotary Vector Drive (RV).md](Rotary%20Vector%20Drive%20(RV).md)
+- [Safeguard.md](Safeguard.md)
+- [Safety Integrity Level.md](Safety%20Integrity%20Level.md)
+- [Safety Logic Circuit.md](Safety%20Logic%20Circuit.md)
+- [Sensory Feedback.md](Sensory%20Feedback.md)
+- [Servo Control.md](Servo%20Control.md)
+- [Servo Motor.md](Servo%20Motor.md)
+- [Servo Pack.md](Servo%20Pack.md)
+- [Servo-controlled Robot.md](Servo-controlled%20Robot.md)
+- [Servo-system.md](Servo-system.md)
+- [Shock Detection Function.md](Shock%20Detection%20Function.md)
+- [Singularity.md](Singularity.md)
+- [Softlimit Setting Function.md](Softlimit%20Setting%20Function.md)
+- [Spline Motion Type.md](Spline%20Motion%20Type.md)
+- [Spline.md](Spline.md)
+- [TSDF.md](TSDF.md)
+- [Teach Lock.md](Teach%20Lock.md)
+- [Through-beam.md](Through-beam.md)
+- [Time Measuring Function.md](Time%20Measuring%20Function.md)
+- [Transducer.md](Transducer.md)
+- [Unet Grasping.md](Unet%20Grasping.md)
+- [Vacuum Cup Hand.md](Vacuum%20Cup%20Hand.md)
+- [Visual Servo System.md](Visual%20Servo%20System.md)
+- [Volumetric Grasping Network.md](Volumetric%20Grasping%20Network.md)
+- [Work Envelope.md](Work%20Envelope.md)
+- [Wrist.md](Wrist.md)
+- [Yaw.md](Yaw.md)

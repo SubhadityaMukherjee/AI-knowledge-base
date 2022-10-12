@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Fitting
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,13 +15,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- If high, $$\mathscr{F} = R(f) - R_B$$ is small : Overfitting (Tiny difference between best risk and current risk)
 
 ## Backlinks
-
 > - [[[fastai|Fastai]] Blocks](Fastai Blocks.md)
 >   - [[Fitting]] because pretrained models are not going to be there
->    
+>
 > - [Bias Vs Variance](Bias Variance Dilemma.md)
 >   - $\mathcal{H}$ is hypothesis space (related to [[Fitting]]).
->    
+>
 > - [Issues](Issues.md)
 >   - [[Fitting]]
 

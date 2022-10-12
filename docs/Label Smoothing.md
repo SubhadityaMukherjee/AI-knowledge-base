@@ -1,7 +1,7 @@
 ---
 title: Label Smoothing
 tags: regularize 
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Monday, October 10th 2022, 2:02:24 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -24,7 +24,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - If $\epsilon=\frac{K-1}{K}$, all optimizal $z^{\ast}_{i}$ are identical
 
 ## Backlinks
-
 > - [ConvNeXt](ConvNeXt.md)
 >   - extending the number of epochs, using [[AdamW]] optimizer, Stochastic Depth, [[Label Smoothing]]
 

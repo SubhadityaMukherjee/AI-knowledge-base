@@ -2,7 +2,7 @@
 title: Volumetric Grasping Network
 
 tags: robotics architecture 
-date modified: Wednesday, September 28th 2022, 9:47:17 pm
+date modified: Monday, October 10th 2022, 2:02:13 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - ![[assets/Pasted image 20220928214710.png]]
 
 ## Backlinks
-
 > - [[Grasp Point Detection]]
 >   - [[GGCNN]], [[GRConvNet]], [[MVGrasp]], [[Unet Grasping]], [[Learning to Detect Grasp Affordance]], [[.md|Volumetric Grasping Network]] , [[Affordance Detection Task Specific]]
 

@@ -2,7 +2,7 @@
 title: Unet Grasping
 
 tags: robotics architecture 
-date modified: Wednesday, September 28th 2022, 9:45:53 pm
+date modified: Monday, October 10th 2022, 2:02:14 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -15,7 +15,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - ![[assets/Pasted image 20220928214542.png]]
 
 ## Backlinks
-
 > - [[Grasp Point Detection]]
 >   - [[GGCNN]], [[GRConvNet]], [[MVGrasp]], [[.md|Unet Grasping]], [[Learning to Detect Grasp Affordance]], [[Volumetric Grasping Network]] , [[Affordance Detection Task Specific]]
 

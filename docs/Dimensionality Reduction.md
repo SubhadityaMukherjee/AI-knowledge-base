@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Dimensionality Reduction
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:29 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -22,13 +22,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 #anchor
 
 ## Backlinks
-
 > - [Functional Correlates](Functional correlates.md)
 >   - [[Dimensionality Reduction]] technique used to quantify the [[Correlation]] and dependence between two variables when the data is functional
->    
+>
 > - [Curse of Dimensionality](Curse Of Dimensionality.md)
 >   - [[Dimensionality Reduction]]
->    
+>
 > - [Fundamentals](Fundamentals.md)
 >   - [[Dimensionality Reduction]]
 

@@ -2,7 +2,7 @@
 title: Bahdanau Attention
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![[assets/Pasted image 20220621170726.png]]
 
 ## Backlinks
-
 > - [Additive [[Attention]]](Additive Attention.md)
 >   - Oh, basically it is the same as [[Bahdanau Attention]]
 

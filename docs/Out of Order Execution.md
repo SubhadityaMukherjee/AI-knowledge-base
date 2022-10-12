@@ -1,7 +1,7 @@
 ---
 title: Out of Order Execution
 tags: parallel 
-date modified: Thursday, August 11th 2022, 12:32:49 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,7 +15,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Only after all older instructions have their results written back to the register file, then this result is written back to the register.
 
 ## Backlinks
-
 > - [Instruction Level Programming](Instruction level programming.md)
 >   - [[Out of Order Execution]]
 

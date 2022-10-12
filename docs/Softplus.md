@@ -1,7 +1,7 @@
 ---
 title: Softplus
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:45 am
+date modified: Monday, October 10th 2022, 2:02:16 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -9,7 +9,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\ln(1+e^x)$$
 
 ## Backlinks
-
 > - [Log Cosh](LogCosh.md)
 >   - We first define the [[Softplus]] function $$\log\left( e^{x} + 1 \right)$$
 

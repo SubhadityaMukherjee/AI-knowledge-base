@@ -2,7 +2,7 @@
 title: memory trace
 
 tags: cogneuro 
-date modified: Thursday, August 11th 2022, 12:32:42 am
+date modified: Monday, October 10th 2022, 2:02:10 pm
 date created: Tuesday, August 2nd 2022, 9:20:39 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, August 2nd 2022, 9:20:39 pm
 - The researchers tagged these potential engram cells with a fluorescent marker so they could see if they also played a role in recalling the memory later on
 
 ## Backlinks
-
 > - [Motor Memories](Motor Memories.md)
 >   - [[memory trace]]
 

@@ -2,7 +2,7 @@
 title: CTC
 
 tags: loss 
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,11 +17,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - TIMIT speech corpus
 
 ## Backlinks
-
 > - [Listen Attend Spell](Listen Attend Spell.md)
 >   - bypass the [[Conditional Independence|conditional independence]] assumptions of [[CTC]], and show how they can learn an implicit language model that can generate multiple spelling variants given the same acoustics
 >   - producing character sequences without making any independence assumptions between the characters is the key improvement of LAS over previous end-to-end [[CTC]] models
->    
+>
 > - [Speech Recognition](Speech Recognition.md)
 >   - combination of the deep bidirectional LSTM [[recurrent]] neural network architecture and a modified Connectionist Temporal Classification ([[CTC]]) objective function
 

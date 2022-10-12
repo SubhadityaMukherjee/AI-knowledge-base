@@ -1,7 +1,7 @@
 ---
 title: Layerwise Magnitude Based Pruning
 tags: regularize
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Monday, October 10th 2022, 2:02:24 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - As an edge case, if the number of elements entered is greater than the total length of the layer, then the entire layer is set to 0.
 
 ## Backlinks
-
 > - [Pruning](Pruning.md)
 >   - [[Layerwise Magnitude Based Pruning]]
 

@@ -1,7 +1,7 @@
 ---
 title: Lexicon
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Monday, October 10th 2022, 2:02:23 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -9,13 +9,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - a module that tells what words there are and what properties they have
 
 ## Backlinks
-
 > - [Semantic Analysis](Semantic Analysis.md)
 >   - Look up the individual words in a dictionary (or [[Lexicon]]) and extract their meanings
->    
+>
 > - [Syntactic Analysis](Syntactic Analysis.md)
 >   - Syntax tree is assigned by a grammer and a [[Lexicon]]
->    
+>
 > - [Morphology](Morphology.md)
 >   - Needs a [[Lexicon]]
 

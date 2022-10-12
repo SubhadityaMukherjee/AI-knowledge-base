@@ -1,7 +1,7 @@
 ---
 title: Brain Cortex
 tags: brain
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -18,10 +18,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 **
 
 ## Backlinks
-
 > - [Cerebrum](Cerebrum.md)
 >   - Surface is called the [[Brain Cortex]]
->    
+>
 > - [Default Mode Network](Default mode network.md)
 >   - [[Brain Areas|Brain areas]] in the [[Brain Cortex]] that constantly decreased their activity while performing highly demanding task
 

@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Mode Collapse
-date modified: Thursday, August 11th 2022, 12:32:50 am
+date modified: Monday, October 10th 2022, 2:02:22 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -9,10 +9,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Generator collapses and only predicts mean/median/mode of data instead of the prob distribution
 
 ## Backlinks
-
 > - [](VICReg.md)
 >   - [[Mode Collapse]] is often avoided through implicit biases
->    
+>
 > - [GAN](Generative Models.md)
 >   - [[Mode Collapse]]
 

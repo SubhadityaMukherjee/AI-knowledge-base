@@ -1,7 +1,7 @@
 ---
 title: Basal Ganglia
 tags: brain
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,10 +17,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - A group of structures below the cortex involved in motor, cognitive, and emotional functions.
 
 ## Backlinks
-
 > - [Brain Cortex](Brain Cortex.md)
 >   - [[Basal Ganglia]]
->    
+>
 > - [Cerebellum](Cerebellum.md)
 >   - relays information to the [[Basal Ganglia]].
 

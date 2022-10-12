@@ -2,7 +2,7 @@
 title: Graph-based visual saliency
 
 tags: explainability 
-date modified: Thursday, October 6th 2022, 1:35:39 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Thursday, October 6th 2022, 1:35:34 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Thursday, October 6th 2022, 1:35:34 pm
 - To estimate saliency maps, the feature maps are transformed into activation maps and normalised by using the fully-connected directed graph of the feature maps.
 
 ## Backlinks
-
 > - [Influence of Image Classification Accuracy on Saliency Map Estimation](Influence of image classification accuracy on saliency map estimation.md)
 >   - [[Graph-based visual saliency]]
 

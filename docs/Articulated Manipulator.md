@@ -1,7 +1,7 @@
 ---
 tags: robotics
 date created: Wednesday, August 10th 2022, 5:41:04 pm
-date modified: Wednesday, September 28th 2022, 9:34:16 pm
+date modified: Monday, October 10th 2022, 2:02:34 pm
 ---
 
 # Articulated [[Manipulator]]

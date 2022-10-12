@@ -1,7 +1,7 @@
 ---
 title: Characteristics of Visual Variables
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Length (resolution) | Across how many changes in this variable are distinctions possible? [i.e., how many can I see?]
 
 ## Backlinks
-
 > - [Visual Encoding](Visual Encoding.md)
 >   - [[Characteristics of Visual Variables]]
 

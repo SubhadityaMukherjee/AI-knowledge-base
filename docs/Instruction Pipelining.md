@@ -1,7 +1,7 @@
 ---
 title: Instruction Pipelining
 tags: parallel 
-date modified: Thursday, August 11th 2022, 12:32:52 am
+date modified: Monday, October 10th 2022, 2:02:25 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -16,7 +16,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - WB: Register write Back
 
 ## Backlinks
-
 > - [Instruction Level Programming](Instruction level programming.md)
 >   - [[Instruction Pipelining]]
 

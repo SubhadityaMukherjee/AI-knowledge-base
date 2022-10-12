@@ -2,7 +2,7 @@
 title: ALBERT
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:58 am
+date modified: Monday, October 10th 2022, 2:02:35 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -24,7 +24,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - For the SOP task, we can read that if NSP is performed on a SOP task, performance is poor. NSP on NSP of course performs well, as well as SOP on SOP. However, if SOP is performed on NSP, it performs really well. This suggests that SOP actually captures sentence coherence whereas NSP might not, and that SOP yields a better result than NSP.
 
 ## Backlinks
-
 > - [Factorized [[Embedding]] Parameters](Factorized Embedding Parameters.md)
 >   - [[ALBERT]] solves this issue by decomposing the [[Embedding|embedding]] parameters into two smaller matrices, allowing a two-step mapping between the original [[Word Vectors|word vectors]] and the space of the hidden state. In terms of computational cost, this no longer means $\text{O(VxH)}$ but rather $\text{O(VxE + ExH)}$, which brings a significant reduction when $\text{H >> E}$.
 

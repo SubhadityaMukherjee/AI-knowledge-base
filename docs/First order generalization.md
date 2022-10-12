@@ -2,7 +2,7 @@
 title: First order generalization
 
 tags: language cogneuro psychology 
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Present model with an example, ask it to choose which of three objects most likely of the same category
 
 ## Backlinks
-
 > - [Overhypotheses](Overhypotheses.md)
 >   - [[First order generalization]]
 

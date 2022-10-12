@@ -2,7 +2,7 @@
 title: IDRiD
 
 tags: dataset 
-date modified: Wednesday, October 5th 2022, 2:31:29 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 2:31:16 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Wednesday, October 5th 2022, 2:31:16 pm
 - IDRiD includes a segmentation label of disease regions annotated by a specialist
 
 ## Backlinks
-
 > - [Embedding Human Knowledge into Deep Neural Network via Attention Map](Embedding Human Knowledge into Deep Neural Network via Attention Map.md)
 >   - [[IDRiD]]
 

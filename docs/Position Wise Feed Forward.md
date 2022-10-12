@@ -2,7 +2,7 @@
 title: Position Wise Feed Forward
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:19 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Dense]] Layers are applied along the last (512) dims
 
 ## Backlinks
-
 > - [Basic [[Transformer]]](Basic Transformer.md)
 >   - [[Position Wise Feed Forward]]
 

@@ -2,7 +2,7 @@
 title: Normalized Inverted Structural Similarity Index
 
 tags: explainability adversarial 
-date modified: Wednesday, October 5th 2022, 3:01:04 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 2:55:16 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Wednesday, October 5th 2022, 2:55:16 pm
 - $$NISSIM_{i}= \frac{1-SSIM_{i}}{2}$$
 
 ## Backlinks
-
 > - [Generalizing Adversarial Explanations with Grad-CAM](Generalizing Adversarial Explanations with Grad-CAM.md)
 >   - These metrics are computed by comparing a [[Normalized Inverted Structural Similarity Index]] (NISSIM) metric of the Grad-CAM generated heatmap for samples from the original test set and samples from the adversarial test set.
 >   - [[Normalized Inverted Structural Similarity Index]]

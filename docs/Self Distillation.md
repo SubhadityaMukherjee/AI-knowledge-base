@@ -2,7 +2,7 @@
 title: Self Distillation
 
 tags: knowledgedistillation 
-date modified: Tuesday, October 4th 2022, 11:46:56 am
+date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:46:29 am
 ---
 
@@ -13,7 +13,6 @@ date created: Tuesday, October 4th 2022, 11:46:29 am
 - both self-distillation and online distillation are properly in- tegrated via the multiple knowledge transfer frame- work (Sun et al., 2021).
 
 ## Backlinks
-
 > - [Distillation Schemes](Distillation Schemes.md)
 >   - [[Self Distillation]]
 

@@ -2,7 +2,7 @@
 title: XLNet
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:44 am
+date modified: Monday, October 10th 2022, 2:02:13 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,7 +15,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - uses a permutation language modeling objective to combine the advantages of autoregressive and autoencoder methods
 
 ## Backlinks
-
 > - [ELECTRA](ELECTRA.md)
 >   - performs comparably to [[RoBERTa|[RoBERTa|[[RoBERTa]]](RoBERTa.md) and [[XLNet]] while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
 

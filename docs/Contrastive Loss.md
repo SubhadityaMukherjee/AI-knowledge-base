@@ -1,7 +1,7 @@
 ---
 title: Contrastive Loss
 tags: loss
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,13 +17,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Labeled points $$(y,x_1,x_2)$$ are generated
 
 ## Backlinks
-
 > - [Semi Supervised](Semi Supervised.md)
 >   - [[Contrastive Loss]]
->    
+>
 > - [NCE](NCE.md)
 >   - [[Contrastive Loss]]
->    
+>
 > - [Feature Learning](Feature Learning.md)
 >   - [[Contrastive Loss]]
 

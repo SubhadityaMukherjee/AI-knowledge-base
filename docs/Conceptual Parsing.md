@@ -1,7 +1,7 @@
 ---
 title: Conceptual Parsing
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -9,7 +9,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Syntactic Analysis]] and [[Semantic Analysis]] knowledge are combined into a single interpretation system that is driven by the semantic knowledge
 
 ## Backlinks
-
 > - [Sentence Level Processing](Sentence level processing.md)
 >   - [[Conceptual Parsing]]
 

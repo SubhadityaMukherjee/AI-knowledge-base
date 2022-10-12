@@ -2,7 +2,7 @@
 title: LeCun Init
 
 tags: regularize 
-date modified: Thursday, August 11th 2022, 12:32:40 am
+date modified: Monday, October 10th 2022, 2:02:24 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - $$\frac{1}{fan_{in}}$$
 
 ## Backlinks
-
 > - [Initialization](Initialization.md)
 >   - [[Xavier Initialization]] , [[He Initialization]] , [[LeCun Init]]
 

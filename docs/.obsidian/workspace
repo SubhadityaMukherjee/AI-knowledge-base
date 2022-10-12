@@ -4,17 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "a1ab7ec97d43d2e3",
+        "id": "191f42c8e588d302",
         "type": "leaf",
+        "dimension": 69.08491343775762,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "journals/2022-10-09.md",
+            "file": "A survey on Image Data Augmentation for Deep Learning.md",
             "mode": "source",
             "backlinks": false,
             "source": false
           }
-        }
+        },
+        "group": "41b3f652e2d082c7"
+      },
+      {
+        "id": "57da2825e5eebcca",
+        "type": "leaf",
+        "dimension": 30.915086562242372,
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "A survey on Image Data Augmentation for Deep Learning.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1.3748666216784118,
+              "close": false
+            }
+          }
+        },
+        "group": "41b3f652e2d082c7"
       }
     ],
     "direction": "vertical"
@@ -49,11 +88,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-10-09.md",
+                "file": "A survey on Image Data Augmentation for Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
@@ -66,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-10-09.md",
+                "file": "A survey on Image Data Augmentation for Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -89,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-10-09.md",
+                "file": "A survey on Image Data Augmentation for Deep Learning.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -124,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-10-09.md"
+                "file": "A survey on Image Data Augmentation for Deep Learning.md"
               }
             }
           }
@@ -148,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 198,
-    "collapsed": true
+    "width": 198
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -159,17 +197,17 @@
     "width": 236.5,
     "collapsed": true
   },
-  "active": "a1ab7ec97d43d2e3",
+  "active": "191f42c8e588d302",
   "lastOpenFiles": [
-    "Image Mixing and Deletion.md",
-    "journals/2022-10-09.md",
-    "Intra-Class Part Swapping.md",
-    "Mixup.md",
-    "templates/titler.md",
-    "journals/2022-10-07.md",
-    "Augmentation.md",
-    "clustered Regularly-interspaced Short Palindromic repeats).md](CRISPR (clustered Regularly-interspaced Short Palindromic repeats.md",
-    "RandAugment.md",
-    "SpecAugment.md"
+    "Feature Space Augmentation.md",
+    "A survey on Image Data Augmentation for Deep Learning.md",
+    "Flipping.md",
+    "Noise Injection.md",
+    "AutoAugment.md",
+    "Augmented Random Search.md",
+    "RAHP.md",
+    "SamplePairing.md",
+    "journals/2022-10-11.md",
+    "Shortcuts to Quantifier Interpretation in Children and Adults.md"
   ]
 }

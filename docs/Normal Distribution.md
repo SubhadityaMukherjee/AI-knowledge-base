@@ -1,7 +1,7 @@
 ---
 title: Normal Distribution
 tags: distribution
-date modified: Thursday, August 11th 2022, 12:32:49 am
+date modified: Monday, October 10th 2022, 2:02:21 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -27,23 +27,22 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\hat \mu = \frac{1}{N}\Sigma_{i}(x_{i})$$ $$\hat \sigma^{2}= \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)^2$$
 
 ## Backlinks
-
 > - [Akaike Information Criterion](Akaike Information Criterion.md)
 >   - If error terms $\epsilon$ follows [[Normal Distribution]] , expected value 0 + constant variance $$AIC = \frac{1}{\eta \sigma^{2}}(RSS + 2p \hat \sigma^2)$$
->    
+>
 > - [Central Limit Theorem](Central Limit Theorem.md)
 >   - When random effects of many independant small sized causes sum up to large scale observable effects : one gets the [[Normal Distribution]]
->    
+>
 > - [N Dim [[Normal Distribution]]](N-dim Normal.md)
 >   - # N Dim [[Normal Distribution]]
 >   - [[Normal Distribution]]
->    
+>
 > - [Denoising Autoencoder](Denoising Autoencoder.md)
 >   - [[Normal Distribution]]
->    
+>
 > - [Standard Deviation](Standard Deviation.md)
 >   - [[Normal Distribution]]
->    
+>
 > - [GELU](GELU.md)
 >   - $$x\Phi(x)$$ where $\Phi(x)$ is the [[Normal Distribution]] [[CDF]]
 

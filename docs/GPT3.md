@@ -2,7 +2,7 @@
 title: GPT3
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -16,16 +16,15 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans
 
 ## Backlinks
-
 > - [CLIP](CLIP.md)
 >   - can be applied to any visual classification benchmark by simply providing the names of the visual categories to be recognized, similar to the “zero-shot” capabilities of [[GPT]] and [[GPT3]]
->    
+>
 > - [DALL-E](DALL-E.md)
 >   - based on the [[GPT3]]
->    
+>
 > - [Benchmark LLM](Benchmark LLM.md)
 >   - From [[GPT3]] to [[PaLM]], the state-of-the-art performance on natural [[language]] tasks is being pushed forward with every new large [[language]] model
->    
+>
 > - [GELU](GELU.md)
 >   - Used in [[GPT3]], [[Transformer]], [[Vision Transformer]], [[BERT]]
 

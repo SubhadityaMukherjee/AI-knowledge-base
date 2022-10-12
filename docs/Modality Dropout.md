@@ -2,7 +2,7 @@
 title: Modality Dropout
 
 tags: regularize 
-date modified: Thursday, August 11th 2022, 12:32:50 am
+date modified: Monday, October 10th 2022, 2:02:22 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - MDO improves fine-tuning by randomly dropping one of the modalities
 
 ## Backlinks
-
 > - [MLIM](MLIM.md)
 >   - Since the the task of finding closely-matching (CM) item pairs requires a pair of image+text inputs, they exploit this multi-modality by employing [[Modality Dropout]]
 

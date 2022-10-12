@@ -2,7 +2,7 @@
 title: Mixed chunk attention
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:50 am
+date modified: Monday, October 10th 2022, 2:02:22 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,10 +11,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - The method works on chunks of tokens and leverages local (within chunk) and global (between chunks) [[Attention|attention]] spans
 
 ## Backlinks
-
 > - [FLASH](FLASH.md)
 >   - [[Mixed chunk attention]]
->    
+>
 > - [Attention](Attention.md)
 >   - [[Mixed chunk attention]]
 

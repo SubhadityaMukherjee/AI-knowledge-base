@@ -2,7 +2,7 @@
 title: Lisht
 
 tags: activations 
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Monday, October 10th 2022, 2:02:23 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -18,7 +18,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
     - In their work, Roy et al. (2019) report based on empirical testing that indeed, the vanishing gradient problems is reduced compared to [[Swish]] and traditional [[Relu|ReLU]]. Additional correlations between network learning and the shape of e.g. the LiSHT loss landscape were identified.
 
 ## Backlinks
-
 > - [Swish](Swish.md)
 >   - Move to [[Lisht]]
 

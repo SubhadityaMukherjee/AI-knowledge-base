@@ -1,6 +1,8 @@
 ---
 title: Cut, Paste and Learn
 tags: augment
+date created: Sunday, October 9th 2022, 12:21:26 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # Cut, Paste and Learn
@@ -9,7 +11,6 @@ tags: augment
 - Added instances are also rotated, oc- cluded, and truncated to make the learning algo- rithm robust.
 
 ## Backlinks
-
 > - [Image Mixing and Deletion](Image Mixing and Deletion.md)
 >   - [[Cut, Paste and Learn]]
 

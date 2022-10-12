@@ -1,7 +1,7 @@
 ---
 title: Sampler
 tags: distribution 
-date modified: Thursday, August 11th 2022, 12:32:46 am
+date modified: Monday, October 10th 2022, 2:02:17 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,10 +15,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Dream : All $X_{i}$ are uniformly distributed on [0,1]. (Impossible)
 
 ## Backlinks
-
 > - [MCMC [[Sampling]]](MCMC Sampling.md)
 >   - Sufficient but not necessary for [[Markov Chain]] to be a [[Sampler]] for g
->    
+>
 > - [Uniform [[Sampling]]](Uniform Sampling.md)
 >   - Random [[Sampler]]
 >   - If need to sample from another distribution with a [[PDF]] f(x). Can use a uniform [[Sampler]] on the distribution [0,1] to indirectly sample from it

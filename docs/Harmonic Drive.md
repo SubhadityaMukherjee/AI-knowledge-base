@@ -1,14 +1,13 @@
 ---
 tags: robotics
 date created: Wednesday, August 10th 2022, 5:41:04 pm
-date modified: Thursday, August 11th 2022, 12:32:40 am
+date modified: Monday, October 10th 2022, 2:02:26 pm
 ---
 
 # Harmonic Drive
 - Compact lightweight speed reducer that converts high speed low torque to low speed high torque. Usually found on the minor (smaller) axis.
 
 ## Backlinks
-
 > - [Rotary Vector Drive (RV)](Rotary Vector Drive (RV).md)
 >   - A brand name for a speed reduction device that converts high speed low torque to low speed high torque, usually used on the major (larger) axis . See [[Cyclo Drive]] and [[Harmonic Drive]].
 

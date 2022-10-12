@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Proto PDF
-date modified: Thursday, August 11th 2022, 12:32:47 am
+date modified: Monday, October 10th 2022, 2:02:19 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,10 +12,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - If we divide $g_{0}$ by its integral -> we get a normal [[PDF]] g
 
 ## Backlinks
-
 > - [Proto Distributions](Proto Distributions.md)
 >   - [[Proto PDF]]
->    
+>
 > - [Rejection [[Sampling]]](Rejection Sampling.md)
 >   - Now if we can take a [[Proto PDF]] $g_{0} \geq f$ where we can sample from the [[PDF]] g
 

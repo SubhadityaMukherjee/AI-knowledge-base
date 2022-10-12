@@ -1,7 +1,7 @@
 ---
 title: Semantic Analysis
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:46 am
+date modified: Monday, October 10th 2022, 2:02:17 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -14,13 +14,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Sentence level processing]]
 
 ## Backlinks
-
 > - [Approximately Compositional Semantic Parsing](Approximately Compositional Semantic Parsing.md)
 >   - which [[Semantic Analysis]] processing is applied to the result of performing a syntactic parse
->    
+>
 > - [Linguistic Details](Linguistic details.md)
 >   - [[Semantic Analysis]]
->    
+>
 > - [Conceptual Parsing](Conceptual Parsing.md)
 >   - [[Syntactic Analysis]] and [[Semantic Analysis]] knowledge are combined into a single interpretation system that is driven by the semantic knowledge
 

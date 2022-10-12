@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Cosine Learning Rate Decay
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![[assets/Pasted image 20220502134254.png|im]]
 
 ## Backlinks
-
 > - [Learning Rate Decay #tricks](Learning Rate Decay tricks.md)
 >   - [[Cosine Learning Rate Decay]]
 

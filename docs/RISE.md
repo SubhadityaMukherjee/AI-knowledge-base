@@ -2,7 +2,7 @@
 title: RISE
 
 tags: explainability 
-date modified: Thursday, October 6th 2022, 10:51:12 am
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Thursday, October 6th 2022, 10:51:10 am
 ---
 
@@ -14,7 +14,6 @@ date created: Thursday, October 6th 2022, 10:51:10 am
 - In the first step, it creates a segmentation mask and applies it to the dermoscopic image. Secondly, it creates a structure segmentation mask to identify the structure of the dermoscopic image. After masking, the original segmented image and some nonvisual metadata are fed into a convolutional neural network for classification
 
 ## Backlinks
-
 > - [On the Overlap Between Grad-CAM Saliency Maps and Explainable Visual Features in Skin Cancer Images](On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images.md)
 >   - [[RISE]]
 

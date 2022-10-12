@@ -2,7 +2,7 @@
 title: Image Mixing and Deletion
 
 tags: augment 
-date modified: Sunday, October 9th 2022, 12:21:46 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 date created: Friday, October 7th 2022, 1:37:19 pm
 ---
 
@@ -43,7 +43,6 @@ date created: Friday, October 7th 2022, 1:37:19 pm
 - [[ReMix]]
 
 ## Backlinks
-
 > - [](journals/2022-10-07.md)
 >   - [[Image Mixing and Deletion]]
 

@@ -2,7 +2,7 @@
 title: Embedding Human Knowledge into Deep Neural Network via Attention Map
 
 tags: mastersthesis explainability
-date modified: Wednesday, October 5th 2022, 3:10:06 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 1:35:39 pm
 ---
 
@@ -64,7 +64,6 @@ date created: Wednesday, October 5th 2022, 1:35:39 pm
 - ![[assets/Pasted image 20221005142449.png]]
 
 ## Backlinks
-
 > - [](journals/2022-10-05.md)
 >   - [[Embedding Human Knowledge into Deep Neural Network via Attention Map]]
 

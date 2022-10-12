@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Adversarial Learning
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:34 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,16 +12,15 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Then the network has never seen this before and will return a random classification
 
 ## Backlinks
-
 > - [Generalizing Adversarial Explanations with Grad-CAM](Generalizing Adversarial Explanations with Grad-CAM.md)
 >   - [[Adversarial Learning]]
->    
+>
 > - [Visual Commonsense Reasoning](Visual Commonsense Reasoning.md)
 >   - [[Adversarial Learning]]
->    
+>
 > - [Manifold](Manifold.md)
 >   - Can be exploited by [[Adversarial Learning]]
->    
+>
 > - [GAN](Generative Models.md)
 >   - [[Adversarial Learning]]
 

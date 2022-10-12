@@ -2,7 +2,7 @@
 title: fastai
 
 tags: library 
-date modified: Friday, August 12th 2022, 2:09:37 pm
+date modified: Monday, October 10th 2022, 2:02:12 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,10 +13,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Fastai Tricks]]
 
 ## Backlinks
-
 > - [Gradio](Gradio.md)
 >   - description = "A pet breed classifier trained on the Oxford Pets dataset with [[fastai]]. Created as a demo for Gradio and HuggingFace Spaces."
->    
+>
 > - [Pytorch Tricks](Pytorch Tricks.md)
 >   - Also look at [[fastai]]
 

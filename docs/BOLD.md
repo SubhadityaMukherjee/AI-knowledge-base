@@ -1,6 +1,6 @@
 ---
 tags: temp
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -22,7 +22,6 @@ tags: brain cogneuro
 - Factors such as drugs, substances [[https://psychology.fandom.com/wiki/BOLD_response#cite_note-3]] and excitation [[https://psychology.fandom.com/wiki/BOLD_response#cite_note-4]] have been shown to increase BOLD response. Conversely, age and brain pathology [[https://psychology.fandom.com/wiki/BOLD_response#cite_note-5]] have been shown to decrease BOLD response
 
 ## Backlinks
-
 > - [fMRI](fMRI.md)
 >   - [[BOLD]]
 

@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Bayesian Posterior
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,13 +17,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- [[Proto Distributions]] on $\theta$ space
 
 ## Backlinks
-
 > - [[[Bayesian]] Predictive Posterior](Bayesian Predictive Posterior.md)
 >   - Follows from [[Bayesian Posterior]]
->    
+>
 > - [Inductive Bias](Inductive Bias.md)
 >   - [[Bayesian Prior]] can shape the [[Bayesian Posterior]] in the way that it can be a similar distribution to the former
->    
+>
 > - [[[Bayesian]] Model Estimation](Bayesian Model Estimation.md)
 >   - [[Bayesian Posterior]]
 >   - How to encode or represent [[Bayesian Posterior]] as very high dim

@@ -1,7 +1,7 @@
 ---
 title: Instruction level programming
 tags: parallel 
-date modified: Thursday, August 11th 2022, 12:32:52 am
+date modified: Monday, October 10th 2022, 2:02:25 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -16,7 +16,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Branch Prediction]]
 
 ## Backlinks
-
 > - [SuperScalar](SuperScalar.md)
 >   - A superscalar CPU architecture implements [[Instruction level programming]] inside a single processor which allows faster CPU throughput at the same clock rate.
 

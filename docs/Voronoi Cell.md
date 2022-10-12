@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Voronoi Cell
-date modified: Thursday, August 11th 2022, 12:32:44 am
+date modified: Monday, October 10th 2022, 2:02:13 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [wolf](https://mathworld.wolfram.com/VoronoiDiagram.html)
 
 ## Backlinks
-
 > - [K Means](KMeans.md)
 >   - Clusters are bounded by line [[Decision Boundaries]] and forms a [[Voronoi Cell]]
 

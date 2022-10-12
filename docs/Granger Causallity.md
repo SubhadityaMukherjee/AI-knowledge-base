@@ -1,7 +1,7 @@
 ---
 title: Granger Causallity
 tags: brain
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:26 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -19,7 +19,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- How well can activity in one channel predict one in another
 
 ## Backlinks
-
 > - [Functional Connectivity](Functional Connectivity.md)
 >   - [[Granger Causallity]]
 

@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Ergodic
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,10 +11,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Asymptotic, stationary, equilibrium distribution
 
 ## Backlinks
-
 > - [Invariant Distribution](Invariant Distribution.md)
 >   - [[Ergodic]]
->    
+>
 > - [Detailed Balance](Detailed Balance.md)
 >   - To find a transition kernel T(x|y) for a homogenous, [[Ergodic]] [[Markov Chain]]
 

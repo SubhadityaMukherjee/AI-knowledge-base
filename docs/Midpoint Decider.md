@@ -1,7 +1,7 @@
 ---
 title: Midpoint Decider
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:50 am
+date modified: Monday, October 10th 2022, 2:02:22 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,10 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![[assets/Pasted image 20220411133835.png|im]]
 
 ## Backlinks
-
 > - [Marching Squares](Marching Squares.md)
 >   - [[Midpoint Decider]]
->    
+>
 > - [Marching Cubes](Marching Cubes.md)
 >   - [[Midpoint Decider]]
 

@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Bayesian Model Estimation
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -36,10 +36,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ### [[Protein Modeling]]
 
 ## Backlinks
-
 > - [Bayesian](Bayesian.md)
 >   - [[Bayesian Model Estimation]]
->    
+>
 > - [[[Bayesian]] Neural Network](Bayesian Neural Network.md)
 >   - [[Bayesian Model Estimation]]
 

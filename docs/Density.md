@@ -1,7 +1,7 @@
 ---
 tags: temp
 date created: Sunday, August 14th 2022, 4:49:58 pm
-date modified: Tuesday, September 6th 2022, 1:31:16 pm
+date modified: Monday, October 10th 2022, 2:02:30 pm
 ---
 
 # Density
@@ -9,7 +9,6 @@ date modified: Tuesday, September 6th 2022, 1:31:16 pm
 - $$r - m/V$$
 
 ## Backlinks
-
 > - [[[Probability]] [[Density]] Function](PDF.md)
 >   - # [[Probability]] [[Density]] Function
 

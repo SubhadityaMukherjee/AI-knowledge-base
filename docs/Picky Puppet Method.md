@@ -2,7 +2,7 @@
 title: Picky Puppet Method
 
 tags: language 
-date modified: Tuesday, October 4th 2022, 9:47:20 am
+date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 9:47:19 am
 ---
 

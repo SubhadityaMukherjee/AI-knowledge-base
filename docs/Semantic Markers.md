@@ -1,7 +1,7 @@
 ---
 title: Semantic Markers
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:46 am
+date modified: Monday, October 10th 2022, 2:02:17 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Unfortunately, to solve [[Lexical Disambiguation]] problem complete, it becomes necessary to introduce more and more finely grained semantic markers
 
 ## Backlinks
-
 > - [Lexical Disambiguation](Lexical Disambiguation.md)
 >   - [[Semantic Markers]]
 

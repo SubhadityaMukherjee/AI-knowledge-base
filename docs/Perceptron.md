@@ -2,7 +2,7 @@
 tags: temp
 title: Perceptron
 tag: architecture
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -16,10 +16,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- $$\begin{align} \\& h_0 = x h1= sign(\mathbf{w_1^T}+b_1) \\ &…\\& h1= sign(\mathbf{w_{L-1}^T}+b_L) \end{align}$$
 
 ## Backlinks
-
 > - [Heaviside](Heaviside.md)
 >   - used in Rosenblatt's [[Perceptron]]
->    
+>
 > - [Features](Features.md)
 >   - 1 hidden layer [[Perceptron]] -> Universal fn estimator
 

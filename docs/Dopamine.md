@@ -1,6 +1,6 @@
 ---
 tags: temp
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:29 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -22,7 +22,6 @@ tags: brain, psychology
 	- And should the expected reward not be received, dopamine activity drops, sending a negative feedback signal to the relevant parts of the brain, weakening the positive association
 
 ## Backlinks
-
 > - [Magical Maybe](Magical maybe.md)
 >   - According to this idea; the individual may or may not find a notification when looking on the phone. There is a large increase in [[Dopamine]] levels when the indication is seen.
 

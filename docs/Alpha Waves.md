@@ -1,7 +1,7 @@
 ---
 title: Alpha Waves
 tags: brain
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:34 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![[assets/Pasted image 20220502161020.png|im]]
 
 ## Backlinks
-
 > - [Brain Oscillations](Brain Oscillations.md)
 >   - [[Alpha Waves]]
 

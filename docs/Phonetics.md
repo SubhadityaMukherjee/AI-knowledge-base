@@ -1,7 +1,7 @@
 ---
 title: Phonetics
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - eg. sounds of ‘k’, ‘t’ and ‘e’ in ‘kite
 
 ## Backlinks
-
 > - [Linguistic Details](Linguistic details.md)
 >   - [[Phonetics]]
 

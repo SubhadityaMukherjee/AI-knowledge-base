@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: EEG Cluster Testing
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:29 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -19,7 +19,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- There was a significant difference between easy and more difficult trials between 712 ms post-stimulus and 768 ms post-stimulus. This difference was initially localized to a few central electrodes but over time spread out more posteriorly. This is consistent with previous studies that have shown
 
 ## Backlinks
-
 > - [[[EEG]] Statistical Analysis](EEG Statistical Analysis.md)
 >   - [[EEG Cluster Testing]]
 

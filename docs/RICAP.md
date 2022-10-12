@@ -1,6 +1,8 @@
 ---
 title: RICAP
 tags: augment
+date created: Sunday, October 9th 2022, 12:21:26 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # RICAP
@@ -12,7 +14,6 @@ tags: augment
 - Corner-RICAP has shown the best performance because a larger region of one image is visible to the network to learn
 
 ## Backlinks
-
 > - [Image Mixing and Deletion](Image Mixing and Deletion.md)
 >   - [[RICAP]]
 

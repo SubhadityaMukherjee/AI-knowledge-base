@@ -2,7 +2,7 @@
 title: Mean Observed Dissimilarity
 
 tags: explainability adversarial 
-date modified: Wednesday, October 5th 2022, 3:02:03 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 3:01:22 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Wednesday, October 5th 2022, 3:01:22 pm
 - $$MOD_{advset}= \frac{1}{N}\Sigma (NISSIM_{i})$$
 
 ## Backlinks
-
 > - [Generalizing Adversarial Explanations with Grad-CAM](Generalizing Adversarial Explanations with Grad-CAM.md)
 >   - [[Mean Observed Dissimilarity]]
 

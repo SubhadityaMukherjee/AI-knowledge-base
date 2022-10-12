@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Linear Regression
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Monday, October 10th 2022, 2:02:23 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -39,28 +39,27 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$(A'A)^{-1}A'$$ is the left psuedo inverse
 
 ## Backlinks
-
 > - [YOLO](YOLO.md)
 >   - [[LinearRegression]] problem
->    
+>
 > - [Ridge Regression](Ridge Regression.md)
 >   - [[LinearRegression]]
->    
+>
 > - [Fundamentals](Fundamentals.md)
 >   - [[LinearRegression]]
->    
+>
 > - [Inductive Bias](Inductive Bias.md)
 >   - in [[LinearRegression]]
->    
+>
 > - [Reg [[Uncertainty]]](Uncertainity in regression.md)
 >   - [[LinearRegression]]
->    
+>
 > - [GloVE](GloVE.md)
 >   - global log-bilinear [[LinearRegression]] model for the [[Unsupervised Learning|unsupervised learning]] of word representations
->    
+>
 > - [Dense](Dense.md)
 >   - Weighted [[LinearRegression]]
->    
+>
 > - [Methods for [[Feature Learning]]](Methods for Feature Learning.md)
 >   - [[Gradient Descent gradients]] or [[LinearRegression]]
 

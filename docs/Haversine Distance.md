@@ -2,7 +2,7 @@
 title: Haversine Distance
 
 tags: distance 
-date modified: Thursday, August 11th 2022, 12:32:52 am
+date modified: Monday, October 10th 2022, 2:02:26 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,7 +17,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Note that it is much less suited if the distances by themselves are already not that large. The curvature will not have that large of an impact.
 
 ## Backlinks
-
 > - [Distance Measures](Distance Measures.md)
 >   - [[Haversine Distance]]
 

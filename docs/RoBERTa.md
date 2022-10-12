@@ -2,7 +2,7 @@
 title: RoBERTa
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:46 am
+date modified: Monday, October 10th 2022, 2:02:18 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,10 +17,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - only the masked language model objective
 
 ## Backlinks
-
 > - [BART](BART.md)
 >   - matches the performance of [[RoBERTa]] with comparable training resource
->    
+>
 > - [Longformer](Longformer.md)
 >   - consistently outperforms [[RoBERTa]] on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA
 

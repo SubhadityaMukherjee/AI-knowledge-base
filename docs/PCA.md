@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: PCA
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -44,10 +44,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- If we want to preserve 98% variance : Rhs of (1) st. ratio is (1-0.98)
 
 ## Backlinks
-
 > - [Dimensionality Reduction](Dimensionality Reduction.md)
 >   - [[PCA]]
->    
+>
 > - [Unsupervised Learning](Unsupervised Learning.md)
 >   - [[PCA]]
 

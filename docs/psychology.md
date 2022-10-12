@@ -3,44 +3,44 @@
 tags: anchor
 ___
 
-- [[Attentions and salience|Attentions and salience.md]]
-- [[Berkeley et al|Berkeley et al.md]]
-- [[Challenges of Words-and-rules|Challenges of Words-and-rules.md]]
-- [[Connectionism|Connectionism.md]]
-- [[Connectionist Networks|Connectionist Networks.md]]
-- [[Cross-situational learning|Cross-situational learning.md]]
-- [[Deductive Approaches|Deductive Approaches.md]]
-- [[Distributive units|Distributive units.md]]
-- [[Elman 1990|Elman 1990.md]]
-- [[Emergentism|Emergentism.md]]
-- [[Extra-position|Extra-position.md]]
-- [[First order generalization|First order generalization.md]]
-- [[Inductive Learning|Inductive Learning.md]]
-- [[Localist units|Localist units.md]]
-- [[Memory-based learning|Memory-based learning.md]]
-- [[Milin et al.|Milin et al..md]]
-- [[Mirman et al.|Mirman et al..md]]
-- [[Misyak et al 2010|Misyak et al 2010.md]]
-- [[Nativists|Nativists.md]]
-- [[Non-adjacent dependencies|Non-adjacent dependencies.md]]
-- [[Object-relative clauses|Object-relative clauses.md]]
-- [[Overhypotheses|Overhypotheses.md]]
-- [[Propose-but-verify|Propose-but-verify.md]]
-- [[Rescorla-Wagner Algorithm|Rescorla-Wagner Algorithm.md]]
-- [[Rescorla-Wagner Blocking|Rescorla-Wagner Blocking.md]]
-- [[Saffran, Aslin and Newport|Saffran, Aslin and Newport.md]]
-- [[Second order generalization|Second order generalization.md]]
-- [[Semantics influences form|Semantics influences form.md]]
-- [[Single unit recording|Single unit recording.md]]
-- [[Subject relative|Subject relative.md]]
-- [[Subject-verb agreement|Subject-verb agreement.md]]
-- [[Superposition Catastrophe|Superposition Catastrophe.md]]
-- [[Symbolic learning model|Symbolic learning model.md]]
-- [[Symbolic models|Symbolic models.md]]
-- [[Transitional probabilities|Transitional probabilities.md]]
-- [[Visual Implicit Learning|Visual Implicit Learning.md]]
-- [[Wh-dependencies|Wh-dependencies.md]]
-- [[Wickelphones|Wickelphones.md]]
-- [[Words-and-Rules|Words-and-Rules.md]]
-- [[conditioning|conditioning.md]]
+- [Attentions and salience.md](Attentions%20and%20salience.md)
+- [Berkeley et al.md](Berkeley%20et%20al.md)
+- [Challenges of Words-and-rules.md](Challenges%20of%20Words-and-rules.md)
+- [Connectionism.md](Connectionism.md)
+- [Connectionist Networks.md](Connectionist%20Networks.md)
+- [Cross-situational learning.md](Cross-situational%20learning.md)
+- [Deductive Approaches.md](Deductive%20Approaches.md)
+- [Distributive units.md](Distributive%20units.md)
+- [Elman 1990.md](Elman%201990.md)
+- [Emergentism.md](Emergentism.md)
+- [Extra-position.md](Extra-position.md)
+- [First order generalization.md](First%20order%20generalization.md)
+- [Inductive Learning.md](Inductive%20Learning.md)
+- [Localist units.md](Localist%20units.md)
+- [Memory-based learning.md](Memory-based%20learning.md)
+- [Milin et al..md](Milin%20et%20al..md)
+- [Mirman et al..md](Mirman%20et%20al..md)
+- [Misyak et al 2010.md](Misyak%20et%20al%202010.md)
+- [Nativists.md](Nativists.md)
+- [Non-adjacent dependencies.md](Non-adjacent%20dependencies.md)
+- [Object-relative clauses.md](Object-relative%20clauses.md)
+- [Overhypotheses.md](Overhypotheses.md)
+- [Propose-but-verify.md](Propose-but-verify.md)
+- [Rescorla-Wagner Algorithm.md](Rescorla-Wagner%20Algorithm.md)
+- [Rescorla-Wagner Blocking.md](Rescorla-Wagner%20Blocking.md)
+- [Saffran, Aslin and Newport.md](Saffran,%20Aslin%20and%20Newport.md)
+- [Second order generalization.md](Second%20order%20generalization.md)
+- [Semantics influences form.md](Semantics%20influences%20form.md)
+- [Single unit recording.md](Single%20unit%20recording.md)
+- [Subject relative.md](Subject%20relative.md)
+- [Subject-verb agreement.md](Subject-verb%20agreement.md)
+- [Superposition Catastrophe.md](Superposition%20Catastrophe.md)
+- [Symbolic learning model.md](Symbolic%20learning%20model.md)
+- [Symbolic models.md](Symbolic%20models.md)
+- [Transitional probabilities.md](Transitional%20probabilities.md)
+- [Visual Implicit Learning.md](Visual%20Implicit%20Learning.md)
+- [Wh-dependencies.md](Wh-dependencies.md)
+- [Wickelphones.md](Wickelphones.md)
+- [Words-and-Rules.md](Words-and-Rules.md)
+- [conditioning.md](conditioning.md)
 

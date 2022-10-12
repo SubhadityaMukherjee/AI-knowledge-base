@@ -1,7 +1,7 @@
 ---
 title: Front to Back Raycasting
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Color Compositing]]
 
 ## Backlinks
-
 > - [Raycasting](Raycasting.md)
 >   - [[Front to Back Raycasting]]
 

@@ -1,7 +1,7 @@
 ---
 title: BrainWave Coherence
 tags: brain
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -14,7 +14,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- O1 and PZ has little coherence
 
 ## Backlinks
-
 > - [Functional Connectivity](Functional Connectivity.md)
 >   - [[BrainWave Coherence]]
 

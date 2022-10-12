@@ -2,7 +2,7 @@
 title: Adaptive Whitening Saliency
 
 tags: explainability
-date modified: Thursday, October 6th 2022, 1:36:55 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Thursday, October 6th 2022, 1:36:54 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Thursday, October 6th 2022, 1:36:54 pm
 - uses the features extracted by the model pre-trained for scene recognition.
 
 ## Backlinks
-
 > - [Influence of Image Classification Accuracy on Saliency Map Estimation](Influence of image classification accuracy on saliency map estimation.md)
 >   - [[Adaptive Whitening Saliency]]
 

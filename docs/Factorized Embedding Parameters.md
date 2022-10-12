@@ -2,7 +2,7 @@
 title: Factorized Embedding Parameters
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,7 +15,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[ALBERT]] solves this issue by decomposing the [[Embedding|embedding]] parameters into two smaller matrices, allowing a two-step mapping between the original [[Word Vectors|word vectors]] and the space of the hidden state. In terms of computational cost, this no longer means $\text{O(VxH)}$ but rather $\text{O(VxE + ExH)}$, which brings a significant reduction when $\text{H >> E}$.
 
 ## Backlinks
-
 > - [ALBERT](ALBERT.md)
 >   - [[Factorized Embedding Parameters]]
 >   - For [[Factorized Embedding Parameters]], the authors report good performance. Both the case where cross-layer parameters were not shared and where they were, are reported. Without sharing, larger [[Embedding|embedding]] sizes give better performance. With sharing, performance boosts satisfy at an [[Embedding|embedding]] size of 128 dimensions. That's why the 128-size embeddings were used in the table above.

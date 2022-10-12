@@ -1,6 +1,6 @@
 ---
 tags: temp
-date modified: Thursday, August 11th 2022, 12:32:49 am
+date modified: Monday, October 10th 2022, 2:02:21 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -25,10 +25,9 @@ tags: architecture
 	- They describe how to effectively optimize neural radiance fields to render photorealistic novel views of scenes
 
 ## Backlinks
-
 > - [Instant NeRF](Instant NeRF.md)
 >   - [[Neural Radiance Field]]
->    
+>
 > - [BlockNeRF](BlockNeRF.md)
 >   - variant of [[Neural Radiance Field]]
 

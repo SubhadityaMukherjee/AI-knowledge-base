@@ -1,7 +1,7 @@
 ---
 title: Operator Fusion
 tags: parallel
-date modified: Thursday, August 11th 2022, 12:32:49 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,10 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - <https://arxiv.org/abs/2108.13342>
 
 ## Backlinks
-
 > - [Instant NeRF](Instant NeRF.md)
 >   - fully-fused [[Operator Fusion]] CUDA kernels with a focus on minimizing wasted bandwidth and compute operations
->    
+>
 > - [Optimizing Work](Optimizing Code.md)
 >   - [[Operator Fusion]]
 

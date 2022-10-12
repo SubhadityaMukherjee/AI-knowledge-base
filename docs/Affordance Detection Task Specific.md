@@ -2,7 +2,7 @@
 title: Affordance Detection Task Specific
 
 tags: robotics architecture 
-date modified: Wednesday, September 28th 2022, 9:48:15 pm
+date modified: Monday, October 10th 2022, 2:02:34 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Affordance Score vs Contact Constraint
 
 ## Backlinks
-
 > - [[Grasp Point Detection]]
 >   - [[GGCNN]], [[GRConvNet]], [[MVGrasp]], [[Unet Grasping]], [[Learning to Detect Grasp Affordance]], [[Volumetric Grasping Network]] , [[.md|Affordance Detection Task Specific]]
 

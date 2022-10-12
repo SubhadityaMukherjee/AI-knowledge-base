@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Autoregressive
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:34 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Multi Variate AR]]
 
 ## Backlinks
-
 > - [Granger Causallity](Granger Causallity.md)
 >   - [[Autoregressive]]
 

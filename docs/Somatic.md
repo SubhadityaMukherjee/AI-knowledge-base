@@ -2,7 +2,7 @@
 title: Somatic
 
 tags: neuroscience
-date modified: Sunday, August 14th 2022, 7:08:02 pm
+date modified: Monday, October 10th 2022, 2:02:16 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Skeletal movement
 
 ## Backlinks
-
 > - [[Efferent]]
 >   - Also includes [[.md|Somatic]] + [[Autonomic]]
 

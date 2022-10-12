@@ -2,7 +2,7 @@
 title: MVGrasp
 
 tags: robotics architecture 
-date modified: Wednesday, September 28th 2022, 9:43:30 pm
+date modified: Monday, October 10th 2022, 2:02:22 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -22,7 +22,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- View [[Entropy|entropy]] is used as the metric for selecting the best view
 
 ## Backlinks
-
 > - [[Grasp Point Detection]]
 >   - [[GGCNN]], [[GRConvNet]], [[.md|MVGrasp]], [[Unet Grasping]], [[Learning to Detect Grasp Affordance]], [[Volumetric Grasping Network]] , [[Affordance Detection Task Specific]]
 

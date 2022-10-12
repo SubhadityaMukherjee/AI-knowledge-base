@@ -1,7 +1,7 @@
 ---
 title: Transfer Function
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:45 am
+date modified: Monday, October 10th 2022, 2:02:15 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -14,16 +14,15 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Opacity Correction]]
 
 ## Backlinks
-
 > - [Pre Classification](Pre Classification.md)
 >   - Classification of scalars at each sample via [[Transfer Function]]
->    
+>
 > - [Post Classification](Post Classification.md)
 >   - Classification via [[Transfer Function]]
->    
+>
 > - [Granger Causallity](Granger Causallity.md)
 >   - Directed [[Transfer Function]]
->    
+>
 > - [Classification Ray Casting](Classification Ray Casting.md)
 >   - [[Transfer Function]]
 

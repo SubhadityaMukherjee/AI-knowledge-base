@@ -2,7 +2,7 @@
 title: CLIP
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,10 +17,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - they convert all of a dataset’s classes into captions such as “a photo of a dog” and predict the class of the caption CLIP estimates best pairs with a given image
 
 ## Backlinks
-
 > - [Imagen](Imagen.md)
 >   - With [[DrawBench]], we compare Imagen with recent methods including [[VQGAN]]+[[CLIP]], [[Latent Diffusion]] Models, and [[DALL-E]], and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment
->    
+>
 > - [[[DALL-E]] 2](DALL-E 2.md)
 >   - Contrastive models like [[CLIP]] have been shown to learn robust representations of images that capture both semantics and style
 >   - two-stage model: a prior that generates a [[CLIP]] image [[Embedding|embedding]] given a text caption, and a “unCLIP” decoder that generates an image conditioned on the image [[Embedding|embedding]]

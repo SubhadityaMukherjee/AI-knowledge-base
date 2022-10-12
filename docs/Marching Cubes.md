@@ -1,7 +1,7 @@
 ---
 title: Marching Cubes
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:50 am
+date modified: Monday, October 10th 2022, 2:02:22 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -29,10 +29,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Produces ringing artifacts!
 
 ## Backlinks
-
 > - [Color Compositing](Color Compositing.md)
 >   - First is same as [[Marching Cubes]]
->    
+>
 > - [Isosurface](Isosurface.md)
 >   - [[Marching Cubes]]
 

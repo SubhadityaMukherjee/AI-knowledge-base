@@ -2,7 +2,7 @@
 title: Subject relative
 
 tags: language psychology 
-date modified: Thursday, August 11th 2022, 12:32:45 am
+date modified: Monday, October 10th 2022, 2:02:16 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Subjects with higher working memory were significantly better at interpreting object relatives than subjects with lower working memory
 
 ## Backlinks
-
 > - [Non-adjacent Dependencies](Non-adjacent dependencies.md)
 >   - [[Subject relative]]
 

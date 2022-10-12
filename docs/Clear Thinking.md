@@ -2,7 +2,7 @@
 title: Clear Thinking
 
 tags: random
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Conversely, if we can’t explain an idea well, that’s often a sign that we don’t understand it as well as we could.
 
 ## Backlinks
-
 > - [Research Debt](Research Debt.md)
 >   - [[Clear Thinking]]
 

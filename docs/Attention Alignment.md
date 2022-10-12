@@ -2,7 +2,7 @@
 title: Attention Alignment
 
 tags: loss
-date modified: Thursday, August 11th 2022, 12:32:57 am
+date modified: Monday, October 10th 2022, 2:02:34 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -27,19 +27,18 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Final scores calculated with a [[Softmax]]
 
 ## Backlinks
-
 > - [Additive [[Attention]]](Additive Attention.md)
 >   - Uses a one layer feedforward network to calculate [[Attention Alignment]]
->    
+>
 > - [Content Based [[Attention]]](Content Based Attention.md)
 >   - [[Attention Alignment]] score $score(s_{t}, h_{i}) = cosine[s_{t}, h_{i}]$$
->    
+>
 > - [Dot Product [[Attention]]](Dot Product Attention.md)
 >   - A type of [[Attention Alignment]]
->    
+>
 > - [Scaled [[Dot Product Attention]]](Scaled Dot Product Attention.md)
 >   - [[Attention Alignment]] score $$\alpha_{t,i} = \frac{s_{t}^{T}h_{i}}{\sqrt{n}}$$
->    
+>
 > - [Location Base [[Attention]]](Location Base Attention.md)
 >   - [[Attention Alignment]] score $\alpha_{t,i} = softmax(W_{\alpha}s_{t})$
 

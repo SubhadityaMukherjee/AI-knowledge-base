@@ -2,7 +2,7 @@
 title: On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images
 
 tags: explainability mastersthesis 
-date modified: Thursday, October 6th 2022, 12:16:44 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Thursday, October 6th 2022, 10:29:54 am
 ---
 
@@ -86,7 +86,6 @@ date created: Thursday, October 6th 2022, 10:29:54 am
 - ![[assets/Pasted image 20221006103042.png]]
 
 ## Backlinks
-
 > - [](journals/2022-10-06.md)
 >   - [[On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images]]
 

@@ -2,7 +2,7 @@
 title: Fastai Blocks
 
 tags: library 
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -83,7 +83,6 @@ learn.export('model.pkl')
 ```
 
 ## Backlinks
-
 > - [Fastai](fastai.md)
 >   - [[Fastai Blocks]]
 

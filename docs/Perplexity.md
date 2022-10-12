@@ -2,7 +2,7 @@
 title: Perplexity
 
 tags: loss
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -14,7 +14,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - This is also equivalent to the exponentiation of the [[Cross Entropy]] between the data and model predictions
 
 ## Backlinks
-
 > - [Speech Recognition](Speech Recognition.md)
 >   - 50% reduction of [[Perplexity]]
 

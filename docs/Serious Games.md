@@ -1,7 +1,7 @@
 ---
 tags: usermodel 
 date created: Monday, September 12th 2022, 3:20:34 pm
-date modified: Monday, September 12th 2022, 3:20:55 pm
+date modified: Monday, October 10th 2022, 2:02:17 pm
 ---
 
 ## Serious Games
@@ -10,7 +10,6 @@ date modified: Monday, September 12th 2022, 3:20:55 pm
 - Eg: response simulator, kerbal space program, sustainable energy management
 
 ## Backlinks
-
 > - [Gamification](Gamification.md)
 >   - [[Serious Games]]
 

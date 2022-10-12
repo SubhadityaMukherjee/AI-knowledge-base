@@ -1,6 +1,6 @@
 ---
 tags: temp
-date modified: Thursday, August 11th 2022, 12:32:45 am
+date modified: Monday, October 10th 2022, 2:02:15 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -30,7 +30,6 @@ tags: architecture
 	- Ratio of 1:1:3:1
 
 ## Backlinks
-
 > - [ConvNeXt](ConvNeXt.md)
 >   - hierarchical Transformers (e.g., [[Swin Transformer]] ) that reintroduced several [[Conv]] priors, making Transformers practically viable as a generic vision backbone
 

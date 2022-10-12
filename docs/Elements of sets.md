@@ -1,7 +1,7 @@
 ---
 title: Elements of sets
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Notice that to understand the 2nd sentence at all requires that we use the context of the first sentence to establish that the word ‘moons’ means moon stickers.
 
 ## Backlinks
-
 > - [Pragmatics](Pragmatics.md)
 >   - [[Elements of sets]]
 

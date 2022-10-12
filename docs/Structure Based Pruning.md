@@ -1,7 +1,7 @@
 ---
 title: Structure Based Pruning
 tags: regularize
-date modified: Thursday, August 11th 2022, 12:32:45 am
+date modified: Monday, October 10th 2022, 2:02:16 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,7 +10,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Some others consider methods where they group certain parameters and remove them as groups. This is more optimized.
 
 ## Backlinks
-
 > - [Pruning](Pruning.md)
 >   - [[Structure Based Pruning]]
 

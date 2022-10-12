@@ -1,7 +1,7 @@
 ---
 title: Focal Loss
 tags: loss
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,10 +15,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[RetinaNet]]
 
 ## Backlinks
-
 > - [RetinaNet](RetinaNet.md)
 >   - Simple [[Dense|dense]] detector for [[Focal Loss]]
->    
+>
 > - [Tree Cover Segmentation](treecoverSegmentation.md)
 >   - Weighted [[loss]] + [[Focal Loss]]
 

@@ -1,7 +1,7 @@
 ---
 title: Gyrus
 tags: brain
-date modified: Thursday, August 11th 2022, 12:32:52 am
+date modified: Monday, October 10th 2022, 2:02:26 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - There are names for the folds and grooves that help define specific brain regions.
 
 ## Backlinks
-
 > - [Brain Cortex](Brain Cortex.md)
 >   - [[Gyrus]]
 

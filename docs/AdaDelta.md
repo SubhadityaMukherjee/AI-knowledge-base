@@ -2,7 +2,7 @@
 title: AdaDelta
 
 tags: optimizer gradients 
-date modified: Thursday, August 11th 2022, 12:32:58 am
+date modified: Monday, October 10th 2022, 2:02:35 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -14,7 +14,6 @@ $$\begin{align}\\
 \end{align}$$
 
 ## Backlinks
-
 > - [Gradient Descent #gradients](Gradient Descent gradients.md)
 >   - [[AdaDelta]]
 

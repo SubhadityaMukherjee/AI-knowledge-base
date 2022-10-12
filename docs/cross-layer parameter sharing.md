@@ -2,7 +2,7 @@
 title: cross-layer parameter sharing
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:43 am
+date modified: Monday, October 10th 2022, 2:02:12 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,7 +15,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - the stabilization of the neural network due to parameter sharing. In other words, beyond simply reducing the computational cost involved with training, the paper suggests that sharing parameters can also improve the training process.
 
 ## Backlinks
-
 > - [ALBERT](ALBERT.md)
 >   - [[cross-layer parameter sharing]]
 >   - For [[cross-layer parameter sharing]], the authors looked at not performing cross-layer sharing, performing cross-layer sharing for the feedforward segments only, performing sharing for the [[Attention|attention]] segments, and performing sharing for all subsegments. It turns out that sharing the parameters for the [[Attention|attention]] segments is most effective, while sharing the feedforward segment parameters does not contribute significantly. This clearly illustrates the important role of the [[Attention|attention]] mechanism in [[Transformer]] models. Because, however, all-segment sharing significantly decreases the number of parameters, at only slightly worse performance compared to [[Attention|attention]]-only sharing, the authors to perform all-segment sharing instead.

@@ -2,7 +2,7 @@
 title: Inverse Kinematics
 
 tags: robotics
-date modified: Wednesday, September 28th 2022, 10:28:15 pm
+date modified: Monday, October 10th 2022, 2:02:24 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Finite Differences
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,10 +17,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Non isotropic
 
 ## Backlinks
-
 > - [Volumetric Illumination](Volumetric Illumination.md)
 >   - [[Finite Differences]]
->    
+>
 > - [Marching Cubes](Marching Cubes.md)
 >   - [[Finite Differences]] Central
 

@@ -2,7 +2,7 @@
 title: Ependymal Cell
 
 tags: neuroscience
-date modified: Sunday, August 14th 2022, 7:14:34 pm
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Create, secrete and circulate [[CSF)](Cerebrospinal Fluid (CSF|Cerebrospinal Fluid (CSF)]].md)
 
 ## Backlinks
-
 > - [[Glia]]
 >   - [[.md|Ependymal Cell]]
 

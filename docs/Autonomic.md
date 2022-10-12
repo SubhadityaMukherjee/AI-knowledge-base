@@ -2,7 +2,7 @@
 title: Autonomic
 
 tags: neuroscience
-date modified: Sunday, August 14th 2022, 7:07:27 pm
+date modified: Monday, October 10th 2022, 2:02:34 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - [[Sympathetic]] + [[Parasympathetic]]
 
 ## Backlinks
-
 > - [[Efferent]]
 >   - Also includes [[Somatic]] + [[.md|Autonomic]]
 

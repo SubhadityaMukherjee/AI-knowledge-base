@@ -2,7 +2,7 @@
 title: Influence of image classification accuracy on saliency map estimation
 
 tags: explainability mastersthesis 
-date modified: Thursday, October 6th 2022, 1:44:33 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Thursday, October 6th 2022, 1:01:31 pm
 ---
 
@@ -85,7 +85,6 @@ date created: Thursday, October 6th 2022, 1:01:31 pm
 - ![[assets/Pasted image 20221006132051.png]]
 
 ## Backlinks
-
 > - [](journals/2022-10-06.md)
 >   - **01:01** [[Influence of image classification accuracy on saliency map estimation]]
 

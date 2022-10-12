@@ -2,7 +2,7 @@
 title: Robotic Joints
 
 tags: robotics 
-date modified: Wednesday, September 28th 2022, 9:36:22 pm
+date modified: Monday, October 10th 2022, 2:02:18 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

@@ -2,7 +2,7 @@
 title: Knowledge Distillation Survey 2021
 
 tags: knowledgedistillation 
-date modified: Tuesday, October 4th 2022, 11:43:04 am
+date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:40:36 am
 ---
 
@@ -23,7 +23,6 @@ date created: Tuesday, October 4th 2022, 11:40:36 am
 - [[Feature Based Knowledge]]
 
 ## Backlinks
-
 > - [Knowledge Distillation](Knowledge Distillation.md)
 >   - [[Knowledge Distillation Survey 2021]]
 

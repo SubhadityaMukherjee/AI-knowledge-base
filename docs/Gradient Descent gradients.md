@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Gradient Descent #gradients
-date modified: Thursday, August 11th 2022, 12:32:53 am
+date modified: Monday, October 10th 2022, 2:02:26 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -24,28 +24,27 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ## …
 
 ## Backlinks
-
 > - [Optimization](Optimizers.md)
 >   - [[Gradient Descent gradients]]
->    
+>
 > - [Instant NeRF](Instant NeRF.md)
 >   - small neural network is augmented by a multiresolution hash table of trainable feature vectors whose values are optimized through [[Gradient Descent gradients]]
->    
+>
 > - [AutoEncoder](Auto Encoders.md)
 >   - Learn using [[Gradient Descent gradients]]
->    
+>
 > - [GAN](Generative Models.md)
 >   - G : [[Gradient Descent gradients]]
->    
+>
 > - [Learning Rate [[Scheduling]]](Learning Rate Scheduling.md)
 >   - [[Gradient Descent gradients]]
->    
+>
 > - [Gradient Ascent](Gradient Ascent.md)
 >   - To maximize loss function unlike [[Gradient Descent gradients]]
->    
+>
 > - [Contrastive [[loss|Loss]]](Contrastive Loss.md)
 >   - Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
->    
+>
 > - [Methods for [[Feature Learning]]](Methods for Feature Learning.md)
 >   - [[Gradient Descent gradients]] or [[LinearRegression]]
 

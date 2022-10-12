@@ -1,6 +1,8 @@
 ---
 title: CowMask
 tags: augment
+date created: Sunday, October 9th 2022, 12:21:26 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # CowMask
@@ -12,7 +14,6 @@ tags: augment
 - Pixel values below the threshold are either erased or replaced by the pixel values of the randomly selected image at the corresponding locations.
 
 ## Backlinks
-
 > - [Image Mixing and Deletion](Image Mixing and Deletion.md)
 >   - [[CowMask]]
 

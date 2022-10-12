@@ -1,7 +1,7 @@
 ---
 title: Spiking Networks
 tags: architecture
-date modified: Thursday, August 11th 2022, 12:32:45 am
+date modified: Monday, October 10th 2022, 2:02:16 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -9,10 +9,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Poisson Process]]
 
 ## Backlinks
-
 > - [Exponential Distribution](Exponential Distribution.md)
 >   - [[Spiking Networks]]
->    
+>
 > - [Neural Network Architecture Cheat Sheet](Neural Network Architecture Cheat Sheet.md)
 >   - [[Spiking Networks]]
 

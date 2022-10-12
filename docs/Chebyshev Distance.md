@@ -2,7 +2,7 @@
 title: Chebyshev Distance
 
 tags: distance 
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -15,10 +15,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - warehouse logistics as it closely resembles the time an overhead crane takes to move an object
 
 ## Backlinks
-
 > - [Minkowski Distance](Minkowski Distance.md)
 >   - p=$\infty$ — [[Chebyshev Distance]]
->    
+>
 > - [Distance Measures](Distance Measures.md)
 >   - [[Chebyshev Distance]]
 

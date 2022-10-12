@@ -2,7 +2,7 @@
 title: RandAugment
 
 tags: augment
-date modified: Friday, October 7th 2022, 12:18:33 pm
+date modified: Monday, October 10th 2022, 2:02:18 pm
 date created: Tuesday, July 26th 2022, 5:03:15 pm
 ---
 

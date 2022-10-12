@@ -2,7 +2,7 @@
 title: Applications of Knowledge Distillation
 
 tags: knowledgedistillation 
-date modified: Tuesday, October 4th 2022, 11:56:03 am
+date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:53:11 am
 ---
 
@@ -23,7 +23,6 @@ date created: Tuesday, October 4th 2022, 11:53:11 am
 - Pan et al. (2019) designed a enhanced collaborative [[Denoising Autoencoder|denoising autoencoder]] (ECAE) model for recommender systems via knowledge distillation to capture useful knowledge from user feedbacks and to reduce noise. The unified ECAE framework contains a generation network, a retraining network and a distillation layer that trans- fers knowledge and reduces noise from the generation network.
 
 ## Backlinks
-
 > - [Feature Based Knowledge](Feature Based Knowledge.md)
 >   - [[Applications of Knowledge Distillation]]
 

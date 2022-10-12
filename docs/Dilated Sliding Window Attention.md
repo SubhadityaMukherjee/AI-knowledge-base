@@ -2,7 +2,7 @@
 title: Dilated Sliding Window Attention
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:29 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -12,13 +12,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![[assets/Pasted image 20220621181124.png]]
 
 ## Backlinks
-
 > - [Global and [[Sliding Window Attention]]](Global and Sliding Window Attention.md)
 >   - [[Sliding Window Attention]] and [[Dilated Sliding Window Attention]] are not always enough
->    
+>
 > - [Attention](Attention.md)
 >   - [[Dilated Sliding Window Attention]]
->    
+>
 > - [Longformer](Longformer.md)
 >   - [[Dilated Sliding Window Attention]]
 

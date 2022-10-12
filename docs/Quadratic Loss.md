@@ -1,7 +1,7 @@
 ---
 title: Quadratic Loss
 tags: loss
-date modified: Thursday, August 11th 2022, 12:32:47 am
+date modified: Monday, October 10th 2022, 2:02:19 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,13 +10,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $\Delta : \mathbb{R}^{n} \rightarrow \mathbb{R}, x \rightarrow E[Y|X = x]$ is the gold standard for minimizing this. But $\Delta$ is unknown
 
 ## Backlinks
-
 > - [Linear Regression](LinearRegression.md)
 >   - [[Quadratic Loss]]
->    
+>
 > - [Bias Vs Variance](Bias Variance Dilemma.md)
 >   - [[Quadratic Loss]] (risk) is minimized by the function $$\Delta(x) = E_{Y|X=x}[Y]$$
->    
+>
 > - [Window Based Regression](Window Based Regression.md)
 >   - Flatten into $$d \cdot k$$ vector and apply [[Quadratic Loss]]
 

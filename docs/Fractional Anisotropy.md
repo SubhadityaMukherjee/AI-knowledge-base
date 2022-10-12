@@ -2,7 +2,7 @@
 title: Fractional Anisotropy
 
 tags: visualization 
-date modified: Wednesday, September 14th 2022, 12:53:29 pm
+date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -11,13 +11,12 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - ![[assets/Screenshot 2022-09-14 at 12.53.26 PM.png]]
 
 ## Backlinks
-
 > - [Isosurface](Isosurface.md)
 >   - [[Fractional Anisotropy]]
->    
+>
 > - [Scalar Color Coding](Scalar Color Coding.md)
 >   - [[Fractional Anisotropy]]
->    
+>
 > - [Ellipsoids](Ellipsoids.md)
 >   - [[Fractional Anisotropy]]
 

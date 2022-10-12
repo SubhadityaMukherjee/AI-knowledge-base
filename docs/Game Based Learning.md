@@ -1,7 +1,7 @@
 ---
 tags: usermodel 
 date created: Monday, September 12th 2022, 3:20:34 pm
-date modified: Monday, September 12th 2022, 3:31:00 pm
+date modified: Monday, October 10th 2022, 2:02:27 pm
 ---
 
 ## Game Based Learning
@@ -19,7 +19,6 @@ date modified: Monday, September 12th 2022, 3:31:00 pm
 	- Makes it fun though
 
 ## Backlinks
-
 > - [Gamification](Gamification.md)
 >   - [[Game Based Learning]]
 

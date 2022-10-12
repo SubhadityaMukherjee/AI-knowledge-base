@@ -1,7 +1,7 @@
 ---
 title: Optimization
 tags: regularize 
-date modified: Thursday, August 11th 2022, 12:32:49 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -16,16 +16,15 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ## …
 
 ## Backlinks
-
 > - [](DeepLearning.md)
 >   - [[Optimizers]]
->    
+>
 > - [Non [[Relational Inductive Bias]]](Non Relational Inductive Bias.md)
 >   - [[Optimizers]]
->    
+>
 > - [Vanishing/exploding #gradients](Vanishingexploding gradients.md)
 >   - [[Regularization]] , [[Optimizers]] , [[Architectures]]
->    
+>
 > - [Bias Vs Variance](Bias Variance Dilemma.md)
 >   - Tune on [[Emperical Risk]] instead using [[Optimizers]]
 

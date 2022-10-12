@@ -2,7 +2,7 @@
 title: Kvasir Dataset
 
 tags: dataset 
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Monday, October 10th 2022, 2:02:24 pm
 date created: Friday, July 29th 2022, 2:51:11 pm
 ---
 

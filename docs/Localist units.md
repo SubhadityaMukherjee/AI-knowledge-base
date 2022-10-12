@@ -2,7 +2,7 @@
 title: Localist units
 
 tags: language cogneuro psychology 
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Monday, October 10th 2022, 2:02:23 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - In the hidden units: is there evidence of localist encoding developing?
 
 ## Backlinks
-
 > - [Locality](Locality.md)
 >   - [[Localist units]]
 

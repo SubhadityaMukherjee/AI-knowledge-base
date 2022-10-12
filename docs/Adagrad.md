@@ -1,7 +1,7 @@
 ---
 title: Adagrad
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:58 am
+date modified: Monday, October 10th 2022, 2:02:35 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,13 +11,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Doesnt forget past gradients
 
 ## Backlinks
-
 > - [Optimization](Optimizers.md)
 >   - [[Adagrad]]
->    
+>
 > - [Rmsprop](Rmsprop.md)
 >   - More stable than [[Adagrad]]
->    
+>
 > - [Gradient Descent #gradients](Gradient Descent gradients.md)
 >   - [[Adagrad]]
 

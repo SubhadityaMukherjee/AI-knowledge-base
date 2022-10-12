@@ -2,7 +2,7 @@
 title: Familar Object Grasping Object Viiew recog
 
 tags: robotics architecture 
-date modified: Wednesday, September 28th 2022, 10:21:51 pm
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -18,7 +18,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- As an example, if the robot knows how to grasp a pen, it may use the same grasp temple to take a marker
 
 ## Backlinks
-
 > - [[Kinesthetic Teaching]]
 >   - [[.md|Familar Object Grasping Object Viiew recog]]
 

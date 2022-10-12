@@ -2,7 +2,7 @@
 title: Distillation Schemes
 
 tags: knowledgedistillation 
-date modified: Tuesday, October 4th 2022, 11:45:50 am
+date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:45:50 am
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, October 4th 2022, 11:45:50 am
 - [[Self Distillation]]
 
 ## Backlinks
-
 > - [Feature Based Knowledge](Feature Based Knowledge.md)
 >   - [[Distillation Schemes]]
 

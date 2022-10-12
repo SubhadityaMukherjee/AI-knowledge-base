@@ -1,7 +1,7 @@
 ---
 title: Phonology
 tags: language
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - (2) different ‘t’ and ‘p’ sounds in ‘top’ vs ‘pot’
 
 ## Backlinks
-
 > - [Linguistic Details](Linguistic details.md)
 >   - [[Phonology]]
 

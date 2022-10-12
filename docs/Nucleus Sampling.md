@@ -2,7 +2,7 @@
 title: Nucleus Sampling
 
 tags: distribution 
-date modified: Thursday, August 11th 2022, 12:32:49 am
+date modified: Monday, October 10th 2022, 2:02:21 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - By sampling text from the dynamic nucleus of the [[Probability|probability]] distribution, which allows for diversity while effectively truncating the less reliable tail of the distribution, the resulting text better demonstrates the quality of human text, yielding enhanced diversity without sacrificing fluency and coherence.
 
 ## Backlinks
-
 > - [Neural Text Degeneration](Neural Text Degeneration.md)
 >   - [[Nucleus Sampling]]
 

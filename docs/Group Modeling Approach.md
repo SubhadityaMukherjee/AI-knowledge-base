@@ -2,7 +2,7 @@
 title: Group Modeling Approach
 
 tags: usermodel 
-date modified: Monday, October 3rd 2022, 3:11:28 pm
+date modified: Monday, October 10th 2022, 2:02:26 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - [[Grey sheep problem]]
 
 ## Backlinks
-
 > - [[Recommender System]]
 >   - [[.md|Group Modeling Approach]]
 

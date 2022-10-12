@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: CDF
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -9,13 +9,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - get cumulative [[Density|density]] function $\varphi : \mathbb{R} \rightarrow [0,1]$
 
 ## Backlinks
-
 > - [Uniform [[Sampling]]](Uniform Sampling.md)
 >   - [[CDF]]
->    
+>
 > - [Rejection [[Sampling]]](Rejection Sampling.md)
 >   - No [[CDF]] with a simple inverse
->    
+>
 > - [GELU](GELU.md)
 >   - $$x\Phi(x)$$ where $\Phi(x)$ is the [[Normal Distribution]] [[CDF]]
 

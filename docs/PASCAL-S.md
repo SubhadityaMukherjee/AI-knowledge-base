@@ -2,7 +2,7 @@
 title: PASCAL-S
 
 tags: dataset 
-date modified: Thursday, October 6th 2022, 1:38:44 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 date created: Thursday, October 6th 2022, 1:38:43 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Thursday, October 6th 2022, 1:38:43 pm
 - The fixations were measured while eight observers looked at an image for 2 s.
 
 ## Backlinks
-
 > - [Influence of Image Classification Accuracy on Saliency Map Estimation](Influence of image classification accuracy on saliency map estimation.md)
 >   - [[PASCAL-S]]
 

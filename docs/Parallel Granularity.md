@@ -1,7 +1,7 @@
 ---
 title: Parallel Granularity
 tags: parallel 
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,7 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Fine : Small computation between communication
 
 ## Backlinks
-
 > - [Concurrency](Concurrency.md)
 >   - Both the maximum and the average degrees of concurrency usually increase as the [[Parallel Granularity]] of tasks becomes smaller (finer)
 

@@ -1,7 +1,7 @@
 ---
 title: SIMD
 tags: parallel 
-date modified: Thursday, August 11th 2022, 12:32:46 am
+date modified: Monday, October 10th 2022, 2:02:18 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,13 +17,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Time space duality]]
 
 ## Backlinks
-
 > - [MIMD](MIMD.md)
 >   - Also include [[SIMD]] sub components
->    
+>
 > - [Register to Register Architecture](Register to Register Architecture.md)
 >   - [[SIMD]] based on this
->    
+>
 > - [Flynn's Taxonomy](Flynn's Taxonomy.md)
 >   - [[SIMD]]
 

@@ -2,7 +2,7 @@
 title: PaLM
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -26,7 +26,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ethical considerations related to large language models and discuss potential mitigation strategies
 
 ## Backlinks
-
 > - [Benchmark LLM](Benchmark LLM.md)
 >   - From [[GPT3]] to [[PaLM]], the state-of-the-art performance on natural [[language]] tasks is being pushed forward with every new large [[language]] model
 

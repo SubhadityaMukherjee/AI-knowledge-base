@@ -2,7 +2,7 @@
 title: GGCNN
 
 tags: robotics architecture 
-date modified: Wednesday, September 28th 2022, 9:40:52 pm
+date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -15,7 +15,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Morrison, Douglas, Peter Corke, and Jürgen Leitner. "Closing the loop for robotic grasping: A real-time, generative grasp synthesis approach." RSS (2018).
 
 ## Backlinks
-
 > - [[Grasp Point Detection]]
 >   - [[.md|GGCNN]], [[GRConvNet]], [[MVGrasp]], [[Unet Grasping]], [[Learning to Detect Grasp Affordance]], [[Volumetric Grasping Network]] , [[Affordance Detection Task Specific]]
 

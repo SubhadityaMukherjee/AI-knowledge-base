@@ -2,7 +2,7 @@
 title: Graph Based Distillation
 
 tags: knowledgedistillation 
-date modified: Tuesday, October 4th 2022, 11:50:56 am
+date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:50:22 am
 ---
 
@@ -14,7 +14,6 @@ date created: Tuesday, October 4th 2022, 11:50:22 am
 - Besides, using knowl- edge distillation, the topological semantics of a graph convolutional teacher network as the topology-aware knowledge are transferred into the graph convolutional student network (Yang et al., 2020b)
 
 ## Backlinks
-
 > - [Distillation Algorithms](Distillation Algorithms.md)
 >   - [[Graph Based Distillation]]
 

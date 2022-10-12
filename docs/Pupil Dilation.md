@@ -2,7 +2,7 @@
 title: Pupil Dilation
 
 tags: usermodel 
-date modified: Monday, September 12th 2022, 4:09:00 pm
+date modified: Monday, October 10th 2022, 2:02:19 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
@@ -17,8 +17,8 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Increases with emotional stimulation
 - ![[assets/Screenshot 2022-09-12 at 4.08.53 PM.png]]
 - Speech replacement
-## Backlinks
 
+## Backlinks
 > - [[Gaze position|Gaze Position]]
 >   - [[.md|Pupil Dilation]]
 

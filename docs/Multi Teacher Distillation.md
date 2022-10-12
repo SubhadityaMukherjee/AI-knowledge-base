@@ -2,7 +2,7 @@
 title: Multi Teacher Distillation
 
 tags: knowledgedistillation 
-date modified: Tuesday, October 4th 2022, 11:49:45 am
+date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:49:00 am
 ---
 
@@ -14,7 +14,6 @@ date created: Tuesday, October 4th 2022, 11:49:00 am
 - To effi- ciently perform knowledge transfer and explore the power of multiple teachers, several alternative meth- ods have been proposed to simulate multiple teach- ers by adding different types of noise to a given teacher (Sau and Balasubramanian, 2016) or by us- ing stochastic blocks and skip connections (Lee et al., 2019c). Using multiple teacher models with feature ensembles, knowledge amalgamation is designed in (Shen et al., 2019a; Luo et al., 2019; Shen et al., 2019b; Luo et al., 2020). Through knowledge amalgamation, many public available trained deep models as teachers can be reused.
 
 ## Backlinks
-
 > - [Distillation Algorithms](Distillation Algorithms.md)
 >   - [[Multi Teacher Distillation]]
 

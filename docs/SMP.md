@@ -1,7 +1,7 @@
 ---
 title: SMP
 tags: parallel 
-date modified: Thursday, August 11th 2022, 12:32:46 am
+date modified: Monday, October 10th 2022, 2:02:17 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,15 +11,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Connected by a bus
 
 ## Backlinks
-
 > - [UMA](UMA.md)
 >   - [[SMP]]
->    
+>
 > - [NUMA](NUMA.md)
 >   - Often made by physically linking two or more [[SMP]]
 >   - One [[SMP]] can directly access memory of another [[SMP]]
 >   - One [[SMP]] can directly access memory of another [[SMP]]
->    
+>
 > - [MIMD](MIMD.md)
 >   - Multi processor [[SMP]] computers
 

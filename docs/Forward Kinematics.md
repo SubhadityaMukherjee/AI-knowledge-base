@@ -1,7 +1,7 @@
 ---
 tags: robotics
 date created: Wednesday, August 10th 2022, 5:41:04 pm
-date modified: Wednesday, September 28th 2022, 10:27:37 pm
+date modified: Monday, October 10th 2022, 2:02:27 pm
 ---
 
 # Forward Kinematics

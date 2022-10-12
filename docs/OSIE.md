@@ -2,7 +2,7 @@
 title: OSIE
 
 tags: dataset 
-date modified: Thursday, October 6th 2022, 1:38:35 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 date created: Thursday, October 6th 2022, 1:38:34 pm
 ---
 
@@ -12,7 +12,6 @@ date created: Thursday, October 6th 2022, 1:38:34 pm
 - the fixations for all observers were collected and blurred using the Gaussian filter with the standard deviation equivalent to 1° in the visual angle
 
 ## Backlinks
-
 > - [Influence of Image Classification Accuracy on Saliency Map Estimation](Influence of image classification accuracy on saliency map estimation.md)
 >   - [[OSIE]]
 

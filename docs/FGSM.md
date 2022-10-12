@@ -2,7 +2,7 @@
 title: FGSM
 
 tags: adversarial explainability 
-date modified: Wednesday, October 5th 2022, 2:54:41 pm
+date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 2:53:25 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Wednesday, October 5th 2022, 2:53:25 pm
 - this gives us the perturbations
 
 ## Backlinks
-
 > - [Generalizing Adversarial Explanations with Grad-CAM](Generalizing Adversarial Explanations with Grad-CAM.md)
 >   - [[FGSM]]
 >   - Once the training step is completed, the stored models are loaded and used to generate perturbations from the test set using [[FGSM]].

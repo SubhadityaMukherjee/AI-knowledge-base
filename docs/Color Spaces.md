@@ -1,7 +1,7 @@
 ---
 title: Color Spaces
 tags: visualization
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,10 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Intuitive Color spaces]]
 
 ## Backlinks
-
 > - [Intuitive [[Color Spaces]]](Intuitive Color spaces.md)
 >   - # Intuitive [[Color Spaces]]
->    
+>
 > - [ColorMap](ColorMap.md)
 >   - [[Color Spaces]]
 

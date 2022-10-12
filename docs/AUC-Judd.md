@@ -2,7 +2,7 @@
 title: AUC-Judd
 
 tags: loss
-date modified: Thursday, October 6th 2022, 1:39:43 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 date created: Thursday, October 6th 2022, 1:39:42 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Thursday, October 6th 2022, 1:39:42 pm
 - After calculating TPR and FPR at each threshold, the area under the curve (AUC) is calculated for the curve of TPR against FPR.
 
 ## Backlinks
-
 > - [Influence of Image Classification Accuracy on Saliency Map Estimation](Influence of image classification accuracy on saliency map estimation.md)
 >   - [[AUC-Judd]]
 

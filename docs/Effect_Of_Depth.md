@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Effect of Depth
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:29 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -18,7 +18,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![[assets/Pasted image 20220306132940.png|im]]
 
 ## Backlinks
-
 > - [Skip Connection](Skip Connection.md)
 >   - [[Effect_Of_Depth]]
 

@@ -1,7 +1,7 @@
 ---
 title: Scaled Dot Product Attention
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:46 am
+date modified: Monday, October 10th 2022, 2:02:17 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -21,13 +21,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Attention Alignment]] score $$\alpha_{t,i} = \frac{s_{t}^{T}h_{i}}{\sqrt{n}}$$
 
 ## Backlinks
-
 > - [Self [[Attention]]](Self Attention.md)
 >   - Basically [[Scaled Dot Product Attention]]
->    
+>
 > - [Multiplicative [[Attention]]](Multiplicative Attention.md)
 >   - Since [[Additive Attention]] performs better for scale, use a factor [[Scaled Dot Product Attention]]
->    
+>
 > - [Attention](Attention.md)
 >   - [[Scaled Dot Product Attention]]
 

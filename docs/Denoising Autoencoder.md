@@ -1,7 +1,7 @@
 ---
 title: Denoising Autoencoder
 tags: architecture
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,7 +13,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$L(X) = n^{-1}\Sigma_i||x_i - D(E(\tilde x))||^2$
 
 ## Backlinks
-
 > - [AutoEncoder](Auto Encoders.md)
 >   - [[Denoising Autoencoder]]
 

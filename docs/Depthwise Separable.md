@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Depthwise Separable
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -11,19 +11,18 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![[assets/Pasted image 20220306122226.png|im]]
 
 ## Backlinks
-
 > - [Receptive Field](Receptive field.md)
 >   - [[Depthwise Separable]]
->    
+>
 > - [Xception](Xception.md)
 >   - Only use [[Depthwise Separable]] convs + [[Inception]] modules
->    
+>
 > - [Mobile Net](Mobile Net.md)
 >   - [[Depthwise Separable]]
->    
+>
 > - [ConvNeXt](ConvNeXt.md)
 >   - [[Depthwise Separable]] , which are interestingly similar to self-[[Attention]] as they work on a per-channel basis
->    
+>
 > - [Convnd](Conv.md)
 >   - [[Depthwise Separable]]
 

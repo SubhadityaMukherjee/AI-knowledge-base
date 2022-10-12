@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Emperical Risk
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -23,13 +23,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Ordinary least squares regression
 
 ## Backlinks
-
 > - [Cross Validation](Cross Validation.md)
 >   - Get model with min [[Emperical Risk]]
->    
+>
 > - [Fundamentals](Fundamentals.md)
 >   - [[Emperical Risk]]
->    
+>
 > - [Bias Vs Variance](Bias Variance Dilemma.md)
 >   - Tune on [[Emperical Risk]] instead using [[Optimizers]]
 

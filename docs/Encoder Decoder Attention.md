@@ -1,7 +1,7 @@
 ---
 title: Encoder Decoder Attention
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:54 am
+date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -10,10 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - K,V from encoder
 
 ## Backlinks
-
 > - [BEiT](BEiT.md)
 >   - Bidirectional [[Encoder Decoder Attention]] representations from [[Vision Transformer]]
->    
+>
 > - [Attention](Attention.md)
 >   - [[Encoder Decoder Attention]]
 

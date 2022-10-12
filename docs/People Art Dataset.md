@@ -1,14 +1,13 @@
 ---
 title: People Art Dataset
 tags: dataset 
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # People Art Dataset
 
 ## Backlinks
-
 > - [YOLO](YOLO.md)
 >   - [[Picasso Dataset]], [[People Art Dataset]]
 

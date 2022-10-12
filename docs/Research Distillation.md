@@ -2,7 +2,7 @@
 title: Research Distillation
 
 tags: random
-date modified: Thursday, August 11th 2022, 12:32:47 am
+date modified: Monday, October 10th 2022, 2:02:18 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -14,7 +14,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - We can’t solve [[Research Debt|research debt]] by having one person write a textbook
 
 ## Backlinks
-
 > - [Research Debt](Research Debt.md)
 >   - [[Research Distillation]]
 

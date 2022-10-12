@@ -1,7 +1,7 @@
 ---
 title: Class Conditional Distribution
 tags: distribution
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -9,7 +9,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $f_{i}$ is the [[PDF]] for $P_{X|Y=c_{i}}$
 
 ## Backlinks
-
 > - [Decision Boundaries](Decision Boundaries.md)
 >   - $f_{i}$ be the [[PDF]] for [[Class Conditional distribution]]
 >   - Algo learns estimates of the [[Class Conditional distribution]] and class probabilities aka priors

@@ -2,7 +2,7 @@
 title: Hopfield networks
 
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:41 am
+date modified: Monday, October 10th 2022, 2:02:25 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 

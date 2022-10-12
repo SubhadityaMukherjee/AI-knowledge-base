@@ -1,7 +1,7 @@
 ---
 title: Position Encoding
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:19 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,10 +13,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Something like ("Hello", 1) , ("from",2) , ("me", 3)
 
 ## Backlinks
-
 > - [Basic [[Transformer]]](Basic Transformer.md)
 >   - [[Position Encoding]] + [[Token Embedding]]
->    
+>
 > - [CvT](CvT.md)
 >   - [[Position Encoding]] , a crucial component in existing Vision Transformers, can be safely removed in our model
 

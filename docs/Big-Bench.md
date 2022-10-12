@@ -2,7 +2,7 @@
 title: Big-Bench
 
 tags: benchmark 
-date modified: Thursday, August 11th 2022, 12:32:56 am
+date modified: Monday, October 10th 2022, 2:02:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -17,7 +17,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - valuate the behavior of OpenAI’s [[GPT]] models, Google-internal dense [[Transformer|transformer]] architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters
 
 ## Backlinks
-
 > - [PaLM](PaLM.md)
 >   - [[Big-Bench]]
 

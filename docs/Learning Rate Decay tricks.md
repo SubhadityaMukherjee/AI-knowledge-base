@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Learning Rate Decay #tricks
-date modified: Thursday, August 11th 2022, 12:32:51 am
+date modified: Monday, October 10th 2022, 2:02:24 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -14,13 +14,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ## …
 
 ## Backlinks
-
 > - [Optimization](Optimizers.md)
 >   - [[Learning Rate Decay tricks]]
->    
+>
 > - [No Bias Decay](No bias decay.md)
 >   - No [[Learning Rate Decay tricks]]
->    
+>
 > - [Learning Rate [[Scheduling]]](Learning Rate Scheduling.md)
 >   - [[Learning Rate Decay tricks]]
 

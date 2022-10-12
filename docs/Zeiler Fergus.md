@@ -1,7 +1,7 @@
 ---
 title: Zeiler Fergus
 tags: architecture 
-date modified: Thursday, August 11th 2022, 12:32:43 am
+date modified: Monday, October 10th 2022, 2:02:13 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -9,7 +9,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - multiple interleaved [[Layers|layers]] of [[Conv]], non-linear [[ActivationFunctions]], local response normalizations, and max [[Pooling]]
 
 ## Backlinks
-
 > - [FaceNet](FaceNet.md)
 >   - [[Zeiler Fergus]]
 

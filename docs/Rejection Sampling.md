@@ -1,7 +1,7 @@
 ---
 title: Rejection Sampling
 tags: distribution 
-date modified: Thursday, August 11th 2022, 12:32:47 am
+date modified: Monday, October 10th 2022, 2:02:18 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -21,7 +21,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- If the ratio $\frac{f}{g_{0}}$ is small. (aka f is bigger), then there are many rejections and the algo will be slow. Impossible to not do in high dim spaces
 
 ## Backlinks
-
 > - [Goodhart's Law](Goodhart's Law.md)
 >   - [[Rejection Sampling]]
 

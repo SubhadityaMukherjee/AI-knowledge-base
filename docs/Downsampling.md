@@ -1,7 +1,7 @@
 ---
 tags: temp
 date created: Thursday, August 11th 2022, 12:32:22 am
-date modified: Thursday, August 11th 2022, 12:32:38 am
+date modified: Monday, October 10th 2022, 2:02:29 pm
 ---
 
 # Downsampling
@@ -10,10 +10,9 @@ date modified: Thursday, August 11th 2022, 12:32:38 am
 - Training on a disproportionately low percentage of over-represented class examples in order to improve model training on under-represented classes. For example, in a class-imbalanced dataset, models tend to learn a lot about the majority class and not enough about the minority class. Downsampling helps balance the amount of training on the majority and minority classes.
 
 ## Backlinks
-
 > - [Strided](Strided.md)
 >   - S>1 -> [[Downsampling]]
->    
+>
 > - [Rejection [[Sampling]]](Rejection Sampling.md)
 >   - Also called Best-of-n [[sampling]]
 >   - Importance [[sampling]]

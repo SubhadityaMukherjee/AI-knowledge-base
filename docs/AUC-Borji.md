@@ -2,7 +2,7 @@
 title: AUC-Borji
 
 tags: loss
-date modified: Thursday, October 6th 2022, 1:40:11 pm
+date modified: Monday, October 10th 2022, 2:02:07 pm
 date created: Thursday, October 6th 2022, 1:40:10 pm
 ---
 
@@ -15,7 +15,6 @@ date created: Thursday, October 6th 2022, 1:40:10 pm
 - "location-based metric"
 
 ## Backlinks
-
 > - [Influence of Image Classification Accuracy on Saliency Map Estimation](Influence of image classification accuracy on saliency map estimation.md)
 >   - [[AUC-Borji]]
 

@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Poisson Process
-date modified: Thursday, August 11th 2022, 12:32:48 am
+date modified: Monday, October 10th 2022, 2:02:19 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -9,7 +9,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Waiting times between two consecutive spikes are [[Exponential Distribution]]
 
 ## Backlinks
-
 > - [Spiking Networks](Spiking Networks.md)
 >   - [[Poisson Process]]
 

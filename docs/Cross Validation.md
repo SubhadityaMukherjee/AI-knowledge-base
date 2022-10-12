@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Cross Validation
-date modified: Thursday, August 11th 2022, 12:32:55 am
+date modified: Monday, October 10th 2022, 2:02:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -21,13 +21,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - For tiny datasets
 
 ## Backlinks
-
 > - [Lp [[Regularization]]](Lp Regularization.md)
 >   - [[Cross Validation]] required
->    
+>
 > - [Tuning Model Flexibility](Tuning Model Flexibility.md)
 >   - [[Cross Validation]]
->    
+>
 > - [Effects of [[Regularization]]](Effects of Regularization.md)
 >   - Current Deep Networks heavily rely on regularizers such as data [[Augmentation]] (DA) or [[Weight Decay]], and employ structural risk minimization, i.e., [[Cross Validation]], to select the optimal [[Regularization|regularization]] hyper-parameters
 

@@ -5,6 +5,7 @@ ___
 
 - [2 byte character set.md](2%20byte%20character%20set.md)
 - [8 bit character set.md](8%20bit%20character%20set.md)
+- [A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md](A%20matter%20of%20ambiguity?%20Using%20eye%20movements%20to%20examine%20collective%20vs.%20distributive%20interpretations%20of%20plural%20sets.md)
 - [ASCII.md](ASCII.md)
 - [Action Transitive verb.md](Action%20Transitive%20verb.md)
 - [Adjective.md](Adjective.md)
@@ -67,6 +68,7 @@ ___
 - [Maximum Matching Algorithm.md](Maximum%20Matching%20Algorithm.md)
 - [Memory-based learning.md](Memory-based%20learning.md)
 - [Milin et al..md](Milin%20et%20al..md)
+- [Minimal Semantic Commitment.md](Minimal%20Semantic%20Commitment.md)
 - [Mirman et al..md](Mirman%20et%20al..md)
 - [Misyak et al 2010.md](Misyak%20et%20al%202010.md)
 - [Morpheme Generation.md](Morpheme%20Generation.md)
@@ -121,6 +123,7 @@ ___
 - [Text Normalization.md](Text%20Normalization.md)
 - [Text Preprocessing.md](Text%20Preprocessing.md)
 - [Text Segmentation.md](Text%20Segmentation.md)
+- [The Self Organization of Explicit Attitudes.md](The%20Self%20Organization%20of%20Explicit%20Attitudes.md)
 - [Tokenizer.md](Tokenizer.md)
 - [Top Down Parsing.md](Top%20Down%20Parsing.md)
 - [Transitional probabilities.md](Transitional%20probabilities.md)
@@ -140,4 +143,5 @@ ___
 - [Words-and-Rules.md](Words-and-Rules.md)
 - [conditioning.md](conditioning.md)
 - [past tense.md](past%20tense.md)
+- [templates/titler.md](templates/titler.md)
 

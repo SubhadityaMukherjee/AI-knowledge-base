@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
+            "file": "journals/2022-10-14.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -25,7 +25,7 @@
         "state": {
           "type": "localgraph",
           "state": {
-            "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
+            "file": "journals/2022-10-14.md",
             "options": {
               "collapse-filter": true,
               "search": "",
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Frazier",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
+                "file": "journals/2022-10-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
+                "file": "journals/2022-10-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
+                "file": "journals/2022-10-14.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -163,12 +163,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md"
+                "file": "journals/2022-10-14.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "09ea97e62e4ee243",
@@ -199,15 +199,15 @@
   },
   "active": "191f42c8e588d302",
   "lastOpenFiles": [
-    "Summit.md",
+    "templates/titler.md",
+    "journals/2022-10-14.md",
+    "The Self Organization of Explicit Attitudes.md",
+    "Minimal Semantic Commitment.md",
+    "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
+    "Effects of Contextual Cues on Inferring and Remembering Meanings of New Word.md",
+    "SlimStampen.md",
+    "journals/2022-10-12.md",
     "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
-    "Multimodal Explanation.md",
-    "Smooth-Grad.md",
-    "Prediction Difference Analysis.md",
-    "Deep Visual Explanation.md",
-    "SP-LIME.md",
-    "RETAIn.md",
-    "Parent Approximations.md",
-    "Layerwise Relevance Propagation.md"
+    "Summit.md"
   ]
 }

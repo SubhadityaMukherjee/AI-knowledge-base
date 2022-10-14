@@ -11,6 +11,7 @@ ___
 - [Content Based Recommender.md](Content%20Based%20Recommender.md)
 - [DT Tutor.md](DT%20Tutor.md)
 - [Declarative memory.md](Declarative%20memory.md)
+- [Effects of Contextual Cues on Inferring and Remembering Meanings of New Word.md](Effects%20of%20Contextual%20Cues%20on%20Inferring%20and%20Remembering%20Meanings%20of%20New%20Word.md)
 - [Extensions to SlimStampen.md](Extensions%20to%20SlimStampen.md)
 - [Eye Tracking.md](Eye%20Tracking.md)
 - [Filter Bubble Problem.md](Filter%20Bubble%20Problem.md)

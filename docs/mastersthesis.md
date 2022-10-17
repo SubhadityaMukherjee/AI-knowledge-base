@@ -9,4 +9,5 @@ ___
 - [Influence of image classification accuracy on saliency map estimation.md](Influence%20of%20image%20classification%20accuracy%20on%20saliency%20map%20estimation.md)
 - [On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images.md](On%20the%20overlap%20between%20Grad-CAM%20saliency%20maps%20and%20explainable%20visual%20features%20in%20skin%20cancer%20images.md)
 - [journals/2022-10-05.md](journals/2022-10-05.md)
+- [journals/2022-10-17.md](journals/2022-10-17.md)
 

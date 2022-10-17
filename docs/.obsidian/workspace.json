@@ -4,56 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "191f42c8e588d302",
-        "type": "leaf",
+        "id": "36432e0942228a05",
+        "type": "tabs",
         "dimension": 69.08491343775762,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        },
-        "group": "41b3f652e2d082c7"
-      },
-      {
-        "id": "57da2825e5eebcca",
-        "type": "leaf",
-        "dimension": 30.915086562242372,
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 0.9532352641716824,
-              "close": false
+        "children": [
+          {
+            "id": "8474fe81ad8ad941",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-10-17.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        },
-        "group": "41b3f652e2d082c7"
+        ]
+      },
+      {
+        "id": "97a36ac7b20f9520",
+        "type": "tabs",
+        "dimension": 30.915086562242372,
+        "children": [
+          {
+            "id": "57da2825e5eebcca",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "journals/2022-10-17.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.1845145002007311,
+                  "close": false
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
+                "file": "journals/2022-10-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
+                "file": "journals/2022-10-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +138,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
+                "file": "journals/2022-10-17.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -163,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md"
+                "file": "journals/2022-10-17.md"
               }
             }
           }
@@ -180,7 +190,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
             }
           }
         ]
@@ -198,16 +210,19 @@
     "width": 236.5,
     "collapsed": true
   },
-  "active": "191f42c8e588d302",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "8474fe81ad8ad941",
   "lastOpenFiles": [
+    "journals/2022-10-17.md",
+    "The Self Organization of Explicit Attitudes.md",
     "journals/2022-10-15.md",
+    "journals/2022-10-16.md",
+    "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
     "Taking on semantic commitments, II collective versus distributive readings.md",
     "Tracking the Continuity of Language Comprehension Computer Mouse Trajectories Suggest Parallel Syntactic Processing.md",
-    "The Self Organization of Explicit Attitudes.md",
-    "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
-    "Minimal Semantic Commitment.md",
     "Unrestricted Race Model.md",
-    "treecoverSegmentation.md",
     "Multiple constraint-based theories.md",
     "Syntax First models.md"
   ]

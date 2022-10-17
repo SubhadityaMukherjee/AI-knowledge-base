@@ -17,5 +17,8 @@ date created: Wednesday, October 12th 2022, 4:53:08 pm
 
 > - [A Matter of Ambiguity? Using Eye Movements to Examine Collective Vs. Distributive Interpretations of Plural Sets](A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md)
 >   - [[Minimal Semantic Commitment]]
+>    
+> - [Taking on Semantic Commitments, II Collective Versus Distributive Readings](Taking on semantic commitments, II collective versus distributive readings.md)
+>   - [[Minimal Semantic Commitment]]
 
-_Backlinks last generated 2022-10-14 17:20:08_
+_Backlinks last generated 2022-10-17 14:23:58_

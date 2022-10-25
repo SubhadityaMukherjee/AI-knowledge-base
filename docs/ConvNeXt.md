@@ -1,15 +1,7 @@
 ---
-tags: temp
-date modified: Monday, October 10th 2022, 2:02:31 pm
+tags: architecture 
+date modified: Sunday, October 23rd 2022, 4:19:51 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
----
-
----
-
-title: ConvNeXt
-
-tags: architecture
-
 ---
 
 # ConvNeXt

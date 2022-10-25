@@ -15,6 +15,7 @@ ___
 - [Extensions to SlimStampen.md](Extensions%20to%20SlimStampen.md)
 - [Eye Tracking.md](Eye%20Tracking.md)
 - [Filter Bubble Problem.md](Filter%20Bubble%20Problem.md)
+- [Final Paper User Models.md](Final%20Paper%20User%20Models.md)
 - [Fine Grained assesment.md](Fine%20Grained%20assesment.md)
 - [GOMS.md](GOMS.md)
 - [Game Based Learning.md](Game%20Based%20Learning.md)

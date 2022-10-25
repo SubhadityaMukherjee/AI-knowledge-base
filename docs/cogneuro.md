@@ -4,6 +4,7 @@ tags: anchor
 ___
 
 - [Attentions and salience.md](Attentions%20and%20salience.md)
+- [BOLD.md](BOLD.md)
 - [Berkeley et al.md](Berkeley%20et%20al.md)
 - [Connectome.md](Connectome.md)
 - [Cross-situational learning.md](Cross-situational%20learning.md)

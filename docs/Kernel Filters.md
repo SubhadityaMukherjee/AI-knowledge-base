@@ -2,7 +2,7 @@
 title: Kernel Filters
 tags: augment
 date created: Monday, October 10th 2022, 1:58:12 pm
-date modified: Monday, October 10th 2022, 2:00:54 pm
+date modified: Tuesday, October 25th 2022, 12:11:48 pm
 ---
 
 # Kernel Filters

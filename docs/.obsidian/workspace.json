@@ -6,7 +6,7 @@
       {
         "id": "36432e0942228a05",
         "type": "tabs",
-        "dimension": 69.08491343775762,
+        "dimension": 71.62534435261708,
         "children": [
           {
             "id": "8474fe81ad8ad941",
@@ -14,7 +14,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-10-17.md",
+                "file": "Final Paper Language Modeling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e961253b8a92e07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-10-14.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,15 +39,15 @@
       {
         "id": "97a36ac7b20f9520",
         "type": "tabs",
-        "dimension": 30.915086562242372,
+        "dimension": 28.37465564738292,
         "children": [
           {
-            "id": "57da2825e5eebcca",
+            "id": "4bb5acbebc1ef45c",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-10-17.md",
+                "file": "Final Paper Language Modeling.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -57,7 +70,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.1845145002007311,
+                  "scale": 1.6802364183812288,
                   "close": false
                 }
               }
@@ -83,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Frazier",
+                "query": "exam performance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,13 +111,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-10-17.md",
+                "file": "Final Paper Language Modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-10-17.md",
+                "file": "Final Paper Language Modeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-10-17.md",
+                "file": "Final Paper Language Modeling.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -173,12 +186,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-10-17.md"
+                "file": "Final Paper Language Modeling.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "09ea97e62e4ee243",
@@ -215,15 +227,15 @@
   },
   "active": "8474fe81ad8ad941",
   "lastOpenFiles": [
-    "journals/2022-10-17.md",
-    "The Self Organization of Explicit Attitudes.md",
-    "journals/2022-10-15.md",
-    "journals/2022-10-16.md",
-    "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
-    "Taking on semantic commitments, II collective versus distributive readings.md",
-    "Tracking the Continuity of Language Comprehension Computer Mouse Trajectories Suggest Parallel Syntactic Processing.md",
-    "Unrestricted Race Model.md",
-    "Multiple constraint-based theories.md",
-    "Syntax First models.md"
+    "Quantifier spreading children misled by ostensive cues.md",
+    "Final Paper Language Modeling.md",
+    "Ostension.md",
+    "Relevance Theory.md",
+    "Salient Object Strategy.md",
+    "Relevance Account.md",
+    "templates/titler.md",
+    "journals/2022-10-25.md",
+    "Final Paper User Models.md",
+    "SlimStampen.md"
   ]
 }

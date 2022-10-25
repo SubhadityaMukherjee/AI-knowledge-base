@@ -19,6 +19,7 @@ ___
 - [Astrocyte.md](Astrocyte.md)
 - [Axon Terminal.md](Axon%20Terminal.md)
 - [Axon.md](Axon.md)
+- [BOLD.md](BOLD.md)
 - [Basal Ganglia.md](Basal%20Ganglia.md)
 - [Basilar Artery.md](Basilar%20Artery.md)
 - [Belmont Principles.md](Belmont%20Principles.md)

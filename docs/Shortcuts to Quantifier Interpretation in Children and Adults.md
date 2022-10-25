@@ -22,6 +22,7 @@ date created: Sunday, October 9th 2022, 3:58:45 pm
 - [[#Observations|Observations]]
 
 ## Intro
+- Summarized in [[journals/2022-10-10]]
 - Errors involving universal quantification are common in contexts depicting sets of individuals in partial, one-to-one correspondence
 - quantifier-spreading errors are more common with distributive quantifiers each and every than with all.
 - pairs of pictures
@@ -187,7 +188,10 @@ date created: Sunday, October 9th 2022, 3:58:45 pm
 
 ## Backlinks
 
+> - [Final Paper LM](Final Paper Language Modeling.md)
+>   - [[Shortcuts to Quantifier Interpretation in Children and Adults]]
+>    
 > - [](journals/2022-10-09.md)
 >   - **03:58** [[Shortcuts to Quantifier Interpretation in Children and Adults]]
 
-_Backlinks last generated 2022-10-12 10:22:04_
+_Backlinks last generated 2022-10-25 16:35:51_

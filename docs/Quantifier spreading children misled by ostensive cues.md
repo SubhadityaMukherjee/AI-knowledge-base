@@ -2,7 +2,7 @@
 title: Quantifier spreading children misled by ostensive cues
 
 tags: language 
-date modified: Tuesday, October 25th 2022, 4:31:53 pm
+date modified: Friday, October 28th 2022, 3:48:40 pm
 date created: Tuesday, October 25th 2022, 4:18:57 pm
 ---
 
@@ -78,7 +78,9 @@ date created: Tuesday, October 25th 2022, 4:18:57 pm
 - n the case of the sentence–photo pairs, the rate of rejection was a mere 3.51%.
 - Just as in Pintér's (2016) experiment, the rate of rejection (i.e., the rate of the exhaustive interpretation of the sentences) was slightly even higher in the adult control group: 13.33% in the case of sentence–drawing pairs, and 8.88% in the case of sentence–photo pairs (see Figure 18). When we asked the subjects giving
 - negative answers why e.g. (14) was not true of Figure 14, they consistently gave answers of the following type: "Because the woman is also feeding the ducks".
-- 15 children (39%) gave at least one negative answer. Discussion
+- 15 children (39%) gave at least one negative answer
+
+## Discussion
 - The sentences tested in this experiment involved no special linguistic or cognitive difficulty; they were simple declarative sentences with no quantification, let alone universal quantification; nevertheless, 10.53% of the preschoolers evaluated them as false descriptions of the drawings intended to represent them visually.
 - Since this rate is not high (though it is comparable to the 12% of partial rejection obtained by Pintér 2016 in this age group), we might be tempted to attribute it to noise (children's failure to pay attention, etc.)
 - However, if the 10.53% rate of rejection had been due to noise, it would not have dropped to 3.51% when the visual stimuli were represented by photos.
@@ -95,7 +97,6 @@ date created: Tuesday, October 25th 2022, 4:18:57 pm
 - ![[assets/Pasted image 20221025163152.png]]
 
 ## Backlinks
-
 > - [Final Paper LM](Final Paper Language Modeling.md)
 >   - [[Quantifier spreading children misled by ostensive cues]]
 

@@ -44,6 +44,7 @@ ___
 - [Inductive Sensor.md](Inductive%20Sensor.md)
 - [Instruction Cycle.md](Instruction%20Cycle.md)
 - [Inverse Kinematics.md](Inverse%20Kinematics.md)
+- [Inverse Reinforcement Learning.md](Inverse%20Reinforcement%20Learning.md)
 - [Joint Interpolated Motion.md](Joint%20Interpolated%20Motion.md)
 - [Joint Motion Type.md](Joint%20Motion%20Type.md)
 - [Joint Space.md](Joint%20Space.md)
@@ -106,3 +107,4 @@ ___
 - [Work Envelope.md](Work%20Envelope.md)
 - [Wrist.md](Wrist.md)
 - [Yaw.md](Yaw.md)
+- [templates/titler.md](templates/titler.md)

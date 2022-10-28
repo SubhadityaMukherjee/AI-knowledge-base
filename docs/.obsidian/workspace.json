@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Final Paper Language Modeling.md",
+                "file": "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -27,14 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-10-14.md",
+                "file": "Quantifier spreading children misled by ostensive cues.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "97a36ac7b20f9520",
@@ -47,7 +48,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Final Paper Language Modeling.md",
+                "file": "Quantifier spreading children misled by ostensive cues.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -70,7 +71,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.6802364183812288,
+                  "scale": 2.113117693343422,
                   "close": false
                 }
               }
@@ -96,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exam performance",
+                "query": "boylan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Final Paper Language Modeling.md",
+                "file": "Quantifier spreading children misled by ostensive cues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Final Paper Language Modeling.md",
+                "file": "Quantifier spreading children misled by ostensive cues.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Final Paper Language Modeling.md",
+                "file": "Quantifier spreading children misled by ostensive cues.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Final Paper Language Modeling.md"
+                "file": "Quantifier spreading children misled by ostensive cues.md"
               }
             }
           }
@@ -211,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 198,
-    "collapsed": true
+    "width": 198
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -225,17 +225,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8474fe81ad8ad941",
+  "active": "9e961253b8a92e07",
   "lastOpenFiles": [
-    "Quantifier spreading children misled by ostensive cues.md",
     "Final Paper Language Modeling.md",
-    "Ostension.md",
-    "Relevance Theory.md",
-    "Salient Object Strategy.md",
-    "Relevance Account.md",
-    "templates/titler.md",
-    "journals/2022-10-25.md",
-    "Final Paper User Models.md",
-    "SlimStampen.md"
+    "A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md",
+    "journals/2022-10-16.md",
+    "journals/2022-10-04.md",
+    "Shortcuts to Quantifier Interpretation in Children and Adults.md",
+    "journals/2022-10-10.md",
+    "Quantifier spreading children misled by ostensive cues.md",
+    "journals/2022-10-28.md",
+    "journals/2022-10-14.md",
+    "journals/2022-10-23.md"
   ]
 }

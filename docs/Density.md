@@ -8,8 +8,3 @@ date modified: Monday, October 10th 2022, 2:02:30 pm
 - mass / vol
 - $$r - m/V$$
 
-## Backlinks
-> - [[[Probability]] [[Density]] Function](PDF.md)
->   - # [[Probability]] [[Density]] Function
-
-_Backlinks last generated 2022-10-04 13:01:19_

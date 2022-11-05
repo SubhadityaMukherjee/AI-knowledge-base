@@ -5,5 +5,5 @@ date modified: Monday, October 10th 2022, 2:02:31 pm
 ---
 
 # Chronic Encephalopathy Syndrome (CES)
-- Symptoms, including memory issues, depression, and impulsive behavior, that manifest themselves after repeated brain traumas. Over time, CES can result in a diagnosis of [[CTE)](Chronic Traumatic Encephalopathy (CTE|chronic traumatic encephalopathy (CTE)]].md).
+- Symptoms, including memory issues, depression, and impulsive behavior, that manifest themselves after repeated brain traumas. Over time, CES can result in a diagnosis of [chronic traumatic encephalopathy (CTE)](CTE)).md).
 

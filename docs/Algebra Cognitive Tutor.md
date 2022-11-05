@@ -18,14 +18,3 @@ date created: Wednesday, October 12th 2022, 2:21:25 pm
 - Step analysis: The tutor analyzes each student step in terms of a set of anticipated steps (S. Ritter, Blessing, & Wheeler, 2003). The set of anticipated steps for a problem is precomputed by solving the problem in all acceptable ways by running a rule-based problem solver. The rules are written to correspond to knowledge components. Each step is associated with the rules that were used to generate it during the precomputation. During tutoring, the student's step is matched against these anticipated steps.
 - When a student's step matches an anticipated step, the student is credited in the assessment with having applied the associated knowledge components.
 
-## Backlinks
-
-> - [The Behavior of Tutoring Systems](The Behavior of Tutoring Systems.md)
->   - There are basically just three ways to treat such unrecognizable steps. (1) Some tutoring systems, such as the [[Algebra Cognitive Tutor]], assume that they can recognize all correct steps, so they treat unrecognizable steps as incorrect. (2) Other tutoring systems, such as the [[SQL-Tutor]], assume that students will sometimes produce novel, correct solutions, so they treat unrecognized steps as correct. (3) Lastly, the tutoring system could simply tell the student that the step is unrecognizable. In this case, unrecognizable is yet another category for minimal feedback. When to give minimal feedback
->   - Immediate feedback: [[Andes]], [[Algebra Cognitive Tutor]], [[Steve]] and [[AutoTutor]] give feedback immediately after each student step. They vary considerably in how the feedback is presented.
->   - [[Algebra Cognitive Tutor]]
->    
-> - [Andes](Andes.md)
->   - Step analysis: Like the [[Algebra Cognitive Tutor]], Andes analyzes non-equation steps by precomputing anticipated steps and matching the student's step against them
-
-_Backlinks last generated 2022-10-12 16:45:05_

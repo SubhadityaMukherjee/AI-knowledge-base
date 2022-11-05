@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Dense
-- Weighted [[LinearRegression]]
+- Weighted [LinearRegression](LinearRegression.md)
 - Forward
 	- $$z = W\cdot x + b$$ , $$y=g(z)$$
 - Backward

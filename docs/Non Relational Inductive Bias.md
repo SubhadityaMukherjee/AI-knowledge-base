@@ -6,20 +6,15 @@ date modified: Monday, October 10th 2022, 2:02:21 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Non [[Relational Inductive Bias]]
-- [[ActivationFunctions]]
+# Non [Relational Inductive Bias](Relational%20Inductive%20Bias.md)
+- [ActivationFunctions](ActivationFunctions.md)
 	- allow the model to capture the non-linearity hidden in the data
-- [[Dropout]]
+- [Dropout](Dropout.md)
 	- helps the network avoid memorizing the data by forcing random subsets of the network to each learn the data pattern. As a result, the obtained model, in the end, is able to generalize better
-- [[Weight Decay]]
+- [Weight Decay](Weight%20Decay)
 	- puts constraints on the model’s weights
-- [[Batch Normalization]] , [[Layer Normalization]] , [[Instance Normalization]]
-	- Reduces [[Covariate Shift]]
-- [[Augmentation]]
-- [[Optimizers]]
+- [Batch Normalization](Batch%20Normalization.md) , [Layer Normalization](Layer%20Normalization.md) , [Instance Normalization](Instance%20Normalization)
+	- Reduces [Covariate Shift](Covariate%20Shift)
+- [Augmentation](Augmentation.md)
+- [Optimizers](Optimizers.md)
 
-## Backlinks
-> - [Inductive Bias](Inductive Bias.md)
->   - [[Non Relational Inductive Bias]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

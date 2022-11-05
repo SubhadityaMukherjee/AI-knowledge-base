@@ -12,8 +12,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - It is typically used to compare two binary strings of equal length.
 - difficult to use when two vectors are not of equal length
 
-## Backlinks
-> - [Distance Measures](Distance Measures.md)
->   - [[Hamming Distance]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

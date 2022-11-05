@@ -12,9 +12,3 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - From an image, 200 context sub-images are generated surrounding the blacked- out bounding box. The neural network learns to predict the category (object or background) in masked pixels.
 - The object instances are placed inside the selected boxes to generate a new train- ing image
 
-## Backlinks
-
-> - [Image Mixing and Deletion](Image Mixing and Deletion.md)
->   - [[Visual Context Augmentation]]
-
-_Backlinks last generated 2022-10-12 10:22:04_

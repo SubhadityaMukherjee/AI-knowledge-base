@@ -13,8 +13,3 @@ $$\begin{align}\\
 & \theta_{t+1}= \theta_{t}+ \Delta \theta_{t}
 \end{align}$$
 
-## Backlinks
-> - [Gradient Descent #gradients](Gradient Descent gradients.md)
->   - [[AdaDelta]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

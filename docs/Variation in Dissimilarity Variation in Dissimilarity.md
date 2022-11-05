@@ -12,8 +12,3 @@ date created: Wednesday, October 5th 2022, 3:02:27 pm
 - $$m_{h}= \frac{1}{eps}\Sigma(NISSIM_{eps})$$
 - $$VID = \sqrt{\frac{\Sigma(NISSIM_{eps}-m_{h})^{2}}{eps}}$$
 
-## Backlinks
-> - [Generalizing Adversarial Explanations with Grad-CAM](Generalizing Adversarial Explanations with Grad-CAM.md)
->   - [[Variation in Dissimilarity Variation in Dissimilarity]]
-
-_Backlinks last generated 2022-10-05 15:25:18_

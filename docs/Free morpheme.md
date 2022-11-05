@@ -5,12 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Free [[Morpheme]]
+# Free [Morpheme](Morpheme.md)
 - can appear as a word by itself, often combined with other morphemes too.
 - e.g., house (houses) , walk (walked ) of ,or,the
 
-## Backlinks
-> - [[[Morphology]] Stem](Morphology Stem.md)
->   - [[Free morpheme]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

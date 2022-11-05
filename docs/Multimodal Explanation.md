@@ -12,9 +12,3 @@ date created: Wednesday, October 12th 2022, 4:44:42 pm
 
 - The visual explanation was created by an attention mechanism that conveyed knowledge about what region of the image was important for the decision. This explanation guides the generation of the textual justification out of a LSTM feature, which is a prediction of a classification problem over all possible justifications.
 
-## Backlinks
-
-> - [Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey](Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md)
->   - [[Multimodal Explanation]]
-
-_Backlinks last generated 2022-10-12 16:45:05_

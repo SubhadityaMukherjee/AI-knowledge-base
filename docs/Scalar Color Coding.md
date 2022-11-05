@@ -7,7 +7,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Scalar Color Coding
-- [[Mean Diffusivity]]
-- [[Fractional Anisotropy]]
-- [[Eigenvector]]
+- [Mean Diffusivity](Mean%20Diffusivity.md)
+- [Fractional Anisotropy](Fractional%20Anisotropy.md)
+- [Eigenvector](Eigenvector.md)
 

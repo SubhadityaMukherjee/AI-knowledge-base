@@ -10,14 +10,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\begin{align}& g_{t,i} = \nabla_\theta J(\theta_{t,i}) \\ & \theta_{t+1, i} = \theta_{t,i} - \eta \cdot g_{t,i} \\ & \theta_{t+1, i} = \theta_{t,i} - \frac{\eta}{\sqrt{G_{t,ii} + \epsilon}} \cdot g_{t,i} \end{align}$$
 - Doesnt forget past gradients
 
-## Backlinks
-> - [Optimization](Optimizers.md)
->   - [[Adagrad]]
->
-> - [Rmsprop](Rmsprop.md)
->   - More stable than [[Adagrad]]
->
-> - [Gradient Descent #gradients](Gradient Descent gradients.md)
->   - [[Adagrad]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

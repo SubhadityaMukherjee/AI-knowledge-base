@@ -11,8 +11,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - This helps both with understanding ideas for the first time and with thinking clearly about them.
 - Conversely, if we can’t explain an idea well, that’s often a sign that we don’t understand it as well as we could.
 
-## Backlinks
-> - [Research Debt](Research Debt.md)
->   - [[Clear Thinking]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

@@ -17,9 +17,3 @@ date created: Sunday, October 23rd 2022, 5:00:06 pm
 - recent work (Guo et al., 2022b) proposes a novel large kernel attention module that
 - uses stacked depthwise, small convolution, dilated convolution as well as pointwise convolution to capture both local and global structure
 
-## Backlinks
-
-> - [SLAK](SLAK.md)
->   - [[Large Kernel in Attention]]
-
-_Backlinks last generated 2022-10-25 16:35:51_

@@ -14,9 +14,3 @@ date created: Wednesday, October 12th 2022, 4:42:58 pm
 - According to the authors, their experiments showed that the BRL has predictive accuracy on par with the current top algorithms for prediction in Machine Learning
 - The BRL is able to be used to produce highly accurate and interpretable medical scoring systems
 
-## Backlinks
-
-> - [Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey](Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md)
->   - [[Bayesian Rule List]]
-
-_Backlinks last generated 2022-10-12 16:45:05_

@@ -5,5 +5,5 @@ date modified: Monday, October 10th 2022, 2:02:31 pm
 ---
 
 # Continuous Path
-- Describes the process where by a robot is controlled over the entire path traversed, as opposed to a [[Point-to-Point|point-to-point]] method of traversal. This is used when the [[Trajectory|trajectory]] of the [[End-effector|end-effector]] is most important to provide a smooth movement, such as in spray painting etc
+- Describes the process where by a robot is controlled over the entire path traversed, as opposed to a [point-to-point](Point-to-Point.md) method of traversal. This is used when the [trajectory](Trajectory.md) of the [end-effector](End-effector.md) is most important to provide a smooth movement, such as in spray painting etc
 

@@ -12,8 +12,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Redundant information
 	- First value will depend to a decreasing degree on the distance from this timestep to the previous ones. Then washout (because old ones are too far away)
 
-## Backlinks
-> - [MCMC [[Sampling]]](MCMC Sampling.md)
->   - [[Factors for MC estimate]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

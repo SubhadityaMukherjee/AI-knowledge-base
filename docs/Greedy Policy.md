@@ -5,5 +5,5 @@ date modified: Monday, October 10th 2022, 2:02:26 pm
 ---
 
 # Greedy Policy
-- In [[Reinforcement Learning|reinforcement learning]], a policy that always chooses the action with the highest expected return.
+- In [reinforcement learning](Reinforcement%20Learning.md), a policy that always chooses the action with the highest expected return.
 

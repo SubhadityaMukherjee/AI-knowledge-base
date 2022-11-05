@@ -17,22 +17,16 @@ tags: architecture
 - unsupervised visual representation learning
 - contrastive learning as dictionary look-up, MoCo builds a dynamic dictionary with a queue and a moving-averaged encoder
 - large and consistent dictionary on-the-fly
-- [[ImageNet]]
+- [ImageNet](ImageNet.md)
 - transfer well to downstream tasks.
-- [[PASCAL VOC]]
-- [[COCO]]
+- [PASCAL VOC](PASCAL%20VOC.md)
+- [COCO](COCO.md)
 - visual representation encoder by matching an encoded query
-- to a dictionary of encoded keys using a [[Contrastive Loss|contrastive loss]]
+- to a dictionary of encoded keys using a [contrastive loss](Contrastive%20Loss.md)
 - dictionary is built as a queue, with the current mini-batch enqueued
 - oldest mini-batch dequeued
 - slowly progressing encoder
 - momentum update with the query encoder
-- ![[assets/moco1.jpg]]
-- ![[assets/moco2.jpg]]
+- ![moco1](assets/moco1.jpg)
+- ![moco2](assets/moco2.jpg)
 
-## Backlinks
-> - [Self Supervised Vision Transformers](Self Supervised Vision Transformers.md)
->   - [[MoCO]] v3, a framework which offers an incremental improvement of [[MoCO]]
->   - [[MoCO]] v3, a framework which offers an incremental improvement of [[MoCO]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

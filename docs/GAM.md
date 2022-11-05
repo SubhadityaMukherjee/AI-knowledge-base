@@ -15,9 +15,3 @@ date created: Wednesday, October 12th 2022, 4:38:02 pm
 - The technique is applicable to any likelihood-based regression model, provides a flexible method for identifying nonlinear covariate effects in exponential family models and other likelihood-based regression models, and has the advantage of being completely automatic
 - In its most general form, the algorithm can be applied to any situation in which a criterion is optimized involving one or more smooth functions
 
-## Backlinks
-
-> - [Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey](Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md)
->   - [[GAM]]
-
-_Backlinks last generated 2022-10-12 16:45:05_

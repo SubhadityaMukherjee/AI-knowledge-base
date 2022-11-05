@@ -11,7 +11,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
  \end{cases}$$
 
-- used in Rosenblatt's [[Perceptron]]
-- not Differentiable -> [[SGD]] not possible
+- used in Rosenblatt's [Perceptron](Perceptron.md)
+- not Differentiable -> [SGD](SGD.md) not possible
 - no practical use
 

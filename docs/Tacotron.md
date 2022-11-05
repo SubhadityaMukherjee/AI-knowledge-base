@@ -7,14 +7,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Tacotron
 - CBHG
-	- [[GRU|[Conv](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[Conv]]]].md)
+	- [[Conv](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[Conv](GRU)]].md)
 
 ```python
 class CBHG_Old(nn.Module):
-    """CBHG module: a [[Recurrent|recurrent]] neural network composed of:
+    """CBHG module: a [recurrent](Recurrent.md) neural network composed of:
         - 1-d convolution banks
         - Highway networks + residual connections
-        - Bidirectional gated [[Recurrent|recurrent]] units
+        - Bidirectional gated [recurrent](Recurrent.md) units
     """
 
     def __init__(self, in_dim, K=16, projections=[128, 128]):

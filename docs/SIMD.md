@@ -10,20 +10,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Graphics, Image processing
 - Synchronous, Deterministic
 - GPU
-- ![[assets/Pasted image 20220506150837.png|im]]
-- [[Vector Processor]]
-- Limited by [[Amdahl's Law]]
-- More energy efficient than [[MIMD]]
-- [[Time space duality]]
+- ![im](assets/Pasted%20image%2020220506150837.png)
+- [Vector Processor](Vector%20Processor.md)
+- Limited by [Amdahl's Law](Amdahl's%20Law.md)
+- More energy efficient than [MIMD](MIMD.md)
+- [Time space duality](Time%20space%20duality.md)
 
-## Backlinks
-> - [MIMD](MIMD.md)
->   - Also include [[SIMD]] sub components
->
-> - [Register to Register Architecture](Register to Register Architecture.md)
->   - [[SIMD]] based on this
->
-> - [Flynn's Taxonomy](Flynn's Taxonomy.md)
->   - [[SIMD]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

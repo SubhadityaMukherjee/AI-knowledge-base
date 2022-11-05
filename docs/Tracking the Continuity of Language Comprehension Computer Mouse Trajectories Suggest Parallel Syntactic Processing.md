@@ -21,11 +21,11 @@ date created: Saturday, October 15th 2022, 10:08:53 am
 ## Introduction
 - Sentences such as, "The adolescent hurried through the door tripped," are difficult to process because, at least temporarily, multiple possible structural representations exist
 - garden-path effect
-- [[Syntax First models]]
-- [[Multiple constraint-based theories]]
+- [Syntax First models](Syntax%20First%20models.md)
+- [Multiple constraint-based theories](Multiple%20constraint-based%20theories.md)
 - what feel like garden-path effects are due to the incorrect syntactic alternative winning much of the competition during the early portion of the sentence, and then nonconforming information from the latter portion of the sentence inducing a laborious reversal of that activation pattern
 - As a result, one can expect that some garden-path events may be very mild, some moderate, and some extreme such that a wide variety of sentence readings should all belong to one population of events with a relatively continuous distribution.
-- [[Unrestricted Race Model]]
+- [Unrestricted Race Model](Unrestricted%20Race%20Model.md)
 - When ambiguous sentences like 1a are heard in the presence of visual scenes where only one possible referent is present (an apple already on a towel), along with an incorrect destination (an empty towel), and a correct destination (a box), as in the top portion of Fig. 1, about 50% of the time participants fixate the incorrect destination after hearing the first PP.
 - After the second disambiguating PP is heard, eye movements tend to be redirected to the correct referent and then to the correct destination
 - This garden-path effect can, however, be modulated by contextual information contained within the visual scene
@@ -105,16 +105,10 @@ date created: Saturday, October 15th 2022, 10:08:53 am
 - we believe mouse tracking can serve as "the poor man's eye tracker," providing detailed indices of cognitive processing to laboratories that cannot afford expensive eye-tracking equipment.
 
 ## Pictures
-- ![[assets/Pasted image 20221015110329.png]]
-- ![[assets/Pasted image 20221015110344.png]]
-- ![[assets/Pasted image 20221015110356.png]]
-- ![[assets/Pasted image 20221015110410.png]]
-- ![[assets/Pasted image 20221015110425.png]]
-- ![[assets/Pasted image 20221015110438.png]]
+- ![Pasted image 20221015110329](assets/Pasted%20image%2020221015110329.png)
+- ![Pasted image 20221015110344](assets/Pasted%20image%2020221015110344.png)
+- ![Pasted image 20221015110356](assets/Pasted%20image%2020221015110356.png)
+- ![Pasted image 20221015110410](assets/Pasted%20image%2020221015110410.png)
+- ![Pasted image 20221015110425](assets/Pasted%20image%2020221015110425.png)
+- ![Pasted image 20221015110438](assets/Pasted%20image%2020221015110438.png)
 
-## Backlinks
-
-> - [](journals/2022-10-15.md)
->   - [[Tracking the Continuity of Language Comprehension Computer Mouse Trajectories Suggest Parallel Syntactic Processing]]
-
-_Backlinks last generated 2022-10-17 14:23:58_

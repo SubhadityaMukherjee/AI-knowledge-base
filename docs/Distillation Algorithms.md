@@ -7,16 +7,11 @@ date created: Tuesday, October 4th 2022, 11:48:21 am
 ---
 
 # Distillation Algorithms
-- [[Adversarial Distillation]]
-- [[Multi Teacher Distillation]]
-- [[Cross Modal Distillation]]
-- [[Graph Based Distillation]]
-- [[Attention Based Distillation]]
-- [[Data Free Distillation]]
-- [[Quantized Distillation]]
+- [Adversarial Distillation](Adversarial%20Distillation.md)
+- [Multi Teacher Distillation](Multi%20Teacher%20Distillation.md)
+- [Cross Modal Distillation](Cross%20Modal%20Distillation.md)
+- [Graph Based Distillation](Graph%20Based%20Distillation.md)
+- [Attention Based Distillation](Attention%20Based%20Distillation.md)
+- [Data Free Distillation](Data%20Free%20Distillation.md)
+- [Quantized Distillation](Quantized%20Distillation.md)
 
-## Backlinks
-> - [Feature Based Knowledge](Feature Based Knowledge.md)
->   - [[Distillation Algorithms]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

@@ -5,12 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:21 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# [[Morphology]] Stem
-- The core meaning bearing units – Main [[Morpheme|morpheme]] of the word
-- [[Free morpheme]]
+# [Morphology](Morphology.md) Stem
+- The core meaning bearing units – Main [morpheme](Morpheme.md) of the word
+- [Free morpheme](Free%20morpheme.md)
 
-## Backlinks
-> - [Morpheme](Morpheme.md)
->   - [[Morphology Stem]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

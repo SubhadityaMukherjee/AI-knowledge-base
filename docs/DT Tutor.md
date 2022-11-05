@@ -17,9 +17,3 @@ date created: Wednesday, October 12th 2022, 2:14:02 pm
 - DT Tutor evaluates the utility of each of the predicted student states, multiplies the state's utility by the state's probability, and eventually produces the expected utility of each proposed tutor action.
 - It then takes the tutor action with the highest expected utility. Although advances in probabilistic reasoning make it feasible for DT Tutor to perform this calculation in real time, considerable data from human students is needed in order to set the parameters in its model of student learning
 
-## Backlinks
-
-> - [The Behavior of Tutoring Systems](The Behavior of Tutoring Systems.md)
->   - [[DT Tutor]]
-
-_Backlinks last generated 2022-10-12 16:45:05_

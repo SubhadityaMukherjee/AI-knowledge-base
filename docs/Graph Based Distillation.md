@@ -13,8 +13,3 @@ date created: Tuesday, October 4th 2022, 11:50:22 am
 - Minami et al. (2019) proposed a bidirectional graph-based diverse collaborative learning to explore diverse knowledge transfer patterns. Yao et al. (2020) introduced GNNs to deal with the knowledge trans- fer for graph-based knowledge.
 - Besides, using knowl- edge distillation, the topological semantics of a graph convolutional teacher network as the topology-aware knowledge are transferred into the graph convolutional student network (Yang et al., 2020b)
 
-## Backlinks
-> - [Distillation Algorithms](Distillation Algorithms.md)
->   - [[Graph Based Distillation]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

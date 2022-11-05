@@ -13,9 +13,9 @@ date created: Tuesday, October 25th 2022, 3:09:48 pm
 ## Literature
 - van den Broek, G. S., Takashima, A., Segers, E., & Verhoeven, L. (2018). Contextual richness and word learning: Context enhances comprehension but retrieval enhances retention. Language learning, 68(2), 546-585.
 - Li, X. (1988). Effects of contextual cues on inferring and remembering meanings of new words. Applied linguistics, 9(4), 402-413.
-- [[Effects of Contextual Cues on Inferring and Remembering Meanings of New Word]]
-- [[../SlimStampen]]
-- [[../The Behavior of Tutoring Systems]]
+- [Effects of Contextual Cues on Inferring and Remembering Meanings of New Word](Effects%20of%20Contextual%20Cues%20on%20Inferring%20and%20Remembering%20Meanings%20of%20New%20Word.md)
+- [SlimStampen](SlimStampen.md)
+- [The Behavior of Tutoring Systems](The%20Behavior%20of%20Tutoring%20Systems.md)
 
 ## Members
 - Hila Schwartz
@@ -81,8 +81,8 @@ date created: Tuesday, October 25th 2022, 3:09:48 pm
 - After each participant has done each of the two conditions, we will end the experiment by thanking them for their efforts.
 
 ### Pictures
-- ![[assets/Pasted image 20221025151329.png]]
-- ![[assets/Pasted image 20221025151334.png]]
-- ![[assets/Pasted image 20221025151338.png]]
-- ![[assets/Pasted image 20221025151342.png]]
+- ![Pasted image 20221025151329](assets/Pasted%20image%2020221025151329.png)
+- ![Pasted image 20221025151334](assets/Pasted%20image%2020221025151334.png)
+- ![Pasted image 20221025151338](assets/Pasted%20image%2020221025151338.png)
+- ![Pasted image 20221025151342](assets/Pasted%20image%2020221025151342.png)
 

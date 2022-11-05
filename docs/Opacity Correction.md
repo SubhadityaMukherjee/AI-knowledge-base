@@ -6,16 +6,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Opacity Correction
-- Opacity component $o$ in [[Transfer Function|transfer function]] stored with respect to a standard step size $\Delta t$
+- Opacity component $o$ in [transfer function](Transfer%20Function.md) stored with respect to a standard step size $\Delta t$
 - Different step sizes $\Delta t^{\ast}$
 - Dynamic step sizes
 - generate pre-integrated function
 - $$o^{\ast} = 1- (1-o)^{\frac{\Delta t^{\ast}}{\Delta t}}$$
-- evaluate after obtaining $o$ from [[Transfer Function|transfer function]]
+- evaluate after obtaining $o$ from [transfer function](Transfer%20Function.md)
 - apply before compositing`
 
-## Backlinks
-> - [Transfer Function](Transfer Function.md)
->   - [[Opacity Correction]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

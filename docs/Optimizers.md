@@ -6,26 +6,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Optimization
-- [[Gradient Descent gradients]]
-- [[Adagrad]]
-- [[Rmsprop]]
-- [[Adam]]
-- [[Learning Rate Decay tricks]]
-- [[Early Stopping tricks]]
+- [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
+- [Adagrad](Adagrad.md)
+- [Rmsprop](Rmsprop.md)
+- [Adam](Adam.md)
+- [Learning Rate Decay tricks](Learning%20Rate%20Decay%20tricks.md)
+- [Early Stopping tricks](Early%20Stopping%20tricks.md)
 
 ## …
 
-## Backlinks
-> - [](DeepLearning.md)
->   - [[Optimizers]]
->
-> - [Non [[Relational Inductive Bias]]](Non Relational Inductive Bias.md)
->   - [[Optimizers]]
->
-> - [Vanishing/exploding #gradients](Vanishingexploding gradients.md)
->   - [[Regularization]] , [[Optimizers]] , [[Architectures]]
->
-> - [Bias Vs Variance](Bias Variance Dilemma.md)
->   - Tune on [[Emperical Risk]] instead using [[Optimizers]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

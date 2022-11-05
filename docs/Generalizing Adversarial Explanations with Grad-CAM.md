@@ -8,19 +8,19 @@ date created: Wednesday, October 5th 2022, 2:35:36 pm
 
 # Generalizing Adversarial Explanations with Grad-CAM
 - Chakraborty, Tanmay, Utkarsh Trehan, Khawla Mallat, and Jean-Luc Dugelay. “Generalizing Adversarial Explanations with Grad-CAM.” In _2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)_, 186–92. New Orleans, LA, USA: IEEE, 2022. [https://doi.org/10.1109/CVPRW56347.2022.00031](https://doi.org/10.1109/CVPRW56347.2022.00031).
-- [[Adversarial Learning]]
+- [Adversarial Learning](Adversarial%20Learning.md)
 
 ## TOC
-- [[#Intro|Intro]]
-- [[#New Metrics|New Metrics]]
-- [[#Face Dataset Case Study|Face Dataset Case Study]]
-- [[#Observations|Observations]]
-- [[#Images|Images]]
+- [Intro](#Intro)
+- [New Metrics](#New%20Metrics)
+- [Face Dataset Case Study](#Face%20Dataset%20Case%20Study)
+- [Observations](#Observations)
+- [Images](#Images)
 
 ## Intro
-- The drawback of [[GradCAM]] is that it cannot be used to generalize CNN behaviour.
+- The drawback of [GradCAM](GradCAM.md) is that it cannot be used to generalize CNN behaviour.
 - extends Grad-CAM from example-based explanations to a method for explaining global model behaviour
-- These metrics are computed by comparing a [[Normalized Inverted Structural Similarity Index]] (NISSIM) metric of the Grad-CAM generated heatmap for samples from the original test set and samples from the adversarial test set.
+- These metrics are computed by comparing a [Normalized Inverted Structural Similarity Index](Normalized%20Inverted%20Structural%20Similarity%20Index.md) (NISSIM) metric of the Grad-CAM generated heatmap for samples from the original test set and samples from the adversarial test set.
 - We observe a consistent shift in the region highlighted in the Grad-CAM heatmap, reflecting its participation to the decision making, across all models under adversarial attacks.
 - These adversarial attacks display specific properties, i) They are not perceptible to the human eye, ii) They are controllable, and iii) Transferability, i.e., an attack designed for one model is capable of attacking multiple models
 - There are mainly two kinds of attacks: targeted and non-targeted attacks. Targeted attack makes a model predict a certain label for the adversarial example, while for non-targeted attacks the labels for adversarial examples are not important, as long as the model is wrong
@@ -29,17 +29,17 @@ date created: Wednesday, October 5th 2022, 2:35:36 pm
 - More recent methods leverage explainability of machine learning and use SHAP based signatures to detect adversarial attacks
 - As a result, we observed a global pattern displayed by all models. The shifting in the region of participation can be defined as when a model sees adversarial examples. Some parts of the input image no longer participate in the decision-making, while new parts do participate.
 - These changes are not deterministic, and given an adversarial example, there is no way to tell how it will affect the shift
-- [[FGSM]]
+- [FGSM](FGSM.md)
 
 ## New Metrics
-- [[Normalized Inverted Structural Similarity Index]]
-- [[Mean Observed Dissimilarity]]
-- [[Variation in Dissimilarity Variation in Dissimilarity]]
+- [Normalized Inverted Structural Similarity Index](Normalized%20Inverted%20Structural%20Similarity%20Index.md)
+- [Mean Observed Dissimilarity](Mean%20Observed%20Dissimilarity.md)
+- [Variation in Dissimilarity Variation in Dissimilarity](Variation%20in%20Dissimilarity%20Variation%20in%20Dissimilarity.md)
 
 ## Face Dataset Case Study
-- [[VGGFace2]]
+- [VGGFace2](VGGFace2.md)
 - First, we preprocess the dataset to align and crop the faces. Then, the dataset is split into 80% training, 10% testing, and 10% validation sets.
-- Once the training step is completed, the stored models are loaded and used to generate perturbations from the test set using [[FGSM]].
+- Once the training step is completed, the stored models are loaded and used to generate perturbations from the test set using [FGSM](FGSM.md).
 - Then the test set is attacked with different values of $\epsilon$ from the stored perturbations and these counterexamples are stored as perturbed test sets
 - Finally, Grad- CAM was used to generate heatmaps for every layer in each model and each ϵ in the perturbed test set.
 - VGG 16: we can observe clearly that all the attacks were successful and illustrates a clear shift of participating regions as the ϵ increases.
@@ -61,12 +61,7 @@ date created: Wednesday, October 5th 2022, 2:35:36 pm
 - We can observe a pattern that wide models fail more than deep models as the ϵ increases
 
 ## Images
-- ![[assets/Pasted image 20221005143610.png]]
-- ![[assets/Pasted image 20221005143659.png]]
-- ![[assets/Pasted image 20221005143709.png]]
+- ![Pasted image 20221005143610](assets/Pasted%20image%2020221005143610.png)
+- ![Pasted image 20221005143659](assets/Pasted%20image%2020221005143659.png)
+- ![Pasted image 20221005143709](assets/Pasted%20image%2020221005143709.png)
 
-## Backlinks
-> - [](journals/2022-10-05.md)
->   - [[Generalizing Adversarial Explanations with Grad-CAM]]
-
-_Backlinks last generated 2022-10-05 15:25:18_

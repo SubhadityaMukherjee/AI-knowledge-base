@@ -5,5 +5,5 @@ date modified: Monday, October 10th 2022, 2:02:20 pm
 ---
 
 # Organoid
-- A research model that uses pluripotent [[Stem Cells|stem cells]] (iPSCs) to grow structures made of organ-specific cell types.
+- A research model that uses pluripotent [stem cells](Stem%20Cells.md) (iPSCs) to grow structures made of organ-specific cell types.
 

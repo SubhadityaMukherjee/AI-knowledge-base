@@ -2,7 +2,7 @@
 title: Final Paper LM
 
 tags: language 
-date modified: Friday, October 28th 2022, 4:09:17 pm
+date modified: Monday, October 31st 2022, 12:52:26 pm
 date created: Monday, October 24th 2022, 5:14:15 pm
 ---
 
@@ -28,7 +28,7 @@ date created: Monday, October 24th 2022, 5:14:15 pm
 - Do you also want to do additional testing? (working memory, inhibition?) Make sure you motivate it.
 
 ## Idea.
-- [[../Shortcuts to Quantifier Interpretation in Children and Adults]] But studies and comparisons were weird. Change?
+- [Shortcuts to Quantifier Interpretation in Children and Adults](Shortcuts%20to%20Quantifier%20Interpretation%20in%20Children%20and%20Adults.md) But studies and comparisons were weird. Change?
 - They were salty about This feature of their design provided children with unambiguous cues as to which set of entities was the focus of attention. : Crain and Thornton (1998)
 - Crain et al.’s (1996) claim that preschoolers have full competence with uni- versal quantifiers would seem to be undermined by the fact that even older school-age children make errors identifyi- **04:40** ng the domain of a universal quantifier.
 - ![](assets/Cpc7B-s9b0HYY1zVySgFLPl-hAQSmnK5t5g-d4Fl8tHC9namPP4qXpn8u4Z1sDhIpmt912t7t6X9zHTUz2otmcMkCpk5a4mRbMTY.png)
@@ -81,9 +81,9 @@ date created: Monday, October 24th 2022, 5:14:15 pm
 - Shallow processing also provides a straightforward explanation of the errors made by adults in Experiment 3. Their high error rates suggest that adult listeners often do not tax their limited information-processing capacities by conducting exhaustive syntactic analyses of sentences but rather make use of simpler strategies in generating reasonable guesses
 
 ## Literature
-- [[Quantifier spreading children misled by ostensive cues]]
-- [[Shortcuts to Quantifier Interpretation in Children and Adults]]
-- [[A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets]]
+- [Quantifier spreading children misled by ostensive cues](Quantifier%20spreading%20children%20misled%20by%20ostensive%20cues.md)
+- [Shortcuts to Quantifier Interpretation in Children and Adults](Shortcuts%20to%20Quantifier%20Interpretation%20in%20Children%20and%20Adults.md)
+- [A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets](A%20matter%20of%20ambiguity?%20Using%20eye%20movements%20to%20examine%20collective%20vs.%20distributive%20interpretations%20of%20plural%20sets.md)
 
 ## Experiment
 - Replace doodles with images , Use more

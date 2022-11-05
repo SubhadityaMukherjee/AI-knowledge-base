@@ -21,9 +21,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Output shape : $$\frac{()_i-f+2p}{s}$$
 	- If $$p = \frac{f-1}{2}$$ and $$s=1$$ then dimensions maintained
 - One operation repeated over and over starting with raw
-- [[Padded Conv]]
-- [[Strided]]
-- [[Depthwise Separable]]
-- [[Causal 1D Conv]]
-- [[Causal Dilated Conv]]
+- [Padded Conv](Padded%20Conv.md)
+- [Strided](Strided.md)
+- [Depthwise Separable](Depthwise%20Separable.md)
+- [Causal 1D Conv](Causal%201D%20Conv.md)
+- [Causal Dilated Conv](Causal%20Dilated%20Conv.md)
 

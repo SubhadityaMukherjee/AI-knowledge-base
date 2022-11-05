@@ -16,9 +16,3 @@ date created: Wednesday, October 12th 2022, 4:38:17 pm
 - ICE [30] points to how the prediction changes if a feature changes.
 - The PDP is limited to two features.
 
-## Backlinks
-
-> - [Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey](Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md)
->   - [[Partial Dependence Plot]]
-
-_Backlinks last generated 2022-10-12 16:45:05_

@@ -10,19 +10,19 @@ date created: Wednesday, October 5th 2022, 12:58:22 pm
 - Eppel, Sagi. “Classifying a Specific Image Region Using Convolutional Nets with an ROI Mask as Input,” n.d., 8.
 
 ## TOC
-- [[#Intro|Intro]]
-- [[#Network|Network]]
-	- [[#Network#Net Initiation|Net Initiation]]
-- [[#Datasets|Datasets]]
-- [[#Results|Results]]
-- [[#Images|Images]]
+- [Intro](#Intro)
+- [Network](#Network)
+	- [](#Network#Network#Net%20Initiation%7CNet%20Initiation)
+- [Datasets](#Datasets)
+- [Results](#Results)
+- [Images](#Images)
 
 ## Intro
 - In some cases, it is desirable to classify only a specific region of the image that corresponds to a certain object.
 - Hence, assuming that the region of the object in the image is known in advance and is given as a binary region of interest (ROI) mask, the goal is to classify the object in this region using a convolutional neural net.
 - This goal is achieved using a standard image classification net with the addition of a side branch, which converts the ROI mask into an attention map. This map is then combined with the image classification net
 - focus the attention on the object region while still extracting contextual cues from the background
-- [[COCO]]
+- [COCO](COCO.md)
 - OpenSurfaces materials dataset
 
 ## Network
@@ -49,10 +49,5 @@ date created: Wednesday, October 5th 2022, 12:58:22 pm
 - Generating several attention maps and merging them with multiple layers of the net gave the same or worse results than generating a single attention map and merging it with the first layer
 
 ## Images
-- ![[assets/Pasted image 20221005125850.png]]
+- ![Pasted image 20221005125850](assets/Pasted%20image%2020221005125850.png)
 
-## Backlinks
-> - [](journals/2022-10-05.md)
->   - [[Classifying a specific image region using convolutional nets with an ROI mask as input]]
-
-_Backlinks last generated 2022-10-05 15:25:18_

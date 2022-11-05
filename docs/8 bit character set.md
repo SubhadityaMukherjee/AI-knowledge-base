@@ -6,12 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # 8 Bit Character Set
-- First 128 characters are reserved for [[ASCII]]
+- First 128 characters are reserved for [ASCII](ASCII.md)
 - ISO-8859 series of 10+ Character Sets for most European Languages
 - Results in large number of overlapping character sets for different languages
 
-## Backlinks
-> - [Character-set Dependence](Character-set dependence.md)
->   - [[8 bit character set]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

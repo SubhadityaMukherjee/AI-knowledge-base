@@ -12,9 +12,3 @@ date modified: Monday, October 10th 2022, 2:02:06 pm
 - In Reinforcement Learning algorithms, a policy is analogous to the strategy of the learning algorithm. This policy determines what actions to take at given states to achieve some goal. The AutoAugment approach learns a policy which consists of many subpolicies, each sub-policy consisting of an image transformation and a magnitude of transformation
 - Reinforcement Learning is thus used as a discrete search algorithm of augmentations.
 
-## Backlinks
-
-> - [Data Augmentation with Curriculum Learning](A survey on Image Data Augmentation for Deep Learning.md)
->   - [[AutoAugment]]
-
-_Backlinks last generated 2022-10-12 10:22:04_

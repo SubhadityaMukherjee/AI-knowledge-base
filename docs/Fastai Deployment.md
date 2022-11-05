@@ -6,8 +6,8 @@ date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# [[fastai|Fastai]] Deployment
-- [[Gradio]]
+# [Fastai](fastai.md) Deployment
+- [Gradio](Gradio.md)
 
 ## Save
 ```python
@@ -23,8 +23,3 @@ learn_inf.predict('images/grizzly.jpg')
 learn_inf.dls.vocab
 ```
 
-## Backlinks
-> - [Fastai](fastai.md)
->   - [[Fastai Deployment]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

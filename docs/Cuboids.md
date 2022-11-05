@@ -7,5 +7,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Cuboids
-- ![[assets/Screenshot 2022-09-14 at 12.59.35 PM.png]]
+- ![Screenshot 2022-09-14 at 12.59.35 PM](assets/Screenshot%202022-09-14%20at%2012.59.35%20PM.png)
 

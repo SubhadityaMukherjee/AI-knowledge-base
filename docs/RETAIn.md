@@ -14,9 +14,3 @@ date created: Wednesday, October 12th 2022, 4:43:59 pm
 - The approach mimics physician practice by attending to the EHR data. Two RNNs are trained in a reverse time order with the goal of efficiently generating the appropriate attention variables. It is based on a two-level neural attention generation process that detects influential past visits and significant clinical variables to improve accuracy and interpretability.
 - for application to Electronic Health Record (EHR) data.
 
-## Backlinks
-
-> - [Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey](Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md)
->   - [[RETAIn]]
-
-_Backlinks last generated 2022-10-12 16:45:05_

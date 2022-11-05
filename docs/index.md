@@ -14,18 +14,18 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Scroll the sidebar and pick something you like. Click the links inside it to go about. Choose your own adventure.
 - Major topics (These index pages are auto generated and might have errors sometimes)
 	- Deep learning
-		- [[architecture|Deep Learning architectures]]
-		- [[loss|Loss Functions]]
-		- [[dataset|Datasets]]
-		- [[Pytorch Tricks]]
-		- [[regularize|Regularizing stuff]]
+		- [Deep Learning architectures](architecture.md)
+		- [Loss Functions](loss.md)
+		- [Datasets](dataset.md)
+		- [Pytorch Tricks](Pytorch%20Tricks.md)
+		- [Regularizing stuff](regularize.md)
 	- Others
-		- [[robotics|Robotics]]
-		- [[brain|Brain]]
-		- [[visualization|Visualization]]
-		- [[language|Language]]
-		- [[medical|Medical]]
-		- [[psychology|Psychology]]
+		- [Robotics](robotics.md)
+		- [Brain](brain.md)
+		- [Visualization](visualization.md)
+		- [Language](language.md)
+		- [Medical](medical.md)
+		- [Psychology](psychology.md)
 
 ## Links
 - [My Github](https://www.github.com/SubhadityaMukherjee)
@@ -33,7 +33,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Medium -> More blogs](https://msubhaditya.medium.com/)
 - [My Linkedin](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100)
 - [My Art](https://www.instagram.com/aiexistential/)
-- [[mailto:msubhaditya@gmail.com|Email]]
+- [Email](mailto:msubhaditya@gmail.com)
 
 #anchor
 

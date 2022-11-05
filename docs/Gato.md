@@ -16,5 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - In this representation, Gato can be trained and sampled from akin to a standard large-scale language model
 - Masking is used such that the loss function is applied only to target outputs, i.e text and various actions
 - During deployment, sampled tokens are assembled into dialogue responses, captions, button presses, or other actions based on the context
-- Transformer sequence models are effective as multi-task multi-embodiment policies, including for real-world text, vision and [[robotics]] tasks
+- Transformer sequence models are effective as multi-task multi-embodiment policies, including for real-world text, vision and [robotics](robotics.md) tasks
 

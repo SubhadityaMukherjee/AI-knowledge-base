@@ -5,5 +5,5 @@ date modified: Monday, October 10th 2022, 2:02:32 pm
 ---
 
 # Cerebellar Artery
-- The major blood vessel providing oxygenated blood to the [[Cerebellum|cerebellum]].
+- The major blood vessel providing oxygenated blood to the [cerebellum](Cerebellum.md).
 

@@ -7,8 +7,8 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Ellipsoids
-- [[Fractional Anisotropy]]
-- ![[assets/Screenshot 2022-09-14 at 12.59.03 PM.png]]
+- [Fractional Anisotropy](Fractional%20Anisotropy.md)
+- ![Screenshot 2022-09-14 at 12.59.03 PM](assets/Screenshot%202022-09-14%20at%2012.59.03%20PM.png)
 - Linear, Planar, Spherical
 - 2D projection can convey ambiguous 3D orientation
 

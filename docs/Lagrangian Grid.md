@@ -10,10 +10,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Focus on individual particles
 - Attached are position, velocity, and other properties
 - Explicit position
-- ![[assets/Screenshot 2022-09-14 at 12.27.38 PM.png]]
+- ![Screenshot 2022-09-14 at 12.27.38 PM](assets/Screenshot%202022-09-14%20at%2012.27.38%20PM.png)
 
-## Backlinks
-> - [Lagrangian Coherent Structure](Lagrangian Coherent Structure.md)
->   - [[Lagrangian Grid]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

@@ -6,7 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Highway Convolutions
-- [[Conv]]
+- [Conv](Conv.md)
 
 ```python
 class HighwayConv1dNew(nn.Conv1d):

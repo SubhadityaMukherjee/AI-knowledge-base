@@ -15,9 +15,3 @@ date created: Wednesday, October 12th 2022, 4:43:12 pm
 - The authors demonstrated that TREPAN is able to produce Decision Trees that are accurate and comprehensible and maintain a high level of fidelity to the networks from which they were extracted.
 - According to the authors of DeepRED, their method is the first attempt to extract rules and make a DNN's decision more transparent.
 
-## Backlinks
-
-> - [Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey](Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md)
->   - [[TREPAN]]
-
-_Backlinks last generated 2022-10-12 16:45:05_

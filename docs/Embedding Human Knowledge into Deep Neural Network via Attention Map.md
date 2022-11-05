@@ -10,10 +10,10 @@ date created: Wednesday, October 5th 2022, 1:35:39 pm
 - Mitsuhara, Masahiro, Hiroshi Fukui, Yusuke Sakashita, Takanori Ogata, Tsubasa Hirakawa, Takayoshi Yamashita, and Hironobu Fujiyoshi. “Embedding Human Knowledge into Deep Neural Network via Attention Map.” arXiv, December 19, 2019. [http://arxiv.org/abs/1905.03540](http://arxiv.org/abs/1905.03540).
 
 ## TOC
-- [[#Intro|Intro]]
-- [[#Editing the Attention Map|Editing the Attention Map]]
-- [[#Fine Tuning Branches|Fine Tuning Branches]]
-- [[#Images|Images]]
+- [Intro](#Intro)
+- [Editing the Attention Map](#Editing%20the%20Attention%20Map)
+- [Fine Tuning Branches](#Fine%20Tuning%20Branches)
+- [Images](#Images)
 
 ## Intro
 - focus on the attention mechanism of an attention branch network (ABN)
@@ -21,9 +21,9 @@ date created: Wednesday, October 5th 2022, 1:35:39 pm
 - Our fine-tuning method can train a network so that the output attention map corresponds to the edited ones. As a result, the fine-tuned network can out- put an attention map that takes into account human knowl- edge
 - ImageNet
 - CUB-200-2010
-- [[IDRiD]]
+- [IDRiD](IDRiD.md)
 - human intuitive edit- ing via a visual interface and suggest new possibilities for human-machine cooperation in addition to the improvement of visual explanations.
-- Typical visual explanation approaches in- clude class activation mapping (CAM) and [[GradCAM]]
+- Typical visual explanation approaches in- clude class activation mapping (CAM) and [GradCAM](GradCAM.md)
 - However, an inconsistency between the tar- get region of the recognition result, namely the ground truth (GT), and an attention region may occur.
 - To this end, we focus on the visual explanation and the attention mechanism of ABN
 - ABN applies an atten- tion map for visual explanation to the attention mechanism.
@@ -58,13 +58,8 @@ date created: Wednesday, October 5th 2022, 1:35:39 pm
 		- $L_{map}$ is larger than the others, hence needs to be scaled
 
 ## Images
-- ![[assets/Pasted image 20221005133615.png]]
-- ![[assets/Pasted image 20221005133625.png]]
-- ![[assets/Pasted image 20221005133646.png]]
-- ![[assets/Pasted image 20221005142449.png]]
+- ![Pasted image 20221005133615](assets/Pasted%20image%2020221005133615.png)
+- ![Pasted image 20221005133625](assets/Pasted%20image%2020221005133625.png)
+- ![Pasted image 20221005133646](assets/Pasted%20image%2020221005133646.png)
+- ![Pasted image 20221005142449](assets/Pasted%20image%2020221005142449.png)
 
-## Backlinks
-> - [](journals/2022-10-05.md)
->   - [[Embedding Human Knowledge into Deep Neural Network via Attention Map]]
-
-_Backlinks last generated 2022-10-05 15:25:18_

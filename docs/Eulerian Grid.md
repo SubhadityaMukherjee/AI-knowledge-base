@@ -10,5 +10,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Focus on domain
 - Properties given on a grid  
 - (Position of particles is implicit)
-- ![[assets/Screenshot 2022-09-14 at 12.26.58 PM.png]]
+- ![Screenshot 2022-09-14 at 12.26.58 PM](assets/Screenshot%202022-09-14%20at%2012.26.58%20PM.png)
 

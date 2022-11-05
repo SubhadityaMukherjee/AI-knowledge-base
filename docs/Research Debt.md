@@ -20,7 +20,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - technical debt
 - institutional debt
 - Poor Exposition
-- [[Interpretive Labor]]
-- [[Clear Thinking]]
-- [[Research Distillation]]
+- [Interpretive Labor](Interpretive%20Labor.md)
+- [Clear Thinking](Clear%20Thinking.md)
+- [Research Distillation](Research%20Distillation.md)
 

@@ -6,10 +6,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Poisson Process
-- Waiting times between two consecutive spikes are [[Exponential Distribution]]
+- Waiting times between two consecutive spikes are [Exponential Distribution](Exponential%20Distribution.md)
 
-## Backlinks
-> - [Spiking Networks](Spiking Networks.md)
->   - [[Poisson Process]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

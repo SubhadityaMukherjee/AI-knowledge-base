@@ -9,20 +9,20 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Words-and-Rules
 - Look up past-tense
 		- No past-tense stored? Generate form
-	- Why symbolic? It uses the abstract '[[Verb|verb]]'
+	- Why symbolic? It uses the abstract '[verb](Verb.md)'
 	- Rules that refer to these categories are used to guide processing
-	- [[past tense]]
-	- Irregular forms stored in associative memory ([[Declarative memory|declarative memory]])
-	- Symbolic rules produce [[past tense]] forms (procedural memory)
+	- [past tense](past%20tense.md)
+	- Irregular forms stored in associative memory ([declarative memory](Declarative%20memory.md))
+	- Symbolic rules produce [past tense](past%20tense.md) forms (procedural memory)
 	- look-up is quicker than rule application
 	- rule application takes more time but is always done 'on-the-fly'
 	- Time 1: Every form is memorized (irregular and regular)
-	- Time 2: child notices pattern: [[Verb|verb]] root+ed = past
+	- Time 2: child notices pattern: [verb](Verb.md) root+ed = past
 	- Child creates a rule
 	- Child applies rule to all forms: overgeneralization
 	- Time 3: Child realizes that there are irregular and regular forms
 		- creates a dual system: irregular forms are retrieved from memory, regular forms are created by a rule
-		- new and novel verbs will get regular endings in [[past tense]] unless exposed to irregular past
+		- new and novel verbs will get regular endings in [past tense](past%20tense.md) unless exposed to irregular past
 		- the fact that children seem to learn a rule = language must be symbolic
 	- Traditional U-shaped learning predicts children won't be able to create past-tense forms for novel verbs when they are in the initial stage. This isn't consistent with data
 	- Overregularization is not common
@@ -34,11 +34,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- No difference between frequent and infrequent regulars
 	- Maybe because experiments always present the root form? (1) This is a girl who knows how to dance. She did the same
 		- Root presentation might mask differences due to frequency in regulars
-- [[Challenges of Words-and-rules]]
+- [Challenges of Words-and-rules](Challenges%20of%20Words-and-rules.md)
 	
 
-## Backlinks
-> - [Challenges of [[Words-and-Rules|Words-and-rules]]](Challenges of Words-and-rules.md)
->   - [[Words-and-Rules]] fits a lot of the data, but is vague on
-
-_Backlinks last generated 2022-10-04 13:01:19_

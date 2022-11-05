@@ -11,8 +11,3 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - streamline leaves domain  
 - after maximum number of integration steps
 
-## Backlinks
-> - [[Streamlines]]
->   - [[.md|Streamline Stopping Criterion]]
-
-_Backlinks last generated 2022-09-14 13:06:49_

@@ -11,8 +11,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Smooth the grid in post-processing
 - Eventually simplifies the grid
 
-## Backlinks
-> - [Noise Suppression](Noise Suppression.md)
->   - [[Mesh Smoothing]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

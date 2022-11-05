@@ -11,28 +11,28 @@ date modified: Monday, October 10th 2022, 2:13:02 pm
 ```
 
 ## Methods
-- [[Geometric transformations]]
-- [[Flipping]]
-- [[Color Space Transform]]
-- [[Cropping]]
-- [[Noise injection]]
-- [[Color space transformations]]
-- [[Kernel filters]]
-- [[Feature space augmentation]]
-- [[SMOTE ]]
-- [[GAN‐based Data Augmentation]]
-- [[Meta learning Data Augmentations]]
-- [[Neural augmentation]]
-- [[Smart Augmentation]]
-- [[AutoAugment]]
-- [[Augmented Random Search]]
-- [[Test-time augmentation]]
-- [[SamplePairing]]
-- [[Data Augmentation with Curriculum Learning]]
-- [[Alleviating class imbalance with Data Augmentation]]
+- [Geometric Transformations](Geometric%20Transformations.md)
+- [Flipping](Flipping.md)
+- [Color Space Transform](Color%20Space%20Transform.md)
+- [Cropping](Cropping.md)
+- [Noise Injection](Noise%20Injection.md)
+- [Color Space Transformations](Color%20Space%20Transformations.md)
+- [Kernel Filters](Kernel%20Filters.md)
+- [Feature Space Augmentation](Feature%20Space%20Augmentation.md)
+- [SMOTE ](SMOTE%20)
+- [GAN‐based Data Augmentation](GAN%E2%80%90based%20Data%20Augmentation.md)
+- [Meta Learning Data Augmentations](Meta%20Learning%20Data%20Augmentations.md)
+- [Neural Augmentation](Neural%20Augmentation.md)
+- [Smart Augmentation](Smart%20Augmentation.md)
+- [AutoAugment](AutoAugment.md)
+- [Augmented Random Search](Augmented%20Random%20Search.md)
+- [Test-time Augmentation](Test-time%20Augmentation.md)
+- [SamplePairing](SamplePairing.md)
+- [Data Augmentation with Curriculum Learning](Data%20Augmentation%20with%20Curriculum%20Learning.md)
+- [Alleviating Class Imbalance with Data Augmentation](Alleviating%20Class%20Imbalance%20with%20Data%20Augmentation.md)
 
 ## Discussion
-- It is easy to explain the benefit of horizontal [[flipping]] or random cropping
+- It is easy to explain the benefit of horizontal [Flipping](Flipping.md) or random cropping
 - However, it is not clear why mixing pixels or entire images together such as in PatchShuffle regularization or SamplePairing is so effective.
 - dditionally, it is difficult to interpret the representations learned by neural networks for GAN-based augmentation, variational auto-encoders, and meta-learning.
 - An interesting characteristic of these augmentation methods is their ability to be combined together.
@@ -43,9 +43,3 @@ date modified: Monday, October 10th 2022, 2:13:02 pm
 - One important consideration is the intrinsic bias in the initial, limited dataset
 - There are no existing augmentation techniques that can correct a dataset that has very poor diversity with respect to the testing data
 
-## Backlinks
-
-> - [](journals/2022-10-10.md)
->   - ## [[A survey on Image Data Augmentation for Deep Learning]]
-
-_Backlinks last generated 2022-10-12 10:22:04_

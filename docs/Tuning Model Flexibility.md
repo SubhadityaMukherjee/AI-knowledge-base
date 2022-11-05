@@ -6,14 +6,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Tuning Model Flexibility
-- [[Class Size]]
-- [[Regularization]]
-- [[Ridge Regression]]
-- [[Adding noise]]
-- [[Cross Validation]]
+- [Class Size](Class%20Size.md)
+- [Regularization](Regularization.md)
+- [Ridge Regression](Ridge%20Regression.md)
+- [Adding noise](Adding%20noise.md)
+- [Cross Validation](Cross%20Validation.md)
 
-## Backlinks
-> - [Bias Vs Variance](Bias Variance Dilemma.md)
->   - ## [[Tuning Model Flexibility]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

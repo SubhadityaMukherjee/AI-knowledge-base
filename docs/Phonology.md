@@ -10,8 +10,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - eg. (1) different ‘k’ sounds in ‘kite’ vs ‘coat’
 - (2) different ‘t’ and ‘p’ sounds in ‘top’ vs ‘pot’
 
-## Backlinks
-> - [Linguistic Details](Linguistic details.md)
->   - [[Phonology]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

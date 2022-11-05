@@ -6,7 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
-# Extensions to [[SlimStampen]]
+# Extensions to [SlimStampen](SlimStampen.md)
 - Konteksti
 	- Semantic similarity
 - Increase activation of similar facts

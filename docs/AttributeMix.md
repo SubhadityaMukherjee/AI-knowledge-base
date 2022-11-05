@@ -12,8 +12,3 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - The attribute mining procedure for every image is performed repetitively k times, whereas for each iteration, an attribute is masked out from the original image based on the most discriminative region in the attention map.
 - attribute-level classifier is trained to generate new images for the actual classification model.
 
-## Backlinks
-> - [Image Mixing and Deletion](Image Mixing and Deletion.md)
->   - [[AttributeMix]]
-
-_Backlinks last generated 2022-10-09 12:22:37_

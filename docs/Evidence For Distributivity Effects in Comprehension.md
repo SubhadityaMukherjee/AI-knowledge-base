@@ -10,10 +10,10 @@ date created: Tuesday, October 4th 2022, 12:42:49 pm
 - Nikole D. Patson and Tessa Warren
 
 ## TOC
-- [[#Intro|Intro]]
-- [[#Results|Results]]
-- [[#Experiment 1|Experiment 1]]
-- [[#Experiment 2|Experiment 2]]
+- [Intro](#Intro)
+- [Results](#Results)
+- [Experiment 1](#Experiment%201)
+- [Experiment 2](#Experiment%202)
 
 ## Intro
 - In the current paper, we introduce a new methodology for detecting whether a word in a sentence is conceptually represented as plural and use it to shed light on a debate about whether comprehenders interpret singular indefinite noun phrases within a distributed predicate as plural during on-line reading.

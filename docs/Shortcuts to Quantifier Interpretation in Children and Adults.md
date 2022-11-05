@@ -2,27 +2,28 @@
 title: Shortcuts to Quantifier Interpretation in Children and Adults
 
 tags: language
-date modified: Monday, October 10th 2022, 11:24:04 am
+date modified: Monday, October 31st 2022, 11:27:39 am
 date created: Sunday, October 9th 2022, 3:58:45 pm
 ---
 
 # Shortcuts to Quantifier Interpretation in Children and Adults
+- Patricia J. Brooks & Irina Sekerina
 
 ## TOC
-- [[#Intro|Intro]]
-- [[#EXPERIMENT 1|EXPERIMENT 1]]
-	- [[#EXPERIMENT 1#Participants|Participants]]
-	- [[#EXPERIMENT 1#Procedure|Procedure]]
-	- [[#EXPERIMENT 1#Analysis|Analysis]]
-- [[#Experiment 2|Experiment 2]]
-	- [[#Experiment 2#Method|Method]]
-	- [[#Experiment 2#Materials|Materials]]
-	- [[#Experiment 2#Analysis|Analysis]]
-- [[#Experiment 3|Experiment 3]]
-- [[#Observations|Observations]]
+- [Intro](#Intro)
+- [EXPERIMENT 1](#EXPERIMENT%201)
+	- [](#EXPERIMENT%201#EXPERIMENT%201#Participants%7CParticipants)
+	- [](#EXPERIMENT%201#EXPERIMENT%201#Procedure%7CProcedure)
+	- [](#EXPERIMENT%201#EXPERIMENT%201#Analysis%7CAnalysis)
+- [Experiment 2](#Experiment%202)
+	- [](#Experiment%202#Experiment%202#Method%7CMethod)
+	- [](#Experiment%202#Experiment%202#Materials%7CMaterials)
+	- [](#Experiment%202#Experiment%202#Analysis%7CAnalysis)
+- [Experiment 3](#Experiment%203)
+- [Observations](#Observations)
 
 ## Intro
-- Summarized in [[journals/2022-10-10]]
+- Summarized in [2022-10-10](journals/2022-10-10.md)
 - Errors involving universal quantification are common in contexts depicting sets of individuals in partial, one-to-one correspondence
 - quantifier-spreading errors are more common with distributive quantifiers each and every than with all.
 - pairs of pictures
@@ -186,12 +187,3 @@ date created: Sunday, October 9th 2022, 3:58:45 pm
 - These findings led Ferreira et al. (2002) to conclude that the meaning people obtain for a sentence is often not a reflection of its true content (p. 11) and that language processing often yields a merely good enough representation of a sentence's meaning
 - This statement is an apt characterization of the performance of many school-age children and adults in our experiments. More generally, the comprehension of universal quantifiers seems an ideal domain for exploring the dynamics of attention allocation, and cognitive effort, in language processing.
 
-## Backlinks
-
-> - [Final Paper LM](Final Paper Language Modeling.md)
->   - [[Shortcuts to Quantifier Interpretation in Children and Adults]]
->    
-> - [](journals/2022-10-09.md)
->   - **03:58** [[Shortcuts to Quantifier Interpretation in Children and Adults]]
-
-_Backlinks last generated 2022-10-25 16:35:51_

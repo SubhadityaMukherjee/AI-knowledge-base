@@ -10,8 +10,3 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - Gen- erated image label is assigned based on semantic composition from normalized (sum to one) CAMs.
 - However, the summation of label coefficients can exceed beyond one depending on the semantic composition of the output image.
 
-## Backlinks
-> - [Image Mixing and Deletion](Image Mixing and Deletion.md)
->   - [[SnapMix]]
-
-_Backlinks last generated 2022-10-09 12:22:37_

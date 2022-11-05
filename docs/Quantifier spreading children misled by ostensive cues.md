@@ -18,7 +18,7 @@ date created: Tuesday, October 25th 2022, 4:18:57 pm
 - When the iconic drawings were replaced by photos taken in a natural environment rich in accidental details, the occurrence of quantifier spreading was radically reduced.
 - It is shown that an extra object in the visual stimulus can lead to the rejection of the sentence also in the case of sentences involving no quantification, which gives further support to the claim that the source of the problem is not (or not only) the grammatical or cognitive difficulty of quantification but the unintended ostensive effect of the extra object.
 - The reason for the unexpected reactions is that the experimental stimulus presented to the child is devoid of any episodic details; it merely contains a few iconic symbols, which suggests to the child that the irrelevant details have been omitted; hence every element of the stimulus, including the one whose relevance the experiment aims to test, is to be interpreted as an ostensive signal, i.e., every element of the stimulus is significant.
-- [[Ostension]]
+- [Ostension](Ostension.md)
 
 ### Quantifier Spreading as an Ostensive Effect
 - The phenomenon
@@ -35,8 +35,8 @@ date created: Tuesday, October 25th 2022, 4:18:57 pm
 - The fact that children have initially access to two interpretations of universally quantified sentences (those of type (3b) and (3a)), one of which is later eliminated, raises a learnability problem, as well – under the assumption that children acquiring their mother tongue only have access to positive evidence.
 - Several experiments on quantifier spreading have shown that the rate of spreading is affected by pragmatic factors, e.g., a rich linguistic or visual context reduces spreading (cf. Crain et al. 1996
 - However, some of the evidence concerning the role of extra elements appears to be contradictory; e.g., in the case of quantifier spreading, both the increasing of the number of extra objects (Freeman, Sinha & Stedmon 1982), and the decreasing of the size of the extra object (Philip 2011: 377) have been found to reduce the proportion of spreading, which has not been given a principled explanation.
-- [[Relevance Account]]
-- [[Salient Object Strategy]]
+- [Relevance Account](Relevance%20Account.md)
+- [Salient Object Strategy](Salient%20Object%20Strategy.md)
 - Quantifier spreading is due to the increased ostensive effect of iconic stimuli
 - We hypothesized that quantifier spreading is elicited in experimental situations where the stimulus is not embedded in a context, and is devoid of episodic details, as a consequence of which it gains a – potentially misleading – concentrated ostensive effect
 - Crucially, however, when the stimulus only contains a few iconic symbols, every one of its elements gains an ostensive effect.
@@ -90,14 +90,9 @@ date created: Tuesday, October 25th 2022, 4:18:57 pm
 - What made the presence of extra objects in the drawings ostensive was the minimality of the drawings, suggesting that everything irrelevant had been eliminated from them.
 
 ## Pictures
-- ![[assets/Pasted image 20221025163053.png]]
-- ![[assets/Pasted image 20221025163108.png]]
-- ![[assets/Pasted image 20221025163121.png]]
-- ![[assets/Pasted image 20221025163136.png]]
-- ![[assets/Pasted image 20221025163152.png]]
+- ![Pasted image 20221025163053](assets/Pasted%20image%2020221025163053.png)
+- ![Pasted image 20221025163108](assets/Pasted%20image%2020221025163108.png)
+- ![Pasted image 20221025163121](assets/Pasted%20image%2020221025163121.png)
+- ![Pasted image 20221025163136](assets/Pasted%20image%2020221025163136.png)
+- ![Pasted image 20221025163152](assets/Pasted%20image%2020221025163152.png)
 
-## Backlinks
-> - [Final Paper LM](Final Paper Language Modeling.md)
->   - [[Quantifier spreading children misled by ostensive cues]]
-
-_Backlinks last generated 2022-10-25 16:35:51_

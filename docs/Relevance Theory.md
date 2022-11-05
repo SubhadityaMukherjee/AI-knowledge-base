@@ -14,9 +14,3 @@ date created: Tuesday, October 25th 2022, 4:29:23 pm
 - As the Principle of Relevance states, communicated information comes with a guarantee of relevance.
 - The higher the cognitive effect of the information, and/or the more economically it is communicated, the greater its relevance.
 
-## Backlinks
-
-> - [Ostension](Ostension.md)
->   - The notion of ostension in [[Relevance Theory]] and in Natural Pedagogy Ostension is a notion of the Relevance Theory of Sperber and Wilson
-
-_Backlinks last generated 2022-10-25 16:35:51_

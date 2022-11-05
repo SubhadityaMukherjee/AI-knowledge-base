@@ -6,5 +6,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Entourage Plot
-- ![[assets/Pasted image 20220506155757.png|im]]
+- ![im](assets/Pasted%20image%2020220506155757.png)
 

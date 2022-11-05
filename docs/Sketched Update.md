@@ -12,8 +12,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Quantize the weights -Improving the quantization by structured random rotations. The above 1-bit and multi-bit quantization approach work best when the scales are approximately equal across different dimensions.
 - In the decoding phase, the server needs to perform the inverse rotation before aggregating all the updates.
 
-## Backlinks
-> - [Federated Updates](Federated Updates.md)
->   - [[Sketched Update]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

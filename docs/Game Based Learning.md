@@ -18,8 +18,3 @@ date modified: Monday, October 10th 2022, 2:02:27 pm
 	- Not a lot of directed, guided
 	- Makes it fun though
 
-## Backlinks
-> - [Gamification](Gamification.md)
->   - [[Game Based Learning]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

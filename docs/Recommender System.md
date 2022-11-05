@@ -7,8 +7,8 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Recommender System
-- [[Group Modeling Approach]]
-- [[Individual Modeling]]
-- [[Collaborative Recommender]]
-- [[Content Based Recommender]]
+- [Group Modeling Approach](Group%20Modeling%20Approach.md)
+- [Individual Modeling](Individual%20Modeling.md)
+- [Collaborative Recommender](Collaborative%20Recommender.md)
+- [Content Based Recommender](Content%20Based%20Recommender.md)
 

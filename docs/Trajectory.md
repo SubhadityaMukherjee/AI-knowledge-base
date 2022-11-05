@@ -5,5 +5,5 @@ date modified: Monday, October 10th 2022, 2:02:15 pm
 ---
 
 # Trajectory
-- In [[Reinforcement Learning|reinforcement learning]], a sequence of tuples that represent a sequence of state transitions of the agent, where each tuple corresponds to the state, action, reward, and next state for a given state transition.
+- In [reinforcement learning](Reinforcement%20Learning.md), a sequence of tuples that represent a sequence of state transitions of the agent, where each tuple corresponds to the state, action, reward, and next state for a given state transition.
 

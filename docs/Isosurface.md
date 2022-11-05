@@ -6,20 +6,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Isosurface
-- ![[assets/Pasted image 20220417235824.png|im]]
-- [[Marching Cubes]]
-- [[Marching Tetrahedra]]
-- [[Fractional Anisotropy]]
-- ![[assets/Screenshot 2022-09-14 at 12.58.34 PM.png]]
+- ![im](assets/Pasted%20image%2020220417235824.png)
+- [Marching Cubes](Marching%20Cubes.md)
+- [Marching Tetrahedra](Marching%20Tetrahedra.md)
+- [Fractional Anisotropy](Fractional%20Anisotropy.md)
+- ![Screenshot 2022-09-14 at 12.58.34 PM](assets/Screenshot%202022-09-14%20at%2012.58.34%20PM.png)
 
-## Backlinks
-> - [Volume [[visualization|Visualization]]](Volume Visualization.md)
->   - [[Isosurface]]
->
-> - [Contours](Contour.md)
->   - [[Isosurface]]
->
-> - [Indirect Volume [[visualization|Visualization]]](Indirect Volume Visualization.md)
->   - [[Isosurface]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

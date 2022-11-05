@@ -5,5 +5,5 @@ date modified: Monday, October 10th 2022, 2:02:27 pm
 ---
 
 # Forward Kinematic Solution
-- The calculation required to find the [[Endpoint|endpoint]] position, given the joint positions. For most robot topologies this is easier than finding the inverse kinematic solution.
+- The calculation required to find the [endpoint](Endpoint.md) position, given the joint positions. For most robot topologies this is easier than finding the inverse kinematic solution.
 

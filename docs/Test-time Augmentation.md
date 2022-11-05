@@ -13,7 +13,7 @@ date modified: Monday, October 10th 2022, 2:02:06 pm
 - promising practice for applications such as medical image diagnosis
 - Radosavovic et al. denote test-time augmentation as data distillation to describe the use of ensembled predictions to get a better representation of the image.
 - They also found better uncertainty estimation when using test-time augmentation, reducing highly confident but incorrect predictions.
-- Matsunaga et al. also demonstrate the effectiveness of test-time augmentation on skin lesion classification, using geometric transformations such as rotation, translation, scaling, and [[flipping]].
+- Matsunaga et al. also demonstrate the effectiveness of test-time augmentation on skin lesion classification, using geometric transformations such as rotation, translation, scaling, and [Flipping](Flipping.md).
 - A robust classifier is thus defined as having a low variance in predictions across augmentations
 - In their experiments searching for augmentations with Reinforcement Learning, Minh et al. measure robustness by distorting test images with a 50% probability and contrasting the accuracy on un-augmented data with the augmented data.
 - Some classification models lie on the fence in terms of their necessity for speed. This suggests promise in developing methods that incrementally upgrade the confidence of prediction. This could be done by first outputting a prediction with little or no testtime augmentation and then incrementally adding test-time augmentations to increase the confidence of the prediction.

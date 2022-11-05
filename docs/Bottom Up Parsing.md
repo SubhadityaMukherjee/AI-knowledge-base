@@ -6,10 +6,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Bottom Up Parsing
-- ![[assets/Pasted image 20220506183325.png|im]]
+- ![im](assets/Pasted%20image%2020220506183325.png)
 
-## Backlinks
-> - [Context Free Grammar](Context Free Grammar.md)
->   - [[Bottom Up Parsing]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

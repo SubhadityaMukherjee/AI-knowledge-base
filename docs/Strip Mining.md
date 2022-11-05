@@ -8,8 +8,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Strip Mining
 - Generates code to allow vector operands whose size is less than or greater than size of vector registers
 
-## Backlinks
-> - [Vector Processor](Vector Processor.md)
->   - [[Strip Mining]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

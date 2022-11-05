@@ -7,16 +7,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Discrete -> Continous Transforms
 
-## [[One hot]]
+## [One hot](One%20hot.md)
 
-## [[Binary pattern]]
+## [Binary pattern](Binary%20pattern.md)
 
-## [[Linear scale]]
+## [Linear scale](Linear%20scale.md)
 
-## [[Word Vectors]]
+## [Word Vectors](Word%20Vectors.md)
 
-## Backlinks
-> - [Encoding](Encodings.md)
->   - ## [[Discrete -> Continuous]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

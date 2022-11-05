@@ -10,16 +10,16 @@ date created: Thursday, October 6th 2022, 10:29:54 am
 - Nunnari, Fabrizio, Md Abdul Kadir, and Daniel Sonntag. 2021. “On the Overlap Between Grad-CAM Saliency Maps and Explainable Visual Features in Skin Cancer Images.” Pp. 241–53 in _Machine Learning and Knowledge Extraction_. Vol. 12844, _Lecture Notes in Computer Science_, edited by A. Holzinger, P. Kieseberg, A. M. Tjoa, and E. Weippl. Cham: Springer International Publishing.
 
 ## TOC
-- [[#Intro|Intro]]
-- [[#Related Work|Related Work]]
-- [[#Classification Architectures and Models|Classification Architectures and Models]]
-- [[#Data Preparation|Data Preparation]]
-- [[#First Experiment|First Experiment]]
-- [[#Second Experiment|Second Experiment]]
-- [[#Observation|Observation]]
-- [[#Discussion|Discussion]]
-- [[#Future Work|Future Work]]
-- [[#Images|Images]]
+- [Intro](#Intro)
+- [Related Work](#Related%20Work)
+- [Classification Architectures and Models](#Classification%20Architectures%20and%20Models)
+- [Data Preparation](#Data%20Preparation)
+- [First Experiment](#First%20Experiment)
+- [Second Experiment](#Second%20Experiment)
+- [Observation](#Observation)
+- [Discussion](#Discussion)
+- [Future Work](#Future%20Work)
+- [Images](#Images)
 
 ## Intro
 - Dermatologists recognize melanomas by inspecting images in which they identify human-comprehensible visual features.
@@ -28,8 +28,8 @@ date created: Thursday, October 6th 2022, 10:29:54 am
 - to what extent saliency maps can be used to identify visual features of skin lesions
 
 ## Related Work
-- [[ISIC 2018]]
-- [[RISE]]
+- [ISIC 2018](ISIC%202018.md)
+- [RISE](RISE.md)
 - Jahanifar et al. also propose a modified DRFI (Discriminative Regional Feature Integration) technique for a similar task for multi-level segmentation task
 - By combining multiple segmentation masks, they produce a more accurate mask.
 - During the generation of the mask, they use a threshold value of 0.5, but they did not provide a reason for which they choose this value.
@@ -83,10 +83,5 @@ date created: Thursday, October 6th 2022, 10:29:54 am
 - As future work, we could consider performing saliency normalization according to global statistics (mean and variance) on the tested set.
 
 ## Images
-- ![[assets/Pasted image 20221006103042.png]]
+- ![Pasted image 20221006103042](assets/Pasted%20image%2020221006103042.png)
 
-## Backlinks
-> - [](journals/2022-10-06.md)
->   - [[On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images]]
-
-_Backlinks last generated 2022-10-06 14:20:33_

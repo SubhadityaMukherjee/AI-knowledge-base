@@ -11,18 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Never self instersect
 - Nested
 - Contours cut the plane into values smaller or larger than the isovalue c
-- [[Isoline]]
-- [[Isosurface]]
-- [[Countouring with Transparency]]
+- [Isoline](Isoline.md)
+- [Isosurface](Isosurface.md)
+- [Countouring with Transparency](Countouring%20with%20Transparency.md)
 
-## Backlinks
-> - [Mapping to Geometry](Mapping to Geometry.md)
->   - [[Contour]]
->
-> - [Region Growing](Region Growing.md)
->   - Leakage through holes in [[Contour]]
->
-> - [Isoline](Isoline.md)
->   - [[Contour]] line
-
-_Backlinks last generated 2022-10-04 13:01:19_

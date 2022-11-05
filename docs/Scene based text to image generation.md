@@ -13,6 +13,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - introducing elements that substantially improve the tokenization process by employing domain-specific knowledge over key image regions
 - adapting classifier-free guidance for the transformer use case
 - They attempt to progress text-to-image generation towards a more interactive experience, where people can perceive more control over the generated outputs, thus enabling real-world applications such as storytelling
-- focus on improving key image aspects that are significant in human [[Perception|perception]], such as faces and salient objects, resulting in higher favorability of their method in human evaluations and objective metrics
+- focus on improving key image aspects that are significant in human [perception](Perception.md), such as faces and salient objects, resulting in higher favorability of their method in human evaluations and objective metrics
 - Through scene controllability, they introduce several new capabilities: (i) scene editing, (ii) text editing with anchor scenes, (iii) overcoming out-of-distribution text prompts, and (iv) story illustration generation
 

@@ -5,9 +5,9 @@ date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Contrastive [[loss|Loss]]
-- Minimize distance between similar inputs [[Gradient Descent gradients]], maximize between dissimilar [[Gradient Ascent]]
-- Learn [[Embedding]]/Feature space using neighbors
+# Contrastive [Loss](loss.md)
+- Minimize distance between similar inputs [Gradient Descent gradients](Gradient%20Descent%20gradients.md), maximize between dissimilar [Gradient Ascent](Gradient%20Ascent.md)
+- Learn [Embedding](Embedding.md)/Feature space using neighbors
 - dim(Embedding d) < dim(input Space D)
 - Encoded using a learnable function(NN) $$G_\theta(x) : \mathcal{R}^D \rightarrow \mathcal{R}^d$$
 - Binary labels : similar or not
@@ -16,14 +16,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- m is enforced margin between similar and dissimilar (m>0)
 	- Labeled points $$(y,x_1,x_2)$$ are generated
 
-## Backlinks
-> - [Semi Supervised](Semi Supervised.md)
->   - [[Contrastive Loss]]
->
-> - [NCE](NCE.md)
->   - [[Contrastive Loss]]
->
-> - [Feature Learning](Feature Learning.md)
->   - [[Contrastive Loss]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

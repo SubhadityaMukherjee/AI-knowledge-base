@@ -9,10 +9,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 # Individual Modeling
 - More personalized
 - Less data per category
-- [[Ramp up problem]]
+- [Ramp up problem](Ramp%20up%20problem.md)
 
-## Backlinks
-> - [[Recommender System]]
->   - [[.md|Individual Modeling]]
-
-_Backlinks last generated 2022-10-03 15:37:32_

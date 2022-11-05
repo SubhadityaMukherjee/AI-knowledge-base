@@ -7,7 +7,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Precision Recall Curve
-- [[Precision]] + [[Recall]]
+- [Precision](Precision.md) + [Recall](Recall.md)
 - appropriate when dataset imbalanced
 - no-skill line changes based on the distribution of the positive to negative classes
     - horizontal line with the value of the ratio of positive cases in the dataset

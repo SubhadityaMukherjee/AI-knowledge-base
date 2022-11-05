@@ -14,9 +14,3 @@ date modified: Monday, October 10th 2022, 2:02:06 pm
 - Additionally another loss function is incorporated into Network-A to ensure that its outputs are similar to others within the class. Network-A uses a series of convolutional layers to produce the augmented image
 - The conceptual framework of Network-A can be expanded to use several Networks trained in parallel. Multiple Network-As could be very useful for learning class-specific augmentations via meta-learning
 
-## Backlinks
-
-> - [Data Augmentation with Curriculum Learning](A survey on Image Data Augmentation for Deep Learning.md)
->   - [[Smart Augmentation]]
-
-_Backlinks last generated 2022-10-12 10:22:04_

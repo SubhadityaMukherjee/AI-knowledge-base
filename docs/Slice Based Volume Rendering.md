@@ -7,10 +7,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Slice Based Volume Rendering
 - assign transparency inversely proportional to the number of slices
-- ![[assets/Pasted image 20220418002454.png|im]]
+- ![im](assets/Pasted%20image%2020220418002454.png)
 
-## Backlinks
-> - [Raycasting](Raycasting.md)
->   - [[Slice Based Volume Rendering]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

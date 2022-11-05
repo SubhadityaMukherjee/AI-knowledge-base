@@ -11,10 +11,10 @@ date created: Tuesday, October 4th 2022, 12:45:01 pm
 - Julien Musolino : Rutgers, The State University of New Jersey, Psychology, Piscataway, United States
 
 ## TOC
-- [[#Intro|Intro]]
-- [[#Findings|Findings]]
-- [[#Judgment Task with Ambiguous Sentences|Judgment Task with Ambiguous Sentences]]
-- [[#Ambiguous Sentences That Yield Either Interpretation.|Ambiguous Sentences That Yield Either Interpretation.]]
+- [Intro](#Intro)
+- [Findings](#Findings)
+- [Judgment Task with Ambiguous Sentences](#Judgment%20Task%20with%20Ambiguous%20Sentences)
+- [Ambiguous Sentences That Yield Either Interpretation.](#Ambiguous%20Sentences%20That%20Yield%20Either%20Interpretation.)
 
 ## Intro
 - Sentences containing plural numerical expressions (e.g., two boys) can give rise to two interpretations (collective and distributive), arising from the fact that their representation admits of a part-whole structure

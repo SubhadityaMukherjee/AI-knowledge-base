@@ -10,8 +10,3 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - various image regions are deleted, and they can be connected or disconnected from each other
 - Values in turned-off regions are replaced with the average of all the pixel values in the entire dataset.
 
-## Backlinks
-> - [Image Mixing and Deletion](Image Mixing and Deletion.md)
->   - [[Hide and Seek]]
-
-_Backlinks last generated 2022-10-09 12:22:37_

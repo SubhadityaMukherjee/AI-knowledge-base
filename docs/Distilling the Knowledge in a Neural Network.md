@@ -10,12 +10,12 @@ date created: Tuesday, October 4th 2022, 12:50:52 pm
 - Geoffrey Hinton, Oriol Vinyals, Jeff Dean
 
 ## TOC
-- [[#Intro|Intro]]
-- [[#Observations|Observations]]
-- [[#Automatic Speech Recognition|Automatic Speech Recognition]]
-- [[#JFT|JFT]]
-- [[#Conclusions|Conclusions]]
-- [[#Backlinks|Backlinks]]
+- [Intro](#Intro)
+- [Observations](#Observations)
+- [Automatic Speech Recognition](#Automatic%20Speech%20Recognition)
+- [JFT](#JFT)
+- [Conclusions](#Conclusions)
+- [Backlinks](#Backlinks)
 
 ## Intro
 - compress the knowledge in an ensemble into a single model which is much easier to deploy
@@ -63,8 +63,3 @@ date created: Tuesday, October 4th 2022, 12:50:52 pm
 - We have shown that distilling works very well for transferring knowledge from an ensemble or from a large highly regularized model into a smaller, distilled model.
 - For really big neural networks, it can be infeasible even to train a full ensemble, but we have shown that the performance of a single really big net that has been trained for a very long time can be significantly improved by learning a large number of specialist nets, each of which learns to discriminate between the classes in a highly confusable cluster. We have not yet shown that we can distill the knowledge in the specialists back into the single large net.
 
-## Backlinks
-> - [Knowledge Distillation](Knowledge Distillation.md)
->   - [[Distilling the Knowledge in a Neural Network]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

@@ -73,8 +73,3 @@ def parallel(func, arr: Collection, max_workers: int = None, leave=False):  # %t
 
 ```
 
-## Backlinks
-> - [Useful Codes](Useful Codes.md)
->   - [[Parallel Runner]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

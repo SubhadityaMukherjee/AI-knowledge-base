@@ -16,9 +16,3 @@ date created: Tuesday, October 25th 2022, 4:27:23 pm
 - Adults rely on their world knowledge in identifying the presupposed set
 - As formulated in the Normal World Constraint, "if an object is contextually relevant, then there is a normal situation that it is part of."
 
-## Backlinks
-
-> - [Quantifier Spreading Children Misled by Ostensive Cues](Quantifier spreading children misled by ostensive cues.md)
->   - [[Relevance Account]]
-
-_Backlinks last generated 2022-10-25 16:35:51_

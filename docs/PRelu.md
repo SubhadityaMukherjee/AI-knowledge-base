@@ -5,12 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Parametric [[Relu]]
+# Parametric [Relu](Relu.md)
 - $$max(\alpha x,x)$$
-- ![[assets/Pasted image 20220626151705.png]]
+- ![Pasted image 20220626151705](assets/Pasted%20image%2020220626151705.png)
 
-## Backlinks
-> - [Relu](Relu.md)
->   - [[PRelu]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

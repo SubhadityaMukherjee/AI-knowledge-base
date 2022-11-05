@@ -6,6 +6,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Seg Net
-- Precursor to [[Unet]]
+- Precursor to [Unet](Unet.md)
 - No Skip connections
 

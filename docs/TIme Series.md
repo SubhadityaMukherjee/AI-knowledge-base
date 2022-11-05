@@ -22,17 +22,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Short range
 	- PDE , ODE
 - Long range
-	- [[HMM]]
-	- [[Recurrent]]
+	- [HMM](HMM)
+	- [Recurrent](Recurrent.md)
 
-## Backlinks
-> - [Causal Systems](Causal Systems.md)
->   - [[TIme Series]]
->
-> - [Autoregressive](Autoregressive.md)
->   - predict the future by past of [[TIme Series]]
->
-> - [Window Based Regression](Window Based Regression.md)
->   - [[TIme Series]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

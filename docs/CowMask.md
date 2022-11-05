@@ -13,8 +13,3 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - Gaussian filter is applied to remove noise before thresholding.
 - Pixel values below the threshold are either erased or replaced by the pixel values of the randomly selected image at the corresponding locations.
 
-## Backlinks
-> - [Image Mixing and Deletion](Image Mixing and Deletion.md)
->   - [[CowMask]]
-
-_Backlinks last generated 2022-10-09 12:22:37_

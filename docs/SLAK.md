@@ -14,15 +14,15 @@ date created: Sunday, October 23rd 2022, 4:56:57 pm
 
 - The dominant role of convolutional neural networks (CNNs) seems to be challenged by increasingly effective transformer-based models.
 - advanced convolutional models strike back with large ker- nels motivated by the local-window attention mechanism, showing appealing perfor- mance and efficiency
-- [[RepLKNet]]
+- [RepLKNet](RepLKNet.md)
 - This study ends up with a recipe for applying extremely large kernels from the perspective of sparsity, which can smoothly scale up kernels to 61×61 with better performance
 - Built on this recipe, we propose Sparse Large Kernel Network (SLaK), a pure CNN architec- ture equipped with sparse factorized 51×51 kernels that can perform on par with or better than state-of-the-art hierarchical Transformers and modern ConvNet architec- tures like ConvNeXt and RepLKNet
 
 ## RELATED WORK
-- [[Large Kernel in Attention]]
-- [[Large Kernel in Convolution]]
-- [[Dynamic Sparsity]]
-- [[Sparse Evolutionary Training]]
+- [Large Kernel in Attention](Large%20Kernel%20in%20Attention.md)
+- [Large Kernel in Convolution](Large%20Kernel%20in%20Convolution.md)
+- [Dynamic Sparsity](Dynamic%20Sparsity.md)
+- [Sparse Evolutionary Training](Sparse%20Evolutionary%20Training.md)
 
 ## FAILURES OF EXISTING APPROACHES TO GO BEYOND 31x31 KERNELS
 - It is important to note that all models are trained for a reduced length of 120 epochs in this section, just to sketch the scaling trends of large kernel sizes.
@@ -117,9 +117,3 @@ date created: Sunday, October 23rd 2022, 4:56:57 pm
 - Once this great potential is supported in the future, it can have a significant positive impact on our planet by saving a huge amount of energy and reducing overall total carbon emissions.
 - Although not the focus of this current work, it would be interesting for future work to examine the speedup of sparse large kernels, using such specialized hardware accelerators, as we see much improvement room of promise here.
 
-## Backlinks
-
-> - [](journals/2022-10-23.md)
->   - **04:56** [[SLAK]]
-
-_Backlinks last generated 2022-10-25 16:35:51_

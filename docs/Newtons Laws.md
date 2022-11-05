@@ -7,7 +7,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Newtons Laws
-- [[Inertia]]
-- [[Force]]
-- [[Equal And Opposite Force Pairs]]
+- [Inertia](Inertia.md)
+- [Force](Force.md)
+- [Equal And Opposite Force Pairs](Equal%20And%20Opposite%20Force%20Pairs.md)
 

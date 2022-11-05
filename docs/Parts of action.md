@@ -10,8 +10,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - She left on an early morning flight.
 - Taking a flight should be recognized as part of going on a trip.
 
-## Backlinks
-> - [Pragmatics](Pragmatics.md)
->   - [[Parts of action]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

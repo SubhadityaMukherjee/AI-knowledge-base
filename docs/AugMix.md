@@ -13,8 +13,3 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - The output of these three chains is three images mixed to form a new image.
 - This new image is later mixed with the original image to generate the final augmented output image,
 
-## Backlinks
-> - [Image Mixing and Deletion](Image Mixing and Deletion.md)
->   - [[AugMix]]
-
-_Backlinks last generated 2022-10-09 12:22:37_

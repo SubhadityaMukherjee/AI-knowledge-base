@@ -17,8 +17,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$T(s_{1}, s_{2}) = e^{-\int_{s_{1}}^{s_{2}}\kappa(s')ds'}$$
 - $$L_{1}^{n}= g(n)+T(n)L_{1}^{n-1}$$
 
-## Backlinks
-> - [Raycasting](Raycasting.md)
->   - [[Volume Rendering Equation]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

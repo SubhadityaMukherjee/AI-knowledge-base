@@ -15,9 +15,3 @@ date created: Wednesday, October 12th 2022, 4:38:39 pm
 - Grouped in this category as well is exploiting neural networks with activation atlases through feature inversion. This method can reveal how the network typically represents some concepts
 - Considering image or text portions that maximize the activation of interesting neurons or whole layers can lead to the interpretation of the responsible area of individual parts of the architecture.
 
-## Backlinks
-
-> - [Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey](Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md)
->   - [[Salience Map]]
-
-_Backlinks last generated 2022-10-12 16:45:05_

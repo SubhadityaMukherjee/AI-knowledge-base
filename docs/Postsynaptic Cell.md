@@ -5,5 +5,5 @@ date modified: Monday, October 10th 2022, 2:02:19 pm
 ---
 
 # Postsynaptic Cell
-- The neuron on the receiving end of a nerve [[Impulse|impulse]] transmitted from another neuron.
+- The neuron on the receiving end of a nerve [impulse](Impulse.md) transmitted from another neuron.
 

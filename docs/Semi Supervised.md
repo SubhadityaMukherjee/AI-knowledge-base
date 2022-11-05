@@ -8,14 +8,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Semi Supervised
 - Obtain weak labels instead of class labels
 - Eg: "similar"
-- [[Contrastive Loss]]
-- [[Triplet Loss]]
-- [[Max Margin Loss]]
+- [Contrastive Loss](Contrastive%20Loss.md)
+- [Triplet Loss](Triplet%20Loss.md)
+- [Max Margin Loss](Max%20Margin%20Loss.md)
 
 #anchor
 
-## Backlinks
-> - [Fundamentals](Fundamentals.md)
->   - [[Semi Supervised]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

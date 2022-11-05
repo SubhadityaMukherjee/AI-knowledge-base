@@ -5,12 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:27 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Front to Back [[Raycasting]]
-- ![[assets/Pasted image 20220418002010.png|im]]
-- [[Color Compositing]]
+# Front to Back [Raycasting](Raycasting.md)
+- ![im](assets/Pasted%20image%2020220418002010.png)
+- [Color Compositing](Color%20Compositing.md)
 
-## Backlinks
-> - [Raycasting](Raycasting.md)
->   - [[Front to Back Raycasting]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

@@ -6,7 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# [[fastai|Fastai]] Blocks
+# [Fastai](fastai.md) Blocks
 
 ## Building Blocks
 ```python
@@ -66,10 +66,10 @@ learn = tabular_learner(dls, metrics=accuracy)
 learn.fit_one_cycle(2)
 ```
 
-- [[Fitting]] because pretrained models are not going to be there
+- [Fitting](Fitting.md) because pretrained models are not going to be there
 
 ```python
-# Collaborative [[Filtering]]
+# Collaborative [Filtering](Filtering.md)
 dls = CollabDataLoaders.from_csv(path/'ratings.csv')
 learn = collab_learner(dls, y_range=(0.5,5.5))
 learn.fine_tune(8)
@@ -82,8 +82,3 @@ learn.fine_tune(8)
 learn.export('model.pkl')
 ```
 
-## Backlinks
-> - [Fastai](fastai.md)
->   - [[Fastai Blocks]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

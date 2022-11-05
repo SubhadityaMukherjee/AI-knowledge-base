@@ -8,8 +8,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Corpus Callosum
 - bundle of fibers that transmits messages from one side to the other
 
-## Backlinks
-> - [Cerebrum](Cerebrum.md)
->   - Divided by [[Corpus callosum]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

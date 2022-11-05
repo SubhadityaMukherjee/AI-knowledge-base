@@ -7,8 +7,3 @@ date modified: Monday, October 10th 2022, 2:02:22 pm
 # Microglia
 - A small, specialized glial cell that operates as the first line of immune defense in the central nervous system.
 
-## Backlinks
-> - [Glia](Glia.md)
->   - [[Microglia]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

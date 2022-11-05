@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Rmsprop
 - RL
-- More stable than [[Adagrad]]
+- More stable than [Adagrad](Adagrad.md)
 - Moving exponential avg : older grads given less weight
 - $$\begin{align}\\
 
@@ -20,14 +20,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 $$
 - Suggested $\gamma=0.9$ and $\eta= 0.001$
 
-## Backlinks
-> - [Adam](Adam.md)
->   - [[Rmsprop]] + Momentum
->
-> - [Optimization](Optimizers.md)
->   - [[Rmsprop]]
->
-> - [Gradient Descent #gradients](Gradient Descent gradients.md)
->   - [[Rmsprop]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

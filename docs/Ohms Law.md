@@ -5,8 +5,8 @@ date modified: Monday, October 10th 2022, 2:02:20 pm
 ---
 
 # Ohms Law
- - Potential difference = current x [[Resistance|resistance]]
+ - Potential difference = current x [resistance](Resistance.md)
  - $$V= IR$$
- - Ohm's Law applied to the full circuit: Electromotive [[Force|force]] = current x (sum of the circuit [[Resistance|resistance]] and the internal [[Resistance|resistance]] of the cell)
+ - Ohm's Law applied to the full circuit: Electromotive [force](Force.md) = current x (sum of the circuit [resistance](Resistance.md) and the internal [resistance](Resistance.md) of the cell)
  - $$EMF = I(R+r)$$
 

@@ -20,10 +20,5 @@ date created: Tuesday, October 4th 2022, 11:53:11 am
 - (Wei et al., 2019) proposed a novel online knowledge distillation method, which addresses the unstableness of the training process and the decreasing performance on each validation set.
 - The proposed pre- trained distillation performs well in sentiment classifi- cation, natural language inference, textual entailment. For a multi-task distillation in the context of natu- ral language understanding, Clark et al. (2019) pro- posed the single-multi born-again distillation, which is based on born-again neural networks (Furlanello et al., 2018).
 - In (Perez et al., 2020), a audio-visual multi- modal knowledge distillation method is proposed. knowl- edge is transferred from the teacher models on visual and acoustic data into a student model on audio data.
-- Pan et al. (2019) designed a enhanced collaborative [[Denoising Autoencoder|denoising autoencoder]] (ECAE) model for recommender systems via knowledge distillation to capture useful knowledge from user feedbacks and to reduce noise. The unified ECAE framework contains a generation network, a retraining network and a distillation layer that trans- fers knowledge and reduces noise from the generation network.
+- Pan et al. (2019) designed a enhanced collaborative [denoising autoencoder](Denoising%20Autoencoder.md) (ECAE) model for recommender systems via knowledge distillation to capture useful knowledge from user feedbacks and to reduce noise. The unified ECAE framework contains a generation network, a retraining network and a distillation layer that trans- fers knowledge and reduces noise from the generation network.
 
-## Backlinks
-> - [Feature Based Knowledge](Feature Based Knowledge.md)
->   - [[Applications of Knowledge Distillation]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

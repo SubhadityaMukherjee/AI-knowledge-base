@@ -76,6 +76,13 @@
         "a": 1,
         "rgb": 16711680
       }
+    },
+    {
+      "query": "tag:#robotics",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
     }
   ],
   "collapse-display": true,
@@ -88,6 +95,6 @@
   "repelStrength": 15.1068239795918,
   "linkStrength": 1,
   "linkDistance": 53,
-  "scale": 0.05444737763467496,
+  "scale": 0.10002621977818417,
   "close": false
 }

@@ -6,14 +6,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # AutoEncoder
-- ![[assets/Pasted image 20220310204652.png|im]]
+- ![im](assets/Pasted%20image%2020220310204652.png)
 - Regression by predicting a reconstruction of the data
 - Encoder $$E : \mathscr{X} \rightarrow \mathscr{F}$$
 - Decoder $$\mathscr{F} \rightarrow \mathscr{D}$$
 - $$E_\theta, D_\theta = argmin_{E_\theta, D\theta}||X-D(E(X))||^2$
-	- Learn using [[Gradient Descent gradients]]
+	- Learn using [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
 - Compressed rep of data -> Good for Classification or Regression
-- [[MSE]] : Unsupervised
+- [MSE](MSE.md) : Unsupervised
 
 ## Difficulties
 - dim $\mathscr{F} \lt \mathscr{X}$
@@ -27,14 +27,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
     - contractive autoencoder
 
 ## Types
-- [[Denoising Autoencoder]]
-- [[VAE]]
+- [Denoising Autoencoder](Denoising%20Autoencoder.md)
+- [VAE](VAE.md)
 
-## Backlinks
-> - [Unsupervised Learning](Unsupervised Learning.md)
->   - [[Auto Encoders]]
->
-> - [Masked Autoencoders](Masked Autoencoders.md)
->   - [[ImageNet]] and in [[Transfer Learning]] that an [[Auto Encoders]] —- a simple self-supervised method similar to techniques in NLP – provides scalable benefits
-
-_Backlinks last generated 2022-10-04 13:01:19_

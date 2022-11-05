@@ -20,7 +20,7 @@ date created: Wednesday, October 12th 2022, 4:49:06 pm
 
 ## Introduction
 - eye movements of listeners were recorded to investigate the representation of collective vs. distributive interpretations of plural subjects in light of the Minimal Semantic Commitment (MSC) hypothesis
-- [[Minimal Semantic Commitment]]
+- [Minimal Semantic Commitment](Minimal%20Semantic%20Commitment.md)
 - The crucial difference between these two proposed representation types is that an ambiguous representation forces a decision about an interpretation, while a vague representation tolerates unspecified features.
 - Given the prediction that an ambiguous item will prompt the processor to converge on one interpretation even in the absence of disambiguating information, we tested whether sentences underdetermined for collectivity / distributivity would nonetheless cause listeners to converge on a single interpretation.
 - Rather than relying on processing times to infer representational commitments, we employed the visual world paradigm to track which representations subjects considered over the course of hearing a sentence
@@ -44,14 +44,5 @@ date created: Wednesday, October 12th 2022, 4:49:06 pm
 - The results also indicate that this processing commitment is essentially immediate; i.e., as soon as listeners begin hearing the ambiguous predicate, they show a preference for the collective interpretation.
 
 ## Pictures
-- ![[assets/Pasted image 20221012165526.png]]
+- ![Pasted image 20221012165526](assets/Pasted%20image%2020221012165526.png)
 
-## Backlinks
-
-> - [Final Paper LM](Final Paper Language Modeling.md)
->   - [[A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets]]
->    
-> - [](journals/2022-10-12.md)
->   - **04:48** [[A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets]]
-
-_Backlinks last generated 2022-10-28 18:09:02_

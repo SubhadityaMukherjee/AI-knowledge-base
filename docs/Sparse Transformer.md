@@ -6,12 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:16 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Sparse [[Transformer]]
+# Sparse [Transformer](Transformer.md)
 - [paper](https://arxiv.org/abs/1904.10509v1)
-- Uses [[Strided Attention]]
+- Uses [Strided Attention](Strided%20Attention.md)
 
-## Backlinks
-> - [Fixed Factorization [[Attention]]](Fixed Factorization Attention.md)
->   - Part of [[Sparse Transformer]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

@@ -25,7 +25,7 @@ def predict(img):
     return {labels[i]: float(probs[i]) for i in range(len(labels))}
 
 title = "Pet Breed Classifier"
-description = "A pet breed classifier trained on the Oxford Pets dataset with [[fastai]]. Created as a demo for Gradio and HuggingFace Spaces."
+description = "A pet breed classifier trained on the Oxford Pets dataset with [fastai](fastai.md). Created as a demo for Gradio and HuggingFace Spaces."
 article="<p style='text-align: center'><a href='https://tmabraham.github.io/blog/gradio_hf_spaces_tutorial' target='_blank'>Blog post</a></p>"
 examples = ['siamese.jpg']
 interpretation='default'
@@ -34,8 +34,3 @@ enable_queue=True
 gr.Interface(fn=predict,inputs=gr.inputs.Image(shape=(512, 512)),outputs=gr.outputs.Label(num_top_classes=3),title=title,description=description,article=article,examples=examples,interpretation=interpretation,enable_queue=enable_queue).launch()
 ```
 
-## Backlinks
-> - [[[fastai|Fastai]] Deployment](Fastai Deployment.md)
->   - [[Gradio]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

@@ -9,8 +9,3 @@ date modified: Monday, October 10th 2022, 2:02:17 pm
 - Simulators of real world tasks
 - Eg: response simulator, kerbal space program, sustainable energy management
 
-## Backlinks
-> - [Gamification](Gamification.md)
->   - [[Serious Games]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

@@ -16,8 +16,3 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - xnew = G.xa + (1 − G).xb
 - ynew = λ.ya + (1 − λ).yb
 
-## Backlinks
-> - [Image Mixing and Deletion](Image Mixing and Deletion.md)
->   - [[SmoothMix]]
-
-_Backlinks last generated 2022-10-09 12:22:37_

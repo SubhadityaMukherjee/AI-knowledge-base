@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Another feature or cue (bell), becomes Conditioned Stimulus (CS)
 - A response that indicates association (salvation)
 - The unconditioned stimulus is what we want to predict, our outcome
-- Conditioned Stimuli or cues are the [[Features|features]] we are learning to use to predict the outcome (US)
+- Conditioned Stimuli or cues are the [features](Features.md) we are learning to use to predict the outcome (US)
 - Current Vector V t ij changes with each learning instance
 - $$V_{ij}^{t+1}= V_{ij}^{t}+ \Delta V_{ij}^{t}$$
 - $$\Delta V_{ij}^{t}=(1-\text{connection weight}_{j}^{t})$$

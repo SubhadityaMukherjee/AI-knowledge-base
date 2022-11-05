@@ -7,19 +7,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Continous -> Discrete
 
-## [[Binning]]
+## [Binning](Binning.md)
 
-## [[Hierarchial Refinement]]
+## [Hierarchial Refinement](Hierarchial%20Refinement.md)
 
-## [[Vector Quantization]]
+## [Vector Quantization](Vector%20Quantization.md)
 
-## [[Neural Dynamics]]
+## [Neural Dynamics](Neural%20Dynamics.md)
 
-## Backlinks
-> - [Encoding](Encodings.md)
->   - ## [[Continous -> Discrete]]
->
-> - [Neural Dynamics](Neural Dynamics.md)
->   - [[Continous -> Discrete]] seq of words
-
-_Backlinks last generated 2022-10-04 13:01:19_

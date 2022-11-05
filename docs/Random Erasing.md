@@ -12,8 +12,3 @@ date modified: Monday, October 10th 2022, 2:00:29 pm
 - Additional to this, random erasing provides region-aware deletion for object detection and person identification tasks
 - Regions inside the object bounding boxes are randomly erased to generate occlusions
 
-## Backlinks
-> - [Image Mixing and Deletion](Image Mixing and Deletion.md)
->   - [[Random Erasing]]
-
-_Backlinks last generated 2022-10-09 12:22:37_

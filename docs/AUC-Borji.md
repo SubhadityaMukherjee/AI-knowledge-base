@@ -14,8 +14,3 @@ date created: Thursday, October 6th 2022, 1:40:10 pm
 - "TPR is calculated in the same way as AUC-Judd"
 - "location-based metric"
 
-## Backlinks
-> - [Influence of Image Classification Accuracy on Saliency Map Estimation](Influence of image classification accuracy on saliency map estimation.md)
->   - [[AUC-Borji]]
-
-_Backlinks last generated 2022-10-06 14:20:33_

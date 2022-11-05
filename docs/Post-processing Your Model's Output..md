@@ -7,5 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:19 pm
 # Post-processing Your Model's Output.
 - Altering the loss function to incorporate a penalty for violating a fairness metric.
 - Directly adding a mathematical constraint to an optimization problem.
-- A synthetic feature formed by crossing (taking a Cartesian product of) individual binary features obtained from categorical data or from continuous features via [[Bucketing|bucketing]]. Feature crosses help represent nonlinear relationships.
+- A synthetic feature formed by crossing (taking a Cartesian product of) individual binary features obtained from categorical data or from continuous features via [bucketing](Bucketing.md). Feature crosses help represent nonlinear relationships.
 

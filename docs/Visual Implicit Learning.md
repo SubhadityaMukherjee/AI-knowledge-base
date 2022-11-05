@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Does ability to learn implicit dependencies correlate with ability to correctly predict the next word in speech?
 - Participants saw a sequence of colors light up on screen
 - They then had to reproduce it by clicking on the same sequence
-- Auditory Only Sentence [[Perception]]
+- Auditory Only Sentence [Perception](Perception.md)
 - 25 highly predictable and 25 zero-predictability sentences
 - acoustically degraded by processing them with a sinewave vocoder to 6 channels
 - Ability to pick up/learn statistical dependencies seems almost to be a new cognitive function

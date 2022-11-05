@@ -11,8 +11,3 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - scaling down (scale rate is sampled from a uniform dis- tribution) the selected image completely and past- ing it randomly on the target image
 - modified labels of the output image are always accurate and proportionate to the mixing.
 
-## Backlinks
-> - [Image Mixing and Deletion](Image Mixing and Deletion.md)
->   - [[ResizeMix]]
-
-_Backlinks last generated 2022-10-09 12:22:37_

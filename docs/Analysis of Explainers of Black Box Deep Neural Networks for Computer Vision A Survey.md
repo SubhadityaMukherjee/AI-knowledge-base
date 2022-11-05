@@ -12,35 +12,29 @@ date created: Wednesday, October 12th 2022, 4:11:22 pm
 ```
 
 ## Explaining Systems
-- [[GAM]]
-- [[Partial Dependence Plot]]
-- [[Salience Map]]
-- [[Explanator]]
-- [[Comprehensibility]]
-- [[Causality]]
-- [[Causability]]
-- [[Bayesian Rule List]]
-- [[TREPAN]]
+- [GAM](GAM.md)
+- [Partial Dependence Plot](Partial%20Dependence%20Plot.md)
+- [Salience Map](Salience%20Map.md)
+- [Explanator](Explanator.md)
+- [Comprehensibility](Comprehensibility.md)
+- [Causality](Causality.md)
+- [Causability](Causability.md)
+- [Bayesian Rule List](Bayesian%20Rule%20List.md)
+- [TREPAN](TREPAN.md)
 
 ## Selected DNN Explainers
-- [[Counterfactual Impact Evaluation]]
-- [[DeconvNet]]
-- [[Layerwise Relevance Propagation]]
-- [[Parent Approximations]]
-- [[RETAIn]]
-- [[SP-LIME]]
-- [[Deep Visual Explanation]]
-- [[Prediction Difference Analysis]]
-- [[Smooth-Grad]]
-- [[Multimodal Explanation]]
-- [[Summit]]
-- [[DeepFool]]
-- [[DeconvNet]]
-- [[LIME]]
+- [Counterfactual Impact Evaluation](Counterfactual%20Impact%20Evaluation.md)
+- [DeconvNet](DeconvNet.md)
+- [Layerwise Relevance Propagation](Layerwise%20Relevance%20Propagation.md)
+- [Parent Approximations](Parent%20Approximations.md)
+- [RETAIn](RETAIn.md)
+- [SP-LIME](SP-LIME.md)
+- [Deep Visual Explanation](Deep%20Visual%20Explanation.md)
+- [Prediction Difference Analysis](Prediction%20Difference%20Analysis.md)
+- [Smooth-Grad](Smooth-Grad.md)
+- [Multimodal Explanation](Multimodal%20Explanation.md)
+- [Summit](Summit.md)
+- [DeepFool](DeepFool.md)
+- [DeconvNet](DeconvNet.md)
+- [LIME](LIME.md)
 
-## Backlinks
-
-> - [](journals/2022-10-12.md)
->   - **04:10* [[Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey]]
-
-_Backlinks last generated 2022-10-14 17:20:08_

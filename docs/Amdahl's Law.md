@@ -17,8 +17,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$MaximumSpeedupp = n/(1+(n-1)f )$$
 	- n is no of processors
 
-## Backlinks
-> - [SIMD](SIMD.md)
->   - Limited by [[Amdahl's Law]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

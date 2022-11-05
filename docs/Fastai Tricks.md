@@ -35,8 +35,3 @@ learns = [ensemble() for _ in range(5)]
 ens_preds = torch.stack(learns).mean(0) # stack and mean
 ```
 
-## Backlinks
-> - [Fastai](fastai.md)
->   - [[Fastai Tricks]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

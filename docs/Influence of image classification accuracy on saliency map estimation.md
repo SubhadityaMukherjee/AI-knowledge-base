@@ -10,15 +10,15 @@ date created: Thursday, October 6th 2022, 1:01:31 pm
 - Oyama, Taiki, and Takao Yamanaka. 2018. “Influence of Image Classification Accuracy on Saliency Map Estimation.” _CAAI Transactions on Intelligence Technology_ 3(3):140–52. doi: [10.1049/trit.2018.1012](https://doi.org/10.1049/trit.2018.1012).
 
 ## TOC
-- [[#Related Work|Related Work]]
-- [[#Components of Readout Net|Components of Readout Net]]
-	- [[#Components of Readout Net#DC|DC]]
-	- [[#Components of Readout Net#SPC|SPC]]
-	- [[#Components of Readout Net#BI|BI]]
-- [[#Datasets|Datasets]]
-- [[#Metrics|Metrics]]
-- [[#Conclusions|Conclusions]]
-- [[#Images|Images]]
+- [Related Work](#Related%20Work)
+- [Components of Readout Net](#Components%20of%20Readout%20Net)
+	- [](#Components%20of%20Readout%20Net#Components%20of%20Readout%20Net#DC%7CDC)
+	- [](#Components%20of%20Readout%20Net#Components%20of%20Readout%20Net#SPC%7CSPC)
+	- [](#Components%20of%20Readout%20Net#Components%20of%20Readout%20Net#BI%7CBI)
+- [Datasets](#Datasets)
+- [Metrics](#Metrics)
+- [Conclusions](#Conclusions)
+- [Images](#Images)
 
 ## Intro
 - Saliency map estimation in computer vision aims to estimate the locations where people gaze in images.
@@ -32,11 +32,11 @@ date created: Thursday, October 6th 2022, 1:01:31 pm
 ## Related Work
 - uses the coefficients of Attention based on Information the basis Maximization (AIM) calculated by the independent component analysis (ICA) in local image patches
 - The distribution of the coefficients is estimated by the kernel density estimation, which is used for estimating saliency maps based on the the local patches self-information of
-- [[Graph-based visual saliency]]
-- [[Saliency using natural statistics]]
-- [[Dynamic visual attention]]
-- [[Adaptive Whitening Saliency]]
-- [[SAM-ResNet]]
+- [Graph-based visual saliency](Graph-based%20visual%20saliency.md)
+- [Saliency using natural statistics](Saliency%20using%20natural%20statistics.md)
+- [Dynamic visual attention](Dynamic%20visual%20attention.md)
+- [Adaptive Whitening Saliency](Adaptive%20Whitening%20Saliency.md)
+- [SAM-ResNet](SAM-ResNet.md)
 
 ## Components of Readout Net
 - The operation attempts to directly minimise the reconstruction error of the input image under a sparsity constraint on an over-complete set of feature maps
@@ -57,16 +57,16 @@ date created: Thursday, October 6th 2022, 1:01:31 pm
 - the concatenated feature maps from Main Nets are first processed by the 1 × 1 convolution to output feature map, followed by the BI up-sampling layers. the 1-channel
 
 ## Datasets
-- [[Salicon dataset]]
-- [[OSIE]]
-- [[PASCAL-S]]
-- [[MIT1003]]
-- [[MIT300]]
+- [Salicon dataset](Salicon%20dataset.md)
+- [OSIE](OSIE.md)
+- [PASCAL-S](PASCAL-S.md)
+- [MIT1003](MIT1003.md)
+- [MIT300](MIT300.md)
 
 ## Metrics
-- [[AUC-Judd]]
-- [[AUC-Borji]]
-- [[Shuffled-AUC]]
+- [AUC-Judd](AUC-Judd.md)
+- [AUC-Borji](AUC-Borji.md)
+- [Shuffled-AUC](Shuffled-AUC.md)
 
 ## Conclusions
 - strong correlation between image classification accuracy and saliency map estimation accuracy.
@@ -79,13 +79,8 @@ date created: Thursday, October 6th 2022, 1:01:31 pm
 - if the model is trained for the image classification task which includes a wide variety of categories, overfitting for the objects in the training dataset would be suppressed owing to a large number of categories.
 
 ## Images
-- ![[assets/Screenshot 2022-10-06 at 1.01.58 PM.png]]
-- ![[assets/Pasted image 20221006130217.png]]
-- ![[assets/Pasted image 20221006130326.png]]
-- ![[assets/Pasted image 20221006132051.png]]
+- ![Screenshot 2022-10-06 at 1.01.58 PM](assets/Screenshot%202022-10-06%20at%201.01.58%20PM.png)
+- ![Pasted image 20221006130217](assets/Pasted%20image%2020221006130217.png)
+- ![Pasted image 20221006130326](assets/Pasted%20image%2020221006130326.png)
+- ![Pasted image 20221006132051](assets/Pasted%20image%2020221006132051.png)
 
-## Backlinks
-> - [](journals/2022-10-06.md)
->   - **01:01** [[Influence of image classification accuracy on saliency map estimation]]
-
-_Backlinks last generated 2022-10-06 14:20:33_

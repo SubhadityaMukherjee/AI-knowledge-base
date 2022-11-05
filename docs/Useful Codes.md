@@ -6,10 +6,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Useful Codes
-- [[Parallel Runner]]
+- [Parallel Runner](Parallel%20Runner.md)
 
-## Backlinks
-> - [](DeepLearning.md)
->   - [[Useful Codes]]
-
-_Backlinks last generated 2022-10-04 13:01:19_

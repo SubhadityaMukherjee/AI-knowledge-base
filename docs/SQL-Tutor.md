@@ -18,13 +18,5 @@ date created: Wednesday, October 12th 2022, 2:23:15 pm
 - If the relevance condition is true, and the satisfaction condition is false, then the student's step violates the constraint and the tutor has identified a topic worth talking about. In particular, every constraint has two messages.
 - Depending on the feedback level selected by the tutor or the student, one of them may be presented to the student when the constraint is violated. One message describes the constraint and its violation briefly. The other presents more details.
 - Although the constraints are task independent, many of them refer to a correct solution of the problem, which is stored in the tutoring system.
-- The relationship between steps, learning events and constraints is quite simple in the SQL-Tutor. Each constraint corresponds to a [[knowledge component]].
+- The relationship between steps, learning events and constraints is quite simple in the SQL-Tutor. Each constraint corresponds to a [Knowledge Component](Knowledge%20Component.md).
 
-## Backlinks
-
-> - [The Behavior of Tutoring Systems](The Behavior of Tutoring Systems.md)
->   - There are basically just three ways to treat such unrecognizable steps. (1) Some tutoring systems, such as the [[Algebra Cognitive Tutor]], assume that they can recognize all correct steps, so they treat unrecognizable steps as incorrect. (2) Other tutoring systems, such as the [[SQL-Tutor]], assume that students will sometimes produce novel, correct solutions, so they treat unrecognized steps as correct. (3) Lastly, the tutoring system could simply tell the student that the step is unrecognizable. In this case, unrecognizable is yet another category for minimal feedback. When to give minimal feedback
->   - Demand feedback: The [[SQL-Tutor]] gives feedback only when the student clicks on the Submit button. Because the student can continue working on their solution after receiving such feedback, this does not count as delayed feedback.
->   - [[SQL-Tutor]]
-
-_Backlinks last generated 2022-10-12 16:45:05_

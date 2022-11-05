@@ -15,7 +15,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- D is a dict with basis vectors
 		- R contains weights. Scalar
 		- $$||d_i|| \leq 1$
-- [[Sparse Dictionary Learning Loss]]
-- After learning, these can be used as discriminative [[Features|features]]
+- [Sparse Dictionary Learning Loss](Sparse%20Dictionary%20Learning%20Loss.md)
+- After learning, these can be used as discriminative [features](Features.md)
 	- Expensive to compute
 

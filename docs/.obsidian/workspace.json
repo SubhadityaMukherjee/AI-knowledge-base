@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-04.md",
+                "file": "journals/2022-11-06.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e0a3591d65f489f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "articles/Notes on a Nervous Planet- take control.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-04.md",
+                "file": "articles/Notes on a Nervous Planet- take control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-11-04.md",
+                "file": "articles/Notes on a Nervous Planet- take control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -95,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "journals/2022-11-04.md",
+                "file": "articles/Notes on a Nervous Planet- take control.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -130,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-11-04.md"
+                "file": "articles/Notes on a Nervous Planet- take control.md"
               }
             }
           }
@@ -166,17 +180,17 @@
     "width": 236.5,
     "collapsed": true
   },
-  "active": "d43f5abc4f57ace4",
+  "active": "2e0a3591d65f489f",
   "lastOpenFiles": [
+    "journals/2022-11-06.md",
+    "Particle Filter.md",
+    "journals/2022-11-04.md",
     "Contributions of Shape, Texture, and Color in Visual Recognition Abstract.md",
     "Humanoid Vision Engine.md",
-    "journals/2022-11-04.md",
     "SlimStampen.md",
     "journals/2022-11-03.md",
     "Occlusion.md",
     "Cardinality Principle.md",
-    "Numerically Quantified Expressions.md",
-    "Cumulative Interpretation.md",
-    "Distributive Interpretation (2).md"
+    "Numerically Quantified Expressions.md"
   ]
 }

@@ -145,5 +145,6 @@ ___
 - [Work Envelope.md](Work%20Envelope.md)
 - [Wrist.md](Wrist.md)
 - [Yaw.md](Yaw.md)
+- [articles/Notes on a Nervous Planet- take control.md](articles/Notes%20on%20a%20Nervous%20Planet-%20take%20control.md)
 - [templates/titler.md](templates/titler.md)
 

@@ -1,7 +1,7 @@
 ---
 title: SiteMap
 tags: index
-date modified: Monday, October 10th 2022, 2:02:12 pm
+date modified: Sunday, November 6th 2022, 2:28:46 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -13,6 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - How to go about finding things?
 	- Scroll the sidebar and pick something you like. Click the links inside it to go about. Choose your own adventure.
 - Major topics (These index pages are auto generated and might have errors sometimes)
+	- [Articles](https://subhadityamukherjee.github.io/AI-knowledge-base/#articles/Notes%20on%20a%20Nervous%20Planet-%20take%20control/)
 	- Deep learning
 		- [Deep Learning architectures](architecture.md)
 		- [Loss Functions](loss.md)
@@ -36,4 +37,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Email](mailto:msubhaditya@gmail.com)
 
 #anchor
-

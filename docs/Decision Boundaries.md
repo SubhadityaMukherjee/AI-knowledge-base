@@ -1,7 +1,7 @@
 ---
 tags: temp
 title: Decision Boundaries
-date modified: Monday, October 10th 2022, 2:02:30 pm
+date modified: Sunday, November 6th 2022, 5:13:30 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -25,4 +25,4 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Maximal if $$R_{i}= \{x \in P| i = argmax_{j} P(Y=c_{j})f_{j}(x)\}$$
 - Then $$h_{opt}: P \rightarrow C_{j}x \rightarrow c_{argmax_{j}P(Y=c_{j})f_{j}(x)}$$
 - Algo learns estimates of the [Class Conditional distribution](Class%20Conditional%20distribution.md) and class probabilities aka priors
-
+- The separator between classes learned by a model in a binary class or multi-class classification problems. For example, in the following image representing a binary classification problem, the decision boundary is the frontier between the orange class and the blue class

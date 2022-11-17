@@ -1,18 +1,15 @@
 ---
-tags: temp
-date modified: Monday, October 10th 2022, 2:02:21 pm
-date created: Tuesday, July 26th 2022, 8:33:15 pm
----
-
----
-
 title: Neural Radiance Field
 
-tags: architecture
-
+tags: robotics 
+date modified: Sunday, November 6th 2022, 5:10:50 pm
+date created: Tuesday, July 26th 2022, 5:03:15 pm
 ---
 
 # Neural Radiance Field
+```toc
+```
+
 - [NeRF: Representing Scenes As Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934)
 	- synthesizing novel views of complex scenes
 	- optimizing an underlying continuous volumetric scene function using a sparse set of input views
@@ -23,4 +20,3 @@ tags: architecture
 	- volume rendering is naturally differentiable
 	- set of images with known camera poses
 	- They describe how to effectively optimize neural radiance fields to render photorealistic novel views of scenes
-

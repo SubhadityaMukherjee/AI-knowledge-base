@@ -1,7 +1,7 @@
 ---
-tags: temp
+tags: explainability 
 title: Manifold
-date modified: Monday, October 10th 2022, 2:02:22 pm
+date modified: Tuesday, November 15th 2022, 12:47:32 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -30,4 +30,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ## Refs
 - [tds](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
 - [way more stuff : bjlkeng](https://bjlkeng.github.io/posts/manifolds/) #todo
-

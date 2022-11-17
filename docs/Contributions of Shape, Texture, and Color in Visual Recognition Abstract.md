@@ -1,8 +1,8 @@
 ---
 title: Contributions of Shape, Texture, and Color in Visual Recognition Abstract
 
-tags: robotics 
-date modified: Saturday, November 5th 2022, 12:42:10 pm
+tags: mastersthesis explainability 
+date modified: Monday, November 7th 2022, 4:21:01 pm
 date created: Saturday, November 5th 2022, 12:37:28 pm
 ---
 
@@ -113,7 +113,6 @@ date created: Saturday, November 5th 2022, 12:37:28 pm
 - ![[assets/Pasted image 20221105123951.png]]
 
 ## Backlinks
-
 > - [](journals/2022-11-04.md)
 >   - [[Contributions of Shape, Texture, and Color in Visual Recognition Abstract]]
 

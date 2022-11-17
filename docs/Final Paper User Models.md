@@ -1,21 +1,23 @@
 ---
-title: FInal Paper User Models
+title: Final Paper User Models
 
 tags: usermodel 
-date modified: Tuesday, October 25th 2022, 3:31:18 pm
+date modified: Monday, November 7th 2022, 12:39:26 pm
 date created: Tuesday, October 25th 2022, 3:09:48 pm
 ---
 
-# FInal Paper User Models
+# Final Paper User Models
 ```toc
 ```
 
 ## Literature
 - van den Broek, G. S., Takashima, A., Segers, E., & Verhoeven, L. (2018). Contextual richness and word learning: Context enhances comprehension but retrieval enhances retention. Language learning, 68(2), 546-585.
-- Li, X. (1988). Effects of contextual cues on inferring and remembering meanings of new words. Applied linguistics, 9(4), 402-413.
 - [Effects of Contextual Cues on Inferring and Remembering Meanings of New Word](Effects%20of%20Contextual%20Cues%20on%20Inferring%20and%20Remembering%20Meanings%20of%20New%20Word.md)
 - [SlimStampen](SlimStampen.md)
 - [The Behavior of Tutoring Systems](The%20Behavior%20of%20Tutoring%20Systems.md)
+- [[The Effect of Three Consecutive Context Sentences on EFL Vocabulary-Learning]]
+- [[Second Language Vocabulary Learning , The role of context  versus translation]]
+- [[Learning L2 German Vocabulary Through Reading]]
 
 ## Members
 - Hila Schwartz
@@ -33,6 +35,22 @@ date created: Tuesday, October 25th 2022, 3:09:48 pm
 - Correct answer: to buy OR buy OR buying
 - This idea is based on research by van den Broek et al. (2018), which showed that presenting novel words in context during the initial learning phase, and then reducing context later on improves long-term word retention. Next to that, Li (1988) found that learning words in context improves understanding of the word.
 - Based on previous feedback, we have decided to have two contexts for each word. If a user gets a word wrong consistently, they will be shown a different context. This is based on the idea that they perhaps do not understand the first context they were provided with, and that perhaps the second context will provide them with the information they need to get the word correct. Unlike previously stated, this addition will not be tested in a separate condition. The only conditions we will test are no contexts at all and two contexts.
+
+## Params
+- WORD_THRESHOLD = 0.29
+- CONTEXT2_THRESHOLD = 0.35
+- DEFAULT_ALPHA = 0.3
+
+## Fact
+```py
+Fact(fact_id = 6, 
+ question = 'gemiddeld', 
+ context_1 = "Deze opleiding heeft 'gemiddeld' …", 
+ context_2 = "De temperatuur is 'gemiddeld' …", 
+ answer = 'average', 
+ chosen_context = "Deze opleiding heeft 'gemiddeld' …",
+ encounter_2 = True)
+```
 
 ### Additional Improvements
 - We added a few things to the system of which we will not test the effects:
@@ -80,9 +98,38 @@ date created: Tuesday, October 25th 2022, 3:09:48 pm
 - Next, participants will be asked to practice a word list in one of the two conditions. This finishes after 150 trials or after a participant has seen all of the words. Next, participants will do a small distractor test. In this distractor test, they are asked to count dots. They need to do this 10 times. Then, we will test their word retrieval with a simple single-word translation test. After this, participants are asked to take a small break. This process is repeated a total of 2 times, once for each of the conditions.
 - After each participant has done each of the two conditions, we will end the experiment by thanking them for their efforts.
 
+## Results
+- Not significant ):
+- Not effective for all learners 
+- Short time frame
+- Effect : Using words in sentences vs Retrieval (Prince, 1996)
+
+## Limitations
+- Very small participant pool
+- Variation in participant backgrounds
+- Ceiling effect
+- No external motivation to do well
+- Not enough attention to the context
+
+## Future Directions
+- Additional focus on gamification
+- Longer term studies (Like SlimStampen)
+- Harder words : Ceiling Effect
+- More informed context in sentences (van den Broek et al., 2018) 
+- Other ways of testing context
+- Investigate thresholds
+
+    
+
 ### Pictures
+- **![](assets/UvTPZadMPgK1WYnzxkbwG-f8F2hpX9TKPp1YK1vdztilQn1uzc1F-1HJ0m93d9kDafgZzFah_IJrLA_rRx5urfjEogD9WRQeemoY.png)**
+- **![](assets/grpTUg4XllbNgQdWMxnhvYpV5gR0d5chBcLJ97RC_uVYzvNk8DeAfhohR2FDPgmruAliArS_yEPXzFJM3M8qCCr0sdymeO1WuK1q.png)**
 - ![Pasted image 20221025151329](assets/Pasted%20image%2020221025151329.png)
 - ![Pasted image 20221025151334](assets/Pasted%20image%2020221025151334.png)
 - ![Pasted image 20221025151338](assets/Pasted%20image%2020221025151338.png)
 - ![Pasted image 20221025151342](assets/Pasted%20image%2020221025151342.png)
-
+- **![](assets/IiXoiU_gjEH082ajU63Rh_Y6ocSCv-ILVlnEjEM_Bvolg4IZ2RHXpdZ3kmQvKw5R9krrljKg6ryA5KmehKSd4n_pxx-QuT683CKS.png)**
+- **![](assets/Un_DJbx9IChyxu8ItMpOu_5CwINa_vWez9vgwtGYCUIUZvnenvTvvIoIfYj5HudjDHVbBUggNme7VYd1g5Wcy7qnfpVRctBz9h-N.png)**
+- **![](assets/2Dg32LVejSscdHR_3kh6z5J4wuKYZ_3LcPl-qtvmPotHIc2WVoeZd-_C5-PgKNWRMS6SA-cnwgjZmwXSYVcoS14IOnAvY6QmnXFz.png)**
+- **![](assets/QNjLadcoCKy1IjcvC8b8vxLAZXiHZ4yqmAPlYlhoAhNPfF6RGECAjp6DRhw4hIXyTXmM9KiC1tZ2eq4rlFXkr7VfGQoZlWWaPEjH.png)**
+- **![](assets/c1Lfq8XCqOQQeYvoKN4db9HGZ3ap3kNTJDcChC3wX2TBKCwvPCq6p1L_-tin9UpxcxB2WYr9-Ny9nWHbqjAtqKfEDyAJbiKlKNp3.png)**

@@ -19,5 +19,11 @@
   "tag-page-preview",
   "dataview",
   "obisidian-note-linker",
-  "obsidian-dynamic-toc"
+  "obsidian-dynamic-toc",
+  "obsidian-hider",
+  "obsidian-gallery",
+  "copy-url-in-preview",
+  "obsidian-image-toolkit",
+  "oz-image-plugin",
+  "obsidian-tasks-plugin"
 ]

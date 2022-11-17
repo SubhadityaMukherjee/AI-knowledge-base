@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "97a36ac7b20f9520",
+        "id": "ec785e331f0113a1",
         "type": "tabs",
         "children": [
           {
-            "id": "d43f5abc4f57ace4",
+            "id": "59b5401ae0808212",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-06.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e0a3591d65f489f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "articles/Notes on a Nervous Planet- take control.md",
+                "file": "journals/2022-11-17.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -54,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "driving",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,13 +55,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/Notes on a Nervous Planet- take control.md",
+                "file": "journals/2022-11-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -86,7 +72,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/Notes on a Nervous Planet- take control.md",
+                "file": "journals/2022-11-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "articles/Notes on a Nervous Planet- take control.md",
+                "file": "journals/2022-11-17.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,12 +130,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Notes on a Nervous Planet- take control.md"
+                "file": "journals/2022-11-17.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "09ea97e62e4ee243",
@@ -162,7 +147,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -170,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 198
+    "width": 373.5,
+    "collapsed": true
   },
   "right": {
     "id": "94b3ada31412627e",
@@ -180,17 +166,17 @@
     "width": 236.5,
     "collapsed": true
   },
-  "active": "2e0a3591d65f489f",
+  "active": "59b5401ae0808212",
   "lastOpenFiles": [
-    "journals/2022-11-06.md",
-    "Particle Filter.md",
-    "journals/2022-11-04.md",
-    "Contributions of Shape, Texture, and Color in Visual Recognition Abstract.md",
-    "Humanoid Vision Engine.md",
-    "SlimStampen.md",
-    "journals/2022-11-03.md",
-    "Occlusion.md",
-    "Cardinality Principle.md",
-    "Numerically Quantified Expressions.md"
+    "mastersthesis.md",
+    "On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images.md",
+    "Manifold.md",
+    "journals/2022-11-15.md",
+    "Sugar Factory Task.md",
+    "Declarative memory.md",
+    "ACT-R.md",
+    "journals/2022-11-14.md",
+    "ACT-R Chunk.md",
+    "Anterior Cingulate.md"
   ]
 }

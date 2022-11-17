@@ -81,7 +81,7 @@ ___
 - [Mesh refinement.md](Mesh%20refinement.md)
 - [Midpoint Decider.md](Midpoint%20Decider.md)
 - [Midpoint Method.md](Midpoint%20Method.md)
-- [Node LInk Diagram.md](Node%20LInk%20Diagram.md)
+- [Node LInk Diagram.md](Node%20Link%20Diagram.md)
 - [Noise Suppression.md](Noise%20Suppression.md)
 - [Notch filter.md](Notch%20filter.md)
 - [Oblique Slicing.md](Oblique%20Slicing.md)

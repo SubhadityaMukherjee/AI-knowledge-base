@@ -2,12 +2,13 @@
 title: Effects of Contextual Cues on Inferring and Remembering Meanings of New Word
 
 tags: usermodel 
-date modified: Friday, October 14th 2022, 4:50:41 pm
+date modified: Sunday, November 6th 2022, 5:24:08 pm
 date created: Friday, October 14th 2022, 4:47:16 pm
 ---
 
 # Effects of Contextual Cues on Inferring and Remembering Meanings of New Word
 - xiaolongli
+- Li, X. (1988). Effects of contextual cues on inferring and remembering meanings of new words. Applied linguistics, 9(4), 402-413.
 ```toc
 ```
 
@@ -110,4 +111,3 @@ date created: Friday, October 14th 2022, 4:47:16 pm
 
 ## Pictures
 - ![Pasted image 20221014165039](assets/Pasted%20image%2020221014165039.png)
-

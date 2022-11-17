@@ -1,18 +1,14 @@
 ---
-tags: temp
-date modified: Monday, October 10th 2022, 2:02:23 pm
-date created: Tuesday, July 26th 2022, 8:33:15 pm
----
-
----
-
 title: MILAN
 
-tags: architecture
-
+tags: article 
+date modified: Sunday, November 6th 2022, 5:17:22 pm
+date created: Tuesday, July 26th 2022, 5:03:15 pm
 ---
 
 # MILAN
+```toc
+```
   - [Natural Language Descriptions of Deep Visual Features](https://arxiv.org/abs/2201.11114)
   - Some neurons in deep networks specialize in recognizing highly specific perceptual, structural, or semantic [features](Features.md) of inputs
   - identifying neurons that respond to individual concept categories
@@ -25,4 +21,3 @@ tags: architecture
   - characterizing the distribution and importance of neurons selective for attribute, category, and relational information in vision models.
   - auditing, surfacing neurons sensitive to protected categories like race and gender in models trained on datasets intended to obscure these [features](Features.md)
   - editing, improving robustness in an image classifier by deleting neurons sensitive to text [features](Features.md) spuriously correlated with class labels
-

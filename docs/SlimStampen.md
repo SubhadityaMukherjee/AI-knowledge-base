@@ -25,7 +25,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - extension of the adaptive item-learning model by Pavlik and Anderson (2005; 2008) and has been tested in laboratory settings (van Rijn, van Maanen, & van Woudenberg, 2009; Sense, Behrens, Meijer, & van Rijn, 2016; Sense, Meijer, & van Rijn, 2018) but has not been deployed in a university course before.
 - his model capitalizes on the spacing effect (see Dempster, 1988, for a review) within a single session by scheduling repetitions as far apart as possible, while also
 - optimizing for the testing effect (see van den Broek et al., 2016, for a review) by repeating items soon enough that most responses are correct.
-- The model represents every encountered item by a unique memory chunk, based on the ACT-R theory of declarative memory (Anderson, 2007).
+- The model represents every encountered item by a unique memory chunk, based on the [[ACT-R]] theory of declarative memory (Anderson, 2007).
 - Each chunk has an activation—a representation of the ease with which that item could be retrieved—that receives a boost whenever an item is re-encoded and that decays over time
 - The activation A of a chunk i at time t, given n previous encounters at t1,…,tn seconds ago, is
 	- $$A_{i}(t) = ln(\Sigma_{j=1}^{n}t_{j}^{-d_{i}(t)}$$
@@ -42,7 +42,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - A correct but slower-than-expected response signals that the memory trace has decayed further than assumed, meaning that the item’s true rate of forgetting is higher than the current estimate.
 - That is, when a learner arrives at the right answer but takes longer than anticipated, they likely struggled to recall the information
 - Conversely, an incorrect or missing response suggests that the activation of the
-- item’s memory trace actually dropped below the retrieval threshold, which means that the true rate of forgetting should be higher because this item’s activation was expected to be above the threshold (which was fixed at ACT-R’s default value).
+- item’s memory trace actually dropped below the retrieval threshold, which means that the true rate of forgetting should be higher because this item’s activation was expected to be above the threshold (which was fixed at [[ACT-R]]’s default value).
 - An unexpectedly fast correct response, on the other hand, indicates a stronger- than-expected memory trace and implies that the estimated rate of forgetting should be adjusted downward.
 - Since interruption or distraction can cause disproportionately large response times, observed response times are capped before their mismatch with the expected response time is calculated.
 - To update the rate of forgetting after each trial, the model uses a binary search in a small window around the previous value to identify the rate of forgetting that minimizes the mismatch between E(RT) and RT′

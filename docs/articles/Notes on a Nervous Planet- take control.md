@@ -1,8 +1,8 @@
 ---
 title: Notes on a Nervous Planet- take control
 
-tags: robotics 
-date modified: Sunday, November 6th 2022, 1:49:11 pm
+tags: article 
+date modified: Sunday, November 6th 2022, 2:29:48 pm
 date created: Sunday, November 6th 2022, 1:48:49 pm
 ---
 
@@ -261,4 +261,3 @@ Like these/Want more? Buy me a coffee! [Kofi](https://ko-fi.com/subhadityamukher
 Want articles on something specific? Just ask!
 
 You can always contact me on [LinkedIn](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100), or drop me an [Email](mailto:msubhaditya@gmail.com)
-

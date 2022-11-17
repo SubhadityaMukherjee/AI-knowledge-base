@@ -1,0 +1,10 @@
+---
+title: Zeiler Fergus
+tags: architecture 
+date modified: Monday, October 10th 2022, 2:02:13 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Zeiler Fergus
+- multiple interleaved [layers](Layers.md) of [Conv](Conv.md), non-linear [ActivationFunctions](ActivationFunctions.md), local response normalizations, and max [Pooling](Pooling.md)
+

@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "c614c1ff9583aa26",
+    "type": "split",
+    "children": [
+      {
+        "id": "33c96499716e9268",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c71d4fb82b56063",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "You can play 20 questions with nature and win.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec398e60225e54a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f54871a874c37cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d97ebdaeb83a6ee6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "9d768c4cc59ba03c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8cb94687b28e1a2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fc47643abaf1617d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e1cc113abc921f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b5b3fe4fe1708c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "You can play 20 questions with nature and win.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5679e9adaec4ed92",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "You can play 20 questions with nature and win.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8c040fdf0106f3d7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "60a8c52cf3f7bdd5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "You can play 20 questions with nature and win.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1c71d4fb82b56063",
+  "lastOpenFiles": [
+    "Self Attention.md",
+    "Attention.md",
+    "Transformer.md",
+    "Transducer.md",
+    "Adversarial Distillation.md",
+    "ACT-R.md",
+    "8 bit character set.md",
+    "templates/titler.md"
+  ]
+}

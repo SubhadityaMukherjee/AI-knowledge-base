@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "You can play 20 questions with nature and win.md",
+                "file": "2022-11-24.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "You can play 20 questions with nature and win.md",
+                "file": "2022-11-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "You can play 20 questions with nature and win.md",
+                "file": "2022-11-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "You can play 20 questions with nature and win.md"
+                "file": "2022-11-24.md"
               }
             }
           }
@@ -138,13 +139,15 @@
   },
   "active": "1c71d4fb82b56063",
   "lastOpenFiles": [
+    "Network Dissection Quantifying Interpretability of Deep Visual Representions.md",
+    "Broden.md",
+    "2022-11-24.md",
+    "You can play 20 questions with nature and win.md",
     "Self Attention.md",
     "Attention.md",
     "Transformer.md",
     "Transducer.md",
     "Adversarial Distillation.md",
-    "ACT-R.md",
-    "8 bit character set.md",
-    "templates/titler.md"
+    "ACT-R.md"
   ]
 }

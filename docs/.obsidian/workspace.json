@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022-11-24.md",
+                "file": "articles/Latex Tutorial.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-11-24.md",
+                "file": "articles/Latex Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-11-24.md",
+                "file": "articles/Latex Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-11-24.md"
+                "file": "articles/Latex Tutorial.md"
               }
             }
           }
@@ -141,13 +140,13 @@
   "lastOpenFiles": [
     "Network Dissection Quantifying Interpretability of Deep Visual Representions.md",
     "Broden.md",
-    "2022-11-24.md",
+    "journals/2022-11-24.md",
+    "assets/Pasted image 20221124134828.png",
     "You can play 20 questions with nature and win.md",
     "Self Attention.md",
     "Attention.md",
     "Transformer.md",
     "Transducer.md",
-    "Adversarial Distillation.md",
-    "ACT-R.md"
+    "Adversarial Distillation.md"
   ]
 }

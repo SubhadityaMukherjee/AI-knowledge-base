@@ -2,7 +2,7 @@
 title: Latex Tutorial
 
 tags: article 
-date modified: Sunday, November 6th 2022, 2:32:54 pm
+date modified: Friday, November 25th 2022, 12:17:41 am
 date created: Sunday, November 6th 2022, 2:32:31 pm
 ---
 
@@ -83,8 +83,6 @@ So far, you should have something like this.
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 ```
 
 Now we define a basic template.

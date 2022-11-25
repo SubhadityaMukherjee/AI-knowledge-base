@@ -11,8 +11,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Synchronous, Deterministic
 - GPU
 - ![im](images/Pasted%20image%2020220506150837.png)
-- [Vector Processor](Vector%20Processor.md)
-- Limited by [Amdahl's Law](Amdahl's%20Law.md)
+- [Vector_Processor](Vector_Processor.md)
+- Limited by [Amdahl's_Law](Amdahl's_Law.md)
 - More energy efficient than [MIMD](MIMD.md)
-- [Time space duality](Time%20space%20duality.md)
+- [Time_space_duality](Time_space_duality.md)
 

@@ -15,6 +15,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - DeepFM trains a deep component and an FM component jointly and models low-order feature interactions through FM and models high-order feature interactions through the DNN
 - DeepFM can be trained end-to-end with a shared input to its “wide” and “deep” parts, with no need of feature engineering besides raw [features](Features.md).
 - 1) it does not need any pre-training; 2) it learns both high- and low-order feature interactions; 3) it introduces a sharing strategy of feature [embedding](Embedding.md) to avoid feature engineering
-- combines the power of factorization machines for recommendation and deep learning for [feature learning](Feature%20Learning.md) in a new neural network architecture
+- combines the power of factorization machines for recommendation and deep learning for [feature learning](Feature_Learning.md) in a new neural network architecture
 - Criteo
 

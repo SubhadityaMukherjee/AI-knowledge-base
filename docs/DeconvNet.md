@@ -11,7 +11,7 @@ date created: Wednesday, October 12th 2022, 4:17:49 pm
 ```toc
 ```
 
-- ![](assets/1!yfVt0dZ8X6h6WoDFlyAqsw.png)
+- ![](images/1!yfVt0dZ8X6h6WoDFlyAqsw.png)
 - ![Pasted image 20221012161759](images/Pasted%20image%2020221012161759.png)
 - Basically invert operations between input and the chosen layer.
 	- Conv -> Deconv

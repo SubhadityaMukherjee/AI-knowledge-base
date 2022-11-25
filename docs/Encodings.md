@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Encoding
 
-## [Discrete -> Continuous](Discrete%20-%3E%20Continuous.md)
+## [Discrete_->_Continuous](Discrete_->_Continuous.md)
 
-## [Continous -> Discrete](Continous%20-%3E%20Discrete.md)
+## [Continous_->_Discrete](Continous_->_Discrete.md)
 

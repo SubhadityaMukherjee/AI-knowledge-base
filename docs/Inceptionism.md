@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Inceptionism
 - [Google AI Blog: Inceptionism: Going Deeper into Neural Networks](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html) #[Roam-Highlights](Roam-Highlights)
-- [Le Net](Le%20Net.md)
+- [Le_Net](Le_Net.md)
 - ![Pasted image 20220711201721](images/Pasted%20image%2020220711201721.png)
 - ![Pasted image 20220711201740](images/Pasted%20image%2020220711201740.png)
 - ![Pasted image 20220711201745](images/Pasted%20image%2020220711201745.png)

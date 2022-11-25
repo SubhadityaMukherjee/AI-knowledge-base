@@ -18,5 +18,5 @@ date created: Wednesday, October 12th 2022, 2:23:15 pm
 - If the relevance condition is true, and the satisfaction condition is false, then the student's step violates the constraint and the tutor has identified a topic worth talking about. In particular, every constraint has two messages.
 - Depending on the feedback level selected by the tutor or the student, one of them may be presented to the student when the constraint is violated. One message describes the constraint and its violation briefly. The other presents more details.
 - Although the constraints are task independent, many of them refer to a correct solution of the problem, which is stored in the tutoring system.
-- The relationship between steps, learning events and constraints is quite simple in the SQL-Tutor. Each constraint corresponds to a [Knowledge Component](Knowledge%20Component.md).
+- The relationship between steps, learning events and constraints is quite simple in the SQL-Tutor. Each constraint corresponds to a [Knowledge_Component](Knowledge_Component.md).
 

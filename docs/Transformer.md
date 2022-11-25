@@ -13,7 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Some words relevant, others are not
 - Transform all hidden states from the encoder into context vectors, that shows how the decoding step is relevant to the input sequences
 - [Attention](Attention.md)
-- [Basic Transformer](Basic%20Transformer.md)
+- [Basic_Transformer](Basic_Transformer.md)
 
 ## Nice Little Blogs
 - [lillog](https://lilianweng.github.io/posts/2018-06-24-attention/)

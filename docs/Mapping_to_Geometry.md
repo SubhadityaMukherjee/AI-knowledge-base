@@ -1,0 +1,11 @@
+---
+title: Mapping to Geometry
+tags: visualization
+date modified: Monday, October 10th 2022, 2:02:22 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Mapping to Geometry
+- [Height_Plots](Height_Plots.md)
+- [Contour](Contour.md)
+

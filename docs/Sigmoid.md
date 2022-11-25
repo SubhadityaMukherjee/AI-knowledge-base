@@ -12,6 +12,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Logistic
 - Xavier/Glorot init
 - RNN : Hidden
-- [Bernoulli Distribution](Bernoulli%20Distribution.md) over a binary variable
+- [Bernoulli_Distribution](Bernoulli_Distribution.md) over a binary variable
 - ![Pasted image 20220626151646](images/Pasted%20image%2020220626151646.jpg)
 

@@ -7,8 +7,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # BERT
 - Bidirectional Encoder rep from transformers
-- Uses [Token Embedding](Token%20Embedding.md)
-- [Self Supervised](Self%20Supervised.md)
+- Uses [Token_Embedding](Token_Embedding.md)
+- [Self_Supervised](Self_Supervised.md)
 - Masked [language](language.md) modeling, next sentence prediction
 - ![im](images/Pasted%20image%2020220307183916.png)
 - [CLS] : start of classification task, [SEP] between sentences, [MASK] : masked token
@@ -24,7 +24,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	    - This task ensures that the model learns sentence-level information. It is also really simple, and is the reason why the BERT inputs can sometimes be a pair of sentences. NSP involves textual entailment, or understanding the relationship between two sentences.
 	    - Constructing a training dataset for this task is simple: given an unlabeled corpus, we take a phrase, and take the next one for the 50% of cases where BERT has a next sentence. We take another phase at random given A for the 50% where this is not the case (Devlin et al., 2018). This way, we can construct a dataset where there is a 50/50 split between 'is next' and 'is not next' sentences.
     - [BooksCorpus](BooksCorpus.md)
-    - [English Wikipedia](English%20Wikipedia.md)
+    - [English_Wikipedia](English_Wikipedia.md)
     - It thus does not matter whether your downstream task involves single text or text pairs: BERT can handle it.
         - Sentence pairs in paraphrasing tasks.
         - Hypothesis-premise pairs in textual entailment tasks.

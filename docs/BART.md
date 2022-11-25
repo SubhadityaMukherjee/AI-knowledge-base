@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # BART
 - [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461)
-- [denoising autoencoder](Denoising%20Autoencoder.md)
+- [denoising autoencoder](Denoising_Autoencoder.md)
 - pretraining sequence-to-sequence
 - trained by corrupting text with an arbitrary noising function, and learning a model to reconstruct the original text
 - generalizing BERT (due to the bidirectional encoder), [GPT](GPT.md) (with the left-to-right decoder),

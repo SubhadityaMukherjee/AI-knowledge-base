@@ -19,10 +19,10 @@ date created: Sunday, October 23rd 2022, 4:56:57 pm
 - Built on this recipe, we propose Sparse Large Kernel Network (SLaK), a pure CNN architec- ture equipped with sparse factorized 51×51 kernels that can perform on par with or better than state-of-the-art hierarchical Transformers and modern ConvNet architec- tures like ConvNeXt and RepLKNet
 
 ## RELATED WORK
-- [Large Kernel in Attention](Large%20Kernel%20in%20Attention.md)
-- [Large Kernel in Convolution](Large%20Kernel%20in%20Convolution.md)
-- [Dynamic Sparsity](Dynamic%20Sparsity.md)
-- [Sparse Evolutionary Training](Sparse%20Evolutionary%20Training.md)
+- [Large_Kernel_in_Attention](Large_Kernel_in_Attention.md)
+- [Large_Kernel_in_Convolution](Large_Kernel_in_Convolution.md)
+- [Dynamic_Sparsity](Dynamic_Sparsity.md)
+- [Sparse_Evolutionary_Training](Sparse_Evolutionary_Training.md)
 
 ## FAILURES OF EXISTING APPROACHES TO GO BEYOND 31x31 KERNELS
 - It is important to note that all models are trained for a reduced length of 120 epochs in this section, just to sketch the scaling trends of large kernel sizes.

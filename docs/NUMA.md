@@ -11,5 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - One [SMP](SMP.md) can directly access memory of another [SMP](SMP.md)
 - Not all processors have equal access time to all memories
 - Memory access across link is slower
-- [Cache Coherence](Cache%20Coherence.md)
+- [Cache_Coherence](Cache_Coherence.md)
 

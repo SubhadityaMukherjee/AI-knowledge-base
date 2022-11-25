@@ -15,12 +15,12 @@ tags: architecture
 # DeiT
 - [paper](https://arxiv.org/abs/2012.12877)
 - [blog](https://ai.facebook.com/blog/data-efficient-image-transformers-a-promising-new-technique-for-image-classification/)
-- [Conv](Conv.md) free [Transformer](Transformer.md), [Vision Transformer](Vision%20Transformer.md)
+- [Conv](Conv.md) free [Transformer](Transformer.md), [Vision_Transformer](Vision_Transformer.md)
 - does not require very large amount of data
   id:: 62a8a66a-941e-4a6d-918a-bb49cd496b15
-- [Knowledge Distillation](Knowledge%20Distillation.md)
+- [Knowledge_Distillation](Knowledge_Distillation.md)
 - teacher-student strategy specific to transformers
-- [Distillation Token](Distillation%20Token.md)
+- [Distillation_Token](Distillation_Token.md)
 - ConvNet as teacher through [Attention](Attention.md)
   id:: 62a8a6b2-abf4-4869-934e-c75d05884304
 - [ImageNet](ImageNet.md)

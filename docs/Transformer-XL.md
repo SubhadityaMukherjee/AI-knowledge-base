@@ -14,6 +14,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - resolves the context fragmentation problem
 - enwiki8
 - WikiText
-- One [Billion Word](Billion%20Word.md)
+- One [Billion_Word](Billion_Word.md)
 - Penn Treebank
 

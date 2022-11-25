@@ -7,5 +7,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Nasnet
 - Neural Architecture Search
-- Controller RNN ([Basic RNN Architectures](Basic%20RNN%20Architectures.md)) produces architectures and evaluated until convergence
+- Controller RNN ([Basic_RNN_Architectures](Basic_RNN_Architectures.md)) produces architectures and evaluated until convergence
 

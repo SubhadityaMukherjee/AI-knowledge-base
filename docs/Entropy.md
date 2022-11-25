@@ -9,5 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Measure of information content
 - $$H = -\Sigma_{x}P(x)logP(x) = \Sigma_{x}P(x)log \frac{1}{P(x)}$$
 - Units : bits of $log_{2}$
-- [Uniform Distribution](Uniform%20Distribution.md) maximizes entropy. Results harder to predict
+- [Uniform_Distribution](Uniform_Distribution.md) maximizes entropy. Results harder to predict
 

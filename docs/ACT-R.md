@@ -14,11 +14,11 @@ date created: Monday, November 14th 2022, 1:05:21 pm
 - Manual Control
 	- [[Motor Cortex]]
 - Visual Perception
-	- [[Visual Cortex]]
+	- [[Visual_Cortex]]
 - Problem State
-	- [[Parietal lobe]]
+	- [[Parietal_lobe]]
 	- Store intermediate results
-- [[Declarative Memory]]
+- [[Declarative_memory]]
 	
 - Perception
 - Control State

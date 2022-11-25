@@ -6,7 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Freedom
-- (N, D, P) N samples, D [degrees of freedom](Degrees%20of%20Freedom.md)
+- (N, D, P) N samples, D [degrees of freedom](Degrees_of_Freedom.md)
 - If N<D , then ill posed
 - Need N >> D
 - If P learnable params , $$P<N$$ : underspecified

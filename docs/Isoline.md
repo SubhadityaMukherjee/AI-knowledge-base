@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\{(x,y|f(x,y)=c\}$$
 - Curve along function has constant value c
 - ![im](images/Pasted%20image%2020220411133253.png)
-- [Marching Squares](Marching%20Squares.md)
+- [Marching_Squares](Marching_Squares.md)
 - ![im](images/Pasted%20image%2020220411133700.png)
 - No isoline inside cells with same signs
 - only consider cells with different signs

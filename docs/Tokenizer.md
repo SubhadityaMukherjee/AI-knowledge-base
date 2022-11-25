@@ -11,6 +11,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - White space delimited tokens may not be the valid token
 - Chinese and Thai
 	- Words are written in succession with no indication of word boundaries
-- [Word Structure](Word%20Structure.md)
+- [Word_Structure](Word_Structure.md)
 - [Punctuation](Punctuation.md)
 

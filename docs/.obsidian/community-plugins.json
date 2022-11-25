@@ -1,17 +1,11 @@
 [
   "quick-latex",
-  "obsidian-code-block-enhancer",
   "copy-url-in-preview",
-  "dataview",
   "obsidian-dynamic-embed",
   "obsidian-dynamic-toc",
-  "cm-editor-syntax-highlight-obsidian",
   "obsidian-file-cleaner",
-  "obsidian-footnotes",
   "obsidian-frontmatter-tag-suggest",
   "obsidian-gallery",
-  "obsidian-hider",
-  "obsidian-image-toolkit",
   "obsidian-linter",
   "obsidian-local-images",
   "metaedit",
@@ -25,5 +19,9 @@
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "obsidian-timestamper",
-  "cm-typewriter-scroll-obsidian"
+  "cm-typewriter-scroll-obsidian",
+  "obsidian-bulk-rename-plugin",
+  "obsidian42-strange-new-worlds",
+  "obsidian-image-toolkit",
+  "cm-editor-syntax-highlight-obsidian"
 ]

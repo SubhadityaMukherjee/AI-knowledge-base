@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/Latex Tutorial.md",
+                "file": "GradCAM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/Latex Tutorial.md",
+                "file": "GradCAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/Latex Tutorial.md",
+                "file": "GradCAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,8 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/Latex Tutorial.md"
+                "file": "GradCAM.md"
               }
+            }
+          },
+          {
+            "id": "30689979b2129cc8",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
             }
           }
         ]
@@ -138,15 +146,15 @@
   },
   "active": "1c71d4fb82b56063",
   "lastOpenFiles": [
-    "Network Dissection Quantifying Interpretability of Deep Visual Representions.md",
-    "Broden.md",
-    "journals/2022-11-24.md",
-    "assets/Pasted image 20221124134828.png",
-    "You can play 20 questions with nature and win.md",
-    "Self Attention.md",
-    "Attention.md",
-    "Transformer.md",
-    "Transducer.md",
-    "Adversarial Distillation.md"
+    "Guided_GradCAM.md",
+    "Guided_BackProp.md",
+    "journals/2022-11-25.md",
+    "OrthographicNet.md",
+    "Local_Reference_Frame.md",
+    "Global_Classification_Accuracy.md",
+    "Second_Language_Vocabulary_Learning_,_The_role_of_context__versus_translation.md",
+    "Bag_of_Words.md",
+    "articles/Latex Tutorial.md",
+    "Network_Dissection_Quantifying_Interpretability_of_Deep_Visual_Representions.md"
   ]
 }

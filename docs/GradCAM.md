@@ -21,10 +21,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- $$L^{c}_{GRADCAM}=Resize(ReLU(\Sigma_{k}(\alpha^{c}_{k}A^{k})))$$
 	- This is a coarse heatmap because the image is resized
 	- ReLU used because we only care about positive values (actualy image pixel)
-- To identify [[Counterfactual Images]], flip the signs
+- To identify [[Counterfactual_Images]], flip the signs
 	- $$\alpha_{k}^{c}=average(- \partial \frac{Y_{c}}{\partial A^{k}_{ij}})$$
 	- ![](images/Pasted%20image%2020221118132132.png)
-- Followed by [[Guided GradCAM]]
+- Followed by [[Guided_GradCAM]]
 
 ## Predicting Failure Modes
 - ![](images/Pasted%20image%2020221118132330.png)

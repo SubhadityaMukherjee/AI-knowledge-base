@@ -20,3 +20,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Lower -> Harder. More confident
 - ![softmax_logits](images/softmax_logits.webp)
 
+## Backlinks
+
+> - [Declarative Memory Blending](Declarative Memory Blending.md)
+>   - [[Softmax]]
+
+_Backlinks last generated 2022-11-28 14:44:43_

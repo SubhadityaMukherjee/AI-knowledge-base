@@ -42,6 +42,8 @@ ___
 - [RAHP.md](RAHP.md)
 - [ROC_Curve.md](ROC_Curve.md)
 - [Recall.md](Recall.md)
+- [SDR.md](SDR.md)
+- [SSR.md](SSR.md)
 - [Sensitivity.md](Sensitivity.md)
 - [Shuffled-AUC.md](Shuffled-AUC.md)
 - [Sparse_Dictionary_Learning_Loss.md](Sparse_Dictionary_Learning_Loss.md)

@@ -1,5 +1,5 @@
 {
-  "vimMode": true,
-  "attachmentFolderPath": "assets",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "images",
+  "vimMode": true
 }

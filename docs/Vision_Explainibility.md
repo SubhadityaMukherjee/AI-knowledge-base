@@ -2,13 +2,16 @@
 title: Vision Explainibility
 
 tags: mastersthesis explainability flow
-date modified: Friday, November 18th 2022, 2:05:31 pm
+date modified: Monday, November 28th 2022, 11:53:49 am
 date created: Friday, November 18th 2022, 12:31:29 pm
 ---
 
 # Vision Explainibility
 ```toc
 ```
+
+## Links Useful
+- [Captum Algos Comparison](https://captum.ai/docs/algorithms_comparison_matrix)
 
 ## Flow
 - [DeconvNet](DeconvNet.md)

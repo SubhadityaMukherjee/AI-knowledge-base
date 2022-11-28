@@ -10,6 +10,7 @@ ___
 - [Generalizing_Adversarial_Explanations_with_Grad-CAM.md](Generalizing_Adversarial_Explanations_with_Grad-CAM.md)
 - [Influence_of_image_classification_accuracy_on_saliency_map_estimation.md](Influence_of_image_classification_accuracy_on_saliency_map_estimation.md)
 - [On_the_overlap_between_Grad-CAM_saliency_maps_and_explainable_visual_features_in_skin_cancer_images.md](On_the_overlap_between_Grad-CAM_saliency_maps_and_explainable_visual_features_in_skin_cancer_images.md)
+- [Real Time Image Saliency for Black Box Classifiers.md](Real%20Time%20Image%20Saliency%20for%20Black%20Box%20Classifiers.md)
 - [Salience_Map.md](Salience_Map.md)
 - [Vision_Explainibility.md](Vision_Explainibility.md)
 - [journals/2022-10-05.md](journals/2022-10-05.md)

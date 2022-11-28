@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GradCAM.md",
+                "file": "journals/2022-11-28.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,12 +64,30 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "8b5b3fe4fe1708c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "journals/2022-11-28.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -80,29 +98,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b5b3fe4fe1708c0",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "GradCAM.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "5679e9adaec4ed92",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GradCAM.md",
+                "file": "journals/2022-11-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GradCAM.md"
+                "file": "journals/2022-11-28.md"
               }
             }
           },
@@ -146,15 +147,15 @@
   },
   "active": "1c71d4fb82b56063",
   "lastOpenFiles": [
-    "Guided_GradCAM.md",
-    "Guided_BackProp.md",
-    "journals/2022-11-25.md",
-    "OrthographicNet.md",
-    "Local_Reference_Frame.md",
-    "Global_Classification_Accuracy.md",
-    "Second_Language_Vocabulary_Learning_,_The_role_of_context__versus_translation.md",
-    "Bag_of_Words.md",
-    "articles/Latex Tutorial.md",
-    "Network_Dissection_Quantifying_Interpretability_of_Deep_Visual_Representions.md"
+    "Cognitive Preparation.md",
+    "Cognitive Foreperiod.md",
+    "journals/2022-11-28.md",
+    "Cgonitive Preparation.md",
+    "Dikes and Rivers.md",
+    "Declarative Memory Blending.md",
+    "templates/titler.md",
+    "Zeiler_Fergus.md",
+    "Deep_Inside_Convolutional_Networks.md",
+    "CAM.md"
   ]
 }

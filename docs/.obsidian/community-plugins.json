@@ -23,5 +23,6 @@
   "obsidian-bulk-rename-plugin",
   "obsidian42-strange-new-worlds",
   "obsidian-image-toolkit",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-vimrc-support"
 ]

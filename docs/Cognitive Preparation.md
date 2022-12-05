@@ -2,7 +2,7 @@
 title: Cognitive Preparation
 
 tags: cognitivemodel 
-date modified: Monday, November 28th 2022, 1:42:17 pm
+date modified: Monday, December 5th 2022, 1:28:36 pm
 date created: Monday, November 28th 2022, 1:33:51 pm
 ---
 
@@ -23,4 +23,3 @@ date created: Monday, November 28th 2022, 1:33:51 pm
 
 ## Terms
 - [[Cognitive Foreperiod]]
-

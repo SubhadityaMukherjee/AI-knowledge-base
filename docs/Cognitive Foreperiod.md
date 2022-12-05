@@ -2,7 +2,7 @@
 title: Cognitive Foreperiod
 
 tags: cognitivemodel 
-date modified: Monday, November 28th 2022, 2:11:47 pm
+date modified: Monday, December 5th 2022, 1:34:08 pm
 date created: Monday, November 28th 2022, 1:42:39 pm
 ---
 
@@ -51,14 +51,16 @@ date created: Monday, November 28th 2022, 1:42:39 pm
 - Long lasting effects
 - Even if participants were informed that things changed
 - Even a week later
+- ![[Pasted image 20221205132958.png]]
 
 ## Motivation Determined by
 - Time
 - Memory
 - Motivation - still works on earlier prep?
 
-## Backlinks
+- [[Cognition Hazard Rates]]
 
+## Backlinks
 > - [Cognitive Preparation](Cognitive Preparation.md)
 >   - [[Cognitive Foreperiod]]
 

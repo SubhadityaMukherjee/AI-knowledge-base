@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-11-28.md",
+                "file": "CogMod Final Paper.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-11-28.md",
+                "file": "CogMod Final Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-11-28.md",
+                "file": "CogMod Final Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-11-28.md"
+                "file": "CogMod Final Paper.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "1c71d4fb82b56063",
   "lastOpenFiles": [
-    "Cognitive Preparation.md",
+    "journals/2022-12-05.md",
+    "The Reward Experiment.md",
     "Cognitive Foreperiod.md",
-    "journals/2022-11-28.md",
-    "Cgonitive Preparation.md",
-    "Dikes and Rivers.md",
-    "Declarative Memory Blending.md",
+    "Cognition Hazard Rates.md",
+    "Cognitive fMTP.md",
+    "Active tracking.md",
+    "Scaled benefits.md",
     "templates/titler.md",
-    "Zeiler_Fergus.md",
-    "Deep_Inside_Convolutional_Networks.md",
-    "CAM.md"
+    "Cognitive Preparation.md",
+    "ACT-R.md"
   ]
 }

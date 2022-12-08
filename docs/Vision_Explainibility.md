@@ -2,7 +2,7 @@
 title: Vision Explainibility
 
 tags: mastersthesis explainability flow
-date modified: Tuesday, December 6th 2022, 12:54:59 pm
+date modified: Thursday, December 8th 2022, 3:26:32 pm
 date created: Friday, November 18th 2022, 12:31:29 pm
 ---
 
@@ -44,7 +44,7 @@ date created: Friday, November 18th 2022, 12:31:29 pm
 	
 ```mermaid
 
-graph LR;
+graph TD;
 E2[DeconvNet] --> E1
 E3[Deep_Inside_Convolutional_Networks] --> E1
 E1[Guided_BackProp]
@@ -93,7 +93,6 @@ class U2 internal-link
 ```
 
 ## Backlinks
-
 > - [](journals/2022-12-06.md)
 >   - **12:01** [[Vision_Explainibility]]
 

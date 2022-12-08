@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-12-03.md",
+                "file": "docs/Vision_Explainibility.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36a647e148214fd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Vision_Explainibility.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-03.md",
+                "file": "docs/Vision_Explainibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-12-03.md",
+                "file": "docs/Vision_Explainibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-12-03.md"
+                "file": "docs/Vision_Explainibility.md"
               }
             }
           },
@@ -142,20 +154,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "1c71d4fb82b56063",
+  "active": "36a647e148214fd2",
   "lastOpenFiles": [
+    "docs/Integrated Gradients.md",
+    "docs/mastersthesis.md",
+    "docs/index.md",
+    "docs/Vision_Explainibility.md",
+    "docs/Untitled.md",
+    "docs/journals/2022-12-08.md",
     "templates/titler.md",
     "journals/2022-12-03.md",
     "journals/2022-11-28.md",
-    "Cognitive Preparation.md",
-    "Cognitive Foreperiod.md",
-    "journals/2022-12-01.md",
-    "Dikes and Rivers.md",
-    "SDR.md",
-    "SSR.md",
-    "Declarative Memory Blending.md"
+    "Cognitive Preparation.md"
   ]
 }

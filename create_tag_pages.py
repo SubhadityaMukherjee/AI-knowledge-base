@@ -9,7 +9,7 @@ main_dir = Path("./docs/")
 files = glob(str(main_dir) + "/**/*.md", recursive=True)
 files.sort()
 
-tag_list = ["architecture", "language", "visualization", "dataset", "psychology", "loss", "regularize", "uncertainty", "cogneuro", "brain", "robotics", "medical", "usermodel", "mastersthesis", "augment", "cogitivemodel"]
+tag_list = ["architecture", "language", "visualization", "dataset", "psychology", "loss", "regularize", "uncertainty", "cogneuro", "brain", "robotics", "medical", "usermodel", "mastersthesis", "augment", "cogitivemodel", "explainibility"]
 
 dict_tags = {x:[] for x in tag_list}
 

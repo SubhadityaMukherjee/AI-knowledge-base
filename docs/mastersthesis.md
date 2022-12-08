@@ -1,13 +1,6 @@
----
-tags: temp
-date created: Thursday, December 8th 2022, 3:25:29 pm
-date modified: Thursday, December 8th 2022, 3:55:04 pm
----
 
 ---
-
 tags: anchor
-
 ___
 
 - [Beware of Inmates Running the Asylum.md](Beware%20of%20Inmates%20Running%20the%20Asylum.md)

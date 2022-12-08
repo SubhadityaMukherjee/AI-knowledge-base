@@ -2,11 +2,15 @@
 title: GloVE
 
 tags: architecture 
-date modified: Monday, October 10th 2022, 2:02:26 pm
+date modified: Wednesday, December 7th 2022, 10:58:44 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
+```toc
+```
 
 # GloVE
+
+## Explanation
 - [GloVe: Global Vectors for Word Representation](https://www.aclweb.org/anthology/D14-1162/)
 - [Word2Vec](Word2Vec.md) relies only on local information of language. That is, the semantics learnt for a given word, is only affected by the surrounding words.
 - [Unsupervised_Learning](Unsupervised_Learning.md) algorithm which captures both global statistics and local statistics of a corpus
@@ -17,4 +21,16 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Note that GloVe does not use neural networks
 - utilizes this main benefit of count data while simultaneously capturing the meaningful linear substructures prevalent in recent log-bilinear prediction-based methods like [word2vec](Word2Vec.md)
 - global log-bilinear [LinearRegression](LinearRegression.md) model for the [unsupervised learning](Unsupervised_Learning.md) of word representations
+- ![[Pasted image 20221207225733.png]]
+- There’s a straight red column through all of these different words. They’re similar along that dimension (and we don’t know what each dimensions codes for)
+- There are clear places where “king” and “queen” are similar to each other and distinct from all the others. Could these be coding for a vague concept of royalty?
 
+## Analogies
+- ![](assets/king-man+woman-gensim.png)
+
+## Backlinks
+
+> - [Word Vectors](Word_Vectors.md)
+>   - [[GloVE]]
+
+_Backlinks last generated 2022-12-08 15:24:12_

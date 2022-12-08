@@ -12,17 +12,10 @@
   "app:go-back": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod"
       ],
       "key": "ArrowLeft"
-    }
-  ],
-  "app:go-forward": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowRight"
     }
   ],
   "obsidian-timestamper:obsidian-fast-timestamp": [

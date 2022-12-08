@@ -2,11 +2,12 @@
 title: DeconvNet
 
 tags: explainability 
-date modified: Friday, November 18th 2022, 12:43:35 pm
+date modified: Tuesday, December 6th 2022, 12:04:42 pm
 date created: Wednesday, October 12th 2022, 4:17:49 pm
 ---
 
 # DeconvNet
+- Zeiler, Fergus
 - [Arxiv](https://arxiv.org/abs/1311.2901)
 ```toc
 ```
@@ -23,3 +24,9 @@ date created: Wednesday, October 12th 2022, 4:17:49 pm
 - With their propagation technique, they identified the most responsible patterns for this output. The patterns are visualized in the input space
 - DeconvNet is limited to max-pooling layers, but the unpooling uses an approximate inverse
 
+## Backlinks
+
+> - [Vision Explainibility](Vision_Explainibility.md)
+>   - Building up on [Deep_Inside_Convolutional_Networks](Deep_Inside_Convolutional_Networks.md) and [[DeconvNet]]
+
+_Backlinks last generated 2022-12-08 15:24:12_

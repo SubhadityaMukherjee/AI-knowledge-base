@@ -12,7 +12,7 @@ ___
 - [Articulation.md](Articulation.md)
 - [Assembly_Robot.md](Assembly_Robot.md)
 - [Average_Number_of_Stored_Instances_per_Category.md](Average_Number_of_Stored_Instances_per_Category.md)
-- [Bag_of_Words.md](Bag_of_Words.md)
+- [Bag_of_Words_robotics.md](Bag_of_Words_robotics.md)
 - [Base_Link.md](Base_Link.md)
 - [Burn-in.md](Burn-in.md)
 - [Carousel.md](Carousel.md)

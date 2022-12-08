@@ -1,12 +1,15 @@
 ---
 title: Cosine Similarity
 tags: distance loss
-date modified: Monday, October 10th 2022, 2:02:30 pm
+date modified: Wednesday, December 7th 2022, 10:55:21 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Cosine Similarity
 - [Lp_Regularization](Lp_Regularization.md) l2norm aka p = 2
+- $$S_{c}(A,B) := cos(\theta) = \frac{A\cdot B}{||A|| ||B||} = \frac{\Sigma_{i=1}^{n}A_{i}B_{i}}{\sqrt{\Sigma_{i=1}^{n}A^{2}_{i}} \sqrt{\Sigma_{i=1}^{n}B_{i}^{2}}}$$
+- ranges from -1 : exactly opposite, 1 : exactly same, 0: orthogonal/not correlated, intermediate
+- [[Cosine Distance]]
 - Cosine similarity is $$ - \mathrm{sum}\left( \mathrm{l2norm}\left( y \right) \cdot \mathrm{l2norm}\left( ŷ \right) \right)$$
 - ![im](images/Pasted%20image%2020220506155815.png)
 - magnitude of vectors is not taken into account, merely their direction
@@ -14,3 +17,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - If you take a [recommender system](Recommender_System.md), for example, then the cosine similarity does not take into account the difference in rating scale between different users
 - high-dimensional data and when the magnitude of the vectors is not of importance
 
+## Backlinks
+
+> - [Cosine Distance](Cosine Distance.md)
+>   - Complement of [[Cosine_Similarity]]
+>    
+> - [Word Vectors](Word_Vectors.md)
+>   - eg : [[Cosine_Similarity]]
+
+_Backlinks last generated 2022-12-08 15:24:12_

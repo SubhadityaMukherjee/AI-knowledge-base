@@ -37,5 +37,8 @@ date created: Monday, November 28th 2022, 1:07:49 pm
 
 > - [Dikes and Rivers](Dikes and Rivers.md)
 >   - ACTR declarative memory + [[Declarative Memory Blending]]
+>    
+> - [Cognitive fMTP](Cognitive fMTP.md)
+>   - [[Declarative Memory Blending]]
 
-_Backlinks last generated 2022-11-28 14:44:43_
+_Backlinks last generated 2022-12-08 15:24:12_

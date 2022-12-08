@@ -7,6 +7,7 @@ date created: Friday, November 18th 2022, 1:36:13 pm
 ---
 
 # Guided BackProp
+- Striving for simplicity, the All conv net
 ```toc
 ```
 

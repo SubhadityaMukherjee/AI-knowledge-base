@@ -52,3 +52,13 @@ date created: Monday, December 5th 2022, 2:13:52 pm
 	- Continuously retrieving associated memories?  
 - Once we are prepared, it doesn’t ‘go away’  
 	- Consequence of ‘more A, less I retrieved’
+
+## Backlinks
+
+> - [The Reward Experiment](The Reward Experiment.md)
+>   - [[Cognitive fMTP]]
+>    
+> - [Cogntition Hazard Rates](Cognition Hazard Rates.md)
+>   - {Proven wrong} : [[Cognitive fMTP]]
+
+_Backlinks last generated 2022-12-08 15:24:12_

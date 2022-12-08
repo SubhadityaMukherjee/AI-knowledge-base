@@ -13,3 +13,10 @@ date created: Monday, December 5th 2022, 1:44:32 pm
 - hz evaluated moment-to-moment  
 - Is it already time to start preparing?
 - Makes your models run much slower!
+
+## Backlinks
+
+> - [Cogntition Hazard Rates](Cognition Hazard Rates.md)
+>   - [[Active tracking]]
+
+_Backlinks last generated 2022-12-08 15:24:12_

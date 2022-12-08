@@ -2,7 +2,7 @@
 title: Guided GradCAM
 
 tags: explainability 
-date modified: Friday, November 18th 2022, 2:11:54 pm
+date modified: Tuesday, December 6th 2022, 12:41:15 pm
 date created: Friday, November 18th 2022, 1:09:31 pm
 ---
 
@@ -17,7 +17,6 @@ date created: Friday, November 18th 2022, 1:09:31 pm
 - ![](images/1!cPUwFxeQBgkMoMmC1LoZkA.png)
 
 ## Backlinks
-
 > - [GradCAM](GradCAM.md)
 >   - Followed by [[Guided_GradCAM]]
 

@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +155,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "36a647e148214fd2",
+  "active": "1c71d4fb82b56063",
   "lastOpenFiles": [
     "docs/Integrated Gradients.md",
     "docs/mastersthesis.md",

@@ -22,7 +22,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 ## Training
 - pick mini batch of samples 
-- update discriminator with Gradient Descent based on discriminator loss with generator obtained from previous update
+- update discriminator with Gradient Descent based** on discriminator loss with generator obtained from previous update
 - update the generator with Gradient Descent based on generator loss with the discriminator from the previous step
 
 ## [Issues](Issues.md)

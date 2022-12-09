@@ -2,7 +2,7 @@
 title: Vision Explainibility
 
 tags: mastersthesis explainability flow
-date modified: Thursday, December 8th 2022, 3:26:32 pm
+date modified: Thursday, December 8th 2022, 5:14:10 pm
 date created: Friday, November 18th 2022, 12:31:29 pm
 ---
 
@@ -37,6 +37,7 @@ date created: Friday, November 18th 2022, 12:31:29 pm
 - [[SmoothGrad Square]]
 - [[VarGrad]]
 - [[Integrated Gradients]]
+- [[Proxy Attention]]
 
 ## Disadvantages
 - [[The Unreliability of Saliency Methods]]
@@ -50,10 +51,11 @@ E3[Deep_Inside_Convolutional_Networks] --> E1
 E1[Guided_BackProp]
 
 B1[CAM] --> B2[GradCAM] --> B3[GradCAM++]
+B2 --> B4[Guided_GradCAM]
 
 E4[Network In Network] --> B1
 
-B2 --> B4[Guided_GradCAM]
+
 E1 --> B4
 
 E2 --> A[Salience_Map]
@@ -65,7 +67,15 @@ E1 --> C1
 C1[Smooth-Grad] --> C4
 C2[SmoothGrad Square] --> C4
 C3[VarGrad] --> C4
-C4[Noise Tunnel]
+C4[Noise Tunnel] --> P
+C0 --> P
+C4 --> P
+A --> P
+B2 --> P
+
+subgraph proposed
+P([Proxy Attention])
+end
 
 U1[The Unreliability of Saliency Methods] --Changes break saliency--> A
 U2[Interpretation of Neural networks is fragile] --Adversarial Attacks--> A
@@ -90,6 +100,7 @@ class E3 internal-link
 class E4 internal-link
 class U1 internal-link
 class U2 internal-link
+class P internal-link
 ```
 
 ## Backlinks

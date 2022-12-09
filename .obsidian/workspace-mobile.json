@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/journals/2022-12-04.md",
+                "file": "docs/Generative_Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/journals/2022-12-04.md",
+            "file": "docs/Generative_Models.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/journals/2022-12-04.md",
+            "file": "docs/Generative_Models.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/journals/2022-12-04.md"
+            "file": "docs/Generative_Models.md"
           }
         }
       },
@@ -131,6 +131,8 @@
   },
   "active": "823aafff5f96548f",
   "lastOpenFiles": [
+    "docs/journals/2022-12-09.md",
+    "docs/journals/2022-12-04.md",
     "docs/architecture.md",
     "docs/journals/2022-12-03.md",
     "docs/Beware of Inmates Running the Asylum.md",

@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0c85eac9f83abaf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2022-12-06.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "98bf09637ea57459",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PCA.md",
-                "mode": "source",
+                "file": "Vision_Explainibility.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -37,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gensim.md",
-                "mode": "source",
+                "file": "Masked Language Modeling.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-12-06.md",
+                "file": "Masked Language Modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-12-06.md",
+                "file": "Masked Language Modeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-12-06.md"
+                "file": "Masked Language Modeling.md"
               }
             }
           },
@@ -161,24 +150,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "0c85eac9f83abaf4",
+  "active": "e054ffce05e68c9c",
   "lastOpenFiles": [
-    "journals/2022-12-07.md",
-    "Word2Vec.md",
-    "gensim.md",
-    "PCA.md",
-    "Skip Gram.md",
-    "CBOW.md",
-    "Word_Vectors.md",
-    "Embedding.md",
-    "Cosine_Similarity.md",
-    "journals/2022-12-08.md"
+    "BERT.md",
+    "Causal Language Model.md",
+    "Token_Embedding.md",
+    "Transformer.md",
+    "Attention.md",
+    "Masked Language Modeling.md",
+    "Vision_Explainibility.md",
+    "Guided_GradCAM.md",
+    "Smooth-Grad.md",
+    "journals/2022-12-09.md"
   ]
 }

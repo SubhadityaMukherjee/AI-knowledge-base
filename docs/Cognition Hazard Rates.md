@@ -67,13 +67,13 @@ date created: Monday, December 5th 2022, 1:34:40 pm
 
 ## Backlinks
 
-> - [The Reward Experiment](The Reward Experiment.md)
+> - [Cognitive Foreperiod](Cognitive Foreperiod.md)
 >   - [[Cognition Hazard Rates]]
 >    
-> - [Cognitive Foreperiod](Cognitive Foreperiod.md)
+> - [The Reward Experiment](The Reward Experiment.md)
 >   - [[Cognition Hazard Rates]]
 >    
 > - [](journals/2022-12-05.md)
 >   - **01:13** [[Cognition Hazard Rates]]
 
-_Backlinks last generated 2022-12-08 15:56:49_
+_Backlinks last generated 2022-12-08 15:24:12_

@@ -2,7 +2,7 @@
 title: Cognitive Preparation
 
 tags: cognitivemodel 
-date modified: Monday, December 5th 2022, 1:28:36 pm
+date modified: Monday, December 12th 2022, 2:18:01 pm
 date created: Monday, November 28th 2022, 1:33:51 pm
 ---
 
@@ -17,6 +17,7 @@ date created: Monday, November 28th 2022, 1:33:51 pm
 - Within trial
 - Block of trials
 - Across blocks of trials
+- [[Cognitive Multitasking]]
 
 ## Design
 - Task has to be boring -.-
@@ -24,3 +25,9 @@ date created: Monday, November 28th 2022, 1:33:51 pm
 ## Terms
 - [[Cognitive Foreperiod]]
 
+## Backlinks
+
+> - [](journals/2022-12-12.md)
+>   - **01:07** [[Cognitive Preparation]]
+
+_Backlinks last generated 2022-12-12 23:44:06_

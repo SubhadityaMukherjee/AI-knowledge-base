@@ -1,14 +1,6 @@
 {
   "file-explorer:new-file-in-new-pane": [],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "G"
-    }
-  ],
+  "daily-notes": [],
   "app:go-back": [
     {
       "modifiers": [
@@ -43,6 +35,15 @@
         "Shift"
       ],
       "key": "T"
+    }
+  ],
+  "daily-notes-editor:open-daily-note-editor": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
     }
   ]
 }

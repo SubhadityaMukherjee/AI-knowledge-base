@@ -27,3 +27,4 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 ## [Issues](Issues.md)
 - [Mode_Collapse](Mode_Collapse.md)
+

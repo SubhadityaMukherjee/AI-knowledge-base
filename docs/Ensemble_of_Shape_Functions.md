@@ -10,7 +10,10 @@ tags: robotics
 
 ## Backlinks
 
+> - [Stoch Ensemble Learning](Stochastic_ensemble_learning.md)
+>   - [[Ensemble_of_Shape_Functions]]
+>    
 > - [](journals/2022-11-03.md)
 >   - [[Ensemble_of_Shape_Functions]]
 
-_Backlinks last generated 2022-11-25 12:02:50_
+_Backlinks last generated 2023-01-05 20:19:13_

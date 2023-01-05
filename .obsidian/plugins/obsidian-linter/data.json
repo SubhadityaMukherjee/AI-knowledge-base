@@ -97,10 +97,10 @@
       "Replaces three consecutive dots with an ellipsis.": true
     },
     "Remove Consecutive List Markers": {
-      "Removes consecutive list markers. Useful when copy-pasting list items.": true
+      "Removes consecutive list markers. Useful when copy-pasting list items.": false
     },
     "Remove Empty List Markers": {
-      "Removes empty list markers, i.e. list items without content.": true
+      "Removes empty list markers, i.e. list items without content.": false
     },
     "Remove Hyphenated Line Breaks": {
       "Removes hyphenated line breaks. Useful when pasting text from textbooks.": false
@@ -164,10 +164,6 @@
     "Space after list markers": {
       "There should be a single space after list markers and checkboxes.": true
     },
-    "Space between Chinese and English or numbers": {
-      "Ensures that Chinese and English or numbers are separated by a single space. Follows these [guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)": false,
-      "Ensures that Chinese and English or numbers are separated by a single space. Follow this [guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)": false
-    },
     "Trailing spaces": {
       "Removes extra spaces after every line.": true,
       "Two Space Linebreak": true
@@ -189,7 +185,7 @@
       "Removes starting checklist indicator from the text to paste if the line the cursor is on in the file has a checklist indicator": false
     },
     "Prevent Double List Item Indicator on Paste": {
-      "Removes starting list indicator from the text to paste if the line the cursor is on in the file has a list indicator": false
+      "Removes starting list indicator from the text to paste if the line the cursor is on in the file has a list indicator": true
     },
     "Proper Ellipsis on Paste": {
       "Replaces three consecutive dots with an ellipsis even if they have a space between them in the text to paste": false
@@ -198,16 +194,33 @@
       "Removes hyphens from the text to paste": true
     },
     "Remove Leading or Trailing Whitespace on Paste": {
-      "Removes any leading non-tab whitespace and all trailing whitespace for the text to paste": false
+      "Removes any leading non-tab whitespace and all trailing whitespace for the text to paste": true
     },
     "Remove Leftover Footnotes from Quote on Paste": {
       "Removes any leftover footnote references for the text to paste": false
     },
     "Remove Multiple Blank Lines on Paste": {
       "Condenses multiple blank lines down into one blank line for the text to paste": true
+    },
+    "Space between Chinese Japanese or Korean and English or numbers": {
+      "Ensures that Chinese, Japanese, or Korean and English or numbers are separated by a single space. Follows these [guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)": false
+    },
+    "Headings Start Line": {
+      "Headings that do not start a line will have their preceding whitespace removed to make sure they get recognized as headers.": false
+    },
+    "Remove Trailing Punctuation in Heading": {
+      "Removes the specified punctuation from the end of headings making sure to ignore the semicolon at the end of [HTML entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).": false,
+      "Trailing Punctuation": ".,;:!。，；：！"
+    },
+    "Remove Space around Characters": {
+      "Ensures that certain characters are not surrounded by whitespace (either single spaces or a tab). Note that this may causes issues with markdown format in some cases.": false,
+      "Include Fullwidth Forms": true,
+      "Include CJK Symbols and Punctuation": true,
+      "Include Dashes": true,
+      "Other symbols": ""
     }
   },
-  "lintOnSave": true,
+  "lintOnSave": false,
   "displayChanged": true,
   "foldersToIgnore": [
     "images/",
@@ -217,6 +230,7 @@
   "linterLocale": "system-default",
   "logLevel": 4,
   "lintCommands": [],
+  "customRegexes": [],
   "commonStyles": {
     "aliasArrayStyle": "single-line",
     "tagArrayStyle": "single-line",

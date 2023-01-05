@@ -2,7 +2,7 @@
 title: CycleGAN
 
 tags: architecture generative
-date modified: Monday, December 12th 2022, 12:47:17 am
+date modified: Wednesday, December 14th 2022, 11:20:53 am
 date created: Sunday, December 11th 2022, 12:58:09 pm
 ---
 
@@ -56,9 +56,42 @@ date created: Sunday, December 11th 2022, 12:58:09 pm
 - To prevent the model from changing drastically from iteration to iteration, the discriminators were fed a history of generated images, rather than just the ones produced by the latest versions of the generator.
 - To do this we keep storing the 50 most recently generated images. Based on this technique we reduce the model Oscillation as well as model overfitting.
 
+## Technical Implementation
+
+The CycleGAN paper provides a number of technical details regarding how to implement the technique in practice.
+
+The generator network implementation is based on the approach described for style transfer by [Justin Johnson](https://cs.stanford.edu/people/jcjohns/) in the 2016 paper titled “[Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155).”
+
+The generator model starts with best practices for generators using the deep convolutional GAN, which is implemented using multiple residual blocks (e.g. from the [ResNet](https://machinelearningmastery.com/how-to-implement-major-architecture-innovations-for-convolutional-neural-networks/)).
+
+The discriminator models use PatchGAN, as described by [Phillip Isola](http://web.mit.edu/phillipi/), et al. in their 2016 paper titled “[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004).”
+
+> This discriminator tries to classify if each NxN patch in an image is real or fake. We run this discriminator convolutionally across the image, averaging all responses to provide the ultimate output of D.
+
+— [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004), 2016.
+
+PatchGANs are used in the discriminator models to classify 70×70 overlapping patches of input images as belonging to the domain or having been generated. The discriminator output is then taken as the average of the prediction for each patch.
+
+The adversarial loss is implemented using a least-squared loss function, as described in [Xudong Mao](https://xudongmao.github.io/), et al’s 2016 paper titled “[Least Squares Generative Adversarial Networks](https://arxiv.org/abs/1611.04076).”
+
+> […] we propose the Least Squares Generative Adversarial Networks (LSGANs) which adopt the least squares loss function for the discriminator. The idea is simple yet powerful: the least squares loss function is able to move the fake samples toward the decision boundary, because the least squares loss function penalizes samples that lie in a long way on the correct side of the decision boundary.
+
+— [Least squares generative adversarial networks](https://arxiv.org/abs/1611.04076), 2016.
+
+Additionally, a buffer of 50 generated images is used to update the discriminator models instead of freshly generated images, as described in [Ashish Shrivastava’s](https://www.linkedin.com/in/ashish-shrivastava-3499127/) 2016 paper titled “[Learning from Simulated and Unsupervised Images through Adversarial Training](https://arxiv.org/abs/1612.07828).”
+
+> […] we introduce a method to improve the stability of adversarial training by updating the discriminator using a history of refined images, rather than only the ones in the current minibatch.
+
+— [Learning from Simulated and Unsupervised Images through Adversarial Training](https://arxiv.org/abs/1612.07828), 2016.
+
+The models are trained with the [Adam version of stochastic gradient descent](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/) and a small learning rate for 100 epochs, then a further 100 epochs with a learning rate decay. The models are updated after each image, e.g. a batch size of 1.
+
 ## Backlinks
 
+> - [Scalar Articles](Scalar Articles.md)
+>   - [[CycleGAN]]
+>    
 > - [](journals/2022-12-11.md)
 >   - **12:57** Have to write an article about [[CycleGAN]]
 
-_Backlinks last generated 2022-12-12 23:44:06_
+_Backlinks last generated 2023-01-05 20:19:13_

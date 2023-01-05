@@ -4,20 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "ccf28e6be1b894bc",
+        "id": "5546cf9929693100",
         "type": "tabs",
         "children": [
           {
-            "id": "823aafff5f96548f",
+            "id": "bc19ad95711820b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Generative_Models.md",
+                "file": "docs/journals/2023-01-04.md",
                 "mode": "source",
                 "source": false
               }
+            },
+            "group": "a603df7163687ee1"
+          },
+          {
+            "id": "ed64fafe0b961bd7",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-editor-view",
+              "state": {}
             }
+          }
+        ]
+      },
+      {
+        "id": "36fb531d044e2183",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f73d988c66fe539",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "docs/journals/2023-01-04.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.933919399214256,
+                  "close": true
+                }
+              }
+            },
+            "group": "a603df7163687ee1"
           }
         ]
       }
@@ -85,7 +136,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/Generative_Models.md",
+            "file": "docs/journals/2023-01-04.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +153,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/Generative_Models.md",
+            "file": "docs/journals/2023-01-04.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +165,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/Generative_Models.md"
+            "file": "docs/journals/2023-01-04.md"
           }
         }
       },
@@ -127,19 +178,19 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
-  "active": "1bf1b4fc6f9bcbf2",
+  "active": "bc19ad95711820b8",
   "lastOpenFiles": [
-    "docs/journals/2022-12-09.md",
-    "docs/journals/2022-12-04.md",
-    "docs/architecture.md",
-    "docs/journals/2022-12-03.md",
-    "docs/Beware of Inmates Running the Asylum.md",
-    "docs/Cognitive Foreperiod.md",
-    "Beware of Inmates Running The Asylum.md",
-    "docs/templates/titler.md",
-    "docs/templates/post.md",
-    "docs/Untitled.pdf"
+    "docs/Dropout.md",
+    "docs/Adding_noise.md",
+    "docs/Co_adaptation.md",
+    "docs/Early_Stopping_tricks.md",
+    "docs/journals/2023-01-04.md",
+    "docs/journals/2023-01-03.md",
+    "docs/Regularization.md",
+    "docs/A_survey_on_Image_Data_Augmentation_for_Deep_Learning.md",
+    "docs/journals/2022-12-30.md",
+    "docs/LDA.md"
   ]
 }

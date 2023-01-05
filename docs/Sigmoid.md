@@ -15,3 +15,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Bernoulli_Distribution](Bernoulli_Distribution.md) over a binary variable
 - ![Pasted image 20220626151646](images/Pasted%20image%2020220626151646.jpg)
 
+## Backlinks
+
+> - [DCGAN](DCGAN.md)
+>   - Final is a [[Sigmoid]] layer
+
+_Backlinks last generated 2023-01-05 20:19:13_

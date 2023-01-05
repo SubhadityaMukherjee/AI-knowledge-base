@@ -6,9 +6,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Linear Regression
+```toc
+```
 - Minimization problem $$(w,b) = argmin_{w^{\ast} , b^{\ast}} \Sigma^N_{i-1}(w^{\ast}x_{i} +b ^{\ast} - y_{i})^2$$
 	- [Affine_Function](Affine_Function.md)
-	- $$w = argmin_{w^\ast} || (\Sigma^n_{j = 1} w^\ast_j \phi_j) - y || ^2$
+	- $$w = argmin_{w^\ast} || (\Sigma^n_{j = 1} w^\ast_j \phi_j) - y || ^2$$
 		- w* is just $$(w^\ast_1 … w^\ast_n)$$
 		- $$u_j$$ of U forms orthonormal basis of $$\mathscr{F}$$
 - X : nxN matrix , y : N dim vector
@@ -35,6 +37,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Solution : $$h_{opt} = argmin_{h \in \mathcal{H}}\Sigma_{i=1}^N L(h(x_i), y_i)$$
 	- $$\mathcal{H}$$ is all linear functions from $$\mathbb{R}^n$$ to $$\mathbb{R}^k$$
 
-## Random Notes
-- $$(A'A)^{-1}A'$$ is the left psuedo inverse
+- [[Left psuedo inverse]]
 

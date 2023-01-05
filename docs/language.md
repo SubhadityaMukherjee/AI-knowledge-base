@@ -97,6 +97,7 @@ ___
 - [Numerically_Quantified_Expressions.md](Numerically_Quantified_Expressions.md)
 - [Object-relative_clauses.md](Object-relative_clauses.md)
 - [Ostension.md](Ostension.md)
+- [Ostensive Information.md](Ostensive%20Information.md)
 - [Overhypotheses.md](Overhypotheses.md)
 - [Parts_of_action.md](Parts_of_action.md)
 - [Parts_of_entities.md](Parts_of_entities.md)

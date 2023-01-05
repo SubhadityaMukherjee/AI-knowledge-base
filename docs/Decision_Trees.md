@@ -7,3 +7,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # DT
 
+## Backlinks
+
+> - [Generative vs Discriminative Models](Generative vs Discriminative Models.md)
+>   - [[Decision_Trees]]
+
+_Backlinks last generated 2023-01-05 20:19:13_

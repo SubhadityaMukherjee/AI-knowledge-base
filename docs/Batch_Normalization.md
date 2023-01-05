@@ -21,3 +21,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\hat x_{ij} \leftarrow \frac{x_{ij}-\mu_j}{\sqrt{\sigma^2_j + \epsilon}}$$
 - $$\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$$
 
+## Backlinks
+
+> - [DCGAN](DCGAN.md)
+>   - [[Transposed Conv]] , [[Batch_Normalization]] and [[Relu]]
+>   - [[Batch_Normalization]] AFTER [[Transposed Conv]] is super important as it helps with flow of gradients
+>   - [[Strided]] [[Conv]], [[Batch_Normalization]], and [[Leaky_Relu]]
+
+_Backlinks last generated 2023-01-05 20:19:13_

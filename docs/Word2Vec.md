@@ -34,7 +34,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 ## Backlinks
 
+> - [Scalar Articles](Scalar Articles.md)
+>   - [[Word2Vec]] with [[gensim]]
+>    
 > - [](journals/2022-12-07.md)
 >   - [[Word2Vec]]
 
-_Backlinks last generated 2022-12-08 15:24:12_
+_Backlinks last generated 2023-01-05 20:19:13_

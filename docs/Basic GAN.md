@@ -2,8 +2,8 @@
 title: Basic GAN
 
 tags: architecture generative 
-date modified: Wednesday 21st December 2022, Wed
-date created: Wednesday 21st December 2022, Wed
+date modified: Tuesday, January 10th 2023, 1:38:03 pm
+date created: Wednesday, December 21st 2022, 3:10:38 pm
 ---
 
 # Basic GAN
@@ -32,13 +32,12 @@ date created: Wednesday 21st December 2022, Wed
 - [Mode_Collapse](Mode_Collapse.md)
 
 ## Backlinks
-
 > - [Generative_Models](Generative_Models.md)
 >   - [[Basic GAN]]
->    
+>
 > - [Generative vs Discriminative Models](Generative vs Discriminative Models.md)
 >   - [[Basic GAN]]
->    
+>
 > - [Scalar Articles](Scalar Articles.md)
 >   - [[Basic GAN]]
 

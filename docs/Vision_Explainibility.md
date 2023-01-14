@@ -2,7 +2,7 @@
 title: Vision Explainibility
 
 tags: mastersthesis explainability flow
-date modified: Thursday, December 8th 2022, 5:14:10 pm
+date modified: Saturday, January 14th 2023, 4:36:15 pm
 date created: Friday, November 18th 2022, 12:31:29 pm
 ---
 
@@ -38,10 +38,12 @@ date created: Friday, November 18th 2022, 12:31:29 pm
 - [[VarGrad]]
 - [[Integrated Gradients]]
 - [[Proxy Attention]]
+- [[Conductance]]
 
 ## Disadvantages
 - [[The Unreliability of Saliency Methods]]
 - [[Interpretation of Neural networks is fragile]]
+- Fine grained data
 	
 ```mermaid
 
@@ -67,6 +69,7 @@ E1 --> C1
 C1[Smooth-Grad] --> C4
 C2[SmoothGrad Square] --> C4
 C3[VarGrad] --> C4
+C0 --> C5[Conductance]
 C4[Noise Tunnel] --> P
 C0 --> P
 C4 --> P
@@ -91,6 +94,7 @@ class C1 internal-link
 class C2 internal-link
 class C3 internal-link
 class C4 internal-link
+class C5 internal-link
 class D internal-link
 class E internal-link
 class F internal-link
@@ -104,10 +108,9 @@ class P internal-link
 ```
 
 ## Backlinks
-
 > - [](journals/2022-12-06.md)
 >   - **12:01** [[Vision_Explainibility]]
->    
+>
 > - [](journals/2022-12-09.md)
 >   - **11:05** Bunch of things today. First I have a thesis presentation [[Vision_Explainibility]], then an article on [[Masked Language Modeling]] and then Cogmod
 

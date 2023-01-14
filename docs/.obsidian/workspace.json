@@ -13,13 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basic GAN.md",
+                "file": "Fine-grained_Object_Recognition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0b13ffdb50dcb5b",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-editor-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5b1740f87b0fa0eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep_Inside_Convolutional_Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -71,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basic GAN.md",
+                "file": "Deep_Inside_Convolutional_Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -102,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basic GAN.md",
+                "file": "Deep_Inside_Convolutional_Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basic GAN.md"
+                "file": "Deep_Inside_Convolutional_Networks.md"
               }
             }
           },
@@ -162,17 +184,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "793a0cb10dd594ac",
+  "active": "5b1740f87b0fa0eb",
   "lastOpenFiles": [
-    "templates/titler.md",
-    "Basic GAN.md",
-    "journals/2022-12-09.md",
-    "journals/2022-12-11.md",
-    "journals/2022-12-06.md",
-    "journals/2022-12-21.md",
+    "Vision_Explainibility.md",
+    "Occlusion Map.md",
+    "GradCAM.md",
+    "CAM.md",
+    "Global_Average_Pooling.md",
+    "Network In Network.md",
+    "Smooth-Grad.md",
+    "Fine-grained_Object_Recognition.md",
     "journals/2023-01-09.md",
-    "journals/2022-12-05.md",
-    "Generative_Models.md",
-    "journals/2022-10-23.md"
+    "Fine grained datasets.md"
   ]
 }

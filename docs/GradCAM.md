@@ -2,7 +2,7 @@
 title: GradCAM
 
 tags: architecture 
-date modified: Friday, November 18th 2022, 1:24:54 pm
+date modified: Saturday, January 14th 2023, 4:45:37 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
@@ -46,4 +46,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - are more faithful to the underlying model
 - help achieve model generalization by identifying dataset bias
 - identify important neurons through GradCAM and combine it with neuron names to provide textual explanations for model decisions
+
+## GradCAM Vs CAM
+- Gradient-weighted Class Activation Mapping (Grad-CAM) is an improvement over Class Activation Mapping (CAM) that provides a more detailed and accurate visualization of the regions of an image that are important for a given classification.
+- CAM generates heatmaps by using global average pooling (GAP) in the final convolutional layer to generate a feature map, followed by a linear combination of the feature map and the class weight vector to generate a single class activation map. However, this approach does not take into account the gradients of the class scores with respect to the feature maps, which can provide additional information about the contribution of different regions of the image to the final classification decision.
+- Grad-CAM, on the other hand, uses the gradients of the class scores with respect to the feature maps in order to generate heatmaps. Specifically, it uses the gradients of the class scores with respect to the final feature maps of the network, which are then upsampled to the same size as the input image. The resulting heatmap highlights the regions of the input image that are most important for the given classification.
+- In summary, Grad-CAM is an improvement over CAM because it provides a more detailed and accurate visualization of the regions of an image that are important for a given classification by using gradients of the class scores with respect to the feature maps, providing additional information about the contribution of different regions of the image to the final classification decision.
 

@@ -23,7 +23,7 @@ date created: Thursday, December 15th 2022, 10:05:01 pm
 ## Backlinks
 
 > - [DCGAN](DCGAN.md)
->   - [[Transposed Conv]] , [[Batch_Normalization]] and [[Relu]]
->   - [[Batch_Normalization]] AFTER [[Transposed Conv]] is super important as it helps with flow of gradients
+>   - [[Transposed Conv]] , [[Batch Normalization]] and [[Relu]]
+>   - [[Batch Normalization]] AFTER [[Transposed Conv]] is super important as it helps with flow of gradients
 
-_Backlinks last generated 2023-01-05 20:19:13_
+_Backlinks last generated 2023-01-16 19:33:15_

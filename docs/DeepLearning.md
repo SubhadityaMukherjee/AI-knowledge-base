@@ -17,10 +17,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Initialization](Initialization.md)
 - [Augmentation](Augmentation.md)
 - [Uncertainty](Uncertainty.md)
-- [Optimizing_Code](Optimizing_Code.md)
-- [Useful_Codes](Useful_Codes.md)
-- [Federated_Learning](Federated_Learning.md)
-- [Reinforcement_Learning](Reinforcement_Learning.md)
+- [Optimizing Code](Optimizing%20Code.md)
+- [Useful Codes](Useful%20Codes.md)
+- [Federated Learning](Federated%20Learning.md)
+- [Reinforcement Learning](Reinforcement%20Learning.md)
 - [Refs](Refs.md)
   
 

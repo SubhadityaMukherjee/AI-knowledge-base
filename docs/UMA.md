@@ -11,5 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Identical processors
 - Identical processors
 - Equal access and access times to memory
-- [Cache_Coherence](Cache_Coherence.md)
+- [Cache Coherence](Cache%20Coherence.md)
 

@@ -6,7 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Interpolation
-- [1D_piecewise_linear_interpolation](1D_piecewise_linear_interpolation.md)
-- [Bilinear_Interpolation](Bilinear_Interpolation.md)
-- [Barycentric_Interpolation](Barycentric_Interpolation.md)
+- [1D piecewise linear interpolation](1D%20piecewise%20linear%20interpolation.md)
+- [Bilinear Interpolation](Bilinear%20Interpolation.md)
+- [Barycentric Interpolation](Barycentric%20Interpolation.md)
 

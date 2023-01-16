@@ -18,7 +18,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- [Deep Learning architectures](architecture.md)
 		- [Loss Functions](loss.md)
 		- [Datasets](dataset.md)
-		- [Pytorch_Tricks](Pytorch_Tricks.md)
+		- [Pytorch Tricks](Pytorch%20Tricks.md)
 		- [Regularizing stuff](regularize.md)
 	- Others
 		- [Robotics](robotics.md)

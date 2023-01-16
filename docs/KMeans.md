@@ -16,8 +16,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- Create new sets by putting points into set where $||x_i-\mu_j||$ is minimal
 		- If empty, dismiss and reduce K to K'
 - Error quantity does not increase
-	- [Intra_cluster_variance](Intra_cluster_variance.md)
-	- Clusters are bounded by line [Decision_Boundaries](Decision_Boundaries.md) and forms a [Voronoi_Cell](Voronoi_Cell.md)
+	- [Intra cluster variance](Intra%20cluster%20variance.md)
+	- Clusters are bounded by line [Decision Boundaries](Decision%20Boundaries.md) and forms a [Voronoi Cell](Voronoi%20Cell.md)
 - Does not work for curved boundaries
 
 ## Codebook Vector

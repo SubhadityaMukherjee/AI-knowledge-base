@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Pro: capture just enough info about the context that determines irregular past-tense [verb](Verb.md) forms ense verbs, e.g.sing -sang, ring -rang
 - 1 wickelphone = 1 input unit and 1 output unit, connection matrix of 42875 * 42875!!
 - Instead, reduce wickelphones to wickelfeatures (1210), where each wickelphone becomes 16 [features](Features.md)
-- Verbs with same stem and [past_tense](past_tense.md)
+- Verbs with same stem and [past tense](past%20tense.md)
 - English has many verbs where the past and stem are the same:
 	- put, fit, spread
 - Usually verbs ending with -t or -d are likely have no-change

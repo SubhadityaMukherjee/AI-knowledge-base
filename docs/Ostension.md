@@ -10,7 +10,7 @@ date created: Tuesday, October 25th 2022, 4:29:38 pm
 ```toc
 ```
 
-- The notion of ostension in [Relevance_Theory](Relevance_Theory.md) and in Natural Pedagogy Ostension is a notion of the Relevance Theory of Sperber and Wilson
+- The notion of ostension in [Relevance Theory](Relevance%20Theory.md) and in Natural Pedagogy Ostension is a notion of the Relevance Theory of Sperber and Wilson
 - Ostension is the behaviour when the communicator makes manifest his/her intention to make something manifest, i.e., perceptible or inferable, to the listener
 - [[Ostensive Information]]
 - Humans try to obtain from every item of information as great a contextual effect as possible for as small a processing effort as possible.

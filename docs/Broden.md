@@ -20,7 +20,9 @@ date created: Thursday, November 24th 2022, 1:46:37 pm
 
 ## Backlinks
 
-> - [Network Dissection Quantifying Interpretability of Deep Visual Representions](Network_Dissection_Quantifying_Interpretability_of_Deep_Visual_Representions.md)
+> - [Network Dissection Quantifying Interpretability of Deep Visual Representions](Network Dissection Quantifying Interpretability of Deep Visual Representions.md)
 >   - [[Broden]]
+>   - evaluates every individual convolutional unit in a CNN as a solution to a binary segmentation task to every visual concept in [[Broden]]
+>   - For every input image x in the [[Broden]] dataset, the activation map $A_{k}(x)$ of every internal convolutional unit k is collected.
 
-_Backlinks last generated 2022-11-25 12:02:50_
+_Backlinks last generated 2023-01-16 19:33:15_

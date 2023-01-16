@@ -14,7 +14,7 @@ date created: Wednesday 21st December 2022, Wed
 
 ## Backlinks
 
-> - [Gradient Descent](Gradient_Descent_gradients.md)
+> - [Gradient Descent](Gradient Descent gradients.md)
 >   - [[Gradient Direction]]
 
-_Backlinks last generated 2023-01-05 20:19:13_
+_Backlinks last generated 2023-01-16 19:33:15_

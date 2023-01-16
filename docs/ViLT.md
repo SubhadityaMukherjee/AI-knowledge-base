@@ -16,12 +16,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - removing the need for object detectors
 - avoiding heavyweight image encoders by directly [embedding](Embedding.md) low-level pixel data with a single-layer projection and achieves similar results with reduced complexity,
 - Self-supervision is accomplished using (i) Image Text Matching (ITM) [loss](loss.md) and (ii) Masked Language Model (MLM) [loss](loss.md)
-- [ITM_Loss](ITM_Loss.md)
+- [ITM Loss](ITM%20Loss.md)
 - For text, ViLT simply reuses Masked Language Model - (MLM), used in BERT.
 - [MSCOCO](MSCOCO.md)
-- [Visual_Genome](Visual_Genome.md)
-- [SBU_Captions](SBU_Captions.md)
-- [Google_Conceptual_Captions](Google_Conceptual_Captions.md)
+- [Visual Genome](Visual%20Genome.md)
+- [SBU Captions](SBU%20Captions.md)
+- [Google Conceptual Captions](Google%20Conceptual%20Captions.md)
 - [VQAv2](VQAv2.md)
 - [NLVR2](NLVR2.md)
 - [Flickr30K](Flickr30K.md)

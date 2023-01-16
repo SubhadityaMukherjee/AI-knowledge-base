@@ -10,7 +10,7 @@ date created: Wednesday, December 7th 2022, 11:04:09 pm
 ```toc
 ```
 - consider word phrases of length n to represent documents as fixed-length vectors to capture local word order
-- suffer from data sparsity and high dimensionality.
+- suffer from data [[sparsity]] and high dimensionality.
 
 ## Backlinks
 

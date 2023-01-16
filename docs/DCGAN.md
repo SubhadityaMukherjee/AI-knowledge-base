@@ -20,15 +20,15 @@ date created: Tuesday, December 13th 2022, 5:02:02 pm
 ### Generator
 - Map latent space vector z to data space
 - Creating RGB with same size as training image
-- [[Transposed Conv]] , [[Batch_Normalization]] and [[Relu]]
+- [[Transposed Conv]] , [[Batch Normalization]] and [[Relu]]
 - Output is 3x64x64
 - Output passed through [[Tanh]] to return it to [-1,1]
-- [[Batch_Normalization]] AFTER [[Transposed Conv]] is super important as it helps with flow of gradients
+- [[Batch Normalization]] AFTER [[Transposed Conv]] is super important as it helps with flow of gradients
 - Notice, how the inputs we set in the input section (_nz_, _ngf_, and _nc_) influence the generator architecture in code. _nz_ is the length of the z input vector, _ngf_ relates to the size of the feature maps that are propagated through the generator, and _nc_ is the number of channels in the output image (set to 3 for RGB images)
 - ![[0A6407EB-22F6-4D06-AB2E-E99EF94E25C0.png]]
 
 ### Discriminator
-- [[Strided]] [[Conv]], [[Batch_Normalization]], and [[Leaky_Relu]]
+- [[Strided]] [[Conv]], [[Batch Normalization]], and [[Leaky Relu]]
 - 3x64x64 input
 - Binary classification network - outputs prob of real/fake
 - Final is a [[Sigmoid]] layer
@@ -37,9 +37,9 @@ date created: Tuesday, December 13th 2022, 5:02:02 pm
 
 ## Special Features
 -   Explicitly uses convolutional layers in the discriminator and transposed-convolutional layers in the generator
--   Further the discriminator uses batch norm layers and [[Leaky_Relu]] activations while the generator uses [[Relu]] activations
+-   Further the discriminator uses batch norm layers and [[Leaky Relu]] activations while the generator uses [[Relu]] activations
 -   The input is a latent vector drawn from a standard normal distribution and the output is a $3 \times 32 \times 32$ RGB image
--   In this implementation, I also added in [[Label_Smoothing]]
+-   In this implementation, I also added in [[Label Smoothing]]
 
 ## Loss functions
 ### Discriminator [[loss]]

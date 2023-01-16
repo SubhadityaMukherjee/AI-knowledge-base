@@ -9,9 +9,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Longformer
 - [Longformer: the Long-Document Transformer](https://arxiv.org/abs/2004.05150)
 - [Transformer](Transformer.md)
-- [Sliding_Window_Attention](Sliding_Window_Attention.md)
-- [Dilated_Sliding_Window_Attention](Dilated_Sliding_Window_Attention.md)
-- [Global_and_Sliding_Window_Attention](Global_and_Sliding_Window_Attention.md)
+- [Sliding Window Attention](Sliding%20Window%20Attention.md)
+- [Dilated Sliding Window Attention](Dilated%20Sliding%20Window%20Attention.md)
+- [Global and Sliding Window Attention](Global%20and%20Sliding%20Window%20Attention.md)
 - [attention](Attention.md) mechanism that scales linearly with sequence length
 - drop-in replacement for the standard self-[attention](Attention.md)
 - local windowed [attention](Attention.md) with a task motivated global [attention](Attention.md)

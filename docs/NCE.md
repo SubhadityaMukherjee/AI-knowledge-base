@@ -26,5 +26,5 @@ tags: architecture
 - higher bias but lower variance than NCE [Bias Vs Variance](Bias%20Vs%20Variance)
 - Applying these estimators as objectives in contrastive representation learning
 - transferring [features](Features.md) to a variety of new image [distributions](Distributions.md) from the meta-dataset collection
-- [Contrastive_Loss](Contrastive_Loss.md)
+- [Contrastive Loss](Contrastive%20Loss.md)
 

@@ -14,7 +14,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 1. Center data (A)
 	- Subtract their mean from each pattern.
 	- $$\mu = \frac{1}{N}\Sigma_{i}x_{i}$$ and getting patterns $$\hat x_{i}=x_{i}-\mu$$
-	- [Point cloud](Point_Cloud.md) with center of [Gravity](Gravity.md) : origin
+	- [Point cloud](Point%20Cloud.md) with center of [Gravity](Gravity.md) : origin
 		- Extend more in some "directions" characterized by unit norm direction vectors $u \in \mathbb{R}^n$ .
 		- Distance of a point from the origin in the direction of u : projection of $\bar x_i$ on u aka inner product $u'\bar x_i$
 		- Extension of cloud in direction u : Mean square dist to origin.

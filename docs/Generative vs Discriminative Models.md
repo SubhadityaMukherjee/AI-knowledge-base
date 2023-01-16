@@ -13,7 +13,7 @@ date created: Wednesday 21st December 2022, Wed
 ## Generative
 
 - [[LDA]]
-- [[Bayesian_Model_Estimation]]
+- [[Bayesian Model Estimation]]
 - [[HMM]]
 - [[Autoregressive]]
 - [[Basic GAN]]
@@ -21,7 +21,7 @@ date created: Wednesday 21st December 2022, Wed
 ## Discriminative
 - [[Logistic Regression]]
 - [[SVM]]
-- [[Decision_Trees]]
+- [[Decision Trees]]
 - [[Random Forest]]
 
 ## Backlinks

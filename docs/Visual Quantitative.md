@@ -14,7 +14,7 @@ date created: Wednesday 21st December 2022, Wed
 
 ## Backlinks
 
-> - [Characteristics of Visual Variables](Characteristics_of_Visual_Variables.md)
+> - [Characteristics of Visual Variables](Characteristics of Visual Variables.md)
 >   - [[Visual Quantitative]]
 
-_Backlinks last generated 2023-01-05 20:19:13_
+_Backlinks last generated 2023-01-16 19:33:15_

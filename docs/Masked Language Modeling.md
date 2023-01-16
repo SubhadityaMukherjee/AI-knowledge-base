@@ -35,6 +35,6 @@ date created: Thursday, December 8th 2022, 11:40:39 pm
 >   - [[Masked Language Modeling]] with [[BERT]]
 >    
 > - [](journals/2022-12-09.md)
->   - **11:05** Bunch of things today. First I have a thesis presentation [[Vision_Explainibility]], then an article on [[Masked Language Modeling]] and then Cogmod
+>   - **11:05** Bunch of things today. First I have a thesis presentation [[Vision Explainibility]], then an article on [[Masked Language Modeling]] and then Cogmod
 
-_Backlinks last generated 2023-01-05 20:19:13_
+_Backlinks last generated 2023-01-16 19:33:15_

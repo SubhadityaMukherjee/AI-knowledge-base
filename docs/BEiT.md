@@ -14,8 +14,8 @@ tags: architecture
 
 # BEiT
 - [BEiT: BERT Pre-Training of Image Transformers](https://arxiv.org/abs/2106.08254)
-	- [Self_Supervised](Self_Supervised.md) pre-trained representation model
-	- Bidirectional [Encoder_Decoder_Attention](Encoder_Decoder_Attention.md) representations from [Vision_Transformer](Vision_Transformer.md)
+	- [Self Supervised](Self%20Supervised.md) pre-trained representation model
+	- Bidirectional [Encoder Decoder Attention](Encoder%20Decoder%20Attention.md) representations from [Vision Transformer](Vision%20Transformer.md)
 	- masked image modeling task to pretrain vision Transformers
 	- each image has two views in their pre-training
 	- the embeddings of which are calculated as linear projections of flattened patches

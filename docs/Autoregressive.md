@@ -6,8 +6,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Autoregressive
-- predict the future by past of [TIme_Series](TIme_Series.md)
-- [Multi_Variate_AR](Multi_Variate_AR.md)
+- predict the future by past of [TIme Series](TIme%20Series.md)
+- [Multi Variate AR](Multi%20Variate%20AR.md)
 
 ## Backlinks
 

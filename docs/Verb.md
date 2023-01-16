@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Verb
 - Actions, relationships
-- [Transitive_verb](Transitive_verb.md)
-- [DiTransitive_verb](DiTransitive_verb.md)
-- [Action_Transitive_verb](Action_Transitive_verb.md)
+- [Transitive verb](Transitive%20verb.md)
+- [DiTransitive verb](DiTransitive%20verb.md)
+- [Action Transitive verb](Action%20Transitive%20verb.md)
 

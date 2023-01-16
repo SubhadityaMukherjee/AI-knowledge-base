@@ -19,5 +19,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - derivatives of image classification networks do well on the audio classification task
 - increasing the number of labels they train on provides some improved performance over subsets of labels
 - performance of models improves as they increase training set size,
-- model using embeddings learned from the video-level task do much better than a baseline on the [AudioSet_classification](AudioSet_classification.md) task
+- model using embeddings learned from the video-level task do much better than a baseline on the [AudioSet classification](AudioSet%20classification.md) task
 

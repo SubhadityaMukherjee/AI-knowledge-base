@@ -30,8 +30,8 @@ date created: Monday, November 28th 2022, 11:24:37 am
 - ![[Pasted image 20221128114522.png]]
 - [[SSR]]
 - [[SDR]]
-- In order to be as informative as possible we would like to find a region that performs well as both SSR and SDR.
-- Both SDR and SSR remove some evidence from the image
+- In order to be as informative as possible we would like to find a region that performs well as both [[SSR]] and SDR.
+- Both SDR and [[SSR]] remove some evidence from the image
 - there are few ways of removing evidence, for example by blurring the evidence, setting it to a constant colour, adding noise, or by completely cropping out the unwanted parts
 - Unfortunately, each one of these methods introduces new evidence that can be used by the classifier as a side effec
 
@@ -60,14 +60,14 @@ date created: Monday, November 28th 2022, 11:24:37 am
 - $$s(a,p) = log(\overset{\sim}a)- log(p)$$
 - $\overset{\sim}a = max(a, 0.05)$
 - Here a is the area of the rectangular crop as a fraction of the total image size and p is the probability of the requested class returned by the classifier based on the cropped region.
-- The metric is almost a direct translation of the SSR
+- The metric is almost a direct translation of the [[SSR]]
 - We threshold the area at 0.05 in order to prevent instabilities at low area fractions.
 - Good saliency detectors will be able to significantly reduce the crop size without reducing the classification probability, and therefore a low value for the saliency metric is a characteristic of good saliency detectors.
 - this measure can be seen as the relative amount of information between an indicator variable with probability p and an indicator variable with probability a—or the concentration of information in the cropped region.
 - Because most image classifiers accept only images of a fixed size and the crop can have an arbitrary size, we resize the crop to the required size disregarding aspect ratio
 
 ## The Saliency Objective
-- want to find a mask M that is smooth and performs well at both SSR and SDR
+- want to find a mask M that is smooth and performs well at both [[[[SSR]]]] and SDR
 - given class c of interest, and an input image X, to find a saliency map M for class c, our objective function L is given by
 - $$L(M) = \lambda_{1}TV(M) + \lambda_{2}AV(M) - log(f_{c}(\Phi(X,M)))+\lambda_{3}f_{c}(\Phi(X, 1-M))^{\lambda_{4}}$$
 - fc is a softmax probability of the class c of the black box image classifier and TV(M) is the total variation of the mask defined simply as

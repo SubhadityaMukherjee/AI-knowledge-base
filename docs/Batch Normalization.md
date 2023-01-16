@@ -1,0 +1,31 @@
+---
+title: Batch Normalization
+tags: regularize
+date modified: Monday, October 10th 2022, 2:02:33 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Batch Normalization
+- bias=False for Linear/Conv2D for input and True for output #tricks
+- Normalizes #activations
+- Input [distributions](distributions) change per layer -> Make sure they stay similar
+- Reduces co variate shift because now the network must adapt per layer
+- During testing : use stats saved during training
+- Simplifies learning dynamics
+	- Can use larger learning rate
+	- Higher order interactions are suppressed because the mean and std are independant of the activations which makes training easier
+- Cant work with small batches. Not great with RNN
+- ![im](images/Pasted%20image%2020220306114903.png)
+- $$\mu_j \leftarrow \frac{1}{m}\Sigma_{i=1}^m x_{ij}$$
+- $$\sigma^2_j \leftarrow \frac{1}{m}\Sigma^m_{i=1}(x_{ij}-\mu_j)^2$$
+- $$\hat x_{ij} \leftarrow \frac{x_{ij}-\mu_j}{\sqrt{\sigma^2_j + \epsilon}}$$
+- $$\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$$
+
+## Backlinks
+
+> - [DCGAN](DCGAN.md)
+>   - [[Transposed Conv]] , [[Batch Normalization]] and [[Relu]]
+>   - [[Batch Normalization]] AFTER [[Transposed Conv]] is super important as it helps with flow of gradients
+>   - [[Strided]] [[Conv]], [[Batch Normalization]], and [[Leaky Relu]]
+
+_Backlinks last generated 2023-01-16 19:33:15_

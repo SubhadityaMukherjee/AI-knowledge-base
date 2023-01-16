@@ -13,7 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Jiggling ??
 	- Labeling
 		- ![im](images/Pasted%20image%2020220318094643.png) Segmentation algorithm. Canopy hide model
-		- Weighted [loss](loss.md) + [Focal_Loss](Focal_Loss.md)
+		- Weighted [loss](loss.md) + [Focal Loss](Focal%20Loss.md)
 
 ## 2d Methods
 - [Watershed](Watershed) + [Unet](Unet.md)

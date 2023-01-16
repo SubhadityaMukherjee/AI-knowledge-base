@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # BlockNeRF
 - [Block-NeRF: Scalable Large Scene Neural View Synthesis](https://arxiv.org/abs/2202.05263)
-- variant of [Neural_Radiance_Field](Neural_Radiance_Field.md)
+- variant of [Neural Radiance Field](Neural%20Radiance%20Field.md)
 - reconstruct large-scale environments
 - scaling NeRF to render city-scale scenes spanning multiple blocks, it is vital to decompose the scene into individually trained NeRFs that can be optimized independently.
 - this decomposition decouples rendering time from scene size

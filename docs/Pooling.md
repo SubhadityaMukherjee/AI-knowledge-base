@@ -12,5 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Max/Avg
 - Too much pooling reduces performance
 	- Multiple convs first
-- Max pool + dilated/[Strided](Strided.md) convs control effective [receptive field](Receptive_field.md) size
+- Max pool + dilated/[Strided](Strided.md) convs control effective [receptive field](Receptive%20field.md) size
 

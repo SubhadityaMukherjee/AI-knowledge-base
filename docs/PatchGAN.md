@@ -23,5 +23,6 @@ date created: Sunday, December 11th 2022, 1:16:53 pm
 
 > - [CycleGAN](CycleGAN.md)
 >   - [[PatchGAN]]
+>   - The discriminator models use [[PatchGAN]], as described by [Phillip Isola](http://web.mit.edu/phillipi/), et al. in their 2016 paper titled “[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004).”
 
-_Backlinks last generated 2022-12-12 23:44:06_
+_Backlinks last generated 2023-01-16 19:33:15_

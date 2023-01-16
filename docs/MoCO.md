@@ -19,10 +19,10 @@ tags: architecture
 - large and consistent dictionary on-the-fly
 - [ImageNet](ImageNet.md)
 - transfer well to downstream tasks.
-- [PASCAL_VOC](PASCAL_VOC.md)
+- [PASCAL VOC](PASCAL%20VOC.md)
 - [COCO](COCO.md)
 - visual representation encoder by matching an encoded query
-- to a dictionary of encoded keys using a [contrastive loss](Contrastive_Loss.md)
+- to a dictionary of encoded keys using a [contrastive loss](Contrastive%20Loss.md)
 - dictionary is built as a queue, with the current mini-batch enqueued
 - oldest mini-batch dequeued
 - slowly progressing encoder

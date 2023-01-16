@@ -14,5 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Remove fewer than 20%
 - Remove really bad parts first
 - ![im](images/Pasted%20image%2020220502150051.png)
-- [ICA_Noise_Removal](ICA_Noise_Removal.md)
+- [ICA Noise Removal](ICA%20Noise%20Removal.md)
 

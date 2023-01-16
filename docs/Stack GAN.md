@@ -34,7 +34,7 @@ date created: Tuesday, December 13th 2022, 5:03:53 pm
 * we randomly sample the latent variables cˆ from an independent Gaussian distribution $\mathcal{N}(\mu(\varphi_{t}), \Sigma(\varphi_{t}))$, where the mean $\mu(\varphi_{t})$ and diagonal covariance matrix $\Sigma(\varphi_{t})$ are functions of the text embedding $\varphi_{t}$
 * The proposed Conditioning Augmentation yields more training pairs given a small number of imagetext pairs, and thus encourages robustness to small perturbations along the conditioning manifold
 * regularization term to the objective of the generator during training $$D_{KL}(\mathcal{N}(\mu(\varphi_{t}), \Sigma(\varphi_{t})) || \mathcal{N}(0,I))$$
-* [[KL_Divergence]] between the standard Gaussian distribution and the conditioning Gaussian distribution
+* [[KL Divergence]] between the standard Gaussian distribution and the conditioning Gaussian distribution
 * The randomness introduced in the Conditioning Augmentation is beneficial for modeling text to image translation as the same sentence usually corresponds to objects with various poses and appearances.
 
 ## Stage-I GAN

@@ -18,7 +18,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- Locally represents Euclidean space
 - Only surface and not interior
 - No sharp edges or spikes
-- Can be exploited by [Adversarial_Learning](Adversarial_Learning.md)
+- Can be exploited by [Adversarial Learning](Adversarial%20Learning.md)
 - Examples
 	- 1 dim -> Lines in some high dim figure : B
 	- 2 dim -> Surfaces : A

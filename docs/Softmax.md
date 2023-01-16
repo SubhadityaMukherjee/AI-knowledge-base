@@ -13,7 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 ## [Entropy](Entropy.md)
 - $\alpha$ determines [entropy](Entropy.md)
-- If it is 0, and [Uniform_Distribution](Uniform_Distribution.md) and limit to infinity -> binary vector which is 0 everywhere except at position i when y is maximal
+- If it is 0, and [Uniform Distribution](Uniform%20Distribution.md) and limit to infinity -> binary vector which is 0 everywhere except at position i when y is maximal
 
 ## Temperature
 - Higher the T -> Softer it the distribution. Aka less confident about distribution

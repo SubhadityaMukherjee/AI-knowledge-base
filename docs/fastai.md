@@ -7,8 +7,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Fastai
-- [Fastai_Blocks](Fastai_Blocks.md)
-- [Fastai_Interpretation](Fastai_Interpretation.md)
-- [Fastai_Deployment](Fastai_Deployment.md)
-- [Fastai_Tricks](Fastai_Tricks.md)
+- [Fastai Blocks](Fastai%20Blocks.md)
+- [Fastai Interpretation](Fastai%20Interpretation.md)
+- [Fastai Deployment](Fastai%20Deployment.md)
+- [Fastai Tricks](Fastai%20Tricks.md)
 

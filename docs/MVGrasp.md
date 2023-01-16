@@ -14,7 +14,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - ![Pasted image 20220928214219](images/Pasted%20image%2020220928214219.png)
 - Mixed autoencoder (CAE + DAE)  
 - optimizer: RMSprop, learning_rate = 0.001  
-- metrics: Intersection over Union (IoU) and reconstruction error loss: mean squared error
+- metrics: Intersection over Union (IoU) and reconstruction error loss: mean [[squared error]]
 - ![Pasted image 20220928214247](images/Pasted%20image%2020220928214247.png)
 - Which view is suitable?
 	- Depends on the pose of the target object and other objects  

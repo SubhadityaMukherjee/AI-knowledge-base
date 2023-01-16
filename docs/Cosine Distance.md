@@ -9,12 +9,12 @@ date created: Wednesday, December 7th 2022, 10:55:58 pm
 # Cosine Distance
 ```toc
 ```
-- Complement of [[Cosine_Similarity]]
+- Complement of [[Cosine Similarity]]
 - $$D_{c}(A,B) := 1- S_{c}(A,B)$$
 
 ## Backlinks
 
-> - [Cosine Similarity](Cosine_Similarity.md)
+> - [Cosine Similarity](Cosine Similarity.md)
 >   - [[Cosine Distance]]
 
-_Backlinks last generated 2022-12-08 15:24:12_
+_Backlinks last generated 2023-01-16 19:33:15_

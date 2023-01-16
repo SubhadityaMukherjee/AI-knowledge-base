@@ -64,7 +64,7 @@ The generator network implementation is based on the approach described for styl
 
 The generator model starts with best practices for generators using the deep convolutional GAN, which is implemented using multiple residual blocks (e.g. from the [ResNet](https://machinelearningmastery.com/how-to-implement-major-architecture-innovations-for-convolutional-neural-networks/)).
 
-The discriminator models use PatchGAN, as described by [Phillip Isola](http://web.mit.edu/phillipi/), et al. in their 2016 paper titled “[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004).”
+The discriminator models use [[PatchGAN]], as described by [Phillip Isola](http://web.mit.edu/phillipi/), et al. in their 2016 paper titled “[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004).”
 
 > This discriminator tries to classify if each NxN patch in an image is real or fake. We run this discriminator convolutionally across the image, averaging all responses to provide the ultimate output of D.
 

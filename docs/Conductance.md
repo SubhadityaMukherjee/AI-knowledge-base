@@ -1,7 +1,7 @@
 ---
-tags: mastersthesis explainability 
+tags: mastersthesis explainability
 date created: Tuesday, January 10th 2023, 1:48:31 pm
-date modified: Friday, January 13th 2023, 2:49:15 pm
+date modified: Monday, January 16th 2023, 6:45:12 pm
 ---
 
 # Conductance
@@ -25,26 +25,34 @@ date modified: Friday, January 13th 2023, 2:49:15 pm
 ## Conductance
 - Integrated Gradients produces attributions for base features
 - There is a natural way to 'lift' these attributions to a neuron in a hidden layer. Consider a specific neuron y in a hidden layer of a network
+- $$F:R^{n} \rightarrow [0,1]$$ represents a deep network.
+- $x \in R^{n}$ is input, $x' \in R^{n}$ is baseline input
+- [[Integrated Gradients]] is path integral of gradient along straightline path from baseline $x'$ to input $x$. The function F varies from a near zero value for the informationless baseline to its final value. The gradients of F with respect to the image pixels explain each step of the variation in the value of F
+- The integration (sum) over the gradients cumulates these micro explanations and accounts for the net difference between the baseline prediction score (near zero) and the prediction value at the input x.
+- $$IG_{i}(x) ::== (x_{i}- x_{i}') \int_{\alpha=0}^{1} \frac{\partial F(x' + \alpha(x-x'))}{\partial x_{i}}d \alpha$$ where $\frac{\partial F(x)}{\partial x_{i}}$ is grad of F along i^th dimension at x
+- Conductance of neuron y for attribution to input variable i is $$Cond_{i}^{y}(x) ::== (x_{i}- x_{i}') \int_{\alpha=0}^{1} \frac{\partial F(x' + \alpha(x-x'))}{\partial y} \cdot \frac{\partial y}{\partial x_{i}} d \alpha$$
 
 ## Evaluation of Conductance
 - Activation: The value of the hidden unit is the feature importance score.
-- Gradient*Activation
-- Internal Influence
+- $Gradient\times Activation$ : $$y \times \frac{\partial F(x' + \alpha \times (x-x'))}{\partial y} d \alpha$$
+- Internal Influence : $$Int Inf ^{y}(x) ::= \int^{1}_{\alpha=0} \frac{\partial F(x' + \alpha(x-x'))}{\partial y} d \alpha$$
 - The premise is that hidden units that are important across a set of inputs from a class should be predictive of this input class.
 
 ## Properties of Conductance
 
 ### Completeness
-- conductances for any single hidden layer add up to the difference between the predictions F(x)F(x0)
+- conductances for any single hidden layer add up to the difference between the predictions $F(x) - F(x')$
 - conductances thus satisfy the [[Layerwise Conservation Principle]]
 
 ### Linearity
 - So do internal influence and gradient*activations
-- Suppose that we linearly compose hidden neurons f1 and f2 to form the final network that models the function a x f1 + b x f2. Then, the conductances of the two hidden neurons will be a x (f1(x) f1(x0)) and b x (f2(x) f2(x0)) respectively. This is a sanity-check because if the action of a network is mostly linear from a hidden layer, the conductances will match what is intuitively the obvious solution.
+- Suppose that we linearly compose hidden neurons f1 and f2 to form the final network that models the function $a \times f_{1} + b \times f_{2}$. Then, the conductances of the two hidden neurons will be $a \times (f_{1}(x) f_{1}(x_{0}))$ and $b \times (f_{2}(x) f_{2}(x'))$ respectively.
+- This is a sanity-check because if the action of a network is mostly linear from a hidden layer, the conductances will match what is intuitively the obvious solution.
 
 ### Insensitive
 - If varying the values of a hidden unit does not change the network's prediction, it has zero conductance
 - If varying the inputs does not change value of the hidden unit, the hidden unit has zero conductance
+- Based on $\frac{\partial F}{\partial y_{j}}$ and $\frac{\partial y_{j}}{\partial x_{i}}$ being 0
 
 ## Saturation of Neural Networks
 - Basically, for a network, or a sub-network, even when the output crucially depends on some input, the gradient of the output w.r.t. the input can be near-zero.
@@ -66,7 +74,7 @@ date modified: Friday, January 13th 2023, 2:49:15 pm
 - We use conductance as a measure to identify influential filters in hidden layers in the Inception network.
 - Given an input image, we identify the top predicted label
 - For the pre-softmax score for this label, we compute the conductance for each of the filters in each of the hidden layers
-- The visualization is done by aggregating the conductance along the color channel and scaling the pixels in the actual image by the conductance values.
+- The [[visualization]] is done by aggregating the conductance along the color channel and scaling the pixels in the actual image by the conductance values.
 
 ## Ablation Study
 - Next we studied how many filters we need to ablate in the network in order for the network to change its prediction. We found that, it is sufficient to ablate 3.7 on an average for the network to change its prediction for an image. Only 3 out of 100 images needed more than 10 filter ablations to change the predicted label. The maximum was 16. This provides further evidence that using conductance we can identify filters that are important for the prediction.
@@ -86,7 +94,7 @@ date modified: Friday, January 13th 2023, 2:49:15 pm
 
 ## Backlinks
 
-> - [Vision Explainibility](Vision_Explainibility.md)
+> - [Vision Explainibility](Vision Explainibility.md)
 >   - [[Conductance]]
 
-_Backlinks last generated 2023-01-14 16:59:29_
+_Backlinks last generated 2023-01-16 19:33:15_

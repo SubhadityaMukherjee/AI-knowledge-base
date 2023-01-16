@@ -25,8 +25,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [MLM](MLM.md) + RECON losses apply only to the masked text/image areas and measure reconstructed text and image quality.
 - no specific alignment loss
 - Modality Aware Masking (MAM) to boost cross-modality interaction and take advantage of MLM and RECON losses that separately capture text and image reconstruction quality
-- Since the the task of finding closely-matching (CM) item pairs requires a pair of image+text inputs, they exploit this multi-modality by employing [Modality_Dropout](Modality_Dropout.md)
+- Since the the task of finding closely-matching (CM) item pairs requires a pair of image+text inputs, they exploit this multi-modality by employing [Modality Dropout](Modality%20Dropout.md)
 - text-only, image-only, and image-text mode
-- However, RECON instead of [ITM loss](ITM_Loss.md) offers better PR AUC
-- Similarly, using the [ITM loss](ITM_Loss.md) together with MLM and RECON does not change the performance
+- However, RECON instead of [ITM loss](ITM%20Loss.md) offers better PR AUC
+- Similarly, using the [ITM loss](ITM%20Loss.md) together with MLM and RECON does not change the performance
 

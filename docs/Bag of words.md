@@ -22,7 +22,7 @@ date created: Wednesday, December 7th 2022, 11:00:14 pm
 - Lose all info about word order
 - Does not learn meaning of the words, so distance isnt very accurate
 - Somewhat solved by [[Bag of n-grams]]
-- [[Curse_Of_Dimensionality]]
+- [[Curse Of Dimensionality]]
 
 ## Backlinks
 

@@ -2,7 +2,7 @@
 title: gensim
 
 tags: nlp library 
-date modified: Wednesday, December 7th 2022, 11:49:35 pm
+date modified: Monday, January 16th 2023, 7:00:22 pm
 date created: Wednesday, December 7th 2022, 10:38:13 pm
 ---
 
@@ -145,10 +145,9 @@ plt.plot()
 ```
 
 ## Backlinks
-
 > - [Scalar Articles](Scalar Articles.md)
 >   - [[Word2Vec]] with [[gensim]]
->    
+>
 > - [](journals/2022-12-07.md)
 >   - [[gensim]]
 

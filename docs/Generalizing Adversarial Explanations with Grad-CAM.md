@@ -6,7 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 2:35:36 pm
 ---
 
-# Generalizing Adversarial Explanations with Grad-CAM
+# Generalizing Adversarial Explanations with [[Grad-CAM]]
 - Chakraborty, Tanmay, Utkarsh Trehan, Khawla Mallat, and Jean-Luc Dugelay. “Generalizing Adversarial Explanations with Grad-CAM.” In _2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)_, 186–92. New Orleans, LA, USA: IEEE, 2022. [https://doi.org/10.1109/CVPRW56347.2022.00031](https://doi.org/10.1109/CVPRW56347.2022.00031).
 - [Adversarial Learning](Adversarial%20Learning.md)
 
@@ -18,10 +18,10 @@ date created: Wednesday, October 5th 2022, 2:35:36 pm
 - [Images](#Images)
 
 ## Intro
-- The drawback of [GradCAM](GradCAM.md) is that it cannot be used to generalize CNN behaviour.
-- extends Grad-CAM from example-based explanations to a method for explaining global model behaviour
-- These metrics are computed by comparing a [Normalized Inverted Structural Similarity Index](Normalized%20Inverted%20Structural%20Similarity%20Index.md) (NISSIM) metric of the Grad-CAM generated heatmap for samples from the original test set and samples from the adversarial test set.
-- We observe a consistent shift in the region highlighted in the Grad-CAM heatmap, reflecting its participation to the decision making, across all models under adversarial attacks.
+- The drawback of [Grad-CAM](Grad-CAM.md) is that it cannot be used to generalize CNN behaviour.
+- extends [[Grad-CAM]] from example-based explanations to a method for explaining global model behaviour
+- These metrics are computed by comparing a [Normalized Inverted Structural Similarity Index](Normalized%20Inverted%20Structural%20Similarity%20Index.md) (NISSIM) metric of the [[Grad-CAM]] generated heatmap for samples from the original test set and samples from the adversarial test set.
+- We observe a consistent shift in the region highlighted in the [[Grad-CAM]] heatmap, reflecting its participation to the decision making, across all models under adversarial attacks.
 - These adversarial attacks display specific properties, i) They are not perceptible to the human eye, ii) They are controllable, and iii) Transferability, i.e., an attack designed for one model is capable of attacking multiple models
 - There are mainly two kinds of attacks: targeted and non-targeted attacks. Targeted attack makes a model predict a certain label for the adversarial example, while for non-targeted attacks the labels for adversarial examples are not important, as long as the model is wrong
 - These attacks can also be subdivided into black-box attacks and white-box attacks. Black-box attacks have no information about the target model, training procedure, architecture, whereas white-box attacks know the target model, training procedure, architecture, parameters.

@@ -24,7 +24,7 @@ date created: Friday, November 18th 2022, 12:31:29 pm
 	- less noisy
 	- not class discriminative
 	- Worked only a restricted set of CNN templates
-- [GradCAM](GradCAM.md)
+- [Grad-CAM](Grad-CAM.md)
 	- class discriminative
 	- not high res
 	- Works for any arbitrary CNN

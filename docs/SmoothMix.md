@@ -7,7 +7,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 
 # SmoothMix
 - mask-based approach
-- matching closely with the Cutout and CutMix techniques
+- matching closely with the [[Cutout]] and [[CutMix]] techniques
 - the mask has soft edges with gradually decreasing intensity
 - the mixing strategy is the same
 - The augmented image has mixed pixel values depending on the strength of the mask

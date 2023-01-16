@@ -32,7 +32,7 @@ date created: Saturday, November 5th 2022, 12:37:28 pm
 - we use the entity segmentation method [41] to simulate the process of parsing objects from a scene in our brain.
 - Entity segmentation is an open-world model and can segment the object from the image without labels.
 - This method aligns with human behavior, which can (at least in some cases; e.g., autostereograms [29]) segment an object without deciding what it is
-- After we get the segmentation of the image, we use a pre-trained CNN and GradCam [47] to find the foreground object among all masks.
+- After we get the segmentation of the image, we use a pre-trained CNN and [[Grad-CAM]] [47] to find the foreground object among all masks.
 - We design three different feature extractors after identifying the foreground object segment: shape extractor, texture extractor, and color extractor, similar to the separate neural pathways in the human brain which focus on specific property
 
 ### Shape Feature Extractor

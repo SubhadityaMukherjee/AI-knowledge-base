@@ -32,7 +32,7 @@ date created: Monday, November 28th 2022, 11:24:37 am
 - [[SDR]]
 - In order to be as informative as possible we would like to find a region that performs well as both [[SSR]] and SDR.
 - Both SDR and [[SSR]] remove some evidence from the image
-- there are few ways of removing evidence, for example by blurring the evidence, setting it to a constant colour, adding noise, or by completely cropping out the unwanted parts
+- there are few ways of removing evidence, for example by blurring the evidence, setting it to a constant colour, adding noise, or by completely [[cropping]] out the unwanted parts
 - Unfortunately, each one of these methods introduces new evidence that can be used by the classifier as a side effec
 
 ## Fighting the Introduced Evidence

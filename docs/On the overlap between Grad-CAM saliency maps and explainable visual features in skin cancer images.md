@@ -6,8 +6,8 @@ date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Thursday, October 6th 2022, 10:29:54 am
 ---
 
-# On the Overlap Between Grad-CAM Saliency Maps and Explainable Visual Features in Skin Cancer Images
-- Nunnari, Fabrizio, Md Abdul Kadir, and Daniel Sonntag. 2021. “On the Overlap Between Grad-CAM Saliency Maps and Explainable Visual Features in Skin Cancer Images.” Pp. 241–53 in _Machine Learning and Knowledge Extraction_. Vol. 12844, _Lecture Notes in Computer Science_, edited by A. Holzinger, P. Kieseberg, A. M. Tjoa, and E. Weippl. Cham: Springer International Publishing.
+# On the Overlap Between [[Grad-CAM]] Saliency Maps and Explainable Visual Features in Skin Cancer Images
+- Nunnari, Fabrizio, Md Abdul Kadir, and Daniel Sonntag. 2021. “On the Overlap Between [[Grad-CAM]] Saliency Maps and Explainable Visual Features in Skin Cancer Images.” Pp. 241–53 in _Machine Learning and Knowledge Extraction_. Vol. 12844, _Lecture Notes in Computer Science_, edited by A. Holzinger, P. Kieseberg, A. M. Tjoa, and E. Weippl. Cham: Springer International Publishing.
 
 ## TOC
 - [Intro](#Intro)
@@ -41,7 +41,7 @@ date created: Thursday, October 6th 2022, 10:29:54 am
 ## Data Preparation
 - As an additional feature, we compute the pixels-wise union of all the features
 - In our experiments, we ignore the skin lesion samples with no features.
-- The generation of the saliency maps consists of running the Grad-CAM algorithm on each skin lesion picture with non-black union mask
+- The generation of the saliency maps consists of running the [[Grad-CAM]] algorithm on each skin lesion picture with non-black union mask
 - We repeat the procedure for both the VGG16 and the RESNET50 models, generating the SV and SR greyscale picture sets
 - To compare the saliency maps with ground truth maps, we scaled up SV and SR to the resolution of the original images using a nearest neighbour filter.
 - We can observe that all distributions are strongly right skewed, and all $J_{s}$ are mostly below 0.2, with the exception of a peak in performance for the pigment network clas
@@ -75,7 +75,7 @@ date created: Thursday, October 6th 2022, 10:29:54 am
 - This allows for an "emersion" of the most relevant region of interests of a global scale
 - However, there might be regions of saliency below the global threshold which are relevant with respect to the local surrounding area
 - To spot local maxima, we could split the maps into tiles, or super-pixels, and iteratively identify multiple local threshold values based on the range of saliency values of each region.
-- Finally, the current implementation of Grad-CAM returns saliency maps whose range is filled by stretching the range of activation values of the target convolution layer.
+- Finally, the current implementation of [[Grad-CAM]] returns saliency maps whose range is filled by stretching the range of activation values of the target convolution layer.
 - Each saliency map is forced to use the full activation range, independent of other samples.
 - In so doing, regions of interests are "forced" to emerge, even when the activation values of the inner layer are lower when compared to other images.
 

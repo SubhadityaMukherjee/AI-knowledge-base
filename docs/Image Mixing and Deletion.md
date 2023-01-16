@@ -7,8 +7,8 @@ date created: Friday, October 7th 2022, 1:37:19 pm
 ---
 
 # Image Mixing and Deletion
-- Cutout and CutMix argues that hindering image regions enforces the classifier to learn from the partially visible objects and understand the overall structure
-- CutMix verifies this argument by showing enhanced focus towards the target class in
+- [[Cutout]] and [[CutMix]] argues that hindering image regions enforces the classifier to learn from the partially visible objects and understand the overall structure
+- [[CutMix]] verifies this argument by showing enhanced focus towards the target class in
 - Opposite to this, MixUp has shown to improve classifier's calibration and reduced prediction uncertainity
 - mean of predictions vs accuracy where the confidence distribution for MixUp trained model is evenly distributed against the standard model whose disovertribution is towards higher conficence i.e. confidence
 - Similarly, the loss contours obtained for a network trained with MixUp are smooth as compared to sharp contours in standarad training

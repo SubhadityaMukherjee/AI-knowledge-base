@@ -10,3 +10,9 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - various image regions are deleted, and they can be connected or disconnected from each other
 - Values in turned-off regions are replaced with the average of all the pixel values in the entire dataset.
 
+## Backlinks
+
+> - [GridMask](GridMask.md)
+>   - The algorithm tries to overcome drawbacks of [[Cutout]], [[Random Erasing]], and [[Hide and Seek]] that are prone to deleting important information entirely or leaving it untouched without making it harder for the algorithm to learn.
+
+_Backlinks last generated 2023-01-16 19:40:27_

@@ -133,14 +133,14 @@ ___
 > - [Conductance](Conductance.md)
 >   - The [[visualization]] is done by aggregating the conductance along the color channel and scaling the pixels in the actual image by the conductance values.
 >    
-> - [GradCAM](GradCAM.md)
->   - Gradient-weighted Class Activation Mapping (Grad-CAM) is an improvement over Class Activation Mapping (CAM) that provides a more detailed and accurate [[visualization]] of the regions of an image that are important for a given classification.
->   - In summary, Grad-CAM is an improvement over CAM because it provides a more detailed and accurate [[visualization]] of the regions of an image that are important for a given classification by using gradients of the class scores with respect to the feature maps, providing additional information about the contribution of different regions of the image to the final classification decision.
->    
 > - [Demographic Parity](Demographic Parity.md)
 >   - Contrast with equalized odds and equality of opportunity, which permit classification results in aggregate to depend on sensitive attributes, but do not permit classification results for certain specified ground-truth labels to depend on sensitive attributes. See ["Attacking discrimination with smarter machine learning"](http //research.google.com/bigpicture/attacking-discrimination-in-ml/) for a [[visualization]] exploring the tradeoffs when optimizing for demographic parity.
 >    
-> - [Guided GradCAM](Guided GradCAM.md)
->   - The main difference between Grad-CAM and Guided Grad-CAM is that while Grad-CAM focuses on finding the regions of an image that are most important for a given classification, Guided Grad-CAM also takes into account the positive gradients of the guided backpropagation algorithm, in order to provide a more fine-grained [[visualization]] of the internal representations of the network. This can make Guided Grad-CAM more effective for understanding how the model is making its decisions, and for identifying the specific features of an image that the model is using for a given classification.
+> - [GradCAM](Grad-CAM.md)
+>   - Gradient-weighted Class Activation Mapping (Grad-CAM) is an improvement over Class Activation Mapping ([[CAM]]) that provides a more detailed and accurate [[visualization]] of the regions of an image that are important for a given classification.
+>   - In summary, Grad-CAM is an improvement over CAM because it provides a more detailed and accurate [[visualization]] of the regions of an image that are important for a given classification by using gradients of the class scores with respect to the feature maps, providing additional information about the contribution of different regions of the image to the final classification decision.
+>    
+> - [Guided [[Grad-CAM]]](Guided GradCAM.md)
+>   - The main difference between [[Grad-CAM]] and Guided [[Grad-CAM]] is that while [[Grad-CAM]] focuses on finding the regions of an image that are most important for a given classification, Guided [[Grad-CAM]] also takes into account the positive gradients of the guided backpropagation algorithm, in order to provide a more fine-grained [[visualization]] of the internal representations of the network. This can make Guided [[Grad-CAM]] more effective for understanding how the model is making its decisions, and for identifying the specific features of an image that the model is using for a given classification.
 
-_Backlinks last generated 2023-01-16 19:33:15_
+_Backlinks last generated 2023-01-16 19:40:27_

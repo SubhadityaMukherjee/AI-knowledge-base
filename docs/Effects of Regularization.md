@@ -18,6 +18,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ur search for ever increasing generalization performance – averaged over all classes and samples – has left us with models and regularizers that silently sacrifice performances on some classes.
 - varying the amount of [regularization](Regularization.md) employed during pre-training of a specific dataset impacts the per-class performances of that pre-trained model on different downstream tasks e.g. an [ImageNet](ImageNet.md) pre-trained ResNet50 deployed on INaturalist sees its performances fall from 70% to 30% on a particular classwhen introducing random crop DA during the [Imagenet](ImageNet.md) pre-training phase
 - designing novel regularizers without class-dependent bias remains an open research question
-- Categories largely identifiable by color or texture (for e.g., yellow bird, textured mushroom) are unaffected by aggressive cropping, while categories identifiable by shape (for e.g., corkscrew) see a performance degradation with aggressive cropping that only contains part of the object
+- Categories largely identifiable by color or texture (for e.g., yellow bird, textured mushroom) are unaffected by aggressive [[cropping]], while categories identifiable by shape (for e.g., corkscrew) see a performance degradation with aggressive [[cropping]] that only contains part of the object
 - Conversely, color jitter does not affect shape or texture-based categories (for e.g., zebra), but affects color-based categories (for e.g., basket ball)
 

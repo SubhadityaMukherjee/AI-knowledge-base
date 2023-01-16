@@ -23,7 +23,7 @@ date created: Wednesday, October 5th 2022, 1:35:39 pm
 - CUB-200-2010
 - [IDRiD](IDRiD.md)
 - human intuitive edit- ing via a visual interface and suggest new possibilities for human-machine cooperation in addition to the improvement of visual explanations.
-- Typical visual explanation approaches in- clude class activation mapping (CAM) and [GradCAM](GradCAM.md)
+- Typical visual explanation approaches in- clude class activation mapping ([[CAM]]) and [Grad-CAM](Grad-CAM.md)
 - However, an inconsistency between the tar- get region of the recognition result, namely the ground truth (GT), and an attention region may occur.
 - To this end, we focus on the visual explanation and the attention mechanism of ABN
 - ABN applies an atten- tion map for visual explanation to the attention mechanism.

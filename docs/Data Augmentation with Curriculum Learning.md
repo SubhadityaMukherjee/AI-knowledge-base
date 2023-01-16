@@ -11,3 +11,9 @@ date modified: Monday, October 10th 2022, 2:02:06 pm
 - originally coined by Bengio et al.
 - Plotting out training accuracy over time across different initial training subsets could help reveal patterns in the data that dramatically speed up training time.
 
+## Backlinks
+
+> - [[[Data Augmentation with Curriculum Learning]]](A survey on Image Data Augmentation for Deep Learning.md)
+>   - # [[Data Augmentation with Curriculum Learning]]
+
+_Backlinks last generated 2023-01-16 19:40:27_

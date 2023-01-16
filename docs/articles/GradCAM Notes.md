@@ -6,7 +6,7 @@ date modified: Sunday, November 6th 2022, 2:32:21 pm
 date created: Sunday, November 6th 2022, 2:32:07 pm
 ---
 
-# GradCAM Notes
+# [[Grad-CAM]] Notes
 ```toc
 ```
 
@@ -102,7 +102,7 @@ Firstly, good job on making it so far! Pat yourself on the back or go grab somet
 
 Then look at what the network sees. Does it make sense? Is the model looking at something weird? Train for a few more epochs, rinse and repeat.
 
-Try it for different images. You might find examples that make no sense. Sometimes it might be because of random augmentation, other times it might be because of model bias or the data itself being not okay. You will find ways to improve on it eventually. If you can, look for examples that the model gets wrong, and apply GRADCam on those.
+Try it for different images. You might find examples that make no sense. Sometimes it might be because of random augmentation, other times it might be because of model bias or the data itself being not okay. You will find ways to improve on it eventually. If you can, look for examples that the model gets wrong, and apply [[Grad-CAM]] on those.
 
 ## Fin
 

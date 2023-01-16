@@ -11,7 +11,7 @@ date modified: Monday, January 16th 2023, 6:45:12 pm
 - Kedar Dhamdhere, Mukund Sundararajan, Qiqi Yan
 
 ## Summary by ChatGPT
-- This paper introduces the concept of conductance as a way to understand the importance of hidden units in deep networks. Conductance is defined as the flow of Integrated Gradients' attribution via a hidden unit, and is used to understand the importance of a hidden unit to the prediction for a specific input or over a set of inputs. The effectiveness of conductance is evaluated in multiple ways, including theoretical properties, ablation studies, and a feature selection task using the Inception network over ImageNet data and a sentiment analysis network over reviews. The properties of conductance include completeness, linearity and insensitivity to variations in inputs or hidden unit values. The paper also discusses the issue of saturation in neural networks, where the gradient of the output with respect to the input can be near-zero, and how conductance addresses this issue. The authors also compare conductance with other methods of understanding hidden unit importance and find it to be more intuitive and accurate.
+- This paper introduces the concept of conductance as a way to understand the importance of hidden units in deep networks. Conductance is defined as the flow of [[Integrated Gradients]]' attribution via a hidden unit, and is used to understand the importance of a hidden unit to the prediction for a specific input or over a set of inputs. The effectiveness of conductance is evaluated in multiple ways, including theoretical properties, ablation studies, and a feature selection task using the Inception network over ImageNet data and a sentiment analysis network over reviews. The properties of conductance include completeness, linearity and insensitivity to variations in inputs or hidden unit values. The paper also discusses the issue of saturation in neural networks, where the gradient of the output with respect to the input can be near-zero, and how conductance addresses this issue. The authors also compare conductance with other methods of understanding hidden unit importance and find it to be more intuitive and accurate.
 
 ## Abstract
 - We introduce the notion of conductance to extend the notion of attribution to the understanding the importance of hidden units
@@ -19,11 +19,11 @@ date modified: Monday, January 16th 2023, 6:45:12 pm
 - conductance to understand the importance of a hidden unit to the prediction for a specific input, or over a set of inputs
 - We evaluate the effectiveness of conductance in multiple ways, including theoretical properties, ablation studies, and a feature selection task
 - Inception network over ImageNet data, and a sentiment analysis network over reviews
-- Informally, the conductance of a hidden unit of a deep network is the flow of Integrated Gradients' attribution via this hidden unit
-- The key idea behind conductance is to decompose the computation of Integrated Gradients via the chain rule
+- Informally, the conductance of a hidden unit of a deep network is the flow of [[Integrated Gradients]]' attribution via this hidden unit
+- The key idea behind conductance is to decompose the computation of [[Integrated Gradients]] via the chain rule
 
 ## Conductance
-- Integrated Gradients produces attributions for base features
+- [[Integrated Gradients]] produces attributions for base features
 - There is a natural way to 'lift' these attributions to a neuron in a hidden layer. Consider a specific neuron y in a hidden layer of a network
 - $$F:R^{n} \rightarrow [0,1]$$ represents a deep network.
 - $x \in R^{n}$ is input, $x' \in R^{n}$ is baseline input
@@ -56,7 +56,7 @@ date modified: Monday, January 16th 2023, 6:45:12 pm
 
 ## Saturation of Neural Networks
 - Basically, for a network, or a sub-network, even when the output crucially depends on some input, the gradient of the output w.r.t. the input can be near-zero.
-- As an artificial example, suppose the network first transforms the input x linearly to y = 2x, and then transforms it to z = max(y, 1). Suppose the input is x = 1 (where z is saturated at value 1), with 0 being the baseline. Then for the hidden unit of y, gradient of z w.r.t. y is 0. Gradient\*activation would be 0 for y, which does not reflect the intuitive importance of y. Like in Integrated Gradients, in computing conductance, we consider all extrapolated inputs for x between 0 and 1, and look at the gradients of output w.r.t. y at these points. This takes the non-saturated region into account, and ends up attributing 1 to y, as desired.
+- As an artificial example, suppose the network first transforms the input x linearly to y = 2x, and then transforms it to z = max(y, 1). Suppose the input is x = 1 (where z is saturated at value 1), with 0 being the baseline. Then for the hidden unit of y, gradient of z w.r.t. y is 0. Gradient\*activation would be 0 for y, which does not reflect the intuitive importance of y. Like in [[Integrated Gradients]], in computing conductance, we consider all extrapolated inputs for x between 0 and 1, and look at the gradients of output w.r.t. y at these points. This takes the non-saturated region into account, and ends up attributing 1 to y, as desired.
 - wrong Polarity/Sensitivity
 
 ## Methods

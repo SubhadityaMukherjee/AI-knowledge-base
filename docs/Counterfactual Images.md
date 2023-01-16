@@ -13,7 +13,7 @@ date created: Friday, November 18th 2022, 1:19:19 pm
 
 ## Backlinks
 
-> - [GradCAM](GradCAM.md)
+> - [GradCAM](Grad-CAM.md)
 >   - To identify [[Counterfactual Images]], flip the signs
 
-_Backlinks last generated 2023-01-16 19:33:15_
+_Backlinks last generated 2023-01-16 19:40:27_

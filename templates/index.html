@@ -1,0 +1,102 @@
+{# Default section.html template #}
+
+{% extends "base.html" %}
+
+{% block seo %}
+  {{ super() }}
+  {% set title_addition = "" %}
+  
+  {% if section.title and config.title %}
+    {% set title = section.title %}
+    {% set title_addition = title_separator ~ config.title %}
+  {% elif section.title %}
+    {% set title = section.title %}
+  {% else %}
+    {% set title = config.title %}
+  {% endif %}
+  
+  {% if section.description %}
+    {% set description = section.description %}
+  {% else %}
+    {% set description = config.description %}
+  {% endif %}
+  
+  {{ macros_head::seo(title=title, title_addition=title_addition, description=description) }}
+{% endblock seo %}
+
+{% block body %}
+  {% if section.extra.class %}
+    {% set page_class = section.extra.class %}
+  {% else %}
+    {% set page_class = "page list" %}
+  {% endif %}
+{% endblock body %}
+
+{% block content %}
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-10 col-xxl-8">
+        <article>
+          <div class="page-header">
+            <h1>{{ section.title }}</h1>
+          </div>
+<h2>Welcome!</h2>
+<ul>
+  <li>This is my little knowledge base</li>
+  <li>If there is something you are looking for, just type it into the search bar
+    <ul>
+      <li>Of course, since this is not google, it is not a one stop shop</li>
+      <li>In essence, it will have something on things that I learn</li>
+    </ul>
+  </li>
+  <li>How to go about finding things?
+    <ul>
+      <li>Scroll the sidebar and pick something you like. Click the links inside it to go about. Choose your own adventure.</li>
+    </ul>
+  </li>
+  <li>Major topics (These index pages are auto generated and might have errors sometimes)
+    <ul>
+      <li><a href="https://subhadityamukherjee.github.io/AI-knowledge-base/#articles/Notes%20on%20a%20Nervous%20Planet-%20take%20control/">Articles</a></li>
+      <li>Deep learning
+        <ul>
+          <li><a href="architecture.md">Deep Learning architectures</a></li>
+          <li><a href="loss.md">Loss Functions</a></li>
+          <li><a href="dataset.md">Datasets</a></li>
+          <li><a href="Pytorch Tricks.md">Pytorch Tricks</a></li>
+          <li><a href="regularize.md">Regularizing stuff</a></li>
+        </ul>
+      </li>
+      <li>Others
+        <ul>
+          <li><a href="robotics.md">Robotics</a></li>
+          <li><a href="brain.md">Brain</a></li>
+          <li><a href="visualization.md">Visualization</a></li>
+          <li><a href="language.md">Language</a></li>
+          <li><a href="medical.md">Medical</a></li>
+          <li><a href="psychology.md">Psychology</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<h2>Links</h2>
+<ul>
+  <li><a href="https://www.github.com/SubhadityaMukherjee">My Github</a></li>
+  <li><a href="https://subhadityamukherjee.github.io/SubhadityaMukherjeegit/deeplearning.html">Blogs</a></li>
+  <li><a href="https://msubhaditya.medium.com/">Medium -> More blogs</a></li>
+  <li><a href="https://www.linkedin.com/in/subhaditya-mukherjee-a36883100">My Linkedin</a></li>
+  <li><a href="https://www.instagram.com/aiexistential/">My Art</a></li>
+  <li><a href="mailto:msubhaditya@gmail.com"></a></li>
+
+          {{ section.content | safe }}
+          {% for post in section.pages %}
+  <h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
+{% endfor %}
+
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

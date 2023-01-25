@@ -1,0 +1,9 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "co",
+  "vimMode": true,
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content",
+  "defaultViewMode": "preview"
+}

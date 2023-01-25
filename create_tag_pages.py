@@ -4,7 +4,7 @@ from pathlib import Path
 from tqdm import tqdm
 import re
 #%%
-main_dir = Path("./docs/")
+main_dir = Path("./content/")
 # %%
 files = glob(str(main_dir) + "/**/*.md", recursive=True)
 files.sort()
@@ -34,14 +34,14 @@ for i in tqdm(files, total = len(files)):
 f_string = """
 ---
 tags: anchor
-___
+---
 
 """
 
 for tag in tag_list:
     print(tag)
     files_in_tag = dict_tags[tag]
-    with open(f"docs/{tag}.md", "w+") as tagfile:
+    with open(f"content/{tag}.md", "w+") as tagfile:
         tagfile.write(f_string)
         for fle in files_in_tag:
             fle = fle.replace('docs/','').replace(" ", "%20")

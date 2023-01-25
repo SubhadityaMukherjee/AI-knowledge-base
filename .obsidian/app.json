@@ -1,9 +1,0 @@
-{
-  "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "docs/images",
-  "vimMode": true,
-  "promptDelete": false,
-  "newFileLocation": "folder",
-  "newFileFolderPath": "docs",
-  "defaultViewMode": "preview"
-}

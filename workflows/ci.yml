@@ -1,21 +1,19 @@
-name: ci
-on:
-  push:
-    branches:
-      - master
-      - main
+# On every push this script is executed
+on: push
+name: Build and deploy GH Pages
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-roamlinks-plugin
-      - run: pip install mkdocs-minify-plugin
-      - run: pip install mkdocs-awesome-pages-plugin
-      - run: pip install mkdocs-git-revision-date-plugin
-      - run: pip install mkdocs-windmill
-      - run: mkdocs gh-deploy --force
+      - name: checkout
+        uses: actions/checkout@v3.0.0
+      - name: build_and_deploy
+        uses: shalzz/zola-deploy-action@v0.16.1
+        env:
+          # Target branch
+          PAGES_BRANCH: gh-pages
+          # Provide personal access token
+          # TOKEN: ${{ secrets.TOKEN }}
+          # Or if publishing to the same repo, use the automatic token
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}

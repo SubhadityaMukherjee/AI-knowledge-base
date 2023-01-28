@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2022-09-20.md",
+                "file": "Vision Explainibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journals/2022-09-20.md",
+                "file": "Vision Explainibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journals/2022-09-20.md",
+                "file": "Vision Explainibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2022-09-20.md"
+                "file": "Vision Explainibility.md"
               }
             }
           },
@@ -172,11 +172,11 @@
   },
   "active": "026cc93f1cf81d9b",
   "lastOpenFiles": [
+    "journals/2023-01-28.md",
     "journals/2022-12-03.md",
     "journals/2022-11-24.md",
     "journals/2023-01-18.md",
     "journals/2023-01-13.md",
-    "journals/2023-01-28.md",
     "visualization.md",
     "CogMod Final Paper.md",
     "journals/2023-01-27.md",

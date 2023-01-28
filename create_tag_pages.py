@@ -17,7 +17,7 @@ dict_tags = {x:[] for x in tag_list}
 print("Creating index")
 for i in tqdm(files, total = len(files)):
     with open(i, "r+") as myfile:
-        print(i)
+        # print(i)
         try:
             head = [next(myfile) for x in range(5)] # read first n lines
             head = [x for x in head if "tag" in x][0].strip().split(" ")[1::]

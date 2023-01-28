@@ -1,0 +1,8 @@
+mkdocs-material 
+mkdocs-roamlinks-plugin
+mkdocs-minify-plugin
+mkdocs-awesome-pages-plugin
+mkdocs-git-revision-date-plugin
+mkdocs-windmill
+mkdocs-roamlinks-plugin
+mkdocs-mermaid2-plugin

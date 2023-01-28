@@ -64,4 +64,4 @@ $$\nabla_{\theta_{g}} \frac{1}{m} \Sigma_{i=1}^{m}log(1-D(G(z^{(i)})))$$
 > - [](journals/2022-12-15.md)
 >   - [[DCGAN]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

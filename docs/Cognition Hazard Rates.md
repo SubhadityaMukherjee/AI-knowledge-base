@@ -76,4 +76,4 @@ date created: Monday, December 5th 2022, 1:34:40 pm
 > - [](journals/2022-12-05.md)
 >   - **01:13** [[Cognition Hazard Rates]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

@@ -117,4 +117,4 @@ date created: Thursday 17th November 2022, Thu
 > - [](journals/2022-11-17.md)
 >   - [[You can play 20 questions with nature and win]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

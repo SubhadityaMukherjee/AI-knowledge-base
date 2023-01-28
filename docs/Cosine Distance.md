@@ -12,9 +12,3 @@ date created: Wednesday, December 7th 2022, 10:55:58 pm
 - Complement of [[Cosine Similarity]]
 - $$D_{c}(A,B) := 1- S_{c}(A,B)$$
 
-## Backlinks
-
-> - [Cosine Similarity](Cosine Similarity.md)
->   - [[Cosine Distance]]
-
-_Backlinks last generated 2023-01-28 13:11:06_

@@ -115,4 +115,4 @@ date created: Tuesday, December 13th 2022, 5:03:53 pm
 > - [Scalar Articles](Scalar Articles.md)
 >   - [[Stack GAN]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

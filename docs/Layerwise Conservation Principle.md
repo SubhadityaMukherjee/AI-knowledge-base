@@ -17,4 +17,4 @@ date created: Tuesday, January 10th 2023, 2:04:47 pm
 > - [Conductance](Conductance.md)
 >   - conductances thus satisfy the [[Layerwise Conservation Principle]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

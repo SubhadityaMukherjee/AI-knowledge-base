@@ -65,4 +65,4 @@ date created: Monday, November 28th 2022, 1:42:39 pm
 > - [Cognitive Preparation](Cognitive Preparation.md)
 >   - [[Cognitive Foreperiod]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

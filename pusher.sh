@@ -6,5 +6,5 @@ python3 create_tag_pages.py
 #/home/erago/.yarn/bin/note-link-janitor docs/architectures/
 #/home/erago/.yarn/bin/note-link-janitor docs/applications/
 #/home/erago/.yarn/bin/note-link-janitor docs/federated/
-python3 zettelcon.py -f "content/" -n 10
+python3 zettelcon.py -f "docs/" -n 10
 git add . && git commit -m "update" && git push

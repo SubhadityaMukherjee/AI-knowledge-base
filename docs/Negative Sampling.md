@@ -21,4 +21,4 @@ date created: Wednesday, December 7th 2022, 11:52:49 pm
 > - [Word2Vec](Word2Vec.md)
 >   - This simple switch changes the model we need from a neural network, to a logistic regression model – thus it becomes much simpler and much faster to calculate. + [[Negative Sampling]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

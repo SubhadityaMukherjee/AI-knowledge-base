@@ -26,4 +26,4 @@ date created: Wednesday, December 7th 2022, 11:39:27 pm
 > - [Word2Vec](Word2Vec.md)
 >   - [[Skip Gram]] or [[CBOW]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

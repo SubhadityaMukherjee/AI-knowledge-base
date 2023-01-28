@@ -94,4 +94,4 @@ The models are trained with the [Adam version of stochastic gradient descent](h
 > - [](journals/2022-12-11.md)
 >   - **12:57** Have to write an article about [[CycleGAN]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

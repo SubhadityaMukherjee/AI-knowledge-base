@@ -25,4 +25,4 @@ date created: Thursday, November 24th 2022, 1:46:37 pm
 >   - evaluates every individual convolutional unit in a CNN as a solution to a binary segmentation task to every visual concept in [[Broden]]
 >   - For every input image x in the [[Broden]] dataset, the activation map $A_{k}(x)$ of every internal convolutional unit k is collected.
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

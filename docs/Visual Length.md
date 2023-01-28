@@ -17,4 +17,4 @@ date created: Wednesday 21st December 2022, Wed
 > - [Characteristics of Visual Variables](Characteristics of Visual Variables.md)
 >   - [[Visual Length]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

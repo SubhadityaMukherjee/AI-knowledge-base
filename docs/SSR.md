@@ -21,4 +21,4 @@ date created: Monday, November 28th 2022, 11:26:03 am
 >   - Both SDR and [[SSR]] remove some evidence from the image
 >   - The metric is almost a direct translation of the [[SSR]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

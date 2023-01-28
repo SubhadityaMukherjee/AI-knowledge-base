@@ -18,4 +18,4 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 >   - [[Strided]] [[Conv]], [[Batch Normalization]], and [[Leaky Relu]]
 >   - Further the discriminator uses batch norm layers and [[Leaky Relu]] activations while the generator uses [[Relu]] activations
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

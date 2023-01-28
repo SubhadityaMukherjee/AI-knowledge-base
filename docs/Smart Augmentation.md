@@ -22,4 +22,4 @@ date modified: Monday, October 10th 2022, 2:02:06 pm
 > - [[[Data Augmentation with Curriculum Learning]]](A survey on Image Data Augmentation for Deep Learning.md)
 >   - Samples taken from GANs can be augmented with traditional augmentations such as lighting filters, or even used in neural network augmentation strategies such as [[Smart Augmentation]] or [[Neural Augmentation]] to create even more samples. These samples can be fed into further GANs and dramatically increase the size of the original dataset.
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

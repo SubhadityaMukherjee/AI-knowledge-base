@@ -143,4 +143,4 @@ tags: anchor
 > - [Guided [[Grad-CAM]]](Guided GradCAM.md)
 >   - The main difference between [[Grad-CAM]] and Guided [[Grad-CAM]] is that while [[Grad-CAM]] focuses on finding the regions of an image that are most important for a given classification, Guided [[Grad-CAM]] also takes into account the positive gradients of the guided backpropagation algorithm, in order to provide a more fine-grained [[visualization]] of the internal representations of the network. This can make Guided [[Grad-CAM]] more effective for understanding how the model is making its decisions, and for identifying the specific features of an image that the model is using for a given classification.
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

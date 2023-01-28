@@ -17,4 +17,4 @@ $$-(ylog(p)+(1-y)log(1-p))$$
 > - [Cross [Entropy](Entropy.md)](Cross Entropy.md)
 >   - [[Binary Cross Entropy]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

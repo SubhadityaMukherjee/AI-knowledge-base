@@ -26,4 +26,4 @@ date created: Thursday, December 15th 2022, 10:05:01 pm
 >   - [[Transposed Conv]] , [[Batch Normalization]] and [[Relu]]
 >   - [[Batch Normalization]] AFTER [[Transposed Conv]] is super important as it helps with flow of gradients
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

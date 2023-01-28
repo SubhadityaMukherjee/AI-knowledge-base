@@ -26,4 +26,4 @@ date created: Tuesday, December 6th 2022, 12:46:39 pm
 > - [Smooth-Grad](Smooth-Grad.md)
 >   - reduces visual noise and, hence, improves visual explanations about how a DNN is making a classification decision. Comparing their work to several gradient-based sensitivity map methods such as LRP, [[DeepLift]], and [[Integrated Gradients]] (IG) [96], which estimate the global importance of each pixel and create saliency maps, showed that Smooth-Grad focuses on local sensitivity and calculates averaging maps with a smoothing effect made from several small perturbations of an input image. The effect is enhanced by further training with these noisy images and finally having an impact on the quality of sensitivity maps by sharpening them.
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

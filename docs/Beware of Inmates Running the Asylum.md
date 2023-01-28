@@ -62,4 +62,4 @@ date created: Saturday, December 3rd 2022, 5:10:11 pm
 > - [](journals/2022-12-03.md)
 >   - **05:17** Anyway [[Beware of Inmates Running the Asylum]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

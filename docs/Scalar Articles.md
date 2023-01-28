@@ -28,4 +28,4 @@ date created: Tuesday, December 13th 2022, 4:55:46 pm
 > - [2022-12-21](journals/2022-12-21.md)
 >   - **02:47** man these articles are all the same arent they. [[Scalar Articles]]
 
-_Backlinks last generated 2023-01-28 13:11:06_
+_Backlinks last generated 2023-01-28 14:37:47_

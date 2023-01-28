@@ -23,18 +23,3 @@ date created: Thursday, December 8th 2022, 11:40:39 pm
 ## Masking Input Tokens BERT
 - In the original research paper, 15% of the input tokens were masked, of which 80% were replaced with [MASK] tokens, 10% were replaced with random tokens, and another 10% were left as is. However, in our fine-tuning task, we are replacing 15% of the input tokens except for the special ones with only [MASK] i.e., we will not replace token numbers 101,102, and 0 with mask token 103. In the following lines of codes, the same logic is implemented
 
-## Backlinks
-
-> - [Causal Language Model](Causal Language Model.md)
->   - Unlike [[Masked Language Modeling]], this is uni-directional.
->    
-> - [BERT](BERT.md)
->   - [[Masked Language Modeling]]
->    
-> - [Scalar Articles](Scalar Articles.md)
->   - [[Masked Language Modeling]] with [[BERT]]
->    
-> - [](journals/2022-12-09.md)
->   - **11:05** Bunch of things today. First I have a thesis presentation [[Vision Explainibility]], then an article on [[Masked Language Modeling]] and then Cogmod
-
-_Backlinks last generated 2023-01-28 14:37:47_

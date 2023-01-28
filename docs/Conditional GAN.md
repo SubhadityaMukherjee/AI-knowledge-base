@@ -64,12 +64,3 @@ date created: Sunday, December 18th 2022, 2:04:16 pm
 | Discriminator does not receive labels                              | Discriminator requires labels                                               |
 | Discriminator evaluates similarity between input and target images | Discriminator considers input and target images and their respective labels |
 
-## Backlinks
-
-> - [Scalar Articles](Scalar Articles.md)
->   - [[Conditional GAN]]
->    
-> - [](journals/2022-12-18.md)
->   - **02:04** [[Conditional GAN]]
-
-_Backlinks last generated 2023-01-28 14:37:47_

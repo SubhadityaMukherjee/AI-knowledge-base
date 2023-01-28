@@ -86,12 +86,3 @@ Additionally, a buffer of 50 generated images is used to update the discriminato
 
 The models are trained with the [Adam version of stochastic gradient descent](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/) and a small learning rate for 100 epochs, then a further 100 epochs with a learning rate decay. The models are updated after each image, e.g. a batch size of 1.
 
-## Backlinks
-
-> - [Scalar Articles](Scalar Articles.md)
->   - [[CycleGAN]]
->    
-> - [](journals/2022-12-11.md)
->   - **12:57** Have to write an article about [[CycleGAN]]
-
-_Backlinks last generated 2023-01-28 14:37:47_

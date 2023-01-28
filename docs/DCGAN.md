@@ -52,16 +52,3 @@ $$\nabla_{\theta_{d}} \frac{1}{m} \Sigma_{i=1}^{m}[log D(x^{(i)}) + log(1-D(G(z^
 - This can be thought of as minimizing the following function.
 $$\nabla_{\theta_{g}} \frac{1}{m} \Sigma_{i=1}^{m}log(1-D(G(z^{(i)})))$$
 
-## Backlinks
-
-> - [Conditional GAN](Conditional GAN.md)
->   - Same as [[DCGAN]] except one hot vector for conditioning
->   - Same as [[DCGAN]] except one hot vector.
->    
-> - [Scalar Articles](Scalar Articles.md)
->   - [[DCGAN]]
->    
-> - [](journals/2022-12-15.md)
->   - [[DCGAN]]
-
-_Backlinks last generated 2023-01-28 14:37:47_

@@ -4,27 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5eeb7f831afe3b0a",
+        "id": "3a043c1b35d99704",
         "type": "tabs",
         "children": [
           {
-            "id": "026cc93f1cf81d9b",
+            "id": "fe76795bf7c3366c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vision Explainibility.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "173510765aec7542",
-            "type": "leaf",
-            "state": {
-              "type": "daily-note-editor-view",
-              "state": {}
             }
           }
         ],
@@ -80,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vision Explainibility.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vision Explainibility.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vision Explainibility.md"
+                "file": "index.md"
               }
             }
           },
@@ -170,17 +162,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "026cc93f1cf81d9b",
+  "active": "fe76795bf7c3366c",
   "lastOpenFiles": [
-    "journals/2023-01-28.md",
-    "journals/2022-12-03.md",
-    "journals/2022-11-24.md",
-    "journals/2023-01-18.md",
-    "journals/2023-01-13.md",
-    "visualization.md",
+    "cognitivemodel.md",
+    "index.md",
+    "augment.md",
+    "cogitivemodel.md",
+    "brain.md",
+    "Brain-derived Neurotrophic Factor (BDNF).md",
+    "Markov for Continuous Distributions.md",
     "CogMod Final Paper.md",
-    "journals/2023-01-27.md",
-    "trolley scenario.md",
-    "Building Ethics into Artificial Intelligence.md"
+    "dataset.md",
+    "Fine grained datasets.md"
   ]
 }

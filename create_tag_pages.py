@@ -9,7 +9,7 @@ main_dir = Path("./docs/")
 files = glob(str(main_dir) + "/**/*.md", recursive=True)
 files.sort()
 
-tag_list = ["architecture", "language", "visualization", "dataset", "psychology", "loss", "regularize", "uncertainty", "cogneuro", "brain", "robotics", "medical", "usermodel", "mastersthesis", "augment", "cogitivemodel"]
+tag_list = ["architecture", "language", "visualization", "dataset", "psychology", "loss", "regularize", "uncertainty", "cogneuro", "brain", "robotics", "medical", "usermodel", "mastersthesis", "augment", "cognitivemodel"]
 
 dict_tags = {x:[] for x in tag_list}
 
@@ -20,7 +20,10 @@ for i in tqdm(files, total = len(files)):
         # print(i)
         try:
             head = [next(myfile) for x in range(5)] # read first n lines
-            head = [x for x in head if "tag" in x][0].strip().split(" ")[1::]
+            try:
+                head = [x for x in head if "tag" in x][0].strip().split(" ")[1::]
+            except:
+                pass
             for tag in head:
                 try:
                     dict_tags[tag].append(i)

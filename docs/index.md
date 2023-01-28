@@ -26,6 +26,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- [Language](language.md)
 		- [Medical](medical.md)
 		- [Psychology](psychology.md)
+		- [Cognitive Modelling](cognitivemodel)
 
 ## Links
 - [My Github](https://www.github.com/SubhadityaMukherjee)

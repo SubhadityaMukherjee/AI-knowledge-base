@@ -3,3 +3,4 @@ node_modules
 package*
 Old_site/
 Old_site/*
+*.icloud

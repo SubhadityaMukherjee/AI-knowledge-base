@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "4b18d6a8f77a4722",
+    "type": "split",
+    "children": [
+      {
+        "id": "5546cf9929693100",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc19ad95711820b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/journals/2023-01-04.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "a603df7163687ee1"
+          },
+          {
+            "id": "ed64fafe0b961bd7",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-editor-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "36fb531d044e2183",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f73d988c66fe539",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "docs/journals/2023-01-04.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.933919399214256,
+                  "close": true
+                }
+              }
+            },
+            "group": "a603df7163687ee1"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c0d094ed456b4cc",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1bf1b4fc6f9bcbf2",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byCreatedTime"
+          }
+        }
+      },
+      {
+        "id": "05fe94910cb7b942",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "eb5544e1bb3fcfbc",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "9eb0f018b5048ac9",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "9c76f65c44d062d1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "783d96b637be5ff9",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "docs/journals/2023-01-04.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0d88249b4c62d756",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "docs/journals/2023-01-04.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c2607a07001dab2a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "docs/journals/2023-01-04.md"
+          }
+        }
+      },
+      {
+        "id": "1acdf84843d7ef1c",
+        "type": "leaf",
+        "state": {
+          "type": "Strange New Worlds",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 4
+  },
+  "active": "bc19ad95711820b8",
+  "lastOpenFiles": [
+    "docs/Dropout.md",
+    "docs/Adding_noise.md",
+    "docs/Co_adaptation.md",
+    "docs/Early_Stopping_tricks.md",
+    "docs/journals/2023-01-04.md",
+    "docs/journals/2023-01-03.md",
+    "docs/Regularization.md",
+    "docs/A_survey_on_Image_Data_Augmentation_for_Deep_Learning.md",
+    "docs/journals/2022-12-30.md",
+    "docs/LDA.md"
+  ]
+}

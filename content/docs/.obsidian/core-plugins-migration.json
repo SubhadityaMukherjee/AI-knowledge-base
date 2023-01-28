@@ -4,7 +4,6 @@
   "switcher": true,
   "graph": true,
   "backlink": true,
-  "canvas": true,
   "outgoing-link": true,
   "tag-pane": true,
   "page-preview": true,
@@ -17,7 +16,7 @@
   "starred": true,
   "markdown-importer": false,
   "zk-prefixer": false,
-  "random-note": false,
+  "random-note": true,
   "outline": true,
   "word-count": true,
   "slides": false,
@@ -25,5 +24,6 @@
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
-  "sync": false
+  "sync": false,
+  "canvas": true
 }

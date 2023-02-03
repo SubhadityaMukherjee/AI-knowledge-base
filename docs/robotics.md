@@ -78,6 +78,7 @@ tags: anchor
 - [Material Processing Robot.md](Material%20Processing%20Robot.md)
 - [Mirror Shift Function.md](Mirror%20Shift%20Function.md)
 - [Mode Switch.md](Mode%20Switch.md)
+- [MoreMVCNN.md](MoreMVCNN.md)
 - [Neural Radiance Field.md](Neural%20Radiance%20Field.md)
 - [Occlusion.md](Occlusion.md)
 - [Opportunistic Learning.md](Opportunistic%20Learning.md)

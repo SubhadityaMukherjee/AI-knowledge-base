@@ -126,6 +126,54 @@
           "lastUpdated": 1674915001284
         }
       }
+    },
+    "foreper": {
+      "foreper": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675247869349
+        }
+      }
+    },
+    "foreperiod": {
+      "foreperiod": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675247870311
+        }
+      }
+    },
+    "\\mu_{x}": {
+      "\\mu_{x}": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675253491763
+        }
+      }
+    },
+    "Random Erasing": {
+      "Random Erasing": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675253748991
+        }
+      }
+    },
+    "Adam": {
+      "Adam": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675253761220
+        }
+      }
+    },
+    "SGD": {
+      "SGD": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675253763622
+        }
+      }
     }
   }
 }

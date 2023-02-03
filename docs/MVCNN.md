@@ -12,9 +12,3 @@ tags: robotics
 - Number of categories should be defined in advance.
 - ![[images/Pasted image 20221103123544.png]]
 
-## Backlinks
-
-> - [](journals/2022-11-03.md)
->   - [[MVCNN]]
-
-_Backlinks last generated 2023-01-28 14:37:47_

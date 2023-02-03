@@ -6,6 +6,7 @@ tags: anchor
 - [Beware of Inmates Running the Asylum.md](Beware%20of%20Inmates%20Running%20the%20Asylum.md)
 - [CAM.md](CAM.md)
 - [Classifying a specific image region using convolutional nets with an ROI mask as input.md](Classifying%20a%20specific%20image%20region%20using%20convolutional%20nets%20with%20an%20ROI%20mask%20as%20input.md)
+- [Comparing Data Augmentation Strategies for Deep Image Classification.md](Comparing%20Data%20Augmentation%20Strategies%20for%20Deep%20Image%20Classification.md)
 - [Conductance.md](Conductance.md)
 - [Contributions of Shape, Texture, and Color in Visual Recognition Abstract.md](Contributions%20of%20Shape,%20Texture,%20and%20Color%20in%20Visual%20Recognition%20Abstract.md)
 - [DeepLIFT.md](DeepLIFT.md)
@@ -26,4 +27,5 @@ tags: anchor
 - [Vision Explainibility.md](Vision%20Explainibility.md)
 - [journals/2022-10-05.md](journals/2022-10-05.md)
 - [journals/2022-10-17.md](journals/2022-10-17.md)
+- [templates/titler.md](templates/titler.md)
 

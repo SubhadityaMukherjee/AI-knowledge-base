@@ -1,4 +1,6 @@
 {
   "cssTheme": "Obsidian You",
-  "accentColor": ""
+  "accentColor": "",
+  "showViewHeader": false,
+  "translucency": true
 }

@@ -14,10 +14,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Scroll the sidebar and pick something you like. Click the links inside it to go about. Choose your own adventure.
 - Major topics (These index pages are auto generated and might have errors sometimes)
 	- Deep learning
+		- [AI Ethics](ethics.md)
+		- [XAI](explainability.md)
 		- [Deep Learning architectures](architecture.md)
 		- [Loss Functions](loss.md)
 		- [Datasets](dataset.md)
-		- [Pytorch_Tricks](Pytorch_Tricks.md)
 		- [Regularizing stuff](regularize.md)
 	- Others
 		- [Robotics](robotics.md)
@@ -33,7 +34,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Blogs](https://subhadityamukherjee.github.io/SubhadityaMukherjeegit/deeplearning.html)
 - [Medium -> More blogs](https://msubhaditya.medium.com/)
 - [My Linkedin](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100)
-- [My Art](https://www.instagram.com/aiexistential/)
+- [My Art](https://www.instagram.com/aiexistentialart/)
 - [Email](mailto:msubhaditya@gmail.com)
 
 #anchor

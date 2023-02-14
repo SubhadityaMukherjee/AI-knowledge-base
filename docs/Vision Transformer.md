@@ -4,14 +4,6 @@ date modified: Monday, October 10th 2022, 2:02:14 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
----
-
-title: Vision Transformer
-
-tags: architecture
-
----
-
 # Vision [Transformer](Transformer.md)
 - [paper](https://arxiv.org/abs/2010.11929)
 - ![vit](images/vit.png)

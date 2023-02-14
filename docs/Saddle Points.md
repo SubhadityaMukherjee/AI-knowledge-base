@@ -1,9 +1,15 @@
 ---
-tags: temp
 title: Saddle Points
-date modified: Monday, October 10th 2022, 2:02:17 pm
-date created: Tuesday, July 26th 2022, 8:33:15 pm
+
+tags: gradients  
+date modified: Tuesday 7th February 2023, Tue
+date created: Tuesday 7th February 2023, Tue
 ---
 
 # Saddle Points
+```toc
+```
+
+- Points where the gradient is zero but it is at the same a local minima and maxima (both relative)
+- ![[images/Pasted image 20230207111057.png]]
 

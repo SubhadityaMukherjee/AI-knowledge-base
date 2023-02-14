@@ -30,3 +30,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - 1 hidden layer [Perceptron](Perceptron.md) -> Universal fn estimator
 - Best generalization -> First order optimization
 
+## Backlinks
+
+> - [Representation Bias](Representation Bias.md)
+>   - As multitask is performed, introduces bias to learn [[Features]] and generalizing for other tasks
+
+_Backlinks last generated 2023-02-14 14:39:28_

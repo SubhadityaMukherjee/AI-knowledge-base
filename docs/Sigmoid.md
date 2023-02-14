@@ -19,5 +19,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 > - [DCGAN](DCGAN.md)
 >   - Final is a [[Sigmoid]] layer
+>    
+> - [Vanishing Gradient](Vanishing Gradient.md)
+>   - Deltas become smaller initially. using [[Sigmoid]] -> [[ill conditioning]]
 
-_Backlinks last generated 2023-01-28 14:37:47_
+_Backlinks last generated 2023-02-14 14:39:28_

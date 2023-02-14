@@ -12,3 +12,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - k dim one hot vector
 - ![im](images/Pasted%20image%2020220315234556.png)
 
+## Backlinks
+
+> - [Cross [Entropy](Entropy.md)](Cross Entropy.md)
+>   - Labels should be [[One hot]]
+
+_Backlinks last generated 2023-02-14 14:39:28_

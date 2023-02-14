@@ -7,10 +7,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Hinge
 - Classification
-- SVMs
+- [[SVM]] 
 - the w are weights of the model
+- labels are 1 or -1
 
-$$\mathrm{max}\left( 0, 1 + \mathrm{max}\left( w_{y} \cdot x - w_{t} \cdot x \right) \right)$$
+- $$\mathrm{max}\left( 0, 1 + \mathrm{max}\left( w_{y} \cdot x - w_{t} \cdot x \right) \right)$$
+- $$L(y, \hat y) = \Sigma_{i}max(0, 1- y_{i}\hat y_{i})$$
 
-## …
+- maximum margin classification 
 

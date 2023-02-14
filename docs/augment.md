@@ -20,6 +20,7 @@ tags: anchor
 - [Cut, Paste and Learn.md](Cut,%20Paste%20and%20Learn.md)
 - [CutMix.md](CutMix.md)
 - [Cutout.md](Cutout.md)
+- [Data Augmentation via Latent Space Interpolation for Image Classification.md](Data%20Augmentation%20via%20Latent%20Space%20Interpolation%20for%20Image%20Classification.md)
 - [Data Augmentation with Curriculum Learning.md](Data%20Augmentation%20with%20Curriculum%20Learning.md)
 - [Feature Space Augmentation.md](Feature%20Space%20Augmentation.md)
 - [Flipping.md](Flipping.md)
@@ -37,6 +38,7 @@ tags: anchor
 - [Mixed Example.md](Mixed%20Example.md)
 - [Neural Augmentation.md](Neural%20Augmentation.md)
 - [Noise Injection.md](Noise%20Injection.md)
+- [On the Importance of Visual Context for Data Augmentation in Scene Understanding.md](On%20the%20Importance%20of%20Visual%20Context%20for%20Data%20Augmentation%20in%20Scene%20Understanding.md)
 - [Puzzle Mix.md](Puzzle%20Mix.md)
 - [RICAP.md](RICAP.md)
 - [RandAugment.md](RandAugment.md)
@@ -55,4 +57,3 @@ tags: anchor
 - [SpecAugment.md](SpecAugment.md)
 - [Test-time Augmentation.md](Test-time%20Augmentation.md)
 - [Visual Context Augmentation.md](Visual%20Context%20Augmentation.md)
-

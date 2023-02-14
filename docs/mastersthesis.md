@@ -23,9 +23,9 @@ tags: anchor
 - [Salience Map.md](Salience%20Map.md)
 - [SmoothGrad Square.md](SmoothGrad%20Square.md)
 - [The Unreliability of Saliency Methods.md](The%20Unreliability%20of%20Saliency%20Methods.md)
+- [Thesis Flow.md](Thesis%20Flow.md)
 - [VarGrad.md](VarGrad.md)
 - [Vision Explainibility.md](Vision%20Explainibility.md)
 - [journals/2022-10-05.md](journals/2022-10-05.md)
 - [journals/2022-10-17.md](journals/2022-10-17.md)
-- [templates/titler.md](templates/titler.md)
 

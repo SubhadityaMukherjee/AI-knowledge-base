@@ -26,5 +26,8 @@
   "mermaid-tools",
   "obsidian-readlater",
   "obsidian-bulk-rename-plugin",
-  "obsidian-prozen"
+  "obsidian-prozen",
+  "reference-map",
+  "obsidian-citation-plugin",
+  "obsidian-zotero-desktop-connector"
 ]

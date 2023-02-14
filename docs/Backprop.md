@@ -17,3 +17,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 			- Collecting all the $$\partial \sigma(u_i)$$ wrt params -> #gradients exponentially decreases wrt depth of the network : Vanishing
 				- Solved by [Activation Functions](Activation%20Functions.md)
 
+## Backlinks
+
+> - [Vanishing Gradient](Vanishing Gradient.md)
+>   - Saturation and prevent [[Backprop]]
+
+_Backlinks last generated 2023-02-14 14:39:28_

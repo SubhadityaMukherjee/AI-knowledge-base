@@ -174,6 +174,126 @@
           "lastUpdated": 1675253763622
         }
       }
+    },
+    "Sigmoid": {
+      "Sigmoid": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675764711216
+        }
+      }
+    },
+    "ill conditioning": {
+      "ill conditioning": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675764719611
+        }
+      }
+    },
+    "Backprop": {
+      "Backprop": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675764774877
+        }
+      }
+    },
+    "\\nabla_{x}": {
+      "\\nabla_{x}": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675764825932
+        }
+      }
+    },
+    "MSE": {
+      "MSE": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675766267220
+        }
+      }
+    },
+    "loss": {
+      "loss": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675766279737
+        }
+      }
+    },
+    "augment": {
+      "augment": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1675766351986
+        }
+      }
+    },
+    "Hard Parameter Sharing": {
+      "Hard Parameter Sharing": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675766839140
+        }
+      }
+    },
+    "Soft Parameter Sharing": {
+      "Soft Parameter Sharing": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675766842261
+        }
+      }
+    },
+    "multitask": {
+      "multitask": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675766874118
+        }
+      }
+    },
+    "Features": {
+      "Features": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675766891955
+        }
+      }
+    },
+    "generalizing": {
+      "generalizing": {
+        "currentVault": {
+          "count": 1,
+          "lastUpdated": 1675766898787
+        }
+      }
+    },
+    "SVM": {
+      "SVM": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675767040553
+        }
+      }
+    },
+    "One hot": {
+      "One hot": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1675767065862
+        }
+      }
+    },
+    "Max Margin Loss": {
+      "Max Margin Loss": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676201262785
+        }
+      }
     }
   }
 }

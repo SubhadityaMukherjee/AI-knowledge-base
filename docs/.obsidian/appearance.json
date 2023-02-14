@@ -2,5 +2,6 @@
   "cssTheme": "Obsidian You",
   "accentColor": "",
   "showViewHeader": false,
-  "translucency": true
+  "translucency": true,
+  "baseFontSize": 11
 }

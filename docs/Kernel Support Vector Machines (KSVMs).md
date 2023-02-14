@@ -9,7 +9,10 @@ date modified: Monday, October 10th 2022, 2:02:24 pm
 
 ## Backlinks
 
+> - [Hinge](Hinge Loss.md)
+>   - [[SVM]]
+>    
 > - [Generative vs Discriminative Models](Generative vs Discriminative Models.md)
 >   - [[SVM]]
 
-_Backlinks last generated 2023-01-28 14:37:47_
+_Backlinks last generated 2023-02-14 14:39:28_

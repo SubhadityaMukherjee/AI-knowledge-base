@@ -31,5 +31,6 @@
   "obsidian-citation-plugin",
   "obsidian-zotero-desktop-connector",
   "obsidian-tasks-plugin",
-  "obsidian-plugin-todo"
+  "obsidian-plugin-todo",
+  "link-nodes-in-canvas"
 ]

@@ -4,18 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "57dbb97779a55fcd",
+        "id": "c7e71282bd8a2920",
         "type": "tabs",
         "children": [
           {
-            "id": "77f704e66ef0ce1f",
+            "id": "4e9dc391e612b390",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Thesis Flow.md",
-                "mode": "source",
-                "source": false
+                "file": "Thesis Stuff.canvas",
+                "viewState": {
+                  "x": 2275.5778376793996,
+                  "y": -764.0957482136678,
+                  "zoom": -2.313329134384791,
+                  "snapToGrid": true
+                }
               }
             }
           }
@@ -79,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis Flow.md",
+                "file": "Thesis Stuff.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,13 +94,11 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -112,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis Flow.md",
+                "file": "Thesis Stuff.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis Flow.md"
+                "file": "Thesis Stuff.canvas"
               }
             }
           },
@@ -162,9 +164,17 @@
               "type": "reference-map-view",
               "state": {}
             }
+          },
+          {
+            "id": "b689e5b322cb8f60",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -176,30 +186,30 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "obsidian-file-cleaner:Clean files": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "obsidian-file-cleaner:Clean files": false,
-      "obsidian-gallery:Gallery": false,
       "templater-obsidian:Templater": false,
       "daily-notes-editor:Open Daily Note Editor": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-gallery:Gallery": false,
       "reference-map:Reference Map": false
     }
   },
-  "active": "77f704e66ef0ce1f",
+  "active": "4e9dc391e612b390",
   "lastOpenFiles": [
-    "The Unreliability of Saliency Methods.md",
-    "Thesis Flow.md",
-    "Vision Transformer.md",
-    "ConvNeXt.md",
-    "Res Net.md",
-    "Mobile Net.md",
+    "loss.md",
+    "Thesis Stuff.canvas",
+    "Real Time Image Saliency for Black Box Classifiers.md",
+    "SDR.md",
+    "Real.md",
     "Vgg.md",
-    "Xception.md",
-    "VarGrad.md",
-    "TREPAN.md"
+    "ScoreCAM.md",
+    "Thesis Flow.md",
+    "Intra-Class Part Swapping.md",
+    "Untitled 2.canvas"
   ]
 }

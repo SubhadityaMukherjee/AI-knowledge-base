@@ -5,6 +5,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Vision [Transformer](Transformer.md)
+- @dosovitskiyImageWorth16x162021
 - [paper](https://arxiv.org/abs/2010.11929)
 - ![vit](images/vit.png)
 - [Transformer](Transformer.md) applied directly to sequences/patches of images

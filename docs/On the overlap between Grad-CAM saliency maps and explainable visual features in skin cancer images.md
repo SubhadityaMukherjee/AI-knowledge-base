@@ -7,6 +7,7 @@ date created: Thursday, October 6th 2022, 10:29:54 am
 ---
 
 # On the Overlap Between [[Grad-CAM]] Saliency Maps and Explainable Visual Features in Skin Cancer Images
+- @nunnariOverlapGradCAMSaliency2021
 - Nunnari, Fabrizio, Md Abdul Kadir, and Daniel Sonntag. 2021. “On the Overlap Between [[Grad-CAM]] Saliency Maps and Explainable Visual Features in Skin Cancer Images.” Pp. 241–53 in _Machine Learning and Knowledge Extraction_. Vol. 12844, _Lecture Notes in Computer Science_, edited by A. Holzinger, P. Kieseberg, A. M. Tjoa, and E. Weippl. Cham: Springer International Publishing.
 
 ## Intro

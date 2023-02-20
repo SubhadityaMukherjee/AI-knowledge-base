@@ -7,6 +7,8 @@ date created: Tuesday, December 6th 2022, 12:44:33 pm
 ---
 
 # VarGrad
+- @richterVarGradLowVarianceGradient2020
+- [ ] vargrad
 ```toc
 ```
 

@@ -9,7 +9,7 @@ date created: Wednesday, October 12th 2022, 4:43:12 pm
 # TREPAN
 ```toc
 ```
-
+- 
 - or DeepRED
 - TREPAN is an algorithm for extracting comprehensible, symbolic representations from trained neural networks
 - The authors demonstrated that TREPAN is able to produce Decision [[Trees]] that are accurate and comprehensible and maintain a high level of fidelity to the networks from which they were extracted.

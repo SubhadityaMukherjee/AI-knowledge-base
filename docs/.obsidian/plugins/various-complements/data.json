@@ -47,62 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "Verb": {
-      "Verb": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672753892564
-        }
-      }
-    },
-    "tensorflow": {
-      "tensorflow": {
-        "currentVault": {
-          "count": 3,
-          "lastUpdated": 1672753905965
-        }
-      }
-    },
-    "Tensorflow": {
-      "Tensorflow": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1672753908891
-        }
-      }
-    },
-    "Batch_Normalization": {
-      "Batch_Normalization": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672753914530
-        }
-      }
-    },
-    "eyetracking": {
-      "eyetracking": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1672753922411
-        }
-      }
-    },
-    "Eyetracking": {
-      "Eyetracking": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1672753935499
-        }
-      }
-    },
-    "Eye_Tracking": {
-      "Eye_Tracking": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1672753945744
-        }
-      }
-    },
     "CogMod Final Paper": {
       "CogMod Final Paper": {
         "internalLink": {
@@ -154,8 +98,8 @@
     "Random Erasing": {
       "Random Erasing": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675253748991
+          "count": 2,
+          "lastUpdated": 1676901777768
         }
       }
     },
@@ -292,6 +236,294 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1676201262785
+        }
+      }
+    },
+    "Vision Transformer": {
+      "Vision Transformer": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1676901530374
+        }
+      }
+    },
+    "Attentive CutMix": {
+      "Attentive CutMix": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901403000
+        }
+      }
+    },
+    "Hide and Seek": {
+      "Hide and Seek": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901422555
+        }
+      }
+    },
+    "Res Net": {
+      "Res Net": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901534814
+        }
+      }
+    },
+    "MobileOne": {
+      "MobileOne": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901541033
+        }
+      }
+    },
+    "Mobile Net": {
+      "Mobile Net": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901546577
+        }
+      }
+    },
+    "Beware of Inmates Running the Asylum": {
+      "Beware of Inmates Running the Asylum": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901564724
+        }
+      }
+    },
+    "The Unreliability of Saliency Methods": {
+      "The Unreliability of Saliency Methods": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901573604
+        }
+      }
+    },
+    "SmoothGrad Square": {
+      "SmoothGrad Square": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901582722
+        }
+      }
+    },
+    "Salience Map": {
+      "Salience Map": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901589624
+        }
+      }
+    },
+    "Real Time Image Saliency for Black Box Classifiers": {
+      "Real Time Image Saliency for Black Box Classifiers": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901597753
+        }
+      }
+    },
+    "Adaptive Whitening Saliency": {
+      "Adaptive Whitening Saliency": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901615985
+        }
+      }
+    },
+    "Bayesian Rule List": {
+      "Bayesian Rule List": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901619351
+        }
+      }
+    },
+    "Deep Inside Convolutional Networks": {
+      "Deep Inside Convolutional Networks": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901628342
+        }
+      }
+    },
+    "Deep Visual Explanation": {
+      "Deep Visual Explanation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901630998
+        }
+      }
+    },
+    "Dynamic visual attention": {
+      "Dynamic visual attention": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901639725
+        }
+      }
+    },
+    "Embedding Human Knowledge into Deep Neural Network via Attention Map": {
+      "Embedding Human Knowledge into Deep Neural Network via Attention Map": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901644632
+        }
+      }
+    },
+    "Generalizing Adversarial Explanations with Grad-CAM": {
+      "Generalizing Adversarial Explanations with Grad-CAM": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901669156
+        }
+      }
+    },
+    "Graph Based Distillation": {
+      "Graph Based Distillation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901673584
+        }
+      }
+    },
+    "Graph-based visual saliency": {
+      "Graph-based visual saliency": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901678712
+        }
+      }
+    },
+    "Guided BackProp": {
+      "Guided BackProp": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901695253
+        }
+      }
+    },
+    "Guided GradCAM": {
+      "Guided GradCAM": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901699521
+        }
+      }
+    },
+    "Influence of image classification accuracy on saliency map estimation": {
+      "Influence of image classification accuracy on saliency map estimation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901704523
+        }
+      }
+    },
+    "Integrated Gradients": {
+      "Integrated Gradients": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901712710
+        }
+      }
+    },
+    "Interpretation of Neural networks is fragile": {
+      "Interpretation of Neural networks is fragile": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901718292
+        }
+      }
+    },
+    "Noise Tunnel": {
+      "Noise Tunnel": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901721940
+        }
+      }
+    },
+    "On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images": {
+      "On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901725972
+        }
+      }
+    },
+    "Image Mixing and Deletion": {
+      "Image Mixing and Deletion": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901752250
+        }
+      }
+    },
+    "Intra-Class Part Swapping": {
+      "Intra-Class Part Swapping": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901757663
+        }
+      }
+    },
+    "Puzzle Mix": {
+      "Puzzle Mix": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901766933
+        }
+      }
+    },
+    "Random Distortion": {
+      "Random Distortion": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901775590
+        }
+      }
+    },
+    "Sample Pairing": {
+      "Sample Pairing": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901786407
+        }
+      }
+    },
+    "Visual Context Augmentation": {
+      "Visual Context Augmentation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901789171
+        }
+      }
+    },
+    "Cut and Mix": {
+      "Cut and Mix": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901797875
+        }
+      }
+    },
+    "Data Augmentation via Latent Space Interpolation for Image Classification": {
+      "Data Augmentation via Latent Space Interpolation for Image Classification": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901813610
+        }
+      }
+    },
+    "Data Augmentation with Curriculum Learning": {
+      "Data Augmentation with Curriculum Learning": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676901829636
         }
       }
     }

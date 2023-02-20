@@ -7,6 +7,7 @@ date created: Thursday, October 6th 2022, 10:51:10 am
 ---
 
 # RISE
+- @petsiukRISERandomizedInput2018
 - based on a stochastic approach
 - Input images are iteratively altered via random noise, and the final saliency map is composed by accumulating the partial estimations
 - However, its application requires much more computational power, as it needs to run hundreds of thousands of prediction cycles

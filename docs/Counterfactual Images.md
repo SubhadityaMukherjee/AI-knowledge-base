@@ -11,3 +11,9 @@ date created: Friday, November 18th 2022, 1:19:19 pm
 ```
 - Concepts in images, removing which would increment networks confidence about the target (aka competing class)
 
+## Backlinks
+
+> - [GradCAM](Grad-CAM.md)
+>   - To identify [[Counterfactual Images]], flip the signs
+
+_Backlinks last generated 2023-02-20 15:38:17_

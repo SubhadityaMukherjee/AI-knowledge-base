@@ -7,11 +7,11 @@ date created: Wednesday, October 12th 2022, 4:17:49 pm
 ---
 
 # DeconvNet
+- [[@Visualizing and Understanding Convolutional Networks]]
 - Zeiler, Fergus
 - [Arxiv](https://arxiv.org/abs/1311.2901)
-```toc
-```
-
+  ```toc
+  ```
 - ![](images/1!yfVt0dZ8X6h6WoDFlyAqsw.png)
 - ![Pasted image 20221012161759](images/Pasted%20image%2020221012161759.png)
 - Basically invert operations between input and the chosen layer.
@@ -23,7 +23,6 @@ date created: Wednesday, October 12th 2022, 4:17:49 pm
 - The employed mechanisms are deconvolution and unpooling, which are especially designed for CNNs with convolutions, max-pooling, and Rectified Linear Units (ReLUs). The method makes it possible to create feature maps of an input image that activates certain hidden units most, linked to a particular prediction
 - With their propagation technique, they identified the most responsible patterns for this output. The patterns are visualized in the input space
 - DeconvNet is limited to max-pooling layers, but the unpooling uses an approximate inverse
-
 ## Backlinks
 
 > - [Vision Explainibility](Vision Explainibility.md)

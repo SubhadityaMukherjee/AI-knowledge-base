@@ -7,14 +7,14 @@ date created: Friday, November 18th 2022, 1:36:13 pm
 ---
 
 # Guided BackProp
+- [[@Striving for Simplicity: The All Convolutional Net]]
 - Striving for simplicity, the All conv net
-```toc
-```
-
+- TODO
+- ```toc
+  ```
 - Instead of masking importance based on position of neg values , mask each signal to see if the case occurs or not
 - ![](images/1!lF0KUFi_D04YIYo_1Yi0cA.png)
 - ![](images/1!XhaBt82XZrD1ePnInOW2lg.png)
-
 ## Backlinks
 
 > - [Salience Map](Salience Map.md)

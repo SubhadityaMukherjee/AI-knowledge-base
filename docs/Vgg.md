@@ -6,6 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Vgg
+- @simonyanVeryDeepConvolutional2014
 - [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
 - Deeper [Alex Net](Alex%20Net.md)
 - Object detection and Image captioning

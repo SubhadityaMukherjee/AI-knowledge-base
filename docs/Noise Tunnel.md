@@ -7,6 +7,8 @@ date created: Tuesday, December 6th 2022, 12:43:53 pm
 ---
 
 # Noise Tunnel
+- @smilkovSmoothGradRemovingNoise2017
+- [ ] noise tunnel
 ```toc
 ```
 

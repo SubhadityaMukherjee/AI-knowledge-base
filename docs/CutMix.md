@@ -6,6 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # CutMix
+- [[@CutMix: Regularization Strategy to Train Strong Classifiers With Localizable Features]]
 - images are augmented by sampling patch coordinates, x, y, h, w from a uniform distribution
 - selected patch is replaced at the
 - corresponding location with a patch from the other randomly picked image from the current mini-batch during training.

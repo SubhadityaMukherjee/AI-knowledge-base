@@ -1,12 +1,12 @@
 ---
 title: Integrated Gradients
-
 tags: explainability mastersthesis 
 date modified: Tuesday, December 6th 2022, 12:46:40 pm
 date created: Tuesday, December 6th 2022, 12:46:39 pm
 ---
 
 # Integrated Gradients
+- [ ] IG
 ```toc
 ```
 

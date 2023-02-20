@@ -9,6 +9,7 @@ date created: Monday, November 28th 2022, 11:24:37 am
 # Real Time Image Saliency for Black Box Classifiers
 - Piotr Dabkowski
 - Yarin Gal
+- @dabkowskiRealTimeImage2017
 ```toc
 ```
 

@@ -29,5 +29,7 @@
   "obsidian-prozen",
   "reference-map",
   "obsidian-citation-plugin",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "obsidian-tasks-plugin",
+  "obsidian-plugin-todo"
 ]

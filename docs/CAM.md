@@ -7,9 +7,10 @@ date created: Friday, November 18th 2022, 12:30:09 pm
 ---
 
 # CAM
+- [[@Learning Deep Features for Discriminative Localization]]
 - Zhou et al. 2016
-```toc
-```
+- ```toc
+  ```
 - Class Activation Mapping
 - Similar to [[Network In Network]]
 - zeroes out the negative grads during backward pass to provide more visually appealing results
@@ -18,7 +19,6 @@ date created: Friday, November 18th 2022, 12:30:09 pm
 - $$\alpha_{k}^{c}= \overbrace{\frac{1}{Z}\Sigma_{i}\Sigma_{j}}^\text{global avg pool} \underbrace{\frac{\partial y^{c}}{\partial A^{k}_{ij}}}_\text{grads via backprop}$$
 - k is the index of the activation map in the last convolutional layer, and c is the class of interest. Alpha computed above shows the importance of feature map _k_ for the target class _c_.
 - Finally, we multiply each activation map by its importance score (i.e. alpha) and sum the values
-
 ## ChatGPT
 - The paper, "Learning Deep Features for Discriminative Localization" by Zhou et al. (2016) introduces the concept of Class Activation Mapping (CAM) as a way to visualize which regions of an image are most important for a given classification task. CAM is a technique for generating heatmaps that highlight the regions in an image that are most important for a specific classification. The authors propose to use global average pooling (GAP) in the final convolutional layer to generate a feature map, followed by a linear combination of the feature map and the class weight vector to generate a single class activation map.
 - The authors apply CAM to the ResNet architecture and show that it outperforms the traditional fully-connected layer approach in terms of localization performance. They test the CAM on the image classification task using the ILSVRC-2012 dataset. The authors showed that by using CAM, they could identify the specific regions of an image that were important for a given classification, rather than just a "black box" decision made by the model. The authors also demonstrate how CAM can be used for fine-grained recognition, where the model is trained to identify sub-categories within a larger class.

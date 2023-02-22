@@ -15,29 +15,15 @@
               "state": {
                 "file": "Thesis Stuff.canvas",
                 "viewState": {
-                  "x": -1640.5889805869417,
-                  "y": -1947.8878768166805,
-                  "zoom": -1.0877437392870581,
+                  "x": -1545.5276689505192,
+                  "y": -2079.8910982992493,
+                  "zoom": -2.2564740151491574,
                   "snapToGrid": true
                 }
               }
             }
-          },
-          {
-            "id": "265f876939780144",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CAM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,14 +44,6 @@
               "state": {
                 "sortOrder": "byModifiedTime"
               }
-            }
-          },
-          {
-            "id": "d00957192d327e91",
-            "type": "leaf",
-            "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {}
             }
           },
           {
@@ -97,18 +75,19 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CAM.md",
+                "file": "Thesis Stuff.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -128,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CAM.md",
+                "file": "Thesis Stuff.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CAM.md"
+                "file": "Thesis Stuff.canvas"
               }
             }
           },
@@ -201,29 +180,28 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "obsidian-file-cleaner:Clean files": false,
-      "daily-notes:Open today's daily note": false,
+      "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "templater-obsidian:Templater": false,
-      "daily-notes-editor:Open Daily Note Editor": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-gallery:Gallery": false,
-      "reference-map:Reference Map": false
+      "templater-obsidian:Templater": true,
+      "daily-notes-editor:Open Daily Note Editor": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "mermaid-tools:Open Mermaid Toolbar": true,
+      "obsidian-gallery:Gallery": true
     }
   },
-  "active": "265f876939780144",
+  "active": "4e9dc391e612b390",
   "lastOpenFiles": [
+    "There and back again.md",
     "Thesis Stuff.canvas",
-    "loss.md",
-    "Real Time Image Saliency for Black Box Classifiers.md",
-    "SDR.md",
-    "Real.md",
-    "Vgg.md",
-    "ScoreCAM.md",
-    "Thesis Flow.md",
-    "Intra-Class Part Swapping.md",
-    "Untitled 2.canvas"
+    "Sanity Checks for Saliency Maps.md",
+    "GradCAM++.md",
+    "Resistance.md",
+    "articles/Scalar/Implementing DCGAN to generate CIFAR images.md",
+    "IMDB.md",
+    "Contact Sensor.md",
+    "Text Preprocessing.md",
+    "Out-of-bag Evaluation (OOB evaluation).md"
   ]
 }

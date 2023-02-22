@@ -3,5 +3,6 @@
   "accentColor": "",
   "showViewHeader": false,
   "translucency": true,
-  "baseFontSize": 11
+  "baseFontSize": 11,
+  "nativeMenus": true
 }

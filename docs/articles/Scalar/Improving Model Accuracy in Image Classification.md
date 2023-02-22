@@ -2,23 +2,23 @@
 
 :::section{.abstract}
 ## Overview
-Improving image classification accuracy is one of the biggest hurdles in deep learning. Apart from using a deeper network and better data, many techniques have been developed to optimize network performance. Some techniques, such as **Dropout**, target training bottlenecks in the architecture itself, while others, like **Regularization**, are more focused on improving the overall pipeline. 
+Improving image classification accuracy is one of the biggest hurdles in deep learning. Apart from using a deeper network and better data, many techniques have been developed to optimize network performance. Some techniques, such as **[[../../Dropout|Dropout]]**, target training bottlenecks in the architecture itself, while others, like **[[../../Regularization|Regularization]]**, are more focused on improving the overall pipeline. 
 :::
 :::section{.scope}
 ## Scope
 - This article explains the concepts of **Overfitting** and **Underfitting**.
-- **Dropout** and other **Regularization** techniques like **Data Augmentation** are explained.
+- **Dropout** and other **[[../../Regularization|Regularization]]** techniques like **Data Augmentation** are explained.
 - The article also explains **Early Stopping** and other pipeline tweaks such as **Hyperparameter Tuning** and **Transfer Learning**.
 
 :::
 :::section{.main}
 
 ## Introduction
-It is often impossible to always have better data or larger models. In such cases, using techniques like Regularization and Transfer Learning not only optimize training time but also care for the lack of data. Algorithms such as Dropout and Early Stopping tackle the challenges of Overfitting. 
+It is often impossible to always have better data or larger models. In such cases, using techniques like [[../../Regularization|Regularization]] and Transfer Learning not only optimize training time but also care for the lack of data. Algorithms such as [[../../Dropout|Dropout]] and Early Stopping tackle the challenges of Overfitting. 
 This article provides an introduction to many such algorithms and pipeline tweaks that help in the process of improving model accuracy in image classification.
 ## Improving Model Accuracy
 The two biggest hurdles in training neural networks are **Overfitting** and **Underfitting**. In the first case, the network memories the data, and in the second, the network does not learn enough. The following techniques can be divided into categories based on these two concepts.
-Dropout layers, Data augmentation, Regularization, Early Stopping, tackle **Overfitting**.  Transfer Learning and Hyperparameter Tuning tackle **Underfitting**.
+[[../../Dropout|Dropout]] layers, Data augmentation, [[../../Regularization|Regularization]], Early Stopping, tackle **Overfitting**.  Transfer Learning and Hyperparameter Tuning tackle **Underfitting**.
 If there is a lack of data, we can use Transfer learning and Data Augmentation. The other algorithms can be experimented with if the model does not perform well.
 The below sections explain all of these algorithms.
 ### Overfitting and Underfitting
@@ -35,10 +35,10 @@ Both Overfitting and Underfitting can be countered in many ways, but it is to be
 [IMAGE {1} FINISH SAMPLE]
 
 
-### Dropout layers
+### [[../../Dropout|Dropout]] layers
 
-When the single unit in a network computes gradients wrt the error, it also considers the other units and tries to fix their mistakes. This dependency is known as Co Adaptation and leads to the formation of complex relations that encourages Overfitting. Dropout layers reduce co-dependence between the neurons in a network by randomly (with a probability p) setting neuron activations to 0. This layer is applied to Dense (Fully connected) layers in a network.
-Dropout helps with smaller datasets and slightly with larger ones. If the dataset is bigger, Dropout can help performance as more information is recovered. Similarly, if the dataset is too large, the model performance might also worsen.
+When the single unit in a network computes gradients wrt the error, it also considers the other units and tries to fix their mistakes. This dependency is known as Co Adaptation and leads to the formation of complex relations that encourages Overfitting. [[../../Dropout|Dropout]] layers reduce co-dependence between the neurons in a network by randomly (with a probability p) setting neuron activations to 0. This layer is applied to Dense (Fully connected) layers in a network.
+[[../../Dropout|Dropout]] helps with smaller datasets and slightly with larger ones. If the dataset is bigger, [[../../Dropout|Dropout]] can help performance as more information is recovered. Similarly, if the dataset is too large, the model performance might also worsen.
 During testing, the weights are scaled by the probability p.
 
 [IMAGE {2} Dropout START SAMPLE]
@@ -48,7 +48,7 @@ During testing, the weights are scaled by the probability p.
 
 ### Data Augmentation
 
-Neural networks are extremely data-hungry, and training them requires many training examples. It is, of course, only sometimes possible to have a large amount of training data. We can use a method called Data Augmentation to artificially expand the number of available examples. In essence, Data Augmentation is the process of tweaking the given examples multiple times in different ways to generate new training samples from the existing images. Some examples of Data Augmentation for image data include Random Flipping, Jittering Brightness/Contrast, Random Resizing, and Random Cropping.
+Neural networks are extremely data-hungry, and training them requires many training examples. It is, of course, only sometimes possible to have a large amount of training data. We can use a method called Data Augmentation to artificially expand the number of available examples. In essence, Data Augmentation is the process of tweaking the given examples multiple times in different ways to generate new training samples from the existing images. Some examples of Data Augmentation for image data include Random Flipping, Jittering Brightness/Contrast, Random Resizing, and Random [[../../Cropping|Cropping]].
 Some Data Augmentations are shown below.
 
 [IMAGE {3} Augmentation START SAMPLE]
@@ -58,14 +58,14 @@ Some Data Augmentations are shown below.
 
 Data augmentation is a good method for improving image classification accuracy. This technique is not restricted to images; we can apply similar concepts to every other data domain. Data Augmentation also has the added benefit of being a regularizer by showing the model data from different perspectives.
 
-### Regularization
+### [[../../Regularization|Regularization]]
 
-One of the biggest challenges neural networks face during training is Overfitting. Penalizing complex models that have better performance during training but not during validation is one way of reducing the effects of Overfitting. The objective of training neural networks is for them to be used on real data outside the training set. Penalizing models that learn too much of the training set is called Regularization. A regularization term is used to control the penalty applied to the model. This term is also a hyperparameter, as increasing it too much may hurt model performance. 
-Many algorithms perform Regularization during training, such as Data Augmentation, Early Stopping, Dropout, etc.
+One of the biggest challenges neural networks face during training is Overfitting. Penalizing complex models that have better performance during training but not during validation is one way of reducing the effects of Overfitting. The objective of training neural networks is for them to be used on real data outside the training set. Penalizing models that learn too much of the training set is called [[../../Regularization|Regularization]]. A [[../../Regularization|regularization]] term is used to control the penalty applied to the model. This term is also a hyperparameter, as increasing it too much may hurt model performance. 
+Many algorithms perform [[../../Regularization|Regularization]] during training, such as Data Augmentation, Early Stopping, [[../../Dropout|Dropout]], etc.
 
 ### Early Stopping
 
-Early Stopping is a regularization technique that improves image classification accuracy by intentionally stopping the training when validation loss increases. Training is stopped as training a model for too many epochs sometimes causes Overfitting. In Early Stopping, the number of epochs becomes a tunable hyperparameter. We continuously store the best parameters during training, and when these parameters no longer change for several epochs, we stop training. 
+Early Stopping is a [[../../Regularization|regularization]] technique that improves image classification accuracy by intentionally stopping the training when validation loss increases. Training is stopped as training a model for too many epochs sometimes causes Overfitting. In Early Stopping, the number of epochs becomes a tunable hyperparameter. We continuously store the best parameters during training, and when these parameters no longer change for several epochs, we stop training. 
 The idea of Early Stopping can be seen in this diagram.
 [IMAGE {4} Early Stopping START SAMPLE]
 ![Early Stopping](https://hackmd.io/_uploads/Bkr0W849j.png)

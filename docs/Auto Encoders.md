@@ -19,7 +19,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - dim $\mathscr{F} \lt \mathscr{X}$
 	- Cannot learn the identity function
 - usages
-    - data compression / dimensionality reduction
+    - data compression / [[dimensionality reduction]]
     - encoder to obtain features (use the latent variable as feature)
     - denoising autoencoders
         - input noisy image and try to obtain image without noise

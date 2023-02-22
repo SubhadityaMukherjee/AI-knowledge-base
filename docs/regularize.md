@@ -36,4 +36,3 @@ tags: anchor
 - [Tuning Model Flexibility.md](Tuning%20Model%20Flexibility.md)
 - [VariationalRecurrent Dropout.md](VariationalRecurrent%20Dropout.md)
 - [Xavier Initialization.md](Xavier%20Initialization.md)
-

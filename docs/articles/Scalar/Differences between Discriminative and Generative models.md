@@ -3,7 +3,7 @@
 :::section{.abstract}
 
 ## Overview
-Machine learning models can be broadly classified into discriminative and generative. Discriminative models, such as logistic regression, support vector machines, and decision trees, learn to model boundaries around classes in a dataset and estimate the conditional probability of the target variable given the data. On the other hand, generative models, such as latent Dirichlet allocation, Bayesian networks, and hidden Markov models, create new data points by estimating the joint probability distribution of the data and the target variable. Generative models are often used for unsupervised tasks, such as topic modelling and dimensionality reduction, while discriminative models are more commonly used for classification and regression.
+Machine learning models can be broadly classified into discriminative and generative. Discriminative models, such as logistic regression, support vector machines, and decision [[../../Trees|trees]], learn to model boundaries around classes in a dataset and estimate the conditional probability of the target variable given the data. On the other hand, generative models, such as latent Dirichlet allocation, Bayesian networks, and hidden Markov models, create new data points by estimating the joint probability distribution of the data and the target variable. Generative models are often used for unsupervised tasks, such as topic modelling and [[../../Dimensionality Reduction|dimensionality reduction]], while discriminative models are more commonly used for classification and regression.
 :::
 :::section{.scope}
 ## Scope
@@ -39,7 +39,7 @@ Considering the difference between Generative and Discriminative models is impor
 
 ### Support Vector Machine
 
-A Support Vector Machine (SVM) is a supervised classification and regression algorithm that uses the concept of **hyperplanes**. These hyperplanes can be understood as **multi-dimensional linear decision boundaries** that separate groups of unequal data points. 
+A Support Vector Machine (SVM) is a supervised classification and regression algorithm that uses the concept of **hyperplanes**. These hyperplanes can be understood as **multi-dimensional linear [[../../Decision Boundaries|decision boundaries]]** that separate groups of unequal data points. 
 An example of a hyperplane is shown below.
 
 [IMAGE {2 } { SVM } START SAMPLE]
@@ -51,8 +51,8 @@ To better understand how the SVM works, consider a group of data points like the
 
 ### Decision Tree
 
-Decision trees are tree-based decision models that use an internal structure of a **root node** followed by successive child **leaf nodes**. The leaf nodes are a placeholder for the classification label, and the branches show the outcomes of the decision. The paths from the tree's root to the leaves represent the classifier rules. Each tree and sub-tree models a single decision and enumerates all the possible decisions to choose the best one.
-A Decision tree can be optimal if it represents most of the data with the least number of levels. Decision trees are helpful for classification but can be extended for Regression using different algorithms. These trees are computationally efficient, and many tree-based optimizations have been created over the years to make them perform even faster.
+Decision [[../../Trees|trees]] are tree-based decision models that use an internal structure of a **root node** followed by successive child **leaf nodes**. The leaf nodes are a placeholder for the classification label, and the branches show the outcomes of the decision. The paths from the tree's root to the leaves represent the classifier rules. Each tree and sub-tree models a single decision and enumerates all the possible decisions to choose the best one.
+A Decision tree can be optimal if it represents most of the data with the least number of levels. Decision [[../../Trees|trees]] are helpful for classification but can be extended for Regression using different algorithms. These [[../../Trees|trees]] are computationally efficient, and many tree-based optimizations have been created over the years to make them perform even faster.
 An example of such a tree is shown below. 
 [IMAGE {3 } { Decision Tree } START SAMPLE]
 ![Decision Tree](https://hackmd.io/_uploads/SJxhur7PYi.png)
@@ -65,7 +65,7 @@ An example of such a tree is shown below.
 ![Random Forest](https://hackmd.io/_uploads/S1wFBmPYo.png)
 [IMAGE { 4} FINISH SAMPLE]
 
-Random Forest models use a forest of Decision Trees to make better decisions by combining each tree's decisions. The most popular decision across the trees for a task is the best after the aggregation. This technique of aggregating multiple results from similar processes is called **Ensembling**. 
+Random Forest models use a forest of Decision [[../../Trees|Trees]] to make better decisions by combining each tree's decisions. The most popular decision across the [[../../Trees|trees]] for a task is the best after the aggregation. This technique of aggregating multiple results from similar processes is called **Ensembling**. 
 The second component of the Random Forest pertains to another technique called **Bagging**. Bagging differs from Ensembling because, in Bagging, the data is different for every model, while in Ensembling, the different models are run on the same data. In Bagging, a random sample with replacement is chosen multiple times to create a data sample. These data samples are then used to train the model independently. After training all these models, the majority vote is taken to find a better estimate of the data.
 Random forests combine the concepts of Bagging and Ensembling to decide the best feature splits and select subsets of the same. This algorithm is better than using a single Decision Tree as it reduces bias and the net variance, generating better predictions.
 
@@ -74,8 +74,8 @@ Bagging and Ensembling might seem like they help model the joint probability dis
 ## Generative Models
 Generative Models are a family of models that create new data points. They are generally used for unsupervised tasks. Generative Models use the joint probability distribution $P(X, Y)$ on a variable X and a target variable Y to model the data and perform inference by estimating the probability of the new data point belonging to any given class.
 
-### Latent Dirichlet Allocation (LDA)
-LDA models aim to accurately estimate the classwise mean and variance of the data points in a given dataset. After calculating these statistics, LDA makes predictions by estimating the probability of the new class belonging to any of the classes in the original data. In ML, LDA models are used for **topic modelling and discovery**. LDA is similar to PCA in that it also performs a dimensionality reduction. But unlike PCA, LDA maximizes the class separation and not the variance of the data.
+### Latent Dirichlet Allocation ([[../../LDA|LDA]])
+[[../../LDA|LDA]] models aim to accurately estimate the classwise mean and variance of the data points in a given dataset. After calculating these statistics, [[../../LDA|LDA]] makes predictions by estimating the probability of the new class belonging to any of the classes in the original data. In ML, [[../../LDA|LDA]] models are used for **topic modelling and discovery**. [[../../LDA|LDA]] is similar to [[../../PCA|PCA]] in that it also performs a [[../../Dimensionality Reduction|dimensionality reduction]]. But unlike [[../../PCA|PCA]], [[../../LDA|LDA]] maximizes the class separation and not the variance of the data.
 This principle is illustrated in the figure below.
 
 [IMAGE {5 } { LDA } START SAMPLE]

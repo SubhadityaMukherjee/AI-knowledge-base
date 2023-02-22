@@ -30,7 +30,7 @@ date created: Sunday, October 23rd 2022, 4:56:57 pm
 - naively enlarging kernel size from 7x7 to 31x31 decreases the performance although the receptive field may be enlarged by using extremely large kernels, it
 - might fail to maintain the desirable property of locality.
 - Since the stem cell in standard ResNet (He et al., 2016) and ConvNeXt results in a
-- 4x downsampling of the input images, extreme kernels with
+- 4x [[downsampling]] of the input images, extreme kernels with
 
 ## A RECIPE FOR EXTREMELY LARGE KERNELS BEYOND 31x31
 - Decomposing a large kernel into two rectangular, parallel kernels smoothly scales the kernel size up to 61x61

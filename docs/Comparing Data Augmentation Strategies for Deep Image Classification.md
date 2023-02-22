@@ -22,14 +22,14 @@ date created: Wednesday 1st February 2023, Wed
 - reducing the number of training examples significantly increases the importance of augmentation
 - improvements in generalization from augmentation do not appear to be only as a result of augmentation preventing overfitting
 - learning curriculum that injects augmentation after the initial learning phase has passed is more effective than the standard practice of using augmentation throughout, and that injection too late also reduces accuracy
-- We find that careful augmentation can improve accuracy by +2.83% to 95.85% using a ResNet model on CIFAR-10 with more dramatic improvements seen when there are fewer training examples
+- We find that careful augmentation can improve accuracy by +2.83% to 95.85% using a ResNet model on [[CIFAR]]-10 with more dramatic improvements seen when there are fewer training examples
 ## Model and Optimizer
 - ResNet
-- [He et al., 2015] presents an adaption of the model (ResNet-56) for use with 32×32 images that obtained an error rate of 6.97% on CIFAR-10, which we adopt in our experiments
+- [He et al., 2015] presents an adaption of the model (ResNet-56) for use with 32×32 images that obtained an error rate of 6.97% on [[CIFAR]]-10, which we adopt in our experiments
 - SGD with Nestrov momentum
 - Although there are more sophisticated first order optimizers (e.g. Adam [Kingma and Ba, 2015]) that consistently improve the loss faster in the initial epochs, SGD has been observed to reach a local minima with lower overall loss and better generalization properties [Ruder, 2016]
 ## Datasets
-## CIFAR-10
+## [[CIFAR]]-10
 - randomly sample the dataset to create a 200 samples per class and 1,000 samples per class dataset, reducing the training examples available to 4% and 20% of the original dataset
 - The effects of overfitting and model generalization as noted in [Hussain et al., 2018, Shijie et al., 2017] are more pronounced with data scarcity
 - [[Skew Tilt]]
@@ -48,7 +48,7 @@ date created: Wednesday 1st February 2023, Wed
 ## Single Augmentations
 - Random erasing shows the best improvement in accuracy of +1.5%
 - Both distortion augmentations obtain worse or similar results to the baseline
-- The complexity of the augmentation effects the overall training time. Traditional, more simplistic augmentations require little processing time, leading to increases in training time of ∼ 3.5 hours. Gaussian distortion sees the most significant increase in training time of 665%
+- The complexity of the augmentation effects the overall training time. Traditional, more simplistic augmentations require little processing time, leading to increases in training time of ∼ 3.5 hours. [[Gaussian distortion]] sees the most significant increase in training time of 665%
 - We apply each augmentation separately, leading to the dataset increasing from 50k training images to 250k. This leads to the most accurate result seen throughout all experiments of 95.85%
 - Our method of applying several single augmentations produces better generalization properties
 ## Varying Augmentation Injection Epoch
@@ -75,9 +75,9 @@ date created: Wednesday 1st February 2023, Wed
 - The initial augmentation gives rise to the most significant increase in training time with any additional augmentations adding little overhead
 - processing time required to apply said augmentation to the dataset, which must be considered when choosing a form of augmentation to apply
 - combining multiple single augmentations with the original dataset is the most effective augmentation strategy with an increase in accuracy of +2.36% to 95.85%
-- Random distortion and Gaussian distortion are the worst forms of augmentation tested leading to changes in accuracy of -0.15% and +0.05%, respectively
+- Random distortion and [[Gaussian distortion]] are the worst forms of augmentation tested leading to changes in accuracy of -0.15% and +0.05%, respectively
 - This is due to the augmented images not representing the original class and highlights the importance of the choice of augmentation
-- The most effective form of single augmentation is found to be random erasing with an increase in accuracy of +1.5%. This is due to its ability to combat the effects of occlusion, and is similar to preventing co-adaption through the use of dropout.
+- The most effective form of single augmentation is found to be random erasing with an increase in accuracy of +1.5%. This is due to its ability to combat the effects of occlusion, and is similar to preventing co-adaption through the use of [[dropout]].
 - An interesting avenue to explore is the generalization and overfitting properties of augmentation for data scarcity
 - Validation accuracy is seen to improve with augmentation, with the most significant improvement of +31.45% for random erasing, indicating better generalization capabilities.
 - However, the model also appears to overfit the training data more

@@ -75,7 +75,7 @@ validation_dataset = validation_dataset.cache().batch(bs).prefetch(buffer_size=1
 test_dataset = test_dataset.cache().batch(bs).prefetch(buffer_size=10)
 ```
 
-This article uses an **Xception** model pre-trained on the ImageNet dataset and applied to images 150x150x3 in size. The important point is to exclude the pre-trained model's final classification layer. This final layer is just for classification, and we only care about the layers before it.
+This article uses an **[[../../Xception|Xception]]** model pre-trained on the ImageNet dataset and applied to images 150x150x3 in size. The important point is to exclude the pre-trained model's final classification layer. This final layer is just for classification, and we only care about the layers before it.
 
 ```python
 model_pretrained = keras.applications.Xception(
@@ -85,7 +85,7 @@ model_pretrained = keras.applications.Xception(
 )
 ```
 
-The Xception model architecture is shown here.
+The [[../../Xception|Xception]] model architecture is shown here.
 [IMAGE {2} arch START SAMPLE]
 ![arch](https://hackmd.io/_uploads/Hygq2Q4qi.png)
 [IMAGE {2} FINISH SAMPLE]
@@ -94,7 +94,7 @@ The Xception model architecture is shown here.
 ### Fine-Tuning
 Now, we freeze the layers of the model we just loaded by setting the trainable parameter to False.
 After that, we create a model on top of the frozen layers and apply the data augmentations we defined.
-The Xception model's caveat is that it defines the inputs are scaled from the original range of (0,255) to the range of (-1.0, 1.0). We perform this rescaling using the **Rescaling** layer as follows.
+The [[../../Xception|Xception]] model's caveat is that it defines the inputs are scaled from the original range of (0,255) to the range of (-1.0, 1.0). We perform this rescaling using the **Rescaling** layer as follows.
 
 ```python
 model_pretrained.trainable = False
@@ -107,7 +107,7 @@ x = rescale_layer(x)
 ```
 
 ### Unfreeze the top layers of the model
-The Xception model also contains Batch Normalization layers that should not be trained when the model is unfrozen. To make sure this is the case, we disable the training mode. We also apply a **GlobalAveragePooling** followed by **Dropout** layers to improve performance further. Global Average Pooling is an alternative to the Fully Connected layer (FC) that preserves spatial information better. Since our pre-trained model uses different data, these layers are useful here. The final layer is an FC layer for a binary classification task. 
+The [[../../Xception|Xception]] model also contains Batch Normalization layers that should not be trained when the model is unfrozen. To make sure this is the case, we disable the training mode. We also apply a **GlobalAveragePooling** followed by **[[../../Dropout|Dropout]]** layers to improve performance further. Global Average Pooling is an alternative to the Fully Connected layer (FC) that preserves spatial information better. Since our pre-trained model uses different data, these layers are useful here. The final layer is an FC layer for a binary classification task. 
 ```python 
 x = model_pretrained(x, training=False)
 x = keras.layers.GlobalAveragePooling2D()(x)

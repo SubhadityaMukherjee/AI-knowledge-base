@@ -27,7 +27,7 @@
 - [Data Augmentation via Latent Space Interpolation for Image Classification](Data%20Augmentation%20via%20Latent%20Space%20Interpolation%20for%20Image%20Classification.md) 
 - [Data Augmentation with Curriculum Learning](Data%20Augmentation%20with%20Curriculum%20Learning.md) 
 ### Disadvantages
-## XAI
+## [[XAI]]
 ### Methods
 - [Adaptive Whitening Saliency](Adaptive%20Whitening%20Saliency.md) 
 - [Bayesian Rule List](Bayesian%20Rule%20List.md) 

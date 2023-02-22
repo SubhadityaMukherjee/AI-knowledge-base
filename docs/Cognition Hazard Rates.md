@@ -56,7 +56,7 @@ date created: Monday, December 5th 2022, 1:34:40 pm
 	- Does not keep track of time as well
 - Subjective hazard/ anticipation function
 	- Temporal uncertainty
-	- Blur the pdf such that later points are less certain using a Gaussian filter that gets wider for later points in time
+	- Blur the pdf such that later points are less certain using a [[Gaussian filter]] that gets wider for later points in time
 	- $$f'(t) = \frac{1}{\theta t \sqrt{2 \pi}} \int_{-\infty}^{\infty}f(\tau)e^{-\frac{(r-t)^{2}}{2 \theta^{2}t^{2}}}d \tau$$
 	- Climb to 1 after a while
 	- Hazard is more even though probs are equal in classical. This equates them and makes them less blurred out

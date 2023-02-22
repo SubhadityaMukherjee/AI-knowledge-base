@@ -17,7 +17,7 @@ date created: Friday, November 25th 2022, 12:05:56 pm
 - Commonly, a smaller proxy task is used to overcome the expense of the search phase, but it is not clear if the optimized hyperparameters found on the proxy task are also optimal for the actual task.
 - The process of designing automated augmentation strategies is being rethought.
 - It is proposed to only search for a single distortion magnitude that jointly controls all operations, which reduces computational expense and eliminates the need for a separate proxy task.
-- The proposed method was tested on various datasets including CIFAR-10, CIFAR 100, SVHN, ImageNet, and COCO, and showed improvement in performance without the use of a proxy task.
+- The proposed method was tested on various datasets including [[CIFAR]]-10, [[CIFAR]] 100, SVHN, ImageNet, and COCO, and showed improvement in performance without the use of a proxy task.
 - The proposed method, RandAugment, uses a parameter-free procedure of always selecting a transformation with uniform probability from a set of K=14 available transformations, and a single distortion magnitude that jointly controls all operations.
 - RandAugment is able to achieve comparable or better performance compared to other automated augmentation methods, such as [[AutoAugment]], without the need for a separate proxy task.
 - The results suggest that the optimal data augmentation policies may depend on the specific model and dataset size, and a small proxy task may not provide the best indicator of performance on a larger task.
@@ -29,8 +29,8 @@ date created: Friday, November 25th 2022, 12:05:56 pm
 - rethink the process of designing automated augmentation strategies
 - it is sufficient to only search for a single distortion magnitude that jointly controls all operations
 - propose a simplified search space that vastly reduces the computational expense of automated augmentation, and permits the removal of a separate proxy task.
-- CIFAR-10
-- CIFAR 100
+- [[CIFAR]]-10
+- [[CIFAR]] 100
 - SVHN
 - ImageNet
 - COCO datasets
@@ -40,9 +40,9 @@ date created: Friday, November 25th 2022, 12:05:56 pm
 - Although this assumption is sufficient for identifying learned augmentation policies to improve performance, it is unclear if this assumption is overly stringent and may lead to sub-optimal data augmentation policies.
 - two separate dimensions that are commonly restricted to achieve a small proxy task: model size and dataset size
 - First, we train a family of Wide-ResNet architectures, where the model size may be systematically altered through the widening parameter governing the number of convolutional filters
-- For each of these networks, we train the model on CIFAR-10 and measure the final accuracy compared to a baseline model trained with default data augmentations (i.e. horizontal flips and pad-and-crop)
+- For each of these networks, we train the model on [[CIFAR]]-10 and measure the final accuracy compared to a baseline model trained with default data augmentations (i.e. horizontal flips and pad-and-crop)
 - The Wide-ResNet models are trained with the additional K=14 data augmentations (see Section 3) over a range of global distortion magnitudes M parameterized on a uniform linear scale ranging from [0, 30]
-- Namely, larger networks demand larger data distortions for regularization
+- Namely, larger networks demand larger data distortions for [[regularization]]
 - Conversely, a policy learned on a proxy task (such as [[AutoAugment]]) provides a fixed distortion magnitude (Figure 1b, dashed line) for all architectures that is clearly sub-optimal.
 - A second dimension for constructing a small proxy task is to train the proxy on a small subset of the training data
 - We first observe that models trained on smaller training sets may gain more improvement from data augmentation
@@ -65,7 +65,7 @@ date created: Friday, November 25th 2022, 12:05:56 pm
 - and postulate that a single global distortion M may suffice for parameterizing all transformations
 - We experimented with four methods for the schedule of M during training: constant magnitude, random magnitude, a linearly increasing magnitude, and a random magnitude with increasing upper bound
 - The resulting algorithm contains two parameters N and M
-- Both parameters are human-interpretable such that larger values of N and M increase regularization strength
+- Both parameters are human-interpretable such that larger values of N and M increase [[regularization]] strength
 - In order to reduce the parameter space but still maintain imInvestigating the dependence on the included transformations
 - RandAugment is largely insensitive to the selection of transformations for different datasets.
 - We see that while [[geometric transformations]] individually make the most difference, some of the color transformations lead to a degradation of validation accuracy on average
@@ -75,7 +75,7 @@ date created: Friday, November 25th 2022, 12:05:56 pm
 - For K=14 image transformations and N =2 operations, αij constitutes 28 parameters. We initialize all weights such that each transformation is equal probability (i.e. RandAugment), and update these parameters based on how well a model classifies a held out set of validation images distorted by αij.
 - This approach was inspired by density matching [19], but instead uses a differentiable approach in lieu of Bayesian optimization.
 - We label this method as a 1st-order density matching approximation.
-- The 1st -order method improves accuracy by more than 3.0% for both models on reduced CIFAR-10 compared to the baseline of flips and pad-and-crop
+- The 1st -order method improves accuracy by more than 3.0% for both models on reduced [[CIFAR]]-10 compared to the baseline of flips and pad-and-crop
 - Although the density matching approach is promising, this method can be expensive as one must apply all K transformations N times to each image independently.
 - Hence, because the computational demand of KN transformations is prohibitive for large images, we reserve this for future exploration.
 - learning the probabilities through density matching may improve the performance on small-scale tasks and reserve explorations to larger-scale tasks for the future.

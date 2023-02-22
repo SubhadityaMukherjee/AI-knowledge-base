@@ -127,3 +127,15 @@ Node_26 --> Node_27
 Node_26 --> Node_47
 ```
 
+## Backlinks
+
+> - [](Thesis Flow.md)
+>   - ## [[XAI]]
+>    
+> - [Proxy Attention](Proxy Attention.md)
+>   - The Multi-level Feature Pyramid Network has similar ideas but does not use the outputs of [[XAI]] algorithms.
+>    
+> - [](Beware of Inmates Running the Asylum.md)
+>   - Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because [[XAI]] is meant for people and not programmers.
+
+_Backlinks last generated 2023-02-22 20:00:24_

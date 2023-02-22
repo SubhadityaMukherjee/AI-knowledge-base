@@ -33,7 +33,7 @@ date created: Wednesday 1st February 2023, Wed
 ## Experiment 2
 - two very short foreperiods (50 ms and 200 ms) were used
 - This prediction means that the shorter preceding foreperiod should produce faster responses regardless of the length of the current foreperiod
-- Based on the current assumptions of MTP, the preparation at any foreperiod is determined by the activationinhibition states (strengths of activation and inhibition) stored in each memory trace, the strength of each memory trace (memory trace is more dispersed and weaker as the foreperiod gets longer), and the total number of previous memory traces with each foreperiod
+- Based on the current assumptions of MTP, the preparation at any foreperiod is determined by the activationinhibition states (strengths of activation and inhibition) stored in each [[memory trace]], the strength of each [[memory trace]] ([[memory trace]] is more dispersed and weaker as the foreperiod gets longer), and the total number of previous memory traces with each foreperiod
 - Participants were more likely to make errors when encountering foreperiod repetition compared to alternation
 - main effect of Current Foreperiod was not significant
 - The interaction between Foreperiod Sequence and Current Foreperiod was not significant

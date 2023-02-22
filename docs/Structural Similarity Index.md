@@ -13,7 +13,7 @@ date created: Wednesday, October 5th 2022, 2:56:23 pm
 - $\mu_y$ the pixel sample mean of $y$;
 - $\sigma_x^2$ the variance of $x$;
 - $\sigma_y^2$ the variance of $y$;
-- $\sigma_{xy}$ the covariance of $x$ and $y$;
+- $\sigma_{xy}$ the [[covariance]] of $x$ and $y$;
 - $c_1 = (k_1L)^2$, $c_2 = (k_2L)^2$ two variables to stabilize the division with weak denominator;
 - $L$ the dynamic range of the pixel-values (typically this is $2^{\#bits\ per\ pixel}-1$);
 - $k_1 = 0.01$ and $k_2 = 0.03$ by default.

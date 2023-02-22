@@ -32,7 +32,7 @@ date created: Tuesday, December 13th 2022, 5:02:02 pm
 - 3x64x64 input
 - Binary classification network - outputs prob of real/fake
 - Final is a [[Sigmoid]] layer
-- For downsampling, good Practise to use [[Strided]] rather than [[Pooling]] as it lets the network learn it's own pooling function
+- For [[downsampling]], good Practise to use [[Strided]] rather than [[Pooling]] as it lets the network learn it's own pooling function
 - Almost a direct inverse of the Generator
 
 ## Special Features

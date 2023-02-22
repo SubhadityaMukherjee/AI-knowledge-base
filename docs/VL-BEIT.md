@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - vision-language foundation model
 - simple and effective approach to pretraining a bidirectional multimodal Transformer encoder for both vision-language and vision tasks learned by generative pretraining
 - conducts masked prediction on both monomodal and multimodal data with a shared Transformer
-- solely employs generative pretraining tasks, including masked language modeling on texts, masked image modeling on images, and masked vision-language modeling on image-text pairs
+- solely employs generative pretraining tasks, including [[masked language modeling]] on texts, masked image modeling on images, and masked vision-language modeling on image-text pairs
 - learned from scratch with one unified pretraining task, one shared backbone, and one-stage training which renders it conceptually simple and empirically effective
 - transferable visual [features](Features.md)
 

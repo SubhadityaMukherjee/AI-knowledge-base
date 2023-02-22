@@ -19,5 +19,5 @@ Note: These are my views on these questions. They are not a comprehensive resour
 11. Imagine you were working on iPhone. Everytime users open their phones, you want to suggest one app they are most likely to open first with 90% accuracy. How would you do that?
 12. How would you train a model to predict whether the word "jaguar" in a sentence refers to the animal or the car?
 13. How would you create a model to recognize whether an image is a triangle, a circle, or a square?
-14. Given only CIFAR-10 dataset, how to build a model to recognize if an image is in the 10 classes of CIFAR-10 or not?
+14. Given only [[../../CIFAR|CIFAR]]-10 dataset, how to build a model to recognize if an image is in the 10 classes of [[../../CIFAR|CIFAR]]-10 or not?
 

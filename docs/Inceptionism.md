@@ -30,7 +30,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - We then pick a layer and ask the network to enhance whatever it detected.
 - If we choose higher-level [layers](Layers.md), which identify more sophisticated [features](Features.md) in images, complex [features](Features.md) or even whole objects tend to emerge
 - Again, we just start with an existing image and give it to our neural net.
-- We ask the network: “Whatever you see there, I want more of it!” This creates a feedback loop: if a cloud looks a little bit like a bird, the network will make it look more like a bird
+- We ask the network: “Whatever you see there, I want more of it!” This creates a [[feedback loop]]: if a cloud looks a little bit like a bird, the network will make it look more like a bird
 - This in turn will make the network recognize the bird even more strongly on the next pass and so forth, until a highly detailed bird appears, seemingly out of nowhere.
 - The results are intriguing—even a relatively simple neural network can be used to over-interpret an image, just like as children we enjoyed watching clouds and interpreting the random shapes
 - This network was trained mostly on images of animals, so naturally it tends to interpret shapes as animals

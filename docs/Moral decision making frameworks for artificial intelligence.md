@@ -12,7 +12,7 @@ date created: Wednesday, January 18th 2023, 4:05:29 pm
 
 - Vincent Conitzer, Walter Sinnott- Armstrong, Jana Schaich Borg, Yuan Deng, and Max Kramer.
 - developing a general ethical decision making framework for AI based on game theory and machine learning
-- For the game theory based framework, the authors suggest the extensive form (a generalization of game trees) as a foundation scheme to represent dilemmas
+- For the game theory based framework, the authors suggest the extensive form (a generalization of game [[trees]]) as a foundation scheme to represent dilemmas
 - current extensive form does not account for protected values in which an action can be treated as unethical regardless of its consequence
 - extend the extensive form representation with passive actions for agents to select in order to be ethical
 - machine learning based ethical decision-making

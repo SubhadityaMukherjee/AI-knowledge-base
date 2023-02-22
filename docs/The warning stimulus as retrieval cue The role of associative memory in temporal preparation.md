@@ -14,7 +14,7 @@ date created: Wednesday 1st February 2023, Wed
 ## Abstract
 - warned reaction time task
 - the warning stimulus (S1) initiates a process of temporal preparation, which promotes a speeded response to the impending target stimulus (S2)
-- participants learn the timing of S2 by storing a memory trace on each trial, which contains a temporal profile of the events on that trial.
+- participants learn the timing of S2 by storing a [[memory trace]] on each trial, which contains a temporal profile of the events on that trial.
 - On each new trial, S1 serves as a retrieval cue that implicitly and associatively activates memory traces created on earlier trials, which jointly drive temporal preparation for S2
 - two different S1s were associated with two different distributions of S1-S2 intervals: one with predominantly short and one with predominantly long intervals
 - Experiments differed regarding the S1 features that made up a pair, ranging from highly distinct (e.g., tone and flash) to more similar (e.g., red and green flash) and verbal (i.e., "short" vs "long").
@@ -33,8 +33,8 @@ date created: Wednesday 1st February 2023, Wed
 - when transcranial magnetic stimulation is applied to human motor cortex, the motor evoked potential measured at the corresponding effector has been shown to be smaller during the foreperiod than at baseline, prior to S1 onset
 - Since this reduced activation has been found for all potential effectors in a choice reaction task, it has been argued to reflect a general mechanism of impulse control that prevents premature response
 ## trace formation
-- unique memory trace is created on each trial, which contains the temporal profile of inhibition (during the foreperiod) and activation (after S2 occurrence) experienced on that trial, along with representations of S1, S2, and the response to S2
-- each new memory trace is added to an accumulating pool of memory traces created on earlier trials
+- unique [[memory trace]] is created on each trial, which contains the temporal profile of inhibition (during the foreperiod) and activation (after S2 occurrence) experienced on that trial, along with representations of S1, S2, and the response to S2
+- each new [[memory trace]] is added to an accumulating pool of memory traces created on earlier trials
 - these traces vary in strength
 - strength of each trace is maximal upon its formation and gradually reduces toward an asymptotic value as it grows older
 ## trace expression

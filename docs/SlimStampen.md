@@ -39,11 +39,11 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - At each presentation, the model calculates an expected response time, E(RT ), based on the activation at the time of the presentation (e−Ai , based on Equation (5) in Anderson, Bothell, Lebiere, & Matessa, 1998) and an estimated reading time of the prompt (based on the number of characters in the prompt; see Section 2.2.1 in Nijboer, 2011, for details).
 - The accuracy of the response and the mismatch between expected and observed response time are used to update the value of the rate-of-forgetting parameter.
 - Using both accuracy and response time to update the model allows for adjustment of the parameter estimate after any response, not just after an incorrect response.
-- A correct but slower-than-expected response signals that the memory trace has decayed further than assumed, meaning that the item’s true rate of forgetting is higher than the current estimate.
+- A correct but slower-than-expected response signals that the [[memory trace]] has decayed further than assumed, meaning that the item’s true rate of forgetting is higher than the current estimate.
 - That is, when a learner arrives at the right answer but takes longer than anticipated, they likely struggled to [[recall]] the information
 - Conversely, an incorrect or missing response suggests that the activation of the
-- item’s memory trace actually dropped below the retrieval threshold, which means that the true rate of forgetting should be higher because this item’s activation was expected to be above the threshold (which was fixed at [[ACT-R]]’s default value).
-- An unexpectedly fast correct response, on the other hand, indicates a stronger- than-expected memory trace and implies that the estimated rate of forgetting should be adjusted downward.
+- item’s [[memory trace]] actually dropped below the retrieval threshold, which means that the true rate of forgetting should be higher because this item’s activation was expected to be above the threshold (which was fixed at [[ACT-R]]’s default value).
+- An unexpectedly fast correct response, on the other hand, indicates a stronger- than-expected [[memory trace]] and implies that the estimated rate of forgetting should be adjusted downward.
 - Since interruption or distraction can cause disproportionately large response times, observed response times are capped before their mismatch with the expected response time is calculated.
 - To update the rate of forgetting after each trial, the model uses a binary search in a small window around the previous value to identify the rate of forgetting that minimizes the mismatch between E(RT) and RT′
 

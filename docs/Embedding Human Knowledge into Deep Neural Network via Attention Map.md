@@ -35,7 +35,7 @@ date created: Wednesday, October 5th 2022, 1:35:39 pm
 - btain the attention map from the at- tention branch, where the size of the attention map is 14×14 pixels. Then, we edit the obtained attention map manually. Note that the attention map is resized to 224×224 pixels and is overlaid with the input image for ease of manual editing. The edited attention map is resized to 14 × 14 pixels and used for an attention mechanism to infer classification re- sults from the perception branch.
 - By training the attention and percep- tion branches with the edited attention map including hu- man knowledge, ABN can output an attention map that con- siders this knowledge and thereby improve the classification performance.
 - During the fine-tuning process, we update the parameters of the attention and perception branches by using the loss calculated from the attention map obtained from ABN and the edited attention map in addition to the loss of ABN
-- To make an attention map from the bubbles, we use a kernel density estimation with multiple bubbles
+- To make an attention map from the bubbles, we use a kernel [[density]] estimation with multiple bubbles
 - A dense region of bubbles indicates an impor- tant region for recognizing the bird category.
 - In contrast, the proposed method highlights the local characteristic regions, such as the color and the head of the bird. In addition, the proposed method removes noise from the attention map by fine-tuning. Thus, the proposed method can also improve the performance of fine-grained recognition.
 - Consequently, our method can gener- ate a more interpretable attention map and successfully em- bed human knowledge.

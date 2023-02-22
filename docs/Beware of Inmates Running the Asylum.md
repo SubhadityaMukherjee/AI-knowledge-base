@@ -13,7 +13,7 @@ date created: Saturday, December 3rd 2022, 5:10:11 pm
   * Tim Miller∗ and Piers Howe† and Liz Sonenberg
 - [[@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences]]
 ## TL;DR
-- Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because XAI is meant for people and not programmers.
+- Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because [[XAI]] is meant for people and not programmers.
 ## Abstract
 
 * programmers design software for themselves, rather than for their target audience; a phenomenon he refers to as the ‘inmates running the asylum’.

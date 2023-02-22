@@ -24,11 +24,11 @@ date created: Sunday, December 18th 2022, 2:04:16 pm
 - [[GAN Z Space]]
 ### The Discriminator’s network
 - **Discriminator’s** evaluation is done not only on the similarity between fake data and original data but also on the correspondence of the fake data image to its input label (or features)
-- Same as [[DCGAN]] except one hot vector for conditioning
+- Same as [[DCGAN]] except [[one hot]] vector for conditioning
 
 ### The Generator’s network
 - To create an image that looks as “real” as possible to fool the Discriminator.
-- Same as [[DCGAN]] except one hot vector.
+- Same as [[DCGAN]] except [[one hot]] vector.
 - ![[0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png]]
 ## Loss functions
 - We need to calculate two losses for the Discriminator. The sum of the “fake” image and “real” image loss is the overall Discriminator loss. So the loss function of the Discriminator is aiming at minimizing the error of predicting real images coming from the dataset and fake images coming from the Generator given their one-hot labels.

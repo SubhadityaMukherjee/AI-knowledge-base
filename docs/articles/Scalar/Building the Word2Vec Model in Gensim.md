@@ -2,7 +2,7 @@
 
 :::section{.abstract}
 ## Overview
-Word2Vec is a family of models that can take large corpora and represent them in vector space. These representations, also known as word embeddings, are extremely useful as they help us perform many tasks in NLP. From recommender systems to analysing sentiments from internet feeds to large-scale chatbots, word embeddings have brought life to the field of NLP for decades. Word2Vec, one of the older models, is relatively simple to implement. After implementing it we will use word embedding visualization to further understand how the model works.
+Word2Vec is a family of models that can take large corpora and represent them in vector space. These representations, also known as word embeddings, are extremely useful as they help us perform many tasks in NLP. From recommender systems to analysing sentiments from internet feeds to large-scale chatbots, word embeddings have brought life to the field of NLP for decades. Word2Vec, one of the older models, is relatively simple to implement. After implementing it we will use word embedding [[../../visualization|visualization]] to further understand how the model works.
 :::
 :::section{.scope}
 ## Scope
@@ -42,7 +42,7 @@ To create a Word2Vec model, we need to first understand what it is. We will also
 ### What Is Word2Vec?
 Word vectors are a numerical representation of text content. Word2Vec is a model that converts large text corpora to a vector representation as  doing so provides the corpora with the following properties :
 - Since they are converted to numerical vectors, they can be fed into any numerical model, such as a neural network. 
-- The converted vectors can be compared by using distance metrics such as the cosine distance function $cos(\theta) = \frac{A\cdot B}{||A||\cdot||B||}$ ( where A and B are vectors). These metrics make it easy to find related words like the one we want to achieve.
+- The converted vectors can be compared by using distance metrics such as the [[../../Cosine Distance|cosine distance]] function $cos(\theta) = \frac{A\cdot B}{||A||\cdot||B||}$ ( where A and B are vectors). These metrics make it easy to find related words like the one we want to achieve.
 
 ### What is Gensim?
 Gensim is a text processing library that lets us train models like Word2Vec very quickly. The library has many more features, such as finding related documents using trained word embeddings and other methods of vectorization that are beyond the scope of this article.

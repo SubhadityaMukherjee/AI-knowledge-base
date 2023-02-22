@@ -17,7 +17,7 @@ date created: Sunday, December 11th 2022, 1:15:01 pm
     \quad
     \sigma_{ti}^2 = \frac{1}{HW}\sum_{l=1}^W \sum_{m=1}^H (x_{tilm} - mu_{ti})^2
 $$
-- This prevents instance-specific mean and covariance shift simplifying the learning process.
+- This prevents instance-specific mean and [[covariance]] shift simplifying the learning process.
 - Intuitively, the normalization process allows to remove instance-specific contrast information from the content image in a task like image stylization, which simplifies generation.
 - ![[Pasted image 20221211131622.png]]
 

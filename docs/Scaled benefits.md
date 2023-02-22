@@ -13,7 +13,10 @@ date created: Monday, December 5th 2022, 1:43:33 pm
 
 ## Backlinks
 
+> - [Cognitive fMTP](Cognitive fMTP.md)
+>   - [[Scaled benefits]]
+>    
 > - [Cogntition Hazard Rates](Cognition Hazard Rates.md)
 >   - [[Scaled benefits]] (useful for assignment)
 
-_Backlinks last generated 2023-01-28 14:37:47_
+_Backlinks last generated 2023-02-22 20:00:24_

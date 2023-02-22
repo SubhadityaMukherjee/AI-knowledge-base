@@ -33,7 +33,7 @@ date modified: Monday, October 10th 2022, 2:13:02 pm
 
 ## Discussion
 - It is easy to explain the benefit of horizontal [Flipping](Flipping.md) or random [[cropping]]
-- However, it is not clear why mixing pixels or entire images together such as in PatchShuffle regularization or SamplePairing is so effective.
+- However, it is not clear why mixing pixels or entire images together such as in PatchShuffle [[regularization]] or SamplePairing is so effective.
 - dditionally, it is difficult to interpret the representations learned by neural networks for GAN-based augmentation, variational auto-encoders, and meta-learning.
 - An interesting characteristic of these augmentation methods is their ability to be combined together.
 - The GAN framework possesses an intrinsic property of recursion which is very interesting

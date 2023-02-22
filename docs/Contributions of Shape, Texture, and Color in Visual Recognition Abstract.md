@@ -81,7 +81,7 @@ date created: Saturday, November 5th 2022, 12:37:28 pm
 - To further predict the actual class of Iun based on the feature-wise description, we use ConceptNet as common knowledge to conduct reasoning
 - We form a reasoning root pool R⇤ consisting of feature roots Rs, Rt, Rc obtained during image description, and shared attribute roots Ras , Rat , Rac . The reasoning roots will be our evidence for reasoning
 - We humans can intuitively imagine an object when seeing one aspect of a feature, especially when this feature is prototypical (contribute most to classification)
-- For instance, we can imagine a zebra when seeing its stripe (texture). This process is similar but harder than the classical image generation task since the input features modality here dynamic which can be any feature among shape, texture, or color
+- For instance, we can imagine a zebra when seeing its stripe (texture). This process is similar but harder than the classical image generation task since the input features [[modality]] here dynamic which can be any feature among shape, texture, or color
 ## Cross Feature Retrieval
 - In order to reasonably retrieve the most possible other two corresponding features given only one feature (among shape, texture, or color), we learn a feature agnostic encoder that projects the three features into one same feature space and makes sure that the features belonging to the same class are in the nearby regions.
 - In the retrieval process, given any feature of any object, we can map it into the cross feature embedding space by the corresponding encoder net and the feature agnostic net

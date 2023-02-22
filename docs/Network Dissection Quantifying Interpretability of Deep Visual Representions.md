@@ -14,7 +14,7 @@ date created: Thursday, November 24th 2022, 1:41:22 pm
 - score the semantics of hidden units at each intermediate convolutional layer.
 - The units with semantics are given labels across a range of objects, parts, scenes, textures, materials, and colors.
 - interpretability of units is equivalent to random linear combinations of units
-- analyze the effect of training iterations, compare networks trained with different initializations, examine the impact of network depth and width, and measure the effect of dropout and batch normalization on the interpretability of deep visual representations
+- analyze the effect of training iterations, compare networks trained with different initializations, examine the impact of network depth and width, and measure the effect of [[dropout]] and batch normalization on the interpretability of deep visual representations
 
 ## Introduction
 - The emergence of interpretable structure suggests that deep networks may be learning disentangled representations spontaneously.
@@ -70,7 +70,7 @@ $$I_{o}U_{k,c}=\frac{\Sigma|M_{k}(x) \cap L_{c}(x|}{\Sigma|M_{k}(x) \cup L_{c}(x
 - We do not find evidence of transitions across different concept categories during training
 - For example, units in conv5 do not turn into texture or material detectors before becoming object or part detectors.
 - Comparing different random initializations, the models converge to similar levels of interpretability, both in terms of the unique detector number and the total detector number; this matches observations of convergent learning
-- For the network without dropout, more texture detectors emerge but fewer object detectors
+- For the network without [[dropout]], more texture detectors emerge but fewer object detectors
 - Batch normalization seems to decrease interpretability significantly.
 - The batch normalization result serves as a caution that discriminative power is not the only property of a representation that should be measured.
 - batch normalization 'whitens' the activation at each layer, which smooths out scaling issues and allows a network to easily rotate axes of intermediate representations during training

@@ -14,9 +14,9 @@ date created: Sunday 12th February 2023, Sun
 - idea that the human visual system is composed of a **hierarchy of “capsules”** that process visual information at different levels of abstraction. 
 - Each capsule comprises a **group of neurons** sensitive to **specific features** of an image, such as the presence of an edge or a particular shape. 
 - These features are then combined and passed up the hierarchy to **higher-level capsules**, which extract more abstract concepts such as the identity of an object or the presence of a face.
-- Capsule Networks overcome the problem of translational invariance caused by CNNs.
+- Capsule Networks overcome the problem of [[translational invariance]] caused by CNNs.
 - Capsule Networks are able to capture better spatial relationship. 
-- Capsule Networks uses better downsampling methods which do not cause loss of information seen in CNNs.
+- Capsule Networks uses better [[downsampling]] methods which do not cause loss of information seen in CNNs.
 - Capsule Network perform much better than CNNs but are more computationally epensive.
 
 ## Drawbacks of pooling layers

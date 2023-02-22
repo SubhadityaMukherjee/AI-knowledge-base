@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # wave2vec
 - [wav2vec: Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/1904.05862)
 - Reducing the need for manually annotated data is important for developing systems that understand non-English languages, particularly those with limited existing training sets of transcribed speech
-- first application of unsupervised pre-training to speech recognition using a fully convolutional model that learns representations of raw, unlabeled audio
+- first application of unsupervised pre-training to [[speech recognition]] using a fully convolutional model that learns representations of raw, unlabeled audio
 - trained on large amounts of unlabeled audio data and the resulting representations are then used to improve acoustic model training
 - pre-train a simple multi-layer convolutional neural network optimized via a noise contrastive binary classification task
 - learn the difference between original speech examples and modified versions, often repeating this task hundreds of times for each second of audio, and predicting the correct audio milliseconds into the future

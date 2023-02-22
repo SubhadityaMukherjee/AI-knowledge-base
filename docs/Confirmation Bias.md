@@ -6,7 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:31 pm
 
 # Confirmation Bias
 - fairness
-- The tendency to search for, interpret, favor, and [[recall]] information in a way that confirms one's preexisting beliefs or hypotheses. Machine learning developers may inadvertently collect or label data in ways that influence an outcome supporting their existing beliefs. Confirmation bias is a form of implicit bias.
+- The tendency to search for, interpret, favor, and [[recall]] information in a way that confirms one's preexisting beliefs or hypotheses. Machine learning developers may inadvertently collect or label data in ways that influence an outcome supporting their existing beliefs. Confirmation bias is a form of [[implicit bias]].
 - Experimenter's bias is a form of confirmation bias in which an experimenter continues training models until a preexisting hypothesis is confirmed.
 - # convenience sampling
 - Using a dataset not gathered scientifically in order to run quick experiments. Later on, it's essential to switch to a scientifically gathered dataset

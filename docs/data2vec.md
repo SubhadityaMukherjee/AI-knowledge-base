@@ -11,10 +11,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - closer to general self-supervised learning
 - framework that uses the same learning method for either speech, NLP or computer vision
 - predict latent representations of the full input data based on a masked view of the input in a [[self distillation]] setup using a standard Transformer architecture
-- Instead of predicting modality-specific targets such as words, visual tokens or units of human speech which are local in nature, data2vec predicts contextualized latent representations that contain information from the entire inpu
-- Today’s self-supervised learning research almost typically focuses on a single modality
-- As a result, researchers specializing in one modality often adopt a totally different strategy than those specializing in another.
-- For each modality, algorithms anticipate distinct units: pixels or visual tokens for images, words for the text, and learned sound inventories for voice
+- Instead of predicting [[modality]]-specific targets such as words, visual tokens or units of human speech which are local in nature, data2vec predicts contextualized latent representations that contain information from the entire inpu
+- Today’s self-supervised learning research almost typically focuses on a single [[modality]]
+- As a result, researchers specializing in one [[modality]] often adopt a totally different strategy than those specializing in another.
+- For each [[modality]], algorithms anticipate distinct units: pixels or visual tokens for images, words for the text, and learned sound inventories for voice
 - teaching models to anticipate their own representations of the incoming data, regardless of mode
 - Instead of predicting visual tokens, phrases, or sounds, a single algorithm may work with completely different sorts of input by focusing on these representations — the [layers](Layers.md) of a neural network
 - robust normalization of the [features](Features.md) for the job that would be trustworthy in different modalities to directly predict representations.
@@ -29,8 +29,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - data2vec is trained by predicting the model representations of the full input data given a partial view of the input
 - They first encode a masked version of the training sample (model in student mode) and then construct training targets by encoding the unmasked version of the input sample with the same model but when parameterized as an exponentially moving average of the model weights (model in teacher mode)
 - The target representations encode all of the information in the training sample and the learning task is for the student to predict these representations given a partial view of the input.
-- Modality encoding:
-- The model architecture used is the standard Transformer architecture with a modality-specific encoding of the input data borrowed from prior work:
+- [[Modality]] encoding:
+- The model architecture used is the standard Transformer architecture with a [[modality]]-specific encoding of the input data borrowed from prior work:
 - For computer vision, they have used the ViT-strategy of encoding an image as a sequence of patches, each spanning 16x16 pixels, input to a linear transformation.
 - Speech data is encoded using a multi-layer 1-D convolutional neural network that maps 16 kHz waveform to 50 Hz representations.
 - Text is pre-processed to obtain sub-word units, which are then embedded in distributional space via learned [embedding](Embedding.md) vectors.

@@ -6,7 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:23 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
-# MLM (Masked Language Modeling)
+# MLM ([[Masked Language Modeling]])
 - [from](https://publish.obsidian.md/fabian-groeger/Machine+Learning+%26+Deep+Learning/Deep+Learning/Architectures/Transformers/Masked+LM)
 - 15% of the words in each sequence are replaced by `[MASK]`
 - model tries to predict original values of the masked words

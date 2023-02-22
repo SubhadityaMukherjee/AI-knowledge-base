@@ -7,6 +7,6 @@ date modified: Monday, October 10th 2022, 2:02:16 pm
 # Structural Risk Minimization
 - An algorithm that balances two goals
 	- The desire to build the most predictive model (for example, lowest loss).
-	- The desire to keep the model as simple as possible (for example, strong regularization).
-	- or example, a function that minimizes loss+regularization on the training set is a structural risk minimization algorithm.
+	- The desire to keep the model as simple as possible (for example, strong [[regularization]]).
+	- or example, a function that minimizes loss+[[regularization]] on the training set is a structural risk minimization algorithm.
 

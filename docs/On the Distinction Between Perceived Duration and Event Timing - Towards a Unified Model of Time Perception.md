@@ -27,7 +27,7 @@ date created: Monday 30th January 2023, Mon
 - due to neural processing
 - a stimulus cannot be sensed before a stimulus is presented
 - always the chance it could be perceived a bit later than average due to noise in the sensory system
-- As such, the perceived timing of stimuli in an environment where trials are isochronous should exhibit the temporal regularization effect
+- As such, the perceived timing of stimuli in an environment where trials are isochronous should exhibit the temporal [[regularization]] effect
 - early stimuli should be delayed towards expectation whilst late stimuli should be accelerated
 - Stimuli presented on time, in contrast are perceptually accelerated
 - stimuli that are presented in a random sequence of irregular timings, should not have any temporal expectations built up

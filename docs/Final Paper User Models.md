@@ -26,10 +26,10 @@ date created: Tuesday, October 25th 2022, 3:09:48 pm
 - Subhaditya Mukherjee
 
 ## Concept
-- Outlines the general concept of our system, meaning how we tried to adjust and improve the slimstampen system, and any additional improvements we made to the system.
+- Outlines the general concept of our system, meaning how we tried to adjust and improve the [[slimstampen]] system, and any additional improvements we made to the system.
 
 ### Main Idea
-- The main idea we have for this project is to improve the SlimStampen system by presenting vocabulary in context. The way we would like to do this, is by presenting users with the word they need to learn in a sentence. As the learner gets better, the system will increase the difficulty by presenting words without context. If the words are presented out of context and the user makes a mistake, the correct answer will also be shown without context.
+- The main idea we have for this project is to improve the [[SlimStampen]] system by presenting vocabulary in context. The way we would like to do this, is by presenting users with the word they need to learn in a sentence. As the learner gets better, the system will increase the difficulty by presenting words without context. If the words are presented out of context and the user makes a mistake, the correct answer will also be shown without context.
 - An example of this would be as follows:
 - Prompt: Wij kopen een huis
 - Correct answer: to buy OR buy OR buying
@@ -68,7 +68,7 @@ Fact(fact_id = 6, 
 - Explains how the system itself works, meaning how it switches between words and context, and how it decided which word to show next.
 
 ### Word Order
-- Similarly to the set-up of slimstampen, we let the system decide which words to show and how based on rate of forgetting. What we changed is that we have different thresholds for when it shows the context, which context it shows, and when it shows just the word.
+- Similarly to the set-up of [[slimstampen]], we let the system decide which words to show and how based on rate of forgetting. What we changed is that we have different thresholds for when it shows the context, which context it shows, and when it shows just the word.
 - Once it enters the second context, it will not go back to the first. This is based on the assumption that the first context did not help the participant figure out the meaning of the word. Thresholds were decided through trial-and-error, based on what felt like a natural progression of conditions.
 - In the original system, the same word (and in this case also context) was shown thrice without changing at all based on input. We changed that to twice in our system.
 
@@ -76,7 +76,7 @@ Fact(fact_id = 6, 
 - Explains how we aim to test the system, including each of the conditions and the full experimental procedure.
 
 ### Stimuli and Design
-- To test whether the improvements we made to the SlimStampen system have an effect on word retrieval, we want to do a within-participant study. For each condition, we will vary whether words are presented in a sentence, and how many sentences are available. The independent variables in this study are accuracy and response time. The dependent variable is number of contexts available.
+- To test whether the improvements we made to the [[SlimStampen]] system have an effect on word retrieval, we want to do a within-participant study. For each condition, we will vary whether words are presented in a sentence, and how many sentences are available. The independent variables in this study are accuracy and response time. The dependent variable is number of contexts available.
 
 ### Conditions
 - We are planning to have two conditions:
@@ -87,7 +87,7 @@ Fact(fact_id = 6, 
 - The experiment consists of different components:
 - Questionnaire: This will ask the participants for some basic info: age, their native language, and their previous experience with learning Dutch.
 - Level Evaluation: Participants will be shown 20 Dutch words and will be asked to translate them to English. We can use this data to compare the Dutch level of each participant, in case we see some weird results. The words were chosen by taking vocabulary from different levels of Dutch (a1-b2).
-- Training: Participants will try to learn new Dutch words using our adapted SlimStampen system. This is where the conditions come into play. This segment lasts either 150 trials or until they have seen all words.
+- Training: Participants will try to learn new Dutch words using our adapted [[SlimStampen]] system. This is where the conditions come into play. This segment lasts either 150 trials or until they have seen all words.
 - Distractor: A small dot-counting task that functions as a distractor task. Participants need to do this 10 times between training and testing. The number of blue dots that are shown is between 10 and 20.
 - Test: Participants will be tested on the words learned during training using a simple translation task. In this test, they are only presented with words that they saw during training. They immediately receive feedback on how they did.
 - Break: Participants will be asked to take a small break between testing and starting the training in a new condition.
@@ -113,7 +113,7 @@ Fact(fact_id = 6, 
 
 ## Future Directions
 - Additional focus on gamification
-- Longer term studies (Like SlimStampen)
+- Longer term studies (Like [[SlimStampen]])
 - Harder words : Ceiling Effect
 - More informed context in sentences (van den Broek et al., 2018) 
 - Other ways of testing context

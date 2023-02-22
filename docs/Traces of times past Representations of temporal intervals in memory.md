@@ -27,8 +27,8 @@ date created: Wednesday 1st February 2023, Wed
 - This is indicated by the relatively small intercepts of the regression formula and the susceptibility of the estimates to changes in the other interval
 ## General discussion
 - The results not only show that the representations of two intervals tend to shift toward each other, but also that a change in the duration of one interval not only affects the representation of that interval, but also the representation of the unchanged interval.
-- These findings support a model in which the representation of a time interval is not a single memory trace, but a pool of experiences in which recency and match to the current request determine the impact of single experiences.
-- The main specific choice we made in this model was to treat every experience with each of the intervals as a separate memory trace
+- These findings support a model in which the representation of a time interval is not a single [[memory trace]], but a pool of experiences in which recency and match to the current request determine the impact of single experiences.
+- The main specific choice we made in this model was to treat every experience with each of the intervals as a separate [[memory trace]]
 - However, we could not come up with a modification of the perturbation system that could (1) produce relatively stable performance for both durations, (2) adjust itself to changes in the standard, and (3) show influences of the changed long interval on the short interval.
 - As already mentioned in the introduction, the fit to the data does not hinge on the linear or nonlinear representation of time in the clock component—as long as a clock component produces temporal information, the pool model would be able to produce new temporal estimates
 - a combination of a memory system and a time estimation system can explain the data discussed in this study, despite the fact that neither system was specifically designed for these experiments.

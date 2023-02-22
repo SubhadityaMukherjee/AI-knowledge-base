@@ -15,15 +15,29 @@
               "state": {
                 "file": "Thesis Stuff.canvas",
                 "viewState": {
-                  "x": 2275.5778376793996,
-                  "y": -764.0957482136678,
-                  "zoom": -2.313329134384791,
+                  "x": -1640.5889805869417,
+                  "y": -1947.8878768166805,
+                  "zoom": -1.0877437392870581,
                   "snapToGrid": true
                 }
               }
             }
+          },
+          {
+            "id": "265f876939780144",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CAM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis Stuff.canvas",
+                "file": "CAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis Stuff.canvas",
+                "file": "CAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis Stuff.canvas"
+                "file": "CAM.md"
               }
             }
           },
@@ -199,10 +213,10 @@
       "reference-map:Reference Map": false
     }
   },
-  "active": "4e9dc391e612b390",
+  "active": "265f876939780144",
   "lastOpenFiles": [
-    "loss.md",
     "Thesis Stuff.canvas",
+    "loss.md",
     "Real Time Image Saliency for Black Box Classifiers.md",
     "SDR.md",
     "Real.md",

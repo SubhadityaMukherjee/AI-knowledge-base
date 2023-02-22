@@ -71,7 +71,8 @@
 		{"id":"8eb1bb67cb0d20d9","x":-3300,"y":-3717,"width":400,"height":400,"type":"file","file":"SSR.md"},
 		{"id":"e94d7249a646a18d","x":-2860,"y":-3717,"width":400,"height":400,"type":"file","file":"Precision.md"},
 		{"id":"ed41095a892056d7","x":-3760,"y":-3737,"width":1320,"height":880,"type":"group","label":"Metrics"},
-		{"id":"ae5edda168c25e7a","x":-3300,"y":-3277,"width":250,"height":60,"color":"2","type":"text","text":"Add some more metrics here"}
+		{"id":"ae5edda168c25e7a","x":-3300,"y":-3277,"width":250,"height":60,"color":"2","type":"text","text":"Add some more metrics here"},
+		{"id":"78aa0c44b544e0fa","x":-2000,"y":-2400,"width":250,"height":60,"type":"text","text":"Literature on which layers to choose"}
 	],
 	"edges":[
 		{"id":"a13e8d4588c2aabf","fromNode":"7ac70e6b4a106770","fromSide":"right","toNode":"26227bc65e831541","toSide":"left"},

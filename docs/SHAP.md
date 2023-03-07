@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # SHAP
-- [A Unified Approach to Interpreting Model Predictions](https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf)
+- @lundbergUnifiedApproachInterpreting2017
 - help users interpret the predictions of complex models
 - unclear how these methods are related and when one method is preferable over another
 - unified framework for interpreting predictions

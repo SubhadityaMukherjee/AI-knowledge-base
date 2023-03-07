@@ -526,6 +526,86 @@
           "lastUpdated": 1676901829636
         }
       }
+    },
+    "Gradient Accumulation": {
+      "Gradient Accumulation": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677519301053
+        }
+      }
+    },
+    "art": {
+      "art": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1677584049134
+        }
+      }
+    },
+    "Super-Convergence": {
+      "Super-Convergence": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677584903448
+        }
+      }
+    },
+    "\\mathcal{R}^{n}": {
+      "\\mathcal{R}^{n}": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1678109084001
+        }
+      }
+    },
+    "\\overset{\\sim}\\alpha": {
+      "\\overset{\\sim}\\alpha": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678109555894
+        }
+      }
+    },
+    "w_{2}-w_{1}": {
+      "w_{2}-w_{1}": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678109572473
+        }
+      }
+    },
+    "\\mu_{S": {
+      "\\mu_{S": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678109848242
+        }
+      }
+    },
+    "\\kappa": {
+      "\\kappa": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678110083640
+        }
+      }
+    },
+    "-\\mu_{S": {
+      "-\\mu_{S": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678110102674
+        }
+      }
+    },
+    "f_\\Theta": {
+      "f_\\Theta": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678110194645
+        }
+      }
     }
   }
 }

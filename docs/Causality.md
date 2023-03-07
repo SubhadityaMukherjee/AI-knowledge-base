@@ -14,4 +14,13 @@ date created: Wednesday, October 12th 2022, 4:42:35 pm
 - The user keeps asking a finite number of questions of the machine until he/she can no longer ask why or how because he/she has a satisfactory answer; we say he/she has comprehended.
 - This is the relationship between cause and effect; it is not a synonym for causability
 - Causability is about measuring and ensuring the quality of an explanation and refers to a human model
+- causality requires a wide frame of prior knowledge to prove that observed effects are causal
+- A ML model only discovers correlations among the data it learns from, and therefore might not suffice for unveiling a cause-effect relationship.
+- However, causation involves correlation, so an explainable ML model could validate the results provided by causality inference techniques, or provide a first intuition
 
+## Backlinks
+
+> - [Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI](Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md)
+>   - [[Causality]]
+
+_Backlinks last generated 2023-03-07 10:46:27_

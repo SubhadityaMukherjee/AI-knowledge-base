@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "197ff81d953f740f",
+            "id": "2efeebd063c365d0",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Thesis Stuff.canvas",
                 "viewState": {
-                  "x": 928.8129197568928,
-                  "y": -2989.6705275745717,
-                  "zoom": -2.0646069298684573,
-                  "snapToGrid": false
+                  "x": 2929.0542071262084,
+                  "y": -934.8300261229158,
+                  "zoom": -2.9278409758800734
                 }
-              }
-            }
-          },
-          {
-            "id": "2abcc185f0984c05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What is being Transferred in transfer learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
               }
             }
           }
@@ -103,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 252,
     "collapsed": true
   },
   "right": {
@@ -180,11 +166,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -204,17 +190,37 @@
       "obsidian-gallery:Gallery": true
     }
   },
-  "active": "197ff81d953f740f",
+  "active": "2efeebd063c365d0",
   "lastOpenFiles": [
-    "What is being Transferred in transfer learning.md",
+    "articles/Drafts/Writing your own Markdown to LaTEX parser.md",
+    "articles/Drafts",
+    "articles/DL/Parsing and Querying Tensorboard logs - A Mini Tutorial.md",
+    "articles/DL",
+    "articles/untitled folder",
+    "Thesis Flow.md",
+    "CLIP.md",
+    "Adrenaline.md",
+    "Instruction Bandwidth.md",
+    "Direct entropy minimization.md",
+    "Inflectional Morphology.md",
+    "language.md",
+    "Free morpheme.md",
+    "Morpheme.md",
+    "Functional Morpheme.md",
+    "Single unit recording.md",
+    "Guided GradCAM.md",
+    "DALL-E 3.md",
+    "Momentum.md",
+    "Conditional Independence.md",
+    "Interpretability and Explainability A Machine Learning Zoo Mini-tour.md",
     "Thesis Stuff.canvas",
-    "Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md",
-    "Explainability Taxonomy.md",
-    "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
-    "Multimodal Explanation.md",
-    "DeepFool.md",
-    "Parent Approximations.md",
-    "LIME.md",
-    "Causality.md"
+    "journals/2023-03-13.md",
+    "Dropout.md",
+    "Integrated Gradients.md",
+    "Noise Tunnel.md",
+    "Guided BackProp.md",
+    "Deep Inside Convolutional Networks.md",
+    "Salience Map.md",
+    "DeconvNet.md"
   ]
 }

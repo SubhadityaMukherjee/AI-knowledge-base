@@ -1,8 +1,9 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "Typewriter",
   "accentColor": "",
   "showViewHeader": false,
-  "translucency": true,
-  "baseFontSize": 11,
-  "nativeMenus": true
+  "translucency": false,
+  "baseFontSize": 13,
+  "nativeMenus": true,
+  "theme": "obsidian"
 }

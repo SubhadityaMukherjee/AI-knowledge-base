@@ -30,5 +30,6 @@
   "obsidian-citation-plugin",
   "obsidian-zotero-desktop-connector",
   "canvas-mindmap",
-  "canvas-filter"
+  "canvas-filter",
+  "obsidian-sidebar-expand-on-hover"
 ]

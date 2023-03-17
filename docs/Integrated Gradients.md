@@ -6,9 +6,10 @@ date created: Tuesday, December 6th 2022, 12:46:39 pm
 ---
 
 # Integrated Gradients
-- [ ] IG
 ```toc
 ```
+- https://erdem.pl/2022/04/xai-methods-integrated-gradients
+
 
 ## Backlinks
 

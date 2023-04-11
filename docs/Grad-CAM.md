@@ -7,8 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # GradCAM
-- [Grad-CAM: Visual Explanations from Deep Networks Via Gradient-based Localization](https://arxiv.org/abs/1610.02391)
-- [[@Grad-CAM: Visual Explanations From Deep Networks via Gradient-Based Localization]]
+- @selvarajuGradCAMVisualExplanations
 - Modified [[CAM]]
 - Importance of feature map k for target class c
 	- A is input

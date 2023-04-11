@@ -43,9 +43,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- $C = U\Sigma U'$ to get PC vectors $u_k$ lined up in U and variances $\sigma_k^2$ as eigenvalues in $\Sigma$
 	- If we want to preserve 98% variance : Rhs of (1) st. ratio is (1-0.98)
 
-## Backlinks
-
-> - [Local Reference Frame](Local Reference Frame.md)
->   - Three principal axes of a given object's point cloud are firstly determined based on eigenvectors analysis ([[PCA]])
-
-_Backlinks last generated 2023-02-22 20:00:24_

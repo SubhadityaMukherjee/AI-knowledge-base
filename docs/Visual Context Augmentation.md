@@ -6,6 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # Visual Context Augmentation
+- @dvornikModelingVisualContext2018
 - learns to place object instances at an image location depending on the surrounding context.
 - A neural network is trained for this purpose.
 - The training data is pre- pared to generate a context image with the masked- out object inside it.

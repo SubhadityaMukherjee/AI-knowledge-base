@@ -15,14 +15,41 @@
               "state": {
                 "file": "Thesis Stuff.canvas",
                 "viewState": {
-                  "x": 2929.0542071262084,
-                  "y": -934.8300261229158,
-                  "zoom": -2.9278409758800734
+                  "x": 8764.82098196939,
+                  "y": -1787.8918191945118,
+                  "zoom": -0.28679859171310956
                 }
               }
             }
+          },
+          {
+            "id": "8fb98aa5587a03bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conductance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad969596c00f7c27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SaliencyMix.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis Stuff.canvas",
+                "file": "SaliencyMix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -106,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis Stuff.canvas",
+                "file": "SaliencyMix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis Stuff.canvas"
+                "file": "SaliencyMix.md"
               }
             }
           },
@@ -190,37 +216,47 @@
       "obsidian-gallery:Gallery": true
     }
   },
-  "active": "2efeebd063c365d0",
+  "active": "ad969596c00f7c27",
   "lastOpenFiles": [
-    "articles/Drafts/Writing your own Markdown to LaTEX parser.md",
-    "articles/Drafts",
-    "articles/DL/Parsing and Querying Tensorboard logs - A Mini Tutorial.md",
-    "articles/DL",
-    "articles/untitled folder",
-    "Thesis Flow.md",
-    "CLIP.md",
-    "Adrenaline.md",
-    "Instruction Bandwidth.md",
-    "Direct entropy minimization.md",
-    "Inflectional Morphology.md",
-    "language.md",
-    "Free morpheme.md",
-    "Morpheme.md",
-    "Functional Morpheme.md",
-    "Single unit recording.md",
-    "Guided GradCAM.md",
-    "DALL-E 3.md",
-    "Momentum.md",
-    "Conditional Independence.md",
-    "Interpretability and Explainability A Machine Learning Zoo Mini-tour.md",
-    "Thesis Stuff.canvas",
-    "journals/2023-03-13.md",
-    "Dropout.md",
-    "Integrated Gradients.md",
-    "Noise Tunnel.md",
-    "Guided BackProp.md",
-    "Deep Inside Convolutional Networks.md",
+    "FP16 training.md",
+    "Stanford Dogs.md",
+    "Res Net.md",
+    "DeconvNet.md",
     "Salience Map.md",
-    "DeconvNet.md"
+    "Grad-CAM.md",
+    "GradCAM++.md",
+    "Untitledp.md",
+    "Conductance.md",
+    "Thesis Stuff.canvas",
+    "Summit.md",
+    "images/Pasted image 20230407140058.png",
+    "images/Pasted image 20230407135932.png",
+    "images/Pasted image 20230407134744.png",
+    "images/Pasted image 20230407134729.png",
+    "Influence of image classification accuracy on saliency map estimation.md",
+    "AUC-Judd.md",
+    "Guided GradCAM.md",
+    "Maximum Distance Baseline.md",
+    "Integrated Gradients.md",
+    "Puzzle Mix.md",
+    "Implementation Invariance.md",
+    "Noise Tunnel.md",
+    "VarGrad.md",
+    "images/Pasted image 20230404155614.png",
+    "Co-Mixup.md",
+    "Visual Context Augmentation.md",
+    "Image Mixing and Deletion.md",
+    "ReMix.md",
+    "SnapMix.md",
+    "CowMask.md",
+    "Cut, Paste and Learn.md",
+    "images/Pasted image 20230327163101.png",
+    "images/Pasted image 20230327163044.png",
+    "images/Pasted image 20230327152000.png",
+    "images/Pasted image 20230327130326.png",
+    "images/Pasted image 20230327130311.png",
+    "articles/Drafts",
+    "articles/DL",
+    "articles/untitled folder"
   ]
 }

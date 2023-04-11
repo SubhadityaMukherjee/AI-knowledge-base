@@ -6,11 +6,15 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # CutMix
-- [[@CutMix: Regularization Strategy to Train Strong Classifiers With Localizable Features]]
+- @yunCutMixRegularizationStrategy2019
 - images are augmented by sampling patch coordinates, x, y, h, w from a uniform distribution
 - selected patch is replaced at the
 - corresponding location with a patch from the other randomly picked image from the current mini-batch during training.
 - M is the image mask, xa and xb are images, λ is the proportion of label, and ya and yb are the labels of images.
-- $$x_{new}= M.x_{a}+(1-M).x_{b}$$
-- $$y_{new}= \lambda.y_{a}+ (1-\lambda).y_{b}$$
+- $$
+x_{new}= M.x_{a}+(1-M).x_{b}
+$$
+- $$
+y_{new}= \lambda.y_{a}+ (1-\lambda).y_{b}
+$$
 

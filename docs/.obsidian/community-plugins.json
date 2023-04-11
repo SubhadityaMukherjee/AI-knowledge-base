@@ -6,7 +6,6 @@
   "obsidian-file-cleaner",
   "obsidian-frontmatter-tag-suggest",
   "obsidian-gallery",
-  "obsidian-linter",
   "obsidian-local-images",
   "note-refactor-obsidian",
   "obsidian-link-converter",
@@ -31,5 +30,5 @@
   "obsidian-zotero-desktop-connector",
   "canvas-mindmap",
   "canvas-filter",
-  "obsidian-sidebar-expand-on-hover"
+  "obsidian-linter"
 ]

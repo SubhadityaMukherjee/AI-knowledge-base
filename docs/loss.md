@@ -28,6 +28,7 @@ tags: anchor
 - [ITM Loss.md](ITM%20Loss.md)
 - [Identity Loss.md](Identity%20Loss.md)
 - [Intra cluster variance.md](Intra%20cluster%20variance.md)
+- [Jensen Shannon Divergence Consistency Loss.md](Jensen%20Shannon%20Divergence%20Consistency%20Loss.md)
 - [KL Divergence.md](KL%20Divergence.md)
 - [Log Likelihood Loss.md](Log%20Likelihood%20Loss.md)
 - [LogCosh.md](LogCosh.md)

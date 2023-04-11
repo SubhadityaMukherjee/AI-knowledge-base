@@ -6,7 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Lp [Regularization](Regularization.md)
-- ![[images/Pasted image 20220626150853.png](from%20%5Blink))
+- ![im](images/Pasted%image%20220626150853.png)
 - Tikhonov
 - Penalty considering weights
 - $$L^\ast(\theta) = L(\theta) + \lambda \Sigma_i |\theta_i|^p$$
@@ -24,3 +24,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Too large : underfit, too small : overfit
 	- [Cross Validation](Cross%20Validation.md) required
 
+## Backlinks
+
+> - [Frobenius Norm](Frobenius norm.md)
+>   - [[Lp Regularization]]
+
+_Backlinks last generated 2023-04-11 15:00:45_

@@ -27,9 +27,13 @@ date created: Friday, November 18th 2022, 1:36:13 pm
 - ![[images/Pasted image 20230310115413.png]]
 - ![](images/1!lF0KUFi_D04YIYo_1Yi0cA.png)
 - ![](images/1!XhaBt82XZrD1ePnInOW2lg.png)
+
 ## Backlinks
 
 > - [Salience Map](Salience Map.md)
 >   - [[Guided BackProp]]
+>    
+> - [Guided [[Grad-CAM]]](Guided GradCAM.md)
+>   - Pointwise multiply betwen [[Grad-CAM]] and [[Guided BackProp]]
 
-_Backlinks last generated 2023-01-28 14:37:47_
+_Backlinks last generated 2023-04-11 15:00:45_

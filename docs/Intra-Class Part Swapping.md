@@ -6,7 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # Intra-Class Part Swapping
-- #mastersthesis
+- @zhangIntraClassPartSwapping2021
 - replaces most attentive regions of one image by the other
 - Attentive regions are extracted using a classification activation map (CAM), thresholded for the most prominent region
 - The attentive region in the source image is scaled and translated according to the attentive region of the target image for region replacement

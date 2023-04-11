@@ -9,8 +9,8 @@ date created: Friday, November 18th 2022, 1:09:31 pm
 # Guided [[Grad-CAM]]
 ```toc
 ```
-- [[@Grad-CAM: Why did you say that?]]
-- Pointwise multiply betwen [[CAM]] and [Grad-CAM](Grad-CAM.md)
+- @selvarajuGradCAMWhyDid2017
+- Pointwise multiply betwen [[Grad-CAM]] and [[Guided BackProp]]
 - Class Discriminative
 - High resolution
 - Similar to [[Occlusion Map]] but faster

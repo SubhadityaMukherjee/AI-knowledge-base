@@ -6,6 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # SmoothMix
+- @leeSmoothMixSimpleEffective2020
 - mask-based approach
 - matching closely with the [[Cutout]] and [[CutMix]] techniques
 - the mask has soft edges with gradually decreasing intensity

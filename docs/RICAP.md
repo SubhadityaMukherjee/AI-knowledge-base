@@ -6,6 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # RICAP
+- @takahashiDataAugmentationUsing2020
 - Random image [[cropping]] and patching
 - [[cropping]] four regions from randomly sampled images and augmenting them to create a new image.
 - The generated image has mixed labels proportional to the pasted area

@@ -6,6 +6,7 @@ date modified: Monday, October 10th 2022, 2:00:29 pm
 ---
 
 # Random Erasing
+- @zhongRandomErasingData2020
 - deletes contiguous rectangular image regions similar to [[cutout]] with minor differences in region selection procedure.
 - Opposite to [[cutout]], where deletion is applied on all the images, here it is performed with a probability of either applying it or not
 - In every iteration, region size is defined randomly with upper and lower limits on region area and aspect ratio.

@@ -12,14 +12,19 @@ date created: Wednesday, October 12th 2022, 4:44:29 pm
 - @smilkovSmoothGradRemovingNoise2017
 - reduces visual noise and, hence, improves visual explanations about how a DNN is making a classification decision. Comparing their work to several gradient-based sensitivity map methods such as LRP, [[DeepLift]], and [[Integrated Gradients]] (IG) [96], which estimate the global importance of each pixel and create saliency maps, showed that Smooth-Grad focuses on local sensitivity and calculates averaging maps with a smoothing effect made from several small perturbations of an input image. The effect is enhanced by further training with these noisy images and finally having an impact on the quality of sensitivity maps by sharpening them.
 - a local, post hoc approach gave visual and textual justifications of the predictions with the help of two novel explanation datasets through crowd sourcing.
+- involves adding random noise to the input and computing the attribution maps multiple times with the noisy inputs. 
+- The final attribution map is obtained by averaging the maps obtained from the noisy inputs. The idea behind this technique is that the noise added to the input image will cause the model to activate different features in the input, resulting in a more stable and interpretable attribution map.
 
 ## Backlinks
 
 > - [Vision Explainibility](Vision Explainibility.md)
 >   - [[Smooth-Grad]]
 >    
+> - [Gaussian Baseline](Gaussian Baseline.md)
+>   - This is in [[Smooth-Grad]]
+>    
 > - [Noise Tunnel](Noise Tunnel.md)
 >   - Combines [[SmoothGrad Square]] + [[Smooth-Grad]] + [[VarGrad]]
 >   - ## Using [[Smooth-Grad]]
 
-_Backlinks last generated 2023-03-17 10:15:33_
+_Backlinks last generated 2023-04-11 15:00:45_

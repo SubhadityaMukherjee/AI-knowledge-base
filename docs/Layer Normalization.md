@@ -9,7 +9,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - For RNNs etc
 - Mean and variance calculated independantly for each element of the batch by aggregating over the [features](Features.md) dimensions.
 - ![Pasted image 20220621163906](images/Pasted%20image%2020220621163906.jpg) (Compared to [Batch Normalization](Batch%20Normalization.md))
-- $$ \begin{align*}\\
+$$
+ \begin{align*}\\
 
 &\mu_{\mathcal{B}} \leftarrow \frac{1}{m}\Sigma_{i=1}^{m}x_{i}\\
 
@@ -20,6 +21,15 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 &y_{i}= \gamma \hat x_{i}+ \beta
 
 \end{align*}
-
 $$
 
+## Problem
+- From [[Visualizing the Loss Landscape of Neural Nets]],
+- ![[images/Pasted image 20230327130254.png]]
+
+## Backlinks
+
+> - [Visualizing the Loss Landscape of Neural Nets](Visualizing the Loss Landscape of Neural Nets.md)
+>   - [[Layer Normalization]]
+
+_Backlinks last generated 2023-04-11 15:00:45_

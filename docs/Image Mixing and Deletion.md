@@ -7,6 +7,7 @@ date created: Friday, October 7th 2022, 1:37:19 pm
 ---
 
 # Image Mixing and Deletion
+- @naveedSurveyImageMixing2023
 - [[Cutout]] and [[CutMix]] argues that hindering image regions enforces the classifier to learn from the partially visible objects and understand the overall structure
 - [[CutMix]] verifies this argument by showing enhanced focus towards the target class in
 - Opposite to this, MixUp has shown to improve classifier's calibration and reduced prediction uncertainity

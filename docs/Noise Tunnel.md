@@ -9,7 +9,7 @@ date created: Tuesday, December 6th 2022, 12:43:53 pm
 # Noise Tunnel
 ```toc
 ```
-- @smilkovSmoothGradRemovingNoise2017
+- @kokhlikyanCaptumUnifiedGeneric2020
 
 ## Summary
 - Combines [[SmoothGrad Square]] + [[Smooth-Grad]] + [[VarGrad]] 

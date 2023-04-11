@@ -6,6 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # CowMask
+- @frenchMilkingCowMaskSemiSupervised2020
 - semi-supervised learning
 - original and augmented images are brought closer during training
 - CowMask suggests two types of mixing approaches 1) erasing and 2) mixing two images similar to [[cutmix]]

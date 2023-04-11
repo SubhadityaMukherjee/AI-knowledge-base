@@ -47,195 +47,11 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "CogMod Final Paper": {
-      "CogMod Final Paper": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674813097009
-        }
-      }
-    },
-    "explainability": {
-      "explainability": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674815334024
-        }
-      }
-    },
-    "cogitivemodel": {
-      "cogitivemodel": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674915001284
-        }
-      }
-    },
-    "foreper": {
-      "foreper": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675247869349
-        }
-      }
-    },
-    "foreperiod": {
-      "foreperiod": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675247870311
-        }
-      }
-    },
-    "\\mu_{x}": {
-      "\\mu_{x}": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675253491763
-        }
-      }
-    },
     "Random Erasing": {
       "Random Erasing": {
         "internalLink": {
           "count": 2,
           "lastUpdated": 1676901777768
-        }
-      }
-    },
-    "Adam": {
-      "Adam": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675253761220
-        }
-      }
-    },
-    "SGD": {
-      "SGD": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675253763622
-        }
-      }
-    },
-    "Sigmoid": {
-      "Sigmoid": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675764711216
-        }
-      }
-    },
-    "ill conditioning": {
-      "ill conditioning": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675764719611
-        }
-      }
-    },
-    "Backprop": {
-      "Backprop": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675764774877
-        }
-      }
-    },
-    "\\nabla_{x}": {
-      "\\nabla_{x}": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675764825932
-        }
-      }
-    },
-    "MSE": {
-      "MSE": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675766267220
-        }
-      }
-    },
-    "loss": {
-      "loss": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675766279737
-        }
-      }
-    },
-    "augment": {
-      "augment": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1675766351986
-        }
-      }
-    },
-    "Hard Parameter Sharing": {
-      "Hard Parameter Sharing": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675766839140
-        }
-      }
-    },
-    "Soft Parameter Sharing": {
-      "Soft Parameter Sharing": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675766842261
-        }
-      }
-    },
-    "multitask": {
-      "multitask": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675766874118
-        }
-      }
-    },
-    "Features": {
-      "Features": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675766891955
-        }
-      }
-    },
-    "generalizing": {
-      "generalizing": {
-        "currentVault": {
-          "count": 1,
-          "lastUpdated": 1675766898787
-        }
-      }
-    },
-    "SVM": {
-      "SVM": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675767040553
-        }
-      }
-    },
-    "One hot": {
-      "One hot": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675767065862
-        }
-      }
-    },
-    "Max Margin Loss": {
-      "Max Margin Loss": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676201262785
         }
       }
     },
@@ -634,8 +450,72 @@
     "Smooth-Grad": {
       "Smooth-Grad": {
         "internalLink": {
+          "count": 2,
+          "lastUpdated": 1679657095810
+        }
+      }
+    },
+    "Sensitivity": {
+      "Sensitivity": {
+        "internalLink": {
           "count": 1,
-          "lastUpdated": 1678447405115
+          "lastUpdated": 1679655525143
+        }
+      }
+    },
+    "Transfer Learning": {
+      "Transfer Learning": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1679912690672
+        }
+      }
+    },
+    "Self Supervised": {
+      "Self Supervised": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1679912695208
+        }
+      }
+    },
+    "Random Directions": {
+      "Random Directions": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1679914283444
+        }
+      }
+    },
+    "\\overset{\\sim}x": {
+      "\\overset{\\sim}x": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1679923399703
+        }
+      }
+    },
+    "\\overset{\\sim}y": {
+      "\\overset{\\sim}y": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1679923432022
+        }
+      }
+    },
+    "x_{B}": {
+      "x_{B}": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1679923452430
+        }
+      }
+    },
+    "Mixup": {
+      "Mixup": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1679923573688
         }
       }
     }

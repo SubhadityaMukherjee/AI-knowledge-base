@@ -9,13 +9,13 @@ date created: Wednesday, October 12th 2022, 4:17:49 pm
 # DeconvNet
 ```toc
   ```
-- @Visualizing and Understanding Convolutional Networks
+- @zeilerVisualizingUnderstandingConvolutional2013
 - Zeiler, Fergus
 
 ## Summary
 - Deconvnets are designed to work similar to convolutional networks but reverse (reversing pooling component, reversing filter component etc.), and they can be trained using an unsupervised approach.
 - To reconstruct the activation on a specific layer, we are attaching deconv layers to corresponding CNN layers
-- To examine a reconstruction for a given class ccc, we have to set all activations except the one responsible for predicting class ccc to zero.
+- To examine a reconstruction for a given class c, we have to set all activations except the one responsible for predicting class c to zero.
 - Then we can propagate through deconvnet layers and pass all the feature maps as inputs to corresponding layers
 - Propagation through the whole deconvnet gives us a representation of the features from the first layer of the original CNN
 - This approach causes the saliency map to feature some biases from the first convolutional layer and the representation looks like a localized edge detector

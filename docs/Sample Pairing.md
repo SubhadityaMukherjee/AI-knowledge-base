@@ -6,6 +6,7 @@ date modified: Sunday, November 6th 2022, 5:19:35 pm
 ---
 
 # Sample Pairing
+- @inoueDataAugmentationPairing2018
 - merges two images by averaging their pixel intensities
 - The new image has the same training image label opposite to MixUp and other approaches where labels are updated according to the proportion of image mixing.
 - one epoch on ImageNet and 100 epochs on other datasets are completed without SamplePairing before mixed image data is added to the training

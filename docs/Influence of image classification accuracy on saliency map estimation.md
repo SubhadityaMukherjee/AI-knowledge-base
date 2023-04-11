@@ -7,8 +7,7 @@ date created: Thursday, October 6th 2022, 1:01:31 pm
 ---
 
 # Influence of Image Classification Accuracy on Saliency Map Estimation
-- [[@Influence of image classification accuracy on saliency map estimation]]
-- Oyama, Taiki, and Takao Yamanaka. 2018. “Influence of Image Classification Accuracy on Saliency Map Estimation.” _CAAI Transactions on Intelligence Technology_ 3(3):140–52. doi: [10.1049/trit.2018.1012](https://doi.org/10.1049/trit.2018.1012).
+- @oyamaInfluenceImageClassification2018.
 ## Intro
 - Saliency map estimation in computer vision aims to estimate the locations where people gaze in images.
 - Since people tend to look at objects in images, the parameters of the model pre-trained on ImageNet for image classification are useful for the saliency map estimation

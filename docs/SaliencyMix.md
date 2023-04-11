@@ -6,6 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 # SaliencyMix
+- @uddinSaliencyMixSaliencyGuided2021
 - extracts salient regions and pastes them on the corresponding location in the target image
 - The salient region is extracted around the maximum intensity pixel location in the saliency map
 

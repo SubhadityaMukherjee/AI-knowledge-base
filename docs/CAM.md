@@ -7,8 +7,7 @@ date created: Friday, November 18th 2022, 12:30:09 pm
 ---
 
 # CAM
-- [[@Learning Deep Features for Discriminative Localization]]
-- Zhou et al. 2016
+- @zhouLearningDeepFeatures2016
 - Class Activation Mapping
 - Similar to [[Network In Network]]
 - zeroes out the negative grads during backward pass to provide more visually appealing results

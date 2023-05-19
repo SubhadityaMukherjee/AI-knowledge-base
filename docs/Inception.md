@@ -6,7 +6,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Inception
-- [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
+- @szegedyGoingDeeperConvolutions2014
 - [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
 
 ### V1

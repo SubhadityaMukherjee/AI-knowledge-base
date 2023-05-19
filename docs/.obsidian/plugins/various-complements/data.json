@@ -47,475 +47,59 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "Random Erasing": {
-      "Random Erasing": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1676901777768
-        }
-      }
-    },
-    "Vision Transformer": {
-      "Vision Transformer": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1676901530374
-        }
-      }
-    },
-    "Attentive CutMix": {
-      "Attentive CutMix": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901403000
-        }
-      }
-    },
-    "Hide and Seek": {
-      "Hide and Seek": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901422555
-        }
-      }
-    },
-    "Res Net": {
-      "Res Net": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901534814
-        }
-      }
-    },
-    "MobileOne": {
-      "MobileOne": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901541033
-        }
-      }
-    },
-    "Mobile Net": {
-      "Mobile Net": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901546577
-        }
-      }
-    },
-    "Beware of Inmates Running the Asylum": {
-      "Beware of Inmates Running the Asylum": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901564724
-        }
-      }
-    },
-    "The Unreliability of Saliency Methods": {
-      "The Unreliability of Saliency Methods": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901573604
-        }
-      }
-    },
-    "SmoothGrad Square": {
-      "SmoothGrad Square": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1678447384736
-        }
-      }
-    },
-    "Salience Map": {
-      "Salience Map": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901589624
-        }
-      }
-    },
-    "Real Time Image Saliency for Black Box Classifiers": {
-      "Real Time Image Saliency for Black Box Classifiers": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901597753
-        }
-      }
-    },
-    "Adaptive Whitening Saliency": {
-      "Adaptive Whitening Saliency": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901615985
-        }
-      }
-    },
-    "Bayesian Rule List": {
-      "Bayesian Rule List": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901619351
-        }
-      }
-    },
-    "Deep Inside Convolutional Networks": {
-      "Deep Inside Convolutional Networks": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1678445678857
-        }
-      }
-    },
-    "Deep Visual Explanation": {
-      "Deep Visual Explanation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901630998
-        }
-      }
-    },
-    "Dynamic visual attention": {
-      "Dynamic visual attention": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901639725
-        }
-      }
-    },
-    "Embedding Human Knowledge into Deep Neural Network via Attention Map": {
-      "Embedding Human Knowledge into Deep Neural Network via Attention Map": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901644632
-        }
-      }
-    },
-    "Generalizing Adversarial Explanations with Grad-CAM": {
-      "Generalizing Adversarial Explanations with Grad-CAM": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901669156
-        }
-      }
-    },
-    "Graph Based Distillation": {
-      "Graph Based Distillation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901673584
-        }
-      }
-    },
-    "Graph-based visual saliency": {
-      "Graph-based visual saliency": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901678712
-        }
-      }
-    },
-    "Guided BackProp": {
-      "Guided BackProp": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901695253
-        }
-      }
-    },
-    "Guided GradCAM": {
-      "Guided GradCAM": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901699521
-        }
-      }
-    },
-    "Influence of image classification accuracy on saliency map estimation": {
-      "Influence of image classification accuracy on saliency map estimation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901704523
-        }
-      }
-    },
-    "Integrated Gradients": {
-      "Integrated Gradients": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901712710
-        }
-      }
-    },
-    "Interpretation of Neural networks is fragile": {
-      "Interpretation of Neural networks is fragile": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901718292
-        }
-      }
-    },
-    "Noise Tunnel": {
-      "Noise Tunnel": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901721940
-        }
-      }
-    },
-    "On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images": {
-      "On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901725972
-        }
-      }
-    },
-    "Image Mixing and Deletion": {
-      "Image Mixing and Deletion": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1678445675059
-        }
-      }
-    },
-    "Intra-Class Part Swapping": {
-      "Intra-Class Part Swapping": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901757663
-        }
-      }
-    },
-    "Puzzle Mix": {
-      "Puzzle Mix": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901766933
-        }
-      }
-    },
-    "Random Distortion": {
-      "Random Distortion": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901775590
-        }
-      }
-    },
-    "Sample Pairing": {
-      "Sample Pairing": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901786407
-        }
-      }
-    },
-    "Visual Context Augmentation": {
-      "Visual Context Augmentation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901789171
-        }
-      }
-    },
-    "Cut and Mix": {
-      "Cut and Mix": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901797875
-        }
-      }
-    },
-    "Data Augmentation via Latent Space Interpolation for Image Classification": {
-      "Data Augmentation via Latent Space Interpolation for Image Classification": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901813610
-        }
-      }
-    },
-    "Data Augmentation with Curriculum Learning": {
-      "Data Augmentation with Curriculum Learning": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676901829636
-        }
-      }
-    },
-    "Gradient Accumulation": {
-      "Gradient Accumulation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677519301053
-        }
-      }
-    },
-    "art": {
-      "art": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1677584049134
-        }
-      }
-    },
-    "Super-Convergence": {
-      "Super-Convergence": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1677584903448
-        }
-      }
-    },
-    "\\mathcal{R}^{n}": {
-      "\\mathcal{R}^{n}": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678109084001
-        }
-      }
-    },
-    "\\overset{\\sim}\\alpha": {
-      "\\overset{\\sim}\\alpha": {
+    "\\sigma^{2}": {
+      "\\sigma^{2}": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1678109555894
+          "lastUpdated": 1682935231305
         }
       }
     },
-    "w_{2}-w_{1}": {
-      "w_{2}-w_{1}": {
+    "\\mathbb{R}^{W": {
+      "\\mathbb{R}^{W": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1678109572473
+          "lastUpdated": 1683538096112
         }
       }
     },
-    "\\mu_{S": {
-      "\\mu_{S": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678109848242
-        }
-      }
-    },
-    "\\kappa": {
-      "\\kappa": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678110083640
-        }
-      }
-    },
-    "-\\mu_{S": {
-      "-\\mu_{S": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678110102674
-        }
-      }
-    },
-    "f_\\Theta": {
-      "f_\\Theta": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678110194645
-        }
-      }
-    },
-    "\\underset{I}max": {
-      "\\underset{I}max": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678445449508
-        }
-      }
-    },
-    "DeconvNet": {
-      "DeconvNet": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1678446857250
-        }
-      }
-    },
-    "VarGrad": {
-      "VarGrad": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1678447575561
-        }
-      }
-    },
-    "Smooth-Grad": {
-      "Smooth-Grad": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1679657095810
-        }
-      }
-    },
-    "Sensitivity": {
-      "Sensitivity": {
+    "Uniform Distribution": {
+      "Uniform Distribution": {
         "internalLink": {
           "count": 1,
-          "lastUpdated": 1679655525143
+          "lastUpdated": 1683538849702
         }
       }
     },
-    "Transfer Learning": {
-      "Transfer Learning": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1679912690672
-        }
-      }
-    },
-    "Self Supervised": {
-      "Self Supervised": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1679912695208
-        }
-      }
-    },
-    "Random Directions": {
-      "Random Directions": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1679914283444
-        }
-      }
-    },
-    "\\overset{\\sim}x": {
-      "\\overset{\\sim}x": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679923399703
-        }
-      }
-    },
-    "\\overset{\\sim}y": {
-      "\\overset{\\sim}y": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679923432022
-        }
-      }
-    },
-    "x_{B}": {
-      "x_{B}": {
+    "threshold": {
+      "threshold": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1679923452430
+          "lastUpdated": 1683540525232
         }
       }
     },
-    "Mixup": {
-      "Mixup": {
+    "Adam": {
+      "Adam": {
         "internalLink": {
           "count": 1,
-          "lastUpdated": 1679923573688
+          "lastUpdated": 1683822860735
+        }
+      }
+    },
+    "Fourier": {
+      "Fourier": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683823065920
+        }
+      }
+    },
+    "transform": {
+      "transform": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683823115960
         }
       }
     }

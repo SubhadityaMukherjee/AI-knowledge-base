@@ -9,12 +9,12 @@ date created: Friday 27th January 2023, Fri
 # Proxy Attention
 ```toc
 ```
-
-## Comparisons
-- [[M2Det]] 
-	- The Multi-level Feature Pyramid Network has similar ideas but does not use the outputs of [[XAI]] algorithms. 
-	- This uses channel wise attention : ours is independant of that
-	- This takes images and passes them through multiple networks and then aggregates the features obtained from each of those networks. : ours uses a trained network and is independent of all that. Unlike the former, ours does not use a compressed feature map but uses a trained network to predict an explainability map instead.
+- Let $I_{s} \in \mathbb{R}^{W \times H \times C}$ be a random source image
+- applied saliency map $I_{vs}$ 
+	- $I_{vs} = f(I_{s}) \in \mathbb{R}^{W \times H}$
+	- Augmented image $I_{a}$
+	- $\odot$ elementwise multi 
+	- Mask $M \in \{0,1\}^{W \times H}$ 
 
 ## Backlinks
 

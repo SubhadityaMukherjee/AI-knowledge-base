@@ -5,10 +5,11 @@ date created: Monday, October 10th 2022, 1:58:13 pm
 date modified: Monday, October 10th 2022, 2:13:02 pm
 ---
 
-# [[Data Augmentation with Curriculum Learning]]
-- Connor Shorten and Taghi M. Khoshgoftaar
+
 ```toc
 ```
+- @shortenSurveyImageData2019
+- [[Data Augmentation with Curriculum Learning]]
 
 ## Methods
 - [Geometric Transformations](Geometric%20Transformations.md)

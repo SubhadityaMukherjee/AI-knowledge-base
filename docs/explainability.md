@@ -95,7 +95,6 @@ tags: anchor
 - [Structural Similarity Index.md](Structural%20Similarity%20Index.md)
 - [Sufficiency.md](Sufficiency.md)
 - [Summit.md](Summit.md)
-- [Super-Convergence.md](Super-Convergence.md)
 - [TREPAN.md](TREPAN.md)
 - [Tainted data.md](Tainted%20data.md)
 - [The Unreliability of Saliency Methods.md](The%20Unreliability%20of%20Saliency%20Methods.md)

@@ -25,9 +25,12 @@ date modified: Monday, January 16th 2023, 6:45:12 pm
 ## Conductance
 - [[Integrated Gradients]] produces attributions for base features
 - There is a natural way to 'lift' these attributions to a neuron in a hidden layer. Consider a specific neuron y in a hidden layer of a network
-- $$
+- 
+$$
+
 F:R^{n} \rightarrow [0,1]
-$$ represents a deep network.
+$$
+ represents a deep network.
 - $x \in R^{n}$ is input, $x' \in R^{n}$ is baseline input
 - [[Integrated Gradients]] is path integral of gradient along straightline path from baseline $x'$ to input $x$. The function F varies from a near zero value for the informationless baseline to its final value. The gradients of F with respect to the image pixels explain each step of the variation in the value of F
 - The integration (sum) over the gradients cumulates these micro explanations and accounts for the net difference between the baseline prediction score (near zero) and the prediction value at the input x.

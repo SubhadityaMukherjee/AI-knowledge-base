@@ -13,9 +13,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\begin{align} & s_n = \rho_1 s_{n-1} + (1-\rho_1) g_n \\ & r_n = \rho_2 r_{n-1} + (1-\rho_2) g_n \odot g_n \\ & \Theta_{n+1} = \Theta_n - \alpha \frac{s_n}{\epsilon + \sqrt{r_n}} \frac{1-\rho_2^n}{1-\rho^n_1} \end{align}$$
 - First and second moments
 
-## Backlinks
-
-> - [Comparing Data Augmentation Strategies for Deep Image Classification](Comparing Data Augmentation Strategies for Deep Image Classification.md)
->   - Use [[Adam]] + [[SGD]]
-
-_Backlinks last generated 2023-02-01 13:16:25_

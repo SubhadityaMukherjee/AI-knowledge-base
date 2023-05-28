@@ -14,7 +14,7 @@
 
   <script>
     function showRandomPoints() {
-      fetch('quotes')
+      fetch('../quotes')
         .then(response => response.text())
         .then(text => {
           const points = extractPoints(text);

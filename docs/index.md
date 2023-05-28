@@ -13,6 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - How to go about finding things?
 	- Scroll the sidebar and pick something you like. Click the links inside it to go about. Choose your own adventure.
 - Major topics (These index pages are auto generated and might have errors sometimes)
+	- Quotes collected from a lot of places over the years [[quotes]]
 	- Deep learning
 		- [AI Ethics](ethics.md)
 		- [XAI](explainability.md)

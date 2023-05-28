@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Visual Explanation.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Visual Explanation.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Visual Explanation.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Visual Explanation.md"
+                "file": "index.md"
               }
             }
           },
@@ -190,8 +190,31 @@
   },
   "active": "46b8398caf1084f5",
   "lastOpenFiles": [
+    "quotes.md",
+    "index.md",
+    "quotes.html",
+    "RandAugment.md",
+    "templates/random_quotes.html",
+    "templates/quotes_index.html",
+    "appjs.html",
     "SAM-ResNet.md",
     "Deep Visual Explanation.md",
+    "Cross Entropy.md",
+    "images/Pasted image 20230524140956.png",
+    "MIMD.md",
+    "SIMD.md",
+    "Proxy Attention.md",
+    "Explanation is not a Technical Term.md",
+    "images/Page12Image42.55803980601578_445.26651888696006-359.94635491537673_174.37303587724818.png",
+    "images/Page11Image28.503841911723242_69.0524207960309-390.09416045002604_526.8046627143713.png",
+    "Social Construction of XAI, do we need one definition to rule them all.md",
+    "Whos Thinking, A push for human centered evaluation of LLMs.md",
+    "The elephant in the interpretability room.md",
+    "images/Pasted image 20230522171557.png",
+    "images/Pasted image 20230522171529.png",
+    "assets",
+    "Aleatoric.md",
+    "Epistemic.md",
     "One cycle policy.md",
     "Super-Convergence.md",
     "AdamW.md",
@@ -204,29 +227,11 @@
     "images/Pasted image 20230511184707.png",
     "images/Pasted image 20230511184656.png",
     "images/Pasted image 20230511184655.png",
-    "images/Pasted image 20230511183730.png",
-    "images/Pasted image 20230511133244.png",
-    "images/Pasted image 20230511133235.png",
-    "images/Pasted image 20230511124321.png",
-    "images/Pasted image 20230511124313.png",
     "CAM.md",
     "Thesis Stuff.canvas",
-    "RandAugment.md",
     "KeepAugment.md",
     "SaliencyMix.md",
     "Data Augmentation with Curriculum Learning.md",
-    "Proxy Attention.md",
-    "A survey on Image Data Augmentation for Deep Learning.md",
-    "Curriculum Learning.md",
-    "Data Augmentation via Latent Space Interpolation for Image Classification.md",
-    "ConvNeXt.md",
-    "Static Graph Execution.md",
-    "Res Net.md",
-    "Smooth-Grad.md",
-    "read_later/RLHF Reinforcement Learning from Human Feedback.md",
-    "Inception.md",
-    "Conductance.md",
-    "Untitled.md",
     "articles/Drafts",
     "articles/DL",
     "articles/untitled folder"

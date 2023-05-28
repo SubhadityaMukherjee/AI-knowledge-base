@@ -190,9 +190,11 @@
   },
   "active": "46b8398caf1084f5",
   "lastOpenFiles": [
+    "gen_quotes.md",
+    "Quotes.md",
+    "quotes.html",
     "quotes.md",
     "index.md",
-    "quotes.html",
     "RandAugment.md",
     "templates/random_quotes.html",
     "templates/quotes_index.html",
@@ -230,8 +232,6 @@
     "CAM.md",
     "Thesis Stuff.canvas",
     "KeepAugment.md",
-    "SaliencyMix.md",
-    "Data Augmentation with Curriculum Learning.md",
     "articles/Drafts",
     "articles/DL",
     "articles/untitled folder"

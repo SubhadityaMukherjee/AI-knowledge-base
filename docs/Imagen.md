@@ -16,6 +16,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model
 - FID score
 - [COCO](COCO.md)
-- [DrawBench](DrawBench.md)
-- With [DrawBench](DrawBench.md), we compare Imagen with recent methods including [VQGAN](VQGAN)+[CLIP](CLIP.md), [Latent Diffusion](Latent%20Diffusion) Models, and [DALL-E](DALL-E.md), and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment
 
+## Backlinks
+
+> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
+>   - [[Imagen]]
+
+_Backlinks last generated 2023-05-31 15:18:49_

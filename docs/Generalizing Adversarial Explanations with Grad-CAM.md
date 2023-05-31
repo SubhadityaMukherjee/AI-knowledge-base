@@ -1,7 +1,7 @@
 ---
 title: Generalizing Adversarial Explanations with Grad-CAM
 
-tags: mastersthesis explainability adversarial
+tags: explainability explainability adversarial
 date modified: Tuesday, January 24th 2023, 8:22:50 pm
 date created: Wednesday, October 5th 2022, 2:35:36 pm
 ---
@@ -10,6 +10,7 @@ date created: Wednesday, October 5th 2022, 2:35:36 pm
 - [[@Generalizing Adversarial Explanations with Grad-CAM]]
 - Chakraborty, Tanmay, Utkarsh Trehan, Khawla Mallat, and Jean-Luc Dugelay. “Generalizing Adversarial Explanations with Grad-CAM.” In _2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)_, 186–92. New Orleans, LA, USA: IEEE, 2022. [https://doi.org/10.1109/CVPRW56347.2022.00031](https://doi.org/10.1109/CVPRW56347.2022.00031).
 - [Adversarial Learning](Adversarial%20Learning.md)
+
 ## Intro
 - The drawback of [Grad-CAM](Grad-CAM.md) is that it cannot be used to generalize CNN behaviour.
 - extends [[Grad-CAM]] from example-based explanations to a method for explaining global model behaviour
@@ -23,10 +24,12 @@ date created: Wednesday, October 5th 2022, 2:35:36 pm
 - As a result, we observed a global pattern displayed by all models. The shifting in the region of participation can be defined as when a model sees adversarial examples. Some parts of the input image no longer participate in the decision-making, while new parts do participate.
 - These changes are not deterministic, and given an adversarial example, there is no way to tell how it will affect the shift
 - [FGSM](FGSM.md)
+
 ## New Metrics
 - [Normalized Inverted Structural Similarity Index](Normalized%20Inverted%20Structural%20Similarity%20Index.md)
 - [Mean Observed Dissimilarity](Mean%20Observed%20Dissimilarity.md)
 - [Variation in Dissimilarity Variation in Dissimilarity](Variation%20in%20Dissimilarity%20Variation%20in%20Dissimilarity.md)
+
 ## Face Dataset Case Study
 - [VGGFace2](VGGFace2.md)
 - First, we preprocess the dataset to align and crop the faces. Then, the dataset is split into 80% training, 10% testing, and 10% validation sets.
@@ -43,12 +46,14 @@ date created: Wednesday, October 5th 2022, 2:35:36 pm
 - We also find that deep networks perform better than wide networks for similar shifts
 - The main idea, that is examined here, is that the lower the shift in distribution, more the model is robust to adversarial attacks
 - This indicates that VGG16 is a stable model for this task, over the other models.
+
 ## Observations
 - We see a shift in the focus of the model in different directions, sometimes backgrounds get highlighted, other times, participation region expands or shrinks.
 - Deeper models are much robust to this changes, for similar amount of shift, deeper models provide better performance than wider models.
 - neural networks fail because of a shifting behaviour in the region of participation to the decision-making, when the model sees adversarial examples, its focus changes and it now sees a different hidden representation
 - The main observation to keep in mind is, as ϵ increases, the dissimilarity increases, indicating that the focus of the model is diverted when it is presented an adversarial example, this value indicates that the more the examples differ, the more likely the model will fail.
 - We can observe a pattern that wide models fail more than deep models as the ϵ increases
+
 ## Images
 - ![Pasted image 20221005143610](images/Pasted%20image%2020221005143610.png)
 - ![Pasted image 20221005143659](images/Pasted%20image%2020221005143659.png)

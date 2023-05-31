@@ -1,7 +1,7 @@
 ---
 title: Contributions of Shape, Texture, and Color in Visual Recognition Abstract
 
-tags: mastersthesis explainability 
+tags: explainability explainability 
 date modified: Monday, November 7th 2022, 4:21:01 pm
 date created: Saturday, November 5th 2022, 12:37:28 pm
 ---

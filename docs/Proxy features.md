@@ -6,14 +6,13 @@ date modified: Monday 6th March 2023, Mon
 date created: Monday 6th March 2023, Mon
 ---
 
-# Proxy features
+# Proxy Features
 ```toc
 ```
 
 - there may be correlated features with sensitive ones that can induce bias even when the sensitive features are not present in the dataset.
 
 ## Backlinks
-
 > - [Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI](Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md)
 >   - [[Proxy features]]
 

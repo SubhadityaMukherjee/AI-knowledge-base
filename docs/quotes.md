@@ -8203,7 +8203,7 @@ not."
 and indiscriminate action."
 
 - "Since we have 8 hours to fill, we fill 8 hours. If we had 15, we would fill
-15. If we have an emergency and need to suddenly leave work in 2 hours but have
+1. If we have an emergency and need to suddenly leave work in 2 hours but have
 pending deadlines, we miraculously complete those assignments in 2 hours."
 
 - "Parkinson's  Law dictates that a task will swell in (perceived) importance and
@@ -15160,4 +15160,6 @@ us"
 - "So you think that zero was there waiting for us when humans came into being, like the flowers and the stars? You should have more respect for human progress. We made the zero, through great pain and struggle."
 
 - "Attention is the beginning of devotion"
+
+- "Sometimes the things you hate are the things you need"
 

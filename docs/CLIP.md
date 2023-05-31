@@ -16,3 +16,26 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - zero-shot classifier
 - they convert all of a dataset’s classes into captions such as “a photo of a dog” and predict the class of the caption CLIP estimates best pairs with a given image
 
+
+
+
+
+---
+title: CLIP
+tags: refactor
+---
+```toc
+```
+## CLIP
+- is a neural network trained on a variety of (image, text) pairs
+- Using CLIP, that can be instructed in natural language to predict the most relevant text snippet, given an image, the model has recently merged as a successful representation learner for images
+- Concretely, CLIP embeddings have several desirable properties
+- they are robust to image distribution shift, have impressive zero-shot capabilities and have been fine-tuned to achieve state-of-theart results
+- the CLIP image embedding decoder module is combined with a prior model, which generates possible CLIP image embeddings from a given text caption
+
+## Backlinks
+
+> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
+>   - [[CLIP]]
+
+_Backlinks last generated 2023-05-31 15:18:49_

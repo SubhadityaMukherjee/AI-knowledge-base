@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "32158f702137bdf2",
+        "id": "bba2eb240508909b",
         "type": "tabs",
         "children": [
           {
-            "id": "46b8398caf1084f5",
+            "id": "3e19e9db9779699f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Generalizing Adversarial Explanations with Grad-CAM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "model-ag",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Generalizing Adversarial Explanations with Grad-CAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 257.5024719238281
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Generalizing Adversarial Explanations with Grad-CAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +116,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Generalizing Adversarial Explanations with Grad-CAM.md"
               }
             }
           },
@@ -168,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,50 +186,50 @@
       "obsidian-gallery:Gallery": true
     }
   },
-  "active": "46b8398caf1084f5",
+  "active": "3e19e9db9779699f",
   "lastOpenFiles": [
-    "gen_quotes.md",
-    "Quotes.md",
-    "quotes.html",
-    "quotes.md",
+    "pixelattribution.md",
+    "Grad-CAM.md",
+    "Beware of Inmates Running the Asylum.md",
+    "CAM.md",
+    "Comparing Data Augmentation Strategies for Deep Image Classification.md",
+    "Vision Explainibility.md",
+    "Real Time Image Saliency for Black Box Classifiers.md",
+    "Salience Map.md",
+    "DeepLIFT.md",
+    "Generalizing Adversarial Explanations with Grad-CAM.md",
+    "Integrated Gradients.md",
+    "Sanity Checks for Saliency Maps.md",
+    "Chat GPT is Not All You Need.md",
     "index.md",
-    "RandAugment.md",
+    "Flamingo.md",
+    "VisualGPT.md",
+    "Phenaki.md",
+    "Soundify.md",
+    "AudioLM.md",
+    "Jukebox.md",
+    "Whisper.md",
+    "ChatGPT.md",
+    "LaMDA.md",
+    "PEER.md",
+    "Meta AI Speech from Brain.md",
+    "Codex.md",
+    "images/img_p4_2.png",
+    "images/img_p10_2.png",
+    "images/img_p7_1.png",
+    "images/img_p2_1.png",
+    "images/img_p8_2.png",
+    "images/img_p8_1.png",
+    "images/img_p5_1.png",
+    "images/img_p4_1.png",
+    "images/img_p3_1.png",
+    "images/img_p11_1.png",
+    "quotes.html",
     "templates/random_quotes.html",
     "templates/quotes_index.html",
     "appjs.html",
-    "SAM-ResNet.md",
-    "Deep Visual Explanation.md",
-    "Cross Entropy.md",
-    "images/Pasted image 20230524140956.png",
-    "MIMD.md",
-    "SIMD.md",
-    "Proxy Attention.md",
-    "Explanation is not a Technical Term.md",
-    "images/Page12Image42.55803980601578_445.26651888696006-359.94635491537673_174.37303587724818.png",
-    "images/Page11Image28.503841911723242_69.0524207960309-390.09416045002604_526.8046627143713.png",
-    "Social Construction of XAI, do we need one definition to rule them all.md",
-    "Whos Thinking, A push for human centered evaluation of LLMs.md",
-    "The elephant in the interpretability room.md",
-    "images/Pasted image 20230522171557.png",
-    "images/Pasted image 20230522171529.png",
     "assets",
-    "Aleatoric.md",
-    "Epistemic.md",
-    "One cycle policy.md",
-    "Super-Convergence.md",
-    "AdamW.md",
-    "Embedding Human Knowledge into Deep Neural Network via Attention Map.md",
-    "Amsgrad.md",
-    "DeepLIFT.md",
-    "Grad-CAM.md",
-    "images/Pasted image 20230511184723.png",
-    "images/Pasted image 20230511184713.png",
-    "images/Pasted image 20230511184707.png",
-    "images/Pasted image 20230511184656.png",
-    "images/Pasted image 20230511184655.png",
-    "CAM.md",
     "Thesis Stuff.canvas",
-    "KeepAugment.md",
     "articles/Drafts",
     "articles/DL",
     "articles/untitled folder"

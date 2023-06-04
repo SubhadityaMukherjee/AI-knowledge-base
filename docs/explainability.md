@@ -108,6 +108,7 @@ tags: anchor
 - [Saliency using natural statistics.md](Saliency%20using%20natural%20statistics.md)
 - [Sanity Checks for Saliency Maps.md](Sanity%20Checks%20for%20Saliency%20Maps.md)
 - [ScoreCAM.md](ScoreCAM.md)
+- [Self Supervised Survey.md](Self%20Supervised%20Survey.md)
 - [Separation.md](Separation.md)
 - [Sharpness and Flatness.md](Sharpness%20and%20Flatness.md)
 - [Skewed data.md](Skewed%20data.md)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generalizing Adversarial Explanations with Grad-CAM.md",
+                "file": "Self Supervised Survey.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generalizing Adversarial Explanations with Grad-CAM.md",
+                "file": "Self Supervised Survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +81,14 @@
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
+            }
+          },
+          {
+            "id": "1c33c5e60ca92f7c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Generalizing Adversarial Explanations with Grad-CAM.md",
+                "file": "Self Supervised Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Generalizing Adversarial Explanations with Grad-CAM.md"
+                "file": "Self Supervised Survey.md"
               }
             }
           },
@@ -188,6 +196,19 @@
   },
   "active": "3e19e9db9779699f",
   "lastOpenFiles": [
+    "journals/2023-06-04.md",
+    "Generalizing Adversarial Explanations with Grad-CAM.md",
+    "images/pixelattribution_pixelattribution_img_p8_2.png",
+    "images/pixelattribution_pixelattribution_img_p8_1.png",
+    "images/pixelattribution_pixelattribution_img_p7_1.png",
+    "images/pixelattribution_pixelattribution_img_p5_1.png",
+    "images/pixelattribution_pixelattribution_img_p4_2.png",
+    "images/pixelattribution_pixelattribution_img_p4_1.png",
+    "images/pixelattribution_pixelattribution_img_p3_1.png",
+    "images/pixelattribution_pixelattribution_img_p2_1.png",
+    "images/pixelattribution_pixelattribution_img_p11_1.png",
+    "images/pixelattribution_pixelattribution_img_p10_2.png",
+    "Self Supervised Survey.md",
     "pixelattribution.md",
     "Grad-CAM.md",
     "Beware of Inmates Running the Asylum.md",
@@ -197,7 +218,6 @@
     "Real Time Image Saliency for Black Box Classifiers.md",
     "Salience Map.md",
     "DeepLIFT.md",
-    "Generalizing Adversarial Explanations with Grad-CAM.md",
     "Integrated Gradients.md",
     "Sanity Checks for Saliency Maps.md",
     "Chat GPT is Not All You Need.md",
@@ -212,18 +232,6 @@
     "ChatGPT.md",
     "LaMDA.md",
     "PEER.md",
-    "Meta AI Speech from Brain.md",
-    "Codex.md",
-    "images/img_p4_2.png",
-    "images/img_p10_2.png",
-    "images/img_p7_1.png",
-    "images/img_p2_1.png",
-    "images/img_p8_2.png",
-    "images/img_p8_1.png",
-    "images/img_p5_1.png",
-    "images/img_p4_1.png",
-    "images/img_p3_1.png",
-    "images/img_p11_1.png",
     "quotes.html",
     "templates/random_quotes.html",
     "templates/quotes_index.html",

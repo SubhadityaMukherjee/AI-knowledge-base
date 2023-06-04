@@ -128,7 +128,6 @@ tags: anchor
 - [MVGrasp.md](MVGrasp.md)
 - [Magic3D.md](Magic3D.md)
 - [Masked Autoencoders.md](Masked%20Autoencoders.md)
-- [Meta AI Speech from Brain.md](Meta%20AI%20Speech%20from%20Brain.md)
 - [Minerva.md](Minerva.md)
 - [Mixed chunk attention.md](Mixed%20chunk%20attention.md)
 - [Mobile Net.md](Mobile%20Net.md)

@@ -26,6 +26,7 @@ date created: Monday 6th March 2023, Mon
 - [[Accessibility]]
 - [[Interactivity]]
 - [[Privacy awareness]]
+
 ## On the Tradeoff between Interpretability and Performance
 - it is not necessarily true that models that are more complex are inherently more accurate
 - It is in this situation that the trade-off between performance and interpretability can be observed
@@ -41,6 +42,7 @@ date created: Monday 6th March 2023, Mon
 - black-box models such as those reviewed in this work (namely, support vector machines, ensemble methods and neural networks) should be selected only when their superior modeling capabilities fit best the characteristics of the problem at hand.
 - If a black-box model has been chosen, the third guideline establishes that ethics-, fairnessand safetyrelated impacts should be weighed
 - rethink interpretability in terms of the cognitive skills, capacities and limitations of the individual human
+
 ## Fairness and Discrimination
 - [[Individual fairness]]
 - [[Group fairness]]
@@ -52,13 +54,13 @@ date created: Monday 6th March 2023, Mon
 - [[Independence]]
 - [[Separation]]
 - [[Sufficiency]]
+
 ## Accountability
 - [[Auditability]]
 - [[Minimization and reporting of negative impacts]]
 - [[Redress]]
 
 ## Backlinks
-
 > - [Explainability Taxonomy](Explainability Taxonomy.md)
 >   - [[Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI]]
 

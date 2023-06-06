@@ -39,12 +39,7 @@ date created: Monday 22nd May 2023, Mon
 - Deng et al. (2018) propose variational attention as an alternative to the soft attention of Bahdanau et al. (2015), arguing that the latter is not alignment, only an approximation thereof
 - additional benefit of allowing posterior alignments, conditioned on the input and the output sentences.
 
-## Saliency vs. Attention
-- Input saliency methods are addressing the goal head-on: they reveal why one particular model prediction was made in terms of how relevant each input word was to that prediction
-- input saliency methods typically take the entire computation path into account, all the way from the input word embeddings to the target output prediction value
-- Attention weights do not: they reflect, at one point in the computation, how much the model attends to each input representation, but those representations might already have mixed in information from other inputs
-- Ironically, attention-as-explanation is sometimes evaluated by comparing it against gradient-based measures, which again begs the question why we wouldn't use those measures in the first place
-- In terms of efficiency, it is true that for attention only a forward pass is required, but many other methods discussed at most require a forward and then a backward pass, which is still extremely efficient.
+- [[Saliency vs Attention]]
 
 ## Attention is not not Interesting
 - Voita et al. (2019) and Michel et al. (2019) analyze the role of attention heads in the Transformer architecture and identify a few distinct functions they have, and Strubell et al. (2018) train attention heads to perform dependency parsing, adding a linguistic bias

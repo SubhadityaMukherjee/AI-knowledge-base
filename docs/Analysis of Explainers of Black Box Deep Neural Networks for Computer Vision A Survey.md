@@ -11,6 +11,7 @@ date created: Wednesday, October 12th 2022, 4:11:22 pm
 - Vanessa Buhrmester , David Münch and Michael Arens
   ```toc
   ```
+
 ## Explaining Systems
 - [GAM](GAM.md)
 - [Partial Dependence Plot](Partial%20Dependence%20Plot.md)
@@ -21,6 +22,7 @@ date created: Wednesday, October 12th 2022, 4:11:22 pm
 - [Causability](Causability.md)
 - [Bayesian Rule List](Bayesian%20Rule%20List.md)
 - [TREPAN](TREPAN.md)
+
 ## Selected DNN Explainers
 - [Counterfactual Impact Evaluation](Counterfactual%20Impact%20Evaluation.md)
 - [DeconvNet](DeconvNet.md)
@@ -42,7 +44,6 @@ date created: Wednesday, October 12th 2022, 4:11:22 pm
 - ![[images/Pasted image 20230306125025.png]]
 
 ## Backlinks
-
 > - [Explainability Taxonomy](Explainability Taxonomy.md)
 >   - [[Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey]]
 

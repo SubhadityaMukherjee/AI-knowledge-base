@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bba2eb240508909b",
+        "id": "a3548f7f9207d5b7",
         "type": "tabs",
         "children": [
           {
-            "id": "3e19e9db9779699f",
+            "id": "3c80f274fed8065a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Self Supervised Survey.md",
+                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self Supervised Survey.md",
+                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Self Supervised Survey.md",
+                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Self Supervised Survey.md"
+                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md"
               }
             }
           },
@@ -194,10 +194,37 @@
       "obsidian-gallery:Gallery": true
     }
   },
-  "active": "3e19e9db9779699f",
+  "active": "3c80f274fed8065a",
   "lastOpenFiles": [
-    "journals/2023-06-04.md",
-    "Generalizing Adversarial Explanations with Grad-CAM.md",
+    "AdamW.md",
+    "XAI.md",
+    "Supervised Learning Formulation.md",
+    "Image Data Augmentation Survey.md",
+    "Explainability Taxonomy.md",
+    "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
+    "Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md",
+    "Feature Augmentation.md",
+    "Deep Generative Models.md",
+    "Auto Augment.md",
+    "Augmentation-wise Weight Sharing strategy.md",
+    "Fast AutoAugment.md",
+    "Population Based Augmentation.md",
+    "RandAugment.md",
+    "- Fast AutoAugment.md",
+    "Image Manipulation.md",
+    "ManifoldMix.md",
+    "Fmix.md",
+    "Image Mix.md",
+    "Image Erasing.md",
+    "Image Generation with Inpainting.md",
+    "Learning from Visual-Audio Correspondence.md",
+    "FeatMatch.md",
+    "Weight Decay Vs L2 Regularization.md",
+    "pixelattribution.md",
+    "Self Supervised Survey.md",
+    "images/img_p9_1.png",
+    "images/img_p1_1.png",
+    "images/Pasted image 20230310115248.png",
     "images/pixelattribution_pixelattribution_img_p8_2.png",
     "images/pixelattribution_pixelattribution_img_p8_1.png",
     "images/pixelattribution_pixelattribution_img_p7_1.png",
@@ -205,33 +232,6 @@
     "images/pixelattribution_pixelattribution_img_p4_2.png",
     "images/pixelattribution_pixelattribution_img_p4_1.png",
     "images/pixelattribution_pixelattribution_img_p3_1.png",
-    "images/pixelattribution_pixelattribution_img_p2_1.png",
-    "images/pixelattribution_pixelattribution_img_p11_1.png",
-    "images/pixelattribution_pixelattribution_img_p10_2.png",
-    "Self Supervised Survey.md",
-    "pixelattribution.md",
-    "Grad-CAM.md",
-    "Beware of Inmates Running the Asylum.md",
-    "CAM.md",
-    "Comparing Data Augmentation Strategies for Deep Image Classification.md",
-    "Vision Explainibility.md",
-    "Real Time Image Saliency for Black Box Classifiers.md",
-    "Salience Map.md",
-    "DeepLIFT.md",
-    "Integrated Gradients.md",
-    "Sanity Checks for Saliency Maps.md",
-    "Chat GPT is Not All You Need.md",
-    "index.md",
-    "Flamingo.md",
-    "VisualGPT.md",
-    "Phenaki.md",
-    "Soundify.md",
-    "AudioLM.md",
-    "Jukebox.md",
-    "Whisper.md",
-    "ChatGPT.md",
-    "LaMDA.md",
-    "PEER.md",
     "quotes.html",
     "templates/random_quotes.html",
     "templates/quotes_index.html",

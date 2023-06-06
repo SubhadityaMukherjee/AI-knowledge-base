@@ -1,0 +1,17 @@
+---
+title: Moment Exchange
+tags: augment
+---
+```toc
+```
+
+## Moment Exchange
+- encouraging the models to utilize the moment information of latent features 
+- Specifically, the moments of the learned features of one training image are re- placed by those of another.
+
+## Backlinks
+
+> - [](Feature Augmentation.md)
+>   - [[Moment Exchange]]
+
+_Backlinks last generated 2023-06-06 17:04:06_

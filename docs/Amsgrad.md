@@ -9,7 +9,8 @@ date created: Thursday 11th May 2023, Thu
 # Amsgrad
 ```toc
 ```
-## Modified [[Adam]] 
+
+## Modified [[Adam]]
 - By analyzing the proof of convergence for the Adam optimizer, they spotted a mistake in the update rule that could cause the algorithm to converge to a sub-optimal point
 - update rule of Adam
 ```python
@@ -33,7 +34,6 @@ lr / sqrt(avg_squared)
 - life problems. Actual tests show that when those avg_squared gradients want to decrease, it's best for the final result to do so.
 
 ## Backlinks
-
 > - [AdamW](AdamW.md)
 >   - [[Amsgrad]]
 

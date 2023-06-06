@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2ff19f21d137ef76",
+        "id": "7084ed8a67092eb4",
         "type": "tabs",
         "children": [
           {
-            "id": "be94a478a7bb0237",
+            "id": "e2e67a1c5843fc5c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Galactica.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/Galactica.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/Galactica.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -121,9 +115,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "docs/Galactica.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -140,9 +132,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be94a478a7bb0237",
+  "active": "e2e67a1c5843fc5c",
   "lastOpenFiles": [
+    "Self Supervised Survey.md",
+    "docs/Self Supervised.md",
     "docs/pixelattribution.md",
+    "docs/images/img_p11_1.png",
+    "docs/Galactica.md",
     "docs/Minerva.md",
     "docs/Meta AI Speech from Brain.md",
     "docs/LaMDA.md"

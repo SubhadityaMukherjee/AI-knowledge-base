@@ -35,4 +35,5 @@ tags: anchor
 - [Structure Based Pruning.md](Structure%20Based%20Pruning.md)
 - [Tuning Model Flexibility.md](Tuning%20Model%20Flexibility.md)
 - [VariationalRecurrent Dropout.md](VariationalRecurrent%20Dropout.md)
+- [Weight Decay Vs L2 Regularization.md](Weight%20Decay%20Vs%20L2%20Regularization.md)
 - [Xavier Initialization.md](Xavier%20Initialization.md)

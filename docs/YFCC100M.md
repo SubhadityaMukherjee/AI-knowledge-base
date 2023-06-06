@@ -1,0 +1,17 @@
+---
+title: YFCC100M
+tags: dataset
+---
+```toc
+```
+## YFCC100M
+- Yahoo Flickr Creative Commons 100 Million Dataset 
+- large public multimedia collection from Flickr, consisting of 100 million media data, of which around 99.2 million are images and 0.8 million are videos 
+- statistics on hashtags used in the YFCC100M dataset show that the data distribution is severely unbalanced
+
+## Backlinks
+
+> - [Self Supervised Survey](Self Supervised Survey.md)
+>   - [[YFCC100M]]
+
+_Backlinks last generated 2023-06-06 17:04:06_

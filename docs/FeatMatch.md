@@ -1,0 +1,17 @@
+---
+title: FeatMatch
+tags: augment
+---
+```toc
+```
+
+## FeatMatch
+- novel learned feature-based refinement and augmentation method to produce a varied set of complex transformations 
+- utilize information from both within-class and across-class prototypical repre- sentations
+
+## Backlinks
+
+> - [](Feature Augmentation.md)
+>   - [[FeatMatch]]
+
+_Backlinks last generated 2023-06-06 17:04:06_

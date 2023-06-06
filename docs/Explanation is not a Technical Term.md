@@ -88,13 +88,9 @@ date created: Wednesday 24th May 2023, Wed
 - the hospital where the image was taken [17]
 - This explanation is true to the model but the model is faulty. The explanation is accurate but the model is not.
 
-### Elaborateness
-- depth or detail of the explanation
-- a doctor may tell a patient that their diagnosis looks "similar to" another diagnosis
-- This is a "shallow" explanation; it does not point to the root cause of the diagnosis
+- [[Elaborateness]]
 
-### Faithfulness
-- how well the explanation describes the underlying model. This is also known as model completeness [18]
+- [[Faithfulness]]
 
 ## Trusted but not Trustworthy: A New Dark Pattern
 - One of the dominant themes in XAI is the notion of trust

@@ -1,9 +1,9 @@
 ---
 title: Self Supervised Survey
 
-tags: explainability clean
-date modified: Sunday 4th June 2023, Sun
-date created: Sunday 4th June 2023, Sun
+tags: ssl
+date modified: Tuesday 6th June 2023, Tue
+date created: Tuesday 6th June 2023, Tue
 ---
 
 # Self Supervised Survey
@@ -11,384 +11,90 @@ date created: Sunday 4th June 2023, Sun
 ```
 
 ## Abstract
-- Large-scale labeled data are generally required to train deep neural networks inorder to obtain better performance in visual feature learning from images or videosfor computer vision applications
-- as a subset of unsupervised learning methods, self-supervised learning methods are proposed to learn general image and video features from large-scale unlabeled data without using any human-annotated labels
+- Large-scale labeled data are generally required to train deep neural networks in order to obtain better performance in visual feature learning from images or videos for computer vision applications 
+- as a subset of unsupervised learning methods, self-supervised learning methods are proposed to learn general image and video features from large-scale unlabeled data without using any human-annotated labels 
 
 ## Motivation
-- The performance of deep convolutional neural networks (ConvNets) greatlydepends on their capability and the amount of training data.
-- collection and annotation of large-scale datasets are time-consuming and expensive
-- Compared to image datasets, collection and annotation of video datasets are moreexpensive due to the temporal dimension
-- To avoid time-consuming and expensive data annotations, many self-supervisedmethods were proposed to learn visual features from large-scale unlabeled imagesor videos without using any human annotations
-- During the self-supervised training phase, a predefined pretext task is designedfor ConvNets to solve, and the pseudo labels for the pretext task are automaticallygenerated based on some attributes of data
-- Then the ConvNet is trained to learn object functions of the pretext task
-- After the self-supervised training finished, the learned visual features can befurther transferred to downstream tasks (especially when only relatively small dataavailable) as pretrained models to improve performance and overcome over-fitting.
-- shallow layers capture general low-level features like edges, corners, and textureswhile deeper layers capture task related high-level features
+- The performance of deep convolutional neural networks (ConvNets) greatly depends on their capability and the amount of training data. 
+- collection and annotation of large-scale datasets are time-consuming and expensive 
+- Compared to image datasets, collection and annotation of video datasets are more expensive due to the temporal dimension 
+- To avoid time-consuming and expensive data annotations, many self-supervised methods were proposed to learn visual features from large-scale unlabeled images or videos without using any human annotations 
+- During the self-supervised training phase, a predefined pretext task is designed for ConvNets to solve, and the pseudo labels for the pretext task are automatically generated based on some attributes of data 
+- Then the ConvNet is trained to learn object functions of the pretext task 
+- After the self-supervised training finished, the learned visual features can be further transferred to downstream tasks (especially when only relatively small data available) as pretrained models to improve performance and overcome over- fitting. 
+- shallow layers capture general low-level features like edges, corners, and textures while deeper layers capture task related high-level features 
 
-## Pseudo Label
-- Pseudo labels are automatically generated labels based on data attributes forpretext tasks
+- [[Pseudo Label]]
 
-## Pretext Task
-- pre-designed tasks
-- visual features are learned by learning objective functions of pretext tasks
+- [[Pretext Task]]
 
-## Downstream Task
-- computer vision applications that are used to evaluate the quality of featureslearned by self-supervised learnin
-- training data are scarce
-- In general, human-annotated labels are needed to solve the downstream tasks.
-- in some applications, the downstream task can be the same as the pretext taskwithout using any human-annotated labels.
+- [[Downstream Task]]
 
-## Weakly-supervised Learning
-- learning methods to learn with coarse-grained labels or inaccurate labels
-- The cost of obtaining weak supervision labels is generally much cheaper than fine-grained labels for supervised methods.
+- [[Weakly-supervised Learning]]
 
 ## FORMULATION OF DIFFERENT LEARNING SCHEMAS
+- [[Supervised Learning Formulation]]
 
-## Supervised Learning Formulation
-- given a dataset X, for each data Xi in X, there is a corresponding human-annotatedlabel Yi
-- For a set of N labeled training data D = {Xi}Ni=0, the training loss function is definedas
-- data collection and annotation usually are expensive and may require special skills
+- [[Semi-Supervised Learning Formulation]]
 
-## Semi-Supervised Learning Formulation
-- given a small labeled dataset X and a large unlabeled dataset Z, for each data Xi inX, there is a corresponding human-annotated label Yi
-- ![img_p3_1](img_p3_1.png)
+- [[Weakly Supervised Learning Formulation]]
+- [[Self-supervised Learning]]
 
-- For a set of N labeled training data
+## NN
+- [[Spatiotemporal Convolutional Neural Network]]
 
-## Weakly Supervised Learning Formulation
-- For weakly supervised visual feature learning, given a dataset X, for each data Xi inX, there is a corresponding coarse-grained label Ci.
-- ![img_p3_2](img_p3_2.png)
+## Pretext Tasks
+- [[Pretext Tasks]]
 
-## Self-supervised Learning
-- Compared to supervised learning methods which require a data pair Xi and Yi whileYi is annotated by human labors, self-supervised learning also trained with data Xialong with its pseudo label Pi while Pi is automatically generated for a pre-definedpretext task without involving any human annotation
-- The pseudo label Pi can be generated by using attributes of images or videos suchas the context of images [18], [19], [20], [36], or by traditional hand-designedmethods [49], [50], [51].
-- ![img_p4_1](img_p4_1.png)
-- As long as the pseudo labels P are automatically generated without involvinghuman annotations, then the methods belong to self-supervised learning.
+## Datasets
+- [[Places]]
 
-## Spatiotemporal Convolutional Neural Network
-- 3D convolution operation was first proposed in 3DNet [62] for human actionrecognition
-- Compared to 2DConvNets which individually extract the spatial information ofeach frame and then fuse them together as video features, 3DConvNets are able tosimultaneously extract both spatial and temporal features from multiple frames.
-- VGG-like 11-layer 3DConvNet designed for human action recognition
-- The network contains 8 convolutional layers, and 3 fully connected layers. All thekernels have the size of 3 x 3 x 3, the convolution stride is fixed to 1 pixel
-- The input of C3D is 16 consecutive RGB frames where the appearance and temporalcues from 16-frame clips are extracted
-- However, the paper of long-term temporal convolutions (LTC) [67] argues that, for# the long-lasting actions, 16 frames are insufficient to represent whole actions whichlast longer.
+- [[Places365]]
 
-## Commonly Used Pretext Tasks
+- [[SUNCG]]
 
-## Image Generation
-- Visual features are learned through the process of image generation tasks.
-- image colorization
-- super resolution
-- inpainting
-- image generation with Generative Adversarial Networks (GANs)
+- [[SVHN]]
 
-## Video Generation
-- Visual features are learned through the process of video generation tasks
-- video prediction
+- [[STL-10]]
+- ![img_p11_1](img_p11_1.png) 
 
-## Context Similarity
-- between image patches
-- image clustering based methods
-- graph constraint-based methods
+- [[YFCC100M]]
 
-## Spatial Context Structure
-- based on the spatial relations among image patches
-- image jigsaw puzzle
-- context prediction
-- geometric transformation recognition
+- [[SceneNet RGB-D]]
+- [[Moment in Time]]
 
-## Temporal Context Structure
-- The temporal order from videos is used as supervision signal
-- verify whether the input frame sequence in correct order
-- recognize the order of the frame sequence
+- [[Kinetics]]
 
-## Free Semantic Label-based Method
-- automatically generated semantic labels
-- The labels are generated by traditional hardcode algorithms
-- game engines
-- moving object segmentation
-- contour detection
-- relative depth prediction
+- [[AudioSet]]
 
-## Cross Modal-based Methods
-- train ConvNets to verify whether two different channels of input data arecorresponding to each other
-- Visual-Audio Correspondence Verification
-- RGB-Flow Correspondence Verification
-- egomotion
+- [[KITTI]]
 
-## Semantic Segmentation
-- task of assigning semantic labels to each pixel in images
-- autonomous driving, human-machine interaction, and robotic
-- Fully Convolutional Network (FCN) [4], DeepLab [5], PSPNet [6] and datasets suchas PASCAL VOC [96], CityScape [97], ADE20K [98].
-- FCN [4] is a milestone work for semantic segmentation since it started the era ofapplying fully convolution network (FCN) to solve this task
-- When using semantic segmentation as downstream task to evaluate the quality ofimage features learned by selfsupervised learning methods, the FCN is initializedwith the parameters trained with the pretext task and fine-tuned on the semanticsegmentation dataset, then the performance on the semantic segmentation task isevaluated and compared with that of other self-supervised methods.
+- [[UCF101]]
 
-## Object Detection
-- localizing the position of objects in images and recognizing the category of theobjects
-- MSCOCO [99] and OpenImage [14]
-- When using object detection as downstream task to evaluate the quality of theself-supervised image features, networks that trained with the pretext task onunlabeled large data are served as the pre-trained model for the Fast-RCNN [2] andthen fine-tuned on object detection datasets, then the performance on the objectdetection task is evaluated to demonstrate the generalization ability of self-supervised learned features.
+- [[HMDB51]] 
 
-## Image Classification
-- When choosing image classification as a downstream task to evaluate the quality ofimage features learned from self-supervised learning methods, the self-supervisedlearned model is applied on each image to extract features which then are used totrain a classifier such as Support Vector Machine (SVM) [105].
+## Other Tasks
+- [[Image Generation with Inpainting]]
 
-## Human Action Recognition
-- The action recognition task is often used to evaluate the quality of video featureslearned by self-supervised learning methods
-- first trained on unlabeled video data with pretext tasks, then it is fine-tuned onaction recognition datasets with human annotations to recognize the actions
+- [[Image Generation with Super Resolution]]
 
-## # Kernel Visualization
-- Qualitatively visualize the kernels of the first convolution layer learned with thepretext tasks and compare the kernels from supervised model
-- similarity of the kernels learned by supervised and selfsupervised models arecompared to indicate the effectiveness of self-supervised methods
+- [[Image Generation with Colorization]]
 
-## Feature Map Visualization
-- Feature maps are visualized to show the attention of networks
-- Larger activation represents the neural network pays more attention to thecorresponding region in the imag
-- eature maps are usually qualitatively visualized and compared with that of super-vised models [28], [36].
+- [[Learning with Context Similarity]]
 
-## Nearest Neighbor Retrieval
-- images with similar appearance usually are closer in the feature space
-- The nearest neighbor method is used to find the top K nearest neighbors from thefeature space of the features learned by the self-supervised learned model [40],[41], [43]
+- [[Learning with Spatial Context Structure]]
 
-## Places
-- The Places dataset [107] is proposed for scene recognition and contains more than2.5 million images covering more than 205 scene categories with more than 5, 000images per category.
+- [[Learning with Labels Generated by Game Engines]]
 
-## # Places365
-- 2nd generation of the Places databas
-- high-level visual understanding tasks, such as scene context, object recognition,action and event prediction, and theoryof-mind inference
-- more than 10 million images covering more than 400 classes and 5, 000 to 30, 000training images per class.
+- [[Learning with Labels Generated by Hard-code Programs]]
 
-## SUNCG
-- UNCG dataset is a large synthetic 3D scene repository for indoor scenes which con-sists of over 45, 000 different scenes with manually created realistic room andfurniture layouts
-- The synthetic depth, object level semantic labels, and volumetric ground truth areavailable
+- [[Learning from Video Colorization]]
 
-## SVHN
-- recognizing digits and numbers in natural scene images which obtained fromhouse numbers from Google Street View images
-- 600,000 images and all digits have been resized to a fixed resolution of 32 x 32pixel
+- [[Learning from Video Prediction]]
 
-## STL-10
-- specifically designed for developing unsupervised feature learning
-- 500 labeled training images, 800 testing images, and 100, 000 unlabeled images# covering 10
-- ![img_p11_1](img_p11_1.png)
-- classes which include airplane, bird, car, cat, deer, dog, horse, monkey, ship, andtruck.
+- [[Learning from RGB-Flow Correspondence]]
 
-## YFCC100M
-- Yahoo Flickr Creative Commons 100 Million Dataset
-- large public multimedia collection from Flickr, consisting of 100 million media data,of which around 99.2 million are images and 0.8 million are videos
-- statistics on hashtags used in the YFCC100M dataset show that the datadistribution is severely unbalanced
+- [[Learning from Visual-Audio Correspondence]]
 
-## SceneNet RGB-D
-- large indoor synthetic video dataset which consists of 5 million rendered RGB-Dimages from over 15K trajectories in synthetic layouts with random but physicallysimulated object poses
-- pixellevel annotations for scene understanding problems such as semanticsegmentation, instance segmentation, and object detection, and also forgeometric computer vision problems such as optical flow, depth estimation, camerapose estimation, and 3D reconstruction
-
-## Moment in Time
-- large balanced and diverse dataset
-- video under-standing
-- 1 million video clips that cover 339 classes, and each video lasts around 3 seconds
-- average number of video clips for each class is 1, 757 with a median of 2, 775
-- videos that capturing visual and/or audible actions, produced by humans, animals,objects or nature
-
-## Kinetics
-- large-scale, highquality dataset for human action recognition in videos
-- 500, 000 video clips covering 600 human action classes with at least 600 videoclips for each action class
-- Each video clip lasts around 10 seconds and is labeled with a single action class.
-
-## AudioSet
-- 2, 084, 320 human-labeled 10-second sound clips drawn from YouTube videoscovers ontology of 632 audio event classes
-- The event classes cover a wide range of human and animal sounds, musicalinstruments and genres, and common everyday environmental sound
-- selfsupervised learning from video and audio consistence
-
-## KITTI
-- collected from driving a car around a city which equipped with various sensorsincluding high-resolution RGB camera, grayscale stereo camera, a 3D laserscanner, and highprecision GPS measurements and IMU accelerations from acombined GPS/IMU system
-- Videos with various modalities captured by these sensors are available in thisdataset.
-
-## UCF101
-- UCF101
-- widely used video dataset for human action recognition
-- 13, 370 video clips with more than 27 hours belonging to 101 categories in thisdataset
-- spatial resolution of 320 x 240 pixels and 25 FPS frame rate
-- dataset has been widely used for evaluating the performance of human actionrecognition
-
-## Comparing Methods
-- ![img_p14_1](img_p14_1.png)
-
-## HMDB51
-- smaller video dataset for human action recognition
-- 7,000 video clips in this dataset belong to 51 human action categories
-- videos in HMDB51 dataset have 320 x 240 pixels spatial resolution and 30 FPSframe rate
-- the self-supervised models are fine-tuned on the dataset to evaluate the quality ofthe learned video features.
-
-## Image Generation with Inpainting
-- ![img_p15_1](img_p15_1.png)
-- Image inpainting is a task of predicting arbitrary missing regions based on the restof an image
-- To correctly predict missing regions, networks are required to learn the commonknowledge including the color and structure of the common objects
-- Only by knowing this knowledge, networks are able to infer missing regions basedon the rest part of the image.
-
-## Image Generation with Super Resolution
-- Image super-resolution (SR) is a task of enhancing the resolution of images
-- With the help of fully convolutional networks, finer and realistic high-resolutionimages can be generated from low-resolution images
-- perceptual loss which consists of an adversarial loss and a content loss
-- With the perceptron loss, the SRGAN is able to recover photo-realistic textures fromheavily downsampled images and show significant gains in perceptual quality.
-- The networks for image super-resolution task are able to learn the semantic featuresof images
-
-## Image Generation with Colorization
-- Image colorization is a task of predicting a plausible color version of the photographgiven a gray-scale photograph as input
-- To correctly colorize each pixel, networks need to recognize objects and to grouppixels of the same part together. Therefore, visual features can be learned in theprocess of accomplishing this task.
-- Zhang et al. proposed to handle the uncertainty by posting the task as a clas-sification task and used class-rebalancing to increase the diversity of predictedcolors [18]
-- Some work specifically employs the image colorization task as the pretext for self-supervised image representation learning [18], [42], [82], [124]
-- After the image colorization training is finished, the features learned through thecolorization process are specifically evaluated on other downstream high-leveltasks with transfer learning.
-
-## Learning with Context Similarity
-- Clustering is a method of grouping sets of similar data in the same clusters
-- powerful ability of grouping data by using the attributes of the data
-- In the self-supervised scenario, the clustering methods mainly employed as a tool tocluster image data
-- A naive method would be to cluster the image data based on the hand-designedfeature such as HOG [140], SIFT [141], or Fisher Vector [49]
-- After the clustering, several clusters are obtained while the image within one clusterhas a smaller distance in feature space and images from different clusters have alarger distance in feature space
-- The smaller the distance in feature space, the more similar the image in theappearance in the RGB space
-- Then a ConvNet can be trained to classify the data by using the cluster assignmentas the pseudo class label
-- the ConvNet needs to learn the invariance within one class and the varianceamong different classes
-- Therefore, the ConvNet is able to learn semantic meaning of images
-- Firstly, the image is clustered into different clusters which the images from thesame cluster have smaller distance and images from different clusters have largerdistance
-- Then a ConvNet is trained to recognize the cluster assignment [34], [44] or torecognize whether two imaged are from same cluster [43]
-- DeepCluster iteratively clusters images with Kmeans and use the subsequentassignments as supervision to update the weights of the network
-
-## Learning with Spatial Context Structure
-- Images contain rich spatial context information such as the relative positions amongdifferent patches from an image which can be used to design the pretext task forselfsupervised learning
-- The pretext task can be to predict the relative positions of two patches from sameimage [41], or to recognize the order of the shuffled a sequence of patches fromsame image [20], [88], [89]
-- The context of full images can also be used as a supervision signal to design pretexttasks such as to recognize the rotating angles of the whole images [36]
-- ConvNets need to learn spatial context information such as the shape of the objectsand the relative positions of different parts of an object.
-- ![img_p18_1](img_p18_1.png)
-- Doersch et al. is one of the pi- (b) oneer work of using spatial context cues for self-supervised visual feature learning [41]
-- Random pairs of image patches are extracted from each image, then a ConvNet is# trained to recognize the relative positions of the two image patches
-- ConvNets need to recognize objects in images and learn the relationships amongdifferent parts of objects
-- To avoid the network learns trivial solutions such as simply using edges in patchesto accomplish the task, heavy data augmentation is applied during the trainingphase
-- Following this idea, more methods are proposed to learn image features by solvingmore difficult spatial puzzles [20], [27], [87], [88], [89]
-- Noroozi et al. attempted to solve an image Jigsaw puzzle with ConvNet [20]
-- The shuffled image patches are fed to the network which trained to recognize thecorrect spatial locations of the input patches by learning spatial context
-- Given 9 image patches from an image, there are 362, 880 (9!) possiblepermutations and a network is very unlikely to recognize all of them because of theambiguity of the task
-- To limit the number of permutations, usually, hamming distance is employed tochoose only a subset of permutations among all the permutations that with relativelarge hamming distance.
-- Only the selected permutations are used to train ConvNet to recognize thepermutation of shuffled image patches [20], [35], [88], [89]
-
-## Learning with Labels Generated by Game Engines
-- Given models of various objects and layouts of environments, game engines areable to render realistic images and provide accurate pixel-level labels
-- Since game engines can generate large-scale datasets with negligible cost, var-# ious game engines such as Airsim [142] and Carla [143] have been used to generatelarge-scale synthetic datasets with high-level semantic labels including depth,contours, surface normal, segmentation mask, and optical flow for training deepnetworks.
-- ![img_p20_1](img_p20_1.png)
-- However, due to the domain gap between synthetic and real-world images, theConvNet purely trained on synthetic images cannot be
-- directly applied to real-world images
-- the ConvNet trained with the semantic labels of the synthetic dataset can beeffectively applied to real-world images.
-- Ren and Lee proposed an unsupervised feature space domain adaptation methodbased on adversarial learning [30]
-- the network predicts surface normal, depth, and instance contour for the syntheticimages and a discriminator network D is employed to minimize the difference offeature space domains between real-world and synthetic data
-- the network is able to capture visual features for real-world images
-- ![img_p21_1](img_p21_1.png)
-- Jing et al. proposed to learn features by training a ConvNet to predict relative scenedepths while the labels are generated from optical flow [92].
-- No matter what kind of labels used to train ConvNets, the general idea of this typeof methods is to distill knowledge from hard-code detector
-- The hard-code detector can be edge detector, salience detector, relative detector,etc
-- no human-annotations are involved
-- one drawback is that the semantic labels generated by hard-code detector usually are very noisy which need to specifically cope with.
-
-## Learning with Labels Generated by Hard-code Programs
-- Applying hard-code programs is another way to automatically generate semanticlabels such as salience, foreground masks, contours, depth for images and videos
-- very large-scale datasets with generated semantic labels can be used for self-supervised feature learning
-- Various hard-code programs have been applied to generate labels for self-supervised learning methods include methods for foreground object segmentation[81], edge detection [47], and relative depth prediction [92]
-- Pathak et al. proposed to learn features by training a ConvNet to segmentforeground objects in each frame of a video while the label is the mask of movingobjects in videos [81]
-- Li et al. proposed to learn features by training a ConvNet for edge prediction whilelabels are motion edges obtained from flow fields
-- ![img_p23_1](img_p23_1.png)
-
-- After GAN-based methods obtained breakthrough results in image generation,researchers employed GAN to generate videos [85], [86], [144]
-- VideoGAN
-- To model the motion of objects in videos, a two-stream network is proposed forvideo generation while one stream is to model the static regions in in videos asbackground and another stream is to model moving object in videos as foreground
-- Videos are generated by the combination of the foreground and backgroundstreams
-- each random variable in the latent space represents one video clip
-- Tulyakov et al. argues that this assumption increases difficulties of the generation
-- MocoGAN
-- use the combination of two subspace to represent a video by disentangling thecontext and motions in videos [86]
-- context space which each variable from this space represents one identity
-- motion space while the trajectory in this space represents the motion of the identity
-- With the two sub-spaces, the network is able to generate videos with higherinception score.
-- The generator learns to map latent vectors from latent space into videos, whilediscriminator learns to distinguish the real world videos with generated videos.
-- After the video generation training on large-scale unlabeled dataset finished, theparameters of discriminator can be transferred to other downstream tasks [85].
-
-## Learning from Video Colorization
-- Temporal coherence
-- consecutive frames within a short time have similar coherent appearance
-- The coherence of color can be used to design pretext tasks for self-supervisedlearning
-- One way to utilize color coherence is to use video colorization as a pretext task forself-supervised video feature learning.
-- Video colorization is a task to colorize gray-scale frames into colorful frames
-- Vondrick et al. proposed to constrain colorization models to solve video colorizationby learning to copy colors from a reference frame
-- Given the reference RGB frame and a gray-scale image, the network needs to learnthe internal connection between the reference RGB frame and gray-scale image tocolorize it.
-- tackle video colorization by employing a fully convolution neural network
-- Tran et al. proposed an U-shape convolution neural network for video colorization[160]
-- The color coherence in videos is a strong supervision signal
-
-## Learning from Video Prediction
-- Video prediction is a task of predicting future frame sequences based on a limitednumber of frames of a video
-- To predict future frames, network must learn the change in appearance within agiven frame sequence
-
-### Un-LSTM
-- Due to the powerful ability of modeling long-term dynamic in videos, LSTM is usedin both the encoder and decoder [37].
-- Since its superior ability to model temporal dynamics, most of them use LSTM orLSTM variant to encode temporal dynamics in videos or to infer the future frames[37], [146], [147], [164], [165]
-- can be employed for self-supervised feature learning without using human-annotations
-- encoder-decoder pipeline in which the encoder to model spatial and temporalfeatures from the given video clips and the decoder to generate future framesbased on feature extracted by encoder.
-
-### MCnet
-- Encoder-Decoder Convolutional Neural Network and Convolutional LSTM for videoprediction
-- two encoders, one is Content Encoder to capture the spatial layout of an image, andthe other is Motion Encoder to model temporal dynamics within video clips.
-- The spatial features and temporal features are concatenated to feed to thedecoder to generate the next frame
-- separately modeling temporal and spatial features, this model can effectivelygenerate future frames recursively.
-- Videos consist of various lengths of frames which have rich spatial and temporal information
-- inherent temporal information within videos can be used as supervision signal forself-supervised feature learning
-- pretext tasks have been proposed by utilizing temporal context relations includingtemporal order verification [29], [40], [90] and temporal order recognition [27], [39]
-
-### Temporal order Verification
-- verify whether a sequence of input frames is in correct temporal order
-
-### Temporal order Recognition
-- recognize the order of a sequence of input frames.
-- Misra et al. proposed to use the temporal order verification as the pretext task tolearn image features from videos with 2DConvNet [40] which has two main steps:(1) The frames with significant motions are sampled from videos according to themagnitude of optical flow, (2) The sampled frames are shuffled and fed to thenetwork which is trained to verify whether the input data is in correct order.
-- successfully verify the order of the input frames, the network is required to capturethe subtle difference between the frames such as the movement of the person
-- semantic features can be learned through the process of accomplishing this task
-- the methods usually suffer from a massive dataset preparation step
-- The frame sequences that used to train the network are selected based on themagnitude of the optical flow, and the computation process of optical flow isexpensive and slow
-
-## Learning from RGB-Flow Correspondence
-- Optical flow encodes object motions between adjacent frames
-- RGB frames contain appearance information
-- The correspondence of the two types of data can be used to learn general features
-- This type of pretext tasks include optical flow estimation [151], [152] and RGB andoptical flow correspondence verification [23].
-- Sayed et al. proposed to learn video features by verifying whether the input RGBframes and the optical flow corresponding to each other
-- Two networks are employed while one is for extracting features from RGB input andanother is for extracting features from optical flow input [24]
-- network needs to capture mutual information between the two modalities
-- mutual information across different modalities usually has higher semantic meaning compared to information which is modality specific
-- Optical flow estimation is another type of pretext tasks
-
-### FlowNet
-- end-to-end convolution neural network for optical flow estimation from twoconsecutive frames [151], [152]
-- ConvNet needs to capture appearance changes of two frames
-
-## Self-supervised Feature Learning
-- automatically generated by simulators such as game engines or by hard-codeprograms without human annotation.
-
-## # Learning from Visual-Audio Correspondence
-- correspondence between visual and audio streams to design VisualAudioCorrespondence learning task [25], [26], [93], [154].
-- two subnetworks
-- vision
-- audio subnetwork
-- input of vision subnetwork is a single frame or a stack of image frames and thevision subnetwork learns to capture visual features of the input data
-- audio network is a 2DConvNet
-- input is the Fast Fourier Transform (FFT) of the audio from the video
-- Positive data are sampled by extracting video frames and audio from the same timeof one video, while negative training data are generated by extracting video framesand audio from different videos or from different times of one video
-- networks are trained to discover the correlation of video data and audio data toaccomplish this task.
-- inputs of the ConvNets are two kinds of data, the networks are able to learn the twokinds of information jointly by solving the pretext task.
-
-## Ego-motion
-- self-driving car
-- equipped with various sensors
-- large-scale egocentric video along with ego-motor signal can be easily collectedwith very low cost by driving the car in the street
-- the correspondence between visual signal and motor signal for self-supervisedfeature learning
-- correspondence between visual signal and motor signal for s
-- underline intuition of this type of methods is that a self-driving car can be treated asa camera moving in a scene
-- egomotion of the visual data captured by the camera is as same as that of the car
-- correspondence between visual data and egomotion can be utilized for self-supervised feature learning
-- inputs to the network are two frames sampled from an egocentric video within ashort time
-- labels for the network indicate the rotation and translation relation between the twosampled images which can be derived from the odometry data of the dataset.
-- ConvNet is forced to identify visual elements that are present in both sampledimages.
-- ego-motor signal is a type of accurate supervision signal
-- In addition to directly applying it for self-supervised feature learning, it has also been used for unsupervised learning of depth and ego-motion
+- [[Ego-motion]]
 

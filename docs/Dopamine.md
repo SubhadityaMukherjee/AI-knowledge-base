@@ -21,3 +21,5 @@ tags: brain, psychology
 - As learning takes place, the timing of activity will shift until it occurs upon the cue alone, with the expected reward having no additional effect.
 	- And should the expected reward not be received, dopamine activity drops, sending a negative feedback signal to the relevant parts of the brain, weakening the positive association
 
+
+

@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - continuous, hierarchical nature of these intermediate variables enables a simple gradient-based algorithm to perform complex, controllable generation tasks
 - successful control of Diffusion-LM for six challenging fine-grained control tasks
 
+
+

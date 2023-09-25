@@ -15,3 +15,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - where $x$ is an RGB image, $y$ is the respective label, $M$ is a binary mask of the patch of the image that will be dropped and $\odot$ represents element wise multiplication. The new training sample $\overset{\sim}x , \overset{\sim}y$ is created by combining two other training samples $x_{A}, y_{A}$ and $x_{B} , y_{B}$. To control the combination ratio $\lambda$, a sample from the $\beta(1,1)$ distribution is chosen. This combination is quite similar to [[Mixup]].
 ![[images/Pasted image 20230327152000.png]]
 
+
+

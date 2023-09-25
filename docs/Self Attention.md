@@ -42,3 +42,5 @@ def attention(K, V, Q):
 ## Ref
 - [perterbloem](https://peterbloem.nl/blog/transformers)
 
+
+

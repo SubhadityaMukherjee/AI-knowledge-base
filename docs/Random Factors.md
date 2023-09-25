@@ -12,3 +12,5 @@ tags: language
 	- Some sentences are weird with monkeys. Some situations are hard to draw so the picture is a bit odd.
 - When we analyze the data we have to take into account that there will be variation present because of these random factors.
 
+
+

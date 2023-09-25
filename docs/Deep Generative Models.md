@@ -14,9 +14,5 @@ tags: augment
 - [[StarGAN]]
 - [[StarGAN v2]]
 
-## Backlinks
 
-> - [Image Data Augmentation Survey](Image Data Augmentation Survey.md)
->   - [[Deep Generative Models]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

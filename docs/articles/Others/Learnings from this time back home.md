@@ -54,3 +54,5 @@ This is a time of change, and this trip was the period of rest between what my l
 50. The Pareto principle applies every single place
 51. Use your calendar a little more. It really helps out.
 
+
+

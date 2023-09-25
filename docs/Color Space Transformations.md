@@ -20,3 +20,5 @@ date modified: Tuesday, January 17th 2023, 12:18:33 pm
 - An image can be quickly converted into its representation in one color channel by isolating that matrix and adding 2 zero matrices from the other color channels. Additionally, the RGB values can be easily manipulated with simple matrix operations to increase or decrease the brightness of the image.
 - More advanced color augmentations come from deriving a color histogram describing the image
 
+
+

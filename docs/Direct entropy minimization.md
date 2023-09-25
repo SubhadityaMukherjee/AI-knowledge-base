@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [entropy](Entropy.md) loss $\mathcal{L}_{ent}$ to maximize directly the prediction confidence in the target domain.
 - [Shannon Entropy](Shannon%20Entropy)
 
+
+

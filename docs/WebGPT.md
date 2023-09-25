@@ -17,3 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - dataset of questions asked by Reddit users
 - fine-tuning [GPT](GPT.md)-3 using behavior cloning, and then performing [rejection sampling](Rejection%20Sampling.md) against a reward model trained to predict human preferences
 
+
+

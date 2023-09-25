@@ -13,9 +13,5 @@ tags: architecture
 - hierarchical VQ-VAE architecture to compress audio into a discrete space [14], with a loss function designed to retain the most amount of information.
 - This model produces songs from very diferent genres such as rock, hip-hop and jazz.
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Jukebox]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

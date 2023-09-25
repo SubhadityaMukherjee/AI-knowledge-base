@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Invariance Test: Besides testing the functionality of a model, they might also want to test if the model prediction stays the same when trivial parts of inputs are slightly perturbed. These tests are called Invariance Tests (IV)
 - Directional Expectation Test: In the Invariance Test, they expect the outputs after the perturbation to be the same. However, sometimes they might expect the output after perturbation to change. That is when Directional Expectation Tests comes in handy
 
+
+

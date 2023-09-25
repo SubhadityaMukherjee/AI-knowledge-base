@@ -17,3 +17,5 @@ class HighwayConv1dNew(nn.Conv1d):
         return H1 * H2 + (1.0 - H1) * inputs
 ```
 
+
+

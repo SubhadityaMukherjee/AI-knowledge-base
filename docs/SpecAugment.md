@@ -17,3 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - end-to-end LAS networks by augmenting the training set using simple handcrafted policies
 - converts ASR from an over-[fitting](Fitting.md) to an under-[fitting](Fitting.md) problem, and they are able to gain performance by using bigger networks and training longer
 
+
+

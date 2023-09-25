@@ -80,9 +80,5 @@ date created: Wednesday 1st February 2023, Wed
 - ![[images/Pasted image 20230201114757.png]]
 - 
 
-## Backlinks
 
-> - [CogMod Final Paper](CogMod Final Paper.md)
->   - [[Sequential effects within a short foreperiod context Evidence for the conditioning account of temporal preparation]] : IMPORTANT
 
-_Backlinks last generated 2023-02-01 13:16:25_

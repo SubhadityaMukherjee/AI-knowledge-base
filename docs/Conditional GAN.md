@@ -64,3 +64,5 @@ date created: Sunday, December 18th 2022, 2:04:16 pm
 | Discriminator does not receive labels                              | Discriminator requires labels                                               |
 | Discriminator evaluates similarity between input and target images | Discriminator considers input and target images and their respective labels |
 
+
+

@@ -17,3 +17,5 @@ date created: Sunday 25th December 2022, Sun
 -  Sort the eigenvectors by decreasing eigenvalues and choose $k$ eigenvectors with the largest eigenvalues to form a $d×k$ dimensional matrix $W$ (where every column represents an [[eigenvector]]).
 -  Use this $d×k$ [[eigenvector]] matrix to transform the samples onto the new subspace. This can be summarized by the matrix multiplication: $Y=X×WY=X×W$ (where $X$ is a $n×d$-dimensional matrix representing the $n$ samples, and $y$ are the transformed $n×k$-dimensional samples in the new subspace).
 
+
+

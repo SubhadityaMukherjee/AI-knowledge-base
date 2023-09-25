@@ -18,3 +18,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![im](images/Pasted%20image%2020220502155613.png)
 	- There was a significant difference between easy and more difficult trials between 712 ms post-stimulus and 768 ms post-stimulus. This difference was initially localized to a few central electrodes but over time spread out more posteriorly. This is consistent with previous studies that have shown
 
+
+

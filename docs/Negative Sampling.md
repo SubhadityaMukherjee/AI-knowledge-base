@@ -13,12 +13,5 @@ date created: Wednesday, December 7th 2022, 11:52:49 pm
 - ![[Pasted image 20221207235315.png]]
 - 
 
-## Backlinks
 
-> - [Skip Gram](Skip Gram.md)
->   - also uses [[Negative Sampling]]
->    
-> - [Word2Vec](Word2Vec.md)
->   - This simple switch changes the model we need from a neural network, to a logistic regression model – thus it becomes much simpler and much faster to calculate. + [[Negative Sampling]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

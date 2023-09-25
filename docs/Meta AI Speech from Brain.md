@@ -77,9 +77,5 @@ tags: architecture
 - algorithm improves as EEG and MEG recordings increase
 - self-supervised trained AI can decode perveived speech despite noise and variability in that data.
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Meta AI Speech from Brain]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

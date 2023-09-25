@@ -27,3 +27,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Occurs by way of a rich hidden representation inside the MAE
 - ![Pasted image 20220620163007](images/Pasted%20image%2020220620163007.jpg)
 
+
+

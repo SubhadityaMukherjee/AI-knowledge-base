@@ -40,3 +40,5 @@ date created: Sunday 12th February 2023, Sun
 - Capsule networks are more complex and computationally expensive than traditional CNNs
 - They are a relatively new architecture, and there is still ongoing research to improve their performance and computational efficiency.
 
+
+

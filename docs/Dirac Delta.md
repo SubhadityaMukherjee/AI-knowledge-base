@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Multi [Point Distribution](Point%20Distribution.md) -> combine dirac deltas
 - ![im](images/Pasted%20image%2020220319135742.png)
 
+
+

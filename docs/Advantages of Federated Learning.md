@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Allows the model to be updated and become better without compromizing on privacy
 - Nobody "owns" your data except you
 
+
+

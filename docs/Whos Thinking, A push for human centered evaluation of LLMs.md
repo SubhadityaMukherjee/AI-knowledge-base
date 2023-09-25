@@ -45,3 +45,5 @@ based building block than XAI
 - The ability to influence or make decisions is a form of inherent power, and offloading cognition onto AI agents must first be met with caution.
 - The consequences of not having a qualitative understanding of how humans interact with LLM outputs is grave
 
+
+

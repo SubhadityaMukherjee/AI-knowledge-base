@@ -34,9 +34,5 @@ date created: Monday 20th February 2023, Mon
 - removes irrelevant noise to produce a meaningful saliency map
 - Softmax scores as weights and removes the dependence on unstable gradients
 
-## Backlinks
 
-> - [](Thesis Flow.md)
->   - [[ScoreCAM]]
 
-_Backlinks last generated 2023-02-20 15:38:17_

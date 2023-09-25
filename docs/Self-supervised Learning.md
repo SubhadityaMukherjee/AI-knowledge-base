@@ -10,3 +10,5 @@ tags: ssl
 - ![img_p4_1](img_p4_1.png) 
 - As long as the pseudo labels P are automatically generated without involving human annotations, then the methods belong to self-supervised learning.
 
+
+

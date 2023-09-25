@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Register size determines the maximum vector length
 - Each includes at least 2 read and 1 write ports
 
+
+

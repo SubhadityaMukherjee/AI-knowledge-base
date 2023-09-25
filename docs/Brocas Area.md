@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Broca's [aphasia](aphasia.md)
 - Discovered by French physician Paul Broca in the late 19th century, this small region in the left [[frontal lobe]] has been linked to speech production.
 
+
+

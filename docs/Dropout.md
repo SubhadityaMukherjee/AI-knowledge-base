@@ -18,3 +18,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Reducing [Co adaptation](Co%20adaptation.md) by making the presence of other hidden [neurons] unreliable
 - The authors found that there is a trade-off between when Dropout is necessary, and when it's no longer useful. First, to cover the case where the dataset is extremely small: even Dropout does not improve performance in that case, simply because the dataset size is too small. The same is true for datasets that are large enough: Dropout then does no longer improve the model, but rather, model performance gets worse.
 
+
+

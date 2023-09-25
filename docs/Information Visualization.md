@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Perception](Perception.md)
 - [Visual Encoding](Visual%20Encoding.md)
 
+
+

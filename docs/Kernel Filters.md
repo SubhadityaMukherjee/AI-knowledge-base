@@ -12,3 +12,5 @@ date modified: Tuesday, October 25th 2022, 12:11:48 pm
 - Additionally, sharpening images for Data Augmentation could result in encapsulating more details about objects of interest.
 - Kang et al. experiment with a unique kernel filter that randomly swaps the pixel values in an n×n sliding window. They call this augmentation technique PatchShuffle [[Regularization]]
 
+
+

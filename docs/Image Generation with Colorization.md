@@ -11,9 +11,5 @@ tags: ssl
 - Some work specifically employs the image colorization task as the pretext for self- supervised image representation learning [18], [42], [82], [124] 
 - After the image colorization training is finished, the features learned through the colorization process are specifically evaluated on other downstream high-level tasks with transfer learning.
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Image Generation with Colorization]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

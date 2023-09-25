@@ -10,3 +10,5 @@ date modified: Monday, October 10th 2022, 2:02:23 pm
 # Lesion
 - Damage or change to tissue, such as a cut, a wound or a sore
 
+
+

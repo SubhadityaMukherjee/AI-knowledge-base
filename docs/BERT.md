@@ -32,3 +32,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
     - Yes, you read it right: sentence B is empty if your goal is to fine-tune for text classification. There simply is no sentence after the token.
     - Fine-tuning is also really inexpensive
 
+
+

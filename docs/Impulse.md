@@ -18,3 +18,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - p is momentum
 - v,u is velocity
 
+
+

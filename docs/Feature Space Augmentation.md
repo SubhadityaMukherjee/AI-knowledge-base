@@ -11,3 +11,5 @@ date modified: Monday, October 10th 2022, 2:00:59 pm
 - Vector representations are then found by training a CNN and then passing the training set through the truncated CNN. These vector representations can be used to train any machine learning model from Naive Bayes, Support Vector Machine, or back to a fully-connected multilayer network.
 - A disadvantage of feature space augmentation is that it is very difficult to interpret the vector data.
 
+
+

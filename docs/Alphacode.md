@@ -17,9 +17,5 @@ tags: architecture
 - shallow encoder and a deep encoder to further the model's ecienc
 - o reduce the cost of sampling, multi-query attention is used.
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Alphacode]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

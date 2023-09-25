@@ -23,3 +23,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Categories can 'emerge' via statistical regularities
 - [Basic RNN Architectures](Basic%20RNN%20Architectures.md) can find these
 
+
+

@@ -12,9 +12,5 @@ tags: robotics
 - Breakpoint
 	- Eventually the learning agent reaches to a breakpoint where the agent is no longer able to learn more categories.
 
-## Backlinks
 
-> - [](journals/2022-11-03.md)
->   - [[Phases of Simulated User Experiments]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

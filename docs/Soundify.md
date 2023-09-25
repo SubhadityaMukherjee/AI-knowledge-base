@@ -12,9 +12,5 @@ tags: architecture
 - In the synchronization part, intervals are identified comparing efects label with each frame and pinpointing consecutive matches above a threshold
 - In the mix part, efects are split into around one-second chunks - chunks are stitched via crossfades.
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Soundify]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

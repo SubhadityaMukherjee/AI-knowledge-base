@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Exponents of the random variable and control the shape of the distribution
 - Multiple variables is [Dirichlet Distribution](Dirichlet%20Distribution.md)
 
+
+

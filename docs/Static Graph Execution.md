@@ -12,3 +12,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - better performance
 - once compiled the graph architecture is static
 
+
+

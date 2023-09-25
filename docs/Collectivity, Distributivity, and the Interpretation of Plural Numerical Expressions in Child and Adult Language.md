@@ -39,3 +39,5 @@ date created: Tuesday, October 4th 2022, 12:45:01 pm
 - In place of the ambiguous sentences, children heard sentences with a post-verbal together (
 - Interestingly, despite children’s acceptance of the together sentences in both contexts of the judgment task of Experiment 4, children appeared to be aware of the collectivizing force of together in the current preference task.
 
+
+

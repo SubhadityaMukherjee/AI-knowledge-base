@@ -18,9 +18,5 @@ tags: ssl
 - Then a ConvNet is trained to recognize the cluster assignment [34], [44] or to recognize whether two imaged are from same cluster [43] 
 - DeepCluster iteratively clusters images with Kmeans and use the subsequent assignments as supervision to update the weights of the network
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Learning with Context Similarity]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

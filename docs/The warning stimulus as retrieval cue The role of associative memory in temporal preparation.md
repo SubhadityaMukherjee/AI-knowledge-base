@@ -60,9 +60,5 @@ date created: Wednesday 1st February 2023, Wed
 - ![[images/Pasted image 20230201121325.png]]
 - ![[images/Pasted image 20230201121331.png]]
 
-## Backlinks
 
-> - [CogMod Final Paper](CogMod Final Paper.md)
->   - [[The warning stimulus as retrieval cue The role of associative memory in temporal preparation]] : temporal preparation , sloping effects
 
-_Backlinks last generated 2023-02-01 13:16:25_

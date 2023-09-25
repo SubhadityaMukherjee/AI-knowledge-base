@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - creates the new forms of the same word
 - e.g.bring, brought, brings
 
+
+

@@ -20,9 +20,5 @@ Finally KLD $$entropy + crossentropyloss$$
 
  - $$KL(p,q) = \Sigma_x p(x) log\frac{p(x)}{q(x)}$$
 
-## Backlinks
 
-> - [Stack GAN](Stack GAN.md)
->   - [[KL Divergence]] between the standard Gaussian distribution and the conditioning Gaussian distribution
 
-_Backlinks last generated 2023-01-28 14:37:47_

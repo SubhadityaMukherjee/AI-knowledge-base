@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Elements of sets](Elements%20of%20sets.md)
 - [Names of individuals](Names%20of%20individuals.md)
 
+
+

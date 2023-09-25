@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - You must see the entire pattern over a collection of units, to uniquely categorize an input.
 - The states of individual units are uninterpretable
 
+
+

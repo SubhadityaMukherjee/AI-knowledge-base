@@ -12,3 +12,5 @@ date created: Wednesday 21st December 2022, Wed
 - [[Basic GAN]]
 - [[GAN]]
 
+
+

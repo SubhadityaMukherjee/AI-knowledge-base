@@ -60,4 +60,3 @@ tags: anchor
 - [Squared Hinge.md](Squared%20Hinge.md)
 - [Triplet Loss.md](Triplet%20Loss.md)
 - [inter-sentence coherence loss.md](inter-sentence%20coherence%20loss.md)
-

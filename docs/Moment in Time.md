@@ -12,9 +12,5 @@ tags: dataset
 - average number of video clips for each class is 1, 757 with a median of 2, 775 
 - videos that capturing visual and/or audible actions, produced by humans, animals, objects or nature
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Moment in Time]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

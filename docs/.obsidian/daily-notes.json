@@ -1,5 +1,6 @@
 {
   "folder": "journals",
   "autorun": true,
-  "template": "templates/post"
+  "template": "templates/post",
+  "format": "YYYY_MM_DD"
 }

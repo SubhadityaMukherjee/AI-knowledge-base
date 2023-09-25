@@ -12,9 +12,5 @@ tags: architecture
 - those people would be given the model-written responses to help them compose their response
 - This dataset was mixed to that of InstructGPT [3], which was transformed into a dialogue format
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[ChatGPT]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

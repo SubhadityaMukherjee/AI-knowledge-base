@@ -9,9 +9,5 @@ tags: robotics
 - Planning
 - Acting (executing the plan)
 
-## Backlinks
 
-> - [](journals/2022-11-03.md)
->   - [[Sense-Plan-Act Model]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

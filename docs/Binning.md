@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Reduced precision devices perform as well as the high precision ones
 	- Continuous range -> adaptive bin boundaris [Decision Trees](Decision%20Trees.md)
 
+
+

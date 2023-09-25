@@ -19,3 +19,5 @@ date created: Wednesday, October 12th 2022, 2:18:48 pm
 - One approach is to detect failed attempts at steps. Suppose for simplicity that there is a one-to-one correspondence between a step and a [Learning Event](Learning%20Event.md)
 - If the student fails to make the step, then the student must lack the knowledge that underlies the [Learning Event](Learning%20Event.md).
 
+
+

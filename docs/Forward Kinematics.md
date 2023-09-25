@@ -9,3 +9,5 @@ date modified: Monday, October 10th 2022, 2:02:27 pm
 - 1. For a robot with n joints, what is the endeffector pose (ξ ), given the joint angles (q)
     - ξ = κ(q) : q = {qi,i ∈ [1,…,n]},
 
+
+

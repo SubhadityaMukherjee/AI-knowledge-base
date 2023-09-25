@@ -13,9 +13,5 @@ tags: explainability
 - This can make it more difficult for humans to implement cognitive checks on LLM outputs.
 - While some recent LLM work has outlined categories of failure modes for LLMs based on the types of cognitive biases use [29], we push for greater work in this field
 
-## Backlinks
 
-> - [Whos Thinking, A Push for Human Centered Evaluation of LLMs](Whos Thinking, A push for human centered evaluation of LLMs.md)
->   - [[Use Case Utility]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

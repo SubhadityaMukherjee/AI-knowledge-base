@@ -14,3 +14,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - anywhere-RICAP (origin can be anywhere), center-RICAP (origin can only be in the middle of the image), and corner-RICAP (origin can only be in corners
 - Corner-RICAP has shown the best performance because a larger region of one image is visible to the network to learn
 
+
+

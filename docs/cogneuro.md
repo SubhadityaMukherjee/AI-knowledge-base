@@ -29,4 +29,3 @@ tags: anchor
 - [conditioning.md](conditioning.md)
 - [fMRI.md](fMRI.md)
 - [memory trace.md](memory%20trace.md)
-

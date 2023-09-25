@@ -73,3 +73,5 @@ PS: This took a lot more than one deep breath. Let's see how it goes.
 - Longer article. Fully in-depth. Around 2k-2.5k words. : 100 euro
 - Along with working code. : 200 euro
 
+
+

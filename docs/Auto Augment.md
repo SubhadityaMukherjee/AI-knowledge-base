@@ -14,9 +14,5 @@ tags: augment
 - KeepAugment 
 - [[Augmentation-wise Weight Sharing strategy]]
 
-## Backlinks
 
-> - [Image Data Augmentation Survey](Image Data Augmentation Survey.md)
->   - [[Auto Augment]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

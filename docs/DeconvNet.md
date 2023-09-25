@@ -42,13 +42,5 @@ date created: Wednesday, October 12th 2022, 4:17:49 pm
 - ![](images/1!yfVt0dZ8X6h6WoDFlyAqsw.png)
 - ![Pasted image 20221012161759](images/Pasted%20image%2020221012161759.png)
 
-## Backlinks
 
-> - [Guided BackProp](Guided BackProp.md)
->   - Combination of [[DeconvNet]] and  [[Deep Inside Convolutional Networks]]
->   - [[DeconvNet]] has an issue with flow of negative gradients which decrease accuracy of higher layers
->    
-> - [Vision Explainibility](Vision Explainibility.md)
->   - Building up on [Deep Inside Convolutional Networks](Deep%20Inside%20Convolutional%20Networks.md) and [[DeconvNet]]
 
-_Backlinks last generated 2023-03-17 10:15:33_

@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - imitation of [Transformer](Transformer.md)-based models is the quadratic complexity
 - sparse [attention](Attention.md) mechanism that reduces this quadratic complexity to linear
 
+
+

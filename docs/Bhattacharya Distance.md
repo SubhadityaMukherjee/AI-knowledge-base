@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$D_{B}(p,q) = -ln(BC(p,q))$$
 - $$BC(p,q) = \Sigma_{x\in X}\sqrt{p(x)q(x)}$$
 
+
+

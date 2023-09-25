@@ -27,3 +27,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Superimposing two or more patterns over same units leads to an ambiguous blend
 - Problem for localist representations, but even more serious with distributed representations
 
+
+

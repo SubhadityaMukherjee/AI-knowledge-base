@@ -22,3 +22,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- $$lim_{M\rightarrow \infty}(f^*_{\mathcal{L}_Train}) = f^*$$ : converges to the fn that minimizes emprical risk
 	- Ordinary least squares regression
 
+
+

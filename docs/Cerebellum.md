@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - relays information to the [Basal Ganglia](Basal%20Ganglia.md).
 - It stores automatic learned memories like tying a shoe, playing an instrument, or riding a bike.
 
+
+

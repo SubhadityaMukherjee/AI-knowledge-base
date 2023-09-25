@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - learned from scratch with one unified pretraining task, one shared backbone, and one-stage training which renders it conceptually simple and empirically effective
 - transferable visual [features](Features.md)
 
+
+

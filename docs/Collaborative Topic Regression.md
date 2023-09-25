@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Nevertheless, the latent representation learned by CTR may not be very effective when the auxiliary information is very sparse.
 - generalizing recent advances in deep learning from i.i.d input to non-i.i.d (CF-based) input and propose a hierarchical [Bayesian](Bayesian.md) model called collaborative deep learning (CDL), which jointly performs deep representation learning for the content information and collaborative [filtering](Filtering.md) for the ratings (feedback) matrix.
 
+
+

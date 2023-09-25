@@ -20,3 +20,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - lack of self-play in the formal mathematics setup can be effectively compensated for by automatically as well as manually curated sets of formal statement
 - cheaper to formalize than full proofs
 
+
+

@@ -31,15 +31,5 @@ date created: Wednesday, December 21st 2022, 3:10:38 pm
 ## [Issues](Issues.md)
 - [Mode Collapse](Mode%20Collapse.md)
 
-## Backlinks
 
-> - [Generative vs Discriminative Models](Generative vs Discriminative Models.md)
->   - [[Basic GAN]]
->    
-> - [Scalar Articles](Scalar Articles.md)
->   - [[Basic GAN]]
->    
-> - [Generative_Models](Generative Models.md)
->   - [[Basic GAN]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

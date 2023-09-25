@@ -18,9 +18,5 @@ date created: Thursday, November 10th 2022, 3:36:13 pm
 - reveal a superiority of translation learning in terms of quantity, but an inability on the part of weaker learners to transfer their knowledge into L2 contexts
 - suggested that alternative learning strategies that combine the advantages of the two techniques should be explored.
 
-## Backlinks
 
-> - [Final Paper User Models](Final Paper User Models.md)
->   - [[Second Language Vocabulary Learning , The role of context  versus translation]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

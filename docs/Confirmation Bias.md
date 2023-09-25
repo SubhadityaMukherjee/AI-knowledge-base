@@ -13,3 +13,5 @@ date modified: Monday, October 10th 2022, 2:02:31 pm
 - # convex optimization
 - The process of using mathematical techniques such as gradient descent to find the minimum of a convex function. A great deal of research in machine learning has focused on formulating various problems as convex optimization problems and in solving those problems more efficiently.
 
+
+

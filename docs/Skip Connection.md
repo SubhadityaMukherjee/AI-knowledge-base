@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Transfer #gradients to prevent [Vanishingexploding gradients](Vanishingexploding%20gradients.md)
 - Learns the difference (residual) $$F(x) = H(x)-x$$
 
+
+

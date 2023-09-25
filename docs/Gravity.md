@@ -11,3 +11,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - $$F_{g}= mg$$
 - $g = 9.8 m/s^2$
 
+
+

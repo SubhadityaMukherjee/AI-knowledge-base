@@ -18,11 +18,5 @@ date created: Thursday, November 24th 2022, 1:46:37 pm
 - The concept labels in Broden are normalized and merged from their original data sets so that every class corresponds to an English word
 - Labels are merged based on shared synonyms, disregarding positional distinctions such as 'left' and 'top'
 
-## Backlinks
 
-> - [Network Dissection Quantifying Interpretability of Deep Visual Representions](Network Dissection Quantifying Interpretability of Deep Visual Representions.md)
->   - [[Broden]]
->   - evaluates every individual convolutional unit in a CNN as a solution to a binary segmentation task to every visual concept in [[Broden]]
->   - For every input image x in the [[Broden]] dataset, the activation map $A_{k}(x)$ of every internal convolutional unit k is collected.
 
-_Backlinks last generated 2023-01-28 14:37:47_

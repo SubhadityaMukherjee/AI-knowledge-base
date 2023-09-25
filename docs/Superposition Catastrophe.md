@@ -18,3 +18,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Selective responses 'emerge' as a response to the potential for superposition catastrophe
 - [Recurrent](Recurrent.md) networks trained to store multiple things at the same time over the same set of units learn highly selective (localist) representations
 
+
+

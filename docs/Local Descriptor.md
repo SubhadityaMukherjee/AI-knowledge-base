@@ -13,9 +13,5 @@ tags: robotics
 - ![[images/Pasted image 20221103123428.png]]
 - ![[images/Pasted image 20221103123443.png]]
 
-## Backlinks
 
-> - [](journals/2022-11-03.md)
->   - [[Local Descriptor]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

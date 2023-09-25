@@ -13,3 +13,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - An endeffector with many (C)DOFs needs a lot of actuators!
 - [Rotary Joint](Rotary%20Joint.md) , [Prismatic Joint](Prismatic%20Joint.md)
 
+
+

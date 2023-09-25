@@ -22,9 +22,5 @@ $$
 JS(p_{orig}; p_{augmix1};p_{augmix2}) = \frac{1}{3}(KL[p_{orig}||M||]+KL[p_{augmix1}||M||]+KL[p_{augmix2}||M||])
 $$
 
-## Backlinks
 
-> - [AugMix](AugMix.md)
->   - [[Jensen Shannon Divergence Consistency Loss]]
 
-_Backlinks last generated 2023-04-11 15:00:45_

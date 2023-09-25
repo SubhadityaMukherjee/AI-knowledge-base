@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Bayesian](Bayesian.md) Model Averaging
 - $$P(y|x) = \int_{w}P(y|w,x)P(w|x)dx$$
 
+
+

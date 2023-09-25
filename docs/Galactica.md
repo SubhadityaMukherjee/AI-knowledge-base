@@ -13,9 +13,5 @@ tags: architecture
 - the model can perform multi-modal tasks involving SMILES chemical formulas and protein sequences
 - transformer architecture in a decoder-only setup with GeLU activation for all model sizes.
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Galactica]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

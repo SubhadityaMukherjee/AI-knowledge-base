@@ -110,3 +110,5 @@ decoded = layers.Conv2D(1, (3, 3), activation='sigmoid', padding='same')(x)
 - This article also provided a template for implementing a Convolutional Autoencoder in Tensorflow.
 :::
 
+
+

@@ -12,3 +12,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - eigenvalues of orthogonal matrices have an absolute value of 1
 - no matter how many matrix multiplications the result doesen't explode nor vanishes
 
+
+

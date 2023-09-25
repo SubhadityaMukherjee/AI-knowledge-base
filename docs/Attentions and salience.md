@@ -21,3 +21,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - temporal adverbs are highly salient (and easier) so they get stronger associations
 - even though they co-occur with different [verb](Verb.md) forms, these are hard to learn
 
+
+

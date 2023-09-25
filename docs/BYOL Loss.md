@@ -19,3 +19,5 @@ tags: [loss](loss.md)
 - $f_\theta$ is discarded, $y_\theta$ is used as image representation
 - ![byol](images/byol.jpg)
 
+
+

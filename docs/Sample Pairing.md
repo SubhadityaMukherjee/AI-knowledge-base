@@ -12,3 +12,5 @@ date modified: Sunday, November 6th 2022, 5:19:35 pm
 - one epoch on ImageNet and 100 epochs on other datasets are completed without SamplePairing before mixed image data is added to the training
 - Once the SamplePairing images are added to the training set, they run in cycles between 8:2 epochs, 8 with SamplePairing images, 2 without.
 
+
+

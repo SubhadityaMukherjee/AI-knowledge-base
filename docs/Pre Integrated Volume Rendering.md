@@ -17,3 +17,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - $$o_{i}= e^{\int_{0}^{L}\kappa(t)}d_{t} $$
 - ![Screenshot 2022-09-14 at 12.18.54 PM](images/Screenshot%202022-09-14%20at%2012.18.54%20PM.png)
 
+
+

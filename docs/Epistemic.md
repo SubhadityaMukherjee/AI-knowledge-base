@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Reduce by adding more info
 - ![im](images/Pasted%20image%2020220323154101.png)
 
+
+

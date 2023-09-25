@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Graf Estes et al
 - Transition frequencies can be made high because two words occur very often next to each other
 
+
+

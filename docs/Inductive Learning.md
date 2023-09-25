@@ -26,3 +26,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Hierarchical [Bayesian](Bayesian.md) Modelling (HBM) can explain how we acquire [overhypotheses](Overhypotheses.md)
 - using observations from the lowest level (data) and calculating statistical inferences
 
+
+

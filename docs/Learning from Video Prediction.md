@@ -18,9 +18,5 @@ tags: ssl
 - the methods usually suffer from a massive dataset preparation step 
 - The frame sequences that used to train the network are selected based on the magnitude of the optical flow, and the computation process of optical flow is expensive and slow
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Learning from Video Prediction]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

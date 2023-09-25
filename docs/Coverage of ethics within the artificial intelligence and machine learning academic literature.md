@@ -37,3 +37,5 @@ date created: Tuesday 31st January 2023, Tue
 - Another angle of investigation could be why students are not acting as knowledge producers on the topics we found lacking
 - As to disabled students, based on a study that investigated the experience of disabled postsecondary students in postsecondary education (Hutcheon & Wolbring, 2012) we suggest that the experience reported (feeling medicalized, hesitant to self-advocate, to try to fit in with the norm) might be factors that hinder disabled students to be knowledge producers especially on contentious issues such as ethics and disabled people
 
+
+

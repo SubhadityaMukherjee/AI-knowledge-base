@@ -10,3 +10,5 @@ date modified: Monday, October 10th 2022, 2:02:20 pm
  - Ohm's Law applied to the full circuit: Electromotive [force](Force.md) = current x (sum of the circuit [resistance](Resistance.md) and the internal [resistance](Resistance.md) of the cell)
  - $$EMF = I(R+r)$$
 
+
+

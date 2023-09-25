@@ -32,3 +32,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ### No of Negative Samples
 - The original paper prescribes 5-20 as being a good number of negative samples. It also states that 2-5 seems to be enough when you have a large enough dataset. The Gensim default is 5 negative samples.
 
+
+

@@ -21,3 +21,5 @@ date created: Sunday, October 23rd 2022, 5:00:18 pm
 - Prior works have explored the idea of paralleling (Peng et al., 2017; Guo et al., 2022a) or stacking (Szegedy et al., 2017) two complementary Mx1 and 1xM kernels
 - However, they limit the shorter edge to 1 and do not scale the kernel size beyond 51x51
 
+
+

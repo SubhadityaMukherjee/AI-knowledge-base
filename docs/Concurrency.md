@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$CriticalPath = \frac{\text{Total amount of work}}{\text{Critical path length}}$$
 - ![im](images/Pasted%20image%2020220506154858.png)
 
+
+

@@ -34,3 +34,5 @@ date created: Tuesday, October 4th 2022, 12:42:49 pm
 - indicate that conceptual plurality interferes with number judgments during sentence comprehension
 - These findings (Filik et al., 2004; Paterson et al., 2008) indicate that comprehenders do not build conceptually plural referents on-line for indefinite noun phrases in distributed structures that off-line norming had indicated were likely to be interpreted as plural.
 
+
+

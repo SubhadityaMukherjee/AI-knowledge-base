@@ -16,3 +16,5 @@ date created: Tuesday, October 25th 2022, 4:29:38 pm
 - Humans try to obtain from every item of information as great a contextual effect as possible for as small a processing effort as possible.
 - Children tend to give more credit to information derived from ostensive communication than to information obtained via direct experience
 
+
+

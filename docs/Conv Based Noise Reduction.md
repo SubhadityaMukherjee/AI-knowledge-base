@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![im](images/Pasted%20image%2020220411130431.png)
 - Spatially narrow (wide) filter has wide (narrow) spectrum and low (high) smoothing effect
 
+
+

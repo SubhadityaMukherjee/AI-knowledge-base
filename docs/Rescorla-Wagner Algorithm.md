@@ -20,3 +20,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - After a strong association is made, as long as it is confirmed by data, no new learning will occur
 - The model only learns when the predicted outcome differs from actual outcome
 
+
+

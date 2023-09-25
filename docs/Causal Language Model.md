@@ -14,3 +14,5 @@ date created: Friday 9th December 2022, Fri
 - Can consider words to its left
 - Better for generating text
 
+
+

@@ -36,12 +36,5 @@ date created: Friday, November 18th 2022, 1:28:08 pm
 - ![[images/Pasted image 20230310115235.png]]
 - ![[images/Pasted image 20230310115248.png]]
 
-## Backlinks
 
-> - [Guided BackProp](Guided BackProp.md)
->   - Combination of [[DeconvNet]] and  [[Deep Inside Convolutional Networks]]
->    
-> - [Salience Map](Salience Map.md)
->   - Use backprop to compute the gradients of logits wrt input : [[Deep Inside Convolutional Networks]]
 
-_Backlinks last generated 2023-03-17 10:15:33_

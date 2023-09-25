@@ -32,3 +32,5 @@ date created: Thursday 11th May 2023, Thu
 - Training with the 1cycle policy at high learning rates is a method of regularization in itself, so we shouldn't be surprised if we have to reduce the other forms of regularization we were previously using when we put it in place
 - ![[images/Pasted image 20230511123512.png]]
 
+
+

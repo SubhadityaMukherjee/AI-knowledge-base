@@ -20,10 +20,5 @@ date created: Thursday, December 15th 2022, 10:05:01 pm
 	- ![[3BEF01EA-1132-4BBA-965F-4C4D75BDD9BA.webp]]
 - ![[031324A4-A9BA-4615-A81D-82BC53564751.png]]
 
-## Backlinks
 
-> - [DCGAN](DCGAN.md)
->   - [[Transposed Conv]] , [[Batch Normalization]] and [[Relu]]
->   - [[Batch Normalization]] AFTER [[Transposed Conv]] is super important as it helps with flow of gradients
 
-_Backlinks last generated 2023-01-28 14:37:47_

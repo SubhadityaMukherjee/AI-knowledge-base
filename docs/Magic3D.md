@@ -14,9 +14,5 @@ tags: architecture
 - a textured 3D mesh model is furthered optimized with an ecient diferentiable render
 - higher quality 3D shapes in both geometry and texture compared to DreamFusion
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Magic3D]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

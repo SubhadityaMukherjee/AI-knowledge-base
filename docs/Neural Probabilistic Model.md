@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Generalization is obtained because a sequence of words that has never been seen before gets high [probability](Probability.md) if it is made of words that are similar
 - significantly improves on state-of-the-art [n gram](n%20gram) models
 
+
+

@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:25 pm
 # In Silico
 - An experimental method to study brain or neural function using computer modeling or computer simulation.
 
+
+

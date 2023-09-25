@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - the discriminator produces domain classification outputs, i.e., class label for the source (resp. target) domain.
 - discriminate outputs coming from source and target images, and at the same time, train the segmentation network to fool the discriminator.
 
+
+

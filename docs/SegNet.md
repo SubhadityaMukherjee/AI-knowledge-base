@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Precursor to [Unet](Unet.md)
 - No Skip connections
 
+
+

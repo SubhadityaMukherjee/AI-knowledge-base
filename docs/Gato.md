@@ -18,3 +18,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - During deployment, sampled tokens are assembled into dialogue responses, captions, button presses, or other actions based on the context
 - Transformer sequence models are effective as multi-task multi-embodiment policies, including for real-world text, vision and [robotics](robotics.md) tasks
 
+
+

@@ -33,8 +33,5 @@ lr / sqrt(avg_squared)
 - The proof of convergence for the Adam optimizer in deep learning (since it's for convex problems) and the mistake they found in it mattered for synthetic experiments that have nothing to do with real-
 - life problems. Actual tests show that when those avg_squared gradients want to decrease, it's best for the final result to do so.
 
-## Backlinks
-> - [AdamW](AdamW.md)
->   - [[Amsgrad]]
 
-_Backlinks last generated 2023-05-19 15:30:34_
+

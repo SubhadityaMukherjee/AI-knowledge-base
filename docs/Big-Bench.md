@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - tasks that are believed to be beyond the capabilities of current [language](language.md) models
 - valuate the behavior of OpenAI’s [GPT](GPT.md) models, Google-internal dense [transformer](Transformer.md) architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters
 
+
+

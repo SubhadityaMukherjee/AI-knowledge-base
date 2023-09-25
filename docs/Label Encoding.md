@@ -15,3 +15,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
     - if not and still used, can result in poor performance and unexpected results
 - numeric representations have a natural ordered relationship between each other and the models are able to understand that relationship
 
+
+

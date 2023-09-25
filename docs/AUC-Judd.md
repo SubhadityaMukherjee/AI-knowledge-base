@@ -12,3 +12,5 @@ date created: Thursday, October 6th 2022, 1:39:42 pm
 - The false positive rate (FPR) is calculated as the proportion of no-fixated pixels in the thresholded saliency map.
 - After calculating TPR and FPR at each threshold, the area under the curve (AUC) is calculated for the curve of TPR against FPR.
 
+
+

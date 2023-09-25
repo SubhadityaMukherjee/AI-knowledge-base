@@ -13,3 +13,5 @@ date created: Tuesday, October 4th 2022, 11:49:00 am
 - Fukuda et al. (2017) randomly selected one teacher from the pool of teacher networks at each it- eration. To transfer feature-based knowledge from mul- tiple teachers, additional teacher branches are added to the student networks to mimic the intermediate features of teachers (Park and Kwak, 2020; Asif et al., 2020). Born again networks address multiple teach- ers in a step-by-step manner, i.e., the student at the t step is used as the teacher of the student at the t+1 step (Furlanelloetal., 2018)
 - To effi- ciently perform knowledge transfer and explore the power of multiple teachers, several alternative meth- ods have been proposed to simulate multiple teach- ers by adding different types of noise to a given teacher (Sau and Balasubramanian, 2016) or by us- ing stochastic blocks and skip connections (Lee et al., 2019c). Using multiple teacher models with feature ensembles, knowledge amalgamation is designed in (Shen et al., 2019a; Luo et al., 2019; Shen et al., 2019b; Luo et al., 2020). Through knowledge amalgamation, many public available trained deep models as teachers can be reused.
 
+
+

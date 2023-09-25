@@ -9,3 +9,5 @@ date modified: Monday, October 10th 2022, 2:02:30 pm
 - For example, if both Lilliputians and Brobdingnagians apply to Glubbdubdrib University, demographic parity is achieved if the percentage of Lilliputians admitted is the same as the percentage of Brobdingnagians admitted, irrespective of whether one group is on average more qualified than the other.
 - Contrast with equalized odds and equality of opportunity, which permit classification results in aggregate to depend on sensitive attributes, but do not permit classification results for certain specified ground-truth labels to depend on sensitive attributes. See ["Attacking discrimination with smarter machine learning"](http //research.google.com/bigpicture/attacking-discrimination-in-ml/) for a [[visualization]] exploring the tradeoffs when optimizing for demographic parity.
 
+
+

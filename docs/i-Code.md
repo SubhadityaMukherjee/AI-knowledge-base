@@ -21,3 +21,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - fusion architecture
 - mechanisms that merge and cross the [attention](Attention.md) scores of different modalities, namely merge-[attention](Attention.md) (based on self-[attention](Attention.md)) and co-[attention](Attention.md) (based on self- and cross-[attention](Attention.md)) respectively
 
+
+

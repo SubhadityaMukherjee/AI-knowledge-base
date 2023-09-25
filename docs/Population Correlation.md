@@ -17,3 +17,5 @@ tags: statistics
 - $\sigma$ is the [Standard Deviation](Standard%20Deviation.md)
 - $\sigma_{xy}$ is the [Covariance](Covariance.md)
 
+
+

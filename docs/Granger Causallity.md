@@ -18,3 +18,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- From O1 to PZ is different from PZ to O1
 	- How well can activity in one channel predict one in another
 
+
+

@@ -29,3 +29,5 @@ tags: architecture
 	- representation $h$
 	- ![simclr](images/simclr.jpg)
 
+
+

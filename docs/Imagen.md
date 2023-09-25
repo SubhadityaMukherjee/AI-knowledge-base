@@ -17,9 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - FID score
 - [COCO](COCO.md)
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Imagen]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

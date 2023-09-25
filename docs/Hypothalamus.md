@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - It plays a role in controlling behaviors such as hunger, thirst, sleep, and sexual response.
 - It also regulates body temperature, blood pressure, emotions, and secretion of hormones.
 
+
+

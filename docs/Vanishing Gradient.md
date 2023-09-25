@@ -18,3 +18,5 @@ date created: Tuesday 7th February 2023, Tue
 - Weight matrices are usually initialized with random values $|w_{ji}| << 1$ 
 	- gradient magnitueds decay exponentially -> max eigenvalue
 
+
+

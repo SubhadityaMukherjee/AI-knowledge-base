@@ -33,9 +33,5 @@ tags: refactor
 - they are robust to image distribution shift, have impressive zero-shot capabilities and have been fine-tuned to achieve state-of-theart results
 - the CLIP image embedding decoder module is combined with a prior model, which generates possible CLIP image embeddings from a given text caption
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[CLIP]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

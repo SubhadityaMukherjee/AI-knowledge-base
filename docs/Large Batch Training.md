@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Modified [Batch Normalization](Batch%20Normalization.md) with $\gamma=0$ for all BNs at the end of a residual block that micmics networks with less [Layers](Layers.md) and is easier to train at the start
 - [No bias decay](No%20bias%20decay.md)
 
+
+

@@ -184,3 +184,5 @@ final_model.predict(image)
 - The article also explained how to evaluate the model and perform inference using the trained model.
 :::
 
+
+

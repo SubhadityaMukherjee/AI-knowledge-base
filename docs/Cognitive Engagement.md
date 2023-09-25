@@ -15,9 +15,5 @@ tags: explainability
 - Train conductors in Japan famously point and call out important information on their journeys—a cognitive forcing method which has reduced human errors by nearly 85% [45].
 - Realistically, how much will users actually cognitively engage with the magnitude of generated outputs to ensure that they are correct and aligned with their intentions?
 
-## Backlinks
 
-> - [Whos Thinking, A Push for Human Centered Evaluation of LLMs](Whos Thinking, A push for human centered evaluation of LLMs.md)
->   - [[Cognitive Engagement]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

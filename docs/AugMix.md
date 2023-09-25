@@ -17,3 +17,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - Once these images are mixed, we use a “skip connection” to combine the result of the augmentation chain and the original image through a second random convex combination sampled from a Beta(α, α) distribution. The final image incorporates several sources of randomness from the choice of operations, the severity of these operations, the lengths of the augmentation chains, and the mixing weights
 - [[Jensen Shannon Divergence Consistency Loss]]
 
+
+

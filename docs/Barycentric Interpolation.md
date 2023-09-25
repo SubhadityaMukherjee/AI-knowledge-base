@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - d+1 points
 - Point x is an [Affine Function](Affine%20Function.md) of $x_i$
 
+
+

@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
  - Sequencing and organization
  - Long-term memory is processed in the hippocampus of the temporal lobe and is activated when you want to memorize something for a longer time.
 
+
+

@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Generalized [Binomial Distribution](Binomial%20Distribution.md)
 - [PMF](PMF.md)
 
+
+

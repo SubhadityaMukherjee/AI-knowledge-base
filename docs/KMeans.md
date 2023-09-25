@@ -25,3 +25,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Vector pointing to the mean of all vectors in the cluster
 - Center of [Gravity](Gravity.md)
 
+
+

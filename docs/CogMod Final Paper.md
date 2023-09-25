@@ -29,9 +29,5 @@ date created: Monday, December 5th 2022, 2:38:14 pm
 - [[Revisiting variable foreperiod effects evaluating the repetition priming account]] : change in foreperiod 
 
 
-## Backlinks
 
-> - [](journals/2022-12-05.md)
->   - **02:37** [[CogMod Final Paper]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

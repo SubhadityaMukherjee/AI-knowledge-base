@@ -12,8 +12,5 @@ date created: Monday 6th March 2023, Mon
 
 - there may be correlated features with sensitive ones that can induce bias even when the sensitive features are not present in the dataset.
 
-## Backlinks
-> - [Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI](Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md)
->   - [[Proxy features]]
 
-_Backlinks last generated 2023-03-07 10:46:27_
+

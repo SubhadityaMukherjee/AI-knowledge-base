@@ -19,3 +19,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - procedure for aligning appearance between adjacent NeRFs so that they can be seamlessly combined
 - building an entire neighborhood in San Francisco from 2.8M images using a grid of Block-NeRFs, forming the largest neural scene representation to date
 
+
+

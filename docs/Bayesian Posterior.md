@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Integral not 1
 	- [Proto Distributions](Proto%20Distributions.md) on $\theta$ space
 
+
+

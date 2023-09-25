@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Also include [SIMD](SIMD.md) sub components
 - ![im](images/Pasted%20image%2020220506151115.png)
 
+
+

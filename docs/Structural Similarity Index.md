@@ -18,3 +18,5 @@ date created: Wednesday, October 5th 2022, 2:56:23 pm
 - $L$ the dynamic range of the pixel-values (typically this is $2^{\#bits\ per\ pixel}-1$);
 - $k_1 = 0.01$ and $k_2 = 0.03$ by default.
 
+
+

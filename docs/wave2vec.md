@@ -17,3 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - experiments on WSJ reduce WER of a strong character-based log-mel filterbank baseline
 - more data for pre-training improves performance and that this approach not only improves resource-poor setups, but also settings where all WSJ training data is used
 
+
+

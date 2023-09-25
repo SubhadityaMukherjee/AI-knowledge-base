@@ -14,3 +14,5 @@ date created: Tuesday, October 25th 2022, 4:29:23 pm
 - As the Principle of Relevance states, communicated information comes with a guarantee of relevance.
 - The higher the cognitive effect of the information, and/or the more economically it is communicated, the greater its relevance.
 
+
+

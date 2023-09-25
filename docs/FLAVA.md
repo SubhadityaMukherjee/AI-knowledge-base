@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - use a single holistic universal model, as a “foundation”, that targets all modalities at once
 - wide range of 35 tasks spanning these target modalities
 
+
+

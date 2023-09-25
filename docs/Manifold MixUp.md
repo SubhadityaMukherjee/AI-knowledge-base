@@ -11,3 +11,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - The mixed feature maps are given input to the next layer and forward propagated up to the last layer.
 - After the forward propagation, backward propagation is performed in the standard way with updated labels
 
+
+

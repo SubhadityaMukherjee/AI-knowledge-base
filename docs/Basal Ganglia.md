@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Basal Ganglia
 - A group of structures below the cortex involved in motor, cognitive, and emotional functions.
 
+
+

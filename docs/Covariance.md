@@ -18,3 +18,5 @@ tags: statistics
 - $$Cov(X,Y) = \frac{\Sigma(x_{i}- \bar x)(y_{i}- \bar y)}{N-1}$$
 - $\bar x$ is the mean of x
 
+
+

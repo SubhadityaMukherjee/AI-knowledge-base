@@ -9,3 +9,5 @@ date modified: Monday, October 10th 2022, 2:02:16 pm
 - to identify points that are likely to be similar, and then group them into buckets.
 - Sketching decreases the computation required for similarity calculations on large datasets. Instead of calculating similarity for every single pair of examples in the dataset, we calculate similarity only for each pair of points within each bucket.
 
+
+

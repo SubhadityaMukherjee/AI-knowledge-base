@@ -71,3 +71,5 @@ Another shortcut that I use frequently is Command+Shift+T. This shortcut creates
 
 For navigation between notes, I use Command+Option+Left Arrow to access the previous note quickly and Command+Option+Right Arrow to quickly access the next note. These shortcuts help me stay organized by allowing me to easily switch between notes without manually navigating through different pages.
 
+
+

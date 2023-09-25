@@ -29,3 +29,5 @@ tags: architecture
 	- The hierarchical design and the shifted window approach also prove beneficial for all [Perception](Perception.md) [Architectures](Architectures).
 	- Ratio of 1:1:3:1
 
+
+

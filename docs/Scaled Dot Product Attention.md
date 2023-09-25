@@ -20,3 +20,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![im](images/Pasted%20image%2020220526133045.png)
 - [Attention Alignment](Attention%20Alignment.md) score $$\alpha_{t,i} = \frac{s_{t}^{T}h_{i}}{\sqrt{n}}$$
 
+
+

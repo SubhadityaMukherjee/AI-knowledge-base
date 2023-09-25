@@ -180,3 +180,5 @@ model = gensim.models.KeyedVectors.load_word2vec_format("wvecemma.bin.gz", binar
 
 :::
 
+
+

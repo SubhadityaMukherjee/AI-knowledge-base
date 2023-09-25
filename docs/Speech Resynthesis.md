@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - evaluate the F0 reconstruction, speaker identification performance (for both resynthesis and voice conversion), recordings’ intelligibility, and overall quality using subjective human evaluation
 - ultra-lightweight speech codec
 
+
+

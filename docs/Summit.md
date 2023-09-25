@@ -15,3 +15,5 @@ date created: Wednesday, October 12th 2022, 4:44:48 pm
 - To quantify how much a layer influences the next, the authors aggregate the influences by creating a tensor $I^{l}$ for all the layers of the network ($l$). How important channel $i$ of the layer $l-1$ is determined by the aggregate tensor $I^{l}_{cij}$ where $j$ represents the output channel and $c$ is the class of the image. Considering the $j^{th}$ kernel of the layer $K^{(j)} \in \mathbb{R}^{H \times W \times C_{l-1}}$, a single channel $Y$ can be represented using the 3D convolution operation by $Y_{:,:,j}= X \ast K^{(j)}$. This is equivalent to it's representation by the 2D convolution $Y_{:,:,j}= \Sigma_{i=1}^{C_{l-1}} X_{:,:,i} \ast K^{(j)}_{:,:,i}$. 
 - $X_{:,:,i} \ast K^{(j)}_{:,:,i}$ is the contribution of the current channel from the previous layer and the maximum of this value is used to generate the influence map.
 
+
+

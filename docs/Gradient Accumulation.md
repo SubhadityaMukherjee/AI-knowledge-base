@@ -14,3 +14,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Is then equal to using a large batch size
 - example with $$SGD: \theta_{i}=\theta_{i}−1− \alpha\ast(\Sigma_{i=0}^{N}grad_{\theta_{i}})$$
 
+
+

@@ -41,3 +41,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - What made NDL so nice for animal learning might not scale up to linguistic phenomena
 - Inductive approaches to cognition
 
+
+

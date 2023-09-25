@@ -13,9 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - plenty of knowledge encoded in a large teacher BERT can be effectively transferred to a small student Tiny-BERT
 - [GLUE](GLUE.md)
 
-## Backlinks
 
-> - [AutoDistill](AutoDistill.md)
->   - higher than BERT_BASE, DistillBERT, [[TinyBERT]], NAS-BERT, and MobileBERT
 
-_Backlinks last generated 2023-01-28 14:37:47_

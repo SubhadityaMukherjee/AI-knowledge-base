@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Moreover, as the dimensionality increases of your data, the less useful Euclidean distance becomes. This has to do with the [curse of dimensionality](Curse%20Of%20Dimensionality.md)
 - works great when you have low-dimensional data and the magnitude of the vectors is important to be measured
 
+
+

@@ -19,9 +19,5 @@ date created: Wednesday, January 18th 2023, 4:10:42 pm
 - potential candidate actions to choose from can vastly outnumber the number of agents involved which is very different from multi-agent voting scenarios.
 - candidate actions may not be independent from each other, some of them may share certain features which describe their ethical dilemma situations
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[Embedding ethical principles in collective decision support systems]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

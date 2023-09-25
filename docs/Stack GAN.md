@@ -110,9 +110,5 @@ date created: Tuesday, December 13th 2022, 5:03:53 pm
 * Compared to existing text-to-image generative models, our method generates higher resolution images (e.g., 256⇥256) with more photo-realistic details and diversity.
 *
 
-## Backlinks
 
-> - [Scalar Articles](Scalar Articles.md)
->   - [[Stack GAN]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

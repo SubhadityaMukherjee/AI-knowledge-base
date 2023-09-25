@@ -15,9 +15,5 @@ date created: Sunday, December 11th 2022, 1:26:44 pm
 - The model will be more conservative for unknown content.
 - In general, it can help bette preserve the content if that is your priority.
 
-## Backlinks
 
-> - [CycleGAN](CycleGAN.md)
->   - [[Identity Loss]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

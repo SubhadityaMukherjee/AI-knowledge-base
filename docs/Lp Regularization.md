@@ -24,9 +24,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Too large : underfit, too small : overfit
 	- [Cross Validation](Cross%20Validation.md) required
 
-## Backlinks
 
-> - [Frobenius Norm](Frobenius norm.md)
->   - [[Lp Regularization]]
 
-_Backlinks last generated 2023-04-11 15:00:45_

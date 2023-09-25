@@ -144,12 +144,5 @@ plt.title('PCA Visualization')
 plt.plot()
 ```
 
-## Backlinks
 
-> - [Scalar Articles](Scalar Articles.md)
->   - [[Word2Vec]] with [[gensim]]
->    
-> - [](journals/2022-12-07.md)
->   - [[gensim]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

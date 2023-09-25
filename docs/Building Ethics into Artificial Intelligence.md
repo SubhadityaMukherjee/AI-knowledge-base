@@ -67,9 +67,5 @@ date created: Wednesday, January 18th 2023, 3:24:42 pm
 - Full transparency may be too overwhelming if the objective is to persuade a user to follow a time-critical recommendation
 - useful as a mechanism to trace the AI decision process afterwards not enough transparency may hamper users' trust in the AI
 
-## Backlinks
 
-> - [2023-01-18](journals/2023-01-18.md)
->   - [[Building Ethics into Artificial Intelligence]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:15 pm
 # TPU Slice
 - A TPU slice is a fractional portion of the TPU devices in a [TPU Pod](TPU%20Pod.md)
 
+
+

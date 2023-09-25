@@ -35,3 +35,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Speech data is encoded using a multi-layer 1-D convolutional neural network that maps 16 kHz waveform to 50 Hz representations.
 - Text is pre-processed to obtain sub-word units, which are then embedded in distributional space via learned [embedding](Embedding.md) vectors.
 
+
+

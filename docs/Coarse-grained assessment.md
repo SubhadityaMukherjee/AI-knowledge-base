@@ -17,3 +17,5 @@ date created: Wednesday, October 12th 2022, 2:17:10 pm
 - Psychometrics is the field that studies how to do this for conventional tests (e.g., multiple choice tests)
 - One of their main tools is item-response theory [IRT](IRT.md)
 
+
+

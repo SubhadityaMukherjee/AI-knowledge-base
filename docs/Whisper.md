@@ -14,9 +14,5 @@ tags: architecture
 within that time segment.
 - encoder-deccoder transformer
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Whisper]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

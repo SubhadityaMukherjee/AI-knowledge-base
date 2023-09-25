@@ -21,3 +21,5 @@ date modified: Monday, October 10th 2022, 2:02:06 pm
 - strategy for selecting training data that beats random selection
 - best to initially train with the original data only and then finish training with the original and augmented data, although there is no clear consensus
 
+
+

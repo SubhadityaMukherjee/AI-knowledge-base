@@ -17,3 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Learning is storing, classification is analogy
 - multiple long-distance dependencies
 
+
+

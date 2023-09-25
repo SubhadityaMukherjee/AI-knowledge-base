@@ -41,3 +41,5 @@ date created: Wednesday 24th May 2023, Wed
 - who is saying what, when, and why. To grasp the flavor of explainability in a given context, we need to pay attention to a relevant social group's interpretation of it and how that informs their operationalization.
 - While the notion of XAI is in flux, we are fortunate to join the conversation at this stage. We have substantial agency in steering the discourse, a privilege we need to exercise responsibly.
 
+
+

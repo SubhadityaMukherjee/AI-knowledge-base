@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Use NN to generate hypothesis outputs vectors
 	- As many components as possible target symbols
 
+
+

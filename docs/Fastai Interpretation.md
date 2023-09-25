@@ -37,3 +37,5 @@ return dict(zip(categories, map(float,probs)))
 classify_image(im)
 ```
 
+
+

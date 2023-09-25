@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Document Triage](Document%20Triage.md)
 - [Text Segmentation](Text%20Segmentation.md)
 
+
+

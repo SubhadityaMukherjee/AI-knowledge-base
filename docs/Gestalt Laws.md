@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Good form can dominate other laws
 - crossing swarms in our visual field are perceived as different swarms
 
+
+

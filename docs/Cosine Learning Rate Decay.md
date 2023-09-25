@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Rate decreases slowly at first, then almost linear in the middle and slows down again in the end
 - ![im](images/Pasted%20image%2020220502134254.png)
 
+
+

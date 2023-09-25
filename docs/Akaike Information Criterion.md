@@ -14,3 +14,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - q: number of variables of this model
 - If error terms $\epsilon$ follows [Normal Distribution](Normal%20Distribution.md) , expected value 0 + constant variance $$AIC = \frac{1}{\eta \sigma^{2}}(RSS + 2p \hat \sigma^2)$$
 
+
+

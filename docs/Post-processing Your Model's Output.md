@@ -9,3 +9,5 @@ date modified: Monday, October 10th 2022, 2:02:19 pm
 - Directly adding a mathematical constraint to an optimization problem.
 - A synthetic feature formed by crossing (taking a Cartesian product of) individual binary features obtained from categorical data or from continuous features via [bucketing](Bucketing.md). Feature crosses help represent nonlinear relationships.
 
+
+

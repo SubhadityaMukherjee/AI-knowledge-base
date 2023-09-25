@@ -12,3 +12,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - ![Pasted image 20220928214803](images/Pasted%20image%2020220928214803.png)
 - Affordance Score vs Contact Constraint
 
+
+

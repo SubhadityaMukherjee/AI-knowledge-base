@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Effective Filter size : $$\hat F = F + (F-1)(D-1)$$
 - ![[036AB58B-7EF0-4F12-AE56-7BFA00DA1967.png]]
 
+
+

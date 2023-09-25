@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - The results are queued (Re-order Buffer).
 - Only after all older instructions have their results written back to the register file, then this result is written back to the register.
 
+
+

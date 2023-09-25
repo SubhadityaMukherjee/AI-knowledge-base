@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - investigate order of intersection points along x or y axis
 - build pairs of first two and last two intersections
 
+
+

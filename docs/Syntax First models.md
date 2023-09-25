@@ -14,3 +14,5 @@ date created: Saturday, October 15th 2022, 11:08:40 am
 - recovery from a misanalysis is achieved via a separate reanalysis mechanism that uses semantic and contextual information
 - propose that only one representation is active at any given time and that nonsyntactic information only influences interpretation at a later reanalysis stage.
 
+
+

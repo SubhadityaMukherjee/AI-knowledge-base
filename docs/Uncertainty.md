@@ -15,4 +15,3 @@ tags: anchor
 - [SHAP.md](SHAP.md)
 - [Types of uncertainty.md](Types%20of%20uncertainty.md)
 - [Uncertainity in regression.md](Uncertainity%20in%20regression.md)
-

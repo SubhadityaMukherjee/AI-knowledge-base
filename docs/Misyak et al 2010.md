@@ -28,3 +28,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Maybe children are better at sequential learning, which helps them acquire languag
 - Adults then lose this ability
 
+
+

@@ -10,3 +10,5 @@ date modified: Monday, October 10th 2022, 2:02:16 pm
 	- The desire to keep the model as simple as possible (for example, strong [[regularization]]).
 	- or example, a function that minimizes loss+[[regularization]] on the training set is a structural risk minimization algorithm.
 
+
+

@@ -30,9 +30,5 @@ date created: Thursday, November 10th 2022, 3:22:54 pm
 - It appears that students would be in a better position to learn and retain new words if they were provided with repeated contexts through exposure to more sample sentences
 - In other words, is it the elaborative nature of the context, or is it the frequency of occurrence that promotes better vocabulary learning? Future research is warranted to unravel this issue.
 
-## Backlinks
 
-> - [Final Paper User Models](Final Paper User Models.md)
->   - [[The Effect of Three Consecutive Context Sentences on EFL Vocabulary-Learning]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

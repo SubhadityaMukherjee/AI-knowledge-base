@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:16 pm
 # Subthalamic Nucleus
 - A small brain structure, located in the [basal ganglia](Basal%20Ganglia.md), that plays an important role in coordinating movement. It is the most common target for neuromodulation techniques, like [[deep brain stimulation]], to help diminish the symptoms of [Parkinson’s disease](Parkinson’s%20Disease.md).
 
+
+

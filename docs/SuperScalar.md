@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - A superscalar processor executes more than one instruction during a clock cycle
 - Simultaneously dispatches multiple instructions to multiple redundant functional units built inside the processor.
 
+
+

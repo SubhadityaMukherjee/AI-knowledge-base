@@ -12,3 +12,5 @@ date created: Tuesday, October 4th 2022, 11:46:29 am
 - In addition, the self-distillation proposed by Lee et al. (2019a) is adopted for data augmentation and the self- knowledge of augmentation is distilled into the model itself. Self distillation is also adopted to optimize deep models (the teacher or student networks) with the same architecture one by one (Furlanello et al., 2018; Bagherinezhad et al., 2018)
 - both self-distillation and online distillation are properly in- tegrated via the multiple knowledge transfer frame- work (Sun et al., 2021).
 
+
+

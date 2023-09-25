@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - whereas the hidden representation H captures context-dependent information
 - [ALBERT](ALBERT.md) solves this issue by decomposing the [embedding](Embedding.md) parameters into two smaller matrices, allowing a two-step mapping between the original [word vectors](Word%20Vectors.md) and the space of the hidden state. In terms of computational cost, this no longer means $\text{O(VxH)}$ but rather $\text{O(VxE + ExH)}$, which brings a significant reduction when $\text{H >> E}$.
 
+
+

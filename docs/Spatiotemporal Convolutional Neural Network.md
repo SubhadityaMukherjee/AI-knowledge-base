@@ -12,9 +12,5 @@ tags: ssl
 - The input of C3D is 16 consecutive RGB frames where the appearance and temporal cues from 16-frame clips are extracted 
 - However, the paper of long-term temporal convolutions (LTC) [67] argues that, for # the long-lasting actions, 16 frames are insufficient to represent whole actions which last longer.
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Spatiotemporal Convolutional Neural Network]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

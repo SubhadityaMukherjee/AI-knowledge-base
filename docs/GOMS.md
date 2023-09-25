@@ -20,3 +20,5 @@ date created: Monday, October 3rd 2022, 3:34:14 pm
 - Reactive vs proactive
 - Performance vs control
 
+
+

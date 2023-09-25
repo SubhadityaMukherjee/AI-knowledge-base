@@ -53,3 +53,5 @@ date created: Monday 29th May 2023, Mon
 - keeping memory of which synapses contributed to recent activity, while thedopamine signal modulates the transformation of these eligibility traces into actualplastic changes.
 - ![img_p3_1](img_p3_1.png)
 
+
+

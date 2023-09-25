@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- good balance between the flexibility of “character”-delimited models and the efficiency of “word”-delimited models
 	- [Beam search](Beam%20search.md) technique employs a length-normalization procedure and uses a coverage penalty
 
+
+

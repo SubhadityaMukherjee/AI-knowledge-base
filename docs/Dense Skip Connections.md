@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- no of feature maps : $$k(i-1) + k_0$$ where k is growth rate (hyperparam)
 - [Skip Connection](Skip%20Connection.md)
 
+
+

@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - no learnable affine [features](Features.md)
 - Adaptively computes affine params from style input
 
+
+

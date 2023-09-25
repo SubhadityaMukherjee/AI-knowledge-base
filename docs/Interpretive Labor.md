@@ -23,3 +23,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - When we let things stop there the debt piles up.
 - It becomes harder to understand and build on each other’s work and the field fragments.
 
+
+

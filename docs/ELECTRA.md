@@ -18,3 +18,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [GLUE](GLUE.md)
 - performs comparably to [[RoBERTa|[[RoBERTa](RoBERTa.md)](RoBERTa.md) and [XLNet](XLNet.md) while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
 
+
+

@@ -13,9 +13,5 @@ tags: augment
 - AugMix 
 - [[ManifoldMix]]
 
-## Backlinks
 
-> - [Image Data Augmentation Survey](Image Data Augmentation Survey.md)
->   - [[Image Manipulation]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

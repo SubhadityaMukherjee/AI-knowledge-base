@@ -10,3 +10,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - which joint movements (q) are needed achieve a particular robot end effector pose (ξ)  
 - q = κ−1(ξ) : q = {qi,i ∈ [1,…,n]}
 
+
+

@@ -18,3 +18,5 @@ $$
 - $\lambda \in [0,1](Beta%20Distribution.md)
 - New example $(\hat x, \hat y)$
 
+
+

@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a3548f7f9207d5b7",
+        "id": "b283d046d83ac75a",
         "type": "tabs",
         "children": [
           {
-            "id": "3c80f274fed8065a",
+            "id": "0ccbfc1534867411",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
+                "file": "Interview Tips.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               }
             }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "saliency map",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
+                "file": "Interview Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,10 +111,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
+                "file": "Interview Tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "e46858dff882c389",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
             }
           },
           {
@@ -134,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md"
+                "file": "Interview Tips.md"
               }
             }
           },
@@ -143,14 +151,6 @@
             "type": "leaf",
             "state": {
               "type": "Strange New Worlds",
-              "state": {}
-            }
-          },
-          {
-            "id": "412b689159e9120f",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
               "state": {}
             }
           },
@@ -169,13 +169,24 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "6ba3ef212194d25e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,57 +200,60 @@
       "random-note:Open random note": false,
       "templater-obsidian:Templater": true,
       "daily-notes-editor:Open Daily Note Editor": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "mermaid-tools:Open Mermaid Toolbar": true,
-      "obsidian-gallery:Gallery": true
+      "obsidian-gallery:Gallery": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "map-of-content:Update Map of Content": false
     }
   },
-  "active": "3c80f274fed8065a",
+  "active": "0ccbfc1534867411",
   "lastOpenFiles": [
-    "AdamW.md",
-    "XAI.md",
-    "Supervised Learning Formulation.md",
-    "Image Data Augmentation Survey.md",
-    "Explainability Taxonomy.md",
-    "Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey.md",
-    "Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md",
-    "Feature Augmentation.md",
-    "Deep Generative Models.md",
+    "articles/Drafts/What I learnt from an AI Masters Part 2.md",
+    "articles/Others/Myself.md",
+    "articles/Others/What I learnt from an AI Masters Part 2.md",
+    "articles/Others/What I learnt from an AI Masters Part 1 copy.md",
+    "articles/Others/What I learnt from an AI Masters Part 1.md",
     "Auto Augment.md",
     "Augmentation-wise Weight Sharing strategy.md",
-    "Fast AutoAugment.md",
     "Population Based Augmentation.md",
-    "RandAugment.md",
-    "- Fast AutoAugment.md",
-    "Image Manipulation.md",
-    "ManifoldMix.md",
-    "Fmix.md",
-    "Image Mix.md",
-    "Image Erasing.md",
-    "Image Generation with Inpainting.md",
-    "Learning from Visual-Audio Correspondence.md",
-    "FeatMatch.md",
-    "Weight Decay Vs L2 Regularization.md",
-    "pixelattribution.md",
-    "Self Supervised Survey.md",
-    "images/img_p9_1.png",
-    "images/img_p1_1.png",
-    "images/Pasted image 20230310115248.png",
-    "images/pixelattribution_pixelattribution_img_p8_2.png",
-    "images/pixelattribution_pixelattribution_img_p8_1.png",
-    "images/pixelattribution_pixelattribution_img_p7_1.png",
-    "images/pixelattribution_pixelattribution_img_p5_1.png",
-    "images/pixelattribution_pixelattribution_img_p4_2.png",
-    "images/pixelattribution_pixelattribution_img_p4_1.png",
-    "images/pixelattribution_pixelattribution_img_p3_1.png",
+    "EigenCAM.md",
+    "Fast AutoAugment.md",
+    "Interview Tips.md",
+    "PromptIR.md",
+    "Schipol Data Scientist.md",
+    "ABN amro ml.md",
+    "Orbisk.md",
+    "Cold email templates.md",
+    "MediaMonks.md",
+    "Eneco Data Scientist.md",
+    "VattenFall Data Scientist.md",
+    "articles/Others/What I learnt from an AI Masters.md.sb-5b2e406b-jW7TJf",
+    "articles/Others/I dont know exactly what I want to do but to be honest it is.md",
+    "Kickstart AI.md",
+    "journals/2023_09_13.md",
+    "Bunq.md",
+    "Latitude Junior ML Engineer.md",
+    "ABN Amro AI Dev.md",
+    "articles/Others/What I learnt from an AI Masters.md.sb-8cbcbfd9-hcZQZL",
+    "articles/Others/What I learnt from an AI Masters.md",
+    "Jobs.canvas",
+    "pdfs/Shumailov et al. - 2023 - The Curse of Recursion Training on Generated Data.pdf",
+    "pdfs",
+    "images/PromptIR_img_p9_1.png",
+    "images/PromptIR_img_p8_2.png",
+    "images/PromptIR_img_p8_1.png",
+    "images/PromptIR_img_p6_1.png",
+    "images/PromptIR_img_p5_2.png",
+    "images/PromptIR_img_p5_1.png",
+    "images/PromptIR_img_p4_1.png",
+    "images/PromptIR_img_p3_1.png",
+    "images/PromptIR_img_p2_1.png",
+    "images/PromptIR_img_p1_1.png",
+    "articles/Others/Typst Cheat Sheet.md.sb-903fd5cd-cqPOlx",
     "quotes.html",
     "templates/random_quotes.html",
     "templates/quotes_index.html",
     "appjs.html",
     "assets",
-    "Thesis Stuff.canvas",
-    "articles/Drafts",
-    "articles/DL",
-    "articles/untitled folder"
+    "Thesis Stuff.canvas"
   ]
 }

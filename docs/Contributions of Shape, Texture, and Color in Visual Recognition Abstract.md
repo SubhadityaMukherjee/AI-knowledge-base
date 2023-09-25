@@ -98,9 +98,5 @@ date created: Saturday, November 5th 2022, 12:37:28 pm
 - ![[images/Pasted image 20221105123919.png]]
 - ![[images/Pasted image 20221105123931.png]]
 - ![[images/Pasted image 20221105123951.png]]
-## Backlinks
 
-> - [](journals/2022-11-04.md)
->   - [[Contributions of Shape, Texture, and Color in Visual Recognition Abstract]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

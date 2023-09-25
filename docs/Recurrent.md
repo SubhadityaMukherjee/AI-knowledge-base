@@ -41,3 +41,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- First starting with the short words and then eventually the longer ones.
 	- Topics and themes that span multiple words (and in general longer-term dependencies) start to emerge only much later.
 
+
+

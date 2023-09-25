@@ -12,3 +12,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - lower performance than [Static Graph Execution](Static%20Graph%20Execution.md)
 - graph architecture can evolve dynamically
 
+
+

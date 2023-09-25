@@ -112,9 +112,5 @@ date created: Thursday 17th November 2022, Thu
 - He had the sense that research was not accumulating to paint a coherent overall picture, but instead isolated fragments of knowledge were being collected.
 - The brain is, after all, a single organ.
 
-## Backlinks
 
-> - [](journals/2022-11-17.md)
->   - [[You can play 20 questions with nature and win]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

@@ -16,3 +16,5 @@ date created: Saturday, October 15th 2022, 11:09:27 am
 - the Unrestricted Race model predicts that sentences with garden-paths and sentences without garden-paths are two separate populations of events
 - In other words, in conditions where mean performance is expected to exhibit a garden-path effect, there should exist one of two possible patterns: (a) a bimodal distribution of some substantial gardenpath responses and some non-gardenpath responses, or (b) practically all trials exhibiting substantial garden-path effect
 
+
+

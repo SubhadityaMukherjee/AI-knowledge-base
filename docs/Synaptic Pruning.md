@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:15 pm
 # Synaptic [Pruning](Pruning.md)
 - A process by which specialized cells called [microglia](Microglia.md) eliminate unnecessary synapses as part of normal and healthy brain development.
 
+
+

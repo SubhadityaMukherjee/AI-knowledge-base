@@ -14,9 +14,5 @@ tags: architecture
 - inherent temporal information within videos can be used as supervision signal for self-supervised feature learning 
 - pretext tasks have been proposed by utilizing temporal context relations including temporal order verification [29], [40], [90] and temporal order recognition [27], [39]
 
-## Backlinks
 
-> - [](Learning from Video Prediction.md)
->   - [[MCnet]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

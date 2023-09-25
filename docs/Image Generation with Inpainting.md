@@ -10,9 +10,5 @@ tags: ssl
 - To correctly predict missing regions, networks are required to learn the common knowledge including the color and structure of the common objects 
 - Only by knowing this knowledge, networks are able to infer missing regions based on the rest part of the image.
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Image Generation with Inpainting]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

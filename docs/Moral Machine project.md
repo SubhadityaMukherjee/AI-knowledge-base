@@ -25,12 +25,5 @@ date created: Wednesday, January 18th 2023, 3:54:34 pm
 - people generally prefer the AV to make sacrifices if more lives can be saved.
 - self-reported preferences often do not align well with actual behaviours
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[Moral Machine project]]
->    
-> - [A Voting-based System for Ethical Decision Making](A voting-based system for ethical decision making.md)
->   - voting-based system for autonomous entities to make collective ethical decisions leverages data collected from the [[Moral Machine project]]
 
-_Backlinks last generated 2023-02-22 20:00:24_

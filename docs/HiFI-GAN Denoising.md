@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - end-to-end feed-forward WaveNet architecture, trained with multi-scale adversarial discriminators in both the time domain and the time-frequency domain
 - relies on the deep feature matching losses of the discriminators to improve the perceptual quality of enhanced speech
 
+
+

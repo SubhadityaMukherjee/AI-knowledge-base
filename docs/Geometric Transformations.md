@@ -10,3 +10,5 @@ date modified: Monday, October 10th 2022, 2:00:35 pm
 - A non-label preserving transformation could potentially strengthen the model’s ability to output a response indicating that it is not confident about its prediction. However, achieving this would require refined labels post-augmentation.
 - Due to the challenge of constructing refined labels for post-augmented data, it is important to consider the ‘safety’ of an augmentation. This is somewhat domain dependent
 
+
+

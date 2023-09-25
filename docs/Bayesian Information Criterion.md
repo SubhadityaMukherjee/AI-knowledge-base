@@ -11,3 +11,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - L: denotes the likelihood function for a particular model
 - q: number of estimated parameters of the model
 
+
+

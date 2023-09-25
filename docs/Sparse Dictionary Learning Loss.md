@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $\lambda \Sigma_i |r_i|$ is Lasso/L1 [Lp Regularization](Lp%20Regularization.md)
 - Predictions : $r = argmin_r ||x- Dr_i ||^2 + \lambda \Sigma_i |r_i|$
 
+
+

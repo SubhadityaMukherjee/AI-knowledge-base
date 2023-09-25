@@ -18,3 +18,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - recommend patches to provide a wide-range of performance optimizations in C`#` applications
 - Most suggested changes involve modifications to high-level constructs like API/Data Structure usages or other algorithmic changes, often spanning multiple methods, which cannot be optimized away automatically by the C`#` compiler and could, therefore, lead to slow-downs on the user’s side
 
+
+

@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - This kind of refinement of an idea can take just as much effort and deep understanding as the initial discovery.
 - We can’t solve [research debt](Research%20Debt.md) by having one person write a textbook
 
+
+

@@ -64,6 +64,7 @@ tags: anchor
 - [Dynamic Sparsity.md](Dynamic%20Sparsity.md)
 - [ELECTRA.md](ELECTRA.md)
 - [ELMO.md](ELMO.md)
+- [EfficientNet.md](EfficientNet.md)
 - [Elu.md](Elu.md)
 - [Encoder Decoder Attention.md](Encoder%20Decoder%20Attention.md)
 - [Ensemble Distillation.md](Ensemble%20Distillation.md)
@@ -86,8 +87,8 @@ tags: anchor
 - [GPT.md](GPT.md)
 - [GPT3.md](GPT3.md)
 - [GRConvNet.md](GRConvNet.md)
+- [GRU.md](GRU.md)
 - [Galactica.md](Galactica.md)
-- [Gated Recurrent Unit (GRU).md](Gated%20Recurrent%20Unit%20(GRU).md)
 - [Gato.md](Gato.md)
 - [Generative Models.md](Generative%20Models.md)
 - [Generative RNN.md](Generative%20RNN.md)
@@ -246,4 +247,3 @@ tags: anchor
 - [i-Code.md](i-Code.md)
 - [pGLSM.md](pGLSM.md)
 - [wave2vec.md](wave2vec.md)
-

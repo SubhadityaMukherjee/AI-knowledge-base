@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![im](images/Pasted%20image%2020220418104606.png)
 - [Characteristics of Visual Variables](Characteristics%20of%20Visual%20Variables.md)
 
+
+

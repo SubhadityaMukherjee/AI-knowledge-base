@@ -9,9 +9,5 @@ tags: ssl
 - ![img_p3_1](img_p3_1.png) 
 - For a set of N labeled training data
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Semi-Supervised Learning Formulation]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

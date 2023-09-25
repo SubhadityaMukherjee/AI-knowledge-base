@@ -1,3 +1,7 @@
+---
+title: README
+id: 20230826203331
+---
 # Zola Theme AdiDoks
 
 AdiDoks is a modern documentation theme, which is a port of the Hugo

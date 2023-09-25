@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - decoder, which is conditioned on image representations, can also produce variations of an image that preserve both its semantics and style, while varying the non-essential details absent from the image representation
 - diffusion models for the decoder and experiment with both [[autoregressive]] and diffusion models for the prior, finding that the latter are computationally more efficient and produce higher-quality samples
 
+
+

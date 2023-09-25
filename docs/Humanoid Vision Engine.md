@@ -15,9 +15,5 @@ date created: Saturday, November 5th 2022, 12:40:34 pm
 - end-to-end learning with backpropagation to simulate the learning process of humans and to summarize the contribution of shape, texture, and color
 - advantage of end-to-end training is that we can avoid introducing human bias, which may influence the objective of contribution attribution
 
-## Backlinks
 
-> - [Contributions of Shape, Texture, and Color in Visual Recognition Abstract](Contributions of Shape, Texture, and Color in Visual Recognition Abstract.md)
->   - [[Humanoid Vision Engine]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

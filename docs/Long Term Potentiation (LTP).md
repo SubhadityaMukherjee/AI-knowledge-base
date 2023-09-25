@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:23 pm
 # Long Term Potentiation (LTP)
 - The persistent strengthening of a synapse with increased use, thought to underlie learning and memory.
 
+
+

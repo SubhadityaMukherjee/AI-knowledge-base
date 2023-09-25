@@ -10,3 +10,5 @@ date modified: Monday, October 10th 2022, 2:02:28 pm
 	- the data type (for example, float or int)
 	- The length (fixed or variable)
 
+
+

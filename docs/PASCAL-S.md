@@ -11,3 +11,5 @@ date created: Thursday, October 6th 2022, 1:38:43 pm
 - "850 natural images"
 - The fixations were measured while eight observers looked at an image for 2 s.
 
+
+

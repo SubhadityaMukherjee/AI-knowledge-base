@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Loss](loss.md) to minimize $$L(\theta) = \Sigma_i^n||f(x^a) - f(x^p)||^2 + f(x^a) - f(x^n)||^2 + \alpha$
 - [Harmonic Triplet Loss](Harmonic%20Triplet%20Loss)
 
+
+

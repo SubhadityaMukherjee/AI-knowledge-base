@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - More energy efficient than [MIMD](MIMD.md)
 - [Time space duality](Time%20space%20duality.md)
 
+
+

@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - if $\sigma^{2}$ is a function of the input or variable in $\epsilon \sim \mathcal{N}(0, \sigma^{2})$
 - ![im](images/Pasted%20image%2020220323153054.png)
 
+
+

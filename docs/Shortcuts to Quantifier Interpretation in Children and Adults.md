@@ -174,3 +174,5 @@ date created: Sunday, October 9th 2022, 3:58:45 pm
 - These findings led Ferreira et al. (2002) to conclude that the meaning people obtain for a sentence is often not a reflection of its true content (p. 11) and that language processing often yields a merely good enough representation of a sentence's meaning
 - This statement is an apt characterization of the performance of many school-age children and adults in our experiments. More generally, the comprehension of universal quantifiers seems an ideal domain for exploring the dynamics of attention allocation, and cognitive effort, in language processing.
 
+
+

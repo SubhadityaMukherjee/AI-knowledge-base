@@ -50,12 +50,5 @@ date created: Monday, December 5th 2022, 2:24:28 pm
 	- Faster forgetting when rewarded slightly
 	- ![[Pasted image 20221205143724.png]]
 
-## Backlinks
 
-> - [CogMod Final Paper](CogMod Final Paper.md)
->   - [[The Reward Experiment]]
->    
-> - [](journals/2022-12-05.md)
->   - **02:24** [[The Reward Experiment]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

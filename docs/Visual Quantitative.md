@@ -12,9 +12,5 @@ date created: Wednesday 21st December 2022, Wed
 
 - Can the difference between two marks in this variable be interpreted numerically? [i.e., corresponds to 5?]
 
-## Backlinks
 
-> - [Characteristics of Visual Variables](Characteristics of Visual Variables.md)
->   - [[Visual Quantitative]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

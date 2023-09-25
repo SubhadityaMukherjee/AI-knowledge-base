@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:21 pm
 # Nucleus Accumbens
 - Part of the brain’s reward circuitry, or [mesolimbic pathway](Mesolimbic%20Pathway.md), this small region in the midbrain releases dopamine in response to rewarding experiences.
 
+
+

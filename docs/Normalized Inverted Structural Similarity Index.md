@@ -11,3 +11,5 @@ date created: Wednesday, October 5th 2022, 2:55:16 pm
 - NISSIM bounds to (0, 1] where 0 means similar and 1 means dissimilar. Ideally we want this value as close to 0 as possible
 - $$NISSIM_{i}= \frac{1-SSIM_{i}}{2}$$
 
+
+

@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - trained entirely independently of the model
 - observe experimentally that the linear separability of [features](Features.md) increase monotonically along the depth of the model
 
+
+

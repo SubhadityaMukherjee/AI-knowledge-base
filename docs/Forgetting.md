@@ -21,9 +21,5 @@ tags: robotics
 - unpleasant memories (categories) Intrinsic forgetting
 - redundant data Interference-based forgetting samples that cause interference
 
-## Backlinks
 
-> - [](journals/2022-11-03.md)
->   - [[Forgetting]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

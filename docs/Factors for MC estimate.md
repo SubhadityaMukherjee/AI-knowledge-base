@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Redundant information
 	- First value will depend to a decreasing degree on the distance from this timestep to the previous ones. Then washout (because old ones are too far away)
 
+
+

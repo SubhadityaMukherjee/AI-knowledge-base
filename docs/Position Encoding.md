@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Conceptually, adding word order to a sentence
 	- Something like ("Hello", 1) , ("from",2) , ("me", 3)
 
+
+

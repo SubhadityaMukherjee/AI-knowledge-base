@@ -50,9 +50,5 @@ date created: Saturday, December 3rd 2022, 5:10:11 pm
 ## Causal Connection
 
 * Research on how people connect causes shows that they do so by undertaking a mental simulation of what would have happened had some other event turned out differently
-## Backlinks
 
-> - [](journals/2022-12-03.md)
->   - **05:17** Anyway [[Beware of Inmates Running the Asylum]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

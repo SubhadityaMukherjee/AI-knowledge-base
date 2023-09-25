@@ -14,3 +14,5 @@ date modified: Thursday, November 3rd 2022, 11:40:00 am
 - [Distributive Interpretation (2)](Distributive%20Interpretation%20(2).md)
 - [Cumulative Interpretation](Cumulative%20Interpretation.md)
 
+
+

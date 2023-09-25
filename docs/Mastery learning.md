@@ -17,3 +17,5 @@ date created: Wednesday, October 12th 2022, 2:12:10 pm
 - It is seldom used for a class-paced course, where it is important that all students stay together as they move through the curriculum.
 - A common mistake is to develop a tutoring system with a fancy outer loop, then discover that instructors cannot use its features due to the class-paced nature of the course.
 
+
+

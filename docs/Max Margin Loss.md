@@ -10,9 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Spring mass system
 - [Hinge Loss](Hinge%20Loss.md) probably ??
 
-## Backlinks
 
-> - [Capsule Network](Capsule Network.md)
->   - [[Max Margin Loss]]
 
-_Backlinks last generated 2023-02-14 14:39:28_

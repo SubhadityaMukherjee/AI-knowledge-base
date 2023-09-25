@@ -18,9 +18,5 @@ date created: Sunday 18th December 2022, Sun
 -  Differences in the features generated, for example different hair colors, occur due to changes in the direction that you have to move in Z-space to modify the features of the image.
 - If image output of $g(v_{1})$ , new controlled output with $g(v_{1}+d)$
 
-## Backlinks
 
-> - [Conditional GAN](Conditional GAN.md)
->   - [[GAN Z Space]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

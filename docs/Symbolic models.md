@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Model could later correctly reproduce novel sequences
 - But all letters had occurred in each position
 
+
+

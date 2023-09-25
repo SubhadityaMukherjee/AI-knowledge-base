@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [loss](loss.md) function that directly corresponds to detection performance and the entire model is trained jointly
 - [Picasso Dataset](Picasso%20Dataset.md), [People Art Dataset](People%20Art%20Dataset.md)
 
+
+

@@ -12,9 +12,5 @@ date created: Wednesday, January 18th 2023, 3:55:20 pm
 
 - morally forbids the commitment of certain actions regardless of consequences
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - Such rules often involve protected values (a.k.a. [[sacred values]])
 
-_Backlinks last generated 2023-01-28 14:37:47_

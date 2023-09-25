@@ -107,3 +107,5 @@ date created: Monday, October 24th 2022, 5:14:15 pm
 - Every (container) has an (object) in it, for example, Every bathtub has an alligator in it.
 - There is an (object) in every (container), for example, There is an alligator in every bathtub.
 
+
+

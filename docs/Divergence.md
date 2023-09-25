@@ -12,3 +12,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - $$div_v: \mathbb{R}^{3} \rightarrow \mathbb{R} = \nabla \cdot v = \frac{\partial v_{x}}{\partial x} + \frac{\partial v_{y}}{\partial y} + \frac{\partial v_{z}}{\partial z}$$
 - ![Screenshot 2022-09-14 at 12.23.33 PM](images/Screenshot%202022-09-14%20at%2012.23.33%20PM.png)
 
+
+

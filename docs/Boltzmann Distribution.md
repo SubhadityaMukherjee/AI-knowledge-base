@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Energy function $E: S \rightarrow \mathbb{R}^{\geq 0}$
 - [Markov Random Field](Markov%20Random%20Field.md)
 
+
+

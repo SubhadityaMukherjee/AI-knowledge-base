@@ -12,7 +12,5 @@ date created: Tuesday, December 6th 2022, 12:54:47 pm
 ```
 - @liDeepLIFTDeepLabelSpecific2022
 
-## Backlinks
 
-> - [Vision Explainibility](Vision Explainibility.md)
->   - [[DeepLIFT]]
+

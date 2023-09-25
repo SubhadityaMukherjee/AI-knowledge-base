@@ -16,9 +16,5 @@ date created: Friday 24th March 2023, Fri
 - This variance is the only parameter when tuning the method
 - This is in [[Smooth-Grad]] 
 
-## Backlinks
 
-> - [Integrated Gradients](Integrated Gradients.md)
->   - [[Gaussian Baseline]]
 
-_Backlinks last generated 2023-04-11 15:00:45_

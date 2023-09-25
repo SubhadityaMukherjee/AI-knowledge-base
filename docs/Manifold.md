@@ -31,3 +31,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [tds](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
 - [way more stuff : bjlkeng](https://bjlkeng.github.io/posts/manifolds/) #todo
 
+
+

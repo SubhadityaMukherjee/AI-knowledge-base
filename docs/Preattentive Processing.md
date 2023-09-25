@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - some visual properties are detected very rapidly and in parallel by low level visual processes
 - ![im](images/Pasted%20image%2020220418103924.png)
 
+
+

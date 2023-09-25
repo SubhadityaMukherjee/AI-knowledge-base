@@ -21,3 +21,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Categories largely identifiable by color or texture (for e.g., yellow bird, textured mushroom) are unaffected by aggressive [[cropping]], while categories identifiable by shape (for e.g., corkscrew) see a performance degradation with aggressive [[cropping]] that only contains part of the object
 - Conversely, color jitter does not affect shape or texture-based categories (for e.g., zebra), but affects color-based categories (for e.g., basket ball)
 
+
+

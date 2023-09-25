@@ -93,9 +93,5 @@ $$I_{o}U_{k,c}=\frac{\Sigma|M_{k}(x) \cap L_{c}(x|}{\Sigma|M_{k}(x) \cup L_{c}(x
 - This may indicate a limit on the capacity of AlexNet to separate explanatory factors; or it may indicate that a limit on the number of disentangled concepts that are helpful to solve the primary task of scene classification.
 - ![[Pasted image 20221124135123.png]]
 
-## Backlinks
 
-> - [](journals/2022-11-24.md)
->   - **01:26**[[Network Dissection Quantifying Interpretability of Deep Visual Representions]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

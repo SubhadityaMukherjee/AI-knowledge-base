@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - better separate the generator and the discriminator, which ensures less dependence of the generator on the training set
 - his allows one to, for example, reduce discrimination in the generated pictures
 
+
+

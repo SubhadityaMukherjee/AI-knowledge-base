@@ -14,9 +14,5 @@ date created: Sunday 12th February 2023, Sun
 - ![[images/Pasted image 20230212122522.png]]
 - 
 
-## Backlinks
 
-> - [Capsule Network](Capsule Network.md)
->   - [[Capsule Layer]]
 
-_Backlinks last generated 2023-02-14 14:39:28_

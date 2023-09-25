@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - combines [[autoregressive]] modeling and noise-contrastive estimation with intuitions from predictive coding to learn abstract representations in an unsupervised fashion
 - negative sampling
 
+
+

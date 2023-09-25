@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Max Margin Loss](Max%20Margin%20Loss.md)
 - [Triplet Loss](Triplet%20Loss.md)
 
+
+

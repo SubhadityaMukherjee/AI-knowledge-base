@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Embedding vector v that will be learnt
 	- Values like : $v_{the}$, $v_{cat}$, $v_{walks}$
 
+
+

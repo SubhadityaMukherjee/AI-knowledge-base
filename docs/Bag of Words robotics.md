@@ -19,9 +19,5 @@ date modified: Wednesday, December 7th 2022, 10:37:52 pm
 - ![[images/Pasted image 20221103123459.png]]
 - ![[images/Pasted image 20221103123515.png]]
 
-## Backlinks
 
-> - [](journals/2022-11-03.md)
->   - [[Bag of Words robotics]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

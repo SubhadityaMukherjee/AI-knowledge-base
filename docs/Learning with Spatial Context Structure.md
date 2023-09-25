@@ -21,9 +21,5 @@ tags: ssl
 - To limit the number of permutations, usually, hamming distance is employed to choose only a subset of permutations among all the permutations that with relative large hamming distance. 
 - Only the selected permutations are used to train ConvNet to recognize the permutation of shuffled image patches [20], [35], [88], [89]
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Learning with Spatial Context Structure]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

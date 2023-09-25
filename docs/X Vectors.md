@@ -20,3 +20,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - PLDA classifier is used in the x-vector framework to make the final decision, similar to i-vector systems
 - x-vectors are compared with i-vector baselines on [Speakers in the Wild](Speakers%20in%20the%20Wild.md) and [NIST SRE 2016 Cantonese](NIST%20SRE%202016%20Cantonese.md) where they achieve superior performance on the evaluation datasets
 
+
+

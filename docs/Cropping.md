@@ -17,3 +17,5 @@ date modified: Monday, October 10th 2022, 2:00:43 pm
 - For example, if all the images in a dataset are centered, which is common in face recognition datasets, this would require the model to be tested on perfectly centered images as well.
 - remaining space can be filled with either a constant value such as 0 s or 255 s, or it can be filled with random or Gaussian noise
 
+
+

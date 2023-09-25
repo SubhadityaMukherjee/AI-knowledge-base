@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- $$\nabla_WE = \delta \cdot x^T$$ , $$\nabla_bE = \delta$$
 	- $$\nabla_xE = W^T\cdot \delta$$
 
+
+

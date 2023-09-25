@@ -8,3 +8,5 @@ date modified: Monday, October 10th 2022, 2:02:24 pm
 - half x mass x (velocity squared)
 - $$E_{K}= \frac{1}{2}mv^{2}$$
 
+
+

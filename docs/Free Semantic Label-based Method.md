@@ -12,9 +12,5 @@ tags: ssl
 - contour detection 
 - relative depth prediction
 
-## Backlinks
 
-> - [](Pretext Tasks.md)
->   - [[Free Semantic Label-based Method]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

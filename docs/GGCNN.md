@@ -14,3 +14,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - ![Pasted image 20220928213943](images/Pasted%20image%2020220928213943.png)
 - Morrison, Douglas, Peter Corke, and Jürgen Leitner. "Closing the loop for robotic grasping: A real-time, generative grasp synthesis approach." RSS (2018).
 
+
+

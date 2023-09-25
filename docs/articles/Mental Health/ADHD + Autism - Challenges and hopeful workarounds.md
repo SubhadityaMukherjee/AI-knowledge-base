@@ -93,3 +93,5 @@ There are so many people I want to thank here. I sadly do not know who most of t
 - Reddit and all of you. Feeling like I am not alone here makes things a lot easier to handle. I am very grateful to you for giving me that.
 - Every website that gave me tips on how to manage my life. Not all of them helped of course, but they were a start.
 
+
+

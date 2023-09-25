@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - We train directly the updates of this structure
 - Random mask. We restrict the update Hit to be a sparse matrix, following a pre-defined random [[sparsity]] pattern
 
+
+

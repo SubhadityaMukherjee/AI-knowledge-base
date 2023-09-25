@@ -15,9 +15,5 @@ date created: Wednesday, January 25th 2023, 11:53:13 am
 - But from our perspective, all the datasets are really trying to represent the same domain – our visual world – and we would like to measure how well or badly they do it.
 - Overall the results look rather depressing, as little generalization appears to be happening beyond the given dataset
 
-## Backlinks
 
-> - [Unbiased Look at Dataset Bias](Unbiased Look at Dataset Bias.md)
->   - [[Cross-dataset generalization]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:17 pm
 # Sampling Bias
 - Data is not collected randomly from the target group.
 
+
+

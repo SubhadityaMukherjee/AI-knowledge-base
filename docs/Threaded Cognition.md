@@ -14,9 +14,5 @@ date created: Monday, December 12th 2022, 1:18:55 pm
 - Cognition is Threaded but overlaps in the sense that different areas can not be accessed if it uses same areas as the other task at the same time
 - If no expertise, consult Declarative memory all the time. Until it's not required anymore if in long term store.
 
-## Backlinks
 
-> - [Cognitive Multitasking](Cognitive Multitasking.md)
->   - [[Threaded Cognition]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

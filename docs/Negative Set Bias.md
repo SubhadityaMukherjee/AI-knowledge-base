@@ -17,9 +17,5 @@ date created: Wednesday, January 25th 2023, 11:54:54 am
 - One remedy, proposed in this paper, is to add negatives from other datasets
 - Another approach, suggested by Mark Everingham, is to use a few standard algorithms (e.g. bag of words) to actively mine hard negatives as part of dataset construction from a very large unlabelled set, and then manually going through them to weed out true positives. The down side is that the resulting dataset will be biased against existing algorithms.
 
-## Backlinks
 
-> - [Unbiased Look at Dataset Bias](Unbiased Look at Dataset Bias.md)
->   - [[Negative Set Bias]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

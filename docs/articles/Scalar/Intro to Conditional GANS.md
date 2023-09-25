@@ -147,3 +147,5 @@ Overall, being able to modify specific features in the generated images is a cha
 - Overall, the article offers a comprehensive introduction to the concept and application of Conditional GANs, making it a valuable resource for anyone interested in this area of computer vision.
 :::
 
+
+

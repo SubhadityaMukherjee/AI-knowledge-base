@@ -14,3 +14,5 @@ date modified: Monday, October 10th 2022, 2:02:06 pm
 - Oversampling with GANs can be done using the entire minority class as 'real' examples, or by using subsets of the minority class as inputs to GANs
 - The use of evolutionary sampling to find these subsets to input to GANs for class sampling is a promising area for future work.
 
+
+

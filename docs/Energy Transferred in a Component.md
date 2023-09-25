@@ -8,3 +8,5 @@ date modified: Monday, October 10th 2022, 2:02:28 pm
 - charge passing through it x potential difference acorss it
 - $$W = QV$$
 
+
+

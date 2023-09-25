@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - In other (simpler) words, when you take a look at the value going through an _isotropic_ network, it doesn't change in size.
 - Like [Transformer](Transformer.md) , [MLP-Mixer](MLP-Mixer)
 
+
+

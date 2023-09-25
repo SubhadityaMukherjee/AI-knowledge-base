@@ -20,3 +20,5 @@ date created: Wednesday, October 12th 2022, 2:22:19 pm
 - In addition to having a list of all anticipated correct learning events, such as the ones mentioned above, AutoTutor has a list of several of the most important incorrect learning events
 - To find out which learning events underlie the student's step, AutoTutor measures the semantic similarity between the text of the [Learning Event](Learning%20Event.md) and the text of the step. It uses a measure called [Latent Semantic Analysis](Latent%20Semantic%20Analysis.md)
 
+
+

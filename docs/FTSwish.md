@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - What we also see is that the derivative of FTSwish is smooth, which is what made [Swish](Swish.md) theoretically better than [ReLU](Relu.md) in terms of the loss landscape
 - However, what I must note is that this function does not protect us from the dying [ReLU](Relu.md) problem: the gradients for $x < 0$ are zero, as with [ReLU](Relu.md).
 
+
+

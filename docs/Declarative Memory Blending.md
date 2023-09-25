@@ -33,12 +33,5 @@ date created: Monday, November 28th 2022, 1:07:49 pm
 - Does well with unmodified mode	
 - ![[Pasted image 20221128131719.png]]
 
-## Backlinks
 
-> - [Dikes and Rivers](Dikes and Rivers.md)
->   - ACTR declarative memory + [[Declarative Memory Blending]]
->    
-> - [Cognitive fMTP](Cognitive fMTP.md)
->   - [[Declarative Memory Blending]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

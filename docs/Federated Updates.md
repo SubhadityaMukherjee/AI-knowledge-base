@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Structured Update](Structured%20Update.md)
 - [Sketched Update](Sketched%20Update.md)
 
+
+

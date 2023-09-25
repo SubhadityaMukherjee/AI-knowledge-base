@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Both combined to make a prediction
 - ![im](images/Pasted%20image%2020220307171243.png)
 
+
+

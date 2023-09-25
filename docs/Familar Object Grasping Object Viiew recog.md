@@ -17,3 +17,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - New objects that are similar to known ones (i.e. they are familiar) can be grasped in a similar way
 	- As an example, if the robot knows how to grasp a pen, it may use the same grasp temple to take a marker
 
+
+

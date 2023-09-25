@@ -21,3 +21,5 @@ date created: Wednesday 22nd February 2023, Wed
 - They found that there is a lack of consistency for evaluation metrics
 - So we are back to where we started ... It remains difficult to evaluate the visual explanations. This makes it very difficult for a practitioner.
 
+
+

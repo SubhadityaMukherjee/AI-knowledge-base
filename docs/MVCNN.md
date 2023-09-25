@@ -12,3 +12,5 @@ tags: robotics
 - Number of categories should be defined in advance.
 - ![[images/Pasted image 20221103123544.png]]
 
+
+

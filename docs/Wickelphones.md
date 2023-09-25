@@ -26,3 +26,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Thousands of exposures
 - No distinction between tokens and types, each [verb](Verb.md) simply included once
 
+
+

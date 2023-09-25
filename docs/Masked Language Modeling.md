@@ -23,3 +23,5 @@ date created: Thursday, December 8th 2022, 11:40:39 pm
 ## Masking Input Tokens BERT
 - In the original research paper, 15% of the input tokens were masked, of which 80% were replaced with [MASK] tokens, 10% were replaced with random tokens, and another 10% were left as is. However, in our fine-tuning task, we are replacing 15% of the input tokens except for the special ones with only [MASK] i.e., we will not replace token numbers 101,102, and 0 with mask token 103. In the following lines of codes, the same logic is implemented
 
+
+

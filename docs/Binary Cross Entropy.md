@@ -12,9 +12,5 @@ date created: Friday, January 20th 2023, 1:52:00 pm
 
 $$-(ylog(p)+(1-y)log(1-p))$$
 - $$L(y, \hat y) = - \Sigma_{i}y_{i}log(\hat y_{i})+ (1-y_{i})log(1-\hat y_{i})$$
-## Backlinks
 
-> - [Cross [Entropy](Entropy.md)](Cross Entropy.md)
->   - [[Binary Cross Entropy]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

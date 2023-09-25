@@ -13,9 +13,5 @@ tags: architecture
 - When it comes to audio synthesis, multiple scales make achieving high audio quality while displaying consistency very challenging
 - This gets achieved by this model by combining recent advances in neural audio compression, self-supervised representation learning and language modelling.
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[AudioLM]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Bias nodes give a defaults activation to other nodes
 	- Usually included, the bias node does not connect to input nodes but to the output nodes
 
+
+

@@ -20,3 +20,5 @@ date created: Wednesday, October 12th 2022, 2:23:15 pm
 - Although the constraints are task independent, many of them refer to a correct solution of the problem, which is stored in the tutoring system.
 - The relationship between steps, learning events and constraints is quite simple in the SQL-Tutor. Each constraint corresponds to a [Knowledge Component](Knowledge%20Component.md).
 
+
+

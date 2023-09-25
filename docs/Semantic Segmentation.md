@@ -11,9 +11,5 @@ tags: ssl
 - FCN [4] is a milestone work for semantic segmentation since it started the era of applying fully convolution network (FCN) to solve this task 
 - When using semantic segmentation as downstream task to evaluate the quality of image features learned by selfsupervised learning methods, the FCN is initialized with the parameters trained with the pretext task and fine-tuned on the semantic segmentation dataset, then the performance on the semantic segmentation task is evaluated and compared with that of other self-supervised methods.
 
-## Backlinks
 
-> - [](Pretext Tasks.md)
->   - [[Semantic Segmentation]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

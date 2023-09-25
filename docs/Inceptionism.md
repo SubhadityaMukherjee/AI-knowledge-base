@@ -46,3 +46,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - The techniques presented here help us understand and visualize how neural networks are able to carry out difficult classification tasks, improve network architecture, and check what the network has learned during training
 - It also makes us wonder whether neural networks could become a tool for artists—a new way to remix visual concepts—or perhaps even shed a little light on the roots of the creative process in general.
 
+
+

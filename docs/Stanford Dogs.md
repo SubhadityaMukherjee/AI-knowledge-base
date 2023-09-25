@@ -12,9 +12,5 @@ date created: Friday, January 13th 2023, 2:53:27 pm
 - @khoslaNovelDatasetFineGrained
 - This dataset contains images of 120 breeds of dogs, with a total of 20,580 images.
 
-## Backlinks
 
-> - [Fine Grained Datasets](Fine grained datasets.md)
->   - [[Stanford Dogs]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

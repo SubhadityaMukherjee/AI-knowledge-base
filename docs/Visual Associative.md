@@ -12,9 +12,5 @@ date created: Wednesday 21st December 2022, Wed
 
 - Can this variable allow us to spontaneously group items in a group? [i.e., 1 group from all]
 
-## Backlinks
 
-> - [Characteristics of Visual Variables](Characteristics of Visual Variables.md)
->   - [[Visual Associative]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

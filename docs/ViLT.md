@@ -28,3 +28,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ViLT is over 10x faster than previous VLP models, yet with competitive or better downstream task performance
 - VLP needs to focus more on the multi-[[modality]] interactions aspect inside the transformer module rather than engaging in an arms race that merely powers up unimodal embedders
 
+
+

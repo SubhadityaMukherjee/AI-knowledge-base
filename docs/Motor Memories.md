@@ -19,3 +19,5 @@ date created: Tuesday, August 2nd 2022, 9:19:44 pm
 - The researchers say that as we repeat learned skills, we are continually reinforcing the motor engrams by building new connections — refining the skill. It’s what is meant by the term muscle memory — a refined, highly redundant network of motor engrams used so frequently that the associated skill seems automatic.
 - Current thinking is that [Parkinson’s disease](Parkinson’s%20Disease.md) is the result of these motor engrams being blocked, but what if they’re actually being lost and people are forgetting these skills?
 
+
+

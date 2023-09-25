@@ -10,3 +10,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Fall outside the bounds in something like [[clustering]]
 - gets assigned to something close by but not really related
 
+
+

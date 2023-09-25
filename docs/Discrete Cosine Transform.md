@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- But when you downsample the data first by e.g. applying the DCT, you thus effectively apply sparsening twice. My only conclusion can thus be that by consequence, the convolutional filters can no longer learn the unique aspects within the image-like data, as they are hidden in the data set made compact. Only then, I literally found out why people always suggest to input your [image data](Image%20Data.md) into CNNs as untransformed as possible.
 	- Besides the architectural differences between them, one must also conclude that CNNs make data essentially sparser while SVMs do not.
 
+
+

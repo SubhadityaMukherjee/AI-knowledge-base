@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Move D in a direction to minimize loss and project it back
 	- [Gradient Descent gradients](Gradient%20Descent%20gradients.md) or [LinearRegression](LinearRegression.md)
 
+
+

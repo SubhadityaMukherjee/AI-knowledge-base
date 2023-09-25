@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - CNN-based GAN with spectral normalization on both the generator and discriminator, both of which are pre-trained on large unlabeled speech corpora
 - even after the data on the client is lost, their model can generate similar data that can be used for model bootstrapping in the future
 
+
+

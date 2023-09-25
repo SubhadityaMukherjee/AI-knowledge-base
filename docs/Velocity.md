@@ -10,3 +10,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - [Displacement](Displacement.md) wrt time
 - $$v_{avg}= \frac{\Delta{x}}{\Delta t}$$
 
+
+

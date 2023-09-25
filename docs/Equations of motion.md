@@ -17,3 +17,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - $$\Delta x = \frac{1}{2}(v+u) \Delta t$$
 - $$v^{2}= u^{2}+2a \Delta x$$
 
+
+

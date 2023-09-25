@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Neural Architecture Search
 - Controller RNN ([Basic RNN Architectures](Basic%20RNN%20Architectures.md)) produces architectures and evaluated until convergence
 
+
+

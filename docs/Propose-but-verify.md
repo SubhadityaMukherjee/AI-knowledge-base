@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Keep guess until they encounter contradicting information
 - Seems to correctly model competitions between [features](Features.md)/cues
 
+
+

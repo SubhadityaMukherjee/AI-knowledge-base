@@ -105,8 +105,5 @@ $$
 - ![[Pasted image 20230110140713.png]]
 - ![[Pasted image 20230110140725.png]]
 
-## Backlinks
-> - [Vision Explainibility](Vision Explainibility.md)
->   - [[Conductance]]
 
-_Backlinks last generated 2023-01-28 14:37:47_
+

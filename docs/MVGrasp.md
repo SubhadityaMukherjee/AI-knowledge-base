@@ -21,3 +21,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- Most objects are graspable from either top or side -> orthographic setup
 	- View [entropy](Entropy.md) is used as the metric for selecting the best view
 
+
+

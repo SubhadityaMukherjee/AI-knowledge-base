@@ -24,9 +24,5 @@ date created: Monday 27th March 2023, Mon
 ## Images
 - ![[images/Pasted image 20230327124659.png]]
 
-## Backlinks
 
-> - [Layer Normalization](Layer Normalization.md)
->   - From [[Visualizing the Loss Landscape of Neural Nets]],
 
-_Backlinks last generated 2023-04-11 15:00:45_

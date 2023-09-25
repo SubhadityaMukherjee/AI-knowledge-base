@@ -11,9 +11,5 @@ tags: ssl
 - With the perceptron loss, the SRGAN is able to recover photo-realistic textures from heavily downsampled images and show significant gains in perceptual quality. 
 - The networks for image super-resolution task are able to learn the semantic features of images
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Image Generation with Super Resolution]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

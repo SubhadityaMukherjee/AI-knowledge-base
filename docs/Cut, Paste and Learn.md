@@ -11,3 +11,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - Instances are blended with various blending approaches, for example, gaussian blurring and poison blending, to reduce pixel artifacts around the augmented object boundaries.
 - Added instances are also rotated, oc- cluded, and truncated to make the learning algo- rithm robust.
 
+
+

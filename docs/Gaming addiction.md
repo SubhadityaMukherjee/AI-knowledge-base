@@ -19,3 +19,5 @@ tags: brain, psychology
 - The results show that the same addiction to substance can share the same neuro-biological mechanisms with the extreme gaming demands of online gaming addiction.
 - [Paper](https://dergipark.org.tr/en/pub/makuiibf/issue/41626/435845)
 
+
+

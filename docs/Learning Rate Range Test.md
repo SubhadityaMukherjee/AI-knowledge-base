@@ -17,3 +17,5 @@ for i in range(moving_average, len(learning_rates)):
     loss_changes.append((losses[i] - losses[i - moving_average]) / moving_average)
 ```
 
+
+

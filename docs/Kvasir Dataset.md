@@ -14,3 +14,5 @@ date created: Friday, July 29th 2022, 2:51:11 pm
 - The dataset consist of the images with different resolution from 720x576 up to 1920x1072 pixels
 - Some of the included classes of images have a green picture in picture illustrating the position and configuration of the [[endoscope]] inside the bowel, by use of an electromagnetic imaging system
 
+
+

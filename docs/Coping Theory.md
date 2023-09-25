@@ -18,9 +18,5 @@ date created: Wednesday, January 18th 2023, 4:03:46 pm
 - similar to existing individual ethical decision frameworks implicit reward
 - humans in the loop
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[Coping Theory]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

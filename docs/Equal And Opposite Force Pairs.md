@@ -10,3 +10,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - "When one body exerts a [force](Force.md) on a second body, the second body simultaneously exerts a [force](Force.md) equal in magnitude and opposite in direction on the first body."
 - $$F_{1}= -F_{2}$$
 
+
+

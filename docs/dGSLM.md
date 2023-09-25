@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - unsupervised spoken unit discovery coupled with a dual-[tower](Tower.md) [transformer](Transformer.md) architecture with cross-[attention](Attention.md) trained on 2000 hours of two-channel raw conversational audio [Fisher Spanish-English](Fisher%20Spanish-English.md) without any text or labels
 - generate speech, laughter and other paralinguistic signals in the two channels simultaneously and reproduces naturalistic turn taking
 
+
+

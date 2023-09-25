@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:15 pm
 # Tourette’s Syndrome
 - A neurological disorder, beginning in childhood, characterized by repetitive, involuntary movements or vocalizations, called tics.
 
+
+

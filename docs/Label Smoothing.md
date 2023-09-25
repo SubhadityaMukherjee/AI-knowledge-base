@@ -23,9 +23,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - As $\epsilon$ increases, the gap decreases
 - If $\epsilon=\frac{K-1}{K}$, all optimizal $z^{\ast}_{i}$ are identical
 
-## Backlinks
 
-> - [DCGAN](DCGAN.md)
->   - In this implementation, I also added in [[Label Smoothing]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

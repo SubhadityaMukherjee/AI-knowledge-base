@@ -12,9 +12,5 @@ date created: Wednesday, January 18th 2023, 4:01:13 pm
 
 - with some information about a given agent's state and knowledge
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[partially informed ethical judgement]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

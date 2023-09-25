@@ -28,3 +28,5 @@ date created: Monday, November 14th 2022, 1:05:21 pm
 - [[Time perception]]
 - Ideas always get reinforced if retrieve
 
+
+

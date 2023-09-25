@@ -20,12 +20,5 @@ date created: Sunday 12th February 2023, Sun
 ## Squash
 - The outputs of the capsules are then “squashed” to ensure that they have a non-negative scalar value, which allows the network to learn more easily to differentiate between objects and background.
 
-## Backlinks
 
-> - [Capsule Network](Capsule Network.md)
->   - [[Primary Capsule]]
->    
-> - [Higher Layer Capsule](Higher Layer Capsule.md)
->   - The outputs of the [[Primary Capsule]] are then passed to higher-layer capsules, which **combine the information from multiple primary capsules** to extract more abstract concepts, such as the identity of an object or the presence of a face.
 
-_Backlinks last generated 2023-02-14 14:39:28_

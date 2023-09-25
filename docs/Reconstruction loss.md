@@ -13,9 +13,5 @@ date created: Sunday 12th February 2023, Sun
 - The second loss function in capsule networks is called “reconstruction loss.” This loss function ensures the network can reconstruct an object from its lower-level features. 
 - This is accomplished by training the network to reconstruct an image from the output of the capsule layers.
 
-## Backlinks
 
-> - [Capsule Network](Capsule Network.md)
->   - [[Reconstruction loss]]
 
-_Backlinks last generated 2023-02-14 14:39:28_

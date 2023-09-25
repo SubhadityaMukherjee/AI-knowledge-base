@@ -22,3 +22,5 @@ tags: brain, psychology
 
 [^1](Functional%20Connectivity.md) associated with individual differences in Internet tendency in healthy young adults , Neuropsychologia
 
+
+

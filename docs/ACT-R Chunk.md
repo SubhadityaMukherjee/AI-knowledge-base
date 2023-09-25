@@ -23,9 +23,5 @@ date created: Monday, November 14th 2022, 1:42:10 pm
 		- How often retrieved or recreated
 		- context
 
-## Backlinks
 
-> - [Declarative Memory](Declarative memory.md)
->   - [[ACT-R Chunk]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

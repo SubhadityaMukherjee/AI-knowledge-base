@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - A verification decision is made by comparing the distance to a threshold
 - DNN based speaker verification system achieves good performance compared to a popular i-vector system on a small footprint text-dependent speaker verification task
 
+
+

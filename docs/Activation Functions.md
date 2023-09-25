@@ -6,3 +6,5 @@ date modified: Monday, October 10th 2022, 2:02:35 pm
 - general rule "which is better"
 - [SELU](SELU.md) > [Elu](Elu.md) > [Leaky Relu](Leaky%20Relu.md) > [Relu](Relu.md) > [Tanh](Tanh.md) > [Sigmoid](Sigmoid.md)
 
+
+

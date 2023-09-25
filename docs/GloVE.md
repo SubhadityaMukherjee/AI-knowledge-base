@@ -28,9 +28,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ## Analogies
 - ![](assets/king-man+woman-gensim.png)
 
-## Backlinks
 
-> - [Word Vectors](Word Vectors.md)
->   - [[GloVE]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

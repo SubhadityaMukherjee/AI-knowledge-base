@@ -12,9 +12,5 @@ rectified gating function
 - the biggest advantage of this model is that it does not need for as much data as other image-to-text models
 - improving data eciency in image captioning networks would enable quick data curation, description of rare objects, and applications in specialized domains
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[VisualGPT]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

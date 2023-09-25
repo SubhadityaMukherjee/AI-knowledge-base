@@ -15,9 +15,5 @@ date created: Wednesday, October 12th 2022, 4:42:26 pm
 - The user keeps asking a finite number of questions of the machine until he/she can no longer ask why or how because he/she has a satisfactory answer; we say he/she has comprehended.
 - This is the relationship between cause and effect; it is not a synonym for causability
 
-## Backlinks
 
-> - [Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI](Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md)
->   - [[Comprehensibility]]
 
-_Backlinks last generated 2023-03-07 10:46:27_

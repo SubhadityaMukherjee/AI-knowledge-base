@@ -24,9 +24,5 @@ w = w - lr * w.grad - lr * wd * w
 - the optimizer should have been set with wd=0 otherwise it will do some L2 regularization, which is exactly what we don't want
 - loop over all the parameters and do our little weight decay update
 
-## Backlinks
 
-> - [AdamW](AdamW.md)
->   - [[Weight Decay Vs L2 Regularization]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

@@ -20,9 +20,5 @@ date created: Wednesday, January 18th 2023, 4:05:29 pm
 - The main challenge in machine learning based moral decision-making is to design a generalizable representation of ethical dilemmas
 - Game theory and machine learning can be combined into one framework in which game theoretic analysis of ethics is used as a feature to train machine learning approaches
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[Moral decision making frameworks for artificial intelligence]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

@@ -17,9 +17,5 @@ tags: architecture
 - After the output of the spatial transformer, they apply a single linear projection without activation to map the tokens back to pixel space
 - Consequently, the model generates temporally coherent and diverse videos conditioned on open domain prompts even when the prompt is a new composition of concepts
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Phenaki]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

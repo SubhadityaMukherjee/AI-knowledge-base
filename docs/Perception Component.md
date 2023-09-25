@@ -7,9 +7,5 @@ tags: robotics
 # Perception Component
 - processes all momentary information coming from sensors.
 
-## Backlinks
 
-> - [](journals/2022-11-03.md)
->   - [[Perception Component]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

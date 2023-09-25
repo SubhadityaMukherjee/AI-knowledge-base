@@ -17,9 +17,5 @@ other models on this synthetic data
 - The entire process of formulating a plan, collecting documents, performing an edit and explaining it can be repeated multiple times until arriving at a sequence of text
 - a DeepSpeed transformer is used
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[PEER]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

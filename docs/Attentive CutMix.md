@@ -13,3 +13,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - A separate pre-trained network is employed to extract attentive regions.
 - The attention output is mapped back onto the original image
 
+
+

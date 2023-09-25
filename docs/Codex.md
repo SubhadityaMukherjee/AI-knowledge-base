@@ -11,9 +11,5 @@ tags: architecture
 - The second part is the most time-barring part for programmers, and it is where Codex excels the most
 - model is fine-tuned from GPT-3, which already contains strong natural language representations
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Codex]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

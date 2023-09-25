@@ -7,3 +7,5 @@ tags: language
 - Object takes scope over the subject:
 - Three aliens are holding two flags. = (Two flags, and then three aliens hold them)
 
+
+

@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - focus on improving key image aspects that are significant in human [perception](Perception.md), such as faces and salient objects, resulting in higher favorability of their method in human evaluations and objective metrics
 - Through scene controllability, they introduce several new capabilities: (i) scene editing, (ii) text editing with anchor scenes, (iii) overcoming out-of-distribution text prompts, and (iv) story illustration generation
 
+
+

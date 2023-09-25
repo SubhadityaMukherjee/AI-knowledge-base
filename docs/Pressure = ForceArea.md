@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:19 pm
 # Pressure = [Force](Force.md)/Area
 - $$P = \frac{F}{A}$$
 
+
+

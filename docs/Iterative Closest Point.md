@@ -15,9 +15,5 @@ tags: robotics
 - Without pose information, ICP-based approaches are unable to recover the proper transformations because of the ambiguity in surface matching.
 - ![[images/Pasted image 20221103123325.png]]
 
-## Backlinks
 
-> - [](journals/2022-11-03.md)
->   - [[Iterative Closest Point]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

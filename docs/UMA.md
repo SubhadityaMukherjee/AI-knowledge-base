@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Equal access and access times to memory
 - [Cache Coherence](Cache%20Coherence.md)
 
+
+

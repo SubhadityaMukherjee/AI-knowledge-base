@@ -10,9 +10,5 @@ tags: dataset
 - videos in HMDB51 dataset have 320 x 240 pixels spatial resolution and 30 FPS frame rate 
 - the self-supervised models are fine-tuned on the dataset to evaluate the quality of the learned video features.
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[HMDB51]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

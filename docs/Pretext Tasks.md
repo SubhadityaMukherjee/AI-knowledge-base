@@ -33,9 +33,5 @@ tags: ssl
 
 - [[Nearest Neighbor Retrieval]]
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Pretext Tasks]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

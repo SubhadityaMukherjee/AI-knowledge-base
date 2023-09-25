@@ -18,9 +18,5 @@ $$
 $$
 - where ${ \sigma _{i}(A)}$ are the singular values of A
 
-## Backlinks
 
-> - [Filter Wise Normalization](Filter Wise Normalization.md)
->   - $||\cdot||$ is the [[Frobenius norm]]
 
-_Backlinks last generated 2023-04-11 15:00:45_

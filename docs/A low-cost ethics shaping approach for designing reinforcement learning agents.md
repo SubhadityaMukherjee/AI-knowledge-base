@@ -15,9 +15,5 @@ date created: Wednesday, January 18th 2023, 4:09:28 pm
 - assuming that the majority of observed human behaviours are ethical, the proposed approach learns ethical shaping policies from available human behaviour data in given application domains
 - rewards positive ethical decisions, punishes negative ethical decisions, and remains neutral when ethical considerations are not involved
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[A low-cost ethics shaping approach for designing reinforcement learning agents]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

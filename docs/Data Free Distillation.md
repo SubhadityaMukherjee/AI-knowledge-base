@@ -14,3 +14,5 @@ date created: Tuesday, October 4th 2022, 11:51:35 am
 - distilling knowl- edge from a teacher model into a student neural network (Kimura et al., 2018; Shen et al., 2021).
 - data distillation, which is similar to data-free distillation (Radosavovic et al., 2018; Liu et al., 2019d; Zhang et al., 2020d). In data distillation, new training annotations of unlabeled data generated from the teacher model are employed to train a student model.
 
+
+

@@ -13,9 +13,5 @@ tags: explainability
 - How a general user believes an LLM to work may be very different from how it actually works, and this mismatch can be dangerous
 - It is not difficult to imagine frightening scenarios where users anthropomorphize or deify an LLM chatbot, understanding it to be a "magical" source of ground truth. This could very quickly lead to conspiracy theories and the legitimization of disinformation campaigns [see, e.g., 23]
 
-## Backlinks
 
-> - [Whos Thinking, A Push for Human Centered Evaluation of LLMs](Whos Thinking, A push for human centered evaluation of LLMs.md)
->   - [[Mental Model Matching]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

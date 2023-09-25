@@ -60,8 +60,5 @@ date created: Monday 6th March 2023, Mon
 - [[Minimization and reporting of negative impacts]]
 - [[Redress]]
 
-## Backlinks
-> - [Explainability Taxonomy](Explainability Taxonomy.md)
->   - [[Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI]]
 
-_Backlinks last generated 2023-03-07 10:46:27_
+

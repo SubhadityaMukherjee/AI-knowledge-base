@@ -25,3 +25,5 @@ tags: architecture
 	- potential advantage for adaption
 	- built-in local context structure introduced by convolutions, CvT no longer requires a position [embedding](Embedding.md)
 
+
+

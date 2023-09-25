@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Linearly from 0 to initial rate
 - First m batches to warm up and if the initial learning rate is $\eta$ then at batch i, $1 \leq i \leq m$ , learning rate is $$\frac{i\eta}{m}$$
 
+
+

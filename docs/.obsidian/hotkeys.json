@@ -118,5 +118,13 @@
       ],
       "key": "M"
     }
+  ],
+  "random-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }

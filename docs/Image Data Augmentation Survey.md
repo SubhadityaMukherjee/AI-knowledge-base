@@ -61,3 +61,5 @@ date created: Tuesday 6th June 2023, Tue
 - Since various data augmentation can be combined together to generate new image data, the selection and combination of data augmentation techniques are critical 
 - how to choose and combine methods is a key point when performing data augmentation 
 
+
+

@@ -12,3 +12,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - The attentive region in the source image is scaled and translated according to the attentive region of the target image for region replacement
 - The label information of the output is similar to the target image as this approach relies on augmenting similar class images.
 
+
+

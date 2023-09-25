@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - replicate the performance and sizes of the [GPT](GPT.md)-3 class of models, while also applying the latest best practices in data curation and training efficiency
 - OPT-175B is comparable to [GPT](GPT.md)-3, while requiring only 1/7th the carbon footprint to develop
 
+
+

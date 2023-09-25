@@ -15,9 +15,5 @@ date created: Wednesday, January 18th 2023, 3:57:53 pm
 - goodness process then computes the set of ethical actions based on the agent's beliefs, desires, actions, and moral value rules
 - rightness process evaluates whether or not executing a possible action is right under the current situation and selects an action which satisfies the rightfulness requirement
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[Belief-Desire-Intention]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

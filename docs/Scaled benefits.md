@@ -11,12 +11,5 @@ date created: Monday, December 5th 2022, 1:43:33 pm
 ```
 - The more prepared - the more benefits
 
-## Backlinks
 
-> - [Cognitive fMTP](Cognitive fMTP.md)
->   - [[Scaled benefits]]
->    
-> - [Cogntition Hazard Rates](Cognition Hazard Rates.md)
->   - [[Scaled benefits]] (useful for assignment)
 
-_Backlinks last generated 2023-02-22 20:00:24_

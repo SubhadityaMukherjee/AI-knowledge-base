@@ -159,4 +159,3 @@ tags: anchor
 - [Wernicke Area.md](Wernicke%20Area.md)
 - [aphasia.md](aphasia.md)
 - [fMRI.md](fMRI.md)
-

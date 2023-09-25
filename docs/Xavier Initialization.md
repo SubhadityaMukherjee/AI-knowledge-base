@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - For [Batch Normalization](Batch%20Normalization.md) [Layers](Layers.md), $\gamma =1$ and $\beta=0$
 - For [Tanh](Tanh.md) based activating neural nets
 
+
+

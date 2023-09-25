@@ -17,3 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - only consider cells with different signs
 - access look-up table for respective case
 
+
+

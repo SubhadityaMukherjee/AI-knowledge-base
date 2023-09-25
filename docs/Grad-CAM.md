@@ -54,3 +54,5 @@ $$
 - Grad-CAM, on the other hand, uses the gradients of the class scores with respect to the feature maps in order to generate heatmaps. Specifically, it uses the gradients of the class scores with respect to the final feature maps of the network, which are then upsampled to the same size as the input image. The resulting heatmap highlights the regions of the input image that are most important for the given classification.
 - In summary, Grad-CAM is an improvement over CAM because it provides a more detailed and accurate [[visualization]] of the regions of an image that are important for a given classification by using gradients of the class scores with respect to the feature maps, providing additional information about the contribution of different regions of the image to the final classification decision.
 
+
+

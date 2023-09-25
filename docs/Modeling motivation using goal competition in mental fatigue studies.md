@@ -55,9 +55,5 @@ date created: Wednesday 1st February 2023, Wed
 - ![[images/Pasted image 20230201115918.png]]
 - 
 
-## Backlinks
 
-> - [CogMod Final Paper](CogMod Final Paper.md)
->   - [[Modeling motivation using goal competition in mental fatigue studies]] : performance in reward vs non reward , distraction, linear decrease in goal activation
 
-_Backlinks last generated 2023-02-01 13:16:25_

@@ -14,3 +14,5 @@ date created: Tuesday 7th February 2023, Tue
 - issues if gradient is close to 0
 - $$L(y, \hat y) = n^{-1}\Sigma_{i}|\hat y _{i} -y_{i}|$$
 
+
+

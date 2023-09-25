@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - the more complex the task of interest is (in the sense of requiring multi-step reasoning approach), the bigger the boost from the chain of thought prompting!
 - chain of thought processing is an emergent property of model scale that can be induced via prompting and can enable sufficiently large [language](language.md) models to better perform reasoning tasks that otherwise have flat scaling curves.
 
+
+

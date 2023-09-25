@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - often produces false statements that are disconnected from reality because such models are not grounded in reality
 - hallucinated texts
 
+
+

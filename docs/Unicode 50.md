@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Alphabetic Systems require 2 bytes
 	- Chinese –Japanese-Korean – 3 bytes (sometimes 4 bytes)
 
+
+

@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Byte Range Distribution used for Character Set Identification
 - sort the bytes in a ﬁle by frequency count and use the sorted list as a signature vector for comparison via an n-gram model
 
+
+

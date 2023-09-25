@@ -27,3 +27,5 @@ tags: architecture
 - captures information about artistic style and learns salient information such as geo-locations and multilingual word embeddings based on visual content only.
 - large-scale self-supervised pre-training yields more robust, fair, less harmful, and less biased results than supervised models or models trained on object centric datasets such as [ImageNet](ImageNet.md)
 
+
+

@@ -12,3 +12,5 @@ date created: Wednesday, October 12th 2022, 4:43:39 pm
 
 - local method of comparison for different predictions. Counterfactuals are contrastive. They explain why a decision was made instead of another. A counterfactual explanation of a prediction may be defined as the smallest change to the feature values that changes the prediction to a predefined output.
 
+
+

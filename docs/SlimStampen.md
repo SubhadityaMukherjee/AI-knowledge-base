@@ -77,9 +77,9 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
 ### Predicting Performance on the Exam
 - We used lasso regression (Tibshirani, 1996) to predict grades using nine predictors: a student’s accuracy during study, their cohort, their cumulative usage time, the number of days on which they used the system, the number of items they studied, the number of sessions they recorded, the number of trials they completed, their estimated rate of forgetting, and their median response time
-- The advantage of lasso regression is that the shrinkage term handles multicollinearity between the predictors by shrinking their coefficients
-- The shrinkage is achieved by imposing a cost function on the magnitude of the
-- coefficients themselves: the best fit is achieved by the model that minimizes the OLS with the smallest coefficients. In fact, coefficients are shrunk entirely if they do not explain sufficient variance to justify inclusion in the model. In lasso regression, predictors must be normalized to ensure that the shrinkage term affects all predictors equally. A convenient consequence of normalized predictors is that their post-shrinkage
+- The advantage of lasso regression is that the [shrinkage](Shrinkage.md) term handles multicollinearity between the predictors by shrinking their coefficients
+- The [shrinkage](Shrinkage.md) is achieved by imposing a cost function on the magnitude of the
+- coefficients themselves: the best fit is achieved by the model that minimizes the OLS with the smallest coefficients. In fact, coefficients are shrunk entirely if they do not explain sufficient variance to justify inclusion in the model. In lasso regression, predictors must be normalized to ensure that the [shrinkage](Shrinkage.md) term affects all predictors equally. A convenient consequence of normalized predictors is that their post-[shrinkage](Shrinkage.md)
 - coefficients directly indicate their importance: since all predictors are on the same scale, the most important predictor retains the largest (absolute) coefficient.
 - 250-fold cross-validation procedure
 
@@ -103,4 +103,6 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - ![Pasted image 20221014162918](images/Pasted%20image%2020221014162918.png)
 - ![Pasted image 20221014162927](images/Pasted%20image%2020221014162927.png)
 - ![Pasted image 20221014162855](images/Pasted%20image%2020221014162855.png)
+
+
 

@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Adds up so can be measured
 	- [Equivalent Current Dipole](Equivalent%20Current%20Dipole.md)
 
+
+

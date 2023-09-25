@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Then get the next from the distribution which is specified by the transition kernel
 - ![im](images/Pasted%20image%2020220324124409.png)
 
+
+

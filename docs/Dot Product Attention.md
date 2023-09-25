@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Final scores after [Softmax](Softmax.md)
 - ![Pasted image 20220621174933](images/Pasted%20image%2020220621174933.png)
 
+
+

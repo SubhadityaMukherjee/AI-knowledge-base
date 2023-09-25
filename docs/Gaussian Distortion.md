@@ -15,9 +15,5 @@ date created: Wednesday 1st February 2023, Wed
 - normal distortion is applied to each grid point on a circular surface (corner="bell") and with default values for the mean and standard deviation ($\mu_{x}$ = $\mu_{y}$ = 0.5,$\sigma_{x}$ = $\sigma_{y}$ = 0.05)
 - $$p(x,y) = exp\{-(\frac{(x-\mu_{x})^{2}}{\sigma_{x}} + \frac{(x-\mu_{y})^{2}}{\sigma_{y}}))\}$$
 
-## Backlinks
 
-> - [Comparing Data Augmentation Strategies for Deep Image Classification](Comparing Data Augmentation Strategies for Deep Image Classification.md)
->   - [[Gaussian Distortion]]
 
-_Backlinks last generated 2023-02-01 13:16:25_

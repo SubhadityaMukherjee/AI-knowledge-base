@@ -12,3 +12,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - distinct distinguishable values per attribute limited  
 - visual mappings must be learned for correct interpretation
 
+
+

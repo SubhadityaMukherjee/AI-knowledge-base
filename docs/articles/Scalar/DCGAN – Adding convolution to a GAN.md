@@ -312,7 +312,7 @@ This article trains the network for 25 epochs. To get a better understanding of 
 [IMAGE {8} FINISH SAMPLE]
 
 ### Weight Initialization
-The DCGAN model requires a careful weight initialization scheme. If the layer is a Convolutional layer, we can take the initialization values from a Normal distribution in the range of (0.0,0.02). On the other hand, if the layer is a Batch Normalization layer, we can take the weights from a Normal distribution in the range of (0.0, 0.02) while we can set the bias to 0.
+The DCGAN model requires a careful weight [initialization](../../Initialization.md) scheme. If the layer is a Convolutional layer, we can take the [initialization](../../Initialization.md) values from a Normal distribution in the range of (0.0,0.02). On the other hand, if the layer is a Batch Normalization layer, we can take the weights from a Normal distribution in the range of (0.0, 0.02) while we can set the bias to 0.
 
 ```python
 def weights_normal_init(m):
@@ -331,9 +331,11 @@ def weights_normal_init(m):
 ## Conclusion
 - The article has explained the concept of GANs and the specific architecture of DCGANs, which are a variation that can handle larger images.
 - It has also provided a step-by-step guide on how to build a DCGAN from scratch using the PyTorch library and the [[../../CIFAR|CIFAR]] dataset.
-- The implementation process, including loading the dataset and preprocessing it, creating the network architecture and initialization of weights, as well as training the network, has been explained.
+- The implementation process, including loading the dataset and preprocessing it, creating the network architecture and [initialization](../../Initialization.md) of weights, as well as training the network, has been explained.
 - The final output is expected to be a set of photorealistic images that resemble one of the classes in the [[../../CIFAR|CIFAR]] dataset, which is a significant achievement.
 - GANs, particularly DCGANs, have a wide range of applications and can generate images of different objects, depending on the dataset used to train the network. This article provides a foundation for further research and experimentation with GANs.
 
 :::
+
+
 

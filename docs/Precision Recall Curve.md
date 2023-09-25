@@ -14,3 +14,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
     - balanced this is 0.5
 - skilful model is represented by a curve that bows towards (1,1) above the flat line of no skill
 
+
+

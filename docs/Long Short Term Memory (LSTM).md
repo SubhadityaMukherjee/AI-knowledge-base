@@ -29,3 +29,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- $$h_t$$ to predict output
 		- $$h_t = g_o \cdot \sigma_y(C_t)$$
 
+
+

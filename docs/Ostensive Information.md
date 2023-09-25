@@ -14,9 +14,5 @@ date created: Wednesday 21st December 2022, Wed
 	- information changing the listener's cognitive state 
 	- information communicating that the first layer of information is presented intentionally
 
-## Backlinks
 
-> - [Ostension](Ostension.md)
->   - [[Ostensive Information]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

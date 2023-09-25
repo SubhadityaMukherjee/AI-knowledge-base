@@ -16,3 +16,5 @@ tags: brain, psychology
 - [Brain areas](Brain%20Areas.md) related to response inhibition ability
 - [inferior Frontal Gyri](inferior%20Frontal%20Gyri) and [Medial Frontal Gyri](Medial%20Frontal%20Gyri), the [Opercular Cingulate](Opercular%20Cingulate), [Insular Cingulate](Insular%20Cingulate), [Orbital Posterior Cingulate](Orbital%20Posterior%20Cingulate) and [Posterior Parietal Cortex](Posterior%20Parietal%20Cortex)
 
+
+

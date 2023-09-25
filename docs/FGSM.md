@@ -12,3 +12,5 @@ date created: Wednesday, October 5th 2022, 2:53:25 pm
 - $$adv_{x}= x+ \epsilon \ast sign(\nabla_{x}(J(\theta, x, y)))$$
 - this gives us the perturbations
 
+
+

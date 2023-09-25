@@ -47,4 +47,3 @@ tags: anchor
 - [Spirometer.md](Spirometer.md)
 - [Thrombosis.md](Thrombosis.md)
 - [Ultrasound.md](Ultrasound.md)
-

@@ -25,3 +25,5 @@ date created: Friday, November 18th 2022, 12:30:09 pm
 - Finally, the authors use CAM for domain adaptation and show that it can be used to identify the regions of an image that are important for a specific task, even when the model has been trained on a different dataset. They also use CAM for weakly-supervised object localization and show that it can be used to identify the regions of an image that contain an object of interest, even when only image-level labels are available. They use CAM for multi-modal learning and show that it can be used to identify the regions of an image that are important for a given task, even when multiple modalities (e.g. image and text) are available.
 - The authors conclude that the CAM is a powerful technique for visualizing the decision-making process of a deep neural network and can be used to improve the interpretability, performance, and robustness of deep models.
 
+
+

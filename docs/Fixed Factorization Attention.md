@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - when using multiple heads, having them attend to distinct subblocks of length $c$ within the block of size $l$ was preferable to having them attend to the same subblock
 - ![Pasted image 20220621181149](images/Pasted%20image%2020220621181149.png)
 
+
+

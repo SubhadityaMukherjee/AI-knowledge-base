@@ -13,9 +13,5 @@ tags: architecture
 - generally very well-suited for model scaling
 - use of a single model to perform multiple tasks: it generates several responses, which are filtered for safety, grounded on an external knowledge source and reranked to find the highest-quality response.
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[LaMDA]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

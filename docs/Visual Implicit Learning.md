@@ -17,3 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Shows a potential connection between sequence learning and language modelling ability
 - Learning simple dependencies is not so difficult it seems. But natural language has many dependencies at a distance
 
+
+

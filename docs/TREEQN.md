@@ -12,3 +12,5 @@ def transition(zl):
   return zl.unsqueeze(1) + F.tanh(torch.einsum("bk,aki->bai", [zl, W]) + b)
 ```
 
+
+

@@ -17,9 +17,5 @@ date created: Wednesday, January 18th 2023, 4:09:16 pm
 - ethical specifications and priority of ethical considerations under a given situation are used to compute the goodness assessment on the consequences
 - combined with deontological specifications (duties, obligations, rights) to produce a final rightfulness assessment
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[A declarative modular framework for representing and applying ethical principles.]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

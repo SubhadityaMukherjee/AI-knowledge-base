@@ -18,3 +18,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
     - multiplying the encoders output vectors with the embedding matrix -> transforms them into the vocabulary dimension
     - calculating probability of each word in the vocabulary using [Softmax](Softmax.md)
 
+
+

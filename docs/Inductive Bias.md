@@ -19,3 +19,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Non Relational Inductive Bias](Non%20Relational%20Inductive%20Bias.md)
 - [Relational Inductive Bias](Relational%20Inductive%20Bias.md)
 
+
+

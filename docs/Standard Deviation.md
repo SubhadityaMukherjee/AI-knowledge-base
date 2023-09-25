@@ -18,3 +18,5 @@ tags: statistics
 - [Normal Distribution](Normal%20Distribution.md)
 - $$std = \sqrt{\frac{\Sigma(x-\bar x)^{2}}{n-1}}$$
 
+
+

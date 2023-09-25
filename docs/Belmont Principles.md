@@ -8,3 +8,5 @@ date modified: Monday, October 10th 2022, 2:02:33 pm
 - The three principles—
 - [beneficence](Beneficence.md), distributive justice, and respect for persons—which the 1976 [Belmont Report](Belmont%20Report.md) concluded should underlie all conduct in biomedical and behavioral research in order to protect human participants.
 
+
+

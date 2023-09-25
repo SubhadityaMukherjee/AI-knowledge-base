@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Also copy to FP32 for parameter updates
 - Multiply scalar to loss to align range of FP16
 
+
+

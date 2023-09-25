@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - a global approach which always attends to all source words and a local one that only looks at a subset of source words at a time
 - [BLEU](BLEU.md)
 
+
+

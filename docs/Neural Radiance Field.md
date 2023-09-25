@@ -21,3 +21,5 @@ date created: Tuesday, July 26th 2022, 5:03:15 pm
 	- set of images with known camera poses
 	- They describe how to effectively optimize neural radiance fields to render photorealistic novel views of scenes
 
+
+

@@ -24,3 +24,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [NIST 2008 Speaker Recognition Evaluation dataset](NIST%202008%20Speaker%20Recognition%20Evaluation%20dataset.md)
 - Up until d-vectors, the state-of-the-art [speaker verification](Speaker%20Verification.md) systems were based on the concept of i-vectors
 
+
+

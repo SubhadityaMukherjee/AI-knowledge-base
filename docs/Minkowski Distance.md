@@ -20,3 +20,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- p=$\infty$ — [Chebyshev Distance](Chebyshev%20Distance.md)
 - The upside to p is the possibility to iterate over it and find the distance measure that works best for your use case.
 
+
+

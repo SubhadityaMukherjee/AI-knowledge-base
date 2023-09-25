@@ -439,3 +439,5 @@ Another useful application of Siamese Networks is Text similarity. Given multipl
 - We also understood the entire training and testing pipeline for Siamese networks, including its paired data representation.
 :::
 
+
+

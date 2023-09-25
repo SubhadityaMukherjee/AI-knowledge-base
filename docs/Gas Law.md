@@ -11,3 +11,5 @@ date modified: Monday, October 10th 2022, 2:02:27 pm
 - pressure x volume of a gas = number of moles x molar gas constant x absolute temperature
 - $$pV = nRT$$
 
+
+

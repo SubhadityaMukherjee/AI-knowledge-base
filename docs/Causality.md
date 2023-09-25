@@ -18,9 +18,5 @@ date created: Wednesday, October 12th 2022, 4:42:35 pm
 - A ML model only discovers correlations among the data it learns from, and therefore might not suffice for unveiling a cause-effect relationship.
 - However, causation involves correlation, so an explainable ML model could validate the results provided by causality inference techniques, or provide a first intuition
 
-## Backlinks
 
-> - [Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI](Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md)
->   - [[Causality]]
 
-_Backlinks last generated 2023-03-07 10:46:27_

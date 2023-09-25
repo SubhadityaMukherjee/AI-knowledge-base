@@ -13,3 +13,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - $$h(x_{0}, x_{1}) = (1-z) \odot \Pi_{0}^{T}x_{0} + z \odot \Pi_{1}^{T}x_{1}$$
 - where $z_{i}$ is a binary mask, $\lambda = \frac{1}{n}\Sigma_{i}z_{i}$ is the mixing ratio and $\Pi_{0}, \Pi_{1}$ are represent $n \times n$ grids that denote the amount of mass that is transported during transport of the image patch to another location. 
 
+
+

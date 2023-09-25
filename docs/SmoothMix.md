@@ -17,3 +17,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - xnew = G.xa + (1 − G).xb
 - ynew = λ.ya + (1 − λ).yb
 
+
+

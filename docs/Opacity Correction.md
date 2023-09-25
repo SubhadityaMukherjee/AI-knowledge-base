@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - evaluate after obtaining $o$ from [transfer function](Transfer%20Function.md)
 - apply before compositing`
 
+
+

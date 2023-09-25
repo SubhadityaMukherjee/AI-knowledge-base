@@ -17,10 +17,5 @@ date created: Sunday, December 11th 2022, 1:00:35 pm
 - $$L_{cyc}(G,F) = \mathbb{E}_{x \sim p_{data}(x)}[||F(G(x))-x)||_{1}] + \mathbb{E}_{x \sim p_{data}(y)}[||G(F(x))-x)||_{1}]$$
 - $$\mathcal{L}_{cyc}(G, F, X, Y) = \frac{1}{m}\Sigma_{i=1}^{m}[(F(G(x_{i})-x_{i})+ (G(F(y_{i}))-y_{i})]$$
 
-## Backlinks
 
-> - [CycleGAN](CycleGAN.md)
->   - $\mathcal{L}_{cyc}$ [[Cycle Consistency Loss]]
->   - Adversarial Loss + [[Cycle Consistency Loss]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

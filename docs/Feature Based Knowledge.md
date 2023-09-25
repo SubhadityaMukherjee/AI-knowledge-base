@@ -17,3 +17,5 @@ date created: Tuesday, October 4th 2022, 11:44:14 am
 - [Applications of Knowledge Distillation](Applications%20of%20Knowledge%20Distillation.md)
 - For example, on one hand, some recent works find that the student model can learn little from some teacher models due to the model capac- ity gap between the teacher model and the student model (Zhang et al., 2019b; Kang et al., 2020); On the other hand, from some early theoretical analysis on the capacity of neural networks, shallow networks are capable of learning the same representation as deep neural networks (Ba and Caruana, 2014).
 
+
+

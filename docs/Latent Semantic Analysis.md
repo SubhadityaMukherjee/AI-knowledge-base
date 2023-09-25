@@ -12,3 +12,5 @@ date created: Wednesday, October 12th 2022, 2:22:51 pm
 
 - Roughly speaking, a [Learning Event](Learning%20Event.md) is considered to be included in the student's step if the degree of semantic similarity is above a certain threshold.
 
+
+

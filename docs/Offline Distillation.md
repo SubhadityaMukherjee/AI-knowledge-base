@@ -12,3 +12,5 @@ date created: Tuesday, October 4th 2022, 11:45:59 am
 - The offline distillation methods usually employ one- way knowledge transfer and two-phase training pro- cedure. However, the complex high-capacity teacher model with huge training time can not be avoided, while the training of the student model in offline distillation is usually efficient under the guidance of the teacher model.
 - Moreover, the capacity gap between large teacher and small student always exists, and student often largely relies on teacher.
 
+
+

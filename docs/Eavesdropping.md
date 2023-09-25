@@ -15,9 +15,5 @@ date created: Tuesday 7th February 2023, Tue
 	- One task can eavesdrop into another ([[Hard Parameter Sharing]] , [[Soft Parameter Sharing]])
 	- Extra info in each task
 
-## Backlinks
 
-> - [Multi Task Learning](Multi Task Learning.md)
->   - [[Eavesdropping]]
 
-_Backlinks last generated 2023-02-14 14:39:28_

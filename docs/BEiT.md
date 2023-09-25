@@ -30,3 +30,5 @@ tags: architecture
 	- [ImageNet](ImageNet.md)
 	- outperforming from-scratch [DeiT](DeiT.md)
 
+
+

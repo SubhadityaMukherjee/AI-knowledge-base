@@ -38,3 +38,5 @@ $$ where $$
 l_{n} = -w_{y_{n}}log \frac{exp(x_{n, y_{n}})}{\Sigma_{c=1}^{C}exp(x_{n,c})}
 $$, $x$ is the input, $y$ is the target, $C$ is the number of classes
 
+
+

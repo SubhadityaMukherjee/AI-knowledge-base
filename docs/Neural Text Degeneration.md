@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - sampling methods without truncation risk sampling from the low-confidence tail of a model’s predicted distribution
 - [Nucleus Sampling](Nucleus%20Sampling.md)
 
+
+

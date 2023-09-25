@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![im](images/Pasted%20image%2020220319151038.png)
 - $$\hat \mu = \frac{1}{N}\Sigma_{i}x_{i}$$ and $$\hat \Sigma = \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)(x_{i}-\hat\mu)'$$
 
+
+

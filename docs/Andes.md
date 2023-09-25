@@ -16,3 +16,5 @@ date created: Wednesday, October 12th 2022, 2:21:50 pm
 - Step analysis: Like the [Algebra Cognitive Tutor](Algebra%20Cognitive%20Tutor.md), Andes analyzes non-equation steps by precomputing anticipated steps and matching the student's step against them
 - However, this method does not work for the equation steps because there are too many anticipated equations to generate
 
+
+

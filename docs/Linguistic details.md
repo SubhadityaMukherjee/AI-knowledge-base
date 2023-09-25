@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Semantic Analysis](Semantic%20Analysis.md)
 - [Pragmatics](Pragmatics.md)
 
+
+

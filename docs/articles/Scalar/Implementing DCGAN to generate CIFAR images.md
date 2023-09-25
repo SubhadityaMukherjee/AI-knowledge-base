@@ -299,3 +299,5 @@ We can apply a few tweaks to the DCGAN in further experiments. Some of them are 
 - The DCGAN is a modified version of a Vanilla GAN that addresses some issues and leads to fewer chances of mode collapse.
 - Suggestions for further experimentation with the DCGAN include adjusting the z_size variable, increasing training time, and using Label Smoothing Cross Entropy Loss.
 
+
+

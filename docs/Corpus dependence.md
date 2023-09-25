@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Punctuations mean – Suprasegmentals in Spoken Language but might not be the same for corpora
 - Algorithms may expect corpora need to obey some rules
 
+
+

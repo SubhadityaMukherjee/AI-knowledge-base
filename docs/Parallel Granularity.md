@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Coarse : Large computation between communication
 - Fine : Small computation between communication
 
+
+

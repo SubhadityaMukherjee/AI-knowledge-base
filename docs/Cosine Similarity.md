@@ -17,12 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - If you take a [recommender system](Recommender%20System.md), for example, then the cosine similarity does not take into account the difference in rating scale between different users
 - high-dimensional data and when the magnitude of the vectors is not of importance
 
-## Backlinks
 
-> - [Cosine Distance](Cosine Distance.md)
->   - Complement of [[Cosine Similarity]]
->    
-> - [Word Vectors](Word Vectors.md)
->   - eg : [[Cosine Similarity]]
 
-_Backlinks last generated 2023-02-22 20:00:24_

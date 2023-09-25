@@ -10,3 +10,5 @@ date created: Thursday, October 6th 2022, 1:40:26 pm
 - FPR is calculated based on the negatives which are determined by fixation points of all the other images in the dataset.
 - "AUC for the curve is calculated as sAUC."
 
+
+

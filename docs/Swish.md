@@ -17,3 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Fourth, small negative values are zeroed out in [ReLU](Relu.md) (since f(x) = 0 for x < 0). However, those negative values may still be relevant for capturing patterns underlying the data, whereas large negative values may be zeroed out (for reasons of [[sparsity]], as we saw above). The [smoothness](Smoothness.md) property and the values of f(x) < 0 for x ≈ 0 yield this benefit. This is a clear win over [ReLU](Relu.md).
 - ![Pasted image 20220626151728](images/Pasted%20image%2020220626151728.png)
 
+
+

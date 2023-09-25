@@ -23,12 +23,5 @@ date created: Monday, October 3rd 2022, 3:26:19 pm
 - [[ACT-R Chunk]]
 	
 
-## Backlinks
 
-> - [ACT-R](ACT-R.md)
->   - [[Declarative memory]]
->    
-> - [](journals/2022-11-14.md)
->   - Course - [[Declarative memory]] , [[Time perception]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

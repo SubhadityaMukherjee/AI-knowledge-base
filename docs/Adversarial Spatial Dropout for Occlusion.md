@@ -10,3 +10,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - Within the proposed region only 1/3 pixels are dropped after sorting based on magnitudes
 - Dropped values are non-contiguous here as compared to previously discussed methods
 
+
+

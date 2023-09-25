@@ -12,9 +12,5 @@ date created: Friday, January 13th 2023, 2:53:35 pm
 
 - This dataset contains images of 100 different types of aircrafts, with a total of 10,000 images.
 
-## Backlinks
 
-> - [Fine Grained Datasets](Fine grained datasets.md)
->   - [[FGVC Aircraft]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Best Matching Unit
 - Neuron whose weight vector best matches input pattern
 
+
+

@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Asymptotic Decider](Asymptotic%20Decider.md)
 - [Midpoint Decider](Midpoint%20Decider.md)
 
+
+

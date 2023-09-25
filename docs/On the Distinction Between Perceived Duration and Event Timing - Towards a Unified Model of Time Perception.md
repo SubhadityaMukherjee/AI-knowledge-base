@@ -36,9 +36,5 @@ date created: Monday 30th January 2023, Mon
 - the Bayesian model of perceived timing can explain the delay of early stimuli as well as the acceleration of on time and later than expected stimuli
 - Interval models do not make any explicit predictions about changes in the perceived timing of stimuli and as such cannot account for this data.
 
-## Backlinks
 
-> - [CogMod Final Paper](CogMod Final Paper.md)
->   - [[On the Distinction Between Perceived Duration and Event Timing - Towards a Unified Model of Time Perception]] : brain uses temporal expectations to bias perception in a way that stimuli are ‘regularized’
 
-_Backlinks last generated 2023-02-01 13:16:25_

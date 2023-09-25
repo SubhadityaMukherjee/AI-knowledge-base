@@ -17,9 +17,5 @@ tags: ssl
 - networks are trained to discover the correlation of video data and audio data to accomplish this task. 
 - inputs of the ConvNets are two kinds of data, the networks are able to learn the two kinds of information jointly by solving the pretext task.
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Learning from Visual-Audio Correspondence]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

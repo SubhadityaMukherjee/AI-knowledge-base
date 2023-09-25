@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Remove 50/60Hz [notch filter](Notch%20filter.md) for line noise
 - Might introduce distortion
 
+
+

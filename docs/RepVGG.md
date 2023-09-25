@@ -23,3 +23,5 @@ tags: architecture
 	- higher accuracy and show favorable accuracy-speed trade-off compared to the state-of-the-art models like [EfficientNet](EfficientNet.md) and [RegNet](RegNet.md)
 	- ![repvgg](images/repvgg.jpg)
 
+
+

@@ -18,3 +18,5 @@ date created: Wednesday, October 12th 2022, 2:21:25 pm
 - Step analysis: The tutor analyzes each student step in terms of a set of anticipated steps (S. Ritter, Blessing, & Wheeler, 2003). The set of anticipated steps for a problem is precomputed by solving the problem in all acceptable ways by running a rule-based problem solver. The rules are written to correspond to knowledge components. Each step is associated with the rules that were used to generate it during the precomputation. During tutoring, the student's step is matched against these anticipated steps.
 - When a student's step matches an anticipated step, the student is credited in the assessment with having applied the associated knowledge components.
 
+
+

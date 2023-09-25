@@ -17,3 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - With $l$ layers, [receptive field](Receptive%20field.md) size is $l \times w$
 - ![Pasted image 20220621181138](images/Pasted%20image%2020220621181138.png)
 
+
+

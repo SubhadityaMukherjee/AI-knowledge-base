@@ -1,3 +1,7 @@
+---
+title: CONTRIBUTING
+id: 20230826203598
+---
 # Contributing
 
 We'd love your help! Thanks for caring about the theme of Zola.

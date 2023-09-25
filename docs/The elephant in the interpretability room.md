@@ -58,3 +58,5 @@ date created: Monday 22nd May 2023, Mon
 - Obviously, a bag of per-token saliency weights can be called an explanation only in a very narrow sense
 - One can overcome some limitations of the flat representation of importance by indicating dependencies between important features (for example, Janizek et al. (2020) present an extension of IG which explains pairwise feature interactions) but it is hardly possible to fully understand why a deep non-linear model produced a certain prediction by only looking at the input tokens
 
+
+

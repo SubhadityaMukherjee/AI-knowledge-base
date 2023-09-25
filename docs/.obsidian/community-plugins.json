@@ -30,5 +30,7 @@
   "obsidian-zotero-desktop-connector",
   "canvas-mindmap",
   "canvas-filter",
-  "obsidian-linter"
+  "obsidian-linter",
+  "auto-template-trigger",
+  "map-of-content"
 ]

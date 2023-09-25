@@ -10,3 +10,5 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - learn in case of occlusions
 - This kind of [[dropout]] is different from conventional [[dropout]] because it drops contiguous image regions, whereas values in traditional [[dropout]] work at noncontiguous locations
 
+
+

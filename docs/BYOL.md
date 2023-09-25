@@ -25,3 +25,5 @@ tags: architecture
 	- dependent on existing sets of [Augmentation](Augmentation.md) that are specific to vision applications
 	- [BYOL Loss](BYOL%20Loss.md)
 
+
+

@@ -30,3 +30,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - They find that sufficient data and scale can lead to improved generalization, both in terms of zero-shot performance relative to previous domain-specific approaches
 - and in terms of the range of capabilities that emerge from a single generative model.
 
+
+

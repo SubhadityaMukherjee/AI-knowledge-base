@@ -37,4 +37,3 @@ tags: anchor
 - [sacred values.md](sacred%20values.md)
 - [swap-dominance.md](swap-dominance.md)
 - [trolley scenario.md](trolley%20scenario.md)
-

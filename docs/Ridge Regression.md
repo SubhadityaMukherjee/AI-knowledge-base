@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- $$w'_{opt} = (XX' + \alpha ^2 I_{nxn})^{-1}XY$$
 	- Solution to overfitting
 
+
+

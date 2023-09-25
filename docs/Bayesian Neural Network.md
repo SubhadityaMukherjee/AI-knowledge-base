@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - The parameters encode information about [Uncertainty](Uncertainty.md)
 	- Can be understood using [Bayesian Predictive Posterior](Bayesian%20Predictive%20Posterior.md)
 
+
+

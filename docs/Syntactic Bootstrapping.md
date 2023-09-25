@@ -9,3 +9,5 @@ date created: Tuesday, October 4th 2022, 9:34:09 am
 # Syntactic Bootstrapping
 - "John wugged Mary yesterday" vs "John wugged Marry"
 
+
+

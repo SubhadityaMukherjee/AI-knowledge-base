@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - To get the [PDF](PDF.md) $$g^{n+1}(x) = \int_{\mathbb{R}^{k}}T(x|y)g^{n}(y)dy$$
 - [Invariant Distribution](Invariant%20Distribution.md)
 
+
+

@@ -21,3 +21,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Random Pruning](Random%20Pruning.md)
 - [Layerwise Magnitude Based Pruning](Layerwise%20Magnitude%20Based%20Pruning.md)
 
+
+

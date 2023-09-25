@@ -25,3 +25,5 @@ date created: Thursday 11th May 2023, Thu
 - [[Weight Decay Vs L2 Regularization]]
 - [[Amsgrad]]
 
+
+

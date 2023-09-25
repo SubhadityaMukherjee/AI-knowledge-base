@@ -14,7 +14,7 @@ Training deep learning models requires a massive amount of labeled data. In most
 :::section{.main}
 
 ## Introduction
-Transfer Learning is useful for smaller datasets and can be considered an intelligent weight initialization scheme. Instead of randomly initializing the weights of the model like we usually do, we obtain weights from a model trained on a larger dataset. Any company/individual with the funds can train a larger model and make its weights public. After doing so, we can train these models on any other similar dataset much faster than before. 
+Transfer Learning is useful for smaller datasets and can be considered an intelligent weight [initialization](../../Initialization.md) scheme. Instead of randomly initializing the weights of the model like we usually do, we obtain weights from a model trained on a larger dataset. Any company/individual with the funds can train a larger model and make its weights public. After doing so, we can train these models on any other similar dataset much faster than before. 
 This article explores the concept of Transfer Learning by creating a network that can identify ten different classes from the **CIFAR10** dataset by fine-tuning a model pre-trained on the **ImageNet** dataset (1000 classes). 
 ## Transfer Learning
 In a DL pipeline, Transfer Learning is usually done when the data available is too less to train a network properly. The general approach for a Transfer Learning workflow is as follows.
@@ -163,4 +163,6 @@ This example shows how useful Transfer Learning is for quickly training small da
 - After an initial round of selective training, unfreezing the model and training the entire model improves performance.
 - The Transfer Learning approach is thus an invaluable breakthrough in Deep Learning.
 :::
+
+
 

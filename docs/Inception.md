@@ -59,3 +59,5 @@ Summary: New Residual [Inception](Inception.md) Architecture (deep [CNN](http
             - high LR had the chance to destroy already learnt features
             - Scaling should be used instead
 
+
+

@@ -18,3 +18,5 @@ tags: statistics
 - $s_{x}$, $s_y$ are the sample [Standard Deviation](Standard%20Deviation.md)
 - $s_y$ is the sample [Covariance](Covariance.md)
 
+
+

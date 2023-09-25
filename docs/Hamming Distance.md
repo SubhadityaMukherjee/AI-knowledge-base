@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - It is typically used to compare two binary strings of equal length.
 - difficult to use when two vectors are not of equal length
 
+
+

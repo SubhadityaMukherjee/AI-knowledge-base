@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [The report] that the senator attacked [] admitted the error.
 - [The senator] that the report attacked [] admitted the error.
 
+
+

@@ -5,7 +5,7 @@ date modified: Sunday, November 6th 2022, 2:28:46 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-## Welcome!
+- ## Welcome!
 - This is my little knowledge base
 - If there is something you are looking for, just type it into the search bar
 	- Of course, since this is not google, it is not a one stop shop
@@ -29,14 +29,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- [Medical](medical.md)
 		- [Psychology](psychology.md)
 		- [Cognitive Modelling](cognitivemodel)
-
-## Links
+- ## Links
 - [My Github](https://www.github.com/SubhadityaMukherjee)
 - [Blogs](https://subhadityamukherjee.github.io/SubhadityaMukherjeegit/deeplearning.html)
 - [Medium -> More blogs](https://msubhaditya.medium.com/)
 - [My Linkedin](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100)
 - [My Art](https://www.instagram.com/aiexistentialart/)
 - [Email](mailto:msubhaditya@gmail.com)
-
-#anchor
+  
+  #anchor
 

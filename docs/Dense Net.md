@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![im](images/Dense Skip Connections]]
 - Transition layer -> [Dense](Dense.md) -> 1x1 [Conv](Conv.md) , 2x2 avg pool -> [Dense](Dense.md)
 
+
+

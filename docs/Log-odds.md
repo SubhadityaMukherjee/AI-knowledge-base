@@ -8,3 +8,5 @@ date modified: Monday, October 10th 2022, 2:02:23 pm
 - The logarithm of the odds of some event.
 - If the event refers to a binary probability, then odds refers to the ratio of the probability of success (p) to the probability of failure (1-p).
 
+
+

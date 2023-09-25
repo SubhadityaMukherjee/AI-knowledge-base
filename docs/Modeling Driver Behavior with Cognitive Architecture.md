@@ -44,3 +44,5 @@ Not surprisingly, there can be parallelism in this integrated system – for ins
 - ![Pasted image 20221012124236](images/Pasted%20image%2020221012124236.png)
 - ![Pasted image 20221012124251](images/Pasted%20image%2020221012124251.png)
 
+
+

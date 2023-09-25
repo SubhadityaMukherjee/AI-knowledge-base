@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Pituitary Gland
 - An endocrine organ at the base of the brain that is closely linked with the [[hypothalamus]]. The pituitary gland is composed of two lobes, the anterior and posterior lobes, and secretes hormones that regulate the activity of the other endocrine organs in the body.
 
+
+

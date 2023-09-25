@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Deep Contextualized Word Representations](https://arxiv.org/abs/1802.05365)
 - context-sensitive word embeddings using the [[LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[LSTM)](LSTM)]].md)-based [Embedding](Embedding.md) from Language Models (ELMo) architecture
 
+
+

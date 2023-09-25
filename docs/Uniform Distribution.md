@@ -10,9 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [PDF](PDF.md) $$p(x) = \begin{cases}\frac{1}{(b_{1}-a_{1})\cdot…\cdot(b_{n}, a_{n})} & \text{if } x \in I\\[2ex]0&\text{if x }\notin I \end{cases}$$
 - No need to learn, no shape that can be specified
 
-## Backlinks
 
-> - [SaliencyMix](SaliencyMix.md)
->   - Patch determined on a ration $\lambda$ chosen from [[Uniform Distribution]]
 
-_Backlinks last generated 2023-05-19 15:30:34_

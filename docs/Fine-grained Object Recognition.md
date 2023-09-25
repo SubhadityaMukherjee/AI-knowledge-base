@@ -10,9 +10,5 @@ tags: robotics
 - and a set of category-specific dictionaries for highlighting the small diversity within the different categories (fine-grained )
 - ![[images/Pasted image 20221103123707.png]]
 
-## Backlinks
 
-> - [](journals/2022-11-03.md)
->   - [[Fine-grained Object Recognition]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

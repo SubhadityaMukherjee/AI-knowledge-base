@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Others remove based on a score given.
 - Some perform [Pruning](Pruning.md) locally, while others perform it globally across the network.
 
+
+

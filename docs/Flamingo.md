@@ -38,9 +38,5 @@ tags: refactor
 - Flamingo models take advantage of two complementary models: a vision model that analyzes visual scenes and a large language model which performs a basic form of reasoning
 - The language model is trained on a large amount of text data.
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Flamingo]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

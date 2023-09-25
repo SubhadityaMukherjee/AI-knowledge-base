@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Only use [Depthwise Separable](Depthwise%20Separable.md) convs + [Inception](Inception.md) modules
 - Cross channel and spatial correlations can be decoupled completely
 
+
+

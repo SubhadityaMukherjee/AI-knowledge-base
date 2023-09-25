@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - from Euler’s formula - the maximum number of edges for planar [graphs](Graphs.md): $$e \leq 3v-6$$
 - ![im](images/Pasted%20image%2020220418105118.png)
 
+
+

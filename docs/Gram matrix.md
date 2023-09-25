@@ -12,3 +12,5 @@ def gram_matrix_new(y):
     return torch.einsum('bchw,bdhw->bcd', [y, y]) / (h * w)
 ```
 
+
+

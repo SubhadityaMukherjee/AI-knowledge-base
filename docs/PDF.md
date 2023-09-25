@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Function which maps from a random process to a quantified version
     - eg. 1 when heads and 0 when tails
 
+
+

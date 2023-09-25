@@ -24,9 +24,5 @@ date created: Friday 24th March 2023, Fri
 - Obviously, x attributes to the result, but because the function is flat at the input we are testing results in invalid attribution and breaks the Sensitivity
 - Sundararajan et al. think that breaking Sensitivity causes gradients to focus on irrelevant features.
 
-## Backlinks
 
-> - [Integrated Gradients](Integrated Gradients.md)
->   - [[Gradient Sensitivity]]
 
-_Backlinks last generated 2023-04-11 15:00:45_

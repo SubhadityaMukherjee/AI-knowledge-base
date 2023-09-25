@@ -16,3 +16,5 @@ date created: Tuesday, October 25th 2022, 4:27:23 pm
 - Adults rely on their world knowledge in identifying the presupposed set
 - As formulated in the Normal World Constraint, "if an object is contextually relevant, then there is a normal situation that it is part of."
 
+
+

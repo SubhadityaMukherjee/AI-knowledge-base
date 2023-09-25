@@ -35,9 +35,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 ### [Protein Modeling](Protein%20Modeling.md)
 
-## Backlinks
 
-> - [Generative vs Discriminative Models](Generative vs Discriminative Models.md)
->   - [[Bayesian Model Estimation]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

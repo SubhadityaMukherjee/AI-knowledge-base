@@ -19,3 +19,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - After learning, these can be used as discriminative [features](Features.md)
 	- Expensive to compute
 
+
+

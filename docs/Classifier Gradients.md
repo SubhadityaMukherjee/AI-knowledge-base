@@ -18,9 +18,5 @@ date created: Sunday 18th December 2022, Sun
 - We then repeat this process until the images are classified with the desired feature.
 - The downside with this method is that we need a pre-trained classifier that can detect the desired feature, which may not always be readily available.
 
-## Backlinks
 
-> - [Conditional GAN](Conditional GAN.md)
->   - [[Classifier Gradients]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

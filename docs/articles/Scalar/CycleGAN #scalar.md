@@ -114,3 +114,5 @@ Every method has its limitations. CycleGAN performs poorly when given geometrica
 In this article, we learnt about CycleGAN and all the architectural details required to create it. We explored the concept of a latent space and understood how a GAN works by traversing it. We also looked at many applications of a CycleGAN and how to train one on our own data.
 :::
 
+
+

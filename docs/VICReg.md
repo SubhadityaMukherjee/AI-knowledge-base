@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - combines the variance term with a decorrelation mechanism based on redundancy reduction and [covariance](Covariance.md) [regularization](Regularization.md)
 - does not require the [embedding](Embedding.md) branches to be identical or even similar
 
+
+

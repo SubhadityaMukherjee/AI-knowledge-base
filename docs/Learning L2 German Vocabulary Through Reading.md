@@ -18,9 +18,5 @@ date created: Thursday, November 10th 2022, 3:42:28 pm
 - oth word relevance and postreading vocabulary task substantially affected word retention in the [[recall]] posttests
 - low incidence of vocabulary acquisition through reading ("input only") can be substantially boosted by techniques that make students look up the meaning of unknown words, process their form-meaning relationship elaborately, and process them again after reading ("input plus").
 
-## Backlinks
 
-> - [Final Paper User Models](Final Paper User Models.md)
->   - [[Learning L2 German Vocabulary Through Reading]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

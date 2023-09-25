@@ -1,3 +1,7 @@
+---
+title: CODE_OF_CONDUCT
+id: 20230826202324
+---
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

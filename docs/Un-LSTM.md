@@ -11,9 +11,5 @@ tags: architecture
 - can be employed for self-supervised feature learning without using human- annotations 
 - encoder-decoder pipeline in which the encoder to model spatial and temporal features from the given video clips and the decoder to generate future frames based on feature extracted by encoder.
 
-## Backlinks
 
-> - [](Learning from Video Prediction.md)
->   - [[Un-LSTM]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

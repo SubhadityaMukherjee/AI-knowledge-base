@@ -11,3 +11,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Uses a one layer feedforward network to calculate [Attention Alignment](Attention%20Alignment.md)
 - Oh, basically it is the same as [Bahdanau Attention](Bahdanau%20Attention.md)
 
+
+

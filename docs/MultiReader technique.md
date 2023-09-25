@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - which allows domain adaptation
 - training a more accurate model that supports multiple keywords (i.e., “OK Google” and “Hey Google”) as well as multiple languages/dialects
 
+
+

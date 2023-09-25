@@ -15,9 +15,5 @@ date created: Monday, November 14th 2022, 1:45:09 pm
 	- P: Production value
 	- W : No of workers
 
-## Backlinks
 
-> - [](journals/2022-11-14.md)
->   - [[Sugar Factory Task]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

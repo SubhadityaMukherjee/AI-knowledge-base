@@ -27,9 +27,5 @@ $$
 - From [[Visualizing the Loss Landscape of Neural Nets]],
 - ![[images/Pasted image 20230327130254.png]]
 
-## Backlinks
 
-> - [Visualizing the Loss Landscape of Neural Nets](Visualizing the Loss Landscape of Neural Nets.md)
->   - [[Layer Normalization]]
 
-_Backlinks last generated 2023-04-11 15:00:45_

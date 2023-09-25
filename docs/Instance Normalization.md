@@ -21,12 +21,5 @@ $$
 - Intuitively, the normalization process allows to remove instance-specific contrast information from the content image in a task like image stylization, which simplifies generation.
 - ![[Pasted image 20221211131622.png]]
 
-## Backlinks
 
-> - [AdaIn](AdaIn.md)
->   - Adaptive [[Instance Normalization]] is a normalization method that aligns the mean and variance of the content [features](Features.md) with those of the style [features](Features.md).
->    
-> - [CycleGAN](CycleGAN.md)
->   - [[Instance Normalization]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

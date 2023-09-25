@@ -74,7 +74,7 @@ date created: Wednesday 31st May 2023, Wed
 - The goal of DeconvNet is to reverse a neural network and the paper proposesoperations that are reversals of the filtering, pooling and activation layers
 - but apart from the reversal of the ReLU layer, DeconvNet is equivalent to the Vanilla Gradient approach
 - Vanilla Gradient can be seen as a generalization of DeconvNet
-- DeconvNet makes a different choice for backpropagating the gradient through ReLU:
+- DeconvNet makes a different choice for backpropagating the gradient- **12:24**  through ReLU:
 - ![img_p5_1](img_p5_1.png)
 - When backpassing from layer n to layer n-1, DeconvNet "remembers" which of theactivations in layer n were set to zero in the forward pass and sets them to zero in layer n-1
 - 𝑋ctivations with a negative value in layer x are set to zero in layer n-1.
@@ -144,4 +144,6 @@ date created: Wednesday 31st May 2023, Wed
 - Both networks produce the same predictions.
 - Further, the gradient is the same for both
 - But the explanations changed, which is an undesirable property. They looked at DeepLift, Vanilla Gradient and Integrated Gradients.
+
+
 

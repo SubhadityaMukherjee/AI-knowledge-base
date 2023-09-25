@@ -65,3 +65,5 @@ $$
 - ![Pasted image 20221005133646](images/Pasted%20image%2020221005133646.png)
 - ![Pasted image 20221005142449](images/Pasted%20image%2020221005142449.png)
 
+
+

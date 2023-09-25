@@ -12,9 +12,5 @@ date created: Wednesday 21st December 2022, Wed
 
 - Direction of Steepest Descent $$\theta = tan^{-1}(\frac{\frac{\partial f}{\partial y}}{\frac{\partial f}{\partial x}})$$
 
-## Backlinks
 
-> - [Gradient Descent](Gradient Descent gradients.md)
->   - [[Gradient Direction]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

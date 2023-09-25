@@ -15,3 +15,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$D(x,y) = \frac{2|x\cap y|}{|x|+|y|}$
 - ![Pasted image 20220624121258](images/Pasted%20image%2020220624121258.png)
 
+
+

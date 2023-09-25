@@ -22,3 +22,5 @@ date created: Tuesday, October 4th 2022, 11:53:11 am
 - In (Perez et al., 2020), a audio-visual multi- modal knowledge distillation method is proposed. knowl- edge is transferred from the teacher models on visual and acoustic data into a student model on audio data.
 - Pan et al. (2019) designed a enhanced collaborative [denoising autoencoder](Denoising%20Autoencoder.md) (ECAE) model for recommender systems via knowledge distillation to capture useful knowledge from user feedbacks and to reduce noise. The unified ECAE framework contains a generation network, a retraining network and a distillation layer that trans- fers knowledge and reduces noise from the generation network.
 
+
+

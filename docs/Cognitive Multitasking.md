@@ -16,9 +16,5 @@ date created: Monday, December 12th 2022, 1:17:57 pm
 - If unused brain resources, put it to use
 - [[Mental Fatigue]]
 
-## Backlinks
 
-> - [Cognitive Preparation](Cognitive Preparation.md)
->   - [[Cognitive Multitasking]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

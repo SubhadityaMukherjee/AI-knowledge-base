@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $X_{1}, X_{2}, …$ need not have the same distribution or need to be independant
 - Dream : All $X_{i}$ are uniformly distributed on [0,1]. (Impossible)
 
+
+

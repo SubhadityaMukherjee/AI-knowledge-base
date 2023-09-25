@@ -10,3 +10,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - conceptual similarity to bundling [[streamlines]]
 - ![im](images/Pasted%20image%2020220418123656.png)
 
+
+

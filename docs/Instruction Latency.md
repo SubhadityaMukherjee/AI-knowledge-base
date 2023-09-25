@@ -9,3 +9,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Amount of time to complete a task(time , seconds)
 - function of how long it takes the data to get sent all the way from the start point to the end
 
+
+

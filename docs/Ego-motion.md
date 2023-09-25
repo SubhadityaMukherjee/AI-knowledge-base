@@ -20,9 +20,5 @@ tags: ssl
 - ego-motor signal is a type of accurate supervision signal 
 - In addition to directly applying it for self-supervised feature learning, it has also been used for unsupervised learning of depth and ego-motion
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Ego-motion]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

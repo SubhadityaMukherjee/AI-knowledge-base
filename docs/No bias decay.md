@@ -12,3 +12,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Leave [Batch Normalization](Batch%20Normalization.md) [Layers](Layers.md) alone
 - [LARS](LARS)
 
+
+

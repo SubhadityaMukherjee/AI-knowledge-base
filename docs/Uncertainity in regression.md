@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $f(x) \pm \sigma$
 - $f(x) \in [f(x) - \sigma,f(x) + \sigma]$
 
+
+

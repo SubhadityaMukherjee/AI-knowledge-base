@@ -9,3 +9,5 @@ date modified: Monday, October 10th 2022, 2:00:48 pm
 - injecting a matrix of random values usually drawn from a Gaussian distribution
 - Adding noise to images can help CNNs learn more robust features.
 
+
+

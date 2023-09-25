@@ -14,3 +14,5 @@ date created: Monday 6th March 2023, Mon
 - an explainable ML model suggests a clear visualization of the relations affecting a result, allowing for a fairness or ethical analysis
 - a related objective of XAI is highlighting bias in the data a model was exposed to
 
+
+

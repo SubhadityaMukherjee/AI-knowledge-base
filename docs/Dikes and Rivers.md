@@ -20,9 +20,5 @@ date created: Monday, November 28th 2022, 1:03:28 pm
 ## Model
 - ACTR declarative memory + [[Declarative Memory Blending]]
 
-## Backlinks
 
-> - [](journals/2022-11-28.md)
->   - [[Dikes and Rivers]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

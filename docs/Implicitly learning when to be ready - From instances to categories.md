@@ -51,9 +51,5 @@ date created: Wednesday 1st February 2023, Wed
 - ![[images/Pasted image 20230201120302.png]]
 - ![[images/Pasted image 20230201120312.png]]
 
-## Backlinks
 
-> - [CogMod Final Paper](CogMod Final Paper.md)
->   - [[Implicitly learning when to be ready - From instances to categories]] : fanning , maybe the graphs can also be explained by categorical association instead of just instance based
 
-_Backlinks last generated 2023-02-01 13:16:25_

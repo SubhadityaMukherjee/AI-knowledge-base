@@ -13,3 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 $$\mathrm{sum}\left( \left( \mathrm{max}\left( 0, 1 - y \cdot ŷ \right) \right)^{2} \right)$$
 
+
+

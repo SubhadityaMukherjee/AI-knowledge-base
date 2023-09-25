@@ -12,9 +12,5 @@ date created: Wednesday, January 18th 2023, 3:51:29 pm
 
 - an agent is ethical if and only if it weighs the consequences of each choice and chooses the option which has the most moral outcomes
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[Consequentialist ethics]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

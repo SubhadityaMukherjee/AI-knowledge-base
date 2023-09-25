@@ -21,3 +21,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Repeat until response stops. Each members BMU rate is too low to expand.
 - Start with large r and then slow down.
 
+
+

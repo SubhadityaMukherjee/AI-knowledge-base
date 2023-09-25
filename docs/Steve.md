@@ -20,3 +20,5 @@ date created: Wednesday, October 12th 2022, 2:21:03 pm
 - Steve uses immediate feedback to block incorrect steps, so Steve always knows where in the procedure the student is.
 - When it needs to give hints on what to do next, it merely picks the next step. If there are multiple steps that could follow the student's most recent correct step, then Steve lists them and lets the student choose.
 
+
+

@@ -18,3 +18,5 @@ tags: brain cogneuro
 - Non Verbal
 	- A series of white arrows pointing either left or right was displayed against a black background either on the left or right side of a centered fixation cross. Half of the stimuli were pointing in the same direction as their position on the screen
 
+
+

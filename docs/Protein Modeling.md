@@ -28,3 +28,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![im](images/Pasted%20image%2020220316123546.png)
 - $\alpha$s fixed beforehand
 
+
+

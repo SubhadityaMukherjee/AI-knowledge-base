@@ -47,14 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "\\sigma^{2}": {
-      "\\sigma^{2}": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682935231305
-        }
-      }
-    },
     "\\mathbb{R}^{W": {
       "\\mathbb{R}^{W": {
         "currentFile": {
@@ -108,6 +100,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1684930351772
+        }
+      }
+    },
+    "ChatGPT": {
+      "ChatGPT": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1686568231712
+        }
+      }
+    },
+    "Explanator": {
+      "Explanator": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1687343245726
         }
       }
     }

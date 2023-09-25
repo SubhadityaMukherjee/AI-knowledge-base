@@ -20,3 +20,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- no need to compute manually complex gradients
 	- [loss](loss.md) function can be seen as extra nodes in the end of the graph
 
+
+

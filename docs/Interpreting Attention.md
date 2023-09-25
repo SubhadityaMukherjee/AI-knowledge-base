@@ -14,3 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - They show that [attention](Attention.md) weights in single sequence tasks do not provide a reason for the prediction, which in the case of pairwise tasks, [attention](Attention.md) do reflect the reasoning behind model output
 - [BertViz](https://github.com/jessevig/bertviz) repo
 
+
+

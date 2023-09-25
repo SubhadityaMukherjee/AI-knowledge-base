@@ -11,9 +11,5 @@ tags: robotics
 - The quality of VFH description depends on the quality of the surface normal estimation at each point.
 - ![[images/Pasted image 20221103123406.png]]
 
-## Backlinks
 
-> - [](journals/2022-11-03.md)
->   - [[Viewpoint Feature Histogram]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

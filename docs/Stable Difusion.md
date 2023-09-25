@@ -9,9 +9,5 @@ tags: architecture
 - Stable Difusion consists of two parts: the text encoder and the image generator - The image information creator works completely in the latent space
 - This property makes it faster than previous difusion models that worked in a pixel space
 
-## Backlinks
 
-> - [Chatgptisnotallyouneed](Chat GPT is Not All You Need.md)
->   - [[Stable Difusion]]
 
-_Backlinks last generated 2023-05-31 15:18:49_

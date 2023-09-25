@@ -18,9 +18,5 @@ date created: Wednesday, January 18th 2023, 3:53:39 pm
 - Cases: used to compare pairs of actions on their collective ethical impact
 - Principles: denoting the ethical preference among different actions as a tuple of integer tuples.
 
-## Backlinks
 
-> - [Building Ethics into Artificial Intelligence](Building Ethics into Artificial Intelligence.md)
->   - [[GenEth]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

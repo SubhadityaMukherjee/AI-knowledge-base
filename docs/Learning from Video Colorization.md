@@ -16,9 +16,5 @@ tags: ssl
 - Tran et al. proposed an U-shape convolution neural network for video colorization [160] 
 - The color coherence in videos is a strong supervision signal
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Learning from Video Colorization]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

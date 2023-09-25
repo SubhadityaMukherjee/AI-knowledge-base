@@ -16,9 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - distillation works remarkably well even when the transfer set that is used to train the distilled model lacks any examples of one or more of the classes
 - performance of a single really big net that has been trained for a very long time can be significantly improved by learning a large number of specialist nets, each of which learns to discriminate between the classes in a highly confusable cluster.
 
-## Backlinks
 
-> - [Stoch Ensemble Learning](Stochastic ensemble learning.md)
->   - [[Ensemble Distillation]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

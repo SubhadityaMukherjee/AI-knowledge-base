@@ -10,9 +10,5 @@ tags: ssl
 - In general, human-annotated labels are needed to solve the downstream tasks. 
 - in some applications, the downstream task can be the same as the pretext task without using any human-annotated labels.
 
-## Backlinks
 
-> - [Self Supervised Survey](Self Supervised Survey.md)
->   - [[Downstream Task]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

@@ -55,3 +55,5 @@ date created: Monday 27th March 2023, Mon
 - Image Transformers etc. are not considered
 - Correlation between performance and factors is studied and potential reasons behind it are discussed, a deeper investigation of these potential reasons might be beneficial
 
+
+

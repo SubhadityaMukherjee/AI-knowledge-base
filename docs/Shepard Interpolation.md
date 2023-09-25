@@ -16,3 +16,5 @@ $$
 - $w_{i}(x) = \frac{1}{d(x,x_{i})^{p}}$
 - Neighborhood N determines points aka radius
 
+
+

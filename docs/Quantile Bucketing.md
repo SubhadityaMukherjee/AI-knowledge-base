@@ -7,3 +7,5 @@ date modified: Monday, October 10th 2022, 2:02:18 pm
 # Quantile [Bucketing](Bucketing.md)
 - Distributing a feature's values into buckets so that each bucket contains the same (or almost the same) number of examples.
 
+
+

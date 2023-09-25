@@ -23,3 +23,5 @@ title: Electrode nomenclature
 - Posterior : Pz
 - Occipital : Oz
 
+
+

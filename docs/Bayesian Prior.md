@@ -23,3 +23,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- If given data D -> it can show which models are more likely than others.
 		- Higher values of	$p_{\otimes_{i}}x(D|\theta)$ are better
 
+
+

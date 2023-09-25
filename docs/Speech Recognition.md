@@ -19,9 +19,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- word error rate
 	- [Wall Street Journal task](Wall%20Street%20Journal%20task.md)
 
-## Backlinks
 
-> - [Distilling the Knowledge in a Neural Network](Distilling the Knowledge in a Neural Network.md)
->   - ## Automatic [[Speech Recognition]]
 
-_Backlinks last generated 2023-02-22 20:00:24_

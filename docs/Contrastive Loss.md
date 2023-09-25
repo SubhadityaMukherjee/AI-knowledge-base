@@ -16,3 +16,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- m is enforced margin between similar and dissimilar (m>0)
 	- Labeled points $$(y,x_1,x_2)$$ are generated
 
+
+

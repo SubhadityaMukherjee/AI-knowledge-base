@@ -25,3 +25,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Laser
 - Acronym for Light Amplification by Stimulated Emission of Radiation. A device that produces a coherent monochromatic beam of light which is extremely narrow and focused but still within the visible light spectrum. This is commonly used as a non-[contact sensor](Contact%20Sensor.md) for robots. Robotic applications include: distance finding, identifying accurate locations, surface mapping, bar code scanning, cutting, welding etc.
 
+
+

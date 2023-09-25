@@ -21,9 +21,5 @@ date created: Wednesday, December 7th 2022, 11:39:27 pm
 - So if the hidden layer has 300 neurons, this network will give us 300-dimensional word embeddings.
 - also uses [[Negative Sampling]]
 
-## Backlinks
 
-> - [Word2Vec](Word2Vec.md)
->   - [[Skip Gram]] or [[CBOW]]
 
-_Backlinks last generated 2023-01-28 14:37:47_

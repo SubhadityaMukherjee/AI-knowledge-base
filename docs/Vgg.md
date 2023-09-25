@@ -17,3 +17,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - SGD + LR Schedule
 - three non-linear activations (instead of one), which makes the function more discriminative
 
+
+

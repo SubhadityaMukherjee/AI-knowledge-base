@@ -9,9 +9,5 @@ tags: ssl
 - verify whether the input frame sequence in correct order 
 - recognize the order of the frame sequence
 
-## Backlinks
 
-> - [](Pretext Tasks.md)
->   - [[Temporal Context Structure]]
 
-_Backlinks last generated 2023-06-06 17:04:06_

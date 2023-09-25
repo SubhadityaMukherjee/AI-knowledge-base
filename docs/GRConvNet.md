@@ -16,3 +16,5 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Sulabh Kumra, et al. "Antipodal robotic grasping using generative residual convolutional neural network." IROS 2020.
 - ![Pasted image 20220928214106](images/Pasted%20image%2020220928214106.png)
 
+
+

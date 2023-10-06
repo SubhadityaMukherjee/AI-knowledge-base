@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b283d046d83ac75a",
+        "id": "62e4cf7add58d87c",
         "type": "tabs",
         "children": [
           {
-            "id": "0ccbfc1534867411",
+            "id": "8e86db2192062a7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Tips.md",
+                "file": "journals/2023_10_06.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "saliency map",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Tips.md",
+                "file": "journals/2023_10_06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Tips.md",
+                "file": "journals/2023_10_06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Tips.md"
+                "file": "journals/2023_10_06.md"
               }
             }
           },
@@ -205,8 +205,26 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "0ccbfc1534867411",
+  "active": "8e86db2192062a7a",
   "lastOpenFiles": [
+    "articles/Drafts/Sigh, Gone - My Thoughts on the Book.md",
+    "journals/2023_10_06.md",
+    "Untitled.md",
+    "templates/titler.md",
+    "articles/Drafts/Sigh, Gone - My Thoughts on the Book.md.sb-5b2e406b-BZiyEO",
+    "templates/post.md",
+    "Relevance Account.md",
+    "Regularization Rate.md",
+    "Resistance.md",
+    "DevOn AI dev.md",
+    "MediaMonks.md",
+    "VattenFall Data Scientist.md",
+    "Leap Data Scientist.md",
+    "Eneco Data Scientist.md",
+    "Latitude Junior ML Engineer.md",
+    "Kickstart AI.md",
+    "Interview Tips.md",
+    "Poki Data Scientist.md",
     "articles/Drafts/What I learnt from an AI Masters Part 2.md",
     "articles/Others/Myself.md",
     "articles/Others/What I learnt from an AI Masters Part 2.md",
@@ -216,25 +234,8 @@
     "Augmentation-wise Weight Sharing strategy.md",
     "Population Based Augmentation.md",
     "EigenCAM.md",
-    "Fast AutoAugment.md",
-    "Interview Tips.md",
-    "PromptIR.md",
-    "Schipol Data Scientist.md",
-    "ABN amro ml.md",
-    "Orbisk.md",
-    "Cold email templates.md",
-    "MediaMonks.md",
-    "Eneco Data Scientist.md",
-    "VattenFall Data Scientist.md",
     "articles/Others/What I learnt from an AI Masters.md.sb-5b2e406b-jW7TJf",
-    "articles/Others/I dont know exactly what I want to do but to be honest it is.md",
-    "Kickstart AI.md",
-    "journals/2023_09_13.md",
-    "Bunq.md",
-    "Latitude Junior ML Engineer.md",
-    "ABN Amro AI Dev.md",
     "articles/Others/What I learnt from an AI Masters.md.sb-8cbcbfd9-hcZQZL",
-    "articles/Others/What I learnt from an AI Masters.md",
     "Jobs.canvas",
     "pdfs/Shumailov et al. - 2023 - The Curse of Recursion Training on Generated Data.pdf",
     "pdfs",
@@ -253,7 +254,6 @@
     "templates/random_quotes.html",
     "templates/quotes_index.html",
     "appjs.html",
-    "assets",
     "Thesis Stuff.canvas"
   ]
 }

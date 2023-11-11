@@ -14,14 +14,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Scroll the sidebar and pick something you like. Click the links inside it to go about. Choose your own adventure.
 - Major topics (These index pages are auto generated and might have errors sometimes)
 	- Quotes collected from a lot of places over the years [quotes](gen_quotes)
-	- Deep learning
+	- Technical
 		- [AI Ethics](ethics.md)
 		- [XAI](explainability.md)
 		- [Deep Learning architectures](architecture.md)
 		- [Loss Functions](loss.md)
 		- [Datasets](dataset.md)
 		- [Regularizing stuff](regularize.md)
-	- Others
 		- [Robotics](robotics.md)
 		- [Brain](brain.md)
 		- [Visualization](visualization.md)
@@ -29,6 +28,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- [Medical](medical.md)
 		- [Psychology](psychology.md)
 		- [Cognitive Modelling](cognitivemodel)
+	- Creative
+		- [Composition](composition.md)
+	- History
 - ## Links
 - [My Github](https://www.github.com/SubhadityaMukherjee)
 - [Blogs](https://subhadityamukherjee.github.io/SubhadityaMukherjeegit/deeplearning.html)

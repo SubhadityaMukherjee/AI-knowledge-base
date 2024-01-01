@@ -17864,3 +17864,40 @@ Let's just enjoy the moment."
 - "Cultivation, it was to have a steady heart, and not waver!"
 
 - "In any case, the barefoot weren't afraid then those wearing shoes."
+
+- “Stop trying to convince everyone that you suck, focus on the positives“
+
+- "As you get better, the goalposts get further away"
+
+- "Your eye for mistakes grows as your skills do"
+
+- "Sticky notes are a great way of telling you what you failed to do"
+
+- "Relationships are about mutual giving -- not about just avoiding everything you don't both like equally."
+
+- “People, generally speaking, want outcomes. They don’t care how it’s done or what is used to get there. No one goes to the hardware store to buy a drill. They go there to buy holes."
+
+- "What's the point of living your life with your hands and feet tied? You should create a sky shaking, earth shattering way for yourself!"
+
+- "According to the history books, most of the falls of any ancient emperor were caused by their suspicions of their ministers; their suspicions made them ill and therefore led to their death"
+
+- "The waves in the back always push the ones in the front in the Yangtze river, so of course each generation has to be stronger than the next"
+
+- "The hardest part is not learning how to use the tools but know what to do with them"
+
+- "The universe will never give you peace in something you were not meant to settle in"
+
+- "When I was a teen, I'd self harm, but now I just occasionally inconvenience myself in different ways when I feel bad or guilty about something I've said or done."
+
+- "When we're in a dangerous situation as a child, we're not allowed to get angry because the abusers are dangerous. So we turn our anger back at ourselves. The abusers contribute to this on purpose, making us feel like we had some control over the situation when we did not. That's what abusers do."
+
+- "You're hurting yourself in an attempt to soothe yourself. And because you had abusive parents who were probably prone to punishment, you're doing that to yourself. You are imitating them, what they did to you."
+
+- "They see me ho'ing, they hatin"
+
+- "Thousands of miles fly by in a dream and thousands of years like a racing steed"
+
+- “Taking rejections personally is the biggest enemy of a creative professional. Don’t let your work become your whole identity.”
+
+- "This is your job, and as long as you’re being paid for it, just let it go."
+

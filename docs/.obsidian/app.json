@@ -9,6 +9,7 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "pdfExportSettings": {
+    "includeName": false,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",

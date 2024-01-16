@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Data Augmentation with Curriculum Learning - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Methods", url: "#_top", children: [
+          ]},
+          {title: "Discussion", url: "#discussion", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../A%20voting-based%20system%20for%20ethical%20decision%20making/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../A%20voting-based%20system%20for%20ethical%20decision%20making/">
+        A voting-based system for ethical decision making
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../A%20matter%20of%20ambiguity%3F%20Using%20eye%20movements%20to%20examine%20collective%20vs%20distributive%20interpretations%20of%20plural%20sets/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../A%20matter%20of%20ambiguity%3F%20Using%20eye%20movements%20to%20examine%20collective%20vs%20distributive%20interpretations%20of%20plural%20sets/">
+        A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets
+      </a>
+</div>
+</div>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>@shortenSurveyImageData2019</li>
+<li><a href="../Data%20Augmentation%20with%20Curriculum%20Learning/">Data Augmentation with Curriculum Learning</a></li>
+</ul>
+<h3 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../Geometric%20Transformations/">Geometric Transformations</a></li>
+<li><a href="../Flipping/">Flipping</a></li>
+<li><a href="Color%20Space%20Transform.md">Color Space Transform</a></li>
+<li><a href="../Cropping/">Cropping</a></li>
+<li><a href="../Noise%20Injection/">Noise Injection</a></li>
+<li><a href="../Color%20Space%20Transformations/">Color Space Transformations</a></li>
+<li><a href="../Kernel%20Filters/">Kernel Filters</a></li>
+<li><a href="../Feature%20Space%20Augmentation/">Feature Space Augmentation</a></li>
+<li><a href="SMOTE%20">SMOTE </a></li>
+<li><a href="../GAN%E2%80%90based%20Data%20Augmentation/">GAN‐based Data Augmentation</a></li>
+<li><a href="../Meta%20Learning%20Data%20Augmentations/">Meta Learning Data Augmentations</a></li>
+<li><a href="../Neural%20Augmentation/">Neural Augmentation</a></li>
+<li><a href="../Smart%20Augmentation/">Smart Augmentation</a></li>
+<li><a href="../AutoAugment/">AutoAugment</a></li>
+<li><a href="../Augmented%20Random%20Search/">Augmented Random Search</a></li>
+<li><a href="../Test-time%20Augmentation/">Test-time Augmentation</a></li>
+<li><a href="SamplePairing.md">SamplePairing</a></li>
+<li><a href="../Data%20Augmentation%20with%20Curriculum%20Learning/">Data Augmentation with Curriculum Learning</a></li>
+<li><a href="../Alleviating%20Class%20Imbalance%20with%20Data%20Augmentation/">Alleviating Class Imbalance with Data Augmentation</a></li>
+</ul>
+<h3 id="discussion">Discussion<a class="headerlink" href="#discussion" title="Permanent link">¶</a></h3>
+<ul>
+<li>It is easy to explain the benefit of horizontal <a href="../Flipping/">Flipping</a> or random <a href="../Cropping/">cropping</a></li>
+<li>However, it is not clear why mixing pixels or entire images together such as in PatchShuffle <a href="../Regularization/">regularization</a> or SamplePairing is so effective.</li>
+<li>dditionally, it is difficult to interpret the representations learned by neural networks for GAN-based augmentation, variational auto-encoders, and meta-learning.</li>
+<li>An interesting characteristic of these augmentation methods is their ability to be combined together.</li>
+<li>The GAN framework possesses an intrinsic property of recursion which is very interesting</li>
+<li>Samples taken from GANs can be augmented with traditional augmentations such as lighting filters, or even used in neural network augmentation strategies such as <a href="../Smart%20Augmentation/">Smart Augmentation</a> or <a href="../Neural%20Augmentation/">Neural Augmentation</a> to create even more samples. These samples can be fed into further GANs and dramatically increase the size of the original dataset.</li>
+<li>An interesting question for practical Data Augmentation is how to determine postaugmented dataset size.</li>
+<li>no consensus about the best strategy for combining data warping and oversampling techniques</li>
+<li>One important consideration is the intrinsic bias in the initial, limited dataset</li>
+<li>There are no existing augmentation techniques that can correct a dataset that has very poor diversity with respect to the testing data</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../A%20voting-based%20system%20for%20ethical%20decision%20making/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../A%20voting-based%20system%20for%20ethical%20decision%20making/">
+        A voting-based system for ethical decision making
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../A%20matter%20of%20ambiguity%3F%20Using%20eye%20movements%20to%20examine%20collective%20vs%20distributive%20interpretations%20of%20plural%20sets/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../A%20matter%20of%20ambiguity%3F%20Using%20eye%20movements%20to%20examine%20collective%20vs%20distributive%20interpretations%20of%20plural%20sets/">
+        A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

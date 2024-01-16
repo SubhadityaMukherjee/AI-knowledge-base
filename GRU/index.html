@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Gated Recurrent Unit (GRU) - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Gated Recurrent Unit (GRU)", url: "#_top", children: [
+              {title: "The Math", url: "#the-math" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../GTA5/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../GTA5/">
+        GTA5
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../GRConvNet/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../GRConvNet/">
+        GRConvNet
+      </a>
+</div>
+</div>
+<h2 id="gated-recurrent-unit-gru">Gated <a href="../Recurrent/">Recurrent</a> Unit (GRU)<a class="headerlink" href="#gated-recurrent-unit-gru" title="Permanent link">¶</a></h2>
+<ul>
+<li><img alt="Pasted image 20220621124840" src="../images/Pasted%20image%2020220621124840.png"/></li>
+<li>Simplified [[LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|<a href="LSTM">LSTM)</a>]].md)</li>
+<li>It has an input and forget gate, no output gate</li>
+<li>Faster than LSTM in training, but does not perform well in many tasks</li>
+<li>Tries to forget what is not important</li>
+</ul>
+<h3 id="the-math">The Math<a class="headerlink" href="#the-math" title="Permanent link">¶</a></h3>
+<ul>
+<li>Two gates, <a href="../Sigmoid/">Sigmoid</a><ul>
+<li>Reset : <span class="arithmatex">\(<span class="arithmatex">\(g_r = \sigma(W_{hr}h_{t-1} + W_{xr}x_t + b_r)\)</span>\)</span></li>
+<li>Update : <span class="arithmatex">\(<span class="arithmatex">\(g_u = \sigma(W_{hu}h_{t-1} + W_{xu}x_t + b_u)\)</span>\)</span></li>
+</ul>
+</li>
+<li>Hidden state proposal<ul>
+<li>
+<div class="arithmatex">\[\hat h_t = tanh(W_{xh}x_t + W_{hh}g_r\cdot h_{t-1} + b_h)\]</div>
+</li>
+</ul>
+</li>
+<li>Final hidden state<ul>
+<li>Linear <a href="../Interpolation/">Interpolation</a> between last hidden state and proposal</li>
+<li>
+<div class="arithmatex">\[h_t = (1-g_u)\cdot h_{t-1} + g_u \cdot \hat h_t\]</div>
+</li>
+</ul>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../GTA5/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../GTA5/">
+        GTA5
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../GRConvNet/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../GRConvNet/">
+        GRConvNet
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

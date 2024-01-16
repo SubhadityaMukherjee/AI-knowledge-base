@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>DeepPERF - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "DeepPERF", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Default%20mode%20network/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Default%20mode%20network/">
+        Default mode network
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DeepNorm/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DeepNorm/">
+        DeepNorm
+      </a>
+</div>
+</div>
+<h2 id="deepperf">DeepPERF<a class="headerlink" href="#deepperf" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2206.13619">DeepPERF: a Deep Learning-Based Approach for Improving Software Performance</a></li>
+<li>Performance bugs may not cause system failure and may depend on user input, so detecting them can be challenging</li>
+<li>harder to fix than non-performance bugs</li>
+<li>performance bug detection approaches have emerged to help developers identify performance <a href="../Issues/">issues</a></li>
+<li>Building rule-based analyzers is a non-trivial task, as it requires achieving the right balance between precision and <a href="../Recall/">recall</a></li>
+<li>Once developed, maintaining these rules can also be costly</li>
+<li>large <a href="../Transformer/">transformer</a> model to suggest changes at application source code level to improve its performance</li>
+<li>first pretrain the model using masked language modelling (MLM) tasks on English text and source code taken from open source repositories on GitHub, followed by finetuning on millions of performance commits made by .NET developers</li>
+<li>recommend patches to provide a wide-range of performance optimizations in C<code>#</code> applications</li>
+<li>Most suggested changes involve modifications to high-level constructs like API/Data Structure usages or other algorithmic changes, often spanning multiple methods, which cannot be optimized away automatically by the C<code>#</code> compiler and could, therefore, lead to slow-downs on the user’s side</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Default%20mode%20network/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Default%20mode%20network/">
+        Default mode network
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DeepNorm/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DeepNorm/">
+        DeepNorm
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

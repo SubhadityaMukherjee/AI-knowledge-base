@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Transfer Learning and Fine tuning - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Transfer Learning and Fine-tuning", url: "#_top", children: [
+              {title: "Overview", url: "#overview" },
+              {title: "Scope", url: "#scope" },
+              {title: "Introduction", url: "#introduction" },
+              {title: "Transfer Learning", url: "#transfer-learning" },
+              {title: "Implementation", url: "#implementation" },
+              {title: "Conclusion", url: "#conclusion" },
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../../../read_later/Deep%20Neural%20Nets%2033%20years%20ago%20and%2033%20years%20from%20now/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../../../read_later/Deep%20Neural%20Nets%2033%20years%20ago%20and%2033%20years%20from%20now/">
+        Deep Neural Nets 33 years ago and 33 years from now
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Time%20series%20forecasting%20using%20LSTM/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Time%20series%20forecasting%20using%20LSTM/">
+        Time series forecasting using LSTM
+      </a>
+</div>
+</div>
+<h2 id="transfer-learning-and-fine-tuning">Transfer Learning and Fine-tuning<a class="headerlink" href="#transfer-learning-and-fine-tuning" title="Permanent link">¶</a></h2>
+<p>:::section{.abstract}</p>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h3>
+<p>Training deep learning models requires a massive amount of labeled data. In most cases, this data needs to be made available or easier to clean up. Many approaches for working with limited data sets have been created over the years, <strong>Transfer Learning</strong> being one of the breakthroughs. Transfer learning enables us to <strong>fine-tune</strong> a model pre-trained on a large dataset on our task. 
+:::
+:::section{.scope}</p>
+<h3 id="scope">Scope<a class="headerlink" href="#scope" title="Permanent link">¶</a></h3>
+<ul>
+<li>This article explains the principles behind <strong>Transfer Learning</strong>.</li>
+<li>It covers the method of <strong>fine-tuning</strong> using a pre-trained model.</li>
+<li>It elaborates on the principles of <strong>freezing and unfreezing</strong> weights.</li>
+<li>The article also discusses implementing the Transfer Learning <strong>pipeline</strong> in Tensorflow.
+:::
+:::section{.main}</li>
+</ul>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h3>
+<p>Transfer Learning is useful for smaller datasets and can be considered an intelligent weight <a href="../../../Initialization/">initialization</a> scheme. Instead of randomly initializing the weights of the model like we usually do, we obtain weights from a model trained on a larger dataset. Any company/individual with the funds can train a larger model and make its weights public. After doing so, we can train these models on any other similar dataset much faster than before. 
+This article explores the concept of Transfer Learning by creating a network that can identify ten different classes from the <strong>CIFAR10</strong> dataset by fine-tuning a model pre-trained on the <strong>ImageNet</strong> dataset (1000 classes). </p>
+<h3 id="transfer-learning">Transfer Learning<a class="headerlink" href="#transfer-learning" title="Permanent link">¶</a></h3>
+<p>In a DL pipeline, Transfer Learning is usually done when the data available is too less to train a network properly. The general approach for a Transfer Learning workflow is as follows.
+- Obtain a pre-trained model on data similar to your current dataset. For example, many models are pre-trained on the <strong>ImageNet</strong> dataset in computer vision approaches. Since the ImageNet dataset has classes relating to real-life objects and things, models pre-trained on it already have some knowledge of the world.
+- Load the model and understand its layer structure.
+- <strong>Freeze</strong> the weights of the model. Freezing the weights sets these layers to be un-trainable and prevents them from having their existing knowledge destroyed by the Transfer Learning process.
+- Append new layers to the frozen part of the model. These new layers can be trained and use the pre-trained weights to learn faster.
+- Train the new model on a new dataset.</p>
+<h3 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">¶</a></h3>
+<p>This article will explore how to take a model trained on ImageNet and fine-tune it on new data. We will create this implementation in Tensorflow and use the <a href="https://www.kaggle.com/c/dogs-vs-cats">Cats and Dogs dataset</a> from Kaggle.</p>
+<h4 id="pre-requisites">Pre-Requisites.<a class="headerlink" href="#pre-requisites" title="Permanent link">¶</a></h4>
+<p>Before we can fine-tune a model, we must decide what base model we need. We also need to load and preprocess the dataset. Since Transfer Learning is generally used for small datasets, we take a subset of the Cats and Dogs dataset for this example.</p>
+<h5 id="imports">Imports<a class="headerlink" href="#imports" title="Permanent link">¶</a></h5>
+<p>We first import the required libraries. We use Tensorflow for the entire pipeline. </p>
+<pre><code class="language-python">import numpy as np
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+import tensorflow_datasets as tfds
+import os
+import zipfile
+</code></pre>
+<h5 id="loading-the-data">Loading the Data<a class="headerlink" href="#loading-the-data" title="Permanent link">¶</a></h5>
+<p>Since the Cats and Dogs dataset is not a part of Tensorflow, we download it from Kaggle and then use the <strong>tensorflow_datasets</strong> library to load it into memory.
+After loading, we split the data into train and test while also sub-setting it.</p>
+<pre><code class="language-python">train_dataset, validation_dataset, test_dataset = tfds.load(
+    "cats_vs_dogs",
+    split=["train[:40%]", "train[40%:50%]", "train[50%:60%]"],
+    as_supervised=True,
+)
+</code></pre>
+<p>An example subset of the data is shown below.
+[IMAGE {1} CatsDogs START SAMPLE]
+<img alt="CatsDogs" src="https://hackmd.io/_uploads/H1dHnm4co.png"/>
+[IMAGE {1} FINISH SAMPLE]</p>
+<p>We can then convert the data into batches, split them into data loaders, and optimize the data loading using <strong>caching</strong> and <strong>pre-fetching</strong>. We use a <strong>batch size</strong> of 32 for this example. After loading, we can also apply some simple data augmentation methods. For example, we use <strong>Random Horizontal Flipping</strong> and <strong>Random Rotation</strong>.</p>
+<pre><code class="language-python">size = (150, 150)
+bs = 32
+aug_transforms = keras.Sequential(
+    [layers.RandomFlip("horizontal"), layers.RandomRotation(0.1),]
+)
+
+train_dataset = train_dataset.map(lambda x, y: (tf.image.resize(x, size), y))
+validation_dataset = validation_dataset.map(lambda x, y: (tf.image.resize(x, size), y))
+test_dataset = test_dataset.map(lambda x, y: (tf.image.resize(x, size), y))
+
+
+train_dataset = train_dataset.cache().batch(bs).prefetch(buffer_size=10)
+validation_dataset = validation_dataset.cache().batch(bs).prefetch(buffer_size=10)
+test_dataset = test_dataset.cache().batch(bs).prefetch(buffer_size=10)
+</code></pre>
+<p>This article uses an <strong><a href="../../../../Xception">Xception</a></strong> model pre-trained on the ImageNet dataset and applied to images 150x150x3 in size. The important point is to exclude the pre-trained model's final classification layer. This final layer is just for classification, and we only care about the layers before it.</p>
+<pre><code class="language-python">model_pretrained = keras.applications.Xception(
+    weights="imagenet", 
+    input_shape=(150, 150, 3),
+    include_top=False,
+)
+</code></pre>
+<p>The <a href="../../../../Xception">Xception</a> model architecture is shown here.
+[IMAGE {2} arch START SAMPLE]
+<img alt="arch" src="https://hackmd.io/_uploads/Hygq2Q4qi.png"/>
+[IMAGE {2} FINISH SAMPLE]</p>
+<h4 id="fine-tuning">Fine-Tuning<a class="headerlink" href="#fine-tuning" title="Permanent link">¶</a></h4>
+<p>Now, we freeze the layers of the model we just loaded by setting the trainable parameter to False.
+After that, we create a model on top of the frozen layers and apply the data augmentations we defined.
+The <a href="../../../../Xception">Xception</a> model's caveat is that it defines the inputs are scaled from the original range of (0,255) to the range of (-1.0, 1.0). We perform this rescaling using the <strong>Rescaling</strong> layer as follows.</p>
+<pre><code class="language-python">model_pretrained.trainable = False
+
+inputs = keras.Input(shape=(150, 150, 3))
+rescale_layer = keras.layers.Rescaling(scale=1 / 127.5, offset=-1)
+
+x = aug_transforms(inputs) 
+x = rescale_layer(x)
+</code></pre>
+<h4 id="unfreeze-the-top-layers-of-the-model">Unfreeze the top layers of the model<a class="headerlink" href="#unfreeze-the-top-layers-of-the-model" title="Permanent link">¶</a></h4>
+<p>The <a href="../../../../Xception">Xception</a> model also contains Batch Normalization layers that should not be trained when the model is unfrozen. To make sure this is the case, we disable the training mode. We also apply a <strong>GlobalAveragePooling</strong> followed by <strong><a href="../../../../Dropout">Dropout</a></strong> layers to improve performance further. Global Average Pooling is an alternative to the Fully Connected layer (FC) that preserves spatial information better. Since our pre-trained model uses different data, these layers are useful here. The final layer is an FC layer for a binary classification task. </p>
+<pre><code class="language-python">x = model_pretrained(x, training=False)
+x = keras.layers.GlobalAveragePooling2D()(x)
+x = keras.layers.Dropout(0.2)(x) 
+
+outputs = keras.layers.Dense(1)(x)
+final_model = keras.Model(inputs, outputs)
+</code></pre>
+<p>We can now train the new layers that we created.</p>
+<pre><code class="language-python">final_model.compile(
+    optimizer=keras.optimizers.Adam(),
+    loss=keras.losses.BinaryCrossentropy(from_logits=True),
+    metrics=[keras.metrics.BinaryAccuracy()],
+)
+
+num_epochs = 5
+final_model.fit(train_dataset, epochs=num_epochs, validation_data=validation_dataset)
+</code></pre>
+<p>Now that we trained the new layers, we unfreeze the entire model and then train it with a very small learning rate. This gradual training leads to much better performance. Note that the <strong>Batch Normalization</strong> layers are not updating during this training, as if they did, it would badly hurt performance.</p>
+<pre><code class="language-python">model_pretrained.trainable = True
+final_model.summary()
+
+final_model.compile(
+    optimizer=keras.optimizers.Adam(1e-5),
+    loss=keras.losses.BinaryCrossentropy(from_logits=True),
+    metrics=[keras.metrics.BinaryAccuracy()],
+)
+
+num_epochs = 5
+final_model.fit(train_dataset, epochs=num_epochs, validation_data=validation_dataset)
+</code></pre>
+<h4 id="evaluation-and-prediction">Evaluation and prediction<a class="headerlink" href="#evaluation-and-prediction" title="Permanent link">¶</a></h4>
+<p>This example shows how useful Transfer Learning is for quickly training small datasets. After training the model, we evaluate the test dataset. The model still performs quite well despite the few training epochs and fewer data. 
+[IMAGE {3} Results START SAMPLE]
+<img alt="Results" src="https://hackmd.io/_uploads/rkYfp7Vcj.png"/>
+[IMAGE {3} FINISH SAMPLE]</p>
+<p>:::
+:::section{.summary}</p>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<ul>
+<li>Transfer Learning is a powerful method when fewer data is present.</li>
+<li>As long as the pre-trained model uses similar data, a niche model can be fine-tuned using it.</li>
+<li>Selectively freezing the pre-trained layers and training the rest is a way to achieve the effects of fine-tuning.</li>
+<li>After an initial round of selective training, unfreezing the model and training the entire model improves performance.</li>
+<li>The Transfer Learning approach is thus an invaluable breakthrough in Deep Learning.
+:::</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../../../read_later/Deep%20Neural%20Nets%2033%20years%20ago%20and%2033%20years%20from%20now/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../../../read_later/Deep%20Neural%20Nets%2033%20years%20ago%20and%2033%20years%20from%20now/">
+        Deep Neural Nets 33 years ago and 33 years from now
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Time%20series%20forecasting%20using%20LSTM/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Time%20series%20forecasting%20using%20LSTM/">
+        Time series forecasting using LSTM
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

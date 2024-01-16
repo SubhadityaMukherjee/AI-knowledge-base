@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Fastai Blocks - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Fastai Blocks", url: "#_top", children: [
+              {title: "Building Blocks", url: "#building-blocks" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Fastai%20Deployment/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Fastai%20Deployment/">
+        Fastai Deployment
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../FastText/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../FastText/">
+        FastText
+      </a>
+</div>
+</div>
+<h2 id="fastai-blocks"><a href="../fastai/">Fastai</a> Blocks<a class="headerlink" href="#fastai-blocks" title="Permanent link">¶</a></h2>
+<h3 id="building-blocks">Building Blocks<a class="headerlink" href="#building-blocks" title="Permanent link">¶</a></h3>
+<pre><code class="language-python"># Image Classification
+dls = DataBlock(
+    blocks=(ImageBlock, CategoryBlock), 
+    get_items=get_image_files, 
+    splitter=RandomSplitter(valid_pct=0.2, seed=42),
+    get_y=parent_label,
+    item_tfms=[Resize(192, method='squish')]
+).dataloaders(path)
+
+dls.show_batch(max_n=6)
+learn = cnn_learner(dls, resnet18, metrics=error_rate)
+learn.fine_tune(8)
+</code></pre>
+<pre><code class="language-python"># Label regex
+pets = DataBlock(blocks = (ImageBlock, CategoryBlock),
+                 get_items=get_image_files, 
+                 splitter=RandomSplitter(seed=42),
+                 get_y=using_attr(RegexLabeller(r'(.+)_\d+.jpg$'), 'name'),
+                 item_tfms=Resize(460),
+                 batch_tfms=aug_transforms(size=224, min_scale=0.75))
+dls = pets.dataloaders(path/"images")
+</code></pre>
+<ul>
+<li>DataBlock is more general<ul>
+<li>list models</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-python">timm.list_models('convnex*')
+</code></pre>
+<pre><code class="language-python"># Segmentation
+path = untar_data(URLs.CAMVID_TINY)
+dls = SegmentationDataLoaders.from_label_func(
+    path, bs=8, fnames = get_image_files(path/"images"),
+    label_func = lambda o: path/'labels'/f'{o.stem}_P{o.suffix}',
+    codes = np.loadtxt(path/'codes.txt', dtype=str)
+)
+learn = unet_learner(dls, resnet34)
+learn.fine_tune(8)
+</code></pre>
+<ul>
+<li>Segmentation Dataloaders is just another abstraction of the DataBlock for a specific case. Can use the DataBlock as well</li>
+</ul>
+<pre><code class="language-python"># Tabular
+dls = TabularDataLoaders.from_csv(path/'adult.csv', path=path, y_names="salary",
+    cat_names = ['workclass', 'education', 'marital-status', 'occupation', 'relationship', 'race'],
+    cont_names = ['age', 'fnlwgt', 'education-num'],
+    procs = [Categorify, FillMissing, Normalize])
+learn = tabular_learner(dls, metrics=accuracy)
+learn.fit_one_cycle(2)
+</code></pre>
+<ul>
+<li><a href="../Fitting/">Fitting</a> because pretrained models are not going to be there</li>
+</ul>
+<pre><code class="language-python"># Collaborative [Filtering](./Filtering.md)
+dls = CollabDataLoaders.from_csv(path/'ratings.csv')
+learn = collab_learner(dls, y_range=(0.5,5.5))
+learn.fine_tune(8)
+</code></pre>
+<ul>
+<li>Range is for the output (Since its not a binary output)</li>
+<li>Saving a model</li>
+</ul>
+<pre><code class="language-python">learn.export('model.pkl')
+</code></pre>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Fastai%20Deployment/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Fastai%20Deployment/">
+        Fastai Deployment
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../FastText/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../FastText/">
+        FastText
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

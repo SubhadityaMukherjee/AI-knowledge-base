@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>ALBERT - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "ALBERT", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../ANOVA/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../ANOVA/">
+        ANOVA
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../ADVENT/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../ADVENT/">
+        ADVENT
+      </a>
+</div>
+</div>
+<h2 id="albert">ALBERT<a class="headerlink" href="#albert" title="Permanent link">¶</a></h2>
+<ul>
+<li>Lite <a href="../BERT/">BERT</a></li>
+<li><img alt="Pasted image 20220625231702" src="../images/Pasted%20image%2020220625231702.png"/></li>
+<li><a href="https://github.com/christianversloot/machine-learning-articles/blob/main/albert-explained-a-lite-bert.md">blog</a> #<a href="Roam-Highlights">Roam-Highlights</a></li>
+<li>perhaps even better when scaled to the same number of parameters as <a href="../BERT/">BERT</a></li>
+<li><a href="../Factorized%20Embedding%20Parameters/">Factorized Embedding Parameters</a></li>
+<li><a href="../cross-layer%20parameter%20sharing/">cross-layer parameter sharing</a></li>
+<li><a href="../inter-sentence%20coherence%20loss/">inter-sentence coherence loss</a></li>
+<li>We can see that the ALBERT base model attempts to mimic <a href="../BERT/">BERT</a> base, with a hidden state size of 768, parameter sharing and a smaller <a href="../Embedding/">embedding</a> size due to factorization explained above. Contrary to the 108 million parameters, it has only 12 million. This makes a big difference when training the model.</li>
+<li>Another model, ALBERT xxlarge (extra-extra large) has 235 million parameters, with 12 encoder segments, 4096-dimensional hidden state and 128-dimensional <a href="../Embedding/">embedding</a> size. It also includes parameter sharing.</li>
+<li><a href="../GLUE/">GLUE</a></li>
+<li><a href="../SQuAD/">SQuAD</a></li>
+<li><a href="../RACE/">RACE</a></li>
+<li>For <a href="../Factorized%20Embedding%20Parameters/">Factorized Embedding Parameters</a>, the authors report good performance. Both the case where cross-layer parameters were not shared and where they were, are reported. Without sharing, larger <a href="../Embedding/">embedding</a> sizes give better performance. With sharing, performance boosts satisfy at an <a href="../Embedding/">embedding</a> size of 128 dimensions. That's why the 128-size embeddings were used in the table above.</li>
+<li>For <a href="../cross-layer%20parameter%20sharing/">cross-layer parameter sharing</a>, the authors looked at not performing cross-layer sharing, performing cross-layer sharing for the feedforward segments only, performing sharing for the <a href="../Attention/">attention</a> segments, and performing sharing for all subsegments. It turns out that sharing the parameters for the <a href="../Attention/">attention</a> segments is most effective, while sharing the feedforward segment parameters does not contribute significantly. This clearly illustrates the important role of the <a href="../Attention/">attention</a> mechanism in <a href="../Transformer/">Transformer</a> models. Because, however, all-segment sharing significantly decreases the number of parameters, at only slightly worse performance compared to <a href="../Attention/">attention</a>-only sharing, the authors to perform all-segment sharing instead.</li>
+<li>For the SOP task, we can read that if NSP is performed on a SOP task, performance is poor. NSP on NSP of course performs well, as well as SOP on SOP. However, if SOP is performed on NSP, it performs really well. This suggests that SOP actually captures sentence coherence whereas NSP might not, and that SOP yields a better result than NSP.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../ANOVA/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../ANOVA/">
+        ANOVA
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../ADVENT/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../ADVENT/">
+        ADVENT
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

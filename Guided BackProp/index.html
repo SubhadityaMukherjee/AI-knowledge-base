@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Guided BackProp - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Guided BackProp", url: "#_top", children: [
+              {title: "Summary", url: "#summary" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Guided%20GradCAM/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Guided%20GradCAM/">
+        Guided GradCAM
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Group%20fairness/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Group%20fairness/">
+        Group fairness
+      </a>
+</div>
+</div>
+<h2 id="guided-backprop">Guided BackProp<a class="headerlink" href="#guided-backprop" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>@springenbergStrivingSimplicityAll2015</li>
+<li>Striving for simplicity, the All conv net</li>
+</ul>
+<h3 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h3>
+<ul>
+<li>Combination of <a href="../DeconvNet/">DeconvNet</a> and  <a href="../Deep%20Inside%20Convolutional%20Networks/">Deep Inside Convolutional Networks</a> </li>
+<li><a href="../DeconvNet/">DeconvNet</a> has an issue with flow of negative gradients which decrease accuracy of higher layers</li>
+<li>Their idea is to combine two approaches and add a “guide” to the Saliency with the help of deconvolution.</li>
+<li>focus on the ReLU activation function</li>
+<li>When computing values at the Rectification component of the deconvnet, we are masking all non-positive values with the ReLU</li>
+<li>In that layer, the computed values are calculated only base on the top signal (reconstruction from the upper layer), and the input is ignored</li>
+<li>On the other hand, in the Saliency method, we are focusing on the gradient values computed base on the input image</li>
+<li>If we take deconvnet masking of the Rectification layer and apply it on the gradient values of the Saliency method, we could remove noise caused by the negative gradient values.</li>
+<li>Deconvolution guides backpropagation values of the Saliency method to produce sharper images</li>
+<li>The idea of GBP is often misunderstood and interpreted as “applying deconvolution results on the saliency results”.</li>
+<li>This is not true because ReLU masking extracted from the deconvnet is applied on every level and therefore affects the gradient values all the way down to the input of the CNN, not only at the first level of the CNN</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="images/Pasted image 20230310115413.png" src="../images/Pasted%20image%2020230310115413.png"/></li>
+<li><img alt="" src="../images/1%21lF0KUFi_D04YIYo_1Yi0cA.png"/></li>
+<li><img alt="" src="../images/1%21XhaBt82XZrD1ePnInOW2lg.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Guided%20GradCAM/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Guided%20GradCAM/">
+        Guided GradCAM
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Group%20fairness/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Group%20fairness/">
+        Group fairness
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

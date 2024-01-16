@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Effects of Regularization - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Effects of Regularization", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Efferent/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Efferent/">
+        Efferent
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Effects%20of%20Contextual%20Cues%20on%20Inferring%20and%20Remembering%20Meanings%20of%20New%20Word/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Effects%20of%20Contextual%20Cues%20on%20Inferring%20and%20Remembering%20Meanings%20of%20New%20Word/">
+        Effects of Contextual Cues on Inferring and Remembering Meanings of New Word
+      </a>
+</div>
+</div>
+<h2 id="effects-of-regularization">Effects of <a href="../Regularization/">Regularization</a><a class="headerlink" href="#effects-of-regularization" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2204.03632">The Effects of Regularization and Data Augmentation are Class Dependent</a></li>
+<li>Current Deep Networks heavily rely on regularizers such as data <a href="Augmentation.md">Augmentation</a> (DA) or <a href="Weight%20Decay">Weight Decay</a>, and employ structural risk minimization, i.e., <a href="../Cross%20Validation/">Cross Validation</a>, to select the optimal <a href="../Regularization/">regularization</a> hyper-parameters</li>
+<li>weight decay increases the average test performances at the cost of significant performance drops on some specific classes</li>
+<li>unfair across classes</li>
+<li>By focusing on maximizing aggregate performance statistics we have produced learning mechanisms that can be potentially harmful, especially in <a href="../Transfer%20Learning/">transfer learning</a> tasks</li>
+<li>optimal amount of DA or weight decay found from cross-validation leads to disastrous model performances on some classes</li>
+<li>only by introducing random crop DA during training</li>
+<li>such performance drop also appears when introducing uninformative <a href="../Regularization/">regularization</a> techniques such as weight decay</li>
+<li>ur search for ever increasing generalization performance – averaged over all classes and samples – has left us with models and regularizers that silently sacrifice performances on some classes.</li>
+<li>varying the amount of <a href="../Regularization/">regularization</a> employed during pre-training of a specific dataset impacts the per-class performances of that pre-trained model on different downstream tasks e.g. an <a href="../ImageNet/">ImageNet</a> pre-trained ResNet50 deployed on INaturalist sees its performances fall from 70% to 30% on a particular classwhen introducing random crop DA during the <a href="../ImageNet/">Imagenet</a> pre-training phase</li>
+<li>designing novel regularizers without class-dependent bias remains an open research question</li>
+<li>Categories largely identifiable by color or texture (for e.g., yellow bird, textured mushroom) are unaffected by aggressive <a href="../Cropping/">cropping</a>, while categories identifiable by shape (for e.g., corkscrew) see a performance degradation with aggressive <a href="../Cropping/">cropping</a> that only contains part of the object</li>
+<li>Conversely, color jitter does not affect shape or texture-based categories (for e.g., zebra), but affects color-based categories (for e.g., basket ball)</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Efferent/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Efferent/">
+        Efferent
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Effects%20of%20Contextual%20Cues%20on%20Inferring%20and%20Remembering%20Meanings%20of%20New%20Word/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Effects%20of%20Contextual%20Cues%20on%20Inferring%20and%20Remembering%20Meanings%20of%20New%20Word/">
+        Effects of Contextual Cues on Inferring and Remembering Meanings of New Word
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

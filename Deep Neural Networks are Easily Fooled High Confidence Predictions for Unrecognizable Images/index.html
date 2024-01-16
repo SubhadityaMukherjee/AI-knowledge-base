@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Deep Neural Networks are Easily Fooled High Confidence Predictions for Unrecognizable Images - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Deep Neural Networks Are Easily Fooled High Confidence Predictions for Unrecognizable Images", url: "#_top", children: [
+              {title: "GA", url: "#ga" },
+              {title: "Direct Encoding", url: "#direct-encoding" },
+              {title: "Indirect Encoding", url: "#indirect-encoding" },
+              {title: "Gradient Ascent", url: "#gradient-ascent" },
+              {title: "MNIST Results - EAs", url: "#mnist-results-eas" },
+              {title: "ImageNet Results - EAs", url: "#imagenet-results-eas" },
+              {title: "What about a Fooling Class?", url: "#what-about-a-fooling-class" },
+              {title: "Gradient Ascent Results", url: "#gradient-ascent-results" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Deep%20Visual%20Explanation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Deep%20Visual%20Explanation/">
+        Deep Visual Explanation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Deep%20Inside%20Convolutional%20Networks/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Deep%20Inside%20Convolutional%20Networks/">
+        Deep Inside Convolutional Networks
+      </a>
+</div>
+</div>
+<h2 id="deep-neural-networks-are-easily-fooled-high-confidence-predictions-for-unrecognizable-images">Deep Neural Networks Are Easily Fooled High Confidence Predictions for Unrecognizable Images<a class="headerlink" href="#deep-neural-networks-are-easily-fooled-high-confidence-predictions-for-unrecognizable-images" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>@nguyenDeepNeuralNetworks2015</li>
+<li>Current study<ul>
+<li>False positives</li>
+<li>MAP Elites algorithm </li>
+<li>parallel generation</li>
+<li>Direct encodings</li>
+<li>Indirect encodings</li>
+<li>Gradient ascent generation</li>
+</ul>
+</li>
+</ul>
+<h3 id="ga">GA<a class="headerlink" href="#ga" title="Permanent link">¶</a></h3>
+<ul>
+<li>Population of individuals </li>
+<li>Each individual has a fitness </li>
+<li>Mutation makes small edits to specific individuals </li>
+<li>Recombination (not used here)</li>
+</ul>
+<h3 id="direct-encoding">Direct Encoding<a class="headerlink" href="#direct-encoding" title="Permanent link">¶</a></h3>
+<ul>
+<li>Individuals are images in pixel space </li>
+<li>Fitness is the confidence of the DNN that the individual is a class </li>
+<li>Mutations make edits to the pixel values</li>
+</ul>
+<h3 id="indirect-encoding">Indirect Encoding<a class="headerlink" href="#indirect-encoding" title="Permanent link">¶</a></h3>
+<ul>
+<li>Individuals are Compositional Pattern-Producing Networks (CPPNs) </li>
+<li>The CPPN generates an image </li>
+<li>All individuals initially have no hidden neurons </li>
+<li>Mutations add new neurons to the networks</li>
+<li>Maximize confidence of the network</li>
+</ul>
+<h3 id="gradient-ascent">Gradient Ascent<a class="headerlink" href="#gradient-ascent" title="Permanent link">¶</a></h3>
+<ul>
+<li>Take the gradient with respect to the image pixel values </li>
+<li>Modify the image by moving it in the direction of the gradient</li>
+</ul>
+<h3 id="mnist-results-eas">MNIST Results - EAs<a class="headerlink" href="#mnist-results-eas" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="images/Pasted image 20230327124348.png" src="../images/Pasted%20image%2020230327124348.png"/></li>
+</ul>
+<h3 id="imagenet-results-eas">ImageNet Results - EAs<a class="headerlink" href="#imagenet-results-eas" title="Permanent link">¶</a></h3>
+<ul>
+<li>Harder to fool</li>
+<li>Different runs result into differences in patterns</li>
+<li>Removing repetitive patterns does not cause a dramatic confidence drop</li>
+<li>Global structures are not learned</li>
+<li><img alt="images/Pasted image 20230327124359.png" src="../images/Pasted%20image%2020230327124359.png"/></li>
+<li><img alt="images/Pasted image 20230327124413.png" src="../images/Pasted%20image%2020230327124413.png"/></li>
+<li><img alt="images/Pasted image 20230327124421.png" src="../images/Pasted%20image%2020230327124421.png"/></li>
+</ul>
+<h3 id="what-about-a-fooling-class">What about a Fooling Class?<a class="headerlink" href="#what-about-a-fooling-class" title="Permanent link">¶</a></h3>
+<ul>
+<li>MNIST<ul>
+<li>Added an 11th fooling class. </li>
+<li>Evolved unrecognizable images were still recognized as digits. </li>
+<li>Number of misclassifications did not decrease.</li>
+</ul>
+</li>
+<li>ImageNet<ul>
+<li>Added an 1001st fooling class. </li>
+<li>No decrease in confidence for directly evolved images, but already low confidence. </li>
+<li>Confidence decreased from 88.1% to 11.7% for indirectly evolved images.</li>
+</ul>
+</li>
+<li>Indirectly evolved images are easier to differentiate.</li>
+</ul>
+<h3 id="gradient-ascent-results">Gradient Ascent Results<a class="headerlink" href="#gradient-ascent-results" title="Permanent link">¶</a></h3>
+<ul>
+<li>Maximize softmax output</li>
+<li>Produced unrecognizable images classified with 99.99% confidence</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Deep%20Visual%20Explanation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Deep%20Visual%20Explanation/">
+        Deep Visual Explanation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Deep%20Inside%20Convolutional%20Networks/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Deep%20Inside%20Convolutional%20Networks/">
+        Deep Inside Convolutional Networks
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

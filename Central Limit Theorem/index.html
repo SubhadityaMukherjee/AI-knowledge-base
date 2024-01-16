@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Central Limit Theorem - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Central Limit Theorem", url: "#_top", children: [
+              {title: "\\(X_{i}\\) Are Identically Distributed", url: "#x_i-are-identically-distributed" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Central%20Nervous%20System/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Central%20Nervous%20System/">
+        Central Nervous System
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../CenterNet/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../CenterNet/">
+        CenterNet
+      </a>
+</div>
+</div>
+<h2 id="central-limit-theorem">Central Limit Theorem<a class="headerlink" href="#central-limit-theorem" title="Permanent link">¶</a></h2>
+<ul>
+<li>When random effects of many independant small sized causes sum up to large scale observable effects : one gets the <a href="../Normal%20Distribution/">Normal Distribution</a></li>
+<li>Let <span class="arithmatex">\((X_{i})_{i\in N}\)</span> is a seq of independant, real valued, [(X_{i}- E<a href="X_%7Bi%7D-%20E%5BX_%7Bi%7D">X_{i}</a>%20=%20E%5B%5BX_%7Bi%7D-%20E%5BX_%7Bi%7D) <span class="arithmatex">\(P_{S_{n}}\)</span> of standardized sum variables converge weakly to <span class="arithmatex">\(\mathscr{N}(0,1|[Square Integrable]]\)</span> . <span class="arithmatex">(<span class="arithmatex">\(S_{n}= \frac{\Sigma_{i= 1}^{n}(X_{i}- E[X_{i}])}{\sigma(\Sigma^{n}_{i=1}X_{i})}\)</span>\)</span><ul>
+<li>Converge weakly : <span class="arithmatex">\(<span class="arithmatex">\(lim_{n\rightarrow\infty}\int f(x)P_{n}(dx) = \int f(x)P(dx)\)</span>\)</span> for all <span class="arithmatex">\(f: \mathbb{R} \rightarrow \mathbb{R}\)</span></li>
+<li>Lebesgue Integrals</li>
+</ul>
+</li>
+</ul>
+<h3 id="x_i-are-identically-distributed"><span class="arithmatex">\(X_{i}\)</span> Are Identically Distributed<a class="headerlink" href="#x_i-are-identically-distributed" title="Permanent link">¶</a></h3>
+<ul>
+<li>Regardless of shape of each <span class="arithmatex">\(X_{i}\)</span>, distribution of normalized sum converges to <span class="arithmatex">\(\mathscr{N}(0,1)\)</span></li>
+<li>Uniformly bounded</li>
+<li>None of the <span class="arithmatex">\(X_{i}\)</span> dominates the other "washing out"</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Central%20Nervous%20System/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Central%20Nervous%20System/">
+        Central Nervous System
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../CenterNet/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../CenterNet/">
+        CenterNet
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

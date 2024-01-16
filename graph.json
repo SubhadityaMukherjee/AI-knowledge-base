@@ -1,0 +1,100 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#loss",
+      "color": {
+        "a": 1,
+        "rgb": 4641488
+      }
+    },
+    {
+      "query": "tag:#architecture",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#regularize",
+      "color": {
+        "a": 1,
+        "rgb": 3967804
+      }
+    },
+    {
+      "query": "tag:#brain",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:#visualization",
+      "color": {
+        "a": 1,
+        "rgb": 12285874
+      }
+    },
+    {
+      "query": "tag:#distribution",
+      "color": {
+        "a": 1,
+        "rgb": 7039918
+      }
+    },
+    {
+      "query": "tag:#uncertainty",
+      "color": {
+        "a": 1,
+        "rgb": 6575250
+      }
+    },
+    {
+      "query": "tag:#parallel",
+      "color": {
+        "a": 1,
+        "rgb": 7110217
+      }
+    },
+    {
+      "query": "tag:#language",
+      "color": {
+        "a": 1,
+        "rgb": 11185245
+      }
+    },
+    {
+      "query": "tag:#todo",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#robotics",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1.9,
+  "nodeSizeMultiplier": 1.12083333333333,
+  "lineSizeMultiplier": 0.8875,
+  "collapse-forces": true,
+  "centerStrength": 0.447674418604651,
+  "repelStrength": 15.1068239795918,
+  "linkStrength": 1,
+  "linkDistance": 53,
+  "scale": 0.10002621977818417,
+  "close": false
+}

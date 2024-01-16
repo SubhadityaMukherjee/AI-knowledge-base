@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Normal Distribution - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Normal Distribution", url: "#_top", children: [
+              {title: "Properties", url: "#properties" },
+              {title: "Computing the Value", url: "#computing-the-value" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Normalized%20Inverted%20Structural%20Similarity%20Index/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Normalized%20Inverted%20Structural%20Similarity%20Index/">
+        Normalized Inverted Structural Similarity Index
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Nootropics/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Nootropics/">
+        Nootropics
+      </a>
+</div>
+</div>
+<h2 id="normal-distribution">Normal Distribution<a class="headerlink" href="#normal-distribution" title="Permanent link">¶</a></h2>
+<ul>
+<li>
+<div class="arithmatex">\[p(x) = \frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}\]</div>
+</li>
+<li>Mean <span class="arithmatex">\(\mu\)</span> and std <span class="arithmatex">\(\sigma\)</span>. <span class="arithmatex">\(\mu\)</span> is max and <span class="arithmatex">\(\mu \pm \sigma\)</span> is locations of zeros of second derivative</li>
+<li><img alt="im" src="../images/Pasted%20image%2020220319144034.png"/></li>
+<li><span class="arithmatex">\(\mathcal{N}(0,1)\)</span></li>
+<li><a href="../Central%20Limit%20Theorem/">Central Limit Theorem</a></li>
+</ul>
+<h3 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">¶</a></h3>
+<ul>
+<li>Linear combinations of normal distributed independant RVs are normal distributed</li>
+<li>X,Y have means <span class="arithmatex">\(\mu\)</span> and v and variances <span class="arithmatex">\(\sigma^{2}\)</span> and <span class="arithmatex">\(\tau^{2}\)</span>. Then <span class="arithmatex">\(aX + bY\)</span> is normally distributed and has mean : <span class="arithmatex">\(a\mu + bv\)</span> and variance <span class="arithmatex">\(\alpha^{2}\sigma^{2}+b^{2}\tau^{2}\)</span></li>
+</ul>
+<h3 id="computing-the-value">Computing the Value<a class="headerlink" href="#computing-the-value" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<div class="arithmatex">\[\int_{a}^{b} \frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}dx\]</div>
+</li>
+<li>Transform <span class="arithmatex">\(\mathscr{N}(\mu, \sigma^{2})\)</span> to <span class="arithmatex">\(\mathscr{N}(0,1)\)</span></li>
+<li>
+<div class="arithmatex">\[Z = \frac{X-\mu}{\sigma}\]</div>
+</li>
+<li>
+<div class="arithmatex">\[\int_{\frac{a-\mu}{\sigma}}^{\frac{b-\mu}{\sigma}}\frac{1}{\sqrt{2\pi}}e^{-\frac{(x)^{2}}{2}}dx\]</div>
+</li>
+<li>Compute by using Cumulative <a href="../Density/">density</a> function <span class="arithmatex">\(\phi\)</span></li>
+<li>Iterative solvers</li>
+<li>
+<div class="arithmatex">\[\phi(\frac{b-\mu}{\sigma})-\phi(\frac{a-\mu}{\sigma})\]</div>
+</li>
+<li>
+<div class="arithmatex">\[\hat \mu = \frac{1}{N}\Sigma_{i}(x_{i})$$ $$\hat \sigma^{2}= \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)^2\]</div>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Normalized%20Inverted%20Structural%20Similarity%20Index/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Normalized%20Inverted%20Structural%20Similarity%20Index/">
+        Normalized Inverted Structural Similarity Index
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Nootropics/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Nootropics/">
+        Nootropics
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

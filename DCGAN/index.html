@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>DCGAN - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "DCGAN", url: "#_top", children: [
+              {title: "Architecture", url: "#architecture" },
+              {title: "Special Features", url: "#special-features" },
+              {title: "Loss functions", url: "#loss-functions" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../DLRM/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../DLRM/">
+        DLRM
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DALL%C2%B7E%202/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DALL%C2%B7E%202/">
+        DALL·E 2
+      </a>
+</div>
+</div>
+<h2 id="dcgan">DCGAN<a class="headerlink" href="#dcgan" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<h3 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="F5FD8256-22A4-45E2-A635-E1B8BD48C0AB.png" src="../images/F5FD8256-22A4-45E2-A635-E1B8BD48C0AB.png"/></li>
+</ul>
+<h4 id="weight-init">Weight Init<a class="headerlink" href="#weight-init" title="Permanent link">¶</a></h4>
+<ul>
+<li>If conv Random Normal with mean = 0 and std.dev = 0.02</li>
+<li>If BatchNorm with mean = 1.0 and std.dev = 0.02, Bias = 0</li>
+</ul>
+<h4 id="generator">Generator<a class="headerlink" href="#generator" title="Permanent link">¶</a></h4>
+<ul>
+<li>Map latent space vector z to data space</li>
+<li>Creating RGB with same size as training image</li>
+<li><a href="../Transposed%20Conv/">Transposed Conv</a> , <a href="../Batch%20Normalization/">Batch Normalization</a> and <a href="../Relu/">Relu</a></li>
+<li>Output is 3x64x64</li>
+<li>Output passed through <a href="../Tanh/">Tanh</a> to return it to [-1,1]</li>
+<li><a href="../Batch%20Normalization/">Batch Normalization</a> AFTER <a href="../Transposed%20Conv/">Transposed Conv</a> is super important as it helps with flow of gradients</li>
+<li>Notice, how the inputs we set in the input section (<em>nz</em>, <em>ngf</em>, and <em>nc</em>) influence the generator architecture in code. <em>nz</em> is the length of the z input vector, <em>ngf</em> relates to the size of the feature maps that are propagated through the generator, and <em>nc</em> is the number of channels in the output image (set to 3 for RGB images)</li>
+<li><img alt="0A6407EB-22F6-4D06-AB2E-E99EF94E25C0.png" src="../images/0A6407EB-22F6-4D06-AB2E-E99EF94E25C0.png"/></li>
+</ul>
+<h4 id="discriminator">Discriminator<a class="headerlink" href="#discriminator" title="Permanent link">¶</a></h4>
+<ul>
+<li><a href="../Strided/">Strided</a> <a href="../Conv/">Conv</a>, <a href="../Batch%20Normalization/">Batch Normalization</a>, and <a href="../Leaky%20Relu/">Leaky Relu</a></li>
+<li>3x64x64 input</li>
+<li>Binary classification network - outputs prob of real/fake</li>
+<li>Final is a <a href="../Sigmoid/">Sigmoid</a> layer</li>
+<li>For <a href="../Downsampling/">downsampling</a>, good Practise to use <a href="../Strided/">Strided</a> rather than <a href="../Pooling/">Pooling</a> as it lets the network learn it's own pooling function</li>
+<li>Almost a direct inverse of the Generator</li>
+</ul>
+<h3 id="special-features">Special Features<a class="headerlink" href="#special-features" title="Permanent link">¶</a></h3>
+<ul>
+<li>Explicitly uses convolutional layers in the discriminator and transposed-convolutional layers in the generator</li>
+<li>Further the discriminator uses batch norm layers and <a href="../Leaky%20Relu/">Leaky Relu</a> activations while the generator uses <a href="../Relu/">Relu</a> activations</li>
+<li>The input is a latent vector drawn from a standard <a href="../Normal%20Distribution/">normal distribution</a> and the output is a <span class="arithmatex">\(3 \times 32 \times 32\)</span> RGB image</li>
+<li>In this implementation, I also added in <a href="../Label%20Smoothing/">Label Smoothing</a></li>
+</ul>
+<h3 id="loss-functions">Loss functions<a class="headerlink" href="#loss-functions" title="Permanent link">¶</a></h3>
+<h4 id="discriminator-loss">Discriminator <a href="../loss/">loss</a><a class="headerlink" href="#discriminator-loss" title="Permanent link">¶</a></h4>
+<p>The Discriminator penalizes wrongly classifying a real image as a fake or a fake image as real. This can be thought of as maximizing the following function.
+<span class="arithmatex">\(<span class="arithmatex">\(\nabla_{\theta_{d}} \frac{1}{m} \Sigma_{i=1}^{m}[log D(x^{(i)}) + log(1-D(G(z^{(i)})))]\)</span>\)</span></p>
+<h4 id="generator-loss">Generator <a href="../loss/">loss</a><a class="headerlink" href="#generator-loss" title="Permanent link">¶</a></h4>
+<ul>
+<li>
+<p>The Generator loss takes the output of the Discriminator into account and rewards it if the Generator is fooled into thinking the fake image is real. If this condition is not satisfied, the Generator is penalized.</p>
+</li>
+<li>
+<p>This can be thought of as minimizing the following function.
+<span class="arithmatex">\(<span class="arithmatex">\(\nabla_{\theta_{g}} \frac{1}{m} \Sigma_{i=1}^{m}log(1-D(G(z^{(i)})))\)</span>\)</span></p>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../DLRM/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../DLRM/">
+        DLRM
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DALL%C2%B7E%202/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DALL%C2%B7E%202/">
+        DALL·E 2
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

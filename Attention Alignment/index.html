@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Attention Alignment - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Attention Alignment", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Attention%20Based%20Distillation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Attention%20Based%20Distillation/">
+        Attention Based Distillation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Asymptotic%20Decider/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Asymptotic%20Decider/">
+        Asymptotic Decider
+      </a>
+</div>
+</div>
+<h2 id="attention-alignment"><a href="../Attention/">Attention</a> Alignment<a class="headerlink" href="#attention-alignment" title="Permanent link">¶</a></h2>
+<ul>
+<li>If there are sequences <span class="arithmatex">\(x, y\)</span><ul>
+<li>Encoder is any <a href="../Recurrent/">Recurrent</a> with a forward state <span class="arithmatex">\(<span class="arithmatex">\(\overrightarrow h^{T}\)</span>\)</span> and <span class="arithmatex">\(<span class="arithmatex">\(\overleftarrow h^{T}\)</span>\)</span> for backward</li>
+<li>Concat them represents the preceding and following word annotations<ul>
+<li><span class="arithmatex">\(<span class="arithmatex">\(h_{i}= [\overrightarrow h_{i}^{T}; \overleftarrow h_{i}^{T}]\)</span>\)</span>, <span class="arithmatex">\(i = 1, …, n\)</span></li>
+<li>Decoder has hidden state <span class="arithmatex">\(s_{t}= f(s_{t-1}, y_{t-1}, c_{t})\)</span> for the output word at position t for <span class="arithmatex">\(t = 1, …, m\)</span><ul>
+<li>Context vector <span class="arithmatex">\(c_{t}\)</span> is a sum of hidden states of the input seq, weighted by alignment scores</li>
+<li>
+<div class="arithmatex">\[c_{t}= \Sigma_{i=1}^{n}\alpha_{t,i}h_{i}\]</div>
+</li>
+<li>How well the two words are aligned is given by</li>
+<li>
+<div class="arithmatex">\[\alpha_{t,i} = align(y_{t}, x_{i})\]</div>
+</li>
+<li>Taking <a href="../Softmax/">softmax</a><ul>
+<li>
+<div class="arithmatex">\[\frac{exp(score(s_{t-1}, h_{i}))}{\Sigma_{i'-1}^{n}exp(score(s_{t-1}, h_{i}'))}\]</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="arithmatex">\[f_{att}(h_{i}, s_{j}) = v_{a}^{T}tanh(W_{a}[h_{i};s_{j}])\]</div>
+</li>
+<li><span class="arithmatex">\(v_{a}\)</span> and <span class="arithmatex">\(W_{a}\)</span> are the learned <a href="../Attention/">Attention</a> params</li>
+<li><span class="arithmatex">\(h\)</span> is the hidden state for the encoder</li>
+<li><span class="arithmatex">\(s\)</span> is the hidden state for the decoder</li>
+<li>Matrix of alignment<ul>
+<li><img alt="Pasted image 20220621170423" src="../images/Pasted%20image%2020220621170423.png"/></li>
+<li>Final scores calculated with a <a href="../Softmax/">Softmax</a></li>
+</ul>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Attention%20Based%20Distillation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Attention%20Based%20Distillation/">
+        Attention Based Distillation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Asymptotic%20Decider/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Asymptotic%20Decider/">
+        Asymptotic Decider
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

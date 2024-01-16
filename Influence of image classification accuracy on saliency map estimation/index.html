@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Influence of image classification accuracy on saliency map estimation - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Influence of Image Classification Accuracy on Saliency Map Estimation", url: "#_top", children: [
+              {title: "Intro", url: "#intro" },
+              {title: "Related Work", url: "#related-work" },
+              {title: "Components of Readout Net", url: "#components-of-readout-net" },
+              {title: "Datasets", url: "#datasets" },
+              {title: "Metrics", url: "#metrics" },
+              {title: "Conclusions", url: "#conclusions" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Information%20Gain/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Information%20Gain/">
+        Information Gain
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Inflectional%20words/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Inflectional%20words/">
+        Inflectional words
+      </a>
+</div>
+</div>
+<h2 id="influence-of-image-classification-accuracy-on-saliency-map-estimation">Influence of Image Classification Accuracy on Saliency Map Estimation<a class="headerlink" href="#influence-of-image-classification-accuracy-on-saliency-map-estimation" title="Permanent link">¶</a></h2>
+<ul>
+<li>@oyamaInfluenceImageClassification2018.</li>
+</ul>
+<h3 id="intro">Intro<a class="headerlink" href="#intro" title="Permanent link">¶</a></h3>
+<ul>
+<li>Saliency map estimation in computer vision aims to estimate the locations where people gaze in images.</li>
+<li>Since people tend to look at objects in images, the parameters of the model pre-trained on ImageNet for image classification are useful for the saliency map estimation</li>
+<li>no research on the relationship between the image classification accuracy and the performance of the saliency map estimation</li>
+<li>strong correlation between image classification accuracy and saliency map estimation accuracy</li>
+<li>It the models pre-trained on ImageNet are useful for saliency map estimation the parameters of is known that</li>
+<li>This would be because a human tends to look at the centres of objects , which are learned to be recognised in the pre-trained model for the ImageNet classification task.</li>
+<li>Although the model based on DenseNet has achieved the state-of-the-art performance in the ACPR 2017 paper, this additional study led to even better performance using the model based on dual path networks (DPNs)</li>
+</ul>
+<h3 id="related-work">Related Work<a class="headerlink" href="#related-work" title="Permanent link">¶</a></h3>
+<ul>
+<li>uses the coefficients of Attention based on Information the basis Maximization (AIM) calculated by the independent component analysis (<a href="../ICA/">ICA</a>) in local image patches</li>
+<li>The distribution of the coefficients is estimated by the kernel density estimation, which is used for estimating saliency maps based on the the local patches self-information of</li>
+<li><a href="../Graph-based%20visual%20saliency/">Graph-based visual saliency</a></li>
+<li><a href="../Saliency%20using%20natural%20statistics/">Saliency using natural statistics</a></li>
+<li><a href="../Dynamic%20visual%20attention/">Dynamic visual attention</a></li>
+<li><a href="../Adaptive%20Whitening%20Saliency/">Adaptive Whitening Saliency</a></li>
+<li><a href="../SAM-ResNet/">SAM-ResNet</a></li>
+</ul>
+<h3 id="components-of-readout-net">Components of Readout Net<a class="headerlink" href="#components-of-readout-net" title="Permanent link">¶</a></h3>
+<ul>
+<li>The operation attempts to directly minimise the reconstruction error of the input image under a <a href="../Sparsity/">sparsity</a> constraint on an over-complete set of feature maps</li>
+<li>The mini-batch size and learning rate were set to 1 and 10−5 during training, respectively.</li>
+<li>We subtract the per-channels mean value of training images from each image as pre-processing</li>
+</ul>
+<h4 id="dc">DC<a class="headerlink" href="#dc" title="Permanent link">¶</a></h4>
+<ul>
+<li>"DC is also called as transposed convolution"</li>
+<li>When DC is used for the up-sampling layers in Readout Net, the first, second, and third DC followed by a ReLU layer in Readout Net reduce the channels to 128, 64, and 32, respectively. Then, the 1 × 1 convolution reduces the channel to 1 to predict the saliency map. The filter size of DC was set to 4 × 4.</li>
+<li>method to recover a high-resolution image from its additional low resolution counterpart with little computational cost, by rearranging the data along the channel into feature maps with a convolution operation.</li>
+</ul>
+<h4 id="spc">SPC<a class="headerlink" href="#spc" title="Permanent link">¶</a></h4>
+<ul>
+<li>When SPC is used for the up-sampling layers, each SPC layer reduces the channels to one forth, followed by a 3 × 3 convolution and a ReLU layer. Then, the 1 × 1 convolution predicts the saliency map from the output of the last SPC layer.</li>
+<li>each BI layer in the up-sampling network resizes a feature map twice while maintaining the feature-map channels, GPU was out of memory when three up-sampling layers were used for all channels of outputs of Main Net</li>
+</ul>
+<h4 id="bi">BI<a class="headerlink" href="#bi" title="Permanent link">¶</a></h4>
+<ul>
+<li>the order of up-sampling and projection (1 × 1 convolution) can be inverted without any influence on the output</li>
+<li>the concatenated feature maps from Main Nets are first processed by the 1 × 1 convolution to output feature map, followed by the BI up-sampling layers. the 1-channel</li>
+</ul>
+<h3 id="datasets">Datasets<a class="headerlink" href="#datasets" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../Salicon%20dataset/">Salicon dataset</a></li>
+<li><a href="../OSIE/">OSIE</a></li>
+<li><a href="../PASCAL-S/">PASCAL-S</a></li>
+<li><a href="../MIT1003/">MIT1003</a></li>
+<li><a href="../MIT300/">MIT300</a></li>
+</ul>
+<h3 id="metrics">Metrics<a class="headerlink" href="#metrics" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../AUC-Judd/">AUC-Judd</a></li>
+<li><a href="../AUC-Borji/">AUC-Borji</a></li>
+<li><a href="../Shuffled-AUC/">Shuffled-AUC</a></li>
+</ul>
+<h3 id="conclusions">Conclusions<a class="headerlink" href="#conclusions" title="Permanent link">¶</a></h3>
+<ul>
+<li>strong correlation between image classification accuracy and saliency map estimation accuracy.</li>
+<li>not only the architecture but also the initialisation strategy using the weights pre-trained with the ImageNet classification task were important for estimating the saliency maps</li>
+<li>model which is pre-trained with the ImageNet classification and has achieved high</li>
+<li>"for performance on the classification task is also useful the"</li>
+<li>"saliency map estimation task"</li>
+<li>human fixations often concentrate on objects in the image, while the model pre-trained on ImageNet can react on many objects in images because ImageNet has a wide variety of object categories.</li>
+<li>If the model is initialised with random weights and is trained on a fixation dataset with the limited categories of objects for saliency map estimation, to the objects in the training dataset the model would overfit</li>
+<li>if the model is trained for the image classification task which includes a wide variety of categories, overfitting for the objects in the training dataset would be suppressed owing to a large number of categories.</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="Screenshot 2022-10-06 at 1.01.58 PM" src="../images/Screenshot%202022-10-06%20at%201.01.58%20PM.png"/></li>
+<li><img alt="Pasted image 20221006130217" src="../images/Pasted%20image%2020221006130217.png"/>{:height 598, :width 600}</li>
+<li><img alt="Pasted image 20221006130326" src="../images/Pasted%20image%2020221006130326.png"/></li>
+<li><img alt="Pasted image 20221006132051" src="../images/Pasted%20image%2020221006132051.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Information%20Gain/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Information%20Gain/">
+        Information Gain
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Inflectional%20words/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Inflectional%20words/">
+        Inflectional words
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

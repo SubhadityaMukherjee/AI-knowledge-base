@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Conditional GAN - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Conditional GAN", url: "#_top", children: [
+              {title: "Architecture", url: "#architecture" },
+              {title: "Loss functions", url: "#loss-functions" },
+              {title: "Training", url: "#training" },
+              {title: "Challenges with Conditional generation", url: "#challenges-with-conditional-generation" },
+              {title: "DCGAN vs CGAN", url: "#dcgan-vs-cgan" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Conditional%20Independence/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Conditional%20Independence/">
+        Conditional Independence
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Concussion/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Concussion/">
+        Concussion
+      </a>
+</div>
+</div>
+<h2 id="conditional-gan">Conditional GAN<a class="headerlink" href="#conditional-gan" title="Permanent link">¶</a></h2>
+<ul>
+<li>Image2Image, Face Aging, Text to Image</li>
+<li>Generate images with certain extra conditions or attributes</li>
+<li>The <strong>Generator</strong> and <strong>Discriminator</strong> both receive some additional conditioning input information. This could be the class of the current image or some other property.</li>
+<li>add an additional input layer with values of one-hot-encoded image labels</li>
+<li>Adding a vector of features controls the output and guide <strong>Generator</strong> figure out what to do.</li>
+<li>Such a vector of features should derive from a image which encode the class(like an image of a woman or a man if we are trying to create faces of imaginary actors) or a set of specific characteristics we expect from the image (in case of imaginary actors, it could be the type of hair, eyes or complexion).</li>
+<li>Whereas conditional generation uses labels during training, controllable generation focuses on controlling the features that you want in the output examples.</li>
+<li>We can incorporate the information into the images that will be learned and also into the Z input, which is not completely random anymore.</li>
+<li>This can be done by adjusting the input noise vector z that is fed into the generator after it has been trained.</li>
+<li>We can use the same DCGANs and imposed a condition on both <strong>Generator’s</strong> and <strong>Discriminator’s</strong> inputs. The condition should be in the form of a one-hot vector version of the digit. This is associated with the image to <strong>Generator</strong> or <strong>Discriminator</strong> as real or fake.</li>
+<li>Typically this is done with a one-hot vector, meaning there are zeros in every position except for the position of the class we want to generate</li>
+</ul>
+<h3 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../GAN%20Z%20Space/">GAN Z Space</a></li>
+</ul>
+<h4 id="the-discriminators-network">The Discriminator’s network<a class="headerlink" href="#the-discriminators-network" title="Permanent link">¶</a></h4>
+<ul>
+<li><strong>Discriminator’s</strong> evaluation is done not only on the similarity between fake data and original data but also on the correspondence of the fake data image to its input label (or features)</li>
+<li>Same as <a href="../DCGAN/">DCGAN</a> except <a href="../One%20hot/">one hot</a> vector for conditioning</li>
+</ul>
+<h4 id="the-generators-network">The Generator’s network<a class="headerlink" href="#the-generators-network" title="Permanent link">¶</a></h4>
+<ul>
+<li>To create an image that looks as “real” as possible to fool the Discriminator.</li>
+<li>Same as <a href="../DCGAN/">DCGAN</a> except <a href="../One%20hot/">one hot</a> vector.</li>
+<li><img alt="0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png" src="../images/0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png"/></li>
+</ul>
+<h3 id="loss-functions">Loss functions<a class="headerlink" href="#loss-functions" title="Permanent link">¶</a></h3>
+<ul>
+<li>We need to calculate two losses for the Discriminator. The sum of the “fake” image and “real” image loss is the overall Discriminator loss. So the loss function of the Discriminator is aiming at minimizing the error of predicting real images coming from the dataset and fake images coming from the Generator given their one-hot labels.</li>
+</ul>
+<h4 id="gen">Gen<a class="headerlink" href="#gen" title="Permanent link">¶</a></h4>
+<ul>
+<li>The loss function of the Generator minimizes the correct prediction of the Discriminator on fake images conditioned on the specified one-hot labels.</li>
+<li>
+<div class="arithmatex">\[\mathcal{L}^{(G)}(\theta^{(G)}, \theta^{(D)}) = - \mathbb{E}_{z} log \mathcal{D} (\mathcal{G} (z|y’))\]</div>
+</li>
+</ul>
+<h4 id="disc">Disc<a class="headerlink" href="#disc" title="Permanent link">¶</a></h4>
+<ul>
+<li>has to correctly label real images which are coming from training data set as real.</li>
+<li>has to correctly label generated images which are coming from <strong>Generator</strong> as fake.</li>
+<li>
+<div class="arithmatex">\[ \mathcal{L}^{(D)}(\theta^{(G)}, \theta^{(D)})= - \mathbb{E}_{x \sim p_{data}}log \mathcal{D}(x|y) - \mathbb{E}_{z} log (1- \mathcal{D}(\mathcal{G}(z|y')))\]</div>
+</li>
+</ul>
+<h3 id="training">Training<a class="headerlink" href="#training" title="Permanent link">¶</a></h3>
+<ul>
+<li>The Discriminator is trained using real and fake data and generated </li>
+<li>After the Discriminator has been trained, both models are trained together.</li>
+<li>First, the Generator creates some new examples.</li>
+<li>The Discriminator’s weights are frozen, but its gradients are used in the Generator model so that the Generator can update its weights.</li>
+</ul>
+<h4 id="training-flow">Training Flow<a class="headerlink" href="#training-flow" title="Permanent link">¶</a></h4>
+<ul>
+<li>For the Disc <img alt="1B3C997B-A352-4F79-B637-8C3F1373938B.webp" src="../images/1B3C997B-A352-4F79-B637-8C3F1373938B.webp"/></li>
+<li>For the Gen <img alt="65C9C942-61B6-46F1-B6F2-66C82948004B.webp" src="../images/65C9C942-61B6-46F1-B6F2-66C82948004B.webp"/></li>
+</ul>
+<h3 id="challenges-with-conditional-generation">Challenges with Conditional generation<a class="headerlink" href="#challenges-with-conditional-generation" title="Permanent link">¶</a></h3>
+<ul>
+<li>Not strictly unsupervised. Needs labels</li>
+<li>With a conditional GAN, you get a random example from the class you specify</li>
+<li>With conditional generation, you have to train the GAN with labeled datasets.</li>
+<li><a href="../Feature%20Correlationa/">Feature Correlationa</a></li>
+<li><a href="../Z-Space%20Entanglement/">Z-Space Entanglement</a></li>
+<li><a href="../Classifier%20Gradients/">Classifier Gradients</a></li>
+</ul>
+<h3 id="dcgan-vs-cgan">DCGAN vs CGAN<a class="headerlink" href="#dcgan-vs-cgan" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th>DCGAN</th>
+<th>CGAN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Output features are not controllable</td>
+<td>Output features can be controlled</td>
+</tr>
+<tr>
+<td>Unsupervised</td>
+<td>Semi-Supervised</td>
+</tr>
+<tr>
+<td>Discriminator does not receive labels</td>
+<td>Discriminator requires labels</td>
+</tr>
+<tr>
+<td>Discriminator evaluates similarity between input and target images</td>
+<td>Discriminator considers input and target images and their respective labels</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Conditional%20Independence/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Conditional%20Independence/">
+        Conditional Independence
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Concussion/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Concussion/">
+        Concussion
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

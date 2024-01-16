@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Listen Attend Spell - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Listen Attend Spell", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Load%20Cycle%20Time/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Load%20Cycle%20Time/">
+        Load Cycle Time
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Lisht/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Lisht/">
+        Lisht
+      </a>
+</div>
+</div>
+<h2 id="listen-attend-spell">Listen Attend Spell<a class="headerlink" href="#listen-attend-spell" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/1508.01211">Listen, Attend and Spell</a></li>
+<li>LAS</li>
+<li>learns to transcribe speech utterances to characters</li>
+<li>nlike traditional DNN-HMM models, this model learns all the components of a speech recognizer jointly</li>
+<li>sequence-to-sequence framework</li>
+<li>trained end-to-end and has two main components: a listener (encoder) and a speller (decoder)</li>
+<li>listener is a pyramidal RNN encoder that accepts filter bank spectra as inputs, transforms the input sequence into a high level feature representation and reduces the number of timesteps that the decoder has to attend to.</li>
+<li>The speller is an <a href="../Attention/">attention</a>-based RNN decoder that attends to the high level <a href="../Features/">features</a> and spells out the transcript one character at a time</li>
+<li>The proposed system does not use the concepts of phonemes, nor does it rely on pronunciation dictionaries or HMMs</li>
+<li>bypass the <a href="../Conditional%20Independence/">conditional independence</a> assumptions of <a href="../CTC/">CTC</a>, and show how they can learn an implicit language model that can generate multiple spelling variants given the same acoustics</li>
+<li>producing character sequences without making any independence assumptions between the characters is the key improvement of LAS over previous end-to-end <a href="../CTC/">CTC</a> models</li>
+<li>used samples from the <a href="../Softmax/">softmax</a> classifier in the decoder as inputs to the next step prediction during training</li>
+<li>show how a language model trained on additional text can be used to rerank their top hypotheses</li>
+<li><a href="../Google%20voice%20search%20task/">Google voice search task</a></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Load%20Cycle%20Time/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Load%20Cycle%20Time/">
+        Load Cycle Time
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Lisht/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Lisht/">
+        Lisht
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

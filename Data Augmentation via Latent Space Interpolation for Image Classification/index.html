@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Data Augmentation via Latent Space Interpolation for Image Classification - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Data Augmentation via Latent Space Interpolation for Image Classification", url: "#_top", children: [
+              {title: "Abstract", url: "#abstract" },
+              {title: "PROPOSED METHOD", url: "#proposed-method" },
+              {title: "Uniform distribution representations", url: "#uniform-distribution-representations" },
+              {title: "Linear interpolation", url: "#linear-interpolation" },
+              {title: "CONCLUSION", url: "#conclusion" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Data%20Augmentation%20with%20Curriculum%20Learning/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Data%20Augmentation%20with%20Curriculum%20Learning/">
+        Data Augmentation with Curriculum Learning
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DT%20Tutor/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DT%20Tutor/">
+        DT Tutor
+      </a>
+</div>
+</div>
+<h2 id="data-augmentation-via-latent-space-interpolation-for-image-classification">Data Augmentation via Latent Space Interpolation for Image Classification<a class="headerlink" href="#data-augmentation-via-latent-space-interpolation-for-image-classification" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>@liuDataAugmentationLatent2018</li>
+</ul>
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">¶</a></h3>
+<ul>
+<li>standard data augmentation produces only limited plausible alternative data by for example, flipping, distorting, adding noise to, <a href="../Cropping/">cropping</a> a patch from the original samples</li>
+<li>adversarial autoencoder (AAE) to impose the feature representations with uniform distribution and apply the linear interpolation on latent space, which is potential to generate a much broader set of augmentations for image classification</li>
+<li>improves the generalization and performance of state-of-the-art deep neural networks</li>
+<li>Generative models are often evaluated by examining samples from the latent space </li>
+<li>Techniques frequently used are random sampling and linear interpolation But often these can result in sampling the latent space from locations very far outside the manifold of probable location In high dimensional space, even with a uniform distribution most points lie on a thin shell in the unit cube. We utilize both the uniform distribution prior to avoid the "hole" of dead zone.</li>
+<li>1) We propose a novel framework to augment the dataset using the interclass interpolation of latent feature representations. 2)uniform distribution are imposed as the prior to avoid "hole" effect of the inter-class interpolation via the adversarial autoencoder network. 3) we explore the linear interpolation on the ILSVRC 2012 and <a href="../CIFAR/">CIFAR</a>-10 datasets</li>
+</ul>
+<h3 id="proposed-method">PROPOSED METHOD<a class="headerlink" href="#proposed-method" title="Permanent link">¶</a></h3>
+<ul>
+<li>latent space interpolation followed two useful principles when sampling the latent space of a generative model avoid sampling from locations that are highly unlikely given the prior of the model. being used in the original VAE paper which adjusted sampling through the inverse <a href="../CDF/">CDF</a> of the Gaussian to accommodate the Gaussian prior recognize that the dimensionality of the latent space is often artificially high and may contains dead zones that are not on the manifold learned during training implies that simply matching the model's prior will not always be sufficient to yield samples that appear to have been drawn from the training set</li>
+<li>it does not require significant domain knowledge. that interpolation and extrapolation in feature space can improve generalization</li>
+<li>Recent approaches have also proposed to <a href="../regularize/">regularize</a> the output distribution of a neural network by label smoothing [27], or penalizing highconfidence softmax distributions [28]These methods bear similarities with mixup in the sense that supervision depends on multiple smooth labels, rather than on single hard labels as in traditional ERMthe label smoothing in these works is applied or regularized independently from the associated feature values. the supervision of every example is not overly dominated by the groundtruth labe</li>
+<li>LSI transformation establishes a linear relationship between data augmentation and the supervision signal.strong regularizer that improves generalization The linearity constraint, through its effect on the</li>
+<li>derivatives of the function approximated, also relates mixup to other methods such as Sobolev training of neural networks [29] or WGAN-GP [30].</li>
+<li>When other types of data augmentation are employed in addition to our technique, we can apply them for each image before mixing them into the final image for training</li>
+<li>The data augmentation incurs additional time to prepare the input image, but this can be done on the CPU while the GPU is executing the training through back propagation</li>
+<li>a single data loader to obtain one minibatch, and then latent space interpolation is applied to the same minibatch after random shuffling</li>
+</ul>
+<h3 id="uniform-distribution-representations">Uniform distribution representations<a class="headerlink" href="#uniform-distribution-representations" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="images/Pasted image 20230209131445.png" src="../images/Pasted%20image%2020230209131445.png"/></li>
+<li>Adversarial autoencoder (AAE) [31] can be treated as the combination of generative adversarial networks (GANs) [20] and variational autoencoder (VAE)maintains the autoencoder structure like the VAE but replaces the KLdivergence loss with a discriminative network, denoted by Dis</li>
+<li>Instead of generating images from random noise as in GAN, AAE utilizes the encoder part to learn the latent variables approximated on certain prior, making the style of generated images controllable AAE better captures the data manifold compared to VAEinput as x, output as x', and the distribution of the training data as  ! ௧ (ݔ ,(then the distribution of z is q(z|x). Assuming p(z) is a prior distribution, and denotes the random sampling process from p(z). The min-max objective function can be used to  train the Enc and Dis</li>
+<li>
+<div class="arithmatex">\[\mathbb{E}_{z* \sim p(z)}[log(Dis(z*))] \mathbb{E}_{x \sim p_{data}(x)}[\overset{min Enc}{log(1-Dis_{z}(z*))}]\]</div>
+</li>
+<li>As for the Dec, the L2 loss is used as the reconstruction loss</li>
+<li>
+<div class="arithmatex">\[L_{recon}= ||x-x'||^{2}_{2}\]</div>
+</li>
+<li>Dis imposes a prior distribution (i.e., uniform distribution) on z Dis aims to discriminate the z generated by encoder Enc Enc will be trained to generate z that could fool Dis</li>
+<li>Such adversarial process forces the distribution of the generated z to gradually approach the prio uniform distribution as the prior, forcing z to evenly populate the latent space with no apparent "holes". the generated z's (depicted by blue dots in a 2-D space) present uniform distribution under the <a href="../Regularization/">regularization</a> of Dis, while the distribution of z exhibits a "hole" without the application of Dis Exhibition of the "hole" indicates that the samples generated by interpolating between arbitrary z's may not lie on the real image manifold – generating unrealistic appearancesnot to generate photorealistic images as in GAN offer more informative and discriminative training sample, the adversarial loss in pixel-level is dropped in here for faster training and processing.</li>
+</ul>
+<h3 id="linear-interpolation">Linear interpolation<a class="headerlink" href="#linear-interpolation" title="Permanent link">¶</a></h3>
+<ul>
+<li>The difference with mixup [17] in here is that the linear interpolation manipulation is conducted in latent space which align the uniform distribution instead of the pixel-level</li>
+<li>The one-hot vectors are used to label the original samples</li>
+<li>The loss function for a generated sample are calculated as the weighted sum (via ߣ (of two cross-entropy losses corresponding to both of its original samples</li>
+<li>When the 0.5=ߣ, we can simply use two-hot vector to label the generated sample belongs to two of its original samples for faster processing.</li>
+</ul>
+<h3 id="conclusion">CONCLUSION<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<ul>
+<li>vicinal risk minimization trains on virtual examples constructed via interpolations of the features in a latent space with uniform distributionSeveral methods are employed to avoid the dead zone in manifold of feature representations.</li>
+<li>the ILSVRC 2012</li>
+<li><a href="../CIFAR/">CIFAR</a>-10</li>
+<li>valuable for tasks with a limited number of samples, such as medical image classification tasks</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="images/Pasted image 20230209131412.png" src="../images/Pasted%20image%2020230209131412.png"/></li>
+<li><img alt="images/Pasted image 20230209131420.png" src="../images/Pasted%20image%2020230209131420.png"/></li>
+<li><img alt="images/Pasted image 20230209131428.png" src="../images/Pasted%20image%2020230209131428.png"/></li>
+<li></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Data%20Augmentation%20with%20Curriculum%20Learning/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Data%20Augmentation%20with%20Curriculum%20Learning/">
+        Data Augmentation with Curriculum Learning
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DT%20Tutor/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DT%20Tutor/">
+        DT Tutor
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

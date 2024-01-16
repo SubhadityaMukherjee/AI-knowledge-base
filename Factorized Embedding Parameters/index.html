@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Factorized Embedding Parameters - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Factorized Embedding Parameters", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Factors%20for%20MC%20estimate/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Factors%20for%20MC%20estimate/">
+        Factors for MC Estimate
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../FaceNet/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../FaceNet/">
+        FaceNet
+      </a>
+</div>
+</div>
+<h2 id="factorized-embedding-parameters">Factorized <a href="../Embedding/">Embedding</a> Parameters<a class="headerlink" href="#factorized-embedding-parameters" title="Permanent link">¶</a></h2>
+<ul>
+<li>Factorization of these parameters is achieved by taking the matrix representing the weights of the word embeddings <span class="arithmatex">\(E\)</span> and decomposing it into two different matrices. Instead of projecting the one-hot encoded vectors directly onto the hidden space, they are first projected on some-kind of lower-dimensional <a href="../Embedding/">embedding</a> space, which is then projected to the hidden space (Lan et al, 2019). Normally, this should not produce a different result, but let's wait.</li>
+<li>Another thing that actually ensures that this change reduces the number of parameters is that the authors suggest to reduce the size of the <a href="../Embedding/">embedding</a> matrix.</li>
+<li>In <a href="../BERT/">BERT</a>, the shape of the vocabulary/<a href="../Embedding/">embedding</a> matrix E equals that of the matrix for the hidden state H.</li>
+<li>First of all, theoretically, the matrix E captures context-independent information</li>
+<li>whereas the hidden representation H captures context-dependent information</li>
+<li><a href="../ALBERT/">ALBERT</a> solves this issue by decomposing the <a href="../Embedding/">embedding</a> parameters into two smaller matrices, allowing a two-step mapping between the original <a href="../Word%20Vectors/">word vectors</a> and the space of the hidden state. In terms of computational cost, this no longer means <span class="arithmatex">\(\text{O(VxH)}\)</span> but rather <span class="arithmatex">\(\text{O(VxE + ExH)}\)</span>, which brings a significant reduction when <span class="arithmatex">\(\text{H &gt;&gt; E}\)</span>.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Factors%20for%20MC%20estimate/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Factors%20for%20MC%20estimate/">
+        Factors for MC Estimate
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../FaceNet/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../FaceNet/">
+        FaceNet
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

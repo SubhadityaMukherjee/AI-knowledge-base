@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Image Mixing and Deletion - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Image Mixing and Deletion", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../ImageNet/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../ImageNet/">
+        ImageNet
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Image%20Mix/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Image%20Mix/">
+        Image Mix
+      </a>
+</div>
+</div>
+<h2 id="image-mixing-and-deletion">Image Mixing and Deletion<a class="headerlink" href="#image-mixing-and-deletion" title="Permanent link">¶</a></h2>
+<ul>
+<li>@naveedSurveyImageMixing2023</li>
+<li><a href="../Cutout/">Cutout</a> and <a href="../CutMix/">CutMix</a> argues that hindering image regions enforces the classifier to learn from the partially visible objects and understand the overall structure</li>
+<li><a href="../CutMix/">CutMix</a> verifies this argument by showing enhanced focus towards the target class in</li>
+<li>Opposite to this, MixUp has shown to improve classifier's calibration and reduced prediction uncertainity</li>
+<li>mean of predictions vs accuracy where the confidence distribution for MixUp trained model is evenly distributed against the standard model whose disovertribution is towards higher conficence i.e. confidence</li>
+<li>Similarly, the loss contours obtained for a network trained with MixUp are smooth as compared to sharp contours in standarad training</li>
+<li>better generalization and robustness of MixUp against adversarial attacks.</li>
+<li><a href="../Mixup/">Mixup</a></li>
+<li><a href="../Cut%20and%20Delete/">Cut and Delete</a></li>
+<li><a href="../Cutout/">Cutout</a></li>
+<li><a href="../Random%20Erasing/">Random Erasing</a></li>
+<li><a href="../Hide%20and%20Seek/">Hide and Seek</a></li>
+<li><a href="../GridMask/">GridMask</a></li>
+<li><a href="../Adversarial%20Spatial%20Dropout%20for%20Occlusion/">Adversarial Spatial Dropout for Occlusion</a></li>
+<li><a href="../Cut%20and%20Mix/">Cut and Mix</a></li>
+<li><a href="../CutMix/">CutMix</a></li>
+<li><a href="../Attentive%20CutMix/">Attentive CutMix</a></li>
+<li><a href="../AttributeMix/">AttributeMix</a></li>
+<li><a href="../RICAP/">RICAP</a></li>
+<li><a href="../Mixed%20Example/">Mixed Example</a></li>
+<li><a href="../CowMask/">CowMask</a></li>
+<li><a href="../ResizeMix/">ResizeMix</a></li>
+<li><a href="../SaliencyMix/">SaliencyMix</a></li>
+<li><a href="../Intra-Class%20Part%20Swapping/">Intra-Class Part Swapping</a></li>
+<li><a href="../SnapMix/">SnapMix</a></li>
+<li><a href="../KeepAugment/">KeepAugment</a></li>
+<li><a href="../Visual%20Context%20Augmentation/">Visual Context Augmentation</a></li>
+<li><a href="../Cut%2C%20Paste%20and%20Learn/">Cut, Paste and Learn</a></li>
+<li><a href="../Manifold%20MixUp/">Manifold MixUp</a></li>
+<li><a href="../AugMix/">AugMix</a></li>
+<li><a href="../SmoothMix/">SmoothMix</a></li>
+<li><a href="../Co-Mixup/">Co-Mixup</a></li>
+<li><a href="../Sample%20Pairing/">Sample Pairing</a></li>
+<li><a href="../Puzzle%20Mix/">Puzzle Mix</a></li>
+<li><a href="../ReMix/">ReMix</a></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../ImageNet/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../ImageNet/">
+        ImageNet
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Image%20Mix/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Image%20Mix/">
+        Image Mix
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

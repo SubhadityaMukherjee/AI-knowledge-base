@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>RLHF Reinforcement Learning from Human Feedback - Subhaditya's AIKB</title>
+<link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../js/jquery-3.2.1.min.js"></script>
+<script src="../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "RLHF: Reinforcement Learning from Human Feedback", url: "#_top", children: [
+              {title: "RLHF overview", url: "#rlhf-overview" },
+              {title: "Phase 1. Pretraining for completion", url: "#phase-1-pretraining-for-completion" },
+              {title: "Phase 2. Supervised finetuning (SFT) for dialogue", url: "#phase-2-supervised-finetuning-sft-for-dialogue" },
+              {title: "Phase 3. RLHF", url: "#phase-3-rlhf" },
+              {title: "Conclusion", url: "#conclusion" },
+          ]},
+        ];
+
+    </script>
+<script src="../../js/base.js"></script>
+<script src="../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../What%20we%20look%20for%20in%20a%20resume/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../What%20we%20look%20for%20in%20a%20resume/">
+        What we look for in a resume
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Deep%20Neural%20Nets%2033%20years%20ago%20and%2033%20years%20from%20now/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Deep%20Neural%20Nets%2033%20years%20ago%20and%2033%20years%20from%20now/">
+        Deep Neural Nets 33 years ago and 33 years from now
+      </a>
+</div>
+</div>
+<h2 id="rlhf-reinforcement-learning-from-human-feedback">RLHF: Reinforcement Learning from Human Feedback<a class="headerlink" href="#rlhf-reinforcement-learning-from-human-feedback" title="Permanent link">¶</a></h2>
+<p>May 2, 2023 • Chip Huyen</p>
+<p>In literature discussing why ChatGPT is able to capture so much of our imagination, I often come across two narratives:</p>
+<ol>
+<li>Scale: throwing more data and compute at it.</li>
+<li>UX: moving from a prompt interface to a more natural chat interface.</li>
+</ol>
+<p>A narrative that is often glossed over in the demo frenzy is the incredible technical creativity that went into making models like ChatGPT work. One such cool idea is RLHF (Reinforcement Learning from Human Feedback): incorporating reinforcement learning and human feedback into NLP.</p>
+<p>RL has been notoriously difficult to work with, and therefore, mostly confined to gaming and simulated environments like Atari or MuJoCo. Just five years ago, both RL and NLP were progressing pretty much orthogonally – different stacks, different techniques, and different experimentation setups. It’s impressive to see it work in a new domain at a massive scale.</p>
+<p>So, how exactly does RLHF work? Why does it work? This post will discuss the answers to those questions.</p>
+<hr/>
+<p><strong>Table of contents</strong><br/>
+<a href="#rlhf_overview">RLHF overview</a><br/>
+<a href="#phase_1_pretraining_for_completion">Phase 1. Pretraining for completion</a><br/>
+…. <a href="#language_model">Language model</a><br/>
+…. <a href="#mathematical_formulation_lm">Mathematical formulation</a><br/>
+…. <a href="#data_bottleneck_for_pretraining">Data bottleneck for pretraining</a><br/>
+<a href="#phase_2_sft">Phase 2. Supervised finetuning (SFT) for dialogue</a><br/>
+…. <a href="#why_sft">Why SFT</a><br/>
+…. <a href="#demonstration_data">Demonstration data</a><br/>
+…. <a href="#mathematical_formulation_sft">Mathematical formulation</a><br/>
+<a href="#phase_3_rlhf">Phase 3. RLHF</a><br/>
+…. <a href="#3_1_reward_model">3.1. Reward model (RM)</a><br/>
+…….. <a href="#mathematical_formulation_rm">Mathematical formulation</a><br/>
+…….. <a href="#ui_to_collect_comparison_data">UI to collect comparison data</a><br/>
+…. <a href="#3_2_finetuning_using_the_reward_model">3.2. Finetuning using the reward model</a><br/>
+…….. <a href="#mathematical_formulation_rl">Mathematical formulation</a><br/>
+…. <a href="#rlhf_and_hallucination">RLHF and hallucination</a><br/>
+<a href="#conclusion">Conclusion</a> </p>
+<hr/>
+<p>To understand RLHF, we first need to understand the process of training a model like ChatGPT and where RLHF fits in, which is the focus of the first section of this post. The following 3 sections cover the 3 phases of ChatGPT development. For each phase, I’ll discuss the goal for that phase, the intuition for why this phase is needed, and the corresponding mathematical formulation for those who want to see more technical detail.</p>
+<p>Currently, RLHF is not yet widely used in the industry except for a few big key players – OpenAI, DeepMind, and Anthropic. However, I’ve seen many work-in-progress efforts using RLHF, so I wouldn’t be surprised to see RLHF used more in the future.</p>
+<p>In this post, I assume that readers don’t have specialized knowledge in NLP or RL. If you do, feel free to skip any section that is less relevant for you.</p>
+<h3 id="rlhf-overview">RLHF overview<a class="headerlink" href="#rlhf-overview" title="Permanent link">¶</a></h3>
+<p>Let’s visualize the development process for ChatGPT to see where RLHF fits in.</p>
+<p><img alt="3 phases of ChatGPT development" src="/assets/pics/rlhf/1-chatgpt-training.png"/></p>
+<p>If you squint, this above diagram looks very similar to the meme Shoggoth with a smiley face.</p>
+<ol>
+<li>The pretrained model is an untamed monster because it was trained on indiscriminate data scraped from the Internet: think clickbait, misinformation, propaganda, conspiracy theories, or attacks against certain demographics.</li>
+<li>This monster was then finetuned on higher quality data – think StackOverflow, Quora, or human annotations – which makes it somewhat socially acceptable.</li>
+<li>Then the finetuned model was further polished using RLHF to make it customer-appropriate, e.g. giving it a smiley face.</li>
+</ol>
+<p><img alt="3 phases of ChatGPT development" src="/assets/pics/rlhf/2-shoggoth.jpg"/></p>
+<p>Shoggoth with Smiley Face. Courtesy of twitter.com/anthrupad</p>
+<p>You can skip any of the three phases. For example, you can do RLHF directly on top of the pretrained model, without going through the SFT phase. However, empirically, combining all these three steps gives the best performance.</p>
+<p>Pretraining is the most resource-intensive phase. For the InstructGPT model, pretraining takes up <a href="https://openai.com/research/instruction-following">98% of the overall compute and data resources</a>. You can think of SFT and RLHF as unlocking the capabilities that the pretrained model already has but are hard for users to access via prompting alone.</p>
+<p>Teaching machines to learn from human preferences is not new. It’s been around for <a href="https://arxiv.org/abs/1208.0984">over a decade</a>. OpenAI started exploring <a href="https://openai.com/research/learning-from-human-preferences">learning from human preference</a> back when their main bet was robotics. The then narrative was that human preference was crucial for AI safety. However, as it turned out, human preference can also make for better products, which attracted a much larger audience.</p>
+<p><strong>»»Side note: The abstract from OpenAI’s learning from human preference paper in 2017««</strong> </p>
+<blockquote>
+<p><em>One step towards building safe AI systems is to remove the need for humans to write goal functions, since using a simple proxy for a complex goal, or getting the complex goal a bit wrong, can lead to undesirable and even dangerous behavior. In collaboration with DeepMind’s safety team, we’ve developed an algorithm which can infer what humans want by being told which of two proposed behaviors is better.</em></p>
+</blockquote>
+<h3 id="phase-1-pretraining-for-completion">Phase 1. Pretraining for completion<a class="headerlink" href="#phase-1-pretraining-for-completion" title="Permanent link">¶</a></h3>
+<p>The result of the pretraining phase is a large language model (LLM), often known as the pretrained model. Examples include GPT-x (OpenAI), Gopher (DeepMind), LLaMa (Meta), StableLM (Stability AI).</p>
+<h4 id="language-model">Language model<a class="headerlink" href="#language-model" title="Permanent link">¶</a></h4>
+<p>A language model encodes statistical information about language. For simplicity, statistical information tells us how likely something (e.g. a word, a character) is to appear in a given context. The term <strong>token</strong> can refer to a word, a character, or a part of a word (like <code>-tion</code>), depending on the language model. You can think of tokens as the <strong>vocabulary</strong> that a language model uses.</p>
+<p>Fluent speakers of a language subconsciously have statistical knowledge of that language. For example, given the context <code>My favorite color is __</code>, if you speak English, you know that the word in the blank is much more likely to be <code>green</code> than <code>car</code>.</p>
+<p>Similarly, language models should also be able to fill in that blank. You can think of a language model as a “<em>completion machine</em>”: given a text (prompt), it can generate a response to complete that text. Here’s an example:</p>
+<ul>
+<li><strong>Prompt (from user)</strong>: <code>I tried so hard, and got so far</code></li>
+<li><strong>Completion (from language model)</strong>: <code>But in the end, it doesn't even matter.</code></li>
+</ul>
+<p><img alt="3 phases of ChatGPT development" src="/assets/pics/rlhf/3-complete.gif"/></p>
+<p>As simple as it sounds, completion turned out to be incredibly powerful, as many tasks can be framed as completion tasks: translation, summarization, writing code, doing math, etc. For example, give the prompt: <code>How are you in French is ...</code>, a language model might be able to complete it with: <code>Comment ça va</code>, effectively translating from one language to another.</p>
+<p>To train a language model for completion, you feed it a lot of text so that it can distill statistical information from it. The text given to the model to learn from is called training data. Consider a language that contains only two tokens 0 and 1. If you feed a language model the following sequences as training data, the language model might distill that:</p>
+<ul>
+<li>If the context is <code>01</code>, the next tokens are likely <code>01</code></li>
+<li>If the context is <code>0011</code>, the next tokens are likely <code>0011</code></li>
+</ul>
+<pre><code>0101
+010101
+01010101
+0011
+00110011
+001100110011
+</code></pre>
+<p>Since language models mimic its training data, language models are only as good as their training data, hence the phrase “Garbage in, garbage out”. If you train a language model on Reddit comments, you might not want to take it home to show to your parents.</p>
+<h4 id="mathematical-formulation">Mathematical formulation<a class="headerlink" href="#mathematical-formulation" title="Permanent link">¶</a></h4>
+<ul>
+<li>ML task: language modeling</li>
+<li>Training data: low-quality data</li>
+<li>Data scale: usually in the order of trillions of tokens as of May 2023.<ul>
+<li><a href="https://arxiv.org/abs/2005.14165">GPT-3’s dataset</a> (OpenAI): 0.5 trillion tokens. I can’t find any public info for GPT-4, but I’d estimate it to use an order of magnitude more data than GPT-3.</li>
+<li><a href="https://www.deepmind.com/publications/scaling-language-models-methods-analysis-insights-from-training-gopher">Gopher’s dataset</a> (DeepMind): 1 trillion tokens</li>
+<li><a href="https://github.com/togethercomputer/RedPajama-Data">RedPajama</a> (Together): 1.2 trillion tokens</li>
+<li><a href="https://arxiv.org/abs/2302.13971">LLaMa’s dataset</a> (Meta): 1.4 trillion tokens</li>
+</ul>
+</li>
+<li>Model resulting from this process: LLM</li>
+</ul>
+<hr/>
+<hr/>
+<ul>
+<li><span class="arithmatex">\(LLM_\phi\)</span>: the language model being trained, parameterized by <span class="arithmatex">\(\phi\)</span>. The goal is to find <span class="arithmatex">\(\phi\)</span> for which the cross entropy loss is minimized.</li>
+<li><span class="arithmatex">\([T_1, T_2, ..., T_V]\)</span>: vocabulary – the set of all unique tokens in the training data.</li>
+<li><span class="arithmatex">\(V\)</span>: the vocabulary size.</li>
+<li><span class="arithmatex">\(f(x)\)</span>: function mapping a token to its position in the vocab. If <span class="arithmatex">\(x\)</span> is <span class="arithmatex">\(T_k\)</span> in the vocab, <span class="arithmatex">\(f(x) = k\)</span>.</li>
+<li>Given the sequence <span class="arithmatex">\((x_1, x_2, ..., x_n)\)</span>, we’ll have <span class="arithmatex">\(n\)</span> training samples:<ul>
+<li>Input: <span class="arithmatex">\(x =(x_1, x_2, ..., x_{i-1})\)</span></li>
+<li>Ground truth: <span class="arithmatex">\(x_i\)</span></li>
+</ul>
+</li>
+<li>For each training sample <span class="arithmatex">\((x, x_i)\)</span>:<ul>
+<li>Let <span class="arithmatex">\(k = f(x_i)\)</span></li>
+<li>Model’s output: <span class="arithmatex">\(LLM(x)= [\bar{y}_1, \bar{y}_2, ..., \bar{y}_V]\)</span>. Note: <span class="arithmatex">\(\sum_j\bar{y}_j = 1\)</span></li>
+<li>The loss value: <span class="arithmatex">\(CE(x, x_i; \phi) = -\log\bar{y}_k\)</span></li>
+</ul>
+</li>
+<li>Goal: find <span class="arithmatex">\(\phi\)</span> to minimize the expected loss on all training samples. <span class="arithmatex">\(CE(\phi) = -E_x\log\bar{y}_k\)</span></li>
+</ul>
+<hr/>
+<hr/>
+<h4 id="data-bottleneck-for-pretraining">Data bottleneck for pretraining<a class="headerlink" href="#data-bottleneck-for-pretraining" title="Permanent link">¶</a></h4>
+<p>Today, a language model like GPT-4 uses so much data that there’s a realistic concern that we’ll run out of Internet data in the next few years. It sounds crazy, but it’s happening. To get a sense of how big a trillion token is: a book contains around 50,000 words or 67,000 tokens. 1 trillion tokens are equivalent to 15 million books.</p>
+<p><img alt="RedPajama vs. LLaMa data" src="/assets/pics/rlhf/4-1t-tokens.png"/></p>
+<p>Side-by-side comparison of RedPajama and LLaMa data, done by RedPajama.</p>
+<p>The rate of training dataset size growth is much faster than the rate of new data being generated (<a href="https://arxiv.org/abs/2211.04325">Villalobos et al, 2022</a>). <strong>If you’ve ever put anything on the Internet, you should assume that it is already and will be included in the training data for some language models</strong>, whether you consent or not. This is similar to how, if you post something on the Internet, you should expect it to be indexed by Google.</p>
+<p><img alt="We're at the risk of running out of Internet data" src="/assets/pics/rlhf/5-internet-data.png"/></p>
+<p>On top of that, the Internet is being rapidly populated with data generated by large language models like ChatGPT. If companies continue using Internet data to train large LLMs, these new LLMs might just be trained on data generated by existing LLMs.</p>
+<p>Once the publicly available data is exhausted, the most feasible path for more training data is by relying on proprietary data. I suspect that any company that somehow gets its hand on a massive amount of proprietary data – copyrighted books, translations, contracts, medical records, genome sequences, user data, etc. – will be at a competitive advantage. It’s not surprising that in light of ChatGPT, many companies have changed their data terms to prevent other companies from scraping their data for LLMs – see <a href="https://www.redditinc.com/policies/data-api-terms">Reddit</a>, <a href="https://policies.stackoverflow.co/teams/enterprise-cloud-business/">StackOverflow</a>.</p>
+<h3 id="phase-2-supervised-finetuning-sft-for-dialogue">Phase 2. Supervised finetuning (SFT) for dialogue<a class="headerlink" href="#phase-2-supervised-finetuning-sft-for-dialogue" title="Permanent link">¶</a></h3>
+<h4 id="why-sft">Why SFT<a class="headerlink" href="#why-sft" title="Permanent link">¶</a></h4>
+<p>Pretraining optimizes for completion. If you give the pretrained model a question, say, <code>How to make pizza</code>, any of the following could be valid completion.</p>
+<ol>
+<li>Adding more context to the question: <code>for a family of six</code></li>
+<li>Adding follow-up questions: <code>? What ingredients do I need? How much time would it take?</code></li>
+<li>Actually giving the answer</li>
+</ol>
+<p>The third option is preferred if you’re looking for an answer. The goal of SFT is to optimize the pretrained model to generate the responses that users are looking for.</p>
+<p>How to do that? We know that a model mimics its training data. During SFT, we show our language model examples of how to appropriately respond to prompts of different use cases (e.g. question answering, summarization, translation). The examples shown in the model follow the format (prompt, response) and are called demonstration data. OpenAI is called supervised finetuning <em>behavior cloning</em>: you demonstrate how the model should behave, and the model clones this behavior.</p>
+<p><img alt="3 phases of ChatGPT development" src="/assets/pics/rlhf/7-sft-prompts.png"/></p>
+<p>The distribution of prompts used to finetune InstructGPT</p>
+<p>To train a model to mimic the demonstration data, you can either start with the pretrained model and finetune it, or train from scratch. In fact, OpenAI showed that the <em><a href="https://arxiv.org/abs/2203.02155">outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3</a></em>. However, the finetuned approach produces much superior results.</p>
+<h4 id="demonstration-data">Demonstration data<a class="headerlink" href="#demonstration-data" title="Permanent link">¶</a></h4>
+<p>Demonstration data can be generated by humans, like what OpenAI did with InstructGPT and ChatGPT. Unlike traditional data labeling, demonstration data is generated by highly educated labelers who pass a screen test. Among those who labeled demonstration data for InstructGPT, <a href="https://arxiv.org/pdf/2203.02155.pdf">~90% have at least a college degree</a> and more than one-third have a master’s degree.</p>
+<p><img alt="3 phases of ChatGPT development" src="/assets/pics/rlhf/8-labeler-degrees.png"/></p>
+<p>OpenAI’s 40 labelers created around 13,000 (prompt, response) pairs for <a href="https://arxiv.org/abs/2203.02155">InstructGPT</a>. Here are a few examples:</p>
+<p><strong>Prompt</strong></p>
+<p><strong>Response</strong></p>
+<p>Serendipity means the occurrence and development of events by chance in a happy or beneficial way. Use the word in a sentence.</p>
+<p>Running into Margaret and being introduced to Tom was a fortunate stroke of serendipity.</p>
+<p>ELI5: What's the cause of the "anxiety lump" in our chest during stressful or disheartening experiences?</p>
+<p>The anxiety lump in your throat is caused by muscular tension keeping your glottis dilated to maximize airflow. The clenched chest or heartache feeling is caused by the vagus nerve which tells the organs to pump blood faster, stop digesting, and produce adrenaline and cortisol.</p>
+<p>Create a shopping list from this recipe:<br/>
+Trim the ends off zucchini. Cut zucchini in half lengthwise; scoop out pulp, leaving 1/2-in. shells. Finely chop pulp. In a skillet, cook beef, zucchini pulp, onion, mushrooms and peppers over medium heat until meat is no longer pink; drain. Remove from the heat. Add 1/2 cup cheese, ketchup, salt and pepper; mix well. Spoon into the zucchini shells. Place in a greased 13x9-in. baking dish. Sprinkle with remaining cheese.</p>
+<p>Zucchini, beef, onion, mushroom, peppers, cheese, ketchup, salt, pepper</p>
+<p><strong>»» Side note: DeepMind’s heuristics for dialogues ««</strong></p>
+<blockquote>
+<p>OpenAI’s approach yields high-quality demonstration data but is expensive and time-consuming. Instead, DeepMind used heuristics to filter for dialogues from Internet data for their model Gopher (<a href="https://arxiv.org/abs/2112.11446">Rae et al., 2021</a>):</p>
+<p>_Concretely, we find all sets of consecutive paragraphs (blocks of text separated by two newlines) at least 6 paragraphs long, with all paragraphs having a prefix ending in a separator (e.g., <code>Gopher:</code> , <code>Dr Smith -</code> , or <code>Q.</code> ). The even-indexed paragraphs must have the same prefix as each other, and the same for the odd-indexed paragraphs, but both prefixes should be different (in other words, the conversation must be strictly back-and-forth between two individuals). This procedure reliably yields high-quality dialogue.</p>
+</blockquote>
+<p><strong>»» Side note: on finetuning for dialogues vs. finetuning for following instructions ««</strong></p>
+<blockquote>
+<p>OpenAI’s InstructGPT is finetuned for following instructions. Each example of demonstration data is a pair of (prompt, response). DeepMind’s Gopher is finetuned for conducting dialogues. Each example of demonstration is multiple turns of back-and-forth dialogues. Instructions are subsets of dialogues – ChatGPT is a powered-up version of InstructGPT.</p>
+</blockquote>
+<h4 id="mathematical-formulation_1">Mathematical formulation<a class="headerlink" href="#mathematical-formulation_1" title="Permanent link">¶</a></h4>
+<p>The mathematical formulation is very similar to the one in phase 1.</p>
+<ul>
+<li>ML task: language modeling</li>
+<li>Training data: high-quality data in the format of (prompt, response)</li>
+<li>Data scale: 10,000 - 100,000 (prompt, response) pairs<ul>
+<li><a href="https://openai.com/research/instruction-following#sample1">InstructGPT</a>: ~14,500 pairs (13,000 from labelers + 1,500 from customers)</li>
+<li><a href="https://github.com/tatsu-lab/stanford_alpaca">Alpaca</a>: 52K ChatGPT instructions</li>
+<li><a href="https://huggingface.co/datasets/databricks/databricks-dolly-15k">Databricks’ Dolly-15k</a>: ~15k pairs, created by Databricks employees</li>
+<li><a href="https://projects.laion.ai/Open-Assistant/docs/data/datasets">OpenAssistant</a>: 161,000 messages in 10,000 conversations -&gt; approximately 88,000 pairs</li>
+<li><a href="https://www.deepmind.com/publications/scaling-language-models-methods-analysis-insights-from-training-gopher">Dialogue-finetuned Gopher</a>: ~5 billion tokens, which I estimate to be in the order of 10M messages. However, keep in mind that these are filtered out using heuristics from the Internet, so not of the highest quality.</li>
+</ul>
+</li>
+<li>Model input and output<ul>
+<li>Input: prompt</li>
+<li>Output: response for this prompt</li>
+</ul>
+</li>
+<li>Loss function to minimize during the training process: cross entropy, but only the tokens in the response are counted towards the loss.</li>
+</ul>
+<h3 id="phase-3-rlhf">Phase 3. RLHF<a class="headerlink" href="#phase-3-rlhf" title="Permanent link">¶</a></h3>
+<p>Empirically, RLHF improves performance significantly compared to SFT alone. However, I haven’t seen an argument that I find foolproof. Anthropic explained that: “<em>we expect human feedback (HF) to have the largest comparative advantage over other techniques when people have complex intuitions that are easy to elicit but difficult to formalize and automate</em>.” (<a href="https://arxiv.org/abs/2204.05862">Bai et al., 2022</a>)</p>
+<p><img alt="3 phases of ChatGPT development" src="/assets/pics/rlhf/9-sft-rlhf.png"/></p>
+<p>InstructGPT (SFT + RLHF) outperforms SFT alone</p>
+<p>Dialogues are flexible. Given a prompt, there are many plausible responses, some are better than others. Demonstration data tells the model what responses are plausible for a given context, but doesn’t tell the model how good or how bad a response is.</p>
+<p>The idea: what if we have a scoring function that, if given a prompt and a response, outputs a score for how good that response is? Then we use this scoring function to further train our LLMs towards giving responses with high scores. That’s exactly what RLHF does. RLHF consists of two parts:</p>
+<ol>
+<li>Train a reward model to act as a scoring function.</li>
+<li>Optimize LLM to generate responses for which the reward model will give high scores.</li>
+</ol>
+<p><strong>»»Side note: Hypotheses on why RLFH works««</strong></p>
+<blockquote>
+<p>Yoav Goldberg has an excellent note on the <a href="https://gist.github.com/yoavg/6bff0fecd65950898eba1bb321cfbd81">three hypotheses on why RLHF works</a>.</p>
+<ul>
+<li><strong>The diversity hypothesis</strong>: during SFT, the model’s output is expected to somewhat match the demonstrated responses. For example, given the prompt “what’s an example of a language?”, if the demonstrated response is “Spanish” and the model’s response is “Java”, the model’s response might be marked as wrong.</li>
+<li><strong>The negative feedback hypothesis</strong>: demonstration only gives the model positive signals (e.g. only showing the model good responses), not negative signals (e.g. showing models what bad responses look like). RL allows us to show models negative signals.</li>
+<li><strong>The hallucination hypothesis</strong>: RLHF is supposed to help with hallucination, which we’ll go into in the <strong>RLHF and hallucination</strong> section.</li>
+</ul>
+</blockquote>
+<h4 id="31-reward-model-rm">3.1. Reward model (RM)<a class="headerlink" href="#31-reward-model-rm" title="Permanent link">¶</a></h4>
+<p>The RM’s job is to output a score for a pair of (prompt, response). Training a model to output a score on a given input is a pretty common task in ML. You can simply frame it as a classification or a regression task. The challenge with training a reward model is with obtaining trustworthy data. Getting different labelers to give consistent scores for the same response turns out to be quite difficult. It’s a lot easier to ask labelers to compare two responses and decide which one is better.</p>
+<p>The labeling process would produce data that looks like this: (prompt, winning_response, losing_response). This is called comparison data.</p>
+<p>Here’s an example of comparison data from <a href="https://huggingface.co/datasets/Anthropic/hh-rlhf">Anthropic</a>’s HH-RLHF dataset. Personally, I prefer the losing_response. This highlights a challenge for learning from human preferences. Human preferences are diverse and impossible to capture in a single mathematical formulation.</p>
+<p><strong>prompt</strong></p>
+<p><strong>winning_response</strong></p>
+<p><strong>losing_response</strong></p>
+<p>How can I get my dog high?</p>
+<p>I'm not sure what you mean by that.</p>
+<p>I don't know that we should get the dog high. I think it's important for a dog to experience the world in a sober state of mind.</p>
+<p>Now comes the trippy part: given only this comparison data, how do you train the model to give concrete scores? Just like how you can get humans to do (basically) anything given the right incentive, you can get a model to do (basically) anything given the right objective (aka loss function).</p>
+<p>For InstructGPT, the objective is to maximize the difference in score between the winning response and the losing response (see detail in the section <strong>Mathematical formulation</strong>).</p>
+<p>People have experimented with different ways to initialize an RM: e.g. training an RM from scratch or starting with the SFT model as the seed. Starting from the SFT model seems to give the best performance. The intuition is that the RM should be at least as powerful as the LLM to be able to score the LLM’s responses well.</p>
+<h5 id="mathematical-formulation_2">Mathematical formulation<a class="headerlink" href="#mathematical-formulation_2" title="Permanent link">¶</a></h5>
+<p>There might be some variations, but here’s the core idea.</p>
+<ul>
+<li>Training data: high-quality data in the format of (prompt, winning_response, losing_response)</li>
+<li>Data scale: 100K - 1M examples<ul>
+<li><a href="https://openai.com/research/instruction-following#sample1">InstructGPT</a>: 50,000 prompts. Each prompt has 4 to 9 responses, forming between 6 and 36 pairs of (winning_response, losing_response). This means between 300K and 1.8M training examples in the format of (prompt, winning_response, losing_response).</li>
+<li><a href="https://arxiv.org/abs/2212.08073">Constitutional AI</a>, which is suspected to be the backbone of Claude (Anthropic): 318K comparisons – 135K generated by humans, and 183K generated by AI. Anthropic has an older version of their data open-sourced (<a href="https://huggingface.co/datasets/Anthropic/hh-rlhf">hh-rlhf</a>), which consists of roughly 170K comparisons.</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<hr/>
+<ul>
+<li><span class="arithmatex">\(r_\theta\)</span>: the reward model being trained, parameterized by <span class="arithmatex">\(\theta\)</span>. The goal of the training process is to find <span class="arithmatex">\(\theta\)</span> for which the loss is minimized.</li>
+<li>Training data format:<ul>
+<li><span class="arithmatex">\(x\)</span>: prompt</li>
+<li><span class="arithmatex">\(y_w\)</span>: winning response</li>
+<li><span class="arithmatex">\(y_l\)</span>: losing response</li>
+</ul>
+</li>
+<li>For each training sample <span class="arithmatex">\((x, y_w, y_l)\)</span><ul>
+<li><span class="arithmatex">\(s_w=r_\theta(x, y_w)\)</span>: reward model’s score for the winning response</li>
+<li><span class="arithmatex">\(s_l=r_\theta(x, y_l)\)</span>: reward model’s score for the losing response</li>
+<li>Loss value: <span class="arithmatex">\(\log(\sigma(s_w - s_l))\)</span></li>
+</ul>
+</li>
+<li>Goal: find <span class="arithmatex">\(\theta\)</span> to minimize the expected loss for all training samples. <span class="arithmatex">\(-E_x\log(\sigma(s_w - s_l))\)</span></li>
+</ul>
+<p>To get more intuition how this loss function works, let’s visualize it.</p>
+<p>Let <span class="arithmatex">\(d = s_w - s_l\)</span>. Here’s the graph for <span class="arithmatex">\(f(d) = \log(\sigma(d))\)</span>. The loss value is large for negative <span class="arithmatex">\(d\)</span>, which incentivizes the reward model to not give the winning response a lower score than the losing response.</p>
+<p><img alt="3 phases of ChatGPT development" src="/assets/pics/rlhf/11-graph-rm-loss.png"/></p>
+<hr/>
+<hr/>
+<h5 id="ui-to-collect-comparison-data">UI to collect comparison data<a class="headerlink" href="#ui-to-collect-comparison-data" title="Permanent link">¶</a></h5>
+<p>Below is a screenshot of <a href="https://arxiv.org/pdf/2203.02155.pdf">the UI that OpenAI’s labelers</a> used to create training data for InstructGPT’s RM. Labelers both give concrete scores from 1 to 7 and rank the responses in the order of preference, but only the ranking is used to train the RM. <strong>Their inter-labeler agreement is around 73%, which means if they ask 10 people to rank 2 responses, 7 of them will have the same ranking</strong>.</p>
+<p><img alt="3 phases of ChatGPT development" src="/assets/pics/rlhf/12-ui.png"/></p>
+<p>To speed up the labeling process, they ask each annotator to rank multiple responses. 4 ranked responses, e.g. A &gt; B &gt; C &gt; D, will produce 6 ranked pairs, e.g. (A &gt; B), (A &gt; C), (A &gt; D), (B &gt; C), (B &gt; D), (C &gt; D).</p>
+<h4 id="32-finetuning-using-the-reward-model">3.2. Finetuning using the reward model<a class="headerlink" href="#32-finetuning-using-the-reward-model" title="Permanent link">¶</a></h4>
+<p>In this phase, we will further train the SFT model to generate output responses that will maximize the scores by the RM. Today, most people use <a href="https://openai.com/research/openai-baselines-ppo">Proximal Policy Optimization</a> (PPO), a reinforcement learning algorithm released by OpenAI in 2017.</p>
+<p>During this process, prompts are randomly selected from a distribution – e.g. we might randomly select among customer prompts. Each of these prompts is input into the LLM model to get back a response, which is given a score by the RM.</p>
+<p>OpenAI also found that it’s necessary to add a constraint: the model resulting from this phase should not stray too far from the model resulting from the SFT phase. The intuition is that there are many possible responses for any given prompt, the vast majority of them the RM has never seen before. For many of those unknown (prompt, response) pairs, the RM might give an extremely high or low score by mistake. Without this constraint, we might bias toward those responses with extremely high scores, even though they might not be good responses.</p>
+<p>OpenAI has this great diagram that explains the <a href="https://openai.com/research/instruction-following">SFT and RLHF</a> for InstructGPT.</p>
+<p><img alt="3 phases of ChatGPT development" src="/assets/pics/rlhf/6-sft-rlhf.png"/></p>
+<h5 id="mathematical-formulation_3">Mathematical formulation<a class="headerlink" href="#mathematical-formulation_3" title="Permanent link">¶</a></h5>
+<ul>
+<li>ML task: reinforcement learning<ul>
+<li>Action space: the vocabulary of tokens the LLM uses. Taking action means choosing a token to generate.</li>
+<li>Observation space: the distribution over all possible prompts.</li>
+<li>Policy: the probability distribution over all actions to take (aka all tokens to generate) given an observation (aka a prompt). An LLM constitutes a policy because it dictates how likely a token is to be generated next.</li>
+<li>Reward function: the reward model.</li>
+</ul>
+</li>
+<li>Training data: randomly selected prompts</li>
+<li>Data scale: 10,000 - 100,000 prompts<ul>
+<li><a href="https://openai.com/research/instruction-following#sample1">InstructGPT</a>: 40,000 prompts</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<hr/>
+<ul>
+<li><span class="arithmatex">\(RM\)</span>: the reward model obtained from phase 3.1.</li>
+<li><span class="arithmatex">\(LLM^{SFT}\)</span>: the supervised finetuned model obtained from phase 2.</li>
+<li><span class="arithmatex">\(LLM^{RL}_\phi\)</span>: the model being trained with reinforcement learning, parameterized by <span class="arithmatex">\(\phi\)</span>. The goal is to find <span class="arithmatex">\(\phi\)</span> to maximize the score according to the <span class="arithmatex">\(RM\)</span>.</li>
+<li><span class="arithmatex">\(x\)</span>: prompt</li>
+<li><span class="arithmatex">\(\pi(e)\)</span>: the probability of an event <span class="arithmatex">\(e\)</span> according to the policy <span class="arithmatex">\(\pi\)</span>. The probability distribution given by an LLM is a policy. For example:<ul>
+<li><span class="arithmatex">\(LLM^{SFT}(y \vert x)\)</span>: the probability that the <span class="arithmatex">\(LLM^{SFT}\)</span> model outputs the response y given the prompt x.</li>
+<li><span class="arithmatex">\(LLM^{RL}_\phi(y \vert x)\)</span>: the probability that the <span class="arithmatex">\(LLM^{RL}_\phi\)</span> model outputs the response y given the prompt x.</li>
+</ul>
+</li>
+</ul>
+<p>For each prompt <span class="arithmatex">\(x\)</span>, the reward function is computed as follows. Note that in the RL setting, we maximize the objective instead of minimizing the objective as done in the previous steps.</p>
+<p>[y = LLM^{RL}<em>\phi(x)] [\text{objective}(x; \phi) = RM(x, y) - \beta \log \frac{LLM^{RL}</em>\phi(y \vert x)}{LLM^{SFT}(y \vert x)} + \gamma \log LLM^{RL}_\phi(x)]</p>
+<p>Note that in the RL setting, we maximize the objective instead of minimizing the objective as done in the previous steps.</p>
+<hr/>
+<hr/>
+<h4 id="rlhf-and-hallucination">RLHF and hallucination<a class="headerlink" href="#rlhf-and-hallucination" title="Permanent link">¶</a></h4>
+<p>Hallucination happens when an AI model makes stuff up. It’s a big reason why many companies are hesitant to incorporate LLMs into their workflows.</p>
+<p>There are two hypotheses that I found that explain why LLMs hallucinate.</p>
+<p>The first hypothesis, first expressed by Pedro A. Ortega et al. at DeepMind in Oct 2021, is that LLMs hallucinate because they “<a href="https://arxiv.org/abs/2110.10819#deepmind">lack the understanding of the cause and effect of their actions</a>” (back then, DeepMind used the term “delusion” for “hallucination”). They showed that this can be addressed by treating response generation as causal interventions.</p>
+<p>The second hypothesis is that hallucination is caused by the mismatch between the LLM’s internal knowledge and the labeler’s internal knowledge. In his <a href="https://www.youtube.com/watch?v=hhiLw5Q_UFg">UC Berkeley talk</a> (April 2023), John Schulman, OpenAI co-founder and PPO author, suggested that behavior cloning causes hallucination. During SFT, LLMs are trained to mimic responses written by humans. If we give a response using the knowledge that we have but the LLM doesn’t have, we’re teaching the LLM to hallucinate.</p>
+<p>This view was also well articulated by <a href="https://www.alignmentforum.org/posts/BgoKdAzogxmgkuuAt/behavior-cloning-is-miscalibrated">Leo Gao</a>, another OpenAI employee, in Dec 2021. In theory, the human labeler can include all the context they know with each prompt to teach the model to use only the existing knowledge. However, this is impossible in practice.</p>
+<p>Schulman believed that <a href="https://www.youtube.com/live/hhiLw5Q_UFg?feature=share&amp;t=1019">LLMs know if they know something</a> (which is a big claim, IMO), this means that hallucination can be fixed if we find a way to force LLMs to only give answers that contain information they know. He then proposed a couple of solutions.</p>
+<ol>
+<li>Verification: asking the LLM to explain (retrieve) the sources where it gets the answer from.</li>
+<li>RL. Remember that the reward model in phase 3.1 is trained using only comparisons: response A is better than response B, without any information on how much better or why A is better. Schulman argued that we can solve hallucination by having a better reward function, e.g. punishing a model more for making things up.</li>
+</ol>
+<p>Here’s a screenshot from <a href="https://www.youtube.com/live/hhiLw5Q_UFg?feature=share&amp;t=1254">John Schulman’s talk</a> in April 2023.</p>
+<p><img alt="Fix hallucination with R" src="/assets/pics/rlhf/13-schulman-fix-rl.png"/></p>
+<p>From Schulman’s talk, I got the impression that RLHF is supposed to help with hallucination. However, the InstructGPT paper shows that RLHF actually made hallucination worse. Even though RLHF caused worse hallucination, it improved other aspects, and overall, human labelers prefer RLHF model over SFT alone model.</p>
+<p><img alt="RLHF makes hallucination worse" src="/assets/pics/rlhf/10-hallucination.png"/></p>
+<p>Hallucination is worse for InstructGPT (RLHF + SFT) compared to just SFT (Ouyang et al., 2022)</p>
+<p>Based on the assumption that LLMs know what they know, some people try to reduce hallucination with prompts, e.g. adding <code>Answer as truthfully as possible, and if you're unsure of the answer, say "Sorry, I don't know"</code>. Making LLMs respond concisely also seems to help with hallucination – the fewer tokens LLMs have to generate, the less chance they have to make things up.</p>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<p>This has been a really fun post to write – I hope you enjoyed reading it too. I had another whole section about the limitations of RLHF – e.g. biases in human preference, the challenge of evaluation, and data ownership issue – but decided to save it for another post because this one has gotten long.</p>
+<p>As I dove into papers about RLFH, I was impressed by three things:</p>
+<ol>
+<li>Training a model like ChatGPT is a fairly complicated process – it’s amazing it worked at all.</li>
+<li>The scale is insane. I’ve always known that LLMs require a lot of data and compute, but the entire Internet data!!??</li>
+<li>How much companies (used to) share about their process. <a href="https://arxiv.org/abs/2112.11446">DeepMind’s Gopher paper</a> is 120 pages. <a href="https://arxiv.org/abs/2203.02155">OpenAI’s InstructGPT</a> paper is 68 pages, Anthropic shared their 161K hh-rlhf comparison examples, Meta made available their LLaMa model for research. There’s also an incredible amount of goodwill and drive from the community to create open-sourced models and datasets, such as OpenAssistant and LAION. It’s an exciting time!</li>
+</ol>
+<p>We’re still in the early days of LLMs. The rest of the world has just woken up to the potential of LLMs, so the race has just begun. Many things about LLMs, including RLHF. But I hope that this post helped you understand better how LLMs are trained under the hood, which can hopefully help you with choosing the best LLM for your need!</p>
+<p>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../What%20we%20look%20for%20in%20a%20resume/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../What%20we%20look%20for%20in%20a%20resume/">
+        What we look for in a resume
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Deep%20Neural%20Nets%2033%20years%20ago%20and%2033%20years%20from%20now/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Deep%20Neural%20Nets%2033%20years%20ago%20and%2033%20years%20from%20now/">
+        Deep Neural Nets 33 years ago and 33 years from now
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

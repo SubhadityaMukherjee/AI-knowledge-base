@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Network Dissection Quantifying Interpretability of Deep Visual Representions - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Network Dissection Quantifying Interpretability of Deep Visual Representions", url: "#_top", children: [
+              {title: "Introduction", url: "#introduction" },
+              {title: "Network Dissection", url: "#network-dissection" },
+              {title: "Scoring Unit Interpretability", url: "#scoring-unit-interpretability" },
+              {title: "Measure of Axis Aligned Interpretability", url: "#measure-of-axis-aligned-interpretability" },
+              {title: "Disentangled Concepts by Layer", url: "#disentangled-concepts-by-layer" },
+              {title: "Network Architectures and Supervisions", url: "#network-architectures-and-supervisions" },
+              {title: "Training Conditions Vs. Interpretability", url: "#training-conditions-vs-interpretability" },
+              {title: "Discrimination Vs. Interpretability", url: "#discrimination-vs-interpretability" },
+              {title: "Layer Width Vs. Interpretability", url: "#layer-width-vs-interpretability" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Neural%20Augmentation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Neural%20Augmentation/">
+        Neural Augmentation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Nesterov%20Momentum/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Nesterov%20Momentum/">
+        Nesterov Momentum
+      </a>
+</div>
+</div>
+<h2 id="network-dissection-quantifying-interpretability-of-deep-visual-representions">Network Dissection Quantifying Interpretability of Deep Visual Representions<a class="headerlink" href="#network-dissection-quantifying-interpretability-of-deep-visual-representions" title="Permanent link">¶</a></h2>
+<ul>
+<li>David Bau∗, Bolei Zhou∗, Aditya Khosla, Aude Oliva, and Antonio Torralba</li>
+</ul>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>Quantifying the interpretability of latent representations of CNNs by evaluating the alignment between individual hidden units and a set of semantic concepts</li>
+<li>score the semantics of hidden units at each intermediate convolutional layer.</li>
+<li>The units with semantics are given labels across a range of objects, parts, scenes, textures, materials, and colors.</li>
+<li>interpretability of units is equivalent to random linear combinations of units</li>
+<li>analyze the effect of training iterations, compare networks trained with different initializations, examine the impact of network depth and width, and measure the effect of <a href="../Dropout/">dropout</a> and batch normalization on the interpretability of deep visual representations</li>
+</ul>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h3>
+<ul>
+<li>The emergence of interpretable structure suggests that deep networks may be learning disentangled representations spontaneously.</li>
+<li>A disentangled representation aligns its variables with a meaningful factorization of the underlying problem structure</li>
+<li>Broden</li>
+</ul>
+<h3 id="network-dissection">Network Dissection<a class="headerlink" href="#network-dissection" title="Permanent link">¶</a></h3>
+<ul>
+<li>Our measurement of interpretability for deep visual representations proceeds in three steps: 1. Identify a broad set of human-labeled visual concepts. 2. Gather hidden variables' response to known concepts. 3. Quantify alignment of hidden variableconcept pairs.</li>
+<li>In a fully interpretable local coding such as a one-hotencoding, each variable will match exactly with one humaninterpretable concept.</li>
+<li>Therefore we measure the alignment between single units and single interpretable concepts</li>
+<li>This does not gauge the discriminative power of the representation; rather it quantifies its disentangled interpretability.</li>
+<li>We then measure the alignment of each hidden unit of the CNN with each concept by evaluating the feature activation of each individual unit as a segmentation model for each concept</li>
+<li>To quantify the interpretability of a layer as a whole, we count the number of distinct visual concepts that are aligned with a unit in the layer</li>
+<li><a href="../Broden/">Broden</a></li>
+</ul>
+<h3 id="scoring-unit-interpretability">Scoring Unit Interpretability<a class="headerlink" href="#scoring-unit-interpretability" title="Permanent link">¶</a></h3>
+<ul>
+<li>evaluates every individual convolutional unit in a CNN as a solution to a binary segmentation task to every visual concept in <a href="../Broden/">Broden</a></li>
+<li>applied to any CNN using a forward pass without the need for training or backpropagation.</li>
+<li>For every input image x in the <a href="../Broden/">Broden</a> dataset, the activation map <span class="arithmatex">\(A_{k}(x)\)</span> of every internal convolutional unit k is collected.</li>
+<li>Then the distribution of individual unit activations ak is computed</li>
+<li>For each unit k, the top quantile level <span class="arithmatex">\(T_{k}\)</span> is determined such that <span class="arithmatex">\(P(a_{k} &gt; T_{k} = 0.005\)</span> over every spatial location of the activation map in the data set.</li>
+<li>input-resolution annotation mask <span class="arithmatex">\(L_{c}\)</span> for some concept c</li>
+<li>the activation map is scaled up to the mask resolution <span class="arithmatex">\(S_{k}(x)\)</span> from <span class="arithmatex">\(A_{k}(x)\)</span> using bilinear interpolation, anchoring interpolants at the center of each unit's receptive field</li>
+<li><span class="arithmatex">\(S_{k}(x)\)</span> is then thresholded into a binary segmentation: <span class="arithmatex">\(M_{k}(x) \equiv S_{k}(x) \leq T_{k}\)</span>, selecting all regions for which the activation exceeds the threshold Tk. These segmentations are evaluated against every concept c in the data set by computing intersections <span class="arithmatex">\(M_{k}(x) \cap L_{c}(x)\)</span>, for every (k, c) pair.</li>
+<li>The score of each unit k as segmentation for concept c is reported as a data-set-wide intersection over union score
+<span class="arithmatex">\(<span class="arithmatex">\(I_{o}U_{k,c}=\frac{\Sigma|M_{k}(x) \cap L_{c}(x|}{\Sigma|M_{k}(x) \cup L_{c}(x)|}\)</span>\)</span></li>
+<li>where | · | is the cardinality of a set.</li>
+<li>The value of <span class="arithmatex">\(IoU_{k,c}\)</span> is the accuracy of unit k in detecting concept c; we consider one unit k as a detector for concept c if IoUk,c exceeds a threshold</li>
+<li>Our qualitative results are insensitive to the IoU threshold: different thresholds denote different numbers of units as concept detectors</li>
+<li>For our comparisons we report a detector if IoUk,c &gt; 0.04.</li>
+<li>one unit might be the detector for multiple concepts; for the purpose of our analysis, we choose the top ranked label</li>
+<li>The IoU evaluating the quality of the segmentation of a unit is an objective confidence score for interpretability that is comparable across networks</li>
+<li>Note that network dissection works only as well as the underlying data set</li>
+<li>We conclude that interpretability is neither an inevitable result of discriminative power, nor is it a prerequisite to discriminative power.</li>
+<li>Instead, we find that interpretability is a different quality that must be measured separately to be understood.</li>
+</ul>
+<h3 id="measure-of-axis-aligned-interpretability">Measure of Axis Aligned Interpretability<a class="headerlink" href="#measure-of-axis-aligned-interpretability" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="Pasted image 20221124134828.png" src="../images/Pasted%20image%2020221124134828.png"/></li>
+<li><img alt="Pasted image 20221124134900.png" src="../images/Pasted%20image%2020221124134900.png"/></li>
+</ul>
+<h3 id="disentangled-concepts-by-layer">Disentangled Concepts by Layer<a class="headerlink" href="#disentangled-concepts-by-layer" title="Permanent link">¶</a></h3>
+<ul>
+<li>Confirming intuition, color and texture concepts dominate at lower layers conv1 and conv2 while more object and part detectors emerge in conv5.</li>
+</ul>
+<h3 id="network-architectures-and-supervisions">Network Architectures and Supervisions<a class="headerlink" href="#network-architectures-and-supervisions" title="Permanent link">¶</a></h3>
+<ul>
+<li>In terms of network architecture, we find that interpretability of ResNet &gt; VGG &gt; GoogLeNet &gt; AlexNet</li>
+<li>Deeper architectures appear to allow greater interpretability. Places &gt; ImageNet.</li>
+<li>Self-supervised models create many texture detectors but relatively few object detectors; apparently, supervision from a self-taught primary task is much weaker at inferring interpretable concepts than supervised training on a large annotated data set</li>
+<li>The form of self-supervision makes a difference: for example, the colorization model is trained on colorless images, and almost no color detection units emerge</li>
+<li>We hypothesize that emergent units represent concepts required to solve the primary task.</li>
+</ul>
+<h3 id="training-conditions-vs-interpretability">Training Conditions Vs. Interpretability<a class="headerlink" href="#training-conditions-vs-interpretability" title="Permanent link">¶</a></h3>
+<ul>
+<li>We can see that object detectors and part detectors begin emerging at about 10,000 iterations (each iteration processes a batch of 256 images)</li>
+<li>We do not find evidence of transitions across different concept categories during training</li>
+<li>For example, units in conv5 do not turn into texture or material detectors before becoming object or part detectors.</li>
+<li>Comparing different random initializations, the models converge to similar levels of interpretability, both in terms of the unique detector number and the total detector number; this matches observations of convergent learning</li>
+<li>For the network without <a href="../Dropout/">dropout</a>, more texture detectors emerge but fewer object detectors</li>
+<li>Batch normalization seems to decrease interpretability significantly.</li>
+<li>The batch normalization result serves as a caution that discriminative power is not the only property of a representation that should be measured.</li>
+<li>batch normalization 'whitens' the activation at each layer, which smooths out scaling issues and allows a network to easily rotate axes of intermediate representations during training</li>
+<li>While whitening apparently speeds training, it may also have an effect similar to random rotations analyzed in Sec. 3.2 which destroy interpretability</li>
+<li>interpretability is neither a prerequisite nor an obstacle to discriminative power</li>
+<li><img alt="Pasted image 20221124135003.png" src="../images/Pasted%20image%2020221124135003.png"/></li>
+<li><img alt="Pasted image 20221124135014.png" src="../images/Pasted%20image%2020221124135014.png"/></li>
+<li><img alt="Pasted image 20221124135021.png" src="../images/Pasted%20image%2020221124135021.png"/></li>
+</ul>
+<h3 id="discrimination-vs-interpretability">Discrimination Vs. Interpretability<a class="headerlink" href="#discrimination-vs-interpretability" title="Permanent link">¶</a></h3>
+<ul>
+<li>For each trained model, we extract the representation at the highest convolutional layer, and train a linear SVM with C = 0.001 on the training data for action40 action recognition task</li>
+<li>Thus the supervision tasks that encourage the emergence of more concept detectors may also improve the discrimination ability of deep features.</li>
+<li>accuracy on a representation when applied to a task is dependent not only on the number of concept detectors in the representation, but on the suitability of the set of represented concepts to the transfer task.</li>
+<li><img alt="Pasted image 20221124135139.png" src="../images/Pasted%20image%2020221124135139.png"/></li>
+</ul>
+<h3 id="layer-width-vs-interpretability">Layer Width Vs. Interpretability<a class="headerlink" href="#layer-width-vs-interpretability" title="Permanent link">¶</a></h3>
+<ul>
+<li>Depth has been shown to be important to high discrimination ability</li>
+<li>increasing the number of convolutional units at a layer significantly increases computational cost while yielding only marginal improvements in classification accuracy</li>
+<li>carefully designed wide residual network can achieve classification accuracy superior to the commonly used thin and deep counterparts.</li>
+<li>This may indicate a limit on the capacity of AlexNet to separate explanatory factors; or it may indicate that a limit on the number of disentangled concepts that are helpful to solve the primary task of scene classification.</li>
+<li><img alt="Pasted image 20221124135123.png" src="../images/Pasted%20image%2020221124135123.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Neural%20Augmentation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Neural%20Augmentation/">
+        Neural Augmentation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Nesterov%20Momentum/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Nesterov%20Momentum/">
+        Nesterov Momentum
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

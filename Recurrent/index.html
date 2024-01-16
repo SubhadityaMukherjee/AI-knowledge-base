@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Recurrent - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Recurrent", url: "#_top", children: [
+          ]},
+          {title: "gradients", url: "#gradients", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Redress/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Redress/">
+        Redress
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Reconstruction%20loss/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Reconstruction%20loss/">
+        Reconstruction loss
+      </a>
+</div>
+</div>
+<h2 id="recurrent">Recurrent<a class="headerlink" href="#recurrent" title="Permanent link">¶</a></h2>
+<ul>
+<li>Sequences as inputs/outputs</li>
+<li>Sequential processing</li>
+<li>Turing complete</li>
+<li>memory through state persisted between timesteps<ul>
+<li>operation invariant to the sequence</li>
+<li>reduces no of params needed</li>
+</ul>
+</li>
+<li>Output comes back as input<ul>
+<li><img alt="im" src="../images/Pasted%20image%2020220314132442.png"/></li>
+</ul>
+</li>
+<li>variable sized inputs and outputs : encoder decoder</li>
+<li>Three weight matrices and two bias vectors.</li>
+<li>
+<div class="arithmatex">\[h_t = \sigma_h(W_{hh}h_{t-1} + W_{xh}x_t + b_h)\]</div>
+</li>
+<li>
+<div class="arithmatex">\[y_t = \sigma_y(W_{hy}h_t + b_y)\]</div>
+</li>
+<li>Stateful : hidden state kept across batches of inputs</li>
+<li>Activation usually <a href="../Sigmoid/">Sigmoid</a> or <a href="../Tanh/">Tanh</a></li>
+<li>BPTT<ul>
+<li><img alt="im" src="../images/Pasted%20image%2020220306185944.png"/><img alt="im" src="../images/Pasted%20image%2020220306190603.png"/></li>
+<li>
+<h2 id="gradients">gradients<a class="headerlink" href="#gradients" title="Permanent link">¶</a></h2>
+<ul>
+<li>If eigen decomposition <span class="arithmatex">\(<span class="arithmatex">\(W = Q\wedge^tQ\)</span>\)</span>, then <span class="arithmatex">\(<span class="arithmatex">\(h_t = Q^T\wedge^tQ\)</span>\)</span></li>
+<li>If less than 0 then will converge to 0 or if bigger then will explore to infinity -&gt; long sequences</li>
+<li>Element wise clipping #tricks<ul>
+<li><a href="../CLIP/">Clip</a> if bigger than value</li>
+</ul>
+</li>
+<li>Norm clipping<ul>
+<li><a href="../CLIP/">Clip</a> if $<span class="arithmatex">\(||g|| &gt;v\)</span> set <span class="arithmatex">\(g = \frac{gv}{||g||}\)</span></li>
+<li>v can be decided by trial and error</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Training stuff<ul>
+<li><a href="../Softmax/">Softmax</a> but on every output vector simultaneously<ul>
+<li>If <a href="../Softmax/#T%20is%20the%20Temperature"></a> is lower (eg between 0 and 0.5). It becomes more confident and hence more conservative</li>
+<li>Near 0 is very diverse and less confident</li>
+</ul>
+</li>
+<li>Feed a char into the RNN -&gt; distribution over characters that comes next -&gt; Sample from it -&gt; Feed it back</li>
+</ul>
+</li>
+<li>Some basic patterns <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">from here</a><ul>
+<li>The model first discovers the general word-space structure and then rapidly starts to learn the words.</li>
+<li>First starting with the short words and then eventually the longer ones.</li>
+<li>Topics and themes that span multiple words (and in general longer-term dependencies) start to emerge only much later.</li>
+</ul>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Redress/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Redress/">
+        Redress
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Reconstruction%20loss/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Reconstruction%20loss/">
+        Reconstruction loss
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

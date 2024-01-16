@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Interpretability vs Neuroscience - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Interpretability Vs Neuroscience", url: "#_top", children: [
+              {title: "You Can Get the Responses of All Neurons for Arbitrarily Many Stimuli", url: "#you-can-get-the-responses-of-all-neurons-for-arbitrarily-many-stimuli" },
+              {title: "Not Only Do You Have the Connectome, You Have the Weights!", url: "#not-only-do-you-have-the-connectome-you-have-the-weights" },
+              {title: "Weight-tying Massively Reduces the Number of Unique Neurons!", url: "#weight-tying-massively-reduces-the-number-of-unique-neurons" },
+              {title: "Establishing Causality by Optimizing the Input", url: "#establishing-causality-by-optimizing-the-input" },
+              {title: "Interventions, Ablations, and Edits", url: "#interventions-ablations-and-edits" },
+              {title: "We Can Study the Exact Same Model.", url: "#we-can-study-the-exact-same-model" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Interpretability/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Interpretability/">
+        Interpretability
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Interpretability%20and%20Explainability%20A%20Machine%20Learning%20Zoo%20Mini-tour/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Interpretability%20and%20Explainability%20A%20Machine%20Learning%20Zoo%20Mini-tour/">
+        Interpretability and Explainability A Machine Learning Zoo Mini-tour
+      </a>
+</div>
+</div>
+<h2 id="interpretability-vs-neuroscience">Interpretability Vs Neuroscience<a class="headerlink" href="#interpretability-vs-neuroscience" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="rough%20note">Interpretability vs Neuroscience (rough note) -- colah's blog</a>%20--%20colah's%20blog)%20--%20colah's%20blog)</li>
+</ul>
+<h3 id="you-can-get-the-responses-of-all-neurons-for-arbitrarily-many-stimuli">You Can Get the Responses of All Neurons for Arbitrarily Many Stimuli<a class="headerlink" href="#you-can-get-the-responses-of-all-neurons-for-arbitrarily-many-stimuli" title="Permanent link">¶</a></h3>
+<ul>
+<li>In neuroscience, one is limited in the number of neurons they can record from, their ability to select the neurons they record, and the number of stimuli they can record responses to.</li>
+<li>For artificial neural networks, we can record the responses of all neurons to arbitrarily many stimuli</li>
+<li>Turn arounds are much faster than biological experiments</li>
+<li>There's no recording noise, No synaptic fatigue.</li>
+</ul>
+<h3 id="not-only-do-you-have-the-connectome-you-have-the-weights">Not Only Do You Have the <a href="../Connectome/">Connectome</a>, You Have the Weights!<a class="headerlink" href="#not-only-do-you-have-the-connectome-you-have-the-weights" title="Permanent link">¶</a></h3>
+<ul>
+<li>A major undertaking in neuroscience is the attempt to access the <a href="../Connectome/">connectome</a></li>
+<li>Even if they succeed, they won’t know the weights of those connections</li>
+<li>With artificial neural networks, all the connections and weights are simply there for us to look at.</li>
+<li>And since we also know how these artificial neurons are computed, in principle we have everything we need to just reason through and understand the neural network.</li>
+</ul>
+<h3 id="weight-tying-massively-reduces-the-number-of-unique-neurons">Weight-tying Massively Reduces the Number of Unique Neurons!<a class="headerlink" href="#weight-tying-massively-reduces-the-number-of-unique-neurons" title="Permanent link">¶</a></h3>
+<ul>
+<li>weight-tying,</li>
+<li><a href="../Force/">force</a> many neurons to have the same weights</li>
+<li>he most common use of this is in convolutional neural networks, where each neuron has translated copies of itself with the same weights.</li>
+<li>in ImageNet <a href="../Conv/">conv</a> nets, weight-tying often reduces the number of unique neurons in early vision by 10,000x or even more</li>
+<li>This results in artificial neural networks having many fewer neurons for early vision than their biological counterparts</li>
+<li>This means we can just literally study every single neuron.</li>
+</ul>
+<h3 id="establishing-causality-by-optimizing-the-input">Establishing Causality by Optimizing the Input<a class="headerlink" href="#establishing-causality-by-optimizing-the-input" title="Permanent link">¶</a></h3>
+<ul>
+<li>one of the thorniest issues in understanding neurons in artificial networks is separating <a href="../Correlation/">correlation</a> from causation.</li>
+<li>Does a neuron detect a dog head? Or does it just detect part of a dog head?</li>
+<li>There's a second very closely related problem: we don't know what the space of likely functions a neuron might perform is.</li>
+<li>this is also a challenge in neuroscience.</li>
+<li>We create stimuli “from scratch” to strongly activate neurons (or combinations of neurons) in artificial neural networks, by starting with random noise and optimizing the input.</li>
+<li>The key property of feature <a href="../visualization/">visualization</a> is that anything in the resulting <a href="../visualization/">visualization</a> there because it caused the neuron to fire more</li>
+<li>If feature <a href="../visualization/">visualization</a> gives you a fully formed dog head with eyes and ears arranged appropriately, it must be detecting an entire dog head</li>
+<li>If it just gives an eye, it's probably only (or at least primarily) responding to that.</li>
+<li>Recent efforts in neuroscience have tried to develop similar methods [], by using an artificial neural network as a proxy for a biological one.</li>
+<li>unclear they give you the same ability to establish a causal link.</li>
+<li>It seems hard to exclude the possibility that the resulting stimulus might have content which causes the artificial neurons predicting the <a href="../Biological%20Neuron/">biological neuron</a> to fire more, but aren't causally necessary for the <a href="../Biological%20Neuron/">biological neuron</a> to fire.</li>
+</ul>
+<h3 id="interventions-ablations-and-edits">Interventions, Ablations, and Edits<a class="headerlink" href="#interventions-ablations-and-edits" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../Optogenetics/">Optogenetics</a> has been a major methodological advance for neuroscience in allowing neuroscientists to temporarily ablate neurons, or to <a href="../Force/">force</a> them to activate.</li>
+<li>Artificial neural networks are trivial to manipulate at the level of neurons</li>
+<li>One can easily ablate neurons or set them to particular activations</li>
+<li>But one can also do more powerful "circuit editing" where one modifies parameters at a finer grained level.</li>
+<li>In image generation, <a href="https://gandissect.csail.mit.edu/">Bau et al., 2018</a> show that you can ablate neurons to remove objects like tress and windows from generated images</li>
+<li>In RL, <a href="https://distill.pub/2020/understanding-rl-vision/">Hilton et al., 2020</a> show that you can ablate <a href="../Features/">features</a> to blind an agent to a particular enemy while leaving other competencies in tact</li>
+<li>More recently, <a href="https://distill.pub/2020/circuits/curve-circuits/">Cammarata et al, 2021</a> reimplements a large chunk of neural network from scratch, and then splices it into a model.</li>
+</ul>
+<h3 id="we-can-study-the-exact-same-model">We Can Study the Exact Same Model.<a class="headerlink" href="#we-can-study-the-exact-same-model" title="Permanent link">¶</a></h3>
+<ul>
+<li>Neuroscientists might study a model organism species, but each brain they study has different neurons</li>
+<li>If one neuroscientist reports on an interesting neuron they found, other neuroscientists can't directly study that same neuron</li>
+<li>In fact, the neuroscientists studying the original neuron will quickly lose access to it: probes can't be left in indefinitely, organisms die, human subjects leave, and even setting that aside neurons change over time.</li>
+<li>Studying artificial networks, we can collaboratively reverse engineer the same “brain", building on each other.</li>
+<li>we have a shared web of thousands of "footholds" into InceptionV1, consisting of neurons we understand fairly well and know the connections between, which makes it massively easier to explore</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Interpretability/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Interpretability/">
+        Interpretability
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Interpretability%20and%20Explainability%20A%20Machine%20Learning%20Zoo%20Mini-tour/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Interpretability%20and%20Explainability%20A%20Machine%20Learning%20Zoo%20Mini-tour/">
+        Interpretability and Explainability A Machine Learning Zoo Mini-tour
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

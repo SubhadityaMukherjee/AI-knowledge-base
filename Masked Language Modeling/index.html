@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Masked Language Modeling - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Masked Language Modeling", url: "#_top", children: [
+              {title: "Tokenizing Data BERT", url: "#tokenizing-data-bert" },
+              {title: "Masking Input Tokens BERT", url: "#masking-input-tokens-bert" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Mastectomy/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Mastectomy/">
+        Mastectomy
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Masked%20Autoencoders/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Masked%20Autoencoders/">
+        Masked Autoencoders
+      </a>
+</div>
+</div>
+<h2 id="masked-language-modeling">Masked Language Modeling<a class="headerlink" href="#masked-language-modeling" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>In Masked Language Modeling, an input sequence of tokens is provided, but with some of these tokens masked. The goal of the model is then to learn to predict the correct tokens that are hidden by the mask. If it can do so, it can learn token-level information given the context of the token.</li>
+<li>In BERT, this is done as follows. 15% of all word embedded tokens is masked at random. From this 15%, 80% of the tokens is represented with a token called , 10% is replaced with a random token and 10% is left alone. This ensures that masking is both relatively random and that the model does not zoom in to the token, which is available during pretraining but not during fine-tuning.</li>
+<li>This model is also capable of predicting words using the two masked sentences. It concatenates two masked words and tries to predict.</li>
+<li>these models where we are required to predict the context of words. Since the words can have different meanings in different places the model needs to learn deep and multiple representations of words.</li>
+<li>These models have shown improved performance levels in the downstream tasks such as syntactic tasks that require lower layer representation of certain models in place of a higher layer representation.</li>
+<li>We may also find their use in learning the deep bidirectional representations of words. The model should be able to learn the context of words from the start of the sentence as well as from the behind.</li>
+</ul>
+<h3 id="tokenizing-data-bert">Tokenizing Data BERT<a class="headerlink" href="#tokenizing-data-bert" title="Permanent link">¶</a></h3>
+<ul>
+<li>In the tokenizer method, <strong>text_lst</strong> is the text corpus, <strong>max_length</strong> suggests the maximum number of allowable input tokens (the maximum is 512 for BERT base), and <strong>truncation</strong> set to True indicates that if the input size is more than the max_length, then the token from index number equal to max_length would be truncated i.e., for our example input tokens from index 100 would be dropped, <strong>padding</strong> set to True indicates the input length shorter than the max_length are padded, with padding token 0 and lastly, <strong>return_tensors</strong> indicates in what format do we want the output tensor and <strong>tf</strong> suggests that we expect <strong>tensorflow</strong> tensor. The tokenizer here returns three fields, as we have mentioned earlier.</li>
+<li>Now if we look at the “<strong>inputs”</strong> with the code print(inputs), we can see that the <strong>input_ids</strong> tensor is of shape 1567×100, and each row starts with the token 101, which is the id for the Special token [CLS] and ends with 0 which is the padding token indicating that the sentence length is less than 100. Also, there is a Special token 102, the [SEP] token, which is not visible, indicating the end of a sentence. Secondly, the <strong>token_type_ids</strong> are all 0 as there is only a single sentence as input. Finally, the <strong>attention_mask</strong> has ones at locations for the actual input tokens and zeros for the padding tokens.</li>
+</ul>
+<h3 id="masking-input-tokens-bert">Masking Input Tokens BERT<a class="headerlink" href="#masking-input-tokens-bert" title="Permanent link">¶</a></h3>
+<ul>
+<li>In the original research paper, 15% of the input tokens were masked, of which 80% were replaced with [MASK] tokens, 10% were replaced with random tokens, and another 10% were left as is. However, in our fine-tuning task, we are replacing 15% of the input tokens except for the special ones with only [MASK] i.e., we will not replace token numbers 101,102, and 0 with mask token 103. In the following lines of codes, the same logic is implemented</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Mastectomy/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Mastectomy/">
+        Mastectomy
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Masked%20Autoencoders/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Masked%20Autoencoders/">
+        Masked Autoencoders
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>data2vec - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "data2vec", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../dataset/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../dataset/">
+        Dataset
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../dGSLM/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../dGSLM/">
+        dGSLM
+      </a>
+</div>
+</div>
+<h2 id="data2vec">data2vec<a class="headerlink" href="#data2vec" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://scontent-sjc3-1.xx.fbcdn.net/v/t39.8562-6/271974914_483120576492438_4239522333319653600_n.pdf?_nc_cat=107&amp;ccb=1-5&amp;_nc_sid=ae5e01&amp;_nc_ohc=9HtSivaeiYUAX9jHaO2&amp;_nc_ht=scontent-sjc3-1.xx&amp;oh=00_AT9A4fyBtoZh-73HXRQHNsSsnEVWyBnxrsprVVPwSvkVIg&amp;oe=61F9E691">data2vec: a General Framework for Self-supervised Learning in Speech, Vision and Language</a></li>
+<li>closer to general self-supervised learning</li>
+<li>framework that uses the same learning method for either speech, NLP or computer vision</li>
+<li>predict latent representations of the full input data based on a masked view of the input in a <a href="../Self%20Distillation/">self distillation</a> setup using a standard Transformer architecture</li>
+<li>Instead of predicting <a href="../Modality/">modality</a>-specific targets such as words, visual tokens or units of human speech which are local in nature, data2vec predicts contextualized latent representations that contain information from the entire inpu</li>
+<li>Today’s self-supervised learning research almost typically focuses on a single <a href="../Modality/">modality</a></li>
+<li>As a result, researchers specializing in one <a href="../Modality/">modality</a> often adopt a totally different strategy than those specializing in another.</li>
+<li>For each <a href="../Modality/">modality</a>, algorithms anticipate distinct units: pixels or visual tokens for images, words for the text, and learned sound inventories for voice</li>
+<li>teaching models to anticipate their own representations of the incoming data, regardless of mode</li>
+<li>Instead of predicting visual tokens, phrases, or sounds, a single algorithm may work with completely different sorts of input by focusing on these representations — the <a href="../Layers/">layers</a> of a neural network</li>
+<li>robust normalization of the <a href="../Features/">features</a> for the job that would be trustworthy in different modalities to directly predict representations.</li>
+<li>The method starts by computing target representations from an image, a piece of text, or a voice utterance using a teacher network</li>
+<li>After that, a portion of the input was masked and repeated with a student network, which predicts the teacher’s latent representations</li>
+<li>Even though it only has a partial view of the data, the student model must predict accurate input data</li>
+<li>The instructor network is identical to the student network, except with somewhat out-of-date weights.</li>
+<li>ImageNet</li>
+<li>surpassed wav2vec 2.0 and HuBERT</li>
+<li><a href="../GLUE/">GLUE</a></li>
+<li>Method:</li>
+<li>data2vec is trained by predicting the model representations of the full input data given a partial view of the input</li>
+<li>They first encode a masked version of the training sample (model in student mode) and then construct training targets by encoding the unmasked version of the input sample with the same model but when parameterized as an exponentially moving average of the model weights (model in teacher mode)</li>
+<li>The target representations encode all of the information in the training sample and the learning task is for the student to predict these representations given a partial view of the input.</li>
+<li><a href="../Modality/">Modality</a> encoding:</li>
+<li>The model architecture used is the standard Transformer architecture with a <a href="../Modality/">modality</a>-specific encoding of the input data borrowed from prior work:</li>
+<li>For computer vision, they have used the ViT-strategy of encoding an image as a sequence of patches, each spanning 16x16 pixels, input to a linear transformation.</li>
+<li>Speech data is encoded using a multi-layer 1-D convolutional neural network that maps 16 kHz waveform to 50 Hz representations.</li>
+<li>Text is pre-processed to obtain sub-word units, which are then embedded in distributional space via learned <a href="../Embedding/">embedding</a> vectors.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../dataset/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../dataset/">
+        Dataset
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../dGSLM/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../dGSLM/">
+        dGSLM
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Taking notes from websites to markdown   A workflow - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Why", url: "#_top", children: [
+          ]},
+          {title: "What we want", url: "#what-we-want", children: [
+          ]},
+          {title: "Obsidian Quick intro", url: "#obsidian-quick-intro", children: [
+          ]},
+          {title: "Why markdown", url: "#why-markdown", children: [
+          ]},
+          {title: "Chrome extension", url: "#chrome-extension", children: [
+          ]},
+          {title: "Script", url: "#script", children: [
+          ]},
+          {title: "FAQ", url: "#faq", children: [
+              {title: "Why not a program?", url: "#why-not-a-program" },
+          ]},
+          {title: "Fin", url: "#fin", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../../Scalar/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../../Scalar/">
+        SiteMap
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Pomodoro%20-%20A%20means%20but%20not%20the%20end/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Pomodoro%20-%20A%20means%20but%20not%20the%20end/">
+        Pomodoro   A means but not the end
+      </a>
+</div>
+</div>
+<p>Taking notes from websites to markdown - A workflow #inprogress #article</p>
+<h3 id="why">Why<a class="headerlink" href="#why" title="Permanent link">¶</a></h3>
+<h3 id="what-we-want">What we want<a class="headerlink" href="#what-we-want" title="Permanent link">¶</a></h3>
+<h3 id="obsidian-quick-intro">Obsidian Quick intro<a class="headerlink" href="#obsidian-quick-intro" title="Permanent link">¶</a></h3>
+<h3 id="why-markdown">Why markdown<a class="headerlink" href="#why-markdown" title="Permanent link">¶</a></h3>
+<h3 id="chrome-extension">Chrome extension<a class="headerlink" href="#chrome-extension" title="Permanent link">¶</a></h3>
+<p><a href="https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi">Extension</a>
+<a href="https://chrome.google.com/webstore/detail/roam-highlighter/mcoimieglmhdjdoplhpcmifgplkbfibp">Roam Highlighter</a></p>
+<h3 id="script">Script<a class="headerlink" href="#script" title="Permanent link">¶</a></h3>
+<p>```py, webtomd_imports, webtomd_imports
+import clipboard
+import os
+from pathlib import path
+import re</p>
+<pre><code>
+</code></pre>
+<p>def apply_transforms(txt, list_of_trans):
+    for trans in list_of_trans:
+        txt = trans(txt)
+    return txt</p>
+<pre><code>
+</code></pre>
+<p>def replacer(txt, dict_of_replace):
+    for rep in dict_of_replace.keys():
+        txt = txt.replace(rep, dict_of_replace[rep])
+    return txt</p>
+<p>def regexreplacer(txt, dict_of_replace):
+    for rep in dict_of_replace.keys():
+        txt = re.sub(rep, dict_of_replace[rep], txt)
+    return txt</p>
+<pre><code>
+</code></pre>
+<p>def indent_transform(txt):
+    l = txt.split("\n")
+    return "\n".join([x.strip() for x in l])</p>
+<pre><code>
+</code></pre>
+<p>def paragraph_converter(txt):
+    l = txt.split("\n")
+    for item in range(len(l)):
+        if len(l[item])&gt;0 and l[item][0] not in ["#"," ",]:
+            l[item] = "- "+l[item]
+    return "\n".join(l)</p>
+<pre><code>
+## Practically Using it
+</code></pre>
+<p>dict_regex_replace = {
+    r'[.*?]':"", #wiki links
+}</p>
+<p>dict_of_replace = {
+    #"<em>": "",
+    "- </em><em>": "# ",
+    "</em><em>": "",
+    "</em>***": "",
+    "[latex]": "<span class="arithmatex">\(",
+    "[/latex]": "\)</span>",
+        "(&lt;https://en.wikipedia.org/w/index.php?title=":" ",
+    "(https://en.wikipedia.org/w/index.php?title=":" ",
+    "s&amp;action=edit&amp;redlink=1":" ",
+}</p>
+<pre><code>
+</code></pre>
+<p>text = clipboard.paste()
+text = replacer(text, dict_of_replace)
+text = regexreplacer(text, dict_regex_replace)
+text = apply_transforms(text, [
+    indent_transform,
+    paragraph_converter,
+])
+clipboard.copy(text)
+```</p>
+<h3 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">¶</a></h3>
+<h4 id="why-not-a-program">Why not a program?<a class="headerlink" href="#why-not-a-program" title="Permanent link">¶</a></h4>
+<h3 id="fin">Fin<a class="headerlink" href="#fin" title="Permanent link">¶</a></h3>
+<p>This article is in the hopes that it will help someone out. Maybe have the help that I did not. I do not know who it will reach. But to whoever it does, best of luck :)</p>
+<p>Like these/Want more? Buy me a coffee! <a href="https://ko-fi.com/subhadityamukherjee">Kofi</a>
+Want articles on something specific? Just ask.
+You can contact me on <a href="https://www.linkedin.com/in/subhaditya-mukherjee-a36883100">LinkedIn</a>, drop me an <a href="mailto:msubhaditya@gmail.com">Email</a></p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../../Scalar/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../../Scalar/">
+        SiteMap
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Pomodoro%20-%20A%20means%20but%20not%20the%20end/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Pomodoro%20-%20A%20means%20but%20not%20the%20end/">
+        Pomodoro   A means but not the end
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

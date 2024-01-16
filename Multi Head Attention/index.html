@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Multi Head Attention - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Multi Head Attention", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Multi%20Task%20Learning/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Multi%20Task%20Learning/">
+        Multi Task Learning
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Motor%20Memories/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Motor%20Memories/">
+        Motor Memories
+      </a>
+</div>
+</div>
+<h2 id="multi-head-attention">Multi Head <a href="../Attention/">Attention</a><a class="headerlink" href="#multi-head-attention" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/1901.02860">ZihangDai et al., 2019</a></li>
+<li>which computes self-<a href="../Attention/">attention</a> over the inputs, then adds back the residual and layer normalizes everything. The <a href="../Attention/">attention</a> head can be split into multiple segments, hence the name <em>multi-head</em></li>
+<li>Multiple <a href="../Attention/">attention</a> instances, each focusing on a different part of the input</li>
+<li>Words can mean different things in context<ul>
+<li>If using <a href="../Self%20Attention/">Self Attention</a>, then this just gets summed up. Which is not very nice</li>
+<li>Several <a href="../Attention/">attention</a> heads -&gt; different output vectors</li>
+<li>Concatenate them and pass through a linear transform -&gt; dimension back to k</li>
+</ul>
+</li>
+<li>
+<div class="arithmatex">\[MultiHead(Q,K,V) = Concat(head_1, head_2, …., head_h)W^O\]</div>
+<ul>
+<li>
+<div class="arithmatex">\[head_i = Attention(QW_i^Q, KW_i^K , VW_i^V)\]</div>
+</li>
+</ul>
+</li>
+<li>W is learnable projections for <a href="../Attention/">attention</a> params</li>
+<li><img alt="im" src="../images/Pasted%20image%2020220307183058.png"/></li>
+<li>To improve efficiency<ul>
+<li>Cut the incoming vector into chunks -&gt; no of <a href="../Attention/">attention</a> heads</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-python">class MultiHeadAttentionNew(nn.Module):
+    def __init__(self, n_head, d_model, d_k, d_v, dropout=0.1):
+        super().__init__()
+        self.n_head = n_head
+
+        self.w_qs = nn.Linear(d_model, n_head * d_k)
+        self.w_ks = nn.Linear(d_model, n_head * d_k)
+        self.w_vs = nn.Linear(d_model, n_head * d_v)
+
+        nn.init.normal_(self.w_qs.weight, mean=0, std=np.sqrt(2.0 / (d_model + d_k)))
+        nn.init.normal_(self.w_ks.weight, mean=0, std=np.sqrt(2.0 / (d_model + d_k)))
+        nn.init.normal_(self.w_vs.weight, mean=0, std=np.sqrt(2.0 / (d_model + d_v)))
+
+        self.fc = nn.Linear(n_head * d_v, d_model)
+        nn.init.xavier_normal_(self.fc.weight)
+        self.dropout = nn.Dropout(p=dropout)
+        self.layer_norm = nn.LayerNorm(d_model)
+
+    def forward(self, q, k, v, mask=None):
+        residual = q
+        q = rearrange(self.w_qs(q), 'b l (head k) -&gt; head b l k', head=self.n_head)
+        k = rearrange(self.w_ks(k), 'b t (head k) -&gt; head b t k', head=self.n_head)
+        v = rearrange(self.w_vs(v), 'b t (head v) -&gt; head b t v', head=self.n_head)
+        attn = torch.einsum('hblk,hbtk-&gt;hblt', [q, k]) / np.sqrt(q.shape[-1])
+        if mask is not None:
+            attn = attn.masked_fill(mask[None], -np.inf)
+        attn = torch.softmax(attn, dim=3)
+        output = torch.einsum('hblt,hbtv-&gt;hblv', [attn, v])
+        output = rearrange(output, 'head b l v -&gt; b l (head v)')
+        output = self.dropout(self.fc(output))
+        output = self.layer_norm(output + residual)
+        return output, attn
+</code></pre>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Multi%20Task%20Learning/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Multi%20Task%20Learning/">
+        Multi Task Learning
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Motor%20Memories/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Motor%20Memories/">
+        Motor Memories
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

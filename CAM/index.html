@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>CAM - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "CAM", url: "#_top", children: [
+              {title: "ChatGPT", url: "#chatgpt" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../CBOW/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../CBOW/">
+        CBOW
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../C-section/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../C-section/">
+        C section
+      </a>
+</div>
+</div>
+<h2 id="cam">CAM<a class="headerlink" href="#cam" title="Permanent link">¶</a></h2>
+<ul>
+<li>@zhouLearningDeepFeatures2016</li>
+<li>Class Activation Mapping</li>
+<li>Similar to [[Network In Network]]</li>
+<li>zeroes out the negative grads during backward pass to provide more visually appealing results</li>
+<li>Uses <a href="../Global%20Average%20Pooling/">Global Average Pooling</a></li>
+<li><img alt="" src="../images/1%21MFqz4qB107yEZUAPrigSEQ.png"/></li>
+<li>
+<div class="arithmatex">\[\alpha_{k}^{c}= \overbrace{\frac{1}{Z}\Sigma_{i}\Sigma_{j}}^\text{global avg pool} \underbrace{\frac{\partial y^{c}}{\partial A^{k}_{ij}}}_\text{grads via backprop}\]</div>
+</li>
+<li>k is the index of the activation map in the last convolutional layer, and c is the class of interest. Alpha computed above shows the importance of feature map <em>k</em> for the target class <em>c</em>.</li>
+<li>Finally, we multiply each activation map by its importance score (i.e. alpha) and sum the values</li>
+</ul>
+<h3 id="chatgpt">ChatGPT<a class="headerlink" href="#chatgpt" title="Permanent link">¶</a></h3>
+<ul>
+<li>The paper, "Learning Deep Features for Discriminative Localization" by Zhou et al. (2016) introduces the concept of Class Activation Mapping (CAM) as a way to visualize which regions of an image are most important for a given classification task. CAM is a technique for generating heatmaps that highlight the regions in an image that are most important for a specific classification. The authors propose to use global average pooling (GAP) in the final convolutional layer to generate a feature map, followed by a linear combination of the feature map and the class weight vector to generate a single class activation map.</li>
+<li>The authors apply CAM to the ResNet architecture and show that it outperforms the traditional fully-connected layer approach in terms of localization performance. They test the CAM on the image classification task using the ILSVRC-2012 dataset. The authors showed that by using CAM, they could identify the specific regions of an image that were important for a given classification, rather than just a "black box" decision made by the model. The authors also demonstrate how CAM can be used for fine-grained recognition, where the model is trained to identify sub-categories within a larger class.</li>
+<li>Additionally, the authors also show that the CAM can be used to improve the interpretability of deep neural networks by providing a visual representation of the model's decision-making process. They also use CAM to identify misclassifications and analyze the model's decision-making process. The authors test CAM on other architectures such as VGG and GoogleNet and show that it can be applied.</li>
+<li>The authors also use CAM for multi-label classification and show that it can identify the regions in an image that are relevant to multiple labels. They also use CAM for action classification in video and show that it can identify the regions of video frames that are important for a given action. They use CAM for object detection and show that it can be used to identify the regions of an image that contain an object of interest.</li>
+<li>The authors use CAM for fine-tuning a pre-trained model on a new dataset and show that it can be used to improve the performance of the model on the new dataset. They also use CAM for unsupervised feature learning and show that it can be used to learn features that are useful for a wide range of tasks. They use CAM for zero-shot learning and show that it can be used to identify the regions of an image that are relevant to a class that the model has never seen before.</li>
+<li>Finally, the authors use CAM for domain adaptation and show that it can be used to identify the regions of an image that are important for a specific task, even when the model has been trained on a different dataset. They also use CAM for weakly-supervised object localization and show that it can be used to identify the regions of an image that contain an object of interest, even when only image-level labels are available. They use CAM for multi-modal learning and show that it can be used to identify the regions of an image that are important for a given task, even when multiple modalities (e.g. image and text) are available.</li>
+<li>The authors conclude that the CAM is a powerful technique for visualizing the decision-making process of a deep neural network and can be used to improve the interpretability, performance, and robustness of deep models.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../CBOW/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../CBOW/">
+        CBOW
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../C-section/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../C-section/">
+        C section
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

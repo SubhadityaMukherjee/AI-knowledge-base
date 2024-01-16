@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Applications of Knowledge Distillation - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Applications of Knowledge Distillation", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Approximately%20Compositional%20Semantic%20Parsing/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Approximately%20Compositional%20Semantic%20Parsing/">
+        Approximately Compositional Semantic Parsing
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Application%20for%20PhD%20-%20AI%20for%20Parkinsons%20%28Subhaditya%20Mukherjee%29/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Application%20for%20PhD%20-%20AI%20for%20Parkinsons%20%28Subhaditya%20Mukherjee%29/">
+        Application for PhD   AI for Parkinsons (Subhaditya Mukherjee)
+      </a>
+</div>
+</div>
+<h2 id="applications-of-knowledge-distillation">Applications of Knowledge Distillation<a class="headerlink" href="#applications-of-knowledge-distillation" title="Permanent link">¶</a></h2>
+<ul>
+<li>Specifically, in (Luo et al., 2016), the knowledge from the chosen informative neurons of top hint layer of the teacher network is trans- ferred into the student network</li>
+<li>A recursive knowledge distillation method was designed by using a previous student network to ini- tialize the next one (Yan et al., 2019). Since most face recognition methods perform the open-set recognition, i.e., the classes/identities on test set are unknown to the training set, the face recognition criteria are usually distance metrics between feature representations of positive and negtive samples, e.g., the angular loss in (Duong et al., 2019) and the correlated embedding loss in (Wu et al., 2020).</li>
+<li>Specifically, Ge et al. (2018) proposed a selective knowledge distillation method, in which the teacher network for high-resolution face recognition selectively transfers its informative facial features into the student network for low-resolution face recognition through sparse graph optimization. In (Kong et al., 2019), cross- resolution face recognition was realized by designing a resolution invariant model unifying both face halluci- nation and heterogeneous recognition sub-nets. To get efficient and effective low resolution face recognition model, the multi-kernel maximum mean discrepancy between student and teacher networks was adopted as the feature loss (Wang et al., 2019c).</li>
+<li>KD-based face recognition can be extended to face alignment and verification by changing the losses in knowledge distillation (Wang et al., 2017).</li>
+<li>For incomplete, ambiguous and redundant image labels, the label refinery model through self-distillation and label progression is proposed to learn soft, informative, collective and dynamic labels for complex image classi- fication (Bagherinezhad et al., 2018).</li>
+<li>To address catas- trophic forgetting with CNN in a variety of image clas- sification tasks, a learning without forgetting method for CNN, including both knowledge distillation and lifelong learning is proposed to recognize a new image task and to preserve the original tasks (Li and Hoiem, 2017).</li>
+<li>For improving image classification accuracy, Chen et al. (2018a) proposed the feature maps-based knowledge distillation method with GAN.</li>
+<li>Similar to the KD-based low-resolution face recognition, Zhu et al. (2019) proposed deep feature distillation for the low-resolution image classification, in which the output features of a student match that of teacher.</li>
+<li>Gordon and Duh (2019) explained the good perfor- mance of sequence-level knowledge distillation from the perspective of data augmentation and regulariza- tion. In (Kim and Rush, 2016), the effective word-level knowledge distillation is extended to the sequence- level one in the sequence generation scenario of NMT. The sequence generation student model mimics the sequence distribution of the teacher. To overcome the multilingual diversity, Tan et al. (2019) proposed multi teacher distillation, in which multiple individual models for handling bilingual pairs are teacher and a mul- tilingual model is student.</li>
+<li>To improve the transla- tion quality, an ensemble of mutiple NMT models as teacher supervise the student model with a data filtering method Freitag et al. (2017).</li>
+<li>(Wei et al., 2019) proposed a novel online knowledge distillation method, which addresses the unstableness of the training process and the decreasing performance on each validation set.</li>
+<li>The proposed pre- trained distillation performs well in sentiment classifi- cation, natural language inference, textual entailment. For a multi-task distillation in the context of natu- ral language understanding, Clark et al. (2019) pro- posed the single-multi born-again distillation, which is based on born-again neural networks (Furlanello et al., 2018).</li>
+<li>In (Perez et al., 2020), a audio-visual multi- modal knowledge distillation method is proposed. knowl- edge is transferred from the teacher models on visual and acoustic data into a student model on audio data.</li>
+<li>Pan et al. (2019) designed a enhanced collaborative <a href="../Denoising%20Autoencoder/">denoising autoencoder</a> (ECAE) model for recommender systems via knowledge distillation to capture useful knowledge from user feedbacks and to reduce noise. The unified ECAE framework contains a generation network, a retraining network and a distillation layer that trans- fers knowledge and reduces noise from the generation network.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Approximately%20Compositional%20Semantic%20Parsing/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Approximately%20Compositional%20Semantic%20Parsing/">
+        Approximately Compositional Semantic Parsing
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Application%20for%20PhD%20-%20AI%20for%20Parkinsons%20%28Subhaditya%20Mukherjee%29/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Application%20for%20PhD%20-%20AI%20for%20Parkinsons%20%28Subhaditya%20Mukherjee%29/">
+        Application for PhD   AI for Parkinsons (Subhaditya Mukherjee)
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

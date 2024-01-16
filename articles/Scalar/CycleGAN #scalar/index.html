@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>CycleGAN #scalar - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Translating Images Using a CycleGAN #scalar", url: "#_top", children: [
+              {title: "Overview", url: "#overview" },
+              {title: "Disclaimer", url: "#disclaimer" },
+              {title: "Scope of the Article", url: "#scope-of-the-article" },
+              {title: "Note About The Code", url: "#note-about-the-code" },
+              {title: "Quick Recap", url: "#quick-recap" },
+              {title: "Latent Space", url: "#latent-space" },
+              {title: "CycleGAN Architecture", url: "#cyclegan-architecture" },
+              {title: "Loss Functions", url: "#loss-functions" },
+              {title: "Other Useful Details About The Architecture", url: "#other-useful-details-about-the-architecture" },
+              {title: "Separate Optimizers", url: "#separate-optimizers" },
+              {title: "Photos To Paintings", url: "#photos-to-paintings" },
+              {title: "More Use Cases", url: "#more-use-cases" },
+              {title: "Limitations", url: "#limitations" },
+              {title: "Conclusion", url: "#conclusion" },
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../DCGAN%20%E2%80%93%20Adding%20convolution%20to%20a%20GAN/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../DCGAN%20%E2%80%93%20Adding%20convolution%20to%20a%20GAN/">
+        DCGAN – Adding convolution to a GAN
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Building%20the%20Word2Vec%20Model%20in%20Gensim/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Building%20the%20Word2Vec%20Model%20in%20Gensim/">
+        Building the Word2Vec Model in Gensim
+      </a>
+</div>
+</div>
+<h2 id="translating-images-using-a-cyclegan-scalar">Translating Images Using a CycleGAN #scalar<a class="headerlink" href="#translating-images-using-a-cyclegan-scalar" title="Permanent link">¶</a></h2>
+<p>:::section{.abstract}</p>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h3>
+<p>The field of computer vision has been trying to create AI that creates never seen before images for decades. Generative networks such as the CycleGAN are part of a long line of such research, but one that performs extremely well in tasks ranging from converting images to paintings to changing the weather in images. The CycleGAN is rather different from many approaches before it as it is an unpaired Image2Image translation task with these tasks being cyclic in nature. In this article, we will explore what all these terms mean and how to put them into practise in a CycleGAN.</p>
+<h3 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permanent link">¶</a></h3>
+<p>This is an intermediate level article and introduces a significant number of new terms. Attempting to understand this article is not recommended before mastering how a <a href="../../../../Basic GAN">basic GAN</a> (eg: DCGAN) works.
+Being so complex, it is advised to slow down and understand a section before moving on to the next.
+:::
+:::section{.scope}</p>
+<h3 id="scope-of-the-article">Scope of the Article<a class="headerlink" href="#scope-of-the-article" title="Permanent link">¶</a></h3>
+<p>This article covers the following concepts
+- What is an unpaired Image2Image task
+- What is GAN and subsequently, what is a CycleGAN
+- Concepts such as Generators, Discriminator, Encoder Decoder architectures
+- Latent space as an easier means of understanding CycleGANs
+- Architectural Details and Training procedure of CycleGANs
+- How to use CycleGANs in various domains
+:::
+:::section{.main}</p>
+<h3 id="note-about-the-code">Note About The Code<a class="headerlink" href="#note-about-the-code" title="Permanent link">¶</a></h3>
+<p>This article does not contain the code to run a CycleGAN. This was done to prevent the article from becoming extremely huge. Instead, every concept that would be required to understand the code is explained in detail below.
+The entire code with examples can be found on the <a href="https://keras.io/examples/generative/cyclegan/">official Tensorflow/Keras documentation website</a>. On understanding this article, this code will become extremely easy to comprehend and use.</p>
+<h3 id="quick-recap">Quick Recap<a class="headerlink" href="#quick-recap" title="Permanent link">¶</a></h3>
+<p>This section gives a recap of the important concepts we need to understand CycleGAN. </p>
+<h4 id="image2image-translation">Image2Image Translation<a class="headerlink" href="#image2image-translation" title="Permanent link">¶</a></h4>
+<p>An image translation task’s objective is to convert from one image to either text or another image. An example of the same would be taking a picture of a sunset and converting that picture to the style of the artist Van Gogh. There are many such Image translation tasks, but the one in consideration in this article is specifically converting from an image to another image aka Image2Image.</p>
+<h4 id="paired-vs-unpaired-translation">Paired vs Unpaired Translation<a class="headerlink" href="#paired-vs-unpaired-translation" title="Permanent link">¶</a></h4>
+<p>An important detail about the CycleGAN is that unlike most other GANs or UNet style architectures, it uses an unpaired translation. This means that the image, label pairs that are being passed into the model are not related to each other. In contrary to say, a classification task where the label passed is the exact label of the image passed. This might be slightly confusing to understand without knowledge of latent space. More explanations can be found in the next section</p>
+<h4 id="gan">GAN<a class="headerlink" href="#gan" title="Permanent link">¶</a></h4>
+<p>GANs are a special class of architectures that have two components, one that tries to get better at a task, and the other that tries to find out how badly the first part is performing. The training procedure is somewhat similar to a game with one component being an “adversary” of the other, hence the term “Adversarial network”. The generative term comes into play as these networks are used to create novel images from existing data.</p>
+<h4 id="adversarial-training">Adversarial Training<a class="headerlink" href="#adversarial-training" title="Permanent link">¶</a></h4>
+<p>A useful analogy to understand how a GAN is trained is the classic “cop” vs “thief” analogy. Assume that the thief in this case is trying to forge a painting by Van Gogh, while the cop tries to prove the thief wrong. The thief first comes up with a forgery, and the cop says no, this is fake and is not the real one because of some reason. The thief then shows a modified image to the cop with minor differences. This scenario repeats until the cop can no longer tell the difference between the real and the fake images.
+This type of training is called adversarial training. Using a second opinion to improve the outputs of the first component of the model. A useful advantage here is that the data does not need to be labelled. </p>
+<h4 id="generator">Generator<a class="headerlink" href="#generator" title="Permanent link">¶</a></h4>
+<p>The generator is the “thief”. It starts with random noise to create a fake image and traverses the latent space until the Discriminator can no longer tell the difference between the fake and the real images.</p>
+<h4 id="discriminator">Discriminator<a class="headerlink" href="#discriminator" title="Permanent link">¶</a></h4>
+<p>Consequently, the discriminator is the “cop”. It is essentially a classifier that returns a metric of how fake the image looks. </p>
+<h4 id="encoder-decoder-architecture">Encoder Decoder Architecture<a class="headerlink" href="#encoder-decoder-architecture" title="Permanent link">¶</a></h4>
+<p>Many networks such as the UNet and GANs have a two sided architecture that involves <a href="../../../../Downsampling">downsampling</a> the image until a point and then upsampling from there on. The Encoder is the first half which downsamples the image and condenses the information in a batch of data down into the smallest possible unit. 
+The decoder does the opposite, it takes this smallest possible unit and attempts to recreate the original input. In the process, it learns how to traverse the latent space and create the required translation. </p>
+<h4 id="residual-block">Residual Block<a class="headerlink" href="#residual-block" title="Permanent link">¶</a></h4>
+<p>The Encoder Decoder architecture has a major drawback, in the process of compressing the image information and reconstructing it, a lot of information is lost during the operations. The Residual Block is the answer to this dilemma. It essentially contains a “Skip Connection” that ensures that the gradients from the previous layer are carried over to the next layer. 
+This is done very simply. If <span class="arithmatex">\(F(x)\)</span> is the network, then for an input <span class="arithmatex">\(x_{i}\)</span>, <span class="arithmatex">\(x_i = F(x_{i-1}) + x_{i-1}\)</span>. </p>
+<h4 id="cost-function">Cost Function<a class="headerlink" href="#cost-function" title="Permanent link">¶</a></h4>
+<p>A cost function is the objective that the network tries to minimise. In essence, it is a metric of how well the network performs with respect to a task. For image classification, it could be CrossEntropy. CycleGAN has a rather complex cost function that is explained in later sections.</p>
+<h3 id="latent-space">Latent Space<a class="headerlink" href="#latent-space" title="Permanent link">¶</a></h3>
+<p>Understanding latent space is the key to fully comprehending the CycleGAN. It can be thought of as an n-dimensional vector space that contains every possible image that can be generated from the given data. It is not possible to entirely visualise this directly but a useful analogy is considering faces. 
+If we consider the faces of every person that we know and “average” them together, we would end up with a “generic face” that has traits from every face that we considered. From this “generic face”, if we were to attempt to recreate any of the other faces, we would have to “add” or “subtract” some features from the face to reach the other one.
+This can be thought of as “traversing” the latent space. Thus in essence, the latent space contains all such possible faces. In theory then, it makes sense to assume that if we can approximate this latent space, we can translate any image to the other by traversing it. The CycleGAN attempts to do just that. Traversal can go in both directions, hence it’s “cyclic” nature.</p>
+<h3 id="cyclegan-architecture">CycleGAN Architecture<a class="headerlink" href="#cyclegan-architecture" title="Permanent link">¶</a></h3>
+<p>The CycleGAN architecture is divided into two major parts - The Generator and the Discriminator. The Generator further has the Encoder, the Transformer and the Decoder as components.</p>
+<h4 id="encoder-block">Encoder Block<a class="headerlink" href="#encoder-block" title="Permanent link">¶</a></h4>
+<p>The encoder uses convolution layers to consolidate information from the data and compress it into the least possible representational unit. The number of channels consequently increase. In the current model, there are 3 convolution operations. The final output of the model reduces the original image size by 3/4th and passes it to the Transformer Block.</p>
+<h4 id="transformer-block">“Transformer” Block<a class="headerlink" href="#transformer-block" title="Permanent link">¶</a></h4>
+<p>The Transformer Block has nothing to do with “Transformer architectures” but is called so because it takes the output of the encoder and transformers it so the decoder can use it. In the CycleGAN, this block has around 6-9 Residual blocks. This is done to ensure maximum information extraction from the compressed representation that the encoder generates.</p>
+<h4 id="decoder-block">Decoder Block<a class="headerlink" href="#decoder-block" title="Permanent link">¶</a></h4>
+<p>The decoder block then takes the inputs from the transformer block and passes it through two de-convolution layers. </p>
+<h4 id="discriminator_1">Discriminator<a class="headerlink" href="#discriminator_1" title="Permanent link">¶</a></h4>
+<p>The Discriminator in the CycleGAN is another type of GAN - “PatchGAN”. This special type of Discriminator uses patches of the input image to map to outputs. Unlike a normal GAN that maps from a 256x256 sized image to a scalar result (“real” or “fake), the PatchGAN maps it to NxN sized arrays of outputs <span class="arithmatex">\(X\)</span> where each <span class="arithmatex">\(X_{i,j}\)</span> maps to (“real”, “fake”).
+This is run as a convolution through the entire image and the results are averaged out.</p>
+<h3 id="loss-functions">Loss Functions<a class="headerlink" href="#loss-functions" title="Permanent link">¶</a></h3>
+<p>CycleGAN uses a mix of three loss functions. Along with adversarial loss, a cycle consistency loss and an identity loss are used to create the final objective function.</p>
+<h4 id="cycle-consistency-loss">Cycle Consistency Loss<a class="headerlink" href="#cycle-consistency-loss" title="Permanent link">¶</a></h4>
+<p>This is the most important part of the CycleGAN research. Considering two image domains <span class="arithmatex">\(X\)</span> and <span class="arithmatex">\(Y\)</span>, the Cycle consistency loss uses two different mappings <span class="arithmatex">\(G: X \rightarrow Y\)</span> and <span class="arithmatex">\(F : Y \rightarrow X\)</span>. These mappings are bijections, aka reverses of each other. (Hence “cyclic”). As a mathematical expression, the Cycle Consistency Loss <span class="arithmatex">\(\mathcal{L}_{cyc}\)</span> can then be represented as <span class="arithmatex">\(<span class="arithmatex">\(\mathcal{L}_{cyc}(G, F, X, Y) = \frac{1}{m}\Sigma_{i=1}^{m}[(F(G(x_{i})-x_{i})+ (G(F(y_{i}))-y_{i})]\)</span>\)</span>.</p>
+<h4 id="identity-loss">Identity Loss<a class="headerlink" href="#identity-loss" title="Permanent link">¶</a></h4>
+<p>Another loss function that CycleGAN proposes is the Identity loss. <span class="arithmatex">\(<span class="arithmatex">\(L_{identity}(G,F) = \mathbb{E}_{y \sim p_{data}(y)}[||G(y)-y)||_{1}] + \mathbb{E}_{x \sim p_{data}(x)}[||F(x)-x)||_{1}]\)</span>\)</span>
+This is especially useful for converting to and from photos and paintings. The loss is used to preserve the color information during transformation and attempts to make sure that the reverse color is not used. If a part of the image looks like it belongs to the target image already, it is not mapped to something else. In principle, it makes the model more conservative if the content to be transformed is not known.</p>
+<h4 id="objectivecost-function">Objective/Cost Function<a class="headerlink" href="#objectivecost-function" title="Permanent link">¶</a></h4>
+<p>The net loss function is therefore a combination of all the three losses just described. A hyper parameter <span class="arithmatex">\(\lambda\)</span> is used to control the strength of the transfer. It is usually set to 10.
+<span class="arithmatex">\(<span class="arithmatex">\(\mathcal{L}_{GAN}(G, F, D_{X}, D_{Y}) = \mathcal{L}_{GAN}(G, D_{Y}, X, Y) + \mathcal{L}_{GAN}(F, D_{X}, X, Y) + \lambda \mathcal{L}_{cyc}(G,F)\)</span>\)</span></p>
+<p>Thus the function that we wish to solve is finding the value of the optimisers that gives the best loss while maintaining the ability to convert to and from the target image. This can be seen in the formula. <span class="arithmatex">\(<span class="arithmatex">\(G^{*},F^{*} =\underset{G,F}{argmin} \underset{D_{X}, D_{Y}}{max} \mathcal{L}_{GAN}(G, F, D_{X}, D_{Y})\)</span>\)</span></p>
+<h3 id="other-useful-details-about-the-architecture">Other Useful Details About The Architecture<a class="headerlink" href="#other-useful-details-about-the-architecture" title="Permanent link">¶</a></h3>
+<p>The CycleGAN paper and code have a lot of interesting tweaks that were done to improve performance. Some of the ones that are not usually mentioned are as follows.</p>
+<h3 id="separate-optimizers">Separate Optimizers<a class="headerlink" href="#separate-optimizers" title="Permanent link">¶</a></h3>
+<p>There are two optimisers for the discriminator and the generator each. (Four in total.) Using two separate optimisers ensure that the model learns to convert images in both directions and minimises the loss for both sets of generators and discriminators.</p>
+<h4 id="instance-normalisation">Instance Normalisation<a class="headerlink" href="#instance-normalisation" title="Permanent link">¶</a></h4>
+<p>Instance normalisation is a regularisation technique that allows the network to remove specific contrast information when transferring style information between images. This technique makes CycleGANs extremely useful for image stylisation tasks.
+The formula is similar to that of Batch Normalisation and is left in this article as a reference. 
+<span class="arithmatex">\(<span class="arithmatex">\(y_{tijk} = \frac{x_{tijk} - \mu_{ti}}{\sqrt{\sigma_{ti}^2 + \epsilon}},
+    \quad
+    \mu_{ti} = \frac{1}{HW}\sum_{l=1}^W \sum_{m=1}^H x_{tilm},
+    \quad
+    \sigma_{ti}^2 = \frac{1}{HW}\sum_{l=1}^W \sum_{m=1}^H (x_{tilm} - mu_{ti})^2\)</span>\)</span></p>
+<h4 id="fractional-stride">Fractional Stride<a class="headerlink" href="#fractional-stride" title="Permanent link">¶</a></h4>
+<p>Most networks use a stride that is a whole number. CycleGAN has two types of convolutions. One type that has a stride of 2, while the other that has a stride of <span class="arithmatex">\(\frac{1}{2}\)</span>. This is a special case of convolution that is also known as a “de-convolution”. A fractional stride upsamples an image from a smaller dimension to a larger one. A whole number stride downsamples it.</p>
+<h4 id="reflection-padding">Reflection Padding<a class="headerlink" href="#reflection-padding" title="Permanent link">¶</a></h4>
+<p>When performing convolutions, the sliding window does not always fit the size of the image to be convolved, padding is used in those cases to make up for the missing pixels. In CycleGAN, a reflection padding is used which just means that the missing pixels are filled in with its neighbouring pixels before being convolved instead of being filled with a “black” 0 pixel. This helps to preserve some more content information.</p>
+<h3 id="photos-to-paintings">Photos To Paintings<a class="headerlink" href="#photos-to-paintings" title="Permanent link">¶</a></h3>
+<p>To convert photos to paintings, the procedure remains exactly the same as before. The only difference is the dataset. As long as the dataset contains images in different folders with different painting style information alongside a folder of plain photos, CycleGAN can convert between them.
+The original paper has many such results. Some of which are shown below.</p>
+<h3 id="more-use-cases">More Use Cases<a class="headerlink" href="#more-use-cases" title="Permanent link">¶</a></h3>
+<p>Just like converting photos to paintings, a similar thought process can be applied to find other uses cases. The ones that the paper mention are as follows :
+- Style Transfer : Same as photos to and from paintings except with other types of imagery than just paintings.
+- Object Transformation : Convert to and from objects within ImageNet classes by traversing the latent space. Eg: Converting apples to oranges, zebras to horses etc.
+- Season Transfer : Converting images taken in Winter to summer and vice versa.</p>
+<h3 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Permanent link">¶</a></h3>
+<p>Every method has its limitations. CycleGAN performs poorly when given geometrical transformations. This is because it is trained to change appearances but it does not penalise changes in geometry. 
+:::
+:::section{.summary}</p>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<p>In this article, we learnt about CycleGAN and all the architectural details required to create it. We explored the concept of a latent space and understood how a GAN works by traversing it. We also looked at many applications of a CycleGAN and how to train one on our own data.
+:::</p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../DCGAN%20%E2%80%93%20Adding%20convolution%20to%20a%20GAN/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../DCGAN%20%E2%80%93%20Adding%20convolution%20to%20a%20GAN/">
+        DCGAN – Adding convolution to a GAN
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Building%20the%20Word2Vec%20Model%20in%20Gensim/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Building%20the%20Word2Vec%20Model%20in%20Gensim/">
+        Building the Word2Vec Model in Gensim
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

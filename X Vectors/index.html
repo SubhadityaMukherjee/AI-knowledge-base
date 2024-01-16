@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>X Vectors - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "X Vectors", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../XAI/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../XAI/">
+        XAI
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Wrist/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Wrist/">
+        Wrist
+      </a>
+</div>
+</div>
+<h2 id="x-vectors">X Vectors<a class="headerlink" href="#x-vectors" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://www.danielpovey.com/files/2018_icassp_xvectors.pdf">X-Vectors: Robust DNN Embeddings for Speaker Recognition</a></li>
+<li>data <a href="Augmentation.md">augmentation</a> to improve performance of deep neural network (DNN) embeddings for speaker recognition</li>
+<li>trained to discriminate between speakers, maps variable-length utterances to fixed-dimensional embeddings called x-vectors</li>
+<li>prior studies have found that embeddings leverage large-scale training datasets better than i-vectors, it can be challenging to collect substantial quantities of labeled data for training</li>
+<li>use data <a href="Augmentation.md">augmentation</a>, consisting of added noise and reverberation, as an inexpensive method to multiply the amount of training data and improve robustness</li>
+<li>Their data <a href="Augmentation.md">augmentation</a> strategy employs additive noises and reverberation</li>
+<li>Reverberation involves convolving room <a href="../Impulse/">impulse</a> responses (RIR) with audio</li>
+<li>simulated RIRs described by <a href="https://danielpovey.com/files/2017_icassp_reverberation.pdf">Ko et al.</a></li>
+<li>reverberation itself is performed with the multicondition training tools in the Kaldi ASpIRE recipe</li>
+<li>For additive noise, they use the <a href="../MUSAN/">MUSAN</a> dataset,</li>
+<li>PLDA classifier is used in the x-vector framework to make the final decision, similar to i-vector systems</li>
+<li>x-vectors are compared with i-vector baselines on <a href="../Speakers%20in%20the%20Wild/">Speakers in the Wild</a> and <a href="../NIST%20SRE%202016%20Cantonese/">NIST SRE 2016 Cantonese</a> where they achieve superior performance on the evaluation datasets</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../XAI/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../XAI/">
+        XAI
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Wrist/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Wrist/">
+        Wrist
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

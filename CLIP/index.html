@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>CLIP - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "CLIP", url: "#_top", children: [
+              {title: "CLIP", url: "#clip_1" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../COCO/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../COCO/">
+        COCO
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../CIFAR/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../CIFAR/">
+        CIFAR
+      </a>
+</div>
+</div>
+<h2 id="clip">CLIP<a class="headerlink" href="#clip" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2103.00020">Learning Transferable Visual Models from Natural Language Supervision</a></li>
+<li>introduces CLIP, a pre-training task which efficiently learns visual concepts from natural language supervision</li>
+<li>performs language-guided image generation</li>
+<li>uses vision and language encoders trained in isolation and uses a <a href="../Contrastive%20Loss/">contrastive loss</a> to bring similar image-text pairs closer, while pulling apart dissimilar pairs as a part of pretaining</li>
+<li>can be applied to any visual classification benchmark by simply providing the names of the visual categories to be recognized, similar to the “zero-shot” capabilities of <a href="../GPT/">GPT</a> and <a href="../GPT3/">GPT3</a></li>
+<li>pre-trains an image encoder and a text encoder to predict which images were paired with which texts in our dataset</li>
+<li>zero-shot classifier</li>
+<li>they convert all of a dataset’s classes into captions such as “a photo of a dog” and predict the class of the caption CLIP estimates best pairs with a given image</li>
+</ul>
+<hr/>
+<p>title: CLIP
+tags: refactor</p>
+<hr/>
+<pre><code class="language-toc"></code></pre>
+<h3 id="clip_1">CLIP<a class="headerlink" href="#clip_1" title="Permanent link">¶</a></h3>
+<ul>
+<li>is a neural network trained on a variety of (image, text) pairs</li>
+<li>Using CLIP, that can be instructed in natural language to predict the most relevant text snippet, given an image, the model has recently merged as a successful representation learner for images</li>
+<li>Concretely, CLIP embeddings have several desirable properties</li>
+<li>they are robust to image distribution shift, have impressive zero-shot capabilities and have been fine-tuned to achieve state-of-theart results</li>
+<li>the CLIP image embedding decoder module is combined with a prior model, which generates possible CLIP image embeddings from a given text caption</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../COCO/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../COCO/">
+        COCO
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../CIFAR/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../CIFAR/">
+        CIFAR
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

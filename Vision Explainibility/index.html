@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Vision Explainibility - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Vision Explainibility", url: "#_top", children: [
+              {title: "Links Useful", url: "#links-useful" },
+              {title: "Flow", url: "#flow" },
+              {title: "Disadvantages", url: "#disadvantages" },
+              {title: "Links", url: "#links" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Vision%20Transformer/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Vision%20Transformer/">
+        Vision Transformer
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Virtue%20ethics/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Virtue%20ethics/">
+        Virtue ethics
+      </a>
+</div>
+</div>
+<h2 id="vision-explainibility">Vision Explainibility<a class="headerlink" href="#vision-explainibility" title="Permanent link">¶</a></h2>
+<h3 id="links-useful">Links Useful<a class="headerlink" href="#links-useful" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="https://captum.ai/docs/algorithms_comparison_matrix">Captum Algos Comparison</a></li>
+</ul>
+<h3 id="flow">Flow<a class="headerlink" href="#flow" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../DeconvNet/">DeconvNet</a> (2013)</li>
+<li><a href="../Deep%20Inside%20Convolutional%20Networks/">Deep Inside Convolutional Networks</a> (2014)</li>
+<li><a href="../Guided%20BackProp/">Guided BackProp</a> (2015) Aka All Conv net<ul>
+<li>Building up on <a href="../Deep%20Inside%20Convolutional%20Networks/">Deep Inside Convolutional Networks</a> and <a href="../DeconvNet/">DeconvNet</a></li>
+</ul>
+</li>
+<li><a href="../Salience%20Map/">Salience Map</a><ul>
+<li>Not class discriminative</li>
+<li>Noise</li>
+<li>Not appealing</li>
+</ul>
+</li>
+<li><a href="../CAM/">CAM</a><ul>
+<li>less noisy</li>
+<li>not class discriminative</li>
+<li>Worked only a restricted set of CNN templates</li>
+</ul>
+</li>
+<li><a href="../Grad-CAM/">Grad-CAM</a><ul>
+<li>class discriminative</li>
+<li>not high res</li>
+<li>Works for any arbitrary CNN</li>
+</ul>
+</li>
+<li><a href="Occlusion%20Map">Occlusion Map</a><ul>
+<li>Same as the next but not very fast</li>
+</ul>
+</li>
+<li><a href="../Guided%20GradCAM/">Guided GradCAM</a></li>
+<li><a href="../DeepLIFT/">DeepLIFT</a></li>
+<li><a href="../Noise%20Tunnel/">Noise Tunnel</a></li>
+<li><a href="../Smooth-Grad/">Smooth-Grad</a></li>
+<li><a href="../SmoothGrad%20Square/">SmoothGrad Square</a></li>
+<li><a href="../VarGrad/">VarGrad</a></li>
+<li><a href="../Integrated%20Gradients/">Integrated Gradients</a></li>
+<li><a href="../Proxy%20Attention/">Proxy Attention</a></li>
+<li><a href="../Conductance/">Conductance</a></li>
+</ul>
+<h3 id="disadvantages">Disadvantages<a class="headerlink" href="#disadvantages" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../The%20Unreliability%20of%20Saliency%20Methods/">The Unreliability of Saliency Methods</a></li>
+<li><a href="../Interpretation%20of%20Neural%20networks%20is%20fragile/">Interpretation of Neural networks is fragile</a></li>
+<li>Fine grained data</li>
+</ul>
+<h3 id="links">Links<a class="headerlink" href="#links" title="Permanent link">¶</a></h3>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Vision%20Transformer/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Vision%20Transformer/">
+        Vision Transformer
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Virtue%20ethics/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Virtue%20ethics/">
+        Virtue ethics
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

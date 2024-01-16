@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Self Supervised Survey - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Self Supervised Survey", url: "#_top", children: [
+              {title: "Abstract", url: "#abstract" },
+              {title: "Motivation", url: "#motivation" },
+              {title: "FORMULATION OF DIFFERENT LEARNING SCHEMAS", url: "#formulation-of-different-learning-schemas" },
+              {title: "NN", url: "#nn" },
+              {title: "Pretext Tasks", url: "#pretext-tasks" },
+              {title: "Datasets", url: "#datasets" },
+              {title: "Other Tasks", url: "#other-tasks" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Self%20Supervised%20Vision%20Transformers/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Self%20Supervised%20Vision%20Transformers/">
+        Self Supervised Vision Transformers
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Self%20Distillation/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Self%20Distillation/">
+        Self Distillation
+      </a>
+</div>
+</div>
+<h2 id="self-supervised-survey">Self Supervised Survey<a class="headerlink" href="#self-supervised-survey" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">¶</a></h3>
+<ul>
+<li>Large-scale labeled data are generally required to train deep neural networks in order to obtain better performance in visual feature learning from images or videos for computer vision applications </li>
+<li>as a subset of unsupervised learning methods, self-supervised learning methods are proposed to learn general image and video features from large-scale unlabeled data without using any human-annotated labels </li>
+</ul>
+<h3 id="motivation">Motivation<a class="headerlink" href="#motivation" title="Permanent link">¶</a></h3>
+<ul>
+<li>The performance of deep convolutional neural networks (ConvNets) greatly depends on their capability and the amount of training data. </li>
+<li>collection and annotation of large-scale datasets are time-consuming and expensive </li>
+<li>Compared to image datasets, collection and annotation of video datasets are more expensive due to the temporal dimension </li>
+<li>To avoid time-consuming and expensive data annotations, many self-supervised methods were proposed to learn visual features from large-scale unlabeled images or videos without using any human annotations </li>
+<li>During the self-supervised training phase, a predefined pretext task is designed for ConvNets to solve, and the pseudo labels for the pretext task are automatically generated based on some attributes of data </li>
+<li>Then the ConvNet is trained to learn object functions of the pretext task </li>
+<li>After the self-supervised training finished, the learned visual features can be further transferred to downstream tasks (especially when only relatively small data available) as pretrained models to improve performance and overcome over- fitting. </li>
+<li>
+<p>shallow layers capture general low-level features like edges, corners, and textures while deeper layers capture task related high-level features </p>
+</li>
+<li>
+<p><a href="../Pseudo%20Label/">Pseudo Label</a></p>
+</li>
+<li>
+<p><a href="../Pretext%20Task/">Pretext Task</a></p>
+</li>
+<li>
+<p><a href="../Downstream%20Task/">Downstream Task</a></p>
+</li>
+<li>
+<p><a href="../Weakly-supervised%20Learning/">Weakly-supervised Learning</a></p>
+</li>
+</ul>
+<h3 id="formulation-of-different-learning-schemas">FORMULATION OF DIFFERENT LEARNING SCHEMAS<a class="headerlink" href="#formulation-of-different-learning-schemas" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p><a href="../Supervised%20Learning%20Formulation/">Supervised Learning Formulation</a></p>
+</li>
+<li>
+<p><a href="../Semi-Supervised%20Learning%20Formulation/">Semi-Supervised Learning Formulation</a></p>
+</li>
+<li>
+<p><a href="../Weakly%20Supervised%20Learning%20Formulation/">Weakly Supervised Learning Formulation</a></p>
+</li>
+<li><a href="../Self-supervised%20Learning/">Self-supervised Learning</a></li>
+</ul>
+<h3 id="nn">NN<a class="headerlink" href="#nn" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../Spatiotemporal%20Convolutional%20Neural%20Network/">Spatiotemporal Convolutional Neural Network</a></li>
+</ul>
+<h3 id="pretext-tasks">Pretext Tasks<a class="headerlink" href="#pretext-tasks" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../Pretext%20Tasks/">Pretext Tasks</a></li>
+</ul>
+<h3 id="datasets">Datasets<a class="headerlink" href="#datasets" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p><a href="../Places/">Places</a></p>
+</li>
+<li>
+<p><a href="../Places365/">Places365</a></p>
+</li>
+<li>
+<p><a href="../SUNCG/">SUNCG</a></p>
+</li>
+<li>
+<p><a href="../SVHN/">SVHN</a></p>
+</li>
+<li>
+<p><a href="../STL-10/">STL-10</a></p>
+</li>
+<li>
+<p><img alt="img_p11_1" src="../images/img_p11_1.png"/> </p>
+</li>
+<li>
+<p><a href="../YFCC100M/">YFCC100M</a></p>
+</li>
+<li>
+<p><a href="../SceneNet%20RGB-D/">SceneNet RGB-D</a></p>
+</li>
+<li>
+<p><a href="../Moment%20in%20Time/">Moment in Time</a></p>
+</li>
+<li>
+<p><a href="../Kinetics/">Kinetics</a></p>
+</li>
+<li>
+<p><a href="../AudioSet/">AudioSet</a></p>
+</li>
+<li>
+<p><a href="../KITTI/">KITTI</a></p>
+</li>
+<li>
+<p><a href="../UCF101/">UCF101</a></p>
+</li>
+<li>
+<p><a href="../HMDB51/">HMDB51</a> </p>
+</li>
+</ul>
+<h3 id="other-tasks">Other Tasks<a class="headerlink" href="#other-tasks" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p><a href="../Image%20Generation%20with%20Inpainting/">Image Generation with Inpainting</a></p>
+</li>
+<li>
+<p><a href="../Image%20Generation%20with%20Super%20Resolution/">Image Generation with Super Resolution</a></p>
+</li>
+<li>
+<p><a href="../Image%20Generation%20with%20Colorization/">Image Generation with Colorization</a></p>
+</li>
+<li>
+<p><a href="../Learning%20with%20Context%20Similarity/">Learning with Context Similarity</a></p>
+</li>
+<li>
+<p><a href="../Learning%20with%20Spatial%20Context%20Structure/">Learning with Spatial Context Structure</a></p>
+</li>
+<li>
+<p><a href="../Learning%20with%20Labels%20Generated%20by%20Game%20Engines/">Learning with Labels Generated by Game Engines</a></p>
+</li>
+<li>
+<p><a href="../Learning%20with%20Labels%20Generated%20by%20Hard-code%20Programs/">Learning with Labels Generated by Hard-code Programs</a></p>
+</li>
+<li>
+<p><a href="../Learning%20from%20Video%20Colorization/">Learning from Video Colorization</a></p>
+</li>
+<li>
+<p><a href="../Learning%20from%20Video%20Prediction/">Learning from Video Prediction</a></p>
+</li>
+<li>
+<p><a href="../Learning%20from%20RGB-Flow%20Correspondence/">Learning from RGB-Flow Correspondence</a></p>
+</li>
+<li>
+<p><a href="../Learning%20from%20Visual-Audio%20Correspondence/">Learning from Visual-Audio Correspondence</a></p>
+</li>
+<li>
+<p><a href="../Ego-motion/">Ego-motion</a></p>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Self%20Supervised%20Vision%20Transformers/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Self%20Supervised%20Vision%20Transformers/">
+        Self Supervised Vision Transformers
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Self%20Distillation/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Self%20Distillation/">
+        Self Distillation
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

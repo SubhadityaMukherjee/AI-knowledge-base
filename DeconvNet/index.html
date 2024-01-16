@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>DeconvNet - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "DeconvNet", url: "#_top", children: [
+              {title: "Summary", url: "#summary" },
+              {title: "Filtering", url: "#filtering" },
+              {title: "Rectification", url: "#rectification" },
+              {title: "Unpooling", url: "#unpooling" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Deductive%20Approaches/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Deductive%20Approaches/">
+        Deductive Approaches
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Declarative%20memory/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Declarative%20memory/">
+        Declarative memory
+      </a>
+</div>
+</div>
+<h2 id="deconvnet">DeconvNet<a class="headerlink" href="#deconvnet" title="Permanent link">¶</a></h2>
+<p><code>toc</code>
+- @zeilerVisualizingUnderstandingConvolutional2013
+- Zeiler, Fergus</p>
+<h3 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h3>
+<ul>
+<li>Deconvnets are designed to work similar to convolutional networks but reverse (reversing pooling component, reversing filter component etc.), and they can be trained using an unsupervised approach.</li>
+<li>To reconstruct the activation on a specific layer, we are attaching deconv layers to corresponding CNN layers</li>
+<li>To examine a reconstruction for a given class c, we have to set all activations except the one responsible for predicting class c to zero.</li>
+<li>Then we can propagate through deconvnet layers and pass all the feature maps as inputs to corresponding layers</li>
+<li>Propagation through the whole deconvnet gives us a representation of the features from the first layer of the original CNN</li>
+<li>This approach causes the saliency map to feature some biases from the first convolutional layer and the representation looks like a localized edge detector</li>
+<li>works better when there is a clear distinction in the feature importance rather than similar values for the whole image</li>
+<li>Basically invert operations between input and the chosen layer.<ul>
+<li>Conv -&gt; Deconv</li>
+<li>Pool -&gt; Unpooling</li>
+<li>ReLU -&gt; ReLU with negative valyes clamped going backward from the activation space to image space</li>
+<li>Pooling is non invertible, but uses a switch module : recover positions of maxima in the forward pass</li>
+</ul>
+</li>
+<li>DeconvNet is a calculation of a backward convolutional network that reuses the weights at each layer from the output layer back to the input image</li>
+<li>The employed mechanisms are deconvolution and unpooling, which are especially designed for CNNs with convolutions, max-pooling, and Rectified Linear Units (ReLUs). The method makes it possible to create feature maps of an input image that activates certain hidden units most, linked to a particular prediction</li>
+<li>With their propagation technique, they identified the most responsible patterns for this output. The patterns are visualized in the input space</li>
+<li>DeconvNet is limited to max-pooling layers, but the unpooling uses an approximate inverse</li>
+</ul>
+<h3 id="filtering">Filtering<a class="headerlink" href="#filtering" title="Permanent link">¶</a></h3>
+<ul>
+<li>Filtering in the original CNN computes feature maps using learned filters. Reversing that operation requires the use of a transposed version of the same filters. Those transposed filters are then applied to the Rectified Unpooled Maps.</li>
+</ul>
+<h3 id="rectification">Rectification<a class="headerlink" href="#rectification" title="Permanent link">¶</a></h3>
+<ul>
+<li>same ReLU non-linearity</li>
+<li>simply just rectifying the values and propagate only non-negative ones to the filtering layer</li>
+</ul>
+<h3 id="unpooling">Unpooling<a class="headerlink" href="#unpooling" title="Permanent link">¶</a></h3>
+<ul>
+<li>The original max-pooling operation is non-invertible, but this approach uses additional variables called switch variables, which are responsible for remembering the locations of the maxima for each pooling region.</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/1%21yfVt0dZ8X6h6WoDFlyAqsw.png"/></li>
+<li><img alt="Pasted image 20221012161759" src="../images/Pasted%20image%2020221012161759.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Deductive%20Approaches/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Deductive%20Approaches/">
+        Deductive Approaches
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Declarative%20memory/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Declarative%20memory/">
+        Declarative memory
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

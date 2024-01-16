@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Textbooks are all you need - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Textbooks Are All You Need", url: "#_top", children: [
+              {title: "Abstract", url: "#abstract" },
+              {title: "Training Details and the Importance of High-quality Data", url: "#training-details-and-the-importance-of-high-quality-data" },
+          ]},
+          {title: "the central ingredient our model relies on textbook-quality training data.", url: "#the-central-ingredient-our-model-relies-on-textbook-quality-training-data", children: [
+              {title: "Filtering of Existing Code Datasets Using a Transformer-based Classifier", url: "#filtering-of-existing-code-datasets-using-a-transformer-based-classifier" },
+              {title: "Creation of Synthetic Textbook-quality Datasets", url: "#creation-of-synthetic-textbook-quality-datasets" },
+              {title: "Model Architecture and Training", url: "#model-architecture-and-training" },
+              {title: "Spikes of Model Capability after Finetuning on CodeExercises", url: "#spikes-of-model-capability-after-finetuning-on-codeexercises" },
+              {title: "Evaluation on Unconventional Problems with LLM Grading", url: "#evaluation-on-unconventional-problems-with-llm-grading" },
+              {title: "Data Pruning for Unbiased Performance Evaluation", url: "#data-pruning-for-unbiased-performance-evaluation" },
+              {title: "N-gram Overlap", url: "#n-gram-overlap" },
+              {title: "Embedding and Syntax-based Similarity Analysis", url: "#embedding-and-syntax-based-similarity-analysis" },
+              {title: "Conclusion", url: "#conclusion" },
+              {title: "Limitation of Phi-1", url: "#limitation-of-phi-1" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Textless%20Speech%20Emotion%20Conversion/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Textless%20Speech%20Emotion%20Conversion/">
+        Textless Speech Emotion Conversion
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Text%20Segmentation/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Text%20Segmentation/">
+        Text Segmentation
+      </a>
+</div>
+</div>
+<h2 id="textbooks-are-all-you-need">Textbooks Are All You Need<a class="headerlink" href="#textbooks-are-all-you-need" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li><em>Summary</em> : This paper proposes a new code assisting model that uses Python text books to train as textbooks have more curated knowledge. There are quite a few limitations such as not learning, maths and being specific to the type of textbooks used. </li>
+</ul>
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">¶</a></h3>
+<ul>
+<li>phi-1 </li>
+<li>new large language model for code, </li>
+<li>significantly smaller size than competing models: </li>
+<li>Transformer-based model with 1.3B parameters, trained for 4 days on 8 A100s, using a selection of "textbook quality" data from the web (6B tokens) </li>
+<li>synthetically generated textbooks and exercises with GPT-3.5 </li>
+<li>surprising emergent properties compared to phi-1-base, our model before our finetuning stage on a dataset of coding exercises, and phi-1-small, a smaller model with 350M parameters trained with the same pipeline as phi-1 that still achieves 45% on HumanEval.  </li>
+<li><img alt="img_p1_1" src="../images/img_p1_1.png"/> </li>
+</ul>
+<h3 id="training-details-and-the-importance-of-high-quality-data">Training Details and the Importance of High-quality Data<a class="headerlink" href="#training-details-and-the-importance-of-high-quality-data" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="img_p1_2" src="../images/img_p1_2.png"/> </li>
+<li>
+<h2 id="the-central-ingredient-our-model-relies-on-textbook-quality-training-data">the central ingredient our model relies on textbook-quality training data.<a class="headerlink" href="#the-central-ingredient-our-model-relies-on-textbook-quality-training-data" title="Permanent link">¶</a></h2>
+</li>
+<li>training data. Unli+ke previous work that used standard sources of text data for code generation, such as The Stack [KLA 22] (which contains sourcecode from repositor+ies with permissive licenses) and other not optimal for teaching the model how to reason and plan algorithmically. </li>
+<li>The standard code datasets [KLA+22, LCC+22] form a large and diverse corpus covering broad range of topics and use cases. </li>
+<li>sufer from several drawbacks: </li>
+<li>samples are not self-contained, meaning that they depend on other modules or files that are external to the snippet, making them hard to understand without additional context. </li>
+<li>Typical examples do not involve any meaningful computation, but rather consist of trivial or boilerplate code, such as defining constants, setting parameters, or configuring GUI element </li>
+<li>Samples that do contain algorithmic logic are often buried inside complex or poorly documented functions, making them dicult to follow or learn from. </li>
+<li>examples are skewed towards certain topics or use cases, resulting in an unbalanced distribution of coding concepts and skills across the dataset. </li>
+<li>language models would benefit from a training set that has the same qualities as what a human would perceive as a good "textbook": it should be clear, self-contained, instructive, and balanced. </li>
+<li>three main datasets: </li>
+<li>filtered code-language dataset </li>
+<li>subset of The Stack and StackOverflow, obtained by using a language model-based classifier (consisting of about 6B tokens). </li>
+<li>synthetic textbook dataset </li>
+<li>&lt;1B tokens of GPT-3.5 generated Python textbooks. </li>
+<li>small synthetic exercises dataset </li>
+<li>∼180M tokens of Python exercises and solutions. </li>
+<li>s of Python exercises and solutions. contain less than 7B tokens </li>
+<li>CodeTextbook </li>
+</ul>
+<h3 id="filtering-of-existing-code-datasets-using-a-transformer-based-classifier">Filtering of Existing Code Datasets Using a Transformer-based Classifier<a class="headerlink" href="#filtering-of-existing-code-datasets-using-a-transformer-based-classifier" title="Permanent link">¶</a></h3>
+<ul>
+<li>Python subset of the deduplicated version of The Stack and the StackOverflow, which together contain over 35 million files/samples, totalling over 35B tokens. </li>
+<li>annotate the quality of a small subset of these files (about 100k samples) using GPT- 4: given a code snippet, the model is prompted to "determine its educational value for a student whose goal is to learn basic coding concepts". </li>
+<li>use this annotated dataset to train a random forest classifier that predicts the quality of a file/sample using its output embedding from a pretrained codegen model as features. </li>
+<li>unlike GPT-3.5, which we use extensively to generate synthetic content (discussed below), we use GPT-4 minimally only for annotations on the quality of a small subset of The Stack and StackOverflow  </li>
+<li><img alt="img_p4_1" src="../images/img_p4_1.png"/> </li>
+</ul>
+<h3 id="creation-of-synthetic-textbook-quality-datasets">Creation of Synthetic Textbook-quality Datasets<a class="headerlink" href="#creation-of-synthetic-textbook-quality-datasets" title="Permanent link">¶</a></h3>
+<ul>
+<li>main challenges in creating a high-quality dataset for code generation is ensuring that the examples are diverse and non-repetitive. </li>
+<li>the examples should cover a wide range of coding concepts, skills, and scenarios, and that they should vary in their level of diculty, complexity, and style. </li>
+<li>exposes the language model to diferent ways of expressing and solving problems in code, it reduces the risk of overfitting or memorizing specific patterns or solutions, and it increases the generalization and robustness of the model to unseen or novel tasks </li>
+<li>not trivial, especially when using synthetic data generated by another language model. </li>
+<li>Simply prompting the model to produce a coding textbook or a set of exercises, even with some variation in the instructions or the parameters, will likely result in a very homogeneous and redundant dataset, where the same concepts and solutions are repeated over and over with minor changes. </li>
+<li>language models tend to follow the most probable or common paths given their training data and their priors, and they lack the creativity or the incentive to explore alternative or novel ways of generating code. </li>
+<li>one needs to find the right "trick" </li>
+<li>The synthetic textbook dataset </li>
+<li>diversity is obtained by providing constraints on topics and target audience of the generated textbook  </li>
+<li><img alt="img_p5_1" src="../images/img_p5_1.png"/> </li>
+<li>The CodeExercises dataset </li>
+<li>conduct explicit decontamination and alternative evaluations in the following sections to ensure that problems similar to those from HumanEval benchmark are not seen during finetuning.  </li>
+<li><img alt="img_p6_1" src="../images/img_p6_1.png"/> </li>
+</ul>
+<h3 id="model-architecture-and-training">Model Architecture and Training<a class="headerlink" href="#model-architecture-and-training" title="Permanent link">¶</a></h3>
+<ul>
+<li>some recent models like CodeGen [NPH+22], PaLM [CND+22], and GPT-NeoX [BBH+22]. The architecture for our 1.3B parameter phi-1 model consists of 24 layers, hidden dimension of 2048, MLP-inner dimension of 8192, and 32 attention heads of dimension 64 each. The smaller 350M parameter phi- 1-small model consists of 20 layers, hidden dimension of 1024, MLP-inner dimension+of 4096, and 16 attention heads of dimension 64 each. We also use a rotary position+embedding [SLP 21] with rotary </li>
+<li>could further boost performance and eciency [LAZ 23]. </li>
+<li>For both pretraining and finetuning, we concatenate our respective datasets into a single dimensional </li>
+<li>array with </li>
+<li>array with "  endoftext  " token used for separating the files. We train our models on sequence length of optimizer, linear-warmup-linear-decay learning rate schedule, and attention and residual dropout of 0.1. </li>
+<li>Pretraining </li>
+<li>phi-1-base was trained on the CodeTextbook dataset </li>
+<li>phi-1 is obtained by finetuning phi-1-base on the CodeExercises dataset. </li>
+</ul>
+<h3 id="spikes-of-model-capability-after-finetuning-on-codeexercises">Spikes of Model Capability after Finetuning on CodeExercises<a class="headerlink" href="#spikes-of-model-capability-after-finetuning-on-codeexercises" title="Permanent link">¶</a></h3>
+<ul>
+<li>the model after finetuning also exhibits a substantial improvement in executing tasks that are not featured in the finetuning dataset. </li>
+<li>This includes managing intricate algorithmic tasks and using external libraries. </li>
+<li>suggests that our finetuning process might have helped the model in reorganizing and consolidating the knowledge acquired during pretraining, even if such knowledge is not explicitly present in our CodeExercises dataset </li>
+<li>Finetuning improves the model's understanding </li>
+<li>Finetuning improves the model's ability to use external libraries </li>
+</ul>
+<h3 id="evaluation-on-unconventional-problems-with-llm-grading">Evaluation on Unconventional Problems with LLM Grading<a class="headerlink" href="#evaluation-on-unconventional-problems-with-llm-grading" title="Permanent link">¶</a></h3>
+<ul>
+<li>A potential concern with the surprisingly good performance of phi-1 on HumanEval (see Table 1 and Figure 2.1) is that there might be memorization stemming from contamination of the CodeExercises dataset1 </li>
+<li>To minimize bias and leakage, the new evaluation problems were created by a dedicated team in our group that did not access the CodeExercises dataset or the final model. </li>
+<li>They created 50 new problems in the same format as HumanEval with instructions to design problems that are unlikely to appear in real-world code bases or as coding exercises. </li>
+<li>To evaluate candidate solutions, we therefore adopt the approach of using GPT-4 to grade the solution </li>
+<li>This approach has two distinct advantages: (1) by using GPT-4 as a grader, we can leverage its knowledge and generative abilities to obtain a more fine-grained and meaningful signal of the student model's coding capabilities, and (2) it obviates the need for tests </li>
+<li>Our prompt instructs the LLM to evaluate a student's solution first in a short verbal evaluation followed by grades from 0 to 10 </li>
+</ul>
+<h3 id="data-pruning-for-unbiased-performance-evaluation">Data Pruning for Unbiased Performance Evaluation<a class="headerlink" href="#data-pruning-for-unbiased-performance-evaluation" title="Permanent link">¶</a></h3>
+<ul>
+<li>training on CodeExercises leads to a substantial boost in the performance of the model on the HumanEval benchmark </li>
+<li>To investigate this boost, we propose to prune the CodeExercises dataset by removing files that are "similar" to those in HumanEval. </li>
+<li>"strong form" of data decontamination. </li>
+<li>retrain our model on such pruned data, and still observe strong performance on HumanEval. </li>
+<li>such data pruning experiment is a fair way to evaluate performance </li>
+</ul>
+<h3 id="n-gram-overlap">N-gram Overlap<a class="headerlink" href="#n-gram-overlap" title="Permanent link">¶</a></h3>
+<ul>
+<li>N-gram measures the similarity of text segments based on the shared n-word sequences. </li>
+<li>n-gram overlap between the docstrings of each humaneval question and each exercise in the CodeExercises dataset that was generated </li>
+<li>found 4 humaneval questions with 13-gram overlap with at least one of the entries in our dataset </li>
+<li>all the 4 overlap cases in the 13-gram are all false positives such as the example # below. </li>
+<li>Our n-gram overlap analysis shows that our dataset has minimal letter-by-letter overlap with HumanEval. </li>
+</ul>
+<h3 id="embedding-and-syntax-based-similarity-analysis">Embedding and Syntax-based Similarity Analysis<a class="headerlink" href="#embedding-and-syntax-based-similarity-analysis" title="Permanent link">¶</a></h3>
+<ul>
+<li>now turn to the pruning experiments </li>
+<li>n-gram analysis is not refined enough to find similar code snippets between HumanEval and CodeExercises </li>
+<li>combination of embedding and syntax-based distances. </li>
+<li>For the embedding distance we compute the L2 distance </li>
+<li>between the embedding of+the code snippets where the embedding is derived from a pre-trained CodeGenMono 350M model [NPH 23]. </li>
+<li>For the syntax-based distance we calculate the (string) edit distance between the abstract syntax trees (ASTs) of two given code snippets.  </li>
+<li><img alt="img_p9_1" src="../images/img_p9_1.png"/> </li>
+</ul>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<ul>
+<li>Just as a comprehensive, well-crafted textbook can provide a student with the necessary knowledge to master a new subject, our work demonstrates the remarkable impact of high-quality data in honing a language model's proficiency in code- generation tasks. </li>
+<li>By crafting "textbook quality" data we were able to train a model that surpasses almost all open-source models on coding benchmarks such as HumanEval and MBPP despite being 10x smaller in model size and 100x smaller in dataset size. </li>
+<li>phi-1 is specialized in Python coding </li>
+<li>phi-1 lacks the domain-specific knowledge of larger models such as programming with specific APIs or using less common packages. </li>
+<li>due to the structured nature of the datasets and the lack of diversity in terms of language and style, phi-1 is less robust to stylistic variations or errors in the </li>
+</ul>
+<h3 id="limitation-of-phi-1">Limitation of Phi-1<a class="headerlink" href="#limitation-of-phi-1" title="Permanent link">¶</a></h3>
+<ul>
+<li>Our model is sensitive to various perturbations of prompts. </li>
+<li>First, its performance drops significantly as the length of the prompt increases, as it tends to ignore, forget or misinterpret parts of the prompt when it is too long </li>
+<li>phi-1 demonstrates less robustness in handling natural language compared to ChatGPT or StarCoder, particularly with ambiguous prompts. </li>
+<li>This may be because we filter out certain types of data from the training process to guarantee textbook-level quality. </li>
+<li>A primary constraint of our model, particularly when contrasted with alternatives like StarCoder, lies in its performance on tasks involving counting and spatial reasoning </li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Textless%20Speech%20Emotion%20Conversion/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Textless%20Speech%20Emotion%20Conversion/">
+        Textless Speech Emotion Conversion
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Text%20Segmentation/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Text%20Segmentation/">
+        Text Segmentation
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

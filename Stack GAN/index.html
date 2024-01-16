@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Stack GAN - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Stack GAN", url: "#_top", children: [
+          ]},
+          {title: "todo", url: "#todo", children: [
+              {title: "Architecture", url: "#architecture" },
+              {title: "Introduction", url: "#introduction" },
+              {title: "Conditioning Augmentation", url: "#conditioning-augmentation" },
+              {title: "Stage-I GAN", url: "#stage-i-gan" },
+              {title: "Stage-II GAN", url: "#stage-ii-gan" },
+              {title: "Model Architecture.", url: "#model-architecture" },
+              {title: "Datasets and evaluation metrics CUB", url: "#datasets-and-evaluation-metrics-cub" },
+              {title: "Conclusions", url: "#conclusions" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Stacking%20RNN/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Stacking%20RNN/">
+        Stacking RNN
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Stable%20Difusion/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Stable%20Difusion/">
+        Stable Difusion
+      </a>
+</div>
+</div>
+<h2 id="stack-gan">Stack GAN<a class="headerlink" href="#stack-gan" title="Permanent link">¶</a></h2>
+<ul>
+<li>
+<h2 id="todo">todo<a class="headerlink" href="#todo" title="Permanent link">¶</a></h2>
+</li>
+</ul>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>Text to Image synthesis</li>
+<li>StackGAN decomposes the hard problem into more manageable sub-problems through a sketch-refinement process.</li>
+<li>The Stage-I GAN sketches the primitive shape and colors of the object based on the given text description, yielding Stage-I low-resolution images.</li>
+<li>The Stage-II GAN takes Stage-I results and text descriptions as inputs and generates high-resolution images with photo-realistic details. It is able to rectify defects in Stage-I results and add compelling details with the refinement process</li>
+<li>Multi Modal. Large no of ims that fit the given text</li>
+</ul>
+<h3 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p><img alt="1AB51847-C4BA-4F4A-A2AD-8E270B789B8E.webp" src="../images/1AB51847-C4BA-4F4A-A2AD-8E270B789B8E.webp"/></p>
+</li>
+<li>
+<p>256×256 photo-realistic images conditioned on text descriptions. sketch-refinement process.</p>
+</li>
+<li>Conditioning Augmentation technique that encourages smoothness in the latent conditioning manifold.</li>
+</ul>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h3>
+<ul>
+<li>Generating photo-realistic images from text is an important problem and has tremendous applications, including photo-editing, computer-aided design, etc</li>
+<li>very difficult to train GAN to generate high-resolution photo-realistic images from text descriptions</li>
+<li>Simply adding more upsampling layers in state-ofthe-art GAN models for generating high-resolution (e.g., 256×256) images generally results in training instability</li>
+<li>supports of natural image distribution and implied model distribution may not overlap in high dimensional pixel space</li>
+<li>more severe as the image resolution increases In analogy to how human painters draw</li>
+<li>By conditioning on the Stage-I result and the text again, Stage-II GAN learns to capture the text information that is omitted by Stage-I GAN and draws more details for the object.</li>
+</ul>
+<h3 id="conditioning-augmentation">Conditioning Augmentation<a class="headerlink" href="#conditioning-augmentation" title="Permanent link">¶</a></h3>
+<ul>
+<li>Conditioning Augmentation technique to produce additional conditioning variables cˆ</li>
+<li>we randomly sample the latent variables cˆ from an independent Gaussian distribution <span class="arithmatex">\(\mathcal{N}(\mu(\varphi_{t}), \Sigma(\varphi_{t}))\)</span>, where the mean <span class="arithmatex">\(\mu(\varphi_{t})\)</span> and diagonal covariance matrix <span class="arithmatex">\(\Sigma(\varphi_{t})\)</span> are functions of the text embedding <span class="arithmatex">\(\varphi_{t}\)</span></li>
+<li>The proposed Conditioning Augmentation yields more training pairs given a small number of imagetext pairs, and thus encourages robustness to small perturbations along the conditioning manifold</li>
+<li><a href="../Regularization/">regularization</a> term to the objective of the generator during training <span class="arithmatex">\(<span class="arithmatex">\(D_{KL}(\mathcal{N}(\mu(\varphi_{t}), \Sigma(\varphi_{t})) || \mathcal{N}(0,I))\)</span>\)</span></li>
+<li><a href="../KL%20Divergence/">KL Divergence</a> between the standard Gaussian distribution and the conditioning Gaussian distribution</li>
+<li>The randomness introduced in the Conditioning Augmentation is beneficial for modeling text to image translation as the same sentence usually corresponds to objects with various poses and appearances.</li>
+</ul>
+<h3 id="stage-i-gan">Stage-I GAN<a class="headerlink" href="#stage-i-gan" title="Permanent link">¶</a></h3>
+<ul>
+<li><span class="arithmatex">\(\varphi_{t}\)</span> be the text embedding of the given description</li>
+<li>The Gaussian conditioning variables <span class="arithmatex">\(\hat c_{0}\)</span> for text embedding are sampled from N(μ0(φt),Ʃ0(φt)) to capture the meaning of <span class="arithmatex">\(\varphi_{t}\)</span> with variations</li>
+<li>Conditioned on cˆ0 and random variable z, Stage-I GAN trains the discriminator D0 and the generator G0 by alternatively maximizing <span class="arithmatex">\(\mathcal{L}_{D_{0}}\)</span> in Eq. (3) and minimizing <span class="arithmatex">\(\mathcal{L}_{G_{0}}\)</span></li>
+<li>
+<div class="arithmatex">\[\mathcal{L}_{D_{0}} = \mathbb{E}_{(I_{0},t)\sim p_{data}}[log D_{0}(I_{0}, \varphi_{t})]+\mathbb{E}_{z \sim p_{z}, t \sim p_{data}}[log(1- D_{0}(G_{0}(z , \hat{c_{0}}, \varphi_{t})))]\]</div>
+</li>
+<li>
+<div class="arithmatex">\[\mathcal{L}_{G_{0}}= \mathbb{E}_{z \sim p_{z}, t \sim p_{data}}[log(1- D_{0}(G_{0}(z, \hat{c_{0}}),\varphi_{t}))] + \lambda D_{KL}(\mathcal{N}(\mu_{0}(\varphi_{t}), \Sigma_{0}(\varphi_{t}))|| \mathcal{N}(0, I))\]</div>
+</li>
+<li>where the real image I0 and the text description t are from the true data distribution pdata</li>
+<li>z is a noise vector randomly sampled from a given distribution pz (Gaussian distribution in this paper</li>
+<li>λ is a <a href="../Regularization/">regularization</a> parameter that balances the two terms</li>
+<li>λ = 1 for all the exps.</li>
+<li>both <span class="arithmatex">\(\mu_{0}(\varphi_{t})\)</span> and <span class="arithmatex">\(\Sigma_{0}(\varphi_{t})\)</span> are learned jointly with the rest of the network.</li>
+<li>For the generator G0, to obtain text conditioning variable cˆ0, the text embedding φt is first fed into a fully connected layer to generate μ0 and σ0 (σ0 are the values in the diagonal of Ʃ0) for the Gaussian distribution N(μ0(φt),Ʃ0(φt)</li>
+<li>ˆ0 are then sampled from the Gaussian distribution cˆ = μ +σ ⊙ε</li>
+<li>trained by alternatively maximizing LD in Eq. (5) and minimizing LG in Eq. (6),</li>
+<li>concatenated with a Nz dimensional noise vector to generate a W0 × H0 image by a series of up-sampling blocks</li>
+<li>the text embedding φt is first compressed to Nd dimensions using a fully-connected layer</li>
+<li>and then spatially replicated to form a Md × Md × Nd tensor.</li>
+<li>the image is fed through a series of down-sampling blocks until it has Md × Md spatial dimension</li>
+<li>Then, the image filter map is concatenated along the channel dimension with the text tensor</li>
+<li>The resulting tensor is further fed to a 1×1 convolutional layer to jointly learn features across the image and the text.</li>
+<li>Finally, a fullyconnected layer with one node is used to produce the decision score.</li>
+</ul>
+<h3 id="stage-ii-gan">Stage-II GAN<a class="headerlink" href="#stage-ii-gan" title="Permanent link">¶</a></h3>
+<ul>
+<li>Low-resolution images generated by Stage-I GAN usually lack vivid object parts and might contain shape distortions.</li>
+<li>is conditioned on low-resolution images and also the text embedding again to correct defects in Stage-I results</li>
+<li>The Stage-II GAN completes previously ignored text information to generate more photo-realistic details.</li>
+<li>Conditioning on the low-resolution result s0 = G0(z, cˆ0) and Gaussian latent variables cˆ</li>
+<li>Different from the original GAN formulation, the random noise z is not used in this stage with the assumption that the randomness has already been preserved by s0</li>
+<li>Gaussian conditioning variables cˆ used in this stage and cˆ0 used in Stage-I GAN share the same pre-trained text encoder, generating the same</li>
+<li></li>
+<li>text embedding φt.</li>
+<li>StageI and Stage-II Conditioning Augmentation have different fully connected layers for generating different means and standard deviations</li>
+<li>In this way, Stage-II GAN learns to capture useful information in the text embedding that is omitted by Stage-I GAN.</li>
+</ul>
+<h3 id="model-architecture">Model Architecture.<a class="headerlink" href="#model-architecture" title="Permanent link">¶</a></h3>
+<ul>
+<li>Stage-II generator as an encoder-decoder network with residual blocks</li>
+<li>text embedding φt is used to generate the Ng dimensional text conditioning vector cˆ</li>
+<li>spatially replicated to form a Mg ×Mg ×Ng tensor</li>
+<li>Stage-I result s0 generated by Stage-I GAN is fed into several <a href="../Downsampling/">downsampling</a> blocks (i.e., encoder) until it has a spatial size of Mg × Mg</li>
+<li>The image features and the text features are concatenated along the channel dimension</li>
+<li>The encoded image features coupled with text features are fed into several residual blocks, which are designed to learn multi-modal representations across image and text feature</li>
+<li>
+<p>series of up-sampling layers</p>
+</li>
+<li>
+<p>are used to generate a W ⇥H high-resolution</p>
+</li>
+<li>Such a generator is able to help rectify defects in the input image while add</li>
+<li>more details to generate the realistic high-resolution image.</li>
+<li>For the discriminator, its structure is similar to that of Stage-I discriminator with only extra down-sampling blocks since the image size is larger in this stage</li>
+<li>To explicitly enforce GAN to learn better alignment between the image and the conditioning text, rather than using the vanilla discriminator, we adopt the matching-aware discriminator</li>
+<li>During training, the discriminator takes real images and their corresponding text descriptions as positive sample pairs, whereas negative sample pairs consist of two groups</li>
+<li>Implementation details</li>
+<li>up-sampling blocks consist of the nearest-neighbor upsampling followed by a 3⇥3 stride 1 convolution</li>
+<li></li>
+<li>Batch normalization [11] and ReLU activation are applied after every convolution except the last one</li>
+<li>The residual blocks consist of 3⇥3 stride 1 convolutions, Batch normalization and ReLU. Two residual blocks are used in 128⇥128 StackGAN models while four are used in 256⇥256 models. The down-sampling blocks consist of 4⇥4 stride 2 convolutions, Batch normalization and LeakyReLU, except that the first one does not have Batch normalization.</li>
+<li>Bydefault,Ng =128,Nz =100,Mg =16,Md =4, Nd = 128, W0 = H0 = 64 and W = H = 256</li>
+<li>For training, we first iteratively train D0 and G0 of Stage-I GAN for 600 epochs by fixing Stage-II GAN</li>
+<li>Then we iteratively train D and G of Stage-II GAN for another 600 epochs by fixing Stage-I GAN.</li>
+<li>All networks are trained using ADAM solver with batch size 64 and an initial learning rate of 0.0002. The learning rate is decayed to 1/2 of its previous value every 100 epochs.</li>
+</ul>
+<h3 id="datasets-and-evaluation-metrics-cub">Datasets and evaluation metrics CUB<a class="headerlink" href="#datasets-and-evaluation-metrics-cub" title="Permanent link">¶</a></h3>
+<ul>
+<li>Oxford-102</li>
+<li>MS COCO</li>
+<li>Evaluation metrics</li>
+<li>inception score</li>
+<li>I = exp(ExDKL(p(y|x) || p(y))),</li>
+<li>where x denotes one generated sample, and y is the label predicted by the Inception model</li>
+<li>he intuition behind this metric is that good models should generate diverse but meaningful images.</li>
+<li>Therefore, the KL divergence between the marginal distribution p(y) and the conditional distribution p(y|x) should be larg</li>
+</ul>
+<h3 id="conclusions">Conclusions<a class="headerlink" href="#conclusions" title="Permanent link">¶</a></h3>
+<ul>
+<li>The proposed method decomposes the text-to-image synthesis to a novel sketch-refinement process.</li>
+<li></li>
+<li>Stage-I GAN sketches the object following basic color and shape constraints from given text descriptions. Stage-II GAN corrects the defects in Stage-I results and adds more details, yielding higher resolution images with better image quality</li>
+<li>Compared to existing text-to-image generative models, our method generates higher resolution images (e.g., 256⇥256) with more photo-realistic details and diversity.
+*</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Stacking%20RNN/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Stacking%20RNN/">
+        Stacking RNN
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Stable%20Difusion/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Stable%20Difusion/">
+        Stable Difusion
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

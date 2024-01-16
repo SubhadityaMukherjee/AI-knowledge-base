@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>PromptIR - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "PromptIR", url: "#_top", children: [
+              {title: "Method", url: "#method" },
+          ]},
+          {title: "aim to learn a single model M to restore an image I from a degraded image I, that has been degraded using a degradation D, while having no prior information about D.", url: "#aim-to-learn-a-single-model-m-to-restore-an-image-i-from-a-degraded-image-i-that-has-been-degraded-using-a-degradation-d-while-having-no-prior-information-about-d", children: [
+          ]},
+          {title: "Each level of the encoder-decoder employs several Transformer blocks, with the number of blocks gradually increasing from the top level to the bottom level to maintain computational efficiency.", url: "#each-level-of-the-encoder-decoder-employs-several-transformer-blocks-with-the-number-of-blocks-gradually-increasing-from-the-top-level-to-the-bottom-level-to-maintain-computational-efficiency", children: [
+              {title: "Prompt Block", url: "#prompt-block" },
+              {title: "Prompt Generation Module", url: "#prompt-generation-module" },
+          ]},
+          {title: "dynamically predicts attention-based weights from the input features and apply them to prompt components to yield input-conditioned prompts P", url: "#dynamically-predicts-attention-based-weights-from-the-input-features-and-apply-them-to-prompt-components-to-yield-input-conditioned-prompts-p", children: [
+              {title: "Prompt Interaction Module", url: "#prompt-interaction-module" },
+          ]},
+          {title: "In PIM, we concatenate the generated prompts with the input features along the channel dimension.", url: "#in-pim-we-concatenate-the-generated-prompts-with-the-input-features-along-the-channel-dimension", children: [
+              {title: "", url: "#_1" },
+          ]},
+          {title: "cropped patches of size 128 x 128", url: "#cropped-patches-of-size-128-x-128", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Propose-but-verify/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Propose-but-verify/">
+        Propose-but-verify
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Programmable%20Logical%20Controller%20%28PLC%29/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Programmable%20Logical%20Controller%20%28PLC%29/">
+        Programmable Logical Controller (PLC)
+      </a>
+</div>
+</div>
+<h2 id="promptir">PromptIR<a class="headerlink" href="#promptir" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li><em>Summary</em> : Summary : Uses a transformer network to prediction a "prompt" that says how degraded an image is. And based on that, decides what module to use. </li>
+<li>Deep learning-based methods have significantly improved image restoration performance, however, they have limited generalization ability to different degradation types and levels </li>
+<li>requires training individual models for each specific degradation and knowing the input degradation type to apply the relevant model. </li>
+<li>prompt-based learning approach, PromptIR, for All-In-One image restoration that can effectively restore images from various types and levels of degradation </li>
+<li>uses prompts to encode degradation-specific information </li>
+<li>generic and efficient plugin module with few lightweight prompts that can be used to restore images of various types and levels of degradation with no prior information on the corruptions present in the image  </li>
+<li><img alt="img_p1_1" src="../images/img_p1_1.png"/> </li>
+<li>AirNet </li>
+<li>addresses the all-in-one restoration task by employing the contrastive learning paradigm. </li>
+<li>involves training an extra encoder to differentiate various types of image degradations </li>
+<li>Although AirNet [29] yields state-of-the-art results, it struggles to model fully disentangled representations of different corruption types </li>
+<li>Furthermore, the usage of an additional encoder for contrastive learning leads to a higher training burden due to the two-stage training approach. </li>
+</ul>
+<h3 id="method">Method<a class="headerlink" href="#method" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<h2 id="aim-to-learn-a-single-model-m-to-restore-an-image-i-from-a-degraded-image-i-that-has-been-degraded-using-a-degradation-d-while-having-no-prior-information-about-d">aim to learn a single model M to restore an image I from a degraded image I, that has been degraded using a degradation D, while having no prior information about D.<a class="headerlink" href="#aim-to-learn-a-single-model-m-to-restore-an-image-i-from-a-degraded-image-i-that-has-been-degraded-using-a-degradation-d-while-having-no-prior-information-about-d" title="Permanent link">¶</a></h2>
+</li>
+<li>While the model is initially "blind" to the nature of degradation, its performance in recovering a clean image can be enhanced by providing implicit contextual information about the type of degradation  </li>
+<li><img alt="img_p2_1" src="../images/img_p2_1.png"/> </li>
+<li>From a given degraded input image I ∈ RH ×W ×3 </li>
+<li>first extracts low-level features F0 ∈ RH×W×C by applying a convolution operation; where H × W is the spatial resolution and C denotes the channels. </li>
+<li>eature embeddings F0 undergo a 4-level hierarchical encoder-decoder, transforming into deep features Fr ∈ RH ×W ×2C </li>
+<li>
+<h2 id="each-level-of-the-encoder-decoder-employs-several-transformer-blocks-with-the-number-of-blocks-gradually-increasing-from-the-top-level-to-the-bottom-level-to-maintain-computational-efficiency">Each level of the encoder-decoder employs several Transformer blocks, with the number of blocks gradually increasing from the top level to the bottom level to maintain computational efficiency.<a class="headerlink" href="#each-level-of-the-encoder-decoder-employs-several-transformer-blocks-with-the-number-of-blocks-gradually-increasing-from-the-top-level-to-the-bottom-level-to-maintain-computational-efficiency" title="Permanent link">¶</a></h2>
+</li>
+<li>Starting from the high-resolution input, the goal of the encoder is to progressively reduce the spatial resolution while . </li>
+<li>From the low-resolution latent features Fl, the aim of the decoder is to gradually recover the highresolution clean output </li>
+<li>ncorporate prompt block </li>
+<li>Prompt blocks are adapter modules that sequentially connect every two levels of the decoder. </li>
+</ul>
+<h3 id="prompt-block">Prompt Block<a class="headerlink" href="#prompt-block" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="img_p3_1" src="../images/img_p3_1.png"/> </li>
+</ul>
+<h3 id="prompt-generation-module">Prompt Generation Module<a class="headerlink" href="#prompt-generation-module" title="Permanent link">¶</a></h3>
+<ul>
+<li>Prompt components Pc form a set of learnable parameters that interact with the incoming features to embed degradation information </li>
+<li>features-prompt interaction is to directly use the learned prompts to calibrate the features. </li>
+<li>
+<h2 id="dynamically-predicts-attention-based-weights-from-the-input-features-and-apply-them-to-prompt-components-to-yield-input-conditioned-prompts-p">dynamically predicts attention-based weights from the input features and apply them to prompt components to yield input-conditioned prompts P<a class="headerlink" href="#dynamically-predicts-attention-based-weights-from-the-input-features-and-apply-them-to-prompt-components-to-yield-input-conditioned-prompts-p" title="Permanent link">¶</a></h2>
+</li>
+<li>shared space to facilitate correlated knowledge sharing among prompt components. </li>
+<li>To generate prompt-weights from the input features Fl </li>
+<li>first applies global average pooling (GAP) across spatial dimension to generate feature vector v 2 RCˆ </li>
+<li>pass v through a channeldownscaling convolution layer to obtain a compact feature vector, followed by the softmax operation, thus yielding prompt-weights w 2 RN </li>
+<li>use these weights to make adjustments in prompt components, followed by a 3 x 3 convolution layer  </li>
+<li><img alt="img_p4_1" src="../images/img_p4_1.png"/> </li>
+<li>Since at inference time, it is necessary for the restoration network to be able to handle images of different resolutions, we cannot use the prompt components Pc with a fixed size. </li>
+<li>bilinear upsampling operation to upscale the prompt components </li>
+</ul>
+<h3 id="prompt-interaction-module">Prompt Interaction Module<a class="headerlink" href="#prompt-interaction-module" title="Permanent link">¶</a></h3>
+<ul>
+<li>enable interaction between the input features Fl and prompts P for a guided restoration. </li>
+<li>
+<h2 id="in-pim-we-concatenate-the-generated-prompts-with-the-input-features-along-the-channel-dimension">In PIM, we concatenate the generated prompts with the input features along the channel dimension.<a class="headerlink" href="#in-pim-we-concatenate-the-generated-prompts-with-the-input-features-along-the-channel-dimension" title="Permanent link">¶</a></h2>
+</li>
+<li>pass the concatenated representations through a Transformer block that exploits degradation information encoded in the prompts and transforms the input features. </li>
+<li>The Transformer block is composed of two sequentially connected sub-modules: Multi-Dconv head transposed attention (MDTA), and Gated-Dconv feedforward network (GDFN). MDTA applies self-attention operation across channels rather than the spatial dimension and has linear complexity. </li>
+<li>The goal of GDFN is to transform features in a controlled manner, i.e., suppressing the less informative features and allowing only useful ones to propagate through the network  </li>
+<li><img alt="img_p5_1" src="../images/img_p5_1.png"/> </li>
+<li><img alt="img_p5_2" src="img_p5_2.png"/> </li>
+</ul>
+<h3 id="_1"><a class="headerlink" href="#_1" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="img_p6_1" src="../images/img_p6_1.png"/> </li>
+<li>Implementation Details </li>
+<li>end-to-end trainable and requires no pretraining of any individual component </li>
+<li>4-level encoder-decoder, with varying numbers of Transformer blocks at each level, specifically [4, 6, 6, 8] from level-1 to level-4. </li>
+<li>one prompt block between every two consecutive decoder levels, totaling 3 prompt blocks in the overall PromptIR network </li>
+<li>The total number of prompt components are 5 </li>
+<li>The model is trained with a batch size of 32 in the all-in-one setting, and with a batch of 8 in the single-task setting </li>
+<li>The network is optimized with an L1 loss, and we use Adam optimizer (1 = 0.9, 2 = 0.999) with learning rate 2e 4 for 200 epochs. </li>
+<li>
+<h2 id="cropped-patches-of-size-128-x-128">cropped patches of size 128 x 128<a class="headerlink" href="#cropped-patches-of-size-128-x-128" title="Permanent link">¶</a></h2>
+</li>
+<li>BSD400 </li>
+<li>WED </li>
+<li>o </li>
+<li>BSD68 </li>
+<li>Urban100 </li>
+<li>Rain100L </li>
+<li>SOTS  </li>
+<li><img alt="img_p8_1" src="../images/img_p8_1.png"/> </li>
+<li><img alt="img_p8_2" src="../images/img_p8_2.png"/> </li>
+<li><img alt="img_p9_1" src="../images/img_p9_1.png"/> </li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Propose-but-verify/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Propose-but-verify/">
+        Propose-but-verify
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Programmable%20Logical%20Controller%20%28PLC%29/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Programmable%20Logical%20Controller%20%28PLC%29/">
+        Programmable Logical Controller (PLC)
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

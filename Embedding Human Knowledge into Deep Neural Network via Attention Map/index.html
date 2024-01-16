@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Embedding Human Knowledge into Deep Neural Network via Attention Map - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Embedding Human Knowledge into Deep Neural Network via Attention Map", url: "#_top", children: [
+              {title: "Intro", url: "#intro" },
+              {title: "Related Work", url: "#related-work" },
+              {title: "Editing the Attention Map", url: "#editing-the-attention-map" },
+              {title: "Fine Tuning Branches", url: "#fine-tuning-branches" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Embedding%20ethical%20principles%20in%20collective%20decision%20support%20systems/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Embedding%20ethical%20principles%20in%20collective%20decision%20support%20systems/">
+        Embedding ethical principles in collective decision support systems
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Elu/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Elu/">
+        Elu
+      </a>
+</div>
+</div>
+<h2 id="embedding-human-knowledge-into-deep-neural-network-via-attention-map">Embedding Human Knowledge into Deep Neural Network via Attention Map<a class="headerlink" href="#embedding-human-knowledge-into-deep-neural-network-via-attention-map" title="Permanent link">¶</a></h2>
+<ul>
+<li>@mitsuharaEmbeddingHumanKnowledge2019</li>
+</ul>
+<h3 id="intro">Intro<a class="headerlink" href="#intro" title="Permanent link">¶</a></h3>
+<ul>
+<li>focus on the attention mechanism of an attention branch network (ABN)</li>
+<li>propose a fine-tuning method that utilizes a single-channel attention map which is manually edited by a human expert.</li>
+<li>Our fine-tuning method can train a network so that the output attention map corresponds to the edited ones. As a result, the fine-tuned network can out- put an attention map that takes into account human knowl- edge</li>
+<li>ImageNet</li>
+<li>CUB-200-2010</li>
+<li><a href="../IDRiD/">IDRiD</a></li>
+<li>human intuitive edit- ing via a visual interface and suggest new possibilities for human-machine cooperation in addition to the improvement of visual explanations.</li>
+<li>Typical visual explanation approaches in- clude class activation mapping (<a href="../CAM/">CAM</a>) and <a href="../Grad-CAM/">Grad-CAM</a></li>
+<li>However, an inconsistency between the tar- get region of the recognition result, namely the ground truth (GT), and an attention region may occur.</li>
+<li>To this end, we focus on the visual explanation and the attention mechanism of ABN</li>
+<li>ABN applies an atten- tion map for visual explanation to the attention mechanism.</li>
+<li>We propose a fine-tuning method based on the characteristics of ABN and an edited attention map</li>
+<li>The proposed method fine-tunes the attention and perception branches of ABN to output the same attention map as the edited one.</li>
+</ul>
+<h3 id="related-work">Related Work<a class="headerlink" href="#related-work" title="Permanent link">¶</a></h3>
+<h4 id="embedding-human-knowledge">Embedding Human Knowledge<a class="headerlink" href="#embedding-human-knowledge" title="Permanent link">¶</a></h4>
+<ul>
+<li>human-in-the- loop (HITL)</li>
+<li>Branson et al. [4] pro- posed an interactive HITL approach that helps to train a decision tree by using a question and answer with respect to a specific bird.</li>
+<li>Deng et al. [7] used a bubble, that is, a circular bounding box, as human knowl- edge. This bubble information is annotated from an atten- tion region when a user distinguishes the two types of birds. By annotating the bubble with various pairs and users, char- acteristic regions of bird images can be obtained when we recognize bird categories.</li>
+<li>Linsley et al. [18] proposed a method that incorpo- rates human knowledge into large-scale deep neural net- works using the HITL framework. This method added a spatial attention mechanism into the attention mecha- nism [19, 15, 13, 2, 20, 35, 33, 37, 39, 40] of squeeze-and- excitation networks (SENet) [13] and trained the network by using a ClickMe map that introduces human knowledge to the weights of the attention mechanism.</li>
+</ul>
+<h3 id="editing-the-attention-map">Editing the Attention Map<a class="headerlink" href="#editing-the-attention-map" title="Permanent link">¶</a></h3>
+<ul>
+<li>In this experiment, we used an ABN whose backbone is 152-layer ResNet [12] (ResNet152+ABN) as a network mode</li>
+<li>Then, we selected the 1k misclassified samples from the validation samples and edited the maps</li>
+<li>btain the attention map from the at- tention branch, where the size of the attention map is 14×14 pixels. Then, we edit the obtained attention map manually. Note that the attention map is resized to 224×224 pixels and is overlaid with the input image for ease of manual editing. The edited attention map is resized to 14 × 14 pixels and used for an attention mechanism to infer classification re- sults from the perception branch.</li>
+<li>By training the attention and percep- tion branches with the edited attention map including hu- man knowledge, ABN can output an attention map that con- siders this knowledge and thereby improve the classification performance.</li>
+<li>During the fine-tuning process, we update the parameters of the attention and perception branches by using the loss calculated from the attention map obtained from ABN and the edited attention map in addition to the loss of ABN</li>
+<li>To make an attention map from the bubbles, we use a kernel <a href="../Density/">density</a> estimation with multiple bubbles</li>
+<li>A dense region of bubbles indicates an impor- tant region for recognizing the bird category.</li>
+<li>In contrast, the proposed method highlights the local characteristic regions, such as the color and the head of the bird. In addition, the proposed method removes noise from the attention map by fine-tuning. Thus, the proposed method can also improve the performance of fine-grained recognition.</li>
+<li>Consequently, our method can gener- ate a more interpretable attention map and successfully em- bed human knowledge.</li>
+</ul>
+<h3 id="fine-tuning-branches">Fine Tuning Branches<a class="headerlink" href="#fine-tuning-branches" title="Permanent link">¶</a></h3>
+<ul>
+<li><span class="arithmatex">\(x_i\)</span> is the i-th sample
+$$
+L_{abn}(x_{i})=L_{att}(x_{i})+L_{per}(x_{i})
+$$<ul>
+<li>where <span class="arithmatex">\(L_{arr}, L_{per}\)</span> are conventional cross entropy losses for the attention and perception branches, respectively
+$$
+L(x_{i})=L_{abn}(x_{i})+L_{map}(x_{i})
+$$</li>
+</ul>
+</li>
+<li>Edited map : M'
+$$
+L_{map}(x_{i})=\gamma||M'(x_{i})-M(x_{i})||_{2}
+$$
+        - <span class="arithmatex">\(\gamma\)</span> is a scale factor
+        - <span class="arithmatex">\(L_{map}\)</span> is larger than the others, hence needs to be scaled</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="Pasted image 20221005133615" src="../images/Pasted%20image%2020221005133615.png"/></li>
+<li><img alt="Pasted image 20221005133625" src="../images/Pasted%20image%2020221005133625.png"/></li>
+<li><img alt="Pasted image 20221005133646" src="../images/Pasted%20image%2020221005133646.png"/></li>
+<li><img alt="Pasted image 20221005142449" src="../images/Pasted%20image%2020221005142449.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Embedding%20ethical%20principles%20in%20collective%20decision%20support%20systems/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Embedding%20ethical%20principles%20in%20collective%20decision%20support%20systems/">
+        Embedding ethical principles in collective decision support systems
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Elu/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Elu/">
+        Elu
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>CheckEmptySections - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "TODO", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Extensions%20that%20make%20writing%20research%20papers%20easier/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Extensions%20that%20make%20writing%20research%20papers%20easier/">
+        Extensions that make writing research papers easier
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../../Others/What%20I%20learnt%20from%20an%20AI%20Masters%20Part%201/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../../Others/What%20I%20learnt%20from%20an%20AI%20Masters%20Part%201/">
+        What I learnt from an AI Masters Part 1
+      </a>
+</div>
+</div>
+<h2 id="todo">TODO<a class="headerlink" href="#todo" title="Permanent link">¶</a></h2>
+<pre><code class="language-python">import os
+from pathlib import Path
+import argparse as ap
+import concurrent.futures
+</code></pre>
+<pre><code class="language-python">ags = ap.ArgumentParser()
+ags.add_argument("-f", help="File or folder name")
+args = ags.parse_args()
+
+mainpath = Path(args.f)
+</code></pre>
+<pre><code class="language-python"># Check if the input is a directory or a file
+if mainpath.is_dir() == True:
+    # If it's a directory, create a list of Path objects for all the files in the directory
+    all_files = [mainpath/Path(fl) for fl in os.listdir(mainpath)]
+else:
+    # If it's a file, create a list with a single Path object for the file
+    all_files = [mainpath]
+</code></pre>
+<pre><code class="language-python">def pipeline(txt_fn_list):
+    """
+    Applies a series of functions to a text.
+
+    Parameters:
+        txt_fn_list: A list containing the text to be processed as the first element, and the functions to be applied as the remaining elements.
+
+    Returns:
+        The final result of applying all the functions to the text.
+    """
+    # [txt, fn1, fn2....]
+    txt = txt_fn_list[0]
+    # Apply all fns one by one
+    for fn in txt_fn_list[1]:
+        txt = fn(txt)
+    return txt
+</code></pre>
+<pre><code class="language-python">def read_md(path):
+    """
+    Reads the contents of a Markdown file.
+
+    Parameters:
+        path: The path to the file.
+
+    Returns:
+        The contents of the file as a string.
+    """
+    print(path)
+    try:
+        with open(path, 'r') as fin:
+            return fin.read()
+    except:
+        return None
+</code></pre>
+<pre><code class="language-python">def check_blanks_hash(markdown):
+    """
+    Finds headers in a Markdown text that have no content under them.
+
+    Parameters:
+        markdown: The Markdown text to be processed.
+
+    Returns:
+        A list of headers that have no content under them.
+    """
+    if markdown != None:
+        lines = markdown.split('\n')
+        headers = []
+        current_header = None
+        current_content = []
+        for line in lines:
+            if line.startswith('#'):
+                if current_header is not None:
+                    headers.append({'header': current_header, 'content': " ".join(current_content)})
+                current_header = line
+                current_content = []
+            else:
+                current_content.append(line)
+        if current_header is not None:
+            headers.append({'header': current_header, 'content': " ".join(current_content)})
+
+        # Return a list of headers that have no content under them
+        return [header["header"] for header in headers if len(header["content"]) &lt; 2]
+    else:
+        return None
+</code></pre>
+<pre><code class="language-python">def main():
+    pipe_fns = [read_md, check_blanks_hash]
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        # Start a process for each file and store the returned result in a list
+        results = [executor.submit(pipeline, [file, pipe_fns]) for file in all_files]
+        for future in concurrent.futures.as_completed(results):
+            print(future.result())
+
+if __name__ == '__main__':
+    main()
+</code></pre>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Extensions%20that%20make%20writing%20research%20papers%20easier/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Extensions%20that%20make%20writing%20research%20papers%20easier/">
+        Extensions that make writing research papers easier
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../../Others/What%20I%20learnt%20from%20an%20AI%20Masters%20Part%201/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../../Others/What%20I%20learnt%20from%20an%20AI%20Masters%20Part%201/">
+        What I learnt from an AI Masters Part 1
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Knowledge Distillation Survey 2021 - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Knowledge Distillation Survey 2021", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Knowledge%20Distillation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Knowledge%20Distillation/">
+        Knowledge Distillation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Knowledge%20Component/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Knowledge%20Component/">
+        Knowledge Component
+      </a>
+</div>
+</div>
+<h2 id="knowledge-distillation-survey-2021">Knowledge Distillation Survey 2021<a class="headerlink" href="#knowledge-distillation-survey-2021" title="Permanent link">¶</a></h2>
+<ul>
+<li>model compression and acceleration techniques</li>
+<li><a href="../Low-rank%20factorization/">Low-rank factorization</a></li>
+<li><a href="../Transferred%20compact%20convolutional%20filters/">Transferred compact convolutional filters</a></li>
+<li>To address this issue, Bucilua et al. (2006) first proposed model compression to transfer the information from a large model or an ensem- ble of models into training a small model without a significant drop in accuracy. The knowledge transfer between a fully-supervised teacher model and a stu- dent model using the unlabeled data is also intro- duced for semi-supervised learning (Urner et al., 2011).</li>
+<li>The learning of a small model from a large model is later formally popularized as knowledge distilla- tion (Hinton et al., 2015). In knowledge distillation, a small student model is generally supervised by a large teacher model (Bucilua et al., 2006; Ba and Caruana, 2014; Hinton et al., 2015; Urban et al., 2017).</li>
+<li>The main idea is that the student model mimics the teacher model in order to obtain a competitive or even a superior performance. The key problem is how to transfer the knowledge from a large teacher model to a small student model. Basically, a knowledge distillation system is composed of three key components: knowledge, dis- tillation algorithm, and teacher-student architecture.</li>
+<li>Successful distillation relies on data geometry, optimization bias of distillation objective and strong monotonicity of the student classifier</li>
+<li>quantified the extraction of visual concepts from the intermediate layers of a deep neural network, to explain knowledge distillation (Cheng et al., 2020). Ji &amp; Zhu theoretically explained knowledge distillation on a wide neural network from the respective of risk bound, data efficiency and imperfect teacher (Ji and Zhu., 2020).</li>
+<li>Knowledge distillation has also been explored for <a href="../Label%20Smoothing/">label smoothing</a>, for assessing the accuracy of the teacher and for obtaining a prior for the optimal output layer geometry (Tang et al., 2020).</li>
+<li>Furthermore, the knowledge transfer from one model to another in knowledge distillation can be extended to other tasks, such as adversar- ial attacks (Papernot et al., 2016), data augmenta- tion (Lee et al., 2019a; Gordon and Duh, 2019), data privacy and security (Wang et al., 2019a).</li>
+<li>A vanilla knowledge distillation uses the <a href="../Logits/">logits</a> of a large deep model as the teacher knowledge (Hinton et al., 2015; Kim et al., 2018; Ba and Caruana, 2014; Mirzadeh et al., 2020)</li>
+<li>Further- more, the parameters of the teacher model (or the connections between layers) also contain another knowl- edge (Liu et al., 2019c)</li>
+<li><a href="../Response%20Based%20Knowledge/">Response Based Knowledge</a></li>
+<li><a href="../Feature%20Based%20Knowledge/">Feature Based Knowledge</a></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Knowledge%20Distillation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Knowledge%20Distillation/">
+        Knowledge Distillation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Knowledge%20Component/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Knowledge%20Component/">
+        Knowledge Component
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

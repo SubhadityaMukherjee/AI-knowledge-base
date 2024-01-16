@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Contributions of Shape, Texture, and Color in Visual Recognition Abstract - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Contributions of Shape, Texture, and Color in Visual Recognition Abstract", url: "#_top", children: [
+              {title: "Abstract", url: "#abstract" },
+              {title: "Introduction", url: "#introduction" },
+              {title: "More Humanoid Applications with HVE Open-world Zero-shot Learning with HVE", url: "#more-humanoid-applications-with-hve-open-world-zero-shot-learning-with-hve" },
+              {title: "Cross Feature Retrieval", url: "#cross-feature-retrieval" },
+              {title: "Cross Feature Imagination", url: "#cross-feature-imagination" },
+              {title: "Pictures", url: "#pictures" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Conv%20Based%20Noise%20Reduction/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Conv%20Based%20Noise%20Reduction/">
+        Conv Based Noise Reduction
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Contrastive%20Predictive%20Coding/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Contrastive%20Predictive%20Coding/">
+        Contrastive Predictive Coding
+      </a>
+</div>
+</div>
+<h2 id="contributions-of-shape-texture-and-color-in-visual-recognition-abstract">Contributions of Shape, Texture, and Color in Visual Recognition Abstract<a class="headerlink" href="#contributions-of-shape-texture-and-color-in-visual-recognition-abstract" title="Permanent link">¶</a></h2>
+<ul>
+<li>/zotero</li>
+<li>Yunhao Ge, Yao Xiao, Zhi Xu, Xingrui Wang, and Laurent Itti
+  <code>toc</code></li>
+</ul>
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../Humanoid%20Vision%20Engine/">humanoid vision engine</a> (HVE) that explicitly and separately computes shape, texture, and color features from images</li>
+<li>resulting feature vectors are then concatenated to support the final classification</li>
+<li>HVE can summarize and rankorder the contributions of the three features to object recognition.</li>
+<li>We use human experiments to confirm that both HVE and humans predominantly use some specific features to support the classification of specific classes</li>
+<li>To demonstrate more usefulness of HVE, we use it to simulate the open-world zeroshot learning ability of humans with no attribute labeling</li>
+<li>Finally, we show that HVE can also simulate human imagination ability with the combination of different features.</li>
+</ul>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h3>
+<ul>
+<li>A widely accepted intuition about the success of CNNs on perceptual tasks is that CNNs are the most predictive models for the human ventral stream object recognition</li>
+<li>To understand which feature is more important for CNN-based recognition, recent paper shows promising results: ImageNet-trained CNNs are biased towards texture while increasing shape bias improves accuracy and robustness [33]</li>
+<li>Here, inspired by HVS, we wish to find a general way to understand how shape, texture, and color contribute to a recognition task by pure data-driven learning.</li>
+<li>It has been shown by neuroscientists that there are separate neural pathways to process these different visual features in primate</li>
+<li>Among the many kinds of features crucial to visual recognition in humans, the shape property is the one that we primarily rely on in static object recognition [16]. Meanwhile, some previous studies show that surface-based cues also play a key role in our vision system</li>
+<li>For example, [21] shows that scene recognition is faster for color images compared with grayscale ones</li>
+<li><a href="../Humanoid%20Vision%20Engine/">Humanoid Vision Engine</a></li>
+</ul>
+<h4 id="image-parsing-and-foreground-identification">Image Parsing and Foreground Identification.<a class="headerlink" href="#image-parsing-and-foreground-identification" title="Permanent link">¶</a></h4>
+<ul>
+<li>we use the entity segmentation method [41] to simulate the process of parsing objects from a scene in our brain.</li>
+<li>Entity segmentation is an open-world model and can segment the object from the image without labels.</li>
+<li>This method aligns with human behavior, which can (at least in some cases; e.g., autostereograms [29]) segment an object without deciding what it is</li>
+<li>After we get the segmentation of the image, we use a pre-trained CNN and <a href="../Grad-CAM/">Grad-CAM</a> [47] to find the foreground object among all masks.</li>
+<li>We design three different feature extractors after identifying the foreground object segment: shape extractor, texture extractor, and color extractor, similar to the separate neural pathways in the human brain which focus on specific property</li>
+</ul>
+<h4 id="shape-feature-extractor">Shape Feature Extractor<a class="headerlink" href="#shape-feature-extractor" title="Permanent link">¶</a></h4>
+<ul>
+<li>want to keep both 2D and 3D shape information while eliminating the information of texture and color</li>
+<li>first use a 3D depth prediction model [44,43] to obtain the 3D depth information of the whole image</li>
+<li>After element-wise multiplying the 3D depth estimation and 2D mask of the object, we obtain our shape feature</li>
+<li>We can notice that this feature only contains 2D shape and 3D structural information (the 3D depth) and without color or texture information</li>
+</ul>
+<h4 id="texture-feature-extractor">Texture Feature Extractor<a class="headerlink" href="#texture-feature-extractor" title="Permanent link">¶</a></h4>
+<ul>
+<li>want to keep both local and global texture information while eliminating shape and color information.</li>
+<li>to remove the color information, we convert the RGB object segmentation to a grayscale image</li>
+<li>cut this image into several square patches with an adaptive strategy (the patch size and location are adaptive with object sizes to cover more texture information)</li>
+<li>If the overlap ratio between the patch and the original 2D object segment is larger than a threshold τ, we add that patch to a patch pool (we set τ to be 0.99 in our experiments, which means the over 99% of the area of the patch belongs to the object</li>
+<li>Since we want to extract both local (one patch) and global (whole image) texture information, we randomly select 4 patches from the patch pool and concatenate them into a new texture image</li>
+</ul>
+<h4 id="color-feature-extractor">Color Feature Extractor<a class="headerlink" href="#color-feature-extractor" title="Permanent link">¶</a></h4>
+<ul>
+<li>The first method is phase scrambling</li>
+</ul>
+<h4 id="phase-scrambling">Phase Scrambling<a class="headerlink" href="#phase-scrambling" title="Permanent link">¶</a></h4>
+<ul>
+<li>transforms the image into the frequency domain using the fast Fourier transform (FFT)</li>
+<li>In the frequency domain, the phase of the signal is then randomly scrambled, which destroys shape information while preserving color statistics</li>
+<li>Then we use IFFT to transfer back to image space</li>
+<li>We also used simple color histograms (see suppl.) as an alternative, but the results were not as good, hence we focus here on the phase scrambling approach for color representation.</li>
+</ul>
+<h4 id="humanoid-neural-network">Humanoid Neural Network<a class="headerlink" href="#humanoid-neural-network" title="Permanent link">¶</a></h4>
+<ul>
+<li>After preprocessing, we have three features</li>
+<li>To simulate the separate neural pathways in humans' brains for different feature information [1,11], we design three feature representation encoders for shape, texture, and color, respectively</li>
+<li>ResNet-18 [24] as the backbone for all feature encoders to project the three types of features to the corresponding well-separated embedding spaces.</li>
+<li>hard to define the ground-truth label of the distance between features.</li>
+<li>Given that the objects from the same class are relatively consistent in shape, texture, and color, the encoders can be trained in the classification problem independently instead, with the supervision of class labels.</li>
+<li>fter training our encoders as classifiers, the feature map of the last convolutional layer will serve as the final feature representation</li>
+<li>We also propose a gradient-based contribution attribution method to interpret the contributions of shape, texture, and color to the classification decision,</li>
+<li>Take the shape feature as an example, given a prediction p and the probability of</li>
+<li>class k, namely pk, we compute the gradient of pk with respect to the shape feature Vs</li>
+<li>gradient as shape importance weights ↵sk</li>
+<li>In other words, Ssk represents the "contribution" of shape feature to classifying this</li>
+<li>image as class k</li>
+</ul>
+<h4 id="effectiveness-of-feature-encoders">Effectiveness of Feature Encoders<a class="headerlink" href="#effectiveness-of-feature-encoders" title="Permanent link">¶</a></h4>
+<ul>
+<li>handcrafted three subsets of ImageNet</li>
+<li>Shape-biased dataset containing 12 classes, where the classes were chosen which intuitively are strongly determined by shape</li>
+<li>Texture-biased dataset uses 14 classes which we believed are more strongly determined by texture</li>
+<li>Color-biased dataset includes 17 classes</li>
+<li>After pre-processing the original images and getting their feature images, we input the feature images into feature encoders and get the T-SNE</li>
+<li>Each row represents one feature-biased dataset and each column is bounded with one feature encoder, each image shows the results of one combination</li>
+</ul>
+<h4 id="effectiveness-of-humanoid-neural-network">Effectiveness of Humanoid Neural Network<a class="headerlink" href="#effectiveness-of-humanoid-neural-network" title="Permanent link">¶</a></h4>
+<ul>
+<li>As these classifiers classify images based on corresponding feature representation, we call them feature nets.</li>
+<li>If we combine these three feature nets with the interpretable aggregation module, the classification accuracy is very close to the upper bound, which means our vision system can classify images based on these three features almost as well as based on the full original color images.</li>
+</ul>
+<h3 id="more-humanoid-applications-with-hve-open-world-zero-shot-learning-with-hve">More Humanoid Applications with HVE Open-world Zero-shot Learning with HVE<a class="headerlink" href="#more-humanoid-applications-with-hve-open-world-zero-shot-learning-with-hve" title="Permanent link">¶</a></h3>
+<ul>
+<li>Most current methods [37,32,13] need humans to provide detailed attribute labels for each image, which is costly in time and energy. However, given an image from an unseen class, humans can still describe it with their learned knowledge</li>
+<li>First, to represent learnt knowledge, we use feature extractors</li>
+<li>To retrieve learnt classes as description, we calculate the average distance dkm</li>
+<li>between Iun and images of other class k in the latent space on feature m Open-world classification</li>
+<li>To further predict the actual class of Iun based on the feature-wise description, we use ConceptNet as common knowledge to conduct reasoning</li>
+<li>We form a reasoning root pool R⇤ consisting of feature roots Rs, Rt, Rc obtained during image description, and shared attribute roots Ras , Rat , Rac . The reasoning roots will be our evidence for reasoning</li>
+<li>We humans can intuitively imagine an object when seeing one aspect of a feature, especially when this feature is prototypical (contribute most to classification)</li>
+<li>For instance, we can imagine a zebra when seeing its stripe (texture). This process is similar but harder than the classical image generation task since the input features <a href="../Modality/">modality</a> here dynamic which can be any feature among shape, texture, or color</li>
+</ul>
+<h3 id="cross-feature-retrieval">Cross Feature Retrieval<a class="headerlink" href="#cross-feature-retrieval" title="Permanent link">¶</a></h3>
+<ul>
+<li>In order to reasonably retrieve the most possible other two corresponding features given only one feature (among shape, texture, or color), we learn a feature agnostic encoder that projects the three features into one same feature space and makes sure that the features belonging to the same class are in the nearby regions.</li>
+<li>In the retrieval process, given any feature of any object, we can map it into the cross feature embedding space by the corresponding encoder net and the feature agnostic net</li>
+<li>Then we apply the 2 norm to find the other two features closest to the input one as output. The output is correct if they belong to the same class as the input.</li>
+</ul>
+<h3 id="cross-feature-imagination">Cross Feature Imagination<a class="headerlink" href="#cross-feature-imagination" title="Permanent link">¶</a></h3>
+<ul>
+<li>To stimulate imagination, we propose a crossfeature imagination model to generate a plausible final image with the input and retrieved features</li>
+<li>Inspired by the pixel2pixel GAN[26] and AdaIN[25] in the style transfer, we design a crossfeature pixel2pixel GAN model to generate the final image.</li>
+</ul>
+<h3 id="pictures">Pictures<a class="headerlink" href="#pictures" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="images/Pasted image 20221105123820.png" src="../images/Pasted%20image%2020221105123820.png"/></li>
+<li><img alt="images/Pasted image 20221105123830.png" src="../images/Pasted%20image%2020221105123830.png"/></li>
+<li><img alt="images/Pasted image 20221105123841.png" src="../images/Pasted%20image%2020221105123841.png"/></li>
+<li><img alt="images/Pasted image 20221105123855.png" src="../images/Pasted%20image%2020221105123855.png"/></li>
+<li><img alt="images/Pasted image 20221105123905.png" src="../images/Pasted%20image%2020221105123905.png"/></li>
+<li><img alt="images/Pasted image 20221105123919.png" src="../images/Pasted%20image%2020221105123919.png"/></li>
+<li><img alt="images/Pasted image 20221105123931.png" src="../images/Pasted%20image%2020221105123931.png"/></li>
+<li><img alt="images/Pasted image 20221105123951.png" src="../images/Pasted%20image%2020221105123951.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Conv%20Based%20Noise%20Reduction/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Conv%20Based%20Noise%20Reduction/">
+        Conv Based Noise Reduction
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Contrastive%20Predictive%20Coding/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Contrastive%20Predictive%20Coding/">
+        Contrastive Predictive Coding
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

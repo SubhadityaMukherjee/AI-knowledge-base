@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Flamingo - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Flamingo", url: "#_top", children: [
+              {title: "Flamingo", url: "#flamingo_1" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Flickr30K/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Flickr30K/">
+        Flickr30K
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Fixed%20Factors/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Fixed%20Factors/">
+        Fixed Factors
+      </a>
+</div>
+</div>
+<h2 id="flamingo">Flamingo<a class="headerlink" href="#flamingo" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2204.14198">Flamingo: a Visual Language Model for Few-Shot Learning</a></li>
+<li>large-scale pre-training followed by task-specific fine-tuning has emerged as a standard approach, but the fine-tuning step still requires a lot of samples.</li>
+<li>building models that can be rapidly adapted to numerous tasks using only a handful of annotated examples is an open challenge for multimodal machine learning research</li>
+<li>family of Visual Language Models (VLM) which seek to train a multi-modal model (i.e., with the ability to understand different types of input – visual, audio, text etc.) in a few-shot learning approach (which refers to the ability to learn a new task with just a few samples for training).</li>
+<li>bridge powerful pretrained vision-only and language-only models</li>
+<li>handle sequences of arbitrarily interleaved visual and textual data</li>
+<li>seamlessly ingest images or videos as inputs</li>
+<li>Interleave cross-attention <a href="../Layers/">layers</a> with language-only self-<a href="../Attention/">attention</a> <a href="../Layers/">layers</a> (frozen).</li>
+<li>Perceiver-based architecture that transforms the input sequence data (videos) into a fixed number of visual token</li>
+<li>Large-scale (web) multi-modal data by scraping webpages which has inter-leaved text and images</li>
+<li>Flamingo models can be trained on large-scale multimodal web corpora containing arbitrarily interleaved text and images, which is key to endow them with in-context few-shot learning capabilities</li>
+</ul>
+<hr/>
+<p>title: Flamingo
+tags: refactor</p>
+<hr/>
+<pre><code class="language-toc"></code></pre>
+<h3 id="flamingo_1">Flamingo<a class="headerlink" href="#flamingo_1" title="Permanent link">¶</a></h3>
+<ul>
+<li>A Visual Language Model created by Deepmind using few shot learning on a wide range of open-ended vision and language tasks, simply by being prompted with a few input/output examples</li>
+<li>the input of Flamingo contains visually conditioned autoregressive text generation models able to ingest a sequence of text tokens interleaved with images and/or videos</li>
+<li>and produce text as output</li>
+<li>A query is made to the model along with a photo or a video and the model answers with a text answer</li>
+<li>Flamingo models take advantage of two complementary models: a vision model that analyzes visual scenes and a large language model which performs a basic form of reasoning</li>
+<li>The language model is trained on a large amount of text data.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Flickr30K/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Flickr30K/">
+        Flickr30K
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Fixed%20Factors/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Fixed%20Factors/">
+        Fixed Factors
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

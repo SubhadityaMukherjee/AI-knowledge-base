@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>2022 11 28 - Subhaditya's AIKB</title>
+<link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../js/jquery-3.2.1.min.js"></script>
+<script src="../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Week 3 Lab Cogmod", url: "#_top", children: [
+          ]},
+          {title: "Question", url: "#question", children: [
+          ]},
+          {title: "Tips", url: "#tips", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../../js/base.js"></script>
+<script src="../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../2022-12-01/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../2022-12-01/">
+        2022 12 01
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../2022-11-25/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../2022-11-25/">
+        2022 11 25
+      </a>
+</div>
+</div>
+<ul>
+<li><a href="../../Real%20Time%20Image%20Saliency%20for%20Black%20Box%20Classifiers/">Real Time Image Saliency for Black Box Classifiers</a></li>
+<li><a href="../../Dikes%20and%20Rivers/">Dikes and Rivers</a></li>
+<li><a href="../../Cognitive%20Preparation/">Cognitive Preparation</a></li>
+</ul>
+<h3 id="week-3-lab-cogmod">Week 3 Lab Cogmod<a class="headerlink" href="#week-3-lab-cogmod" title="Permanent link">¶</a></h3>
+<ul>
+<li>Foreperiod in ms</li>
+<li>1/RT is normally distributed</li>
+<li>Effects : FP, reward, target visibility</li>
+<li>3 FP x 2 re x 2 tv</li>
+<li>lmer : <span class="arithmatex">\(<span class="arithmatex">\(1/RT \sim fp*reward*tv\)</span>\)</span></li>
+<li>Effect of FP<ul>
+<li>Faster if FP is longer</li>
+</ul>
+</li>
+<li>Effect of reward</li>
+<li>Faster if TV is easy to see</li>
+<li>Interaction of TV : FP<ul>
+<li>Preparation related to TV</li>
+</ul>
+</li>
+<li>If longer to prepare : more errors (longer FP)<ul>
+<li>RT might not always be a benefit</li>
+</ul>
+</li>
+<li>If low visibility + reward + prepared : bad performance<ul>
+<li>not a lot of effect if no reward</li>
+</ul>
+</li>
+<li>Effect of memory<ul>
+<li>Effects of duration of prev trials</li>
+<li>Always memory search?</li>
+</ul>
+</li>
+<li>Reward<ul>
+<li>Not searching back memory for too many trials</li>
+</ul>
+</li>
+</ul>
+<h3 id="question">Question<a class="headerlink" href="#question" title="Permanent link">¶</a></h3>
+<ul>
+<li>This assignment is a generalization of the previous one, for which you will need declarative memory in addition to time perception.</li>
+<li>You will model data from an experiment by Kruine et al. (in prep), which has a design very similar to that of Los et al., (2021) (See literature in the course overview, and see the slides of this week). One pattern of results from this experiment is very clear and is an effect that has been repeated throughout the literature.</li>
+<li>Participants performed ±896 trials of a task that was very similar to the experiment you have done: after a warning stimulus, there was a foreperiod, after which participants had to generate a response to a target on the left or on the right. The foreperiod varied 'uniformly', and was equally likely to be either 400ms, 800ms, 1200ms or 1600ms. Of particular interest here is to what extent RT on the current trial, is affected by the FP on the current trial, as well as on the previous trial. The results are shown in the following graph, where the x-axis shows the current foreperiod, and there are graphs with different colors for each of the previous foreperiods. The exact numbers are in the attached file.</li>
+<li>![[Pasted image 20221129165746.png]]</li>
+<li>(Note that the labels in this graph are off by 5ms. This has to do with technical details involving the implementation of the experiment and the refresh rate of the monitors. You can ignore this discrepancy, and assume FPs of 400, 800, 1200 &amp; 1600).</li>
+<li>You can see in this graph, for example, that a foreperiod of 400 ms that follows a foreperiod of 1600 ms produces the longest RT.</li>
+<li>Your task is to model these data. You can use the same idea as for the Grosjean data, except that you will need to use ACT-R's declarative memory to store experiences on previous trials throughout the experiment. I also attach the best fit I could manage, which can certainly still be improved.</li>
+<li>![[Pasted image 20221129165754.png]]</li>
+<li>Here are some tips:</li>
+<li>Between the response and the S1 (the warning stimulus) there was a randomly jittered inter-trial interval of 1.0 - 1.5s</li>
+<li>At the end of each trial I - <strong>02:04</strong> stored an estimate of the foreperiod in memory as a number of pulses that the model perceived (so no merging of similar experiences)</li>
+<li>At the start of a trial, I retrieved the chunk with the highest activation to determine the model's estimate for the foreperiod. I used regular retrieval, so no partial matching or blending</li>
+<li>I tweaked the activation noise to optimize the fit</li>
+<li>This model's fit can probably be improved, by making different assumptions about preparation or different assumption how we handle stored experiences. This will be a nice topic for discussion in the rest of course, as the same thing will come up when you are modeling the data from our own experiment.</li>
+<li>Submit</li>
+<li>Write your code in a Jupyter notebook and submit both the notebook (.ipynb file) and a PDF version of the notebook. Start the notebook with a few paragraphs in which you describe how your model works, and how it can explain the data. Furthermore, where necessary, use comments to explain your code. Make sure to include your name and student number in the file name and at the top of the notebook!</li>
+<li>Assessment</li>
+<li>This assignment is worth 2 points.</li>
+</ul>
+<h3 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">¶</a></h3>
+<ul>
+<li>Yeah I think we just lower the 410 to something that better matches the graphs in the assignment</li>
+<li>Here it’s important to be aware of the difference between response time and reaction time.We’re looking at response times here. We’re not looking at a simple reaction to a stimulus, but we expect our participant to process a stimulus, make a decision and then press the right button. This means that the response time can be very dependent on the stimulus and the processing required.Point is: maybe this stimulus is faster to classify than the one for Grosjean, so it’s maximum response time might be quicker</li>
+<li>So we can still assume that the difference between ready and not ready adds up to 0.05 seconds, but the 0.41 seconds is something to tweak to best fit the data? Thanks for your reply</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../2022-12-01/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../2022-12-01/">
+        2022 12 01
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../2022-11-25/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../2022-11-25/">
+        2022 11 25
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

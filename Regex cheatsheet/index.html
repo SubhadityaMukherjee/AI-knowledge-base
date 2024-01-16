@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Regex cheatsheet - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Regex Cheatsheet", url: "#_top", children: [
+              {title: "Dictionary Replace", url: "#dictionary-replace" },
+              {title: "Match before or after a Character", url: "#match-before-or-after-a-character" },
+              {title: "Specific Types", url: "#specific-types" },
+              {title: "Ranges of Characters", url: "#ranges-of-characters" },
+              {title: "Repetition", url: "#repetition" },
+              {title: "Capture Parts of Strings", url: "#capture-parts-of-strings" },
+              {title: "Before or after the Match", url: "#before-or-after-the-match" },
+              {title: "Change Matching - Start to Finish, Case, Whitespace, single_line", url: "#change-matching-start-to-finish-case-whitespace-single_line" },
+              {title: "Unicode", url: "#unicode" },
+              {title: "Complicated Examples", url: "#complicated-examples" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Region%20Growing/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Region%20Growing/">
+        Region Growing
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../RegNet/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../RegNet/">
+        RegNet
+      </a>
+</div>
+</div>
+<h2 id="regex-cheatsheet">Regex Cheatsheet<a class="headerlink" href="#regex-cheatsheet" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<h3 id="dictionary-replace">Dictionary Replace<a class="headerlink" href="#dictionary-replace" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116123647.png"/></li>
+</ul>
+<h3 id="match-before-or-after-a-character">Match before or after a Character<a class="headerlink" href="#match-before-or-after-a-character" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116115727.png"/></li>
+</ul>
+<h3 id="specific-types">Specific Types<a class="headerlink" href="#specific-types" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116115758.png"/></li>
+<li><img alt="" src="../images/Pasted%20image%2020240116115811.png"/></li>
+</ul>
+<h3 id="ranges-of-characters">Ranges of Characters<a class="headerlink" href="#ranges-of-characters" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116115838.png"/></li>
+</ul>
+<h3 id="repetition">Repetition<a class="headerlink" href="#repetition" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116115858.png"/></li>
+<li><img alt="" src="../images/Pasted%20image%2020240116120432.png"/></li>
+</ul>
+<h3 id="capture-parts-of-strings">Capture Parts of Strings<a class="headerlink" href="#capture-parts-of-strings" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116120053.png"/></li>
+<li><img alt="" src="../images/Pasted%20image%2020240116120105.png"/></li>
+</ul>
+<h3 id="before-or-after-the-match">Before or after the Match<a class="headerlink" href="#before-or-after-the-match" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116120126.png"/></li>
+<li>No space before, No space after, space before and after<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116123525.png"/></li>
+</ul>
+</li>
+</ul>
+<h3 id="change-matching-start-to-finish-case-whitespace-single_line">Change Matching - Start to Finish, Case, Whitespace, single_line<a class="headerlink" href="#change-matching-start-to-finish-case-whitespace-single_line" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116120215.png"/></li>
+</ul>
+<h3 id="unicode">Unicode<a class="headerlink" href="#unicode" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116120233.png"/></li>
+</ul>
+<h3 id="complicated-examples">Complicated Examples<a class="headerlink" href="#complicated-examples" title="Permanent link">¶</a></h3>
+<h4 id="find-all-sentences-that-ends-with-and-replace-with-or-newline-and-not">Find All Sentences that Ends with [! , . ?] and Replace with . or Newline and not .<a class="headerlink" href="#find-all-sentences-that-ends-with-and-replace-with-or-newline-and-not" title="Permanent link">¶</a></h4>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116124756.png"/></li>
+</ul>
+<h4 id="find-all-emails-and-replace-with-at-and-with-dot">Find All Emails and Replace @ with [at] and . with [dot]<a class="headerlink" href="#find-all-emails-and-replace-with-at-and-with-dot" title="Permanent link">¶</a></h4>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116125538.png"/></li>
+</ul>
+<h4 id="find-all-phone-numbers">Find All Phone Numbers<a class="headerlink" href="#find-all-phone-numbers" title="Permanent link">¶</a></h4>
+<ul>
+<li><img alt="" src="../images/Pasted%20image%2020240116125746.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Region%20Growing/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Region%20Growing/">
+        Region Growing
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../RegNet/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../RegNet/">
+        RegNet
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

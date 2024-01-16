@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Bayesian Model Estimation - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Bayesian Model Estimation", url: "#_top", children: [
+              {title: "Advantages", url: "#advantages" },
+              {title: "Disadvantages", url: "#disadvantages" },
+              {title: "Example", url: "#example" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Bayesian%20Neural%20Network/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Bayesian%20Neural%20Network/">
+        Bayesian Neural Network
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Bayesian%20Information%20Criterion/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Bayesian%20Information%20Criterion/">
+        Bayesian Information Criterion
+      </a>
+</div>
+</div>
+<h2 id="bayesian-model-estimation"><a href="../Bayesian/">Bayesian</a> Model Estimation<a class="headerlink" href="#bayesian-model-estimation" title="Permanent link">¶</a></h2>
+<ul>
+<li>Unlike <a href="../Frequentist/">frequentist</a>, sometimes things like sample mean is not a good metric because it has a high variance. Might give different results with different trials in a real valued distribution</li>
+<li>The task is to estimate <span class="arithmatex">\(\theta\)</span> from the data</li>
+<li><a href="../Bayesian%20Prior/">Bayesian Prior</a></li>
+<li>Now there are two sources of info about the true distribution <span class="arithmatex">\(p_{X}(\theta)\)</span><ul>
+<li>The likelihood <span class="arithmatex">\(p_{\otimes_{i}}x(D|\theta)\)</span> of <span class="arithmatex">\(\theta\)</span> . Empirical data</li>
+<li>Prior plausibility in <span class="arithmatex">\(h(\theta)\)</span></li>
+<li>Since these are independant sources we can combine them by multiplication: <span class="arithmatex">\(p_{\otimes_{i}}x(D|\theta)h(\theta)\)</span><ul>
+<li>High values -&gt; Candidate model <span class="arithmatex">\(\theta\)</span> is a good estimate</li>
+<li><a href="../Bayesian%20Posterior/">Bayesian Posterior</a></li>
+<li><a href="../Posterior%20Mean%20estimate/">Posterior Mean estimate</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="advantages">Advantages<a class="headerlink" href="#advantages" title="Permanent link">¶</a></h3>
+<ul>
+<li>If priors are well chosen -&gt; Better than frequentists with small sample sizes</li>
+</ul>
+<h3 id="disadvantages">Disadvantages<a class="headerlink" href="#disadvantages" title="Permanent link">¶</a></h3>
+<ul>
+<li>Integrating over millions of params and performing multiple preds for each param -&gt; infeasible</li>
+<li>How to encode or represent <a href="../Bayesian%20Posterior/">Bayesian Posterior</a> as very high dim<ul>
+<li>No closed form representation over weights</li>
+<li>Represent data with histograms and use <a href="Monte%20Carlo">Monte Carlo</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="im" src="../images/Pasted%20image%2020220316120743.png"/></li>
+<li><img alt="im" src="../images/Pasted%20image%2020220316120803.png"/></li>
+<li>Green : prior , Red: Posterior</li>
+<li>The <a href="../Posterior%20Mean%20estimate/">Posterior Mean estimate</a> is obtained by integrating <span class="arithmatex">\(\int_{\mathbb{R}}\mu h(\mu|D)d\mu\)</span></li>
+<li>Since this is different from sample mean -&gt; Prior distribution really does influence the models</li>
+</ul>
+<h4 id="protein-modeling"><a href="../Protein%20Modeling/">Protein Modeling</a><a class="headerlink" href="#protein-modeling" title="Permanent link">¶</a></h4>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Bayesian%20Neural%20Network/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Bayesian%20Neural%20Network/">
+        Bayesian Neural Network
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Bayesian%20Information%20Criterion/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Bayesian%20Information%20Criterion/">
+        Bayesian Information Criterion
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

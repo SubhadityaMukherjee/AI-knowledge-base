@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Implementing DCGAN to generate CIFAR images - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Implementing DCGAN to generate CIFAR images", url: "#_top", children: [
+              {title: "What are we building?", url: "#what-are-we-building" },
+              {title: "Requirements", url: "#requirements" },
+              {title: "Implementing DCGAN to generate CIFAR images", url: "#implementing-dcgan-to-generate-cifar-images_1" },
+              {title: "What\u0027s next", url: "#whats-next" },
+              {title: "Conclusion", url: "#conclusion" },
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Improving%20Model%20Accuracy%20in%20Image%20Classification/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Improving%20Model%20Accuracy%20in%20Image%20Classification/">
+        Improving Model Accuracy in Image Classification
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Image%20Classification%20using%20TensorFlow/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Image%20Classification%20using%20TensorFlow/">
+        Image Classification using TensorFlow
+      </a>
+</div>
+</div>
+<h2 id="implementing-dcgan-to-generate-cifar-images">Implementing DCGAN to generate <a href="../../../../CIFAR">CIFAR</a> images<a class="headerlink" href="#implementing-dcgan-to-generate-cifar-images" title="Permanent link">¶</a></h2>
+<h3 id="what-are-we-building">What are we building?<a class="headerlink" href="#what-are-we-building" title="Permanent link">¶</a></h3>
+<p>Creating novel images is one of the strengths of Generative Adversarial Networks (GANs). In this article, we will build a DCGAN for image generation using the <a href="../../../../CIFAR">CIFAR</a> dataset. The DCGAN is a type of GAN that builds upon the Vanilla GAN and addresses some of its issues. The DCGAN is a good choice if the image data size is larger than 28x28. This network also leads to fewer chances of a mode collapse and is thus a better network than a standard GAN. 
+Here, we want the network to create realistic images to resemble any of the ten classes of the <a href="../../../../CIFAR">CIFAR</a> dataset. We will create the DCGAN from scratch using PyTorch, train it and write scripts to generate our images. </p>
+<h4 id="what-are-dgans">What are DGANs<a class="headerlink" href="#what-are-dgans" title="Permanent link">¶</a></h4>
+<p>Researchers created the Vanilla GAN architecture to generate images in an unsupervised manner from image datasets. But this GAN had quite a few flaws that impacted its training. DCGANs are a modification of the Vanilla GAN architecture. The implementation of the Discriminator and Generator is configured to tackle some of the issues of the original GAN. Some of the changes are as follows. 
+Convolutional layers are used explicitly in the Discriminator. In this architecture, the Generator explicitly uses Transposed Convolution layers. The Discriminator relies on Batch Normalization along with LeakyReLU activations. The Generator, on the other hand, uses ReLU activations. 
+The DCGAN image generation process is almost similar to the Vanilla GAN except for a few tweaks to the optimizer and the architecture itself.</p>
+<h4 id="how-are-we-going-to-build-this">How are we going to build this?<a class="headerlink" href="#how-are-we-going-to-build-this" title="Permanent link">¶</a></h4>
+<p>To build the DCGAN, we will use the Python library <strong>PyTorch</strong>. We will first import PyTorch and other required libraries. We then load the image dataset using a <strong>DataLoader</strong>, which is the CIFAR10 dataset in this case. After we load the data, we create the functions that make up the DCGAN. We can then train the network on this dataset and generate new photorealistic images that look like they were part of the CIFAR10 dataset. 
+The below sections focus on implementing all the functions required to create a DCGAN image generation pipeline.</p>
+<h4 id="final-output">Final Output<a class="headerlink" href="#final-output" title="Permanent link">¶</a></h4>
+<p>The final output we want is photorealistic images that look like they might belong to the CIFAR10 dataset. The result that we get is shown below. </p>
+<p>[IMAGE {1} Final Output START SAMPLE]
+<img alt="Final Output" src="https://hackmd.io/_uploads/ByNRyFQYs.png"/>
+[IMAGE {1} FINISH SAMPLE]</p>
+<p>Note that longer training might yield better results but take significantly longer.</p>
+<h3 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">¶</a></h3>
+<p>Before starting the DCGAN image generation process, we must import some libraries and perform set-up operations.
+First, we must create folders to store the models' images and weights using the <code>mkdir</code> command.
+We import the PyTorch library and all the required features we need that comes with it. We also import the numerical processing library <em>numpy</em> and the plotting library <em>matplotlib</em>. 
+Training a GAN takes quite a long time. To further improve performance, we enable a flag in Pytorch that enables <strong>benchmarking</strong>. Pytorch runs a few checks on your current device during the benchmarking process to determine which algorithms perform the best. These checks let you run slightly more optimized code for your current device. </p>
+<pre><code class="language-python">!mkdir images
+!mkdir weights
+from __future__ import print_function
+import os
+import random
+import torch
+import torch.nn as nn
+import torch.nn.parallel
+import torch.backends.cudnn as cudnn
+import torch.optim as optim
+import torch.utils.data
+import torchvision.datasets as tv_data
+import torchvision.transforms as transforms
+import torchvision.utils as vutils
+from tqdm import tqdm
+import numpy as np
+import matplotlib.pyplot as plt
+
+cudnn.benchmark = True
+</code></pre>
+<h3 id="implementing-dcgan-to-generate-cifar-images_1">Implementing DCGAN to generate <a href="../../../../CIFAR">CIFAR</a> images<a class="headerlink" href="#implementing-dcgan-to-generate-cifar-images_1" title="Permanent link">¶</a></h3>
+<p>We can now move on to the main DCGAN image generation process. To generate the images, we need to create a DataLoader, load the <a href="../../../../CIFAR">CIFAR</a> images,  preprocess them, and send batches of this data to the GPU memory. We also need to create the network architecture and initialize the weights of its components. This network also needs to be sent to the GPU memory. 
+After these initial steps have been completed, we can finally train the network and generate new images. </p>
+<p>The DCGAN architecture is similar to many other GAN architectures and consists of a Generator and a Discriminator. The Generator is responsible for creating photo-realistic images from random noise to fool the Discriminator. On the other hand, the Discriminator takes the outputs of the Generator and returns the probability that the generated image is real. The Generator uses this probability to improve its generation capabilities by training the model.
+The architecture diagram of the DCGAN is shown below.
+[IMAGE {2} Architecture START SAMPLE]
+<img alt="Architecture" src="https://hackmd.io/_uploads/S1jHJSsdj.png"/>
+[IMAGE {2} FINISH SAMPLE]</p>
+<p>[IMAGE {3} Generator START SAMPLE]
+<img alt="Generator" src="https://hackmd.io/_uploads/Bk9TkSoOj.png"/>
+[IMAGE {3} FINISH SAMPLE]</p>
+<p>In the architecture, <em>ngpu</em> stands for the number of GPUs. In this case, we will only be using a single one. <em>nz</em> stands for the width of the input. <em>ngf</em> and <em>ndf</em> denote the shape of the maps that the Generator and Discriminator create, respectively. <em>nc</em> is the number of channels that the image has.</p>
+<p>We first start by loading our data and understanding how it looks.</p>
+<h4 id="exploring-the-dataset">Exploring the dataset<a class="headerlink" href="#exploring-the-dataset" title="Permanent link">¶</a></h4>
+<p>This article uses the CIFAR10 (Canadian Institute for Advanced Research) dataset. This dataset contains ten classes of images similar to the MNIST format but in 3-channel RGB. The CIFAR10 is a very common dataset for benchmarking image classification models and is easy for a model to learn.</p>
+<p>Before we can explore the dataset, we must load and preprocess it. PyTorch comes with the CIFAR10 dataset inbuilt, and we can directly load it. If this is the first time we have used this dataset, it may not exist locally, and we need to download it first. After that, we need to resize all the images to a common size of 64x64x3. CIFAR10 is a clean dataset, and this resizing step is probably unnecessary, but it is a good practice to uphold.
+We also normalize the images and convert them to the PyTorch tensors.
+In PyTorch, we need to create a DataLoader, simply a class that creates optimized batches of data to pass to the model. 
+We send this DataLoader to the GPU if we are using one to enhance the speed of the DCGAN image generation process.</p>
+<pre><code class="language-python">dataset = tv_data.CIFAR10(root="./data", download=True,
+                           transform=transforms.Compose([
+                               transforms.Resize(64),
+                               transforms.ToTensor(),
+                               transforms. Normalize ((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
+                           ]))
+num_channels=3
+
+dataloader = torch.utils.data.DataLoader(dataset, batch_size=128,
+                                         shuffle=True, num_workers=2)
+current_device = 'cuda' if torch.cuda.is_available() else 'cpu'
+</code></pre>
+<p>After loading the data, we can see how it looks. To visualize a batch of data, we iterate over the DataLoader to grab a single batch of images. After obtaining the images, we can create a grid the size of a single batch, pad the images to make them look neater and normalize them. This batch of images is still on the GPU, which means that we cannot plot it on the CPU without sending it back.  </p>
+<pre><code class="language-python">single_batch = next(iter(dataloader))
+plt.figure(figsize=(8,8))
+plt.axis("off")
+plt.title("Training Images")
+plt.imshow(np.transpose(vutils.make_grid(single_batch[0].to(current_device)[:64], padding=2, normalize=True).cpu(),(1,2,0)))
+</code></pre>
+<p>[IMAGE {4} Training Images START SAMPLE]
+<img alt="Training Images" src="https://hackmd.io/_uploads/ryOfbFmti.png"/>
+[IMAGE {4} FINISH SAMPLE]</p>
+<p>As we can see, the dataset comprises ten classes of images from which we plot a random sample.</p>
+<h4 id="defining-the-discriminator">Defining the Discriminator<a class="headerlink" href="#defining-the-discriminator" title="Permanent link">¶</a></h4>
+<p>The Discriminator in the DCGAN is responsible for classifying the images returned by the Generator as real or fake. Architecturally, the Discriminator is almost a mirror of the Generator with minor differences. The Discriminator uses a <strong><a href="../../../../Strided">Strided</a> Convolution</strong> and a <strong>LeakyReLU</strong> along with <strong>Batch Normalization layers</strong>. The final layer is a Sigmoid layer that returns the probability we want. 
+For DCGAN image generation, the Discriminator uses <a href="../../../../Strided">Strided</a> Convolutions instead of Pooling layers. This choice allows the network to learn custom padding functions that, in turn, improve performance.</p>
+<pre><code class="language-python">ngpu = 1
+nz = 100
+ngf = 64
+ndf = 64
+
+def weights_normal_init(m):
+    classname = m.__class__.__name__
+    if classname.find('Conv') != -1:
+        m.weight.data.normal_(0.0, 0.02)
+    elif classname.find('BatchNorm') != -1:
+        m.weight.data.normal_(1.0, 0.02)
+        m.bias.data.fill_(0)
+
+class Disc_model(nn.Module):
+    def __init__(self, ngpu):
+        super(Disc_model, self).__init__()
+        self.ngpu = ngpu
+        self.main = nn.Sequential(
+            nn.Conv2d(num_channels, ndf, 4, 2, 1, bias=False),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Conv2d(ndf, ndf * 2, 4, 2, 1, bias=False),
+            nn.BatchNorm2d(ndf * 2),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Conv2d(ndf * 2, ndf * 4, 4, 2, 1, bias=False),
+            nn.BatchNorm2d(ndf * 4),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Conv2d(ndf * 4, ndf * 8, 4, 2, 1, bias=False),
+            nn.BatchNorm2d(ndf * 8),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Conv2d(ndf * 8, 1, 4, 1, 0, bias=False),
+            nn.Sigmoid()
+        )
+
+    def forward(self, input):
+        if input.is_cuda and self.ngpu &gt; 1:
+            output = nn.parallel.data_parallel(self.main, input, range(self.ngpu))
+        else:
+            output = self.main(input)
+
+        return output.view(-1, 1).squeeze(1)
+</code></pre>
+<h4 id="defining-the-generator">Defining the Generator<a class="headerlink" href="#defining-the-generator" title="Permanent link">¶</a></h4>
+<p>The Generator is responsible for mapping the input data from the latent space to the vector data space. In this part of the network, we get an RGB image as an output that can then be passed to the Discriminator. The generated image size is the same as the original training images but in channel first indexing (3x64x64).
+The Generator comprises blocks with <strong>Transposed Convolutions</strong>, <strong>Batch Normalizations</strong> and <strong>ReLU</strong> layers. The final layer has a <strong>Tanh</strong> activation used to make the data to a range of [-1,1].
+In this part of the DCGAN image generation process, the DCGAN uses Batch Normalization layers after Transposed convolutions. This shift enables a smoother gradient flow between the layers of the network. </p>
+<pre><code class="language-python">class Gen_model(nn.Module):
+    def __init__(self, ngpu):
+        super(Gen_model, self).__init__()
+        self.ngpu = ngpu
+        self.main = nn.Sequential(
+            nn.ConvTranspose2d(nz, ngf * 8, 4, 1, 0, bias=False),
+            nn.BatchNorm2d(ngf * 8),
+            nn.ReLU(True),
+            nn.ConvTranspose2d(ngf * 8, ngf * 4, 4, 2, 1, bias=False),
+            nn.BatchNorm2d(ngf * 4),
+            nn.ReLU(True),
+            nn.ConvTranspose2d(ngf * 4, ngf * 2, 4, 2, 1, bias=False),
+            nn.BatchNorm2d(ngf * 2),
+            nn.ReLU(True),
+            nn.ConvTranspose2d(ngf * 2, ngf, 4, 2, 1, bias=False),
+            nn.BatchNorm2d(ngf),
+            nn.ReLU(True),
+            nn.ConvTranspose2d(ngf, num_channels, 4, 2, 1, bias=False),
+            nn.Tanh()
+        )
+
+    def forward(self, input):
+        if input.is_cuda and self.ngpu &gt; 1:
+            output = nn.parallel.data_parallel(self.main, input, range(self.ngpu))
+        else:
+            output = self.main(input)
+            return output
+</code></pre>
+<h4 id="defining-the-inputs">Defining the inputs<a class="headerlink" href="#defining-the-inputs" title="Permanent link">¶</a></h4>
+<p>We need to set up some empty containers for an optimized workflow. We first create a fixed noise with the shape (128, size of latent space, 1, 1) and send it to the GPU. We also denote the label of the real image as one and the fake image as 0. For this article, we will run the network for 25 epochs. 
+We also pre-allocate arrays to store the Generator and Discriminator loss during training. </p>
+<pre><code class="language-python">fixed_noise = torch.randn(128, nz, 1, 1).to(current_device)
+real_label = 1
+fake_label = 0
+
+niter = 25
+g_loss = []
+d_loss = []
+</code></pre>
+<h4 id="computing-the-loss-function">Computing the loss function<a class="headerlink" href="#computing-the-loss-function" title="Permanent link">¶</a></h4>
+<p>The DCGAN image generation pipeline has two loss functions, for the Generator and Discriminator, respectively. 
+The Discriminator penalizes wrongly classifying a real image as a fake or a fake image as real. This concept can be thought of as <strong>maximizing</strong> the following function.
+<span class="arithmatex">\(<span class="arithmatex">\(\nabla_{\theta_{d}} \frac{1}{m} \Sigma_{i=1}^{m}[log D(x^{(i)}) + log(1-D(G(z^{(i)})))]\)</span>\)</span></p>
+<p>The Generator loss takes the output of the Discriminator into account and rewards it if the Generator is fooled into thinking the fake image is real. If this condition is not satisfied, the Generator is penalized.
+This concept can be thought of as <strong>minimizing</strong> the following function.
+<span class="arithmatex">\(<span class="arithmatex">\(\nabla_{\theta_{g}} \frac{1}{m} \Sigma_{i=1}^{m}log(1-D(G(z^{(i)})))\)</span>\)</span></p>
+<pre><code class="language-python">model_Gen = Gen_model(ngpu).to(current_device)
+model_Gen.apply(weights_normal_init)
+model_Disc = Disc_model(ngpu).to(current_device)
+model_Disc.apply(weights_normal_init)
+loss_func = nn.BCELoss()
+</code></pre>
+<h4 id="optimizing-the-loss">Optimizing the loss<a class="headerlink" href="#optimizing-the-loss" title="Permanent link">¶</a></h4>
+<p>We will use the ADAM optimizer with a learning rate of 0.0002 and the beta parameters set to (0.5m, 0.999) to optimize the loss. The Generator and Discriminator have different optimizers to ensure that they both learn independently.</p>
+<pre><code class="language-python">optimizerD = optim.Adam(model_Disc.parameters(), lr=0.0002, betas=(0.5, 0.999))
+optimizerG = optim.Adam(model_Gen.parameters(), lr=0.0002, betas=(0.5, 0.999))
+</code></pre>
+<h4 id="train-the-dcgan">Train the DCGAN<a class="headerlink" href="#train-the-dcgan" title="Permanent link">¶</a></h4>
+<p>To run DCGAN image generation, we need to train the network first. The general procedure is as follows.
+For each epoch, the noise is sent to the Generator. The Discriminator also gets a random image sampled from the dataset. The Generator then uses the weights it has learned to modify the noise to be closer to the target image. In doing so, the Generator learns a mapping between random noise and the latent space of the image dataset. The Generator then sends the tweaked image to the Discriminator. The Discriminator then predicts how real it thinks the generated image is and informs the Generator using a probability metric. </p>
+<pre><code class="language-python">for epoch in tqdm(range(niter), total = niter):
+    for i, data in enumerate(dataloader, 0):
+        model_Disc.zero_grad()
+        device_model = data[0].to(current_device)
+        batch_size = device_model.size(0)
+        label = torch.full((batch_size,), real_label).to(current_device)
+
+        output = model_Disc(device_model) # Discriminator output
+        disc_error_real = loss_func(output.float(), label.float()) 
+        disc_error_real.backward() # disc loss for real image
+        D_x = output.mean().item()
+
+        noise = torch.randn(batch_size, nz, 1, 1).to(current_device) # create noise
+        fake = model_Gen(noise) # Fake image
+        label.fill_(fake_label) # Fill with 0
+        output = model_Disc(fake.detach())
+        disc_error_fake = loss_func(output.float(), label.float()) # disc loss for fake image
+        disc_error_fake.backward() 
+        D_G_z1 = output.mean().item()
+        disc_error = disc_error_real + disc_error_fake
+        optimizerD.step()
+
+        model_Gen.zero_grad()
+        label.fill_(real_label) # fill with 1
+        output = model_Disc(fake.float()) # disc output
+        gen_error = loss_func(output.float(), label.float())
+        gen_error.backward()
+        D_G_z2 = output.mean().item()
+        optimizerG.step()
+
+        print('[%d/%d][%d/%d] Loss_D: %.4f Loss_G: %.4f D(x): %.4f D(G(z)): %.4f / %.4f' % (epoch, niter, i, len(dataloader), disc_error.item(), gen_error.item(), D_x, D_G_z1, D_G_z2))
+
+        if i % 100 == 0: # save images every 100 steps
+            print('saving the output')
+            vutils.save_image(device_model,'./images/real_samples.png',normalize=True)
+            fake = model_Gen(fixed_noise)
+            vutils.save_image(fake.detach(),'./images/fake_samples_epoch_%03d.png' % (epoch),normalize=True)
+
+    torch.save(model_Gen.state_dict(), 'weights/model_Gen_epoch_%d.pth' % (epoch))
+    torch.save(model_Disc.state_dict(), 'weights/model_Disc_epoch_%d.pth' % (epoch))
+</code></pre>
+<p>In this article, we train the network for 25 epochs. After the training is complete and even during training, we can periodically check the <code>./images</code> folder to see outputs every 100 steps. 
+The results we get are as follows.</p>
+<p>To understand the training progression, we look at the original sample and then the outputs at 0, ten, and 25 epochs.</p>
+<p>[IMAGE {5} Original Sample/Target START SAMPLE]
+<img alt="Original Sample/Target" src="https://hackmd.io/_uploads/B11dlYXFi.png"/>
+[IMAGE {5} FINISH SAMPLE]</p>
+<p>[IMAGE {6} Epoch 0 START SAMPLE]
+<img alt="Epoch 0" src="https://hackmd.io/_uploads/Hy-KgtQKs.png"/>
+[IMAGE {6} FINISH SAMPLE]</p>
+<p>[IMAGE {7} Epoch 10 START SAMPLE]
+<img alt="Epoch 10" src="https://hackmd.io/_uploads/H1x9ltmKj.png"/>
+[IMAGE {7} FINISH SAMPLE]</p>
+<p>[IMAGE {8} Final Results START SAMPLE]
+<img alt="Final Results" src="https://hackmd.io/_uploads/HJ5qetmti.png"/>
+[IMAGE {8} FINISH SAMPLE]</p>
+<h3 id="whats-next">What's next<a class="headerlink" href="#whats-next" title="Permanent link">¶</a></h3>
+<p>We can apply a few tweaks to the DCGAN in further experiments. Some of them are mentioned below.
+- Tweaking the <em>z_size</em> variable and either increasing or decreasing it might lead to better performance.
+- Longer training might also lead to better results.
+- Using Label Smoothing Cross Entropy Loss instead of just a Cross Entropy Loss might also improve performance.
+- There is a <a href="https://github.com/soumith/ganhacks">long list of tweaks</a> proposed by one of the creators of the PyTorch library regarding the DCGAN. The article mentioned is quite a few years old but gives a good background for further experiments on the DCGAN image generation process.</p>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<ul>
+<li>A DCGAN was built using PyTorch to generate images from the CIFAR10 dataset.</li>
+<li>The DCGAN is a modified version of a Vanilla GAN that addresses some issues and leads to fewer chances of mode collapse.</li>
+<li>Suggestions for further experimentation with the DCGAN include adjusting the z_size variable, increasing training time, and using Label Smoothing Cross Entropy Loss.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Improving%20Model%20Accuracy%20in%20Image%20Classification/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Improving%20Model%20Accuracy%20in%20Image%20Classification/">
+        Improving Model Accuracy in Image Classification
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Image%20Classification%20using%20TensorFlow/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Image%20Classification%20using%20TensorFlow/">
+        Image Classification using TensorFlow
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

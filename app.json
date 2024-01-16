@@ -1,0 +1,24 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "assets",
+  "defaultViewMode": "source",
+  "foldHeading": true,
+  "showLineNumber": true,
+  "vimMode": true,
+  "fileSortOrder": "byCreatedTime",
+  "useMarkdownLinks": false,
+  "newLinkFormat": "relative",
+  "foldIndent": true,
+  "showIndentGuide": false,
+  "communityPluginSortOrder": "release",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

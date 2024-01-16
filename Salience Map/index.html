@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Salience Map - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Salience Map", url: "#_top", children: [
+              {title: "Explained", url: "#explained" },
+              {title: "Three Approaches", url: "#three-approaches" },
+              {title: "Features", url: "#features" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Saliency%20using%20natural%20statistics/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Saliency%20using%20natural%20statistics/">
+        Saliency using natural statistics
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Salicon%20dataset/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Salicon%20dataset/">
+        Salicon dataset
+      </a>
+</div>
+</div>
+<h2 id="salience-map">Salience Map<a class="headerlink" href="#salience-map" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<h3 id="explained">Explained<a class="headerlink" href="#explained" title="Permanent link">¶</a></h3>
+<ul>
+<li>Specifies parts of the image that contribute the most to the activity of a specific layer or the entire decision</li>
+<li><span class="arithmatex">\(Y_{c}=\text{score of class c}\)</span> : value of output before softmax</li>
+<li>
+<div class="arithmatex">\[saliency = max_{r,g,b}(|\frac{\partial Y_{c}}{\partial I}|)\]</div>
+</li>
+<li>grad of <span class="arithmatex">\(Y_{c}\)</span> wrt input - matrix with shape similiar to input</li>
+<li>if value close to 0 : small changes in input have no effect on output</li>
+<li>if high magnitude : small changes can have a major impact</li>
+<li>positive : roughly the location of the target object</li>
+<li>negative : competing class objects : background or instance</li>
+<li>Abs value for heatmap</li>
+<li>grads : backprop on <span class="arithmatex">\(Y_{c}\)</span> instead of loss</li>
+</ul>
+<h3 id="three-approaches">Three Approaches<a class="headerlink" href="#three-approaches" title="Permanent link">¶</a></h3>
+<h4 id="dencov">Dencov<a class="headerlink" href="#dencov" title="Permanent link">¶</a></h4>
+<ul>
+<li>Use <a href="../DeconvNet/">DeconvNet</a></li>
+<li>Use backprop to compute the gradients of logits wrt input : <a href="../Deep%20Inside%20Convolutional%20Networks/">Deep Inside Convolutional Networks</a></li>
+<li><a href="../Guided%20BackProp/">Guided BackProp</a></li>
+</ul>
+<h3 id="features">Features<a class="headerlink" href="#features" title="Permanent link">¶</a></h3>
+<ul>
+<li>One of the oldest interpretation methods</li>
+<li>Salience maps of important features are calculated, and they show superpixels that have influenced the prediction most, for example</li>
+<li>To create a map of important pixels, one can repeatedly feed an architecture with several portions of inputs and compare the respective output, or one can visualize them directly by going rearwards through the inverted network from an output of interest;</li>
+<li>Grouped in this category as well is exploiting neural networks with activation atlases through feature inversion. This method can reveal how the network typically represents some concepts</li>
+<li>Considering image or text portions that maximize the activation of interesting neurons or whole layers can lead to the interpretation of the responsible area of individual parts of the architecture.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Saliency%20using%20natural%20statistics/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Saliency%20using%20natural%20statistics/">
+        Saliency using natural statistics
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Salicon%20dataset/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Salicon%20dataset/">
+        Salicon dataset
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

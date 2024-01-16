@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Scaled Dot Product Attention - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Scaled Dot Product Attention", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Scaled%20benefits/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Scaled%20benefits/">
+        Scaled benefits
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Scalar%20Register/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Scalar%20Register/">
+        Scalar Register
+      </a>
+</div>
+</div>
+<h2 id="scaled-dot-product-attention">Scaled <a href="../Dot%20Product%20Attention/">Dot Product Attention</a><a class="headerlink" href="#scaled-dot-product-attention" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/1706.03762">Vaswani et al., 2017</a></li>
+<li>Q is query, K is key V is value. Same dims</li>
+<li><span class="arithmatex">\(q_{i}= W_{q}x_i\)</span> , <span class="arithmatex">\(k_{i}= W_{k}x_{i}\)</span> , <span class="arithmatex">\(v_{i}= W_{v}x_{i}\)</span><ul>
+<li><span class="arithmatex">\(w_{ij}' = q_{i}^{T}k_{j}\)</span></li>
+<li><span class="arithmatex">\(y_{i}= \Sigma_{j}w_{ij}v_{j}\)</span></li>
+</ul>
+</li>
+<li><a href="../Softmax/">Softmax</a> is sensitive to large values. Which sucks for the #gradients</li>
+<li>The avg value of the dot product grows with <a href="../Embedding/">embedding</a> dimension k. So scale back.<ul>
+<li><span class="arithmatex">\(\sqrt{k}\)</span> . Vector in <span class="arithmatex">\(\mathbb{R}^{k}\)</span> with all values as c</li>
+<li>Euclidean length is <span class="arithmatex">\(\sqrt{kc}\)</span></li>
+</ul>
+</li>
+<li>
+<div class="arithmatex">\[Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{d_{k}}})V\]</div>
+</li>
+<li>Generalization of <a href="../Soft%20Attention/">Soft Attention</a></li>
+<li><img alt="im" src="../images/Pasted%20image%2020220526133045.png"/></li>
+<li><a href="../Attention%20Alignment/">Attention Alignment</a> score <span class="arithmatex">\(<span class="arithmatex">\(\alpha_{t,i} = \frac{s_{t}^{T}h_{i}}{\sqrt{n}}\)</span>\)</span></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Scaled%20benefits/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Scaled%20benefits/">
+        Scaled benefits
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Scalar%20Register/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Scalar%20Register/">
+        Scalar Register
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

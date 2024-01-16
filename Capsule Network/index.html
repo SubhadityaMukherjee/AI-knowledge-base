@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Capsule Network - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Capsule Network", url: "#_top", children: [
+              {title: "Drawbacks of pooling layers", url: "#drawbacks-of-pooling-layers" },
+              {title: "Loss", url: "#loss" },
+              {title: "Pros", url: "#pros" },
+              {title: "Cons", url: "#cons" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Capture%20bias/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Capture%20bias/">
+        Capture bias
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Capsule%20Layer/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Capsule%20Layer/">
+        Capsule Layer
+      </a>
+</div>
+</div>
+<h2 id="capsule-network">Capsule Network<a class="headerlink" href="#capsule-network" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>replace traditional convolutional and pooling layers with a more biologically inspired architecture that better captures the <strong>spatial relationships between objects in an image</strong></li>
+<li>idea that the human visual system is composed of a <strong>hierarchy of “capsules”</strong> that process visual information at different levels of abstraction. </li>
+<li>Each capsule comprises a <strong>group of neurons</strong> sensitive to <strong>specific features</strong> of an image, such as the presence of an edge or a particular shape. </li>
+<li>These features are then combined and passed up the hierarchy to <strong>higher-level capsules</strong>, which extract more abstract concepts such as the identity of an object or the presence of a face.</li>
+<li>Capsule Networks overcome the problem of <a href="../Translational%20Invariance/">translational invariance</a> caused by CNNs.</li>
+<li>Capsule Networks are able to capture better spatial relationship. </li>
+<li>Capsule Networks uses better <a href="../Downsampling/">downsampling</a> methods which do not cause loss of information seen in CNNs.</li>
+<li>Capsule Network perform much better than CNNs but are more computationally epensive.</li>
+</ul>
+<h3 id="drawbacks-of-pooling-layers">Drawbacks of pooling layers<a class="headerlink" href="#drawbacks-of-pooling-layers" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>pooling layers</strong>, which <strong>down-sample</strong> the input image and can lead to the <strong>loss of important information</strong> about the spatial relationships between objects in the image. </li>
+<li>Capsule networks aim to overcome this limitation by using a different down-sampling mechanism that preserves more spatial information.</li>
+<li><a href="../Capsule%20Layer/">Capsule Layer</a></li>
+<li><a href="../Primary%20Capsule/">Primary Capsule</a></li>
+<li><a href="../Higher%20Layer%20Capsule/">Higher Layer Capsule</a></li>
+</ul>
+<h3 id="loss">Loss<a class="headerlink" href="#loss" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../Max%20Margin%20Loss/">Max Margin Loss</a> </li>
+<li><a href="../Reconstruction%20loss/">Reconstruction loss</a></li>
+</ul>
+<h3 id="pros">Pros<a class="headerlink" href="#pros" title="Permanent link">¶</a></h3>
+<ul>
+<li>Capsule networks are more robust to image distortions and translations than traditional CNNs</li>
+<li>They can maintain the spatial relationships between objects in an image</li>
+<li>They can handle partially obscured objects better</li>
+<li>They can be used for a variety of tasks, including object recognition and segmentation</li>
+</ul>
+<h3 id="cons">Cons<a class="headerlink" href="#cons" title="Permanent link">¶</a></h3>
+<ul>
+<li>Capsule networks are more complex and computationally expensive than traditional CNNs</li>
+<li>They are a relatively new architecture, and there is still ongoing research to improve their performance and computational efficiency.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Capture%20bias/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Capture%20bias/">
+        Capture bias
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Capsule%20Layer/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Capsule%20Layer/">
+        Capsule Layer
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

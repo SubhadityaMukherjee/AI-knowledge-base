@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Git Commands - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Git Commands", url: "#_top", children: [
+              {title: "Managing Gists", url: "#managing-gists" },
+              {title: "Managing Issues", url: "#managing-issues" },
+              {title: "Managing Repositories", url: "#managing-repositories" },
+              {title: "Managing PRs", url: "#managing-prs" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Glia/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Glia/">
+        Glia
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Gestalt%20Laws/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Gestalt%20Laws/">
+        Gestalt Laws
+      </a>
+</div>
+</div>
+<h2 id="git-commands">Git Commands<a class="headerlink" href="#git-commands" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>Sources<ul>
+<li><a href="https://blog.mergify.com/the-essential-github-cli-commands/">The Essential GitHub CLI Commands</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="managing-gists">Managing Gists<a class="headerlink" href="#managing-gists" title="Permanent link">¶</a></h3>
+<pre><code>gh gist create my\_mergify\_gist.py
+</code></pre>
+<pre><code>gh gist create --public my\_mergify\_gist.py
+</code></pre>
+<h4 id="list-all-your-gists">List All Your Gists<a class="headerlink" href="#list-all-your-gists" title="Permanent link">¶</a></h4>
+<pre><code>gh gist list
+</code></pre>
+<ul>
+<li>You can also apply filters on this list using the <code>--limit int</code> argument (default to 10) along with the <code>--public</code> and <code>--secret</code> flags.</li>
+</ul>
+<h4 id="view">View<a class="headerlink" href="#view" title="Permanent link">¶</a></h4>
+<pre><code>gh gist view 4b5ba0b5daabf386ee01bc37ab667e58
+</code></pre>
+<h4 id="delete">Delete<a class="headerlink" href="#delete" title="Permanent link">¶</a></h4>
+<pre><code>gh gist delete 4b5ba0b5daabf386ee01bc37ab667e58
+</code></pre>
+<h3 id="managing-issues">Managing Issues<a class="headerlink" href="#managing-issues" title="Permanent link">¶</a></h3>
+<h4 id="creating-an-issue">Creating an Issue<a class="headerlink" href="#creating-an-issue" title="Permanent link">¶</a></h4>
+<pre><code>gh issue create --title "Is it a bug?" --body "the behavior’s description"
+</code></pre>
+<h4 id="listing-all-the-repositorys-issues">Listing All the repository’s Issues<a class="headerlink" href="#listing-all-the-repositorys-issues" title="Permanent link">¶</a></h4>
+<pre><code>gh issue list
+</code></pre>
+<ul>
+<li>You can even open your browser with <code>--web</code></li>
+</ul>
+<h4 id="status">Status<a class="headerlink" href="#status" title="Permanent link">¶</a></h4>
+<pre><code>gh issue status
+</code></pre>
+<h4 id="closing-an-issue">Closing an Issue<a class="headerlink" href="#closing-an-issue" title="Permanent link">¶</a></h4>
+<pre><code>gh issue close &lt;num&gt;
+</code></pre>
+<h4 id="reopening-an-issue">Reopening an Issue<a class="headerlink" href="#reopening-an-issue" title="Permanent link">¶</a></h4>
+<pre><code>gh issue reopen &lt;num&gt;
+</code></pre>
+<h3 id="managing-repositories">Managing Repositories<a class="headerlink" href="#managing-repositories" title="Permanent link">¶</a></h3>
+<h4 id="create-a-public-repository">Create a Public Repository<a class="headerlink" href="#create-a-public-repository" title="Permanent link">¶</a></h4>
+<pre><code>gh repo create
+</code></pre>
+<h4 id="forking-a-repository">Forking a Repository<a class="headerlink" href="#forking-a-repository" title="Permanent link">¶</a></h4>
+<pre><code>gh repo fork Mergifyio/react-crisp
+</code></pre>
+<h4 id="listing-the-repository-of-an-account">Listing the Repository of an account<a class="headerlink" href="#listing-the-repository-of-an-account" title="Permanent link">¶</a></h4>
+<pre><code>gh repo list CamClrt
+</code></pre>
+<ul>
+<li>You can filter this list down using the <code>--archived</code>, <code>--no-archived</code>, or <code>--source</code> flags.</li>
+</ul>
+<h3 id="managing-prs">Managing PRs<a class="headerlink" href="#managing-prs" title="Permanent link">¶</a></h3>
+<h4 id="creating-a-pull-request-with-a-specific-title-and-body">Creating a Pull Request with a Specific Title and Body<a class="headerlink" href="#creating-a-pull-request-with-a-specific-title-and-body" title="Permanent link">¶</a></h4>
+<pre><code>gh pr create --title "feat: my\_super\_feature" --body "all the details" 
+</code></pre>
+<h4 id="listing-all-the-pull-requests-in-the-repository">Listing All the Pull Requests in the Repository<a class="headerlink" href="#listing-all-the-pull-requests-in-the-repository" title="Permanent link">¶</a></h4>
+<pre><code>gh pr list
+</code></pre>
+<ul>
+<li>this command allows you to apply a large number of filters like <code>--assignee</code>, <code>--base</code>, <code>--label</code>, and more</li>
+</ul>
+<h4 id="status-of-your-pull-requests">Status of Your Pull Requests<a class="headerlink" href="#status-of-your-pull-requests" title="Permanent link">¶</a></h4>
+<pre><code>gh pr status
+</code></pre>
+<h4 id="getting-a-pull-request-to-inspect-it">Getting a Pull Request to Inspect it<a class="headerlink" href="#getting-a-pull-request-to-inspect-it" title="Permanent link">¶</a></h4>
+<pre><code>gh pr checkout 2530
+</code></pre>
+<h4 id="displaying-continuous-integration-ci-status-for-a-specific-pull-request">Displaying Continuous Integration (CI) Status for a Specific Pull Request<a class="headerlink" href="#displaying-continuous-integration-ci-status-for-a-specific-pull-request" title="Permanent link">¶</a></h4>
+<pre><code>gh pr checks 1234
+</code></pre>
+<h4 id="diff">Diff<a class="headerlink" href="#diff" title="Permanent link">¶</a></h4>
+<pre><code>gh pr checkout &lt;num&gt;
+gh pr diff
+</code></pre>
+<h4 id="merge">Merge<a class="headerlink" href="#merge" title="Permanent link">¶</a></h4>
+<pre><code>gh pr merge &lt;num&gt;
+</code></pre>
+<pre><code>gh pr merge -m -d &amp;lt;number&amp;gt; &amp;amp;&amp;amp; git pull
+</code></pre>
+<h4 id="display-the-title-body-and-other-information-about-a-pull-request">Display the Title, Body, and other Information about a Pull Request.<a class="headerlink" href="#display-the-title-body-and-other-information-about-a-pull-request" title="Permanent link">¶</a></h4>
+<pre><code>gh pr view
+</code></pre>
+<h4 id="make-a-pull-request-as-ready-for-review">Make a Pull Request as Ready for Review<a class="headerlink" href="#make-a-pull-request-as-ready-for-review" title="Permanent link">¶</a></h4>
+<pre><code>gh pr ready
+</code></pre>
+<h4 id="add-a-review-to-a-pull-request">Add a Review to a Pull Request<a class="headerlink" href="#add-a-review-to-a-pull-request" title="Permanent link">¶</a></h4>
+<pre><code>gh pr review
+</code></pre>
+<h4 id="closereopen">Close/reopen<a class="headerlink" href="#closereopen" title="Permanent link">¶</a></h4>
+<pre><code>gh pr &lt;close, reopen&gt;
+</code></pre>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Glia/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Glia/">
+        Glia
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Gestalt%20Laws/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Gestalt%20Laws/">
+        Gestalt Laws
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

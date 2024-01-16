@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Discrete Cosine Transform - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Discrete Cosine Transform", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Disparate%20Impact/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Disparate%20Impact/">
+        Disparate Impact
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Discrete%20-%3E%20Continuous/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Discrete%20-%3E%20Continuous/">
+        Discrete -&gt; Continous Transforms
+      </a>
+</div>
+</div>
+<h2 id="discrete-cosine-transform">Discrete Cosine Transform<a class="headerlink" href="#discrete-cosine-transform" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://github.com/christianversloot/machine-learning-articles/blob/main/cnns-and-feature-extraction-the-curse-of-data-sparsity.md">machine-learning-articles/cnns-and-feature-extraction-the-curse-of-data-sparsity.md at main · christianversloot/machine-learning-articles</a> #<a href="Roam-Highlights">Roam-Highlights</a></li>
+<li>expresses a finite sequence of data points in terms of a sum of cosine functions oscillating at different frequencies<ul>
+<li>you make the CNN blind to the unique aspects represented by the numbers… despite the fact that they are already in there</li>
+<li>In my opinion, this can be explained by looking at the internals of a convolutional layer. It works as follows. You specify a number of filters which, during training, learn to recognize unique aspects of the image-like data. They can then be used to classify new samples - quite accurately, as we have seen with raw <a href="../MNIST/">MNIST</a> data. This means that the convolutional layer already makes your data representation sparser. What's more, this effect gets even stronger when <a href="../Layers/">layers</a> like <a href="../Pooling/">Pooling</a> are applied</li>
+<li>But when you downsample the data first by e.g. applying the DCT, you thus effectively apply sparsening twice. My only conclusion can thus be that by consequence, the convolutional filters can no longer learn the unique aspects within the image-like data, as they are hidden in the data set made compact. Only then, I literally found out why people always suggest to input your <a href="../Image%20Data/">image data</a> into CNNs as untransformed as possible.</li>
+<li>Besides the architectural differences between them, one must also conclude that CNNs make data essentially sparser while SVMs do not.</li>
+</ul>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Disparate%20Impact/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Disparate%20Impact/">
+        Disparate Impact
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Discrete%20-%3E%20Continuous/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Discrete%20-%3E%20Continuous/">
+        Discrete -&gt; Continous Transforms
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

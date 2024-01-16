@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>ScoreCAM - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "ScoreCAM", url: "#_top", children: [
+              {title: "Advantages", url: "#advantages" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Scoring%20Pruning%20Approaches/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Scoring%20Pruning%20Approaches/">
+        Scoring Pruning Approaches
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Schwann%20Cell/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Schwann%20Cell/">
+        Schwann Cell
+      </a>
+</div>
+</div>
+<h2 id="scorecam">ScoreCAM<a class="headerlink" href="#scorecam" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>@wangScoreCAMScoreWeightedVisual2020</li>
+<li>In Score-Cam, we use the weights of the score obtained for a specific target class.</li>
+<li>The first step involved is passing images to a CNN model and performing a forward_pass. After the forward pass, the activations are extracted from last convolutional layer in the network. </li>
+<li>Each Activation Map obtained from the last layer having shape <span class="arithmatex">\(1\times m \times n\)</span> is then upsampled using bilinear-interpolation to the same size as the Input Image. </li>
+<li>After Upsampling the activation maps, the resultant activation maps are normalized with each pixel within the range of [0,1] to maintain the relative intensities between the pixels <ul>
+<li>
+<div class="arithmatex">\[A_{i,j}^{k}= \frac{A_{i,j}^{k}}{max A^{k}- min A^{k}}\]</div>
+</li>
+</ul>
+</li>
+<li>After the Normalization of the Activation Maps is complete, the highlighted areas of the activation maps are projected on the input space by multiplying each normalized activation map(1 x W x H) with the Original Input Image(3 x W x H) to obtain a masked image M with shape 3 x W x H<ul>
+<li>
+<div class="arithmatex">\[M^{k}= A^{k} \cdot I\]</div>
+</li>
+</ul>
+</li>
+<li>The Masked Images M thus obtained are then passed to Convolutional Neural Network with SoftMax output<ul>
+<li>
+<div class="arithmatex">\[S_{k} = Softmax(F(M^{k}))\]</div>
+</li>
+</ul>
+</li>
+<li>After getting the scores for each class we extract the score of the target class to represent the importance of the kth activation map.<ul>
+<li>
+<div class="arithmatex">\[w_{k}^{c}= S_{k}^{c}\]</div>
+</li>
+</ul>
+</li>
+<li>compute the sum across all the activation maps for the linear combination between the target class score and each activation map</li>
+<li>apply pixel-wise ReLU to the final activation map<ul>
+<li>
+<div class="arithmatex">\[L^{c}_{ScoreCAM} = ReLU(\underset{k}\Sigma w_{k}^{c}A^{k})\]</div>
+</li>
+</ul>
+</li>
+<li>ReLU because we are interested only in the features that have a positive influence on the class of interest</li>
+</ul>
+<h3 id="advantages">Advantages<a class="headerlink" href="#advantages" title="Permanent link">¶</a></h3>
+<ul>
+<li>can be used in any Convolutional Neural Network architecture and don't require retraining of the model to produce saliency maps like CAM</li>
+<li>class discriminative</li>
+<li>removes irrelevant noise to produce a meaningful saliency map</li>
+<li>Softmax scores as weights and removes the dependence on unstable gradients</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Scoring%20Pruning%20Approaches/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Scoring%20Pruning%20Approaches/">
+        Scoring Pruning Approaches
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Schwann%20Cell/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Schwann%20Cell/">
+        Schwann Cell
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

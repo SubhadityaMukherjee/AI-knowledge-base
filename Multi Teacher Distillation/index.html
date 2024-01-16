@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Multi Teacher Distillation - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Multi Teacher Distillation", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Multi%20Variate%20AR/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Multi%20Variate%20AR/">
+        Multi Variate AR
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Multi%20Task%20Learning/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Multi%20Task%20Learning/">
+        Multi Task Learning
+      </a>
+</div>
+</div>
+<h2 id="multi-teacher-distillation">Multi Teacher Distillation<a class="headerlink" href="#multi-teacher-distillation" title="Permanent link">¶</a></h2>
+<ul>
+<li>The multiple teacher networks can be individually and integrally used for distillation during the period of training a student network.</li>
+<li>To transfer knowledge from multiple teachers, the simplest way is to use the averaged response from all teachers as the supervision signal (Hinton et al., 2015)</li>
+<li>In addi- tion to the averaged <a href="../Logits/">logits</a> from all teachers, You et al. (2017) further incorporated features from the inter- mediate layers in order to encourage the dissimilarity among different training samples.</li>
+<li>Fukuda et al. (2017) randomly selected one teacher from the pool of teacher networks at each it- eration. To transfer feature-based knowledge from mul- tiple teachers, additional teacher branches are added to the student networks to mimic the intermediate features of teachers (Park and Kwak, 2020; Asif et al., 2020). Born again networks address multiple teach- ers in a step-by-step manner, i.e., the student at the t step is used as the teacher of the student at the t+1 step (Furlanelloetal., 2018)</li>
+<li>To effi- ciently perform knowledge transfer and explore the power of multiple teachers, several alternative meth- ods have been proposed to simulate multiple teach- ers by adding different types of noise to a given teacher (Sau and Balasubramanian, 2016) or by us- ing stochastic blocks and skip connections (Lee et al., 2019c). Using multiple teacher models with feature ensembles, knowledge amalgamation is designed in (Shen et al., 2019a; Luo et al., 2019; Shen et al., 2019b; Luo et al., 2020). Through knowledge amalgamation, many public available trained deep models as teachers can be reused.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Multi%20Variate%20AR/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Multi%20Variate%20AR/">
+        Multi Variate AR
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Multi%20Task%20Learning/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Multi%20Task%20Learning/">
+        Multi Task Learning
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

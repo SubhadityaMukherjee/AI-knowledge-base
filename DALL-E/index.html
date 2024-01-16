@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>DALL-E - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "DALL-E", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../DALL%C2%B7E%202/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../DALL%C2%B7E%202/">
+        DALL·E 2
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DALL-E%203/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DALL-E%203/">
+        DALL-E 2
+      </a>
+</div>
+</div>
+<h2 id="dall-e">DALL-E<a class="headerlink" href="#dall-e" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="../AdaIn/">AdaIn</a></li>
+<li>it was capable of generating text that could not be distinguished from human-written text</li>
+<li>named after Salvador Dalí and Pixar's WALL·E</li>
+<li>based on the <a href="../GPT3/">GPT3</a></li>
+<li>Previous approaches like <a href="../BERT/">BERT</a> and the original <a href="../GPT/">GPT</a> model followed the fine-tuning approach.</li>
+<li><a href="../GPT/">GPT</a>-2 and <a href="../GPT/">GPT</a>-3 recognized that even while pretraining already provided lots of benefits compared to training from scratch, so-called zero-shot learning - where the model is finetuned and then applied to language tasks, without pretraining - could be the way forward.</li>
+<li>DALL·E is capable of performing a variety of tasks:<ul>
+<li>Controlling attributes, instructing the model what particular attributes of an object should look like. For example: "a collection of glasses is sitting on a table" (OpenAI, 2021). Here, we instruct the model about the glasses, and more precisely, their location.</li>
+<li>Drawing multiple objects is also possible, but is more challenging, because it can be unknown whether certain characteristics belong to one object or another (OpenAI, 2021). DALL·E is however also capable of performing that task, but at the risk of making mistakes - once again due to the issue mentioned previously. The success rate decreases rapidly when the number of objects increases.</li>
+<li>Visualizing perspective and three-dimensionality, meaning that DALL·E can be instructed to take a particular "perspective" when generating the image (OpenAI, 2021).</li>
+<li>Visualizing across many levels, from "extreme close-up" to "higher-level concepts" (OpenAI, 2021).</li>
+<li>Inferring context, meaning that particular elements can be added to an image that normally do not belong to a particular context (e.g. the OpenAI logo in the image above; this is normally not displayed on a store front).</li>
+</ul>
+</li>
+<li>Uses<ul>
+<li>Industrial and interior design, to aid designers when creating a variety of household and other objects.</li>
+<li>Architecture, to guide the creation of buildings and other forms of constructions.</li>
+<li>Photography, to create an image specifically tailored to one's requirements.</li>
+<li>Graphic design, with e.g. the creation of a variety of icons.</li>
+</ul>
+</li>
+<li><a href="https://arxiv.org/abs/2102.12092">Zero-Shot Text-to-Image Generation</a></li>
+<li>DALL-E which offers a simple approach for text-to-image generation based on an <a href="../Autoregressive/">autoregressive</a> transformer which models the text and image tokens as a single stream of data</li>
+<li>simple decoder-only transformer that receives both the text and the image as a single stream of 1280 tokens—256 for the text and 1024 for the image—and models all of them autoregressively</li>
+<li>They find that sufficient data and scale can lead to improved generalization, both in terms of zero-shot performance relative to previous domain-specific approaches</li>
+<li>and in terms of the range of capabilities that emerge from a single generative model.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../DALL%C2%B7E%202/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../DALL%C2%B7E%202/">
+        DALL·E 2
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DALL-E%203/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DALL-E%203/">
+        DALL-E 2
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

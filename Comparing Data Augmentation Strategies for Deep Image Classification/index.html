@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Comparing Data Augmentation Strategies for Deep Image Classification - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Comparing Data Augmentation Strategies for Deep Image Classification", url: "#_top", children: [
+              {title: "Summary", url: "#summary" },
+              {title: "Abstract", url: "#abstract" },
+              {title: "Model and Optimizer", url: "#model-and-optimizer" },
+              {title: "Datasets", url: "#datasets" },
+              {title: "CIFAR-10", url: "#cifar-10" },
+              {title: "Experiments", url: "#experiments" },
+              {title: "Results \u0026amp; Discussion", url: "#results-discussion" },
+              {title: "Single Augmentations", url: "#single-augmentations" },
+              {title: "Varying Augmentation Injection Epoch", url: "#varying-augmentation-injection-epoch" },
+              {title: "Varying Sample Size", url: "#varying-sample-size" },
+              {title: "Conclusion", url: "#conclusion" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Complex%20Geometry/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Complex%20Geometry/">
+        Challenge of Complex Geometry
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../CommonCrawl/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../CommonCrawl/">
+        CommonCrawl
+      </a>
+</div>
+</div>
+<h2 id="comparing-data-augmentation-strategies-for-deep-image-classification">Comparing Data Augmentation Strategies for Deep Image Classification<a class="headerlink" href="#comparing-data-augmentation-strategies-for-deep-image-classification" title="Permanent link">¶</a></h2>
+<ul>
+<li>Sarah O'Gara and Kevin McGuinness</li>
+</ul>
+<pre><code class="language-toc"></code></pre>
+<h3 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h3>
+<ul>
+<li>Inject augmentation around 30 epochs</li>
+<li>Use learning rate decay</li>
+<li><a href="../Random%20Erasing/">Random Erasing</a> is useful</li>
+<li>Use <a href="../Adam/">Adam</a> + <a href="../SGD/">SGD</a> </li>
+</ul>
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">¶</a></h3>
+<ul>
+<li>More complex augmentation methods have recently been developed, but it is still unclear which techniques are most effective, and at what stage of the learning process they should be introduced.</li>
+<li>The most accurate results in all experiments are achieved using random erasing due to its ability to simulate occlusion</li>
+<li>reducing the number of training examples significantly increases the importance of augmentation</li>
+<li>improvements in generalization from augmentation do not appear to be only as a result of augmentation preventing overfitting</li>
+<li>learning curriculum that injects augmentation after the initial learning phase has passed is more effective than the standard practice of using augmentation throughout, and that injection too late also reduces accuracy</li>
+<li>We find that careful augmentation can improve accuracy by +2.83% to 95.85% using a ResNet model on <a href="../CIFAR/">CIFAR</a>-10 with more dramatic improvements seen when there are fewer training examples</li>
+</ul>
+<h3 id="model-and-optimizer">Model and Optimizer<a class="headerlink" href="#model-and-optimizer" title="Permanent link">¶</a></h3>
+<ul>
+<li>ResNet</li>
+<li>[He et al., 2015] presents an adaption of the model (ResNet-56) for use with 32×32 images that obtained an error rate of 6.97% on <a href="../CIFAR/">CIFAR</a>-10, which we adopt in our experiments</li>
+<li>SGD with Nestrov momentum</li>
+<li>Although there are more sophisticated first order optimizers (e.g. Adam [Kingma and Ba, 2015]) that consistently improve the loss faster in the initial epochs, SGD has been observed to reach a local minima with lower overall loss and better generalization properties [Ruder, 2016]</li>
+</ul>
+<h3 id="datasets">Datasets<a class="headerlink" href="#datasets" title="Permanent link">¶</a></h3>
+<h3 id="cifar-10"><a href="../CIFAR/">CIFAR</a>-10<a class="headerlink" href="#cifar-10" title="Permanent link">¶</a></h3>
+<ul>
+<li>randomly sample the dataset to create a 200 samples per class and 1,000 samples per class dataset, reducing the training examples available to 4% and 20% of the original dataset</li>
+<li>The effects of overfitting and model generalization as noted in [Hussain et al., 2018, Shijie et al., 2017] are more pronounced with data scarcity</li>
+<li><a href="../Skew%20Tilt/">Skew Tilt</a></li>
+<li><a href="../Shear/">Shear</a></li>
+<li><a href="../Random%20Distortion/">Random Distortion</a></li>
+<li><a href="../Gaussian%20Distortion/">Gaussian Distortion</a></li>
+<li>We introduce augmentation on epochs 30, 60, and 90 of the baseline model and continue training until epoch 163 to discover the optimal time to introduce augmentation. Epochs 30, 60, and 90 represent three distinct stages in the training process: initial loss rate stabilising, loss rate stagnate before learning rate decrease, and loss rate stagnate after learning rate decrease.</li>
+</ul>
+<h3 id="experiments">Experiments<a class="headerlink" href="#experiments" title="Permanent link">¶</a></h3>
+<ul>
+<li>The range of learning rates that provide a stable convergence reduces as batch size increases</li>
+<li>In the most extreme case, we reduce the training set to 4% of the original dataset, meaning a batch size of 128 would likely degrade performance</li>
+<li>Large batches tend to converge to sharp minimizers leading to poor generalization due to the numerous large eigenvalues in the Hessian on convergence</li>
+<li>Small batches, on the other hand, tend to converge to flat minimizers, which have smaller Hessian eigenvalues</li>
+<li>They generate more noise in gradient calculations, decreasing the chance of the gradient dropping into a sharp local minima</li>
+<li>Based on these observations, we train the small and medium datasets using three learning rate strategies: 1) the original strategy from [He et al., 2015], 2) using a batch size of 128 with no learning rate schedule, and 3) using a batch size of 8 with original learning rate schedule.</li>
+</ul>
+<h3 id="results-discussion">Results &amp; Discussion<a class="headerlink" href="#results-discussion" title="Permanent link">¶</a></h3>
+<h3 id="single-augmentations">Single Augmentations<a class="headerlink" href="#single-augmentations" title="Permanent link">¶</a></h3>
+<ul>
+<li>Random erasing shows the best improvement in accuracy of +1.5%</li>
+<li>Both distortion augmentations obtain worse or similar results to the baseline</li>
+<li>The complexity of the augmentation effects the overall training time. Traditional, more simplistic augmentations require little processing time, leading to increases in training time of ∼ 3.5 hours. <a href="../Gaussian%20Distortion/">Gaussian distortion</a> sees the most significant increase in training time of 665%</li>
+<li>We apply each augmentation separately, leading to the dataset increasing from 50k training images to 250k. This leads to the most accurate result seen throughout all experiments of 95.85%</li>
+<li>Our method of applying several single augmentations produces better generalization properties</li>
+</ul>
+<h3 id="varying-augmentation-injection-epoch">Varying Augmentation Injection Epoch<a class="headerlink" href="#varying-augmentation-injection-epoch" title="Permanent link">¶</a></h3>
+<ul>
+<li>epoch 30 is the optimal time to introduce augmentation</li>
+<li>y injecting augmentation on the 30th epoch, the model combats the effects of overfitting better with increases in accuracy from +0.05% up to +0.76%</li>
+<li>Epoch 30 is the point in the training process when the reduction in loss rate begins to decrease drastically, i.e. the model falls into a local minima point</li>
+<li>The slight improvements in accuracy over the baseline result for introduction at epoch 90 support this conclusion</li>
+<li>The model has already overfit the training data and can no longer benefit from the augmentation's generalization properties.</li>
+<li>Epoch 60 presents a more interesting point in the training process. The form of augmentation appears to dictate whether the model will have better generalization properties than training with augmentation from scratch but will always be worse than injection at epoch 30</li>
+</ul>
+<h3 id="varying-sample-size">Varying Sample Size<a class="headerlink" href="#varying-sample-size" title="Permanent link">¶</a></h3>
+<ul>
+<li>For the small dataset, by decreasing the batch size from 128 to 8, the validation accuracy is shown to improve by +31.45% using random erasing (74.46%) when compared to the baseline (43.01%)</li>
+<li>augmentation is most effective in training when data is scarce</li>
+<li>overfitting, as measured by high accuracy on the training set, in many of the augmentation results is more severe than for the baseline</li>
+<li>his would contradict current assumptions that augmentation improves generalization by preventing overfitting in the case of all NNs</li>
+<li>In many of these cases where augmentation has proven to prevent overfitting the sample size for each class is large</li>
+<li>generalization of the model is better in the presence of augmentation</li>
+<li>With smaller datasets using augmentation increases the models ability to learn certain features present in the training set as augmentation can only alter the data already available, i.e. the model will see similar images twice as much so is more likely to overfit.</li>
+<li>For the medium dataset, the best accuracy is achieved by random erasing trained with a batch size of 8 at 87.45%, which is an improvement of +6.3% over the baseline.</li>
+<li>The importance of the learning rate adjustment schedule is apparent with the accuracy decreasing for each model when not applied</li>
+<li>Augmentation does reduce overfitting with the most significant decrease occurring for the small batch size</li>
+<li>At this scale, augmentation has similar effects on accuracy as seen in the full dataset</li>
+<li>When the model has large volumes of training data available, augmentation only slightly increases the generalization capabilities of the network as a large amount of variance already exists</li>
+</ul>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<ul>
+<li>The initial augmentation gives rise to the most significant increase in training time with any additional augmentations adding little overhead</li>
+<li>processing time required to apply said augmentation to the dataset, which must be considered when choosing a form of augmentation to apply</li>
+<li>combining multiple single augmentations with the original dataset is the most effective augmentation strategy with an increase in accuracy of +2.36% to 95.85%</li>
+<li>Random distortion and <a href="../Gaussian%20Distortion/">Gaussian distortion</a> are the worst forms of augmentation tested leading to changes in accuracy of -0.15% and +0.05%, respectively</li>
+<li>This is due to the augmented images not representing the original class and highlights the importance of the choice of augmentation</li>
+<li>The most effective form of single augmentation is found to be random erasing with an increase in accuracy of +1.5%. This is due to its ability to combat the effects of occlusion, and is similar to preventing co-adaption through the use of <a href="../Dropout/">dropout</a>.</li>
+<li>An interesting avenue to explore is the generalization and overfitting properties of augmentation for data scarcity</li>
+<li>Validation accuracy is seen to improve with augmentation, with the most significant improvement of +31.45% for random erasing, indicating better generalization capabilities.</li>
+<li>However, the model also appears to overfit the training data more</li>
+<li>Exploring the interaction of augmentation with more advanced optimizers such as the Adam optimizer, could lead to further improvements in accuracy and training times</li>
+<li>generalization gap between SGD and Adam can be reduced by switching from Adam to SGD during the training process</li>
+<li>During the switching process the learning rate for SGD is calculated as noted in [Keskar and Socher, 2017] and must be switched at the optimal time to ensure better generalization properties.</li>
+<li>Building on this approach, the optimizer switching approach could be combined with data augmentation potentially yielding improvements in accuracy.</li>
+<li>Injecting augmentation at epoch 30 yielded the best improvements in accuracy for single augmentations, indicating a learning curriculum is most effective for augmentation</li>
+<li>Late injection of augmentation improves the generalization capabilities of the network similar to the optimizer switching method of [Keskar and Socher, 2017].</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="images/Pasted image 20230201131437.png" src="../images/Pasted%20image%2020230201131437.png"/></li>
+<li><img alt="images/Pasted image 20230201131458.png" src="../images/Pasted%20image%2020230201131458.png"/></li>
+<li><img alt="images/Pasted image 20230201131507.png" src="../images/Pasted%20image%2020230201131507.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Complex%20Geometry/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Complex%20Geometry/">
+        Challenge of Complex Geometry
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../CommonCrawl/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../CommonCrawl/">
+        CommonCrawl
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

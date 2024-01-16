@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Inception - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Inception", url: "#_top", children: [
+              {title: "V1", url: "#v1" },
+              {title: "V2/V3", url: "#v2v3" },
+              {title: "V4", url: "#v4" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Inceptionism/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Inceptionism/">
+        Inceptionism
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Inattentional%20Blindness/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Inattentional%20Blindness/">
+        Inattentional Blindness
+      </a>
+</div>
+</div>
+<h2 id="inception">Inception<a class="headerlink" href="#inception" title="Permanent link">¶</a></h2>
+<ul>
+<li>@szegedyGoingDeeperConvolutions2014</li>
+<li><a href="https://arxiv.org/abs/1512.00567">Rethinking the Inception Architecture for Computer Vision</a></li>
+</ul>
+<h4 id="v1">V1<a class="headerlink" href="#v1" title="Permanent link">¶</a></h4>
+<ul>
+<li><a href="../Conv/">Conv</a> at different filter scales to find different kinds of <a href="../Features/">features</a> -&gt; stack them up</li>
+<li>Increasing both the depth and width of the network while keeping computations at a manageable level</li>
+<li>Human visual system wherein information is processed at multiple scales and then aggregated locally</li>
+<li>channel <a href="../Dimensionality%20Reduction/">dimensionality reduction</a>, by reducing the output channels of the input</li>
+<li>To enable concatenation of <a href="../Features/">features</a> convolved with different kernels, they pad the output to make it the same size as the input.<ul>
+<li>without dilation</li>
+<li>padding <span class="arithmatex">\(p = (k-1)/2p\)</span></li>
+<li>since <span class="arithmatex">\(out = in +2p -k +1\)</span></li>
+</ul>
+</li>
+<li><img alt="im" src="../images/Pasted%20image%2020220306120214.png"/></li>
+</ul>
+<h4 id="v2v3">V2/V3<a class="headerlink" href="#v2v3" title="Permanent link">¶</a></h4>
+<ul>
+<li>nxn <a href="../Conv/">Conv</a> -&gt; 1xn followed by nx1 <a href="../Conv/">Conv</a></li>
+<li>5x5, 7x7 -&gt; 2 and three 3x3 seq <a href="../Conv/">Conv</a></li>
+<li>More filters (wider)</li>
+<li>Distributed the computational budget in a balanced way between the depth and width of the network</li>
+<li>Added <a href="../Batch%20Normalization/">Batch Normalization</a></li>
+<li><img alt="im" src="../images/Pasted%20image%2020220306121513.png"/></li>
+</ul>
+<h3 id="v4">V4<a class="headerlink" href="#v4" title="Permanent link">¶</a></h3>
+<ul>
+<li>(<a href="https://publish.obsidian.md/fabian-groeger/Machine+Learning+%26+Deep+Learning/Deep+Learning/Architectures/CNN/Inception-v4">from</a>)
+Paper: <a href="https://arxiv.org/pdf/1602.07261.pdf">https://arxiv.org/pdf/1602.07261.pdf</a><br/>
+Year: 2016<br/>
+Summary: New Residual <a href="./">Inception</a> Architecture (deep <a href="https://publish.obsidian.md/fabian-groeger/Machine+Learning+%26+Deep+Learning/Deep+Learning/Architectures/CNN/CNN">CNN</a>)</li>
+<li>Why?<ul>
+<li>Introduction of residual connections on traditional architectures yielded SOTA performance (2015)</li>
+</ul>
+</li>
+<li>Research question<ul>
+<li>Are there benefits when combining residual connections with the Inception architecture?</li>
+</ul>
+</li>
+<li>Findings<ul>
+<li>Residual connections accelerates training of the Inception architecture</li>
+<li>Residual Inception outperforming similar architecture only close</li>
+<li>When the number of filters were higher than 1′000 the residual variants of the network died early in the training (e.g. outputted only zeros)<ul>
+<li>was not able to fix with lowering the Learning Rate or <a href="../Batch%20Normalization/">Batch Normalization</a></li>
+</ul>
+</li>
+<li>Scaling down the residuals before adding them with the residual connection stabilized the training (factor: 0.1−0.3)</li>
+</ul>
+</li>
+<li>General Ideas<ul>
+<li><strong>Parallel convolutions</strong>: Similar to the GoogLeNet architecture within their <em>modules</em> the authors simultaneously use multiple convolutional branches with different <a href="../Receptive%20field/">receptive field</a> sizes on the same input activation maps and again concatenate those activations for further processing.</li>
+<li><strong>Reduction modules</strong>: Instead of simply applying a single max pooling or a 2-stride convolution to downsize the spatial dimensions, the authors dedicated whole modules to this task again employing parallel branches. </li>
+<li><strong>Strong usage of small convolutional kernels</strong>(e.g. 3×3): Throughout the network the authors pefer smaller convolutional kernel size over larger ones, as this enables the same <a href="../Receptive%20field/">receptive field</a> with less parameters (e.g. a single 5×5convolution <a href="../Receptive%20field/">∼25 params </a> as 2 consecutive 3×3convolutions [∼18 params ], but the later has less parameters)</li>
+<li><strong>Factorization of convolutions</strong>: They factorize convolutions of filter size n×n to a combination of 1×n and n×1 convolutions, in order to reduce the nr of parameters even further (e.g. 7×7 [∼49 params ] results in 1×7 and 7×1 [∼14 params ]!)</li>
+<li><strong>Residual connections</strong>: In the <code>Inception-ResNet-v1</code> and <code>Inception-ResNet-v2</code> the authors employ the usage of residual connections. Although the residual version of the networks converge faster, the final accuracy seems to mainly depend on the model size.</li>
+<li><strong>Usage of bottleneck layers</strong>: In order to reduce the cost of the individual convolutional branches within their modules, they apply 1×1convolutions at the beginning to reduce the depth of the input activation maps.</li>
+</ul>
+</li>
+<li>Remarks<ul>
+<li>Authors disagree with residual paper one some points <ul>
+<li>Residual connections are nessecary for training deep convolutional models<ul>
+<li>They show that it is not hard to train very deep models which achieve high performance without residual connections</li>
+<li>They argue that residual connections do only speed up the training greatly</li>
+</ul>
+</li>
+<li>"Warm up" phases (pre-training with very low LR followed by a high LR) do not help to stabilize training very deep networks<ul>
+<li>high LR had the chance to destroy already learnt features</li>
+<li>Scaling should be used instead</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Inceptionism/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Inceptionism/">
+        Inceptionism
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Inattentional%20Blindness/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Inattentional%20Blindness/">
+        Inattentional Blindness
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

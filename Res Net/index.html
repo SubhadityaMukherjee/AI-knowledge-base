@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Res Net - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Res Net", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Rescorla-Wagner%20Algorithm/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Rescorla-Wagner%20Algorithm/">
+        Rescorla-Wagner Algorithm
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Res%20Net%20D/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Res%20Net%20D/">
+        Res Net D
+      </a>
+</div>
+</div>
+<h2 id="res-net">Res Net<a class="headerlink" href="#res-net" title="Permanent link">¶</a></h2>
+<ul>
+<li>@heDeepResidualLearning2016</li>
+<li><a href="https://arxiv.org/abs/1512.03385">Deep Residual Learning for Image Recognition</a></li>
+<li>Deeper Networks have <a href="../Issues/">Issues</a> because of vanishing #gradients</li>
+<li>Propagate gradients forward for deeper networks</li>
+<li>Skip connections</li>
+<li>output of F(x) has the same dims as x -&gt; add</li>
+<li>If only spatial dims match (aka not channels) -&gt; concat</li>
+<li>less params than <a href="../Vgg/">VGG</a></li>
+<li><a href="../Skip%20Connection/">Skip Connection</a></li>
+<li>Sadly, one of the creators Jian Sun passed away yesterday. (16-6-22)</li>
+</ul>
+<pre><code class="language-python">def make_layer(inplanes, planes, block, n_blocks, stride=1):
+    downsample = None
+    if stride != 1 or inplanes != planes * block.expansion:
+        # output size won't match input, so adjust residual
+        downsample = nn.Sequential(
+            nn.Conv2d(inplanes, planes * block.expansion,
+                      kernel_size=1, stride=stride, bias=False),
+            nn.BatchNorm2d(planes * block.expansion),
+        )
+    return nn.Sequential(
+        block(inplanes, planes, stride, downsample),
+        *[block(planes * block.expansion, planes) for _ in range(1, n_blocks)]
+    )
+
+def ResNetNew(block, layers, num_classes=1000):    
+    e = block.expansion
+
+    resnet = nn.Sequential(
+        Rearrange('b c h w -&gt; b c h w', c=3, h=224, w=224),
+        nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=3, bias=False),
+        nn.BatchNorm2d(64),
+        nn.ReLU(inplace=True),
+        nn.MaxPool2d(kernel_size=3, stride=2, padding=1),
+        make_layer(64,      64,  block, layers[0], stride=1),
+        make_layer(64 * e,  128, block, layers[1], stride=2),
+        make_layer(128 * e, 256, block, layers[2], stride=2),
+        make_layer(256 * e, 512, block, layers[3], stride=2),
+        # combined AvgPool and view in one averaging operation
+        Reduce('b c h w -&gt; b c', 'mean'),
+        nn.Linear(512 * e, num_classes),
+    )
+
+    # [initialization](./Initialization.md)
+    for m in resnet.modules():
+        if isinstance(m, nn.Conv2d):
+            n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels
+            m.weight.data.normal_(0, math.sqrt(2. / n))
+        elif isinstance(m, nn.BatchNorm2d):
+            m.weight.data.fill_(1)
+            m.bias.data.zero_()
+    return resnet
+</code></pre>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Rescorla-Wagner%20Algorithm/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Rescorla-Wagner%20Algorithm/">
+        Rescorla-Wagner Algorithm
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Res%20Net%20D/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Res%20Net%20D/">
+        Res Net D
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

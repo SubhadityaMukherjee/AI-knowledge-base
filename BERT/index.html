@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>BERT - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "BERT", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../BEiT/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../BEiT/">
+        BEiT
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../BCE%20with%20Logits/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../BCE%20with%20Logits/">
+        BCE Logits
+      </a>
+</div>
+</div>
+<h2 id="bert">BERT<a class="headerlink" href="#bert" title="Permanent link">¶</a></h2>
+<ul>
+<li>Bidirectional Encoder rep from transformers</li>
+<li>Uses <a href="../Token%20Embedding/">Token Embedding</a></li>
+<li><a href="../Self%20Supervised/">Self Supervised</a></li>
+<li>Masked <a href="../language/">language</a> modeling, next sentence prediction</li>
+<li><img alt="im" src="../images/Pasted%20image%2020220307183916.png"/></li>
+<li>[CLS] : start of classification task, [SEP] between sentences, [MASK] : masked token</li>
+<li>
+<p><a href="https://github.com/christianversloot/machine-learning-articles/blob/main/intuitive-introduction-to-bert.md">christianversloot</a> #<a href="Roam-Highlights">Roam-Highlights</a></p>
+<ul>
+<li>BERT base <span class="arithmatex">\(\text{BERT}_\text{BASE}\)</span>, which has 12 Encoder Segments stacked on top of each other, has 768-dimensional intermediate state, and utilizes 12 <a href="../Attention/">attention</a> heads (with hence 768/12 = 64-dimensional <a href="../Attention/">attention</a> heads).</li>
+<li>BERT large (<span class="arithmatex">\(\text{BERT}_\text{LARGE}\)</span>), which has 24 Encoder Segments, 1024-dimensional intermediate state, and 16 <a href="../Attention/">attention</a> heads (64-dimensional <a href="../Attention/">attention</a> heads again).</li>
+<li>BERT utilizes the encoder segment, meaning that it outputs some vectors <span class="arithmatex">\(T_i\)</span> for every token. The first vector, <span class="arithmatex">\(T_0\)</span>, is also called <span class="arithmatex">\(C\)</span> in the BERT paper: it is the "class vector" that contains sentence-level information (or in the case of multiple sentences, information about the sentence pair). All other vectors are vectors representing information about the specific token.</li>
+<li>In other words, structuring BERT this way allows us to perform sentence-level tasks and token-level tasks. If we use BERT and want to work with sentence-level information, we build on top of the <span class="arithmatex">\(C\)</span> token.</li>
+<li>
+<p><a href="../Masked%20Language%20Modeling/">Masked Language Modeling</a></p>
+</li>
+<li>
+<p>Next Sentence Prediction (NSP)</p>
+<ul>
+<li>This task ensures that the model learns sentence-level information. It is also really simple, and is the reason why the BERT inputs can sometimes be a pair of sentences. NSP involves textual entailment, or understanding the relationship between two sentences.</li>
+<li>Constructing a training dataset for this task is simple: given an unlabeled corpus, we take a phrase, and take the next one for the 50% of cases where BERT has a next sentence. We take another phase at random given A for the 50% where this is not the case (Devlin et al., 2018). This way, we can construct a dataset where there is a 50/50 split between 'is next' and 'is not next' sentences.</li>
+</ul>
+</li>
+<li><a href="../BooksCorpus/">BooksCorpus</a></li>
+<li><a href="../English%20Wikipedia/">English Wikipedia</a></li>
+<li>It thus does not matter whether your downstream task involves single text or text pairs: BERT can handle it.<ul>
+<li>Sentence pairs in paraphrasing tasks.</li>
+<li>Hypothesis-premise pairs in textual entailment tasks.</li>
+<li>Question-answer pairs in question answering.</li>
+<li>Text-empty pair in text classification.</li>
+</ul>
+</li>
+<li>Yes, you read it right: sentence B is empty if your goal is to fine-tune for text classification. There simply is no sentence after the token.</li>
+<li>Fine-tuning is also really inexpensive</li>
+</ul>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../BEiT/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../BEiT/">
+        BEiT
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../BCE%20with%20Logits/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../BCE%20with%20Logits/">
+        BCE Logits
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

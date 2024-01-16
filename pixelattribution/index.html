@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>pixelattribution - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Pixelattribution", url: "#_top", children: [
+              {title: "Pixel Attribution", url: "#pixel-attribution" },
+              {title: "Occlusion or Perturbation-based", url: "#occlusion-or-perturbation-based" },
+              {title: "Gradient-based", url: "#gradient-based" },
+              {title: "Gradient-only Methods", url: "#gradient-only-methods" },
+              {title: "Path-attribution Methods", url: "#path-attribution-methods" },
+              {title: "Vanilla Gradient", url: "#vanilla-gradient" },
+              {title: "DeconvNet", url: "#deconvnet" },
+              {title: "Grad-CAM", url: "#grad-cam" },
+              {title: "Guided Grad-CAM", url: "#guided-grad-cam" },
+              {title: "# SmoothGrad", url: "#smoothgrad" },
+              {title: "Disadvantages", url: "#disadvantages" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../plan%20recognition%20problem/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../plan%20recognition%20problem/">
+        plan recognition problem
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../past%20tense/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../past%20tense/">
+        past tense
+      </a>
+</div>
+</div>
+<h2 id="pixelattribution">Pixelattribution<a class="headerlink" href="#pixelattribution" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<h3 id="pixel-attribution">Pixel Attribution<a class="headerlink" href="#pixel-attribution" title="Permanent link">¶</a></h3>
+<ul>
+<li>Pixel attribution is a special case of feature attribution, but for images</li>
+<li>Feature attribution explains individual predictions by attributing each input feature according to how much it changed the prediction (negatively or positively)</li>
+<li>The features can be input pixels, tabular data or words</li>
+</ul>
+<h3 id="occlusion-or-perturbation-based">Occlusion or Perturbation-based<a class="headerlink" href="#occlusion-or-perturbation-based" title="Permanent link">¶</a></h3>
+<ul>
+<li>Methods like SHAP and LIME manipulate parts of the image to generateexplanations (modelagnostic).</li>
+</ul>
+<h3 id="gradient-based">Gradient-based<a class="headerlink" href="#gradient-based" title="Permanent link">¶</a></h3>
+<ul>
+<li>compute the gradient of the prediction (or classification score) with respect to theinput feature</li>
+<li>The gradient-based methods (of which there are many) mostly differ in how thegradient is computed.</li>
+<li>explanation has the same size as the input image (or at least can be meaningfullyprojected onto it) and they assign each pixel a value that can be interpreted as therelevance of the pixel to the prediction or classification of that image.</li>
+</ul>
+<h3 id="gradient-only-methods">Gradient-only Methods<a class="headerlink" href="#gradient-only-methods" title="Permanent link">¶</a></h3>
+<ul>
+<li>whether a change in a pixel would change the prediction</li>
+<li>Examples are Vanilla Gradient and Grad-CAM</li>
+<li>If I were to increase the color values of the pixel, the predicted class probabilitywould go up (for positive gradient) or down (for negative gradient</li>
+<li>The larger the absolute value of the gradient, the stronger the effect of a change ofthis pixel.</li>
+</ul>
+<h3 id="path-attribution-methods">Path-attribution Methods<a class="headerlink" href="#path-attribution-methods" title="Permanent link">¶</a></h3>
+<ul>
+<li>compare the current image to a reference image, which can be an artificial "zero"image such as a completely grey image</li>
+<li>The difference in actual and baseline prediction is divided among the pixels</li>
+<li>The baseline image can also be multiple images: a distribution of images</li>
+<li>model-specific gradient-based methods such as Deep Taylor and IntegratedGradients</li>
+<li>model-agnostic methods such as LIME and SHAP.</li>
+<li>Some path-attribution methods are "complete", meaning that the sum of therelevance scores for all input features is the difference between the prediction of theimage and the prediction of a reference image</li>
+<li>Examples are SHAP and Integrated Gradients.</li>
+<li>The difference between classification scores of the actual image and the baselineimage are attributed to the pixels</li>
+<li>The choice of the reference image (distribution) has a big effect on the explanation</li>
+</ul>
+<h3 id="vanilla-gradient">Vanilla Gradient<a class="headerlink" href="#vanilla-gradient" title="Permanent link">¶</a></h3>
+<ul>
+<li>We calculate the gradient of the loss function for the class we are interested in withrespect to the input pixels</li>
+<li>This gives us a map of the size of the input features with negative to positive values.</li>
+<li>The recipe for this approach is:</li>
+<li>
+<ol>
+<li>Perform a forward pass of the image of interest.</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Compute the gradient of the class score of interest with respect to the input pixels:</li>
+</ol>
+</li>
+<li><img alt="img_p2_1" src="../images/img_p2_1.png"/></li>
+<li>Here we set all other classes to zero.</li>
+<li>
+<ol>
+<li>Visualize the gradients. You can either show the absolute values or highlight negative and positive contributions separately.</li>
+</ol>
+</li>
+<li>More formally, we have an image I and the convolutional neural 𝑆𝑐(𝐼) network gives ita score</li>
+<li>for class c</li>
+<li>The score is a highly non-linear function of our image.</li>
+<li>The idea behind using the gradient is that we can approximate that score byapplying a first-order Taylor expansion</li>
+<li><img alt="img_p3_1" src="../images/img_p3_1.png"/></li>
+<li>some ambiguity how to perform a backward pass of the gradients</li>
+<li>since non-linear units such as ReLU (Rectifying Linear Unit) "remove" the sign</li>
+<li>So when we do a backpass, we do not know whether to assign a positive or negativeactivation</li>
+<li>
+<p><img alt="img_p4_1" src="../images/img_p4_1.png"/></p>
+</li>
+<li>
+<p>This means that when the activation of a neuron is zero, we do not know which valueto backpropagate</p>
+</li>
+<li>In the case of Vanilla Gradient, the ambiguity is resolved as follows: 𝛿𝑓= 𝛿𝑓</li>
+<li><img alt="img_p4_2" src="../images/img_p4_2.png"/></li>
+<li>𝐈 e r e , activation at the lower layer was negative, and one where it is positive orzero</li>
+<li>Vanilla Gradient takes the gradient we have backpropagated so far up to layer n+1,and then simply sets the gradients to zero where the activation at the layer below isnegative</li>
+</ul>
+<h4 id="problems-with-vanilla-gradient">Problems with Vanilla Gradient<a class="headerlink" href="#problems-with-vanilla-gradient" title="Permanent link">¶</a></h4>
+<ul>
+<li>saturation problem</li>
+<li>When ReLU is used, and when the activation goes below zero, then the activation iscapped at zero and does not change any more</li>
+</ul>
+<h3 id="deconvnet">DeconvNet<a class="headerlink" href="#deconvnet" title="Permanent link">¶</a></h3>
+<ul>
+<li>almost identical to Vanilla Gradient</li>
+<li>The goal of DeconvNet is to reverse a neural network and the paper proposesoperations that are reversals of the filtering, pooling and activation layers</li>
+<li>but apart from the reversal of the ReLU layer, DeconvNet is equivalent to the Vanilla Gradient approach</li>
+<li>Vanilla Gradient can be seen as a generalization of DeconvNet</li>
+<li>DeconvNet makes a different choice for backpropagating the gradient- <strong>12:24</strong>  through ReLU:</li>
+<li><img alt="img_p5_1" src="../images/img_p5_1.png"/></li>
+<li>When backpassing from layer n to layer n-1, DeconvNet "remembers" which of theactivations in layer n were set to zero in the forward pass and sets them to zero in layer n-1</li>
+<li>𝑋ctivations with a negative value in layer x are set to zero in layer n-1.</li>
+</ul>
+<h3 id="grad-cam">Grad-CAM<a class="headerlink" href="#grad-cam" title="Permanent link">¶</a></h3>
+<ul>
+<li>Grad-CAM provides visual explanations for CNN decisions</li>
+<li>Unlike other methods, the gradient is not backpropagated all the way back to theimage, but (usually) to the last convolutional layer to produce a coarse localizationmap that highlights important regions of the image.</li>
+<li>Gradient-weighted Class Activation Map</li>
+<li>based on the gradient of the neural networks</li>
+<li>assigns each neuron a relevance score for the decision of interest</li>
+<li>This decision of interest can be the class prediction (which we find in the outputlayer), but can theoretically be any other layer in the neural network</li>
+<li>GradCAM can be used with different CNNs: with fully-connected layers, forstructured output such as captioning and in multi-task outputs, and forreinforcement learning.</li>
+<li>s a reminder, the first convolutional layer of a CNN takes as input the images andoutputs feature maps that encode learned features</li>
+<li>higher-level convolutional layers do the same, but take as input the feature maps ofthe previous convolutional layers</li>
+<li>There are k feature maps in the last 𝐴 ,𝐴 ,...,𝐴</li>
+<li>Grad-CAM has to decide how important each of the k feature map was to our class cthat we are interested in</li>
+<li>We have to weight each pixel of each feature map with the gradient before weaverage over the feature maps</li>
+<li>This gives us a heatmap which highlights regions that positively or negatively affectthe class of interest</li>
+<li>This heatmap is send through the ReLU function, which is a fancy way of saying thatwe set all negative values to zero</li>
+<li>Grad-CAM removes all negative values by using a ReLU function, with the argumentthat we are only interested in the parts that contribute to the selected class c and not to other classes</li>
+<li>The word pixel might be misleading here as the feature map is smaller than theimage (because of the pooling units) but is mapped back to the original image</li>
+<li>We then scale the GradCAM map to the interval [0,1] for visualization purposes and overlay it over the original image.</li>
+<li><img alt="img_p7_1" src="../images/img_p7_1.png"/></li>
+<li>Forward-propagate the input image through the convolutional neural network.</li>
+<li>Obtain the raw score for the class of interest, meaning the activation of the neuron before the softmax layer.</li>
+<li>Set all other class activations to zero.</li>
+<li><img alt="img_p8_1" src="../images/img_p8_1.png"/></li>
+<li>Back-propagate the gradient of the class of interest to the last 𝛿𝑦𝑐 𝛿𝐴𝑘 convolutional layer before the fully connected layers.</li>
+<li>Weight each feature map "pixel" by the gradient for the class. Indices i and j refer to the width and height dimensions.</li>
+<li><img alt="img_p8_2" src="../images/img_p8_2.png"/></li>
+<li>This means that the gradients are globally pooled</li>
+<li>Calculate an average of the feature maps, weighted per pixel by the gradient.</li>
+<li>Apply ReLU to the averaged feature map.</li>
+<li>Scale values to the interval between 0 and 1. Upscale the image and overlay it over the original image.</li>
+<li>Additional step for Guided Grad-CAM: Multiply the heatmap with guided backpropagation.</li>
+</ul>
+<h3 id="guided-grad-cam">Guided Grad-CAM<a class="headerlink" href="#guided-grad-cam" title="Permanent link">¶</a></h3>
+<ul>
+<li>From the description of Grad-CAM you can guess that the localization is verycoarse, since the last convolutional feature maps have a much coarser resolution compared to the input image</li>
+<li>In contrast, other attribution techniques backpropagate all the way to the inputpixels</li>
+<li>They are therefore much more detailed and can show you individual edges or spotsthat contributed most to a prediction</li>
+<li>You compute for an image both the GradCAM explanation and the explanationfrom another attribution method, such as Vanilla Gradient</li>
+<li>The Grad-CAM output is then upsampled with bilinear interpolation, then both mapsare multiplied element-wise</li>
+<li>Grad-CAM works like a lense that focuses on specific parts of the pixel-wiseattribution map.</li>
+</ul>
+<h3 id="smoothgrad"># SmoothGrad<a class="headerlink" href="#smoothgrad" title="Permanent link">¶</a></h3>
+<ul>
+<li>make gradient-based explanations less noisy by adding noise and averaging overthese artificially noisy gradient</li>
+<li>SmoothGrad is not a standalone explanation method, but an extension to anygradientbased explanation method.</li>
+<li>
+<ol>
+<li>Generate multiple versions of the image of interest byadding noise to it. 2.Create pixel attribution maps for all images. </li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Average the pixel attribution maps.</li>
+</ol>
+</li>
+<li>The theory is that the derivative fluctuates greatly at small scales</li>
+<li>Neural networks have no incentive during training to keep the gradients smooth,their goal is to classify images correctly</li>
+<li>Averaging over multiple maps "smooths out" these fluctuations</li>
+<li><img alt="img_p10_1" src="../images/img_p10_1.png"/></li>
+<li><img alt="img_p10_2" src="../images/img_p10_2.png"/></li>
+<li><img alt="img_p11_1" src="../images/img_p11_1.png"/></li>
+<li>And that is the big issue with all of these methods</li>
+<li>We do not have a ground truth for the explanations</li>
+<li>We can only, in a first step, reject explanations that obviously make no sense (andeven in this step we do not have strong confidence</li>
+</ul>
+<h3 id="disadvantages">Disadvantages<a class="headerlink" href="#disadvantages" title="Permanent link">¶</a></h3>
+<ul>
+<li>it is difficult to know whether an explanation is correct, and a huge part of theevaluation is only qualitative</li>
+<li>Pixel attribution methods can be very fragile</li>
+<li>Ghorbani et al. (2019)86 showed that introducing small (adversarial) perturbationsto an image, which still lead to the same prediction, can lead to very different pixelsbeing highlighted as explanations.</li>
+<li>Kindermans et al. (2019) 87 also showed that these pixel attribution methods can behighly unreliable</li>
+<li>They added a constant shift to the input data, meaning they added the same pixelchanges to all images</li>
+<li>They compared two networks, the original network and the "shifted" network wherethe bias of the first layer is changed to adapt for the constant pixel shift</li>
+<li>Both networks produce the same predictions.</li>
+<li>Further, the gradient is the same for both</li>
+<li>But the explanations changed, which is an undesirable property. They looked at DeepLift, Vanilla Gradient and Integrated Gradients.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../plan%20recognition%20problem/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../plan%20recognition%20problem/">
+        plan recognition problem
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../past%20tense/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../past%20tense/">
+        past tense
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

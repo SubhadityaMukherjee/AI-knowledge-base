@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>One cycle policy - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "One Cycle Policy", url: "#_top", children: [
+              {title: "Step", url: "#step" },
+              {title: "Cyclical Momentum", url: "#cyclical-momentum" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../One%20hot/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../One%20hot/">
+        One Hot Encoding
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../On%20the%20overlap%20between%20Grad-CAM%20saliency%20maps%20and%20explainable%20visual%20features%20in%20skin%20cancer%20images/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../On%20the%20overlap%20between%20Grad-CAM%20saliency%20maps%20and%20explainable%20visual%20features%20in%20skin%20cancer%20images/">
+        On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images
+      </a>
+</div>
+</div>
+<h2 id="one-cycle-policy">One Cycle Policy<a class="headerlink" href="#one-cycle-policy" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>@smithSuperConvergenceVeryFast2018</li>
+</ul>
+<h3 id="step">Step<a class="headerlink" href="#step" title="Permanent link">¶</a></h3>
+<ul>
+<li>recommends to do a cycle with two steps of equal lengths, one going from a lower learning rate to a higher one than go back to the minimumThe maximum should be the value picked with the Learning Rate Finder, and the lower one can be ten times lower</li>
+<li>Then, the length of this cycle should be slightly less than the total number of epochs, and, in the last part of training, we should allow the learning rate to decrease more than the minimum, by several orders of magnitude.</li>
+<li>The idea of starting slower isn't new: using a lower value to warm-up the training is ofen done, and this is exactly what the first part is achieving</li>
+<li>Leslie doesn't recommend to switch to a higher value directly, however, but to rather slowly go there linearly, and to take as much time going up as going down.</li>
+<li>the during the middle of the cycle, the high learning rates will act as regularization method, and keep the network from overfitting</li>
+<li>They will prevent the model to land in a steep area of the loss function, preferring to find a minimum that is flatteapproximates of the hessian were lower, indicating that the SGD was finding a wider flat area</li>
+<li>Then the last part of the training, with descending learning rates up until annihilation will allow us to go inside a steeper local minimum inside that smoother part</li>
+<li>Surprisingly, applying this policy even allows us to pick larger maximum learning rates, closer to the minimum of the plot we draw when using the learning rate finder</li>
+<li>Those trainings are a bit more dangerous in the sense that the loss can go too far away and make the whole thing diverge In those cases, it can be worth to try with a longer cycle before going to a slower learning rate, since a long warm-up seems to help</li>
+<li><img alt="images/Pasted image 20230511123527.png" src="../images/Pasted%20image%2020230511123527.png"/></li>
+</ul>
+<h3 id="cyclical-momentum">Cyclical Momentum<a class="headerlink" href="#cyclical-momentum" title="Permanent link">¶</a></h3>
+<ul>
+<li>To accompany the movement toward larger learning rates, Leslie found in his experiments that decreasing the momentum led to better results</li>
+<li>This supports the intuition that in that part of the training, we want the SGD to quickly go in new directions to find a flatter area, so the new gradients need to be given more weight</li>
+<li>According to Leslie, the exact best value of momentum chosen during the whole training can give us the same final results, but using cyclical momentums removes the hassle of trying multiple values and running several full cycles, losing precious time.</li>
+<li>In his opinion, the batch size should be set to the highest possible value to fit in the available memory. Then the other hyper-parameters we may have (dropout for instance) can be tuned the same way as weight decay, or just by trying on a cycle and see the results they give</li>
+<li>Training with the 1cycle policy at high learning rates is a method of regularization in itself, so we shouldn't be surprised if we have to reduce the other forms of regularization we were previously using when we put it in place</li>
+<li><img alt="images/Pasted image 20230511123512.png" src="../images/Pasted%20image%2020230511123512.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../One%20hot/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../One%20hot/">
+        One Hot Encoding
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../On%20the%20overlap%20between%20Grad-CAM%20saliency%20maps%20and%20explainable%20visual%20features%20in%20skin%20cancer%20images/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../On%20the%20overlap%20between%20Grad-CAM%20saliency%20maps%20and%20explainable%20visual%20features%20in%20skin%20cancer%20images/">
+        On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

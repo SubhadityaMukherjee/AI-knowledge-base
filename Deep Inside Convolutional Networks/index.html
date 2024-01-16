@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Deep Inside Convolutional Networks - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Deep Inside Convolutional Networks", url: "#_top", children: [
+              {title: "From class visualization to Saliency", url: "#from-class-visualization-to-saliency" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Deep%20Neural%20Networks%20are%20Easily%20Fooled%20High%20Confidence%20Predictions%20for%20Unrecognizable%20Images/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Deep%20Neural%20Networks%20are%20Easily%20Fooled%20High%20Confidence%20Predictions%20for%20Unrecognizable%20Images/">
+        Deep Neural Networks are Easily Fooled High Confidence Predictions for Unrecognizable Images
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Deep%20Generative%20Models/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Deep%20Generative%20Models/">
+        Deep Generative Models
+      </a>
+</div>
+</div>
+<h2 id="deep-inside-convolutional-networks">Deep Inside Convolutional Networks<a class="headerlink" href="#deep-inside-convolutional-networks" title="Permanent link">¶</a></h2>
+<ul>
+<li>Karen Simonyan, Andrea Vedaldi, Andrew Zisserman</li>
+<li>@simonyanDeepConvolutionalNetworks2014</li>
+</ul>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>Because the word saliency is often related to the whole approach to display input attribution called Saliency Map, this method is also known as Vanilla Gradient</li>
+<li>finding L2 regularized image III that maximizes score <span class="arithmatex">\(S_{c}\)</span>​ for a given class c</li>
+<li>It can be written formally as:</li>
+<li>
+<div class="arithmatex">\[arg \underset{I}max S_{c}(I) - \lambda||I||^{2}_{2}\]</div>
+</li>
+<li>Where <span class="arithmatex">\(\lambda\)</span> is a regularisation parameter</li>
+<li>To find the value of I, we can use the back-propagation method. Unlike in the standard learning process, we are going to back-propagate with respect to the input image, not the first convolution layer</li>
+</ul>
+<h3 id="from-class-visualization-to-saliency">From class visualization to Saliency<a class="headerlink" href="#from-class-visualization-to-saliency" title="Permanent link">¶</a></h3>
+<ul>
+<li>This idea can be extrapolated, and with minor modifications, we should be able to query for spatial support of class ccc in a given image I0I_0I0​.</li>
+<li>rank pixels of <span class="arithmatex">\(I_{0}\)</span>​ in relation to their importance in predicting score <span class="arithmatex">\(S_{c}(I_{0})\)</span></li>
+<li>Authors assume that we can approximate <span class="arithmatex">\(S_{c}(I)\)</span> with a linear function in the neighborhood of <span class="arithmatex">\(I_{0}\)</span></li>
+<li>
+<div class="arithmatex">\[S_{c}(I) \approx w^{T}I + b\]</div>
+</li>
+<li>For a pair of input image <span class="arithmatex">\(<span class="arithmatex">\(I_{0} \in \mathbb{R}^{m \times n}\)</span>\)</span> and the class c, we are able to compute saliency map <span class="arithmatex">\(A \in \mathbb{R}^{m \times n}\)</span> (where m and n are the height and width of the input in pixels).</li>
+<li>compute derivative w and rearrange elements in the returned vector.</li>
+<li>uses different approaches base on the number of channels in the input image <span class="arithmatex">\(I_{0}\)</span>​.</li>
+<li>For grey-scale pixels (one color channel), we can rearrange the pixels to match the shape of the image</li>
+<li>If the number of channels is greater than one, we are going to use the maximum value from each set of values related to the specified pixel.</li>
+<li>
+<div class="arithmatex">\[A_{i,j}= \underset{ch}max |w_{h_{(i,j,ch)}}|\]</div>
+</li>
+<li>ch is a color channel of the pixel (i,j) and h(i,j,ch) is an index of the www corresponding to the same pixel (i,j).</li>
+<li>The original Saliency method produces a lot of additional noise but still gives us an idea of which part of the input image is relevant when predicting a specific class.</li>
+<li>This often causes a problem when the object on the image has a lot of details and the model is using most of them to make a prediction.</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="images/Pasted image 20230310115235.png" src="../images/Pasted%20image%2020230310115235.png"/></li>
+<li><img alt="images/Pasted image 20230310115248.png" src="../images/Pasted%20image%2020230310115248.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Deep%20Neural%20Networks%20are%20Easily%20Fooled%20High%20Confidence%20Predictions%20for%20Unrecognizable%20Images/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Deep%20Neural%20Networks%20are%20Easily%20Fooled%20High%20Confidence%20Predictions%20for%20Unrecognizable%20Images/">
+        Deep Neural Networks are Easily Fooled High Confidence Predictions for Unrecognizable Images
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Deep%20Generative%20Models/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Deep%20Generative%20Models/">
+        Deep Generative Models
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

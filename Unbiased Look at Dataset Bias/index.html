@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Unbiased Look at Dataset Bias - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Unbiased Look at Dataset Bias", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Uncertainity%20in%20classification/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Uncertainity%20in%20classification/">
+        Uncertainty Classification
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Unawareness/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Unawareness/">
+        Unawareness
+      </a>
+</div>
+</div>
+<ul>
+<li>
+<h2 id="unbiased-look-at-dataset-bias">Unbiased Look at Dataset Bias<a class="headerlink" href="#unbiased-look-at-dataset-bias" title="Permanent link">¶</a></h2>
+</li>
+</ul>
+<p><code>toc</code>
+- Unbiased Look at Dataset Bias
+- Alexei A. Efros Antonio Torralba
+- [[@Unbiased look at dataset bias]]
+- ## Abstract
+- some datasets, that started out as data capture efforts aimed at representing the visual world, have become closed worlds unto themselves
+- despite the best efforts of their creators, the datasets appear to have a strong buildin bias
+- Of course, much of the bias can be accounted for by the divergent goals of the different datasets: some captured more urban scenes, others more rural landscapes; some collected professional photographs, others the amateur snapshots from the Internet; some focused on entire scenes, others on single objects, etc
+- Caltech has a strong preference for side views, while ImageNet is into racing cars; PASCAL have cars at noncanonical view-points; SUNS and LabelMe cars appear to be similar, except LabelMe cars are often occluded by small objects, etc
+- Name That Dataset
+- ## Measuring Dataset Bias
+- settle for a few standard checks, a diagnostic of dataset health if you will.
+- <a href="../Cross-dataset%20generalization/">Cross-dataset generalization</a>
+- <a href="../Selection%20Bias/">Selection bias</a>
+- <a href="../Capture%20bias/">Capture bias</a>
+- <a href="../Label%20bias/">Label bias</a>
+- <a href="../Negative%20Set%20Bias/">Negative Set Bias</a>
+- ## Measuring Dataset's Value
+- two basic ways of improving the performance
+- The first solution is to improve the features, the object representation and the learning algorithm for the detector.
+- The second solution is to simply enlarge the amount of data available for training.
+- So, what is the value of current datasets when used to train algorithms that will be deployed in the real world? The answer that emerges can be summarized as: "better than nothing, but not by much".
+- ## Discussion
+- that the reason is not that datasets are bad, but that our object representations and recognition algorithms are terrible and end up over-learning aspects of the visual data that relates to the dataset and not to the ultimate visual task.
+- In fact, a human learns about vision by living in a reduced environment with many potential local biases and yet the visual system is robust enough to overcome this.
+- Should we care about the quality of our datasets? If the goal is to reduce computer vision to a set of feature vectors that can be used in some machine learning algorithm, then maybe not. But if the goal is to build algorithms that can understand the visual world, then, having the right datasets will be crucial.
+- ## Images
+- <img alt="images/Pasted image 20230125120321.png" src="../images/Pasted%20image%2020230125120321.png"/>
+- <img alt="images/Pasted image 20230125120337.png" src="../images/Pasted%20image%2020230125120337.png"/></p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Uncertainity%20in%20classification/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Uncertainity%20in%20classification/">
+        Uncertainty Classification
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Unawareness/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Unawareness/">
+        Unawareness
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

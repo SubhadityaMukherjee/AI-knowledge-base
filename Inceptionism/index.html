@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Inceptionism - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Inceptionism", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Independence/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Independence/">
+        Independence
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Inception/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Inception/">
+        Inception
+      </a>
+</div>
+</div>
+<h2 id="inceptionism">Inceptionism<a class="headerlink" href="#inceptionism" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html">Google AI Blog: Inceptionism: Going Deeper into Neural Networks</a> #<a href="Roam-Highlights">Roam-Highlights</a></li>
+<li><a href="../Le%20Net/">Le Net</a></li>
+<li><img alt="Pasted image 20220711201721" src="../images/Pasted%20image%2020220711201721.png"/></li>
+<li><img alt="Pasted image 20220711201740" src="../images/Pasted%20image%2020220711201740.png"/></li>
+<li><img alt="Pasted image 20220711201745" src="../images/Pasted%20image%2020220711201745.png"/></li>
+<li><img alt="Pasted image 20220711201750" src="../images/Pasted%20image%2020220711201750.png"/></li>
+<li><img alt="Pasted image 20220711201754" src="../images/Pasted%20image%2020220711201754.png"/></li>
+<li><img alt="Pasted image 20220711201758" src="../images/Pasted%20image%2020220711201758.png"/></li>
+<li><img alt="Pasted image 20220711201804" src="../images/Pasted%20image%2020220711201804.png"/></li>
+<li>One of the challenges of neural networks is understanding what exactly goes on at each layer</li>
+<li>We know that after training, each layer progressively extracts higher and higher-level <a href="../Features/">features</a> of the image, until the final layer essentially makes a decision on what the image shows</li>
+<li>For example, the first layer maybe looks for edges or corners</li>
+<li>Intermediate <a href="../Layers/">layers</a> interpret the basic <a href="../Features/">features</a> to look for overall shapes or components, like a door or a leaf</li>
+<li>The final few <a href="../Layers/">layers</a> assemble those into complete interpretations—these neurons activate in response to very complex things such as entire buildings or <a href="../Trees/">trees</a>.</li>
+<li>One way to visualize what goes on is to turn the network upside down and ask it to enhance an input image in such a way as to elicit a particular interpretation.</li>
+<li>Why is this important? Well, we train networks by simply showing them many examples of what we want them to learn, hoping they extract the essence of the matter at hand (e.g., a fork needs a handle and 2-4 tines), and learn to ignore what doesn’t matter (a fork can be any shape, size, color or orientation)</li>
+<li>But how do you check that the network has correctly learned the right <a href="../Features/">features</a>? It can help to visualize the network’s representation of a fork.</li>
+<li>Indeed, in some cases, this reveals that the neural net isn’t quite looking for the thing we thought it was.</li>
+<li>Instead of exactly prescribing which feature we want the network to amplify, we can also let the network make that decision</li>
+<li>In this case we simply feed the network an arbitrary image or photo and let the network analyze the picture</li>
+<li>We then pick a layer and ask the network to enhance whatever it detected.</li>
+<li>If we choose higher-level <a href="../Layers/">layers</a>, which identify more sophisticated <a href="../Features/">features</a> in images, complex <a href="../Features/">features</a> or even whole objects tend to emerge</li>
+<li>Again, we just start with an existing image and give it to our neural net.</li>
+<li>We ask the network: “Whatever you see there, I want more of it!” This creates a <a href="../Feedback%20Loop/">feedback loop</a>: if a cloud looks a little bit like a bird, the network will make it look more like a bird</li>
+<li>This in turn will make the network recognize the bird even more strongly on the next pass and so forth, until a highly detailed bird appears, seemingly out of nowhere.</li>
+<li>The results are intriguing—even a relatively simple neural network can be used to over-interpret an image, just like as children we enjoyed watching clouds and interpreting the random shapes</li>
+<li>This network was trained mostly on images of animals, so naturally it tends to interpret shapes as animals</li>
+<li>But because the data is stored at such a high abstraction, the results are an interesting remix of these learned <a href="../Features/">features</a>.</li>
+<li>Of course, we can do more than cloud watching with this technique</li>
+<li>We can apply it to any kind of image</li>
+<li>The results vary quite a bit with the kind of image, because the <a href="../Features/">features</a> that are entered bias the network towards certain interpretations</li>
+<li>For example, horizon lines tend to get filled with towers and pagodas</li>
+<li>Rocks and <a href="../Trees/">trees</a> turn into buildings</li>
+<li>Birds and insects appear in images of leaves.</li>
+<li>We must go deeper: Iterations If we apply the algorithm iteratively on its own outputs and apply some zooming after each iteration, we get an endless stream of new impressions, exploring the set of things the network knows about</li>
+<li>We can even start this process from a random-noise image, so that the result becomes purely the result of the neural network, as seen in the following images:</li>
+<li>The techniques presented here help us understand and visualize how neural networks are able to carry out difficult classification tasks, improve network architecture, and check what the network has learned during training</li>
+<li>It also makes us wonder whether neural networks could become a tool for artists—a new way to remix visual concepts—or perhaps even shed a little light on the roots of the creative process in general.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Independence/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Independence/">
+        Independence
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Inception/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Inception/">
+        Inception
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

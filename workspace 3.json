@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "e4871692ff627ceb",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec785e331f0113a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59b5401ae0808212",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2022-11-17.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ccccc666ef6499a",
+    "type": "split",
+    "children": [
+      {
+        "id": "0540c734fb9a920c",
+        "type": "tabs",
+        "dimension": 46.63518299881937,
+        "children": [
+          {
+            "id": "67980bfcbf87ef96",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "driving",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c48c4eb95e80c76b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "journals/2022-11-17.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "7cc8c6c60d586e63",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "journals/2022-11-17.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2c308ea757dd3f43",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d021e2e50e1993fb",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "journals/2022-11-17.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 3.0911542068850637,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "27b8a540cafb1ad3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "journals/2022-11-17.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "09ea97e62e4ee243",
+        "type": "tabs",
+        "dimension": 53.36481700118063,
+        "children": [
+          {
+            "id": "9a7e775c5a38c45d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 373.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "94b3ada31412627e",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 236.5,
+    "collapsed": true
+  },
+  "active": "59b5401ae0808212",
+  "lastOpenFiles": [
+    "mastersthesis.md",
+    "On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images.md",
+    "Manifold.md",
+    "journals/2022-11-15.md",
+    "Sugar Factory Task.md",
+    "Declarative memory.md",
+    "ACT-R.md",
+    "journals/2022-11-14.md",
+    "ACT-R Chunk.md",
+    "Anterior Cingulate.md"
+  ]
+}

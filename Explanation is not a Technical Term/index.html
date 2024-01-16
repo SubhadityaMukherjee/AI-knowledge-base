@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Explanation is not a Technical Term - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Explanation is not a Technical Term", url: "#_top", children: [
+              {title: "Abstract", url: "#abstract" },
+              {title: "Introduction", url: "#introduction" },
+              {title: "Motivation", url: "#motivation" },
+              {title: "The Requirements: Functional Roles", url: "#the-requirements-functional-roles" },
+              {title: "Auditors and Regulators", url: "#auditors-and-regulators" },
+              {title: "The Requirements: User Knowledge", url: "#the-requirements-user-knowledge" },
+              {title: "System Capabilities", url: "#system-capabilities" },
+              {title: "Trusted but not Trustworthy: A New Dark Pattern", url: "#trusted-but-not-trustworthy-a-new-dark-pattern" },
+              {title: "Discussion: Metrics - the next Critical step for XAI", url: "#discussion-metrics-the-next-critical-step-for-xai" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Explanator/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Explanator/">
+        Explanator
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Explainable%20Artificial%20Intelligence%20%28XAI%29%20Concepts%2C%20Taxonomies%2C%20Opportunities%20and%20Challenges%20toward%20Responsible%20AI/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Explainable%20Artificial%20Intelligence%20%28XAI%29%20Concepts%2C%20Taxonomies%2C%20Opportunities%20and%20Challenges%20toward%20Responsible%20AI/">
+        Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI
+      </a>
+</div>
+</div>
+<h2 id="explanation-is-not-a-technical-term">Explanation is not a Technical Term<a class="headerlink" href="#explanation-is-not-a-technical-term" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>@gilpinExplanationNotTechnical2022</li>
+</ul>
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">¶</a></h3>
+<ul>
+<li>Artificial Intelligence (XAI) and those explanations that users and other audiences actually need, which should be defined by the full spectrum of functional roles, audiences, and capabilities for explanation</li>
+<li>In this paper, we explore the features of explanations and how to use those features in evaluating their utility.</li>
+<li>we discuss the risk of XAI enabling trust in systems without establishing their trustworthiness and define a critical next step for the field of XAI to establish metrics to guide and ground the utility of system-generated explanations</li>
+</ul>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h3>
+<ul>
+<li>The problem is that explainability is not a well-defined goal: there is no common definition, metrics, or benchmarks for success.</li>
+<li>Rather than taking a view of explanations as undi↵erentiated artifacts shared by multiple users, we view them as generated in response to their functional roles, audience, and data access</li>
+<li>Functional role: How is the explanation going to be used?</li>
+<li>Audience: To whom is it directed and what is their knowledge of the system and domain?</li>
+<li>Capabilities: What are the capabilities of the system constructing the explanation and the source of data/knowledge used to do so?</li>
+</ul>
+<h3 id="motivation">Motivation<a class="headerlink" href="#motivation" title="Permanent link">¶</a></h3>
+<ul>
+<li>Because explanations are links between agents, we also need to consider the audience and their knowledge background</li>
+<li>An explanation's functional role defines the information that needs to be communicated.</li>
+<li>The state of the audience's initial knowledge of both the domain and processes define a second set of requirements related to the detail and vocabulary used in the explanation.</li>
+<li>These three factors define the basis for metrics for an evaluation calculus that can be used to evaluate an explanation based on whether it serves the right functional role with the right level of elaboration for its audience supported by the system's knowledge of its own reasoning.</li>
+<li>By unpacking the idea of "explanation" into these factors, XAI can go beyond the "checking the box" phase to one in which explanations can play the role for which they were designed</li>
+</ul>
+<h3 id="the-requirements-functional-roles">The Requirements: Functional Roles<a class="headerlink" href="#the-requirements-functional-roles" title="Permanent link">¶</a></h3>
+<ul>
+<li>Unfortunately, one of the early findings in the realm of explanation was the discovery that the human bar on what constitutes a "good explanation" is shockingly low.</li>
+<li>As Langer discovered in 1978, people are satisfied with "Placebic" information if it has the syntactic form of an explanation [13].</li>
+<li>A system's capabilities and access to knowledge about its own reasoning determine the scope and validity of the explanations it can generate.</li>
+</ul>
+<h4 id="engineers-and-developers">Engineers and Developers<a class="headerlink" href="#engineers-and-developers" title="Permanent link">¶</a></h4>
+<ul>
+<li>explanations are close to the machinery, and the shared language is technical and can contain machine representation</li>
+<li>These users have experience working with models, understand limitations, can run experiments, and can intuit from incomplete or partial "explanations" as they perform their task: debugging and iterating on the model to improve its performance and make it trustworthy</li>
+</ul>
+<h4 id="doctors">Doctors<a class="headerlink" href="#doctors" title="Permanent link">¶</a></h4>
+<ul>
+<li>explanations are less about the core mechanics of the models themselves and reflect the logic of the domain, a↵ording exploration, counterfactuals, cohort comparison and transparent reasoning about the features most pertinent to a diagnosis</li>
+<li>if a system provides a warning that a particular patient is showing signs of possible heart failure, a doctor will want a list of relevant factors in order of importance or concern, as well as the patient's prognosis compared to that of other patients, and how that prognosis changes if certain factors are amended</li>
+<li>At their best, the interaction between a doctor and an intelligent system should seek to mirror the sorts of interactions two doctors might have when collaborating on the task of developing a diagnosis and refining a treatment plan.</li>
+</ul>
+<h4 id="patients">Patients<a class="headerlink" href="#patients" title="Permanent link">¶</a></h4>
+<ul>
+<li>patient's goal is more immediate and comes with higher personal stakes</li>
+<li>This is the realm of personal decision making and, in cases of emergency, immediate action</li>
+<li>These individuals are less informed about aspects of the medical domain, and systems tailored to them must account for that information asymmetry.</li>
+<li>Thus, XAI, in this use case, becomes less about collaboration or justification and instead is geared towards confidence building, risk assessment, contextualization, and guided calls to action</li>
+</ul>
+<h4 id="regulators-and-auditors">Regulators and Auditors<a class="headerlink" href="#regulators-and-auditors" title="Permanent link">¶</a></h4>
+<ul>
+<li>require explanations that scope across the mechanisms of a system, the data used to train it, and the medical practices that it embodies.</li>
+<li>they require explanations that might include elements of the human in the loop in order to determine responsibility and culpability.</li>
+<li>engineers</li>
+<li>building a system, explanations need to touch on the aspects of a system's decisions that can be used in debugging, referencing the data, feature selection, and comparisons.</li>
+<li>users interpreting the recommendations of a system</li>
+<li>explanations need to include features that can be used to support exploration of hypotheticals, counterfactuals, cohort comparison and likelihoods.</li>
+<li>explanations need to support trust and confidence building, risk assessment, contextualization, and decision support</li>
+<li>stakeholders impacted by a decision</li>
+</ul>
+<h3 id="auditors-and-regulators">Auditors and Regulators<a class="headerlink" href="#auditors-and-regulators" title="Permanent link">¶</a></h3>
+<ul>
+<li>explanations need to support comparisons and aggregate review of performance and the trail of both algorithmic and human decisions that led to it</li>
+</ul>
+<h3 id="the-requirements-user-knowledge">The Requirements: User Knowledge<a class="headerlink" href="#the-requirements-user-knowledge" title="Permanent link">¶</a></h3>
+<ul>
+<li>The knowledge state of the various stakeholders interacting with the system defines another</li>
+<li>As noted above, the functional role of XAI starts in the realm of model debugging and diagnostics – a tool set aimed at technical users capable of deciphering machine representations, interpreting model performance metrics, and updating model training to improve performance</li>
+<li>Domain experts may not need explanations that provide insight into the technical workings of systems</li>
+<li>They want and understand explanations at the domain level.</li>
+<li>While it is often the case that they have the right level of domain knowledge, it is always a possibility that they lack detailed knowledge of specific domain level features and ideas.</li>
+<li>Impacted stakeholders are highly variable</li>
+<li>they may have no knowledge of either the domain or the technology. They do not have expertise in either but do have basic knowledge of how the world works.</li>
+<li>Stakeholders such as auditors and regulators have specialized knowledge of the ways in which data and algorithms interact and how to look at the performance of a system through the lens of comparison and systemic issues.</li>
+</ul>
+<h3 id="system-capabilities">System Capabilities<a class="headerlink" href="#system-capabilities" title="Permanent link">¶</a></h3>
+<h4 id="interpretability">Interpretability<a class="headerlink" href="#interpretability" title="Permanent link">¶</a></h4>
+<ul>
+<li>how understandable the output representation is to the audience.</li>
+<li>depends on the target audience and the task</li>
+</ul>
+<h4 id="accuracy">Accuracy<a class="headerlink" href="#accuracy" title="Permanent link">¶</a></h4>
+<ul>
+<li>based on correctness</li>
+<li>except that it is in terms of the explanation itself</li>
+<li>dependent on both the domain and the user</li>
+<li>A saliency map applied to cancer images may highlight the hospital name, indicating that the reasons supporting the diagnosis is</li>
+<li>the hospital where the image was taken [17]</li>
+<li>
+<p>This explanation is true to the model but the model is faulty. The explanation is accurate but the model is not.</p>
+</li>
+<li>
+<p><a href="../Elaborateness/">Elaborateness</a></p>
+</li>
+<li>
+<p><a href="../Faithfulness/">Faithfulness</a></p>
+</li>
+</ul>
+<h3 id="trusted-but-not-trustworthy-a-new-dark-pattern">Trusted but not Trustworthy: A New Dark Pattern<a class="headerlink" href="#trusted-but-not-trustworthy-a-new-dark-pattern" title="Permanent link">¶</a></h3>
+<ul>
+<li>One of the dominant themes in XAI is the notion of trust</li>
+<li>The focus is on getting users to trust a system rather than on making the system trustworthy.</li>
+<li>Such trust is developed through output assessment over time and through a host of factors external to the model output itself (including the apparent trust of other experts, design decisions at the system and user experience levels, and ancillary components such as domain-informed conversational interfaces).</li>
+<li>hard won and easily lost</li>
+</ul>
+<h3 id="discussion-metrics-the-next-critical-step-for-xai">Discussion: Metrics - the next Critical step for XAI<a class="headerlink" href="#discussion-metrics-the-next-critical-step-for-xai" title="Permanent link">¶</a></h3>
+<ul>
+<li>Explanations should provide new insights: explanations should go beyond the "why, what, how" [20]</li>
+<li>We must also be able to compare and contrast them, as explanations can disagree and directly contradict each other [21]</li>
+<li>We also want to quantify the system capabilities: how well the explanation actually explains</li>
+<li>When we as humans explain something, it is a deductive process. Each claim follows from the last claim</li>
+<li>The crucial point is that explanations need to fit the functional role in a manner that is interpretable to the audience</li>
+<li>In evaluating an explanation, the question is whether it fits the role and the audience</li>
+<li>With a variety of explanation types, a single "one size fits all" metric is inappropriate</li>
+<li>Explanations must be built, interpreted, and evaluated through the lens of the functions that they serve and the knowledge situations in which they do so; through the lens of requirements and a system's capability to meet them.</li>
+<li>As work in XAI continues, it must attend to what exactly is being explained, to whom the explanation is directed, and how it is going to be used, and must provide a structured, standard evaluation approach via metrics of success.</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="images/Page11Image28.503841911723242_69.0524207960309-390.09416045002604_526.8046627143713.png" src="../images/Page11Image28.503841911723242_69.0524207960309-390.09416045002604_526.8046627143713.png"/></li>
+<li><img alt="images/Page12Image42.55803980601578_445.26651888696006-359.94635491537673_174.37303587724818.png" src="../images/Page12Image42.55803980601578_445.26651888696006-359.94635491537673_174.37303587724818.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Explanator/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Explanator/">
+        Explanator
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Explainable%20Artificial%20Intelligence%20%28XAI%29%20Concepts%2C%20Taxonomies%2C%20Opportunities%20and%20Challenges%20toward%20Responsible%20AI/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Explainable%20Artificial%20Intelligence%20%28XAI%29%20Concepts%2C%20Taxonomies%2C%20Opportunities%20and%20Challenges%20toward%20Responsible%20AI/">
+        Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

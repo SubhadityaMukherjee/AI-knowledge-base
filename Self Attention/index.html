@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Self Attention - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Self Attention", url: "#_top", children: [
+              {title: "Ref", url: "#ref" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Self%20Distillation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Self%20Distillation/">
+        Self Distillation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Self%20Attention%20GAN/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Self%20Attention%20GAN/">
+        Self Attention GAN
+      </a>
+</div>
+</div>
+<h2 id="self-attention">Self <a href="../Attention/">Attention</a><a class="headerlink" href="#self-attention" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/1706.03762v5">paper</a></li>
+<li>Basically <a href="../Scaled%20Dot%20Product%20Attention/">Scaled Dot Product Attention</a></li>
+<li>Q,K,V all from same module but prev layer</li>
+<li>Weighted average over all input vectors <span class="arithmatex">(<span class="arithmatex">\(y_{i}= \Sigma_{j}w_{ij}x_{j}\)</span>\)</span><ul>
+<li>j is over the sequence</li>
+<li>weights sum to 1 over j</li>
+<li><span class="arithmatex">\(w_{ij}\)</span> is derived <span class="arithmatex">\(w^{'}_{ij}=x_{i}^{T}x_{j}\)</span><ul>
+<li>Any value between -inf to +inf so <a href="../Softmax/">Softmax</a> is applied</li>
+</ul>
+</li>
+<li><span class="arithmatex">\(x_i\)</span> is the input vector at the same pos as the current output vector <span class="arithmatex">\(y_i\)</span></li>
+</ul>
+</li>
+<li>Propagates info between vectors</li>
+<li><img alt="im" src="../images/Pasted%20image%2020220525183444.png"/></li>
+<li>The process<ul>
+<li>Assign every word t in the vocabular an <a href="../Embedding/">Embedding</a></li>
+<li>Feeding this into a self <a href="../Attention/">attention</a> layer we get another seq of vectors <span class="arithmatex">\(y_{the}\)</span> , <span class="arithmatex">\(y_{cat}\)</span> etc</li>
+<li>each of the <span class="arithmatex">\(y_{something}\)</span> is a weighted sum over all the <a href="../Embedding/">embedding</a> vectors in the first seq weighted by their normalized dot product with <span class="arithmatex">\(v_{something}\)</span></li>
+<li>the dot product shows how related the vectors are in the sequence<ul>
+<li>weights determined by them</li>
+<li>Self-<a href="../Attention/">Attention</a> layer may give more weights to those input vectors that are more similar to each other when generating the output vectors</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Properties<ul>
+<li>Inputs are a set (not sequence)</li>
+<li>If input seq is permuted, the output is too</li>
+<li>Ignores the sequential nature of input by itself</li>
+</ul>
+</li>
+<li>Code</li>
+</ul>
+<pre><code class="language-python">def attention(K, V, Q):
+    _, n_channels, _ = K.shape
+    A = torch.einsum('bct,bcl-&gt;btl', [K, Q])
+    A = F.softmax(A * n_channels ** (-0.5), 1)
+    R = torch.einsum('bct,btl-&gt;bcl', [V, A])
+    return torch.cat((R, Q), dim=1)
+</code></pre>
+<h3 id="ref">Ref<a class="headerlink" href="#ref" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="https://peterbloem.nl/blog/transformers">perterbloem</a></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Self%20Distillation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Self%20Distillation/">
+        Self Distillation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Self%20Attention%20GAN/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Self%20Attention%20GAN/">
+        Self Attention GAN
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

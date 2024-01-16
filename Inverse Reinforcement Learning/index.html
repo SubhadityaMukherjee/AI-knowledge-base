@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Inverse Reinforcement Learning - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Inverse Reinforcement Learning", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Inverse%20Square%20Law/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Inverse%20Square%20Law/">
+        Inverse Square Law
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Inverse%20Kinematics/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Inverse%20Kinematics/">
+        Inverse Kinematics
+      </a>
+</div>
+</div>
+<h2 id="inverse-reinforcement-learning">Inverse Reinforcement Learning<a class="headerlink" href="#inverse-reinforcement-learning" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>Basically, IRL is about studying from humans.</li>
+<li>Inverse reinforcement learning is the sphere of studying an agent’s objectives, values, or rewards with the aid of using insights of its behavior.</li>
+<li>We can fit a reward function with the use of professional demonstrations. Once a reward feature is fitted, we are able to use Policy Gradient, Model-based RL or different RL to locate the ideal policy.</li>
+<li>For example, we are able to compute the policy gradient with the use of the reward feature as opposed to sampled rewards. With the policy gradient calculated, we optimize the policy closer to the finest rewards gain.</li>
+<li>As part of the IRL, the task is to collect a set of human-generated driving data and extract an approximation of that human's reward function for the task. Of course, this approximation necessarily relates to a simplified driving model.</li>
+<li>As Ng and Russell put it, "the reward function, rather than the guideline, is the most concise, robust, and transferable definition of the task" because it quantifies how good or bad certain actions are. Once we have the right reward function, the problem is finding the right guideline and can be solved using standard reinforcement learning methods.</li>
+<li>For our autonomous car example, we would use human driving data to automatically learn the correct functional weights for the reward. Since the task is fully described by the reward function, we don't even need to know the details of human politics as long as we have the right reward function to optimize.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Inverse%20Square%20Law/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Inverse%20Square%20Law/">
+        Inverse Square Law
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Inverse%20Kinematics/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Inverse%20Kinematics/">
+        Inverse Kinematics
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

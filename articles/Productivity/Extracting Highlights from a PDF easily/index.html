@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Extracting Highlights from a PDF easily - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "What we want to do", url: "#_top", children: [
+          ]},
+          {title: "Existing Programs and\u2026 their flaws", url: "#existing-programs-and-their-flaws", children: [
+          ]},
+          {title: "pdfannots", url: "#pdfannots", children: [
+          ]},
+          {title: "Installing the script", url: "#installing-the-script", children: [
+          ]},
+          {title: "Getting your highlights!", url: "#getting-your-highlights", children: [
+          ]},
+          {title: "Specific Formatting", url: "#specific-formatting", children: [
+          ]},
+          {title: "Fin", url: "#fin", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Obisidian%20Daily%20Notes/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Obisidian%20Daily%20Notes/">
+        Obisidian Daily Notes
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Extensions%20that%20make%20writing%20research%20papers%20easier/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Extensions%20that%20make%20writing%20research%20papers%20easier/">
+        Extensions that make writing research papers easier
+      </a>
+</div>
+</div>
+<p>How to get PDF Highlights to Notes in 3 steps </p>
+<p>Reading a research paper/lecture slides/book? Made a lot of highlights in a PDF? Now want to get them into your notes as text? Don’t want to have to type everything again? Here’s your way out.
+Hey. Reading a research paper or a long document is itself a lot of effort. After that, I do not have the energy to again copy everything properly into my notes. I have been searching for a way to do that, but none of the options I found work for two-column layouts, or even maintain page order properly.</p>
+<p>(Disclaimer: I am not sponsored by, or hold any affiliations to any of the products mentioned below. I share them because I use them every day and think they would be useful to you.)</p>
+<h3 id="what-we-want-to-do">What we want to do<a class="headerlink" href="#what-we-want-to-do" title="Permanent link">¶</a></h3>
+<p>Convert highlights like in this document on the left to notes with minimal effort. 
+I use a note application called <a href="https://obsidian.md">Obsidian</a>, but anything you use works here. As long as it supports text. </p>
+<h3 id="existing-programs-and-their-flaws">Existing Programs and… their flaws<a class="headerlink" href="#existing-programs-and-their-flaws" title="Permanent link">¶</a></h3>
+<p>Many PDF viewers offer the ability to export notes into text. Like <a href="https://skim-app.sourceforge.io">Skim</a> for Mac, <a href="https://get.adobe.com/uk/reader/">Adobe Acrobat</a>, <a href="https://www.onenote.com/">OneNote</a> etc 
+But they have their fair share of issues
+- Most of them are paid
+- Two column layouts, like those in research papers are not handled very well
+- The export option removes all page information which makes it super hard to format it
+- They do not export comments or other annotations properly
+- They get very confused when the word or line spacing differs a little</p>
+<p>You get the point.</p>
+<h3 id="pdfannots">pdfannots<a class="headerlink" href="#pdfannots" title="Permanent link">¶</a></h3>
+<p>After a lot of searching, I found a Python script on GitHub called <a href="https://github.com/0xabu/pdfannots">pdfannots</a>. Sadly their documentation makes it very hard for someone without experience to get it running. Hence this article.</p>
+<h3 id="installing-the-script">Installing the script<a class="headerlink" href="#installing-the-script" title="Permanent link">¶</a></h3>
+<p>There are not many steps involved here. But it might sound a little complicated.
+- Step 1: Install <a href="https://www.python.org/downloads/">Python</a>. If you are on Windows, select install ‘pip’ as well. If you are on Mac or Linux, you can skip this step as it already comes pre-installed with your system.
+- Step 2: Open a terminal (Hit the Windows button -&gt; Search/ Mac: Open Spotlight -&gt; Search/Linux: You probably know how to)
+- Step 3: Run (paste it and hit Enter) the following command</p>
+<pre><code>pip install pdfannots
+</code></pre>
+<p>(If you get an error, you probably did not install Python or pip. Try Step 1 again.)
+PS: Don’t get annoyed at me for not counting these steps. This is a one-time install after all. Once it’s on your laptop, you can just proceed with the ones below every other time.</p>
+<h3 id="getting-your-highlights">Getting your highlights!<a class="headerlink" href="#getting-your-highlights" title="Permanent link">¶</a></h3>
+<ul>
+<li>Step 1: Once that completes, identify where the PDF with highlights is saved on your computer. You can open the location in your file manager. Note the location. Replace <filename> with this
+As an example : (Windows: “C:\Users\Subha\Documents\paper.pdf)”,  Mac : “/Users/eragon/Documents/paper.pdf”)</filename></li>
+<li>Step 2: Now go back to the terminal, and run the following </li>
+</ul>
+<pre><code>pdfannots &lt;filename&gt;
+</code></pre>
+<ul>
+<li>Step 3: Voila! Now just select all that output text, copy it, and paste it wherever. Easy right?</li>
+<li>Step 4: This is optional of course, but you can format your text however you want to. (I will write an article on how you can do that and update this blog later.)</li>
+</ul>
+<h3 id="specific-formatting">Specific Formatting<a class="headerlink" href="#specific-formatting" title="Permanent link">¶</a></h3>
+<p>Maybe your document did not get read properly. Here is a little FAQ.
+- Document not found: Check your file path properly. Maybe a little google search? Try dragging and dropping instead.
+- Two column research paper, use this instead: pdfannots —cols=2 <filename>
+- Spaces all weird? : pdfannots —word-margin=<anything> <filename>
+- Weird technicalities? : Refer to the <a href="https://github.com/0xabu/pdfannots">original page</a> of the script. You can also ask the developers questions.
+- Want to automate common formatting, convert to markdown, etc? : (An article will come soon, but you can leave a comment in the meanwhile.)</filename></anything></filename></p>
+<h3 id="fin">Fin<a class="headerlink" href="#fin" title="Permanent link">¶</a></h3>
+<p>This article is in the hopes that it will help someone out. Maybe have the help that I did not. I do not know who it will reach. But to whoever it does, best of luck :)</p>
+<p>Have any questions? Comment or shoot me an email.
+Like these/Want more? Buy me a coffee! <a href="https://ko-fi.com/subhadityamukherjee">Kofi</a>
+Want articles on something specific? Just ask.
+You can contact me on <a href="https://www.linkedin.com/in/subhaditya-mukherjee-a36883100">LinkedIn</a>, drop me an <a href="mailto:msubhaditya@gmail.com">Email</a></p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Obisidian%20Daily%20Notes/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Obisidian%20Daily%20Notes/">
+        Obisidian Daily Notes
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Extensions%20that%20make%20writing%20research%20papers%20easier/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Extensions%20that%20make%20writing%20research%20papers%20easier/">
+        Extensions that make writing research papers easier
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

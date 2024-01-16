@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Notes   Machine Learning System Design - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Notes on \u201cMachine Learning System Design\u201d (for Interviews) by Chip Huyen #ai", url: "#_top", children: [
+              {title: "Interviews", url: "#interviews" },
+              {title: "Compute requirements", url: "#compute-requirements" },
+              {title: "Setting Up The Project", url: "#setting-up-the-project" },
+              {title: "Baselines", url: "#baselines" },
+              {title: "Debugging Models", url: "#debugging-models" },
+              {title: "Model Scaling", url: "#model-scaling" },
+              {title: "Inference", url: "#inference" },
+              {title: "Fin", url: "#fin" },
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Professional%20Reports%20and%20Papers%20with%20LaTEX/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Professional%20Reports%20and%20Papers%20with%20LaTEX/">
+        Professional Reports and Papers with LaTEX
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Myself/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Myself/">
+        Myself
+      </a>
+</div>
+</div>
+<h2 id="notes-on-machine-learning-system-design-for-interviews-by-chip-huyen-ai">Notes on “Machine Learning System Design” (for Interviews) by Chip Huyen #ai<a class="headerlink" href="#notes-on-machine-learning-system-design-for-interviews-by-chip-huyen-ai" title="Permanent link">¶</a></h2>
+<p>These are my notes on <a href="https://github.com/chiphuyen/machine-learning-systems-design/blob/master/build/build1/consolidated.pdf">this article</a> by <a href="https://huyenchip.com/">Chip Huyen</a>. </p>
+<p>The article that these notes are based on, talks about some factors that are involved in designing machine learning systems, and what to watch out for in interviews on the same. I wanted to write a summary of what I read and add my take on it for future reference.</p>
+<p>As a note, I found Chip’s book <a href="https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969">Designing Machine Learning Systems</a> an excellent resource for anyone starting or willing to improve their skills in this field. I would recommend a read. (This is not sponsored by any means.)</p>
+<h3 id="interviews">Interviews<a class="headerlink" href="#interviews" title="Permanent link">¶</a></h3>
+<ul>
+<li>The major issue with Machine Learning interviews seems to be the lack of a standard criterion by which to judge a candidate. This makes a lot of sense considering how varied the requirements of each project are.</li>
+<li>Interviewers generally look for what they are familiar with and often this means that an ideal candidate would be someone who thinks along similar lines. This is especially interesting in ML because there are an infinite number of ways to approach a problem.</li>
+<li>It would be helpful for the candidate to understand what kind of answers the company would be looking for based on their previous work. </li>
+</ul>
+<h3 id="compute-requirements">Compute requirements<a class="headerlink" href="#compute-requirements" title="Permanent link">¶</a></h3>
+<ul>
+<li>Contrary to the vast amount of research in the ML space on improving models and focusing on metrics, in production, users might barely notice a tiny improvement in accuracy. In return, this would further increase the complexity of the system and thus its latency.</li>
+<li>It is important to first understand exactly what you wish to achieve and what you need to optimize for. </li>
+<li>You cannot do everything.</li>
+</ul>
+<h3 id="setting-up-the-project">Setting Up The Project<a class="headerlink" href="#setting-up-the-project" title="Permanent link">¶</a></h3>
+<ul>
+<li>At the end of the day, an ML system also requires skills from Software Engineering. A complete system is not just a model but a lot of moving parts. Thus there are quite a few tradeoffs to consider.</li>
+<li>An initial thought process<ul>
+<li>Pick the top 2 goals that your solution needs</li>
+<li>What does the user interaction look like?<ul>
+<li>Do you care about personalized results? </li>
+<li>Does latency matter?</li>
+<li>How much of your system relies on ML?</li>
+<li>What kind of devices are you looking at for deployment?</li>
+<li>Does privacy matter?</li>
+</ul>
+</li>
+<li>Data<ul>
+<li>Do you have the data? </li>
+<li>Is it usable? Is it clean?</li>
+<li>Where is it stored? How much of it is stored?</li>
+</ul>
+</li>
+<li>What metrics are useful in this context? (Domain expertise would be very helpful here)</li>
+<li>What resources do you have/can acquire? People, time, users, etc</li>
+</ul>
+</li>
+</ul>
+<h3 id="baselines">Baselines<a class="headerlink" href="#baselines" title="Permanent link">¶</a></h3>
+<ul>
+<li>These systems can get complex pretty fast. So start with the simplest possible algorithm. You might not even need a very complex Deep learning system. And it might not be feasible at the start.</li>
+<li>To evaluate if it is worth shifting to a more complex implementation, looking at baselines is essential.<ul>
+<li>Random Baseline: How well would a random guess do?</li>
+<li>How well does a human do on this task? (If that is feasible)</li>
+<li>What minimum results do you need for a functioning solution?</li>
+</ul>
+</li>
+</ul>
+<h3 id="debugging-models">Debugging Models<a class="headerlink" href="#debugging-models" title="Permanent link">¶</a></h3>
+<p>This is one endless minefield. 
+In my experience, <a href="http://karpathy.github.io/2019/04/25/recipe/">this list</a> by <a href="http://karpathy.github.io/">Andrej Karpathy</a> is a pretty comprehensive guide. I do not have anything to add to it so I will skip this section.</p>
+<p>As a recommendation though, I would suggest considering the use of a framework such as <a href="http://fast.ai">fast.ai</a>. These are built with a lot of issues in mind and take care of a lot of them. </p>
+<h3 id="model-scaling">Model Scaling<a class="headerlink" href="#model-scaling" title="Permanent link">¶</a></h3>
+<ul>
+<li>Most large-scale systems these days use Parallel and Distributed computing. Multiple GPUs/TPUs etc.</li>
+<li>If your data does not fit into memory, there are many ways of getting it - Gradient checkpointing, Mixed Precision, and Parallelism are some of them. (Future blogs will go a lot more in-depth. Putting it here will make it pretty huge.)</li>
+</ul>
+<h3 id="inference">Inference<a class="headerlink" href="#inference" title="Permanent link">¶</a></h3>
+<ul>
+<li>There are a lot of steps and tradeoffs involved in inference. <ul>
+<li>Where will you run your model? How long does it take? Can you say with certainty why a particular result is obtained? Can you retrain it? </li>
+<li>Before deployment, it is advisable to turn off all the modifications one by one and test how well the system performs without them.</li>
+<li>Check for biases in the results. (For example: Does your model prefer colored people?)</li>
+<li>Does your data remain constant? Or keep changing?</li>
+</ul>
+</li>
+</ul>
+<h3 id="fin">Fin<a class="headerlink" href="#fin" title="Permanent link">¶</a></h3>
+<p>The list of things to consider to make an efficient and thought-out model is endless. I do not think it is possible to take everything into account in the real world, but the more you think these through and follow these guidelines, the better and more stable your implementation will be.
+Of course, this is more of a short primer rather than a comprehensive guide. Future articles will cover more details.</p>
+<p>This article is in the hopes that it will help someone out. Maybe have the help that I did not. I do not know who it will reach. But to whoever it does, best of luck :)</p>
+<p>You can contact me on <a href="https://www.linkedin.com/in/subhaditya-mukherjee-a36883100">LinkedIn</a>, drop me an <a href="mailto:msubhaditya@gmail.com">Email</a></p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Professional%20Reports%20and%20Papers%20with%20LaTEX/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Professional%20Reports%20and%20Papers%20with%20LaTEX/">
+        Professional Reports and Papers with LaTEX
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Myself/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Myself/">
+        Myself
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

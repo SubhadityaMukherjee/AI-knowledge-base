@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Deep Visual Explanation - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Deep Visual Explanation", url: "#_top", children: [
+              {title: "Visual Explanation", url: "#visual-explanation" },
+              {title: "Targeted Deep Visual Explanation", url: "#targeted-deep-visual-explanation" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../DeepFM/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../DeepFM/">
+        DeepFM
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Deep%20Neural%20Networks%20are%20Easily%20Fooled%20High%20Confidence%20Predictions%20for%20Unrecognizable%20Images/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Deep%20Neural%20Networks%20are%20Easily%20Fooled%20High%20Confidence%20Predictions%20for%20Unrecognizable%20Images/">
+        Deep Neural Networks are Easily Fooled High Confidence Predictions for Unrecognizable Images
+      </a>
+</div>
+</div>
+<h2 id="deep-visual-explanation">Deep Visual Explanation<a class="headerlink" href="#deep-visual-explanation" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>@babikerIntroductionDeepVisual2018</li>
+<li>They captured the discriminative areas of the input image by considering the activation of high and low spatial scales in the Fourier space.</li>
+<li>"Deep," because it is the development and performance of deep neural network models that we want to understand. "Visual," because we believe that the most rapid insight into a complex multi-dimensional model is provided by appropriate visualization techniques, and "Explanation," because in the spectrum from instrumentation by inserting print statements to the abductive inference of explanatory hypotheses, we believe that the key to understanding deep learning relies on the identification and exposure of hypotheses about the performance behavior of a learned deep model.</li>
+<li>Deep convolutional neural networks (DCNN) produce spatial information at the convolution layers</li>
+<li>loss of information makes the explanation process challenging, especially when it comes to interpreting the output of sensitive data such as medical images</li>
+<li>Our immediate goal is to create an explanation about the outcome of a DCNN, i.e., to identify which discriminative pixels in the image influence the final prediction</li>
+<li>To approach this task in this restricted context, we assume that the convolution feature maps X at pooling layer l contain some relevant information about class y</li>
+<li>We can then write our solution as: <span class="arithmatex">\(D : I \rightarrow y_{i} \rightarrow S\)</span> i.e., map the input I to class <span class="arithmatex">\(y_{i}\)</span> using network D, and compute the evidence/explanation S</li>
+<li>output. So to explain <span class="arithmatex">\(y_{i} \rightarrow S\)</span>, we can compute the low-spatial scale and high-spatial scale activations of every feature map</li>
+</ul>
+<h3 id="visual-explanation">Visual Explanation<a class="headerlink" href="#visual-explanation" title="Permanent link">¶</a></h3>
+<ul>
+<li>Explanaton in Fourier domain. Function <span class="arithmatex">\(F(x)\)</span> represents transform with <span class="arithmatex">\(x \in \mathbb{R}\)</span> , <span class="arithmatex">\(x\)</span> is a feature map at a conv layer</li>
+<li>For every <span class="arithmatex">\(x_{i} \in X\)</span> of size <span class="arithmatex">\(M \times N\)</span> , the transform  can be written as $$
+F(u,v) = \Sigma_{k=0}^{M-1} \Sigma_{j=0}<sup>{N-1}f(k,j)e</sup>{-i2\pi(\frac{uk}{M}+ \frac{vj}{N})}
+$$<ul>
+<li><span class="arithmatex">\(f(k,j)\)</span> is feature map at layer <span class="arithmatex">\(l\)</span></li>
+<li>exp term is the basis function</li>
+<li>inverse of fourier is $$
+f(m,n) = \frac{1}{M\times N} \Sigma_{u=0}^{M-1} \Sigma_{v=0}<sup>{N-1}F(u,v)e</sup>{i2\pi(\frac{ux}{M}+ \frac{vy}{N})}
+$$</li>
+</ul>
+</li>
+<li>For every feature map, <span class="arithmatex">\(x_{i} \in X\)</span>, visual explanation is $$
+S = \Sigma_{i=1}F^{-1}(F(x_{i} * G_{1}) * F^{-1}(F(x_{i})*(1-G_{2})))
+$$<ul>
+<li><span class="arithmatex">\(G_{1}, G_{2}\)</span> are Guassians at different <span class="arithmatex">\(\sigma\)</span> values,</li>
+<li>Low spatial scale activation <span class="arithmatex">\(F(x_{i})*G_{1}\)</span></li>
+<li>High scale activation <span class="arithmatex">\(F^{-1}(F(x_{i})*(1-G_{2}))\)</span></li>
+</ul>
+</li>
+<li><img alt="images/Pasted image 20230511183730.png" src="../images/Pasted%20image%2020230511183730.png"/></li>
+</ul>
+<h3 id="targeted-deep-visual-explanation">Targeted Deep Visual Explanation<a class="headerlink" href="#targeted-deep-visual-explanation" title="Permanent link">¶</a></h3>
+<ul>
+<li>In our simple case of image classification (cf. speech, language) one of the ultimate goals of the visual explanation in the context of debugging is to be precise when determining the component salient patch.</li>
+<li>Therefore, we should penalize any activations that do not contribute much</li>
+<li>To handle this, we propose a method called targeted-DVE to provide a more targeted explanation. This algorithm removes any pixel that has less influence on the best explanation</li>
+<li>The process is identical to our previous approach except that, we slightly modify the final output S obtained in Algorithm 1. This is done, by computing S0 as follows</li>
+<li>
+<div class="arithmatex">\[S' = F^{−1}(F(S) * G_{1}) * F^{−1}(F(S * (1 − G_{2}))
+\]</div>
+</li>
+<li>Our approach captures the discriminative pixels by considering the activation of high and low spatial scales in Fourier space.</li>
+<li>We experimented with a simple version of our approach on image classification.</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="images/Pasted image 20230511184656.png" src="../images/Pasted%20image%2020230511184656.png"/></li>
+<li><img alt="images/Pasted image 20230511184707.png" src="../images/Pasted%20image%2020230511184707.png"/></li>
+<li><img alt="images/Pasted image 20230511184713.png" src="../images/Pasted%20image%2020230511184713.png"/></li>
+<li><img alt="images/Pasted image 20230511184723.png" src="../images/Pasted%20image%2020230511184723.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../DeepFM/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../DeepFM/">
+        DeepFM
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Deep%20Neural%20Networks%20are%20Easily%20Fooled%20High%20Confidence%20Predictions%20for%20Unrecognizable%20Images/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Deep%20Neural%20Networks%20are%20Easily%20Fooled%20High%20Confidence%20Predictions%20for%20Unrecognizable%20Images/">
+        Deep Neural Networks are Easily Fooled High Confidence Predictions for Unrecognizable Images
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

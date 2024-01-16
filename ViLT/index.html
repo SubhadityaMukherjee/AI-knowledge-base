@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>ViLT - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "ViLT", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Video%20Generation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Video%20Generation/">
+        Video Generation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Vgg/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Vgg/">
+        Vgg
+      </a>
+</div>
+</div>
+<h2 id="vilt">ViLT<a class="headerlink" href="#vilt" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2102.03334">ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision</a></li>
+<li>Vision-and-Language Transformer</li>
+<li>seeks to improve performance on various joint vision-and-language downstream tasks</li>
+<li>Current approaches to VLP heavily rely on image feature extraction processes using convolutional visual <a href="../Embedding/">embedding</a> networks (e.g., Faster R-CNN and ResNets), which involve region supervision (e.g., object detection) and the convolutional architecture (e.g., ResNet)</li>
+<li>This is problematic in terms of both efficiency/speed, in that extracting input <a href="../Features/">features</a> requires much more computation than the multimodal interaction steps; and expressive power, as it is upper bounded to the expressive power of the visual embedder and its predefined visual vocabulary.</li>
+<li>minimal VLP model, which is monolithic in that the processing of visual inputs is drastically simplified to just the same convolution-free manner that they process textual inputs</li>
+<li>removing the need for object detectors</li>
+<li>avoiding heavyweight image encoders by directly <a href="../Embedding/">embedding</a> low-level pixel data with a single-layer projection and achieves similar results with reduced complexity,</li>
+<li>Self-supervision is accomplished using (i) Image Text Matching (ITM) <a href="../loss/">loss</a> and (ii) Masked Language Model (MLM) <a href="../loss/">loss</a></li>
+<li><a href="../ITM%20Loss/">ITM Loss</a></li>
+<li>For text, ViLT simply reuses Masked Language Model - (MLM), used in BERT.</li>
+<li><a href="../MSCOCO/">MSCOCO</a></li>
+<li><a href="../Visual%20Genome/">Visual Genome</a></li>
+<li><a href="../SBU%20Captions/">SBU Captions</a></li>
+<li><a href="../Google%20Conceptual%20Captions/">Google Conceptual Captions</a></li>
+<li><a href="VQAv2.md">VQAv2</a></li>
+<li><a href="NLVR2.md">NLVR2</a></li>
+<li><a href="../Flickr30K/">Flickr30K</a></li>
+<li>ViLT is over 10x faster than previous VLP models, yet with competitive or better downstream task performance</li>
+<li>VLP needs to focus more on the multi-<a href="../Modality/">modality</a> interactions aspect inside the transformer module rather than engaging in an arms race that merely powers up unimodal embedders</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Video%20Generation/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Video%20Generation/">
+        Video Generation
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Vgg/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Vgg/">
+        Vgg
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

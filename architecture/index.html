@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Architecture - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "tags: anchor", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../augment/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../augment/">
+        Augment
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../aphasia/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../aphasia/">
+        aphasia
+      </a>
+</div>
+</div>
+<hr/>
+<h3 id="tags-anchor">tags: anchor<a class="headerlink" href="#tags-anchor" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../ADVENT/">./ADVENT.md</a></li>
+<li><a href="../ALBERT/">./ALBERT.md</a></li>
+<li><a href="../Adagrad/">./Adagrad.md</a></li>
+<li><a href="../Adaptive%20Input%20Representation/">Adaptive Input Representation.md</a></li>
+<li><a href="../Additive%20Attention/">Additive Attention.md</a></li>
+<li><a href="../Affordance%20Detection%20Task%20Specific/">Affordance Detection Task Specific.md</a></li>
+<li><a href="../Alex%20Net/">Alex Net.md</a></li>
+<li><a href="../Alphacode/">./Alphacode.md</a></li>
+<li><a href="../Attention%20NMT/">Attention NMT.md</a></li>
+<li><a href="../Attention/">./Attention.md</a></li>
+<li><a href="../AudioLM/">./AudioLM.md</a></li>
+<li><a href="../Auto%20Encoders/">Auto Encoders.md</a></li>
+<li><a href="../AutoDistill/">./AutoDistill.md</a></li>
+<li><a href="../BART/">./BART.md</a></li>
+<li><a href="../BERT/">./BERT.md</a></li>
+<li><a href="../Bahdanau%20Attention/">Bahdanau Attention.md</a></li>
+<li><a href="../Basic%20GAN/">Basic GAN.md</a></li>
+<li><a href="../Basic%20RNN%20Architectures/">Basic RNN Architectures.md</a></li>
+<li><a href="../Basic%20Transformer/">Basic Transformer.md</a></li>
+<li><a href="../Beam%20search/">Beam search.md</a></li>
+<li><a href="../Bi%20Directional%20RNN/">Bi Directional RNN.md</a></li>
+<li><a href="../Bias%20nodes/">Bias nodes.md</a></li>
+<li><a href="../Big%20Bird/">Big Bird.md</a></li>
+<li><a href="../BinaryBERT/">./BinaryBERT.md</a></li>
+<li><a href="../BlockNeRF/">./BlockNeRF.md</a></li>
+<li><a href="../CLIP/">./CLIP.md</a></li>
+<li><a href="../Capsule%20Layer/">Capsule Layer.md</a></li>
+<li><a href="../Capsule%20Network/">Capsule Network.md</a></li>
+<li><a href="../Chat%20GPT%20is%20Not%20All%20You%20Need/">Chat GPT is Not All You Need.md</a></li>
+<li><a href="../ChatGPT/">./ChatGPT.md</a></li>
+<li><a href="../Chinchilla/">./Chinchilla.md</a></li>
+<li><a href="../Classifier%20Gradients/">Classifier Gradients.md</a></li>
+<li><a href="../Codex/">./Codex.md</a></li>
+<li><a href="../Collaborative%20Topic%20Regression/">Collaborative Topic Regression.md</a></li>
+<li><a href="../Conditional%20GAN/">Conditional GAN.md</a></li>
+<li><a href="../Conformer/">./Conformer.md</a></li>
+<li><a href="../Content%20Based%20Attention/">Content Based Attention.md</a></li>
+<li><a href="../Contrastive%20Predictive%20Coding/">Contrastive Predictive Coding.md</a></li>
+<li><a href="../ConvBERT/">./ConvBERT.md</a></li>
+<li><a href="../ConvNeXt/">./ConvNeXt.md</a></li>
+<li><a href="../Convolutional%20RNN/">Convolutional RNN.md</a></li>
+<li><a href="../Curriculum%20Learning/">Curriculum Learning.md</a></li>
+<li><a href="../CycleGAN/">./CycleGAN.md</a></li>
+<li><a href="../DALL-E%203/">DALL-E 3.md</a></li>
+<li><a href="../DALL-E/">./DALL-E.md</a></li>
+<li><a href="../DALL%C2%B7E%202/">DALL·E 2.md</a></li>
+<li><a href="../DCGAN/">./DCGAN.md</a></li>
+<li><a href="../DLRM/">./DLRM.md</a></li>
+<li><a href="../DeepFM/">./DeepFM.md</a></li>
+<li><a href="../DeepNet/">./DeepNet.md</a></li>
+<li><a href="../DeepPERF/">./DeepPERF.md</a></li>
+<li><a href="../Denoising%20Autoencoder/">Denoising Autoencoder.md</a></li>
+<li><a href="../Dense%20Net/">Dense Net.md</a></li>
+<li><a href="../Diffusion%20LM/">Diffusion LM.md</a></li>
+<li><a href="../Dilated%20Sliding%20Window%20Attention/">Dilated Sliding Window Attention.md</a></li>
+<li><a href="../DistillBERT/">./DistillBERT.md</a></li>
+<li><a href="../Dot%20Product%20Attention/">Dot Product Attention.md</a></li>
+<li><a href="../Dreamfusion/">./Dreamfusion.md</a></li>
+<li><a href="../Dynamic%20Sparsity/">Dynamic Sparsity.md</a></li>
+<li><a href="../ELECTRA/">./ELECTRA.md</a></li>
+<li><a href="../ELMO/">./ELMO.md</a></li>
+<li><a href="../EfficientNet/">./EfficientNet.md</a></li>
+<li><a href="../Elu/">./Elu.md</a></li>
+<li><a href="../Encoder%20Decoder%20Attention/">Encoder Decoder Attention.md</a></li>
+<li><a href="../Ensemble%20Distillation/">Ensemble Distillation.md</a></li>
+<li><a href="../FLASH/">./FLASH.md</a></li>
+<li><a href="../FLAVA/">./FLAVA.md</a></li>
+<li><a href="../FaceNet/">./FaceNet.md</a></li>
+<li><a href="../Factorized%20Embedding%20Parameters/">Factorized Embedding Parameters.md</a></li>
+<li><a href="../Familar%20Object%20Grasping%20Object%20Viiew%20recog/">Familar Object Grasping Object Viiew recog.md</a></li>
+<li><a href="../FastText/">./FastText.md</a></li>
+<li><a href="../Faster%20RCNN/">Faster RCNN.md</a></li>
+<li><a href="../Feature%20Correlationa/">Feature Correlationa.md</a></li>
+<li><a href="../Fixed%20Factorization%20Attention/">Fixed Factorization Attention.md</a></li>
+<li><a href="../Flamingo/">./Flamingo.md</a></li>
+<li><a href="../FlowNet/">./FlowNet.md</a></li>
+<li><a href="../GAN%20Z%20Space/">GAN Z Space.md</a></li>
+<li><a href="../GAU/">./GAU.md</a></li>
+<li><a href="../GELU/">./GELU.md</a></li>
+<li><a href="../GGCNN/">./GGCNN.md</a></li>
+<li><a href="../GLOW/">./GLOW.md</a></li>
+<li><a href="../GPT/">./GPT.md</a></li>
+<li><a href="../GPT3/">./GPT3.md</a></li>
+<li><a href="../GRConvNet/">./GRConvNet.md</a></li>
+<li><a href="../GRU/">./GRU.md</a></li>
+<li><a href="../Galactica/">./Galactica.md</a></li>
+<li><a href="../Gato/">./Gato.md</a></li>
+<li><a href="../Generative%20Models/">Generative Models.md</a></li>
+<li><a href="../Generative%20RNN/">Generative RNN.md</a></li>
+<li><a href="../Generative%20Spoken%20Language%20Modeling/">Generative Spoken Language Modeling.md</a></li>
+<li><a href="../Generative%20vs%20Discriminative%20Models/">Generative vs Discriminative Models.md</a></li>
+<li><a href="../GloVE/">./GloVE.md</a></li>
+<li><a href="../Global%20Average%20Pooling/">Global Average Pooling.md</a></li>
+<li><a href="../Global%20and%20Sliding%20Window%20Attention/">Global and Sliding Window Attention.md</a></li>
+<li><a href="../Google%20NMT/">Google NMT.md</a></li>
+<li><a href="../Grad-CAM/">./Grad-CAM.md</a></li>
+<li><a href="../Hallucination%20Text%20Generation/">Hallucination Text Generation.md</a></li>
+<li><a href="../HiFI-GAN%20Denoising/">HiFI-GAN Denoising.md</a></li>
+<li><a href="../HiFI-GAN%20Synthesis/">HiFI-GAN Synthesis.md</a></li>
+<li><a href="../Higher%20Layer%20Capsule/">Higher Layer Capsule.md</a></li>
+<li><a href="../Highway%20Convolutions/">Highway Convolutions.md</a></li>
+<li><a href="../Hopfield%20networks/">Hopfield networks.md</a></li>
+<li><a href="../Imagen/">./Imagen.md</a></li>
+<li><a href="../Inception/">./Inception.md</a></li>
+<li><a href="../Instance%20Normalization/">Instance Normalization.md</a></li>
+<li><a href="../Instant%20NeRF/">Instant NeRF.md</a></li>
+<li><a href="../Interpreting%20Attention/">Interpreting Attention.md</a></li>
+<li><a href="../Isotropic%20Architectures/">Isotropic Architectures.md</a></li>
+<li><a href="../Joint%20Factor%20Analysis/">Joint Factor Analysis.md</a></li>
+<li><a href="../Jukebox/">./Jukebox.md</a></li>
+<li><a href="../LASER/">./LASER.md</a></li>
+<li><a href="../LaMDA/">./LaMDA.md</a></li>
+<li><a href="../Large%20Kernel%20in%20Attention/">Large Kernel in Attention.md</a></li>
+<li><a href="../Large%20Kernel%20in%20Convolution/">Large Kernel in Convolution.md</a></li>
+<li><a href="../Le%20Net/">Le Net.md</a></li>
+<li><a href="../Learning%20to%20Detect%20Grasp%20Affordance/">Learning to Detect Grasp Affordance.md</a></li>
+<li><a href="../Linear%20Classifier%20Probes/">Linear Classifier Probes.md</a></li>
+<li><a href="../Listen%20Attend%20Spell/">Listen Attend Spell.md</a></li>
+<li><a href="../Location%20Aware%20Attention/">Location Aware Attention.md</a></li>
+<li><a href="../Location%20Base%20Attention/">Location Base Attention.md</a></li>
+<li><a href="../Long%20Short%20Term%20Memory%20%28LSTM%29/">Long Short Term Memory (LSTM).md</a></li>
+<li><a href="../Longformer/">./Longformer.md</a></li>
+<li><a href="../MCnet/">./MCnet.md</a></li>
+<li><a href="../MLIM/">./MLIM.md</a></li>
+<li><a href="../MLM/">./MLM.md</a></li>
+<li><a href="../MVGrasp/">./MVGrasp.md</a></li>
+<li><a href="../Magic3D/">./Magic3D.md</a></li>
+<li><a href="../Masked%20Autoencoders/">Masked Autoencoders.md</a></li>
+<li><a href="../Minerva/">./Minerva.md</a></li>
+<li><a href="../Mixed%20chunk%20attention/">Mixed chunk attention.md</a></li>
+<li><a href="../Mobile%20Net/">Mobile Net.md</a></li>
+<li><a href="../MobileOne/">./MobileOne.md</a></li>
+<li><a href="../Multi%20Head%20Attention/">Multi Head Attention.md</a></li>
+<li><a href="../Multiplicative%20Attention/">Multiplicative Attention.md</a></li>
+<li><a href="../Muse/">./Muse.md</a></li>
+<li><a href="../Nasnet/">./Nasnet.md</a></li>
+<li><a href="../Neural%20Network%20Architecture%20Cheat%20Sheet/">Neural Network Architecture Cheat Sheet.md</a></li>
+<li><a href="../Neural%20Probabilistic%20Model/">Neural Probabilistic Model.md</a></li>
+<li><a href="../Neural%20Text%20Degeneration/">Neural Text Degeneration.md</a></li>
+<li><a href="../Noisy%20Relu/">Noisy Relu.md</a></li>
+<li><a href="../OPT/">./OPT.md</a></li>
+<li><a href="../PEER/">./PEER.md</a></li>
+<li><a href="../PRelu/">./PRelu.md</a></li>
+<li><a href="../PaLM/">./PaLM.md</a></li>
+<li><a href="../Padded%20Conv/">Padded Conv.md</a></li>
+<li><a href="../PatchGAN/">./PatchGAN.md</a></li>
+<li><a href="../Phenaki/">./Phenaki.md</a></li>
+<li><a href="../Phrase%20Representation%20Learning/">Phrase Representation Learning.md</a></li>
+<li><a href="../Pix2Seq/">./Pix2Seq.md</a></li>
+<li><a href="../Point%20Cloud/">Point Cloud.md</a></li>
+<li><a href="../PointNet%2B%2B/">./PointNet++.md</a></li>
+<li><a href="../Position%20Encoding/">Position Encoding.md</a></li>
+<li><a href="../Position%20Wise%20Feed%20Forward/">Position Wise Feed Forward.md</a></li>
+<li><a href="../Primary%20Capsule/">Primary Capsule.md</a></li>
+<li><a href="../RETRO/">./RETRO.md</a></li>
+<li><a href="../Receptive%20field/">Receptive field.md</a></li>
+<li><a href="../RegNet/">./RegNet.md</a></li>
+<li><a href="../Region%20Proposal/">Region Proposal.md</a></li>
+<li><a href="../Relative%20Multi%20Head%20Self%20Attention/">Relative Multi Head Self Attention.md</a></li>
+<li><a href="../Relu/">./Relu.md</a></li>
+<li><a href="../RepLKNet/">./RepLKNet.md</a></li>
+<li><a href="../Res%20Net%20D/">Res Net D.md</a></li>
+<li><a href="../Res%20Net/">Res Net.md</a></li>
+<li><a href="../Restricted%20Boltzmann%20Machine/">Restricted Boltzmann Machine.md</a></li>
+<li><a href="../RetinaNet/">./RetinaNet.md</a></li>
+<li><a href="../Rmsprop/">./Rmsprop.md</a></li>
+<li><a href="../RoBERTa/">./RoBERTa.md</a></li>
+<li><a href="../Routing%20by%20Agreement/">Routing by Agreement.md</a></li>
+<li><a href="../S2ST/">./S2ST.md</a></li>
+<li><a href="../SLAK/">./SLAK.md</a></li>
+<li><a href="../SRN/">./SRN.md</a></li>
+<li><a href="../Scaled%20Dot%20Product%20Attention/">Scaled Dot Product Attention.md</a></li>
+<li><a href="../Scene%20based%20text%20to%20image%20generation/">Scene based text to image generation.md</a></li>
+<li><a href="../SegNet/">./SegNet.md</a></li>
+<li><a href="../Self%20Attention%20GAN/">Self Attention GAN.md</a></li>
+<li><a href="../Self%20Attention/">Self Attention.md</a></li>
+<li><a href="../Seq2Seq/">./Seq2Seq.md</a></li>
+<li><a href="../ShuffleNet/">./ShuffleNet.md</a></li>
+<li><a href="../Sigmoid/">./Sigmoid.md</a></li>
+<li><a href="../Sliding%20Window%20Attention/">Sliding Window Attention.md</a></li>
+<li><a href="../Soft%20Attention/">Soft Attention.md</a></li>
+<li><a href="../Softmax/">./Softmax.md</a></li>
+<li><a href="../Softplus/">./Softplus.md</a></li>
+<li><a href="../Soundify/">./Soundify.md</a></li>
+<li><a href="../Sparse%20Evolutionary%20Training/">Sparse Evolutionary Training.md</a></li>
+<li><a href="../Sparse%20Transformer/">Sparse Transformer.md</a></li>
+<li><a href="../Spatial%20Transformer/">Spatial Transformer.md</a></li>
+<li><a href="../Speaker%20Verification/">Speaker Verification.md</a></li>
+<li><a href="../Speech%20Emotion%20Recognition/">Speech Emotion Recognition.md</a></li>
+<li><a href="../Speech%20Recognition/">Speech Recognition.md</a></li>
+<li><a href="../Speech%20Resynthesis/">Speech Resynthesis.md</a></li>
+<li><a href="../Spiking%20Networks/">Spiking Networks.md</a></li>
+<li><a href="../Stable%20Difusion/">Stable Difusion.md</a></li>
+<li><a href="../Stack%20GAN/">Stack GAN.md</a></li>
+<li><a href="../Stacking%20RNN/">Stacking RNN.md</a></li>
+<li><a href="../StarGAN%20v2/">StarGAN v2.md</a></li>
+<li><a href="../StarGAN/">./StarGAN.md</a></li>
+<li><a href="../Strided%20Attention/">Strided Attention.md</a></li>
+<li><a href="../Strided/">./Strided.md</a></li>
+<li><a href="../Style%20GAN/">Style GAN.md</a></li>
+<li><a href="../Swish/">./Swish.md</a></li>
+<li><a href="../TSDF/">./TSDF.md</a></li>
+<li><a href="../Tacotron/">./Tacotron.md</a></li>
+<li><a href="../Tanh/">./Tanh.md</a></li>
+<li><a href="../Teacher%20Forcing/">Teacher Forcing.md</a></li>
+<li><a href="../Temporal%20Conv/">Temporal Conv.md</a></li>
+<li><a href="../TemporalLearning/">./TemporalLearning.md</a></li>
+<li><a href="../Textless%20Speech%20Emotion%20Conversion/">Textless Speech Emotion Conversion.md</a></li>
+<li><a href="../TinyBERT/">./TinyBERT.md</a></li>
+<li><a href="../Token%20Embedding/">Token Embedding.md</a></li>
+<li><a href="../Transformer-XL/">./Transformer-XL.md</a></li>
+<li><a href="../Transformer/">./Transformer.md</a></li>
+<li><a href="../Transposed%20Conv/">Transposed Conv.md</a></li>
+<li><a href="../ULMFit/">./ULMFit.md</a></li>
+<li><a href="../Un-LSTM/">./Un-LSTM.md</a></li>
+<li><a href="../Unet%20Grasping/">Unet Grasping.md</a></li>
+<li><a href="../Unet/">./Unet.md</a></li>
+<li><a href="../VAE/">./VAE.md</a></li>
+<li><a href="../VGGish/">./VGGish.md</a></li>
+<li><a href="../VICReg/">./VICReg.md</a></li>
+<li><a href="../VL-BEIT/">./VL-BEIT.md</a></li>
+<li><a href="../Vgg/">./Vgg.md</a></li>
+<li><a href="../ViLT/">./ViLT.md</a></li>
+<li><a href="../VisualGPT/">./VisualGPT.md</a></li>
+<li><a href="../Volumetric%20Grasping%20Network/">Volumetric Grasping Network.md</a></li>
+<li><a href="../WaveGlow/">./WaveGlow.md</a></li>
+<li><a href="../WebGPT/">./WebGPT.md</a></li>
+<li><a href="../Whisper/">./Whisper.md</a></li>
+<li><a href="../Wide%20Deep%20Recommender/">Wide Deep Recommender.md</a></li>
+<li><a href="../Window%20Based%20Regression/">Window Based Regression.md</a></li>
+<li><a href="../Word2Vec/">./Word2Vec.md</a></li>
+<li><a href="../X%20Vectors/">X Vectors.md</a></li>
+<li><a href="../XLM-R/">./XLM-R.md</a></li>
+<li><a href="../XLNet/">./XLNet.md</a></li>
+<li><a href="../Xception/">./Xception.md</a></li>
+<li><a href="../YOLO/">./YOLO.md</a></li>
+<li><a href="../Z-Space%20Entanglement/">Z-Space Entanglement.md</a></li>
+<li><a href="../Zeiler%20Fergus/">Zeiler Fergus.md</a></li>
+<li><a href="../cross-layer%20parameter%20sharing/">cross-layer parameter sharing.md</a></li>
+<li><a href="../dGSLM/">./dGSLM.md</a></li>
+<li><a href="../data2vec/">./data2vec.md</a></li>
+<li><a href="../i-Code/">./i-Code.md</a></li>
+<li><a href="../pGLSM/">./pGLSM.md</a></li>
+<li><a href="../wave2vec/">./wave2vec.md</a></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../augment/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../augment/">
+        Augment
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../aphasia/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../aphasia/">
+        aphasia
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Fasai Tricks - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Fasai Tricks", url: "#_top", children: [
+              {title: "Batched Map", url: "#batched-map" },
+              {title: "Learning Rate Finder", url: "#learning-rate-finder" },
+              {title: "Test Dataset", url: "#test-dataset" },
+              {title: "Ensemble", url: "#ensemble" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Faster%20RCNN/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Faster%20RCNN/">
+        Faster RCNN
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Fastai%20Interpretation/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Fastai%20Interpretation/">
+        Fastai Interpretation
+      </a>
+</div>
+</div>
+<h2 id="fasai-tricks">Fasai Tricks<a class="headerlink" href="#fasai-tricks" title="Permanent link">¶</a></h2>
+<h3 id="batched-map">Batched Map<a class="headerlink" href="#batched-map" title="Permanent link">¶</a></h3>
+<pre><code class="language-python">tok_ds = ds.map(tok_func, batched=True)
+</code></pre>
+<h3 id="learning-rate-finder">Learning Rate Finder<a class="headerlink" href="#learning-rate-finder" title="Permanent link">¶</a></h3>
+<pre><code class="language-python">learn.lr_find(suggest_funcs=(slide, valley))
+</code></pre>
+<h3 id="test-dataset">Test Dataset<a class="headerlink" href="#test-dataset" title="Permanent link">¶</a></h3>
+<pre><code class="language-python">tst_dl = learn.dls.test_dl(tst_df)
+preds,_ = learn.get_preds(dl=tst_dl)
+</code></pre>
+<h3 id="ensemble">Ensemble<a class="headerlink" href="#ensemble" title="Permanent link">¶</a></h3>
+<pre><code class="language-python">def ensemble():
+    learn = tabular_learner(dls, metrics=accuracy, layers=[10,10])
+    with learn.no_bar(),learn.no_logging(): learn.fit(16, lr=0.03)
+    return learn.get_preds(dl=tst_dl)[0]
+learns = [ensemble() for _ in range(5)]
+
+ens_preds = torch.stack(learns).mean(0) # stack and mean
+</code></pre>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Faster%20RCNN/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Faster%20RCNN/">
+        Faster RCNN
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Fastai%20Interpretation/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Fastai%20Interpretation/">
+        Fastai Interpretation
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

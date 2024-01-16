@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Real Time Image Saliency for Black Box Classifiers - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Real Time Image Saliency for Black Box Classifiers", url: "#_top", children: [
+              {title: "TL;DR", url: "#tldr" },
+              {title: "Abstract", url: "#abstract" },
+              {title: "Image Saliency and Introduced Evidence", url: "#image-saliency-and-introduced-evidence" },
+              {title: "Fighting the Introduced Evidence", url: "#fighting-the-introduced-evidence" },
+              {title: "A New Saliency Metric", url: "#a-new-saliency-metric" },
+              {title: "The Saliency Objective", url: "#the-saliency-objective" },
+              {title: "Masking Model", url: "#masking-model" },
+              {title: "Training Process", url: "#training-process" },
+              {title: "Results", url: "#results" },
+              {title: "Future Research", url: "#future-research" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Reasoning%20Component/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Reasoning%20Component/">
+        Reasoning Component
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../ReMix/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../ReMix/">
+        ReMix
+      </a>
+</div>
+</div>
+<h2 id="real-time-image-saliency-for-black-box-classifiers">Real Time Image Saliency for Black Box Classifiers<a class="headerlink" href="#real-time-image-saliency-for-black-box-classifiers" title="Permanent link">¶</a></h2>
+<ul>
+<li>Piotr Dabkowski</li>
+<li>Yarin Gal</li>
+<li>@dabkowskiRealTimeImage2017</li>
+</ul>
+<pre><code class="language-toc"></code></pre>
+<h3 id="tldr">TL;DR<a class="headerlink" href="#tldr" title="Permanent link">¶</a></h3>
+<ul>
+<li>New metric to judge how good a saliency map is using the largest rectangle that can define it. Training to reduce adversarial artefacts introduced due to masking with non smooth masks</li>
+</ul>
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">¶</a></h3>
+<ul>
+<li>fast saliency detection method that can be applied to any differentiable image classifier</li>
+<li>masking model</li>
+<li>manipulate the scores of the classifier by masking salient parts of the input image</li>
+<li>requires a single forward pass to perform saliency detection</li>
+<li><a href="../CIFAR/">CIFAR</a></li>
+<li><a href="../ImageNet/">ImageNet</a></li>
+<li>new metric for saliency</li>
+</ul>
+<h3 id="image-saliency-and-introduced-evidence">Image Saliency and Introduced Evidence<a class="headerlink" href="#image-saliency-and-introduced-evidence" title="Permanent link">¶</a></h3>
+<ul>
+<li>no single obvious metric that could measure the quality of the produced map</li>
+<li>In simple terms, the saliency map is defined as a summarised explanation of where the classifier "looks" to make its prediction.</li>
+<li><img alt="Pasted image 20221128114522.png" src="../images/Pasted%20image%2020221128114522.png"/></li>
+<li><a href="../SSR/">SSR</a></li>
+<li><a href="../SDR/">SDR</a></li>
+<li>In order to be as informative as possible we would like to find a region that performs well as both <a href="../SSR/">SSR</a> and SDR.</li>
+<li>Both SDR and <a href="../SSR/">SSR</a> remove some evidence from the image</li>
+<li>there are few ways of removing evidence, for example by blurring the evidence, setting it to a constant colour, adding noise, or by completely <a href="../Cropping/">cropping</a> out the unwanted parts</li>
+<li>Unfortunately, each one of these methods introduces new evidence that can be used by the classifier as a side effec</li>
+</ul>
+<h3 id="fighting-the-introduced-evidence">Fighting the Introduced Evidence<a class="headerlink" href="#fighting-the-introduced-evidence" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="Pasted image 20221128114540.png" src="../images/Pasted%20image%2020221128114540.png"/></li>
+<li>by manipulating the image we always introduce some extra evidence applying a mask M to the image X to obtain the edited image E</li>
+<li>the simplest case we can simply multiply X and M element-wise:</li>
+<li>
+<div class="arithmatex">\[E = X \odot M\]</div>
+</li>
+<li>This operation sets certain regions of the image to a constant "0" colour</li>
+<li>While setting a larger patch of the image to "0" may sound rather harmless (perhaps following the assumption that the mean of all colors carries very little evidence), we may encounter problems when the mask M is not smooth</li>
+<li>in the worst case, can be used to introduce a large amount of additional evidence by generating adversarial artifacts</li>
+<li>Adversarial artifacts generated by the mask are very small in magnitude and almost imperceivable for humans, but they are able to completely destroy the original prediction of the classifier</li>
+<li>we may change the way we apply a mask to reduce the amount of unwanted evidence due to specifically-crafted masks</li>
+<li>
+<div class="arithmatex">\[E = X \odot M + A \odot (1-M)\]</div>
+</li>
+<li>where A is an alternative image</li>
+<li>A can be chosen to be for example a highly blurred version of X</li>
+<li>In such case mask M simply selectively adds blur to the image X and therefore it is much harder to generate high-frequency-high-evidence artifacts</li>
+<li>Unfortunately, applying blur does not eliminate existing evidence very well, especially in the case of images with low spatial frequencies like a seashore or mountains.</li>
+<li>Another reasonable choice of A is a random constant colour combined with highfrequency noise. This makes the resulting image E more unpredictable at regions where M is low and therefore it is slightly harder to produce a reliable artifact.</li>
+<li>encourage smoothness of the mask M for example via a total variation (TV) penalty</li>
+<li>We can also directly resize smaller masks to the required size as resizing can be seen as a smoothness mechanism.</li>
+</ul>
+<h3 id="a-new-saliency-metric">A New Saliency Metric<a class="headerlink" href="#a-new-saliency-metric" title="Permanent link">¶</a></h3>
+<ul>
+<li>In order to make sure that the preserved region is free from adversarial artifacts instead of masking we can crop the image.</li>
+<li>We propose to find the tightest rectangular crop that contains the entire salient region and to feed that rectangular region to the classifier to directly verify whether it is able to recognise the requested class</li>
+<li>
+<div class="arithmatex">\[s(a,p) = log(\overset{\sim}a)- log(p)\]</div>
+</li>
+<li><span class="arithmatex">\(\overset{\sim}a = max(a, 0.05)\)</span></li>
+<li>Here a is the area of the rectangular crop as a fraction of the total image size and p is the probability of the requested class returned by the classifier based on the cropped region.</li>
+<li>The metric is almost a direct translation of the <a href="../SSR/">SSR</a></li>
+<li>We threshold the area at 0.05 in order to prevent instabilities at low area fractions.</li>
+<li>Good saliency detectors will be able to significantly reduce the crop size without reducing the classification probability, and therefore a low value for the saliency metric is a characteristic of good saliency detectors.</li>
+<li>this measure can be seen as the relative amount of information between an indicator variable with probability p and an indicator variable with probability a—or the concentration of information in the cropped region.</li>
+<li>Because most image classifiers accept only images of a fixed size and the crop can have an arbitrary size, we resize the crop to the required size disregarding aspect ratio</li>
+</ul>
+<h3 id="the-saliency-objective">The Saliency Objective<a class="headerlink" href="#the-saliency-objective" title="Permanent link">¶</a></h3>
+<ul>
+<li>want to find a mask M that is smooth and performs well at both [[[[SSR]]]] and SDR</li>
+<li>given class c of interest, and an input image X, to find a saliency map M for class c, our objective function L is given by</li>
+<li>
+<div class="arithmatex">\[L(M) = \lambda_{1}TV(M) + \lambda_{2}AV(M) - log(f_{c}(\Phi(X,M)))+\lambda_{3}f_{c}(\Phi(X, 1-M))^{\lambda_{4}}\]</div>
+</li>
+<li>fc is a softmax probability of the class c of the black box image classifier and TV(M) is the total variation of the mask defined simply as</li>
+<li>
+<div class="arithmatex">\[TV(M) = \Sigma_{i,j}(M_{ij}-M_{ij+1})^{2}+ \Sigma_{ij}(M_{ij}-M_{i+1j})^{2}\]</div>
+</li>
+<li>AV(M) is the average of the mask elements, taking value between 0 and 1, <span class="arithmatex">\(\lambda_{i}\)</span> are regularisers</li>
+<li>function <span class="arithmatex">\(\Phi\)</span> removes the evidence from the image as introduced in the previous section</li>
+<li>
+<div class="arithmatex">\[\Phi(X, M) = X \odot M + A \odot (1-M)\]</div>
+</li>
+<li>In total, the objective function is composed of 4 terms. The first term enforces mask smoothness, the second term encourages that the region is small. The third term makes sure that the classifier is able to recognise the selected class from the preserved region. Finally, the last term ensures that the probability of the selected class, after the salient region is removed, is low</li>
+<li>Setting <span class="arithmatex">\(\lambda_{4}\)</span> to a value smaller than 1 (e.g. 0.2) helps reduce this probability to very small values.</li>
+</ul>
+<h3 id="masking-model">Masking Model<a class="headerlink" href="#masking-model" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="Pasted image 20221128114559.png" src="../images/Pasted%20image%2020221128114559.png"/></li>
+<li>The mask can be found iteratively for a given image-class pair by directly optimising the objective function</li>
+<li>Unfortunately, iteratively finding the mask is not only very slow, as normally more than 100 iterations are required, but it also causes the mask to greatly overfit to the image and a large TV penalty is needed to prevent adversarial artifacts from forming</li>
+<li>Therefore, the produced masks are blurry, imprecise, and overfit to the specific</li>
+<li>image rather than capturing the general behaviour of the classifie</li>
+<li>develop a trainable masking model that can produce the desired masks in a single forward pass without direct access to the image classifier after training</li>
+<li>The masking model receives an image and a class selector as inputs and learns to produce masks that minimise our objective function</li>
+<li>In order to succeed at this task, the model must learn which parts of the input image are considered salient by the black box classifier</li>
+<li>n theory, the model can still learn to develop adversarial masks that perform well on the objective function, but in practice it is not an easy task, because the model itself acts as some sort of a "regulariser" determining which patterns are more likely and which are less.</li>
+<li><a href="../Unet/">Unet</a> Architecture</li>
+<li>so that the masking model can use feature maps from multiple resolutions</li>
+<li>The ResNet-50 model contains feature maps of five different scales, where each subsequent scale block downsamples the input by a factor of two</li>
+<li>The purpose of the feature filter is to attenuate spatial locations which contents do not correspond to the selected class.</li>
+<li>Therefore, the feature filter performs the initial localisation, while the following upsampling blocks fine-tune the produced masks</li>
+<li>The output of the feature filter Y at spatial location i, j is given by:</li>
+<li>
+<div class="arithmatex">\[Y_{ij}= X_{ij}\sigma(X_{ij}^T C_{s})\]</div>
+</li>
+<li>Xij is the output of the Scale 5 block at spatial location i, j; Cs is the embedding of the selected class s and <span class="arithmatex">\(\sigma(\cdot)\)</span> is the sigmoid nonlinearity. Class embedding C can be learned as part of the overall objective.</li>
+<li>The upsampler blocks take the lower resolution feature map as input and upsample it by a factor of two using transposed convolution</li>
+<li>afterwards they concatenate the upsampled map with the corresponding feature map from ResNet and follow that with three bottleneck blocks</li>
+<li>Finally, to the output of the last upsampler block (Upsampler Scale 2) we apply 1x1 convolution to produce a feature map with with just two channels</li>
+<li>The mask Ms is obtained from</li>
+<li>
+<div class="arithmatex">\[M_{s}= \frac{abs(C_{o})}{abs(C_{o})+ abs(C_{1})}\]</div>
+</li>
+<li>We use this nonstandard nonlinearity because sigmoid and tanh nonlinearities did not optimise properly and the extra degree of freedom from two channels greatly improved training</li>
+</ul>
+<h3 id="training-process">Training Process<a class="headerlink" href="#training-process" title="Permanent link">¶</a></h3>
+<ul>
+<li>train the masking model to directly minimise the objective function</li>
+<li>he weights of the pre-trained ResNet encoder (red blocks in figure 4) are kept fixed</li>
+<li>during the training.</li>
+<li>sometimes supply a class selector for a fake class and to apply only the area penalty term of the objective function.</li>
+<li>Under this setting the model must pay attention to the class selector, as the only way it can reduce loss in case of a fake label is by setting the mask to zero</li>
+<li>During training, we set the probability of the fake label occurrence to 30%</li>
+<li>One can also greatly speed up the embedding training by ensuring that the maximal value of <span class="arithmatex">\(\sigma(X_{ij}^{T}C_{s})\)</span> from equation 7 is high in case of a correct label and low in case of a fake label.</li>
+<li>evidence removal function <span class="arithmatex">\(\Phi(X,M)\)</span></li>
+<li>In order to prevent the model from adapting to any single evidence removal scheme the alternative image A is randomly generated every time the function is called</li>
+<li>In 50% of cases the image A is the blurred version of X (we use a Gaussian blur with = <span class="arithmatex">\(\sigma=10\)</span> to achieve a strong blur) and in the remainder of cases, A is set to a random colour image with the addition of a Gaussian noise.</li>
+<li>Such a random scheme greatly improves the quality of the produced masks as the model can no longer make strong assumptions about the final look of the image.</li>
+<li>ImageNet</li>
+<li>three different black-box classifiers: AlexNet [6], GoogLeNet [15] and ResNet-50 [4]</li>
+<li>These models are treated as black boxes</li>
+<li>The selected parameters of the objective function are <span class="arithmatex">\(\lambda_{1} = 10, \lambda_{2} = 103, \lambda_{3} = 5, \lambda_{4} = 0.3\)</span></li>
+<li>The first upsampling block has 768 output channels and with each subsequent upsampling block we reduce the number of channels by a factor of two. We train each masking model as described in section 4.1 on 250,000 images from the ImageNet training set.</li>
+<li>The masks produced by models trained on GoogLeNet and ResNet are sharp and precise and would produce accurate object segmentations. The saliency model trained on AlexNet produces much stronger and slightly larger saliency regions, possibly because AlexNet is a less powerful model which needs more evidence for successful classification.</li>
+</ul>
+<h3 id="results">Results<a class="headerlink" href="#results" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="Pasted image 20221128114643.png" src="../images/Pasted%20image%2020221128114643.png"/></li>
+<li><img alt="Pasted image 20221128114652.png" src="../images/Pasted%20image%2020221128114652.png"/></li>
+<li><img alt="Pasted image 20221128114708.png" src="../images/Pasted%20image%2020221128114708.png"/></li>
+</ul>
+<h3 id="future-research">Future Research<a class="headerlink" href="#future-research" title="Permanent link">¶</a></h3>
+<ul>
+<li>modifying the approach to produce high quality, weakly supervised, image segmentations</li>
+<li>Moreover, because our model can be run in real-time, it can be used for video saliency detection to instantly explain decisions made by black-box classifiers such as the ones used in autonomous vehicles</li>
+<li>Lastly, our model might have biases of its own — a fact which does not seem to influence the model performance in finding biases in other black boxes according to the various metrics we used</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="Pasted image 20221128114723.png" src="../images/Pasted%20image%2020221128114723.png"/></li>
+<li><img alt="Pasted image 20221128114736.png" src="../images/Pasted%20image%2020221128114736.png"/></li>
+<li><img alt="Pasted image 20221128114749.png" src="../images/Pasted%20image%2020221128114749.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Reasoning%20Component/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Reasoning%20Component/">
+        Reasoning Component
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../ReMix/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../ReMix/">
+        ReMix
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

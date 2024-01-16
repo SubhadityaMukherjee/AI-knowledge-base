@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Beware of Inmates Running the Asylum - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Beware of Inmates Running the Asylum", url: "#_top", children: [
+              {title: "TL;DR", url: "#tldr" },
+              {title: "Abstract", url: "#abstract" },
+              {title: "Explainable AI Survey", url: "#explainable-ai-survey" },
+              {title: "Survey Method", url: "#survey-method" },
+              {title: "Results", url: "#results" },
+              {title: "Attribution Theory", url: "#attribution-theory" },
+              {title: "Causal Connection", url: "#causal-connection" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Bhattacharya%20Distance/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Bhattacharya%20Distance/">
+        Bhattacharya Distance
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Beta%20Waves/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Beta%20Waves/">
+        Beta Waves
+      </a>
+</div>
+</div>
+<ul>
+<li>
+<h2 id="beware-of-inmates-running-the-asylum">Beware of Inmates Running the Asylum<a class="headerlink" href="#beware-of-inmates-running-the-asylum" title="Permanent link">¶</a></h2>
+<p><code>toc</code></p>
+</li>
+<li>
+<p>Tim Miller∗ and Piers Howe† and Liz Sonenberg</p>
+</li>
+<li>[[@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences]]</li>
+</ul>
+<h3 id="tldr">TL;DR<a class="headerlink" href="#tldr" title="Permanent link">¶</a></h3>
+<ul>
+<li>Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because <a href="../XAI/">XAI</a> is meant for people and not programmers.</li>
+</ul>
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">¶</a></h3>
+<ul>
+<li>programmers design software for themselves, rather than for their target audience; a phenomenon he refers to as the ‘inmates running the asylum’.</li>
+<li>This paper argues that explainable AI risks a similar fate.</li>
+<li>evaluation of these models is focused more on people than on technology</li>
+<li>considerable scope to infuse more results from the social and behavioural sciences into explainable AI, and present some key results from these fields that are relevant to explainable AI.</li>
+</ul>
+<h3 id="explainable-ai-survey">Explainable AI Survey<a class="headerlink" href="#explainable-ai-survey" title="Permanent link">¶</a></h3>
+<h3 id="survey-method">Survey Method<a class="headerlink" href="#survey-method" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>On topic</p>
+<ul>
+<li>Each paper was categorised as either being about explainable AI or not, based on our understanding of the topic</li>
+<li>Data Driven</li>
+<li>Each paper was given a score from 0–2 inclusive.</li>
+<li>A score of 1 was given if and only if one or more of the references of the paper was an article on explanation in social science</li>
+<li>Validation</li>
+<li>Each paper was given a binary 0/1. A score of 1 was given if and only if the evaluation in the survey article (note, not the referenced article) was based on data from human behavioural studies.</li>
+</ul>
+<h3 id="results">Results<a class="headerlink" href="#results" title="Permanent link">¶</a></h3>
+</li>
+<li>
+<p>These results show that for the on-topic papers, only four articles referenced relevant social science research, and only one of them truly built a model on this</p>
+</li>
+<li>Further, serious human behavioural experiments are not currently being undertaken.</li>
+<li>For off topic papers, the results are similar: limited input from social sciences and limited human behavioural experiments.</li>
+<li>Where to? A Brief Pointer to Relevant Work Contrastive Explanation</li>
+<li>explanations are contrastive why–questions are contrastive</li>
+<li>That is, why–questions are of the form “Why P rather than Q?”, where P is the fact that requires explanation, and Q is some foil case that was expected</li>
+<li>Importantly, the contrast case helps to frame the possible answers and make them relevant</li>
+<li>This is a challenge for explainable AI, because it may not be easy to elicit a contrast case from an observer.</li>
+<li>However, it is also an opportunity: as Lipton [1990] argues, answering a contrastive question is often easier than giving a full cause attribution because one only needs to understand the difference between the two cases, so one can provide a complete explanation without determining or even knowing all causes of the event.</li>
+</ul>
+<h3 id="attribution-theory">Attribution Theory<a class="headerlink" href="#attribution-theory" title="Permanent link">¶</a></h3>
+<ul>
+<li>study of how people attribute causes to events Social Attribution</li>
+<li>The book from Malle [2004], based on a large body of work from himself and other researchers in the field, describes a mature model of how people explain behaviour of others using folk psychology</li>
+<li>people attribute behaviour based on the beliefs, desires, intentions, and traits of people</li>
+<li>important for systems in which intentional action will be cited as a cause important for systems doing deliberative reasoning</li>
+</ul>
+<h3 id="causal-connection">Causal Connection<a class="headerlink" href="#causal-connection" title="Permanent link">¶</a></h3>
+<ul>
+<li>Research on how people connect causes shows that they do so by undertaking a mental simulation of what would have happened had some other event turned out differently</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Bhattacharya%20Distance/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Bhattacharya%20Distance/">
+        Bhattacharya Distance
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Beta%20Waves/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Beta%20Waves/">
+        Beta Waves
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Writing your own Markdown to LaTEX parser - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Writing your own Markdown to LaTEX parser", url: "#_top", children: [
+              {title: "What we want", url: "#what-we-want" },
+              {title: "Disclaimers", url: "#disclaimers" },
+              {title: "Overview of Steps", url: "#overview-of-steps" },
+              {title: "Let\u2019s Make It!", url: "#lets-make-it" },
+              {title: "Libraries", url: "#libraries" },
+              {title: "Fin", url: "#fin" },
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../../FAQ/Commission%20FAQ/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../../FAQ/Commission%20FAQ/">
+        Commission FAQ
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../What%20I%20learnt%20from%20an%20AI%20Masters%20Part%202/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../What%20I%20learnt%20from%20an%20AI%20Masters%20Part%202/">
+        What I learnt from an AI Masters Part 2
+      </a>
+</div>
+</div>
+<h2 id="writing-your-own-markdown-to-latex-parser">Writing your own Markdown to LaTEX parser<a class="headerlink" href="#writing-your-own-markdown-to-latex-parser" title="Permanent link">¶</a></h2>
+<h3 id="what-we-want">What we want<a class="headerlink" href="#what-we-want" title="Permanent link">¶</a></h3>
+<h3 id="disclaimers">Disclaimers<a class="headerlink" href="#disclaimers" title="Permanent link">¶</a></h3>
+<h3 id="overview-of-steps">Overview of Steps<a class="headerlink" href="#overview-of-steps" title="Permanent link">¶</a></h3>
+<h3 id="lets-make-it">Let’s Make It!<a class="headerlink" href="#lets-make-it" title="Permanent link">¶</a></h3>
+<h3 id="libraries">Libraries<a class="headerlink" href="#libraries" title="Permanent link">¶</a></h3>
+<pre><code class="language-python">import markdown
+import argparse as ap
+from pathlib import Path
+import re
+from html.parser import HTMLParser
+from html.entities import name2codepoint
+</code></pre>
+<h4 id="base-templates">Base Templates<a class="headerlink" href="#base-templates" title="Permanent link">¶</a></h4>
+<pre><code class="language-python">default_template = """
+\\documentclass[12pt]{article}
+\\usepackage[a4paper, total={6in, 8in}]{geometry}
+\\usepackage[utf8]{inputenc}
+\\usepackage[T1]{fontenc}
+\\usepackage[english]{babel}
+\\usepackage{graphicx}
+\\usepackage[dvipsnames]{xcolor}
+\\usepackage{hyperref}
+\\usepackage{listings}
+
+\\newcommand\myshade{85}
+\\colorlet{mylinkcolor}{violet}
+\\colorlet{mycitecolor}{YellowOrange}
+\\colorlet{myurlcolor}{Aquamarine}
+
+\\hypersetup{
+  linkcolor  = mylinkcolor!\\myshade!black,
+  citecolor  = mycitecolor!\\myshade!black,
+  urlcolor   = myurlcolor!\\myshade!black,
+  colorlinks = true,
+}
+\\author{}
+"""
+</code></pre>
+<h4 id="html-parser">HTML Parser<a class="headerlink" href="#html-parser" title="Permanent link">¶</a></h4>
+<pre><code class="language-python">class MyHTMLParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.attrs = []
+    def handle_starttag(self, tag, attrs):
+        for attr in attrs:
+            self.attrs.append(attr)
+    def get_attrs(self):
+        return self.attrs
+    def handle_endtag(self, tag):
+        pass
+
+    def handle_data(self, data):
+        print("Data     :", data)
+
+    def handle_comment(self, data):
+        print("Comment  :", data)
+
+    def handle_entityref(self, name):
+        c = chr(name2codepoint[name])
+        print("Named ent:", c)
+
+    def handle_charref(self, name):
+        if name.startswith('x'):
+            c = chr(int(name[1:], 16))
+        else:
+            c = chr(int(name))
+        print("Num ent  :", c)
+
+    def handle_decl(self, data):
+        print("Decl     :", data)
+</code></pre>
+<pre><code>def get_html_attributes(text):
+    parser = MyHTMLParser()
+    parser.feed(text)
+    return parser.get_attrs()
+</code></pre>
+<h4 id="replace-strings">Replace strings<a class="headerlink" href="#replace-strings" title="Permanent link">¶</a></h4>
+<pre><code>replacer_dict = {
+    "&lt;head&gt;" : "",
+    "&lt;/head&gt;" : "",
+    "&lt;html&gt;" : "",
+    "&lt;/html&gt;" : "",
+    "&lt;p&gt;" : "",
+    "&lt;/p&gt;" : "",
+    "&lt;h1&gt;" : "\\begin{document}\n\\title{",
+    "&lt;/h1&gt;" : "}\n\\maketitle{}\n",
+    "&lt;h2&gt;" : "\\section{",
+    "&lt;h3&gt;" : "\\subsection{",
+    "&lt;h4&gt;" : "\\subsubsection{",
+    # "&lt;body&gt;" : "\\begin{document}\n",
+    "&lt;/body&gt;" : "\\end{document}\n",
+    "&lt;ul&gt;" : "\\begin{itemize}\n",
+    "&lt;/ul&gt;" : "\\end{itemize}\n",
+    "&lt;il&gt;" : "\\begin{enumerate}\n",
+    "&lt;/il&gt;" : "\\end{enumerate}\n",
+    "&lt;code&gt;" : "\\begin{lstlisting}[language=Python]\n",
+    "&lt;/code&gt;" : "\\end{lstlisting}\n",
+    "&lt;li&gt;" : "\\item ",
+    "&lt;/li&gt;" : "",
+    "%": "\%",
+    "&amp;": "\&amp;",
+}
+</code></pre>
+<h4 id="close-tags">Close Tags<a class="headerlink" href="#close-tags" title="Permanent link">¶</a></h4>
+<pre><code>def add_end_brace(list_of_vals, replacer_dict):
+    list_of_vals = [x.strip() for x in list_of_vals.split(",")]
+    for i in list_of_vals:
+        replacer_dict[i.replace("&lt;", "&lt;/")] = "}\n"
+</code></pre>
+<pre><code>add_end_brace(
+    list_of_vals="&lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;", 
+    replacer_dict=replacer_dict
+)
+</code></pre>
+<h4 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h4>
+<pre><code>def figure_code(text):
+    found_links = re.findall('\&lt;img .* \/&gt;' , text)
+    for link in found_links:
+        attrs = get_html_attributes(link)
+        caption_data = ""
+        file_path = ""
+        for i in attrs:
+            if i[0] == "alt":
+                caption_data = i[1]
+            if i[0] == "src":
+                file_path = i[1]
+        gen_latex = "\\begin{figure}[!htbp]\n\centering\n\includegraphics[width=.75\columnwidth]{"+file_path+"}\n\caption{"+caption_data+"}\n\label{}\n\end{figure}"
+        text = text.replace(link, gen_latex)
+    return text
+</code></pre>
+<h4 id="cli-input">CLI input<a class="headerlink" href="#cli-input" title="Permanent link">¶</a></h4>
+<pre><code class="language-python">ags = ap.ArgumentParser("md2tex")
+ags.add_argument("-f", help="Full file path", required=True)
+ags.add_argument("-d", help="Insert default formatting code", action='store_true')
+aps = ags.parse_args()
+
+f_name = Path(aps.f)
+</code></pre>
+<h4 id="running-the-pipeline">Running the pipeline<a class="headerlink" href="#running-the-pipeline" title="Permanent link">¶</a></h4>
+<pre><code># Read the file
+with open(f_name, 'r') as f:
+    text = f.read()
+    html = markdown.markdown(text)
+
+# Replacing things
+text = figure_code(html)
+for key in replacer_dict.keys():
+    text = text.replace(key, replacer_dict[key])
+
+# Write the file
+with open(f_name.parent/f"{f_name.stem}.tex", 'w') as f:
+    if aps.d:
+        f.write(default_template)
+    f.write(text)
+    if aps.d:
+        f.write("\\end{document}")
+</code></pre>
+<h3 id="fin">Fin<a class="headerlink" href="#fin" title="Permanent link">¶</a></h3>
+<p>This article is in the hopes that it will help someone out. Maybe have the help that I did not. I do not know who it will reach. But to whoever it does, best of luck :)</p>
+<p>Like these/Want more? Buy me a coffee! <a href="https://ko-fi.com/subhadityamukherjee">Kofi</a></p>
+<p>Want articles on something specific? Just ask!</p>
+<p>You can always contact me on <a href="https://www.linkedin.com/in/subhaditya-mukherjee-a36883100">LinkedIn</a>, or drop me an <a href="mailto:msubhaditya@gmail.com">Email</a>. For all the code, drop by my <a href="https://github.com/SubhadityaMukherjee/">Github</a>.</p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../../FAQ/Commission%20FAQ/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../../FAQ/Commission%20FAQ/">
+        Commission FAQ
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../What%20I%20learnt%20from%20an%20AI%20Masters%20Part%202/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../What%20I%20learnt%20from%20an%20AI%20Masters%20Part%202/">
+        What I learnt from an AI Masters Part 2
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

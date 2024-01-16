@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI", url: "#_top", children: [
+              {title: "Charactersitics", url: "#charactersitics" },
+              {title: "On the Tradeoff between Interpretability and Performance", url: "#on-the-tradeoff-between-interpretability-and-performance" },
+              {title: "Fairness and Discrimination", url: "#fairness-and-discrimination" },
+              {title: "Accountability", url: "#accountability" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Explanation%20is%20not%20a%20Technical%20Term/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Explanation%20is%20not%20a%20Technical%20Term/">
+        Explanation is not a Technical Term
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Explainability%20Taxonomy/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Explainability%20Taxonomy/">
+        Explainability Taxonomy
+      </a>
+</div>
+</div>
+<h2 id="explainable-artificial-intelligence-xai-concepts-taxonomies-opportunities-and-challenges-toward-responsible-ai">Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI<a class="headerlink" href="#explainable-artificial-intelligence-xai-concepts-taxonomies-opportunities-and-challenges-toward-responsible-ai" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>@arrietaExplainableArtificialIntelligence2019</li>
+<li>
+<h3 id="charactersitics">Charactersitics<a class="headerlink" href="#charactersitics" title="Permanent link">¶</a></h3>
+</li>
+<li><a href="../Understandability/">Understandability</a></li>
+<li><a href="../Comprehensibility/">Comprehensibility</a></li>
+<li><a href="../Interpretability/">Interpretability</a></li>
+<li><a href="../Explainability%20Defn/">Explainability Defn</a></li>
+<li><a href="../Transparency/">Transparency</a></li>
+<li><a href="../Trustworthiness/">Trustworthiness</a></li>
+<li><a href="../Causality/">Causality</a></li>
+<li><a href="../Transferability/">Transferability</a></li>
+<li><a href="../Informativeness/">Informativeness</a></li>
+<li><a href="../Confidence/">Confidence</a></li>
+<li><a href="../Fairness/">Fairness</a></li>
+<li><a href="../Accessibility/">Accessibility</a></li>
+<li><a href="../Interactivity/">Interactivity</a></li>
+<li><a href="../Privacy%20awareness/">Privacy awareness</a></li>
+</ul>
+<h3 id="on-the-tradeoff-between-interpretability-and-performance">On the Tradeoff between Interpretability and Performance<a class="headerlink" href="#on-the-tradeoff-between-interpretability-and-performance" title="Permanent link">¶</a></h3>
+<ul>
+<li>it is not necessarily true that models that are more complex are inherently more accurate</li>
+<li>It is in this situation that the trade-off between performance and interpretability can be observed</li>
+<li>In this path toward performance, when the performance comes hand in hand with complexity, interpretability encounters itself on a downwards slope that until now appeared unavoidable</li>
+<li>Another aspect worth mentioning at this point due to its close link to model interpretability and performance is the approximation dilemma: explanations made for a ML model must be made drastic and approximate enough to match the requirements of the audience for which they are sought, ensuring that explanations are representative of the studied model and do not oversimplify its essential features.</li>
+<li>confluence of multiple criteria</li>
+<li>need for having the human in the loop</li>
+<li>Contextual factors, potential impacts and domain-specific needs must be taken into account when devising an approach to interpretability</li>
+<li>a thorough understanding of the purpose for which the AI model is built</li>
+<li>the complexity of explanations that are required by the audience</li>
+<li>the performance and interpretability levels of existing technology, models and methods</li>
+<li>Interpretable techniques should be preferred when possible</li>
+<li>black-box models such as those reviewed in this work (namely, support vector machines, ensemble methods and neural networks) should be selected only when their superior modeling capabilities fit best the characteristics of the problem at hand.</li>
+<li>If a black-box model has been chosen, the third guideline establishes that ethics-, fairnessand safetyrelated impacts should be weighed</li>
+<li>rethink interpretability in terms of the cognitive skills, capacities and limitations of the individual human</li>
+</ul>
+<h3 id="fairness-and-discrimination">Fairness and Discrimination<a class="headerlink" href="#fairness-and-discrimination" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../Individual%20Fairness/">Individual fairness</a></li>
+<li><a href="../Group%20fairness/">Group fairness</a></li>
+<li><a href="../Counterfactual%20Fairness/">Counterfactual fairness</a></li>
+<li><a href="../Skewed%20data/">Skewed data</a></li>
+<li><a href="../Tainted%20data/">Tainted data</a></li>
+<li><a href="../Limited%20features/">Limited features</a></li>
+<li><a href="../Proxy%20features/">Proxy features</a></li>
+<li><a href="../Independence/">Independence</a></li>
+<li><a href="../Separation/">Separation</a></li>
+<li><a href="../Sufficiency/">Sufficiency</a></li>
+</ul>
+<h3 id="accountability">Accountability<a class="headerlink" href="#accountability" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../Auditability/">Auditability</a></li>
+<li><a href="../Minimization%20and%20reporting%20of%20negative%20impacts/">Minimization and reporting of negative impacts</a></li>
+<li><a href="../Redress/">Redress</a></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Explanation%20is%20not%20a%20Technical%20Term/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Explanation%20is%20not%20a%20Technical%20Term/">
+        Explanation is not a Technical Term
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Explainability%20Taxonomy/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Explainability%20Taxonomy/">
+        Explainability Taxonomy
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Distilling the Knowledge in a Neural Network - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Distilling the Knowledge in a Neural Network", url: "#_top", children: [
+              {title: "Intro", url: "#intro" },
+              {title: "Observations", url: "#observations" },
+              {title: "Automatic Speech Recognition", url: "#automatic-speech-recognition" },
+              {title: "JFT", url: "#jft" },
+              {title: "Conclusions", url: "#conclusions" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Distributive%20Interpretation%20%282%29/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Distributive%20Interpretation%20%282%29/">
+        Distributive Interpretation (2)
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Distillation%20Token/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Distillation%20Token/">
+        Distillation Token
+      </a>
+</div>
+</div>
+<h2 id="distilling-the-knowledge-in-a-neural-network">Distilling the Knowledge in a Neural Network<a class="headerlink" href="#distilling-the-knowledge-in-a-neural-network" title="Permanent link">¶</a></h2>
+<ul>
+<li>Geoffrey Hinton, Oriol Vinyals, Jeff Dean</li>
+</ul>
+<h3 id="intro">Intro<a class="headerlink" href="#intro" title="Permanent link">¶</a></h3>
+<ul>
+<li>compress the knowledge in an ensemble into a single model which is much easier to deploy</li>
+<li>new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse</li>
+<li>Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel</li>
+<li>Many insects have a larval form that is optimized for extracting energy and nutrients from the environment and a completely different adult form that is optimized for the very different requirements of traveling and reproduction</li>
+<li>training must extract structure from very large, highly redundant datasets but it does not need to operate in real time and it can use a huge amount of computation. Deployment to a large number of users, however, has much more stringent requirements on latency and computational resources.</li>
+<li>The cumbersome model could be an ensemble of separately trained models or a single very large model trained with a very strong regularizer such as <a href="../Dropout/">dropout</a></li>
+<li>we tend to identify the knowledge in a trained model with the learned parameter values and this makes it hard to see how we can change the form of the model but keep the same knowledge.</li>
+<li>learned</li>
+<li>where T is a temperature that is normally set to 1</li>
+</ul>
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Permanent link">¶</a></h3>
+<ul>
+<li>This net achieved 67 test errors whereas a smaller net with two hidden layers of 800 rectified linear hidden units and no <a href="../Regularization/">regularization</a> achieved 146 errors</li>
+<li>soft targets can transfer a great deal of knowledge to the distilled model, including the knowledge about how to generalize that is learned from translated training data even though the transfer set does not contain any translations.</li>
+<li>When the distilled net had 300 or more units in each of its two hidden layers, all temperatures above 8 gave fairly similar results</li>
+<li>But when this was radically reduced to 30 units per layer, temperatures in the range 2.5 to 4 worked significantly better than higher or lower temperatures.</li>
+</ul>
+<h3 id="automatic-speech-recognition">Automatic <a href="../Speech%20Recognition/">Speech Recognition</a><a class="headerlink" href="#automatic-speech-recognition" title="Permanent link">¶</a></h3>
+<ul>
+<li>State-of-the-art ASR systems currently use DNNs to map a (short) temporal context of features derived from the waveform to a probability distribution over the discrete states of a Hidden Markov Model (HMM)</li>
+<li>DNN produces a probability distribution over clusters of tri-phone states at each time and a decoder then finds a path through the HMM states that is the best compromise between using high probability states and producing a transcription that is probable under the language model.</li>
+<li>There is, however, another important objection to ensembles: If the individual models are large neural networks and the dataset is very large, the amount of computation required at training time is excessive, even though it is easy to parallelize.</li>
+</ul>
+<h3 id="jft">JFT<a class="headerlink" href="#jft" title="Permanent link">¶</a></h3>
+<ul>
+<li>JFT is an internal Google dataset that has 100 million labeled images with 15,000 labels. When we did this work, Google’s baseline model for JFT was a deep convolutional neural network that had been trained for about six months using asynchronous stochastic gradient descent on a large number of cores.</li>
+<li>When the number of classes is very large, it makes sense for the cumbersome model to be an ensemble that contains one generalist model trained on all the data and many 'specialist' models, each of which is trained on data that is highly enriched in examples from a very confusable subset of the classes (like different types of mushroom)</li>
+<li>The softmax of this type of specialist can be made much smaller by combining all of the classes it does not care about into a single dustbin class.</li>
+<li>To reduce overfitting and share the work of learning lower level feature detectors, each specialist model is initialized with the weights of the generalist model</li>
+<li>These weights are then slightly modified by training the specialist with half its examples coming from its special subset and half sampled at random from the remainder of the training set. After training, we can correct for the biased training set by incrementing the logit of the dustbin class by the log of the proportion by which the specialist class is oversampled.</li>
+<li>In order to derive groupings of object categories for the specialists, we decided to focus on categories that our full network often confuses.</li>
+<li>Even though we could have computed the confusion matrix and used it as a way to find such clusters, we opted for a simpler approach that does not require the true labels to construct the clusters. In particular, we apply a <a href="../Clustering/">clustering</a> algorithm to the <a href="../Covariance/">covariance</a> matrix of the predictions of our generalist model, so that a set of classes Sm that are often predicted together will be used as targets for one of our specialist models, m.</li>
+<li>on-line version of the K-means algorithm to the columns of the <a href="../Covariance/">covariance</a> matrix, and obtained reasonable clusters</li>
+<li>One of our main claims about using soft targets instead of hard targets is that a lot of helpful information can be carried in soft targets that could not possibly be encoded with a single hard target.</li>
+<li>It is even more remarkable to note that we did not have to do early stopping: the system with soft targets simply 'converged' to 57%. This shows that soft targets are a very effective way of communicating the regularities discovered by a model trained on all of the data to another model.</li>
+<li>The specialists that we used in our experiments on the JFT dataset collapsed all of their non-specialist classes into a single dustbin class. If we allow specialists to have a full softmax over all classes, there may be a much better way to prevent them overfitting than using early stopping. A specialist is trained on data that is highly enriched in its special classes.</li>
+<li>This means that the effective size of its training set is much smaller and it has a strong tendency to overfit on its special classes.</li>
+<li>The use of specialists that are trained on subsets of the data has some resemblance to mixtures of experts which use a gating network to compute the probability of assigning each example to each expert</li>
+<li>At the same time as the experts are learning to deal with the examples assigned to them, the gating network is learning to choose which experts to assign each example to based on the relative discriminative performance of the experts for that example.</li>
+<li>Using the discriminative performance of the experts to determine the learned assignments is much better than simply <a href="../Clustering/">clustering</a> the input vectors and assigning an expert to each cluster, but it makes the training hard to parallelize: First, the weighted training set for each expert keeps changing in a way that depends on all the other experts and second, the gating network needs to compare the performance of different experts on the same example to know how to revise its assignment probabilities.</li>
+</ul>
+<h3 id="conclusions">Conclusions<a class="headerlink" href="#conclusions" title="Permanent link">¶</a></h3>
+<ul>
+<li>These difficulties have meant that mixtures of experts are rarely used in the regime where they might be most beneficial: tasks with huge datasets that contain distinctly different subsets.</li>
+<li>It is much easier to parallelize the training of multiple specialists</li>
+<li>e first train a generalist model and then use the confusion matrix to define the subsets that the specialists are trained on</li>
+<li>We have shown that distilling works very well for transferring knowledge from an ensemble or from a large highly regularized model into a smaller, distilled model.</li>
+<li>For really big neural networks, it can be infeasible even to train a full ensemble, but we have shown that the performance of a single really big net that has been trained for a very long time can be significantly improved by learning a large number of specialist nets, each of which learns to discriminate between the classes in a highly confusable cluster. We have not yet shown that we can distill the knowledge in the specialists back into the single large net.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Distributive%20Interpretation%20%282%29/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Distributive%20Interpretation%20%282%29/">
+        Distributive Interpretation (2)
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Distillation%20Token/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Distillation%20Token/">
+        Distillation Token
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

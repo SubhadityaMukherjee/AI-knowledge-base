@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Differences between Discriminative and Generative models - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Differences between Discriminative and Generative models", url: "#_top", children: [
+              {title: "Overview", url: "#overview" },
+              {title: "Scope", url: "#scope" },
+              {title: "Introduction", url: "#introduction" },
+              {title: "Discriminative Model", url: "#discriminative-model" },
+              {title: "Generative Models", url: "#generative-models" },
+              {title: "Conclusion", url: "#conclusion" },
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Generating%20Images%20using%20GANs%20in%20Tensorflow/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Generating%20Images%20using%20GANs%20in%20Tensorflow/">
+        Generating Images using GANs in Tensorflow
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DCGAN%20%E2%80%93%20Adding%20convolution%20to%20a%20GAN/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DCGAN%20%E2%80%93%20Adding%20convolution%20to%20a%20GAN/">
+        DCGAN – Adding convolution to a GAN
+      </a>
+</div>
+</div>
+<h2 id="differences-between-discriminative-and-generative-models">Differences between Discriminative and Generative models<a class="headerlink" href="#differences-between-discriminative-and-generative-models" title="Permanent link">¶</a></h2>
+<p>:::section{.abstract}</p>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h3>
+<p>Machine learning models can be broadly classified into discriminative and generative. Discriminative models, such as logistic regression, support vector machines, and decision <a href="../../../../Trees">trees</a>, learn to model boundaries around classes in a dataset and estimate the conditional probability of the target variable given the data. On the other hand, generative models, such as latent Dirichlet allocation, Bayesian networks, and hidden Markov models, create new data points by estimating the joint probability distribution of the data and the target variable. Generative models are often used for unsupervised tasks, such as topic modelling and <a href="../../../../Dimensionality Reduction">dimensionality reduction</a>, while discriminative models are more commonly used for classification and regression.
+:::
+:::section{.scope}</p>
+<h3 id="scope">Scope<a class="headerlink" href="#scope" title="Permanent link">¶</a></h3>
+<ul>
+<li>The article introduces the concept of discriminative and generative models in the context of machine learning.</li>
+<li>The article explains the differences between these two models and how they approach tasks differently.</li>
+<li>The article provides examples of commonly used machine learning models in the discriminative or generative category.</li>
+<li>The article discusses the applications of discriminative and generative models in various tasks, such as classification, regression, and unsupervised learning.</li>
+<li>The article also compares the advantages and disadvantages of discriminative and generative models.</li>
+</ul>
+<p>:::
+:::section{.main}</p>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h3>
+<p>Various Machine Learning models have been proposed over the years, each for different tasks. A broad categorization of these models is to classify them into Generative and Discriminative models. Discriminative models estimate the conditional probability, while Generative models estimate the joint probability distribution. This article will examine the difference between Generative and Discriminative models. We will also introduce several commonly used ML models and categorize them into these two groups.</p>
+<h3 id="discriminative-model">Discriminative Model<a class="headerlink" href="#discriminative-model" title="Permanent link">¶</a></h3>
+<p>Discriminative Models are a family of models that do not generate new data points but learn to model boundaries around classes in a dataset instead. These models aim to maximize the separation between the classes in the dataset to perform classification or Regression. Discriminative models estimate the conditional probability <span class="arithmatex">\(P(Y|X =x)\)</span> on a data X and a target Y. 
+Note that sometimes classifiers that do not use a probability model are called Discriminative Models.</p>
+<h4 id="logistic-regression">Logistic Regression<a class="headerlink" href="#logistic-regression" title="Permanent link">¶</a></h4>
+<p>Logistic Regression is a classification algorithm that uses the <strong>Sigmoid</strong> function instead of a linear function to model data.</p>
+<p>The Sigmoid curve is shown in the figure below.</p>
+<p>[IMAGE {1} { Sigmoid Curve } START SAMPLE]
+<img alt="Sigmoid Curve" src="https://hackmd.io/_uploads/Sk3E2bDKj.png"/>
+[IMAGE {1} FINISH SAMPLE]</p>
+<p>We can also use Logistic Regression for multi-class tasks by modelling each class separately. Therefore, the Regression's outcome must be a discrete or categorical value. (e.g., Yes/No, True/False) The model's output is a probabilistic value in the range [0,1]. The modelled curve that the logistic function uses indicates the likelihood of the binary decision. 
+The following equation can mathematically represent Logistic Regression.
+<span class="arithmatex">\(<span class="arithmatex">\(log[\frac{y}{1-y}] = b_0 + b_1 x_1 + b_2 x_2 + … + b_n x_n\)</span>\)</span></p>
+<p>Considering the difference between Generative and Discriminative models is important in understanding why these models are Discriminative.</p>
+<h4 id="support-vector-machine">Support Vector Machine<a class="headerlink" href="#support-vector-machine" title="Permanent link">¶</a></h4>
+<p>A Support Vector Machine (SVM) is a supervised classification and regression algorithm that uses the concept of <strong>hyperplanes</strong>. These hyperplanes can be understood as <strong>multi-dimensional linear <a href="../../../../Decision Boundaries">decision boundaries</a></strong> that separate groups of unequal data points. 
+An example of a hyperplane is shown below.</p>
+<p>[IMAGE {2 } { SVM } START SAMPLE]
+<img alt="SVM" src="https://hackmd.io/_uploads/rkOvSQPFs.png"/>
+[IMAGE { 2} FINISH SAMPLE]</p>
+<p>An optimal fit of the SVM occurs when a hyperplane is furthest from the training data points of any of the classes—the larger this distance margin, the lower the error of the classifier. 
+To better understand how the SVM works, consider a group of data points like the one shown in the diagram. It is a good fit if the hyperplane separates the points in the space so they are clustered according to their labels. If not, further iterations of the algorithm are performed. </p>
+<h4 id="decision-tree">Decision Tree<a class="headerlink" href="#decision-tree" title="Permanent link">¶</a></h4>
+<p>Decision <a href="../../../../Trees">trees</a> are tree-based decision models that use an internal structure of a <strong>root node</strong> followed by successive child <strong>leaf nodes</strong>. The leaf nodes are a placeholder for the classification label, and the branches show the outcomes of the decision. The paths from the tree's root to the leaves represent the classifier rules. Each tree and sub-tree models a single decision and enumerates all the possible decisions to choose the best one.
+A Decision tree can be optimal if it represents most of the data with the least number of levels. Decision <a href="../../../../Trees">trees</a> are helpful for classification but can be extended for Regression using different algorithms. These <a href="../../../../Trees">trees</a> are computationally efficient, and many tree-based optimizations have been created over the years to make them perform even faster.
+An example of such a tree is shown below. 
+[IMAGE {3 } { Decision Tree } START SAMPLE]
+<img alt="Decision Tree" src="https://hackmd.io/_uploads/SJxhur7PYi.png"/>
+[IMAGE { 3} FINISH SAMPLE]</p>
+<h4 id="random-forest">Random Forest<a class="headerlink" href="#random-forest" title="Permanent link">¶</a></h4>
+<p>[IMAGE {4 } { Random Forest } START SAMPLE]
+<img alt="Random Forest" src="https://hackmd.io/_uploads/S1wFBmPYo.png"/>
+[IMAGE { 4} FINISH SAMPLE]</p>
+<p>Random Forest models use a forest of Decision <a href="../../../../Trees">Trees</a> to make better decisions by combining each tree's decisions. The most popular decision across the <a href="../../../../Trees">trees</a> for a task is the best after the aggregation. This technique of aggregating multiple results from similar processes is called <strong>Ensembling</strong>. 
+The second component of the Random Forest pertains to another technique called <strong>Bagging</strong>. Bagging differs from Ensembling because, in Bagging, the data is different for every model, while in Ensembling, the different models are run on the same data. In Bagging, a random sample with replacement is chosen multiple times to create a data sample. These data samples are then used to train the model independently. After training all these models, the majority vote is taken to find a better estimate of the data.
+Random forests combine the concepts of Bagging and Ensembling to decide the best feature splits and select subsets of the same. This algorithm is better than using a single Decision Tree as it reduces bias and the net variance, generating better predictions.</p>
+<p>Bagging and Ensembling might seem like they help model the joint probability distribution, but that is not the case. Understanding the difference between Generative and Discriminative models can clear this confusion.</p>
+<h3 id="generative-models">Generative Models<a class="headerlink" href="#generative-models" title="Permanent link">¶</a></h3>
+<p>Generative Models are a family of models that create new data points. They are generally used for unsupervised tasks. Generative Models use the joint probability distribution <span class="arithmatex">\(P(X, Y)\)</span> on a variable X and a target variable Y to model the data and perform inference by estimating the probability of the new data point belonging to any given class.</p>
+<h4 id="latent-dirichlet-allocation-lda">Latent Dirichlet Allocation (<a href="../../../../LDA">LDA</a>)<a class="headerlink" href="#latent-dirichlet-allocation-lda" title="Permanent link">¶</a></h4>
+<p><a href="../../../../LDA">LDA</a> models aim to accurately estimate the classwise mean and variance of the data points in a given dataset. After calculating these statistics, <a href="../../../../LDA">LDA</a> makes predictions by estimating the probability of the new class belonging to any of the classes in the original data. In ML, <a href="../../../../LDA">LDA</a> models are used for <strong>topic modelling and discovery</strong>. <a href="../../../../LDA">LDA</a> is similar to <a href="../../../../PCA">PCA</a> in that it also performs a <a href="../../../../Dimensionality Reduction">dimensionality reduction</a>. But unlike <a href="../../../../PCA">PCA</a>, <a href="../../../../LDA">LDA</a> maximizes the class separation and not the variance of the data.
+This principle is illustrated in the figure below.</p>
+<p>[IMAGE {5 } { LDA } START SAMPLE]
+<img alt="LDA" src="https://hackmd.io/_uploads/rk4oHXPFi.png"/>
+[IMAGE { 5} FINISH SAMPLE]</p>
+<h4 id="bayesian-network">Bayesian Network<a class="headerlink" href="#bayesian-network" title="Permanent link">¶</a></h4>
+<p>A Bayesian Network is a graph-based probabilistic model that uses a special graph structure known as a DAG - Directed Acyclic Graph to model conditional dependencies between the given variables. These networks are useful in finding the possible cause of an event, given several contributing factors.
+A classic example of what a Bayesian Network looks like is shown below.</p>
+<p>[IMAGE {6 } { Bayesian Network } START SAMPLE]
+<img alt="Bayesian Network" src="https://hackmd.io/_uploads/HJ4hrXPFj.png"/>
+[IMAGE { 6} FINISH SAMPLE]</p>
+<p>The Bayesian Network uses this graph to model the joint probability distribution. Each of the edges in the graph represents a dependency, while each node represents a unique variable. The model can then use this learnt distribution for inference.
+We can use Bayesian Networks to infer unobserved variables, learn parameters from the data and learn the structure of a manually created data distribution.</p>
+<p>Note that each represents Boolean variables if there are <span class="arithmatex">\(m\)</span> parent nodes. A minimum of <span class="arithmatex">\(2^m\)</span> entries are required to model the possible events.</p>
+<h4 id="hidden-markov-model">Hidden Markov Model<a class="headerlink" href="#hidden-markov-model" title="Permanent link">¶</a></h4>
+<p>A Markov process is a sequential process where the previous item only influences the next item in the sequence. A Markov Chain, therefore, is a graph that uses probabilities to denote how likely it is to move to the next state in the chain. (If it is not clear how this is a Generative model, refer to the section on the difference between Generative and Discriminative models)
+An example Markov Chain is shown below.
+[IMAGE {7 } { Markov Chain } START SAMPLE]
+<img alt="Markov Chain" src="https://hackmd.io/_uploads/SJaVS7wFs.png"/>
+[IMAGE { 7} FINISH SAMPLE]</p>
+<p>A Hidden Markov Model is a graph where the chain is unobservable. The inputs the model receives are combined with the probabilities of the previous step. This combination is used to calculate the next step in the graph. 
+A constraint in an HMM is that at a certain time <span class="arithmatex">\(t= t_{0}\)</span>, the target Y must be influenced only by the state of X at <span class="arithmatex">\(t= t_{0}\)</span>. The states of Y at <span class="arithmatex">\(t= t_{0}\)</span> should not be affected by the states of X and Y at <span class="arithmatex">\(t &lt; t_{0}\)</span>.</p>
+<p>An example of a Markov Model is shown here for reference.
+[IMAGE {8 } { HMM } START SAMPLE]
+<img alt="HMM" src="https://hackmd.io/_uploads/rkINBXDKj.png"/>
+[IMAGE { 8} FINISH SAMPLE]</p>
+<h4 id="autoregressive-model">Autoregressive model<a class="headerlink" href="#autoregressive-model" title="Permanent link">¶</a></h4>
+<p>An Autoregressive model is used in time series forecasting. This model uses the past values in the time series to predict values that might occur in the future.
+An Autoregressive model gets its name as it is a regression of itself. These models are generally represented as stochastic difference equations that use linear combinations of past values to model the data. A mathematical representation is as follows.</p>
+<p><span class="arithmatex">\(y_{t} + c + \phi_{1} y_{t-1} + \phi_{2} y_{t-2} + … + \phi_{p} y_{t-p} + \epsilon_{t}\)</span>
+where  <span class="arithmatex">\(\epsilon_{t}\)</span> is white noise. 
+Note that changing the patterns for <span class="arithmatex">\(\phi\)</span> changes the time series. Varying the error term does not change the pattern but modifies the scale of the data instead.</p>
+<p>An example of an Autoregressive model is shown below.
+[IMAGE {9 } { Autoregressive Model } START SAMPLE]
+<img alt="Autoregressive Model" src="https://hackmd.io/_uploads/H1sQBQPYs.png"/>
+[IMAGE { 9} FINISH SAMPLE]</p>
+<h4 id="generative-adversarial-network">Generative Adversarial Network<a class="headerlink" href="#generative-adversarial-network" title="Permanent link">¶</a></h4>
+<p>Generative Adversarial Networks are models that take large image datasets as input and generate new images. A GAN models the data distribution by exploiting the latent space of the dataset given to it. A GAN comprises two parts - A Generator and a Discriminator. These parts play a MinMax Game, where the Generator creates novel images from random noise while the Discriminator classifies the outputs into real or fake. When the Discriminator can no longer distinguish between real and fake images created by the Generator, the GAN training is said to be complete.</p>
+<p>An example of a GAN that converts images to a different style is shown in the following image.
+[IMAGE {10 } { GAN } START SAMPLE]
+<img alt="GAN" src="https://hackmd.io/_uploads/SJXQrQPKj.png"/>
+[IMAGE { 10} FINISH SAMPLE]</p>
+<h4 id="discriminative-vs-generative-models">Discriminative vs Generative Models<a class="headerlink" href="#discriminative-vs-generative-models" title="Permanent link">¶</a></h4>
+<p>The difference between Generative and Discriminative models is summarised in the following table.</p>
+<table>
+<thead>
+<tr>
+<th>Generative Models</th>
+<th>Discriminative Models</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aim to understand the data distribution</td>
+<td>Aim to model the data decision boundary</td>
+</tr>
+<tr>
+<td>Uses the joint probability</td>
+<td>Uses the conditional probability</td>
+</tr>
+<tr>
+<td>Relatively computationally expensive</td>
+<td>Relatively cheaper computationally</td>
+</tr>
+<tr>
+<td>Unsupervised Tasks</td>
+<td>Supervised Tasks</td>
+</tr>
+<tr>
+<td>Harmed by outliers</td>
+<td>More robust to the presence of outliers</td>
+</tr>
+<tr>
+<td>Models how data is placed in space</td>
+<td>Generates boundaries around similar classes of data in space</td>
+</tr>
+</tbody>
+</table>
+<p>:::
+:::section{.summary}</p>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<ul>
+<li>In summary, discriminative and generative models are two categories of machine learning models that approach tasks differently.</li>
+<li>Discriminative models aim to maximize the separation between classes in a dataset to perform classification or regression. </li>
+<li>In contrast, generative models create new data points by estimating the joint probability distribution of the data and the target variable. </li>
+<li>Both models have their own set of advantages and disadvantages and can be applied to various tasks. </li>
+</ul>
+<p>:::</p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Generating%20Images%20using%20GANs%20in%20Tensorflow/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Generating%20Images%20using%20GANs%20in%20Tensorflow/">
+        Generating Images using GANs in Tensorflow
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../DCGAN%20%E2%80%93%20Adding%20convolution%20to%20a%20GAN/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../DCGAN%20%E2%80%93%20Adding%20convolution%20to%20a%20GAN/">
+        DCGAN – Adding convolution to a GAN
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

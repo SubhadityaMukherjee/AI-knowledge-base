@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Tree Cover Segmentation - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Tree Cover Segmentation", url: "#_top", children: [
+              {title: "2d Methods", url: "#2d-methods" },
+              {title: "Ref", url: "#ref" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../trolley%20scenario/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../trolley%20scenario/">
+        trolley scenario
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../todo/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../todo/">
+        Todo
+      </a>
+</div>
+</div>
+<h2 id="tree-cover-segmentation">Tree Cover Segmentation<a class="headerlink" href="#tree-cover-segmentation" title="Permanent link">¶</a></h2>
+<ul>
+<li>treecover segmentation <a href="../PointNet%2B%2B/">PointNet++</a><ul>
+<li>Data collected from above</li>
+<li>Normalization : height, xy</li>
+<li>Rotation</li>
+<li>Jiggling ??</li>
+<li>Labeling<ul>
+<li><img alt="im" src="../images/Pasted%20image%2020220318094643.png"/> Segmentation algorithm. Canopy hide model</li>
+<li>Weighted <a href="../loss/">loss</a> + <a href="../Focal%20Loss/">Focal Loss</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="2d-methods">2d Methods<a class="headerlink" href="#2d-methods" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="Watershed">Watershed</a> + <a href="../Unet/">Unet</a></li>
+<li><img alt="im" src="../images/Pasted%20image%2020220318100323.png"/></li>
+<li><img alt="im" src="../images/Pasted%20image%2020220318100634.png"/><ul>
+<li><span class="arithmatex">\(\Theta\)</span> is just clippingpng]]</li>
+<li>The sqrt makes it a little smoother</li>
+</ul>
+</li>
+</ul>
+<h3 id="ref">Ref<a class="headerlink" href="#ref" title="Permanent link">¶</a></h3>
+<ul>
+<li>Max Freudenberg - Gottingen Uni Germany</li>
+<li>Adrian Stroker - Gottingen Uni Germany</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../trolley%20scenario/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../trolley%20scenario/">
+        trolley scenario
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../todo/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../todo/">
+        Todo
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

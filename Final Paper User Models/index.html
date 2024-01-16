@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Final Paper User Models - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Final Paper User Models", url: "#_top", children: [
+              {title: "Literature", url: "#literature" },
+              {title: "Members", url: "#members" },
+              {title: "Concept", url: "#concept" },
+              {title: "Params", url: "#params" },
+              {title: "Fact", url: "#fact" },
+              {title: "System", url: "#system" },
+              {title: "Testing", url: "#testing" },
+              {title: "Results", url: "#results" },
+              {title: "Limitations", url: "#limitations" },
+              {title: "Future Directions", url: "#future-directions" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Fine%20Grained%20assesment/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Fine%20Grained%20assesment/">
+        Fine Grained assesment
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Final%20Paper%20Language%20Modeling/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Final%20Paper%20Language%20Modeling/">
+        Final Paper LM
+      </a>
+</div>
+</div>
+<h2 id="final-paper-user-models">Final Paper User Models<a class="headerlink" href="#final-paper-user-models" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<h3 id="literature">Literature<a class="headerlink" href="#literature" title="Permanent link">¶</a></h3>
+<ul>
+<li>van den Broek, G. S., Takashima, A., Segers, E., &amp; Verhoeven, L. (2018). Contextual richness and word learning: Context enhances comprehension but retrieval enhances retention. Language learning, 68(2), 546-585.</li>
+<li><a href="../Effects%20of%20Contextual%20Cues%20on%20Inferring%20and%20Remembering%20Meanings%20of%20New%20Word/">Effects of Contextual Cues on Inferring and Remembering Meanings of New Word</a></li>
+<li><a href="../SlimStampen/">SlimStampen</a></li>
+<li><a href="../The%20Behavior%20of%20Tutoring%20Systems/">The Behavior of Tutoring Systems</a></li>
+<li><a href="../The%20Effect%20of%20Three%20Consecutive%20Context%20Sentences%20on%20EFL%20Vocabulary-Learning/">The Effect of Three Consecutive Context Sentences on EFL Vocabulary-Learning</a></li>
+<li><a href="../Second%20Language%20Vocabulary%20Learning%20%2C%20The%20role%20of%20context%20%20versus%20translation/">Second Language Vocabulary Learning , The role of context  versus translation</a></li>
+<li><a href="../Learning%20L2%20German%20Vocabulary%20Through%20Reading/">Learning L2 German Vocabulary Through Reading</a></li>
+</ul>
+<h3 id="members">Members<a class="headerlink" href="#members" title="Permanent link">¶</a></h3>
+<ul>
+<li>Hila Schwartz</li>
+<li>Juliette Bruin</li>
+<li>Isabelle Tilleman</li>
+<li>Subhaditya Mukherjee</li>
+</ul>
+<h3 id="concept">Concept<a class="headerlink" href="#concept" title="Permanent link">¶</a></h3>
+<ul>
+<li>Outlines the general concept of our system, meaning how we tried to adjust and improve the <a href="../SlimStampen/">slimstampen</a> system, and any additional improvements we made to the system.</li>
+</ul>
+<h4 id="main-idea">Main Idea<a class="headerlink" href="#main-idea" title="Permanent link">¶</a></h4>
+<ul>
+<li>The main idea we have for this project is to improve the <a href="../SlimStampen/">SlimStampen</a> system by presenting vocabulary in context. The way we would like to do this, is by presenting users with the word they need to learn in a sentence. As the learner gets better, the system will increase the difficulty by presenting words without context. If the words are presented out of context and the user makes a mistake, the correct answer will also be shown without context.</li>
+<li>An example of this would be as follows:</li>
+<li>Prompt: Wij kopen een huis</li>
+<li>Correct answer: to buy OR buy OR buying</li>
+<li>This idea is based on research by van den Broek et al. (2018), which showed that presenting novel words in context during the initial learning phase, and then reducing context later on improves long-term word retention. Next to that, Li (1988) found that learning words in context improves understanding of the word.</li>
+<li>Based on previous feedback, we have decided to have two contexts for each word. If a user gets a word wrong consistently, they will be shown a different context. This is based on the idea that they perhaps do not understand the first context they were provided with, and that perhaps the second context will provide them with the information they need to get the word correct. Unlike previously stated, this addition will not be tested in a separate condition. The only conditions we will test are no contexts at all and two contexts.</li>
+</ul>
+<h3 id="params">Params<a class="headerlink" href="#params" title="Permanent link">¶</a></h3>
+<ul>
+<li>WORD_THRESHOLD = 0.29</li>
+<li>CONTEXT2_THRESHOLD = 0.35</li>
+<li>DEFAULT_ALPHA = 0.3</li>
+</ul>
+<h3 id="fact">Fact<a class="headerlink" href="#fact" title="Permanent link">¶</a></h3>
+<pre><code class="language-py">Fact(fact_id = 6, 
+ question = 'gemiddeld', 
+ context_1 = "Deze opleiding heeft 'gemiddeld' …", 
+ context_2 = "De temperatuur is 'gemiddeld' …", 
+ answer = 'average', 
+ chosen_context = "Deze opleiding heeft 'gemiddeld' …",
+ encounter_2 = True)
+</code></pre>
+<h4 id="additional-improvements">Additional Improvements<a class="headerlink" href="#additional-improvements" title="Permanent link">¶</a></h4>
+<ul>
+<li>We added a few things to the system of which we will not test the effects:</li>
+</ul>
+<h4 id="1-ui-improvements">1 UI Improvements<a class="headerlink" href="#1-ui-improvements" title="Permanent link">¶</a></h4>
+<ul>
+<li>The UI was updated for a cleaner look and feel, as well as to improve readability for dyslexic participants.</li>
+</ul>
+<h4 id="2-gamification">2 Gamification<a class="headerlink" href="#2-gamification" title="Permanent link">¶</a></h4>
+<ul>
+<li>We have decided to add a few small gamification elements. One of those is that through the use of colors (green/red). Another is displaying a score which shows how many answers you got correct out of the total number of trials you have done so far.</li>
+</ul>
+<h4 id="3-multiple-translations">3 Multiple Translations<a class="headerlink" href="#3-multiple-translations" title="Permanent link">¶</a></h4>
+<ul>
+<li>For some of the words, we added multiple correct answers. This means that multiple different answers can be counted as correct. This is especially useful for verbs, since there are different ways to translate those which do not really change the meaning of the words. An example of this is the word vergeten, which can be translated to forget, to forget, and forgot. Out-of-context, all three of these meanings make sense. Having multiple options be marked as correct also helped with gathering context sentences, since you are not as restricted to one specific use of the word.</li>
+</ul>
+<h3 id="system">System<a class="headerlink" href="#system" title="Permanent link">¶</a></h3>
+<ul>
+<li>Explains how the system itself works, meaning how it switches between words and context, and how it decided which word to show next.</li>
+</ul>
+<h4 id="word-order">Word Order<a class="headerlink" href="#word-order" title="Permanent link">¶</a></h4>
+<ul>
+<li>Similarly to the set-up of <a href="../SlimStampen/">slimstampen</a>, we let the system decide which words to show and how based on rate of forgetting. What we changed is that we have different thresholds for when it shows the context, which context it shows, and when it shows just the word.</li>
+<li>Once it enters the second context, it will not go back to the first. This is based on the assumption that the first context did not help the participant figure out the meaning of the word. Thresholds were decided through trial-and-error, based on what felt like a natural progression of conditions.</li>
+<li>In the original system, the same word (and in this case also context) was shown thrice without changing at all based on input. We changed that to twice in our system.</li>
+</ul>
+<h3 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">¶</a></h3>
+<ul>
+<li>Explains how we aim to test the system, including each of the conditions and the full experimental procedure.</li>
+</ul>
+<h4 id="stimuli-and-design">Stimuli and Design<a class="headerlink" href="#stimuli-and-design" title="Permanent link">¶</a></h4>
+<ul>
+<li>To test whether the improvements we made to the <a href="../SlimStampen/">SlimStampen</a> system have an effect on word retrieval, we want to do a within-participant study. For each condition, we will vary whether words are presented in a sentence, and how many sentences are available. The independent variables in this study are accuracy and response time. The dependent variable is number of contexts available.</li>
+</ul>
+<h4 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">¶</a></h4>
+<ul>
+<li>We are planning to have two conditions:</li>
+<li>Baseline condition: In this condition, participants are only shown words without context.</li>
+<li>Two-context condition: In this condition, participants will be presented with words in-context as well as out of context. If participants repeatedly give the wrong answer when an item is shown in-context, they will be shown a different context.</li>
+</ul>
+<h4 id="components">Components<a class="headerlink" href="#components" title="Permanent link">¶</a></h4>
+<ul>
+<li>The experiment consists of different components:</li>
+<li>Questionnaire: This will ask the participants for some basic info: age, their native language, and their previous experience with learning Dutch.</li>
+<li>Level Evaluation: Participants will be shown 20 Dutch words and will be asked to translate them to English. We can use this data to compare the Dutch level of each participant, in case we see some weird results. The words were chosen by taking vocabulary from different levels of Dutch (a1-b2).</li>
+<li>Training: Participants will try to learn new Dutch words using our adapted <a href="../SlimStampen/">SlimStampen</a> system. This is where the conditions come into play. This segment lasts either 150 trials or until they have seen all words.</li>
+<li>Distractor: A small dot-counting task that functions as a distractor task. Participants need to do this 10 times between training and testing. The number of blue dots that are shown is between 10 and 20.</li>
+<li>Test: Participants will be tested on the words learned during training using a simple translation task. In this test, they are only presented with words that they saw during training. They immediately receive feedback on how they did.</li>
+<li>Break: Participants will be asked to take a small break between testing and starting the training in a new condition.</li>
+<li>We will present each participant with the same two word/context lists, but they will be randomized over the conditions. The order of the conditions will also be randomized.</li>
+</ul>
+<h4 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">¶</a></h4>
+<ul>
+<li>The experiment will be performed on our personal laptops using OpenSesame in a quiet place. Participants will be presented with a small introduction to the experiment. Then, they will answer a small questionnaire about their Dutch level. After that, they will do a small Dutch test. All participants will be asked to do the same Dutch test. The words in this test will not be used in any of the conditions. This test will provide a frame of reference for each participant's Dutch level, in case we see unexpected results. After the test, there is a small break.</li>
+<li>Next, participants will be asked to practice a word list in one of the two conditions. This finishes after 150 trials or after a participant has seen all of the words. Next, participants will do a small distractor test. In this distractor test, they are asked to count dots. They need to do this 10 times. Then, we will test their word retrieval with a simple single-word translation test. After this, participants are asked to take a small break. This process is repeated a total of 2 times, once for each of the conditions.</li>
+<li>After each participant has done each of the two conditions, we will end the experiment by thanking them for their efforts.</li>
+</ul>
+<h3 id="results">Results<a class="headerlink" href="#results" title="Permanent link">¶</a></h3>
+<ul>
+<li>Not significant ):</li>
+<li>Not effective for all learners </li>
+<li>Short time frame</li>
+<li>Effect : Using words in sentences vs Retrieval (Prince, 1996)</li>
+</ul>
+<h3 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Permanent link">¶</a></h3>
+<ul>
+<li>Very small participant pool</li>
+<li>Variation in participant backgrounds</li>
+<li>Ceiling effect</li>
+<li>No external motivation to do well</li>
+<li>Not enough attention to the context</li>
+</ul>
+<h3 id="future-directions">Future Directions<a class="headerlink" href="#future-directions" title="Permanent link">¶</a></h3>
+<ul>
+<li>Additional focus on gamification</li>
+<li>Longer term studies (Like <a href="../SlimStampen/">SlimStampen</a>)</li>
+<li>Harder words : Ceiling Effect</li>
+<li>More informed context in sentences (van den Broek et al., 2018) </li>
+<li>Other ways of testing context</li>
+<li>Investigate thresholds</li>
+</ul>
+<h4 id="pictures">Pictures<a class="headerlink" href="#pictures" title="Permanent link">¶</a></h4>
+<ul>
+<li><strong><img alt="" src="../images/UvTPZadMPgK1WYnzxkbwG-f8F2hpX9TKPp1YK1vdztilQn1uzc1F-1HJ0m93d9kDafgZzFah_IJrLA_rRx5urfjEogD9WRQeemoY.png"/></strong></li>
+<li><strong><img alt="" src="../images/grpTUg4XllbNgQdWMxnhvYpV5gR0d5chBcLJ97RC_uVYzvNk8DeAfhohR2FDPgmruAliArS_yEPXzFJM3M8qCCr0sdymeO1WuK1q.png"/></strong></li>
+<li><img alt="Pasted image 20221025151329" src="../images/Pasted%20image%2020221025151329.png"/></li>
+<li><img alt="Pasted image 20221025151334" src="../images/Pasted%20image%2020221025151334.png"/></li>
+<li><img alt="Pasted image 20221025151338" src="../images/Pasted%20image%2020221025151338.png"/></li>
+<li><img alt="Pasted image 20221025151342" src="../images/Pasted%20image%2020221025151342.png"/></li>
+<li><strong><img alt="" src="../images/IiXoiU_gjEH082ajU63Rh_Y6ocSCv-ILVlnEjEM_Bvolg4IZ2RHXpdZ3kmQvKw5R9krrljKg6ryA5KmehKSd4n_pxx-QuT683CKS.png"/></strong></li>
+<li><strong><img alt="" src="../images/Un_DJbx9IChyxu8ItMpOu_5CwINa_vWez9vgwtGYCUIUZvnenvTvvIoIfYj5HudjDHVbBUggNme7VYd1g5Wcy7qnfpVRctBz9h-N.png"/></strong></li>
+<li><strong><img alt="" src="../images/2Dg32LVejSscdHR_3kh6z5J4wuKYZ_3LcPl-qtvmPotHIc2WVoeZd-_C5-PgKNWRMS6SA-cnwgjZmwXSYVcoS14IOnAvY6QmnXFz.png"/></strong></li>
+<li><strong><img alt="" src="../images/QNjLadcoCKy1IjcvC8b8vxLAZXiHZ4yqmAPlYlhoAhNPfF6RGECAjp6DRhw4hIXyTXmM9KiC1tZ2eq4rlFXkr7VfGQoZlWWaPEjH.png"/></strong></li>
+<li><strong><img alt="" src="../images/c1Lfq8XCqOQQeYvoKN4db9HGZ3ap3kNTJDcChC3wX2TBKCwvPCq6p1L_-tin9UpxcxB2WYr9-Ny9nWHbqjAtqKfEDyAJbiKlKNp3.png"/></strong></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Fine%20Grained%20assesment/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Fine%20Grained%20assesment/">
+        Fine Grained assesment
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Final%20Paper%20Language%20Modeling/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Final%20Paper%20Language%20Modeling/">
+        Final Paper LM
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

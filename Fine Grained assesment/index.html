@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Fine Grained assesment - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Fine Grained Assesment", url: "#_top", children: [
+              {title: "Counting Learning Events", url: "#counting-learning-events" },
+              {title: "Counting Failures", url: "#counting-failures" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Fine%20Tuning%20Based%20Pruning/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Fine%20Tuning%20Based%20Pruning/">
+        Fine Tuning Based Pruning
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Final%20Paper%20User%20Models/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Final%20Paper%20User%20Models/">
+        Final Paper User Models
+      </a>
+</div>
+</div>
+<h2 id="fine-grained-assesment">Fine Grained Assesment<a class="headerlink" href="#fine-grained-assesment" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<h3 id="counting-learning-events">Counting Learning Events<a class="headerlink" href="#counting-learning-events" title="Permanent link">¶</a></h3>
+<ul>
+<li>We also assumed that a step is the product of one or more learning events, and defined a <a href="../Learning%20Event/">Learning Event</a> to be a mental event based on a <a href="../Knowledge%20Component/">Knowledge Component</a>. Learning events and knowledge components are not directly observable, but steps are.</li>
+<li>Mastery really means the probability that a <a href="../Knowledge%20Component/">Knowledge Component</a> will be applied when it should be applied. If the student's competence was frozen instead of constantly changing due to learning and forgetting, then mastery could be estimated by counting the number of times a <a href="../Knowledge%20Component/">Knowledge Component</a> was applied and dividing by the number of times it should have been applied. Thus, we need to discuss three <a href="../Issues/">issues</a>: (1) How to detect applications of a <a href="../Knowledge%20Component/">Knowledge Component</a>, (2) how to detect times when a <a href="../Knowledge%20Component/">Knowledge Component</a> should have been applied, and (3) how to adjust for instruction, learning and forgetting.</li>
+</ul>
+<h3 id="counting-failures">Counting Failures<a class="headerlink" href="#counting-failures" title="Permanent link">¶</a></h3>
+<ul>
+<li>Counting only the successful applications of a <a href="../Knowledge%20Component/">Knowledge Component</a> is not enough; we need to know how many times the student failed to apply it as well.</li>
+<li>One approach is to detect failed attempts at steps. Suppose for simplicity that there is a one-to-one correspondence between a step and a <a href="../Learning%20Event/">Learning Event</a></li>
+<li>If the student fails to make the step, then the student must lack the knowledge that underlies the <a href="../Learning%20Event/">Learning Event</a>.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Fine%20Tuning%20Based%20Pruning/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Fine%20Tuning%20Based%20Pruning/">
+        Fine Tuning Based Pruning
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Final%20Paper%20User%20Models/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Final%20Paper%20User%20Models/">
+        Final Paper User Models
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

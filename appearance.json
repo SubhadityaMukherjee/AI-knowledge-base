@@ -1,0 +1,10 @@
+{
+  "baseFontSize": 16,
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "obsidian",
+    "bulletrels",
+    "tagcols"
+  ],
+  "accentColor": "#492361"
+}

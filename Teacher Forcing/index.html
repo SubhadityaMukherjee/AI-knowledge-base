@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Teacher Forcing - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Teacher Forcing", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Teacher%20Student%20Architecture/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Teacher%20Student%20Architecture/">
+        Teacher Student Architecture
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Teach%20Lock/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Teach%20Lock/">
+        Teach Lock
+      </a>
+</div>
+</div>
+<h2 id="teacher-forcing">Teacher Forcing<a class="headerlink" href="#teacher-forcing" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://publish.obsidian.md/fabian-groeger/Machine+Learning+%26+Deep+Learning/Deep+Learning/Architectures/RNN/Teacher+Forcing">from</a></li>
+<li>Technique where the target word (ground truth word) is passed as the next input to the decoder instead of its last prediction.</li>
+<li>common technique to train <a href="../Basic%20RNN%20Architectures/">Basic RNN Architectures</a> or <a href="../Transformer/">Transformer</a><ul>
+<li>used in <a href="../imageCaptioning/">imageCaptioning</a> , Machine Translation</li>
+<li>but also in Time Series forecasting</li>
+</ul>
+</li>
+<li>intuition<ul>
+<li>math exam with dependent questions, e.g. a) depends on b), b) on c) and so on</li>
+<li>if a) is wrong, all subsequent questions are also wrong</li>
+<li>teacher forcing: after answering question a), the teacher compares it to the correct solution and grades it and then gives us the correct answer for a) to continue with</li>
+</ul>
+</li>
+<li>for example in sequence generation with RNN the situation is similar<ul>
+<li>each prediction depends on the last one, thus when one is wrong all subsequent will be wrong as well</li>
+</ul>
+</li>
+<li>no memorization can happen<ul>
+<li>the network can not look into the future</li>
+<li>ground truth is only fed as last <span class="arithmatex">\(y_{t-1}\)</span> prediction not as the current <span class="arithmatex">\(y_{t}\)</span></li>
+</ul>
+</li>
+<li><a href="../loss/">loss</a> does not need to be updated at each timestep, only needs to have a list with the true predictions of the model from which then the <a href="../loss/">loss</a> is calculated</li>
+<li>pros<ul>
+<li>training converges faster, because early predictions are very bad</li>
+</ul>
+</li>
+<li>cons<ul>
+<li>no ground truth label during inference, thus no teacher forcing</li>
+<li>discrepancy between training and inference scores<ul>
+<li>can lead to poor model performance and instability</li>
+<li>known as <em>Exposure Bias</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Teacher%20Student%20Architecture/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Teacher%20Student%20Architecture/">
+        Teacher Student Architecture
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Teach%20Lock/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Teach%20Lock/">
+        Teach Lock
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

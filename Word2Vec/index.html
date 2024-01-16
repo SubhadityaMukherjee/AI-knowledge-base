@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Word2Vec - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Word2Vec", url: "#_top", children: [
+              {title: "Training", url: "#training" },
+              {title: "Hyperparams", url: "#hyperparams" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Words-and-Rules/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Words-and-Rules/">
+        Words-and-Rules
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Word%20Vectors/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Word%20Vectors/">
+        Word Vectors
+      </a>
+</div>
+</div>
+<h2 id="word2vec">Word2Vec<a class="headerlink" href="#word2vec" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/1301.3781">Efficient Estimation of Word Representations in Vector Space</a></li>
+<li>Duality of vector representations of words derived by various models on a collection of syntactic and semantic language tasks involving word similarity</li>
+<li>possible to train high quality <a href="../Word%20Vectors/">word vectors</a> using very simple model architectures</li>
+<li><a href="../Skip%20Gram/">Skip Gram</a> or <a href="../CBOW/">CBOW</a></li>
+</ul>
+<h3 id="training">Training<a class="headerlink" href="#training" title="Permanent link">¶</a></h3>
+<ul>
+<li>Ask it to predict a vector with probabilities</li>
+<li>Find error vector</li>
+<li>Update params</li>
+<li>to generate high-quality embeddings using a high-performance model, we can switch the model’s task from predicting a neighboring word And switch it to a model that takes the input and output word, and outputs a score indicating if they’re neighbors or not (0 for “not neighbors”, 1 for “neighbors”).</li>
+<li>This simple switch changes the model we need from a neural network, to a logistic regression model – thus it becomes much simpler and much faster to calculate. + <a href="../Negative%20Sampling/">Negative Sampling</a></li>
+<li>Embedding and Context matrices randomly initialized</li>
+<li><img alt="Pasted image 20221208001319.png" src="../images/Pasted%20image%2020221208001319.png"/></li>
+<li><img alt="Pasted image 20221208001413.png" src="../images/Pasted%20image%2020221208001413.png"/></li>
+</ul>
+<h3 id="hyperparams">Hyperparams<a class="headerlink" href="#hyperparams" title="Permanent link">¶</a></h3>
+<h4 id="window-size">Window Size<a class="headerlink" href="#window-size" title="Permanent link">¶</a></h4>
+<ul>
+<li>smaller window sizes (2-15) lead to embeddings where high similarity scores between two embeddings indicates that the words are <em>interchangeable</em> (notice that antonyms are often interchangable if we’re only looking at their surrounding words – e.g. <em>good</em> and <em>bad</em> often appear in similar contexts).</li>
+<li>Larger window sizes (15-50, or even more) lead to embeddings where similarity is more indicative of <em>relatedness</em> of the words</li>
+<li>default is 5 (two words - word - two words)</li>
+</ul>
+<h4 id="no-of-negative-samples">No of Negative Samples<a class="headerlink" href="#no-of-negative-samples" title="Permanent link">¶</a></h4>
+<ul>
+<li>The original paper prescribes 5-20 as being a good number of negative samples. It also states that 2-5 seems to be enough when you have a large enough dataset. The Gensim default is 5 negative samples.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Words-and-Rules/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Words-and-Rules/">
+        Words-and-Rules
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Word%20Vectors/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Word%20Vectors/">
+        Word Vectors
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

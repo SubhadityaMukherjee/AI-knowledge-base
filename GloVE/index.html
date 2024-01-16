@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>GloVE - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "GloVE", url: "#_top", children: [
+              {title: "Explanation", url: "#explanation" },
+              {title: "Analogies", url: "#analogies" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Global%20Average%20Pooling/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Global%20Average%20Pooling/">
+        Global Average Pooling
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Glioma/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Glioma/">
+        Glioma
+      </a>
+</div>
+</div>
+<pre><code class="language-toc"></code></pre>
+<h2 id="glove">GloVE<a class="headerlink" href="#glove" title="Permanent link">¶</a></h2>
+<h3 id="explanation">Explanation<a class="headerlink" href="#explanation" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="https://www.aclweb.org/anthology/D14-1162/">GloVe: Global Vectors for Word Representation</a></li>
+<li><a href="../Word2Vec/">Word2Vec</a> relies only on local information of language. That is, the semantics learnt for a given word, is only affected by the surrounding words.</li>
+<li><a href="../Unsupervised%20Learning/">Unsupervised Learning</a> algorithm which captures both global statistics and local statistics of a corpus</li>
+<li>aggregated global word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space</li>
+<li>whether distributional word representations are best learned from count-based methods or from prediction-based methods</li>
+<li>probe the underlying co-occurrence statistics of the corpus</li>
+<li>reformulated <a href="../Word2Vec/">word2vec</a> optimizations as a special kind of factorization for word co-occurence matrices</li>
+<li>Note that GloVe does not use neural networks</li>
+<li>utilizes this main benefit of count data while simultaneously capturing the meaningful linear substructures prevalent in recent log-bilinear prediction-based methods like <a href="../Word2Vec/">word2vec</a></li>
+<li>global log-bilinear <a href="../LinearRegression/">LinearRegression</a> model for the <a href="../Unsupervised%20Learning/">unsupervised learning</a> of word representations</li>
+<li><img alt="Pasted image 20221207225733.png" src="../images/Pasted%20image%2020221207225733.png"/></li>
+<li>There’s a straight red column through all of these different words. They’re similar along that dimension (and we don’t know what each dimensions codes for)</li>
+<li>There are clear places where “king” and “queen” are similar to each other and distinct from all the others. Could these be coding for a vague concept of royalty?</li>
+</ul>
+<h3 id="analogies">Analogies<a class="headerlink" href="#analogies" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="" src="assets/king-man+woman-gensim.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Global%20Average%20Pooling/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Global%20Average%20Pooling/">
+        Global Average Pooling
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Glioma/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Glioma/">
+        Glioma
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>GradCAM - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "GradCAM", url: "#_top", children: [
+              {title: "Other Stuff", url: "#other-stuff" },
+              {title: "GradCAM Vs CAM", url: "#gradcam-vs-cam" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../GradCAM%2B%2B/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../GradCAM%2B%2B/">
+        GradCAM++
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Google%20voice%20search%20task/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Google%20voice%20search%20task/">
+        Google voice search task
+      </a>
+</div>
+</div>
+<h2 id="gradcam">GradCAM<a class="headerlink" href="#gradcam" title="Permanent link">¶</a></h2>
+<ul>
+<li>@selvarajuGradCAMVisualExplanations</li>
+<li>Modified <a href="../CAM/">CAM</a></li>
+<li>Importance of feature map k for target class c<ul>
+<li>A is input</li>
+<li><span class="arithmatex">\(Y_{c}=\text{score of class c}\)</span> : value of output before softmax</li>
+<li>grad of <span class="arithmatex">\(Y_{c}\)</span> wrt A and take avg</li>
+<li>$$</li>
+</ul>
+</li>
+</ul>
+<p>\alpha_{k}^{c}= average(\partial \frac{Y_{c}}{\partial A^{k}<em>{ij}})
+$$
+    - If avg is high : important
+    - 0 : not
+    - neg : background/ others
+- Weighted combination -&gt; relu
+    - $$
+L<sup>{c}<em>{GRADCAM}=Resize(ReLU(\Sigma</em>{k}(\alpha</sup>{c}</em>{k}A^{k})))
+$$
+    - This is a coarse heatmap because the image is resized
+    - ReLU used because we only care about positive values (actualy image pixel)
+- To identify <a href="../Counterfactual%20Images/">Counterfactual Images</a>, flip the signs
+    - 
+$$</p>
+<p>\alpha_{k}^{c}=average(- \partial \frac{Y_{c}}{\partial A^{k}_{ij}})</p>
+<p>$$
+    - <img alt="" src="images/Pasted%20image%2020221118132132.png"/>
+- Followed by <a href="../Guided%20GradCAM/">Guided GradCAM</a></p>
+<h3 id="other-stuff">Other Stuff<a class="headerlink" href="#other-stuff" title="Permanent link">¶</a></h3>
+<ul>
+<li>producing ‘visual explanations’ for decisions from a large class of CNN-based models, making them more transparent and explainable</li>
+<li>Gradient-weighted Class Activation Mapping</li>
+<li>uses the gradients of any target concept</li>
+<li>flowing into the final convolutional layer to produce a coarse localization map highlighting the important regions in the image for predicting the concept</li>
+<li>lend insights into failure modes of these models (showing that seemingly unreasonable predictions have reasonable explanations)</li>
+<li>are robust to adversarial perturbations</li>
+<li>are more faithful to the underlying model</li>
+<li>help achieve model generalization by identifying dataset bias</li>
+<li>identify important neurons through GradCAM and combine it with neuron names to provide textual explanations for model decisions</li>
+</ul>
+<h3 id="gradcam-vs-cam">GradCAM Vs CAM<a class="headerlink" href="#gradcam-vs-cam" title="Permanent link">¶</a></h3>
+<ul>
+<li>Gradient-weighted Class Activation Mapping (Grad-CAM) is an improvement over Class Activation Mapping (<a href="../CAM/">CAM</a>) that provides a more detailed and accurate <a href="../visualization/">visualization</a> of the regions of an image that are important for a given classification.</li>
+<li><a href="../CAM/">CAM</a> generates heatmaps by using global average pooling (GAP) in the final convolutional layer to generate a feature map, followed by a linear combination of the feature map and the class weight vector to generate a single class activation map. However, this approach does not take into account the gradients of the class scores with respect to the feature maps, which can provide additional information about the contribution of different regions of the image to the final classification decision.</li>
+<li>Grad-CAM, on the other hand, uses the gradients of the class scores with respect to the feature maps in order to generate heatmaps. Specifically, it uses the gradients of the class scores with respect to the final feature maps of the network, which are then upsampled to the same size as the input image. The resulting heatmap highlights the regions of the input image that are most important for the given classification.</li>
+<li>In summary, Grad-CAM is an improvement over CAM because it provides a more detailed and accurate <a href="../visualization/">visualization</a> of the regions of an image that are important for a given classification by using gradients of the class scores with respect to the feature maps, providing additional information about the contribution of different regions of the image to the final classification decision.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../GradCAM%2B%2B/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../GradCAM%2B%2B/">
+        GradCAM++
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Google%20voice%20search%20task/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Google%20voice%20search%20task/">
+        Google voice search task
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

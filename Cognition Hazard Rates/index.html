@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Cogntition Hazard Rates - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Cogntition Hazard Rates", url: "#_top", children: [
+              {title: "Distributions Used (PDF)", url: "#distributions-used-pdf" },
+              {title: "Hazard Rates", url: "#hazard-rates" },
+              {title: "Vs ACT-R", url: "#vs-act-r" },
+              {title: "Problems", url: "#problems" },
+              {title: "Extending", url: "#extending" },
+              {title: "Images", url: "#images" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Cognitive%20Engagement/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Cognitive%20Engagement/">
+        Cognitive Engagement
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../CogMod%20Final%20Paper/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../CogMod%20Final%20Paper/">
+        CogMod Final Paper
+      </a>
+</div>
+</div>
+<h2 id="cogntition-hazard-rates">Cogntition Hazard Rates<a class="headerlink" href="#cogntition-hazard-rates" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>{Proven wrong} : <a href="../Cognitive%20fMTP/">Cognitive fMTP</a></li>
+<li>Mathematical construct about probability</li>
+<li>Continuously tracking the odds the event appeads rn given it has not happened yet</li>
+<li>Idea : Use this "hazard rate" to decide when to prepare</li>
+<li>RT is proportional to hazard</li>
+<li>Optimally prepared if certain</li>
+</ul>
+<h3 id="distributions-used-pdf">Distributions Used (PDF)<a class="headerlink" href="#distributions-used-pdf" title="Permanent link">¶</a></h3>
+<ul>
+<li>Constant, exponential, flipped exponential</li>
+<li>Hazard rate is this pdf by 1-F</li>
+<li>
+<div class="arithmatex">\[h(t) = \frac{f(t)}{1-F(t)}\]</div>
+</li>
+<li><img alt="Pasted image 20221205133945.png" src="../images/Pasted%20image%2020221205133945.png"/></li>
+</ul>
+<h3 id="hazard-rates">Hazard Rates<a class="headerlink" href="#hazard-rates" title="Permanent link">¶</a></h3>
+<ul>
+<li>How does that translate to RT?</li>
+<li>Proposed<ul>
+<li><span class="arithmatex">\(RT = c- h(t)\)</span> : linear effect</li>
+<li><span class="arithmatex">\(RT = c+ \frac{1}{h(t)}\)</span> : inverse relation</li>
+</ul>
+</li>
+<li>dashed : <span class="arithmatex">\(\frac{1}{hazard}\)</span></li>
+<li><img alt="Pasted image 20221205134112.png" src="../images/Pasted%20image%2020221205134112.png"/></li>
+<li><img alt="Pasted image 20221205133656.png" src="../images/Pasted%20image%2020221205133656.png"/></li>
+</ul>
+<h3 id="vs-act-r">Vs ACT-R<a class="headerlink" href="#vs-act-r" title="Permanent link">¶</a></h3>
+<ul>
+<li>Prepare for ‘the right moment’  <ul>
+<li>‘degree of preparation’ given by moment-to-moment hz  </li>
+</ul>
+</li>
+<li>‘the right moment’ is estimated based on time (pulses) and memory (DM)  <ul>
+<li>No ‘time’, no explicit memory?  </li>
+</ul>
+</li>
+<li>If we are prepared→ benefit, else cost  <ul>
+<li><a href="../Scaled%20benefits/">Scaled benefits</a> (useful for assignment)</li>
+<li>Does not specify why/how; i.e., what preparation is  </li>
+</ul>
+</li>
+<li>No active process during the interval  <ul>
+<li><a href="../Active%20tracking/">Active tracking</a></li>
+</ul>
+</li>
+<li>Once we are prepared, it doesn’t ‘go away’  <ul>
+<li>A by-product of the Hazard rate</li>
+</ul>
+</li>
+<li>No memory model  <ul>
+<li>Such mathematical models give no mechanism for how the pdf is stored in memory, retrieved, or used…</li>
+</ul>
+</li>
+</ul>
+<h3 id="problems">Problems<a class="headerlink" href="#problems" title="Permanent link">¶</a></h3>
+<ul>
+<li>Does not explain preparation</li>
+<li>How do particpants ‘learn’ the distribution?</li>
+<li>Do participants truly track ‘conditional probabilities’ throughout the foreperiod</li>
+</ul>
+<h3 id="extending">Extending<a class="headerlink" href="#extending" title="Permanent link">¶</a></h3>
+<ul>
+<li>Does not store PDFs in memory, which sucks<ul>
+<li>Does not keep track of time as well</li>
+</ul>
+</li>
+<li>Subjective hazard/ anticipation function<ul>
+<li>Temporal uncertainty</li>
+<li>Blur the pdf such that later points are less certain using a <a href="../Gaussian%20Filter/">Gaussian filter</a> that gets wider for later points in time</li>
+<li>
+<div class="arithmatex">\[f'(t) = \frac{1}{\theta t \sqrt{2 \pi}} \int_{-\infty}^{\infty}f(\tau)e^{-\frac{(r-t)^{2}}{2 \theta^{2}t^{2}}}d \tau\]</div>
+</li>
+<li>Climb to 1 after a while</li>
+<li>Hazard is more even though probs are equal in classical. This equates them and makes them less blurred out</li>
+<li><img alt="Pasted image 20221205140951.png" src="../images/Pasted%20image%2020221205140951.png"/></li>
+</ul>
+</li>
+</ul>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="Pasted image 20221205133708.png" src="../images/Pasted%20image%2020221205133708.png"/></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Cognitive%20Engagement/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Cognitive%20Engagement/">
+        Cognitive Engagement
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../CogMod%20Final%20Paper/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../CogMod%20Final%20Paper/">
+        CogMod Final Paper
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

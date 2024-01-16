@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>CycleGAN - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "CycleGAN", url: "#_top", children: [
+              {title: "Architecture", url: "#architecture" },
+              {title: "Generator", url: "#generator" },
+              {title: "Discriminator", url: "#discriminator" },
+              {title: "Applications", url: "#applications" },
+              {title: "Limits", url: "#limits" },
+              {title: "Reduce Model Oscillation", url: "#reduce-model-oscillation" },
+              {title: "Technical Implementation", url: "#technical-implementation" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Cyclic%20Learning%20Rate/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Cyclic%20Learning%20Rate/">
+        Cyclic Learning Rate
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Cycle%20Consistency%20Loss/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Cycle%20Consistency%20Loss/">
+        Cycle Consistency Loss
+      </a>
+</div>
+</div>
+<h2 id="cyclegan">CycleGAN<a class="headerlink" href="#cyclegan" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<ul>
+<li>Unpaired image2image</li>
+<li>2 Mapping functions G, F : generator and <span class="arithmatex">\(D_{X}, D_{Y}\)</span> as generators</li>
+<li><a href="../Adversarial%20Loss/">Adversarial Loss</a></li>
+<li><span class="arithmatex">\(\mathcal{L}_{cyc}\)</span> <a href="../Cycle%20Consistency%20Loss/">Cycle Consistency Loss</a></li>
+<li>Full objective<ul>
+<li>Adversarial Loss + <a href="../Cycle%20Consistency%20Loss/">Cycle Consistency Loss</a></li>
+<li><span class="arithmatex">\(\lambda\)</span> is a hyperparam. Generally set to 10</li>
+<li>
+<div class="arithmatex">\[\mathcal{L}_{GAN}(G, F, D_{X}, D_{Y}) = \mathcal{L}_{GAN}(G, D_{Y}, X, Y) + \mathcal{L}_{GAN}(F, D_{X}, X, Y) + \lambda \mathcal{L}_{cyc}(G,F)\]</div>
+</li>
+</ul>
+</li>
+<li>To Solve</li>
+<li>
+<div class="arithmatex">\[G^{*},F^{*} =\underset{G,F}{argmin} \underset{D_{X}, D_{Y}}{max} \mathcal{L}_{GAN}(G, F, D_{X}, D_{Y})\]</div>
+</li>
+<li>two stride-2 convolutions, several residual blocks, and two fractionally <a href="../Strided/">strided</a> convolutions with stride <span class="arithmatex">\(\frac{1}{2}\)</span></li>
+<li><a href="../Instance%20Normalization/">Instance Normalization</a></li>
+</ul>
+<h3 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">¶</a></h3>
+<h3 id="generator">Generator<a class="headerlink" href="#generator" title="Permanent link">¶</a></h3>
+<ul>
+<li><img alt="Pasted image 20221211132006.png" src="../images/Pasted%20image%2020221211132006.png"/></li>
+</ul>
+<h4 id="encoder">Encoder<a class="headerlink" href="#encoder" title="Permanent link">¶</a></h4>
+<ul>
+<li>The encoder extracts features from the input image by using Convolutions and compressed the representation of image but increase the number of channels</li>
+<li>The encoder consists of 3 convolution that reduces the representation by 1/4 th of actual image size</li>
+</ul>
+<h4 id="transforming-block">Transforming Block<a class="headerlink" href="#transforming-block" title="Permanent link">¶</a></h4>
+<ul>
+<li>The transformer contains 6 or 9 residual blocks based on the size of input.</li>
+<li>The output of transformer is then passed into the decoder which uses 2 -deconvolution block of fraction strides to increase the size of representation to original size.</li>
+</ul>
+<h3 id="discriminator">Discriminator<a class="headerlink" href="#discriminator" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../PatchGAN/">PatchGAN</a></li>
+</ul>
+<h3 id="applications">Applications<a class="headerlink" href="#applications" title="Permanent link">¶</a></h3>
+<ul>
+<li>Style Transfer<ul>
+<li>Unlike other works on neural style transfer, CycleGAN learns to mimic the style of an entire collection of artworks, rather than transferring the style of a single selected piece of art</li>
+</ul>
+</li>
+<li>Object Transformation<ul>
+<li>CycleGAN can transform object from one ImageNet class to another such as: Zebra to Horses and vice-versa, Apples to Oranges and vice versa etc</li>
+</ul>
+</li>
+<li>Season Transfer<ul>
+<li>CycleGAN can also transfer images from Winter Season to Summer season and vice-versa. For this the model is trained on 854 winter photos and 1273 summer photos of Yosemite from Flickr.</li>
+</ul>
+</li>
+<li>Photo Generation from Painting<ul>
+<li>can also be used to transform photo from paintings and vice-versa</li>
+<li><a href="../Identity%20Loss/">Identity Loss</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="limits">Limits<a class="headerlink" href="#limits" title="Permanent link">¶</a></h3>
+<ul>
+<li>applied to perform geometrical transformation, CycleGAN does not perform very well. This is because of the generator architecture which is trained to perform appearance changes in the image.</li>
+</ul>
+<h3 id="reduce-model-oscillation">Reduce Model Oscillation<a class="headerlink" href="#reduce-model-oscillation" title="Permanent link">¶</a></h3>
+<ul>
+<li>To prevent the model from changing drastically from iteration to iteration, the discriminators were fed a history of generated images, rather than just the ones produced by the latest versions of the generator.</li>
+<li>To do this we keep storing the 50 most recently generated images. Based on this technique we reduce the model Oscillation as well as model overfitting.</li>
+</ul>
+<h3 id="technical-implementation">Technical Implementation<a class="headerlink" href="#technical-implementation" title="Permanent link">¶</a></h3>
+<p>The CycleGAN paper provides a number of technical details regarding how to implement the technique in practice.</p>
+<p>The generator network implementation is based on the approach described for style transfer by <a href="https://cs.stanford.edu/people/jcjohns/">Justin Johnson</a> in the 2016 paper titled “<a href="https://arxiv.org/abs/1603.08155">Perceptual Losses for Real-Time Style Transfer and Super-Resolution</a>.”</p>
+<p>The generator model starts with best practices for generators using the deep convolutional GAN, which is implemented using multiple residual blocks (e.g. from the <a href="https://machinelearningmastery.com/how-to-implement-major-architecture-innovations-for-convolutional-neural-networks/">ResNet</a>).</p>
+<p>The discriminator models use <a href="../PatchGAN/">PatchGAN</a>, as described by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>, et al. in their 2016 paper titled “<a href="https://arxiv.org/abs/1611.07004">Image-to-Image Translation with Conditional Adversarial Networks</a>.”</p>
+<blockquote>
+<p>This discriminator tries to classify if each NxN patch in an image is real or fake. We run this discriminator convolutionally across the image, averaging all responses to provide the ultimate output of D.</p>
+</blockquote>
+<p>— <a href="https://arxiv.org/abs/1611.07004">Image-to-Image Translation with Conditional Adversarial Networks</a>, 2016.</p>
+<p>PatchGANs are used in the discriminator models to classify 70×70 overlapping patches of input images as belonging to the domain or having been generated. The discriminator output is then taken as the average of the prediction for each patch.</p>
+<p>The adversarial loss is implemented using a least-squared loss function, as described in <a href="https://xudongmao.github.io/">Xudong Mao</a>, et al’s 2016 paper titled “<a href="https://arxiv.org/abs/1611.04076">Least Squares Generative Adversarial Networks</a>.”</p>
+<blockquote>
+<p>[…] we propose the Least Squares Generative Adversarial Networks (LSGANs) which adopt the least squares loss function for the discriminator. The idea is simple yet powerful: the least squares loss function is able to move the fake samples toward the decision boundary, because the least squares loss function penalizes samples that lie in a long way on the correct side of the decision boundary.</p>
+</blockquote>
+<p>— <a href="https://arxiv.org/abs/1611.04076">Least squares generative adversarial networks</a>, 2016.</p>
+<p>Additionally, a buffer of 50 generated images is used to update the discriminator models instead of freshly generated images, as described in <a href="https://www.linkedin.com/in/ashish-shrivastava-3499127/">Ashish Shrivastava’s</a> 2016 paper titled “<a href="https://arxiv.org/abs/1612.07828">Learning from Simulated and Unsupervised Images through Adversarial Training</a>.”</p>
+<blockquote>
+<p>[…] we introduce a method to improve the stability of adversarial training by updating the discriminator using a history of refined images, rather than only the ones in the current minibatch.</p>
+</blockquote>
+<p>— <a href="https://arxiv.org/abs/1612.07828">Learning from Simulated and Unsupervised Images through Adversarial Training</a>, 2016.</p>
+<p>The models are trained with the <a href="https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/">Adam version of stochastic gradient descent</a> and a small learning rate for 100 epochs, then a further 100 epochs with a learning rate decay. The models are updated after each image, e.g. a batch size of 1.</p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Cyclic%20Learning%20Rate/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Cyclic%20Learning%20Rate/">
+        Cyclic Learning Rate
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Cycle%20Consistency%20Loss/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Cycle%20Consistency%20Loss/">
+        Cycle Consistency Loss
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

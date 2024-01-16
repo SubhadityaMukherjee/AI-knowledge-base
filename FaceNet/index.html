@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>FaceNet - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "FaceNet", url: "#_top", children: [
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Factorized%20Embedding%20Parameters/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Factorized%20Embedding%20Parameters/">
+        Factorized Embedding Parameters
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../FTSwish/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../FTSwish/">
+        FTSwish
+      </a>
+</div>
+</div>
+<h2 id="facenet">FaceNet<a class="headerlink" href="#facenet" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/1503.03832">FaceNet: a Unified Embedding for Face Recognition and Clustering</a></li>
+<li>mapping from face images to a compact Euclidean space where distances directly correspond to a measure of face similarity</li>
+<li>Optimize the <a href="../Embedding/">embedding</a> itself</li>
+<li>FaceNet directly trains its output to be a compact 128-D <a href="../Embedding/">embedding</a> using a <a href="../Triplet%20Loss/">Triplet Loss</a> function</li>
+<li>Choosing which triplets to use turns out to be very important for achieving good performance<ul>
+<li>inspired by <a href="../Curriculum%20Learning/">curriculum learning</a></li>
+<li>online negative exemplar mining strategy which ensures consistently increasing difficulty of triplets as the network trains</li>
+<li>also explore hard-positive mining techniques which encourage spherical clusters for the embeddings of a single person</li>
+</ul>
+</li>
+<li>squared <a href="../Lp%20Regularization/">Lp Regularization</a> L2 distance, in the <a href="../Embedding/">embedding</a> space directly correspond to face similarity: faces of the same person have small distances and faces of distinct people have large distances</li>
+<li>face verification simply involves thresholding the distance between the two embeddings; recognition becomes a <a href="KNN">KNN</a> classification problem</li>
+<li><a href="../Labeled%20Faces%20in%20the%20Wild/">Labeled Faces in the Wild</a></li>
+<li><a href="../Zeiler%20Fergus/">Zeiler Fergus</a></li>
+<li><a href="../Inception/">Inception</a></li>
+<li><a href="Harmonic%20Embedding">Harmonic Embedding</a></li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Factorized%20Embedding%20Parameters/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Factorized%20Embedding%20Parameters/">
+        Factorized Embedding Parameters
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../FTSwish/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../FTSwish/">
+        FTSwish
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

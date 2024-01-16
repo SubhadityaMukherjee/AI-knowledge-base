@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Amsgrad - Subhaditya's AIKB</title>
+<link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap-3.3.7.min.js"></script>
+<script src="../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Amsgrad", url: "#_top", children: [
+              {title: "Modified Adam", url: "#modified-adam" },
+              {title: "Results", url: "#results" },
+          ]},
+        ];
+
+    </script>
+<script src="../js/base.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Amygdala/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Amygdala/">
+        Amygdala
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Amino%20Acid/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Amino%20Acid/">
+        Amino Acid
+      </a>
+</div>
+</div>
+<h2 id="amsgrad">Amsgrad<a class="headerlink" href="#amsgrad" title="Permanent link">¶</a></h2>
+<pre><code class="language-toc"></code></pre>
+<h3 id="modified-adam">Modified <a href="../Adam/">Adam</a><a class="headerlink" href="#modified-adam" title="Permanent link">¶</a></h3>
+<ul>
+<li>By analyzing the proof of convergence for the Adam optimizer, they spotted a mistake in the update rule that could cause the algorithm to converge to a sub-optimal point</li>
+<li>update rule of Adam</li>
+</ul>
+<pre><code class="language-python">avg_grads = beta1 * avg_grads + (1-beta1) * w.grad 
+avg_squared = beta2 * (avg_squared) + (1-beta2) * (w.grad ** 2) 
+w = w - lr * avg_grads / sqrt(avg_squared)
+</code></pre>
+<ul>
+<li>We've just skipped the bias correction (useful for the beginning of training) to focus on the important point</li>
+<li>The error in the proof of Adam the authors spotted is that it requires the quantity</li>
+</ul>
+<pre><code class="language-python">lr / sqrt(avg_squared)
+</code></pre>
+<ul>
+<li>which is the step we take in the direction of our average gradients, to be decreasing over training</li>
+<li>Since the learning rate is often taken constant or decreasing (except for crazy people like us trying to obtain super-convergence), the fix the authors proposed was to force the avg_squared quantity to be increasing by adding another variable to keep track of their maximums.</li>
+<li>Implementing amsgrad</li>
+<li>This causes the weight update code from the previous section to be changed to something like this:</li>
+</ul>
+<h3 id="results">Results<a class="headerlink" href="#results" title="Permanent link">¶</a></h3>
+<ul>
+<li>Amsgrad turns out to be very disappointing. In none of our experiments did we find that it helped the slightest bit, and even if it's true that the minimum found by amsgrad is sometimes slightly lower (in terms of loss) than the one reached by Adam, the metrics (accuracy, f1 score...) always end up worse</li>
+<li>The proof of convergence for the Adam optimizer in deep learning (since it's for convex problems) and the mistake they found in it mattered for synthetic experiments that have nothing to do with real-</li>
+<li>life problems. Actual tests show that when those avg_squared gradients want to decrease, it's best for the final result to do so.</li>
+</ul>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Amygdala/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Amygdala/">
+        Amygdala
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Amino%20Acid/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Amino%20Acid/">
+        Amino Acid
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

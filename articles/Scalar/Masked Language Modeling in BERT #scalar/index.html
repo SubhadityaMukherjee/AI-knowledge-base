@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Masked Language Modeling in BERT #scalar - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Masked Language Modeling in BERT #scalar", url: "#_top", children: [
+              {title: "Overview", url: "#overview" },
+              {title: "Scope of the Article", url: "#scope-of-the-article" },
+              {title: "Masked Language Modeling Explained", url: "#masked-language-modeling-explained" },
+              {title: "Quick Recap", url: "#quick-recap" },
+              {title: "MLM vs CLM vs Word2Vec", url: "#mlm-vs-clm-vs-word2vec" },
+              {title: "Libraries We Need", url: "#libraries-we-need" },
+              {title: "Implementation", url: "#implementation" },
+          ]},
+          {title: "Take first 1000 sentences for demo purposes", url: "#take-first-1000-sentences-for-demo-purposes", children: [
+          ]},
+          {title: "Remove new lines, convert all to lowercase, remove punctuation and stop words and tokenize", url: "#remove-new-lines-convert-all-to-lowercase-remove-punctuation-and-stop-words-and-tokenize", children: [
+          ]},
+          {title: "MASK", url: "#mask", children: [
+          ]},
+          {title: "Convert the tokens to tensor format", url: "#convert-the-tokens-to-tensor-format", children: [
+          ]},
+          {title: "Compile and Train", url: "#compile-and-train", children: [
+              {title: "Predictions", url: "#predictions" },
+              {title: "Further Tips", url: "#further-tips" },
+              {title: "Conclusion", url: "#conclusion" },
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Reconstructing%20the%20MNIST%20images%20using%20an%20autoencoder/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Reconstructing%20the%20MNIST%20images%20using%20an%20autoencoder/">
+        Reconstructing the MNIST images using an autoencoder
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Intro%20to%20Conditional%20GANS/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Intro%20to%20Conditional%20GANS/">
+        Intro to Conditional GANS
+      </a>
+</div>
+</div>
+<h2 id="masked-language-modeling-in-bert-scalar"><a href="../../../../Masked Language Modeling">Masked Language Modeling</a> in BERT #scalar<a class="headerlink" href="#masked-language-modeling-in-bert-scalar" title="Permanent link">¶</a></h2>
+<p>masked language model explained</p>
+<p>:::section{.abstract}</p>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h3>
+<p>Language modelling is a massive domain and has many sub-research areas. One such domain involves understanding contextual information about words in a sentence. This task can be done in many ways, and masked language modelling is one such method. In the past few years, Transformer based models have reached SOTA(state of the art) in many NLP domains. BERT is one such model. In this article, we will understand how to train BERT to fill in missing words in a sentence using MLM.</p>
+<p>:::
+:::section{.scope}</p>
+<h3 id="scope-of-the-article">Scope of the Article<a class="headerlink" href="#scope-of-the-article" title="Permanent link">¶</a></h3>
+<p>This article covers the following topics:
+- <a href="../../../../Masked Language Modeling">Masked Language Modeling</a> explained in an easy-to-understand manner
+- Quickly recap all the pre-requisite terms to build an MLM model
+- Go over some libraries that are essential to MLM
+- How to build a BERT-based MLM model using our data in Tensorflow/Keras</p>
+<p>:::
+:::section{.main}</p>
+<h3 id="masked-language-modeling-explained"><a href="../../../../Masked Language Modeling">Masked Language Modeling</a> Explained<a class="headerlink" href="#masked-language-modeling-explained" title="Permanent link">¶</a></h3>
+<p>To a NN model, the word context has no meaning. So, we need to find ways to make the model consider surrounding words to learn which context words appear. For example, consider the sentence, "I am eating an ice cream". In this, the "ice cream" is being "eaten". What would an appropriate word be if we now remove the word "eating" and have the sentence as "I am ___ an ice cream"? We can consider something along the lines of "licking", "eating", "sharing", etc. However, we cannot say "drowning", "cycle", "chair", or other random words.</p>
+<p>In the same way, to ensure the model learns which word is appropriate, it needs to understand the structure of language. As modellers, we need to help it do so. 
+Quite simply, all we do is give the model inputs with blanks as a "token" <code>&lt;MASK&gt;</code> along with the word that should be there. We can create data in this format by taking any text and running over it. How to do so will be explained later on.</p>
+<h3 id="quick-recap">Quick Recap<a class="headerlink" href="#quick-recap" title="Permanent link">¶</a></h3>
+<p>This section gives a small recap of all the important concepts we need to understand the code.</p>
+<h4 id="tokens">Tokens<a class="headerlink" href="#tokens" title="Permanent link">¶</a></h4>
+<p>Tokens can be considered parts of a sentence that contribute to understanding. A sentence such as "I am Jane Austen" can have the tokens <code>["I", "am", "Jane", "Austen"]</code>. As a computer does not understand words, we need to convert these to numerical values. To do so, we give each word a unique ID. Something like <code>[100, 101, 102, 103]</code> etc.</p>
+<h4 id="attention">Attention<a class="headerlink" href="#attention" title="Permanent link">¶</a></h4>
+<p>One of the most important concepts in Machine learning today, attention mechanisms give models the power to decide where to look in an input. Compared to CNNs, this makes models such as Transformers perform much better as it simultaneously learns which parts of the input would be better along with what the input could be classified. </p>
+<h4 id="transformers">Transformers<a class="headerlink" href="#transformers" title="Permanent link">¶</a></h4>
+<p>Transformers are a large family of models that employ different variants of attention mechanisms. They first started in NLP but have also branched out to computer vision due to their immense potential. They generally have an Encoder-Decoder architecture with multiple "heads". Each head is responsible for its attention.</p>
+<h4 id="bert">BERT<a class="headerlink" href="#bert" title="Permanent link">¶</a></h4>
+<p>BERT is part of a sub-family of transformer architectures made for NLP and led to a sea of other new models that reached SOTA. It can be used in many different contexts, especially MLM, next-word prediction, question answering and many more.</p>
+<h4 id="transfer-learning">Transfer Learning<a class="headerlink" href="#transfer-learning" title="Permanent link">¶</a></h4>
+<p>A training paradigm that changed the DL world by allowing any researcher with limited resources to use SOTA models for inference and fine-tune them to their needs. A model like BERT requires Terabytes of data before it can be trained to extremely high levels. This level of computing is almost impossible for most people to have apart from companies with massive funding and resources. However, now we can use their trained models and make them work for our tasks.</p>
+<h4 id="stopwords">Stopwords<a class="headerlink" href="#stopwords" title="Permanent link">¶</a></h4>
+<p>Words that do not add much value to the model but are repeated enough times for it to become a problem. These are generally removed before modelling.</p>
+<h3 id="mlm-vs-clm-vs-word2vec">MLM vs CLM vs Word2Vec<a class="headerlink" href="#mlm-vs-clm-vs-word2vec" title="Permanent link">¶</a></h3>
+<p>The major difference between MLM and CLM is that CLM can only take into account words that occur before it in a sentence, unlike MLM, which is bi-directional. This difference means that CLM does better for generating large amounts of text. However, MLM is better for contextually understanding text (refer to the <a href="../../../../Masked Language Modeling">Masked Language Modeling</a> Explained section).
+Word2Vec, on the other hand, has similar ideas but the embeddings it generates have weaker contextual information than Transformer based models. The outputs it produces can also be used as a part of BERT training, although it is not usually required.</p>
+<h3 id="libraries-we-need">Libraries We Need<a class="headerlink" href="#libraries-we-need" title="Permanent link">¶</a></h3>
+<p>We need a few libraries to make this work.</p>
+<h4 id="tensorflowkeras">Tensorflow/Keras<a class="headerlink" href="#tensorflowkeras" title="Permanent link">¶</a></h4>
+<p>TF is one of the major DL libraries in Python. We will be using it for training our model.</p>
+<h4 id="hugging-face-transformers">Hugging Face Transformers<a class="headerlink" href="#hugging-face-transformers" title="Permanent link">¶</a></h4>
+<p>This library is one of the recent developments in the open-source community. It is a database of trained models and datasets that can be directly used in any codebase. They have thousands of tasks, making it extremely easy to get results fast. We will use their pre-trained BERT model.</p>
+<h4 id="nltk">NLTK<a class="headerlink" href="#nltk" title="Permanent link">¶</a></h4>
+<p>A text processing library that we will use to clean up our text before passing it to the model.</p>
+<h4 id="seabornmatplotlib">Seaborn/Matplotlib<a class="headerlink" href="#seabornmatplotlib" title="Permanent link">¶</a></h4>
+<p>These libraries are used for plotting our training performance.</p>
+<h3 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">¶</a></h3>
+<p>Now for the code.</p>
+<h4 id="imports">Imports<a class="headerlink" href="#imports" title="Permanent link">¶</a></h4>
+<p>We first import all the required packages. We also download the stopwords and punctuation data from nltk.</p>
+<p>"`python
+import nltk<br/>
+nltk.download('stopwords')<br/>
+nltk.download('punkt')
+nltk.download('gutenberg')
+import string
+from nltk.corpus import stopwords
+import seaborn as sns</p>
+<p>from transformers import BertTokenizer, TFBertForMaskedLM
+import tensorflow as tf
+import numpy as np
+import re
+import matplotlib.pyplot as plt
+sns.set()</p>
+<pre><code>
+### Data
+For this demo, we use text from the book "Emma" by "Jane Austen". This dataset is a public domain dataset from Project Gutenberg that comes with nltk. We can download it using the following code. 
+"`python
+import nltk
+nltk.download('gutenberg')
+!cp /root/nltk_data/corpora/gutenberg/austen-emma.txt sample.txt
+</code></pre>
+<p>We can also use custom text by creating a text file called "sample.txt" in the same directory as the code and pasting whatever we want. (Make sure it is English text).</p>
+<p>We then pre-process the data by removing stopwords and punctuation and converting the words into tokens BERT needs. Since every Transformer model has their configuration of tokens in the pre-trained model, we will use the tokenizer that Hugging face provides us. </p>
+<p>(Note: Here, we only take the first 1000 lines from the text. Language models take a long time to train; this is just a demo. If we have GPUs, the entire data can be used.)
+"`Python
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')</p>
+<p>sw = stopwords.words('english') # this is a list of stopwords</p>
+<h2 id="take-first-1000-sentences-for-demo-purposes">Take first 1000 sentences for demo purposes<a class="headerlink" href="#take-first-1000-sentences-for-demo-purposes" title="Permanent link">¶</a></h2>
+<p>with open('sample.txt', 'r') as f:
+    lines = f.readlines()[:1000]</p>
+<h2 id="remove-new-lines-convert-all-to-lowercase-remove-punctuation-and-stop-words-and-tokenize">Remove new lines, convert all to lowercase, remove punctuation and stop words and tokenize<a class="headerlink" href="#remove-new-lines-convert-all-to-lowercase-remove-punctuation-and-stop-words-and-tokenize" title="Permanent link">¶</a></h2>
+<p>lines = [line.rstrip('\n').lower() for line in lines]
+lines = [line.translate(str.maketrans('', '', string.punctuation)) for line in lines]</p>
+<p>def rem_stops_line(line, words):
+    # Function to remove stopwords per line if they are present in the line
+    if len(line) &gt;1:
+        return [w for w in line if w not in words]
+    else:
+        return line</p>
+<p>def remove_stops(text, words = sw):
+    # Remove stop words for an entire text. Separate functions make it easier to parallelize if required.
+    return [rem_stops_line(line, words) for line in text]</p>
+<p>filtered_lines = remove_stops(text = lines, words = sw)
+inputs = tokenizer(lines,max_length=100,truncation=True,padding='max_length',return_tensors='tf')</p>
+<pre><code>
+### Masked Language Model Explained Further
+We use the model from the Transformers library directly. The uncased model converts all text into lowercase. Other models do not, and any of them can be used. This one was chosen for the sake of this demo.
+"`Python
+model = TFBertForMaskedLM.from_pretrained('bert-base-uncased')
+</code></pre>
+<p>In <a href="../../../../Masked Language Modeling">Masked Language Modeling</a>, we explained that every sentence needs to be converted to a format with words masked using a special token, <code>&lt;MASK&gt;</code>. We can do that by using the tokenized words and making the model aware of which token number corresponds to this special token. (In this case, it is 103). In the original paper, token numbers 101 and 102 were replaced, but we ignore that here. (It is not relevant for now.)</p>
+<p>"`Python</p>
+<h2 id="mask">MASK<a class="headerlink" href="#mask" title="Permanent link">¶</a></h2>
+<p>inp_ids = []
+lbs = []
+for idx, inp in enumerate(inputs.input_ids.numpy()):
+    current_tokens = list(set(range(100)) - 
+                         set(np.where((inp == 101) | (inp == 102) 
+                            | (inp == 0))[0].tolist()))
+    # Find number of tokens to mask
+    num_token_masked = 0.15 * len(current_tokens)
+    token_to_mask = np.random.choice(np.array(actual_tokens), 
+                                     size=int(num_token_masked), 
+                                     replace=False)
+    # Store special token and inform model
+    inp[token_to_mask.tolist()] = 103
+    inp_ids.append(inp)</p>
+<h2 id="convert-the-tokens-to-tensor-format">Convert the tokens to tensor format<a class="headerlink" href="#convert-the-tokens-to-tensor-format" title="Permanent link">¶</a></h2>
+<p>inp_ids = tf.convert_to_tensor(inp_ids)
+inputs['input_ids'] = inp_ids</p>
+<pre><code>
+### Training the Model
+Now that we have all the required data and the model, we need to train it on our data.
+If the system does not have a GPU or access to a cloud GPU is unavailable, this model will take a very long time to train. Consider using lesser data.
+
+Considering we have a GPU, we first check if TF can find it.
+"`Python
+print('GPU name: ', tf.config.experimental.list_physical_devices('GPU'))
+</code></pre>
+<p>We use a Sparse Categorical Crossentropy loss with logits enabled. (logits are enabled if the model does not end with a Softmax. BERT does not.). We use a learning rate of 1e-3 for the Adam Optimizer. 
+Finally, we run training for around ten epochs.
+"`Python</p>
+<h2 id="compile-and-train">Compile and Train<a class="headerlink" href="#compile-and-train" title="Permanent link">¶</a></h2>
+<p>lr = 1e-3
+loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=lr),loss=loss)
+history = model.fit([inputs.input_ids,inputs.attention_mask],inputs.labels,verbose=1,batch_size=16,epochs=10)</p>
+<pre><code>
+### Loss
+We plot the loss per epoch to see if our model is learning anything.
+We can see that the loss has decreased, which is a good sign! Our model is learning. More data and longer training will help the model be better than before.
+
+### Prediction
+Just training a model is useless. We need to be able to use it for prediction. To do that, we need to define a few functions. We need to be able to find the `&lt;MASK&gt;` tokens in the sentence, we need to tokenize the sentence and pass it into the model for prediction. And finally, we need to do this for multiple sentences. 
+The following functions do exactly these. 
+
+```python
+def find_masks(inp):
+    # Find position of the masks in a sentence
+    return np.where(inp.input_ids.numpy()[0] == 103)[0].tolist()
+
+def single_prediction(model, inp, mask_loc):
+    # Prediction for all the positions of the masks
+    return model(inp).logits[0].numpy()[mask_loc]
+
+def return_prediction(model, query):
+    # Return a prediction for a single sentence
+    inp = tokenizer(query,return_tensors='tf')
+    mask_loc = find_masks(inp)
+    # Find prediction with the highest confidence
+    predicted_tokens = np.argmax(single_prediction(model, inp, mask_loc),axis=1).tolist()
+    # Decode the numerical value of the returned ID back to the word 
+    return tokenizer.decode(predicted_tokens)
+
+def multiple_preds(model, query_list):
+    # Return predictions for a list of queries
+    preds = [f"{x} -&gt; {return_prediction(model, x).split(' ')}" for x in query_list]
+    for i in preds: print(i)
+</code></pre>
+<h3 id="predictions">Predictions<a class="headerlink" href="#predictions" title="Permanent link">¶</a></h3>
+<p>After training, we can finally give the model a practice exam! Since we fine-tuned it on the book "Emma", we give it the following sentences. <code>["too well [MASK] for her", "nice to [MASK] her", "Emma [MASK] a girl who wanted a [MASK]"]</code></p>
+<p>"`Python
+query_list = ["too well [MASK] for her", "nice to [MASK] her", "Emma [MASK] a girl who wanted a [MASK]"]
+multiple_preds(model, query_list)</p>
+<pre><code>
+As an output we get the following. We see that it performs quite well even with such a short training! 
+
+"`plaintext
+too well [MASK] for her -&gt; ['suited']
+nice to [MASK] her -&gt; ['see']
+Emma [MASK] a girl who wanted a [MASK] -&gt; ['was', 'chance']
+</code></pre>
+<h3 id="further-tips">Further Tips<a class="headerlink" href="#further-tips" title="Permanent link">¶</a></h3>
+<ul>
+<li>Language models are generally very heavy to use. If possible, using Mixed Precision training helps</li>
+<li>Having more GPU memory is more useful than having a faster GPU for language models</li>
+<li>Multiple GPUs are useful for expanding available memory</li>
+<li>There are smaller variants of BERT that use less memory. </li>
+<li>Hugging Face has a huge list of models that we can use. Trying them might lead to better results.</li>
+<li>To get over the overwhelming number of pre-trained models, pick the task and find benchmarks in that task. <a href="https://paperswithcode.com/methods">PaperswithCode</a> is a great place to start.</li>
+</ul>
+<p>:::
+:::section{.summary}</p>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<p>This article showed us masked language modelling explained. We learnt the following:
+- What MLM is and when to use it. 
+- How to pre-process our data for MLM
+- How to fine-tune pre-trained BERT models for MLM
+- How to perform predictions over multiple sentences with our fine-tuned models.</p>
+<p>:::</p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../Reconstructing%20the%20MNIST%20images%20using%20an%20autoencoder/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../Reconstructing%20the%20MNIST%20images%20using%20an%20autoencoder/">
+        Reconstructing the MNIST images using an autoencoder
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Intro%20to%20Conditional%20GANS/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Intro%20to%20Conditional%20GANS/">
+        Intro to Conditional GANS
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

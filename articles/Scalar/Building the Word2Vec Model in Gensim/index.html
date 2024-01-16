@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>Building the Word2Vec Model in Gensim - Subhaditya's AIKB</title>
+<link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet"/>
+<link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet"/>
+<link href="../../../css/base.css" rel="stylesheet"/>
+<link href="../../../css/highlight.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../js/jquery-3.2.1.min.js"></script>
+<script src="../../../js/bootstrap-3.3.7.min.js"></script>
+<script src="../../../js/highlight.pack.js"></script>
+<base target="_top"/>
+<script>
+      var base_url = '../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "# Building the Word2Vec Model in Gensim", url: "#_top", children: [
+              {title: "Overview", url: "#overview" },
+              {title: "Scope", url: "#scope" },
+              {title: "What Are We Building?", url: "#what-are-we-building" },
+              {title: "Requirements", url: "#requirements" },
+              {title: "Building Word2Vec Model with Gensim", url: "#building-word2vec-model-with-gensim" },
+              {title: "Conclusion", url: "#conclusion" },
+          ]},
+        ];
+
+    </script>
+<script src="../../../js/base.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</meta></head>
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+<div class="container-fluid wm-page-content">
+<a name="_top"></a>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../CycleGAN%20%23scalar/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../CycleGAN%20%23scalar/">
+        CycleGAN #scalar
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Building%20a%20GAN%20from%20scratch/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Building%20a%20GAN%20from%20scratch/">
+        Building a GAN from scratch
+      </a>
+</div>
+</div>
+<h2 id="building-the-word2vec-model-in-gensim"># Building the Word2Vec Model in Gensim<a class="headerlink" href="#building-the-word2vec-model-in-gensim" title="Permanent link">¶</a></h2>
+<p>:::section{.abstract}</p>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h3>
+<p>Word2Vec is a family of models that can take large corpora and represent them in vector space. These representations, also known as word embeddings, are extremely useful as they help us perform many tasks in NLP. From recommender systems to analysing sentiments from internet feeds to large-scale chatbots, word embeddings have brought life to the field of NLP for decades. Word2Vec, one of the older models, is relatively simple to implement. After implementing it we will use word embedding <a href="../../../../visualization">visualization</a> to further understand how the model works.
+:::
+:::section{.scope}</p>
+<h3 id="scope">Scope<a class="headerlink" href="#scope" title="Permanent link">¶</a></h3>
+<p>This article covers the following topics:
+- What are Word2Vec and Gensim.
+- How to train a Word2Vec model using a text corpora.
+- Parameters that can be tweaked in a Word2Vec model.
+- How to load and pre-process text for Word2Vec.
+- How to perform word embedding visualization in TensorBoard. 
+:::
+:::section{.main}</p>
+<h3 id="what-are-we-building">What Are We Building?<a class="headerlink" href="#what-are-we-building" title="Permanent link">¶</a></h3>
+<p>In this article, we are modeling text data by converting a large corpora of text into a Vector model using Word2Vec. We will be using the Python library gensim to do so. We also will build the pipeline needed for word embedding visualization using the Tensorflow Embedding Projector as well as save the trained model for inference.</p>
+<h4 id="problem-statement">Problem Statement<a class="headerlink" href="#problem-statement" title="Permanent link">¶</a></h4>
+<p>Our problem statement for this article is to create a pipeline using gensim that uses Word2Vec to process a text corpora, visualize the embeddings, and save the trained model to disk.</p>
+<h4 id="pre-requisites">Pre-Requisites<a class="headerlink" href="#pre-requisites" title="Permanent link">¶</a></h4>
+<p>Before moving to the actual implementation, there are some pre-requisite topics that we need to know. A summary of them is as follows.</p>
+<h5 id="embeddings-and-word-embedding-visualization">Embeddings and Word Embedding Visualization<a class="headerlink" href="#embeddings-and-word-embedding-visualization" title="Permanent link">¶</a></h5>
+<p>The output of a Word2Vec model is a word embedding. There are many other models which give similar embeddings, some better than Word2Vec as well. These are synonymous with word vectors for our use case. </p>
+<h5 id="stopwords">Stopwords<a class="headerlink" href="#stopwords" title="Permanent link">¶</a></h5>
+<p>Common words like "the", "to", etc., do not add much to the model but can negatively influence the embedding.</p>
+<h5 id="cbow">CBOW<a class="headerlink" href="#cbow" title="Permanent link">¶</a></h5>
+<p>A continuous bag of words uses a single hidden layer NN to predict a source word based on its neighbouring words. It uses a sliding window over the sentence to generate these pairs. Consider these examples as (X, Y) pairs to be passed into a model. 
+An example: Given the sentence "I love gensim a lot" and a sliding window of 2, we get ([I, gensim], love), ([love, a], gensim) etc</p>
+<h5 id="skip-gram">Skip-gram<a class="headerlink" href="#skip-gram" title="Permanent link">¶</a></h5>
+<p>Skip Grams are a mirror of CBOW. It also uses a similar single hidden layer NN with a sliding window but uses the context words to predict the source word. 
+An example: Given the sentence "I love gensim a lot" and a sliding window of 2, we get (love, [I, gensim]), (gensim, [love, a]) etc</p>
+<h4 id="how-are-we-going-to-build-this">How Are We Going To Build This?<a class="headerlink" href="#how-are-we-going-to-build-this" title="Permanent link">¶</a></h4>
+<p>We are going to load a custom data file as an input to the model and preprocess it to make it fit for the model. After that, we will load the gensim implementation of Word2Vec and train it on the data we loaded. Once the model is done training, we will export the model to disk and load it the trained model using Tensorflow Embedding Projector for word embedding visualization. In the process, we also will save and load the model for further inference. </p>
+<h4 id="final-output">Final Output<a class="headerlink" href="#final-output" title="Permanent link">¶</a></h4>
+<p>The final output that we will get from the model is the text corpora that we load converted to vector space. This vector space can then be used to find similar words from the text and be passed to other neural network models if required. An example word embedding might look something like this.</p>
+<h3 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">¶</a></h3>
+<p>To create a Word2Vec model, we need to first understand what it is. We will also be looking at the library Gensim where we obtain the Word2Vec model from.</p>
+<h4 id="what-is-word2vec">What Is Word2Vec?<a class="headerlink" href="#what-is-word2vec" title="Permanent link">¶</a></h4>
+<p>Word vectors are a numerical representation of text content. Word2Vec is a model that converts large text corpora to a vector representation as  doing so provides the corpora with the following properties :
+- Since they are converted to numerical vectors, they can be fed into any numerical model, such as a neural network. 
+- The converted vectors can be compared by using distance metrics such as the <a href="../../../../Cosine Distance">cosine distance</a> function <span class="arithmatex">\(cos(\theta) = \frac{A\cdot B}{||A||\cdot||B||}\)</span> ( where A and B are vectors). These metrics make it easy to find related words like the one we want to achieve.</p>
+<h4 id="what-is-gensim">What is Gensim?<a class="headerlink" href="#what-is-gensim" title="Permanent link">¶</a></h4>
+<p>Gensim is a text processing library that lets us train models like Word2Vec very quickly. The library has many more features, such as finding related documents using trained word embeddings and other methods of vectorization that are beyond the scope of this article.</p>
+<h3 id="building-word2vec-model-with-gensim">Building Word2Vec Model with Gensim<a class="headerlink" href="#building-word2vec-model-with-gensim" title="Permanent link">¶</a></h3>
+<p>Now that we have understood the problem statement, we can start building the model using gensim. We first load all the required packages and data. </p>
+<h4 id="loading-packages-and-data">Loading Packages and Data<a class="headerlink" href="#loading-packages-and-data" title="Permanent link">¶</a></h4>
+<p>Before we build the Word2Vec Model, we need to load a few packages along with the data. These packages can be installed using pip. (Eg : <code>pip install gensim</code>) if they are not already present on the system that is being used.
+We also download the stopwords and punctuation data from nltk.</p>
+<pre><code class="language-python">import nltk  
+nltk.download('stopwords')  
+nltk.download('punkt')
+nltk.download('gutenberg')
+import string
+from nltk.corpus import stopwords
+from nltk import word_tokenize
+from gensim.models import Word2Vec as w2v
+</code></pre>
+<p>After this, we load the data.
+For this demo, we will be using text from the book "Emma" by "Jane Austen". This dataset is a public domain dataset from Project Gutenberg that comes with nltk. We can get it using the following code. </p>
+<pre><code class="language-python">import nltk
+nltk.download('gutenberg')
+!cp /root/nltk_data/corpora/gutenberg/austen-emma.txt sample.txt
+</code></pre>
+<p>We can also use custom text by creating a text file called "sample.txt" in the same directory as the code and pasting whatever we want. (Make sure it is English text).</p>
+<h4 id="data-preprocessing">Data Preprocessing<a class="headerlink" href="#data-preprocessing" title="Permanent link">¶</a></h4>
+<p>After loading the data, we need to pre-process it to be able to pass it to the model by removing stopwords and punctuation and converting the words into lowercase tokens. We should get something like this <code>['emma', 'jane', 'Austen', '1816']</code></p>
+<pre><code class="language-python">sw = stopwords.words('English') # this is a list of stopwords
+# Function to remove stopwords per line if they are present in the line
+def rem_stops_line(line, words):
+    if len(line) &gt;1:
+        return [w for w in line if w not in words]
+    else:
+        return line
+
+# Remove stop words for an entire text. Separate functions make it easier to parallelise if required.
+def remove_stops(text, words = SW):
+    return [rem_stops_line(line, words) for line in text]
+
+# Open the file and convert it to a list of lines
+with open('sample.txt', 'r') as f:
+    lines = f.readlines()
+
+# Remove new lines, convert all to lowercase, remove punctuation and stop words and tokenise
+lines = [line.rstrip('\n').lower() for line in lines]
+lines = [line.translate(str.maketrans('', '', string.punctuation)) for line in lines]
+lines = [word_tokenize(line) for line in lines]
+filtered_lines = remove_stops(text = lines, words = SW)
+
+print(filtered_lines[:10])
+</code></pre>
+<h4 id="gensim-word2vec-model-training">Gensim Word2Vec Model Training<a class="headerlink" href="#gensim-word2vec-model-training" title="Permanent link">¶</a></h4>
+<p>Once both the data and the model have been loaded, we can train it on the data using the following code.</p>
+<pre><code class="language-python">w = w2v(
+    filtered_lines,
+    min_count=3,  
+    sg = 1,       # 1 for skip-gram, 0 for cbow
+    window=7   # sliding window size
+)      
+</code></pre>
+<h4 id="parameters-of-the-word2vec-model">Parameters of the Word2Vec Model<a class="headerlink" href="#parameters-of-the-word2vec-model" title="Permanent link">¶</a></h4>
+<p>The Word2Vec model implemented in gensim has a few parameters that we can tune based on the task. They are explained as follows:
+- <strong>sentences</strong> : This is the preprocessed input text.
+- <strong>size</strong> : This is the maximum dimension size of the output vector.
+- <strong>window</strong> : This is the sliding window size.
+- <strong>min_count</strong> : The minimum word frequency below which words would not be passed to the model.
+- <strong>workers</strong> : This is the number of parallel threads for processing.
+- <strong>sg</strong> : 1 for the Skip Gram model, 0 for the CBOW model.
+    - CBOW is prone to overfitting words that frequently appear in the same contexts, so try SkipGrams as well.
+    - Skip grams need more data and are more resource intensive but perform better. Choose it based on the task at hand.
+- <strong>iter</strong> : This is the number of iterations the model will update it's gradients for.
+Tweaking these parameters also help improving the accuracy of the word embedding visualization.</p>
+<h4 id="compute-similarities">Compute Similarities<a class="headerlink" href="#compute-similarities" title="Permanent link">¶</a></h4>
+<p>The Word2Vec model can also be used to find similar words in a text. 
+We can find words similar to a random word we pick from the text to see our model works.
+Since we used data from Emma, let us try searching for the word "book".</p>
+<pre><code class="language-python">print(w.wv.most_similar('book'))
+</code></pre>
+<p>We get the following words and how related the model thinks they are to the word "book".</p>
+<pre><code class="language-plaintext">[('peace', 0.9995625615119934), ('exercise', 0.999549388885498), ('burst', 0.9995266199111938), ('purpose', 0.9995185732841492), ('meet', 0.9995156526565552), ('mei', 0.9995115995407104), ('move', 0.9995064735412598), ('week', 0.9995056986808777), ('views', 0.9995036125183105), ('persons', 0.9995019435882568)]
+</code></pre>
+<h4 id="t-sne-visualizations">T-SNE Visualizations<a class="headerlink" href="#t-sne-visualizations" title="Permanent link">¶</a></h4>
+<p>To see what the embedding space looks like, we can give these embeddings to Tensorboard.
+To do so, make sure the model is saved. Here we have saved it as "wvecemma". Now we use a script that comes inbuilt with gensim to convert our Word2Vec model to the Tensorboard format.</p>
+<pre><code class="language-sh">python -m gensim.scripts.word2vec2tensor -i "wvecemma" -o "model"
+</code></pre>
+<p>We get two files, "model_tensor.tsv" and "model_metadata.tsv".</p>
+<p>To convert the model to a Keras Embedding, use the code (for model w), <code>w.wv.get_keras_embedding()</code></p>
+<p>Now we can either open Tensorboard (if you have it installed) and navigate to this folder and open the generated files, or go to this website <a href="http://projector.tensorflow.org/">Tensorflow Projector</a>.
+On the website, click the Load button. For Step 1, choose the "model_tensor.tsv" file, and for Step 2, choose the other one. </p>
+<p>We can then see the embeddings directly.</p>
+<p>[IMAGE {1} {Embedding Projector} START SAMPLE]
+<img alt="Embedding Projector" src="https://hackmd.io/_uploads/SJXZRrJuo.png"/>
+[IMAGE {1} FINISH SAMPLE]</p>
+<h4 id="saving-and-loading-the-model">Saving and Loading the Model<a class="headerlink" href="#saving-and-loading-the-model" title="Permanent link">¶</a></h4>
+<p>To prevent having to train again, we save the model to disk using the following code. </p>
+<pre><code class="language-python">w.wv.save_word2vec_format("wvecemma") # save to disk 
+</code></pre>
+<p>This model can then be loaded for inference during production using the following code.</p>
+<pre><code class="language-python">model = gensim.models.KeyedVectors.load_word2vec_format("wvecemma.bin.gz", binary=True) # load from disk
+</code></pre>
+<p>:::
+:::section{.summary}</p>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h3>
+<ul>
+<li>This article taught us how to implement the Word2Vec model in gensim. </li>
+<li>We learnt how to perform word embedding visualization using the TensorBoard Embedding Projector.</li>
+<li>We also learnt how to use our own data to train a Word2Vec model.</li>
+</ul>
+<p>:::</p>
+<br/>
+<div aria-label="navigation" class="row wm-article-nav-buttons" role="navigation">
+<div class="wm-article-nav pull-right">
+<a class="btn btn-xs btn-default pull-right" href="../CycleGAN%20%23scalar/">
+        Next
+        <i aria-hidden="true" class="fa fa-chevron-right"></i>
+</a>
+<a class="btn btn-xs btn-link" href="../CycleGAN%20%23scalar/">
+        CycleGAN #scalar
+      </a>
+</div>
+<div class="wm-article-nav">
+<a class="btn btn-xs btn-default pull-left" href="../Building%20a%20GAN%20from%20scratch/">
+<i aria-hidden="true" class="fa fa-chevron-left"></i>
+        Previous</a><a class="btn btn-xs btn-link" href="../Building%20a%20GAN%20from%20scratch/">
+        Building a GAN from scratch
+      </a>
+</div>
+</div>
+<br/>
+</div>
+<footer class="container-fluid wm-page-content">
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+</body>
+</html>

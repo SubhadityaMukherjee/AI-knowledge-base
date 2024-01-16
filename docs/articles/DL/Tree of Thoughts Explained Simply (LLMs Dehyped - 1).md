@@ -16,7 +16,7 @@ It was first mentioned in a paper by Yao et al. [1] and was further expanded on 
 
 But you might ask, why do we care? I just want my assignment done for me. 
 
-## Why bother adding it to an LLM?
+## Why Bother Adding it to an LLM?
 To better understand why we care about algorithms like this, we need to dig into some of the shortcomings behind LLMs.
 - **Fixed Knowledge** : A LLM is trained on a large text database encompassing a huge chunk of the web. But the web is not a fixed resource, neither is the information in it. Unless the model is trained with new data or an external data source is given to it, it’s “knowledge” is essentially fixed.
 - **Cost of training** : Training a LLM like ChatGPT is extremely costly, and it is just not possible to keep updating the model everytime something new pops up on the internet. 
@@ -71,6 +71,7 @@ Spoiler : Can you see why this would not always be a good idea?
 How do we do it? Quite simple really, we first define a format such as “the answer is {n} because {x1} and {x2} lead to {n}”. We then prompt multiple times using a prompt like “solve it in multiple ways while pretending to be three different experts” and save the results. We also add a prompt like “only use the information give”, and voila! We have a graph.
 
 Well, mostly. The answers you get might or might not be useful.
+
 ### Ensemble
 Now that you have the answers, provided your prompt has the logic you want, you can decide how to traverse the graph and find the best answer. You can also then repeat this multiple times and vote on the best result from multiple graphs.
 
@@ -104,7 +105,7 @@ Sometimes, it’s awesome. But in other times, it is a massive waste of money. N
 
 AI has it’s uses. But not everywhere. By no means is this a critique against research or enjoying the magic of AI. Please, continue to do that! But consider your options too. At the end of the day, this is just yet another tool.
 
-## Some more resources for you :)
+## Some More Resources for You :)
 - [1] Tree of Thoughts : https://arxiv.org/abs/2305.10601
 - [2] Graph of Thoughts : https://arxiv.org/abs/2308.09687
 - [3] Voting Algorithms : https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier

@@ -15,6 +15,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Major topics (These index pages are auto generated and might have errors sometimes)
 	- Quotes collected from a lot of places over the years [quotes](gen_quotes)
 	- Technical
+		- [Complete AI Pipeline](Complete%20AI%20Pipeline.md)
 		- [AI Ethics](ethics.md)
 		- [XAI](explainability.md)
 		- [Deep Learning architectures](architecture.md)
@@ -40,4 +41,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Email](mailto:msubhaditya@gmail.com)
   
   #anchor
-

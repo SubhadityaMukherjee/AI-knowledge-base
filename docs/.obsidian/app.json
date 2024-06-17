@@ -17,5 +17,6 @@
   },
   "livePreview": true,
   "showInlineTitle": false,
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "propertiesInDocument": "source"
 }

@@ -32,7 +32,6 @@ tags: anchor
 - [Virtue ethics.md](Virtue%20ethics.md)
 - [blind ethical judgement.md](blind%20ethical%20judgement.md)
 - [fully informed ethical judgement.md](fully%20informed%20ethical%20judgement.md)
-- [journals/2023-01-18.md](journals/2023-01-18.md)
 - [partially informed ethical judgement.md](partially%20informed%20ethical%20judgement.md)
 - [sacred values.md](sacred%20values.md)
 - [swap-dominance.md](swap-dominance.md)

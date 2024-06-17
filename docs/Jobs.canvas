@@ -1,6 +1,9 @@
 {
 	"nodes":[
-		{"id":"456be198929b40ca","x":-160,"y":-180,"width":400,"height":400,"type":"file","file":"Schipol Data Scientist.md"}
+		{"id":"67719982fa81c645","x":-20,"y":-254,"width":400,"height":400,"type":"file","file":"Regex cheatsheet.md"},
+		{"id":"86ec95798c804d97","x":-85,"y":-10,"width":250,"height":60,"type":"text","text":""},
+		{"id":"456be198929b40ca","type":"file","file":"Schipol Data Scientist.md","x":-620,"y":-180,"width":400,"height":400},
+		{"id":"0a916fc8bc627137","x":205,"y":-106,"width":400,"height":400,"type":"file","file":"Complete AI Pipeline.md"}
 	],
 	"edges":[]
 }

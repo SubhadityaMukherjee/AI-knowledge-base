@@ -29,4 +29,3 @@ tags: anchor
 - [Threaded Cognition.md](Threaded%20Cognition.md)
 - [Traces of times past Representations of temporal intervals in memory.md](Traces%20of%20times%20past%20Representations%20of%20temporal%20intervals%20in%20memory.md)
 - [You can play 20 questions with nature and win.md](You%20can%20play%2020%20questions%20with%20nature%20and%20win.md)
-- [journals/2023-01-27.md](journals/2023-01-27.md)

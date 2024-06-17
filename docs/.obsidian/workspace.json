@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "468802015ce40e90",
+        "id": "3f3bacd216ae2712",
         "type": "tabs",
         "children": [
           {
-            "id": "e4871c2044b6b425",
+            "id": "7ae1b5e2d6bb9c61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regex cheatsheet.md",
+                "file": "Lost in the Middle How Language Models Use Long Contexts.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#architecture",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regex cheatsheet.md",
+                "file": "Lost in the Middle How Language Models Use Long Contexts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -76,12 +76,24 @@
             }
           },
           {
+            "id": "5679e9adaec4ed92",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lost in the Middle How Language Models Use Long Contexts.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
             "id": "1c1b30f48954336c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regex cheatsheet.md"
+                "file": "Lost in the Middle How Language Models Use Long Contexts.md"
               }
             }
           },
@@ -93,13 +105,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 336.5
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -109,26 +119,6 @@
         "id": "2e1cc113abc921f7",
         "type": "tabs",
         "children": [
-          {
-            "id": "5679e9adaec4ed92",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Regex cheatsheet.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "e46858dff882c389",
-            "type": "leaf",
-            "state": {
-              "type": "map-of-content",
-              "state": {}
-            }
-          },
           {
             "id": "8c040fdf0106f3d7",
             "type": "leaf",
@@ -159,9 +149,30 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "c878d3c959dc9807",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 4
+        ]
+      },
+      {
+        "id": "fd036f052e9e021e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b75b4a218f1a6cee",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -174,65 +185,69 @@
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "command-palette:Open command palette": true,
       "daily-notes:Open today's daily note": false,
       "random-note:Open random note": false,
       "obsidian-file-cleaner:Clean files": true,
-      "templater-obsidian:Templater": true,
-      "mermaid-tools:Open Mermaid Toolbar": true,
+      "templater-obsidian:Templater": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "e4871c2044b6b425",
+  "active": "d97ebdaeb83a6ee6",
   "lastOpenFiles": [
-    "images/Pasted image 20240116125746.png",
-    "images/Pasted image 20240116125538.png",
-    "images/Pasted image 20240116124756.png",
-    "images/Pasted image 20240116124106.png",
-    "images/Pasted image 20240116124104.png",
-    "images/Pasted image 20240116123647.png",
-    "images/Pasted image 20240116123525.png",
-    "images/Pasted image 20240116123159.png",
-    "images/Pasted image 20240116120432.png",
-    "images/Pasted image 20240116120233.png",
-    "images/Pasted image 20240116120215.png",
-    "Regex cheatsheet.md",
-    "journals/2024_01_16.md",
-    "journals/2024_01_15.md",
-    "articles/DL/Artists vs AI.md",
-    "journals/2024_01_08.md",
-    "Confusion Matrix.md",
-    "Untitled.canvas",
-    "articles/DL/Tree of Thoughts Explained Simply (LLMs Dehyped - 1).md",
-    "articles/Drafts/Writing your own Markdown to LaTEX parser.md",
-    "articles/Drafts/What I learnt from an AI Masters Part 2.md",
-    "journals/2024_01_03.md",
-    "Odido.md",
-    "articles/Scalar/Siamese Network.md",
-    "articles/Scalar/Reconstructing the MNIST images using an autoencoder.md",
-    "Rabobank.md",
-    "journals/2023_11_30.md",
-    "journals/2023_12_02.md",
-    "journals/2023_12_06.md",
-    "Application for PhD - AI for Parkinsons (Subhaditya Mukherjee).md",
-    "NLAIC Companies.md",
-    "Eraneous.md",
-    "Kickstart AI.md",
-    "Latitude Junior ML Engineer.md",
-    "Interview Tips.md",
-    "How to take your visual storytelling to the next level.md",
-    "Git Commands.md",
-    "articles/DL/AI and Doom.md.sb-621e47ca-kgJbyt",
-    "articles/Drafts/Sigh, Gone - My Thoughts on the Book.md.sb-5b2e406b-BZiyEO",
-    "articles/Others/What I learnt from an AI Masters.md.sb-5b2e406b-jW7TJf",
-    "articles/Others/What I learnt from an AI Masters.md.sb-8cbcbfd9-hcZQZL",
+    "Bruckhaus - 2024 - RAG Does Not Work for Enterprises.md",
+    "Lost in the Middle How Language Models Use Long Contexts.md",
+    "images/43dcfe3e987eba02b8cc38912ea0322278d32abe.png",
+    "images/e6b8ab994d50ce71a2c4319daab52c2ef17b0396.png",
+    "images/1e1d65e2089d25cdb0421ba84b96960ca06506b8.png",
+    "images/42e26675303c2bf8a5b1e68f5c4e4484cb0e634c.png",
+    "images/9b573b7407b4bf70b4009787d7c9786d8e8ab392.png",
+    "Dense Vector Indexes.md",
+    "IVFADC.md",
+    "Sparse Encoder Indexes.md",
+    "HNSW.md",
+    "PQ.md",
+    "templates/titler.md",
+    "Tug of war between RAG and LLM prior.md",
+    "journals/2024_05_29.md",
+    "images/6f5d466785a602433dc0d64a068157882b102ef9.png",
+    "RAGAS - automated evaluation of RAG.md",
+    "Salemi and Zamani - 2024 - Evaluating Retrieval Quality in Retrieval-Augmente.md",
+    "images/07bae6cf89f17bb75cb21014472299549d62e2e4.png",
+    "images/3762eb5a12b51651a8e1b7eb38b484f43a391fd7.png",
+    "templates/post.md",
+    "AutoML Benchmark.md",
+    "HyTAS.md",
+    "images/a23ed1abd5264208e45c181d84b39015d186600a.png",
+    "images/068099b4bf7ca1a777ac9fa6b4934a64e817dc83.png",
+    "LLM Guide.md",
+    "test.md",
+    "Users/eragon/Documents/CODE/Github/AI-knowledge-base/docs/images/af0996e40275bad16e2bbd0e9d0ad8e9eb6c4c4b.png.md",
+    "Users/eragon/Documents/CODE/Github/AI-knowledge-base/docs/images",
+    "Users/eragon/Documents/CODE/Github/AI-knowledge-base/docs",
+    "Users/eragon/Documents/CODE/Github/AI-knowledge-base",
+    "Users/eragon/Documents/CODE/Github",
+    "Users/eragon/Documents/CODE",
+    "Users/eragon/Documents",
+    "Users/eragon",
+    "Users",
+    "Puzzle Mix.md",
+    "example.md",
+    "Akhtar et al. - 2024 - Croissant A Metadata Format for ML-Ready Datasets 1.html",
+    "Akhtar et al. - 2024 - Croissant A Metadata Format for ML-Ready Datasets.html",
+    "Akhtar et al. - 2024 - Croissant A Metadata Format for ML-Ready Datasets.md",
+    "Croissant A Metadata Format for ML-Ready Datasets.md",
+    "trash/Get started with Bear.md",
+    "trash/Organize, search, and customize in Bear.md",
+    "trash/Welcome to Bear 👋.md",
+    "trash/Work faster and easier with Bear.md",
     "Jobs.canvas",
-    "pdfs/Shumailov et al. - 2023 - The Curse of Recursion Training on Generated Data.pdf",
-    "pdfs",
-    "articles/Others/Typst Cheat Sheet.md.sb-903fd5cd-cqPOlx",
-    "quotes.html",
-    "templates/random_quotes.html",
-    "templates/quotes_index.html",
+    "Untitled.canvas",
     "Thesis Stuff.canvas"
   ]
 }

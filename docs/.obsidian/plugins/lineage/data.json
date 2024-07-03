@@ -1,0 +1,113 @@
+{
+  "documents": {
+    "probabl hackathon.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.2.1"
+    },
+    "bitter_lesson.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1"
+    },
+    "articles/DL/Tree of Thoughts Explained Simply (LLMs Dehyped - 1).md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "4"
+    }
+  },
+  "hotkeys": {
+    "customHotkeys": {
+      "add_above": {
+        "primary": {
+          "key": "ArrowUp",
+          "modifiers": [
+            "Ctrl",
+            "Mod"
+          ]
+        }
+      },
+      "add_below": {
+        "primary": {
+          "key": "ArrowDown",
+          "modifiers": [
+            "Ctrl",
+            "Mod"
+          ]
+        }
+      },
+      "add_child": {
+        "primary": {
+          "key": "ArrowRight",
+          "modifiers": [
+            "Ctrl",
+            "Mod"
+          ]
+        }
+      },
+      "add_above_and_split": {
+        "primary": {
+          "key": "K",
+          "modifiers": [
+            "Ctrl",
+            "Mod"
+          ]
+        }
+      },
+      "add_child_and_split": {
+        "primary": {
+          "key": "L",
+          "modifiers": [
+            "Ctrl",
+            "Mod"
+          ]
+        }
+      },
+      "add_below_and_split": {
+        "primary": {
+          "key": "J",
+          "modifiers": [
+            "Ctrl",
+            "Mod"
+          ]
+        }
+      },
+      "merge_with_node_above": {
+        "secondary": {
+          "key": "ArrowUp",
+          "modifiers": [
+            "Ctrl",
+            "Mod",
+            "Shift"
+          ]
+        }
+      },
+      "merge_with_node_below": {
+        "secondary": {
+          "key": "ArrowDown",
+          "modifiers": [
+            "Ctrl",
+            "Mod",
+            "Shift"
+          ]
+        }
+      }
+    }
+  },
+  "view": {
+    "fontSize": 16,
+    "theme": {},
+    "cardWidth": 550,
+    "scrolling": {
+      "horizontalOffset": 0,
+      "verticalOffset": 0,
+      "horizontalScrollingMode": "reveal-active-card"
+    },
+    "limitPreviewHeight": true,
+    "zoomLevel": 1
+  },
+  "general": {
+    "defaultDocumentFormat": "sections"
+  },
+  "backup": {}
+}

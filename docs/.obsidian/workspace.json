@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3f3bacd216ae2712",
+        "id": "899a73460c16ed22",
         "type": "tabs",
         "children": [
           {
-            "id": "7ae1b5e2d6bb9c61",
+            "id": "36c91b926a230015",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lost in the Middle How Language Models Use Long Contexts.md",
+                "file": "OpenML <> scikit-learn hackathon.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lost in the Middle How Language Models Use Long Contexts.md",
+                "file": "OpenML <> scikit-learn hackathon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lost in the Middle How Language Models Use Long Contexts.md",
+                "file": "OpenML <> scikit-learn hackathon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lost in the Middle How Language Models Use Long Contexts.md"
+                "file": "OpenML <> scikit-learn hackathon.md"
               }
             }
           },
@@ -195,57 +195,59 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
+      "lineage:Toggle Lineage view": false,
+      "obsidian-importer:Open Importer": false,
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "d97ebdaeb83a6ee6",
+  "active": "36c91b926a230015",
   "lastOpenFiles": [
-    "Bruckhaus - 2024 - RAG Does Not Work for Enterprises.md",
     "Lost in the Middle How Language Models Use Long Contexts.md",
-    "images/43dcfe3e987eba02b8cc38912ea0322278d32abe.png",
-    "images/e6b8ab994d50ce71a2c4319daab52c2ef17b0396.png",
-    "images/1e1d65e2089d25cdb0421ba84b96960ca06506b8.png",
-    "images/42e26675303c2bf8a5b1e68f5c4e4484cb0e634c.png",
-    "images/9b573b7407b4bf70b4009787d7c9786d8e8ab392.png",
-    "Dense Vector Indexes.md",
-    "IVFADC.md",
-    "Sparse Encoder Indexes.md",
+    "probabl hackathon.md",
+    "bitter_lesson.md",
+    "OpenML <> scikit-learn hackathon.md",
+    "journals/2024_06_28.md",
+    "Attachments/image3.jpg",
+    "Attachments/image5.jpg",
+    "Attachments/image10.jpg",
+    "Attachments/image2.jpg",
+    "Attachments/image1.jpg",
+    "Attachments/image4.jpg",
+    "Attachments/image6.jpg",
+    "Attachments/image9.jpg",
+    "Attachments/image8.jpg",
+    "Attachments/image12.jpg",
+    "Attachments",
+    "croissant.md",
+    "HyTAS.md",
+    "The Programmers Brain.md",
+    "Obsidian tutorial.md",
+    "Bruckhaus - 2024 - RAG Does Not Work for Enterprises.md",
     "HNSW.md",
-    "PQ.md",
-    "templates/titler.md",
+    "Dense Vector Indexes.md",
+    "pdf_files/3544548.3581388.pdf",
+    "Sparse Encoder Indexes.md",
+    "IVFADC.md",
+    "journals/2024_06_24.md",
+    "articles/DL/Tree of Thoughts Explained Simply (LLMs Dehyped - 1).md",
     "Tug of war between RAG and LLM prior.md",
+    "PQ.md",
+    "LLM Guide.md",
+    "AutoML Benchmark.md",
+    "Untitled.md",
+    "images/OpenMLscikitlearnhackathon 1.html",
+    "images/OpenMLscikitlearnhackathon.html",
+    "OpenMLscikitlearnhackathon.html",
+    "Double Descent.md",
+    "templates/titler.md",
     "journals/2024_05_29.md",
-    "images/6f5d466785a602433dc0d64a068157882b102ef9.png",
     "RAGAS - automated evaluation of RAG.md",
     "Salemi and Zamani - 2024 - Evaluating Retrieval Quality in Retrieval-Augmente.md",
-    "images/07bae6cf89f17bb75cb21014472299549d62e2e4.png",
-    "images/3762eb5a12b51651a8e1b7eb38b484f43a391fd7.png",
-    "templates/post.md",
-    "AutoML Benchmark.md",
-    "HyTAS.md",
-    "images/a23ed1abd5264208e45c181d84b39015d186600a.png",
-    "images/068099b4bf7ca1a777ac9fa6b4934a64e817dc83.png",
-    "LLM Guide.md",
-    "test.md",
-    "Users/eragon/Documents/CODE/Github/AI-knowledge-base/docs/images/af0996e40275bad16e2bbd0e9d0ad8e9eb6c4c4b.png.md",
     "Users/eragon/Documents/CODE/Github/AI-knowledge-base/docs/images",
     "Users/eragon/Documents/CODE/Github/AI-knowledge-base/docs",
     "Users/eragon/Documents/CODE/Github/AI-knowledge-base",
     "Users/eragon/Documents/CODE/Github",
     "Users/eragon/Documents/CODE",
-    "Users/eragon/Documents",
-    "Users/eragon",
-    "Users",
-    "Puzzle Mix.md",
-    "example.md",
-    "Akhtar et al. - 2024 - Croissant A Metadata Format for ML-Ready Datasets 1.html",
-    "Akhtar et al. - 2024 - Croissant A Metadata Format for ML-Ready Datasets.html",
-    "Akhtar et al. - 2024 - Croissant A Metadata Format for ML-Ready Datasets.md",
-    "Croissant A Metadata Format for ML-Ready Datasets.md",
-    "trash/Get started with Bear.md",
-    "trash/Organize, search, and customize in Bear.md",
-    "trash/Welcome to Bear 👋.md",
-    "trash/Work faster and easier with Bear.md",
     "Jobs.canvas",
     "Untitled.canvas",
     "Thesis Stuff.canvas"

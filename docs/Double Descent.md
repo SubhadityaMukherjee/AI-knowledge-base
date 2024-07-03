@@ -12,6 +12,4 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - occurs often in the over-parameterization regime
     - models which have a lot of parameters
     - models that have huge complexity
-
-
-
+- ![](images/Pasted%20image%2020240620151512.png)

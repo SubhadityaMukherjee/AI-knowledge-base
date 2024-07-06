@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "899a73460c16ed22",
+        "id": "2273a785d9e3aef3",
         "type": "tabs",
         "children": [
           {
-            "id": "36c91b926a230015",
+            "id": "bfba68c38ebe8237",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenML <> scikit-learn hackathon.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -39,7 +34,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#architecture",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +59,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenML <> scikit-learn hackathon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,7 +75,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenML <> scikit-learn hackathon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -92,9 +85,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OpenML <> scikit-learn hackathon.md"
-              }
+              "state": {}
             }
           },
           {
@@ -109,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 336.5,
+    "collapsed": true
   },
   "right": {
     "id": "fc47643abaf1617d",
@@ -185,12 +177,12 @@
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "command-palette:Open command palette": true,
       "daily-notes:Open today's daily note": false,
       "random-note:Open random note": false,
-      "obsidian-file-cleaner:Clean files": true,
+      "obsidian-file-cleaner:Clean files": false,
       "templater-obsidian:Templater": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
@@ -200,54 +192,53 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "36c91b926a230015",
+  "active": "bfba68c38ebe8237",
   "lastOpenFiles": [
-    "Lost in the Middle How Language Models Use Long Contexts.md",
-    "probabl hackathon.md",
-    "bitter_lesson.md",
-    "OpenML <> scikit-learn hackathon.md",
-    "journals/2024_06_28.md",
-    "Attachments/image3.jpg",
-    "Attachments/image5.jpg",
-    "Attachments/image10.jpg",
-    "Attachments/image2.jpg",
-    "Attachments/image1.jpg",
-    "Attachments/image4.jpg",
-    "Attachments/image6.jpg",
+    "articles/DL/Experiments with LLM temperature.md",
+    "articles/DL/Experiments with LLM temperature.md.sb-7ecbca46-SJ4Vsn",
+    "images/experiments_with_temp_40_1.png",
+    "images/experiments_with_temp_35_1.png",
+    "images/experiments_with_temp_30_1.png",
+    "images/experiments_with_temp_26_1.png",
+    "images/experiments_with_temp_7_0.png",
+    "images/search.png",
+    "A voting-based system for ethical decision making.md",
+    "A declarative modular framework for representing and applying ethical principles.md",
+    "0-1 Loss.md",
+    "YOLO.md",
+    "imageCaptioning.md",
+    "jobs.md",
+    "psychology.md",
+    "todo.md",
+    "visualization.md",
+    "trolley scenario.md",
+    "wave2vec.md",
+    "random dump.md",
+    "journals/2024_07_06.md",
+    "HyTAS.md",
+    "Huntington’s Disease.md",
+    "Humanoid Vision Engine.md",
+    "Human Action Recognition.md",
+    "Huber.md",
+    "How to take your visual storytelling to the next level.md",
+    "How the Sciences Faded From India.md",
+    "Hopfield networks.md",
+    "Homoscedatic.md",
+    "Holdout Data.md",
+    "Hit list.md",
+    "Exported Items.bib",
     "Attachments/image9.jpg",
     "Attachments/image8.jpg",
-    "Attachments/image12.jpg",
+    "Attachments/image6.jpg",
+    "Attachments/image5.jpg",
     "Attachments",
-    "croissant.md",
-    "HyTAS.md",
-    "The Programmers Brain.md",
-    "Obsidian tutorial.md",
-    "Bruckhaus - 2024 - RAG Does Not Work for Enterprises.md",
-    "HNSW.md",
-    "Dense Vector Indexes.md",
-    "pdf_files/3544548.3581388.pdf",
-    "Sparse Encoder Indexes.md",
-    "IVFADC.md",
-    "journals/2024_06_24.md",
-    "articles/DL/Tree of Thoughts Explained Simply (LLMs Dehyped - 1).md",
-    "Tug of war between RAG and LLM prior.md",
-    "PQ.md",
-    "LLM Guide.md",
-    "AutoML Benchmark.md",
-    "Untitled.md",
-    "images/OpenMLscikitlearnhackathon 1.html",
-    "images/OpenMLscikitlearnhackathon.html",
-    "OpenMLscikitlearnhackathon.html",
-    "Double Descent.md",
-    "templates/titler.md",
-    "journals/2024_05_29.md",
-    "RAGAS - automated evaluation of RAG.md",
-    "Salemi and Zamani - 2024 - Evaluating Retrieval Quality in Retrieval-Augmente.md",
-    "Users/eragon/Documents/CODE/Github/AI-knowledge-base/docs/images",
-    "Users/eragon/Documents/CODE/Github/AI-knowledge-base/docs",
-    "Users/eragon/Documents/CODE/Github/AI-knowledge-base",
-    "Users/eragon/Documents/CODE/Github",
-    "Users/eragon/Documents/CODE",
+    "index.html",
+    "search.json",
+    "LICENSE",
+    "site_libs/quarto-search/quarto-search.js",
+    "site_libs/quarto-search/fuse.min.js",
+    "site_libs/quarto-search/autocomplete.umd.js",
+    "site_libs/quarto-nav/quarto-nav.js",
     "Jobs.canvas",
     "Untitled.canvas",
     "Thesis Stuff.canvas"

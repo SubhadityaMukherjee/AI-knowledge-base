@@ -1,6 +1,6 @@
 site_name: Subhaditya's AIKB
 theme:
-    name: 'windmill'
+    name: 'material'
     features:
       - navigation.tabs
     palette:

@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Subhaditya's KB"
+  description: "My Knowledge Base and personal blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/openml/blog
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

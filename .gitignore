@@ -4,3 +4,4 @@ package*
 Old_site/
 Old_site/*
 *.icloud
+/.quarto/

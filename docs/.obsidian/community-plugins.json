@@ -29,5 +29,7 @@
   "pdf-plus",
   "obsidian-outliner",
   "lineage",
-  "obsidian-importer"
+  "obsidian-importer",
+  "copy-document-as-html",
+  "copy-url-in-preview"
 ]

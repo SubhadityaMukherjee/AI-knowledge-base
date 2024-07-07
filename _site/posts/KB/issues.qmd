@@ -1,0 +1,20 @@
+---
+categories: ['temp']
+title: Issues
+date modified: Monday, October 10th 2022, 2:02:24 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Issues
+- [Multiple Local Minima](Multiple%20Local%20Minima.qmd)
+- [Saddle Points](Saddle%20Points.qmd)
+- [Vanishingexploding gradients](Vanishingexploding%20gradients.qmd)
+- [Image Data](Image%20Data.qmd)
+- [Fitting](Fitting.qmd)
+- [Freedom](Freedom.qmd)
+- [Bias Variance Dilemma](Bias%20Variance%20Dilemma.qmd)
+- [Complex Geometry](Complex%20Geometry.qmd)
+- [Lack of information](Lack%20of%20information.qmd)
+
+
+

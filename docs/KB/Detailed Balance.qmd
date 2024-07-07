@@ -1,0 +1,16 @@
+---
+categories: ['temp']
+title: Detailed Balance
+date modified: Monday, October 10th 2022, 2:02:30 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Detailed Balance
+- To find a transition kernel T(x|y) for a homogenous, [Ergodic](Ergodic.qmd) [Markov Chain](Markov%20Chain.qmd)
+- If we pick some state x with the [Probability](Probability.qmd) given by g and multiply its prob g(x) with the transition [Probability](Probability.qmd) [density](Density.qmd) T(x|y) (weighted by [Probability](Probability.qmd) [density](Density.qmd) of x) then its the same as the reverse weighted transiting [Probability](Probability.qmd) [density](Density.qmd) from y to x
+- $$\forall x,y \in \mathbb{R}^{k}: T(y|x)g(x) = T(x|y)g(y)$$
+- If T(x|y) has detailed balance wrt g, then it is an [Invariant Distribution](Invariant%20Distribution.qmd)
+- $$\int_{\mathbb{R}^{k}}T(x|y)g(y)dy = \int_{\mathbb{R}^{k}}T(y|x)g(x)dy = g(x)\int_{\mathbb{R}^{k}}P(y|x)dy = g(x)$$
+
+
+

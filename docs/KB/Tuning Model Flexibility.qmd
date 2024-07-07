@@ -1,0 +1,16 @@
+---
+title: Tuning Model Flexibility
+categories: ['regularize']
+date modified: Monday, October 10th 2022, 2:02:14 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Tuning Model Flexibility
+- [Class Size](Class%20Size.qmd)
+- [Regularization](Regularization.qmd)
+- [Ridge Regression](Ridge%20Regression.qmd)
+- [Adding noise](Adding%20noise.qmd)
+- [Cross Validation](Cross%20Validation.qmd)
+
+
+

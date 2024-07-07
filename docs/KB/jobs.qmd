@@ -1,0 +1,23 @@
+
+---
+categories: ['anchor']
+---
+
+- [ABN Amro AI Dev.qmd](ABN%20Amro%20AI%20Dev.qmd)
+- [ABN amro ml.qmd](ABN%20amro%20ml.qmd)
+- [Bunq.qmd](Bunq.qmd)
+- [Cold email templates.qmd](Cold%20email%20templates.qmd)
+- [DevOn AI dev.qmd](DevOn%20AI%20dev.qmd)
+- [Eneco Data Scientist.qmd](Eneco%20Data%20Scientist.qmd)
+- [Interview Tips.qmd](Interview%20Tips.qmd)
+- [Kickstart AI.qmd](Kickstart%20AI.qmd)
+- [Latitude Junior ML Engineer.qmd](Latitude%20Junior%20ML%20Engineer.qmd)
+- [Leap Data Scientist.qmd](Leap%20Data%20Scientist.qmd)
+- [MLCompany.qmd](MLCompany.qmd)
+- [Media Distillery.qmd](Media%20Distillery.qmd)
+- [MediaMonks.qmd](MediaMonks.qmd)
+- [Orbisk.qmd](Orbisk.qmd)
+- [Poki Data Scientist.qmd](Poki%20Data%20Scientist.qmd)
+- [Schipol Data Scientist.qmd](Schipol%20Data%20Scientist.qmd)
+- [VattenFall Data Scientist.qmd](VattenFall%20Data%20Scientist.qmd)
+- [Wageningen Uni AI.qmd](Wageningen%20Uni%20AI.qmd)

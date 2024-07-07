@@ -1,0 +1,29 @@
+---
+title: Attention
+categories: ['architecture']
+date modified: Monday, October 10th 2022, 2:02:34 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Attention
+- Model can decide where to look in the input
+- [Self Attention](Self%20Attention.qmd)
+- [Additive Attention](Additive%20Attention.qmd)
+- [Dot Product Attention](Dot%20Product%20Attention.qmd)
+- [Location Aware Attention](Location%20Aware%20Attention.qmd)
+- [Relative Multi Head Self Attention](Relative%20Multi%20Head%20Self%20Attention.qmd)
+- [Soft Attention](Soft%20Attention.qmd)
+- [Scaled Dot Product Attention](Scaled%20Dot%20Product%20Attention.qmd)
+- [Encoder Decoder Attention](Encoder%20Decoder%20Attention.qmd)
+- [Multi Head Attention](Multi%20Head%20Attention.qmd)
+- [Strided Attention](Strided%20Attention.qmd)
+- [Fixed Factorization Attention](Fixed%20Factorization%20Attention.qmd)
+- [Sliding Window Attention](Sliding%20Window%20Attention.qmd)
+- [Dilated Sliding Window Attention](Dilated%20Sliding%20Window%20Attention.qmd)
+- [Global and Sliding Window Attention](Global%20and%20Sliding%20Window%20Attention.qmd)
+- [Content Based Attention](Content%20Based%20Attention.qmd)
+- [Location Base Attention](Location%20Base%20Attention.qmd)
+- [Mixed chunk attention](Mixed%20chunk%20attention.qmd)
+
+
+

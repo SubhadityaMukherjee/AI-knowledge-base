@@ -1,0 +1,20 @@
+---
+title: Morpheme
+categories: ['language']
+date modified: Monday, October 10th 2022, 2:02:21 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Morpheme
+- words are built from smaller meaningful units called morphemes
+- [Allomorph](Allomorph.qmd)
+- [Morphology Stem](Morphology%20Stem.qmd)
+- [Morphology Affix](Morphology%20Affix.qmd)
+- [Content Morpheme](Content%20Morpheme.qmd)
+- [Functional Morpheme](Functional%20Morpheme.qmd)
+- [Morpheme Segmentation](Morpheme%20Segmentation.qmd)
+- [Morpheme Generation](Morpheme%20Generation.qmd)
+- [Morphotactic](Morphotactic.qmd)
+
+
+

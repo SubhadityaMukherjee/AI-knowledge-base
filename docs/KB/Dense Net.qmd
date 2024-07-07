@@ -1,0 +1,15 @@
+---
+title: Dense Net
+categories: ['architecture']
+date modified: Monday, October 10th 2022, 2:02:30 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# [Dense](Dense.qmd) Net
+- Generalized [Res Net](Res%20Net.qmd)
+- Skip connections inside the [Dense](Dense.qmd) block itself
+- ![im](images/Dense Skip Connections]
+- Transition layer -> [Dense](Dense.qmd) -> 1x1 [Conv](Conv.qmd) , 2x2 avg pool -> [Dense](Dense.qmd)
+
+
+

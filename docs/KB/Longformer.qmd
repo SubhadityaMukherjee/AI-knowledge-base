@@ -1,0 +1,24 @@
+---
+title: Longformer
+
+categories: ['architecture']
+date modified: Monday, October 10th 2022, 2:02:23 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Longformer
+- [Longformer: the Long-Document Transformer](https://arxiv.org/abs/2004.05150)
+- [Transformer](Transformer.qmd)
+- [Sliding Window Attention](Sliding%20Window%20Attention.qmd)
+- [Dilated Sliding Window Attention](Dilated%20Sliding%20Window%20Attention.qmd)
+- [Global and Sliding Window Attention](Global%20and%20Sliding%20Window%20Attention.qmd)
+- [attention](Attention.qmd) mechanism that scales linearly with sequence length
+- drop-in replacement for the standard self-[attention](Attention.qmd)
+- local windowed [attention](Attention.qmd) with a task motivated global [attention](Attention.qmd)
+- text8
+- enwik8
+- consistently outperforms [RoBERTa](RoBERTa.qmd) on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA
+- Longformer-Encoder-Decoder (LED), a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset
+
+
+

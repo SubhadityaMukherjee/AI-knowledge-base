@@ -1,7 +1,7 @@
 ---
 title: "Subhaditya's KB"
 listing:
-  contents: posts
+  contents: docs
   sort: "date desc"
   type: table
   categories: true

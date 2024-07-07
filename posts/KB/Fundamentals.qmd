@@ -1,0 +1,23 @@
+---
+categories: ['temp']
+title: Fundamentals
+date modified: Monday, October 10th 2022, 2:02:27 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Fundamentals
+- [Emperical Risk](Emperical%20Risk.qmd)
+- [LinearRegression](LinearRegression.qmd)
+- [TemporalLearning](TemporalLearning.qmd)
+- [Dimensionality Reduction](Dimensionality%20Reduction.qmd)
+- [Unsupervised Learning](Unsupervised%20Learning.qmd)
+- [Semi Supervised](Semi%20Supervised.qmd)
+- [Self Supervised](Self%20Supervised.qmd)
+- [Encodings](Encodings.qmd)
+- [Probability](Probability.qmd)
+- [Universal Approximation Theorem](Universal%20Approximation%20Theorem.qmd)
+- [Sampling](Sampling)
+- [Distributions](Distributions)
+
+
+

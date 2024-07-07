@@ -1,0 +1,18 @@
+---
+title: Universal Quantifiers
+categories: ['language']
+date created: Thursday, November 3rd 2022, 11:39:47 am
+date modified: Thursday, November 3rd 2022, 11:40:00 am
+---
+
+# Universal Quantifiers
+- All the boys are building a snowman
+- Each boy is building a snowman
+- Two universally quantified sentences that involve/exhaust the totality of boys
+- [Collective Interpretation](Collective%20Interpretation.qmd)
+- [Distributive Interpretation](Distributive%20Interpretation.qmd)
+- [Distributive Interpretation (2)](Distributive%20Interpretation%20(2).qmd)
+- [Cumulative Interpretation](Cumulative%20Interpretation.qmd)
+
+
+

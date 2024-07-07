@@ -1,0 +1,32 @@
+---
+categories: ['temp']
+title: Protein Modeling
+date modified: Monday, October 10th 2022, 2:02:19 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Protein Modeling
+- Using [Bayesian](Bayesian.qmd) models
+- Task : Estimate [Probability](Probability.qmd) mass function(because discrete) for a finite, discrete distribution -> given a histogram from a sample
+- Large number of categories and small number of observations
+- ![im](images/Pasted%20image%2020220316121901.png)
+	- Estimate [Probability](Probability.qmd) distrib of amino acids in each column in a protein class. 20 dim [PMF](PMF.qmd) (one for each site)
+	- Can be aligned
+	- High chances of class not being present in data
+		- [MLE](MLE) will assign 0 [Probability](Probability.qmd) to X
+		- Wrong decision made for a lot of them that were not in the training set
+		- Cannot use
+- 20 dim [PMF](PMF.qmd) for amnio acid distrib : $\theta = (\theta_{1}, … ,\theta_{20})' = (P(X=A), …, P(X=Y))'$
+	- count vectors of amino acids found in a given site in training data D
+	- Distributed according to [Multinomial Distribution](Multinomial%20Distribution.qmd) with l = 20
+
+## Using Prior
+- 0 probabilities should not occur. $$\mathcal{H} = (\theta_{1}, …, \theta_{20})' \in \mathbb{R}^{20}|\theta_{j} \in (0,1)$$ and $$ \Sigma_{j} \theta_{j}=1$$
+	- 19 dim hypervolume
+	- Continuous space and so can use [PDF](PDF.qmd)
+	- [Dirichlet Distribution](Dirichlet%20Distribution.qmd) is used to represent it because parameterized with l = 20
+- ![im](images/Pasted%20image%2020220316123546.png)
+- $\alpha$s fixed beforehand
+
+
+

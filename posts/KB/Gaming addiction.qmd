@@ -1,0 +1,23 @@
+---
+categories: ['temp']
+date modified: Monday, October 10th 2022, 2:02:27 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+---
+
+title: Gaming addiction
+
+categories: ['temp']
+
+---
+
+# Gaming Addiction
+- [fMRI](fMRI.qmd) was performed while showing game images to online game addicts.
+- According to [Brain Areas](Brain%20Areas.qmd) control group, right orbitofrontal cortex, right [nucleus accumbens](Nucleus%20Accumbens.qmd), bilateral anterior cingulate and medial frontal cortex, right dorsolateral prefrontal cortex and right caudate nucleus activation were observed.
+- These areas are the rewarding areas
+- The results show that the same addiction to substance can share the same neuro-biological mechanisms with the extreme gaming demands of online gaming addiction.
+- [Paper](https://dergipark.org.tr/en/pub/makuiibf/issue/41626/435845)
+
+
+

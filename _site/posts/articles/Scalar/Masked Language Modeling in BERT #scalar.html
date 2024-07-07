@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.53">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Masked Language Modeling in BERT – Subhaditya’s KB</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Subhaditya’s KB</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Masked Language Modeling in BERT</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Masked Language Modeling in BERT</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">article</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="masked-language-modelingmasked-language-modeling-in-bert-scalar" class="level1">
+<h1>[../../Masked Language Modeling|Masked Language Modeling] in BERT #scalar</h1>
+<p>masked language model explained</p>
+<section id="overview" class="level2 section{.abstract}">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Language modelling is a massive domain and has many sub-research areas. One such domain involves understanding contextual information about words in a sentence. This task can be done in many ways, and masked language modelling is one such method. In the past few years, Transformer based models have reached SOTA(state of the art) in many NLP domains. BERT is one such model. In this article, we will understand how to train BERT to fill in missing words in a sentence using MLM.</p>
+</section>
+<section id="scope-of-the-article" class="level2 section{.scope}">
+<h2 class="anchored" data-anchor-id="scope-of-the-article">Scope of the Article</h2>
+<p>This article covers the following topics: - [../../Masked Language Modeling|Masked Language Modeling] explained in an easy-to-understand manner - Quickly recap all the pre-requisite terms to build an MLM model - Go over some libraries that are essential to MLM - How to build a BERT-based MLM model using our data in Tensorflow/Keras</p>
+</section>
+<div class="section{.main}">
+<section id="masked-language-modelingmasked-language-modeling-explained" class="level2">
+<h2 class="anchored" data-anchor-id="masked-language-modelingmasked-language-modeling-explained">[../../Masked Language Modeling|Masked Language Modeling] Explained</h2>
+<p>To a NN model, the word context has no meaning. So, we need to find ways to make the model consider surrounding words to learn which context words appear. For example, consider the sentence, “I am eating an ice cream”. In this, the “ice cream” is being “eaten”. What would an appropriate word be if we now remove the word “eating” and have the sentence as “I am ___ an ice cream”? We can consider something along the lines of “licking”, “eating”, “sharing”, etc. However, we cannot say “drowning”, “cycle”, “chair”, or other random words.</p>
+<p>In the same way, to ensure the model learns which word is appropriate, it needs to understand the structure of language. As modellers, we need to help it do so. Quite simply, all we do is give the model inputs with blanks as a “token” <code>&lt;MASK&gt;</code> along with the word that should be there. We can create data in this format by taking any text and running over it. How to do so will be explained later on.</p>
+</section>
+<section id="quick-recap" class="level2">
+<h2 class="anchored" data-anchor-id="quick-recap">Quick Recap</h2>
+<p>This section gives a small recap of all the important concepts we need to understand the code. ### Tokens Tokens can be considered parts of a sentence that contribute to understanding. A sentence such as “I am Jane Austen” can have the tokens <code>["I", "am", "Jane", "Austen"]</code>. As a computer does not understand words, we need to convert these to numerical values. To do so, we give each word a unique ID. Something like <code>[100, 101, 102, 103]</code> etc. ### Attention One of the most important concepts in Machine learning today, attention mechanisms give models the power to decide where to look in an input. Compared to CNNs, this makes models such as Transformers perform much better as it simultaneously learns which parts of the input would be better along with what the input could be classified. ### Transformers Transformers are a large family of models that employ different variants of attention mechanisms. They first started in NLP but have also branched out to computer vision due to their immense potential. They generally have an Encoder-Decoder architecture with multiple “heads”. Each head is responsible for its attention. ### BERT BERT is part of a sub-family of transformer architectures made for NLP and led to a sea of other new models that reached SOTA. It can be used in many different contexts, especially MLM, next-word prediction, question answering and many more. ### Transfer Learning A training paradigm that changed the DL world by allowing any researcher with limited resources to use SOTA models for inference and fine-tune them to their needs. A model like BERT requires Terabytes of data before it can be trained to extremely high levels. This level of computing is almost impossible for most people to have apart from companies with massive funding and resources. However, now we can use their trained models and make them work for our tasks. ### Stopwords Words that do not add much value to the model but are repeated enough times for it to become a problem. These are generally removed before modelling.</p>
+</section>
+<section id="mlm-vs-clm-vs-word2vec" class="level2">
+<h2 class="anchored" data-anchor-id="mlm-vs-clm-vs-word2vec">MLM vs CLM vs Word2Vec</h2>
+<p>The major difference between MLM and CLM is that CLM can only take into account words that occur before it in a sentence, unlike MLM, which is bi-directional. This difference means that CLM does better for generating large amounts of text. However, MLM is better for contextually understanding text (refer to the [../../Masked Language Modeling|Masked Language Modeling] Explained section). Word2Vec, on the other hand, has similar ideas but the embeddings it generates have weaker contextual information than Transformer based models. The outputs it produces can also be used as a part of BERT training, although it is not usually required.</p>
+</section>
+<section id="libraries-we-need" class="level2">
+<h2 class="anchored" data-anchor-id="libraries-we-need">Libraries We Need</h2>
+<p>We need a few libraries to make this work. ### Tensorflow/Keras TF is one of the major DL libraries in Python. We will be using it for training our model. ### Hugging Face Transformers This library is one of the recent developments in the open-source community. It is a database of trained models and datasets that can be directly used in any codebase. They have thousands of tasks, making it extremely easy to get results fast. We will use their pre-trained BERT model. ### NLTK A text processing library that we will use to clean up our text before passing it to the model. ### Seaborn/Matplotlib These libraries are used for plotting our training performance.</p>
+</section>
+<section id="implementation" class="level2">
+<h2 class="anchored" data-anchor-id="implementation">Implementation</h2>
+<p>Now for the code. ### Imports We first import all the required packages. We also download the stopwords and punctuation data from nltk.</p>
+<p>“`python import nltk<br>
+nltk.download(‘stopwords’)<br>
+nltk.download(‘punkt’) nltk.download(‘gutenberg’) import string from nltk.corpus import stopwords import seaborn as sns</p>
+<p>from transformers import BertTokenizer, TFBertForMaskedLM import tensorflow as tf import numpy as np import re import matplotlib.pyplot as plt sns.set()</p>
+<pre><code>
+### Data
+For this demo, we use text from the book "Emma" by "Jane Austen". This dataset is a public domain dataset from Project Gutenberg that comes with nltk. We can download it using the following code. 
+"`python
+import nltk
+nltk.download('gutenberg')
+!cp /root/nltk_data/corpora/gutenberg/austen-emma.txt sample.txt</code></pre>
+<p>We can also use custom text by creating a text file called “sample.txt” in the same directory as the code and pasting whatever we want. (Make sure it is English text).</p>
+<p>We then pre-process the data by removing stopwords and punctuation and converting the words into tokens BERT needs. Since every Transformer model has their configuration of tokens in the pre-trained model, we will use the tokenizer that Hugging face provides us.</p>
+<p>(Note: Here, we only take the first 1000 lines from the text. Language models take a long time to train; this is just a demo. If we have GPUs, the entire data can be used.) “`Python tokenizer = BertTokenizer.from_pretrained(‘bert-base-uncased’)</p>
+<p>sw = stopwords.words(‘english’) # this is a list of stopwords</p>
+</section>
+<section id="take-first-1000-sentences-for-demo-purposes" class="level1">
+<h1>Take first 1000 sentences for demo purposes</h1>
+<p>with open(‘sample.txt’, ‘r’) as f: lines = f.readlines()[:1000] # Remove new lines, convert all to lowercase, remove punctuation and stop words and tokenize</p>
+<p>lines = [line.rstrip(‘’).lower() for line in lines] lines = [line.translate(str.maketrans(’‘,’’, string.punctuation)) for line in lines]</p>
+<p>def rem_stops_line(line, words): # Function to remove stopwords per line if they are present in the line if len(line) &gt;1: return [w for w in line if w not in words] else: return line</p>
+<p>def remove_stops(text, words = sw): # Remove stop words for an entire text. Separate functions make it easier to parallelize if required. return [rem_stops_line(line, words) for line in text]</p>
+<p>filtered_lines = remove_stops(text = lines, words = sw) inputs = tokenizer(lines,max_length=100,truncation=True,padding=‘max_length’,return_tensors=‘tf’)</p>
+<pre><code>
+### Masked Language Model Explained Further
+We use the model from the Transformers library directly. The uncased model converts all text into lowercase. Other models do not, and any of them can be used. This one was chosen for the sake of this demo.
+"`Python
+model = TFBertForMaskedLM.from_pretrained('bert-base-uncased')</code></pre>
+<p>In [../../Masked Language Modeling|Masked Language Modeling], we explained that every sentence needs to be converted to a format with words masked using a special token, <code>&lt;MASK&gt;</code>. We can do that by using the tokenized words and making the model aware of which token number corresponds to this special token. (In this case, it is 103). In the original paper, token numbers 101 and 102 were replaced, but we ignore that here. (It is not relevant for now.)</p>
+<p>“`Python # MASK inp_ids = [] lbs = [] for idx, inp in enumerate(inputs.input_ids.numpy()): current_tokens = list(set(range(100)) - set(np.where((inp == 101) | (inp == 102) | (inp == 0))[0].tolist())) # Find number of tokens to mask num_token_masked = 0.15 * len(current_tokens) token_to_mask = np.random.choice(np.array(actual_tokens), size=int(num_token_masked), replace=False) # Store special token and inform model inp[token_to_mask.tolist()] = 103 inp_ids.append(inp)</p>
+</section>
+<section id="convert-the-tokens-to-tensor-format" class="level1">
+<h1>Convert the tokens to tensor format</h1>
+<p>inp_ids = tf.convert_to_tensor(inp_ids) inputs[‘input_ids’] = inp_ids</p>
+<pre><code>
+### Training the Model
+Now that we have all the required data and the model, we need to train it on our data.
+If the system does not have a GPU or access to a cloud GPU is unavailable, this model will take a very long time to train. Consider using lesser data.
+
+Considering we have a GPU, we first check if TF can find it.
+"`Python
+print('GPU name: ', tf.config.experimental.list_physical_devices('GPU'))</code></pre>
+<p>We use a Sparse Categorical Crossentropy loss with logits enabled. (logits are enabled if the model does not end with a Softmax. BERT does not.). We use a learning rate of 1e-3 for the Adam Optimizer. Finally, we run training for around ten epochs. “`Python # Compile and Train lr = 1e-3 loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True) model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=lr),loss=loss) history = model.fit([inputs.input_ids,inputs.attention_mask],inputs.labels,verbose=1,batch_size=16,epochs=10)</p>
+<pre><code>
+### Loss
+We plot the loss per epoch to see if our model is learning anything.
+We can see that the loss has decreased, which is a good sign! Our model is learning. More data and longer training will help the model be better than before.
+
+### Prediction
+Just training a model is useless. We need to be able to use it for prediction. To do that, we need to define a few functions. We need to be able to find the `&lt;MASK&gt;` tokens in the sentence, we need to tokenize the sentence and pass it into the model for prediction. And finally, we need to do this for multiple sentences. 
+The following functions do exactly these. 
+
+```python
+def find_masks(inp):
+    # Find position of the masks in a sentence
+    return np.where(inp.input_ids.numpy()[0] == 103)[0].tolist()
+
+def single_prediction(model, inp, mask_loc):
+    # Prediction for all the positions of the masks
+    return model(inp).logits[0].numpy()[mask_loc]
+
+def return_prediction(model, query):
+    # Return a prediction for a single sentence
+    inp = tokenizer(query,return_tensors='tf')
+    mask_loc = find_masks(inp)
+    # Find prediction with the highest confidence
+    predicted_tokens = np.argmax(single_prediction(model, inp, mask_loc),axis=1).tolist()
+    # Decode the numerical value of the returned ID back to the word 
+    return tokenizer.decode(predicted_tokens)
+
+def multiple_preds(model, query_list):
+    # Return predictions for a list of queries
+    preds = [f"{x} -&gt; {return_prediction(model, x).split(' ')}" for x in query_list]
+    for i in preds: print(i)</code></pre>
+<section id="predictions" class="level2">
+<h2 class="anchored" data-anchor-id="predictions">Predictions</h2>
+<p>After training, we can finally give the model a practice exam! Since we fine-tuned it on the book “Emma”, we give it the following sentences. <code>["too well [MASK] for her", "nice to [MASK] her", "Emma [MASK] a girl who wanted a [MASK]"]</code></p>
+<p>“`Python query_list = [“too well [MASK] for her”, “nice to [MASK] her”, “Emma [MASK] a girl who wanted a [MASK]”] multiple_preds(model, query_list)</p>
+<pre><code>
+As an output we get the following. We see that it performs quite well even with such a short training! 
+
+"`plaintext
+too well [MASK] for her -&gt; ['suited']
+nice to [MASK] her -&gt; ['see']
+Emma [MASK] a girl who wanted a [MASK] -&gt; ['was', 'chance']</code></pre>
+</section>
+<section id="further-tips" class="level2">
+<h2 class="anchored" data-anchor-id="further-tips">Further Tips</h2>
+<ul>
+<li>Language models are generally very heavy to use. If possible, using Mixed Precision training helps</li>
+<li>Having more GPU memory is more useful than having a faster GPU for language models</li>
+<li>Multiple GPUs are useful for expanding available memory</li>
+<li>There are smaller variants of BERT that use less memory.</li>
+<li>Hugging Face has a huge list of models that we can use. Trying them might lead to better results.</li>
+<li>To get over the overwhelming number of pre-trained models, pick the task and find benchmarks in that task. <a href="https://paperswithcode.com/methods">PaperswithCode</a> is a great place to start.</li>
+</ul>
+</section>
+</section>
+</div>
+<section id="conclusion" class="level2 section{.summary}">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>This article showed us masked language modelling explained. We learnt the following: - What MLM is and when to use it. - How to pre-process our data for MLM - How to fine-tune pre-trained BERT models for MLM - How to perform predictions over multiple sentences with our fine-tuned models.</p>
+</section>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

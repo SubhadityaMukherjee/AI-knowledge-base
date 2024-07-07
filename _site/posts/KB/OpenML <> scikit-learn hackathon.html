@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.53">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>OpenML &lt;&gt; scikit-learn hackathon – Subhaditya’s KB</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Subhaditya’s KB</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">OpenML &lt;&gt; scikit-learn hackathon</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">OpenML &lt;&gt; scikit-learn hackathon</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="openml-scikit-learn-hackathon" class="level1">
+<h1>OpenML &lt;&gt; Scikit-learn Hackathon</h1>
+<pre class="toc"><code></code></pre>
+<p><img src="Attachments/image2.jpg" class="img-fluid"></p>
+</section>
+<section id="logistics" class="level1">
+<h1>Logistics</h1>
+<section id="location" class="level2">
+<h2 class="anchored" data-anchor-id="location">Location</h2>
+<p>27th Floor, ring at “Probabl”</p>
+<p><a href="https://www.google.com/url?q=https://maps.app.goo.gl/NTUYcXHE38XTxU4B7&amp;sa=D&amp;source=editors&amp;ust=1719394356827892&amp;usg=AOvVaw3-nzqUMxjILr4ttvpa5nh4">Montparnasse Tower</a>&nbsp;33 Avenue du Maine, West Entrance (on your left when leaving the train station), 27th Floor, ring at “Probabl”</p>
+<p><img src="Attachments/image12.jpg" class="img-fluid"></p>
+</section>
+<section id="contact-persons" class="level2">
+<h2 class="anchored" data-anchor-id="contact-persons">Contact Persons</h2>
+<p>+33783822597 (François Goupil)</p>
+<p>+33760407677 (Charlène Bizollon)</p>
+</section>
+<section id="communication-channel" class="level2">
+<h2 class="anchored" data-anchor-id="communication-channel">Communication Channel</h2>
+<p>Please join the OpenML slack server and the dedicated hackathon channel for easy communication and updates.</p>
+<p>Slack:&nbsp;<a href="https://www.google.com/url?q=https://join.slack.com/t/openml/shared_invite/zt-2ktk2cj1c-r637o20pfCc0H7PS8OUGtA&amp;sa=D&amp;source=editors&amp;ust=1719394356828983&amp;usg=AOvVaw1EYh97yNzzjphKh0toxS9y">https://join.slack.com/t/openml/shared_invite/zt-2ktk2cj1c-r637o20pfCc0H7PS8OUGtA</a></p>
+<p>Channel: <a href="https://www.google.com/url?q=https://openml.slack.com/archives/C070WQ85A8G&amp;sa=D&amp;source=editors&amp;ust=1719394356829300&amp;usg=AOvVaw2X3vKq6DggM93jOh8Dkgyu">#hackathon-probabl</a></p>
+</section>
+<section id="wifi" class="level2">
+<h2 class="anchored" data-anchor-id="wifi">Wifi</h2>
+<p>SSD: :probabl.guest</p>
+<p>PWD: :probabl.</p>
+<p>Note: At some point be ready to use your own mobile data (we are experiencing some difficulties)</p>
+<p>SSD: :probabl.eiffel-2.4</p>
+<p>PWD: :probabl.</p>
+<p>Note: low bandwidth</p>
+<hr>
+</section>
+</section>
+<section id="schedule" class="level1">
+<h1>Schedule</h1>
+<section id="june-24---0900-1800" class="level2">
+<h2 class="anchored" data-anchor-id="june-24---0900-1800">June 24 - 09:00-18:00</h2>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>09:00-09:30</td>
+<td>Welcome</td>
+<td>Coffee and Croissants</td>
+</tr>
+<tr class="even">
+<td>09:30-11:30</td>
+<td>Introduction</td>
+<td>- Short presentation of the scikit-learn and OpenML projects + Probabl (Joaquin and Pieter for OpenML, Guillaume Lemaitre for scikit-learn, Yann Lechelle for Probabl)<br><br>- Quick round where everyone introduces themselves.<br>- Plan break-out sessions or suggest new ones.</td>
+</tr>
+<tr class="odd">
+<td>10:30-11:30</td>
+<td>Breakout</td>
+<td>(1) Organizing community events and Onboarding Contributors (Maren)</td>
+</tr>
+<tr class="even">
+<td>11:30-13:00</td>
+<td>Lunch</td>
+<td><a href="https://www.google.com/url?q=https://maps.app.goo.gl/EQ1shb5kAc1GiNHt6&amp;sa=D&amp;source=editors&amp;ust=1719394356833826&amp;usg=AOvVaw0oMNsB-7p5M7EDBbxvTug3">Bouillon Chartier</a></td>
+</tr>
+<tr class="odd">
+<td>13:00-14:00</td>
+<td>Breakout</td>
+<td>(2) Governance, Funding and Sponsorship (Adrin + François)</td>
+</tr>
+<tr class="even">
+<td>14:00-15:00</td>
+<td>Breakout</td>
+<td>(3) Future Collaboration between scikit-learn and OpenML (Guillaume)</td>
+</tr>
+<tr class="odd">
+<td>15:00-18:00</td>
+<td>Code</td>
+<td>Code: explore each other’s projects.</td>
+</tr>
+</tbody>
+</table>
+<p>After the official programme each day, there’s a suggested bar and restaurant to go to</p>
+<p>Bar + Restaurant: <a href="https://www.google.com/url?q=https://maps.app.goo.gl/sxcYL9gZwCu4busTA&amp;sa=D&amp;source=editors&amp;ust=1719394356837213&amp;usg=AOvVaw1LyGgVYG9D0P2GTKXy9bn6">Le Falstaff</a>&nbsp;</p>
+</section>
+<section id="june-25---0900-1800" class="level2">
+<h2 class="anchored" data-anchor-id="june-25---0900-1800">June 25 - 09:00-18:00</h2>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>09:00-10:00</td>
+<td>Coffee/croissants</td>
+<td>Croissant Talk by Joaquin</td>
+</tr>
+<tr class="even">
+<td>10:00-11:00</td>
+<td>Breakout</td>
+<td>(6) Collaboration Ecosystem for Open-Source Machine Learning</td>
+</tr>
+<tr class="odd">
+<td>11:00-12:00</td>
+<td>Breakout</td>
+<td>(7) Academic and Industrial Scope of OpenML and Probabl&nbsp;in AI - Collaboration</td>
+</tr>
+<tr class="even">
+<td>12:00-13:00</td>
+<td>Lunch</td>
+<td><a href="https://www.google.com/url?q=https://maps.app.goo.gl/qn6Xk6M223VLzdSi9&amp;sa=D&amp;source=editors&amp;ust=1719394356841803&amp;usg=AOvVaw29Hj0n1iTk8ugH4-6WqjmS">TranTranZai</a></td>
+</tr>
+<tr class="odd">
+<td>13:00-14:00</td>
+<td>Breakout</td>
+<td>(5) Probabl Product Technical Discussion (Camille)</td>
+</tr>
+<tr class="even">
+<td>14:00-17:00</td>
+<td>Coding</td>
+<td>Coding</td>
+</tr>
+<tr class="odd">
+<td>17:00-18:00</td>
+<td>Breakout</td>
+<td>(4) Development Tooling and Workflows</td>
+</tr>
+</tbody>
+</table>
+<p>Bar + Restaurant: <a href="https://www.google.com/url?q=https://maps.app.goo.gl/VqMyVnDYLQDdqnbE8&amp;sa=D&amp;source=editors&amp;ust=1719394356844277&amp;usg=AOvVaw2HDGtROV67vxJZzGZJvnXO">Food Society Paris</a></p>
+</section>
+<section id="june-26---0900-1300" class="level2">
+<h2 class="anchored" data-anchor-id="june-26---0900-1300">June 26 - 09:00-13:00</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>9:00-10:00</td>
+<td>Breakout + coffee/croissants</td>
+<td>Joaquin et al.: we have a bit of a delay checking out of our Airbnb but will be there shortly.</td>
+</tr>
+<tr class="even">
+<td>10:00-12:00</td>
+<td>TBD</td>
+<td>Open / Ad-hoc</td>
+</tr>
+<tr class="odd">
+<td>12:00-13:00</td>
+<td>Wrap-up</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>13:00-14:00</td>
+<td>Lunch + end of the hackathon</td>
+<td>Subway in Montparnasse</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="breakout-sessions-ideas" class="level1">
+<h1>Breakout Sessions Ideas</h1>
+<p>This document contains the preliminary agenda and suggestion for <a href="#h.rto8plzar1dk">breakout sessions</a>. Breakout sessions are discussions where we can brainstorm or exchange our experiences on specific topics. Feel free to propose additional sessions.</p>
+<p>&nbsp;💡 Feel free to add new session topics below, there is a template at the end.</p>
+<section id="organizing-community-events-and-onboarding-contributors-day-1" class="level2">
+<h2 class="anchored" data-anchor-id="organizing-community-events-and-onboarding-contributors-day-1">1. Organizing Community Events and Onboarding Contributors [Day 1]</h2>
+<p>leader:&nbsp;Maren Westermann</p>
+<p>description:</p>
+<ul>
+<li>Share our experiences organizing hackathons. How do you attract attendees? How do you make sure that the work at a hackathon is fruitful? Where should you organize your hackathons, and how are they funded? Are online open-source sprints/hackathons an option for you?</li>
+<li>What process and documentation should be in place to help onboard new contributors? How to get them started effectively, and how do you make sure they stay with the project?</li>
+<li>How do we get our projects known to users?</li>
+</ul>
+<p><img src="Attachments/image10.jpg" class="img-fluid"></p>
+<p>notes:</p>
+<ul>
+<li><p>community sprints: everyone is invited to take part, in particular newcomers, to &nbsp;contribute to an open source project</p></li>
+<li><p>Important (FYI: we are a bit out of sync)</p></li>
+<li><p>Have a list of curated issues</p></li>
+<li><p>Start with documentation issues for new contributors</p></li>
+<li><p>Come up with issues before the sprint need a curated list for first time contributors (especially beginner friendly ones)</p></li>
+<li><p>meta-issues for a group of related issues: once one is fixed it can serve as a contribution template</p></li>
+<li><p>documentation issues: people start by reading the documentation around the issues</p></li>
+<li><p>documentation about how to contribute was missing and is too long</p></li>
+<li><p>rewrote the contributors’ guide to be more concise but more beginner friendly + some video tutorials to get started with github-based contributions</p></li>
+<li><p>keeping beginner issues away for the sprints (so other people don’t jump on it before)</p></li>
+<li><p>difference between OpenML Hackathon and Scikit-learn sprints</p></li>
+<li><p>OpenML Hackathons are 1 week and bigger</p></li>
+<li><p>Core developer sprints vs.&nbsp;New contributors sprints</p></li>
+<li><p>Openml has 7 repositories with different programming languages (backend, APIs, frontend,…)</p></li>
+<li><p>Some documentation for first time contributors but not exhaustive</p></li>
+<li><p>One-to-one mentoring to get started with a working dev setup</p></li>
+<li><p>Typically requires several days’ investment</p></li>
+<li><p>onboarding new contributors online and in person are two different processes</p></li>
+<li><p>Hard to make people feel connected and stay long-term</p></li>
+<li><p>Social aspect is important: organizing recurrent events (every few months) to development a more long term engagement</p></li>
+<li><p>Joint Pyladies Paris / scikit-learn core contributors events</p></li>
+<li><p>near one-to-one mentoring</p></li>
+<li><p>recurrent every few months</p></li>
+<li><p>a few hours in the evening</p></li>
+<li><p>retention is low but allowed to developed social bounds</p></li>
+<li><p>Important to have maintainers be present to slowly build a connection.</p></li>
+<li><p>Retention is low, be realistic on expectations - but the outliers are what matters</p></li>
+<li><p>Personal connection: if they know you, people are more likely to contribute</p></li>
+<li><p>OpenML hackathons are useful for core maintainers to secure some time to contribute to the project for several solid hours in a row.</p></li>
+<li><p>0 full-time contributor.</p></li>
+<li><p>part time engineers for academic projects</p></li>
+<li><p>nice locations because thanks to EU funding</p></li>
+<li><p>Can OpenML use students to help contribute feature</p></li>
+<li><p>Hard to get high-quality submissions</p></li>
+<li><p>How to incentivize people?</p></li>
+<li><p>Build career: show of with sklearn contribution on a resume (less long-term contribution)</p></li>
+<li><p>Sense of community</p></li>
+<li><p>Useful for your own research</p></li>
+<li><p>Hard to have ‘flashy results’ (e.g.&nbsp;genAI apps), how can we solve that?</p></li>
+<li><p>How to scale time investment?</p></li>
+<li><p>PyLadies / sprints: only few hours in the evening (6-9pm)</p></li>
+<li><p>Every 2 months, 15-30 (capped) people show up</p></li>
+<li><p>How are sprints structured?</p></li>
+<li><p>Pre-sprint: online, so people have the right setup</p></li>
+<li><p>At least one organizer (e.g.&nbsp;Maren for pyladies, supported by core devs)</p></li>
+<li><p>Shortlist of issues for each sprint</p></li>
+<li><p>Paid internships: great way to find good people and build</p></li>
+<li><p>Requires funding</p></li>
+<li><p>Mentoring takes time, but helps people take over some tasks</p></li>
+<li><p>Slack discussions</p></li>
+<li><p>Generative AI? Bad quality, wastes time. SKlearn only allows human contributions.</p></li>
+<li><p>How to focus attention? E.g. key project this quarter?</p></li>
+</ul>
+<p><img src="Attachments/image8.jpg" class="img-fluid"></p>
+</section>
+<section id="governance-funding-and-sponsorship" class="level2">
+<h2 class="anchored" data-anchor-id="governance-funding-and-sponsorship">2. Governance, Funding and Sponsorship</h2>
+<p>leader:&nbsp;Adrin + François</p>
+<p>description: What are our experiences with our governance structures?&nbsp;What are opportunities for open source projects to make money to pay for e.g., server costs, organizing events, and so on? How do we argue the importance of our projects to motivate a funder/sponsor? Can we quantify our contribution?</p>
+<p>notes:</p>
+<ul>
+<li><p>Governance is a living document. It matters for the community.</p></li>
+<li><p>How to combine an open-source library with a for-profit company</p></li>
+<li><p>Be clear about what parts are community-”owned” and which parts are company-owned</p></li>
+<li><p>Keep discussions of the community aspect on community Slack. Decision processes must remain open.</p></li>
+<li><p>write public version of important decisions</p></li>
+<li><p>Still creates confusion (for users and contributors)</p></li>
+<li><p>Keep people informed either through mailing lists, monthly meetings etc. (This takes a long time, but is worth it in the long run)</p></li>
+<li><p>communicate upcoming discussions in mailing list</p></li>
+<li><p>contributing to sklearn open doors to work at companies</p></li>
+<li><p>INRIA foundation:</p></li>
+<li><p>50k EUR for 2 meetings yearly where company can state priorities</p></li>
+<li><p>No requirement, only if useful for community</p></li>
+<li><p>Is it sustainable? For academic salaries. As long as sklearn stays useful companies will keep doing this. Requires that someone at the sponsoring company cares that sklearn doesn’t decline.</p></li>
+<li><p>Also advertising (logo on website)</p></li>
+<li><p>Modelled on Linux foundation.</p></li>
+<li><p>Probabl:</p></li>
+<li><p>Will put a RE to work on a certain issue, but for a lot more money</p></li>
+<li><p>Companies prefer this (they don’t know how to hire a good sklearn engineer)</p></li>
+<li><p>Leadership by effort:</p></li>
+<li><p>Put your own time into the aspects that are important to you</p></li>
+<li><p>NVIDIA: Have people work at other companies to work on sklearn</p></li>
+<li><p>How much effort?</p></li>
+<li><p>For projects that need faster cycles, create a separate package (e.g.&nbsp;skops, hazardous,…) - but this creates maintenance work.</p></li>
+<li><p>Hard to get new reviews in since it takes so long. Multiple rounds of reviews even for a simple spelling error.</p></li>
+<li><p>Library for putting sklearn models into prod -&gt; <a href="https://www.google.com/url?q=https://skops.readthedocs.io/en/stable/&amp;sa=D&amp;source=editors&amp;ust=1719394356855969&amp;usg=AOvVaw3J1UA-poHFPIVFSs9FX89X">skops</a></p></li>
+<li><p>Having documentation lead, community interaction lead,… does it help and how much?</p></li>
+<li><p>Lowers the bar (core dev is a really high bar)</p></li>
+<li><p>Speeds up decisions</p></li>
+<li><p>Need more people in the different teams</p></li>
+</ul>
+<p><img src="Attachments/image9.jpg" class="img-fluid"></p>
+</section>
+<section id="future-collaboration-between-scikit-learn-and-openml-day-1-2-sessions" class="level2">
+<h2 class="anchored" data-anchor-id="future-collaboration-between-scikit-learn-and-openml-day-1-2-sessions">3. Future Collaboration between Scikit-learn and OpenML [Day 1, 2 sessions]</h2>
+<p>leader:&nbsp;<a href="mailto:guillaume@probabl.ai">Guillaume Lemaitre</a></p>
+<p>description: scikit-learn can fetch datasets from OpenML, users can automatically evaluate scikit-learn models on OpenML tasks. What other future collaborations are interesting to explore?</p>
+<ul>
+<li><p>fetch_openml / download_openml improvements (parquet?)</p></li>
+<li><p>dataset upload via parquet -&gt; coming (not fully supported by python API yet)</p></li>
+<li><p>croissant integration in scikit-learn openml data fetcher? -&gt; Tuesday morning</p></li>
+<li><p>provenance tracking and reproducibility for openml dataset (make it standard to provide a script, possibly hosted externally on GitHub or similar, to show how to reconstruct the openml hosted parquet file from the original dataset format/location.</p></li>
+<li><p>collaborative feedback (per dataset issue tracker) to report and discuss dataset related problems with dataset owner/uploader</p></li>
+<li><p>If fetch-openml fails, what to do?</p></li>
+<li><p>add support for benchmarking? : <a href="https://www.google.com/url?q=https://github.com/benchopt/benchopt&amp;sa=D&amp;source=editors&amp;ust=1719394356859174&amp;usg=AOvVaw0ooLJUft_Cx72tEnXq4H2l">benchopt</a></p></li>
+</ul>
+<p>notes:</p>
+<ul>
+<li><p>Fetch_openml</p></li>
+<li><p>ARFF parser is a headache</p></li>
+<li><p>Logically, it makes sense to first download the data file localy and then load it with pandas or polars (pandas in rust)</p></li>
+<li><p>sklearn does not load parquet right now</p></li>
+<li><p>Sparse datasets are still an issue (not supported by parquet)</p></li>
+<li><p>Make all sparse dataset dense and store them in parquet (will still compress nicely). Most sparse datasets aren’t that large.</p></li>
+<li><p>Some of these datasets may be one-hot-encoded datasets</p></li>
+<li><p>Pyarrow is most supported (fastparquet is not). Polars can read parquet natively. Pyarrow does not support pyodide.</p></li>
+<li><p>Have an explanation for differences between versions</p></li>
+<li><p>Versions discussion</p></li>
+<li><p>Versions of dataset on openml very confusing</p></li>
+<li><p>Version not related lineage of dataset, very confusing to user</p></li>
+<li><p>Versions of datasets not searchable</p></li>
+<li><p>Use case: go on openml, search for a dataset, “which version of the dataset to select?”</p></li>
+<li><p>Benchmarking</p></li>
+<li><p>interesting for probabl.ai to share models and benchmarks on OpenML?</p></li>
+<li><p>Sklearn Pipeline Representation</p></li>
+<li><p>Use HTML widget for sklearn pipeline diagrams</p></li>
+</ul>
+<p>todo:</p>
+<ul>
+<li><p>openml: check whether all parquet file can be read with polars and pandas</p></li>
+<li><p>openml: convert all sparse datasets to dense to store then in parquet</p></li>
+<li><p>openml: have an explanation for differences between versions. When people upload a new version of a dataset, ask for an explanation.</p></li>
+<li><p>openml: sort dataset by the quality of the datasheet. Show user/datasetname/id as the name on the webui, remove/rename “version”</p></li>
+<li><p>openml website: implement a way to open an issue to contact the dataset owner</p></li>
+<li><p>openml: datasheet has section on preprocessing, where people can point to a github link with preprocessing code, encourage users to do this (e.g.&nbsp;dataset quality score) and allow people to report problems</p></li>
+<li><p>sklearn: try to load parquet files from OpenML in fetch_openml</p></li>
+<li><p>openml: visualization of the sklearn pipelines (flow)</p></li>
+</ul>
+</section>
+<section id="croissant-talk" class="level2">
+<h2 class="anchored" data-anchor-id="croissant-talk">3.5 Croissant Talk</h2>
+<p>notes:</p>
+<ul>
+<li><p><a href="https://www.google.com/url?q=https://github.com/mlcommons/croissant&amp;sa=D&amp;source=editors&amp;ust=1719394356862206&amp;usg=AOvVaw0zSa2ZwmCvDR07XnRxv46f">Github</a></p></li>
+<li><p>Croissant is a metadata description format</p></li>
+<li><p>Ml datasets are a combination of structured and unstructured data, which make them complicated to manage</p></li>
+<li><p>Croissant was built on top of schema.org, and has more details relative to it</p></li>
+<li><p>The format has 4 layers</p></li>
+<li><p>dataset level metadata</p></li>
+<li><p>resource description</p></li>
+<li><p>content structure</p></li>
+<li><p>ml semantics</p></li>
+<li><p>Croissant does not require any changes to underlying data</p></li>
+<li><p>Analysis and visualization tools work out of the box for all datasets</p></li>
+<li><p>Using croissant, datasets can be exposed consistently throughout platforms</p></li>
+<li><p>Collaborations with google, hugging face, google dataset search also exist</p></li>
+<li><p>Openml has deeper dataset description by default, slightly lesser in HF and kaggle</p></li>
+<li><p>Once loaded, datasets can be imported elsewhere (torch, tf etc) easily</p></li>
+<li><p>Croissant editor - web app where you can use a GUI to enter the dataset descriptions</p></li>
+<li><p>NeurIPS also now recommends using the Croissant format</p></li>
+<li><p>Supports the Core RAI vocab for explainable AI</p></li>
+<li><p>If images/other files - points to the path</p></li>
+</ul>
+<p>todo:</p>
+<ul>
+<li>integer precision and more detailed dtypes</li>
+<li>How are uploaded files linked to each other?</li>
+<li>Lineage of datasets</li>
+</ul>
+<p><img src="Attachments/image6.jpg" class="img-fluid"></p>
+</section>
+<section id="development-tooling-and-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="development-tooling-and-workflows">4. Development Tooling and Workflows</h2>
+<p>leader:&nbsp;Pieter</p>
+<p>description: Automation is important to create more sustainable workloads and generally improves overall project quality. What tooling and workflows are employed in your projects to run tests, ensure code quality, help contributors, and so on? Which do you find most useful? Are there decisions have you come to regret? What are your major pain points?<br>
+What are our responsibilities as open source projects, should we be embracing platforms such as e.g., CodeBerg/Forgejo more?</p>
+<p>Notes:</p>
+<ul>
+<li><p>Switch to open-source tools like CodeBerg once if offers more conveniences</p></li>
+<li><p>&nbsp;There is a GitHub maintainer org that you can apply to (if you are maintainer of an important enough package) that can give you more direct access to GH dev/projects.</p></li>
+<li><p>Use of Azure workflows in scikit-learn is largely historical, but also provides a spread over different (free) usage limits</p></li>
+<li><p>GPU actions with a limited budget</p></li>
+<li><p>GitHub actions workflow problems</p></li>
+<li><p>testing is a pain and not really supported (easier on Azure)</p></li>
+<li><p>badish documentation but better than Azure</p></li>
+<li><p>run documentation examples that are linked to changes in PR diff - use Circle CI because it can easily render the generated HTML in the browser (as opposed to GH where you download the artifact)</p></li>
+<li><p>bot for linter errors to post it as comment helped a lot</p></li>
+<li><p>aiming for 100% code coverage, including all validation though that is centralized. Disable coverage for certainly not tested parts of the code. Also test errors and types and warnings.</p></li>
+</ul>
+</section>
+<section id="probabl-product-technical-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="probabl-product-technical-discussion">5. Probabl Product Technical Discussion</h2>
+<p>leader:&nbsp; <a href="mailto:cam@probabl.ai">Camille Troillard</a></p>
+<p>description: Presentation/discussion of the Probabl technical product and potential collaboration.</p>
+<ul>
+<li><p>What to do to put sklearn in production, to make it commercially viable</p></li>
+<li><p>Help data scientists do better ML</p></li>
+<li><p>Better understand their model’s behavior</p></li>
+<li><p>Build something that we’re proud of (and we’re picky)</p></li>
+<li><p>Let people do what they do (don’t interfere), but show interesting things along the way</p></li>
+<li><p>You should not require a platform, but it should be very easy to switch to a platform</p></li>
+<li><p>Educate people. E.g. you’re changing the metric but this metric doesn’t make sense.</p></li>
+<li><p>Interactive dashboard that shows results of your experiment</p></li>
+<li><p>code and outputs side by side</p></li>
+<li><p>Like Weights and Biases, but runs locally</p></li>
+<li><p>Outputs data in a portable DB, results are registered and predictions are shown when they are available</p></li>
+<li><p>unified API to the whole infrastructure stack (like MetaFlow)</p></li>
+<li><p>Button to ‘push to production’ or ‘push to OpenML’ depending on the user</p></li>
+<li><p>“We’ve been spoonfed microservices in order to become addicted to CSPs”</p></li>
+</ul>
+<p>Feedback for OpenML</p>
+<ul>
+<li>Have a clear tagline, e.g.&nbsp;‘Frictionless ML resources’</li>
+<li>Better search interface</li>
+<li>Nice visualizations for the run page</li>
+<li>Fast website</li>
+</ul>
+<p><img src="Attachments/image4.jpg" class="img-fluid"><img src="Attachments/image1.jpg" class="img-fluid"></p>
+</section>
+<section id="collaboration-ecosystem-for-open-source-machine-learning" class="level2">
+<h2 class="anchored" data-anchor-id="collaboration-ecosystem-for-open-source-machine-learning">6. Collaboration Ecosystem for Open-Source Machine Learning</h2>
+<p>leader:&nbsp;Lennart Purucker</p>
+<p>description: What other open-source frameworks are struggling with the same questions we are struggling with? Should we reach out to them? Is there a need for a collaboration ecosystem in open-source machine learning/AI? What are lessons learned from which others might benefit? What are lessons learned from others from which we might benefit?</p>
+<p>notes:</p>
+<ul>
+<li><p>Struggles for Open Source</p></li>
+<li><p>Copying and learning from scikit-learn projects</p></li>
+<li><p>Bots, CI/CD, CI logic</p></li>
+<li><p>see <a href="https://www.google.com/url?q=https://scientific-python.org/&amp;sa=D&amp;source=editors&amp;ust=1719394356869507&amp;usg=AOvVaw2rcPxnsFWGPrp9EoI0nwEA">https://scientific-python.org/</a>, <a href="https://www.google.com/url?q=https://scipy.org/&amp;sa=D&amp;source=editors&amp;ust=1719394356869809&amp;usg=AOvVaw0gqGKjkkZEAjKgjf5GnJNY">https://scipy.org/</a>&nbsp;</p></li>
+<li><p><a href="https://www.google.com/url?q=https://learn.scientific-python.org/development/&amp;sa=D&amp;source=editors&amp;ust=1719394356870111&amp;usg=AOvVaw3aDvp6K7R5EgkE1KmpEDDy">https://learn.scientific-python.org/development/</a>&nbsp;</p></li>
+<li><p>helps with CI/CD setup and provide more documentation on how to setup a open source project</p></li>
+<li><p>Main issue is human traffic for open-source</p></li>
+<li><p>opening issues, PRs, …</p></li>
+<li><p>What other open-source frameworks are struggling with the same questions we are struggling with?</p></li>
+<li><p><a href="https://www.google.com/url?q=https://learn.scientific-python.org/contributors/setup/ecosystem/&amp;sa=D&amp;source=editors&amp;ust=1719394356870858&amp;usg=AOvVaw0GxGdsLSrERcUTkaLcATef">https://learn.scientific-python.org/contributors/setup/ecosystem/</a>&nbsp;</p></li>
+<li><p>ML Backbone</p></li>
+<li><p>Scikit-learn, PyTorch, TensorFlow, MLR, MLJ</p></li>
+<li><p>XGBoost, LightGBM, CatBoost</p></li>
+<li><p>OpenML, Pandas, NumPy, SciPy, Polars</p></li>
+<li><p>Python Backbone</p></li>
+<li><p>Pip / PyPi, Conda, vu</p></li>
+<li><p>Ray, Joblib</p></li>
+<li><p>ML Applications / AutoML / …</p></li>
+<li><p>AMTLK, Auto-Sklearn, FLAML, AutoGluon, H2O …</p></li>
+<li><p>Should we reach out to them?</p></li>
+<li><p>Company-driven open-source vs.&nbsp;community-driven open-source</p></li>
+<li><p>company-driven example</p></li>
+<li><p>tensorflow, (PyTorch)</p></li>
+<li><p>Internal CI vs.&nbsp;open-source CI</p></li>
+<li><p>community-driven</p></li>
+<li><p>scikit-learn</p></li>
+<li><p>Via GitHub</p></li>
+<li><p>Is there a need for a collaboration ecosystem in open-source machine learning/AI?</p></li>
+<li><p>Only if we have problems, otherwise unnecessary overhead.</p></li>
+<li><p>Are they my dependencies or am I there dependencies?</p></li>
+<li><p>What are lessons learned from which others might benefit? / What are lessons learned from others from which we might benefit?</p></li>
+<li><p>mostly the governance documents</p></li>
+<li><p>document CI</p></li>
+<li><p>see <a href="https://www.google.com/url?q=https://scientific-python.org/&amp;sa=D&amp;source=editors&amp;ust=1719394356872729&amp;usg=AOvVaw3Z5wckRTLpEEUDO4M1_o7X">https://scientific-python.org/</a>&nbsp;</p></li>
+<li><p>only start testing / maintaining other environments one request / when issues arise</p></li>
+<li><p><a href="https://www.google.com/url?q=https://scikit-learn.org/stable/developers/minimal_reproducer.html&amp;sa=D&amp;source=editors&amp;ust=1719394356873154&amp;usg=AOvVaw3Y5n6aknyZh_jcCeXC5PAH">https://scikit-learn.org/stable/developers/minimal_reproducer.html</a>&nbsp;</p></li>
+</ul>
+<p><img src="Attachments/image5.jpg" class="img-fluid"></p>
+</section>
+<section id="academic-and-industrial-scope-of-openml-and-probabl-in-ai" class="level2">
+<h2 class="anchored" data-anchor-id="academic-and-industrial-scope-of-openml-and-probabl-in-ai">7. Academic and Industrial Scope of OpenML and Probabl in AI</h2>
+<p>leader:&nbsp;Lennart Purucker</p>
+<p>who else is joining?&nbsp;<a href="mailto:yann@probabl.ai">Yann Lechelle</a></p>
+<p>description: Where do we see ourselves in the general field of AI/ML? Are we only tabular data? Are we connected to GenAI, Computer Vision, and NLP? How is our connection to industry applications? How do we effectively explain our position to stakeholders (who read too much about GenAI)?</p>
+<ul>
+<li><p>Input Modalities</p></li>
+<li><p>Tabular (OpenML, Scikit-learn)</p></li>
+<li><p>Time Series</p></li>
+<li><p>Vision (OpenML Soon)</p></li>
+<li><p>NLP</p></li>
+<li><p>Graphs</p></li>
+<li><p>(Other)</p></li>
+<li><p>Output Modalities / Task</p></li>
+<li><p>Scalar Regression&nbsp;(OpenML, Scikit-learn)</p></li>
+<li><p>Quantile Regression (OpenML, Scikit-learn)</p></li>
+<li><p>Multiclass Classification (OpenML, Scikit-learn)</p></li>
+<li><p>No-target / Unsupervised / Data Insights &nbsp;(OpenML, Scikit-learn)</p></li>
+<li><p>Survival Analysis (Scikit-learn)</p></li>
+<li><p>Forecasting</p></li>
+<li><p>Anomaly Classification</p></li>
+<li><p>Anomaly Detection (OpenML, Scikit-learn)</p></li>
+<li><p>Generative AI: Structured Predictions</p></li>
+<li><p>ML Techniques in AI/ML</p></li>
+<li><p>Traditional ML Algorithms (SVM, RF, Boosting) (OpenML, Scikit-learn)</p></li>
+<li><p>Traditional Deep Learning (OpenML)</p></li>
+<li><p>Large Foundation Models</p></li>
+<li><p>What do Stakeholders Understand?</p></li>
+<li><p>Time Series</p></li>
+<li><p>GenAI</p></li>
+<li><p>Notes:</p></li>
+<li><p>scikit-learn limitation is the API definition</p></li>
+<li><p>probabl: “own your data science”</p></li>
+<li><p>border scope, may include other things besides scikit-learn</p></li>
+<li><p>also deep learning and large foundation models</p></li>
+<li><p>scope is wide around open-source technology</p></li>
+<li><p>can we connect OpenML to probabl scope</p></li>
+<li><p>“exporting” the API?</p></li>
+<li><p>LLMs “do” UX for ML</p></li>
+</ul>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"><img src="Attachments/image3.jpg" class="img-fluid"></h2>
+<hr>
+<p>Aggregated To-Dos</p>
+<p>Openml</p>
+<ul>
+<li>check whether all parquet file can be read with polars and pandas</li>
+<li>convert all sparse datasets to dense to store then in parquet</li>
+<li>have an explanation for differences between versions. When people upload a new version of a dataset, ask for an explanation.</li>
+<li>sort dataset by the quality of the datasheet. Show user/datasetname/id as the name on the webui, remove/rename “version”</li>
+<li>website: implement a way to open an issue to contact the dataset owner</li>
+<li>datasheet has section on preprocessing, where people can point to a github link with preprocessing code, encourage users to do this (e.g.&nbsp;dataset quality score) and allow people to report problems</li>
+<li>visualization of the sklearn pipelines (flow)</li>
+<li>data quality plots</li>
+<li>Does the UX of OpenML need work</li>
+</ul>
+<p>probabl</p>
+<ul>
+<li>try to load parquet files from OpenML in fetch_openml</li>
+</ul>
+<p>croissant</p>
+<ul>
+<li>integer precision and more detailed dtypes</li>
+<li>How are uploaded files linked to each other</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

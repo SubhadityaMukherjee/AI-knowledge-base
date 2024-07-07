@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.53">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Intro to Conditional GANS – Subhaditya’s KB</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Subhaditya’s KB</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Intro to Conditional GANS</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Intro to Conditional GANS</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">article</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="introduction-to-conditional-gans" class="level1">
+<h1>Introduction to Conditional GANs</h1>
+<section id="overview" class="level2 section{.abstract}">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Generating novel images from an image dataset has been a dream in Computer Vision. Being able to influence the generation of these images was made possible by a family of GANs named <strong>Conditional GANs</strong>. The following article explores these CGANs and shows how the DCGAN was modified to have the ability to control latent space traversal to a certain extent. We also look at the training paradigm and cover some challenges we might encounter while training a CGAN on our data.</p>
+</section>
+<section id="scope" class="level2 section{.scope}">
+<h2 class="anchored" data-anchor-id="scope">Scope</h2>
+<ul>
+<li>This article provides an overview of Conditional GANs (CGANs) and their ability to influence the generation of images.</li>
+<li>It talks about the differences between CGANs and normal GANs.</li>
+<li>It provides an explanation of the architecture of a CGAN and the added components for controlling feature generation.</li>
+<li>It discusses the loss functions and the training paradigm used in CGANs.</li>
+<li>It provides an overview of challenges that may arise when training a CGAN on specific data and how to potentially overcome them.</li>
+</ul>
+</section>
+<div class="section{.main}">
+<section id="pre-requisites" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h2>
+<p>Before understanding CGANs, we need to understand some concepts. ### Z Space Consider the task of generating new faces from a large dataset of faces. To create a new face, we can take an <em>average</em> of all the faces. Now, to create a new face, we need to tweak the <em>average</em> face a little. We could make the nose a little longer, the mouth smaller and so on. Our <em>average</em> face would also have the same features as human faces but be in between all the faces. These transformations can be thought of as a kind of <strong>interpolation</strong>. In essence, we consider the faces as vectors and instead of moving from one to the other, we move to an intermediate point in between. We get new faces depending on which “direction” we choose to interpolate between these face vectors. This transformation enables CGANs to have more control over what they generate.</p>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>CGANs are a variant of GANs that allow for greater control over the features of the generated images. They build upon the DCGAN architecture, which is a popular architecture for GANs, and have a similar architecture with some small differences. The main difference between a CGAN and a DCGAN is the ability of a CGAN to control which features are modified in the generated images. This is achieved by conditioning the generator with additional information, such as labels, during the training process.</p>
+<p>This added complexity allows the CGAN to generate images with specific features, such as generating a specific type of fruit with certain characteristics. By providing the generator with more information, it can create a more diverse set of images while still preserving the features that we want. Additionally, the CGAN has a better ability to generalize to unseen data, which is an essential aspect when it comes to image generation tasks. Overall, the CGAN architecture is an important step forward in the field of GANs, as it allows for more control over the generation process and improves the quality of the generated images.</p>
+<p>This article takes an in-depth look at CGANs.</p>
+</section>
+<section id="what-is-a-conditional-gan" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-conditional-gan">What is a conditional GAN?</h2>
+<p>A Conditional GAN (CGAN) is a modification of the DCGAN architecture that allows for more control over the features of the generated images. Unlike the DCGAN, a CGAN can selectively modify certain features of the generated image by conditioning the generator with additional information, such as labels, during training. This input allows the generator to generate images consistent with the conditioning information and specific characteristics that the labels represent. The differences between a CGAN and a DCGAN come from changes to the training methodology. In a CGAN, the generator is guided by the labels during training to traverse the latent space, the lower-dimensional space of random noise input that the generator uses to create images. These labels give the CGAN more control over what it generates by allowing it to traverse the latent space more precisely and be guided by the labels.</p>
+<p>An example would include choosing specific features of the face to modify.</p>
+<p>[IMAGE {0} { CGAN Example } START SAMPLE] <img src="https://hackmd.io/_uploads/Byjuuacqs.png" class="img-fluid" alt="CGAN Example"> [IMAGE {0} FINISH SAMPLE]</p>
+</section>
+<section id="how-is-it-different-from-gan" class="level2">
+<h2 class="anchored" data-anchor-id="how-is-it-different-from-gan">How is it different from GAN</h2>
+<p>There are a few significant differences between a GAN and a CGAN. This article compares the CGAN to the DCGAN, as the latter is the base for many advanced GANs. These differences are summarized in the following table.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 46%">
+<col style="width: 53%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>GAN</th>
+<th>CGAN</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Output features are not controllable</td>
+<td>Output features can be controlled</td>
+</tr>
+<tr class="even">
+<td>Unsupervised</td>
+<td>Semi-Supervised</td>
+</tr>
+<tr class="odd">
+<td>Discriminator does not receive labels</td>
+<td>Discriminator requires labels</td>
+</tr>
+<tr class="even">
+<td>Discriminator evaluates similarity between input and target images</td>
+<td>Discriminator considers input and target images and their respective labels</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="architecture" class="level2">
+<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
+<p>The overall architecture of a CGAN is similar to that of a DCGAN but with minor modifications. The Discriminator architecture in a CGAN is similar to that of a DCGAN, consisting of several convolutional layers, batch normalization layers, and Leaky ReLU activation functions. However, in a CGAN, the Discriminator receives an additional input, the conditioning information, such as labels, and the generated image. This extra input allows the Discriminator to consider both the image’s realism and the consistency of the conditioning information when evaluating the generated image. The Generator architecture in a CGAN is similar to that of a DCGAN, consisting of several transpose convolutional layers, batch normalization layers, and ReLU activation functions. However, in a CGAN, the Generator receives an additional input, the conditioning information, and the random noise used as the latent code. This input allows the Generator to generate images consistent with the conditioning information.</p>
+<p>[IMAGE {1} { CGAN Architecture } START SAMPLE] <img src="https://hackmd.io/_uploads/By93OmT_j.jpg" class="img-fluid" alt="CGAN Architecture"> [IMAGE {1} FINISH SAMPLE]</p>
+<section id="the-discriminators-network" class="level3">
+<h3 class="anchored" data-anchor-id="the-discriminators-network">The Discriminator’s network</h3>
+<p>The Discriminator in a CGAN has a similar architecture as the DCGAN, consisting of several convolutional layers, batch normalization layers, and Leaky ReLU activation functions. However, an additional hot-encoding layer is added to consider the current image’s labels. This layer is used to represent the conditioning information, such as the labels, in a format that the network can process. This addition allows the Discriminator to consider both the image’s realism and the consistency of the conditioning information when evaluating the generated image. Thus it can guide the generator to create images with specific characteristics.</p>
+<p>[IMAGE {2} { Discriminator Architecture } START SAMPLE] <img src="https://hackmd.io/_uploads/rkeZKX6Os.png" class="img-fluid" alt="Discriminator Architecture"> [IMAGE {2} FINISH SAMPLE]</p>
+</section>
+<section id="the-generators-network" class="level3">
+<h3 class="anchored" data-anchor-id="the-generators-network">The Generator’s network</h3>
+<p>The Generator in a CGAN also has a similar architecture as the DCGAN, consisting of several transposed convolutional layers, batch normalization layers, and ReLU activation functions. However, it also has an additional layer added to take into consideration the labels. This added layer helps the generator create images with certain characteristics and make them more consistent with the conditioning information.</p>
+</section>
+</section>
+<section id="loss-functions" class="level2">
+<h2 class="anchored" data-anchor-id="loss-functions">Loss functions</h2>
+<p>To train the network, we use two loss functions for the Generator and the Discriminator of the CGAN, respectively. ### Generator Loss Since the Generator’s objective is to create better fake images gradually, it needs to minimize the difference between the predicted image and the target. The model uses [../../One hot|one hot] encoded label in this architecture to decide which features to care for. The loss function thus is the following.</p>
+<p><span class="math display">\[\mathcal{L}^{(G)}(\theta^{(G)}, \theta^{(D)}) = - \mathbb{E}_{z} log \mathcal{D} (\mathcal{G} (z|y’))\]</span></p>
+<p>The equation can be thought of as: given a label, use the Generator to traverse the latent space and create an image. Then pass the created image through the Discriminator and find how well we performed. ### Discriminator Loss Since the objective of the Discriminator is to label the generated images, its outputs are the probability that the image is true. The loss function is, therefore, the following. (This is a Binary Cross Entropy Loss function)</p>
+<p><span class="math display">\[ \mathcal{L}^{(D)}(\theta^{(G)}, \theta^{(D)})= - \mathbb{E}_{x \sim p_{data}}log \mathcal{D}(x|y) - \mathbb{E}_{z} log (1- \mathcal{D}(\mathcal{G}(z|y')))\]</span></p>
+</section>
+<section id="training" class="level2">
+<h2 class="anchored" data-anchor-id="training">Training</h2>
+<p>Training a CGAN is similar to training any other GAN. The Discriminator and the Generator work parallel to create novel images and identify how real they look. The Generator first starts with random noise and passes it to the Discriminator. The Discriminator, in this case, is also provided with labels and returns a probability of how real it thinks the generated image is. This probability is passed to the Generator, which updates its weights to generate better images slowly. This cycle continues until the required quality of images is generated.</p>
+<section id="training-flow" class="level3">
+<h3 class="anchored" data-anchor-id="training-flow">Training Flow</h3>
+<p>Training a CGAN is similar to training any other GAN, the main difference being the use of conditioning information to guide the network in generating specific features. We can break down the process into several steps:</p>
+<ul>
+<li>The Generator starts with a random noise, often called a latent code, as its input. This noise is passed through the generator network, which maps it to an image in the data space.</li>
+<li>The generated image and its corresponding conditioning information, such as labels, are passed to the Discriminator. The Discriminator evaluates the image based on its similarity to the real images and the consistency of the conditioning information. It returns a probability of how realistic the generated image is.</li>
+<li>The probability is passed back to the Generator, which uses it to update its weights to generate better images. - The weights are updated to minimize the difference between the generated and real images.</li>
+<li>This process is repeated for several iterations until the Generator can produce images that are of the desired quality. During this process, the Discriminator and Generator improve each other, with the Discriminator getting better at identifying realistic images and the Generator getting better at producing realistic images.</li>
+</ul>
+<p>One important thing to note is that, during the training process, we must provide the Discriminator with real images and the conditioning information. The additional information allows the Discriminator to make informed decisions about the realism of the generated images and to detect if the conditioning information is consistent with the generated image.</p>
+</section>
+</section>
+<section id="challenges-with-conditional-generation" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-with-conditional-generation">Challenges with Conditional generation</h2>
+<p>No model is perfect. CGANs have multiple issues as well. Some of these have been tackled by later research, while others are still active research areas.</p>
+<p>[IMAGE {3} { Discriminator Training Flow } START SAMPLE] <img src="https://hackmd.io/_uploads/BJcMtm6Oo.jpg" class="img-fluid" alt="Discriminator Training Flow"> [IMAGE {3} FINISH SAMPLE]</p>
+<p>[IMAGE {4} { Generator Training Flow } START SAMPLE] <img src="https://hackmd.io/_uploads/HycGKQpdo.jpg" class="img-fluid" alt="Generator Training Flow"> [IMAGE {4} FINISH SAMPLE]</p>
+<section id="feature-correlation" class="level3">
+<h3 class="anchored" data-anchor-id="feature-correlation">Feature Correlation</h3>
+<p>Another challenge with CGANs is related to the correlation of features in the dataset, which can cause the generated images to be biased toward certain characteristics. For instance, when working with an image dataset of fruits, if the dataset contains images of mostly red apples, the output of the CGAN will also be biased toward generating red apples. Similarly, if the dataset contains mostly pears with spots, the CGAN will generate images of pears with spots.</p>
+<p>This feature correlation can cause problems when we want to generate an image of a fruit with certain characteristics that do not align with the features of the images in the dataset. For example, if we want to generate an apple with the spots of a pear, the CGAN might modify the entire apple instead of just the spots because these features are tightly linked in the dataset. This problem can make generating images with specific characteristics difficult or even impossible.</p>
+<p>One solution to this problem is to use larger and more diverse datasets that contain a wide range of images with various features. These datasets will help reduce feature correlation and increase the range of images the CGAN can generate. Pre-processing, such as data augmentation or removing correlation between features, might also help mitigate this issue.</p>
+</section>
+<section id="z-space-entanglement" class="level3">
+<h3 class="anchored" data-anchor-id="z-space-entanglement">Z-Space Entanglement</h3>
+<p>The Z-Space is the space of all possible points where a generator could generate an image. In other words, it is the space of all possible random inputs to the generator.</p>
+<p>When a generator generates an image, it takes a point from the Z-space and maps it to an image in the data space. The idea is that the generator learns a mapping from the latent space to the data space to generate new images by sampling from the latent space. However, this process is not always straightforward, as the latent space may need to be better structured or may not be entirely controllable.</p>
+<p>One of the challenges of working with the latent space is that it is often high-dimensional, which makes it difficult to visualize and understand. Additionally, the space may not be smoothly connected, resulting in “entanglement,” where the generator produces unexpected results when the latent space is traversed. Entanglement occurs when interpolation between examples becomes hard to perform and can lead to difficulties in controlling the generation process, making it difficult to generate specific images.</p>
+</section>
+<section id="classifier-gradients" class="level3">
+<h3 class="anchored" data-anchor-id="classifier-gradients">Classifier Gradients</h3>
+<p>Another challenge with CGANs is related to the ability of the network to identify and modify specific features in the generated images. For the CGAN to make changes in a specific way, it must first be able to understand and interpret what we want it to modify. For example, in the case of generating fruits, if we want to generate an image of a fruit with a longer stem, the network must first be able to understand what a stem is and what it means for it to be longer.</p>
+<p>This understanding can be difficult for the network because the feature we want to modify may not always be clearly defined, or the network may need more information to understand. In some cases, the network may generate images different from what we want because it may interpret our request differently or need more information to make the desired change. Additionally, the feature we want to change might be harder to identify in the images. Hence the network might need help to learn it.</p>
+<p>One solution to this problem is to use more explicit and detailed conditioning information, such as annotations or labels, to guide the network in identifying and modifying specific features. For example, in the case of generating fruits, we could provide the network with detailed annotation data on the fruits, including information on the size, shape, and position of the stem. However, this approach requires a large amount of labeled data, which may only sometimes be available or can be time-consuming to acquire.</p>
+<p>Overall, being able to modify specific features in the generated images is a challenging task for CGANs and requires careful consideration of the available data and the network architecture used.</p>
+</section>
+</section>
+</div>
+<section id="conclusion" class="level2 section{.summary}">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<ul>
+<li>In conclusion, this article discussed Conditional GANs (CGANs), a family of GANs that allow for control over the features modified in the generated image.</li>
+<li>The CGAN builds upon the DCGAN architecture and mainly differs in its training methodology, which allows for traversing the latent space by conditioning the generator with labels during training.</li>
+<li>The article also compared CGANs to DCGANs, highlighting the key differences between the two, such as the output feature control and the semi-supervised nature of CGANs.</li>
+<li>The article also provided an overview of CGAN architecture and the challenges one may face while training a CGAN.</li>
+<li>Overall, the article offers a comprehensive introduction to the concept and application of Conditional GANs, making it a valuable resource for anyone interested in this area of computer vision.</li>
+</ul>
+</section>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

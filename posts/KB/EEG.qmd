@@ -1,0 +1,27 @@
+---
+title: EEG
+categories: ['brain']
+date modified: Monday, October 10th 2022, 2:02:29 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# EEG
+- Electrical activity on the surface of the brain
+- Frequencies
+- [Pyramidal cell](Pyramidal%20cell.qmd)
+- [Electrode nomenclature](Electrode%20nomenclature.qmd)
+- Cheaper than [fMRI](fMRI.qmd)
+- Fast signals
+- Low anatomical [specificity](Specificity.qmd)
+	- Cant find where its coming from
+	- Lots of noise
+- [EEG Artifacts](EEG%20Artifacts.qmd)
+- [EEG Filtering](EEG%20Filtering.qmd)
+- [ERP](ERP.qmd)
+- [EEG Baseline Correction](EEG%20Baseline%20Correction.qmd)
+- [EEG Statistical Analysis](EEG%20Statistical%20Analysis.qmd)
+- [EEG Cap](EEG%20Cap.qmd)
+- This might be related to [fMRI](fMRI.qmd)
+
+
+

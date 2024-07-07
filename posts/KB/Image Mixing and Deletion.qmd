@@ -1,0 +1,47 @@
+---
+title: Image Mixing and Deletion
+
+categories: ['augment']
+date modified: Monday, October 10th 2022, 2:02:07 pm
+date created: Friday, October 7th 2022, 1:37:19 pm
+---
+
+# Image Mixing and Deletion
+- @naveedSurveyImageMixing2023
+- [Cutout] and [CutMix](Cutout] and [CutMix.qmd) argues that hindering image regions enforces the classifier to learn from the partially visible objects and understand the overall structure
+- [CutMix](CutMix.qmd) verifies this argument by showing enhanced focus towards the target class in
+- Opposite to this, MixUp has shown to improve classifier's calibration and reduced prediction uncertainity
+- mean of predictions vs accuracy where the confidence distribution for MixUp trained model is evenly distributed against the standard model whose disovertribution is towards higher conficence i.e. confidence
+- Similarly, the loss contours obtained for a network trained with MixUp are smooth as compared to sharp contours in standarad training
+- better generalization and robustness of MixUp against adversarial attacks.
+- [Mixup](Mixup.qmd)
+- [Cut and Delete](Cut%20and%20Delete.qmd)
+- [Cutout](Cutout.qmd)
+- [Random Erasing](Random%20Erasing.qmd)
+- [Hide and Seek](Hide%20and%20Seek.qmd)
+- [GridMask](GridMask.qmd)
+- [Adversarial Spatial Dropout for Occlusion](Adversarial%20Spatial%20Dropout%20for%20Occlusion.qmd)
+- [Cut and Mix](Cut%20and%20Mix.qmd)
+- [CutMix](CutMix.qmd)
+- [Attentive CutMix](Attentive%20CutMix.qmd)
+- [AttributeMix](AttributeMix.qmd)
+- [RICAP](RICAP.qmd)
+- [Mixed Example](Mixed%20Example.qmd)
+- [CowMask](CowMask.qmd)
+- [ResizeMix](ResizeMix.qmd)
+- [SaliencyMix](SaliencyMix.qmd)
+- [Intra-Class Part Swapping](Intra-Class%20Part%20Swapping.qmd)
+- [SnapMix](SnapMix.qmd)
+- [KeepAugment](KeepAugment.qmd)
+- [Visual Context Augmentation](Visual%20Context%20Augmentation.qmd)
+- [Cut, Paste and Learn](Cut,%20Paste%20and%20Learn.qmd)
+- [Manifold MixUp](Manifold%20MixUp.qmd)
+- [AugMix](AugMix.qmd)
+- [SmoothMix](SmoothMix.qmd)
+- [Co-Mixup](Co-Mixup.qmd)
+- [Sample Pairing](Sample%20Pairing.qmd)
+- [Puzzle Mix](Puzzle%20Mix.qmd)
+- [ReMix](ReMix.qmd)
+
+
+

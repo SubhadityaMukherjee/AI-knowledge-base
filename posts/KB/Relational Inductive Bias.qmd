@@ -1,0 +1,16 @@
+---
+title: Relational Inductive Bias
+
+categories: ['temp']
+date modified: Monday, October 10th 2022, 2:02:18 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Relational [Inductive Bias](Inductive%20Bias.qmd)
+- [Weak Relation Bias](Weak%20Relation%20Bias.qmd)
+- [Locality](Locality.qmd)
+- [Sequential Relation Bias](Sequential%20Relation%20Bias.qmd)
+- [Arbitrary Relation Bias](Arbitrary%20Relation%20Bias.qmd)
+
+
+

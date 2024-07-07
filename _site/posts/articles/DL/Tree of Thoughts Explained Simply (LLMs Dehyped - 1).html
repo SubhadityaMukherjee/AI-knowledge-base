@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.53">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Tree of Thoughts Explained Simply (LLMs Dehyped - 1) – Subhaditya’s KB</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Subhaditya’s KB</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Tree of Thoughts Explained Simply (LLMs Dehyped - 1)</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Tree of Thoughts Explained Simply (LLMs Dehyped - 1)</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">article</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<!--section: 1-->
+<section id="tree-of-thoughts-explained-from-foundations-llms-unhyped---1" class="level1">
+<h1>Tree of Thoughts Explained From Foundations (LLMs Unhyped - 1)</h1>
+<blockquote class="blockquote">
+<p>“Programmers are, in their hearts, architects, and the first thing they want to do when they get to a site is to bulldoze the place flat and build something grand.” : Joel Spolsky, co-founder of Stack Overflow</p>
+</blockquote>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Large language models like GPT4 have taken over the world and has left every second IT person to scramble towards the next great AI solution. Given the monetary benefits, a lot of research has popped up in a very short time. While this is very exciting, it is wise to look a little deeper beneath the hype. The “new groundbreaking research from {X} that will change your company” is sometimes a tiny change or a creative use of an existing concept. This is not to pour cold water over your dreams, but a way to help you understand these concepts better. If you did not come from a technical computer science background, this constant influx of “groundbreaking research” can get very overwhelming.</p>
+<p>So here is a more sober, in depth view of how the “Tree of thoughts” [1] paradigm came into being from concepts that have been around for decades and creatively applied to LLMs.</p>
+<p>Note : Both the research and my understanding of it fluctuates over time and if something changes, I will try to come back and correct it. If you notice something weird, do drop a comment!</p>
+<!--section: 2-->
+</section>
+<section id="what-is-the-tree-of-thought" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-tree-of-thought">What is the Tree of Thought?</h2>
+<p>If you have not already encountered it, the Tree of Thoughts claims to help an LLM arrive at a more logical conclusion and also generate the steps it took to come to it.</p>
+<p>It was first mentioned in a paper by Yao et al.&nbsp;[1] and was further expanded on by a LOT of articles and papers. As the authors say, it is a way of “Deliberate Problem Solving with Large Language Models”.</p>
+<p>But you might ask, why do we care? I just want my assignment done for me.</p>
+<!--section: 3-->
+</section>
+<section id="why-bother-adding-it-to-an-llm" class="level2">
+<h2 class="anchored" data-anchor-id="why-bother-adding-it-to-an-llm">Why Bother Adding it to an LLM?</h2>
+<p>To better understand why we care about algorithms like this, we need to dig into some of the shortcomings behind LLMs. - <strong>Fixed Knowledge</strong> : A LLM is trained on a large text database encompassing a huge chunk of the web. But the web is not a fixed resource, neither is the information in it. Unless the model is trained with new data or an external data source is given to it, it’s “knowledge” is essentially fixed. - <strong>Cost of training</strong> : Training a LLM like ChatGPT is extremely costly, and it is just not possible to keep updating the model everytime something new pops up on the internet. - <strong>Knowing everything is not the point</strong> : At it’s heart, an LLM is not meant to know everything. It is just a text model - it predicts the next word in a sentence. Using it as a model that can understanding text and it’s underlying relations is a better and cheaper way to use it. - <strong>Logic</strong> : It is not easy to understand the steps an LLM took to arrive at an answer. Neither is it easy to make it follow logical steps without knowing the logic in the first place. - <strong>Structured Data</strong> : LLMs are great at making sense of large amounts of unstructured data. But it is not meant to be good at working with structured data like graphs by itself. There are workarounds, but it is not something an LLM can do by itself.</p>
+<p>Given these shortcomings, the Tree of Thought is an attempt at combining classical “logical search algorithms” with LLMs. How? Well, read on.</p>
+<!--section: 4-->
+</section>
+<section id="theoretical-background" class="level2">
+<h2 class="anchored" data-anchor-id="theoretical-background">Theoretical Background</h2>
+<p>This section is for you, the reader who want to dig deeper and understand the actual concepts that led to the research. If you just want to mash together models and don’t really care how they work. Just skip to the next section.</p>
+<p>Now, if you have a background in computers, you will recognize these terms. If you don’t, then pay attention. It will help you understand a lot of research in this domain.</p>
+<!--section: 4.1-->
+<section id="chain-of-thought" class="level3">
+<h3 class="anchored" data-anchor-id="chain-of-thought">Chain of Thought</h3>
+<p>The Tree of Thought is derived from a theoretical computer science concept - the “Chain of Thought”. Simply put, the Chain of Thought is a logical breakdown of a task into it’s simplest steps. Instead of trying to solve a problem as a whole, we try to solve it in parts and then combine the result. Why? Well, it is a lot easier to do and writing it formally makes it possible for others to understand how you arrived at the solution. (Think of trying to solve for x in a math equation.) It also adds in error checking. If something went wrong, you can backtrack and find the bug.</p>
+<p>Eg: You want to check if it’s raining outside. How would you break down the steps? Look outside the window -&gt; Check for rain clouds -&gt; Check if there are raindrops -&gt; Check the ground to see if it is wet -&gt; If all the conditions are satisfied, you know it is raining.</p>
+<!--section: 4.2-->
+</section>
+<section id="trees" class="level3">
+<h3 class="anchored" data-anchor-id="trees">Trees</h3>
+<p>In computing, a tree is a way of representing this chain of thought. It’s main advantage is that once we create a tree of steps, it is possible to iterate over it and reach a logical conclusion or explore options.</p>
+<p>A tree has a root node (eg: Is it raining) and leaf nodes (eg: rain clouds, wetness). The leaf nodes are arranged in levels and are connected to previous levels (eg: clouds -&gt; ((present) , (absent)) )</p>
+<!--section: 4.2.1-->
+</section>
+<section id="traversing-a-tree" class="level3">
+<h3 class="anchored" data-anchor-id="traversing-a-tree">Traversing a Tree</h3>
+<p>Once we have a tree, there are many ways of traversing on it. Choosing an algorithm usually depends on what you need, and how much compute you are willing to use. Some of the approaches used in the paper are as follows (high level explanations):</p>
+<ul>
+<li><strong>Breadth First Search</strong> : This is used to find the shortest path from the root to a leaf. The tree is traversed layer by layer and all nodes at each level are evaluated. If a match is found, the algorithm stops. This is quite fast.</li>
+<li><strong>Depth First Search</strong> : This is used if you want to explore your options and find new possibilites. The tree is traversed by starting at a node and going as deep as possible from there until the end. If a match is found, the algorithm stops. If not, it backtracks and goes to the next node. This is much slower, but is useful in certain cases.</li>
+<li><strong>Other Options</strong> : Covering the whole lot (like A*) is beyond the scope of this article, but you can refer to [4] if you want to learn more.</li>
+</ul>
+<!--section: 4.3-->
+</section>
+<section id="ensemble-learning" class="level3">
+<h3 class="anchored" data-anchor-id="ensemble-learning">Ensemble Learning</h3>
+<p>A large portion of ML algorithms are stochastic (if you run it again, you will get a different result). While this is good for tasks like creative writing, it is not great if you want logical answers. One way around this is to use multiple similar models on the same data and then “average” out the results. This somewhat helps to counter the randomness and usually leads to better performance.</p>
+<p>There are many ways of combining these results - Weight them and use a mix of them, use a majority vote, use a separate model to evaluate which result is better etc.</p>
+<p>Can you see how this would be useful for an LLM when trying to solve a logical problem?</p>
+<p>Want to learn more? Refer to [3].</p>
+<!--section: 5-->
+</section>
+</section>
+<section id="tricking-an-llm" class="level2">
+<h2 class="anchored" data-anchor-id="tricking-an-llm">Tricking an LLM</h2>
+<p>Now that you understand the background, let us dive into how this works with an LLM. So, what do we want to do? Simply put, we want the LLM to come up with different answers that we can then put into a graph. We can then use this graph to arrive at a more logical solution. Spoiler : Can you see why this would not always be a good idea?</p>
+<!--section: 5.1-->
+<section id="prompts" class="level3">
+<h3 class="anchored" data-anchor-id="prompts">Prompts</h3>
+<p>How do we do it? Quite simple really, we first define a format such as “the answer is {n} because {x1} and {x2} lead to {n}”. We then prompt multiple times using a prompt like “solve it in multiple ways while pretending to be three different experts” and save the results. We also add a prompt like “only use the information give”, and voila! We have a graph.</p>
+<p>Well, mostly. The answers you get might or might not be useful.</p>
+<!--section: 5.2-->
+</section>
+<section id="ensemble" class="level3">
+<h3 class="anchored" data-anchor-id="ensemble">Ensemble</h3>
+<p>Now that you have the answers, provided your prompt has the logic you want, you can decide how to traverse the graph and find the best answer. You can also then repeat this multiple times and vote on the best result from multiple graphs.</p>
+<!--section: 6-->
+</section>
+<section id="evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation">Evaluation</h3>
+<p>If you know exactly how to evaluate the task (eg: The best step for a robot to take when choosing to get left or right depends on if it will hit something or not), then you can use that as a criteria. But well, this is neither always possible. If you already knew what you wanted, then you would probably not be using an LLM.</p>
+<p>The paper asks the model to evaluate how well it did itself. Respectfully, this might be a bit dubious for real world issues if unchecked.</p>
+<!--section: 7-->
+</section>
+</section>
+<section id="immediate-shortcomings" class="level2">
+<h2 class="anchored" data-anchor-id="immediate-shortcomings">Immediate Shortcomings</h2>
+<p>While the Tree of Thought is quite a nice idea, there are quite a few issues that immediately crop up. - <strong>Evaluation</strong> : How can we decide if the answer is correct. Say for a math problem, if you knew how to get to the right step, why would you use an LLM? And for say a creative writing task, how can you even evaluate if the answer was correct? - <strong>Manual Effort</strong> : Using a Tree of Thought in practise requires a bit of manual effort in creating the perfect logical prompt, and knowing the evaluation steps beforehand. This might not always be useful. - <strong>Bias</strong> : Asking a model to evaluate how well it did is to ask a math student to see if they got the problem right. If they knew how to check, why would they want to explore other paths? But perhaps it could encourage them to think deeper about other aspects of a problem. - <strong>Computation</strong> : This is a big one. Running an LLM is expensive. For most tasks, running a model multiple times and then further algorithms is not exactly compute friendly. - <strong>Not everything needs an LLM</strong> : As they say, “when you have a hammer, everything starts looking like a nail”. An LLM is useful, but not everywhere.</p>
+<!--section: 8-->
+</section>
+<section id="perks" class="level2">
+<h2 class="anchored" data-anchor-id="perks">Perks</h2>
+<p>So when would you actually want to use them? - <strong>Generating Data</strong> : An LLM comes with a lot of knowledge inbuilt. Perhaps this is a good way to generate data for a different task. Using a Tree of Thought would enable an LLM to come up with much better and more logical examples. - <strong>Forcing an LLM to think more</strong> : Instead of taking the first result for granted, you can force the LLM to think a step deeper. Like a kid asking “why?” multiple times, perhaps a better answer can be reached. - <strong>Combining with Knowledge Bases</strong> : Combining the language understanding capabilites of LLMs with existing knowledge bases is pretty useful. While this area is a little different from the Tree of Thought, they are related concepts. Perhaps in the future these ideas will be combined to improve LLMs even further [6]. - <strong>Domain Specific Information</strong> : This could be used as a means of injecting domain specific logical steps to the results obtained from an LLM.</p>
+<!--section: 9-->
+</section>
+<section id="why-llms-unhyped" class="level2">
+<h2 class="anchored" data-anchor-id="why-llms-unhyped">Why “LLMs Unhyped”?</h2>
+<p>This is the first article in the series <em>LLMs Unhyped</em>. A rather weird name, I know. But why even have this series in the first place? LLMs are amazing, but they are still in the research phase. With companies like OpenAI and Hugging face, it is now possible for a lot of people to work with these massive AI pipelines without much effort.</p>
+<p>While that is an amazing feat in itself, and so many great ideas come out of it, it also leads to a lot of misinformation. In the hype of AI, many people who don’t fully understand the background research end up using these massive models in places where they were probably not needed.</p>
+<p>Sometimes, it’s awesome. But in other times, it is a massive waste of money. Now ultra large corporations want you to spend your money on them, why wouldn’t they? But occasionally it’s like using a helicopter to get to a supermarket 100m away.</p>
+<p>AI has it’s uses. But not everywhere. By no means is this a critique against research or enjoying the magic of AI. Please, continue to do that! But consider your options too. At the end of the day, this is just yet another tool.</p>
+<!--section: 10-->
+</section>
+<section id="some-more-resources-for-you" class="level2">
+<h2 class="anchored" data-anchor-id="some-more-resources-for-you">Some More Resources for You :)</h2>
+<ul>
+<li>[1] Tree of Thoughts : https://arxiv.org/abs/2305.10601</li>
+<li>[2] Graph of Thoughts : https://arxiv.org/abs/2308.09687</li>
+<li>[3] Voting Algorithms : https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier</li>
+<li>[4] Graph Search Algorithms : https://en.wikipedia.org/wiki/Graph_traversal , https://en.wikipedia.org/wiki/Pathfinding</li>
+<li>[5] Roadmap of KB + LLM : https://arxiv.org/abs/2306.08302</li>
+</ul>
+<!--section: 11-->
+</section>
+<section id="fin" class="level2">
+<h2 class="anchored" data-anchor-id="fin">Fin</h2>
+<p>This article is in the hopes that it will help someone out. Maybe have the help that I did not. I do not know who it will reach. But to whoever it does, best of luck :)</p>
+<p>Like these/Want more? Buy me a coffee! <a href="https://ko-fi.com/subhadityamukherjee">Kofi</a></p>
+<p>Want articles on something specific? Just ask!</p>
+<p>You can always contact me on <a href="https://www.linkedin.com/in/subhaditya-mukherjee-a36883100">LinkedIn</a>, or drop me an <a href="mailto:msubhaditya@gmail.com">Email</a></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.53">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>CycleGAN – Subhaditya’s KB</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Subhaditya’s KB</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">CycleGAN</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">CycleGAN</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">article</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="translating-images-using-a-cyclegan-scalar" class="level1">
+<h1>Translating Images Using a CycleGAN #scalar</h1>
+<div class="section{.abstract}">
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The field of computer vision has been trying to create AI that creates never seen before images for decades. Generative networks such as the CycleGAN are part of a long line of such research, but one that performs extremely well in tasks ranging from converting images to paintings to changing the weather in images. The CycleGAN is rather different from many approaches before it as it is an unpaired Image2Image translation task with these tasks being cyclic in nature. In this article, we will explore what all these terms mean and how to put them into practise in a CycleGAN.</p>
+</section>
+<section id="disclaimer" class="level2">
+<h2 class="anchored" data-anchor-id="disclaimer">Disclaimer</h2>
+<p>This is an intermediate level article and introduces a significant number of new terms. Attempting to understand this article is not recommended before mastering how a [../../Basic GAN|basic GAN] (eg: DCGAN) works. Being so complex, it is advised to slow down and understand a section before moving on to the next.</p>
+</section>
+</div>
+<section id="scope-of-the-article" class="level2 section{.scope}">
+<h2 class="anchored" data-anchor-id="scope-of-the-article">Scope of the Article</h2>
+<p>This article covers the following concepts - What is an unpaired Image2Image task - What is GAN and subsequently, what is a CycleGAN - Concepts such as Generators, Discriminator, Encoder Decoder architectures - Latent space as an easier means of understanding CycleGANs - Architectural Details and Training procedure of CycleGANs - How to use CycleGANs in various domains</p>
+</section>
+<div class="section{.main}">
+<section id="note-about-the-code" class="level2">
+<h2 class="anchored" data-anchor-id="note-about-the-code">Note About The Code</h2>
+<p>This article does not contain the code to run a CycleGAN. This was done to prevent the article from becoming extremely huge. Instead, every concept that would be required to understand the code is explained in detail below. The entire code with examples can be found on the <a href="https://keras.io/examples/generative/cyclegan/">official Tensorflow/Keras documentation website</a>. On understanding this article, this code will become extremely easy to comprehend and use. ## Quick Recap This section gives a recap of the important concepts we need to understand CycleGAN. ### Image2Image Translation An image translation task’s objective is to convert from one image to either text or another image. An example of the same would be taking a picture of a sunset and converting that picture to the style of the artist Van Gogh. There are many such Image translation tasks, but the one in consideration in this article is specifically converting from an image to another image aka Image2Image. ### Paired vs Unpaired Translation An important detail about the CycleGAN is that unlike most other GANs or UNet style architectures, it uses an unpaired translation. This means that the image, label pairs that are being passed into the model are not related to each other. In contrary to say, a classification task where the label passed is the exact label of the image passed. This might be slightly confusing to understand without knowledge of latent space. More explanations can be found in the next section ### GAN GANs are a special class of architectures that have two components, one that tries to get better at a task, and the other that tries to find out how badly the first part is performing. The training procedure is somewhat similar to a game with one component being an “adversary” of the other, hence the term “Adversarial network”. The generative term comes into play as these networks are used to create novel images from existing data. ### Adversarial Training A useful analogy to understand how a GAN is trained is the classic “cop” vs “thief” analogy. Assume that the thief in this case is trying to forge a painting by Van Gogh, while the cop tries to prove the thief wrong. The thief first comes up with a forgery, and the cop says no, this is fake and is not the real one because of some reason. The thief then shows a modified image to the cop with minor differences. This scenario repeats until the cop can no longer tell the difference between the real and the fake images. This type of training is called adversarial training. Using a second opinion to improve the outputs of the first component of the model. A useful advantage here is that the data does not need to be labelled. ### Generator The generator is the “thief”. It starts with random noise to create a fake image and traverses the latent space until the Discriminator can no longer tell the difference between the fake and the real images. ### Discriminator Consequently, the discriminator is the “cop”. It is essentially a classifier that returns a metric of how fake the image looks. ### Encoder Decoder Architecture Many networks such as the UNet and GANs have a two sided architecture that involves [../../Downsampling|downsampling] the image until a point and then upsampling from there on. The Encoder is the first half which downsamples the image and condenses the information in a batch of data down into the smallest possible unit. The decoder does the opposite, it takes this smallest possible unit and attempts to recreate the original input. In the process, it learns how to traverse the latent space and create the required translation.</p>
+<section id="residual-block" class="level3">
+<h3 class="anchored" data-anchor-id="residual-block">Residual Block</h3>
+<p>The Encoder Decoder architecture has a major drawback, in the process of compressing the image information and reconstructing it, a lot of information is lost during the operations. The Residual Block is the answer to this dilemma. It essentially contains a “Skip Connection” that ensures that the gradients from the previous layer are carried over to the next layer. This is done very simply. If <span class="math inline">\(F(x)\)</span> is the network, then for an input <span class="math inline">\(x_{i}\)</span>, <span class="math inline">\(x_i = F(x_{i-1}) + x_{i-1}\)</span>. ### Cost Function A cost function is the objective that the network tries to minimise. In essence, it is a metric of how well the network performs with respect to a task. For image classification, it could be CrossEntropy. CycleGAN has a rather complex cost function that is explained in later sections.</p>
+</section>
+</section>
+<section id="latent-space" class="level2">
+<h2 class="anchored" data-anchor-id="latent-space">Latent Space</h2>
+<p>Understanding latent space is the key to fully comprehending the CycleGAN. It can be thought of as an n-dimensional vector space that contains every possible image that can be generated from the given data. It is not possible to entirely visualise this directly but a useful analogy is considering faces. If we consider the faces of every person that we know and “average” them together, we would end up with a “generic face” that has traits from every face that we considered. From this “generic face”, if we were to attempt to recreate any of the other faces, we would have to “add” or “subtract” some features from the face to reach the other one. This can be thought of as “traversing” the latent space. Thus in essence, the latent space contains all such possible faces. In theory then, it makes sense to assume that if we can approximate this latent space, we can translate any image to the other by traversing it. The CycleGAN attempts to do just that. Traversal can go in both directions, hence it’s “cyclic” nature.</p>
+</section>
+<section id="cyclegan-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="cyclegan-architecture">CycleGAN Architecture</h2>
+<p>The CycleGAN architecture is divided into two major parts - The Generator and the Discriminator. The Generator further has the Encoder, the Transformer and the Decoder as components. ### Encoder Block The encoder uses convolution layers to consolidate information from the data and compress it into the least possible representational unit. The number of channels consequently increase. In the current model, there are 3 convolution operations. The final output of the model reduces the original image size by 3/4th and passes it to the Transformer Block.</p>
+<section id="transformer-block" class="level3">
+<h3 class="anchored" data-anchor-id="transformer-block">“Transformer” Block</h3>
+<p>The Transformer Block has nothing to do with “Transformer architectures” but is called so because it takes the output of the encoder and transformers it so the decoder can use it. In the CycleGAN, this block has around 6-9 Residual blocks. This is done to ensure maximum information extraction from the compressed representation that the encoder generates. ### Decoder Block The decoder block then takes the inputs from the transformer block and passes it through two de-convolution layers.</p>
+</section>
+<section id="discriminator" class="level3">
+<h3 class="anchored" data-anchor-id="discriminator">Discriminator</h3>
+<p>The Discriminator in the CycleGAN is another type of GAN - “PatchGAN”. This special type of Discriminator uses patches of the input image to map to outputs. Unlike a normal GAN that maps from a 256x256 sized image to a scalar result (“real” or “fake), the PatchGAN maps it to NxN sized arrays of outputs <span class="math inline">\(X\)</span> where each <span class="math inline">\(X_{i,j}\)</span> maps to (“real”, “fake”). This is run as a convolution through the entire image and the results are averaged out.</p>
+</section>
+</section>
+<section id="loss-functions" class="level2">
+<h2 class="anchored" data-anchor-id="loss-functions">Loss Functions</h2>
+<p>CycleGAN uses a mix of three loss functions. Along with adversarial loss, a cycle consistency loss and an identity loss are used to create the final objective function. ### Cycle Consistency Loss This is the most important part of the CycleGAN research. Considering two image domains <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>, the Cycle consistency loss uses two different mappings <span class="math inline">\(G: X \rightarrow Y\)</span> and <span class="math inline">\(F : Y \rightarrow X\)</span>. These mappings are bijections, aka reverses of each other. (Hence “cyclic”). As a mathematical expression, the Cycle Consistency Loss <span class="math inline">\(\mathcal{L}_{cyc}\)</span> can then be represented as <span class="math display">\[\mathcal{L}_{cyc}(G, F, X, Y) = \frac{1}{m}\Sigma_{i=1}^{m}[(F(G(x_{i})-x_{i})+ (G(F(y_{i}))-y_{i})]\]</span>. ### Identity Loss Another loss function that CycleGAN proposes is the Identity loss. <span class="math display">\[L_{identity}(G,F) = \mathbb{E}_{y \sim p_{data}(y)}[||G(y)-y)||_{1}] + \mathbb{E}_{x \sim p_{data}(x)}[||F(x)-x)||_{1}]\]</span> This is especially useful for converting to and from photos and paintings. The loss is used to preserve the color information during transformation and attempts to make sure that the reverse color is not used. If a part of the image looks like it belongs to the target image already, it is not mapped to something else. In principle, it makes the model more conservative if the content to be transformed is not known.</p>
+<section id="objectivecost-function" class="level3">
+<h3 class="anchored" data-anchor-id="objectivecost-function">Objective/Cost Function</h3>
+<p>The net loss function is therefore a combination of all the three losses just described. A hyper parameter <span class="math inline">\(\lambda\)</span> is used to control the strength of the transfer. It is usually set to 10. <span class="math display">\[\mathcal{L}_{GAN}(G, F, D_{X}, D_{Y}) = \mathcal{L}_{GAN}(G, D_{Y}, X, Y) + \mathcal{L}_{GAN}(F, D_{X}, X, Y) + \lambda \mathcal{L}_{cyc}(G,F)\]</span></p>
+<p>Thus the function that we wish to solve is finding the value of the optimisers that gives the best loss while maintaining the ability to convert to and from the target image. This can be seen in the formula. <span class="math display">\[G^{*},F^{*} =\underset{G,F}{argmin} \underset{D_{X}, D_{Y}}{max} \mathcal{L}_{GAN}(G, F, D_{X}, D_{Y})\]</span></p>
+</section>
+</section>
+<section id="other-useful-details-about-the-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="other-useful-details-about-the-architecture">Other Useful Details About The Architecture</h2>
+<p>The CycleGAN paper and code have a lot of interesting tweaks that were done to improve performance. Some of the ones that are not usually mentioned are as follows. ## Separate Optimizers There are two optimisers for the discriminator and the generator each. (Four in total.) Using two separate optimisers ensure that the model learns to convert images in both directions and minimises the loss for both sets of generators and discriminators. ### Instance Normalisation Instance normalisation is a regularisation technique that allows the network to remove specific contrast information when transferring style information between images. This technique makes CycleGANs extremely useful for image stylisation tasks. The formula is similar to that of Batch Normalisation and is left in this article as a reference. <span class="math display">\[y_{tijk} = \frac{x_{tijk} - \mu_{ti}}{\sqrt{\sigma_{ti}^2 + \epsilon}},
+    \quad
+    \mu_{ti} = \frac{1}{HW}\sum_{l=1}^W \sum_{m=1}^H x_{tilm},
+    \quad
+    \sigma_{ti}^2 = \frac{1}{HW}\sum_{l=1}^W \sum_{m=1}^H (x_{tilm} - mu_{ti})^2\]</span> ### Fractional Stride Most networks use a stride that is a whole number. CycleGAN has two types of convolutions. One type that has a stride of 2, while the other that has a stride of <span class="math inline">\(\frac{1}{2}\)</span>. This is a special case of convolution that is also known as a “de-convolution”. A fractional stride upsamples an image from a smaller dimension to a larger one. A whole number stride downsamples it. ### Reflection Padding When performing convolutions, the sliding window does not always fit the size of the image to be convolved, padding is used in those cases to make up for the missing pixels. In CycleGAN, a reflection padding is used which just means that the missing pixels are filled in with its neighbouring pixels before being convolved instead of being filled with a “black” 0 pixel. This helps to preserve some more content information.</p>
+</section>
+<section id="photos-to-paintings" class="level2">
+<h2 class="anchored" data-anchor-id="photos-to-paintings">Photos To Paintings</h2>
+<p>To convert photos to paintings, the procedure remains exactly the same as before. The only difference is the dataset. As long as the dataset contains images in different folders with different painting style information alongside a folder of plain photos, CycleGAN can convert between them. The original paper has many such results. Some of which are shown below. ## More Use Cases Just like converting photos to paintings, a similar thought process can be applied to find other uses cases. The ones that the paper mention are as follows : - Style Transfer : Same as photos to and from paintings except with other types of imagery than just paintings. - Object Transformation : Convert to and from objects within ImageNet classes by traversing the latent space. Eg: Converting apples to oranges, zebras to horses etc. - Season Transfer : Converting images taken in Winter to summer and vice versa.</p>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<p>Every method has its limitations. CycleGAN performs poorly when given geometrical transformations. This is because it is trained to change appearances but it does not penalise changes in geometry.</p>
+</section>
+</div>
+<section id="conclusion" class="level2 section{.summary}">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>In this article, we learnt about CycleGAN and all the architectural details required to create it. We explored the concept of a latent space and understood how a GAN works by traversing it. We also looked at many applications of a CycleGAN and how to train one on our own data.</p>
+</section>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

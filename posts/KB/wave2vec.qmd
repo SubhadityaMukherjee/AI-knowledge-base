@@ -1,4 +1,5 @@
 ---
+toc: true
 title: wave2vec
 
 categories: ['architecture']

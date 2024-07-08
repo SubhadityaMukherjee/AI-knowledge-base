@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Coping Theory
 
 categories: ['ethics']

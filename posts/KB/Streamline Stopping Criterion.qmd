@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Streamline Stopping Criterion
 
 categories: ['visualization']

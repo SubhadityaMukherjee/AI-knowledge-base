@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Cross Entropy
 categories: ['loss']
 date modified: Friday, January 20th 2023, 1:50:35 pm

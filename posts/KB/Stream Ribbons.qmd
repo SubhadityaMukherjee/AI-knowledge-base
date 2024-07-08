@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Stream Ribbons
 
 categories: ['visualization']

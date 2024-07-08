@@ -100,7 +100,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -117,23 +117,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,6 +141,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Conditional GAN.html">Conditional GAN</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -170,15 +169,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12461,7 +12459,33 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#conditional-gan" id="toc-conditional-gan" class="nav-link active" data-scroll-target="#conditional-gan">Conditional GAN</a>
+  <ul class="collapse">
+  <li><a href="#architecture" id="toc-architecture" class="nav-link" data-scroll-target="#architecture">Architecture</a>
+  <ul class="collapse">
+  <li><a href="#the-discriminators-network" id="toc-the-discriminators-network" class="nav-link" data-scroll-target="#the-discriminators-network">The Discriminator’s network</a></li>
+  <li><a href="#the-generators-network" id="toc-the-generators-network" class="nav-link" data-scroll-target="#the-generators-network">The Generator’s network</a></li>
+  </ul></li>
+  <li><a href="#loss-functions" id="toc-loss-functions" class="nav-link" data-scroll-target="#loss-functions">Loss functions</a>
+  <ul class="collapse">
+  <li><a href="#gen" id="toc-gen" class="nav-link" data-scroll-target="#gen">Gen</a></li>
+  <li><a href="#disc" id="toc-disc" class="nav-link" data-scroll-target="#disc">Disc</a></li>
+  </ul></li>
+  <li><a href="#training" id="toc-training" class="nav-link" data-scroll-target="#training">Training</a>
+  <ul class="collapse">
+  <li><a href="#training-flow" id="toc-training-flow" class="nav-link" data-scroll-target="#training-flow">Training Flow</a></li>
+  </ul></li>
+  <li><a href="#challenges-with-conditional-generation" id="toc-challenges-with-conditional-generation" class="nav-link" data-scroll-target="#challenges-with-conditional-generation">Challenges with Conditional generation</a></li>
+  <li><a href="#dcgan-vs-cgan" id="toc-dcgan-vs-cgan" class="nav-link" data-scroll-target="#dcgan-vs-cgan">DCGAN vs CGAN</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12487,28 +12511,69 @@ window.Quarto = {
 <section id="architecture" class="level2">
 <h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
 <ul>
-<li><a href="../../posts/KB/GAN Z Space.html">GAN Z Space</a> ### The Discriminator’s network</li>
+<li><a href="../../posts/KB/GAN Z Space.html">GAN Z Space</a></li>
+</ul>
+<section id="the-discriminators-network" class="level3">
+<h3 class="anchored" data-anchor-id="the-discriminators-network">The Discriminator’s network</h3>
+<ul>
 <li><strong>Discriminator’s</strong> evaluation is done not only on the similarity between fake data and original data but also on the correspondence of the fake data image to its input label (or features)</li>
 <li>Same as [DCGAN] except <a href="DCGAN] except [one hot.qmd">one hot</a> vector for conditioning</li>
 </ul>
+</section>
 <section id="the-generators-network" class="level3">
 <h3 class="anchored" data-anchor-id="the-generators-network">The Generator’s network</h3>
 <ul>
 <li>To create an image that looks as “real” as possible to fool the Discriminator.</li>
 <li>Same as [DCGAN] except <a href="DCGAN] except [one hot.qmd">one hot</a> vector.</li>
-<li><img src="0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png" class="img-fluid" alt="0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png"> ## Loss functions</li>
-<li>We need to calculate two losses for the Discriminator. The sum of the “fake” image and “real” image loss is the overall Discriminator loss. So the loss function of the Discriminator is aiming at minimizing the error of predicting real images coming from the dataset and fake images coming from the Generator given their one-hot labels. ### Gen</li>
+<li><div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png" class="img-fluid figure-img"></p>
+<figcaption>0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png</figcaption>
+</figure>
+</div></li>
+</ul>
+</section>
+</section>
+<section id="loss-functions" class="level2">
+<h2 class="anchored" data-anchor-id="loss-functions">Loss functions</h2>
+<ul>
+<li>We need to calculate two losses for the Discriminator. The sum of the “fake” image and “real” image loss is the overall Discriminator loss. So the loss function of the Discriminator is aiming at minimizing the error of predicting real images coming from the dataset and fake images coming from the Generator given their one-hot labels.</li>
+</ul>
+<section id="gen" class="level3">
+<h3 class="anchored" data-anchor-id="gen">Gen</h3>
+<ul>
 <li>The loss function of the Generator minimizes the correct prediction of the Discriminator on fake images conditioned on the specified one-hot labels.</li>
-<li><span class="math display">\[\mathcal{L}^{(G)}(\theta^{(G)}, \theta^{(D)}) = - \mathbb{E}_{z} log \mathcal{D} (\mathcal{G} (z|y’))\]</span> ### Disc</li>
+<li><span class="math display">\[\mathcal{L}^{(G)}(\theta^{(G)}, \theta^{(D)}) = - \mathbb{E}_{z} log \mathcal{D} (\mathcal{G} (z|y’))\]</span></li>
+</ul>
+</section>
+<section id="disc" class="level3">
+<h3 class="anchored" data-anchor-id="disc">Disc</h3>
+<ul>
 <li>has to correctly label real images which are coming from training data set as real.</li>
 <li>has to correctly label generated images which are coming from <strong>Generator</strong> as fake.</li>
-<li><span class="math display">\[ \mathcal{L}^{(D)}(\theta^{(G)}, \theta^{(D)})= - \mathbb{E}_{x \sim p_{data}}log \mathcal{D}(x|y) - \mathbb{E}_{z} log (1- \mathcal{D}(\mathcal{G}(z|y')))\]</span> ## Training</li>
+<li><span class="math display">\[ \mathcal{L}^{(D)}(\theta^{(G)}, \theta^{(D)})= - \mathbb{E}_{x \sim p_{data}}log \mathcal{D}(x|y) - \mathbb{E}_{z} log (1- \mathcal{D}(\mathcal{G}(z|y')))\]</span></li>
+</ul>
+</section>
+</section>
+<section id="training" class="level2">
+<h2 class="anchored" data-anchor-id="training">Training</h2>
+<ul>
 <li>The Discriminator is trained using real and fake data and generated</li>
 <li>After the Discriminator has been trained, both models are trained together.</li>
 <li>First, the Generator creates some new examples.</li>
-<li>The Discriminator’s weights are frozen, but its gradients are used in the Generator model so that the Generator can update its weights. ### Training Flow</li>
+<li>The Discriminator’s weights are frozen, but its gradients are used in the Generator model so that the Generator can update its weights.</li>
+</ul>
+<section id="training-flow" class="level3">
+<h3 class="anchored" data-anchor-id="training-flow">Training Flow</h3>
+<ul>
 <li>For the Disc <img src="1B3C997B-A352-4F79-B637-8C3F1373938B.webp.qmd" class="img-fluid" alt="1B3C997B-A352-4F79-B637-8C3F1373938B.webp"></li>
-<li>For the Gen <img src="65C9C942-61B6-46F1-B6F2-66C82948004B.webp.qmd" class="img-fluid" alt="65C9C942-61B6-46F1-B6F2-66C82948004B.webp"> ## Challenges with Conditional generation</li>
+<li>For the Gen <img src="65C9C942-61B6-46F1-B6F2-66C82948004B.webp.qmd" class="img-fluid" alt="65C9C942-61B6-46F1-B6F2-66C82948004B.webp"></li>
+</ul>
+</section>
+</section>
+<section id="challenges-with-conditional-generation" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-with-conditional-generation">Challenges with Conditional generation</h2>
+<ul>
 <li>Not strictly unsupervised. Needs labels</li>
 <li>With a conditional GAN, you get a random example from the class you specify</li>
 <li>With conditional generation, you have to train the GAN with labeled datasets.</li>
@@ -12516,7 +12581,6 @@ window.Quarto = {
 <li><a href="../../posts/KB/Z-Space Entanglement.html">Z-Space Entanglement</a></li>
 <li><a href="../../posts/KB/Classifier Gradients.html">Classifier Gradients</a></li>
 </ul>
-</section>
 </section>
 <section id="dcgan-vs-cgan" class="level2">
 <h2 class="anchored" data-anchor-id="dcgan-vs-cgan">DCGAN vs CGAN</h2>
@@ -12555,7 +12619,7 @@ window.Quarto = {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

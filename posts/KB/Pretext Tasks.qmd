@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Pretext Tasks
 categories: ['ssl']
 ---

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Multi Teacher Distillation
 
 categories: ['knowledgedistillation']

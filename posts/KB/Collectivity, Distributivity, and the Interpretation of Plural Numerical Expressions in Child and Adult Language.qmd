@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Collectivity, Distributivity, and the Interpretation of Plural Numerical Expressions in Child and Adult Language
 
 categories: ['language']

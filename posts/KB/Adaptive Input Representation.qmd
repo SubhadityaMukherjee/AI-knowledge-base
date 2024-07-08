@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Adaptive Input Representation
 
 categories: ['architecture']

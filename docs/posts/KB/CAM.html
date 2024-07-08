@@ -100,7 +100,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -117,23 +117,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,6 +141,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/CAM.html">CAM</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -170,15 +169,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12461,7 +12459,18 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#cam" id="toc-cam" class="nav-link active" data-scroll-target="#cam">CAM</a>
+  <ul class="collapse">
+  <li><a href="#chatgpt" id="toc-chatgpt" class="nav-link" data-scroll-target="#chatgpt">ChatGPT</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12480,7 +12489,11 @@ window.Quarto = {
 <li><img src="images/1!MFqz4qB107yEZUAPrigSEQ.png" class="img-fluid"></li>
 <li><span class="math display">\[\alpha_{k}^{c}= \overbrace{\frac{1}{Z}\Sigma_{i}\Sigma_{j}}^\text{global avg pool} \underbrace{\frac{\partial y^{c}}{\partial A^{k}_{ij}}}_\text{grads via backprop}\]</span></li>
 <li>k is the index of the activation map in the last convolutional layer, and c is the class of interest. Alpha computed above shows the importance of feature map <em>k</em> for the target class <em>c</em>.</li>
-<li>Finally, we multiply each activation map by its importance score (i.e.&nbsp;alpha) and sum the values ## ChatGPT</li>
+<li>Finally, we multiply each activation map by its importance score (i.e.&nbsp;alpha) and sum the values</li>
+</ul>
+<section id="chatgpt" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt">ChatGPT</h2>
+<ul>
 <li>The paper, “Learning Deep Features for Discriminative Localization” by Zhou et al.&nbsp;(2016) introduces the concept of Class Activation Mapping (CAM) as a way to visualize which regions of an image are most important for a given classification task. CAM is a technique for generating heatmaps that highlight the regions in an image that are most important for a specific classification. The authors propose to use global average pooling (GAP) in the final convolutional layer to generate a feature map, followed by a linear combination of the feature map and the class weight vector to generate a single class activation map.</li>
 <li>The authors apply CAM to the ResNet architecture and show that it outperforms the traditional fully-connected layer approach in terms of localization performance. They test the CAM on the image classification task using the ILSVRC-2012 dataset. The authors showed that by using CAM, they could identify the specific regions of an image that were important for a given classification, rather than just a “black box” decision made by the model. The authors also demonstrate how CAM can be used for fine-grained recognition, where the model is trained to identify sub-categories within a larger class.</li>
 <li>Additionally, the authors also show that the CAM can be used to improve the interpretability of deep neural networks by providing a visual representation of the model’s decision-making process. They also use CAM to identify misclassifications and analyze the model’s decision-making process. The authors test CAM on other architectures such as VGG and GoogleNet and show that it can be applied.</li>
@@ -12492,8 +12505,9 @@ window.Quarto = {
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

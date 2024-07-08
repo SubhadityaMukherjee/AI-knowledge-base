@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Tug of war between RAG and LLM prior
 tags:
   - llm
@@ -44,6 +45,7 @@ date created: Thursday 30th May 2024, Thu
 - RAG preference rate is compared against two measurements: the prior probability and the deviation from the prior value.
 
 ## Results
+
 ### Concordance
 - we observe that the model's prior response only agreed with the reference answer 34.7% on average
 - RAG answers elevated the concordance to 94%

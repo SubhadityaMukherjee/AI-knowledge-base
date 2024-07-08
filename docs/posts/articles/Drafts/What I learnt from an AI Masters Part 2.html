@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Drafts/What I learnt from an AI Masters Part 2.html">Drafts</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Drafts/What I learnt from an AI Masters Part 2.html">What I learnt from an AI Masters Part 2</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,26 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#setting-up-your-programming-environment" id="toc-setting-up-your-programming-environment" class="nav-link active" data-scroll-target="#setting-up-your-programming-environment">Setting up your programming environment</a></li>
+  <li><a href="#setting-up-your-writing-environment" id="toc-setting-up-your-writing-environment" class="nav-link" data-scroll-target="#setting-up-your-writing-environment">Setting up your writing environment</a></li>
+  <li><a href="#programming-your-idea" id="toc-programming-your-idea" class="nav-link" data-scroll-target="#programming-your-idea">Programming your idea</a></li>
+  <li><a href="#running-experimentsstudies" id="toc-running-experimentsstudies" class="nav-link" data-scroll-target="#running-experimentsstudies">Running experiments/studies</a></li>
+  <li><a href="#analysing-the-experimentsstudies" id="toc-analysing-the-experimentsstudies" class="nav-link" data-scroll-target="#analysing-the-experimentsstudies">Analysing the experiments/studies</a></li>
+  <li><a href="#actually-writing-the-thesis" id="toc-actually-writing-the-thesis" class="nav-link" data-scroll-target="#actually-writing-the-thesis">Actually writing the thesis</a></li>
+  <li><a href="#changes" id="toc-changes" class="nav-link" data-scroll-target="#changes">Changes</a></li>
+  <li><a href="#checkpoints" id="toc-checkpoints" class="nav-link" data-scroll-target="#checkpoints">Checkpoints</a></li>
+  <li><a href="#recovery-time" id="toc-recovery-time" class="nav-link" data-scroll-target="#recovery-time">Recovery time</a></li>
+  <li><a href="#what-can-you-expect-from-them" id="toc-what-can-you-expect-from-them" class="nav-link" data-scroll-target="#what-can-you-expect-from-them">What can you expect from them</a></li>
+  <li><a href="#updating" id="toc-updating" class="nav-link" data-scroll-target="#updating">Updating</a></li>
+  <li><a href="#extra-tips" id="toc-extra-tips" class="nav-link" data-scroll-target="#extra-tips">Extra tips</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12444,7 +12461,31 @@ ul.task-list li input[type="checkbox"] {
 <p>What I learned from an AI masters degree - Part 2 (Setting up your writing, programming, and research environment)</p>
 <section id="setting-up-your-programming-environment" class="level3">
 <h3 class="anchored" data-anchor-id="setting-up-your-programming-environment">Setting up your programming environment</h3>
-<p>If you are a programmer, this part might not be something you are particularly afraid of. But if you are not as comfortable with programming, it would help you to set up your environment before you start. This might include things like creating a GitHub repository, installing all the packages that you need, making sure that you have the resources that you might require (such as a GPU) etc. In future parts of the article, I will try to detail as much of this as I can based on my experience. (Depending on when you are reading this, these parts of the article might be already posted, so refer to them.) ### Setting up your writing environment A thesis is a rather long document, but by this point, you hopefully have written enough assignments to be comfortable with writing technical articles. If you have not, or you are reading this before doing a Master, it would serve you to be a little familiar with LaTEX. It’s took me about a few hours to get everything set up and running, but it might take you longer. (Refer to a detailed guide in future articles.) ### Programming your idea Not every thesis would require a lot of programming. Depending on what you’re doing, you might have to spend more time writing analysis scripts instead. In my case, I created a solution from scratch and also wrote the analysis scripts so it definitely took me a lot of experimentation and time. But to be honest, it took me longer because I hesitated quite a lot, and did not spend enough time trying to refine what I already had. ### Running experiments/studies Again, depending on the kind of thesis, you are working on the time taken for you to run, experiments or studies might differ considerably. If you are running experiments where you collect data yourself, from different systems or from human studies, it might take you a lot longer. In my case, I used datasets that were already available but since I ran a lot of experiments, the running took longer. ### Analysing the experiments/studies Just like the previous one, analysing your results might take you longer. I personally found it useful to have the analysis scripts written as early as possible. I started writing the scripts around the same time that I started programming my solution. This allowed me to be able to run quick experiments just to make sure that my code was working and saved me quite a lot of time in the long run. It also meant that as my code changed, and I thought of new things, I could add them directly to my analysis without having to wait till I was finished running my experiments. ### Actually writing the thesis So, you made it to having your experiments and data and literature survey now you actually want to start writing the thesis. I will warn you though, it will probably take more time than you think it would. No matter how good you are at writing long form, there will be many things that will crop up that you did not probably think of. It took me probably the longest to write my thesis compared to every other step. But, although it took a long time, it was not very painful as I had planned ahead and made preparations. Many of the little things such as making notes while reading papers, setting up the environments, beforehand, etc significantly cut down the mental effort it would have required otherwise. As for all the parts that helped me out, there will be detailed articles about the same. Depending on when you read, this, you could probably refer to them already. ### Changes Another thing that you probably should be warned about is having to change things. Like any project, a thesis is not straightforward. There will be many times when you need to redo a part of the project or rewrite a section. This may take a decent amount of time as well. You might also get a lot of feedback that you need to implement as you go along. Before I started my project, I made sure that I had systems in place that would let me quickly change things if required. This article would be too long if I also listed them, so future parts will follow up on these.</p>
+<p>If you are a programmer, this part might not be something you are particularly afraid of. But if you are not as comfortable with programming, it would help you to set up your environment before you start. This might include things like creating a GitHub repository, installing all the packages that you need, making sure that you have the resources that you might require (such as a GPU) etc. In future parts of the article, I will try to detail as much of this as I can based on my experience. (Depending on when you are reading this, these parts of the article might be already posted, so refer to them.)</p>
+</section>
+<section id="setting-up-your-writing-environment" class="level3">
+<h3 class="anchored" data-anchor-id="setting-up-your-writing-environment">Setting up your writing environment</h3>
+<p>A thesis is a rather long document, but by this point, you hopefully have written enough assignments to be comfortable with writing technical articles. If you have not, or you are reading this before doing a Master, it would serve you to be a little familiar with LaTEX. It’s took me about a few hours to get everything set up and running, but it might take you longer. (Refer to a detailed guide in future articles.)</p>
+</section>
+<section id="programming-your-idea" class="level3">
+<h3 class="anchored" data-anchor-id="programming-your-idea">Programming your idea</h3>
+<p>Not every thesis would require a lot of programming. Depending on what you’re doing, you might have to spend more time writing analysis scripts instead. In my case, I created a solution from scratch and also wrote the analysis scripts so it definitely took me a lot of experimentation and time. But to be honest, it took me longer because I hesitated quite a lot, and did not spend enough time trying to refine what I already had.</p>
+</section>
+<section id="running-experimentsstudies" class="level3">
+<h3 class="anchored" data-anchor-id="running-experimentsstudies">Running experiments/studies</h3>
+<p>Again, depending on the kind of thesis, you are working on the time taken for you to run, experiments or studies might differ considerably. If you are running experiments where you collect data yourself, from different systems or from human studies, it might take you a lot longer. In my case, I used datasets that were already available but since I ran a lot of experiments, the running took longer.</p>
+</section>
+<section id="analysing-the-experimentsstudies" class="level3">
+<h3 class="anchored" data-anchor-id="analysing-the-experimentsstudies">Analysing the experiments/studies</h3>
+<p>Just like the previous one, analysing your results might take you longer. I personally found it useful to have the analysis scripts written as early as possible. I started writing the scripts around the same time that I started programming my solution. This allowed me to be able to run quick experiments just to make sure that my code was working and saved me quite a lot of time in the long run. It also meant that as my code changed, and I thought of new things, I could add them directly to my analysis without having to wait till I was finished running my experiments.</p>
+</section>
+<section id="actually-writing-the-thesis" class="level3">
+<h3 class="anchored" data-anchor-id="actually-writing-the-thesis">Actually writing the thesis</h3>
+<p>So, you made it to having your experiments and data and literature survey now you actually want to start writing the thesis. I will warn you though, it will probably take more time than you think it would. No matter how good you are at writing long form, there will be many things that will crop up that you did not probably think of. It took me probably the longest to write my thesis compared to every other step. But, although it took a long time, it was not very painful as I had planned ahead and made preparations. Many of the little things such as making notes while reading papers, setting up the environments, beforehand, etc significantly cut down the mental effort it would have required otherwise. As for all the parts that helped me out, there will be detailed articles about the same. Depending on when you read, this, you could probably refer to them already.</p>
+</section>
+<section id="changes" class="level3">
+<h3 class="anchored" data-anchor-id="changes">Changes</h3>
+<p>Another thing that you probably should be warned about is having to change things. Like any project, a thesis is not straightforward. There will be many times when you need to redo a part of the project or rewrite a section. This may take a decent amount of time as well. You might also get a lot of feedback that you need to implement as you go along. Before I started my project, I made sure that I had systems in place that would let me quickly change things if required. This article would be too long if I also listed them, so future parts will follow up on these.</p>
 <p>As you can tell by now, none of these steps are linear. There are many things that you need to go back and forth between. But now that you know what to expect, it will be quite a lot easier for you to plan the same.</p>
 </section>
 <section id="checkpoints" class="level2">
@@ -12453,12 +12494,21 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="recovery-time" class="level2">
 <h2 class="anchored" data-anchor-id="recovery-time">Recovery time</h2>
-<p>There are a million articles on how to do your thesis. If you went looking for them, you probably found some more. But what I don’t see a lot of them talking about is recovery. Doing a thesis is hard. For many of us (including me), it is the first time we have had to do such a long project without any external motivation. It’s your project, after all. Unless you choose a company internship, in which case you will have stricter deadlines, of course. There are bound to be days, sometimes even weeks, where you have literally 0 motivation to even look at your thesis. And while that is pretty normal, I think many of us don’t factor that into our plans. Make sure you keep some extra time on hand for these days because you will really need them. # Supervisor ## What can you expect from them ## Updating ## Extra tips</p>
+<p>There are a million articles on how to do your thesis. If you went looking for them, you probably found some more. But what I don’t see a lot of them talking about is recovery. Doing a thesis is hard. For many of us (including me), it is the first time we have had to do such a long project without any external motivation. It’s your project, after all. Unless you choose a company internship, in which case you will have stricter deadlines, of course. There are bound to be days, sometimes even weeks, where you have literally 0 motivation to even look at your thesis. And while that is pretty normal, I think many of us don’t factor that into our plans. Make sure you keep some extra time on hand for these days because you will really need them. # Supervisor</p>
+</section>
+<section id="what-can-you-expect-from-them" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-you-expect-from-them">What can you expect from them</h2>
+</section>
+<section id="updating" class="level2">
+<h2 class="anchored" data-anchor-id="updating">Updating</h2>
+</section>
+<section id="extra-tips" class="level2">
+<h2 class="anchored" data-anchor-id="extra-tips">Extra tips</h2>
 
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

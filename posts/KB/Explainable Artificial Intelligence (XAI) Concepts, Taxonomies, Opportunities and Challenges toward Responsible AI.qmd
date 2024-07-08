@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI
 
 categories: ['explainability']

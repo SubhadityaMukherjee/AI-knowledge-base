@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Pragmatics
 categories: ['language']
 date modified: Monday, October 10th 2022, 2:02:19 pm

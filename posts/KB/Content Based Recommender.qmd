@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Content Based Recommender
 
 categories: ['usermodel']

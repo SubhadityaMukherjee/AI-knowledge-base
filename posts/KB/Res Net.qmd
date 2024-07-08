@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Res Net
 categories: ['architecture']
 date modified: Monday, November 28th 2022, 11:50:26 am

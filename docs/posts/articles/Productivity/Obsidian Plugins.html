@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Productivity/CheckEmptySections.html">Productivity</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Productivity/Obsidian Plugins.html">Obsidian Plugins</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,26 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#my-favourite-obsidian-plugins-for-research-notes-2-bonus-tips" id="toc-my-favourite-obsidian-plugins-for-research-notes-2-bonus-tips" class="nav-link active" data-scroll-target="#my-favourite-obsidian-plugins-for-research-notes-2-bonus-tips">My Favourite Obsidian Plugins for Research Notes + 2 Bonus Tips</a>
+  <ul class="collapse">
+  <li><a href="#the-use-case" id="toc-the-use-case" class="nav-link" data-scroll-target="#the-use-case">The use case</a></li>
+  <li><a href="#how-to-install-these-plugins" id="toc-how-to-install-these-plugins" class="nav-link" data-scroll-target="#how-to-install-these-plugins">How to install these plugins?</a>
+  <ul class="collapse">
+  <li><a href="#writing" id="toc-writing" class="nav-link" data-scroll-target="#writing">Writing</a></li>
+  <li><a href="#research" id="toc-research" class="nav-link" data-scroll-target="#research">Research</a></li>
+  <li><a href="#organising" id="toc-organising" class="nav-link" data-scroll-target="#organising">Organising</a></li>
+  </ul></li>
+  <li><a href="#bonus-tips" id="toc-bonus-tips" class="nav-link" data-scroll-target="#bonus-tips">Bonus tips!!</a></li>
+  <li><a href="#fin" id="toc-fin" class="nav-link" data-scroll-target="#fin">Fin</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12446,10 +12463,14 @@ ul.task-list li input[type="checkbox"] {
 <p>(Disclaimer : I am not sponsored by either Obsidian or any of the authors of the plugins mentioned here. These are personal preferences.)</p>
 <section id="the-use-case" class="level2">
 <h2 class="anchored" data-anchor-id="the-use-case">The use case</h2>
-<p>I am a student, researcher and programmer. I take lecture notes, read a lot of research papers, articles and books. These come down to a lot of information. Of course, there’s no way I can remember all of these bits of fragmented information. Therefore, drumroll…, I use Obsidian to help me put these bits of information in a place I can easily access. Since I use this almost everyday, I want taking notes to be as painless and efficient as possible. These plugins are a huge help in doing exactly that. (Ordered by the type of task) ## How to install these plugins? This is a simple step. Simple open Obsidian Settings, Scroll down a bit and select “Community plugins”. Disable Restrictive mode, and then browse to your hearts content!</p>
+<p>I am a student, researcher and programmer. I take lecture notes, read a lot of research papers, articles and books. These come down to a lot of information. Of course, there’s no way I can remember all of these bits of fragmented information. Therefore, drumroll…, I use Obsidian to help me put these bits of information in a place I can easily access. Since I use this almost everyday, I want taking notes to be as painless and efficient as possible. These plugins are a huge help in doing exactly that. (Ordered by the type of task)</p>
+</section>
+<section id="how-to-install-these-plugins" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-install-these-plugins">How to install these plugins?</h2>
+<p>This is a simple step. Simple open Obsidian Settings, Scroll down a bit and select “Community plugins”. Disable Restrictive mode, and then browse to your hearts content!</p>
 <section id="writing" class="level3">
 <h3 class="anchored" data-anchor-id="writing">Writing</h3>
-<p>Writing notes is the major objective here. So how do we make it extra painless? Plugins of course! - Dynamic Table of Contents : Many times, I take notes for a long form text. Sometimes these notes end up pretty huge, and it becomes slightly harder to find something. What about adding a Table Of Contents to the start? Sounds great, but what if we update the note? In comes this plugin, with an automatically updating TOC. - Tags : Super simple, also built in. Adding “#topic1, #topic2 etc” to a file to make it easier to search and organise. - Frontmatter Tag Suggest : Tags are great, but who remembers which ones they used before? Nobody. This plugin autocompletes tags based on ones you have used in previous notes. You can create new ones the normal way of course. - Note Refactor : Made a huge note with a lot of headings? Why not split them into individual topics and maintain links to them? This makes it easier for you to have one major idea per note. Here I have a bunch of test headings, you can see how after applying them they become new notes that link to the current file. - Paste URL into selection : The name says it all doesn’t it? - Templater : Another plugin I use daily. I like starting my notes with “date_created”, “date_modified”, “tags”, “title” and insert the file name as the header. Since I do this for every single note, why not automate it? This plugin lets you create blocks of dynamic text to be inserted with a keyboard shortcut. I use “Cmd+Shift+I” (“Control+Shift+I” for Windows) - Typewriter Scroll : Zen Mode is a way of life. This lets me focus on what I am writing by automatically scrolling the page, and dimming the rest of the text apart from the line I am currently writing. I do disable it while reading though. - Command Palette : This one is pretty obvious, but this built in plugin is just a text search. You can quickly open files with a (Cmd/Control + O) that brings up a searchable menu, or use (Cmd/Control + P) to bring up a searchable list of quick actions. - Vim Mode : This little option is not for everyone honestly. If you have never heard of Vim, just skip this point. I use vim as my default text editor for everything else. And I can’t live without its keybindings. This just lets me use the vim keys for everything.</p>
+<p>Writing notes is the major objective here. So how do we make it extra painless? Plugins of course! - Dynamic Table of Contents : Many times, I take notes for a long form text. Sometimes these notes end up pretty huge, and it becomes slightly harder to find something. What about adding a Table Of Contents to the start? Sounds great, but what if we update the note? In comes this plugin, with an automatically updating TOC. - Tags : Super simple, also built in. Adding “#topic1, #topic2 etc” to a file to make it easier to search and organise. - Frontmatter Tag Suggest : Tags are great, but who remembers which ones they used before? Nobody. This plugin autocompletes tags based on ones you have used in previous notes. You can create new ones the normal way of course. - Note Refactor : Made a huge note with a lot of headings? Why not split them into individual topics and maintain links to them? This makes it easier for you to have one major idea per note. Here I have a bunch of test headings, you can see how after applying them they become new notes that link to the current file. - Paste URL into selection : The name says it all doesn’t it? - Templater : Another plugin I use daily. I like starting my notes with “date_created”, “date_modified”, “tags”, “toc: true title” and insert the file name as the header. Since I do this for every single note, why not automate it? This plugin lets you create blocks of dynamic text to be inserted with a keyboard shortcut. I use “Cmd+Shift+I” (“Control+Shift+I” for Windows) - Typewriter Scroll : Zen Mode is a way of life. This lets me focus on what I am writing by automatically scrolling the page, and dimming the rest of the text apart from the line I am currently writing. I do disable it while reading though. - Command Palette : This one is pretty obvious, but this built in plugin is just a text search. You can quickly open files with a (Cmd/Control + O) that brings up a searchable menu, or use (Cmd/Control + P) to bring up a searchable list of quick actions. - Vim Mode : This little option is not for everyone honestly. If you have never heard of Vim, just skip this point. I use vim as my default text editor for everything else. And I can’t live without its keybindings. This just lets me use the vim keys for everything.</p>
 </section>
 <section id="research" class="level3">
 <h3 class="anchored" data-anchor-id="research">Research</h3>
@@ -12478,7 +12499,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

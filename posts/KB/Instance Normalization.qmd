@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Instance Normalization
 
 categories: ['architecture']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Large Kernel in Attention
 
 categories: ['architecture']

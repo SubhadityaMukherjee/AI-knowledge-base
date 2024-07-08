@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Building Ethics into Artificial Intelligence
 
 categories: ['ethics']

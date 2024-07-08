@@ -1,4 +1,5 @@
 ---
+toc: true
 title: RAGAS - automated evaluation of RAG
 tags:
   - llm

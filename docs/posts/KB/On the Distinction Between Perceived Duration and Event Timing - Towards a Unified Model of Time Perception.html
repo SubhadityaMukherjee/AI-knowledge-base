@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/On the Distinction Between Perceived Duration and Event Timing - Towards a Unified Model of Time Perception.html">On the Distinction Between Perceived Duration and Event Timing - Towards a Unified Model of Time Perception</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#on-the-distinction-between-perceived-duration-and-event-timing---towards-a-unified-model-of-time-perception" id="toc-on-the-distinction-between-perceived-duration-and-event-timing---towards-a-unified-model-of-time-perception" class="nav-link active" data-scroll-target="#on-the-distinction-between-perceived-duration-and-event-timing---towards-a-unified-model-of-time-perception">On the Distinction Between Perceived Duration and Event Timing - Towards a Unified Model of Time Perception</a>
+  <ul class="collapse">
+  <li><a href="#from-perceived-duration-to-perceived-timing" id="toc-from-perceived-duration-to-perceived-timing" class="nav-link" data-scroll-target="#from-perceived-duration-to-perceived-timing">From Perceived Duration to Perceived Timing</a></li>
+  <li><a href="#a-bayesian-model-of-perceived-event-timing" id="toc-a-bayesian-model-of-perceived-event-timing" class="nav-link" data-scroll-target="#a-bayesian-model-of-perceived-event-timing">A Bayesian Model of Perceived Event Timing</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12448,31 +12458,41 @@ ul.task-list li input[type="checkbox"] {
 <li><p>he distinction between perceived event timing and perceived duration provides the current for navigating a river of contemporary approaches to time perception</p></li>
 <li><p>Recent work has advocated a Bayesian approach to time perception</p></li>
 <li><p>This framework has been applied to both duration and perceived timing, where prior expectations about when a stimulus might occur in the future (prior distribution) are combined with current sensory evidence (likelihood function) in order to generate the perception of temporal properties (posterior distribution)</p></li>
-<li><p>these models predict that the brain uses temporal expectations to bias perception in a way that stimuli are ‘regularized’ i.e.&nbsp;stimuli look more like what has been seen before ## From Perceived Duration to Perceived Timing</p></li>
-<li><p>The word ‘perceived’ here, is used in the loosest sense — the above methods cannot demonstrably show changes in low-level sensory processing of time (Rhodes) ## A Bayesian Model of Perceived Event Timing</p></li>
-<li><p>based on the dynamic updating of temporal expectations</p></li>
-<li><p>explain the asymmetries in the detection of irregularity and also in the perceived event timing of stimuli (Di Luca &amp; Rhodes)</p></li>
-<li><p>Within a single trial, perceived timing (the posterior distribution) is the result of combining the probability of sensing a stimulus (likelihood) with the time it was expected (prior)</p></li>
-<li><p>key tenet of the model is the relaxation of the assumption of normality in the probability distribution</p></li>
-<li><p>Probability distributions in the temporal domain are asserted to be necessarily asymmetric due to the way time flows</p></li>
-<li><p>The anisotropic nature of time means that evidence accumulated about stimulus timing for the likelihood function can only start after a short delay</p></li>
-<li><p>due to neural processing</p></li>
-<li><p>a stimulus cannot be sensed before a stimulus is presented</p></li>
-<li><p>always the chance it could be perceived a bit later than average due to noise in the sensory system</p></li>
-<li><p>As such, the perceived timing of stimuli in an environment where trials are isochronous should exhibit the temporal <a href="regularization.qmd">regularization</a> effect</p></li>
-<li><p>early stimuli should be delayed towards expectation whilst late stimuli should be accelerated</p></li>
-<li><p>Stimuli presented on time, in contrast are perceptually accelerated</p></li>
-<li><p>stimuli that are presented in a random sequence of irregular timings, should not have any temporal expectations built up</p></li>
-<li><p>Therefore, they should not have any modulation of their perceived timing, suggesting that a prior is not built</p></li>
-<li><p>An implicit assumption of the model is that noisier measurements should lead to broader likelihood functions that are captured more by the prior probability distributions</p></li>
-<li><p>the Bayesian model of perceived timing can explain the delay of early stimuli as well as the acceleration of on time and later than expected stimuli</p></li>
-<li><p>Interval models do not make any explicit predictions about changes in the perceived timing of stimuli and as such cannot account for this data.</p></li>
+<li><p>these models predict that the brain uses temporal expectations to bias perception in a way that stimuli are ‘regularized’ i.e.&nbsp;stimuli look more like what has been seen before</p></li>
+</ul>
+<section id="from-perceived-duration-to-perceived-timing" class="level2">
+<h2 class="anchored" data-anchor-id="from-perceived-duration-to-perceived-timing">From Perceived Duration to Perceived Timing</h2>
+<ul>
+<li>The word ‘perceived’ here, is used in the loosest sense — the above methods cannot demonstrably show changes in low-level sensory processing of time (Rhodes)</li>
+</ul>
+</section>
+<section id="a-bayesian-model-of-perceived-event-timing" class="level2">
+<h2 class="anchored" data-anchor-id="a-bayesian-model-of-perceived-event-timing">A Bayesian Model of Perceived Event Timing</h2>
+<ul>
+<li>based on the dynamic updating of temporal expectations</li>
+<li>explain the asymmetries in the detection of irregularity and also in the perceived event timing of stimuli (Di Luca &amp; Rhodes)</li>
+<li>Within a single trial, perceived timing (the posterior distribution) is the result of combining the probability of sensing a stimulus (likelihood) with the time it was expected (prior)</li>
+<li>key tenet of the model is the relaxation of the assumption of normality in the probability distribution</li>
+<li>Probability distributions in the temporal domain are asserted to be necessarily asymmetric due to the way time flows</li>
+<li>The anisotropic nature of time means that evidence accumulated about stimulus timing for the likelihood function can only start after a short delay</li>
+<li>due to neural processing</li>
+<li>a stimulus cannot be sensed before a stimulus is presented</li>
+<li>always the chance it could be perceived a bit later than average due to noise in the sensory system</li>
+<li>As such, the perceived timing of stimuli in an environment where trials are isochronous should exhibit the temporal <a href="regularization.qmd">regularization</a> effect</li>
+<li>early stimuli should be delayed towards expectation whilst late stimuli should be accelerated</li>
+<li>Stimuli presented on time, in contrast are perceptually accelerated</li>
+<li>stimuli that are presented in a random sequence of irregular timings, should not have any temporal expectations built up</li>
+<li>Therefore, they should not have any modulation of their perceived timing, suggesting that a prior is not built</li>
+<li>An implicit assumption of the model is that noisier measurements should lead to broader likelihood functions that are captured more by the prior probability distributions</li>
+<li>the Bayesian model of perceived timing can explain the delay of early stimuli as well as the acceleration of on time and later than expected stimuli</li>
+<li>Interval models do not make any explicit predictions about changes in the perceived timing of stimuli and as such cannot account for this data.</li>
 </ul>
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Transferred compact convolutional filters
 
 categories: ['knowledgedistillation']

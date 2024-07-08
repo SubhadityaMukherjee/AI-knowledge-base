@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Classifying a specific image region using convolutional nets with an ROI mask as input
 
 categories: ['explainabilityexplainability']

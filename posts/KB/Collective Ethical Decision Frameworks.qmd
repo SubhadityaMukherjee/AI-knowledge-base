@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Collective Ethical Decision Frameworks
 
 categories: ['ethics']

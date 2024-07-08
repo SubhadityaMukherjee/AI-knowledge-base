@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Hard Parameter Sharing
 
 categories: ['multitask']

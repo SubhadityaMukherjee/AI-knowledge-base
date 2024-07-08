@@ -100,7 +100,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -117,23 +117,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,6 +141,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Data Augmentation via Latent Space Interpolation for Image Classification.html">Data Augmentation via Latent Space Interpolation for Image Classification</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -170,15 +169,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12461,7 +12459,23 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-augmentation-via-latent-space-interpolation-for-image-classification" id="toc-data-augmentation-via-latent-space-interpolation-for-image-classification" class="nav-link active" data-scroll-target="#data-augmentation-via-latent-space-interpolation-for-image-classification">Data Augmentation via Latent Space Interpolation for Image Classification</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#proposed-method" id="toc-proposed-method" class="nav-link" data-scroll-target="#proposed-method">PROPOSED METHOD</a></li>
+  <li><a href="#uniform-distribution-representations" id="toc-uniform-distribution-representations" class="nav-link" data-scroll-target="#uniform-distribution-representations">Uniform distribution representations</a></li>
+  <li><a href="#linear-interpolation" id="toc-linear-interpolation" class="nav-link" data-scroll-target="#linear-interpolation">Linear interpolation</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">CONCLUSION</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12473,15 +12487,24 @@ window.Quarto = {
 <h1>Data Augmentation via Latent Space Interpolation for Image Classification</h1>
 <pre class="toc"><code></code></pre>
 <ul>
-<li><span class="citation" data-cites="liuDataAugmentationLatent2018">@liuDataAugmentationLatent2018</span> ## Abstract</li>
+<li><span class="citation" data-cites="liuDataAugmentationLatent2018">@liuDataAugmentationLatent2018</span></li>
+</ul>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<ul>
 <li>standard data augmentation produces only limited plausible alternative data by for example, flipping, distorting, adding noise to, <a href="cropping.qmd">[cropping]</a> a patch from the original samples</li>
 <li>adversarial autoencoder (AAE) to impose the feature representations with uniform distribution and apply the linear interpolation on latent space, which is potential to generate a much broader set of augmentations for image classification</li>
 <li>improves the generalization and performance of state-of-the-art deep neural networks</li>
 <li>Generative models are often evaluated by examining samples from the latent space</li>
 <li>Techniques frequently used are random sampling and linear interpolation But often these can result in sampling the latent space from locations very far outside the manifold of probable location In high dimensional space, even with a uniform distribution most points lie on a thin shell in the unit cube. We utilize both the uniform distribution prior to avoid the “hole” of dead zone.</li>
 <li><ol type="1">
-<li>We propose a novel framework to augment the dataset using the interclass interpolation of latent feature representations. 2)uniform distribution are imposed as the prior to avoid “hole” effect of the inter-class interpolation via the adversarial autoencoder network. 3) we explore the linear interpolation on the ILSVRC 2012 and <a href="../../posts/KB/CIFAR.html">[CIFAR]</a>-10 datasets ## PROPOSED METHOD</li>
+<li>We propose a novel framework to augment the dataset using the interclass interpolation of latent feature representations. 2)uniform distribution are imposed as the prior to avoid “hole” effect of the inter-class interpolation via the adversarial autoencoder network. 3) we explore the linear interpolation on the ILSVRC 2012 and <a href="../../posts/KB/CIFAR.html">[CIFAR]</a>-10 datasets</li>
 </ol></li>
+</ul>
+</section>
+<section id="proposed-method" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-method">PROPOSED METHOD</h2>
+<ul>
 <li>latent space interpolation followed two useful principles when sampling the latent space of a generative model avoid sampling from locations that are highly unlikely given the prior of the model. being used in the original VAE paper which adjusted sampling through the inverse <a href="../../posts/KB/CDF.html">[CDF]</a> of the Gaussian to accommodate the Gaussian prior recognize that the dimensionality of the latent space is often artificially high and may contains dead zones that are not on the manifold learned during training implies that simply matching the model’s prior will not always be sufficient to yield samples that appear to have been drawn from the training set</li>
 <li>it does not require significant domain knowledge. that interpolation and extrapolation in feature space can improve generalization</li>
 <li>Recent approaches have also proposed to <a href="../../posts/KB/regularize.html">[regularize]</a> the output distribution of a neural network by label smoothing [27], or penalizing highconfidence softmax distributions [28]These methods bear similarities with mixup in the sense that supervision depends on multiple smooth labels, rather than on single hard labels as in traditional ERMthe label smoothing in these works is applied or regularized independently from the associated feature values. the supervision of every example is not overly dominated by the groundtruth labe</li>
@@ -12489,7 +12512,12 @@ window.Quarto = {
 <li>derivatives of the function approximated, also relates mixup to other methods such as Sobolev training of neural networks [29] or WGAN-GP [30].</li>
 <li>When other types of data augmentation are employed in addition to our technique, we can apply them for each image before mixing them into the final image for training</li>
 <li>The data augmentation incurs additional time to prepare the input image, but this can be done on the CPU while the GPU is executing the training through back propagation</li>
-<li>a single data loader to obtain one minibatch, and then latent space interpolation is applied to the same minibatch after random shuffling ## Uniform distribution representations</li>
+<li>a single data loader to obtain one minibatch, and then latent space interpolation is applied to the same minibatch after random shuffling</li>
+</ul>
+</section>
+<section id="uniform-distribution-representations" class="level2">
+<h2 class="anchored" data-anchor-id="uniform-distribution-representations">Uniform distribution representations</h2>
+<ul>
 <li><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Pasted image 20230209131445.png.qmd" class="img-fluid figure-img"></p>
@@ -12502,16 +12530,27 @@ window.Quarto = {
 <li>As for the Dec, the L2 loss is used as the reconstruction loss</li>
 <li><span class="math display">\[L_{recon}= ||x-x'||^{2}_{2}\]</span></li>
 <li>Dis imposes a prior distribution (i.e., uniform distribution) on z Dis aims to discriminate the z generated by encoder Enc Enc will be trained to generate z that could fool Dis</li>
-<li>Such adversarial process forces the distribution of the generated z to gradually approach the prio uniform distribution as the prior, forcing z to evenly populate the latent space with no apparent “holes”. the generated z’s (depicted by blue dots in a 2-D space) present uniform distribution under the <a href="regularization.qmd">[regularization]</a> of Dis, while the distribution of z exhibits a “hole” without the application of Dis Exhibition of the “hole” indicates that the samples generated by interpolating between arbitrary z’s may not lie on the real image manifold – generating unrealistic appearancesnot to generate photorealistic images as in GAN offer more informative and discriminative training sample, the adversarial loss in pixel-level is dropped in here for faster training and processing. ## Linear interpolation</li>
+<li>Such adversarial process forces the distribution of the generated z to gradually approach the prio uniform distribution as the prior, forcing z to evenly populate the latent space with no apparent “holes”. the generated z’s (depicted by blue dots in a 2-D space) present uniform distribution under the <a href="regularization.qmd">[regularization]</a> of Dis, while the distribution of z exhibits a “hole” without the application of Dis Exhibition of the “hole” indicates that the samples generated by interpolating between arbitrary z’s may not lie on the real image manifold – generating unrealistic appearancesnot to generate photorealistic images as in GAN offer more informative and discriminative training sample, the adversarial loss in pixel-level is dropped in here for faster training and processing.</li>
+</ul>
+</section>
+<section id="linear-interpolation" class="level2">
+<h2 class="anchored" data-anchor-id="linear-interpolation">Linear interpolation</h2>
+<ul>
 <li>The difference with mixup [17] in here is that the linear interpolation manipulation is conducted in latent space which align the uniform distribution instead of the pixel-level</li>
 <li>The one-hot vectors are used to label the original samples</li>
 <li>The loss function for a generated sample are calculated as the weighted sum (via ߣ (of two cross-entropy losses corresponding to both of its original samples</li>
-<li>When the 0.5=ߣ, we can simply use two-hot vector to label the generated sample belongs to two of its original samples for faster processing. ## CONCLUSION</li>
+<li>When the 0.5=ߣ, we can simply use two-hot vector to label the generated sample belongs to two of its original samples for faster processing.</li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">CONCLUSION</h2>
+<ul>
 <li>vicinal risk minimization trains on virtual examples constructed via interpolations of the features in a latent space with uniform distributionSeveral methods are employed to avoid the dead zone in manifold of feature representations.</li>
 <li>the ILSVRC 2012</li>
 <li><a href="../../posts/KB/CIFAR.html">[CIFAR]</a>-10</li>
 <li>valuable for tasks with a limited number of samples, such as medical image classification tasks</li>
 </ul>
+</section>
 <section id="images" class="level2">
 <h2 class="anchored" data-anchor-id="images">Images</h2>
 <ul>
@@ -12540,7 +12579,7 @@ window.Quarto = {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

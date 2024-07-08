@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Human Action Recognition
 categories: ['ssl']
 ---

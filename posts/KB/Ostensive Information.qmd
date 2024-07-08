@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Ostensive Information
 
 categories: ['language']

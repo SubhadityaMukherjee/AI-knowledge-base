@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Sliding Window Attention
 
 categories: ['architecture']

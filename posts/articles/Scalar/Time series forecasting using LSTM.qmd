@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Time series forecasting using LSTM
 
 categories: ["article"]
@@ -9,6 +10,7 @@ date created:
 # Time series forecasting using LSTM 
 
 :::section{.abstract}
+
 ## Overview
 Any temporal data can be framed as a time series task. Data such as heart rates, stock market prices, sensor logs and many others fall under the category of time series data. There are many Deep Learning architectures that are used to model such data, LSTMs being one of them. This article focuses on building an LSTM time series model.
 :::
@@ -18,12 +20,14 @@ Any temporal data can be framed as a time series task. Data such as heart rates,
 ## What are we building? 
 In this article, we will be creating an LSTM time series model. We will be using data that we generate and create a simple LSTM that can model it accurately. To perform this task, we will write functions that can generate data, model it and perform predictions on future points. 
 We will implement this model using Tensorflow and the below sections explain how to perform just that.
+
 ## Pre-Requisites
 Before moving on to creating the LSTM time series model, we must understand some pre-requisite information.
 
 ### What is Time Series?
 A time series data is any **temporal** data that has a **discrete time interval** and almost **equidistant time steps**. The general task is to estimate the function that was used to generate such the time series. If the function can be estimated correctly, future points that the model has not encountered yet can be predicted.
 Examples of time series include heart rate data, stock market data and many others.
+
 ### RNNs
 RNNs are a family of models that take entire series as inputs and return series as outputs. This algorithm is a sequential process and contains hidden states that model the underlying data. Unlike a simple Convolutional network that uses Backpropagation, an RNN uses a modified variant called Backpropagation through time (BPTT) that enables it to embed temporal data. An RNN is said to be Turing complete and is used in domains such as Natural Language Processing, Computer Vision, Robotics and many others.
 The RNN architecture is made up of **gates** and is shown below.
@@ -36,6 +40,7 @@ The RNN architecture is made up of **gates** and is shown below.
 RNNs suffer from a variety of problems due to their sequential nature.
 - RNNs fail to model longer sequences. This property makes it very hard to use for data that has a long temporal span.
 - The classical RNN also had an issue with exploding and vanishing gradients due to the way the underlying architecture worked. These problems make an RNN very unstable. 
+
 ### What is LSTM?
 LSTMs are a modified version of RNNs with different gates that enable the architecture to model much longer sequences. The LSTMs use gated connections that learn which features to forget and which to remember. The ability to choose what to forget makes them much better than a classical RNN. LSTMs are also a lot more stable and have a smaller chance of exploding or vanishing gradients.
 The LSTM architecture is shown below.
@@ -69,10 +74,12 @@ from pylab import rcParams
 import matplotlib.pyplot as plt
 from matplotlib import rc
 ```
+
 ## Building the Time Series Forecaster
 The Time Series Forecaster model has a simple LSTM based architecture. Before creating it, we have to write functions to set up the library, generate and load and finally pre-process the data. 
 The model we will use for this article is a Sequential model comprising an LSTM block followed by a Fully Connected layer. We will then use the generated data and this model to train a LSTM time series prediction model. We will use the trained model to predict points in the future that the model has not seen before.
 The following sections detail all of these points.
+
 ### Setup
 To set up our modules, we set the RANDOM_SEED variable. This variable sets the seed for the random number generator and ensures that we get the same “random” numbers every time. This is not useful in practice but is done only for demonstration purposes. We also modify the plot to be a white style grid with a muted palette for better display.
 ```python
@@ -82,6 +89,7 @@ RANDOM_SEED = 42
 np.random.seed(RANDOM_SEED)
 tf.random.set_seed(RANDOM_SEED)
 ```
+
 ### Data
 To generate the data, we create a custom function that uses a combination of a Sin wave and a small Gaussian noise. These values are generated in the range of (0,200) with a step of 0.1 . 
 To see how this data looks like, we can plot it using matplotlib.
@@ -127,6 +135,7 @@ num_steps = 10
 trainX, trainY = gen_data(train, train.sine, num_steps)
 testX, testY = gen_data(test, test.sine, num_steps)
 ```
+
 ### Implementing the Sequential model
 We can finally implement the LSTM time series model. This is a very simple model and just has a single LSTM layer followed by a FC layer. 
 We compile the model with the **Mean Squared Error** loss function and an **Adam** Optimiser. This compiled model can now be trained on the generated data.
@@ -137,12 +146,14 @@ lstm_model.add(keras.layers.LSTM(128, input_shape=(trainX.shape[1], trainX.shape
 lstm_model.add(keras.layers.Dense(1))
 lstm_model.compile(loss='mean_squared_error', optimizer=keras.optimizers.Adam(0.001))
 ```
+
 ### Early Stopping Callback
 Time series model tend to Overfit really easily. To reduce the probability of Overfitting, the Early Stopping callback is used. This callback uses the number of epochs as a hyper parameter. If the validation accuracy does not increase for a few epochs, the model is saved and training is stopped. This stops the training before the model starts to focus too much on the training data.
 
 ```python
 callbacks=[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=3)]
 ```
+
 ### Model Training
 Once we have defined all the required functions, we can train the model. In this article we train the LSTM time series model for 30 epochs with a batch size of 16. We use a validation split of 0.1% and also supply the Early Stopping callback that we defined earlier.
 ```python

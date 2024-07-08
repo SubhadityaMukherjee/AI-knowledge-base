@@ -1,5 +1,6 @@
 ---
 categories: ['temp']
+toc: true
 title: Convnd
 tag: architecture
 date modified: Monday, October 10th 2022, 2:02:31 pm

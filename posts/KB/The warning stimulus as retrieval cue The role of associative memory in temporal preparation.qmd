@@ -1,4 +1,5 @@
 ---
+toc: true
 title: The warning stimulus as retrieval cue The role of associative memory in temporal preparation
 
 categories: ['cognitivemodel']
@@ -31,11 +32,13 @@ date created: Wednesday 1st February 2023, Wed
 - Inhibition is lifted when S2 is presented, allowing activation to drive response execution
 - when transcranial magnetic stimulation is applied to human motor cortex, the motor evoked potential measured at the corresponding effector has been shown to be smaller during the foreperiod than at baseline, prior to S1 onset
 - Since this reduced activation has been found for all potential effectors in a choice reaction task, it has been argued to reflect a general mechanism of impulse control that prevents premature response
+
 ## trace formation
 - unique [memory trace](memory trace.qmd) is created on each trial, which contains the temporal profile of inhibition (during the foreperiod) and activation (after S2 occurrence) experienced on that trial, along with representations of S1, S2, and the response to S2
 - each new [memory trace](memory trace.qmd) is added to an accumulating pool of memory traces created on earlier trials
 - these traces vary in strength
 - strength of each trace is maximal upon its formation and gradually reduces toward an asymptotic value as it grows older
+
 ## trace expression
 - previously formed memory traces jointly determine the state of temporal preparation during the ongoing foreperiod
 - process is initiated on each trial by the presentation of S1
@@ -47,6 +50,7 @@ date created: Wednesday 1st February 2023, Wed
 - These dynamics thus give rise to the typically observed steep RT – foreperiod functio
 - In the case of an exponential distribution (Fig. 1B), where consecutive foreperiods occur with a ratio of 8:4:2:1, activation starts to dominate inhibition quickly after the presentation of S1.
 - Thus, preparation is already close to ceiling by the time the shortest foreperiod has elapsed and it remains at that level if the foreperiod lengthens (Fig. 1D), yielding the characteristically flat RT – foreperiod function
+
 ## Images
 - ![images/Pasted%20image%2020230201121201.png](images/Pasted%20image%2020230201121201.png)
 - ![images/Pasted%20image%2020230201121209.png](images/Pasted%20image%2020230201121209.png)

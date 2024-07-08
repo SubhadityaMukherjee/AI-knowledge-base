@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Pomodoro - A means but not the end
 
 categories: ["article"]
@@ -32,6 +33,7 @@ Sounds like you? Welcome to the club. Something else? Let me know in the comment
 I believe that the common theme we face with using the Pomodoro, or honestly any other productivity technique is that we put too many expectations on it. At the end of the day, it’s just a tool. The ability to use a tool depends on who wields it. 
 Our objective is not to work for long long hours. It is to focus, and get into an undistracted state where you are deeply concentrated on getting whatever you have to do, done. A “flow state” if you want to use a trendy term. 
 Pomodoro can help there. But only if you let it.
+
 ## How I use it
 Indeed, that was a pretty long-winded introduction to something rather simple. I use it as a means to get started. I don’t think I have ever completed a “cycle” recently. But almost every time, it does help me set the tone for my work session of the day.
 As of writing this article, I had a Pomodoro of 30 minutes going. After that initial time, I think I spent about an hour more. I didn’t check on the timer then. I just sat down and finished my writing for the morning.

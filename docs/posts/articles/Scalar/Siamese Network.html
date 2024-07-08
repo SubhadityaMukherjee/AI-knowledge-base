@@ -134,7 +134,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -151,23 +151,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -179,6 +175,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Siamese Network.html">Siamese Network</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -204,15 +203,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12495,7 +12493,20 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#siamese-network" id="toc-siamese-network" class="nav-link active" data-scroll-target="#siamese-network">Siamese Network</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12539,9 +12550,21 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="architecture-of-siamese-networks">Architecture of Siamese Networks</h2>
 <p>The objective of the Siamese network is to find similar inputs and magnify the differences between dissimilar pairs. The architecture of this network is shown in the figure below.</p>
 <p>[IMAGE {1} {Architecture} START SAMPLE] <img src="https://hackmd.io/_uploads/B1F3TwYqs.png" class="img-fluid" alt="Architecture"> [IMAGE {1} FINISH SAMPLE]</p>
-<p>Some features that set Siamese networks apart from the usual CNN architecture are as follows. - The network has two different inputs. Each of these inputs is passed into identical subnetworks. - The inputs are passed through a Convolutional network first and then encoded. - Any changes to one side of the network are reflected on the other. - The network returns an encoding that is a similarity score. This score can be used to differentiate between classes. - The network is a one-shot classifier and does not require a lot of examples per class. ## Loss Functions Used in Siamese Networks The Siamese Network uses multiple loss functions. They are explained below. ### Binary Cross Entropy Loss This loss is one of the common image classification loss functions. The Siamese network uses this loss to classify the image pairs as similar or dissimilar. ### Contrastive Loss The Contrastive Loss function finds the difference between image pairs by using distance as a similarity measure. This function is useful when there are few training examples per class. A caveat of using Contrastive loss is that it requires pairs of both negative and positive training samples. We can visualize this loss in the figure below.</p>
+<p>Some features that set Siamese networks apart from the usual CNN architecture are as follows. - The network has two different inputs. Each of these inputs is passed into identical subnetworks. - The inputs are passed through a Convolutional network first and then encoded. - Any changes to one side of the network are reflected on the other. - The network returns an encoding that is a similarity score. This score can be used to differentiate between classes. - The network is a one-shot classifier and does not require a lot of examples per class.</p>
+</section>
+<section id="loss-functions-used-in-siamese-networks" class="level2">
+<h2 class="anchored" data-anchor-id="loss-functions-used-in-siamese-networks">Loss Functions Used in Siamese Networks</h2>
+<p>The Siamese Network uses multiple loss functions. They are explained below.</p>
+<section id="binary-cross-entropy-loss" class="level3">
+<h3 class="anchored" data-anchor-id="binary-cross-entropy-loss">Binary Cross Entropy Loss</h3>
+<p>This loss is one of the common image classification loss functions. The Siamese network uses this loss to classify the image pairs as similar or dissimilar.</p>
+</section>
+<section id="contrastive-loss" class="level3">
+<h3 class="anchored" data-anchor-id="contrastive-loss">Contrastive Loss</h3>
+<p>The Contrastive Loss function finds the difference between image pairs by using distance as a similarity measure. This function is useful when there are few training examples per class. A caveat of using Contrastive loss is that it requires pairs of both negative and positive training samples. We can visualize this loss in the figure below.</p>
 <p>[IMAGE {2} {Contrastive Loss} START SAMPLE] <img src="https://hackmd.io/_uploads/H1AlADKco.png" class="img-fluid" alt="Contrastive Loss"> [IMAGE {2} FINISH SAMPLE]</p>
 <p>The Contrastive Loss equation is <span class="math display">\[(1-Y) \frac{1}{2} D^{2}_{w} + (Y) + \frac{1}{2} (max(0, m - D^{2}_{\omega}))\]</span> When Y is 0, the inputs share the same class. When the value of Y is 1, they are from different classes. The margin m defines the margin that the distance function uses to identify pairs that contribute to the loss. The value of m is always greater than 0. D denotes Euclidean distance.</p>
+</section>
 <section id="triplet-loss" class="level3">
 <h3 class="anchored" data-anchor-id="triplet-loss">Triplet Loss</h3>
 <p>The triplet loss uses triples of data. These triples can be seen in the image below. [IMAGE {3} {Triplet Loss} START SAMPLE] <img src="https://hackmd.io/_uploads/ryAGCDtco.png" class="img-fluid" alt="Triplet Loss"> [IMAGE {3} FINISH SAMPLE]</p>
@@ -12551,9 +12574,17 @@ window.Quarto = {
 </section>
 <section id="building-a-signature-verification-model-with-siamese-networks" class="level2">
 <h2 class="anchored" data-anchor-id="building-a-signature-verification-model-with-siamese-networks">Building a Signature Verification Model With Siamese Networks</h2>
-<p>Signature verification is the task of identifying forged signatures given a dataset of real ones. For this task, a model has to learn the difference between hundreds of signatures. Given a fake or a real signature, the model has to differentiate between them. This verification task is extremely hard for a regular CNN due to the complexity of changes and lack of training samples. In most cases, only a single signature is available per person, and the model needs to learn how to verify signatures for thousands of people. The following sections explore building a model to tackle this task using PyTorch. ### Dataset The Dataset we will be using is a signature verification dataset known as <strong>ICDAR 2011</strong>. This Dataset contains Dutch signatures that are either forged or original. An example of the data is shown below.</p>
+<p>Signature verification is the task of identifying forged signatures given a dataset of real ones. For this task, a model has to learn the difference between hundreds of signatures. Given a fake or a real signature, the model has to differentiate between them. This verification task is extremely hard for a regular CNN due to the complexity of changes and lack of training samples. In most cases, only a single signature is available per person, and the model needs to learn how to verify signatures for thousands of people. The following sections explore building a model to tackle this task using PyTorch.</p>
+<section id="dataset" class="level3">
+<h3 class="anchored" data-anchor-id="dataset">Dataset</h3>
+<p>The Dataset we will be using is a signature verification dataset known as <strong>ICDAR 2011</strong>. This Dataset contains Dutch signatures that are either forged or original. An example of the data is shown below.</p>
 <p>[IMAGE {4} {Examples} START SAMPLE] <img src="https://hackmd.io/_uploads/HJq7RDK9s.png" class="img-fluid" alt="Examples"> [IMAGE {4} FINISH SAMPLE]</p>
-<p>We can download the Dataset from this <a href="https://drive.google.com/drive/folders/1hFljH9AKhxxIqH-3fj72mCMA6Xh3Vv0m?usp=sharing">drive link</a>. ### Description of problem statement This article considers recognizing fake signatures as part of a signature verification problem. We aim to take a dataset of signatures and use a Siamese network to predict which of the test signatures belong to real people and which are forged. We need to create a pipeline that reads the Dataset, creates image pairs, and passes them to the Siamese network. After training the network on the Dataset, we need to create functions for inference.</p>
+<p>We can download the Dataset from this <a href="https://drive.google.com/drive/folders/1hFljH9AKhxxIqH-3fj72mCMA6Xh3Vv0m?usp=sharing">drive link</a>.</p>
+</section>
+<section id="description-of-problem-statement" class="level3">
+<h3 class="anchored" data-anchor-id="description-of-problem-statement">Description of problem statement</h3>
+<p>This article considers recognizing fake signatures as part of a signature verification problem. We aim to take a dataset of signatures and use a Siamese network to predict which of the test signatures belong to real people and which are forged. We need to create a pipeline that reads the Dataset, creates image pairs, and passes them to the Siamese network. After training the network on the Dataset, we need to create functions for inference.</p>
+</section>
 <section id="imports" class="level3">
 <h3 class="anchored" data-anchor-id="imports">Imports</h3>
 <p>To create the Siamese Network, we need to import a few libraries. We import the <strong>Pillow</strong> library(PIL) for image processing. We will import the plotting package <strong>matplotlib</strong>, the numerical library <strong>numpy</strong>, and the progress bar library <strong>tqdm</strong> for other utilities. We will use <strong>Pytorch</strong> and <strong>torchvision</strong>to train and build the network.</p>
@@ -12866,7 +12897,7 @@ window.Quarto = {
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

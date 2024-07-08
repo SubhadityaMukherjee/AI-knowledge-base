@@ -1,4 +1,5 @@
 ---
+toc: true
 title: PhD vs Startup vs Big Company
 tags:
   - mlops

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Phenaki
 categories: ['architecture']
 ---

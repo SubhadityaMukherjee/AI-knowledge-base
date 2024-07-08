@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Wall Street Journal task
 
 categories: ['dataset']

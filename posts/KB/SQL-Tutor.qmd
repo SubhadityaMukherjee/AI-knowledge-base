@@ -1,4 +1,5 @@
 ---
+toc: true
 title: SQL-Tutor
 
 categories: ['usermodellearning']
@@ -9,7 +10,8 @@ date created: Wednesday, October 12th 2022, 2:23:15 pm
 # SQL-Tutor
 
 
-- Outer loop: SQL-Tutor (<http://www.aw-bc.com/databaseplacedemo/sqltutor.html)> teaches students how to write a query to a relational database (B. Martin & Mitrovic, 2002; Mitrovic, 2003; Mitrovic & Ohlsson, 1999). Each task consists of a database and information to be retrieved from it. In Figure 5, for instance, the student has been given a database of movie information and has been asked to write a query that will List the titles and numbers of all movies that have won at least one Academy Award and have been made in or after 1988.
+- Outer loop: SQL-Tutor (<http://www.aw-bc.com/databaseplacedemo/sqltutor.html)> teaches students how to write a query to a relational database (B. Martin & Mitrovic, 2002; Mitrovic, 2003; Mitrovic & Ohlsson, 1999). Each task consists of a database and information to be retrieved from it. In Figure 5, for instance, the student has been given a database of movie information and has been asked to write a query that will List the toc: true
+titles and numbers of all movies that have won at least one Academy Award and have been made in or after 1988.
 - Inner loop: Students write a query in the SQL language by clicking on buttons and filling in blanks. This may take several minutes. At any point, they can press the Submit Answer button. The tutor, which has been completely silent up until now, analyzes the student's query to find its flaws. It gives a variety of levels of feedback and hints.
 - One way to think of SQL-Tutor's inner loop is that the student takes multiple steps, each comprised of filling in a blank in the query
 - Unlike tutors that give feedback as soon as a student had taken a step, SQL-Tutor delays its feedback until the student requests it.

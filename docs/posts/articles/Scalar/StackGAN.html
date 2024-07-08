@@ -100,7 +100,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -117,23 +117,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,6 +141,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/StackGAN.html">StackGAN</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -170,15 +169,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12461,7 +12459,20 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#stackgan" id="toc-stackgan" class="nav-link active" data-scroll-target="#stackgan">StackGAN</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12492,7 +12503,10 @@ window.Quarto = {
 </section>
 <section id="what-is-a-stackgan" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-a-stackgan">What is a StackGAN</h2>
-<p>The StackGAN is a multi-modal network that can produce much higher quality images than many networks by first generating a low-quality image and then rectifying it to increase the image’s resolution. A StackGAN is a modification of the general GAN training paradigm were generating new objects is split into sub-tasks. This split makes training the network much easier. The StackGAN research paper also introduces a technique called “Conditioning augmentation” that produces better results. ## Pre Requisites</p>
+<p>The StackGAN is a multi-modal network that can produce much higher quality images than many networks by first generating a low-quality image and then rectifying it to increase the image’s resolution. A StackGAN is a modification of the general GAN training paradigm were generating new objects is split into sub-tasks. This split makes training the network much easier. The StackGAN research paper also introduces a technique called “Conditioning augmentation” that produces better results.</p>
+</section>
+<section id="pre-requisites" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisites">Pre Requisites</h2>
 <p>Before understanding the StackGAN architecture, we need to understand the concept of Conditional GANs (CGANs). In a CGAN, the Generator and Discriminator are given conditioning variables <span class="math inline">\(c\)</span> alongside the input. These enable the Generator to create images influenced by these variables. This conditioning is formulated as <span class="math inline">\(G(z,c), D(x,c)\)</span> for the Generator and the Discriminator, respectively.</p>
 </section>
 <section id="architecture" class="level2">
@@ -12501,22 +12515,28 @@ window.Quarto = {
 <p>[IMAGE {2} Architecture START SAMPLE] <img src="https://hackmd.io/_uploads/BkirORa_j.png" class="img-fluid" alt="Architecture"> [IMAGE {2} FINISH SAMPLE]</p>
 <section id="stage-i-gan" class="level3">
 <h3 class="anchored" data-anchor-id="stage-i-gan">Stage I GAN</h3>
-<p>Stage I of the GAN is focused on generating a rough sketch with simple colours from the description. #### Architecture</p>
-<p>It is first fed into a fully connected layer(FC) to understand the embedding. The output of this FC layer is then passed to the Generator, which attempts to learn how to create the image better. The Discriminator takes the text embeddings and compresses them to a smaller representation using another FC layer. The image is also passed through a few <a href="../../Downsampling|downsampling.qmd">../../Downsampling|downsampling</a> blocks until it is a size the network can use. The final down-sampled image is combined with the text embedding and passed through a 1x1 convolutional layer. The final layer is another FC layer that returns the probability of the generated image being real or fake. #### Loss functions</p>
+<p>Stage I of the GAN is focused on generating a rough sketch with simple colours from the description.</p>
+<section id="architecture-1" class="level4">
+<h4 class="anchored" data-anchor-id="architecture-1">Architecture</h4>
+<p>It is first fed into a fully connected layer(FC) to understand the embedding. The output of this FC layer is then passed to the Generator, which attempts to learn how to create the image better. The Discriminator takes the text embeddings and compresses them to a smaller representation using another FC layer. The image is also passed through a few <a href="../../Downsampling|downsampling.qmd">../../Downsampling|downsampling</a> blocks until it is a size the network can use. The final down-sampled image is combined with the text embedding and passed through a 1x1 convolutional layer. The final layer is another FC layer that returns the probability of the generated image being real or fake.</p>
+</section>
+<section id="loss-functions" class="level4">
+<h4 class="anchored" data-anchor-id="loss-functions">Loss functions</h4>
 <p>Consider the text embeddings of the required description as <span class="math inline">\(\varphi{t}\)</span>. The meaning of the text embeddings is sampled from the Gaussian conditioning variables <span class="math inline">\(\hat{c{0}}\)</span>. Stage I first trains the Discriminator and then the Generator to alternatively maximize the discriminator and generator losses. The equations for these loss functions are as follows.</p>
 <p><span class="math display">\[\mathcal{L}_{D{0}} = \mathbb{E}{(I{0},t)\sim p{data}}[log D{0}(I{0}, \varphi{t})]+ \\ \mathbb{E}{z \sim p{z}, t \sim p{data}}[log(1- D{0}(G{0}(z , \hat{c{0}}, \varphi_{t})))]\]</span></p>
 <p><span class="math display">\[\mathcal{L}_{G{0}}= \mathbb{E}{z \sim p{z}, t \sim p{data}}[log(1- D{0}(G{0}(z, \hat{c{0}}),\varphi{t}))] + \\ \lambda D{KL}(\mathcal{N}(\mu{0}(\varphi{t}), \Sigma{0}(\varphi{t}))|| \mathcal{N}(0, I))\]</span></p>
 <p><span class="math inline">\(z\)</span> is a noise vector that is randomly sampled from the Gaussian distribution <span class="math inline">\(p_{z}\)</span>. A regularizing parameter is provided in the <span class="math inline">\(\lambda\)</span> variable. The StackGAN research uses a <span class="math inline">\(\lambda = 1\)</span> for the paper.</p>
 </section>
+</section>
 <section id="stage-ii-gan" class="level3">
 <h3 class="anchored" data-anchor-id="stage-ii-gan">Stage II GAN</h3>
 <p>The Stage II GAN receives the output of the Stage I GAN and refines it by re-considering the descriptions.</p>
-<section id="architecture-1" class="level4">
-<h4 class="anchored" data-anchor-id="architecture-1">Architecture</h4>
+<section id="architecture-2" class="level4">
+<h4 class="anchored" data-anchor-id="architecture-2">Architecture</h4>
 <p>The StackGANs Stage II Generator follows an encoder-decoder architecture with residual blocks. Text embedding is used first to create the conditioning variables. The result of Stage I is passed through <a href="../../Downsampling|downsampling.qmd">../../Downsampling|downsampling</a> layers and then concatenated with the features obtained from the text embedding. The output of these layers is then upsampled to generate high-resolution images. The Discriminator architecture is almost identical to Stage I, except for a few extra down-sampling layers. These down-sampling layers were included as the output of this part of the network is of a higher resolution than Stage I.</p>
 </section>
-<section id="loss-functions" class="level4">
-<h4 class="anchored" data-anchor-id="loss-functions">Loss functions</h4>
+<section id="loss-functions-1" class="level4">
+<h4 class="anchored" data-anchor-id="loss-functions-1">Loss functions</h4>
 <p>If the low-resolution image is given by <span class="math inline">\(s_{0}\)</span> and the Gaussian sampled latent variables are given by <span class="math inline">\(\hat{c}\)</span>, the Discriminator and Generator are trained by alternatively maximizing the value of the Discriminator loss and minimizing the Generator loss. The equations for these loss functions are the same as the Stage I GAN, except the low-resolution image <span class="math inline">\(s_{0}\)</span> is used instead of the noise <span class="math inline">\(z\)</span>. It is also to be noted that the noise <span class="math inline">\(z\)</span> is not used in Stage II as the StackGAN is meant to preserve the required randomness with the previous stage. A different FC layer is also used here that generates different statistical outputs compared to Stage I to learn better features.</p>
 </section>
 </section>
@@ -12527,7 +12547,10 @@ window.Quarto = {
 </section>
 <section id="embedding" class="level2">
 <h2 class="anchored" data-anchor-id="embedding">Embedding</h2>
-<p>Contrary to other networks where the text embeddings are transformed using non-linear techniques, the StackGAN uses additional variables and a process called Conditioning Augmentation. These embeddings are more robust to minor changes in the data manifold and work with lesser image data. ## Conditioning Augmentation</p>
+<p>Contrary to other networks where the text embeddings are transformed using non-linear techniques, the StackGAN uses additional variables and a process called Conditioning Augmentation. These embeddings are more robust to minor changes in the data manifold and work with lesser image data.</p>
+</section>
+<section id="conditioning-augmentation" class="level2">
+<h2 class="anchored" data-anchor-id="conditioning-augmentation">Conditioning Augmentation</h2>
 <p>Conditioning Augmentation is one of the major contributions of the StackGAN research. Given a text description <span class="math inline">\(t\)</span>, the StackGAN uses an embedding to convert it to input for the Generator. Under circumstances where the data is limited, the latent space of the embedding is not fully exploited and leads to changes in the data manifold. These changes in the manifold are not desirable and hurt performance.</p>
 <p>Conditioning Augmentation uses these to create more training pairs from a small subset of data. Instead of using a fixed conditioning variable, StackGAN samples latent variables from a Gaussian distribution. The mean and <a href="../../Covariance|covariance.qmd">../../Covariance|covariance</a> matrix is generated for a text embedding <span class="math inline">\(\varphi_{t}\)</span>.</p>
 <p>The secondary objective of Conditioning Augmentation is to encourage reducing changes in the output with small changes in the data manifold. To do this, StackGAN uses a <a href="../../Regularization|regularization.qmd">../../Regularization|regularization</a> term called KL Divergence as part of the Generator. This is given by, <span class="math display">\[D{KL}(\mathcal{N}(\mu(\varphi{t}), \Sigma(\varphi_{t})) || \mathcal{N}(0,I))\]</span></p>
@@ -12545,7 +12568,7 @@ window.Quarto = {
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

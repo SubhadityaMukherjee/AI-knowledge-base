@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Belief-Desire-Intention
 
 categories: ['ethics']

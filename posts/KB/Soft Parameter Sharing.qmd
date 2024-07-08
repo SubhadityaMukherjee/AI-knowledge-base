@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Soft Parameter Sharing
 
 categories: ['multitask']

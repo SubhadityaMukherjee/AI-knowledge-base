@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Building a GAN from scratch
 
 categories: ["article"]
@@ -9,12 +10,14 @@ date created:
 # Building a GAN from scratch 
 
 :::section{.abstract}
+
 ## Overview
 Generating images from scratch is a huge deal in computer vision. A **Generative Adversarial Network**(GAN) was one of the first models to generate new images in an unsupervised manner efficiently. A GAN is not a single model but a family of different architectures used for image generation.
 
 This article will look at the first Generative Adversarial Network, a **vanilla GAN**. We will learn how to make a Generative Adversarial Network from scratch.
 :::
 :::section{.scope}
+
 ## Scope
 This article covers the following topics:
 - What is a Generative Adversarial Network, and how to make a Generative Adversarial Network from scratch?
@@ -42,6 +45,7 @@ GANs have much bigger and more complex architectural pipelines than a standard C
 The training paradigm for GANs is called **Adversarial Training** and relies on an interplay between the Generator and the Discriminator. 
 
 This article will look at what a Generative Adversarial Network is and its components. After we understand the parts, we will build our own GAN from scratch and train it on a dataset of handwritten images (MNIST). 
+
 ## Architecture of a GAN
 One of the hardest parts of understanding how to make a Generative Adversarial Network is comprehending the architecture. GANs are very different from regular neural networks in that they are composed of two completely different neural networks - The Generator and the Discriminator.
 
@@ -69,6 +73,7 @@ The Discriminator is a binary classifier and comprises blocks of fully connected
 
 ## Demystifying the loss function
 Loss functions are an essential part of any neural network pipeline. Before we learn how to make a Generative Adversarial Network, we first need to understand the loss functions.
+
 ### Discriminator loss
 The Discriminator's job is to classify the generated images into real or fake and return the probability that it is real. To do so, it needs to do extremely well at ensuring that the input it gets belongs to the real dataset. It should also ensure that if the input is fake, it is not classified as belonging to the real dataset. 
 Mathematically, this can be understood as **maximizing** $D(x)$ and **minimizing** $D(G(z))$.
@@ -77,6 +82,7 @@ Mathematically, this can be understood as **maximizing** $D(x)$ and **minimizing
 The Generator is tasked with ensuring that the Discriminator is fooled. It can do so by creating realistic images that the Discriminator thinks are real. This process can be thought of as ensuring that the Discriminator classifies an image sampled from the fake dataset as belonging to the real one. 
 Mathematically, this is formulated as **maximizing** $D(G(z))$.
 Using this as the loss might lead to the network becoming extremely confident, even if it is wrong. To prevent this from happening, $log(D(G(z)))$ is used instead. 
+
 ### Total loss
 There is no net loss that is used in practice. Still, while learning to make a Generative Adversarial Network, we must consider the total theoretical loss the network is trying to optimize.
 Training a Generative Adversarial Network is a game between two enemies (aka adversaries). In other words, this is a MinMax game where one party attempts to reduce the probability of the other winning. Both parties are simultaneously also trying to increase their chances of winning.
@@ -121,6 +127,7 @@ import matplotlib.pyplot as plt
 import sys
 import numpy as np
 ```
+
 ### Setup Configuration
 To further understand how to make a Generative Adversarial Network, we need to explore our configuration options.
 We first define the size of the image we want to load and generate. Since we are using the MNIST dataset, we set this to 28x28.
@@ -135,6 +142,7 @@ input_shape = (num_rows, num_cols, num_channels)
 z_size = 100
 opt = SGD()
 ```
+
 ## Dataset
 The dataset we use in this article is the *Modified National Institute of Standards and Technology database* or **MNIST**. It is a dataset of handwritten digits almost ubiquitous in deep learning. A sample of this dataset is shown below. 
 [IMAGE {5} MNIST START SAMPLE]
@@ -153,8 +161,10 @@ train_ims = np.expand_dims(train_ims, axis=3)
 valid = np.ones((batch_size, 1))
 fake = np.zeros((batch_size, 1))
 ```
+
 ## Networks
 We now look at the network architecture to understand how to make a Generative Adversarial Network from scratch. 
+
 ### Discriminator
 To create the Discriminator, we define a function that returns a model with the network defined. This function does not compile the model as we need to call it multiple times, and pre-compiling it will lead to issues when we do.
 
@@ -173,6 +183,7 @@ def build_discriminator():
 	validity = disc_model(disc_img)
 	return Model(disc_img, validity)
 ```
+
 ### Generator
 The Generator is built similarly to the Discriminator. We define a custom function to create the Generator but do not compile it for now. The noise is also generated and passed through the network here.
 
@@ -320,6 +331,7 @@ We can also do this later on.
 if epoch % sample_interval == 0:
     one_batch(epoch)
 ```
+
 ## Results
 The code we wrote saves images at an interval of 200 epochs. For clarity, we can look at the images generated at the start, at 400 epochs, at 5000 epochs and finally after 10,000 epochs.
 

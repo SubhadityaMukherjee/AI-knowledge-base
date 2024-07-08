@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Lost in the Middle How Language Models Use Long Contexts
 tags:
   - llm

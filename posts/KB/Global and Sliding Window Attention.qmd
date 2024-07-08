@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Global and Sliding Window Attention
 
 categories: ['architecture']

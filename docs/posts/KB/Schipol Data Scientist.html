@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Schipol Data Scientist.html">Schipol Data Scientist</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#schipol-data-scientist" id="toc-schipol-data-scientist" class="nav-link active" data-scroll-target="#schipol-data-scientist">Schipol Data Scientist</a>
+  <ul class="collapse">
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#recruiter-email" id="toc-recruiter-email" class="nav-link" data-scroll-target="#recruiter-email">Recruiter Email</a></li>
+  <li><a href="#motivation-letter" id="toc-motivation-letter" class="nav-link" data-scroll-target="#motivation-letter">Motivation Letter</a></li>
+  <li><a href="#email-to-recruiter" id="toc-email-to-recruiter" class="nav-link" data-scroll-target="#email-to-recruiter">Email to Recruiter</a></li>
+  <li><a href="#cold-email" id="toc-cold-email" class="nav-link" data-scroll-target="#cold-email">Cold email</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12499,7 +12512,10 @@ ul.task-list li input[type="checkbox"] {
 <p>That being said, I have some ideas that could make Deep Turnaround even more useful to our stakeholders, and I would love to discuss and work on them to help make the airport experience a little more streamlined. Of course, I would be willing to work on any other feature that is proposed. These are just some ideas. (These might be already implemented, but I did not see these labels in the video on the website). One of the first ideas that comes to mind is using the two existing cameras to also analyze crowd information to make the passenger experience more streamlined and avoid chaos while boarding. Or perhaps, collecting pictures of worker uniforms would enable Deep Turnaround to log more specific events. Neither of these would require any extra infrastructure costs, which is probably also one of your constraints.</p>
 <p>My previous internships and projects (both personal and freelance) have included Deep Object Detection, Computer Vision, Data warehousing and analytics, and Dashboarding. These experiences will let me contribute to any AI team, and I am willing to learn whatever else is necessary for any future projects.</p>
 <p>I have a lot to learn, and I want to work with a team that is making a real-world impact in a sector close to my heart like this one. It is not every day you find a position that you enjoy and also think you can contribute something to, and I sincerely hope you give me a chance!</p>
-<p>Thank you, Subhaditya Mukherjee ## Email to Recruiter</p>
+<p>Thank you, Subhaditya Mukherjee</p>
+</section>
+<section id="email-to-recruiter" class="level2">
+<h2 class="anchored" data-anchor-id="email-to-recruiter">Email to Recruiter</h2>
 </section>
 <section id="cold-email" class="level2">
 <h2 class="anchored" data-anchor-id="cold-email">Cold email</h2>
@@ -12509,7 +12525,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

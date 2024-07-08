@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Implicitly learning when to be ready - From instances to categories
 
 categories: ['cognitivemodel']
@@ -20,7 +21,9 @@ date created: Wednesday 1st February 2023, Wed
 - continued doing so in a subsequent Transfer phase, after they had been informed that these contingencies no longer held
 - rolling regression analysis revealed at a fine timescale how category-guided preparation gradually developed throughout the task
 - explicit information about these contingencies only briefly disrupted memory-guided preparation
+
 ## Preparation across phases
+
 ## Results
 - the RT-FP curve, separately for the different S1 types during the Acquisition and Transfer phase
 - this curve is flatter for trials paired with S1E types than S1A types in both phases, indicating that the categories yielded differential preparation
@@ -30,12 +33,14 @@ date created: Wednesday 1st February 2023, Wed
 - but not for a three way S1 type × Phase × FP interaction
 - different S1 types led to differential preparation in both phases
 - biased distributions in the Acquisition phase gave rise to long-lasting effects on preparation, persisting after the bias was removed
+
 ## Time course of differential preparation
 - participants might have gotten somewhat fatigued throughout each block, but that block breaks allowed them to largely recover to baseline
 - the longer interruption between the Phases led to a more pronounced speeding up for the remaining two blocks
 - overall temporal preparation remained largely consistent throughout the experiment
 - the results with a shorter window of 40 trials highlight that the 'dip' in the S1 type × FP time course at the start of the Transfer phase was very shortlived
 - The brevity of this effect could therefore explain why our earlier work, using block-wise analyses, consistently led us to conclude that this transition between phases had no noticeable effect on differential preparation
+
 ## Discussion
 - Our findings raise the possibility that participants in that study might have demonstrated similar memoryguided preparation even if they would have been unaware of the image-FP pairings
 - complex interplay between implicit associative guidance and guidance by explicit awareness

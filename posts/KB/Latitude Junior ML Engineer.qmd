@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Latitude Junior ML Engineer
 
 categories: ['jobs']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Sugar Factory Task
 
 categories: ['cognitivemodel']

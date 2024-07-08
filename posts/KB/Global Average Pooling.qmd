@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Global Average Pooling
 
 categories: ['architecture']

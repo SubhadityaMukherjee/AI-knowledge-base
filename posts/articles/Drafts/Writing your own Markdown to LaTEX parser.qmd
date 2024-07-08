@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Writing your own Markdown to LaTEX parser
 
 categories: ["article"]
@@ -8,11 +9,14 @@ date created:
 # Writing your own Markdown to LaTEX parser
 
 ## What we want
+
 ## Disclaimers
+
 ## Overview of Steps
 
 
 ## Let’s Make It!
+
 ## Libraries
 ```python
 import markdown
@@ -92,6 +96,7 @@ def get_html_attributes(text):
     parser.feed(text)
     return parser.get_attrs()
 ```
+
 ### Replace strings
 ```
 replacer_dict = {
@@ -101,8 +106,10 @@ replacer_dict = {
     "</html>" : "",
     "<p>" : "",
     "</p>" : "",
-    "<h1>" : "\\begin{document}\n\\title{",
-    "</h1>" : "}\n\\maketitle{}\n",
+    "<h1>" : "\\begin{document}\n\\toc: true
+title{",
+    "</h1>" : "}\n\\maketoc: true
+title{}\n",
     "<h2>" : "\\section{",
     "<h3>" : "\\subsection{",
     "<h4>" : "\\subsubsection{",

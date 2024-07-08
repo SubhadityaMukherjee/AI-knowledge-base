@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Social Construction of XAI, do we need one definition to rule them all
 
 categories: ['explainability']

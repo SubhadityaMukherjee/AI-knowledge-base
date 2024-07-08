@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Data aug for spoken language
 
 categories: ['temp']

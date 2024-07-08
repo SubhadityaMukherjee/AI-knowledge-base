@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Commission FAQ
 
 categories: ["article"]
@@ -6,8 +7,10 @@ date modified:
 date created: 
 ---
 # Commission FAQ
+
 ## Name
 Full form article about anything related to AI/Neural networks/Technical writing.
+
 ## Description
 Want an article on something in AI? Go ahead and ask me for it. 
 If there are specific questions you want answered, you can request them as well. 

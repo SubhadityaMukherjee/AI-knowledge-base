@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Centripetal Force
 
 categories: ['physics']

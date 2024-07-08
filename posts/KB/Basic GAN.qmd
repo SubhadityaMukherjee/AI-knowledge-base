@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Basic GAN
 
 categories: ['architecturegenerative']

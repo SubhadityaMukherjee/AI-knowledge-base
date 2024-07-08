@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Latent Semantic Analysis
 
 categories: ['usermodellearning']

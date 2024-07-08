@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Capacitance
 
 categories: ['physics']

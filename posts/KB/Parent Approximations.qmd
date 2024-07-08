@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Parent Approximations
 
 categories: ['explainability']

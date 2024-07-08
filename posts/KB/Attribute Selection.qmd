@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Atrribute Selection
 
 categories: ['multitask']

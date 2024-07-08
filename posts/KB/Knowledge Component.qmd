@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Knowledge Component
 
 categories: ['usermodellearning']

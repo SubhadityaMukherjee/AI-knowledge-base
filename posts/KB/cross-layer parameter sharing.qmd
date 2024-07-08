@@ -1,4 +1,5 @@
 ---
+toc: true
 title: cross-layer parameter sharing
 
 categories: ['architecture']

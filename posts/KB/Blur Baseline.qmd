@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Blur Baseline
 
 categories: ['explainability']

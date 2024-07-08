@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Indirect Volume Visualization
 categories: ['visualization']
 date modified: Monday, October 10th 2022, 2:02:25 pm

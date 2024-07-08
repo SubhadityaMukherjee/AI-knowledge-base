@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Learning to Detect Grasp Affordance
 
 categories: ['roboticsarchitecture']

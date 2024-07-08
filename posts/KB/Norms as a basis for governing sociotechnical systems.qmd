@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Norms as a basis for governing sociotechnical systems
 
 categories: ['ethics']

@@ -100,7 +100,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -117,23 +117,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,6 +141,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/CycleGAN.html">CycleGAN</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -170,15 +169,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12461,7 +12459,28 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#cyclegan" id="toc-cyclegan" class="nav-link active" data-scroll-target="#cyclegan">CycleGAN</a>
+  <ul class="collapse">
+  <li><a href="#architecture" id="toc-architecture" class="nav-link" data-scroll-target="#architecture">Architecture</a></li>
+  <li><a href="#generator" id="toc-generator" class="nav-link" data-scroll-target="#generator">Generator</a>
+  <ul class="collapse">
+  <li><a href="#encoder" id="toc-encoder" class="nav-link" data-scroll-target="#encoder">Encoder</a></li>
+  <li><a href="#transforming-block" id="toc-transforming-block" class="nav-link" data-scroll-target="#transforming-block">Transforming Block</a></li>
+  </ul></li>
+  <li><a href="#discriminator" id="toc-discriminator" class="nav-link" data-scroll-target="#discriminator">Discriminator</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
+  <li><a href="#limits" id="toc-limits" class="nav-link" data-scroll-target="#limits">Limits</a></li>
+  <li><a href="#reduce-model-oscillation" id="toc-reduce-model-oscillation" class="nav-link" data-scroll-target="#reduce-model-oscillation">Reduce Model Oscillation</a></li>
+  <li><a href="#technical-implementation" id="toc-technical-implementation" class="nav-link" data-scroll-target="#technical-implementation">Technical Implementation</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12559,20 +12578,20 @@ window.Quarto = {
 <section id="technical-implementation" class="level2">
 <h2 class="anchored" data-anchor-id="technical-implementation">Technical Implementation</h2>
 <p>The CycleGAN paper provides a number of technical details regarding how to implement the technique in practice.</p>
-<p>The generator network implementation is based on the approach described for style transfer by&nbsp;<a href="https://cs.stanford.edu/people/jcjohns/">Justin Johnson</a>&nbsp;in the 2016 paper titled “<a href="https://arxiv.org/abs/1603.08155">Perceptual Losses for Real-Time Style Transfer and Super-Resolution</a>.”</p>
+<p>The generator network implementation is based on the approach described for style transfer by&nbsp;<a href="https://cs.stanford.edu/people/jcjohns/">Justin Johnson</a>&nbsp;in the 2016 paper toc: true titled “<a href="https://arxiv.org/abs/1603.08155">Perceptual Losses for Real-Time Style Transfer and Super-Resolution</a>.”</p>
 <p>The generator model starts with best practices for generators using the deep convolutional GAN, which is implemented using multiple residual blocks (e.g.&nbsp;from the&nbsp;<a href="https://machinelearningmastery.com/how-to-implement-major-architecture-innovations-for-convolutional-neural-networks/">ResNet</a>).</p>
-<p>The discriminator models use <a href="../../posts/KB/PatchGAN.html">PatchGAN</a>, as described by&nbsp;<a href="http://web.mit.edu/phillipi/">Phillip Isola</a>, et al.&nbsp;in their 2016 paper titled “<a href="https://arxiv.org/abs/1611.07004">Image-to-Image Translation with Conditional Adversarial Networks</a>.”</p>
+<p>The discriminator models use <a href="../../posts/KB/PatchGAN.html">PatchGAN</a>, as described by&nbsp;<a href="http://web.mit.edu/phillipi/">Phillip Isola</a>, et al.&nbsp;in their 2016 paper toc: true titled “<a href="https://arxiv.org/abs/1611.07004">Image-to-Image Translation with Conditional Adversarial Networks</a>.”</p>
 <blockquote class="blockquote">
 <p>This discriminator tries to classify if each NxN patch in an image is real or fake. We run this discriminator convolutionally across the image, averaging all responses to provide the ultimate output of D.</p>
 </blockquote>
 <p>—&nbsp;<a href="https://arxiv.org/abs/1611.07004">Image-to-Image Translation with Conditional Adversarial Networks</a>, 2016.</p>
 <p>PatchGANs are used in the discriminator models to classify 70×70 overlapping patches of input images as belonging to the domain or having been generated. The discriminator output is then taken as the average of the prediction for each patch.</p>
-<p>The adversarial loss is implemented using a least-squared loss function, as described in&nbsp;<a href="https://xudongmao.github.io/">Xudong Mao</a>, et al’s 2016 paper titled “<a href="https://arxiv.org/abs/1611.04076">Least Squares Generative Adversarial Networks</a>.”</p>
+<p>The adversarial loss is implemented using a least-squared loss function, as described in&nbsp;<a href="https://xudongmao.github.io/">Xudong Mao</a>, et al’s 2016 paper toc: true titled “<a href="https://arxiv.org/abs/1611.04076">Least Squares Generative Adversarial Networks</a>.”</p>
 <blockquote class="blockquote">
 <p>[…] we propose the Least Squares Generative Adversarial Networks (LSGANs) which adopt the least squares loss function for the discriminator. The idea is simple yet powerful: the least squares loss function is able to move the fake samples toward the decision boundary, because the least squares loss function penalizes samples that lie in a long way on the correct side of the decision boundary.</p>
 </blockquote>
 <p>—&nbsp;<a href="https://arxiv.org/abs/1611.04076">Least squares generative adversarial networks</a>, 2016.</p>
-<p>Additionally, a buffer of 50 generated images is used to update the discriminator models instead of freshly generated images, as described in&nbsp;<a href="https://www.linkedin.com/in/ashish-shrivastava-3499127/">Ashish Shrivastava’s</a>&nbsp;2016 paper titled “<a href="https://arxiv.org/abs/1612.07828">Learning from Simulated and Unsupervised Images through Adversarial Training</a>.”</p>
+<p>Additionally, a buffer of 50 generated images is used to update the discriminator models instead of freshly generated images, as described in&nbsp;<a href="https://www.linkedin.com/in/ashish-shrivastava-3499127/">Ashish Shrivastava’s</a>&nbsp;2016 paper toc: true titled “<a href="https://arxiv.org/abs/1612.07828">Learning from Simulated and Unsupervised Images through Adversarial Training</a>.”</p>
 <blockquote class="blockquote">
 <p>[…] we introduce a method to improve the stability of adversarial training by updating the discriminator using a history of refined images, rather than only the ones in the current minibatch.</p>
 </blockquote>
@@ -12583,7 +12602,7 @@ window.Quarto = {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

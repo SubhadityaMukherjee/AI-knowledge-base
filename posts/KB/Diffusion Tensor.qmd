@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Diffusion Tensor
 
 categories: ['visualization']

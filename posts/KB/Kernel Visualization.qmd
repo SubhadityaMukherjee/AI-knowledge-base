@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Kernel Visualization
 categories: ['ssl']
 ---

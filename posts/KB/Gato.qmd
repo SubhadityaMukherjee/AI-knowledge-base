@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Gato
 
 categories: ['architecture']

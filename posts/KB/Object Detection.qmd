@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Object Detection
 categories: ['ssl']
 ---

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Maximum Distance Baseline
 
 categories: ['explainability']

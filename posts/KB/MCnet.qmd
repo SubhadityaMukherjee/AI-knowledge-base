@@ -1,4 +1,5 @@
 ---
+toc: true
 title: MCnet
 categories: ['architecture']
 ---

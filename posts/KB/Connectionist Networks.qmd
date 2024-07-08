@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Connectionist Networks
 
 categories: ['languagepsychology']

@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Masked Language Modeling in BERT #scalar
 
 categories: ["article"]
@@ -10,11 +11,13 @@ date created:
 masked language model explained
 
 :::section{.abstract}
+
 ## Overview
 Language modelling is a massive domain and has many sub-research areas. One such domain involves understanding contextual information about words in a sentence. This task can be done in many ways, and masked language modelling is one such method. In the past few years, Transformer based models have reached SOTA(state of the art) in many NLP domains. BERT is one such model. In this article, we will understand how to train BERT to fill in missing words in a sentence using MLM.
 
 :::
 :::section{.scope}
+
 ## Scope of the Article
 This article covers the following topics:
 - [../../Masked Language Modeling|Masked Language Modeling](../../Masked Language Modeling|Masked Language Modeling.qmd) explained in an easy-to-understand manner
@@ -24,6 +27,7 @@ This article covers the following topics:
 
 :::
 :::section{.main}
+
 ## [../../Masked Language Modeling|Masked Language Modeling](../../Masked Language Modeling|Masked Language Modeling.qmd) Explained
 To a NN model, the word context has no meaning. So, we need to find ways to make the model consider surrounding words to learn which context words appear. For example, consider the sentence, "I am eating an ice cream". In this, the "ice cream" is being "eaten". What would an appropriate word be if we now remove the word "eating" and have the sentence as "I am ___ an ice cream"? We can consider something along the lines of "licking", "eating", "sharing", etc. However, we cannot say "drowning", "cycle", "chair", or other random words.
 
@@ -32,16 +36,22 @@ Quite simply, all we do is give the model inputs with blanks as a "token" `<MASK
 
 ## Quick Recap
 This section gives a small recap of all the important concepts we need to understand the code.
+
 ### Tokens
 Tokens can be considered parts of a sentence that contribute to understanding. A sentence such as "I am Jane Austen" can have the tokens `["I", "am", "Jane", "Austen"]`. As a computer does not understand words, we need to convert these to numerical values. To do so, we give each word a unique ID. Something like `[100, 101, 102, 103]` etc.
+
 ### Attention
 One of the most important concepts in Machine learning today, attention mechanisms give models the power to decide where to look in an input. Compared to CNNs, this makes models such as Transformers perform much better as it simultaneously learns which parts of the input would be better along with what the input could be classified. 
+
 ### Transformers
 Transformers are a large family of models that employ different variants of attention mechanisms. They first started in NLP but have also branched out to computer vision due to their immense potential. They generally have an Encoder-Decoder architecture with multiple "heads". Each head is responsible for its attention.
+
 ### BERT
 BERT is part of a sub-family of transformer architectures made for NLP and led to a sea of other new models that reached SOTA. It can be used in many different contexts, especially MLM, next-word prediction, question answering and many more.
+
 ### Transfer Learning
 A training paradigm that changed the DL world by allowing any researcher with limited resources to use SOTA models for inference and fine-tune them to their needs. A model like BERT requires Terabytes of data before it can be trained to extremely high levels. This level of computing is almost impossible for most people to have apart from companies with massive funding and resources. However, now we can use their trained models and make them work for our tasks.
+
 ### Stopwords
 Words that do not add much value to the model but are repeated enough times for it to become a problem. These are generally removed before modelling.
 
@@ -51,17 +61,22 @@ Word2Vec, on the other hand, has similar ideas but the embeddings it generates h
 
 ## Libraries We Need
 We need a few libraries to make this work.
+
 ### Tensorflow/Keras
 TF is one of the major DL libraries in Python. We will be using it for training our model.
+
 ### Hugging Face Transformers
 This library is one of the recent developments in the open-source community. It is a database of trained models and datasets that can be directly used in any codebase. They have thousands of tasks, making it extremely easy to get results fast. We will use their pre-trained BERT model.
+
 ### NLTK
 A text processing library that we will use to clean up our text before passing it to the model.
+
 ### Seaborn/Matplotlib
 These libraries are used for plotting our training performance.
 
 ## Implementation
 Now for the code.
+
 ### Imports
 We first import all the required packages. We also download the stopwords and punctuation data from nltk.
 
@@ -202,6 +217,7 @@ def multiple_preds(model, query_list):
     preds = [f"{x} -> {return_prediction(model, x).split(' ')}" for x in query_list]
     for i in preds: print(i)
 ```
+
 ## Predictions
 After training, we can finally give the model a practice exam! Since we fine-tuned it on the book "Emma", we give it the following sentences. `["too well [MASK] for her", "nice to [MASK] her", "Emma [MASK] a girl who wanted a [MASK]"]`
 

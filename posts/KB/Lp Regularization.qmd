@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Lp Regularization
 categories: ['regularize']
 date modified: Monday, October 10th 2022, 2:02:23 pm

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Capture bias
 
 categories: ['ethics']

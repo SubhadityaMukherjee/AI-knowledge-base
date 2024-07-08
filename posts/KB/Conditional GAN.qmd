@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Conditional GAN
 
 categories: ['architecturegenerative']
@@ -22,6 +23,7 @@ date created: Sunday, December 18th 2022, 2:04:16 pm
 
 ## Architecture
 - [GAN Z Space](GAN Z Space.qmd)
+
 ### The Discriminator’s network
 - **Discriminator’s** evaluation is done not only on the similarity between fake data and original data but also on the correspondence of the fake data image to its input label (or features)
 - Same as [DCGAN] except [one hot](DCGAN] except [one hot.qmd) vector for conditioning
@@ -30,23 +32,29 @@ date created: Sunday, December 18th 2022, 2:04:16 pm
 - To create an image that looks as “real” as possible to fool the Discriminator.
 - Same as [DCGAN] except [one hot](DCGAN] except [one hot.qmd) vector.
 - ![0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png](0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png)
+
 ## Loss functions
 - We need to calculate two losses for the Discriminator. The sum of the “fake” image and “real” image loss is the overall Discriminator loss. So the loss function of the Discriminator is aiming at minimizing the error of predicting real images coming from the dataset and fake images coming from the Generator given their one-hot labels.
+
 ### Gen
 - The loss function of the Generator minimizes the correct prediction of the Discriminator on fake images conditioned on the specified one-hot labels.
 - $$\mathcal{L}^{(G)}(\theta^{(G)}, \theta^{(D)}) = - \mathbb{E}_{z} log \mathcal{D} (\mathcal{G} (z|y’))$$
+
 ### Disc
 - has to correctly label real images which are coming from training data set as real.
 - has to correctly label generated images which are coming from **Generator** as fake.
 - $$ \mathcal{L}^{(D)}(\theta^{(G)}, \theta^{(D)})= - \mathbb{E}_{x \sim p_{data}}log \mathcal{D}(x|y) - \mathbb{E}_{z} log (1- \mathcal{D}(\mathcal{G}(z|y')))$$
+
 ## Training
 - The Discriminator is trained using real and fake data and generated 
 - After the Discriminator has been trained, both models are trained together.
 - First, the Generator creates some new examples.
 - The Discriminator’s weights are frozen, but its gradients are used in the Generator model so that the Generator can update its weights.
+
 ### Training Flow
 - For the Disc ![1B3C997B-A352-4F79-B637-8C3F1373938B.webp](1B3C997B-A352-4F79-B637-8C3F1373938B.webp.qmd)
 - For the Gen ![65C9C942-61B6-46F1-B6F2-66C82948004B.webp](65C9C942-61B6-46F1-B6F2-66C82948004B.webp.qmd)
+
 ## Challenges with Conditional generation
 - Not strictly unsupervised. Needs labels
 - With a conditional GAN, you get a random example from the class you specify

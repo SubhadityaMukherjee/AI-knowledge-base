@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Building the Word2Vec Model in Gensim
 
 categories: ["article"]
@@ -9,10 +10,12 @@ date created:
 # # Building the Word2Vec Model in Gensim
 
 :::section{.abstract}
+
 ## Overview
 Word2Vec is a family of models that can take large corpora and represent them in vector space. These representations, also known as word embeddings, are extremely useful as they help us perform many tasks in NLP. From recommender systems to analysing sentiments from internet feeds to large-scale chatbots, word embeddings have brought life to the field of NLP for decades. Word2Vec, one of the older models, is relatively simple to implement. After implementing it we will use word embedding [../../visualization|visualization](../../visualization|visualization.qmd) to further understand how the model works.
 :::
 :::section{.scope}
+
 ## Scope
 This article covers the following topics:
 - What are Word2Vec and Gensim.
@@ -25,28 +28,37 @@ This article covers the following topics:
 
 ## What Are We Building?
 In this article, we are modeling text data by converting a large corpora of text into a Vector model using Word2Vec. We will be using the Python library gensim to do so. We also will build the pipeline needed for word embedding visualization using the Tensorflow Embedding Projector as well as save the trained model for inference.
+
 ### Problem Statement
 Our problem statement for this article is to create a pipeline using gensim that uses Word2Vec to process a text corpora, visualize the embeddings, and save the trained model to disk.
+
 ### Pre-Requisites
 Before moving to the actual implementation, there are some pre-requisite topics that we need to know. A summary of them is as follows.
+
 #### Embeddings and Word Embedding Visualization
 The output of a Word2Vec model is a word embedding. There are many other models which give similar embeddings, some better than Word2Vec as well. These are synonymous with word vectors for our use case. 
+
 #### Stopwords
 Common words like "the", "to", etc., do not add much to the model but can negatively influence the embedding.
+
 #### CBOW
 A continuous bag of words uses a single hidden layer NN to predict a source word based on its neighbouring words. It uses a sliding window over the sentence to generate these pairs. Consider these examples as (X, Y) pairs to be passed into a model. 
 An example: Given the sentence "I love gensim a lot" and a sliding window of 2, we get ([I, gensim], love), ([love, a], gensim) etc
+
 #### Skip-gram
 Skip Grams are a mirror of CBOW. It also uses a similar single hidden layer NN with a sliding window but uses the context words to predict the source word. 
 An example: Given the sentence "I love gensim a lot" and a sliding window of 2, we get (love, [I, gensim]), (gensim, [love, a]) etc
 
 ### How Are We Going To Build This?
 We are going to load a custom data file as an input to the model and preprocess it to make it fit for the model. After that, we will load the gensim implementation of Word2Vec and train it on the data we loaded. Once the model is done training, we will export the model to disk and load it the trained model using Tensorflow Embedding Projector for word embedding visualization. In the process, we also will save and load the model for further inference. 
+
 ### Final Output
 The final output that we will get from the model is the text corpora that we load converted to vector space. This vector space can then be used to find similar words from the text and be passed to other neural network models if required. An example word embedding might look something like this.
  
+
 ## Requirements
 To create a Word2Vec model, we need to first understand what it is. We will also be looking at the library Gensim where we obtain the Word2Vec model from.
+
 ### What Is Word2Vec?
 Word vectors are a numerical representation of text content. Word2Vec is a model that converts large text corpora to a vector representation as  doing so provides the corpora with the following properties :
 - Since they are converted to numerical vectors, they can be fed into any numerical model, such as a neural network. 
@@ -57,6 +69,7 @@ Gensim is a text processing library that lets us train models like Word2Vec very
 
 ## Building Word2Vec Model with Gensim
 Now that we have understood the problem statement, we can start building the model using gensim. We first load all the required packages and data. 
+
 ### Loading Packages and Data
 Before we build the Word2Vec Model, we need to load a few packages along with the data. These packages can be installed using pip. (Eg : `pip install gensim`) if they are not already present on the system that is being used.
 We also download the stopwords and punctuation data from nltk.

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Mean Observed Dissimilarity
 
 categories: ['explainabilityadversarial']

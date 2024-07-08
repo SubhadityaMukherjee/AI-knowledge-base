@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Network Dissection Quantifying Interpretability of Deep Visual Representions
 
 categories: ['explainability']

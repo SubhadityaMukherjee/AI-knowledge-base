@@ -8,6 +8,7 @@ But, its real power lies in the vast number of plugins it has. Most of these are
 I am a student, researcher and programmer. I take lecture notes, read a lot of research papers, articles and books. These come down to a lot of information. Of course, there’s no way I can remember all of these bits of fragmented information. 
 Therefore, drumroll…, I use Obsidian to help me put these bits of information in a place I can easily access. Since I use this almost everyday, I want taking notes to be as painless and efficient as possible. 
 These plugins are a huge help in doing exactly that. (Ordered by the type of task)
+
 ## How to install these plugins?
 This is a simple step. Simple open Obsidian Settings, Scroll down a bit and select “Community plugins”. Disable Restrictive mode, and then browse to your hearts content!
 
@@ -18,7 +19,8 @@ Writing notes is the major objective here. So how do we make it extra painless? 
 - Frontmatter Tag Suggest : Tags are great, but who remembers which ones they used before? Nobody. This plugin autocompletes tags based on ones you have used in previous notes. You can create new ones the normal way of course. 
 - Note Refactor : Made a huge note with a lot of headings? Why not split them into individual topics and maintain links to them? This makes it easier for you to have one major idea per note. Here I have a bunch of test headings, you can see how after applying them they become new notes that link to the current file.
 - Paste URL into selection : The name says it all doesn’t it?
-- Templater : Another plugin I use daily. I like starting my notes with “date_created”, “date_modified”, “tags”, “title” and insert the file name as the header. Since I do this for every single note, why not automate it? This plugin lets you create blocks of dynamic text to be inserted with a keyboard shortcut. I use “Cmd+Shift+I” (“Control+Shift+I” for Windows)
+- Templater : Another plugin I use daily. I like starting my notes with “date_created”, “date_modified”, “tags”, “toc: true
+title” and insert the file name as the header. Since I do this for every single note, why not automate it? This plugin lets you create blocks of dynamic text to be inserted with a keyboard shortcut. I use “Cmd+Shift+I” (“Control+Shift+I” for Windows)
 - Typewriter Scroll : Zen Mode is a way of life. This lets me focus on what I am writing by automatically scrolling the page, and dimming the rest of the text apart from the line I am currently writing. I do disable it while reading though.
 - Command Palette : This one is pretty obvious, but this built in plugin is just a text search. You can quickly open files with a (Cmd/Control + O) that brings up a searchable menu, or use (Cmd/Control + P) to bring up a searchable list of quick actions.
 - Vim Mode : This little option is not for everyone honestly. If you have never heard of Vim, just skip this point. I use vim as my default text editor for everything else. And I can’t live without its keybindings. This just lets me use the vim keys for everything.
@@ -57,6 +59,7 @@ Want articles on something specific? Just ask!
 You can always contact me on [LinkedIn](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100), or drop me an [Email](mailto:msubhaditya@gmail.com)
 
 ---
+toc: true
 title: Meta AI Speech from Brain
 categories: ['architecture']
 ---

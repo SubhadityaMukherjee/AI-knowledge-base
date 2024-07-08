@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Large Kernel in Convolution
 
 categories: ['architecture']

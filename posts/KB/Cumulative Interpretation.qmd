@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Cumulative Interpretation
 categories: ['language']
 date created: Thursday, November 3rd 2022, 11:39:59 am

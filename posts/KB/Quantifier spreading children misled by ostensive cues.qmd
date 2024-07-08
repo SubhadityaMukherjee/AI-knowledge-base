@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Quantifier spreading children misled by ostensive cues
 
 categories: ['language']

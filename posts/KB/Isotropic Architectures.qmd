@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Isotropic Architectures
 
 categories: ['architecture']

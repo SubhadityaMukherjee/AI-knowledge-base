@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Mental Fatigue
 
 categories: ['cognitivemodel']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Free Semantic Label-based Method
 categories: ['ssl']
 ---

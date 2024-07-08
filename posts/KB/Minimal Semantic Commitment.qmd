@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Minimal Semantic Commitment
 
 categories: ['language']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Fixed Factors
 categories: ['language']
 ---

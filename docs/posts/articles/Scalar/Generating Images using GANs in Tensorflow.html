@@ -134,7 +134,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -151,23 +151,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -179,6 +175,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Generating Images using GANs in Tensorflow.html">Generating Images using GANs in Tensorflow</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -204,15 +203,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12495,7 +12493,18 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#generating-images-using-gans-in-tensorflow" id="toc-generating-images-using-gans-in-tensorflow" class="nav-link active" data-scroll-target="#generating-images-using-gans-in-tensorflow">Generating Images using GANs in Tensorflow</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12523,7 +12532,14 @@ window.Quarto = {
 <div class="section{.main}">
 <section id="what-are-we-building" class="level2">
 <h2 class="anchored" data-anchor-id="what-are-we-building">What are we building?</h2>
-<p>Creating novel images given an image dataset is one of the strengths of a specific branch of models called Generative Adversarial Networks (GAN). These networks specialize in unsupervised/semi-supervised image generation given any image data. This article uses the GANs image generation ability to create novel handwritten digits. We perform this generation by training the network on a dataset of handwritten digits. We will create a simple GAN from scratch using the Tensorflow library, train it on the MNIST dataset and generate new images of handwritten digits. ## Pre-requisites #### What are GANs GANs, or Generative Adversarial Networks, are a family of networks used for unsupervised image generation, converting between images to another, and many other applications. They are composed of two parts - a Generator and a Discriminator. The Generator creates novel images from random. The Discriminator attempts to prove that the images generated are fake. This game leads to a training approach dubbed “Adversarial Learning”. This article focuses on implementing a GAN and its image-generation ability to create new handwritten digits.</p>
+<p>Creating novel images given an image dataset is one of the strengths of a specific branch of models called Generative Adversarial Networks (GAN). These networks specialize in unsupervised/semi-supervised image generation given any image data. This article uses the GANs image generation ability to create novel handwritten digits. We perform this generation by training the network on a dataset of handwritten digits. We will create a simple GAN from scratch using the Tensorflow library, train it on the MNIST dataset and generate new images of handwritten digits.</p>
+</section>
+<section id="pre-requisites" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h2>
+<section id="what-are-gans" class="level4">
+<h4 class="anchored" data-anchor-id="what-are-gans">What are GANs</h4>
+<p>GANs, or Generative Adversarial Networks, are a family of networks used for unsupervised image generation, converting between images to another, and many other applications. They are composed of two parts - a Generator and a Discriminator. The Generator creates novel images from random. The Discriminator attempts to prove that the images generated are fake. This game leads to a training approach dubbed “Adversarial Learning”. This article focuses on implementing a GAN and its image-generation ability to create new handwritten digits.</p>
+</section>
 <section id="how-are-we-going-to-build-this" class="level3">
 <h3 class="anchored" data-anchor-id="how-are-we-going-to-build-this">How are we going to build this?</h3>
 <p>In this article, we focus on the GAN’s image generation ability. To let the GAN learn about images, we must first load an image dataset and preprocess it. After loading the data, we must create the GAN and write the training and testing code. The below sections focus on implementing these features and generating new images from the MNIST dataset.</p>
@@ -12745,7 +12761,7 @@ window.Quarto = {
 
 
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

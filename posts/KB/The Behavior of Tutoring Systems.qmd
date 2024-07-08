@@ -1,4 +1,5 @@
 ---
+toc: true
 title: The Behavior of Tutoring Systems
 
 categories: ['usermodellearning']

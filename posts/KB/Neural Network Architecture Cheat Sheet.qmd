@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Neural Network Architecture Cheat Sheet
 
 categories: ['architecture']

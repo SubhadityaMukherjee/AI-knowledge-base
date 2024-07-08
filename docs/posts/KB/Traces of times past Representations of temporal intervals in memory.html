@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Traces of times past Representations of temporal intervals in memory.html">Traces of times past Representations of temporal intervals in memory</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#traces-of-times-past-representations-of-temporal-intervals-in-memory" id="toc-traces-of-times-past-representations-of-temporal-intervals-in-memory" class="nav-link active" data-scroll-target="#traces-of-times-past-representations-of-temporal-intervals-in-memory">Traces of times past Representations of temporal intervals in memory</a>
+  <ul class="collapse">
+  <li><a href="#representations-of-time" id="toc-representations-of-time" class="nav-link" data-scroll-target="#representations-of-time">Representations of time</a></li>
+  <li><a href="#bayesian-modeling-approach-by-jazayeri-and-shadlen-2010" id="toc-bayesian-modeling-approach-by-jazayeri-and-shadlen-2010" class="nav-link" data-scroll-target="#bayesian-modeling-approach-by-jazayeri-and-shadlen-2010">Bayesian modeling approach by Jazayeri and Shadlen (2010)</a></li>
+  <li><a href="#general-discussion" id="toc-general-discussion" class="nav-link" data-scroll-target="#general-discussion">General discussion</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12445,24 +12457,39 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Niels Taatgen &amp; Hedderik van Rijn</p></li>
 <li><p>The results show that the adjustment of one interval carried over to the other interval, indicating that subjects were not able to completely separate the two representations</p></li>
-<li><p>assumes that the representation of an interval is based on a pool of recent experiences ## Representations of time</p></li>
-<li><p>The distinction between a solid memory representation for both durations, on the one hand, and a “pool of experiences,” on the other, does not need to be problematic for the comparison process, if one assumes that both approaches eventually result in the retrieval of a single representation that can be compared to the current clock value. ## Bayesian modeling approach by Jazayeri and Shadlen (2010)</p></li>
-<li><p>The assumption of their model is that humans take two factors into account when estimating the duration of an interval</p></li>
-<li><p>One of these factors is the temporal context: What is the range of possible durations for an interval? The second factor is the (self-)knowledge about the imprecision involved in estimating this interval</p></li>
-<li><p>Visual inspection of the results suggests, indeed, that in the FF condition the short interval was estimated as longer and the long interval as shorter, consistent with earlier findings (e.g., Grondin, 2005), and suggesting that both estimates influence each other.</p></li>
-<li><p>estimates of the short interval were influenced by changes in the duration of the long interval, because the short interval’s estimations resemble a dampened pattern of the long interval</p></li>
-<li><p>clear interaction between condition and range</p></li>
-<li><p>Linear mixed-effect models provided information about the contributions of individual factors to a dependent variable and about the reliability of the estimates.</p></li>
-<li><p>Previous feedback also modifies the interval: If the feedback on the previous short interval was “too short,” the estimate is increased by 92 ms, but when it was “too long,” it is decreased the current estimate by 106 ms</p></li>
-<li><p>representation of an interval is the result of a pool of recent experiences and not of a single representation</p></li>
-<li><p>This is indicated by the relatively small intercepts of the regression formula and the susceptibility of the estimates to changes in the other interval ## General discussion</p></li>
-<li><p>The results not only show that the representations of two intervals tend to shift toward each other, but also that a change in the duration of one interval not only affects the representation of that interval, but also the representation of the unchanged interval.</p></li>
-<li><p>These findings support a model in which the representation of a time interval is not a single <a href="../../posts/KB/memory trace.html">memory trace</a>, but a pool of experiences in which recency and match to the current request determine the impact of single experiences.</p></li>
-<li><p>The main specific choice we made in this model was to treat every experience with each of the intervals as a separate <a href="../../posts/KB/memory trace.html">memory trace</a></p></li>
-<li><p>However, we could not come up with a modification of the perturbation system that could (1) produce relatively stable performance for both durations, (2) adjust itself to changes in the standard, and (3) show influences of the changed long interval on the short interval.</p></li>
-<li><p>As already mentioned in the introduction, the fit to the data does not hinge on the linear or nonlinear representation of time in the clock component—as long as a clock component produces temporal information, the pool model would be able to produce new temporal estimates</p></li>
-<li><p>a combination of a memory system and a time estimation system can explain the data discussed in this study, despite the fact that neither system was specifically designed for these experiments.</p></li>
+<li><p>assumes that the representation of an interval is based on a pool of recent experiences</p></li>
 </ul>
+<section id="representations-of-time" class="level2">
+<h2 class="anchored" data-anchor-id="representations-of-time">Representations of time</h2>
+<ul>
+<li>The distinction between a solid memory representation for both durations, on the one hand, and a “pool of experiences,” on the other, does not need to be problematic for the comparison process, if one assumes that both approaches eventually result in the retrieval of a single representation that can be compared to the current clock value.</li>
+</ul>
+</section>
+<section id="bayesian-modeling-approach-by-jazayeri-and-shadlen-2010" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-modeling-approach-by-jazayeri-and-shadlen-2010">Bayesian modeling approach by Jazayeri and Shadlen (2010)</h2>
+<ul>
+<li>The assumption of their model is that humans take two factors into account when estimating the duration of an interval</li>
+<li>One of these factors is the temporal context: What is the range of possible durations for an interval? The second factor is the (self-)knowledge about the imprecision involved in estimating this interval</li>
+<li>Visual inspection of the results suggests, indeed, that in the FF condition the short interval was estimated as longer and the long interval as shorter, consistent with earlier findings (e.g., Grondin, 2005), and suggesting that both estimates influence each other.</li>
+<li>estimates of the short interval were influenced by changes in the duration of the long interval, because the short interval’s estimations resemble a dampened pattern of the long interval</li>
+<li>clear interaction between condition and range</li>
+<li>Linear mixed-effect models provided information about the contributions of individual factors to a dependent variable and about the reliability of the estimates.</li>
+<li>Previous feedback also modifies the interval: If the feedback on the previous short interval was “too short,” the estimate is increased by 92 ms, but when it was “too long,” it is decreased the current estimate by 106 ms</li>
+<li>representation of an interval is the result of a pool of recent experiences and not of a single representation</li>
+<li>This is indicated by the relatively small intercepts of the regression formula and the susceptibility of the estimates to changes in the other interval</li>
+</ul>
+</section>
+<section id="general-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="general-discussion">General discussion</h2>
+<ul>
+<li>The results not only show that the representations of two intervals tend to shift toward each other, but also that a change in the duration of one interval not only affects the representation of that interval, but also the representation of the unchanged interval.</li>
+<li>These findings support a model in which the representation of a time interval is not a single <a href="../../posts/KB/memory trace.html">memory trace</a>, but a pool of experiences in which recency and match to the current request determine the impact of single experiences.</li>
+<li>The main specific choice we made in this model was to treat every experience with each of the intervals as a separate <a href="../../posts/KB/memory trace.html">memory trace</a></li>
+<li>However, we could not come up with a modification of the perturbation system that could (1) produce relatively stable performance for both durations, (2) adjust itself to changes in the standard, and (3) show influences of the changed long interval on the short interval.</li>
+<li>As already mentioned in the introduction, the fit to the data does not hinge on the linear or nonlinear representation of time in the clock component—as long as a clock component produces temporal information, the pool model would be able to produce new temporal estimates</li>
+<li>a combination of a memory system and a time estimation system can explain the data discussed in this study, despite the fact that neither system was specifically designed for these experiments.</li>
+</ul>
+</section>
 <section id="images" class="level2">
 <h2 class="anchored" data-anchor-id="images">Images</h2>
 <ul>
@@ -12502,7 +12529,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Scalar Articles
 
 categories: ['index']
@@ -16,6 +17,7 @@ date created: Tuesday, December 13th 2022, 4:55:46 pm
 - [Conditional GAN](Conditional GAN.qmd)
 - [Stack GAN](Stack GAN.qmd)
 - [Basic GAN](Basic GAN.qmd)
+
 ## In Progress
 - [Generative vs Discriminative Models](Generative vs Discriminative Models.qmd)
 

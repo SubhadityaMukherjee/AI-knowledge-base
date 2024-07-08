@@ -1,4 +1,5 @@
 ---
+toc: true
 title: ISIC 2018
 
 categories: ['dataset']

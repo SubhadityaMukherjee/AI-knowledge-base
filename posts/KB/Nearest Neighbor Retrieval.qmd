@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Nearest Neighbor Retrieval
 categories: ['ssl']
 ---

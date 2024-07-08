@@ -1,4 +1,5 @@
 ---
+toc: true
 title:  An understanding of will - Part 1
 
 categories: ["article"]

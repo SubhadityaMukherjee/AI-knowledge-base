@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Preferences and ethical principles in decision making
 
 categories: ['ethics']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Representation Bias
 
 categories: ['multitask']

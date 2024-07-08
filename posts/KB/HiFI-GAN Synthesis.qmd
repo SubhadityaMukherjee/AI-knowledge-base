@@ -1,4 +1,5 @@
 ---
+toc: true
 title: HiFI-GAN Synthesis
 
 categories: ['architecture']

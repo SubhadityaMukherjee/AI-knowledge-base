@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Scene based text to image generation
 
 categories: ['architecture']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Leap Data Scientist
 
 categories: ['jobs']

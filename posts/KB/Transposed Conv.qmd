@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Transposed Conv
 
 categories: ['architecturegenerative']

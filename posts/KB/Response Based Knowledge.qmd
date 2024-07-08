@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Response Based Knowledge
 
 categories: ['knowledgedistillation']

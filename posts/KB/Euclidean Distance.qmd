@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Euclidean Distance
 
 categories: ['distance']

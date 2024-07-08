@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Viewpoint Feature Histogram
 categories: ['robotics']
 ---

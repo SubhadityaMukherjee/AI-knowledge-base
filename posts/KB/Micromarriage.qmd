@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Micromarriage
 
 categories: ['random']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Towards A Rigorous Science of Interpretable Machine Learning
 
 categories: ['explainability']

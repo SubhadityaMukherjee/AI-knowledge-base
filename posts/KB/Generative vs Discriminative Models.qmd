@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Generative vs Discriminative Models
 
 categories: ['architecturegenerative']

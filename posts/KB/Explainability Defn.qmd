@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Explainability Defn
 
 categories: ['explainability']

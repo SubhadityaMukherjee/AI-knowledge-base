@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Comparing Data Augmentation Strategies for Deep Image Classification.html">Comparing Data Augmentation Strategies for Deep Image Classification</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,29 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#comparing-data-augmentation-strategies-for-deep-image-classification" id="toc-comparing-data-augmentation-strategies-for-deep-image-classification" class="nav-link active" data-scroll-target="#comparing-data-augmentation-strategies-for-deep-image-classification">Comparing Data Augmentation Strategies for Deep Image Classification</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#model-and-optimizer" id="toc-model-and-optimizer" class="nav-link" data-scroll-target="#model-and-optimizer">Model and Optimizer</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
+  <li><a href="#cifar-10" id="toc-cifar-10" class="nav-link" data-scroll-target="#cifar-10">CIFAR-10</a></li>
+  <li><a href="#experiments" id="toc-experiments" class="nav-link" data-scroll-target="#experiments">Experiments</a></li>
+  <li><a href="#results-discussion" id="toc-results-discussion" class="nav-link" data-scroll-target="#results-discussion">Results &amp; Discussion</a></li>
+  <li><a href="#single-augmentations" id="toc-single-augmentations" class="nav-link" data-scroll-target="#single-augmentations">Single Augmentations</a></li>
+  <li><a href="#varying-augmentation-injection-epoch" id="toc-varying-augmentation-injection-epoch" class="nav-link" data-scroll-target="#varying-augmentation-injection-epoch">Varying Augmentation Injection Epoch</a></li>
+  <li><a href="#varying-sample-size" id="toc-varying-sample-size" class="nav-link" data-scroll-target="#varying-sample-size">Varying Sample Size</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12451,41 +12471,82 @@ ul.task-list li input[type="checkbox"] {
 <li>Inject augmentation around 30 epochs</li>
 <li>Use learning rate decay</li>
 <li><a href="../../posts/KB/Random Erasing.html">Random Erasing</a> is useful</li>
-<li>Use [Adam] + <a href="Adam] + [SGD.qmd">SGD</a> ## Abstract</li>
+<li>Use [Adam] + <a href="Adam] + [SGD.qmd">SGD</a></li>
+</ul>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<ul>
 <li>More complex augmentation methods have recently been developed, but it is still unclear which techniques are most effective, and at what stage of the learning process they should be introduced.</li>
 <li>The most accurate results in all experiments are achieved using random erasing due to its ability to simulate occlusion</li>
 <li>reducing the number of training examples significantly increases the importance of augmentation</li>
 <li>improvements in generalization from augmentation do not appear to be only as a result of augmentation preventing overfitting</li>
 <li>learning curriculum that injects augmentation after the initial learning phase has passed is more effective than the standard practice of using augmentation throughout, and that injection too late also reduces accuracy</li>
-<li>We find that careful augmentation can improve accuracy by +2.83% to 95.85% using a ResNet model on <a href="../../posts/KB/CIFAR.html">CIFAR</a>-10 with more dramatic improvements seen when there are fewer training examples ## Model and Optimizer</li>
+<li>We find that careful augmentation can improve accuracy by +2.83% to 95.85% using a ResNet model on <a href="../../posts/KB/CIFAR.html">CIFAR</a>-10 with more dramatic improvements seen when there are fewer training examples</li>
+</ul>
+</section>
+<section id="model-and-optimizer" class="level2">
+<h2 class="anchored" data-anchor-id="model-and-optimizer">Model and Optimizer</h2>
+<ul>
 <li>ResNet</li>
 <li>[He et al., 2015] presents an adaption of the model (ResNet-56) for use with 32×32 images that obtained an error rate of 6.97% on <a href="../../posts/KB/CIFAR.html">CIFAR</a>-10, which we adopt in our experiments</li>
 <li>SGD with Nestrov momentum</li>
-<li>Although there are more sophisticated first order optimizers (e.g.&nbsp;Adam [Kingma and Ba, 2015]) that consistently improve the loss faster in the initial epochs, SGD has been observed to reach a local minima with lower overall loss and better generalization properties [Ruder, 2016] ## Datasets ## <a href="../../posts/KB/CIFAR.html">CIFAR</a>-10</li>
+<li>Although there are more sophisticated first order optimizers (e.g.&nbsp;Adam [Kingma and Ba, 2015]) that consistently improve the loss faster in the initial epochs, SGD has been observed to reach a local minima with lower overall loss and better generalization properties [Ruder, 2016]</li>
+</ul>
+</section>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+</section>
+<section id="cifar-10" class="level2">
+<h2 class="anchored" data-anchor-id="cifar-10"><a href="../../posts/KB/CIFAR.html">CIFAR</a>-10</h2>
+<ul>
 <li>randomly sample the dataset to create a 200 samples per class and 1,000 samples per class dataset, reducing the training examples available to 4% and 20% of the original dataset</li>
 <li>The effects of overfitting and model generalization as noted in [Hussain et al., 2018, Shijie et al., 2017] are more pronounced with data scarcity</li>
 <li><a href="../../posts/KB/Skew Tilt.html">Skew Tilt</a></li>
 <li><a href="../../posts/KB/Shear.html">Shear</a></li>
 <li><a href="../../posts/KB/Random Distortion.html">Random Distortion</a></li>
 <li><a href="../../posts/KB/Gaussian Distortion.html">Gaussian Distortion</a></li>
-<li>We introduce augmentation on epochs 30, 60, and 90 of the baseline model and continue training until epoch 163 to discover the optimal time to introduce augmentation. Epochs 30, 60, and 90 represent three distinct stages in the training process: initial loss rate stabilising, loss rate stagnate before learning rate decrease, and loss rate stagnate after learning rate decrease. ## Experiments</li>
+<li>We introduce augmentation on epochs 30, 60, and 90 of the baseline model and continue training until epoch 163 to discover the optimal time to introduce augmentation. Epochs 30, 60, and 90 represent three distinct stages in the training process: initial loss rate stabilising, loss rate stagnate before learning rate decrease, and loss rate stagnate after learning rate decrease.</li>
+</ul>
+</section>
+<section id="experiments" class="level2">
+<h2 class="anchored" data-anchor-id="experiments">Experiments</h2>
+<ul>
 <li>The range of learning rates that provide a stable convergence reduces as batch size increases</li>
 <li>In the most extreme case, we reduce the training set to 4% of the original dataset, meaning a batch size of 128 would likely degrade performance</li>
 <li>Large batches tend to converge to sharp minimizers leading to poor generalization due to the numerous large eigenvalues in the Hessian on convergence</li>
 <li>Small batches, on the other hand, tend to converge to flat minimizers, which have smaller Hessian eigenvalues</li>
 <li>They generate more noise in gradient calculations, decreasing the chance of the gradient dropping into a sharp local minima</li>
-<li>Based on these observations, we train the small and medium datasets using three learning rate strategies: 1) the original strategy from [He et al., 2015], 2) using a batch size of 128 with no learning rate schedule, and 3) using a batch size of 8 with original learning rate schedule. ## Results &amp; Discussion ## Single Augmentations</li>
+<li>Based on these observations, we train the small and medium datasets using three learning rate strategies: 1) the original strategy from [He et al., 2015], 2) using a batch size of 128 with no learning rate schedule, and 3) using a batch size of 8 with original learning rate schedule.</li>
+</ul>
+</section>
+<section id="results-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="results-discussion">Results &amp; Discussion</h2>
+</section>
+<section id="single-augmentations" class="level2">
+<h2 class="anchored" data-anchor-id="single-augmentations">Single Augmentations</h2>
+<ul>
 <li>Random erasing shows the best improvement in accuracy of +1.5%</li>
 <li>Both distortion augmentations obtain worse or similar results to the baseline</li>
 <li>The complexity of the augmentation effects the overall training time. Traditional, more simplistic augmentations require little processing time, leading to increases in training time of ∼ 3.5 hours. <a href="Gaussian distortion.qmd">Gaussian distortion</a> sees the most significant increase in training time of 665%</li>
 <li>We apply each augmentation separately, leading to the dataset increasing from 50k training images to 250k. This leads to the most accurate result seen throughout all experiments of 95.85%</li>
-<li>Our method of applying several single augmentations produces better generalization properties ## Varying Augmentation Injection Epoch</li>
+<li>Our method of applying several single augmentations produces better generalization properties</li>
+</ul>
+</section>
+<section id="varying-augmentation-injection-epoch" class="level2">
+<h2 class="anchored" data-anchor-id="varying-augmentation-injection-epoch">Varying Augmentation Injection Epoch</h2>
+<ul>
 <li>epoch 30 is the optimal time to introduce augmentation</li>
 <li>y injecting augmentation on the 30th epoch, the model combats the effects of overfitting better with increases in accuracy from +0.05% up to +0.76%</li>
 <li>Epoch 30 is the point in the training process when the reduction in loss rate begins to decrease drastically, i.e.&nbsp;the model falls into a local minima point</li>
 <li>The slight improvements in accuracy over the baseline result for introduction at epoch 90 support this conclusion</li>
 <li>The model has already overfit the training data and can no longer benefit from the augmentation’s generalization properties.</li>
-<li>Epoch 60 presents a more interesting point in the training process. The form of augmentation appears to dictate whether the model will have better generalization properties than training with augmentation from scratch but will always be worse than injection at epoch 30 ## Varying Sample Size</li>
+<li>Epoch 60 presents a more interesting point in the training process. The form of augmentation appears to dictate whether the model will have better generalization properties than training with augmentation from scratch but will always be worse than injection at epoch 30</li>
+</ul>
+</section>
+<section id="varying-sample-size" class="level2">
+<h2 class="anchored" data-anchor-id="varying-sample-size">Varying Sample Size</h2>
+<ul>
 <li>For the small dataset, by decreasing the batch size from 128 to 8, the validation accuracy is shown to improve by +31.45% using random erasing (74.46%) when compared to the baseline (43.01%)</li>
 <li>augmentation is most effective in training when data is scarce</li>
 <li>overfitting, as measured by high accuracy on the training set, in many of the augmentation results is more severe than for the baseline</li>
@@ -12497,7 +12558,12 @@ ul.task-list li input[type="checkbox"] {
 <li>The importance of the learning rate adjustment schedule is apparent with the accuracy decreasing for each model when not applied</li>
 <li>Augmentation does reduce overfitting with the most significant decrease occurring for the small batch size</li>
 <li>At this scale, augmentation has similar effects on accuracy as seen in the full dataset</li>
-<li>When the model has large volumes of training data available, augmentation only slightly increases the generalization capabilities of the network as a large amount of variance already exists ## Conclusion</li>
+<li>When the model has large volumes of training data available, augmentation only slightly increases the generalization capabilities of the network as a large amount of variance already exists</li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<ul>
 <li>The initial augmentation gives rise to the most significant increase in training time with any additional augmentations adding little overhead</li>
 <li>processing time required to apply said augmentation to the dataset, which must be considered when choosing a form of augmentation to apply</li>
 <li>combining multiple single augmentations with the original dataset is the most effective augmentation strategy with an increase in accuracy of +2.36% to 95.85%</li>
@@ -12542,7 +12608,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

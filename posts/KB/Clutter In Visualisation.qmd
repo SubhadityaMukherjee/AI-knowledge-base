@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Clutter In Visualisation
 
 categories: ['visualization']

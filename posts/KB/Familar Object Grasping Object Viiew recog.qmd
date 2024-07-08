@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Familar Object Grasping Object Viiew recog
 
 categories: ['roboticsarchitecture']

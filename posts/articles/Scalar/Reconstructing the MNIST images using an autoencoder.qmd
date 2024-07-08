@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Reconstructing the MNIST images using an autoencoder
 
 categories: ["article"]
@@ -9,10 +10,12 @@ date created:
 # Reconstructing MNIST images using an Autoencoder
 
 :::section{.abstract}
+
 ## Overview
 Given noisy images, an **Autoencoder** is a family of models that can convert these noisy images to their original form. These models are unsupervised and use an **Encoder-Decoder** architecture to re-create the original images given **noisy** variants of the same. In the process of re-creation, the model also learns to model the latent space of the dataset.
 ::: 
 :::section{.main}
+
 ## Scope
 - This article explores the concepts required to build a simple Autoencoder.
 - It explains how to implement an Autoencoder using Tensorflow.
@@ -22,8 +25,10 @@ Given noisy images, an **Autoencoder** is a family of models that can convert th
 # What are we building? 
 In this article, we will build an Autoencoder in Tensorflow that can re-create MNIST images. We will create functions to load and pre-process the dataset, along with creating noisy versions of the data points. We will create the Encoder-Decoder structure of the Autoencoder and then use the noisy and real images as inputs to it. After training the model, we will use it to generate new images.
 The following sections elaborate on these points.
+
 ## Pre-requisites
 Before moving to the implementation, we must understand some prerequisite terms.
+
 ### Transposed Convolution
 2D Convolutions compress information from images into smaller representations by [../../Downsampling|downsampling](../../Downsampling|downsampling.qmd) them. Transposed Convolutions perform the opposite operation. These convolutions take compressed/small images and attempt to expand their sizes. An illustration of how this happens is as follows.
 
@@ -136,9 +141,11 @@ x = layers.MaxPooling2D((2, 2), padding="same")(x)
 x = layers.Conv2D(32, (3, 3), activation="relu", padding="same")(x)
 x = layers.MaxPooling2D((2, 2), padding="same")(x)
 ```
+
 ## Defining the Bottleneck
 Unlike the other two components, the Bottleneck does not need to be explicitly programmed. Because the output of the Encoder's final MaxPooling layer is very small, the Decoder must learn to recreate the images using this compressed representation. 
 In more complex implementations of Autoencoders, modifying the Bottleneck is also an option.
+
 ## Defining the Decoder
 The Decoder comprises Transposed Convolutions with a stride of 2. The final layer of the model is a simple 2D convolution with the sigmoid activation function. 
 Since this part of the network is used to recreate images from the compressed representation, upsampling is done using the Transposed Convolution. Larger strides are used for upsampling the images in fewer steps.
@@ -169,6 +176,7 @@ conv_autoenc_model.fit(
     validation_data=(ds_test, ds_test),
 )
 ```
+
 ## Reconstructing images
 After training the model, we can use the trained model to generate predictions. We display the re-created images using the function we wrote previously.
 ```python

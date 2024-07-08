@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Distributive Interpretation (2)
 categories: ['language']
 ---

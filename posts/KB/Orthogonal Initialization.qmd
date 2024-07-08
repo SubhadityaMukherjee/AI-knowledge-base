@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Orthogonal Initialization
 
 categories: ['regularize']

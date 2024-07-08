@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Fisher Spanish-English
 
 categories: ['dataset']

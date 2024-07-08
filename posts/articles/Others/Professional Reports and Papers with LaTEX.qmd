@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Professional Reports and Papers with LaTEX
 
 categories: ["article"]
@@ -37,6 +38,7 @@ Okay great, now it’s time to start working on a project. I will demonstrate wi
 - Look around and find the look you are going for. Click on it, and then click “Use as template”. If you are a University, look for an official template, most of them have one.
 - I picked this - [IEEE template](https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn)
 Perfect! You are halfway there. 
+
 ## Initial Setup
 Before we start, let’s just get used to the interface. 
 On the left you can see a sidebar with all your files and folders. 
@@ -44,10 +46,12 @@ To it’s right, there is the main editor window. If you look closely, the text 
 After that you will see a preview of your article. Every time you hit save or “recompile”, this preview will update. You can latex export this as a PDF.
 - In the sidebar, I like to make a folder for images by click the little icon that looks like a folder.
 - Now, copy paste the first few lines until the line before “begin document”. Think of these as extra functionality. For example: highlighting your links, structuring your document etc.
-- Make a new document titled “main.tex” using the file icon. 
+- Make a new document toc: true
+titled “main.tex” using the file icon. 
 - Paste the contents there.
 
 Great job! Now we can get to writing everything.
+
 ## Understanding The Components
 Now the following might seem slightly too complicated. And you will probably feel like it’s not worth the effort. But, trust the process okay?
 So far, you should have something like this.
@@ -68,7 +72,8 @@ Now we define a basic template.
 ```tex,latex_report_template,latex_report_template
 \begin{document}
 
-\title{Computer Vision in Pytorch - A Primer\\
+\toc: true
+title{Computer Vision in Pytorch - A Primer\\
 \thanks{I thank Overleaf for this template}
 }
 
@@ -78,7 +83,8 @@ Now we define a basic template.
 Groningen, Netherlands \\
 msubhaditya@gmail.com}
 }
-\maketitle
+\maketoc: true
+title
 
 \begin{abstract}
 \end{abstract}
@@ -102,9 +108,12 @@ You will only need to do this once to get a feel for what’s happening. It’s 
 Look at the following code snippets twice. Do you see a pattern?
 
 ### Title, Abstract, Keywords
-We now need a title. So we put it in this line. If you notice the little {}, that is required by LaTeX to know where to start and end something.
-```tex,latex_report_title, latex_report_parts
-\title{Computer Vision in Pytorch - A Primer}
+We now need a toc: true
+title. So we put it in this line. If you notice the little {}, that is required by LaTeX to know where to start and end something.
+```tex,latex_report_toc: true
+title, latex_report_parts
+\toc: true
+title{Computer Vision in Pytorch - A Primer}
 ```
 Are you required to write an abstract or a summary of sorts?
 ```tex,latex_report_abstract, latex_report_parts
@@ -113,8 +122,10 @@ This paper is a short introduction to Pytorch, a deep learning framework. Specia
 \end{abstract}
 ```
 Sometimes, a template will have keywords. You can just enter the ones you think are relevant.
+
 ### Authors
 Every template you copy, will have a section for the author. Just fill it in the way you want.
+
 ### Sections and Subsections
 Now for the actual content. Here we use the commands “section”, “subsection”, “subsubsection”. You do not need to bother about giving them numbers. LaTeX will take care of it.
 Something like this is a good start.
@@ -126,6 +137,7 @@ Deep learning has revolutionised the field of Computer Vision by giving it super
 \subsubsection*{A note}
 Classicial CV is still very relevant today.
 ```
+
 ### Figures
 Doesn’t seem too hard does it? Let’s add some figures. Woah. What is happening here??
 We are defining how we want our figure to look! We tell the system where the image is, how want it to look - centered, fit inside the line, have a caption, and a label. Just change the text to what is relevant to you.
@@ -140,6 +152,7 @@ Think about it once. Makes sense right?
 ```
 
 If you want to change the size, replace “\linewidth” with something like “0.2\linewidth” which makes the figure 0.2 times the size of the line.
+
 ### Formatting Text
 Okay how about formatting such as bold italics and the like? Super simple. Look at these lines.
 
@@ -166,6 +179,7 @@ import numpy as np
 print(np.random.rand(10))
 \end{lstlisting}
 ```
+
 ### Equations
 Have you ever had to add equations in Word? I feel sorry for you. LaTeX lets you do it in a breeze. 
 ```tex,latex_report_equations, latex_report_parts
@@ -183,14 +197,16 @@ For more information, refer to [this nice page](https://en.wikibooks.org/wiki/La
 ### Cover page
 Hopefully you picked a template that already had one. But if you did not, add this before “\begin{document}”. Replace the text however you feel like. 
 ```tex,latex_report_cover, latex_report_parts
-\begin{titlepage}
+\begin{toc: true
+titlepage}
    \begin{center}
        \vspace*{1cm}
 
        \textbf{Thesis Title}
 
        \vspace{0.5cm}
-        Thesis Subtitle
+        Thesis Subtoc: true
+title
             
        \vspace{1.5cm}
 
@@ -211,7 +227,8 @@ Hopefully you picked a template that already had one. But if you did not, add th
        Date
             
    \end{center}
-\end{titlepage}
+\end{toc: true
+titlepage}
 ```
 
 ### Table Of Contents
@@ -245,6 +262,7 @@ Citations are one of the most powerful features of working in LaTeX. The best pa
 \section{Citation Example}
 Two interesting libraries are Kornia \cite{riba2020kornia} and fast.ai \cite{howard2020fastai}. If you want it inline then : \citep{howard2020fastai}.
 ```
+
 ### Bibliography
 Once you have added all your citations, you would need to have a Bibliography. The file “references.bib” you created? Remember the name. Right before “\end{document}” you can add these lines. (Change the first one to what you need. Your template mostly will define it already.)
 ```tex,latex_report_bib, latex_report_parts
@@ -261,6 +279,7 @@ Want to make comments that you or a fellow author can refer to in the future? Ju
 ## Exporting
 Congratulations! Looks like you made it to the end. Now how do you export your awesome document? 
 See the little button that has a downward arrow? Click that. You can also click the “Menu” button and find more options there.
+
 ## Collaboration
 Want to work with colleagues/teammates? Just hit Share and send them the link.
 

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Entourage Plot
 categories: ['visualization']
 date modified: Monday, October 10th 2022, 2:02:28 pm

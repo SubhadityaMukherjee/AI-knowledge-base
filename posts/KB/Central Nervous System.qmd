@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Central Nervous System
 
 categories: ['neuroscience']

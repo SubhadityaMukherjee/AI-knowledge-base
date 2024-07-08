@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Critical Points
 
 categories: ['visualization']

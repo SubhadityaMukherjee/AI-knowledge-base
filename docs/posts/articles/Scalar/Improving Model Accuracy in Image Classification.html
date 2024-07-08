@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Improving Model Accuracy in Image Classification.html">Improving Model Accuracy in Image Classification</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#improving-model-accuracy-in-image-classification" id="toc-improving-model-accuracy-in-image-classification" class="nav-link active" data-scroll-target="#improving-model-accuracy-in-image-classification">Improving Model Accuracy in Image Classification</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12454,11 +12465,20 @@ ul.task-list li input[type="checkbox"] {
 <li>The article also explains <strong>Early Stopping</strong> and other pipeline tweaks such as <strong>Hyperparameter Tuning</strong> and <strong>Transfer Learning</strong>.</li>
 </ul>
 </section>
-<section id="introduction" class="level2 section{.main}">
+<div class="section{.main}">
+<section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>It is often impossible to always have better data or larger models. In such cases, using techniques like [../../Regularization|Regularization] and Transfer Learning not only optimize training time but also care for the lack of data. Algorithms such as <a href="../../Regularization|Regularization] and Transfer Learning not only optimize training time but also care for the lack of data. Algorithms such as [../../Dropout|Dropout.qmd">../../Dropout|Dropout</a> and Early Stopping tackle the challenges of Overfitting. This article provides an introduction to many such algorithms and pipeline tweaks that help in the process of improving model accuracy in image classification. ## Improving Model Accuracy The two biggest hurdles in training neural networks are <strong>Overfitting</strong> and <strong>Underfitting</strong>. In the first case, the network memories the data, and in the second, the network does not learn enough. The following techniques can be divided into categories based on these two concepts. [../../Dropout|Dropout] layers, Data augmentation, <a href="../../Dropout|Dropout] layers, Data augmentation, [../../Regularization|Regularization.qmd">../../Regularization|Regularization</a>, Early Stopping, tackle <strong>Overfitting</strong>. Transfer Learning and Hyperparameter Tuning tackle <strong>Underfitting</strong>. If there is a lack of data, we can use Transfer learning and Data Augmentation. The other algorithms can be experimented with if the model does not perform well. The below sections explain all of these algorithms. ### Overfitting and Underfitting Training a neural network is a balancing act that requires understanding many metrics. Training accuracy is defined as the model’s accuracy during training time on the train/test split of the data. Validation accuracy is defined as the model’s performance when tested on real-world data that the model has never seen. If, in improving image classification accuracy, the training accuracy is far higher than the validation accuracy for many epochs, this is called Overfitting. In Overfitting, the model focuses too heavily on the training data and essentially fails to predict any sample it has yet to see before.</p>
+<p>It is often impossible to always have better data or larger models. In such cases, using techniques like [../../Regularization|Regularization] and Transfer Learning not only optimize training time but also care for the lack of data. Algorithms such as <a href="../../Regularization|Regularization] and Transfer Learning not only optimize training time but also care for the lack of data. Algorithms such as [../../Dropout|Dropout.qmd">../../Dropout|Dropout</a> and Early Stopping tackle the challenges of Overfitting. This article provides an introduction to many such algorithms and pipeline tweaks that help in the process of improving model accuracy in image classification.</p>
+</section>
+<section id="improving-model-accuracy" class="level2">
+<h2 class="anchored" data-anchor-id="improving-model-accuracy">Improving Model Accuracy</h2>
+<p>The two biggest hurdles in training neural networks are <strong>Overfitting</strong> and <strong>Underfitting</strong>. In the first case, the network memories the data, and in the second, the network does not learn enough. The following techniques can be divided into categories based on these two concepts. [../../Dropout|Dropout] layers, Data augmentation, <a href="../../Dropout|Dropout] layers, Data augmentation, [../../Regularization|Regularization.qmd">../../Regularization|Regularization</a>, Early Stopping, tackle <strong>Overfitting</strong>. Transfer Learning and Hyperparameter Tuning tackle <strong>Underfitting</strong>. If there is a lack of data, we can use Transfer learning and Data Augmentation. The other algorithms can be experimented with if the model does not perform well. The below sections explain all of these algorithms.</p>
+<section id="overfitting-and-underfitting" class="level3">
+<h3 class="anchored" data-anchor-id="overfitting-and-underfitting">Overfitting and Underfitting</h3>
+<p>Training a neural network is a balancing act that requires understanding many metrics. Training accuracy is defined as the model’s accuracy during training time on the train/test split of the data. Validation accuracy is defined as the model’s performance when tested on real-world data that the model has never seen. If, in improving image classification accuracy, the training accuracy is far higher than the validation accuracy for many epochs, this is called Overfitting. In Overfitting, the model focuses too heavily on the training data and essentially fails to predict any sample it has yet to see before.</p>
 <p>If the training accuracy is very low and the validation accuracy seems to fluctuate or is much higher than the training accuracy, this is called Underfitting. In Underfitting, the model must be more powerful to fit the data. Both Overfitting and Underfitting can be countered in many ways, but it is to be noted that they have a delicate balance. Learning to understand which of these the network is going through is essential in being able to improve image classification accuracy.</p>
 <p>[IMAGE {1} Overfitting_Underfitting START SAMPLE] <img src="https://hackmd.io/_uploads/SJisbIE5j.png" class="img-fluid" alt="Overfitting_Underfitting"> [IMAGE {1} FINISH SAMPLE]</p>
+</section>
 <section id="dropoutdropout-layers" class="level3">
 <h3 class="anchored" data-anchor-id="dropoutdropout-layers"><a href="../../Dropout|Dropout.qmd">../../Dropout|Dropout</a> layers</h3>
 <p>When the single unit in a network computes gradients wrt the error, it also considers the other units and tries to fix their mistakes. This dependency is known as Co Adaptation and leads to the formation of complex relations that encourages Overfitting. <a href="../../Dropout|Dropout.qmd">../../Dropout|Dropout</a> layers reduce co-dependence between the neurons in a network by randomly (with a probability p) setting neuron activations to 0. This layer is applied to Dense (Fully connected) layers in a network. [../../Dropout|Dropout] helps with smaller datasets and slightly with larger ones. If the dataset is bigger, <a href="../../Dropout|Dropout] helps with smaller datasets and slightly with larger ones. If the dataset is bigger, [../../Dropout|Dropout.qmd">../../Dropout|Dropout</a> can help performance as more information is recovered. Similarly, if the dataset is too large, the model performance might also worsen. During testing, the weights are scaled by the probability p.</p>
@@ -12487,6 +12507,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Every DL model and training pipeline has parameters we can tune to optimize performance. Parameters can include - how many epochs to train the network, weight decay, optimizers, learning rate, and a lot more. Each hyperparameter can have multiple values, and these quickly add up to hundreds or more different cases to try. Hyperparameter tuning is the art of tweaking these parameters to create an optimal model in the shortest amount of time. We can test only some parameters, but a tuning service can estimate which hyperparameter to keep and which to discard. Many algorithms enable such a service, one of them being a grid search over the hyperparameter space. If the hyperparameter in question reduces model performance, it is dropped, and sometimes similar hyperparameters are also dropped. Hyperparameter tuning is a challenging problem as every task requires different requirements. Tuning hundreds of parameters is a balancing act between the choices. This technique is one of the final bits of the pipeline that leads to improving image classification accuracy.</p>
 </section>
 </section>
+</div>
 </section>
 <section id="conclusion" class="level1 section{.summary}">
 <h1>Conclusion</h1>
@@ -12501,7 +12522,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

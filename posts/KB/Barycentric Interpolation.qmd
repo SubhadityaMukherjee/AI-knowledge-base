@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Barycentric Interpolation
 categories: ['visualization']
 date modified: Monday, October 10th 2022, 2:02:33 pm

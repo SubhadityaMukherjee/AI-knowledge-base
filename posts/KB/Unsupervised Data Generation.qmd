@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Unsupervised Data Generation
 
 categories: ['temp']

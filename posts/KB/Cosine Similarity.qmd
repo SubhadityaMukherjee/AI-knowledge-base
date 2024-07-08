@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Cosine Similarity
 categories: ['distanceloss']
 date modified: Wednesday, December 7th 2022, 10:55:21 pm

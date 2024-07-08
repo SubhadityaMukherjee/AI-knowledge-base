@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: AI and Doom
 
 categories: ["article"]

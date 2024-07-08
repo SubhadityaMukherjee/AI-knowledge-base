@@ -1,4 +1,5 @@
 ---
+toc: true
 title: MLCompany
 
 categories: ['jobs']
@@ -9,6 +10,7 @@ date created: Tuesday 10th October 2023, Tue
 # MLCompany
 
 - Talent search : Rachèl Post : rpost@micompany.nl
+
 ## About the Company
 - Accelerate and scale impact from AI.​
 - People and machines working together is already rocketing companies to new highs.  

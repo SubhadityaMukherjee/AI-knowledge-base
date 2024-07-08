@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Obsidian tutorial
 tags:
   - scientificresearch
@@ -32,7 +33,9 @@ date created: Tuesday 14th May 2024, Tue
 
 ## Organization
 - Tags - [SmoothMix](SmoothMix.qmd)
-- Templates - [titler](templates/titler.qmd)
+- Templates - [toc: true
+titler](templates/toc: true
+titler.qmd)
 - Folders
 
 ## Navigation

@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Beware of Inmates Running the Asylum.html">Beware of Inmates Running the Asylum</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#explainable-ai-survey" id="toc-explainable-ai-survey" class="nav-link" data-scroll-target="#explainable-ai-survey">Explainable AI Survey</a></li>
+  <li><a href="#survey-method" id="toc-survey-method" class="nav-link" data-scroll-target="#survey-method">Survey Method</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#attribution-theory" id="toc-attribution-theory" class="nav-link" data-scroll-target="#attribution-theory">Attribution Theory</a></li>
+  <li><a href="#causal-connection" id="toc-causal-connection" class="nav-link" data-scroll-target="#causal-connection">Causal Connection</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12446,12 +12458,29 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Tim Miller∗ and Piers Howe† and Liz Sonenberg</li>
 </ul></li>
-<li><p><a href="@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences.qmd"><span class="citation" data-cites="Explainable">@Explainable</span> AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences</a> ## TL;DR</p></li>
-<li><p>Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because <a href="../../posts/KB/XAI.html">XAI</a> is meant for people and not programmers. ## Abstract</p></li>
-<li><p>programmers design software for themselves, rather than for their target audience; a phenomenon he refers to as the ‘inmates running the asylum’.</p></li>
-<li><p>This paper argues that explainable AI risks a similar fate.</p></li>
-<li><p>evaluation of these models is focused more on people than on technology</p></li>
-<li><p>considerable scope to infuse more results from the social and behavioural sciences into explainable AI, and present some key results from these fields that are relevant to explainable AI. ## Explainable AI Survey ## Survey Method</p></li>
+<li><a href="@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences.qmd"><span class="citation" data-cites="Explainable">@Explainable</span> AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences</a></li>
+</ul>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<ul>
+<li>Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because <a href="../../posts/KB/XAI.html">XAI</a> is meant for people and not programmers.</li>
+</ul>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<ul>
+<li>programmers design software for themselves, rather than for their target audience; a phenomenon he refers to as the ‘inmates running the asylum’.</li>
+<li>This paper argues that explainable AI risks a similar fate.</li>
+<li>evaluation of these models is focused more on people than on technology</li>
+<li>considerable scope to infuse more results from the social and behavioural sciences into explainable AI, and present some key results from these fields that are relevant to explainable AI.</li>
+</ul>
+</section>
+<section id="explainable-ai-survey" class="level2">
+<h2 class="anchored" data-anchor-id="explainable-ai-survey">Explainable AI Survey</h2>
+</section>
+<section id="survey-method" class="level2">
+<h2 class="anchored" data-anchor-id="survey-method">Survey Method</h2>
+<ul>
 <li><p>On topic</p>
 <ul>
 <li>Each paper was categorised as either being about explainable AI or not, based on our understanding of the topic</li>
@@ -12462,28 +12491,44 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>Validation
 <ul>
-<li>Each paper was given a binary 0/1. A score of 1 was given if and only if the evaluation in the survey article (note, not the referenced article) was based on data from human behavioural studies. ## Results</li>
+<li>Each paper was given a binary 0/1. A score of 1 was given if and only if the evaluation in the survey article (note, not the referenced article) was based on data from human behavioural studies.</li>
 </ul></li>
 </ul></li>
-<li><p>These results show that for the on-topic papers, only four articles referenced relevant social science research, and only one of them truly built a model on this</p></li>
-<li><p>Further, serious human behavioural experiments are not currently being undertaken.</p></li>
-<li><p>For off topic papers, the results are similar: limited input from social sciences and limited human behavioural experiments.</p></li>
-<li><p>Where to? A Brief Pointer to Relevant Work Contrastive Explanation</p></li>
-<li><p>explanations are contrastive why–questions are contrastive</p></li>
-<li><p>That is, why–questions are of the form “Why P rather than Q?”, where P is the fact that requires explanation, and Q is some foil case that was expected</p></li>
-<li><p>Importantly, the contrast case helps to frame the possible answers and make them relevant</p></li>
-<li><p>This is a challenge for explainable AI, because it may not be easy to elicit a contrast case from an observer.</p></li>
-<li><p>However, it is also an opportunity: as Lipton [1990] argues, answering a contrastive question is often easier than giving a full cause attribution because one only needs to understand the difference between the two cases, so one can provide a complete explanation without determining or even knowing all causes of the event. ## Attribution Theory</p></li>
-<li><p>study of how people attribute causes to events Social Attribution</p></li>
-<li><p>The book from Malle [2004], based on a large body of work from himself and other researchers in the field, describes a mature model of how people explain behaviour of others using folk psychology</p></li>
-<li><p>people attribute behaviour based on the beliefs, desires, intentions, and traits of people</p></li>
-<li><p>important for systems in which intentional action will be cited as a cause important for systems doing deliberative reasoning ## Causal Connection</p></li>
-<li><p>Research on how people connect causes shows that they do so by undertaking a mental simulation of what would have happened had some other event turned out differently</p></li>
+</ul>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<ul>
+<li>These results show that for the on-topic papers, only four articles referenced relevant social science research, and only one of them truly built a model on this</li>
+<li>Further, serious human behavioural experiments are not currently being undertaken.</li>
+<li>For off topic papers, the results are similar: limited input from social sciences and limited human behavioural experiments.</li>
+<li>Where to? A Brief Pointer to Relevant Work Contrastive Explanation</li>
+<li>explanations are contrastive why–questions are contrastive</li>
+<li>That is, why–questions are of the form “Why P rather than Q?”, where P is the fact that requires explanation, and Q is some foil case that was expected</li>
+<li>Importantly, the contrast case helps to frame the possible answers and make them relevant</li>
+<li>This is a challenge for explainable AI, because it may not be easy to elicit a contrast case from an observer.</li>
+<li>However, it is also an opportunity: as Lipton [1990] argues, answering a contrastive question is often easier than giving a full cause attribution because one only needs to understand the difference between the two cases, so one can provide a complete explanation without determining or even knowing all causes of the event.</li>
+</ul>
+</section>
+<section id="attribution-theory" class="level2">
+<h2 class="anchored" data-anchor-id="attribution-theory">Attribution Theory</h2>
+<ul>
+<li>study of how people attribute causes to events Social Attribution</li>
+<li>The book from Malle [2004], based on a large body of work from himself and other researchers in the field, describes a mature model of how people explain behaviour of others using folk psychology</li>
+<li>people attribute behaviour based on the beliefs, desires, intentions, and traits of people</li>
+<li>important for systems in which intentional action will be cited as a cause important for systems doing deliberative reasoning</li>
+</ul>
+</section>
+<section id="causal-connection" class="level2">
+<h2 class="anchored" data-anchor-id="causal-connection">Causal Connection</h2>
+<ul>
+<li>Research on how people connect causes shows that they do so by undertaking a mental simulation of what would have happened had some other event turned out differently</li>
 </ul>
 
 
+</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

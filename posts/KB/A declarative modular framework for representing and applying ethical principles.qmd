@@ -1,4 +1,5 @@
 ---
+toc: true
 title: A declarative modular framework for representing and applying ethical principles.
 
 categories: ['ethics']

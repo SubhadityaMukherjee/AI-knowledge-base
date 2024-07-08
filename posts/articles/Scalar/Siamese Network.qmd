@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Siamese Network
 
 categories: ["article"]
@@ -9,11 +10,13 @@ date created:
 # Siamese Network
 
 :::section{.abstract}
+
 ## Overview
 The lack of data is a huge hurdle for any Deep learning task. Finding large datasets is nearly impossible in domains such as facial recognition, signature verification, text similarity, and many others. In many cases, a single example of each class is present. A regular CNN fails to perform in these cases, but if a network learns to minimize a similarity metric between images, it can easily perform this task. The Siamese Network is a class of architectures that excel at this one-shot learning task. 
 This article explains the workings behind the Siamese Network and provides an implementation for Signature Verification.
 :::
 :::section{.scope}
+
 ## Scope
 - This article explains the concept of Siamese Networks and why they are useful.
 - It explains the multiple loss functions behind Siamese Networks.
@@ -54,10 +57,13 @@ Some features that set Siamese networks apart from the usual CNN architecture ar
 - Any changes to one side of the network are reflected on the other.
 - The network returns an encoding that is a similarity score. This score can be used to differentiate between classes. 
 - The network is a one-shot classifier and does not require a lot of examples per class. 
+
 ## Loss Functions Used in Siamese Networks
 The Siamese Network uses multiple loss functions. They are explained below.
+
 ### Binary Cross Entropy Loss
 This loss is one of the common image classification loss functions. The Siamese network uses this loss to classify the image pairs as similar or dissimilar.
+
 ### Contrastive Loss
 The Contrastive Loss function finds the difference between image pairs by using distance as a similarity measure. This function is useful when there are few training examples per class. 
 A caveat of using Contrastive loss is that it requires pairs of both negative and positive training samples. We can visualize this loss in the figure below.
@@ -88,6 +94,7 @@ The Triplet loss is defined as $$L = max(d(a,p) - d(a,n) + margin, 0)$$
 Signature verification is the task of identifying forged signatures given a dataset of real ones. For this task, a model has to learn the difference between hundreds of signatures. Given a fake or a real signature, the model has to differentiate between them.
 This verification task is extremely hard for a regular CNN due to the complexity of changes and lack of training samples. In most cases, only a single signature is available per person, and the model needs to learn how to verify signatures for thousands of people.
 The following sections explore building a model to tackle this task using PyTorch.
+
 ### Dataset
 The Dataset we will be using is a signature verification dataset known as **ICDAR 2011**. This Dataset contains Dutch signatures that are either forged or original. An example of the data is shown below.
 
@@ -96,6 +103,7 @@ The Dataset we will be using is a signature verification dataset known as **ICDA
 [IMAGE {4} FINISH SAMPLE]
 
 We can download the Dataset from this [drive link](https://drive.google.com/drive/folders/1hFljH9AKhxxIqH-3fj72mCMA6Xh3Vv0m?usp=sharing).
+
 ### Description of problem statement
 This article considers recognizing fake signatures as part of a signature verification problem. We aim to take a dataset of signatures and use a Siamese network to predict which of the test signatures belong to real people and which are forged. 
 We need to create a pipeline that reads the Dataset, creates image pairs, and passes them to the Siamese network. After training the network on the Dataset, we need to create functions for inference.

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: DCGAN
 
 categories: ['architecturegenerative']
@@ -41,10 +42,12 @@ date created: Tuesday, December 13th 2022, 5:02:02 pm
 -   In this implementation, I also added in [Label Smoothing](Label Smoothing.qmd)
 
 ## Loss functions
+
 ### Discriminator [loss](loss.qmd)
 The Discriminator penalizes wrongly classifying a real image as a fake or a fake image as real. This can be thought of as maximizing the following function.
 $$\nabla_{\theta_{d}} \frac{1}{m} \Sigma_{i=1}^{m}[log D(x^{(i)}) + log(1-D(G(z^{(i)})))]$$
   
+
 ### Generator [loss](loss.qmd)
 - The Generator loss takes the output of the Discriminator into account and rewards it if the Generator is fooled into thinking the fake image is real. If this condition is not satisfied, the Generator is penalized.
 

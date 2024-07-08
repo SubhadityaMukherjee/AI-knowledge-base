@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Moral decision making frameworks for artificial intelligence
 
 categories: ['ethics']

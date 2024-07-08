@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Classifier Gradients
 
 categories: ['architecturegenerative']

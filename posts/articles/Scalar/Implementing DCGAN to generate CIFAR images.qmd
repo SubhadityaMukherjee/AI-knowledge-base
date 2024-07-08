@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Implementing DCGAN to generate CIFAR images
 
 categories: ["article"]
@@ -7,9 +8,11 @@ date modified:
 date created: 
 ---
 # Implementing DCGAN to generate [../../CIFAR|CIFAR](../../CIFAR|CIFAR.qmd) images
+
 ## What are we building?
 Creating novel images is one of the strengths of Generative Adversarial Networks (GANs). In this article, we will build a DCGAN for image generation using the [../../CIFAR|CIFAR](../../CIFAR|CIFAR.qmd) dataset. The DCGAN is a type of GAN that builds upon the Vanilla GAN and addresses some of its issues. The DCGAN is a good choice if the image data size is larger than 28x28. This network also leads to fewer chances of a mode collapse and is thus a better network than a standard GAN. 
 Here, we want the network to create realistic images to resemble any of the ten classes of the [../../CIFAR|CIFAR](../../CIFAR|CIFAR.qmd) dataset. We will create the DCGAN from scratch using PyTorch, train it and write scripts to generate our images. 
+
 ### What are DGANs
 Researchers created the Vanilla GAN architecture to generate images in an unsupervised manner from image datasets. But this GAN had quite a few flaws that impacted its training. DCGANs are a modification of the Vanilla GAN architecture. The implementation of the Discriminator and Generator is configured to tackle some of the issues of the original GAN. Some of the changes are as follows. 
 Convolutional layers are used explicitly in the Discriminator. In this architecture, the Generator explicitly uses Transposed Convolution layers. The Discriminator relies on Batch Normalization along with LeakyReLU activations. The Generator, on the other hand, uses ReLU activations. 
@@ -27,6 +30,7 @@ The final output we want is photorealistic images that look like they might belo
 [IMAGE {1} FINISH SAMPLE]
 
 Note that longer training might yield better results but take significantly longer.
+
 ## Requirements
 Before starting the DCGAN image generation process, we must import some libraries and perform set-up operations.
 First, we must create folders to store the models' images and weights using the `mkdir` command.
@@ -54,6 +58,7 @@ import matplotlib.pyplot as plt
 
 cudnn.benchmark = True
 ```
+
 ## Implementing DCGAN to generate [../../CIFAR|CIFAR](../../CIFAR|CIFAR.qmd) images 
 We can now move on to the main DCGAN image generation process. To generate the images, we need to create a DataLoader, load the [../../CIFAR|CIFAR](../../CIFAR|CIFAR.qmd) images,  preprocess them, and send batches of this data to the GPU memory. We also need to create the network architecture and initialize the weights of its components. This network also needs to be sent to the GPU memory. 
 After these initial steps have been completed, we can finally train the network and generate new images. 
@@ -71,6 +76,7 @@ The architecture diagram of the DCGAN is shown below.
 In the architecture, *ngpu* stands for the number of GPUs. In this case, we will only be using a single one. *nz* stands for the width of the input. *ngf* and *ndf* denote the shape of the maps that the Generator and Discriminator create, respectively. *nc* is the number of channels that the image has.
 
 We first start by loading our data and understanding how it looks.
+
 ### Exploring the dataset
 This article uses the CIFAR10 (Canadian Institute for Advanced Research) dataset. This dataset contains ten classes of images similar to the MNIST format but in 3-channel RGB. The CIFAR10 is a very common dataset for benchmarking image classification models and is easy for a model to learn.
 
@@ -98,7 +104,8 @@ After loading the data, we can see how it looks. To visualize a batch of data, w
 single_batch = next(iter(dataloader))
 plt.figure(figsize=(8,8))
 plt.axis("off")
-plt.title("Training Images")
+plt.toc: true
+title("Training Images")
 plt.imshow(np.transpose(vutils.make_grid(single_batch[0].to(current_device)[:64], padding=2, normalize=True).cpu(),(1,2,0)))
 ```
 
@@ -155,6 +162,7 @@ class Disc_model(nn.Module):
 
         return output.view(-1, 1).squeeze(1)
 ```
+
 ### Defining the Generator
 
 The Generator is responsible for mapping the input data from the latent space to the vector data space. In this part of the network, we get an RGB image as an output that can then be passed to the Discriminator. The generated image size is the same as the original training images but in channel first indexing (3x64x64).
@@ -189,6 +197,7 @@ class Gen_model(nn.Module):
             output = self.main(input)
             return output
 ```
+
 ### Defining the inputs
 We need to set up some empty containers for an optimized workflow. We first create a fixed noise with the shape (128, size of latent space, 1, 1) and send it to the GPU. We also denote the label of the real image as one and the fake image as 0. For this article, we will run the network for 25 epochs. 
 We also pre-allocate arrays to store the Generator and Discriminator loss during training. 

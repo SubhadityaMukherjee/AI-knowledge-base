@@ -1,4 +1,5 @@
 ---
+toc: true
 title: GOMS
 
 categories: ['usermodel']

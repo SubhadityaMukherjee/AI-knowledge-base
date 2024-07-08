@@ -1,4 +1,5 @@
 ---
+toc: true
 title: ScoreCAM
 
 categories: ['explainability']

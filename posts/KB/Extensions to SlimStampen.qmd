@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Extensions to SlimStampen
 
 categories: ['usermodel']

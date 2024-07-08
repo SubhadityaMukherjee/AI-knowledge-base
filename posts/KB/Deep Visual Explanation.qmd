@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Deep Visual Explanation
 
 categories: ['explainability']

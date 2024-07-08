@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Influence of image classification accuracy on saliency map estimation.html">Influence of image classification accuracy on saliency map estimation</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,29 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#influence-of-image-classification-accuracy-on-saliency-map-estimation" id="toc-influence-of-image-classification-accuracy-on-saliency-map-estimation" class="nav-link active" data-scroll-target="#influence-of-image-classification-accuracy-on-saliency-map-estimation">Influence of Image Classification Accuracy on Saliency Map Estimation</a>
+  <ul class="collapse">
+  <li><a href="#intro" id="toc-intro" class="nav-link" data-scroll-target="#intro">Intro</a></li>
+  <li><a href="#related-work" id="toc-related-work" class="nav-link" data-scroll-target="#related-work">Related Work</a></li>
+  <li><a href="#components-of-readout-net" id="toc-components-of-readout-net" class="nav-link" data-scroll-target="#components-of-readout-net">Components of Readout Net</a>
+  <ul class="collapse">
+  <li><a href="#dc" id="toc-dc" class="nav-link" data-scroll-target="#dc">DC</a></li>
+  <li><a href="#spc" id="toc-spc" class="nav-link" data-scroll-target="#spc">SPC</a></li>
+  <li><a href="#bi" id="toc-bi" class="nav-link" data-scroll-target="#bi">BI</a></li>
+  </ul></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
+  <li><a href="#metrics" id="toc-metrics" class="nav-link" data-scroll-target="#metrics">Metrics</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12444,40 +12464,84 @@ ul.task-list li input[type="checkbox"] {
 <h1>Influence of Image Classification Accuracy on Saliency Map Estimation</h1>
 <ul>
 <li><ol class="example" type="1">
-<li><h2 id="intro" class="anchored" data-anchor-id="influence-of-image-classification-accuracy-on-saliency-map-estimation">Intro</h2></li>
+<li></li>
 </ol></li>
+</ul>
+<section id="intro" class="level2">
+<h2 class="anchored" data-anchor-id="intro">Intro</h2>
+<ul>
 <li>Saliency map estimation in computer vision aims to estimate the locations where people gaze in images.</li>
 <li>Since people tend to look at objects in images, the parameters of the model pre-trained on ImageNet for image classification are useful for the saliency map estimation</li>
 <li>no research on the relationship between the image classification accuracy and the performance of the saliency map estimation</li>
 <li>strong correlation between image classification accuracy and saliency map estimation accuracy</li>
 <li>It the models pre-trained on ImageNet are useful for saliency map estimation the parameters of is known that</li>
 <li>This would be because a human tends to look at the centres of objects , which are learned to be recognised in the pre-trained model for the ImageNet classification task.</li>
-<li>Although the model based on DenseNet has achieved the state-of-the-art performance in the ACPR 2017 paper, this additional study led to even better performance using the model based on dual path networks (DPNs) ## Related Work</li>
+<li>Although the model based on DenseNet has achieved the state-of-the-art performance in the ACPR 2017 paper, this additional study led to even better performance using the model based on dual path networks (DPNs)</li>
+</ul>
+</section>
+<section id="related-work" class="level2">
+<h2 class="anchored" data-anchor-id="related-work">Related Work</h2>
+<ul>
 <li>uses the coefficients of Attention based on Information the basis Maximization (AIM) calculated by the independent component analysis (<a href="../../posts/KB/ICA.html">ICA</a>) in local image patches</li>
 <li>The distribution of the coefficients is estimated by the kernel density estimation, which is used for estimating saliency maps based on the the local patches self-information of</li>
 <li><a href="../../posts/KB/Graph-based visual saliency.html">Graph-based visual saliency</a></li>
 <li><a href="../../posts/KB/Saliency using natural statistics.html">Saliency using natural statistics</a></li>
 <li><a href="../../posts/KB/Dynamic visual attention.html">Dynamic visual attention</a></li>
 <li><a href="../../posts/KB/Adaptive Whitening Saliency.html">Adaptive Whitening Saliency</a></li>
-<li><a href="../../posts/KB/SAM-ResNet.html">SAM-ResNet</a> ## Components of Readout Net</li>
+<li><a href="../../posts/KB/SAM-ResNet.html">SAM-ResNet</a></li>
+</ul>
+</section>
+<section id="components-of-readout-net" class="level2">
+<h2 class="anchored" data-anchor-id="components-of-readout-net">Components of Readout Net</h2>
+<ul>
 <li>The operation attempts to directly minimise the reconstruction error of the input image under a <a href="sparsity.qmd">sparsity</a> constraint on an over-complete set of feature maps</li>
 <li>The mini-batch size and learning rate were set to 1 and 10−5 during training, respectively.</li>
-<li>We subtract the per-channels mean value of training images from each image as pre-processing ### DC</li>
+<li>We subtract the per-channels mean value of training images from each image as pre-processing</li>
+</ul>
+<section id="dc" class="level3">
+<h3 class="anchored" data-anchor-id="dc">DC</h3>
+<ul>
 <li>“DC is also called as transposed convolution”</li>
 <li>When DC is used for the up-sampling layers in Readout Net, the first, second, and third DC followed by a ReLU layer in Readout Net reduce the channels to 128, 64, and 32, respectively. Then, the 1 × 1 convolution reduces the channel to 1 to predict the saliency map. The filter size of DC was set to 4 × 4.</li>
-<li>method to recover a high-resolution image from its additional low resolution counterpart with little computational cost, by rearranging the data along the channel into feature maps with a convolution operation. ### SPC</li>
+<li>method to recover a high-resolution image from its additional low resolution counterpart with little computational cost, by rearranging the data along the channel into feature maps with a convolution operation.</li>
+</ul>
+</section>
+<section id="spc" class="level3">
+<h3 class="anchored" data-anchor-id="spc">SPC</h3>
+<ul>
 <li>When SPC is used for the up-sampling layers, each SPC layer reduces the channels to one forth, followed by a 3 × 3 convolution and a ReLU layer. Then, the 1 × 1 convolution predicts the saliency map from the output of the last SPC layer.</li>
-<li>each BI layer in the up-sampling network resizes a feature map twice while maintaining the feature-map channels, GPU was out of memory when three up-sampling layers were used for all channels of outputs of Main Net ### BI</li>
+<li>each BI layer in the up-sampling network resizes a feature map twice while maintaining the feature-map channels, GPU was out of memory when three up-sampling layers were used for all channels of outputs of Main Net</li>
+</ul>
+</section>
+<section id="bi" class="level3">
+<h3 class="anchored" data-anchor-id="bi">BI</h3>
+<ul>
 <li>the order of up-sampling and projection (1 × 1 convolution) can be inverted without any influence on the output</li>
-<li>the concatenated feature maps from Main Nets are first processed by the 1 × 1 convolution to output feature map, followed by the BI up-sampling layers. the 1-channel ## Datasets</li>
+<li>the concatenated feature maps from Main Nets are first processed by the 1 × 1 convolution to output feature map, followed by the BI up-sampling layers. the 1-channel</li>
+</ul>
+</section>
+</section>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+<ul>
 <li><a href="../../posts/KB/Salicon dataset.html">Salicon dataset</a></li>
 <li><a href="../../posts/KB/OSIE.html">OSIE</a></li>
 <li><a href="../../posts/KB/PASCAL-S.html">PASCAL-S</a></li>
 <li><a href="../../posts/KB/MIT1003.html">MIT1003</a></li>
-<li><a href="../../posts/KB/MIT300.html">MIT300</a> ## Metrics</li>
+<li><a href="../../posts/KB/MIT300.html">MIT300</a></li>
+</ul>
+</section>
+<section id="metrics" class="level2">
+<h2 class="anchored" data-anchor-id="metrics">Metrics</h2>
+<ul>
 <li><a href="../../posts/KB/AUC-Judd.html">AUC-Judd</a></li>
 <li><a href="../../posts/KB/AUC-Borji.html">AUC-Borji</a></li>
-<li><a href="../../posts/KB/Shuffled-AUC.html">Shuffled-AUC</a> ## Conclusions</li>
+<li><a href="../../posts/KB/Shuffled-AUC.html">Shuffled-AUC</a></li>
+</ul>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<ul>
 <li>strong correlation between image classification accuracy and saliency map estimation accuracy.</li>
 <li>not only the architecture but also the initialisation strategy using the weights pre-trained with the ImageNet classification task were important for estimating the saliency maps</li>
 <li>model which is pre-trained with the ImageNet classification and has achieved high</li>
@@ -12485,7 +12549,12 @@ ul.task-list li input[type="checkbox"] {
 <li>“saliency map estimation task”</li>
 <li>human fixations often concentrate on objects in the image, while the model pre-trained on ImageNet can react on many objects in images because ImageNet has a wide variety of object categories.</li>
 <li>If the model is initialised with random weights and is trained on a fixation dataset with the limited categories of objects for saliency map estimation, to the objects in the training dataset the model would overfit</li>
-<li>if the model is trained for the image classification task which includes a wide variety of categories, overfitting for the objects in the training dataset would be suppressed owing to a large number of categories. ## Images</li>
+<li>if the model is trained for the image classification task which includes a wide variety of categories, overfitting for the objects in the training dataset would be suppressed owing to a large number of categories.</li>
+</ul>
+</section>
+<section id="images" class="level2">
+<h2 class="anchored" data-anchor-id="images">Images</h2>
+<ul>
 <li><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Screenshot 2022-10-06 at 1.01.58 PM.png" class="img-fluid figure-img"></p>
@@ -12509,8 +12578,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

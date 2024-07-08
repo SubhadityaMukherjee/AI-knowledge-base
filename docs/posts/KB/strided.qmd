@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Strided
 categories: ['architecture']
 date modified: Saturday, December 17th 2022, 1:59:23 pm

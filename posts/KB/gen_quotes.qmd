@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quotes</title>
+  <toc: true
+title>Quotes</toc: true
+title>
 </head>
 <body>
   <h1>Random Quotes</h1>

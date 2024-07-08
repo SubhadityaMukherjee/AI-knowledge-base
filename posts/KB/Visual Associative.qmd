@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Visual Associative
 
 categories: ['visualization']

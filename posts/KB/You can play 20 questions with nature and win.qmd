@@ -1,4 +1,5 @@
 ---
+toc: true
 title: You Can Play 20 Questions with Nature and Win
 
 categories: ['cognitivemodel']

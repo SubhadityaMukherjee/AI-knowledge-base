@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Productivity/CheckEmptySections.html">Productivity</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Productivity/Extensions that make writing research papers easier.html">Extensions that make writing research papers easier</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#free-chromefirefox-extensions-that-make-research-easier." id="toc-free-chromefirefox-extensions-that-make-research-easier." class="nav-link active" data-scroll-target="#free-chromefirefox-extensions-that-make-research-easier.">11 Free Chrome/Firefox Extensions That Make Research Easier.</a>
+  <ul class="collapse">
+  <li><a href="#a-note-about-browsers" id="toc-a-note-about-browsers" class="nav-link" data-scroll-target="#a-note-about-browsers">A Note About Browsers</a></li>
+  <li><a href="#collecting-information" id="toc-collecting-information" class="nav-link" data-scroll-target="#collecting-information">Collecting Information</a></li>
+  <li><a href="#writing-research-papersarticles" id="toc-writing-research-papersarticles" class="nav-link" data-scroll-target="#writing-research-papersarticles">Writing Research Papers/Articles</a></li>
+  <li><a href="#medium" id="toc-medium" class="nav-link" data-scroll-target="#medium">Medium</a></li>
+  <li><a href="#honorable-mentions" id="toc-honorable-mentions" class="nav-link" data-scroll-target="#honorable-mentions">Honorable Mentions</a></li>
+  <li><a href="#fin" id="toc-fin" class="nav-link" data-scroll-target="#fin">Fin</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12456,7 +12470,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="writing-research-papersarticles" class="level2">
 <h2 class="anchored" data-anchor-id="writing-research-papersarticles">Writing Research Papers/Articles</h2>
-<p>A large chunk of my work involves writing technical articles and research papers. It’s a lot of work, and I need shortcuts to help me out in the process. These plugin-ins have saved me a lot of headaches in the long run. - TamperMonkey: Bibtex copy This plugin is a bit of a special case. Instead of providing specific functionality, it enables users to write their scripts to modify any webpage in real-time. You can do anything from <a href="https://openuserjs.org/scripts/nokeya/Direct_links_out">Getting direct links</a>, <a href="https://openuserjs.org/scripts/tumpio/Endless_Google">endlessly loading Google search results</a> to <a href="https://openuserjs.org/scripts/aycabta/Twitter_Image_Maximizer">modifying Twitter</a>. While writing papers, citing them is a huge headache. Since I write my reports in LaTEX, I need the “BibTex” version from Google Scholar which is a pain. This little plugin automatically does that with a single click. You can find out how to install it <a href="https://www.monperrus.net/martin/direct-bibtex-in-google-scholar">here</a>. - <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/">Firefox</a> - SLext If you write your documents in LaTEX, chances are you use <a href="overleaf.com/">Overleaf</a> to do so. It is a website that makes it extremely easy to write any kind of professional document using LaTEX. But it does have limitations, and the biggest bummer for me is the lack of tabs. This plugin adds just that, and it saves me so much trouble. - <a href="https://chrome.google.com/webstore/detail/slext/jlajbdlfgkklpjdgnhajdohfjbihming">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/slext/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">Firefox</a> - Sci-Hub scholar I firmly believe that research should not be paywalled. (Even this article is available for free <a href="https://subhadityamukherjee.github.io/AI-knowledge-base/">on my blog</a> without the fancy stuff). If you are affiliated with a university or company, you might have access to as many papers as you want. But as an independent researcher? Well. Happy crying. This plugin adds links to the website Sci-Hub directly in Google Scholar which lets you access a lot of paywalled research directly. (I would link it but I don’t want to get demonetized). - <a href="https://chrome.google.com/webstore/detail/enhancer-for-sci-hub/aadmkpomckipjhibokociljbiejknchn">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/sci-hub-scholar/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">Firefox</a> - Unpaywall Similar to the previous one, this also lets you access paywalled articles by finding other un-paywalled versions of them from elsewhere on the web. - <a href="https://chrome.google.com/webstore/detail/unpaywall/iplffkdpngmdjhlpjmppncnlhomiipha">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/unpaywall/">Firefox</a> - Zotero/Mendeley Connector For anyone who reads a lot of research papers, managing them is probably the biggest headache. <a href="https://www.mendeley.com/">Mendeley</a> and <a href="https://www.zotero.org/">Zotero</a> are probably the most popular library managers. While browsing the web, you might want to directly save any research paper you like to your computer. This plugin lets you do that with a single click. Both the programs have this installed by default, you just need to enable them from the application itself - <a href="https://www.zotero.org/download/connectors">Zotero</a>, <a href="https://www.mendeley.com/reference-management/web-importer">Mendeley</a>. ## Medium I admit most of you probably don’t write articles yourself. But if you do, I find these two plugins useful for extending what is possible here on Medium. - Code medium Adding proper code snippets is honestly such a pain on Medium. Maybe in time, this will be fixed, but for now, this plugin lets you directly create gists on Github. It looks pretty and just works. I write technical articles and trust me, it has saved me hours. - <a href="https://chrome.google.com/webstore/detail/code-medium/dganoageikmadjocbmklfgaejpkdigbe">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/code-medium/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">Firefox</a> - TOC Medium If you have noticed, not every article has a clickable table of contexts like this one. If you were to do it manually, you might need to look at the HTML source code, and do a lot of drama. Instead, this plugin just lets you add the TOC just as you would any other element. It does not auto-update though, so I would recommend leaving it for after you are done with your article. It is also sadly not available for Firefox. - <a href="https://chrome.google.com/webstore/detail/toc-medium/ppcdgggkanhfoghepgomkbbnkggbiecn">Chrome</a> , Firefox(Not there) ## Honorable Mentions Some of these are not exactly extensions, but I think they deserve to be mentioned anyway. - My Text Cleanup Script Although many of the applications I mentioned above let you copy the text in chunks, they don’t offer any advanced formatting options. (Eg: cleaning up Wikipedia links, making lists, formatting paragraphs, etc.) Now, there are a million ways to do this. But my favorite is this script that I wrote a while back. It uses Python and lets you do whatever you want to the text in your clipboard. After processing is complete, it pastes it back to your clipboard. This is not for everyone. But if you are interested, I’ll be happy to explain how it works. Just ask! - <a href="https://gist.github.com/SubhadityaMukherjee/c77ad93b8741d464e60adc17807171b2">Github</a> - Text Workflow This application is not free. (Sorry!) I have a Mac, and this app lets you do whatever my script above does but with a UI. If you want something free, use the previously mentioned script. I’m sure there are other alternatives for Linux and Windows. I either use vim or my script. I have not used Windows in a long time and so I can’t recommend anything. - <a href="https://www.gtrigonakis.com/textworkflow">TextWorkflow</a> - Adblocker An adblocker is essential to save your sanity. (Although turning it off on websites you want to support is good!) These are my favorites. - <a href="https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-addon/?utm_content=addons-manager-reviews-link&amp;utm_medium=firefox-browser&amp;utm_source=firefox-browser">Firefox</a> - I don’t care about cookies As the name suggests, this auto accepts only essential cookies from the prompt. It saves you that extra click and removes the banner that covers the entire bottom of web pages. - <a href="https://chrome.google.com/webstore/detail/i-dont-care-about-cookies/fihnjjcciajhdojfnbdddfaoknhalnja">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/">Firefox</a></p>
+<p>A large chunk of my work involves writing technical articles and research papers. It’s a lot of work, and I need shortcuts to help me out in the process. These plugin-ins have saved me a lot of headaches in the long run. - TamperMonkey: Bibtex copy This plugin is a bit of a special case. Instead of providing specific functionality, it enables users to write their scripts to modify any webpage in real-time. You can do anything from <a href="https://openuserjs.org/scripts/nokeya/Direct_links_out">Getting direct links</a>, <a href="https://openuserjs.org/scripts/tumpio/Endless_Google">endlessly loading Google search results</a> to <a href="https://openuserjs.org/scripts/aycabta/Twitter_Image_Maximizer">modifying Twitter</a>. While writing papers, citing them is a huge headache. Since I write my reports in LaTEX, I need the “BibTex” version from Google Scholar which is a pain. This little plugin automatically does that with a single click. You can find out how to install it <a href="https://www.monperrus.net/martin/direct-bibtex-in-google-scholar">here</a>. - <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/">Firefox</a> - SLext If you write your documents in LaTEX, chances are you use <a href="overleaf.com/">Overleaf</a> to do so. It is a website that makes it extremely easy to write any kind of professional document using LaTEX. But it does have limitations, and the biggest bummer for me is the lack of tabs. This plugin adds just that, and it saves me so much trouble. - <a href="https://chrome.google.com/webstore/detail/slext/jlajbdlfgkklpjdgnhajdohfjbihming">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/slext/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">Firefox</a> - Sci-Hub scholar I firmly believe that research should not be paywalled. (Even this article is available for free <a href="https://subhadityamukherjee.github.io/AI-knowledge-base/">on my blog</a> without the fancy stuff). If you are affiliated with a university or company, you might have access to as many papers as you want. But as an independent researcher? Well. Happy crying. This plugin adds links to the website Sci-Hub directly in Google Scholar which lets you access a lot of paywalled research directly. (I would link it but I don’t want to get demonetized). - <a href="https://chrome.google.com/webstore/detail/enhancer-for-sci-hub/aadmkpomckipjhibokociljbiejknchn">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/sci-hub-scholar/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">Firefox</a> - Unpaywall Similar to the previous one, this also lets you access paywalled articles by finding other un-paywalled versions of them from elsewhere on the web. - <a href="https://chrome.google.com/webstore/detail/unpaywall/iplffkdpngmdjhlpjmppncnlhomiipha">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/unpaywall/">Firefox</a> - Zotero/Mendeley Connector For anyone who reads a lot of research papers, managing them is probably the biggest headache. <a href="https://www.mendeley.com/">Mendeley</a> and <a href="https://www.zotero.org/">Zotero</a> are probably the most popular library managers. While browsing the web, you might want to directly save any research paper you like to your computer. This plugin lets you do that with a single click. Both the programs have this installed by default, you just need to enable them from the application itself - <a href="https://www.zotero.org/download/connectors">Zotero</a>, <a href="https://www.mendeley.com/reference-management/web-importer">Mendeley</a>.</p>
+</section>
+<section id="medium" class="level2">
+<h2 class="anchored" data-anchor-id="medium">Medium</h2>
+<p>I admit most of you probably don’t write articles yourself. But if you do, I find these two plugins useful for extending what is possible here on Medium. - Code medium Adding proper code snippets is honestly such a pain on Medium. Maybe in time, this will be fixed, but for now, this plugin lets you directly create gists on Github. It looks pretty and just works. I write technical articles and trust me, it has saved me hours. - <a href="https://chrome.google.com/webstore/detail/code-medium/dganoageikmadjocbmklfgaejpkdigbe">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/code-medium/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">Firefox</a> - TOC Medium If you have noticed, not every article has a clickable table of contexts like this one. If you were to do it manually, you might need to look at the HTML source code, and do a lot of drama. Instead, this plugin just lets you add the TOC just as you would any other element. It does not auto-update though, so I would recommend leaving it for after you are done with your article. It is also sadly not available for Firefox. - <a href="https://chrome.google.com/webstore/detail/toc-medium/ppcdgggkanhfoghepgomkbbnkggbiecn">Chrome</a> , Firefox(Not there)</p>
+</section>
+<section id="honorable-mentions" class="level2">
+<h2 class="anchored" data-anchor-id="honorable-mentions">Honorable Mentions</h2>
+<p>Some of these are not exactly extensions, but I think they deserve to be mentioned anyway. - My Text Cleanup Script Although many of the applications I mentioned above let you copy the text in chunks, they don’t offer any advanced formatting options. (Eg: cleaning up Wikipedia links, making lists, formatting paragraphs, etc.) Now, there are a million ways to do this. But my favorite is this script that I wrote a while back. It uses Python and lets you do whatever you want to the text in your clipboard. After processing is complete, it pastes it back to your clipboard. This is not for everyone. But if you are interested, I’ll be happy to explain how it works. Just ask! - <a href="https://gist.github.com/SubhadityaMukherjee/c77ad93b8741d464e60adc17807171b2">Github</a> - Text Workflow This application is not free. (Sorry!) I have a Mac, and this app lets you do whatever my script above does but with a UI. If you want something free, use the previously mentioned script. I’m sure there are other alternatives for Linux and Windows. I either use vim or my script. I have not used Windows in a long time and so I can’t recommend anything. - <a href="https://www.gtrigonakis.com/textworkflow">TextWorkflow</a> - Adblocker An adblocker is essential to save your sanity. (Although turning it off on websites you want to support is good!) These are my favorites. - <a href="https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-addon/?utm_content=addons-manager-reviews-link&amp;utm_medium=firefox-browser&amp;utm_source=firefox-browser">Firefox</a> - I don’t care about cookies As the name suggests, this auto accepts only essential cookies from the prompt. It saves you that extra click and removes the banner that covers the entire bottom of web pages. - <a href="https://chrome.google.com/webstore/detail/i-dont-care-about-cookies/fihnjjcciajhdojfnbdddfaoknhalnja">Chrome</a> , <a href="https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/">Firefox</a></p>
 </section>
 <section id="fin" class="level2">
 <h2 class="anchored" data-anchor-id="fin">Fin</h2>
@@ -12469,7 +12491,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

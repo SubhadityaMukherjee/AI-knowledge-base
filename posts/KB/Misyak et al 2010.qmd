@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Misyak et al 2010
 
 categories: ['languagepsychology']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: swap-dominance
 
 categories: ['ethics']

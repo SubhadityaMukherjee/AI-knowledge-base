@@ -1,4 +1,5 @@
 ---
+toc: true
 title: SAM-ResNet
 
 categories: ['explainability']

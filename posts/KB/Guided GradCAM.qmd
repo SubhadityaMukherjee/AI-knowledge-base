@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Guided GradCAM
 
 categories: ['explainability']

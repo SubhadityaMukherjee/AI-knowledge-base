@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Schwann Cell
 
 categories: ['neuroscience']

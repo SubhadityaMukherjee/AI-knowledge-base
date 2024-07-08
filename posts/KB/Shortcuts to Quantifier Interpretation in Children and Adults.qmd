@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Shortcuts to Quantifier Interpretation in Children and Adults
 
 categories: ['language']

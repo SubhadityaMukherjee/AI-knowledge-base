@@ -1,4 +1,5 @@
 ---
+toc: true
 title: How to take your visual storytelling to the next level
 tags:
   - composition

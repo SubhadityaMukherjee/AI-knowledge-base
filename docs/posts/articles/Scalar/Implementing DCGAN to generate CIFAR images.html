@@ -134,7 +134,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -151,23 +151,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -179,6 +175,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Implementing DCGAN to generate CIFAR images.html">Implementing DCGAN to generate CIFAR images</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -204,15 +203,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12495,7 +12493,36 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#implementing-dcgan-to-generate-....cifarcifar-images" id="toc-implementing-dcgan-to-generate-....cifarcifar-images" class="nav-link active" data-scroll-target="#implementing-dcgan-to-generate-....cifarcifar-images">Implementing DCGAN to generate ../../CIFAR|CIFAR images</a>
+  <ul class="collapse">
+  <li><a href="#what-are-we-building" id="toc-what-are-we-building" class="nav-link" data-scroll-target="#what-are-we-building">What are we building?</a>
+  <ul class="collapse">
+  <li><a href="#what-are-dgans" id="toc-what-are-dgans" class="nav-link" data-scroll-target="#what-are-dgans">What are DGANs</a></li>
+  <li><a href="#how-are-we-going-to-build-this" id="toc-how-are-we-going-to-build-this" class="nav-link" data-scroll-target="#how-are-we-going-to-build-this">How are we going to build this?</a></li>
+  <li><a href="#final-output" id="toc-final-output" class="nav-link" data-scroll-target="#final-output">Final Output</a></li>
+  </ul></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
+  <li><a href="#implementing-dcgan-to-generate-....cifarcifar-images-1" id="toc-implementing-dcgan-to-generate-....cifarcifar-images-1" class="nav-link" data-scroll-target="#implementing-dcgan-to-generate-....cifarcifar-images-1">Implementing DCGAN to generate ../../CIFAR|CIFAR images</a>
+  <ul class="collapse">
+  <li><a href="#exploring-the-dataset" id="toc-exploring-the-dataset" class="nav-link" data-scroll-target="#exploring-the-dataset">Exploring the dataset</a></li>
+  <li><a href="#defining-the-discriminator" id="toc-defining-the-discriminator" class="nav-link" data-scroll-target="#defining-the-discriminator">Defining the Discriminator</a></li>
+  <li><a href="#defining-the-generator" id="toc-defining-the-generator" class="nav-link" data-scroll-target="#defining-the-generator">Defining the Generator</a></li>
+  <li><a href="#defining-the-inputs" id="toc-defining-the-inputs" class="nav-link" data-scroll-target="#defining-the-inputs">Defining the inputs</a></li>
+  <li><a href="#computing-the-loss-function" id="toc-computing-the-loss-function" class="nav-link" data-scroll-target="#computing-the-loss-function">Computing the loss function</a></li>
+  <li><a href="#optimizing-the-loss" id="toc-optimizing-the-loss" class="nav-link" data-scroll-target="#optimizing-the-loss">Optimizing the loss</a></li>
+  <li><a href="#train-the-dcgan" id="toc-train-the-dcgan" class="nav-link" data-scroll-target="#train-the-dcgan">Train the DCGAN</a></li>
+  </ul></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s next</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12507,7 +12534,11 @@ window.Quarto = {
 <h1>Implementing DCGAN to generate <a href="../../CIFAR|CIFAR.qmd">../../CIFAR|CIFAR</a> images</h1>
 <section id="what-are-we-building" class="level2">
 <h2 class="anchored" data-anchor-id="what-are-we-building">What are we building?</h2>
-<p>Creating novel images is one of the strengths of Generative Adversarial Networks (GANs). In this article, we will build a DCGAN for image generation using the <a href="../../CIFAR|CIFAR.qmd">../../CIFAR|CIFAR</a> dataset. The DCGAN is a type of GAN that builds upon the Vanilla GAN and addresses some of its issues. The DCGAN is a good choice if the image data size is larger than 28x28. This network also leads to fewer chances of a mode collapse and is thus a better network than a standard GAN. Here, we want the network to create realistic images to resemble any of the ten classes of the <a href="../../CIFAR|CIFAR.qmd">../../CIFAR|CIFAR</a> dataset. We will create the DCGAN from scratch using PyTorch, train it and write scripts to generate our images. ### What are DGANs Researchers created the Vanilla GAN architecture to generate images in an unsupervised manner from image datasets. But this GAN had quite a few flaws that impacted its training. DCGANs are a modification of the Vanilla GAN architecture. The implementation of the Discriminator and Generator is configured to tackle some of the issues of the original GAN. Some of the changes are as follows. Convolutional layers are used explicitly in the Discriminator. In this architecture, the Generator explicitly uses Transposed Convolution layers. The Discriminator relies on Batch Normalization along with LeakyReLU activations. The Generator, on the other hand, uses ReLU activations. The DCGAN image generation process is almost similar to the Vanilla GAN except for a few tweaks to the optimizer and the architecture itself.</p>
+<p>Creating novel images is one of the strengths of Generative Adversarial Networks (GANs). In this article, we will build a DCGAN for image generation using the <a href="../../CIFAR|CIFAR.qmd">../../CIFAR|CIFAR</a> dataset. The DCGAN is a type of GAN that builds upon the Vanilla GAN and addresses some of its issues. The DCGAN is a good choice if the image data size is larger than 28x28. This network also leads to fewer chances of a mode collapse and is thus a better network than a standard GAN. Here, we want the network to create realistic images to resemble any of the ten classes of the <a href="../../CIFAR|CIFAR.qmd">../../CIFAR|CIFAR</a> dataset. We will create the DCGAN from scratch using PyTorch, train it and write scripts to generate our images.</p>
+<section id="what-are-dgans" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-dgans">What are DGANs</h3>
+<p>Researchers created the Vanilla GAN architecture to generate images in an unsupervised manner from image datasets. But this GAN had quite a few flaws that impacted its training. DCGANs are a modification of the Vanilla GAN architecture. The implementation of the Discriminator and Generator is configured to tackle some of the issues of the original GAN. Some of the changes are as follows. Convolutional layers are used explicitly in the Discriminator. In this architecture, the Generator explicitly uses Transposed Convolution layers. The Discriminator relies on Batch Normalization along with LeakyReLU activations. The Generator, on the other hand, uses ReLU activations. The DCGAN image generation process is almost similar to the Vanilla GAN except for a few tweaks to the optimizer and the architecture itself.</p>
+</section>
 <section id="how-are-we-going-to-build-this" class="level3">
 <h3 class="anchored" data-anchor-id="how-are-we-going-to-build-this">How are we going to build this?</h3>
 <p>To build the DCGAN, we will use the Python library <strong>PyTorch</strong>. We will first import PyTorch and other required libraries. We then load the image dataset using a <strong>DataLoader</strong>, which is the CIFAR10 dataset in this case. After we load the data, we create the functions that make up the DCGAN. We can then train the network on this dataset and generate new photorealistic images that look like they were part of the CIFAR10 dataset. The below sections focus on implementing all the functions required to create a DCGAN image generation pipeline.</p>
@@ -12516,7 +12547,12 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="final-output">Final Output</h3>
 <p>The final output we want is photorealistic images that look like they might belong to the CIFAR10 dataset. The result that we get is shown below.</p>
 <p>[IMAGE {1} Final Output START SAMPLE] <img src="https://hackmd.io/_uploads/ByNRyFQYs.png" class="img-fluid" alt="Final Output"> [IMAGE {1} FINISH SAMPLE]</p>
-<p>Note that longer training might yield better results but take significantly longer. ## Requirements Before starting the DCGAN image generation process, we must import some libraries and perform set-up operations. First, we must create folders to store the models’ images and weights using the <code>mkdir</code> command. We import the PyTorch library and all the required features we need that comes with it. We also import the numerical processing library <em>numpy</em> and the plotting library <em>matplotlib</em>. Training a GAN takes quite a long time. To further improve performance, we enable a flag in Pytorch that enables <strong>benchmarking</strong>. Pytorch runs a few checks on your current device during the benchmarking process to determine which algorithms perform the best. These checks let you run slightly more optimized code for your current device.</p>
+<p>Note that longer training might yield better results but take significantly longer.</p>
+</section>
+</section>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<p>Before starting the DCGAN image generation process, we must import some libraries and perform set-up operations. First, we must create folders to store the models’ images and weights using the <code>mkdir</code> command. We import the PyTorch library and all the required features we need that comes with it. We also import the numerical processing library <em>numpy</em> and the plotting library <em>matplotlib</em>. Training a GAN takes quite a long time. To further improve performance, we enable a flag in Pytorch that enables <strong>benchmarking</strong>. Pytorch runs a few checks on your current device during the benchmarking process to determine which algorithms perform the best. These checks let you run slightly more optimized code for your current device.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>mkdir images</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>mkdir weights</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> __future__ <span class="im">import</span> print_function</span>
@@ -12537,14 +12573,16 @@ window.Quarto = {
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>cudnn.benchmark <span class="op">=</span> <span class="va">True</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-</section>
 <section id="implementing-dcgan-to-generate-....cifarcifar-images-1" class="level2">
 <h2 class="anchored" data-anchor-id="implementing-dcgan-to-generate-....cifarcifar-images-1">Implementing DCGAN to generate <a href="../../CIFAR|CIFAR.qmd">../../CIFAR|CIFAR</a> images</h2>
 <p>We can now move on to the main DCGAN image generation process. To generate the images, we need to create a DataLoader, load the <a href="../../CIFAR|CIFAR.qmd">../../CIFAR|CIFAR</a> images, preprocess them, and send batches of this data to the GPU memory. We also need to create the network architecture and initialize the weights of its components. This network also needs to be sent to the GPU memory. After these initial steps have been completed, we can finally train the network and generate new images.</p>
 <p>The DCGAN architecture is similar to many other GAN architectures and consists of a Generator and a Discriminator. The Generator is responsible for creating photo-realistic images from random noise to fool the Discriminator. On the other hand, the Discriminator takes the outputs of the Generator and returns the probability that the generated image is real. The Generator uses this probability to improve its generation capabilities by training the model. The architecture diagram of the DCGAN is shown below. [IMAGE {2} Architecture START SAMPLE] <img src="https://hackmd.io/_uploads/S1jHJSsdj.png" class="img-fluid" alt="Architecture"> [IMAGE {2} FINISH SAMPLE]</p>
 <p>[IMAGE {3} Generator START SAMPLE] <img src="https://hackmd.io/_uploads/Bk9TkSoOj.png" class="img-fluid" alt="Generator"> [IMAGE {3} FINISH SAMPLE]</p>
 <p>In the architecture, <em>ngpu</em> stands for the number of GPUs. In this case, we will only be using a single one. <em>nz</em> stands for the width of the input. <em>ngf</em> and <em>ndf</em> denote the shape of the maps that the Generator and Discriminator create, respectively. <em>nc</em> is the number of channels that the image has.</p>
-<p>We first start by loading our data and understanding how it looks. ### Exploring the dataset This article uses the CIFAR10 (Canadian Institute for Advanced Research) dataset. This dataset contains ten classes of images similar to the MNIST format but in 3-channel RGB. The CIFAR10 is a very common dataset for benchmarking image classification models and is easy for a model to learn.</p>
+<p>We first start by loading our data and understanding how it looks.</p>
+<section id="exploring-the-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="exploring-the-dataset">Exploring the dataset</h3>
+<p>This article uses the CIFAR10 (Canadian Institute for Advanced Research) dataset. This dataset contains ten classes of images similar to the MNIST format but in 3-channel RGB. The CIFAR10 is a very common dataset for benchmarking image classification models and is easy for a model to learn.</p>
 <p>Before we can explore the dataset, we must load and preprocess it. PyTorch comes with the CIFAR10 dataset inbuilt, and we can directly load it. If this is the first time we have used this dataset, it may not exist locally, and we need to download it first. After that, we need to resize all the images to a common size of 64x64x3. CIFAR10 is a clean dataset, and this resizing step is probably unnecessary, but it is a good practice to uphold. We also normalize the images and convert them to the PyTorch tensors. In PyTorch, we need to create a DataLoader, simply a class that creates optimized batches of data to pass to the model. We send this DataLoader to the GPU if we are using one to enhance the speed of the DCGAN image generation process.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> tv_data.CIFAR10(root<span class="op">=</span><span class="st">"./data"</span>, download<span class="op">=</span><span class="va">True</span>,</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>                           transform<span class="op">=</span>transforms.Compose([</span>
@@ -12561,10 +12599,12 @@ window.Quarto = {
 <div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>single_batch <span class="op">=</span> <span class="bu">next</span>(<span class="bu">iter</span>(dataloader))</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>))</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">"off"</span>)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Training Images"</span>)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>plt.imshow(np.transpose(vutils.make_grid(single_batch[<span class="dv">0</span>].to(current_device)[:<span class="dv">64</span>], padding<span class="op">=</span><span class="dv">2</span>, normalize<span class="op">=</span><span class="va">True</span>).cpu(),(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">0</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>plt.toc: true</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>title(<span class="st">"Training Images"</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>plt.imshow(np.transpose(vutils.make_grid(single_batch[<span class="dv">0</span>].to(current_device)[:<span class="dv">64</span>], padding<span class="op">=</span><span class="dv">2</span>, normalize<span class="op">=</span><span class="va">True</span>).cpu(),(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">0</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[IMAGE {4} Training Images START SAMPLE] <img src="https://hackmd.io/_uploads/ryOfbFmti.png" class="img-fluid" alt="Training Images"> [IMAGE {4} FINISH SAMPLE]</p>
 <p>As we can see, the dataset comprises ten classes of images from which we plot a random sample.</p>
+</section>
 <section id="defining-the-discriminator" class="level3">
 <h3 class="anchored" data-anchor-id="defining-the-discriminator">Defining the Discriminator</h3>
 <p>The Discriminator in the DCGAN is responsible for classifying the images returned by the Generator as real or fake. Architecturally, the Discriminator is almost a mirror of the Generator with minor differences. The Discriminator uses a <strong><a href="../../Strided|Strided.qmd">../../Strided|Strided</a> Convolution</strong> and a <strong>LeakyReLU</strong> along with <strong>Batch Normalization layers</strong>. The final layer is a Sigmoid layer that returns the probability we want. For DCGAN image generation, the Discriminator uses <a href="../../Strided|Strided.qmd">../../Strided|Strided</a> Convolutions instead of Pooling layers. This choice allows the network to learn custom padding functions that, in turn, improve performance.</p>
@@ -12734,7 +12774,7 @@ window.Quarto = {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: probabl hackathon
 tags:
   - deeplearning
@@ -25,4 +26,5 @@ date created: Monday 24th June 2024, Mon
 	- also for benchmarks at some point
 
 ## Breakouts
+
 ### Organizing Community Events and Onboarding Contributors

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Augmented Random Search
 
 categories: ['augment']

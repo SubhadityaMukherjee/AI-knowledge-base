@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Revisiting variable foreperiod effects evaluating the repetition priming account.html">Revisiting variable foreperiod effects evaluating the repetition priming account</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#revisiting-variable-foreperiod-effects-evaluating-the-repetition-priming-account" id="toc-revisiting-variable-foreperiod-effects-evaluating-the-repetition-priming-account" class="nav-link active" data-scroll-target="#revisiting-variable-foreperiod-effects-evaluating-the-repetition-priming-account">Revisiting variable foreperiod effects evaluating the repetition priming account</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#experiment-1" id="toc-experiment-1" class="nav-link" data-scroll-target="#experiment-1">Experiment 1</a></li>
+  <li><a href="#experiment-2" id="toc-experiment-2" class="nav-link" data-scroll-target="#experiment-2">Experiment 2</a></li>
+  <li><a href="#experiment-3" id="toc-experiment-3" class="nav-link" data-scroll-target="#experiment-3">Experiment 3</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12452,7 +12467,12 @@ ul.task-list li input[type="checkbox"] {
 <li>When foreperiod is varied within a block, the foreperiod effect on reaction time (RT) is modulated by both the current and the prior foreperiod</li>
 <li>The multiple-trace theory of Los et al.&nbsp;(Frontiers in Psychology, 5, Article 1058, 2014) attributes the slope of the foreperiod-RT function to the foreperiod distribution</li>
 <li>with a non-aging foreperiod distribution, the variableforeperiod paradigm yields unequal sequential-effect sizes at the different foreperiods, consistent with the multiple-trace theory but contrary to Capizzi et al.’s repetition-priming account</li>
-<li>The foreperiod-RT functions are similar to those of the fixedforeperiod paradigm, which is not predicted by the multiple trace theory ## Experiment 1</li>
+<li>The foreperiod-RT functions are similar to those of the fixedforeperiod paradigm, which is not predicted by the multiple trace theory</li>
+</ul>
+</section>
+<section id="experiment-1" class="level2">
+<h2 class="anchored" data-anchor-id="experiment-1">Experiment 1</h2>
+<ul>
 <li>Both the foreperiods and foreperiod distribution were the same, but a choice-reaction task</li>
 <li>Responses were faster when the current foreperiod was 400 ms compared to 1,400 ms</li>
 <li>was also a main effect of Foreperiod Sequence,</li>
@@ -12464,7 +12484,12 @@ ul.task-list li input[type="checkbox"] {
 <li>symmetric sequential effects are more likely to be found in choicereaction tasks compared to a simple reaction scenario.</li>
 <li>the larger proportion of shorter foreperiod trials could be the basis of that foreperiod’s advantage in terms of response speed by having more previous memory traces contributing to the activation at the shorter foreperiod’s critical moment</li>
 <li>Alternatively, the increasing foreperiod-RT function in Experiment 1 shared the same direction as in a fixedforeperiod paradigm</li>
-<li>without the effect from the additional processes in a variable-foreperiod paradigm, the foreperiod-RT relation in the two foreperiod paradigms will be in the same direction ## Experiment 2</li>
+<li>without the effect from the additional processes in a variable-foreperiod paradigm, the foreperiod-RT relation in the two foreperiod paradigms will be in the same direction</li>
+</ul>
+</section>
+<section id="experiment-2" class="level2">
+<h2 class="anchored" data-anchor-id="experiment-2">Experiment 2</h2>
+<ul>
 <li>two very short foreperiods (50 ms and 200 ms) were used</li>
 <li>This prediction means that the shorter preceding foreperiod should produce faster responses regardless of the length of the current foreperiod</li>
 <li>Based on the current assumptions of MTP, the preparation at any foreperiod is determined by the activationinhibition states (strengths of activation and inhibition) stored in each [memory trace], the strength of each [memory trace] (<a href="memory trace], the strength of each [memory trace] ([memory trace.qmd) is more dispersed and weaker as the foreperiod gets longer">memory trace</a>, and the total number of previous memory traces with each foreperiod</li>
@@ -12474,20 +12499,40 @@ ul.task-list li input[type="checkbox"] {
 <li>First, the main effect of Current Foreperiod was found, indicating a decreasing foreperiod-RT function in the short-foreperiod scenario</li>
 <li>This direction is consistent with the prediction based on the fixed-foreperiod effect but this foreperiod-RT function, especially its opposite direction from that observed in Experiment 1, cannot be predicted from the current assumptions of the MTP</li>
 <li>A small interaction was found between Current Foreperiod and Foreperiod Sequence</li>
-<li>It is worth noting that participants were more likely to make errors when the current foreperiod matched the previous one compared to when it did not ## Experiment 3</li>
+<li>It is worth noting that participants were more likely to make errors when the current foreperiod matched the previous one compared to when it did not</li>
+</ul>
+</section>
+<section id="experiment-3" class="level2">
+<h2 class="anchored" data-anchor-id="experiment-3">Experiment 3</h2>
+<ul>
 <li>The main effect of Current Foreperiod was not significant</li>
 <li>neither was the interaction between Current Foreperiod and Foreperiod Sequence</li>
-<li>With regard to the variable-foreperiod effect, although a significant main effect was not detected (p = .085), the numerical difference in RT at the two foreperiods pointed in the same direction as the significant fixedforeperiod effect ## Discussion</li>
+<li>With regard to the variable-foreperiod effect, although a significant main effect was not detected (p = .085), the numerical difference in RT at the two foreperiods pointed in the same direction as the significant fixedforeperiod effect</li>
+</ul>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<ul>
 <li>Los et al.&nbsp;(2017) used a visual warning signal and a visual imperative stimulus and found that blocks with the same foreperiod distribution (exponential or antiexponential) induced a short-term carryover effect on the foreperiod-RT function in subsequent blocks with a uniform distribution</li>
 <li>Crowe and Kent (2019) used an auditory pair of stimuli and found a similar but more limited carryover effect (lasting for only one block)</li>
 <li>imply that having the fixed-foreperiod blocks performed immediately after the variable-foreperiod blocks could have made it more difficult to measure the fixed-foreperiod effect precisely, which could be a potential limitation of the current design</li>
 <li>The key step of reconnecting the two foreperiod paradigms was taken by Los et al.&nbsp;(2014), in which a simplified version of the MTP without the activation-inhibition ratio was used to account for the fixedforeperiod effect</li>
 <li>A lower maximum and greater temporal dispersion as the imperative moment is moved further from the warning signal were added to predict a shorter RT at the short foreperiod</li>
-<li>by using a non-aging foreperiod distribution, the variableforeperiod effect would get back to its baseline, which is the foreperiod-RT function in a fixed-foreperiod paradigm ## Conclusion</li>
+<li>by using a non-aging foreperiod distribution, the variableforeperiod effect would get back to its baseline, which is the foreperiod-RT function in a fixed-foreperiod paradigm</li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<ul>
 <li>The results of this study suggest that the SFP effect reflects a benefit of repetition, which can be attributed to the memory of prior trials</li>
 <li>SFP effect was larger at the shorter foreperiod, which is consistent with MTP</li>
 <li>On the other hand, we showed that in a variable foreperiod paradigm, when the conditional probability of the imperative stimulus appearing at the next foreperiod stays constant over time, the foreperiodRT function follows the foreperiod-RT relation in a fixed foreperiod paradigm.</li>
-<li>This consistency between different foreperiod paradigms is not predicted by the MTP, which attributes the foreperiod-RT function to the proportions of foreperiods ## Images</li>
+<li>This consistency between different foreperiod paradigms is not predicted by the MTP, which attributes the foreperiod-RT function to the proportions of foreperiods</li>
+</ul>
+</section>
+<section id="images" class="level2">
+<h2 class="anchored" data-anchor-id="images">Images</h2>
+<ul>
 <li><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Pasted image 20230201113945.png" class="img-fluid figure-img"></p>
@@ -12519,7 +12564,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

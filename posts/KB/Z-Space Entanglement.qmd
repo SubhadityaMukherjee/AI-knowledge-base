@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Z-Space Entanglement
 
 categories: ['architecturegenerative']

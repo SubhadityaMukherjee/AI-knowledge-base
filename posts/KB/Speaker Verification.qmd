@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Speaker Verification
 
 categories: ['architecture']

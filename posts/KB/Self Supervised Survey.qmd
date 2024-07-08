@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Self Supervised Survey
 
 categories: ['ssl']

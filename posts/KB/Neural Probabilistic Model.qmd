@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Neural Probabilistic Model
 
 categories: ['architecture']

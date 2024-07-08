@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Distance Measures
 
 categories: ['distance']

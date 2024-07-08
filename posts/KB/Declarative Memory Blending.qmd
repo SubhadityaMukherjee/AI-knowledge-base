@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Declarative Memory Blending
 
 categories: ['cognitivemodel']

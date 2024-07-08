@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Visualizing the Loss Landscape of Neural Nets
 
 categories: ['explainability']
@@ -20,6 +21,7 @@ date created: Monday 27th March 2023, Mon
 - [Layer Normalization](Layer Normalization.qmd)
 - [Filter Wise Normalization](Filter Wise Normalization.qmd)
 - [Trajectory Plotting with PCA](Trajectory Plotting with PCA.qmd)
+
 ## Images
 - ![images/Pasted%20image%2020230327124659.png](images/Pasted%20image%2020230327124659.png)
 

@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Productivity/CheckEmptySections.html">Productivity</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Productivity/Taking notes from websites to markdown - A workflow.html">Taking notes from websites to markdown - A workflow</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,26 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#why" id="toc-why" class="nav-link active" data-scroll-target="#why">Why</a></li>
+  <li><a href="#what-we-want" id="toc-what-we-want" class="nav-link" data-scroll-target="#what-we-want">What we want</a></li>
+  <li><a href="#obsidian-quick-intro" id="toc-obsidian-quick-intro" class="nav-link" data-scroll-target="#obsidian-quick-intro">Obsidian Quick intro</a></li>
+  <li><a href="#why-markdown" id="toc-why-markdown" class="nav-link" data-scroll-target="#why-markdown">Why markdown</a></li>
+  <li><a href="#chrome-extension" id="toc-chrome-extension" class="nav-link" data-scroll-target="#chrome-extension">Chrome extension</a></li>
+  <li><a href="#script" id="toc-script" class="nav-link" data-scroll-target="#script">Script</a></li>
+  <li><a href="#practically-using-it" id="toc-practically-using-it" class="nav-link" data-scroll-target="#practically-using-it">Practically Using it</a></li>
+  <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq">FAQ</a>
+  <ul class="collapse">
+  <li><a href="#why-not-a-program" id="toc-why-not-a-program" class="nav-link" data-scroll-target="#why-not-a-program">Why not a program?</a></li>
+  </ul></li>
+  <li><a href="#fin" id="toc-fin" class="nav-link" data-scroll-target="#fin">Fin</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12440,7 +12457,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Taking notes from websites to markdown - A workflow #inprogress #article ## Why ## What we want ## Obsidian Quick intro ## Why markdown ## Chrome extension <a href="https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi">Extension</a> <a href="https://chrome.google.com/webstore/detail/roam-highlighter/mcoimieglmhdjdoplhpcmifgplkbfibp">Roam Highlighter</a> ## Script <code>py, webtomd_imports, webtomd_imports import clipboard import os from pathlib import path import re</code></p>
+<p>Taking notes from websites to markdown - A workflow #inprogress #article</p>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+</section>
+<section id="what-we-want" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-want">What we want</h2>
+</section>
+<section id="obsidian-quick-intro" class="level2">
+<h2 class="anchored" data-anchor-id="obsidian-quick-intro">Obsidian Quick intro</h2>
+</section>
+<section id="why-markdown" class="level2">
+<h2 class="anchored" data-anchor-id="why-markdown">Why markdown</h2>
+</section>
+<section id="chrome-extension" class="level2">
+<h2 class="anchored" data-anchor-id="chrome-extension">Chrome extension</h2>
+<p><a href="https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi">Extension</a> <a href="https://chrome.google.com/webstore/detail/roam-highlighter/mcoimieglmhdjdoplhpcmifgplkbfibp">Roam Highlighter</a></p>
+</section>
+<section id="script" class="level2">
+<h2 class="anchored" data-anchor-id="script">Script</h2>
+<p><code>py, webtomd_imports, webtomd_imports import clipboard import os from pathlib import path import re</code></p>
 <pre><code>def apply_transforms(txt, list_of_trans):
     for trans in list_of_trans:
         txt = trans(txt)
@@ -12463,6 +12499,7 @@ def regexreplacer(txt, dict_of_replace):
         if len(l[item])&gt;0 and l[item][0] not in ["#"," ",]:
             l[item] = "- "+l[item]
     return "\n".join(l)</code></pre>
+</section>
 <section id="practically-using-it" class="level2">
 <h2 class="anchored" data-anchor-id="practically-using-it">Practically Using it</h2>
 <pre><code>dict_regex_replace = {
@@ -12476,8 +12513,10 @@ dict_of_replace = {
     "****": "",
     "[latex]": "$",
     "[/latex]": "$",
-        "(&lt;https://en.wikipedia.org/w/index.php?title=":" ",
-    "(https://en.wikipedia.org/w/index.php?title=":" ",
+        "(&lt;https://en.wikipedia.org/w/index.php?toc: true
+title=":" ",
+    "(https://en.wikipedia.org/w/index.php?toc: true
+title=":" ",
     "s&amp;action=edit&amp;redlink=1":" ",
 }</code></pre>
 <pre><code>text = clipboard.paste()
@@ -12503,7 +12542,7 @@ clipboard.copy(text)</code></pre>
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

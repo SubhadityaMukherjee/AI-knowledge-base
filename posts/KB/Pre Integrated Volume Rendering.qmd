@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Pre Integrated Volume Rendering
 
 categories: ['visualization']

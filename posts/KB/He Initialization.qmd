@@ -1,4 +1,5 @@
 ---
+toc: true
 title: He Initialization
 
 categories: ['regularize']

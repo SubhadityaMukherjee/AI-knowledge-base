@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Filter Wise Normalization
 
 categories: ['explainability']

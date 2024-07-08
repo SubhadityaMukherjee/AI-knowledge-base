@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Symbolic models
 
 categories: ['languagecogneuropsychology']

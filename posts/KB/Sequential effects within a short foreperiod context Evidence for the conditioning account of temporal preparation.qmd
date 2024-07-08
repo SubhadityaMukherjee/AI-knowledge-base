@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Sequential effects within a short foreperiod context Evidence for the conditioning account of temporal preparation
 
 categories: ['cognitivemodel']
@@ -19,6 +20,7 @@ date created: Wednesday 1st February 2023, Wed
 - However, this prediction is contradicted by Karlin [Karlin, L. (1959)]
 - investigate temporal preparation for short FPs
 - The results provide strong evidence for sequential effects within a short FP context and thus support the trace conditioning account of temporal preparation.
+
 ## Experiment 1
 - Anticipatory responding was controlled by using a choice RT task
 - There was a main effect of the factor FP-set on RT, F(1,21) = 219.3, partial g2 = .91, p < .001, indicating that RT was shorter in the short FP-set (366 ms) than in the long FP-set
@@ -32,6 +34,7 @@ date created: Wednesday 1st February 2023, Wed
 - weaker when a short FP preceded a current trial
 - asymmetry of the sequential FP effect was smaller for the short FP-set than for the long FP-set.
 - Most important, however, the sequential FP effect was not restricted to the long FP-set but was also present for the short FP-set of FP-durations below 0.6 s
+
 ## Experiment 2
 - assessed sequential FP effects in a simple RT task employing only the short FP-set
 - catch trial technique
@@ -45,6 +48,7 @@ date created: Wednesday 1st February 2023, Wed
 - anticipatory responses also increased with decreasing preceding FP
 - There was a significant $FP_{n-1}$ $FP_n$ interaction on RT for the no-CT condition
 - weak CT $FP_n$ interaction effect on RT
+
 ## Experiment 3
 - FP-range employed in Karlin's study was too dense and therefore did not produce sufficient temporal uncertainty
 - simple RTs were much faster (220 ms) than choice RTs
@@ -61,6 +65,7 @@ date created: Wednesday 1st February 2023, Wed
 - The overall pattern of results (simple and choice RT condition) is consistent with the view that participants already attained maximal preparation at the short $FP_n$ and were not able to re-prepare when the IS did not occur at the short $FP_n$.
 - Instead, they may have relied on residual preparatory activity from the early imperative moment (Alegria, 1974; Alegria, 1975b).
 - instance, they may have shifted a single moment of peak preparation in a rather analog way, that is, after a short $FP_n$ they expected the IS somewhat earlier, after a long FPn1 $FP_{n-1}$ somewhat later
+
 ## General discussion
 - when the FP-range is too dense, the typical asymmetrical sequential FP effect does not occur.
 - Hence, the RT pattern observed in the simple RT condition demonstrates that Karlin's (1959) finding of a reversed sequential FP effect is a robust phenomenon that occurs in simple RT tasks when the FP-range is very dense.
@@ -73,6 +78,7 @@ date created: Wednesday 1st February 2023, Wed
 - no sequential FP effect in short $FP_n$ trials should be expected in this situation
 - Importantly, a rather analog sequential adjustment of a single but early preparatory peak should result in a sequential modulation at later imperative moments, as is exactly observed in the simple RT condition of Experiment 3
 - If temporal preparation had increased with $FP_n$-length, this should have resulted in more efficient performance
+
 ## Images
 - ![images/Pasted%20image%2020230201114737.png](images/Pasted%20image%2020230201114737.png)
 - ![images/Pasted%20image%2020230201114749.png](images/Pasted%20image%2020230201114749.png)

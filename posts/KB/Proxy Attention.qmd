@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Proxy Attention
 
 categories: ['explainabilityexplainability']

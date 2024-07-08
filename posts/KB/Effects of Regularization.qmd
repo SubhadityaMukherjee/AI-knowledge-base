@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Effects of Regularization
 
 categories: ['regularize']

@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Taking notes from websites to markdown - A workflow
 
 categories: ["article"]
@@ -7,13 +8,19 @@ date modified:
 date created: 
 ---
 Taking notes from websites to markdown - A workflow #inprogress #article
+
 ## Why
+
 ## What we want
+
 ## Obsidian Quick intro
+
 ## Why markdown
+
 ## Chrome extension
 [Extension](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi)
 [Roam Highlighter](https://chrome.google.com/webstore/detail/roam-highlighter/mcoimieglmhdjdoplhpcmifgplkbfibp)
+
 ## Script
 ```py, webtomd_imports, webtomd_imports
 import clipboard
@@ -69,8 +76,10 @@ dict_of_replace = {
     "****": "",
     "[latex]": "$",
     "[/latex]": "$",
-        "(<https://en.wikipedia.org/w/index.php?title=":" ",
-    "(https://en.wikipedia.org/w/index.php?title=":" ",
+        "(<https://en.wikipedia.org/w/index.php?toc: true
+title=":" ",
+    "(https://en.wikipedia.org/w/index.php?toc: true
+title=":" ",
     "s&action=edit&redlink=1":" ",
 }
 ```
@@ -85,8 +94,11 @@ text = apply_transforms(text, [
 ])
 clipboard.copy(text)
 ```
+
 ## FAQ
+
 ### Why not a program?
+
 ## Fin
 This article is in the hopes that it will help someone out. Maybe have the help that I did not. I do not know who it will reach. But to whoever it does, best of luck :)
 

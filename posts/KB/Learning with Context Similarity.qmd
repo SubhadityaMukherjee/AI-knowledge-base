@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Learning with Context Similarity
 categories: ['ssl']
 ---

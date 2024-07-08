@@ -1,5 +1,6 @@
 ---
 categories: ['temp']
+toc: true
 title: Skip Connection
 tag: architecture
 date modified: Monday, October 10th 2022, 2:02:16 pm

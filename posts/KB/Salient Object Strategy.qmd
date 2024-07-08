@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Salient Object Strategy
 
 categories: ['language']

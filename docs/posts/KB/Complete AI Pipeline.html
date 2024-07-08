@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Complete AI Pipeline.html">Complete AI Pipeline</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -138,15 +137,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12429,7 +12427,60 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#complete-ai-pipeline" id="toc-complete-ai-pipeline" class="nav-link active" data-scroll-target="#complete-ai-pipeline">Complete AI Pipeline</a>
+  <ul class="collapse">
+  <li><a href="#planning" id="toc-planning" class="nav-link" data-scroll-target="#planning">Planning</a></li>
+  <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection">Data Collection</a>
+  <ul class="collapse">
+  <li><a href="#data-standards" id="toc-data-standards" class="nav-link" data-scroll-target="#data-standards">Data Standards</a></li>
+  <li><a href="#data-formats" id="toc-data-formats" class="nav-link" data-scroll-target="#data-formats">Data Formats</a></li>
+  </ul></li>
+  <li><a href="#data-processing-and-transformation" id="toc-data-processing-and-transformation" class="nav-link" data-scroll-target="#data-processing-and-transformation">Data Processing and Transformation</a>
+  <ul class="collapse">
+  <li><a href="#aws-services" id="toc-aws-services" class="nav-link" data-scroll-target="#aws-services">AWS Services</a></li>
+  </ul></li>
+  <li><a href="#data-annotation" id="toc-data-annotation" class="nav-link" data-scroll-target="#data-annotation">Data Annotation</a></li>
+  <li><a href="#data-integration" id="toc-data-integration" class="nav-link" data-scroll-target="#data-integration">Data Integration</a></li>
+  <li><a href="#data-storage" id="toc-data-storage" class="nav-link" data-scroll-target="#data-storage">Data Storage</a>
+  <ul class="collapse">
+  <li><a href="#aws-services-1" id="toc-aws-services-1" class="nav-link" data-scroll-target="#aws-services-1">AWS Services</a></li>
+  </ul></li>
+  <li><a href="#data-analysis-and-querying" id="toc-data-analysis-and-querying" class="nav-link" data-scroll-target="#data-analysis-and-querying">Data Analysis and Querying</a>
+  <ul class="collapse">
+  <li><a href="#aws-services-2" id="toc-aws-services-2" class="nav-link" data-scroll-target="#aws-services-2">AWS Services</a></li>
+  </ul></li>
+  <li><a href="#streaming-data-processing" id="toc-streaming-data-processing" class="nav-link" data-scroll-target="#streaming-data-processing">Streaming Data Processing</a>
+  <ul class="collapse">
+  <li><a href="#aws-services-3" id="toc-aws-services-3" class="nav-link" data-scroll-target="#aws-services-3">AWS Services</a></li>
+  </ul></li>
+  <li><a href="#model-development" id="toc-model-development" class="nav-link" data-scroll-target="#model-development">Model Development</a>
+  <ul class="collapse">
+  <li><a href="#model-architectures" id="toc-model-architectures" class="nav-link" data-scroll-target="#model-architectures">Model Architectures</a></li>
+  <li><a href="#model-metrics" id="toc-model-metrics" class="nav-link" data-scroll-target="#model-metrics">Model Metrics</a></li>
+  </ul></li>
+  <li><a href="#cicd" id="toc-cicd" class="nav-link" data-scroll-target="#cicd">CI/CD</a>
+  <ul class="collapse">
+  <li><a href="#tracking-experiments-metadata-features-code-changes" id="toc-tracking-experiments-metadata-features-code-changes" class="nav-link" data-scroll-target="#tracking-experiments-metadata-features-code-changes">Tracking Experiments, Metadata, Features, Code Changes</a></li>
+  <li><a href="#state-of-the-models" id="toc-state-of-the-models" class="nav-link" data-scroll-target="#state-of-the-models">State of the Models</a></li>
+  </ul></li>
+  <li><a href="#model-evaluation" id="toc-model-evaluation" class="nav-link" data-scroll-target="#model-evaluation">Model Evaluation</a></li>
+  <li><a href="#machine-learning" id="toc-machine-learning" class="nav-link" data-scroll-target="#machine-learning">Machine Learning</a></li>
+  <li><a href="#aws-services-4" id="toc-aws-services-4" class="nav-link" data-scroll-target="#aws-services-4">AWS Services</a></li>
+  <li><a href="#model-deployment" id="toc-model-deployment" class="nav-link" data-scroll-target="#model-deployment">Model Deployment</a></li>
+  <li><a href="#real-time-prediction" id="toc-real-time-prediction" class="nav-link" data-scroll-target="#real-time-prediction">Real Time Prediction</a></li>
+  <li><a href="#monitoring-and-maintenance" id="toc-monitoring-and-maintenance" class="nav-link" data-scroll-target="#monitoring-and-maintenance">Monitoring and Maintenance</a></li>
+  <li><a href="#interpretability-and-explainability" id="toc-interpretability-and-explainability" class="nav-link" data-scroll-target="#interpretability-and-explainability">Interpretability and Explainability</a></li>
+  <li><a href="#regulatory-compliance" id="toc-regulatory-compliance" class="nav-link" data-scroll-target="#regulatory-compliance">Regulatory Compliance</a></li>
+  <li><a href="#collaboration" id="toc-collaboration" class="nav-link" data-scroll-target="#collaboration">Collaboration</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12672,7 +12723,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

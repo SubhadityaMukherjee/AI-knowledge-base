@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Modeling Driver Behavior with Cognitive Architecture
 
 categories: ['usermodelcognitivemodel']

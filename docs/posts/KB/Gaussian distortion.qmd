@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Gaussian Distortion
 
 categories: ['augment']

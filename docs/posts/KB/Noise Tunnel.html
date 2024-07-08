@@ -100,7 +100,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -117,23 +117,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,6 +141,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Noise Tunnel.html">Noise Tunnel</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -170,15 +169,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12461,7 +12459,23 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#noise-tunnel" id="toc-noise-tunnel" class="nav-link active" data-scroll-target="#noise-tunnel">Noise Tunnel</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#using-smooth-grad" id="toc-using-smooth-grad" class="nav-link" data-scroll-target="#using-smooth-grad">Using Smooth-Grad</a></li>
+  <li><a href="#using-smoothgrad-square" id="toc-using-smoothgrad-square" class="nav-link" data-scroll-target="#using-smoothgrad-square">Using SmoothGrad Square</a></li>
+  <li><a href="#using-vargrad" id="toc-using-vargrad" class="nav-link" data-scroll-target="#using-vargrad">Using VarGrad</a></li>
+  <li><a href="#drawbacks" id="toc-drawbacks" class="nav-link" data-scroll-target="#drawbacks">Drawbacks</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12478,7 +12492,12 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <ul>
 <li>Combines [SmoothGrad Square] + [Smooth-Grad] + <a href="SmoothGrad Square] + [Smooth-Grad] + [VarGrad.qmd">VarGrad</a></li>
-<li>not an attribution method ## Using <a href="../../posts/KB/Smooth-Grad.html">Smooth-Grad</a></li>
+<li>not an attribution method</li>
+</ul>
+</section>
+<section id="using-smooth-grad" class="level2">
+<h2 class="anchored" data-anchor-id="using-smooth-grad">Using <a href="../../posts/KB/Smooth-Grad.html">Smooth-Grad</a></h2>
+<ul>
 <li>technique that improves the accuracy of attribution methods</li>
 <li>problem with ReLU activation function and gradients producing noisy, often irrelevant attributions</li>
 <li>the partial derivative <span class="math inline">\(\frac{\partial F_c}{\partial x_i}\)</span> of the models’ score <span class="math inline">\(F_c\)</span>​ for a class c with respect to the value of the pixel <span class="math inline">\(x_{i}\)</span> fluctuates</li>
@@ -12486,7 +12505,12 @@ window.Quarto = {
 <li>calculates the attribution <span class="math inline">\(M_{c}\)</span> using any available method by providing that method an input with Gaussian noise</li>
 <li>calculates a mean value from all the samples to reduce the importance of less frequent attributions</li>
 <li>when adding noise to the input image, important attributions are going to be visible most of the time, and noise might change between attributions</li>
-<li><span class="math display">\[\hat M_{c}(x) = \frac{1}{n}\Sigma_{1}^{n}M_{c}(x + \mathcal{N}(0, \sigma^{2}))\]</span> ## Using <a href="../../posts/KB/SmoothGrad Square.html">SmoothGrad Square</a></li>
+<li><span class="math display">\[\hat M_{c}(x) = \frac{1}{n}\Sigma_{1}^{n}M_{c}(x + \mathcal{N}(0, \sigma^{2}))\]</span></li>
+</ul>
+</section>
+<section id="using-smoothgrad-square" class="level2">
+<h2 class="anchored" data-anchor-id="using-smoothgrad-square">Using <a href="../../posts/KB/SmoothGrad Square.html">SmoothGrad Square</a></h2>
+<ul>
 <li>changes only the way that the mean value is calculated by using the mean of squared attributions instead of just attributions</li>
 <li>less noisy results</li>
 <li>but often removes less important features, which are still valid features</li>
@@ -12498,7 +12522,12 @@ window.Quarto = {
 <ul>
 <li>variance version of the SmoothGrad</li>
 <li>Using SmoothGrad (<a href="#figure-1">Fig. 1c</a>) seems to detect more edges of the input image (in comparison with pure IG attribution in [Fig. 1b]), and that can be interpreted as detecting decision boundary. SmoothGrad-Square (<a href="#figure-1">Fig. 1d</a>) and VarGrad (<a href="#figure-1">Fig. 1e</a>) are removing a large amount of noise but usually also some of the important features visible on the attribution from SmoothGrad</li>
-<li><span class="math display">\[\hat M_{c}(x) = \frac{1}{n}\Sigma_{k=1}^{n}\{M_{c}(x + \mathcal{N}(0, \sigma^{2}))\}^{2}- \{\hat M_{c}(x)\}^{2}\]</span> ## Drawbacks</li>
+<li><span class="math display">\[\hat M_{c}(x) = \frac{1}{n}\Sigma_{k=1}^{n}\{M_{c}(x + \mathcal{N}(0, \sigma^{2}))\}^{2}- \{\hat M_{c}(x)\}^{2}\]</span></li>
+</ul>
+</section>
+<section id="drawbacks" class="level2">
+<h2 class="anchored" data-anchor-id="drawbacks">Drawbacks</h2>
+<ul>
 <li>Even if the Noise Tunnel method improves the accuracy of the XAI methods it adds a large amount of computational overhead</li>
 <li>Every sample generated by the method requires the rerun of the whole XAI method</li>
 <li>That is a linear increase of computation and to make the method efficient you should use at least 5 generated noise samples</li>
@@ -12519,7 +12548,7 @@ window.Quarto = {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

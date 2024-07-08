@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Complete AI Pipeline
 tags:
   - ai

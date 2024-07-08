@@ -1,4 +1,5 @@
 ---
+toc: true
 title: On the Distinction Between Perceived Duration and Event Timing - Towards a Unified Model of Time Perception
 categories: ['cognitivemodel']
 date modified: Monday 30th January 2023, Mon
@@ -14,8 +15,10 @@ date created: Monday 30th January 2023, Mon
 - Recent work has advocated a Bayesian approach to time perception
 - This framework has been applied to both duration and perceived timing, where prior expectations about when a stimulus might occur in the future (prior distribution) are combined with current sensory evidence (likelihood function) in order to generate the perception of temporal properties (posterior distribution)
 - these models predict that the brain uses temporal expectations to bias perception in a way that stimuli are 'regularized' i.e. stimuli look more like what has been seen before
+
 ## From Perceived Duration to Perceived Timing
 - The word 'perceived' here, is used in the loosest sense — the above methods cannot demonstrably show changes in low-level sensory processing of time (Rhodes)
+
 ## A Bayesian Model of Perceived Event Timing
 - based on the dynamic updating of temporal expectations
 - explain the asymmetries in the detection of irregularity and also in the perceived event timing of stimuli (Di Luca & Rhodes)

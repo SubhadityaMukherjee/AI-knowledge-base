@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: DCGAN – Adding convolution to a GAN
 
 categories: ["article"]
@@ -9,11 +10,13 @@ date created:
 # DCGAN – Adding convolution to a GAN
 
 :::section{.abstract}
+
 ## Overview
 
 Generative networks are a fascinating subfield of Computer vision. The GAN, in particular, is a training paradigm and a family of network architectures that convert a simple convolutional network to generate novel images based on an image dataset. This training is generally unpaired and does not require any labels. The original GAN architecture was unstable and had issues returning random noise as an output. The DCGAN was proposed as an alternative architecture with many tweaks over the original to counter issues such as **mode collapse**, **diminished gradients**, and **non-convergence**.
 :::
 :::section{.scope}
+
 ## Scope
 - This article explains the concept of GANs and how DCGANs differ from Vanilla GANs.
 - It shows how to build a DCGAN from scratch using PyTorch for image generation using the [../../CIFAR|CIFAR](../../CIFAR|CIFAR.qmd) dataset.
@@ -25,6 +28,7 @@ Generative networks are a fascinating subfield of Computer vision. The GAN, in p
 
 :::
 :::section{.main}
+
 ## Introduction to DGGAN
 This article will explore using a Deep Convolutional Generative Adversarial Network (DCGAN) to generate new images from the [../../CIFAR|CIFAR](../../CIFAR|CIFAR.qmd) dataset. GANs are neural networks designed to generate new, previously unseen data similar to the input data the model trained on. DCGANs are a variation of GANs that address issues that can arise with standard GANs by using deep convolutional neural networks in both the Generator and the Discriminator.
 
@@ -36,6 +40,7 @@ We will use PyTorch to build the DCGAN from scratch, train it on the [../../CIFA
 :::
 
 :::section{.main}
+
 ## Need for DCGAN
 
 - A simple convolutional GAN needs to be more stable to generate images with a high resolution and suffers from mode collapse. 
@@ -45,6 +50,7 @@ We will use PyTorch to build the DCGAN from scratch, train it on the [../../CIFA
 - Understanding how it works is the gateway to creating more advanced GANs.
 
 :::section{.main}
+
 ## Pre-requisites
 
 To understand the DCGAN Architecture, we need to know some pre-requisite concepts. Since the entire architecture is made up of blocks of the same components, knowing them is helpful.
@@ -76,6 +82,7 @@ The change is quite minor but makes a huge difference. While the ReLU is defined
 [IMAGE {3} FINISH SAMPLE]
 :::
 :::section{.main}
+
 ## Architecture
 
 The DCGAN architecture follows a similar pattern to many GAN architectures, with a Generator and a Discriminator to process inputs. 

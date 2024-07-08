@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Factorized Embedding Parameters
 
 categories: ['architecture']

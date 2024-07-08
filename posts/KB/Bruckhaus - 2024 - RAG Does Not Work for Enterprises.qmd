@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Bruckhaus - 2024 - RAG Does Not Work for Enterprises
 tags:
   - llm

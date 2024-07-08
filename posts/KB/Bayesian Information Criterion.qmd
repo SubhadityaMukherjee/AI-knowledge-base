@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Bayesian Information Criterion
 
 categories: ['loss']

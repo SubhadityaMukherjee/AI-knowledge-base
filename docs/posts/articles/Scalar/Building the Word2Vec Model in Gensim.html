@@ -134,7 +134,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -151,23 +151,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -179,6 +175,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Building the Word2Vec Model in Gensim.html">Building the Word2Vec Model in Gensim</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -204,15 +203,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12495,7 +12493,20 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#building-the-word2vec-model-in-gensim" id="toc-building-the-word2vec-model-in-gensim" class="nav-link active" data-scroll-target="#building-the-word2vec-model-in-gensim"># Building the Word2Vec Model in Gensim</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12516,15 +12527,47 @@ window.Quarto = {
 <div class="section{.main}">
 <section id="what-are-we-building" class="level2">
 <h2 class="anchored" data-anchor-id="what-are-we-building">What Are We Building?</h2>
-<p>In this article, we are modeling text data by converting a large corpora of text into a Vector model using Word2Vec. We will be using the Python library gensim to do so. We also will build the pipeline needed for word embedding visualization using the Tensorflow Embedding Projector as well as save the trained model for inference. ### Problem Statement Our problem statement for this article is to create a pipeline using gensim that uses Word2Vec to process a text corpora, visualize the embeddings, and save the trained model to disk. ### Pre-Requisites Before moving to the actual implementation, there are some pre-requisite topics that we need to know. A summary of them is as follows. #### Embeddings and Word Embedding Visualization The output of a Word2Vec model is a word embedding. There are many other models which give similar embeddings, some better than Word2Vec as well. These are synonymous with word vectors for our use case. #### Stopwords Common words like “the”, “to”, etc., do not add much to the model but can negatively influence the embedding. #### CBOW A continuous bag of words uses a single hidden layer NN to predict a source word based on its neighbouring words. It uses a sliding window over the sentence to generate these pairs. Consider these examples as (X, Y) pairs to be passed into a model. An example: Given the sentence “I love gensim a lot” and a sliding window of 2, we get ([I, gensim], love), ([love, a], gensim) etc #### Skip-gram Skip Grams are a mirror of CBOW. It also uses a similar single hidden layer NN with a sliding window but uses the context words to predict the source word. An example: Given the sentence “I love gensim a lot” and a sliding window of 2, we get (love, [I, gensim]), (gensim, [love, a]) etc</p>
+<p>In this article, we are modeling text data by converting a large corpora of text into a Vector model using Word2Vec. We will be using the Python library gensim to do so. We also will build the pipeline needed for word embedding visualization using the Tensorflow Embedding Projector as well as save the trained model for inference.</p>
+<section id="problem-statement" class="level3">
+<h3 class="anchored" data-anchor-id="problem-statement">Problem Statement</h3>
+<p>Our problem statement for this article is to create a pipeline using gensim that uses Word2Vec to process a text corpora, visualize the embeddings, and save the trained model to disk.</p>
+</section>
+<section id="pre-requisites" class="level3">
+<h3 class="anchored" data-anchor-id="pre-requisites">Pre-Requisites</h3>
+<p>Before moving to the actual implementation, there are some pre-requisite topics that we need to know. A summary of them is as follows.</p>
+<section id="embeddings-and-word-embedding-visualization" class="level4">
+<h4 class="anchored" data-anchor-id="embeddings-and-word-embedding-visualization">Embeddings and Word Embedding Visualization</h4>
+<p>The output of a Word2Vec model is a word embedding. There are many other models which give similar embeddings, some better than Word2Vec as well. These are synonymous with word vectors for our use case.</p>
+</section>
+<section id="stopwords" class="level4">
+<h4 class="anchored" data-anchor-id="stopwords">Stopwords</h4>
+<p>Common words like “the”, “to”, etc., do not add much to the model but can negatively influence the embedding.</p>
+</section>
+<section id="cbow" class="level4">
+<h4 class="anchored" data-anchor-id="cbow">CBOW</h4>
+<p>A continuous bag of words uses a single hidden layer NN to predict a source word based on its neighbouring words. It uses a sliding window over the sentence to generate these pairs. Consider these examples as (X, Y) pairs to be passed into a model. An example: Given the sentence “I love gensim a lot” and a sliding window of 2, we get ([I, gensim], love), ([love, a], gensim) etc</p>
+</section>
+<section id="skip-gram" class="level4">
+<h4 class="anchored" data-anchor-id="skip-gram">Skip-gram</h4>
+<p>Skip Grams are a mirror of CBOW. It also uses a similar single hidden layer NN with a sliding window but uses the context words to predict the source word. An example: Given the sentence “I love gensim a lot” and a sliding window of 2, we get (love, [I, gensim]), (gensim, [love, a]) etc</p>
+</section>
+</section>
 <section id="how-are-we-going-to-build-this" class="level3">
 <h3 class="anchored" data-anchor-id="how-are-we-going-to-build-this">How Are We Going To Build This?</h3>
-<p>We are going to load a custom data file as an input to the model and preprocess it to make it fit for the model. After that, we will load the gensim implementation of Word2Vec and train it on the data we loaded. Once the model is done training, we will export the model to disk and load it the trained model using Tensorflow Embedding Projector for word embedding visualization. In the process, we also will save and load the model for further inference. ### Final Output The final output that we will get from the model is the text corpora that we load converted to vector space. This vector space can then be used to find similar words from the text and be passed to other neural network models if required. An example word embedding might look something like this.</p>
+<p>We are going to load a custom data file as an input to the model and preprocess it to make it fit for the model. After that, we will load the gensim implementation of Word2Vec and train it on the data we loaded. Once the model is done training, we will export the model to disk and load it the trained model using Tensorflow Embedding Projector for word embedding visualization. In the process, we also will save and load the model for further inference.</p>
+</section>
+<section id="final-output" class="level3">
+<h3 class="anchored" data-anchor-id="final-output">Final Output</h3>
+<p>The final output that we will get from the model is the text corpora that we load converted to vector space. This vector space can then be used to find similar words from the text and be passed to other neural network models if required. An example word embedding might look something like this.</p>
 </section>
 </section>
 <section id="requirements" class="level2">
 <h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
-<p>To create a Word2Vec model, we need to first understand what it is. We will also be looking at the library Gensim where we obtain the Word2Vec model from. ### What Is Word2Vec? Word vectors are a numerical representation of text content. Word2Vec is a model that converts large text corpora to a vector representation as doing so provides the corpora with the following properties : - Since they are converted to numerical vectors, they can be fed into any numerical model, such as a neural network. - The converted vectors can be compared by using distance metrics such as the <a href="../../Cosine Distance|cosine distance.qmd">../../Cosine Distance|cosine distance</a> function <span class="math inline">\(cos(\theta) = \frac{A\cdot B}{||A||\cdot||B||}\)</span> ( where A and B are vectors). These metrics make it easy to find related words like the one we want to achieve.</p>
+<p>To create a Word2Vec model, we need to first understand what it is. We will also be looking at the library Gensim where we obtain the Word2Vec model from.</p>
+<section id="what-is-word2vec" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-word2vec">What Is Word2Vec?</h3>
+<p>Word vectors are a numerical representation of text content. Word2Vec is a model that converts large text corpora to a vector representation as doing so provides the corpora with the following properties : - Since they are converted to numerical vectors, they can be fed into any numerical model, such as a neural network. - The converted vectors can be compared by using distance metrics such as the <a href="../../Cosine Distance|cosine distance.qmd">../../Cosine Distance|cosine distance</a> function <span class="math inline">\(cos(\theta) = \frac{A\cdot B}{||A||\cdot||B||}\)</span> ( where A and B are vectors). These metrics make it easy to find related words like the one we want to achieve.</p>
+</section>
 <section id="what-is-gensim" class="level3">
 <h3 class="anchored" data-anchor-id="what-is-gensim">What is Gensim?</h3>
 <p>Gensim is a text processing library that lets us train models like Word2Vec very quickly. The library has many more features, such as finding related documents using trained word embeddings and other methods of vectorization that are beyond the scope of this article.</p>
@@ -12532,7 +12575,10 @@ window.Quarto = {
 </section>
 <section id="building-word2vec-model-with-gensim" class="level2">
 <h2 class="anchored" data-anchor-id="building-word2vec-model-with-gensim">Building Word2Vec Model with Gensim</h2>
-<p>Now that we have understood the problem statement, we can start building the model using gensim. We first load all the required packages and data. ### Loading Packages and Data Before we build the Word2Vec Model, we need to load a few packages along with the data. These packages can be installed using pip. (Eg : <code>pip install gensim</code>) if they are not already present on the system that is being used. We also download the stopwords and punctuation data from nltk.</p>
+<p>Now that we have understood the problem statement, we can start building the model using gensim. We first load all the required packages and data.</p>
+<section id="loading-packages-and-data" class="level3">
+<h3 class="anchored" data-anchor-id="loading-packages-and-data">Loading Packages and Data</h3>
+<p>Before we build the Word2Vec Model, we need to load a few packages along with the data. These packages can be installed using pip. (Eg : <code>pip install gensim</code>) if they are not already present on the system that is being used. We also download the stopwords and punctuation data from nltk.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nltk  </span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>nltk.download(<span class="st">'stopwords'</span>)  </span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>nltk.download(<span class="st">'punkt'</span>)</span>
@@ -12546,6 +12592,7 @@ window.Quarto = {
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>nltk.download(<span class="st">'gutenberg'</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>cp <span class="op">/</span>root<span class="op">/</span>nltk_data<span class="op">/</span>corpora<span class="op">/</span>gutenberg<span class="op">/</span>austen<span class="op">-</span>emma.txt sample.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>We can also use custom text by creating a text file called “sample.txt” in the same directory as the code and pasting whatever we want. (Make sure it is English text).</p>
+</section>
 <section id="data-preprocessing" class="level3">
 <h3 class="anchored" data-anchor-id="data-preprocessing">Data Preprocessing</h3>
 <p>After loading the data, we need to pre-process it to be able to pass it to the model by removing stopwords and punctuation and converting the words into lowercase tokens. We should get something like this <code>['emma', 'jane', 'Austen', '1816']</code></p>
@@ -12625,7 +12672,7 @@ window.Quarto = {
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

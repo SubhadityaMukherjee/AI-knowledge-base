@@ -1,4 +1,5 @@
 ---
+toc: true
 title: partially informed ethical judgement
 
 categories: ['ethics']

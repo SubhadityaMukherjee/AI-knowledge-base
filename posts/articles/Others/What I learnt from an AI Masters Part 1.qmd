@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: What I learnt from an AI Masters Part 1
 
 categories: ["article"]
@@ -25,6 +26,7 @@ Pick your adventure. I am proud of you for whatever you do.
 
 ## Finding a Project
 The first hurdle you will face is finding a project. Of course, there is no point in thinking about the rest of the steps if you don't know what exactly you want to do. So, how do you find a project? You have approximately three options.
+
 1. You can find a project on your own by finding a problem you want to solve or an idea you want to explore.
 2. You can find supervisors who have projects that you find interesting and ask them if you can work on them.
 3. You can find a company hiring interns and working on a project they have as the thesis.

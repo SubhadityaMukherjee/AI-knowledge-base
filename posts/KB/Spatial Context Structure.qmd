@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Spatial Context Structure
 categories: ['ssl']
 ---

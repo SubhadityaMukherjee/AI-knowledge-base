@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/PromptIR.html">PromptIR</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#promptir" id="toc-promptir" class="nav-link active" data-scroll-target="#promptir">PromptIR</a>
+  <ul class="collapse">
+  <li><a href="#method" id="toc-method" class="nav-link" data-scroll-target="#method">Method</a></li>
+  <li><a href="#prompt-block" id="toc-prompt-block" class="nav-link" data-scroll-target="#prompt-block">Prompt Block</a></li>
+  <li><a href="#prompt-generation-module" id="toc-prompt-generation-module" class="nav-link" data-scroll-target="#prompt-generation-module">Prompt Generation Module</a></li>
+  <li><a href="#prompt-interaction-module" id="toc-prompt-interaction-module" class="nav-link" data-scroll-target="#prompt-interaction-module">Prompt Interaction Module</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12460,7 +12473,11 @@ ul.task-list li input[type="checkbox"] {
 <li>addresses the all-in-one restoration task by employing the contrastive learning paradigm.</li>
 <li>involves training an extra encoder to differentiate various types of image degradations</li>
 <li>Although AirNet [29] yields state-of-the-art results, it struggles to model fully disentangled representations of different corruption types</li>
-<li>Furthermore, the usage of an additional encoder for contrastive learning leads to a higher training burden due to the two-stage training approach. ## Method</li>
+<li>Furthermore, the usage of an additional encoder for contrastive learning leads to a higher training burden due to the two-stage training approach.</li>
+</ul>
+<section id="method" class="level2">
+<h2 class="anchored" data-anchor-id="method">Method</h2>
+<ul>
 <li><h1 id="aim-to-learn-a-single-model-m-to-restore-an-image-i-from-a-degraded-image-i-that-has-been-degraded-using-a-degradation-d-while-having-no-prior-information-about-d.">aim to learn a single model M to restore an image I from a degraded image I, that has been degraded using a degradation D, while having no prior information about D.</h1></li>
 <li>While the model is initially “blind” to the nature of degradation, its performance in recovering a clean image can be enhanced by providing implicit contextual information about the type of degradation<br>
 </li>
@@ -12477,9 +12494,23 @@ ul.task-list li input[type="checkbox"] {
 <li>Starting from the high-resolution input, the goal of the encoder is to progressively reduce the spatial resolution while .</li>
 <li>From the low-resolution latent features Fl, the aim of the decoder is to gradually recover the highresolution clean output</li>
 <li>ncorporate prompt block</li>
-<li>Prompt blocks are adapter modules that sequentially connect every two levels of the decoder. ## Prompt Block<br>
-</li>
-<li><img src="img_p3_1.png" class="img-fluid" alt="img_p3_1"> ## Prompt Generation Module</li>
+<li>Prompt blocks are adapter modules that sequentially connect every two levels of the decoder.</li>
+</ul>
+</section>
+<section id="prompt-block" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-block">Prompt Block</h2>
+<ul>
+<li><div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img_p3_1.png" class="img-fluid figure-img"></p>
+<figcaption>img_p3_1</figcaption>
+</figure>
+</div></li>
+</ul>
+</section>
+<section id="prompt-generation-module" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-generation-module">Prompt Generation Module</h2>
+<ul>
 <li>Prompt components Pc form a set of learnable parameters that interact with the incoming features to embed degradation information</li>
 <li>features-prompt interaction is to directly use the learned prompts to calibrate the features.</li>
 <li><h1 id="dynamically-predicts-attention-based-weights-from-the-input-features-and-apply-them-to-prompt-components-to-yield-input-conditioned-prompts-p">dynamically predicts attention-based weights from the input features and apply them to prompt components to yield input-conditioned prompts P</h1></li>
@@ -12496,7 +12527,12 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div></li>
 <li>Since at inference time, it is necessary for the restoration network to be able to handle images of different resolutions, we cannot use the prompt components Pc with a fixed size.</li>
-<li>bilinear upsampling operation to upscale the prompt components ## Prompt Interaction Module</li>
+<li>bilinear upsampling operation to upscale the prompt components</li>
+</ul>
+</section>
+<section id="prompt-interaction-module" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-interaction-module">Prompt Interaction Module</h2>
+<ul>
 <li>enable interaction between the input features Fl and prompts P for a guided restoration.</li>
 <li><h1 id="in-pim-we-concatenate-the-generated-prompts-with-the-input-features-along-the-channel-dimension.">In PIM, we concatenate the generated prompts with the input features along the channel dimension.</h1></li>
 <li>pass the concatenated representations through a Transformer block that exploits degradation information encoded in the prompts and transforms the input features.</li>
@@ -12505,8 +12541,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li><img src="img_p5_1.png" class="img-fluid" alt="img_p5_1"><br>
 </li>
-<li><img src="img_p5_2.png" class="img-fluid" alt="img_p5_2"> ##<br>
-</li>
+<li><div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img_p5_2.png" class="img-fluid figure-img"></p>
+<figcaption>img_p5_2</figcaption>
+</figure>
+</div></li>
+</ul>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<ul>
 <li><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img_p6_1.png" class="img-fluid figure-img"></p>
@@ -12543,8 +12588,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

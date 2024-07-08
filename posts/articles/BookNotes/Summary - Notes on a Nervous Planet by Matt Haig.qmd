@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Summary - Notes on a Nervous Planet by Matt Haig
 
 categories: ["article"]
@@ -30,11 +31,13 @@ These goalposts are endless. And the constant comparison with everyone else that
 It’s come to the point that nobody is really ever satisfied. You spend years to work on a degree, and social media convinces you that traveling the world would have been a better idea. You get a great job, a new car, move to a bigger house etc, and your device shows you pictures of even more.
 The fuel is dissatisfaction and the fire is the need to buy. The need to keep creating and producing. 
 Doesn’t this remind you of a factory line?
+
 ## A feeling is not your face
 Social media has added a lot to the constant insecurity that we face, and beauty standards have reached an almost ridiculous peak. It’s not just a couple of magazines anymore. We are constantly surrounded by unrealistic body standards. Regardless of your gender, you are shown endless options and made to subconsciously identify with either the “barbie”, “superhuman” or some other stereotype based on what you see online. Neither of these are achievable. 
 If you go to a beach, you might think that the people around you are so concerned with how you look with your shirt off. But in all honesty, most people are thinking the same way. Most people are too concerned with their own appearance to care about yours.
 And then the beach itself does not care. It’s nature after all. Regardless of what your body looks like, you’re a part of it. It bears no judgement. 
 Accepting yourself the way you are, and realising that what you see online in unreasonable, goes a pretty long way.
+
 ## Notes on time
 Cavemen didn’t particularly care if they were 5 minutes late to a hunting meeting. Time was not quantified to this precision. At some point the sun and the moon guided time. There was day and night, maybe afternoon. Some times were good for the hunt, the others were good for rest and community.
 As technology marches on, the concept of time becomes ever refined. Now not only are you always “late”, you know exactly how badly you failed within a nanosecond of accuracy. Hello guilt!
@@ -42,11 +45,13 @@ Deadlines came to exist, and the constant need to check your watch or phone.
 Society made time an enemy. “Finish everything before the timer runs out”. Suddenly, you could never achieve enough in the time that you had. Because the more divisions we make, the more we are expected to do to fill them up.
 We stopped listening to our bodies and became a slave to a ticking clock.
 It’s time we started going back to a simpler time.
+
 ## Life overload
 It’s not just your sink that gets filled with dishes, your poor brain is struggling to keep up with all this work and information.
 There is an unnecessary excess in everything and thus your brain needs to constantly make decisions. In turn, everyone around you faces the same thing. If you look it from the outside, it’s almost as if we are all feeding that collective frenzy.
 The world is heading for a collective breakdown, and in our heart of hearts, we know that we are not just a part of it, we are feeding the fire too.
 It’s not just life, but an overload of it.
+
 ## Internet anxieties
 Ah the internet. Humanities craziest information. A way to “forever” and almost instantly look up anything. Any think you wanted to know, feel, see or find, all up for grabs. The biggest fuel we have added to the frenzy. But the internet is not always a bad thing is it? So many people have learnt skills, built families, found similar people, started a business and found partners through it.
 But they have also been pushed opinions that they never knew of. They have been fed with a constant diet of hate, choice, games of power, games of “ratings” and a desire for pretence. 
@@ -69,16 +74,19 @@ And the lesser we sleep, the more health issues we have. Catch my drift? (Hint: 
 Apart from healthcare, the constant panic and fear leads us to the other large businesses - Drugs and Weapons. 
 Might as well get those good hours of sleep in right?
 Routines do help. And a little light movement, a warm shower, turning off the devices etc do help quite a bit.
+
 ## Phone fears
 I think we all have heard a lot about how our devices are affecting our lives negatively. That being the case, the more important aspect of that is understanding how to tackle it. A selection is as follows.
 Notifications do suck. Turn them off except for the most important ones. Spend some time away from your devices, especially before sleep. Multitasking is an illusion. 
 Social media breeds unnecessary uncertainty. You are always left “wondering”. What is my friend doing? Did my favourite artist upload a new comic? Are there any new TikTok’s on the thing I’m currently obsessing about? The answer of course, is yes.
 The problem is, we cannot have everything can we?
 Accepting that uncertainty is a part of life helps drastically.
+
 ## The detective of despair
 All the effects so far seem almost too general? The best way to see how something affects you is to look at what your body is feeling. Listen to what it says. Is it telling you to stop watching people making food and go eat dinner? Is it saying that hey, I’m so tired, can you stop looking at people waking up at 6 am and taking cold showers?
 Listen.
 Breathe.
+
 ## The thinking body
 One rather interesting point the author makes is that of a “unit” to how much mental toll something takes : a “psychogram”. I find it a very interesting notion.
 Some examples the author gave are (negative and lower is better):
@@ -90,14 +98,17 @@ Some examples the author gave are (negative and lower is better):
 Trying to at least vaguely quantify how much we can deal with in a day before snapping can help us set better boundaries and listen to our body more. We all start off with a limited amount of energy, and some things drain more than the others. 
 Of course, the actual quantification of it is not very useful. It’s the idea that makes it interesting to me. A reminder that we have limited resources.
 Like a Health Bar in a game, ours keeps going down too. We just can’t see it.
+
 ## The end of reality
 The more the virtual creeps in, the more choices are presented to us. Instead of going to your local store to buy a new phone, you look it up online first. Instead of being presented with one shampoo, you have 40 in a store, and 4000 online. 
 All these choices can lead your brain to want to not compute and choose. So it turns part of itself off. It hides in “Derealisation”. Reality seems a bit wonky. The virtual world feels more like home, an uncertain, panic filled home, but home nonetheless.
 We must take steps to protect ourselves from this frenzy before it drowns us.
+
 ## Wanting
 This section ties in a lot the “beauty” one that came before. It serves as a reminder to be kinder to yourself, consider that age and time are a natural function of life itself and realise that “too much” of anything is not always a good thing.
 More is not a solution. The solution is acceptance and being grateful for what you have. 
 We can never stop wanting, but if we can draw the line between what we truly “want” and what we are made to believe that we do by our consumerist economy, then we can get some control back.
+
 ## Two lists about work 
 As a society, we like work. We base our worth on it sometimes, which is not great though. The cultural obsession we have with “hard working families” is not always a good thing though. Statistics show that the “hardest workers” aren’t always the happiest or the wealthiest. Does that say something? 
 Choosing to have less stuff to do vs choosing to constantly be “busy” is a lot healthier.
@@ -105,11 +116,13 @@ Never forget that deadlines are a product of consumerism. Imperfection is a part
 One quote that I really liked in the book : 
 ‘One of the symptoms of an approaching nervous breakdown is
 the belief that one’s work is terribly important.’ - Bertrand Russell
+
 ## Shaping the future
 Of course, change is hard. Most of these changes are easier said than done. And many of them are not even fully achievable by you yourself. Remembering that the space around you matters quite a bit, is also very important.
 We are a part of nature, and the vast openness and freedom that it brings is in our blood. Having more open space, parks and clean  workspaces makes our days a little better.
 When we can’t escape into the woods, sometimes a good fiction book can serve that purpose.
 Progress is not something that happens overnight, it takes effort and time. But the peace is worth it.
+
 ## The song of you
 Another important reminder here, the sky is always there for you. Wherever you may be, whoever you may be.
 We are not separate from nature, we are nature.
@@ -122,6 +135,7 @@ Accepting that, people aren’t forever. If you want to show your love, what are
 ## A list
 That ends my summary and thoughts about the book. 
 The author gives quite a few helpful tips dispersed among the chapters, and I thought I would list my favourites in one place. (Some are verbatim and I take no credit for them.)
+
 1. Happiness is felt heading out, not in
 2. Happiness is about what we already have
 3. Maybe the point of life is to embrace life’s beautiful uncertainty.

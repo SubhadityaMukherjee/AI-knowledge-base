@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Learning Event
 
 categories: ['usermodel']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Utilitarian ethics
 
 categories: ['ethics']

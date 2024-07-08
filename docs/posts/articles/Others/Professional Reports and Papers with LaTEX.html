@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Others/A letter to my junior school art teacher.html">Others</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Others/Professional Reports and Papers with LaTEX.html">Professional Reports and Papers with LaTEX</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,30 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#latex-vs-word" id="toc-latex-vs-word" class="nav-link active" data-scroll-target="#latex-vs-word">LaTEX vs Word</a></li>
+  <li><a href="#intro-to-overleaf" id="toc-intro-to-overleaf" class="nav-link" data-scroll-target="#intro-to-overleaf">Intro to Overleaf</a>
+  <ul class="collapse">
+  <li><a href="#choosing-a-template" id="toc-choosing-a-template" class="nav-link" data-scroll-target="#choosing-a-template">Choosing A Template</a></li>
+  <li><a href="#initial-setup" id="toc-initial-setup" class="nav-link" data-scroll-target="#initial-setup">Initial Setup</a></li>
+  <li><a href="#understanding-the-components" id="toc-understanding-the-components" class="nav-link" data-scroll-target="#understanding-the-components">Understanding The Components</a>
+  <ul class="collapse">
+  <li><a href="#title-abstract-keywords" id="toc-title-abstract-keywords" class="nav-link" data-scroll-target="#title-abstract-keywords">Title, Abstract, Keywords</a></li>
+  <li><a href="#authors" id="toc-authors" class="nav-link" data-scroll-target="#authors">Authors</a></li>
+  <li><a href="#sections-and-subsections" id="toc-sections-and-subsections" class="nav-link" data-scroll-target="#sections-and-subsections">Sections and Subsections</a></li>
+  <li><a href="#figures" id="toc-figures" class="nav-link" data-scroll-target="#figures">Figures</a></li>
+  <li><a href="#formatting-text" id="toc-formatting-text" class="nav-link" data-scroll-target="#formatting-text">Formatting Text</a></li>
+  <li><a href="#equations" id="toc-equations" class="nav-link" data-scroll-target="#equations">Equations</a></li>
+  <li><a href="#cover-page" id="toc-cover-page" class="nav-link" data-scroll-target="#cover-page">Cover page</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12455,8 +12476,16 @@ ul.task-list li input[type="checkbox"] {
 <p>Everything I show can be viewed <a href="https://www.overleaf.com/read/rdqngnhbprvr">at this link</a>.</p>
 <section id="choosing-a-template" class="level2">
 <h2 class="anchored" data-anchor-id="choosing-a-template">Choosing A Template</h2>
-<p>Okay great, now it’s time to start working on a project. I will demonstrate with a small article : “Computer Vision in Pytorch - A Primer”. - Click “New project” - Based on what kind of work you are writing this article for, pick a section. For this article, I picked Academic Journal. - Look around and find the look you are going for. Click on it, and then click “Use as template”. If you are a University, look for an official template, most of them have one. - I picked this - <a href="https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn">IEEE template</a> Perfect! You are halfway there. ## Initial Setup Before we start, let’s just get used to the interface. On the left you can see a sidebar with all your files and folders. To it’s right, there is the main editor window. If you look closely, the text seems a little strange? Don’t worry, more on that later. After that you will see a preview of your article. Every time you hit save or “recompile”, this preview will update. You can latex export this as a PDF. - In the sidebar, I like to make a folder for images by click the little icon that looks like a folder. - Now, copy paste the first few lines until the line before “begin document”. Think of these as extra functionality. For example: highlighting your links, structuring your document etc. - Make a new document titled “main.tex” using the file icon. - Paste the contents there.</p>
-<p>Great job! Now we can get to writing everything. ## Understanding The Components Now the following might seem slightly too complicated. And you will probably feel like it’s not worth the effort. But, trust the process okay? So far, you should have something like this.</p>
+<p>Okay great, now it’s time to start working on a project. I will demonstrate with a small article : “Computer Vision in Pytorch - A Primer”. - Click “New project” - Based on what kind of work you are writing this article for, pick a section. For this article, I picked Academic Journal. - Look around and find the look you are going for. Click on it, and then click “Use as template”. If you are a University, look for an official template, most of them have one. - I picked this - <a href="https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn">IEEE template</a> Perfect! You are halfway there.</p>
+</section>
+<section id="initial-setup" class="level2">
+<h2 class="anchored" data-anchor-id="initial-setup">Initial Setup</h2>
+<p>Before we start, let’s just get used to the interface. On the left you can see a sidebar with all your files and folders. To it’s right, there is the main editor window. If you look closely, the text seems a little strange? Don’t worry, more on that later. After that you will see a preview of your article. Every time you hit save or “recompile”, this preview will update. You can latex export this as a PDF. - In the sidebar, I like to make a folder for images by click the little icon that looks like a folder. - Now, copy paste the first few lines until the line before “begin document”. Think of these as extra functionality. For example: highlighting your links, structuring your document etc. - Make a new document toc: true titled “main.tex” using the file icon. - Paste the contents there.</p>
+<p>Great job! Now we can get to writing everything.</p>
+</section>
+<section id="understanding-the-components" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-the-components">Understanding The Components</h2>
+<p>Now the following might seem slightly too complicated. And you will probably feel like it’s not worth the effort. But, trust the process okay? So far, you should have something like this.</p>
 <pre class="tex,latex_report_modules,latex_report_modules"><code>\documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
@@ -12471,7 +12500,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Now we define a basic template.</p>
 <pre class="tex,latex_report_template,latex_report_template"><code>\begin{document}
 
-\title{Computer Vision in Pytorch - A Primer\\
+\toc: true
+title{Computer Vision in Pytorch - A Primer\\
 \thanks{I thank Overleaf for this template}
 }
 
@@ -12481,7 +12511,8 @@ ul.task-list li input[type="checkbox"] {
 Groningen, Netherlands \\
 msubhaditya@gmail.com}
 }
-\maketitle
+\maketoc: true
+title
 
 \begin{abstract}
 \end{abstract}
@@ -12502,8 +12533,24 @@ msubhaditya@gmail.com}
 <p>You will only need to do this once to get a feel for what’s happening. It’s scary I am sure. But hold on. Keep trying. You’ve got this! Look at the following code snippets twice. Do you see a pattern?</p>
 <section id="title-abstract-keywords" class="level3">
 <h3 class="anchored" data-anchor-id="title-abstract-keywords">Title, Abstract, Keywords</h3>
-<p>We now need a title. So we put it in this line. If you notice the little {}, that is required by LaTeX to know where to start and end something. <code>tex,latex_report_title, latex_report_parts \title{Computer Vision in Pytorch - A Primer}</code> Are you required to write an abstract or a summary of sorts? <code>tex,latex_report_abstract, latex_report_parts \begin{abstract} This paper is a short introduction to Pytorch, a deep learning framework. Special focus will be given to applications of Computer Vision. This is a demo paper, and has no particular significance. \end{abstract}</code> Sometimes, a template will have keywords. You can just enter the ones you think are relevant. ### Authors Every template you copy, will have a section for the author. Just fill it in the way you want. ### Sections and Subsections Now for the actual content. Here we use the commands “section”, “subsection”, “subsubsection”. You do not need to bother about giving them numbers. LaTeX will take care of it. Something like this is a good start. <code>tex,latex_report_section, latex_report_parts \section*{What is Computer Vision?} A study of the techniques used to extract meaning from image or video related data. The applications are endless, starting from face recognition, to self driving cars. \subsection*{Computer Vision in the field of Deep Learning} Deep learning has revolutionised the field of Computer Vision by giving it superpowers. The ability to learn from billions of images come as a huge leap forward in the field. \subsubsection*{A note} Classicial CV is still very relevant today.</code> ### Figures Doesn’t seem too hard does it? Let’s add some figures. Woah. What is happening here?? We are defining how we want our figure to look! We tell the system where the image is, how want it to look - centered, fit inside the line, have a caption, and a label. Just change the text to what is relevant to you. Think about it once. Makes sense right? <code>tex,latex_report_fgure, latex_report_parts \begin{figure}[h] \includegraphics[width=\linewidth]{figures/2560px-PyTorch_logo_black.svg.png} \centering \caption{Representation in the Simulation} \label{fig:colors} \end{figure}</code></p>
-<p>If you want to change the size, replace “” with something like “0.2” which makes the figure 0.2 times the size of the line. ### Formatting Text Okay how about formatting such as bold italics and the like? Super simple. Look at these lines.</p>
+<p>We now need a toc: true title. So we put it in this line. If you notice the little {}, that is required by LaTeX to know where to start and end something. <code>tex,latex_report_toc: true title, latex_report_parts \toc: true title{Computer Vision in Pytorch - A Primer}</code> Are you required to write an abstract or a summary of sorts? <code>tex,latex_report_abstract, latex_report_parts \begin{abstract} This paper is a short introduction to Pytorch, a deep learning framework. Special focus will be given to applications of Computer Vision. This is a demo paper, and has no particular significance. \end{abstract}</code> Sometimes, a template will have keywords. You can just enter the ones you think are relevant.</p>
+</section>
+<section id="authors" class="level3">
+<h3 class="anchored" data-anchor-id="authors">Authors</h3>
+<p>Every template you copy, will have a section for the author. Just fill it in the way you want.</p>
+</section>
+<section id="sections-and-subsections" class="level3">
+<h3 class="anchored" data-anchor-id="sections-and-subsections">Sections and Subsections</h3>
+<p>Now for the actual content. Here we use the commands “section”, “subsection”, “subsubsection”. You do not need to bother about giving them numbers. LaTeX will take care of it. Something like this is a good start. <code>tex,latex_report_section, latex_report_parts \section*{What is Computer Vision?} A study of the techniques used to extract meaning from image or video related data. The applications are endless, starting from face recognition, to self driving cars. \subsection*{Computer Vision in the field of Deep Learning} Deep learning has revolutionised the field of Computer Vision by giving it superpowers. The ability to learn from billions of images come as a huge leap forward in the field. \subsubsection*{A note} Classicial CV is still very relevant today.</code></p>
+</section>
+<section id="figures" class="level3">
+<h3 class="anchored" data-anchor-id="figures">Figures</h3>
+<p>Doesn’t seem too hard does it? Let’s add some figures. Woah. What is happening here?? We are defining how we want our figure to look! We tell the system where the image is, how want it to look - centered, fit inside the line, have a caption, and a label. Just change the text to what is relevant to you. Think about it once. Makes sense right? <code>tex,latex_report_fgure, latex_report_parts \begin{figure}[h] \includegraphics[width=\linewidth]{figures/2560px-PyTorch_logo_black.svg.png} \centering \caption{Representation in the Simulation} \label{fig:colors} \end{figure}</code></p>
+<p>If you want to change the size, replace “” with something like “0.2” which makes the figure 0.2 times the size of the line.</p>
+</section>
+<section id="formatting-text" class="level3">
+<h3 class="anchored" data-anchor-id="formatting-text">Formatting Text</h3>
+<p>Okay how about formatting such as bold italics and the like? Super simple. Look at these lines.</p>
 ```tex,latex_report_form, latex_report_parts
 <p>This , then , and also .</p>
 <p>To add a line break, simply add \ this will be a new line</p>
@@ -12515,7 +12562,11 @@ To the section where the packages were imported, add the following line.
 ```tex,latex_report_code,latex_report_code
 \usepackage{listings}</code></pre>
 <p>Now wherever you want to add code, just use it like this. Change the language to what you need of course. Viola! Syntax highlighting!</p>
-<p><code>tex,latex_report_code_2, latex_report_parts \begin{lstlisting}[language=Python] import numpy as np print(np.random.rand(10)) \end{lstlisting}</code> ### Equations Have you ever had to add equations in Word? I feel sorry for you. LaTeX lets you do it in a breeze. <code>tex,latex_report_equations, latex_report_parts \section{Equations} We can have three types of these - An inline equation : $2x+3 = 10$, or a proper block , $$2 \sin(x)+10 = 100$$ or a long form one such as this. \begin{equation} E[g^{2}]_{t}= 0.9E[g^{2}]_{t-1}+ 0.1g^{2}_{t}\\ \theta_{t+1}= \theta_{t}- \frac{\eta}{\sqrt{E[g^{2}])_{t}+\epsilon}}g_{t} \end{equation}</code></p>
+<p><code>tex,latex_report_code_2, latex_report_parts \begin{lstlisting}[language=Python] import numpy as np print(np.random.rand(10)) \end{lstlisting}</code></p>
+</section>
+<section id="equations" class="level3">
+<h3 class="anchored" data-anchor-id="equations">Equations</h3>
+<p>Have you ever had to add equations in Word? I feel sorry for you. LaTeX lets you do it in a breeze. <code>tex,latex_report_equations, latex_report_parts \section{Equations} We can have three types of these - An inline equation : $2x+3 = 10$, or a proper block , $$2 \sin(x)+10 = 100$$ or a long form one such as this. \begin{equation} E[g^{2}]_{t}= 0.9E[g^{2}]_{t-1}+ 0.1g^{2}_{t}\\ \theta_{t+1}= \theta_{t}- \frac{\eta}{\sqrt{E[g^{2}])_{t}+\epsilon}}g_{t} \end{equation}</code></p>
 <p>It would be impossible to explain the intricacies of using these, but as you can see, it almost feels like writing the equation down as it is. And it looks gorgeous as well. For more information, refer to <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">this nice page</a>.</p>
 </section>
 <section id="cover-page" class="level3">
@@ -12525,7 +12576,7 @@ Hopefully you picked a template that already had one. But if you did not, add th
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Image Classification using TensorFlow
 
 categories: ["article"]
@@ -9,15 +10,19 @@ date created:
 # Image Classification using TensorFlow
 
 :::section{.abstract}
+
 ## Overview 
 Image Classification is one of the basic tasks in Deep Learning. Given a dataset with images of different categories, we create a Deep Learning model and a pipeline to classify these images. We can create models in any library, but Tensorflow is a good starting point for beginners, and we will use this library to create an image classifier.
 :::
 :::section{.main}
+
 ## What are we building?
 This article will tackle a Tensorflow image classification problem by creating a neural network that can classify images from the **CIFAR10** dataset. We will explore the concepts of **Pre-Processing**, **Augmentation**, and **Performance Optimisation**. We will learn how to load a dataset, build the model and finally train the model we created using the dataset. We will also learn how to use the trained model to make predictions on custom images. 
 The following sections explain these concepts and how to implement them using Tensorflow.
+
 ### Pre-requisites
 Before we get to the actual code, we must understand a few pre-requisite terms. They are explained here.
+
 #### Data Loaders
 A Data Loader is a utility function that enables Tensorflow to optimize the data loading performance. The Loader does this by pre-allocating memory, creating batched containers, and applying many other tweaks to improve performance. 
 
@@ -27,8 +32,10 @@ Data Augmentation is a [../../Regularization|regularization] technique that impr
 [IMAGE {1} Data Augmentation  START SAMPLE]
 ![Data Augmentation ](https://hackmd.io/_uploads/Syb2UUV9s.png)
 [IMAGE {1} FINISH SAMPLE]
+
 #### Lambda functions
 Lambda functions are special functions in Tensorflow that lets the user create functions without explicitly defining a function call. These functions are useful for improving the readability of the code and avoiding defining extra functions for single use. 
+
 #### Map functions
 In deep learning, there are many times when we need to apply a function over a batch of data. Sequentially performing these tasks is extremely time-consuming, so we use map functions to apply a function in parallel over any batch of data.
 
@@ -59,6 +66,7 @@ import os
 
 ## Building the Classifier
 We can now move on to building the classifier with the libraries we implemented. The below sections explain how to load the dataset, pre-process it, optimize it for use, and pass it to the model. We also explore how to create a model using Tensorflow and how to train it on the CIFAR10 dataset. Finally, we also learn how to evaluate a trained model on the test dataset. 
+
 ### Download and explore the dataset
 
 For this article, we will be using the **CIFAR10** dataset. This dataset has 60000 32x32 color images grouped into ten classes. Before we create the model, we need to load and pre-process the dataset. A sample of images is shown below.

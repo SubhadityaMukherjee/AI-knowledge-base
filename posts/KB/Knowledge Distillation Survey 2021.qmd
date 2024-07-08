@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Knowledge Distillation Survey 2021
 
 categories: ['knowledgedistillation']

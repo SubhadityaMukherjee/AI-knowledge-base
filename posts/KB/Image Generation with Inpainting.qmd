@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Image Generation with Inpainting
 categories: ['ssl']
 ---

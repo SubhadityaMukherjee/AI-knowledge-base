@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/You can play 20 questions with nature and win.html">You Can Play 20 Questions with Nature and Win</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,33 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#you-can-play-20-questions-with-nature-and-win" id="toc-you-can-play-20-questions-with-nature-and-win" class="nav-link active" data-scroll-target="#you-can-play-20-questions-with-nature-and-win">You Can Play 20 Questions with Nature and Win</a>
+  <ul class="collapse">
+  <li><a href="#intro" id="toc-intro" class="nav-link" data-scroll-target="#intro">Intro</a></li>
+  <li><a href="#drawing-distinctions-within-processing-systems" id="toc-drawing-distinctions-within-processing-systems" class="nav-link" data-scroll-target="#drawing-distinctions-within-processing-systems">Drawing Distinctions Within Processing Systems</a>
+  <ul class="collapse">
+  <li><a href="#divide-and-conquer" id="toc-divide-and-conquer" class="nav-link" data-scroll-target="#divide-and-conquer">Divide-and-conquer</a></li>
+  <li><a href="#weak-modularity" id="toc-weak-modularity" class="nav-link" data-scroll-target="#weak-modularity">Weak Modularity</a></li>
+  </ul></li>
+  <li><a href="#aspects-of-high-level-vision" id="toc-aspects-of-high-level-vision" class="nav-link" data-scroll-target="#aspects-of-high-level-vision">Aspects of High Level Vision</a>
+  <ul class="collapse">
+  <li><a href="#visual-buffer" id="toc-visual-buffer" class="nav-link" data-scroll-target="#visual-buffer">Visual Buffer</a></li>
+  <li><a href="#object-properties-processing-system" id="toc-object-properties-processing-system" class="nav-link" data-scroll-target="#object-properties-processing-system">Object Properties Processing System</a></li>
+  <li><a href="#long-term-associative-memory" id="toc-long-term-associative-memory" class="nav-link" data-scroll-target="#long-term-associative-memory">Long-term Associative Memory</a></li>
+  <li><a href="#categorical-spatial-relation" id="toc-categorical-spatial-relation" class="nav-link" data-scroll-target="#categorical-spatial-relation">Categorical Spatial Relation</a></li>
+  <li><a href="#coordinate-spatial-relation" id="toc-coordinate-spatial-relation" class="nav-link" data-scroll-target="#coordinate-spatial-relation">Coordinate Spatial Relation</a></li>
+  </ul></li>
+  <li><a href="#levels-of-analysis" id="toc-levels-of-analysis" class="nav-link" data-scroll-target="#levels-of-analysis">Levels of Analysis</a></li>
+  <li><a href="#why-is-it-important-that-scientists-be-able-to-play-20-questions-with-nature-and-win" id="toc-why-is-it-important-that-scientists-be-able-to-play-20-questions-with-nature-and-win" class="nav-link" data-scroll-target="#why-is-it-important-that-scientists-be-able-to-play-20-questions-with-nature-and-win">Why is it Important That Scientists Be Able to Play 20 Questions with Nature and Win?</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12584,7 +12608,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

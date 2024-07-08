@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Cogntition Hazard Rates
 
 categories: ['cognitivemodel']

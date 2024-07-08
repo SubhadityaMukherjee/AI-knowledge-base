@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Subject-verb agreement
 
 categories: ['languagepsychology']

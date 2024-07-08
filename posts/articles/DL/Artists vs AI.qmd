@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Artists vs AI
 
 categories: ["article"]

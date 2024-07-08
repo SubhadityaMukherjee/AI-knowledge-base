@@ -1,4 +1,5 @@
 ---
+toc: true
 title: DeepNorm
 
 categories: ['regularize']

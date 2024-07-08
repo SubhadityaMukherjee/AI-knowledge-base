@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Frobenius norm
 
 categories: ['math']

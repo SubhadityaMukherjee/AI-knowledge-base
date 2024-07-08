@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Transformer-XL
 
 categories: ['architecture']

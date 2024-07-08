@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Grasp Point Detection
 
 categories: ['robotics']

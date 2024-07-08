@@ -1,4 +1,5 @@
 ---
+toc: true
 title: There and back again
 
 categories: ['explainability']

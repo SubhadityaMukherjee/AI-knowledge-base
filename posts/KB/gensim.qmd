@@ -1,4 +1,5 @@
 ---
+toc: true
 title: gensim
 
 categories: ['nlplibrary']
@@ -139,7 +140,8 @@ plt.scatter(
 
 plt.xlabel('PCA-1')
 plt.ylabel('PCA-2')
-plt.title('PCA Visualization')
+plt.toc: true
+title('PCA Visualization')
 plt.plot()
 ```
 

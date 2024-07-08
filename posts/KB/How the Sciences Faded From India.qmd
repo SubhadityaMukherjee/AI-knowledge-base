@@ -1,4 +1,5 @@
 ---
+toc: true
 title: How the Sciences Faded From India
 tags:
   - indianhistory

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Tainted data
 
 categories: ['explainability']

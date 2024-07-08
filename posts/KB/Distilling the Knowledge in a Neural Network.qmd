@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Distilling the Knowledge in a Neural Network
 
 categories: ['knowledgedistillation']

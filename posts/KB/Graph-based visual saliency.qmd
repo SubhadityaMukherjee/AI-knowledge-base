@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Graph-based visual saliency
 
 categories: ['explainability']

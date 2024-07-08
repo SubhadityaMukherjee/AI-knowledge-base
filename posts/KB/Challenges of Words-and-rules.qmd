@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Challenges of Words-and-rules
 
 categories: ['languagepsychology']

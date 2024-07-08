@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Gradient Sensitivity
 
 categories: ['explainability']

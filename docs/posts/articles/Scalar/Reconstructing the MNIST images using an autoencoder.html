@@ -105,7 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -122,23 +122,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -150,6 +146,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Reconstructing the MNIST images using an autoencoder.html">Reconstructing the MNIST images using an autoencoder</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -175,15 +174,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12466,7 +12464,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#reconstructing-mnist-images-using-an-autoencoder" id="toc-reconstructing-mnist-images-using-an-autoencoder" class="nav-link active" data-scroll-target="#reconstructing-mnist-images-using-an-autoencoder">Reconstructing MNIST images using an Autoencoder</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12492,11 +12502,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="what-are-we-building" class="level1">
 <h1>What are we building?</h1>
-<p>In this article, we will build an Autoencoder in Tensorflow that can re-create MNIST images. We will create functions to load and pre-process the dataset, along with creating noisy versions of the data points. We will create the Encoder-Decoder structure of the Autoencoder and then use the noisy and real images as inputs to it. After training the model, we will use it to generate new images. The following sections elaborate on these points. ## Pre-requisites Before moving to the implementation, we must understand some prerequisite terms. ### Transposed Convolution 2D Convolutions compress information from images into smaller representations by <a href="../../Downsampling|downsampling.qmd">../../Downsampling|downsampling</a> them. Transposed Convolutions perform the opposite operation. These convolutions take compressed/small images and attempt to expand their sizes. An illustration of how this happens is as follows.</p>
+<p>In this article, we will build an Autoencoder in Tensorflow that can re-create MNIST images. We will create functions to load and pre-process the dataset, along with creating noisy versions of the data points. We will create the Encoder-Decoder structure of the Autoencoder and then use the noisy and real images as inputs to it. After training the model, we will use it to generate new images. The following sections elaborate on these points.</p>
+<section id="pre-requisites" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h2>
+<p>Before moving to the implementation, we must understand some prerequisite terms.</p>
+<section id="transposed-convolution" class="level3">
+<h3 class="anchored" data-anchor-id="transposed-convolution">Transposed Convolution</h3>
+<p>2D Convolutions compress information from images into smaller representations by <a href="../../Downsampling|downsampling.qmd">../../Downsampling|downsampling</a> them. Transposed Convolutions perform the opposite operation. These convolutions take compressed/small images and attempt to expand their sizes. An illustration of how this happens is as follows.</p>
 <p>[IMAGE {1} Transposed Conv START SAMPLE] <img src="https://hackmd.io/_uploads/S1cHysVqo.gif" class="img-fluid" alt="Transposed Conv"> [IMAGE {1} FINISH SAMPLE]</p>
+</section>
 <section id="what-are-autoencoders" class="level3">
 <h3 class="anchored" data-anchor-id="what-are-autoencoders">What are Autoencoders</h3>
 <p>Autoencoders are models that we created to reduce noise in images. In attempting to learn how to reduce noise, they model the latent space of the dataset. Any architecture that understands the latent space can then re-create the original forms of the images from the noisy variants. In the process, the model can not only act as an unsupervised classifier but also be used to generate new images. AutoEncoders have an Encoder-Decoder structure where the Encoder compresses the image while the Decoder re-creates the original image from the compressed representation.</p>
+</section>
 </section>
 <section id="how-are-we-going-to-build-this" class="level2">
 <h2 class="anchored" data-anchor-id="how-are-we-going-to-build-this">How are we going to build this?</h2>
@@ -12573,7 +12591,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="defining-the-bottleneck" class="level2">
 <h2 class="anchored" data-anchor-id="defining-the-bottleneck">Defining the Bottleneck</h2>
-<p>Unlike the other two components, the Bottleneck does not need to be explicitly programmed. Because the output of the Encoder’s final MaxPooling layer is very small, the Decoder must learn to recreate the images using this compressed representation. In more complex implementations of Autoencoders, modifying the Bottleneck is also an option. ## Defining the Decoder The Decoder comprises Transposed Convolutions with a stride of 2. The final layer of the model is a simple 2D convolution with the sigmoid activation function. Since this part of the network is used to recreate images from the compressed representation, upsampling is done using the Transposed Convolution. Larger strides are used for upsampling the images in fewer steps.</p>
+<p>Unlike the other two components, the Bottleneck does not need to be explicitly programmed. Because the output of the Encoder’s final MaxPooling layer is very small, the Decoder must learn to recreate the images using this compressed representation. In more complex implementations of Autoencoders, modifying the Bottleneck is also an option.</p>
+</section>
+<section id="defining-the-decoder" class="level2">
+<h2 class="anchored" data-anchor-id="defining-the-decoder">Defining the Decoder</h2>
+<p>The Decoder comprises Transposed Convolutions with a stride of 2. The final layer of the model is a simple 2D convolution with the sigmoid activation function. Since this part of the network is used to recreate images from the compressed representation, upsampling is done using the Transposed Convolution. Larger strides are used for upsampling the images in fewer steps.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Decoder</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> layers.Conv2DTranspose(<span class="dv">32</span>, (<span class="dv">3</span>, <span class="dv">3</span>), strides<span class="op">=</span><span class="dv">2</span>, activation<span class="op">=</span><span class="st">"relu"</span>, padding<span class="op">=</span><span class="st">"same"</span>)(x)</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> layers.Conv2DTranspose(<span class="dv">32</span>, (<span class="dv">3</span>, <span class="dv">3</span>), strides<span class="op">=</span><span class="dv">2</span>, activation<span class="op">=</span><span class="st">"relu"</span>, padding<span class="op">=</span><span class="st">"same"</span>)(x)</span>
@@ -12617,7 +12639,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

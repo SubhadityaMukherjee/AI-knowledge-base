@@ -1,4 +1,5 @@
 ---
+toc: true
 title: 2 X 2 Study
 categories: ['language']
 ---

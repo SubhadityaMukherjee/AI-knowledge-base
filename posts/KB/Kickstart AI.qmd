@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Kickstart AI
 
 categories: ['jobs']

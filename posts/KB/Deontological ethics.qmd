@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Deontological ethics
 
 categories: ['ethics']

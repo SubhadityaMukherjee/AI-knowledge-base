@@ -1,4 +1,5 @@
 ---
+toc: true
 title: data2vec
 
 categories: ['architecture']

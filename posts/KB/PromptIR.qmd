@@ -1,4 +1,5 @@
 ---
+toc: true
 title: PromptIR
 
 categories: ['explainability']
@@ -20,6 +21,7 @@ date created: Friday 30th June 2023, Fri
 - involves training an extra encoder to differentiate various types of image degradations 
 - Although AirNet [29] yields state-of-the-art results, it struggles to model fully disentangled representations of different corruption types 
 - Furthermore, the usage of an additional encoder for contrastive learning leads to a higher training burden due to the two-stage training approach. 
+
 ## Method 
 - # aim to learn a single model M to restore an image I from a degraded image I, that has been degraded using a degradation D, while having no prior information about D. 
 - While the model is initially "blind" to the nature of degradation, its performance in recovering a clean image can be enhanced by providing implicit contextual information about the type of degradation  
@@ -32,8 +34,10 @@ date created: Friday 30th June 2023, Fri
 - From the low-resolution latent features Fl, the aim of the decoder is to gradually recover the highresolution clean output 
 - ncorporate prompt block 
 - Prompt blocks are adapter modules that sequentially connect every two levels of the decoder. 
+
 ## Prompt Block  
 - ![img_p3_1](img_p3_1.png) 
+
 ## Prompt Generation Module 
 - Prompt components Pc form a set of learnable parameters that interact with the incoming features to embed degradation information 
 - features-prompt interaction is to directly use the learned prompts to calibrate the features. 
@@ -46,6 +50,7 @@ date created: Friday 30th June 2023, Fri
 - ![img_p4_1](img_p4_1.png) 
 - Since at inference time, it is necessary for the restoration network to be able to handle images of different resolutions, we cannot use the prompt components Pc with a fixed size. 
 - bilinear upsampling operation to upscale the prompt components 
+
 ## Prompt Interaction Module 
 - enable interaction between the input features Fl and prompts P for a guided restoration. 
 - # In PIM, we concatenate the generated prompts with the input features along the channel dimension. 
@@ -54,6 +59,7 @@ date created: Friday 30th June 2023, Fri
 - The goal of GDFN is to transform features in a controlled manner, i.e., suppressing the less informative features and allowing only useful ones to propagate through the network  
 - ![img_p5_1](img_p5_1.png)  
 - ![img_p5_2](img_p5_2.png) 
+
 ##  
 - ![img_p6_1](img_p6_1.png) 
 - Implementation Details 

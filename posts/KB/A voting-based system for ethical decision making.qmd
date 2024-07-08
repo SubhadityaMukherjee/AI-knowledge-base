@@ -1,4 +1,5 @@
 ---
+toc: true
 title: A voting-based system for ethical decision making
 
 categories: ['ethics']

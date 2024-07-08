@@ -105,7 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -122,23 +122,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -150,6 +146,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Time series forecasting using LSTM.html">Time series forecasting using LSTM</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -175,15 +174,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12466,7 +12464,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#time-series-forecasting-using-lstm" id="toc-time-series-forecasting-using-lstm" class="nav-link active" data-scroll-target="#time-series-forecasting-using-lstm">Time series forecasting using LSTM</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12483,15 +12493,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="section{.main}">
 <section id="what-are-we-building" class="level2">
 <h2 class="anchored" data-anchor-id="what-are-we-building">What are we building?</h2>
-<p>In this article, we will be creating an LSTM time series model. We will be using data that we generate and create a simple LSTM that can model it accurately. To perform this task, we will write functions that can generate data, model it and perform predictions on future points. We will implement this model using Tensorflow and the below sections explain how to perform just that. ## Pre-Requisites Before moving on to creating the LSTM time series model, we must understand some pre-requisite information.</p>
+<p>In this article, we will be creating an LSTM time series model. We will be using data that we generate and create a simple LSTM that can model it accurately. To perform this task, we will write functions that can generate data, model it and perform predictions on future points. We will implement this model using Tensorflow and the below sections explain how to perform just that.</p>
+</section>
+<section id="pre-requisites" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisites">Pre-Requisites</h2>
+<p>Before moving on to creating the LSTM time series model, we must understand some pre-requisite information.</p>
 <section id="what-is-time-series" class="level3">
 <h3 class="anchored" data-anchor-id="what-is-time-series">What is Time Series?</h3>
-<p>A time series data is any <strong>temporal</strong> data that has a <strong>discrete time interval</strong> and almost <strong>equidistant time steps</strong>. The general task is to estimate the function that was used to generate such the time series. If the function can be estimated correctly, future points that the model has not encountered yet can be predicted. Examples of time series include heart rate data, stock market data and many others. ### RNNs RNNs are a family of models that take entire series as inputs and return series as outputs. This algorithm is a sequential process and contains hidden states that model the underlying data. Unlike a simple Convolutional network that uses Backpropagation, an RNN uses a modified variant called Backpropagation through time (BPTT) that enables it to embed temporal data. An RNN is said to be Turing complete and is used in domains such as Natural Language Processing, Computer Vision, Robotics and many others. The RNN architecture is made up of <strong>gates</strong> and is shown below.</p>
+<p>A time series data is any <strong>temporal</strong> data that has a <strong>discrete time interval</strong> and almost <strong>equidistant time steps</strong>. The general task is to estimate the function that was used to generate such the time series. If the function can be estimated correctly, future points that the model has not encountered yet can be predicted. Examples of time series include heart rate data, stock market data and many others.</p>
+</section>
+<section id="rnns" class="level3">
+<h3 class="anchored" data-anchor-id="rnns">RNNs</h3>
+<p>RNNs are a family of models that take entire series as inputs and return series as outputs. This algorithm is a sequential process and contains hidden states that model the underlying data. Unlike a simple Convolutional network that uses Backpropagation, an RNN uses a modified variant called Backpropagation through time (BPTT) that enables it to embed temporal data. An RNN is said to be Turing complete and is used in domains such as Natural Language Processing, Computer Vision, Robotics and many others. The RNN architecture is made up of <strong>gates</strong> and is shown below.</p>
 <p>[IMAGE {1} RNN START SAMPLE] <img src="https://hackmd.io/_uploads/B1W-pj49i.png" class="img-fluid" alt="RNN"> [IMAGE {1} FINISH SAMPLE]</p>
 </section>
 <section id="problems-with-classical-rnns" class="level3">
 <h3 class="anchored" data-anchor-id="problems-with-classical-rnns">Problems with Classical RNNs</h3>
-<p>RNNs suffer from a variety of problems due to their sequential nature. - RNNs fail to model longer sequences. This property makes it very hard to use for data that has a long temporal span. - The classical RNN also had an issue with exploding and vanishing gradients due to the way the underlying architecture worked. These problems make an RNN very unstable. ### What is LSTM? LSTMs are a modified version of RNNs with different gates that enable the architecture to model much longer sequences. The LSTMs use gated connections that learn which features to forget and which to remember. The ability to choose what to forget makes them much better than a classical RNN. LSTMs are also a lot more stable and have a smaller chance of exploding or vanishing gradients. The LSTM architecture is shown below.</p>
+<p>RNNs suffer from a variety of problems due to their sequential nature. - RNNs fail to model longer sequences. This property makes it very hard to use for data that has a long temporal span. - The classical RNN also had an issue with exploding and vanishing gradients due to the way the underlying architecture worked. These problems make an RNN very unstable.</p>
+</section>
+<section id="what-is-lstm" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-lstm">What is LSTM?</h3>
+<p>LSTMs are a modified version of RNNs with different gates that enable the architecture to model much longer sequences. The LSTMs use gated connections that learn which features to forget and which to remember. The ability to choose what to forget makes them much better than a classical RNN. LSTMs are also a lot more stable and have a smaller chance of exploding or vanishing gradients. The LSTM architecture is shown below.</p>
 <p>[IMAGE {2} LSTM START SAMPLE] <img src="https://hackmd.io/_uploads/HynWai49o.png" class="img-fluid" alt="LSTM"> [IMAGE {2} FINISH SAMPLE]</p>
 </section>
 <section id="how-are-we-going-to-build-this" class="level3">
@@ -12517,12 +12539,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="building-the-time-series-forecaster" class="level2">
 <h2 class="anchored" data-anchor-id="building-the-time-series-forecaster">Building the Time Series Forecaster</h2>
-<p>The Time Series Forecaster model has a simple LSTM based architecture. Before creating it, we have to write functions to set up the library, generate and load and finally pre-process the data. The model we will use for this article is a Sequential model comprising an LSTM block followed by a Fully Connected layer. We will then use the generated data and this model to train a LSTM time series prediction model. We will use the trained model to predict points in the future that the model has not seen before. The following sections detail all of these points. ### Setup To set up our modules, we set the RANDOM_SEED variable. This variable sets the seed for the random number generator and ensures that we get the same “random” numbers every time. This is not useful in practice but is done only for demonstration purposes. We also modify the plot to be a white style grid with a muted palette for better display.</p>
+<p>The Time Series Forecaster model has a simple LSTM based architecture. Before creating it, we have to write functions to set up the library, generate and load and finally pre-process the data. The model we will use for this article is a Sequential model comprising an LSTM block followed by a Fully Connected layer. We will then use the generated data and this model to train a LSTM time series prediction model. We will use the trained model to predict points in the future that the model has not seen before. The following sections detail all of these points.</p>
+<section id="setup" class="level3">
+<h3 class="anchored" data-anchor-id="setup">Setup</h3>
+<p>To set up our modules, we set the RANDOM_SEED variable. This variable sets the seed for the random number generator and ensures that we get the same “random” numbers every time. This is not useful in practice but is done only for demonstration purposes. We also modify the plot to be a white style grid with a muted palette for better display.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">'whitegrid'</span>, palette<span class="op">=</span><span class="st">'muted'</span>, font_scale<span class="op">=</span><span class="fl">1.5</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>rcParams[<span class="st">'figure.figsize'</span>] <span class="op">=</span> <span class="dv">16</span>, <span class="dv">10</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>RANDOM_SEED <span class="op">=</span> <span class="dv">42</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>np.random.seed(RANDOM_SEED)</span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>tf.random.set_seed(RANDOM_SEED)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
 <section id="data" class="level3">
 <h3 class="anchored" data-anchor-id="data">Data</h3>
 <p>To generate the data, we create a custom function that uses a combination of a Sin wave and a small Gaussian noise. These values are generated in the range of (0,200) with a step of 0.1 . To see how this data looks like, we can plot it using matplotlib.</p>
@@ -12617,7 +12643,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

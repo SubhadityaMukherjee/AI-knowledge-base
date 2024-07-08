@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Git Commands.html">Git Commands</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -138,15 +137,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12429,7 +12427,51 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#git-commands" id="toc-git-commands" class="nav-link active" data-scroll-target="#git-commands">Git Commands</a>
+  <ul class="collapse">
+  <li><a href="#managing-gists" id="toc-managing-gists" class="nav-link" data-scroll-target="#managing-gists">Managing Gists</a>
+  <ul class="collapse">
+  <li><a href="#list-all-your-gists" id="toc-list-all-your-gists" class="nav-link" data-scroll-target="#list-all-your-gists">List All Your Gists</a></li>
+  <li><a href="#view" id="toc-view" class="nav-link" data-scroll-target="#view">View</a></li>
+  <li><a href="#delete" id="toc-delete" class="nav-link" data-scroll-target="#delete">Delete</a></li>
+  </ul></li>
+  <li><a href="#managing-issues" id="toc-managing-issues" class="nav-link" data-scroll-target="#managing-issues">Managing Issues</a>
+  <ul class="collapse">
+  <li><a href="#creating-an-issue" id="toc-creating-an-issue" class="nav-link" data-scroll-target="#creating-an-issue">Creating an Issue</a></li>
+  <li><a href="#listing-all-the-repositorys-issues" id="toc-listing-all-the-repositorys-issues" class="nav-link" data-scroll-target="#listing-all-the-repositorys-issues">Listing All the repository’s Issues</a></li>
+  <li><a href="#status" id="toc-status" class="nav-link" data-scroll-target="#status">Status</a></li>
+  <li><a href="#closing-an-issue" id="toc-closing-an-issue" class="nav-link" data-scroll-target="#closing-an-issue">Closing an Issue</a></li>
+  <li><a href="#reopening-an-issue" id="toc-reopening-an-issue" class="nav-link" data-scroll-target="#reopening-an-issue">Reopening an Issue</a></li>
+  </ul></li>
+  <li><a href="#managing-repositories" id="toc-managing-repositories" class="nav-link" data-scroll-target="#managing-repositories">Managing Repositories</a>
+  <ul class="collapse">
+  <li><a href="#create-a-public-repository" id="toc-create-a-public-repository" class="nav-link" data-scroll-target="#create-a-public-repository">Create a Public Repository</a></li>
+  <li><a href="#forking-a-repository" id="toc-forking-a-repository" class="nav-link" data-scroll-target="#forking-a-repository">Forking a Repository</a></li>
+  <li><a href="#listing-the-repository-of-an-account" id="toc-listing-the-repository-of-an-account" class="nav-link" data-scroll-target="#listing-the-repository-of-an-account">Listing the Repository of an account</a></li>
+  </ul></li>
+  <li><a href="#managing-prs" id="toc-managing-prs" class="nav-link" data-scroll-target="#managing-prs">Managing PRs</a>
+  <ul class="collapse">
+  <li><a href="#creating-a-pull-request-with-a-specific-title-and-body" id="toc-creating-a-pull-request-with-a-specific-title-and-body" class="nav-link" data-scroll-target="#creating-a-pull-request-with-a-specific-title-and-body">Creating a Pull Request with a Specific Title and Body</a></li>
+  <li><a href="#listing-all-the-pull-requests-in-the-repository" id="toc-listing-all-the-pull-requests-in-the-repository" class="nav-link" data-scroll-target="#listing-all-the-pull-requests-in-the-repository">Listing All the Pull Requests in the Repository</a></li>
+  <li><a href="#status-of-your-pull-requests" id="toc-status-of-your-pull-requests" class="nav-link" data-scroll-target="#status-of-your-pull-requests">Status of Your Pull Requests</a></li>
+  <li><a href="#getting-a-pull-request-to-inspect-it" id="toc-getting-a-pull-request-to-inspect-it" class="nav-link" data-scroll-target="#getting-a-pull-request-to-inspect-it">Getting a Pull Request to Inspect it</a></li>
+  <li><a href="#displaying-continuous-integration-ci-status-for-a-specific-pull-request" id="toc-displaying-continuous-integration-ci-status-for-a-specific-pull-request" class="nav-link" data-scroll-target="#displaying-continuous-integration-ci-status-for-a-specific-pull-request">Displaying Continuous Integration (CI) Status for a Specific Pull Request</a></li>
+  <li><a href="#diff" id="toc-diff" class="nav-link" data-scroll-target="#diff">Diff</a></li>
+  <li><a href="#merge" id="toc-merge" class="nav-link" data-scroll-target="#merge">Merge</a></li>
+  <li><a href="#display-the-title-body-and-other-information-about-a-pull-request." id="toc-display-the-title-body-and-other-information-about-a-pull-request." class="nav-link" data-scroll-target="#display-the-title-body-and-other-information-about-a-pull-request.">Display the Title, Body, and other Information about a Pull Request.</a></li>
+  <li><a href="#make-a-pull-request-as-ready-for-review" id="toc-make-a-pull-request-as-ready-for-review" class="nav-link" data-scroll-target="#make-a-pull-request-as-ready-for-review">Make a Pull Request as Ready for Review</a></li>
+  <li><a href="#add-a-review-to-a-pull-request" id="toc-add-a-review-to-a-pull-request" class="nav-link" data-scroll-target="#add-a-review-to-a-pull-request">Add a Review to a Pull Request</a></li>
+  <li><a href="#closereopen" id="toc-closereopen" class="nav-link" data-scroll-target="#closereopen">Close/reopen</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12469,7 +12511,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="managing-issues">Managing Issues</h2>
 <section id="creating-an-issue" class="level3">
 <h3 class="anchored" data-anchor-id="creating-an-issue">Creating an Issue</h3>
-<pre><code>gh issue create --title "Is it a bug?" --body "the behavior’s description"</code></pre>
+<pre><code>gh issue create --toc: true
+title "Is it a bug?" --body "the behavior’s description"</code></pre>
 </section>
 <section id="listing-all-the-repositorys-issues" class="level3">
 <h3 class="anchored" data-anchor-id="listing-all-the-repositorys-issues">Listing All the repository’s Issues</h3>
@@ -12513,7 +12556,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="managing-prs">Managing PRs</h2>
 <section id="creating-a-pull-request-with-a-specific-title-and-body" class="level3">
 <h3 class="anchored" data-anchor-id="creating-a-pull-request-with-a-specific-title-and-body">Creating a Pull Request with a Specific Title and Body</h3>
-<pre><code>gh pr create --title "feat: my\_super\_feature" --body "all the details" </code></pre>
+<pre><code>gh pr create --toc: true
+title "feat: my\_super\_feature" --body "all the details" </code></pre>
 </section>
 <section id="listing-all-the-pull-requests-in-the-repository" class="level3">
 <h3 class="anchored" data-anchor-id="listing-all-the-pull-requests-in-the-repository">Listing All the Pull Requests in the Repository</h3>
@@ -12565,7 +12609,7 @@ gh pr diff</code></pre>
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

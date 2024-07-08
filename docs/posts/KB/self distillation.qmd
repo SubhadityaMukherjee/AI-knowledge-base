@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Self Distillation
 
 categories: ['knowledgedistillation']

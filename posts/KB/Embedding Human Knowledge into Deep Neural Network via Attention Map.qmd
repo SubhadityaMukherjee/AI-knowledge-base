@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Embedding Human Knowledge into Deep Neural Network via Attention Map
 
 categories: ['explainabilityexplainability']

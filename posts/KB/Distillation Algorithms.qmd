@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Distillation Algorithms
 
 categories: ['knowledgedistillation']

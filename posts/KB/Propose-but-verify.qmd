@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Propose-but-verify
 
 categories: ['languagecogneuropsychology']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Quadratic Potential Field
 categories: ['robotics']
 ---

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Tree Cover Segmentation
 categories: ['application']
 date modified: Monday, October 10th 2022, 2:02:09 pm

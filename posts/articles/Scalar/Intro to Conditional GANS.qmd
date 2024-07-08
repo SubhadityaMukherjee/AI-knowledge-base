@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Intro to Conditional GANS
 
 categories: ["article"]
@@ -9,10 +10,12 @@ date created:
 # Introduction to Conditional GANs
 
 :::section{.abstract}
+
 ## Overview
 Generating novel images from an image dataset has been a dream in Computer Vision. Being able to influence the generation of these images was made possible by a family of GANs named **Conditional GANs**. The following article explores these CGANs and shows how the DCGAN was modified to have the ability to control latent space traversal to a certain extent. We also look at the training paradigm and cover some challenges we might encounter while training a CGAN on our data.
 :::
 :::section{.scope}
+
 ## Scope
 - This article provides an overview of Conditional GANs (CGANs) and their ability to influence the generation of images.
 - It talks about the differences between CGANs and normal GANs.
@@ -25,6 +28,7 @@ Generating novel images from an image dataset has been a dream in Computer Visio
 
 ## Pre-requisites
 Before understanding CGANs, we need to understand some concepts.
+
 ### Z Space
 Consider the task of generating new faces from a large dataset of faces. To create a new face, we can take an *average* of all the faces.
 Now, to create a new face, we need to tweak the *average* face a little. We could make the nose a little longer, the mouth smaller and so on. Our *average* face would also have the same features as human faces but be in between all the faces. 
@@ -84,12 +88,14 @@ The Generator in a CGAN also has a similar architecture as the DCGAN, consisting
 
 ## Loss functions
 To train the network, we use two loss functions for the Generator and the Discriminator of the CGAN, respectively.
+
 ### Generator Loss
 Since the Generator's objective is to create better fake images gradually, it needs to minimize the difference between the predicted image and the target. The model uses [../../One hot|one hot](../../One hot|one hot.qmd) encoded label in this architecture to decide which features to care for. The loss function thus is the following.
 
 $$\mathcal{L}^{(G)}(\theta^{(G)}, \theta^{(D)}) = - \mathbb{E}_{z} log \mathcal{D} (\mathcal{G} (z|y’))$$
 
 The equation can be thought of as: given a label, use the Generator to traverse the latent space and create an image. Then pass the created image through the Discriminator and find how well we performed. 
+
 ### Discriminator Loss
 Since the objective of the Discriminator is to label the generated images, its outputs are the probability that the image is true. The loss function is, therefore, the following. (This is a Binary Cross Entropy Loss function)
 

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Chain of Thought
 
 categories: ['temp']

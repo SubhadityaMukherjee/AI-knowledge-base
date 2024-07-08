@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Collaborative Topic Regression
 
 categories: ['architecturerecommender']

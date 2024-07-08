@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Minimization and reporting of negative impacts
 
 categories: ['explainability']

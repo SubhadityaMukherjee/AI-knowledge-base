@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/OpenML <> scikit-learn hackathon.html">OpenML &lt;&gt; scikit-learn hackathon</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -138,15 +137,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12429,7 +12427,40 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#openml-scikit-learn-hackathon" id="toc-openml-scikit-learn-hackathon" class="nav-link active" data-scroll-target="#openml-scikit-learn-hackathon">OpenML &lt;&gt; Scikit-learn Hackathon</a></li>
+  <li><a href="#logistics" id="toc-logistics" class="nav-link" data-scroll-target="#logistics">Logistics</a>
+  <ul class="collapse">
+  <li><a href="#location" id="toc-location" class="nav-link" data-scroll-target="#location">Location</a></li>
+  <li><a href="#contact-persons" id="toc-contact-persons" class="nav-link" data-scroll-target="#contact-persons">Contact Persons</a></li>
+  <li><a href="#communication-channel" id="toc-communication-channel" class="nav-link" data-scroll-target="#communication-channel">Communication Channel</a></li>
+  <li><a href="#wifi" id="toc-wifi" class="nav-link" data-scroll-target="#wifi">Wifi</a></li>
+  </ul></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a>
+  <ul class="collapse">
+  <li><a href="#june-24---0900-1800" id="toc-june-24---0900-1800" class="nav-link" data-scroll-target="#june-24---0900-1800">June 24 - 09:00-18:00</a></li>
+  <li><a href="#june-25---0900-1800" id="toc-june-25---0900-1800" class="nav-link" data-scroll-target="#june-25---0900-1800">June 25 - 09:00-18:00</a></li>
+  <li><a href="#june-26---0900-1300" id="toc-june-26---0900-1300" class="nav-link" data-scroll-target="#june-26---0900-1300">June 26 - 09:00-13:00</a></li>
+  </ul></li>
+  <li><a href="#breakout-sessions-ideas" id="toc-breakout-sessions-ideas" class="nav-link" data-scroll-target="#breakout-sessions-ideas">Breakout Sessions Ideas</a>
+  <ul class="collapse">
+  <li><a href="#organizing-community-events-and-onboarding-contributors-day-1" id="toc-organizing-community-events-and-onboarding-contributors-day-1" class="nav-link" data-scroll-target="#organizing-community-events-and-onboarding-contributors-day-1">1. Organizing Community Events and Onboarding Contributors [Day 1]</a></li>
+  <li><a href="#governance-funding-and-sponsorship" id="toc-governance-funding-and-sponsorship" class="nav-link" data-scroll-target="#governance-funding-and-sponsorship">2. Governance, Funding and Sponsorship</a></li>
+  <li><a href="#future-collaboration-between-scikit-learn-and-openml-day-1-2-sessions" id="toc-future-collaboration-between-scikit-learn-and-openml-day-1-2-sessions" class="nav-link" data-scroll-target="#future-collaboration-between-scikit-learn-and-openml-day-1-2-sessions">3. Future Collaboration between Scikit-learn and OpenML [Day 1, 2 sessions]</a></li>
+  <li><a href="#croissant-talk" id="toc-croissant-talk" class="nav-link" data-scroll-target="#croissant-talk">3.5 Croissant Talk</a></li>
+  <li><a href="#development-tooling-and-workflows" id="toc-development-tooling-and-workflows" class="nav-link" data-scroll-target="#development-tooling-and-workflows">4. Development Tooling and Workflows</a></li>
+  <li><a href="#probabl-product-technical-discussion" id="toc-probabl-product-technical-discussion" class="nav-link" data-scroll-target="#probabl-product-technical-discussion">5. Probabl Product Technical Discussion</a></li>
+  <li><a href="#collaboration-ecosystem-for-open-source-machine-learning" id="toc-collaboration-ecosystem-for-open-source-machine-learning" class="nav-link" data-scroll-target="#collaboration-ecosystem-for-open-source-machine-learning">6. Collaboration Ecosystem for Open-Source Machine Learning</a></li>
+  <li><a href="#academic-and-industrial-scope-of-openml-and-probabl-in-ai" id="toc-academic-and-industrial-scope-of-openml-and-probabl-in-ai" class="nav-link" data-scroll-target="#academic-and-industrial-scope-of-openml-and-probabl-in-ai">7. Academic and Industrial Scope of OpenML and Probabl in AI</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><img src="Attachments/image3.jpg" class="img-fluid"></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12945,7 +12976,7 @@ What are our responsibilities as open source projects, should we be embracing pl
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

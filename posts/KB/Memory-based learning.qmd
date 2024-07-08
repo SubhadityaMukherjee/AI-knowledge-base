@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Memory-based learning
 
 categories: ['languagepsychology']

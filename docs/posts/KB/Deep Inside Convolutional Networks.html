@@ -100,7 +100,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -117,23 +117,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,6 +141,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Deep Inside Convolutional Networks.html">Deep Inside Convolutional Networks</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -170,15 +169,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12461,7 +12459,19 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#deep-inside-convolutional-networks" id="toc-deep-inside-convolutional-networks" class="nav-link active" data-scroll-target="#deep-inside-convolutional-networks">Deep Inside Convolutional Networks</a>
+  <ul class="collapse">
+  <li><a href="#from-class-visualization-to-saliency" id="toc-from-class-visualization-to-saliency" class="nav-link" data-scroll-target="#from-class-visualization-to-saliency">From class visualization to Saliency</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12479,21 +12489,26 @@ window.Quarto = {
 <li><p>It can be written formally as:</p></li>
 <li><p><span class="math display">\[arg \underset{I}max S_{c}(I) - \lambda||I||^{2}_{2}\]</span></p></li>
 <li><p>Where <span class="math inline">\(\lambda\)</span> is a regularisation parameter</p></li>
-<li><p>To find the value of I, we can use the back-propagation method. Unlike in the standard learning process, we are going to back-propagate with respect to the input image, not the first convolution layer ## From class visualization to Saliency</p></li>
-<li><p>This idea can be extrapolated, and with minor modifications, we should be able to query for spatial support of class ccc in a given image I0I_0I0​.</p></li>
-<li><p>rank pixels of <span class="math inline">\(I_{0}\)</span>​ in relation to their importance in predicting score <span class="math inline">\(S_{c}(I_{0})\)</span></p></li>
-<li><p>Authors assume that we can approximate <span class="math inline">\(S_{c}(I)\)</span> with a linear function in the neighborhood of <span class="math inline">\(I_{0}\)</span></p></li>
-<li><p><span class="math display">\[S_{c}(I) \approx w^{T}I + b\]</span></p></li>
-<li><p>For a pair of input image <span class="math display">\[I_{0} \in \mathbb{R}^{m \times n}\]</span> and the class c, we are able to compute saliency map <span class="math inline">\(A \in \mathbb{R}^{m \times n}\)</span> (where m and n are the height and width of the input in pixels).</p></li>
-<li><p>compute derivative w and rearrange elements in the returned vector.</p></li>
-<li><p>uses different approaches base on the number of channels in the input image <span class="math inline">\(I_{0}\)</span>​.</p></li>
-<li><p>For grey-scale pixels (one color channel), we can rearrange the pixels to match the shape of the image</p></li>
-<li><p>If the number of channels is greater than one, we are going to use the maximum value from each set of values related to the specified pixel.</p></li>
-<li><p><span class="math display">\[A_{i,j}= \underset{ch}max |w_{h_{(i,j,ch)}}|\]</span></p></li>
-<li><p>ch is a color channel of the pixel (i,j) and h(i,j,ch) is an index of the www corresponding to the same pixel (i,j).</p></li>
-<li><p>The original Saliency method produces a lot of additional noise but still gives us an idea of which part of the input image is relevant when predicting a specific class.</p></li>
-<li><p>This often causes a problem when the object on the image has a lot of details and the model is using most of them to make a prediction.</p></li>
+<li><p>To find the value of I, we can use the back-propagation method. Unlike in the standard learning process, we are going to back-propagate with respect to the input image, not the first convolution layer</p></li>
 </ul>
+<section id="from-class-visualization-to-saliency" class="level2">
+<h2 class="anchored" data-anchor-id="from-class-visualization-to-saliency">From class visualization to Saliency</h2>
+<ul>
+<li>This idea can be extrapolated, and with minor modifications, we should be able to query for spatial support of class ccc in a given image I0I_0I0​.</li>
+<li>rank pixels of <span class="math inline">\(I_{0}\)</span>​ in relation to their importance in predicting score <span class="math inline">\(S_{c}(I_{0})\)</span></li>
+<li>Authors assume that we can approximate <span class="math inline">\(S_{c}(I)\)</span> with a linear function in the neighborhood of <span class="math inline">\(I_{0}\)</span></li>
+<li><span class="math display">\[S_{c}(I) \approx w^{T}I + b\]</span></li>
+<li>For a pair of input image <span class="math display">\[I_{0} \in \mathbb{R}^{m \times n}\]</span> and the class c, we are able to compute saliency map <span class="math inline">\(A \in \mathbb{R}^{m \times n}\)</span> (where m and n are the height and width of the input in pixels).</li>
+<li>compute derivative w and rearrange elements in the returned vector.</li>
+<li>uses different approaches base on the number of channels in the input image <span class="math inline">\(I_{0}\)</span>​.</li>
+<li>For grey-scale pixels (one color channel), we can rearrange the pixels to match the shape of the image</li>
+<li>If the number of channels is greater than one, we are going to use the maximum value from each set of values related to the specified pixel.</li>
+<li><span class="math display">\[A_{i,j}= \underset{ch}max |w_{h_{(i,j,ch)}}|\]</span></li>
+<li>ch is a color channel of the pixel (i,j) and h(i,j,ch) is an index of the www corresponding to the same pixel (i,j).</li>
+<li>The original Saliency method produces a lot of additional noise but still gives us an idea of which part of the input image is relevant when predicting a specific class.</li>
+<li>This often causes a problem when the object on the image has a lot of details and the model is using most of them to make a prediction.</li>
+</ul>
+</section>
 <section id="images" class="level2">
 <h2 class="anchored" data-anchor-id="images">Images</h2>
 <ul>
@@ -12515,7 +12530,7 @@ window.Quarto = {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

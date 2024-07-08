@@ -100,7 +100,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -117,23 +117,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,6 +141,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Intro to Conditional GANS.html">Intro to Conditional GANS</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -170,15 +169,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12461,7 +12459,20 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction-to-conditional-gans" id="toc-introduction-to-conditional-gans" class="nav-link active" data-scroll-target="#introduction-to-conditional-gans">Introduction to Conditional GANs</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12488,7 +12499,11 @@ window.Quarto = {
 <div class="section{.main}">
 <section id="pre-requisites" class="level2">
 <h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h2>
-<p>Before understanding CGANs, we need to understand some concepts. ### Z Space Consider the task of generating new faces from a large dataset of faces. To create a new face, we can take an <em>average</em> of all the faces. Now, to create a new face, we need to tweak the <em>average</em> face a little. We could make the nose a little longer, the mouth smaller and so on. Our <em>average</em> face would also have the same features as human faces but be in between all the faces. These transformations can be thought of as a kind of <strong>interpolation</strong>. In essence, we consider the faces as vectors and instead of moving from one to the other, we move to an intermediate point in between. We get new faces depending on which “direction” we choose to interpolate between these face vectors. This transformation enables CGANs to have more control over what they generate.</p>
+<p>Before understanding CGANs, we need to understand some concepts.</p>
+<section id="z-space" class="level3">
+<h3 class="anchored" data-anchor-id="z-space">Z Space</h3>
+<p>Consider the task of generating new faces from a large dataset of faces. To create a new face, we can take an <em>average</em> of all the faces. Now, to create a new face, we need to tweak the <em>average</em> face a little. We could make the nose a little longer, the mouth smaller and so on. Our <em>average</em> face would also have the same features as human faces but be in between all the faces. These transformations can be thought of as a kind of <strong>interpolation</strong>. In essence, we consider the faces as vectors and instead of moving from one to the other, we move to an intermediate point in between. We get new faces depending on which “direction” we choose to interpolate between these face vectors. This transformation enables CGANs to have more control over what they generate.</p>
+</section>
 </section>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
@@ -12552,10 +12567,18 @@ window.Quarto = {
 </section>
 <section id="loss-functions" class="level2">
 <h2 class="anchored" data-anchor-id="loss-functions">Loss functions</h2>
-<p>To train the network, we use two loss functions for the Generator and the Discriminator of the CGAN, respectively. ### Generator Loss Since the Generator’s objective is to create better fake images gradually, it needs to minimize the difference between the predicted image and the target. The model uses <a href="../../One hot|one hot.qmd">../../One hot|one hot</a> encoded label in this architecture to decide which features to care for. The loss function thus is the following.</p>
+<p>To train the network, we use two loss functions for the Generator and the Discriminator of the CGAN, respectively.</p>
+<section id="generator-loss" class="level3">
+<h3 class="anchored" data-anchor-id="generator-loss">Generator Loss</h3>
+<p>Since the Generator’s objective is to create better fake images gradually, it needs to minimize the difference between the predicted image and the target. The model uses <a href="../../One hot|one hot.qmd">../../One hot|one hot</a> encoded label in this architecture to decide which features to care for. The loss function thus is the following.</p>
 <p><span class="math display">\[\mathcal{L}^{(G)}(\theta^{(G)}, \theta^{(D)}) = - \mathbb{E}_{z} log \mathcal{D} (\mathcal{G} (z|y’))\]</span></p>
-<p>The equation can be thought of as: given a label, use the Generator to traverse the latent space and create an image. Then pass the created image through the Discriminator and find how well we performed. ### Discriminator Loss Since the objective of the Discriminator is to label the generated images, its outputs are the probability that the image is true. The loss function is, therefore, the following. (This is a Binary Cross Entropy Loss function)</p>
+<p>The equation can be thought of as: given a label, use the Generator to traverse the latent space and create an image. Then pass the created image through the Discriminator and find how well we performed.</p>
+</section>
+<section id="discriminator-loss" class="level3">
+<h3 class="anchored" data-anchor-id="discriminator-loss">Discriminator Loss</h3>
+<p>Since the objective of the Discriminator is to label the generated images, its outputs are the probability that the image is true. The loss function is, therefore, the following. (This is a Binary Cross Entropy Loss function)</p>
 <p><span class="math display">\[ \mathcal{L}^{(D)}(\theta^{(G)}, \theta^{(D)})= - \mathbb{E}_{x \sim p_{data}}log \mathcal{D}(x|y) - \mathbb{E}_{z} log (1- \mathcal{D}(\mathcal{G}(z|y')))\]</span></p>
+</section>
 </section>
 <section id="training" class="level2">
 <h2 class="anchored" data-anchor-id="training">Training</h2>
@@ -12612,7 +12635,7 @@ window.Quarto = {
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

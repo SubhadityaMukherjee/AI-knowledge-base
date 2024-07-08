@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Ai_for_startups
 
 categories: ["article"]
@@ -39,6 +40,7 @@ This article is divided into three major sections.
 - The third section talks about some of the pitfalls that one might face when they first dive into this space. Take it as a word of caution. 
 
 ## Section 1 - The beginning stages Or How should I care about “AI”?
+
 ### Cutting through the hype
 - Unrealistic expectations
 At the end of the day, AI is not a magic mushroom. It cannot solve everything you want, and neither can it evolve and take over the planet. Yet. Can you use it for your needs? Undoubtedly. So what can it do? It can categorize images, translate text, understand what it hears, recognize tumors, and anything your creativity allows. 
@@ -70,6 +72,7 @@ You will find every big company these days offering AI support. Should you use t
 Remember, AI is a tool. Not a complete product.
 
 ## Section 2 - The mid stages ,Or, How can I make sure I make my best “AI”?
+
 ### Focus
 Being an AI startup, you have a lot of things to look out for. Some of the main focus points to keep in mind are as follows.
 - Clear goals of what you want to achieve
@@ -91,6 +94,7 @@ Of course, the usual requirements of making an interface, servers, etc still sta
 Budget and requirements play a key role here and are specific to your idea and scale.
 
 ## Section 3 - A word of caution How can I make sure my boat does not sink?
+
 ### Capacity
 Oh? So you made an AI model? Congratulations. Now you need to get your users on board. Regardless of if you have an app, a website, or a device, make sure you can estimate how many users you will have. AI models tend to take more resources than classical computer software. 
 Identify how long your model takes to get results. Will your users be fine with that? Do you need more resources to ensure faster outputs? Will they be able to reliably access your service?

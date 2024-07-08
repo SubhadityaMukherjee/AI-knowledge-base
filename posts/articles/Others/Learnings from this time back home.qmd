@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Learnings from this time back home
 
 categories: ["article"]

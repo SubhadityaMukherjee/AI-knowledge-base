@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Hausdorff Distance
 
 categories: ['distance']

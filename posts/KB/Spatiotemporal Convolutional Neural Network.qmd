@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Spatiotemporal Convolutional Neural Network
 categories: ['ssl']
 ---

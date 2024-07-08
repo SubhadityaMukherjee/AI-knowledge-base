@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Additive Attention
 
 categories: ['architecture']

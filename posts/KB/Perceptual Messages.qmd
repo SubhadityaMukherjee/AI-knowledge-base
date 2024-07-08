@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Perceptual Messages
 categories: ['robotics']
 ---

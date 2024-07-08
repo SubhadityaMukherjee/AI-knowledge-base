@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Trajectory Plotting with PCA
 
 categories: ['explainability']

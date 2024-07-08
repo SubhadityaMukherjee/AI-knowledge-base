@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Masked Language Modeling in BERT #scalar.html">Masked Language Modeling in BERT</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#masked-language-modelingmasked-language-modeling-in-bert-scalar" id="toc-masked-language-modelingmasked-language-modeling-in-bert-scalar" class="nav-link active" data-scroll-target="#masked-language-modelingmasked-language-modeling-in-bert-scalar">../../Masked Language Modeling|Masked Language Modeling in BERT #scalar</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#scope-of-the-article" id="toc-scope-of-the-article" class="nav-link" data-scroll-target="#scope-of-the-article">Scope of the Article</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12459,7 +12470,31 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="quick-recap" class="level2">
 <h2 class="anchored" data-anchor-id="quick-recap">Quick Recap</h2>
-<p>This section gives a small recap of all the important concepts we need to understand the code. ### Tokens Tokens can be considered parts of a sentence that contribute to understanding. A sentence such as “I am Jane Austen” can have the tokens <code>["I", "am", "Jane", "Austen"]</code>. As a computer does not understand words, we need to convert these to numerical values. To do so, we give each word a unique ID. Something like <code>[100, 101, 102, 103]</code> etc. ### Attention One of the most important concepts in Machine learning today, attention mechanisms give models the power to decide where to look in an input. Compared to CNNs, this makes models such as Transformers perform much better as it simultaneously learns which parts of the input would be better along with what the input could be classified. ### Transformers Transformers are a large family of models that employ different variants of attention mechanisms. They first started in NLP but have also branched out to computer vision due to their immense potential. They generally have an Encoder-Decoder architecture with multiple “heads”. Each head is responsible for its attention. ### BERT BERT is part of a sub-family of transformer architectures made for NLP and led to a sea of other new models that reached SOTA. It can be used in many different contexts, especially MLM, next-word prediction, question answering and many more. ### Transfer Learning A training paradigm that changed the DL world by allowing any researcher with limited resources to use SOTA models for inference and fine-tune them to their needs. A model like BERT requires Terabytes of data before it can be trained to extremely high levels. This level of computing is almost impossible for most people to have apart from companies with massive funding and resources. However, now we can use their trained models and make them work for our tasks. ### Stopwords Words that do not add much value to the model but are repeated enough times for it to become a problem. These are generally removed before modelling.</p>
+<p>This section gives a small recap of all the important concepts we need to understand the code.</p>
+<section id="tokens" class="level3">
+<h3 class="anchored" data-anchor-id="tokens">Tokens</h3>
+<p>Tokens can be considered parts of a sentence that contribute to understanding. A sentence such as “I am Jane Austen” can have the tokens <code>["I", "am", "Jane", "Austen"]</code>. As a computer does not understand words, we need to convert these to numerical values. To do so, we give each word a unique ID. Something like <code>[100, 101, 102, 103]</code> etc.</p>
+</section>
+<section id="attention" class="level3">
+<h3 class="anchored" data-anchor-id="attention">Attention</h3>
+<p>One of the most important concepts in Machine learning today, attention mechanisms give models the power to decide where to look in an input. Compared to CNNs, this makes models such as Transformers perform much better as it simultaneously learns which parts of the input would be better along with what the input could be classified.</p>
+</section>
+<section id="transformers" class="level3">
+<h3 class="anchored" data-anchor-id="transformers">Transformers</h3>
+<p>Transformers are a large family of models that employ different variants of attention mechanisms. They first started in NLP but have also branched out to computer vision due to their immense potential. They generally have an Encoder-Decoder architecture with multiple “heads”. Each head is responsible for its attention.</p>
+</section>
+<section id="bert" class="level3">
+<h3 class="anchored" data-anchor-id="bert">BERT</h3>
+<p>BERT is part of a sub-family of transformer architectures made for NLP and led to a sea of other new models that reached SOTA. It can be used in many different contexts, especially MLM, next-word prediction, question answering and many more.</p>
+</section>
+<section id="transfer-learning" class="level3">
+<h3 class="anchored" data-anchor-id="transfer-learning">Transfer Learning</h3>
+<p>A training paradigm that changed the DL world by allowing any researcher with limited resources to use SOTA models for inference and fine-tune them to their needs. A model like BERT requires Terabytes of data before it can be trained to extremely high levels. This level of computing is almost impossible for most people to have apart from companies with massive funding and resources. However, now we can use their trained models and make them work for our tasks.</p>
+</section>
+<section id="stopwords" class="level3">
+<h3 class="anchored" data-anchor-id="stopwords">Stopwords</h3>
+<p>Words that do not add much value to the model but are repeated enough times for it to become a problem. These are generally removed before modelling.</p>
+</section>
 </section>
 <section id="mlm-vs-clm-vs-word2vec" class="level2">
 <h2 class="anchored" data-anchor-id="mlm-vs-clm-vs-word2vec">MLM vs CLM vs Word2Vec</h2>
@@ -12467,11 +12502,30 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="libraries-we-need" class="level2">
 <h2 class="anchored" data-anchor-id="libraries-we-need">Libraries We Need</h2>
-<p>We need a few libraries to make this work. ### Tensorflow/Keras TF is one of the major DL libraries in Python. We will be using it for training our model. ### Hugging Face Transformers This library is one of the recent developments in the open-source community. It is a database of trained models and datasets that can be directly used in any codebase. They have thousands of tasks, making it extremely easy to get results fast. We will use their pre-trained BERT model. ### NLTK A text processing library that we will use to clean up our text before passing it to the model. ### Seaborn/Matplotlib These libraries are used for plotting our training performance.</p>
+<p>We need a few libraries to make this work.</p>
+<section id="tensorflowkeras" class="level3">
+<h3 class="anchored" data-anchor-id="tensorflowkeras">Tensorflow/Keras</h3>
+<p>TF is one of the major DL libraries in Python. We will be using it for training our model.</p>
+</section>
+<section id="hugging-face-transformers" class="level3">
+<h3 class="anchored" data-anchor-id="hugging-face-transformers">Hugging Face Transformers</h3>
+<p>This library is one of the recent developments in the open-source community. It is a database of trained models and datasets that can be directly used in any codebase. They have thousands of tasks, making it extremely easy to get results fast. We will use their pre-trained BERT model.</p>
+</section>
+<section id="nltk" class="level3">
+<h3 class="anchored" data-anchor-id="nltk">NLTK</h3>
+<p>A text processing library that we will use to clean up our text before passing it to the model.</p>
+</section>
+<section id="seabornmatplotlib" class="level3">
+<h3 class="anchored" data-anchor-id="seabornmatplotlib">Seaborn/Matplotlib</h3>
+<p>These libraries are used for plotting our training performance.</p>
+</section>
 </section>
 <section id="implementation" class="level2">
 <h2 class="anchored" data-anchor-id="implementation">Implementation</h2>
-<p>Now for the code. ### Imports We first import all the required packages. We also download the stopwords and punctuation data from nltk.</p>
+<p>Now for the code.</p>
+<section id="imports" class="level3">
+<h3 class="anchored" data-anchor-id="imports">Imports</h3>
+<p>We first import all the required packages. We also download the stopwords and punctuation data from nltk.</p>
 <p>“`python import nltk<br>
 nltk.download(‘stopwords’)<br>
 nltk.download(‘punkt’) nltk.download(‘gutenberg’) import string from nltk.corpus import stopwords import seaborn as sns</p>
@@ -12487,6 +12541,7 @@ nltk.download('gutenberg')
 <p>We then pre-process the data by removing stopwords and punctuation and converting the words into tokens BERT needs. Since every Transformer model has their configuration of tokens in the pre-trained model, we will use the tokenizer that Hugging face provides us.</p>
 <p>(Note: Here, we only take the first 1000 lines from the text. Language models take a long time to train; this is just a demo. If we have GPUs, the entire data can be used.) “`Python tokenizer = BertTokenizer.from_pretrained(‘bert-base-uncased’)</p>
 <p>sw = stopwords.words(‘english’) # this is a list of stopwords</p>
+</section>
 </section>
 <section id="take-first-1000-sentences-for-demo-purposes" class="level1">
 <h1>Take first 1000 sentences for demo purposes</h1>
@@ -12579,7 +12634,7 @@ Emma [MASK] a girl who wanted a [MASK] -&gt; ['was', 'chance']</code></pre>
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

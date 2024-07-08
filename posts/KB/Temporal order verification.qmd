@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Temporal order verification
 categories: ['ssl']
 ---

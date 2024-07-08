@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Local-LDA Object Representation
 categories: ['robotics']
 ---

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Whos Thinking, A push for human centered evaluation of LLMs
 
 categories: ['explainability']

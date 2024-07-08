@@ -1,4 +1,5 @@
 ---
+toc: true
 title: memory trace
 
 categories: ['cogneuro']

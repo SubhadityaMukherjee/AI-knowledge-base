@@ -1,4 +1,5 @@
 ---
+toc: true
 title: DALL·E 2
 categories: ['architecture']
 ---

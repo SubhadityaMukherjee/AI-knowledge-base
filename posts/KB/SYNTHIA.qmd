@@ -1,4 +1,5 @@
 ---
+toc: true
 title: SYNTHIA
 
 categories: ['dataset']

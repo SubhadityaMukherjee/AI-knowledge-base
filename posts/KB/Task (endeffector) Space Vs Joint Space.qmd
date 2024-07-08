@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Task (endeffector) Space Vs. Joint Space
 categories: ['robotics']
 ---

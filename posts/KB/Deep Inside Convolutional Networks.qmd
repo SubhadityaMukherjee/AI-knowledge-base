@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Deep Inside Convolutional Networks
 
 categories: ['explainability']
@@ -16,6 +17,7 @@ date created: Friday, November 18th 2022, 1:28:08 pm
 - $$arg \underset{I}max S_{c}(I) - \lambda||I||^{2}_{2}$$
 - Where $\lambda$ is a regularisation parameter
 - To find the value of I, we can use the back-propagation method. Unlike in the standard learning process, we are going to back-propagate with respect to the input image, not the first convolution layer
+
 ## From class visualization to Saliency 
 - This idea can be extrapolated, and with minor modifications, we should be able to query for spatial support of class ccc in a given image I0I\_0I0​.
 - rank pixels of $I_{0}$​ in relation to their importance in predicting score $S_{c}(I_{0})$

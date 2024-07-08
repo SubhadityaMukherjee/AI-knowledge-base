@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Variation in Dissimilarity Variation in Dissimilarity
 
 categories: ['explainabilityadversarial']

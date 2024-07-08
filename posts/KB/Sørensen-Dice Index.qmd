@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Sørensen-Dice Index
 
 categories: ['distance']

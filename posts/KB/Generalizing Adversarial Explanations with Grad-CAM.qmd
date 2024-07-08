@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Generalizing Adversarial Explanations with Grad-CAM
 
 categories: ['explainabilityexplainabilityadversarial']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Individual Modeling
 
 categories: ['usermodel']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Even angels need the rules AI, roboethics, and the law
 
 categories: ['ethics']

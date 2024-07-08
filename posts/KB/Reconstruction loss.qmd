@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Reconstruction loss
 
 categories: ['loss']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Perception Component
 categories: ['robotics']
 ---

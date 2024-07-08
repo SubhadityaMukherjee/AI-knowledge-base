@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Learning L2 German Vocabulary Through Reading
 
 categories: ['usermodel']

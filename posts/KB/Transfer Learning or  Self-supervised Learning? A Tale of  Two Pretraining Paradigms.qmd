@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Transfer Learning or  Self-supervised Learning? A Tale of  Two Pretraining Paradigms
 
 categories: ['deeplearning']
@@ -20,6 +21,7 @@ date created: Monday 27th March 2023, Mon
 	3. nature
 	4. medical pictures areas.
 - Four different experimental setups 
+
 1. Effect of domain difference between source and target task
 2. Effect of amount of pretraining data
 3. Effect of class imbalance in source data

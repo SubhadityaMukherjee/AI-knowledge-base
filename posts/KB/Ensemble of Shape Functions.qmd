@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Ensemble of Shape Functions
 categories: ['robotics']
 date created: Friday, November 25th 2022, 12:05:56 pm

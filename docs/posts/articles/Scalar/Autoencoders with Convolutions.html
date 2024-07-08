@@ -105,7 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -122,23 +122,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -150,6 +146,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Autoencoders with Convolutions.html">Autoencoders with Convolutions</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -175,15 +174,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12466,7 +12464,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#autoencoders-with-convolutions" id="toc-autoencoders-with-convolutions" class="nav-link active" data-scroll-target="#autoencoders-with-convolutions">Autoencoders with Convolutions</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12500,19 +12511,67 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The architecture diagram of a convolutional autoencoder is shown below. [IMAGE {1} { arch } START SAMPLE] <img src="https://hackmd.io/_uploads/HkPKzNNqj.png" class="img-fluid" alt="arch"> [IMAGE {1} FINISH SAMPLE]</p>
 <section id="encoder-structure" class="level3">
 <h3 class="anchored" data-anchor-id="encoder-structure">Encoder Structure</h3>
-<p>The Encoder part of the network is to compress the input data and passes it to the Bottleneck layer. The compression creates a knowledge representation much smaller than the original input but has most of its features. This part of the network comprises blocks of convolutions followed by pooling layers that, in turn, further help to create a compressed data representation. The output of an ideal Encoder should be the same as the input but with a smaller size. The Encoder should be sensitive to the inputs to recreate it and not over-sensitive. Being over-sensitive would make the model memorize the inputs perfectly and then overfit the data. ### Bottleneck layer The Bottleneck is the most important layer of an Autoencoder. This module stores the compressed knowledge that is passed to the Decoder. The Bottleneck restricts information flow by only allowing important parts of the compressed representation to pass through to the Decoder. Doing so ensures that the input data has the maximum possible information extracted from it and the most useful correlations found. This part of the architecture is also a measure against overfitting as it prevents the network from memorizing the input data directly. Note that smaller bottlenecks lead to lesser overfitting (to an extent). ### Decoder Structure This part of the network is a “Decompressor” that attempts to recreate an image given its latent attributes. The Decoder gets the compressed information from the Bottleneck layer and then uses upsampling and convolutions to reconstruct it. The output generated by the Decoder is compared with the ground truth to quantify the network’s performance. ### Latent Space Structure The latent space of a network is the compressed representation it creates from an input dataset. This latent space usually has hundreds of dimensions and is hard to visualize directly. More complex neural networks have latent spaces so hard to visualize that they are generally referred to as black boxes. In a convolutional autoencoder, the better the representation of the data, the richer the latent space. The space structure here is a large matrix of tensors that encode the weights of layers of the network.</p>
+<p>The Encoder part of the network is to compress the input data and passes it to the Bottleneck layer. The compression creates a knowledge representation much smaller than the original input but has most of its features. This part of the network comprises blocks of convolutions followed by pooling layers that, in turn, further help to create a compressed data representation. The output of an ideal Encoder should be the same as the input but with a smaller size. The Encoder should be sensitive to the inputs to recreate it and not over-sensitive. Being over-sensitive would make the model memorize the inputs perfectly and then overfit the data.</p>
+</section>
+<section id="bottleneck-layer" class="level3">
+<h3 class="anchored" data-anchor-id="bottleneck-layer">Bottleneck layer</h3>
+<p>The Bottleneck is the most important layer of an Autoencoder. This module stores the compressed knowledge that is passed to the Decoder. The Bottleneck restricts information flow by only allowing important parts of the compressed representation to pass through to the Decoder. Doing so ensures that the input data has the maximum possible information extracted from it and the most useful correlations found. This part of the architecture is also a measure against overfitting as it prevents the network from memorizing the input data directly. Note that smaller bottlenecks lead to lesser overfitting (to an extent).</p>
+</section>
+<section id="decoder-structure" class="level3">
+<h3 class="anchored" data-anchor-id="decoder-structure">Decoder Structure</h3>
+<p>This part of the network is a “Decompressor” that attempts to recreate an image given its latent attributes. The Decoder gets the compressed information from the Bottleneck layer and then uses upsampling and convolutions to reconstruct it. The output generated by the Decoder is compared with the ground truth to quantify the network’s performance.</p>
+</section>
+<section id="latent-space-structure" class="level3">
+<h3 class="anchored" data-anchor-id="latent-space-structure">Latent Space Structure</h3>
+<p>The latent space of a network is the compressed representation it creates from an input dataset. This latent space usually has hundreds of dimensions and is hard to visualize directly. More complex neural networks have latent spaces so hard to visualize that they are generally referred to as black boxes. In a convolutional autoencoder, the better the representation of the data, the richer the latent space. The space structure here is a large matrix of tensors that encode the weights of layers of the network.</p>
 </section>
 </section>
 <section id="uses-of-autoencoder" class="level2">
 <h2 class="anchored" data-anchor-id="uses-of-autoencoder">Uses of Autoencoder</h2>
-<p>The Convolutional Autoencoder architecture is good for a lot of use cases. Some of these are explained below. ### Reducing Complexity The Encoder of the model works very well as a <a href="../../Dimensionality Reduction|dimensionality reduction.qmd">../../Dimensionality Reduction|dimensionality reduction</a> technique. For example, if we consider an image dataset, we can compress every image before feeding it to another model. This compression reduces the number of input values and thus makes the model less likely to be biased toward smaller details. The Autoencoder thus helps in improving the performance of a second model. ### Anomaly Detection An Autoencoder is generally used for reconstructing the base data using an Encoder-Bottleneck-Decoder architecture. Thus if the output reconstruction has a much larger error for a given sample, this sample could be an outlier. We can thus use the reconstruction error to find unusual data points in a dataset. ### Unsupervised Learning A convolutional Autoencoder’s information compression ability is a good start for an unsupervised learning problem. Using the Autoencoder as a <a href="../../Dimensionality Reduction|dimensionality reduction.qmd">../../Dimensionality Reduction|dimensionality reduction</a> technique allows the data to be clustered without any labels much more easily. This clustering may not be useful but can be a starting point for many other solutions. ## What is a CNN? A CNN is one of the foundation stones of Deep Learning that can take an input data sample and learn to recognize it given other such samples. A CNN generally comprises an input, multiple hidden layers, and an output. CNN’s are composed of individual neurons that respond to specific sets of stimuli and combine their responses to perform many tasks such as classification, clustering, segmentation, and others. CNNs are useful because they can understand spatial and temporal dependencies given large amounts of data by learning feature “filters”. Complex CNNs can model large amounts of data previously impossible for a computer to understand.</p>
+<p>The Convolutional Autoencoder architecture is good for a lot of use cases. Some of these are explained below.</p>
+<section id="reducing-complexity" class="level3">
+<h3 class="anchored" data-anchor-id="reducing-complexity">Reducing Complexity</h3>
+<p>The Encoder of the model works very well as a <a href="../../Dimensionality Reduction|dimensionality reduction.qmd">../../Dimensionality Reduction|dimensionality reduction</a> technique. For example, if we consider an image dataset, we can compress every image before feeding it to another model. This compression reduces the number of input values and thus makes the model less likely to be biased toward smaller details. The Autoencoder thus helps in improving the performance of a second model.</p>
+</section>
+<section id="anomaly-detection" class="level3">
+<h3 class="anchored" data-anchor-id="anomaly-detection">Anomaly Detection</h3>
+<p>An Autoencoder is generally used for reconstructing the base data using an Encoder-Bottleneck-Decoder architecture. Thus if the output reconstruction has a much larger error for a given sample, this sample could be an outlier. We can thus use the reconstruction error to find unusual data points in a dataset.</p>
+</section>
+<section id="unsupervised-learning" class="level3">
+<h3 class="anchored" data-anchor-id="unsupervised-learning">Unsupervised Learning</h3>
+<p>A convolutional Autoencoder’s information compression ability is a good start for an unsupervised learning problem. Using the Autoencoder as a <a href="../../Dimensionality Reduction|dimensionality reduction.qmd">../../Dimensionality Reduction|dimensionality reduction</a> technique allows the data to be clustered without any labels much more easily. This clustering may not be useful but can be a starting point for many other solutions.</p>
+</section>
+</section>
+<section id="what-is-a-cnn" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-cnn">What is a CNN?</h2>
+<p>A CNN is one of the foundation stones of Deep Learning that can take an input data sample and learn to recognize it given other such samples. A CNN generally comprises an input, multiple hidden layers, and an output. CNN’s are composed of individual neurons that respond to specific sets of stimuli and combine their responses to perform many tasks such as classification, clustering, segmentation, and others. CNNs are useful because they can understand spatial and temporal dependencies given large amounts of data by learning feature “filters”. Complex CNNs can model large amounts of data previously impossible for a computer to understand.</p>
 <p>A simple CNN is shown below. [IMAGE {2} { CNN } START SAMPLE] <img src="https://hackmd.io/_uploads/rkRRG4Eqj.jpg" class="img-fluid" alt="CNN"> [IMAGE {2} FINISH SAMPLE]</p>
-<p>This article elaborates on a CNN-based architecture called the convolutional Autoencoder. ## Implementation of an Autoencoder The Convolutional Autoencoder has a few hyper-parameters that must be tweaked before training. The section below discusses these hyper-parameters, the Reconstruction loss used, and the general implementation of the architecture of a simple convolutional Autoencoder.</p>
+<p>This article elaborates on a CNN-based architecture called the convolutional Autoencoder.</p>
+</section>
+<section id="implementation-of-an-autoencoder" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-of-an-autoencoder">Implementation of an Autoencoder</h2>
+<p>The Convolutional Autoencoder has a few hyper-parameters that must be tweaked before training. The section below discusses these hyper-parameters, the Reconstruction loss used, and the general implementation of the architecture of a simple convolutional Autoencoder.</p>
 <p>An example use case would be to re-create the <strong>MNIST</strong> dataset. The following image shows the input and output of an Autoencoder that was trained on such a task. The first row is the original input and the second row is the output of the Autoencoder. In this case, a perfect reconstruction is obtained. [IMAGE {3} { Example } START SAMPLE] <img src="https://hackmd.io/_uploads/r1XHQN4qs.png" class="img-fluid" alt="Example"> [IMAGE {3} FINISH SAMPLE]</p>
 <p>A complete demonstration of the code to re-create the MNIST dataset can be found on <a href="https://www.scaler.com/topics/reconstructing-the-mnist-images-using-an-autoencoder/">this link</a>.</p>
 <section id="code-size" class="level3">
 <h3 class="anchored" data-anchor-id="code-size">Code size</h3>
-<p>The code size is defined as how large the bottleneck layer is, consequently deciding to what extent the input data is compressed before being Decoded. The code size is the most important hyper-parameter to tune. ### Number of Layers The convolutional Autoencoder is similar to other types of networks in that the number of layers is a hyper-parameter. Note that increasing the number of layers increases the time to train a network. A higher model depth also increases inference time. ### Number of Nodes per Layer This hyper-parameter controls the weights per layer. As a general rule, the number of nodes decreases in the Encoder and increases in the Decoder. ### Reconstruction loss The loss function the convolutional Autoencoder is trained to minimize is called the reconstruction error. This loss function depends on the type of data we use. In the case of image-based data, the reconstruction loss can be either an MSE, an L1, or Binary Cross Entropy loss. ### Encoder The Encoder can be created with a stack of 2D Convolutions starting with a large size and slowly reducing in dimensions. Each of the convolutions is followed by a 2D Max-Pooling layer. The ReLU activation is used throughout. In Keras, the Encoder can look something like this.</p>
+<p>The code size is defined as how large the bottleneck layer is, consequently deciding to what extent the input data is compressed before being Decoded. The code size is the most important hyper-parameter to tune.</p>
+</section>
+<section id="number-of-layers" class="level3">
+<h3 class="anchored" data-anchor-id="number-of-layers">Number of Layers</h3>
+<p>The convolutional Autoencoder is similar to other types of networks in that the number of layers is a hyper-parameter. Note that increasing the number of layers increases the time to train a network. A higher model depth also increases inference time.</p>
+</section>
+<section id="number-of-nodes-per-layer" class="level3">
+<h3 class="anchored" data-anchor-id="number-of-nodes-per-layer">Number of Nodes per Layer</h3>
+<p>This hyper-parameter controls the weights per layer. As a general rule, the number of nodes decreases in the Encoder and increases in the Decoder.</p>
+</section>
+<section id="reconstruction-loss" class="level3">
+<h3 class="anchored" data-anchor-id="reconstruction-loss">Reconstruction loss</h3>
+<p>The loss function the convolutional Autoencoder is trained to minimize is called the reconstruction error. This loss function depends on the type of data we use. In the case of image-based data, the reconstruction loss can be either an MSE, an L1, or Binary Cross Entropy loss.</p>
+</section>
+<section id="encoder" class="level3">
+<h3 class="anchored" data-anchor-id="encoder">Encoder</h3>
+<p>The Encoder can be created with a stack of 2D Convolutions starting with a large size and slowly reducing in dimensions. Each of the convolutions is followed by a 2D Max-Pooling layer. The ReLU activation is used throughout. In Keras, the Encoder can look something like this.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> layers.Conv2D(<span class="dv">16</span>, (<span class="dv">3</span>, <span class="dv">3</span>), activation<span class="op">=</span><span class="st">'relu'</span>, padding<span class="op">=</span><span class="st">'same'</span>)(input_img)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> layers.MaxPooling2D((<span class="dv">2</span>, <span class="dv">2</span>), padding<span class="op">=</span><span class="st">'same'</span>)(x)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> layers.Conv2D(<span class="dv">8</span>, (<span class="dv">3</span>, <span class="dv">3</span>), activation<span class="op">=</span><span class="st">'relu'</span>, padding<span class="op">=</span><span class="st">'same'</span>)(x)</span>
@@ -12547,7 +12606,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

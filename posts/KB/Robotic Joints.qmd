@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Robotic Joints
 
 categories: ['robotics']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Tracking the Continuity of Language Comprehension Computer Mouse Trajectories Suggest Parallel Syntactic Processing
 
 categories: ['language']

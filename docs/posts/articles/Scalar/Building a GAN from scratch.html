@@ -134,7 +134,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -151,23 +151,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -179,6 +175,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/index.html">Scalar Academy Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Scalar/Building a GAN from scratch.html">Building a GAN from scratch</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -204,15 +203,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12495,7 +12493,20 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#building-a-gan-from-scratch" id="toc-building-a-gan-from-scratch" class="nav-link active" data-scroll-target="#building-a-gan-from-scratch">Building a GAN from scratch</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12522,7 +12533,11 @@ window.Quarto = {
 <p>[IMAGE {2} Face Generation START SAMPLE] <img src="https://hackmd.io/_uploads/Hk6FgLRdo.png" class="img-fluid" alt="Face Generation"> [IMAGE {2} FINISH SAMPLE]</p>
 <p>GANs have much bigger and more complex architectural pipelines than a standard Convolutional network. They generally have two major structures, the Generator and the Discriminator. These structures are Convolutional networks that we can substitute for other networks that perform similar functions.</p>
 <p>The training paradigm for GANs is called <strong>Adversarial Training</strong> and relies on an interplay between the Generator and the Discriminator.</p>
-<p>This article will look at what a Generative Adversarial Network is and its components. After we understand the parts, we will build our own GAN from scratch and train it on a dataset of handwritten images (MNIST). ## Architecture of a GAN One of the hardest parts of understanding how to make a Generative Adversarial Network is comprehending the architecture. GANs are very different from regular neural networks in that they are composed of two completely different neural networks - The Generator and the Discriminator.</p>
+<p>This article will look at what a Generative Adversarial Network is and its components. After we understand the parts, we will build our own GAN from scratch and train it on a dataset of handwritten images (MNIST).</p>
+</section>
+<section id="architecture-of-a-gan" class="level2">
+<h2 class="anchored" data-anchor-id="architecture-of-a-gan">Architecture of a GAN</h2>
+<p>One of the hardest parts of understanding how to make a Generative Adversarial Network is comprehending the architecture. GANs are very different from regular neural networks in that they are composed of two completely different neural networks - The Generator and the Discriminator.</p>
 <p>Consider the architecture diagram shown below. [IMAGE {3} Architecture Diagram START SAMPLE] <img src="https://hackmd.io/_uploads/SkB31LCui.jpg" class="img-fluid" alt="Architecture Diagram"> [IMAGE {3} FINISH SAMPLE]</p>
 <p>The first part of the architecture is the Generator, whose job is to create images realistic enough that the Discriminator cannot tell the difference between a fake image and a real one.</p>
 <p>[IMAGE {4} Generator And Discriminator START SAMPLE] <img src="https://hackmd.io/_uploads/SJJYWLC_j.jpg" class="img-fluid" alt="Generator And Discriminator"> [IMAGE {4} FINISH SAMPLE]</p>
@@ -12537,10 +12552,18 @@ window.Quarto = {
 </section>
 <section id="demystifying-the-loss-function" class="level2">
 <h2 class="anchored" data-anchor-id="demystifying-the-loss-function">Demystifying the loss function</h2>
-<p>Loss functions are an essential part of any neural network pipeline. Before we learn how to make a Generative Adversarial Network, we first need to understand the loss functions. ### Discriminator loss The Discriminator’s job is to classify the generated images into real or fake and return the probability that it is real. To do so, it needs to do extremely well at ensuring that the input it gets belongs to the real dataset. It should also ensure that if the input is fake, it is not classified as belonging to the real dataset. Mathematically, this can be understood as <strong>maximizing</strong> <span class="math inline">\(D(x)\)</span> and <strong>minimizing</strong> <span class="math inline">\(D(G(z))\)</span>.</p>
+<p>Loss functions are an essential part of any neural network pipeline. Before we learn how to make a Generative Adversarial Network, we first need to understand the loss functions.</p>
+<section id="discriminator-loss" class="level3">
+<h3 class="anchored" data-anchor-id="discriminator-loss">Discriminator loss</h3>
+<p>The Discriminator’s job is to classify the generated images into real or fake and return the probability that it is real. To do so, it needs to do extremely well at ensuring that the input it gets belongs to the real dataset. It should also ensure that if the input is fake, it is not classified as belonging to the real dataset. Mathematically, this can be understood as <strong>maximizing</strong> <span class="math inline">\(D(x)\)</span> and <strong>minimizing</strong> <span class="math inline">\(D(G(z))\)</span>.</p>
+</section>
 <section id="generator-loss" class="level3">
 <h3 class="anchored" data-anchor-id="generator-loss">Generator loss</h3>
-<p>The Generator is tasked with ensuring that the Discriminator is fooled. It can do so by creating realistic images that the Discriminator thinks are real. This process can be thought of as ensuring that the Discriminator classifies an image sampled from the fake dataset as belonging to the real one. Mathematically, this is formulated as <strong>maximizing</strong> <span class="math inline">\(D(G(z))\)</span>. Using this as the loss might lead to the network becoming extremely confident, even if it is wrong. To prevent this from happening, <span class="math inline">\(log(D(G(z)))\)</span> is used instead. ### Total loss There is no net loss that is used in practice. Still, while learning to make a Generative Adversarial Network, we must consider the total theoretical loss the network is trying to optimize. Training a Generative Adversarial Network is a game between two enemies (aka adversaries). In other words, this is a MinMax game where one party attempts to reduce the probability of the other winning. Both parties are simultaneously also trying to increase their chances of winning. Mathematically, this can be represented as <span class="math display">\[\underset{G}{min} \underset{D}{max} V(D,G) = \mathbb{E}_{x \sim p_{data}(x)}[log(D(x)] + \mathbb{E}_{z \sim p_{z}}[log(1 - D(G(z))]\]</span></p>
+<p>The Generator is tasked with ensuring that the Discriminator is fooled. It can do so by creating realistic images that the Discriminator thinks are real. This process can be thought of as ensuring that the Discriminator classifies an image sampled from the fake dataset as belonging to the real one. Mathematically, this is formulated as <strong>maximizing</strong> <span class="math inline">\(D(G(z))\)</span>. Using this as the loss might lead to the network becoming extremely confident, even if it is wrong. To prevent this from happening, <span class="math inline">\(log(D(G(z)))\)</span> is used instead.</p>
+</section>
+<section id="total-loss" class="level3">
+<h3 class="anchored" data-anchor-id="total-loss">Total loss</h3>
+<p>There is no net loss that is used in practice. Still, while learning to make a Generative Adversarial Network, we must consider the total theoretical loss the network is trying to optimize. Training a Generative Adversarial Network is a game between two enemies (aka adversaries). In other words, this is a MinMax game where one party attempts to reduce the probability of the other winning. Both parties are simultaneously also trying to increase their chances of winning. Mathematically, this can be represented as <span class="math display">\[\underset{G}{min} \underset{D}{max} V(D,G) = \mathbb{E}_{x \sim p_{data}(x)}[log(D(x)] + \mathbb{E}_{z \sim p_{z}}[log(1 - D(G(z))]\]</span></p>
 </section>
 <section id="heuristic-loss" class="level3">
 <h3 class="anchored" data-anchor-id="heuristic-loss">Heuristic loss</h3>
@@ -12597,7 +12620,10 @@ window.Quarto = {
 </section>
 <section id="networks" class="level2">
 <h2 class="anchored" data-anchor-id="networks">Networks</h2>
-<p>We now look at the network architecture to understand how to make a Generative Adversarial Network from scratch. ### Discriminator To create the Discriminator, we define a function that returns a model with the network defined. This function does not compile the model as we need to call it multiple times, and pre-compiling it will lead to issues when we do.</p>
+<p>We now look at the network architecture to understand how to make a Generative Adversarial Network from scratch.</p>
+<section id="discriminator-1" class="level3">
+<h3 class="anchored" data-anchor-id="discriminator-1">Discriminator</h3>
+<p>To create the Discriminator, we define a function that returns a model with the network defined. This function does not compile the model as we need to call it multiple times, and pre-compiling it will lead to issues when we do.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> build_discriminator():</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    disc_model <span class="op">=</span> Sequential()</span>
@@ -12611,6 +12637,7 @@ window.Quarto = {
 <span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    disc_img <span class="op">=</span> Input(shape<span class="op">=</span>input_shape)</span>
 <span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    validity <span class="op">=</span> disc_model(disc_img)</span>
 <span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> Model(disc_img, validity)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
 <section id="generator-1" class="level3">
 <h3 class="anchored" data-anchor-id="generator-1">Generator</h3>
 <p>The Generator is built similarly to the Discriminator. We define a custom function to create the Generator but do not compile it for now. The noise is also generated and passed through the network here.</p>
@@ -12761,7 +12788,7 @@ window.Quarto = {
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

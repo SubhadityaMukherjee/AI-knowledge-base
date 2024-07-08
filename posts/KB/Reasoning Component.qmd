@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Reasoning Component
 categories: ['robotics']
 ---

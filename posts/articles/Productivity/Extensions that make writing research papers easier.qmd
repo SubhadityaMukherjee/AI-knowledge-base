@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Extensions that make writing research papers easier
 
 categories: ["article"]
@@ -47,6 +48,7 @@ Similar to the previous one, this also lets you access paywalled articles by fin
 - Zotero/Mendeley Connector
 For anyone who reads a lot of research papers, managing them is probably the biggest headache. [Mendeley](https://www.mendeley.com/) and [Zotero](https://www.zotero.org/) are probably the most popular library managers. 
 While browsing the web, you might want to directly save any research paper you like to your computer. This plugin lets you do that with a single click. Both the programs have this installed by default, you just need to enable them from the application itself - [Zotero](https://www.zotero.org/download/connectors), [Mendeley](https://www.mendeley.com/reference-management/web-importer).
+
 ## Medium
 I admit most of you probably don’t write articles yourself. But if you do, I find these two plugins useful for extending what is possible here on Medium. 
 - Code medium
@@ -56,6 +58,7 @@ Adding proper code snippets is honestly such a pain on Medium. Maybe in time, th
 If you have noticed, not every article has a clickable table of contexts like this one. If you were to do it manually, you might need to look at the HTML source code, and do a lot of drama. Instead, this plugin just lets you add the TOC just as you would any other element. It does not auto-update though, so I would recommend leaving it for after you are done with your article. 
 It is also sadly not available for Firefox.
 	- [Chrome](https://chrome.google.com/webstore/detail/toc-medium/ppcdgggkanhfoghepgomkbbnkggbiecn) , Firefox(Not there)
+
 ## Honorable Mentions
 Some of these are not exactly extensions, but I think they deserve to be mentioned anyway.
 - My Text Cleanup Script

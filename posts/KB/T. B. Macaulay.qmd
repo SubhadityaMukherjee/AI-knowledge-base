@@ -1,4 +1,5 @@
 ---
+toc: true
 title: T. B. Macaulay
 tags:
   - indianhistory

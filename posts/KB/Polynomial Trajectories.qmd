@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Polynomial Trajectories
 categories: ['robotics']
 ---

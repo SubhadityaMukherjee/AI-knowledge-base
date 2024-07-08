@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Bag of n-grams
 
 categories: ['nlp']

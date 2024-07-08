@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Diffusion LM
 
 categories: ['architecture']

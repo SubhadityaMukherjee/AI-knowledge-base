@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Differences between Discriminative and Generative models
 
 categories: ["article"]
@@ -14,6 +15,7 @@ date created:
 Machine learning models can be broadly classified into discriminative and generative. Discriminative models, such as logistic regression, support vector machines, and decision [../../Trees|trees], learn to model boundaries around classes in a dataset and estimate the conditional probability of the target variable given the data. On the other hand, generative models, such as latent Dirichlet allocation, Bayesian networks, and hidden Markov models, create new data points by estimating the joint probability distribution of the data and the target variable. Generative models are often used for unsupervised tasks, such as topic modelling and [../../Dimensionality Reduction|dimensionality reduction](../../Trees|trees], learn to model boundaries around classes in a dataset and estimate the conditional probability of the target variable given the data. On the other hand, generative models, such as latent Dirichlet allocation, Bayesian networks, and hidden Markov models, create new data points by estimating the joint probability distribution of the data and the target variable. Generative models are often used for unsupervised tasks, such as topic modelling and [../../Dimensionality Reduction|dimensionality reduction.qmd), while discriminative models are more commonly used for classification and regression.
 :::
 :::section{.scope}
+
 ## Scope
 - The article introduces the concept of discriminative and generative models in the context of machine learning.
 - The article explains the differences between these two models and how they approach tasks differently.
@@ -23,6 +25,7 @@ Machine learning models can be broadly classified into discriminative and genera
 
 :::
 :::section{.main}
+
 ## Introduction
 Various Machine Learning models have been proposed over the years, each for different tasks. A broad categorization of these models is to classify them into Generative and Discriminative models. Discriminative models estimate the conditional probability, while Generative models estimate the joint probability distribution. This article will examine the difference between Generative and Discriminative models. We will also introduce several commonly used ML models and categorize them into these two groups.
 

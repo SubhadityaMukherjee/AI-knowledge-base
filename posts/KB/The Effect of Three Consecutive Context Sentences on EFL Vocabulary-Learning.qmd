@@ -1,4 +1,5 @@
 ---
+toc: true
 title: The Effect of Three Consecutive Context Sentences on EFL Vocabulary-Learning
 
 categories: ['usermodel']

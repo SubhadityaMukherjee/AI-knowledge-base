@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Implicitly learning when to be ready - From instances to categories.html">Implicitly learning when to be ready - From instances to categories</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#implicitly-learning-when-to-be-ready---from-instances-to-categories" id="toc-implicitly-learning-when-to-be-ready---from-instances-to-categories" class="nav-link active" data-scroll-target="#implicitly-learning-when-to-be-ready---from-instances-to-categories">Implicitly learning when to be ready - From instances to categories</a>
+  <ul class="collapse">
+  <li><a href="#preparation-across-phases" id="toc-preparation-across-phases" class="nav-link" data-scroll-target="#preparation-across-phases">Preparation across phases</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#time-course-of-differential-preparation" id="toc-time-course-of-differential-preparation" class="nav-link" data-scroll-target="#time-course-of-differential-preparation">Time course of differential preparation</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12453,28 +12466,46 @@ ul.task-list li input[type="checkbox"] {
 <li><p>differential preparation to never-before seen images of either category, without being aware of the predictive nature of these categories</p></li>
 <li><p>continued doing so in a subsequent Transfer phase, after they had been informed that these contingencies no longer held</p></li>
 <li><p>rolling regression analysis revealed at a fine timescale how category-guided preparation gradually developed throughout the task</p></li>
-<li><p>explicit information about these contingencies only briefly disrupted memory-guided preparation ## Preparation across phases ## Results</p></li>
-<li><p>the RT-FP curve, separately for the different S1 types during the Acquisition and Transfer phase</p></li>
-<li><p>this curve is flatter for trials paired with S1E types than S1A types in both phases, indicating that the categories yielded differential preparation</p></li>
-<li><p>significant FP × Phase interaction</p></li>
-<li><p>suggesting that there was a steeper RTFP slope during Acquisition than during Transfer</p></li>
-<li><p>evidence for a two-way S1 type × FP interaction</p></li>
-<li><p>but not for a three way S1 type × Phase × FP interaction</p></li>
-<li><p>different S1 types led to differential preparation in both phases</p></li>
-<li><p>biased distributions in the Acquisition phase gave rise to long-lasting effects on preparation, persisting after the bias was removed ## Time course of differential preparation</p></li>
-<li><p>participants might have gotten somewhat fatigued throughout each block, but that block breaks allowed them to largely recover to baseline</p></li>
-<li><p>the longer interruption between the Phases led to a more pronounced speeding up for the remaining two blocks</p></li>
-<li><p>overall temporal preparation remained largely consistent throughout the experiment</p></li>
-<li><p>the results with a shorter window of 40 trials highlight that the ‘dip’ in the S1 type × FP time course at the start of the Transfer phase was very shortlived</p></li>
-<li><p>The brevity of this effect could therefore explain why our earlier work, using block-wise analyses, consistently led us to conclude that this transition between phases had no noticeable effect on differential preparation ## Discussion</p></li>
-<li><p>Our findings raise the possibility that participants in that study might have demonstrated similar memoryguided preparation even if they would have been unaware of the image-FP pairings</p></li>
-<li><p>complex interplay between implicit associative guidance and guidance by explicit awareness</p></li>
-<li><p>Nevertheless, differential preparation was robust once acquired, persisting well into the Transfer phase despite the change in underlying FP distributions</p></li>
-<li><p>longer Transfer phases, we similarly observed that the S1 type × FP interaction barely attenuated across Transfer blocks</p></li>
-<li><p>The gradual acquisition of differential preparation and its longevity throughout the Transfer phase illustrate how temporal preparation is affected by long-term memory and sluggishly adapts to changing environmental statistics</p></li>
-<li><p>Many probability-driven models characterize preparation as guided by static representations of the current FP distribution (Janssen &amp; Shadlen, 2005; Grabenhorst et al., 2019; Trillenberg et al., 2000; Vangkilde et al., 2013), foregoing the role of memory and learning</p></li>
-<li><p>Transfer effects like those in the present study illustrate the need for a flexible basis for preparation, subject to learning and updating</p></li>
+<li><p>explicit information about these contingencies only briefly disrupted memory-guided preparation</p></li>
 </ul>
+<section id="preparation-across-phases" class="level2">
+<h2 class="anchored" data-anchor-id="preparation-across-phases">Preparation across phases</h2>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<ul>
+<li>the RT-FP curve, separately for the different S1 types during the Acquisition and Transfer phase</li>
+<li>this curve is flatter for trials paired with S1E types than S1A types in both phases, indicating that the categories yielded differential preparation</li>
+<li>significant FP × Phase interaction</li>
+<li>suggesting that there was a steeper RTFP slope during Acquisition than during Transfer</li>
+<li>evidence for a two-way S1 type × FP interaction</li>
+<li>but not for a three way S1 type × Phase × FP interaction</li>
+<li>different S1 types led to differential preparation in both phases</li>
+<li>biased distributions in the Acquisition phase gave rise to long-lasting effects on preparation, persisting after the bias was removed</li>
+</ul>
+</section>
+<section id="time-course-of-differential-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="time-course-of-differential-preparation">Time course of differential preparation</h2>
+<ul>
+<li>participants might have gotten somewhat fatigued throughout each block, but that block breaks allowed them to largely recover to baseline</li>
+<li>the longer interruption between the Phases led to a more pronounced speeding up for the remaining two blocks</li>
+<li>overall temporal preparation remained largely consistent throughout the experiment</li>
+<li>the results with a shorter window of 40 trials highlight that the ‘dip’ in the S1 type × FP time course at the start of the Transfer phase was very shortlived</li>
+<li>The brevity of this effect could therefore explain why our earlier work, using block-wise analyses, consistently led us to conclude that this transition between phases had no noticeable effect on differential preparation</li>
+</ul>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<ul>
+<li>Our findings raise the possibility that participants in that study might have demonstrated similar memoryguided preparation even if they would have been unaware of the image-FP pairings</li>
+<li>complex interplay between implicit associative guidance and guidance by explicit awareness</li>
+<li>Nevertheless, differential preparation was robust once acquired, persisting well into the Transfer phase despite the change in underlying FP distributions</li>
+<li>longer Transfer phases, we similarly observed that the S1 type × FP interaction barely attenuated across Transfer blocks</li>
+<li>The gradual acquisition of differential preparation and its longevity throughout the Transfer phase illustrate how temporal preparation is affected by long-term memory and sluggishly adapts to changing environmental statistics</li>
+<li>Many probability-driven models characterize preparation as guided by static representations of the current FP distribution (Janssen &amp; Shadlen, 2005; Grabenhorst et al., 2019; Trillenberg et al., 2000; Vangkilde et al., 2013), foregoing the role of memory and learning</li>
+<li>Transfer effects like those in the present study illustrate the need for a flexible basis for preparation, subject to learning and updating</li>
+</ul>
+</section>
 <section id="images" class="level2">
 <h2 class="anchored" data-anchor-id="images">Images</h2>
 <ul>
@@ -12502,7 +12533,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

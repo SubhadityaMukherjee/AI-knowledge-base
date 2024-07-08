@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Jaccard Distance
 
 categories: ['distance']

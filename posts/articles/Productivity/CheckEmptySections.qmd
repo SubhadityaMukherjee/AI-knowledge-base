@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: CheckEmptySections
 
 categories: ["article"]

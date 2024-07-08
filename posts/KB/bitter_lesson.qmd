@@ -1,4 +1,5 @@
 ---
+toc: true
 title: bitter_lesson
 tags:
   - deeplearning

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Leaky Relu
 categories: ['regularize']
 date modified: Tuesday, January 24th 2023, 8:31:13 pm

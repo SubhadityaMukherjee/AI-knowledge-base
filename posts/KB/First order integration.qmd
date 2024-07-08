@@ -1,4 +1,5 @@
 ---
+toc: true
 title: First order integration
 
 categories: ['visualization']

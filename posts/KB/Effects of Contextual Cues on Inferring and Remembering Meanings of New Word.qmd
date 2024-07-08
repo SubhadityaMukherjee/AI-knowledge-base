@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Effects of Contextual Cues on Inferring and Remembering Meanings of New Word
 
 categories: ['usermodel']

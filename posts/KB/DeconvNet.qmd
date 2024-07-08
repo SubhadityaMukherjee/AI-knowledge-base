@@ -1,4 +1,5 @@
 ---
+toc: true
 title: DeconvNet
 
 categories: ['explainability']
@@ -29,11 +30,14 @@ date created: Wednesday, October 12th 2022, 4:17:49 pm
 - The employed mechanisms are deconvolution and unpooling, which are especially designed for CNNs with convolutions, max-pooling, and Rectified Linear Units (ReLUs). The method makes it possible to create feature maps of an input image that activates certain hidden units most, linked to a particular prediction
 - With their propagation technique, they identified the most responsible patterns for this output. The patterns are visualized in the input space
 - DeconvNet is limited to max-pooling layers, but the unpooling uses an approximate inverse
+
 ## Filtering 
 - Filtering in the original CNN computes feature maps using learned filters. Reversing that operation requires the use of a transposed version of the same filters. Those transposed filters are then applied to the Rectified Unpooled Maps.
+
 ## Rectification 
 - same ReLU non-linearity
 - simply just rectifying the values and propagate only non-negative ones to the filtering layer
+
 ## Unpooling 
 - The original max-pooling operation is non-invertible, but this approach uses additional variables called switch variables, which are responsible for remembering the locations of the maxima for each pooling region.
 

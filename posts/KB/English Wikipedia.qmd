@@ -1,4 +1,5 @@
 ---
+toc: true
 title: English Wikipedia
 
 categories: ['dataset']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Pathlines
 
 categories: ['visualization']

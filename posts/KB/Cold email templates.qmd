@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Cold email templates
 
 categories: ['jobs']

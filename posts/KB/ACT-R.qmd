@@ -1,4 +1,5 @@
 ---
+toc: true
 title: ACT-R
 
 categories: ['cognitivemodel']

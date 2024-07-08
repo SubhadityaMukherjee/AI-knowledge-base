@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Seq2Seq
 categories: ['architecture']
 date modified: Monday, October 10th 2022, 2:02:17 pm

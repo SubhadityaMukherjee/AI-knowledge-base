@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Line Integral Convolution
 
 categories: ['visualization']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Direct entropy minimization
 
 categories: ['temp']

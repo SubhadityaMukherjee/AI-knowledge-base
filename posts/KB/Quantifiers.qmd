@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Quantifiers
 categories: ['language']
 date modified: Thursday, November 3rd 2022, 11:32:45 am

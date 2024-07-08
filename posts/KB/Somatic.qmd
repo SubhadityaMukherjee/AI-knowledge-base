@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Somatic
 
 categories: ['neuroscience']

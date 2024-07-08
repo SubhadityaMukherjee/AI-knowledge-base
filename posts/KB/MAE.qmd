@@ -1,4 +1,5 @@
 ---
+toc: true
 title: MAE
 
 categories: ['loss']

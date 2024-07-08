@@ -1,4 +1,5 @@
 ---
+toc: true
 title: S2ST
 
 categories: ['architecture']

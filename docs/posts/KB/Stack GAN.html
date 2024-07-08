@@ -100,7 +100,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -117,23 +117,19 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,6 +141,9 @@ window.Quarto = {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Stack GAN.html">Stack GAN</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -170,15 +169,14 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12461,7 +12459,25 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#stack-gan" id="toc-stack-gan" class="nav-link active" data-scroll-target="#stack-gan">Stack GAN</a>
+  <ul class="collapse">
+  <li><a href="#architecture" id="toc-architecture" class="nav-link" data-scroll-target="#architecture">Architecture</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#conditioning-augmentation" id="toc-conditioning-augmentation" class="nav-link" data-scroll-target="#conditioning-augmentation">Conditioning Augmentation</a></li>
+  <li><a href="#stage-i-gan" id="toc-stage-i-gan" class="nav-link" data-scroll-target="#stage-i-gan">Stage-I GAN</a></li>
+  <li><a href="#stage-ii-gan" id="toc-stage-ii-gan" class="nav-link" data-scroll-target="#stage-ii-gan">Stage-II GAN</a></li>
+  <li><a href="#model-architecture." id="toc-model-architecture." class="nav-link" data-scroll-target="#model-architecture.">Model Architecture.</a></li>
+  <li><a href="#datasets-and-evaluation-metrics-cub" id="toc-datasets-and-evaluation-metrics-cub" class="nav-link" data-scroll-target="#datasets-and-evaluation-metrics-cub">Datasets and evaluation metrics CUB</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12489,7 +12505,12 @@ window.Quarto = {
 </figure>
 </div></li>
 <li>256×256 photo-realistic images conditioned on text descriptions. sketch-refinement process.</li>
-<li>Conditioning Augmentation technique that encourages smoothness in the latent conditioning manifold. ## Introduction</li>
+<li>Conditioning Augmentation technique that encourages smoothness in the latent conditioning manifold.</li>
+</ul>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<ul>
 <li>Generating photo-realistic images from text is an important problem and has tremendous applications, including photo-editing, computer-aided design, etc</li>
 <li>very difficult to train GAN to generate high-resolution photo-realistic images from text descriptions</li>
 <li>Simply adding more upsampling layers in state-ofthe-art GAN models for generating high-resolution (e.g., 256×256) images generally results in training instability</li>
@@ -12512,36 +12533,46 @@ window.Quarto = {
 <section id="stage-i-gan" class="level2">
 <h2 class="anchored" data-anchor-id="stage-i-gan">Stage-I GAN</h2>
 <ul>
-<li><p><span class="math inline">\(\varphi_{t}\)</span> be the text embedding of the given description</p></li>
-<li><p>The Gaussian conditioning variables <span class="math inline">\(\hat c_{0}\)</span> for text embedding are sampled from N(μ0(φt),Ʃ0(φt)) to capture the meaning of <span class="math inline">\(\varphi_{t}\)</span> with variations</p></li>
-<li><p>Conditioned on cˆ0 and random variable z, Stage-I GAN trains the discriminator D0 and the generator G0 by alternatively maximizing <span class="math inline">\(\mathcal{L}_{D_{0}}\)</span> in Eq. (3) and minimizing <span class="math inline">\(\mathcal{L}_{G_{0}}\)</span></p></li>
-<li><p><span class="math display">\[\mathcal{L}_{D_{0}} = \mathbb{E}_{(I_{0},t)\sim p_{data}}[log D_{0}(I_{0}, \varphi_{t})]+\mathbb{E}_{z \sim p_{z}, t \sim p_{data}}[log(1- D_{0}(G_{0}(z , \hat{c_{0}}, \varphi_{t})))]\]</span></p></li>
-<li><p><span class="math display">\[\mathcal{L}_{G_{0}}= \mathbb{E}_{z \sim p_{z}, t \sim p_{data}}[log(1- D_{0}(G_{0}(z, \hat{c_{0}}),\varphi_{t}))] + \lambda D_{KL}(\mathcal{N}(\mu_{0}(\varphi_{t}), \Sigma_{0}(\varphi_{t}))|| \mathcal{N}(0, I))\]</span></p></li>
-<li><p>where the real image I0 and the text description t are from the true data distribution pdata</p></li>
-<li><p>z is a noise vector randomly sampled from a given distribution pz (Gaussian distribution in this paper</p></li>
-<li><p>λ is a <a href="regularization.qmd">regularization</a> parameter that balances the two terms</p></li>
-<li><p>λ = 1 for all the exps.</p></li>
-<li><p>both <span class="math inline">\(\mu_{0}(\varphi_{t})\)</span> and <span class="math inline">\(\Sigma_{0}(\varphi_{t})\)</span> are learned jointly with the rest of the network.</p></li>
-<li><p>For the generator G0, to obtain text conditioning variable cˆ0, the text embedding φt is first fed into a fully connected layer to generate μ0 and σ0 (σ0 are the values in the diagonal of Ʃ0) for the Gaussian distribution N(μ0(φt),Ʃ0(φt)</p></li>
-<li><p>ˆ0 are then sampled from the Gaussian distribution cˆ = μ +σ ⊙ε</p></li>
-<li><p>trained by alternatively maximizing LD in Eq. (5) and minimizing LG in Eq. (6),</p></li>
-<li><p>concatenated with a Nz dimensional noise vector to generate a W0 × H0 image by a series of up-sampling blocks</p></li>
-<li><p>the text embedding φt is first compressed to Nd dimensions using a fully-connected layer</p></li>
-<li><p>and then spatially replicated to form a Md × Md × Nd tensor.</p></li>
-<li><p>the image is fed through a series of down-sampling blocks until it has Md × Md spatial dimension</p></li>
-<li><p>Then, the image filter map is concatenated along the channel dimension with the text tensor</p></li>
-<li><p>The resulting tensor is further fed to a 1×1 convolutional layer to jointly learn features across the image and the text.</p></li>
-<li><p>Finally, a fullyconnected layer with one node is used to produce the decision score. ## Stage-II GAN</p></li>
-<li><p>Low-resolution images generated by Stage-I GAN usually lack vivid object parts and might contain shape distortions.</p></li>
-<li><p>is conditioned on low-resolution images and also the text embedding again to correct defects in Stage-I results</p></li>
-<li><p>The Stage-II GAN completes previously ignored text information to generate more photo-realistic details.</p></li>
-<li><p>Conditioning on the low-resolution result s0 = G0(z, cˆ0) and Gaussian latent variables cˆ</p></li>
-<li><p>Different from the original GAN formulation, the random noise z is not used in this stage with the assumption that the randomness has already been preserved by s0</p></li>
-<li><p>Gaussian conditioning variables cˆ used in this stage and cˆ0 used in Stage-I GAN share the same pre-trained text encoder, generating the same</p></li>
+<li><span class="math inline">\(\varphi_{t}\)</span> be the text embedding of the given description</li>
+<li>The Gaussian conditioning variables <span class="math inline">\(\hat c_{0}\)</span> for text embedding are sampled from N(μ0(φt),Ʃ0(φt)) to capture the meaning of <span class="math inline">\(\varphi_{t}\)</span> with variations</li>
+<li>Conditioned on cˆ0 and random variable z, Stage-I GAN trains the discriminator D0 and the generator G0 by alternatively maximizing <span class="math inline">\(\mathcal{L}_{D_{0}}\)</span> in Eq. (3) and minimizing <span class="math inline">\(\mathcal{L}_{G_{0}}\)</span></li>
+<li><span class="math display">\[\mathcal{L}_{D_{0}} = \mathbb{E}_{(I_{0},t)\sim p_{data}}[log D_{0}(I_{0}, \varphi_{t})]+\mathbb{E}_{z \sim p_{z}, t \sim p_{data}}[log(1- D_{0}(G_{0}(z , \hat{c_{0}}, \varphi_{t})))]\]</span></li>
+<li><span class="math display">\[\mathcal{L}_{G_{0}}= \mathbb{E}_{z \sim p_{z}, t \sim p_{data}}[log(1- D_{0}(G_{0}(z, \hat{c_{0}}),\varphi_{t}))] + \lambda D_{KL}(\mathcal{N}(\mu_{0}(\varphi_{t}), \Sigma_{0}(\varphi_{t}))|| \mathcal{N}(0, I))\]</span></li>
+<li>where the real image I0 and the text description t are from the true data distribution pdata</li>
+<li>z is a noise vector randomly sampled from a given distribution pz (Gaussian distribution in this paper</li>
+<li>λ is a <a href="regularization.qmd">regularization</a> parameter that balances the two terms</li>
+<li>λ = 1 for all the exps.</li>
+<li>both <span class="math inline">\(\mu_{0}(\varphi_{t})\)</span> and <span class="math inline">\(\Sigma_{0}(\varphi_{t})\)</span> are learned jointly with the rest of the network.</li>
+<li>For the generator G0, to obtain text conditioning variable cˆ0, the text embedding φt is first fed into a fully connected layer to generate μ0 and σ0 (σ0 are the values in the diagonal of Ʃ0) for the Gaussian distribution N(μ0(φt),Ʃ0(φt)</li>
+<li>ˆ0 are then sampled from the Gaussian distribution cˆ = μ +σ ⊙ε</li>
+<li>trained by alternatively maximizing LD in Eq. (5) and minimizing LG in Eq. (6),</li>
+<li>concatenated with a Nz dimensional noise vector to generate a W0 × H0 image by a series of up-sampling blocks</li>
+<li>the text embedding φt is first compressed to Nd dimensions using a fully-connected layer</li>
+<li>and then spatially replicated to form a Md × Md × Nd tensor.</li>
+<li>the image is fed through a series of down-sampling blocks until it has Md × Md spatial dimension</li>
+<li>Then, the image filter map is concatenated along the channel dimension with the text tensor</li>
+<li>The resulting tensor is further fed to a 1×1 convolutional layer to jointly learn features across the image and the text.</li>
+<li>Finally, a fullyconnected layer with one node is used to produce the decision score.</li>
+</ul>
+</section>
+<section id="stage-ii-gan" class="level2">
+<h2 class="anchored" data-anchor-id="stage-ii-gan">Stage-II GAN</h2>
+<ul>
+<li>Low-resolution images generated by Stage-I GAN usually lack vivid object parts and might contain shape distortions.</li>
+<li>is conditioned on low-resolution images and also the text embedding again to correct defects in Stage-I results</li>
+<li>The Stage-II GAN completes previously ignored text information to generate more photo-realistic details.</li>
+<li>Conditioning on the low-resolution result s0 = G0(z, cˆ0) and Gaussian latent variables cˆ</li>
+<li>Different from the original GAN formulation, the random noise z is not used in this stage with the assumption that the randomness has already been preserved by s0</li>
+<li>Gaussian conditioning variables cˆ used in this stage and cˆ0 used in Stage-I GAN share the same pre-trained text encoder, generating the same</li>
 <li></li>
-<li><p>text embedding φt.</p></li>
-<li><p>StageI and Stage-II Conditioning Augmentation have different fully connected layers for generating different means and standard deviations</p></li>
-<li><p>In this way, Stage-II GAN learns to capture useful information in the text embedding that is omitted by Stage-I GAN. ## Model Architecture.</p></li>
+<li>text embedding φt.</li>
+<li>StageI and Stage-II Conditioning Augmentation have different fully connected layers for generating different means and standard deviations</li>
+<li>In this way, Stage-II GAN learns to capture useful information in the text embedding that is omitted by Stage-I GAN.</li>
+</ul>
+</section>
+<section id="model-architecture." class="level2">
+<h2 class="anchored" data-anchor-id="model-architecture.">Model Architecture.</h2>
+<ul>
 <li><p>Stage-II generator as an encoder-decoder network with residual blocks</p></li>
 <li><p>text embedding φt is used to generate the Ng dimensional text conditioning vector cˆ</p></li>
 <li><p>spatially replicated to form a Mg ×Mg ×Ng tensor</p></li>
@@ -12563,15 +12594,20 @@ window.Quarto = {
 <li><p>Bydefault,Ng =128,Nz =100,Mg =16,Md =4, Nd = 128, W0 = H0 = 64 and W = H = 256</p></li>
 <li><p>For training, we first iteratively train D0 and G0 of Stage-I GAN for 600 epochs by fixing Stage-II GAN</p></li>
 <li><p>Then we iteratively train D and G of Stage-II GAN for another 600 epochs by fixing Stage-I GAN.</p></li>
-<li><p>All networks are trained using ADAM solver with batch size 64 and an initial learning rate of 0.0002. The learning rate is decayed to 1/2 of its previous value every 100 epochs. ## Datasets and evaluation metrics CUB</p></li>
-<li><p>Oxford-102</p></li>
-<li><p>MS COCO</p></li>
-<li><p>Evaluation metrics</p></li>
-<li><p>inception score</p></li>
-<li><p>I = exp(ExDKL(p(y|x) || p(y))),</p></li>
-<li><p>where x denotes one generated sample, and y is the label predicted by the Inception model</p></li>
-<li><p>he intuition behind this metric is that good models should generate diverse but meaningful images.</p></li>
-<li><p>Therefore, the KL divergence between the marginal distribution p(y) and the conditional distribution p(y|x) should be larg</p></li>
+<li><p>All networks are trained using ADAM solver with batch size 64 and an initial learning rate of 0.0002. The learning rate is decayed to 1/2 of its previous value every 100 epochs.</p></li>
+</ul>
+</section>
+<section id="datasets-and-evaluation-metrics-cub" class="level2">
+<h2 class="anchored" data-anchor-id="datasets-and-evaluation-metrics-cub">Datasets and evaluation metrics CUB</h2>
+<ul>
+<li>Oxford-102</li>
+<li>MS COCO</li>
+<li>Evaluation metrics</li>
+<li>inception score</li>
+<li>I = exp(ExDKL(p(y|x) || p(y))),</li>
+<li>where x denotes one generated sample, and y is the label predicted by the Inception model</li>
+<li>he intuition behind this metric is that good models should generate diverse but meaningful images.</li>
+<li>Therefore, the KL divergence between the marginal distribution p(y) and the conditional distribution p(y|x) should be larg</li>
 </ul>
 </section>
 <section id="conclusions" class="level2">
@@ -12588,7 +12624,7 @@ window.Quarto = {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

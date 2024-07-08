@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Easier Deep Learning Research for Beginners
 
 categories: ["article"]
@@ -117,6 +118,7 @@ The only things you need to know about it for now are :
 - Metrics give us somewhat precise values. Such as the grade in an exam. The “Accuracy”. Etc.
 - The other weird things that you see here are:
 	- cbs: [MixUp]. And to_fp16(). The first is to make sure that the network trains better, like the augmentations we spoke about. The second is an interesting paradigm that lets us train our models faster and with lower memory. More on that [here](https://keras.io/api/mixed_precision/). These are advanced topics. More on that later.
+
 ## Teaching our AI : Part 2
 Let the Neural network.. drumroll.. learn!
 ```py

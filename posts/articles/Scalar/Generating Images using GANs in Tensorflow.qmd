@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Generating Images using GANs in Tensorflow
 
 categories: ["article"]
@@ -22,10 +23,13 @@ This article explains using a Generative Adversarial Network (GAN) to generate n
 
 :::
 :::section{.main}
+
 ## What are we building?
 Creating novel images given an image dataset is one of the strengths of a specific branch of models called Generative Adversarial Networks (GAN). These networks specialize in unsupervised/semi-supervised image generation given any image data. 
 This article uses the GANs image generation ability to create novel handwritten digits. We perform this generation by training the network on a dataset of handwritten digits. We will create a simple GAN from scratch using the Tensorflow library, train it on the MNIST dataset and generate new images of handwritten digits. 
+
 ## Pre-requisites
+
 #### What are GANs
 GANs, or Generative Adversarial Networks, are a family of networks used for unsupervised image generation, converting between images to another, and many other applications. They are composed of two parts - a Generator and a Discriminator. The Generator creates novel images from random. The Discriminator attempts to prove that the images generated are fake. This game leads to a training approach dubbed "Adversarial Learning". This article focuses on implementing a GAN and its image-generation ability to create new handwritten digits.
 
@@ -242,6 +246,7 @@ def train(epochs, batch_size=128, sample_interval=50):
         if epoch % sample_interval == 0:
             one_batch(epoch)
 ```
+
 ### Generating handwritten digits
 Finally, we can generate handwritten digits from the MNIST dataset. To look at how far the network has trained the images, we create a helper function to store predictions from the Generator for a batch of images. This function creates random noise, passes them to the Generator, processes it for displaying and then saves it to a folder. We run this helper function every 200 epochs.
 

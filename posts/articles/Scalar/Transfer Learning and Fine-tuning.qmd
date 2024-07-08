@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Transfer Learning and Fine-tuning
 
 categories: ["article"]
@@ -9,10 +10,12 @@ date created:
 # Transfer Learning and Fine-tuning
 
 :::section{.abstract}
+
 ## Overview
 Training deep learning models requires a massive amount of labeled data. In most cases, this data needs to be made available or easier to clean up. Many approaches for working with limited data sets have been created over the years, **Transfer Learning** being one of the breakthroughs. Transfer learning enables us to **fine-tune** a model pre-trained on a large dataset on our task. 
 :::
 :::section{.scope}
+
 ## Scope
 - This article explains the principles behind **Transfer Learning**.
 - It covers the method of **fine-tuning** using a pre-trained model.
@@ -24,6 +27,7 @@ Training deep learning models requires a massive amount of labeled data. In most
 ## Introduction
 Transfer Learning is useful for smaller datasets and can be considered an intelligent weight [initialization](../../Initialization.md) scheme. Instead of randomly initializing the weights of the model like we usually do, we obtain weights from a model trained on a larger dataset. Any company/individual with the funds can train a larger model and make its weights public. After doing so, we can train these models on any other similar dataset much faster than before. 
 This article explores the concept of Transfer Learning by creating a network that can identify ten different classes from the **CIFAR10** dataset by fine-tuning a model pre-trained on the **ImageNet** dataset (1000 classes). 
+
 ## Transfer Learning
 In a DL pipeline, Transfer Learning is usually done when the data available is too less to train a network properly. The general approach for a Transfer Learning workflow is as follows.
 - Obtain a pre-trained model on data similar to your current dataset. For example, many models are pre-trained on the **ImageNet** dataset in computer vision approaches. Since the ImageNet dataset has classes relating to real-life objects and things, models pre-trained on it already have some knowledge of the world.
@@ -34,6 +38,7 @@ In a DL pipeline, Transfer Learning is usually done when the data available is t
 
 ## Implementation
 This article will explore how to take a model trained on ImageNet and fine-tune it on new data. We will create this implementation in Tensorflow and use the [Cats and Dogs dataset](https://www.kaggle.com/c/dogs-vs-cats) from Kaggle.
+
 ### Pre-Requisites.
 Before we can fine-tune a model, we must decide what base model we need. We also need to load and preprocess the dataset. Since Transfer Learning is generally used for small datasets, we take a subset of the Cats and Dogs dataset for this example.
 
@@ -48,6 +53,7 @@ import tensorflow_datasets as tfds
 import os
 import zipfile
 ``` 
+
 #### Loading the Data
 Since the Cats and Dogs dataset is not a part of Tensorflow, we download it from Kaggle and then use the **tensorflow_datasets** library to load it into memory.
 After loading, we split the data into train and test while also sub-setting it.

@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Productivity/CheckEmptySections.html">Productivity</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Productivity/Pomodoro - A means but not the end.html">Pomodoro - A means but not the end</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#pomodoro-a-means-but-not-the-end" id="toc-pomodoro-a-means-but-not-the-end" class="nav-link active" data-scroll-target="#pomodoro-a-means-but-not-the-end">Pomodoro : A Means but not the End</a>
+  <ul class="collapse">
+  <li><a href="#a-definition" id="toc-a-definition" class="nav-link" data-scroll-target="#a-definition">A definition</a></li>
+  <li><a href="#why-does-it-fail" id="toc-why-does-it-fail" class="nav-link" data-scroll-target="#why-does-it-fail">Why does it fail</a></li>
+  <li><a href="#redefining-our-objective" id="toc-redefining-our-objective" class="nav-link" data-scroll-target="#redefining-our-objective">Redefining our objective</a></li>
+  <li><a href="#how-i-use-it" id="toc-how-i-use-it" class="nav-link" data-scroll-target="#how-i-use-it">How I use it</a></li>
+  <li><a href="#fin" id="toc-fin" class="nav-link" data-scroll-target="#fin">Fin</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12455,7 +12468,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="redefining-our-objective" class="level2">
 <h2 class="anchored" data-anchor-id="redefining-our-objective">Redefining our objective</h2>
-<p>I believe that the common theme we face with using the Pomodoro, or honestly any other productivity technique is that we put too many expectations on it. At the end of the day, it’s just a tool. The ability to use a tool depends on who wields it. Our objective is not to work for long long hours. It is to focus, and get into an undistracted state where you are deeply concentrated on getting whatever you have to do, done. A “flow state” if you want to use a trendy term. Pomodoro can help there. But only if you let it. ## How I use it Indeed, that was a pretty long-winded introduction to something rather simple. I use it as a means to get started. I don’t think I have ever completed a “cycle” recently. But almost every time, it does help me set the tone for my work session of the day. As of writing this article, I had a Pomodoro of 30 minutes going. After that initial time, I think I spent about an hour more. I didn’t check on the timer then. I just sat down and finished my writing for the morning.</p>
+<p>I believe that the common theme we face with using the Pomodoro, or honestly any other productivity technique is that we put too many expectations on it. At the end of the day, it’s just a tool. The ability to use a tool depends on who wields it. Our objective is not to work for long long hours. It is to focus, and get into an undistracted state where you are deeply concentrated on getting whatever you have to do, done. A “flow state” if you want to use a trendy term. Pomodoro can help there. But only if you let it.</p>
+</section>
+<section id="how-i-use-it" class="level2">
+<h2 class="anchored" data-anchor-id="how-i-use-it">How I use it</h2>
+<p>Indeed, that was a pretty long-winded introduction to something rather simple. I use it as a means to get started. I don’t think I have ever completed a “cycle” recently. But almost every time, it does help me set the tone for my work session of the day. As of writing this article, I had a Pomodoro of 30 minutes going. After that initial time, I think I spent about an hour more. I didn’t check on the timer then. I just sat down and finished my writing for the morning.</p>
 <p>But, as it goes, this is not perfect. In time I have noticed a few factors that make or break my session. - Planning. If I don’t plan out my work for the day, and just get started, nothing I do works. I’m still too distracted even with the timer on. I like to block off times for work on a calendar and try my best to stick to them. - Changing the timings. A 30 - 5 - 30 … timing works for me when it comes to longer running tasks. Sometimes, a task I pick is more challenging and I end up adjusting the breaks to give me some more rest. - Breaks are subjective. There is no way for Pomodoro to know what you are working on. If the break comes when you are way too focused and working hard, skip it. Take it later though. Add them up. - Finding your productive times. To make use of the timer, try to find the general times in a day that you have more mental clarity and headspace. For me, it’s earlier in the day. And maybe a few hours in the evening. I do have to say that, these times aren’t fixed in stone. Pick what works for you. - Start with a completed task. I find the satisfaction of finishing something very motivating. I have noticed that if the first task you do in your work session is something you know for sure that you can complete, it does set the tone for the rest of the time. Try ordering your work that way. - Play around with the timings. With some experimentation, you will find one that works for you. - Don’t stick with it. Ironic, I know. Use it to start and then do what you need to.</p>
 </section>
 <section id="fin" class="level2">
@@ -12469,7 +12486,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

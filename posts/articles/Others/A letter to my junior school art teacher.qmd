@@ -1,4 +1,5 @@
 ---
+toc: true
 title: A letter to my junior school art teacher
 
 categories: ["article"]
@@ -21,7 +22,8 @@ You gave me a little pebble with a white horse painted on it. I still have it ba
 
 I started painting properly during the pandemic in 2019 when I found art videos online. It’s been a few years since then. But if I think back, I remember traces of me trying to draw all my life. I never did it properly though. I did not realize it was something that I could do. 
 
-It is almost the end of 2023 as I write this, I graduated with a masters degree in AI a few days ago. In my hunt for a job, I came across one that had the title of “Creative Technologist”. It was an entry to art! As I write this, I am waiting to know if they accepted me for the job. It will be my first one. 
+It is almost the end of 2023 as I write this, I graduated with a masters degree in AI a few days ago. In my hunt for a job, I came across one that had the toc: true
+title of “Creative Technologist”. It was an entry to art! As I write this, I am waiting to know if they accepted me for the job. It will be my first one. 
 
 While trying to find my way of art and thinking about the job, I suddenly remembered those days with you. And then I realized why I had stopped drawing. And… what made me fall in love with it in the first place. 
 

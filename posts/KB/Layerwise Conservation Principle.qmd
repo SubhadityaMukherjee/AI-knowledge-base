@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Layerwise Conservation Principle
 
 categories: ['explainabilityexplainability']

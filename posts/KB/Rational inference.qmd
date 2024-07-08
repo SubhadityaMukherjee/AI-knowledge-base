@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Rational inference
 
 categories: ['usermodel']

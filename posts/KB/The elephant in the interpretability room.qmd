@@ -1,4 +1,5 @@
 ---
+toc: true
 title: The elephant in the interpretability room
 
 categories: ['explainability']

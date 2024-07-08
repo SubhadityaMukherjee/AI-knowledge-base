@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Sparse Encoder Indexes
 categories: ['llm']
 date modified: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>

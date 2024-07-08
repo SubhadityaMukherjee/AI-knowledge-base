@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Elman 1990
 
 categories: ['languagepsychology']

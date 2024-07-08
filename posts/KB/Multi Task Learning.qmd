@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Multi Task Learning
 
 categories: ['multitask']

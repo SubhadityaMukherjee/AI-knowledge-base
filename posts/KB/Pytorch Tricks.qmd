@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Pytorch Tricks
 
 categories: ['library']

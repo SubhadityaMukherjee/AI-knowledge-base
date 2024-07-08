@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Predicting Student learning Curve
 
 categories: ['usermodellearning']

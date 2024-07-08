@@ -1,4 +1,5 @@
 ---
+toc: true
 title: ADHD + Autism - Challenges and hopeful workarounds
 
 categories: ["article"]
@@ -6,10 +7,12 @@ date modified:
 date created: 
 ---
 # ADHD + Autism - Challenges, possible reasons and hopeful workarounds
+
 ## Motivation
 Finally, a manual for why I am such a wreck and how to salvage it! (Kind of.)
 Think of this as a lab notebook. You can pick whichever chapter you want to read. This obscenely long post is intended to be an experience log of workarounds that I have found over the years that have worked, most times atleast and their possible reasons. It is not intended to be a “oh if I do XYZ I will be free of my head~” but more of “oh~~, maybe that’s why doing XYZ broke my brain! I should remember that.”.  I wrote down whatever I could (clearly hyper focusing on this now don’t judge me please) in the hopes that sharing my understanding helps you find your own. 
 Feel free to critique (politely thank you, don’t make me cry). But more importantly, feel free to start a discussion. I’m on a journey as well. I have too much left to learn. I would love to hear your stories too.
+
 ## Disclaimers
 - This is not scientifically backed but is purely anecdotal. 
 - I do “not” have my s**t together at all. Just because I wrote this huge article doesn’t mean all these points always work. Sometimes the Autism side of my head takes over and breaks down, sometimes the other. It’s a war, baby :)
@@ -20,7 +23,9 @@ Feel free to critique (politely thank you, don’t make me cry). But more import
 - I would love to have a discussion on these. Especially if you have more tips!!
 - Today is one of the good days. And I am writing this whole article in one go. I don’t have the courage to do it in parts.
 - I admit I do not have extreme symptoms. They ruin my life, but subtly sabotage it. I do not have any visible effects unless someone lives with me or sees me crying in the corner after my fourth breakdown when all I wanted to do was wash two plates so I could have lunch. My family does not know of my diagnosis. Some friends and my girlfriend do. My birth society would not accept me if they did. I am studying in a different country, so.. I have my privacy here. 
+
 ## Somewhat categorised - Choose your own adventure
+
 ### Time
 Time blindness affects every little part of my life. But I have come to some workarounds to help me with it. Turns out, our brains update their internal clocks by changes in the environment. That was an important realisation for me. The following points relate to that.
 - I used to listen to a lot of lofi music while working and always felt like time would stretch out to infinity. Well, turns out it does. Because it repeats, and doesn’t change enough. Now I actively try to switch up the music a bit.

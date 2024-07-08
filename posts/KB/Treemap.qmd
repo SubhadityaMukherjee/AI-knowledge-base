@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Treemap, Node Link, Stacking
 
 categories: ['visualization']

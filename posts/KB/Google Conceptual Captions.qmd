@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Google Conceptual Captions
 
 categories: ['dataset']

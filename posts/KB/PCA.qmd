@@ -1,5 +1,6 @@
 ---
 categories: ['temp']
+toc: true
 title: PCA
 date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
@@ -11,6 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - ![im](images/Pasted%20image%2020220312115438.png)
 
 ## Steps
+
 1. Center data (A)
 	- Subtract their mean from each pattern.
 	- $$\mu = \frac{1}{N}\Sigma_{i}x_{i}$$ and getting patterns $$\hat x_{i}=x_{i}-\mu$$

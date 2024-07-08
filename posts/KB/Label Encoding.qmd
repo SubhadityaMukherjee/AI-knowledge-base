@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Label Encoding
 
 categories: ['temp']

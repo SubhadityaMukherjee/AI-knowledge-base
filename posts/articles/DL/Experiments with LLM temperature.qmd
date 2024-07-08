@@ -87,8 +87,10 @@ plt.figure(figsize=(8, 6))
 sns.lineplot(data=data, x='x', y='softmax', hue='t', palette='viridis')
 plt.xlabel('x')
 plt.ylabel('softmax(x)')
-plt.title('Softmax Function for Different Values of t')
-plt.legend(title='t')
+plt.toc: true
+title('Softmax Function for Different Values of t')
+plt.legend(toc: true
+title='t')
 plt.show()
 ```
 
@@ -181,9 +183,12 @@ It is time to run the experiments and plot the results.
 We write a function to plot the results in a `stripplot` to see the distribution of the answers for different temperatures.
 
 ```python
-def plot_yes_no(df: pd.DataFrame, title:str) -> None:
+def plot_yes_no(df: pd.DataFrame, toc: true
+title:str) -> None:
     fig, axs = plt.subplots(2, 2, figsize=(15, 15))
-    fig.suptitle(title)
+    fig.suptoc: true
+title(toc: true
+title)
     sns.stripplot(data=df, x='size', y='temperature', ax=axs[0, 0], hue='size')
     sns.stripplot(data=df, x='sort_by_downloads', y='temperature', ax=axs[0, 1], hue='sort_by_downloads')
     sns.stripplot(data=df, x='missing_values', y='temperature', ax=axs[1, 0], hue='missing_values')
@@ -227,7 +232,8 @@ results1 = [y for y in x if all(sub not in y for sub in ["If", ":"])] for x in r
 ```python
 df = pd.DataFrame(results1, columns = ['size', 'sort_by_downloads', 'missing_values', 'classification_type'])
 df['temperature'] = range_of_temps
-plot_yes_no(df, title = query)
+plot_yes_no(df, toc: true
+title = query)
 ```
     
 ![png](experiments_with_temp_26_1.png)
@@ -252,7 +258,8 @@ results2 = [y for y in x if "so" not in y] for x in results2]
 ```python
 df = pd.DataFrame(results2, columns = ['size', 'sort_by_downloads', 'missing_values', 'classification_type'])
 df['temperature'] = range_of_temps
-plot_yes_no(df, title = query)
+plot_yes_no(df, toc: true
+title = query)
 ```
 
 ![png](experiments_with_temp_30_1.png)
@@ -277,7 +284,8 @@ results3 = [combine_last_two_elements(x) for x in results3]
 ```python
 df = pd.DataFrame(results3, columns = ['size', 'sort_by_downloads', 'missing_values', 'classification_type'])
 df['temperature'] = range_of_temps
-plot_yes_no(df, title = query)
+plot_yes_no(df, toc: true
+title = query)
 ```
 
 ![png](experiments_with_temp_35_1.png)
@@ -302,7 +310,8 @@ results4 = [combine_last_two_elements(x) for x in results4]
 ```python
 df = pd.DataFrame(results4, columns = ['size', 'sort_by_downloads', 'missing_values', 'classification_type'])
 df['temperature'] = range_of_temps
-plot_yes_no(df, title = query)
+plot_yes_no(df, toc: true
+title = query)
 ```
 
 ![png](experiments_with_temp_40_1.png)

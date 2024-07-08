@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Final Paper LM
 
 categories: ['language']
@@ -20,7 +21,8 @@ date created: Monday, October 24th 2022, 5:14:15 pm
 - How will you analyze the results statistically? What methods, which tests, what does your data look like?
 - So write a 2-3 page paper about an experiment that would answer an open question about quantification.
 - This paper can be written as if you are proposing it (e.g. "We would then test x children with …." ) or you could write it as if you already did the experiment, imagining the results, e.g. "We tested 30 Spanish speakers …".
-- Give it the kind of title you would give to a paper. (Don't call it "My Gedankenexperiment" !;)).
+- Give it the kind of toc: true
+title you would give to a paper. (Don't call it "My Gedankenexperiment" !;)).
 - Give an introduction to the research area, summarize the results you already know, using references to relevant papers. This could be the background section. Explain what's still missing in our knowledge and how we should test it.
 - In the methods section I need to know the details of the experimental design, including examples of sentences that will be tested and pictures that might be used (use clip art, or I also don't mind simple drawings. Don't worry if you are not very artistic!).
 - Explain what kind of participants you will need to test, how many, and what features they need to have. Be realistic. Just because it's fantasy, you shouldn't propose testing 1000 children.

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets
 
 categories: ['language']

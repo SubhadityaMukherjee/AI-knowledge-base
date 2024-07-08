@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Textless Speech Emotion Conversion
 
 categories: ['architecture']

@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/SLAK.html">SLAK</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,44 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#slak" id="toc-slak" class="nav-link active" data-scroll-target="#slak">SLAK</a>
+  <ul class="collapse">
+  <li><a href="#related-work" id="toc-related-work" class="nav-link" data-scroll-target="#related-work">RELATED WORK</a></li>
+  <li><a href="#failures-of-existing-approaches-to-go-beyond-31x31-kernels" id="toc-failures-of-existing-approaches-to-go-beyond-31x31-kernels" class="nav-link" data-scroll-target="#failures-of-existing-approaches-to-go-beyond-31x31-kernels">FAILURES OF EXISTING APPROACHES TO GO BEYOND 31x31 KERNELS</a></li>
+  <li><a href="#a-recipe-for-extremely-large-kernels-beyond-31x31" id="toc-a-recipe-for-extremely-large-kernels-beyond-31x31" class="nav-link" data-scroll-target="#a-recipe-for-extremely-large-kernels-beyond-31x31">A RECIPE FOR EXTREMELY LARGE KERNELS BEYOND 31x31</a>
+  <ul class="collapse">
+  <li><a href="#use-sparse-groups-expand-more-width" id="toc-use-sparse-groups-expand-more-width" class="nav-link" data-scroll-target="#use-sparse-groups-expand-more-width">Use Sparse Groups, Expand More Width</a></li>
+  <li><a href="#large-kernels-generalize-better-than-small-kernels-with-our-recipe" id="toc-large-kernels-generalize-better-than-small-kernels-with-our-recipe" class="nav-link" data-scroll-target="#large-kernels-generalize-better-than-small-kernels-with-our-recipe">Large Kernels Generalize Better Than Small Kernels with Our Recipe</a></li>
+  </ul></li>
+  <li><a href="#slak-1" id="toc-slak-1" class="nav-link" data-scroll-target="#slak-1">SLAK</a></li>
+  <li><a href="#evaluation-of-slak-imagenet-1k" id="toc-evaluation-of-slak-imagenet-1k" class="nav-link" data-scroll-target="#evaluation-of-slak-imagenet-1k">EVALUATION OF SLAK ImageNet-1K</a>
+  <ul class="collapse">
+  <li><a href="#kernel-scaling-efficiency" id="toc-kernel-scaling-efficiency" class="nav-link" data-scroll-target="#kernel-scaling-efficiency">KERNEL SCALING EFFICIENCY</a></li>
+  </ul></li>
+  <li><a href="#experiment" id="toc-experiment" class="nav-link" data-scroll-target="#experiment">Experiment</a>
+  <ul class="collapse">
+  <li><a href="#settings-imagenet-1k" id="toc-settings-imagenet-1k" class="nav-link" data-scroll-target="#settings-imagenet-1k">SETTINGS IMAGENET-1K</a></li>
+  <li><a href="#semantic-segmentation-on-ade20k" id="toc-semantic-segmentation-on-ade20k" class="nav-link" data-scroll-target="#semantic-segmentation-on-ade20k">SEMANTIC SEGMENTATION ON ADE20K</a></li>
+  <li><a href="#object-detection-and-segmentation-on-coco" id="toc-object-detection-and-segmentation-on-coco" class="nav-link" data-scroll-target="#object-detection-and-segmentation-on-coco">OBJECT DETECTION AND SEGMENTATION ON COCO</a></li>
+  <li><a href="#object-detection-on-pascal-voc-2007" id="toc-object-detection-on-pascal-voc-2007" class="nav-link" data-scroll-target="#object-detection-on-pascal-voc-2007">OBJECT DETECTION ON PASCAL VOC 2007</a></li>
+  </ul></li>
+  <li><a href="#some-more-effects" id="toc-some-more-effects" class="nav-link" data-scroll-target="#some-more-effects">Some More Effects</a>
+  <ul class="collapse">
+  <li><a href="#trade-off-between-sparsity-and-width" id="toc-trade-off-between-sparsity-and-width" class="nav-link" data-scroll-target="#trade-off-between-sparsity-and-width">TRADE-OFF BETWEEN SPARSITY AND WIDTH</a></li>
+  <li><a href="#effect-of-the-shorter-edge-n-on-slak" id="toc-effect-of-the-shorter-edge-n-on-slak" class="nav-link" data-scroll-target="#effect-of-the-shorter-edge-n-on-slak">EFFECT OF THE SHORTER EDGE N ON SLAK</a></li>
+  <li><a href="#erf-quantitation-of-models-with-different-kernel-sizes" id="toc-erf-quantitation-of-models-with-different-kernel-sizes" class="nav-link" data-scroll-target="#erf-quantitation-of-models-with-different-kernel-sizes">ERF QUANTITATION OF MODELS WITH DIFFERENT KERNEL SIZES</a></li>
+  <li><a href="#configurations-of-dynamic-sparsity" id="toc-configurations-of-dynamic-sparsity" class="nav-link" data-scroll-target="#configurations-of-dynamic-sparsity">CONFIGURATIONS OF DYNAMIC SPARSITY</a></li>
+  </ul></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">LIMITATIONS</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12607,7 +12642,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: Obisidian Daily Notes
 
 categories: ["article"]
@@ -43,12 +44,15 @@ The template I use is as follows. It uses the Liquid syntax to insert entries au
 
 ```MD
 ---
-title: <% tp.file.title %>
+toc: true
+title: <% tp.file.toc: true
+title %>
 categories: ['temp']
 date modified: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 date created: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 ---
-# <% tp.file.title %>
+# <% tp.file.toc: true
+title %>
 ```
 
 ### Daily Notes Plugin

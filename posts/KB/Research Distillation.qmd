@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Research Distillation
 
 categories: ['random']

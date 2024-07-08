@@ -1,5 +1,6 @@
 
 ---
+toc: true
 title: GRAD
 
 categories: ["article"]
@@ -13,7 +14,8 @@ Note: This is a slightly advanced article. If you are not comfortable with train
 So you want to train a Neural Network to classify images. Woah. That’s awesome! How well did it do? Did you get a good score? Oh? You want to do better? I hear you.
 What if you could see what the network sees to make the choice? That would help understand how to make it perform better right? Read on!
 
-A few years ago, a [paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.pdf) titled “Grad-CAM:
+A few years ago, a [paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.pdf) toc: true
+titled “Grad-CAM:
 Visual Explanations from Deep Networks via Gradient-based Localization” by Selvaraju et al. talked about how we could visually see the activation maps of a trained CNN by looking at the gradients in the final layer. This post will show you how to use that for your own needs. 
 
 Note: We will be using PyTorch and the [fast.ai](https://www.fast.ai) library. But the concepts stay the same, so you should be able to use it in any other library.
@@ -32,6 +34,7 @@ In this image, we can see a yellow border around the fish. (Apologies if it is a
 Examining these, we can see if the network is looking at the wrong thing, and find ways to show it what we want it to see. 
 
 ## Code
+
 ### Training
 Okay, let’s not waste any more time and delve right into the code. If you are not familiar with fastai, you can look at this [tiny blog](https://msubhaditya.medium.com/easier-deep-learning-research-for-beginners-935c1a6721c3?source=your_stories_page-------------------------------------) for reference. The complete code can be found here on [github](https://github.com/SubhadityaMukherjee/pytorchTutorialRepo/tree/main/gradcam).
 

@@ -105,7 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -122,23 +122,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -150,6 +146,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Others/A letter to my junior school art teacher.html">Others</a></li><li class="breadcrumb-item"><a href="../../../posts/articles/Others/Easier Deep Learning Research for Beginners.html">Easier Deep Learning Research for Beginners</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -175,15 +174,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12466,7 +12464,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#starting-deep-learning-research-part-1-a-start-using-fastai-dl" id="toc-starting-deep-learning-research-part-1-a-start-using-fastai-dl" class="nav-link active" data-scroll-target="#starting-deep-learning-research-part-1-a-start-using-fastai-dl">Starting Deep Learning Research (PART 1): A start using FastAI #dl</a>
+  <ul class="collapse">
+  <li><a href="#entry-requirements" id="toc-entry-requirements" class="nav-link" data-scroll-target="#entry-requirements">Entry Requirements</a></li>
+  <li><a href="#what-we-want-to-do" id="toc-what-we-want-to-do" class="nav-link" data-scroll-target="#what-we-want-to-do">What we want to do</a></li>
+  <li><a href="#libraries-we-will-use" id="toc-libraries-we-will-use" class="nav-link" data-scroll-target="#libraries-we-will-use">Libraries we will use</a></li>
+  <li><a href="#grab-the-data-and-set-everything-up" id="toc-grab-the-data-and-set-everything-up" class="nav-link" data-scroll-target="#grab-the-data-and-set-everything-up">Grab the Data and Set Everything Up</a></li>
+  <li><a href="#code-imports" id="toc-code-imports" class="nav-link" data-scroll-target="#code-imports">Code Imports</a></li>
+  <li><a href="#load-data" id="toc-load-data" class="nav-link" data-scroll-target="#load-data">Load Data</a></li>
+  <li><a href="#teaching-our-ai-part-1" id="toc-teaching-our-ai-part-1" class="nav-link" data-scroll-target="#teaching-our-ai-part-1">Teaching our AI: Part 1</a></li>
+  <li><a href="#teaching-our-ai-part-2" id="toc-teaching-our-ai-part-2" class="nav-link" data-scroll-target="#teaching-our-ai-part-2">Teaching our AI : Part 2</a></li>
+  <li><a href="#how-well-did-we-do" id="toc-how-well-did-we-do" class="nav-link" data-scroll-target="#how-well-did-we-do">How Well Did We Do?</a></li>
+  <li><a href="#using-the-model" id="toc-using-the-model" class="nav-link" data-scroll-target="#using-the-model">Using The Model</a></li>
+  <li><a href="#fin" id="toc-fin" class="nav-link" data-scroll-target="#fin">Fin</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12558,7 +12577,11 @@ I prefer Pytorch. There are many reasons for that. Instead of me adding to this 
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>                opt_func<span class="op">=</span>partial(OptimWrapper, opt<span class="op">=</span>torch.optim.AdamW), <span class="co"># Optimizer</span></span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>                metrics<span class="op">=</span>[accuracy, error_rate],</span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>                cbs<span class="op">=</span>[MixUp]).to_fp16() <span class="co">#callbacks, mixed precision</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The only things you need to know about it for now are : - There are many types of networks, each better at something else. These are called “architectures”. ResNet18 is one of them. - You can train a network to learn a specific type of mapping. Be it an image -&gt; text, audio -&gt; labels , image -&gt; image etc. - This training takes time and is mathematically pretty hard. Which is why this field is still in research. Further explanations about all of this will be given in later articles. (And others that I have written about in the past, linked at the end.) - In addition to the architectures, we have algorithms called “Optimisers” that enable smoother learning. This will not make any sense right now. But all in due time. - A “loss function” is fancy speak that is a way of seeing how well our network is doing while it’s learning. A mini exam if you will, in the sense that the network tries to “optimise” for this exam. The better it gets, the better your final results. - Metrics give us somewhat precise values. Such as the grade in an exam. The “Accuracy”. Etc. - The other weird things that you see here are: - cbs: [MixUp]. And to_fp16(). The first is to make sure that the network trains better, like the augmentations we spoke about. The second is an interesting paradigm that lets us train our models faster and with lower memory. More on that <a href="https://keras.io/api/mixed_precision/">here</a>. These are advanced topics. More on that later. ## Teaching our AI : Part 2 Let the Neural network.. drumroll.. learn!</p>
+<p>The only things you need to know about it for now are : - There are many types of networks, each better at something else. These are called “architectures”. ResNet18 is one of them. - You can train a network to learn a specific type of mapping. Be it an image -&gt; text, audio -&gt; labels , image -&gt; image etc. - This training takes time and is mathematically pretty hard. Which is why this field is still in research. Further explanations about all of this will be given in later articles. (And others that I have written about in the past, linked at the end.) - In addition to the architectures, we have algorithms called “Optimisers” that enable smoother learning. This will not make any sense right now. But all in due time. - A “loss function” is fancy speak that is a way of seeing how well our network is doing while it’s learning. A mini exam if you will, in the sense that the network tries to “optimise” for this exam. The better it gets, the better your final results. - Metrics give us somewhat precise values. Such as the grade in an exam. The “Accuracy”. Etc. - The other weird things that you see here are: - cbs: [MixUp]. And to_fp16(). The first is to make sure that the network trains better, like the augmentations we spoke about. The second is an interesting paradigm that lets us train our models faster and with lower memory. More on that <a href="https://keras.io/api/mixed_precision/">here</a>. These are advanced topics. More on that later.</p>
+</section>
+<section id="teaching-our-ai-part-2" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-our-ai-part-2">Teaching our AI : Part 2</h2>
+<p>Let the Neural network.. drumroll.. learn!</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>learn.fine_tune(<span class="dv">1</span>, wd<span class="op">=</span><span class="fl">0.5</span>)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>learn.export(<span class="st">"model.pkl"</span>) <span class="co"># Save the model</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Fine-tune? Huh? 1? Huh? Don’t worry too much about that right now. It is called <a href="https://ruder.io/transfer-learning/">Transfer Learning</a>. And we are training the model for 1 epoch. (One run over all the data.). More epochs generally lead to better results.</p>
@@ -12608,7 +12631,7 @@ preds_mapped = list(map(lambda x: classes[int(x)], preds[2])) #just saving them 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

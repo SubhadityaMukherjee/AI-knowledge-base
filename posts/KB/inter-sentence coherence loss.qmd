@@ -1,4 +1,5 @@
 ---
+toc: true
 title: inter-sentence coherence loss
 
 categories: ['loss']

@@ -1,4 +1,5 @@
 ---
+toc: true
 title: X Vectors
 
 categories: ['architecture']

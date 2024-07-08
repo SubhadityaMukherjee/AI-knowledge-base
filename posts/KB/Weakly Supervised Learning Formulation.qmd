@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Weakly Supervised Learning Formulation
 categories: ['ssl']
 ---

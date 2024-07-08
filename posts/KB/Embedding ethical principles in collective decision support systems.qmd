@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Embedding ethical principles in collective decision support systems
 
 categories: ['ethics']

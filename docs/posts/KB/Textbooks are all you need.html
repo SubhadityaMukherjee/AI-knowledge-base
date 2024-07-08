@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -88,23 +88,19 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="../../about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,6 +112,9 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../posts/KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../posts/KB/Textbooks are all you need.html">Textbooks are all you need</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
@@ -141,15 +140,14 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -12432,7 +12430,29 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#textbooks-are-all-you-need" id="toc-textbooks-are-all-you-need" class="nav-link active" data-scroll-target="#textbooks-are-all-you-need">Textbooks Are All You Need</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#training-details-and-the-importance-of-high-quality-data" id="toc-training-details-and-the-importance-of-high-quality-data" class="nav-link" data-scroll-target="#training-details-and-the-importance-of-high-quality-data">Training Details and the Importance of High-quality Data</a></li>
+  <li><a href="#filtering-of-existing-code-datasets-using-a-transformer-based-classifier" id="toc-filtering-of-existing-code-datasets-using-a-transformer-based-classifier" class="nav-link" data-scroll-target="#filtering-of-existing-code-datasets-using-a-transformer-based-classifier">Filtering of Existing Code Datasets Using a Transformer-based Classifier</a></li>
+  <li><a href="#creation-of-synthetic-textbook-quality-datasets" id="toc-creation-of-synthetic-textbook-quality-datasets" class="nav-link" data-scroll-target="#creation-of-synthetic-textbook-quality-datasets">Creation of Synthetic Textbook-quality Datasets</a></li>
+  <li><a href="#model-architecture-and-training" id="toc-model-architecture-and-training" class="nav-link" data-scroll-target="#model-architecture-and-training">Model Architecture and Training</a></li>
+  <li><a href="#spikes-of-model-capability-after-finetuning-on-codeexercises" id="toc-spikes-of-model-capability-after-finetuning-on-codeexercises" class="nav-link" data-scroll-target="#spikes-of-model-capability-after-finetuning-on-codeexercises">Spikes of Model Capability after Finetuning on CodeExercises</a></li>
+  <li><a href="#evaluation-on-unconventional-problems-with-llm-grading" id="toc-evaluation-on-unconventional-problems-with-llm-grading" class="nav-link" data-scroll-target="#evaluation-on-unconventional-problems-with-llm-grading">Evaluation on Unconventional Problems with LLM Grading</a></li>
+  <li><a href="#data-pruning-for-unbiased-performance-evaluation" id="toc-data-pruning-for-unbiased-performance-evaluation" class="nav-link" data-scroll-target="#data-pruning-for-unbiased-performance-evaluation">Data Pruning for Unbiased Performance Evaluation</a></li>
+  <li><a href="#n-gram-overlap" id="toc-n-gram-overlap" class="nav-link" data-scroll-target="#n-gram-overlap">N-gram Overlap</a></li>
+  <li><a href="#embedding-and-syntax-based-similarity-analysis" id="toc-embedding-and-syntax-based-similarity-analysis" class="nav-link" data-scroll-target="#embedding-and-syntax-based-similarity-analysis">Embedding and Syntax-based Similarity Analysis</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#limitation-of-phi-1" id="toc-limitation-of-phi-1" class="nav-link" data-scroll-target="#limitation-of-phi-1">Limitation of Phi-1</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -12635,7 +12655,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

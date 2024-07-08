@@ -1,4 +1,5 @@
 ---
+toc: true
 title: Instance-based Learning
 categories: ['robotics']
 ---

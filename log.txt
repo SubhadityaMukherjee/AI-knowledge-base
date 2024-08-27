@@ -1,0 +1,597 @@
+WARNING -  AutoLinksPlugin unable to find MSE]  of steering angle is [loss.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/1D-ALVINN.md' contains a link 'MSE]  of steering angle is [loss.md', but the target 'KB/MSE]  of steering angle is [loss.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Color Space Transform.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find SamplePairing.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find cropping.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Smart Augmentation] or [Neural Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/A survey on Image Data Augmentation for Deep Learning.md' contains a link 'Color%20Space%20Transform.md', but the target 'KB/Color Space Transform.md' is not found among documentation files.
+WARNING -  Doc file 'KB/A survey on Image Data Augmentation for Deep Learning.md' contains a link 'SamplePairing.md', but the target 'KB/SamplePairing.md' is not found among documentation files.
+WARNING -  Doc file 'KB/A survey on Image Data Augmentation for Deep Learning.md' contains a link 'cropping.md', but the target 'KB/cropping.md' is not found among documentation files.
+WARNING -  Doc file 'KB/A survey on Image Data Augmentation for Deep Learning.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/A survey on Image Data Augmentation for Deep Learning.md' contains a link 'Smart Augmentation] or [Neural Augmentation.md', but the target 'KB/Smart Augmentation] or [Neural Augmentation.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Motor Cortex.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Anterior Cingulate.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Time perception.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/ACT-R.md' contains a link 'Motor Cortex.md', but the target 'KB/Motor Cortex.md' is not found among documentation files.
+WARNING -  Doc file 'KB/ACT-R.md' contains a link 'Anterior Cingulate.md', but the target 'KB/Anterior Cingulate.md' is not found among documentation files.
+WARNING -  Doc file 'KB/ACT-R.md' contains a link 'Time perception.md', but the target 'KB/Time perception.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find @Adaptive deconvolutional networks for mid and high level feature learning.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Adaptive Whitening Saliency.md' contains a link '@Adaptive deconvolutional networks for mid and high level feature learning.md', but the target 'KB/@Adaptive deconvolutional networks for mid and high level feature learning.md' is not found among documentation files. Did you mean 'mailto:@Adaptive deconvolutional networks for mid and high level feature learning.md'?
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Adding noise.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find geometric transformations.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Alleviating Class Imbalance with Data Augmentation.md' contains a link 'geometric transformations.md', but the target 'KB/geometric transformations.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find cutout.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Attentive CutMix.md' contains a link 'cutout.md', but the target 'KB/cutout.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find @Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/AttributeMix.md' contains a link '@Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition.md', but the target 'KB/@Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition.md' is not found among documentation files. Did you mean 'mailto:@Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition.md'?
+WARNING -  AutoLinksPlugin unable to find dimensionality reduction.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Auto Encoders.md' contains a link 'dimensionality reduction.md', but the target 'KB/dimensionality reduction.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Neural Augmentation] or [Smart Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find geometric transformations.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/AutoAugment.md' contains a link 'Neural Augmentation] or [Smart Augmentation.md', but the target 'KB/Neural Augmentation] or [Smart Augmentation.md' is not found among documentation files.
+WARNING -  Doc file 'KB/AutoAugment.md' contains a link 'geometric transformations.md', but the target 'KB/geometric transformations.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/BYOL.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find clustering.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Bag of Words robotics.md' contains a link 'clustering.md', but the target 'KB/clustering.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Bag of n-grams.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find @Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Bayesian Rule List.md' contains a link '@Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model.md', but the target 'KB/@Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model.md' is not found among documentation files. Did you mean 'mailto:@Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model.md'?
+WARNING -  AutoLinksPlugin unable to find @Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Beware of Inmates Running the Asylum.md' contains a link '@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences.md', but the target 'KB/@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences.md' is not found among documentation files. Did you mean 'mailto:@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences.md'?
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Block Sparse Kernel.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find frontal lobe.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Brocas Area.md' contains a link 'frontal lobe.md', but the target 'KB/frontal lobe.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find A declarative modular framework for representing and applying ethical principles..md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Building Ethics into Artificial Intelligence.md' contains a link 'A declarative modular framework for representing and applying ethical principles..md', but the target 'KB/A declarative modular framework for representing and applying ethical principles..md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Network In Network.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/CAM.md' contains a link 'Network In Network.md', but the target 'KB/Network In Network.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find translational invariance.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find downsampling.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Capsule Network.md' contains a link 'translational invariance.md', but the target 'KB/translational invariance.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Capsule Network.md' contains a link 'downsampling.md', but the target 'KB/downsampling.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find frontal lobe.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Central Sulcus.md' contains a link 'frontal lobe.md', but the target 'KB/frontal lobe.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Unicode 5.0.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Character-set dependence.md' contains a link 'Unicode%205.0.md', but the target 'KB/Unicode 5.0.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find issues.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Chronic Encephalopathy Syndrome (CES).md' contains a link 'issues.md', but the target 'KB/issues.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find The neural correlates of mental fatigue and reward processing - A task-based fMRI study.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Change of Variable Foreperiod Effects within an Experiment - A Bayesian Modeling Approach.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/CogMod Final Paper.md' contains a link 'The neural correlates of mental fatigue and reward processing - A task-based fMRI study.md', but the target 'KB/The neural correlates of mental fatigue and reward processing - A task-based fMRI study.md' is not found among documentation files.
+WARNING -  Doc file 'KB/CogMod Final Paper.md' contains a link 'Change of Variable Foreperiod Effects within an Experiment - A Bayesian Modeling Approach.md', but the target 'KB/Change of Variable Foreperiod Effects within an Experiment - A Bayesian Modeling Approach.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Gaussian filter.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Cognition Hazard Rates.md' contains a link 'Gaussian filter.md', but the target 'KB/Gaussian filter.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Collaborative Topic Regression.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find geometric transformations.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Color Space Transformations.md' contains a link 'geometric transformations.md', but the target 'KB/geometric transformations.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Adam] + [SGD.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Gaussian distortion.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Gaussian distortion.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find dropout.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Comparing Data Augmentation Strategies for Deep Image Classification.md' contains a link 'Adam] + [SGD.md', but the target 'KB/Adam] + [SGD.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Comparing Data Augmentation Strategies for Deep Image Classification.md' contains a link 'Gaussian distortion.md', but the target 'KB/Gaussian distortion.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Comparing Data Augmentation Strategies for Deep Image Classification.md' contains a link 'Gaussian distortion.md', but the target 'KB/Gaussian distortion.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Comparing Data Augmentation Strategies for Deep Image Classification.md' contains a link 'dropout.md', but the target 'KB/dropout.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find DCGAN] except [one hot.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find DCGAN] except [one hot.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find 1B3C997B-A352-4F79-B637-8C3F1373938B.webp.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find 65C9C942-61B6-46F1-B6F2-66C82948004B.webp.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Conditional GAN.md' contains a link 'DCGAN] except [one hot.md', but the target 'KB/DCGAN] except [one hot.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Conditional GAN.md' contains a link 'DCGAN] except [one hot.md', but the target 'KB/DCGAN] except [one hot.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Conditional GAN.md' contains a link '1B3C997B-A352-4F79-B637-8C3F1373938B.webp.md', but the target 'KB/1B3C997B-A352-4F79-B637-8C3F1373938B.webp.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Conditional GAN.md' contains a link '65C9C942-61B6-46F1-B6F2-66C82948004B.webp.md', but the target 'KB/65C9C942-61B6-46F1-B6F2-66C82948004B.webp.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find recall] information in a way that confirms one's preexisting beliefs or hypotheses. Machine learning developers may inadvertently collect or label data in ways that influence an outcome supporting their existing beliefs. Confirmation bias is a form of [implicit bias.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Confirmation Bias.md' contains a link 'recall] information in a way that confirms one's preexisting beliefs or hypotheses. Machine learning developers may inadvertently collect or label data in ways that influence an outcome supporting their existing beliefs. Confirmation bias is a form of [implicit bias.md', but the target 'KB/recall] information in a way that confirms one's preexisting beliefs or hypotheses. Machine learning developers may inadvertently collect or label data in ways that influence an outcome supporting their existing beliefs. Confirmation bias is a form of [implicit bias.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find speech recognition.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find speech recognition.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Conformer.md' contains a link 'speech recognition.md', but the target 'KB/speech recognition.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Conformer.md' contains a link 'speech recognition.md', but the target 'KB/speech recognition.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Contrastive Predictive Coding.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Contrastive Predictive Coding.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Contrastive Predictive Coding.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find humanoid vision engine.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Contributions of Shape, Texture, and Color in Visual Recognition Abstract.md' contains a link 'humanoid vision engine.md', but the target 'KB/humanoid vision engine.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Contributions of Shape, Texture, and Color in Visual Recognition Abstract.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Counterfactual Fairness.md' contains a link 'https//papers.nips.cc/paper/2017/file/1271a7029c9df08643b631b02cf9e116-Paper.pdf', but the target 'KB/https/papers.nips.cc/paper/2017/file/1271a7029c9df08643b631b02cf9e116-Paper.pdf' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find cutmix.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Gaussian filter.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/CowMask.md' contains a link 'cutmix.md', but the target 'KB/cutmix.md' is not found among documentation files.
+WARNING -  Doc file 'KB/CowMask.md' contains a link 'Gaussian filter.md', but the target 'KB/Gaussian filter.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Distributions.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Cross Entropy.md' contains a link 'Distributions.md', but the target 'KB/Distributions.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find dropout] is different from conventional [dropout] because it drops contiguous image regions, whereas values in traditional [dropout.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Cut and Delete.md' contains a link 'dropout] is different from conventional [dropout] because it drops contiguous image regions, whereas values in traditional [dropout.md', but the target 'KB/dropout] is different from conventional [dropout] because it drops contiguous image regions, whereas values in traditional [dropout.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find strided.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/CycleGAN.md' contains a link 'strided.md', but the target 'KB/strided.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find prismatic joint.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Cylindrical Topology.md' contains a link 'prismatic joint.md', but the target 'KB/prismatic joint.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/DALL-E 3.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/DALL-E.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Transposed Conv] , [Batch Normalization] and [Relu.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Batch Normalization] AFTER [Transposed Conv.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Strided] [Conv], [Batch Normalization], and [Leaky Relu.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find downsampling], good Practise to use [Strided] rather than [Pooling.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Leaky Relu] activations while the generator uses [Relu.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find normal distribution.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/DCGAN.md' contains a link 'Transposed Conv] , [Batch Normalization] and [Relu.md', but the target 'KB/Transposed Conv] , [Batch Normalization] and [Relu.md' is not found among documentation files.
+WARNING -  Doc file 'KB/DCGAN.md' contains a link 'Batch Normalization] AFTER [Transposed Conv.md', but the target 'KB/Batch Normalization] AFTER [Transposed Conv.md' is not found among documentation files.
+WARNING -  Doc file 'KB/DCGAN.md' contains a link 'Strided] [Conv], [Batch Normalization], and [Leaky Relu.md', but the target 'KB/Strided] [Conv], [Batch Normalization], and [Leaky Relu.md' is not found among documentation files.
+WARNING -  Doc file 'KB/DCGAN.md' contains a link 'downsampling], good Practise to use [Strided] rather than [Pooling.md', but the target 'KB/downsampling], good Practise to use [Strided] rather than [Pooling.md' is not found among documentation files.
+WARNING -  Doc file 'KB/DCGAN.md' contains a link 'Leaky Relu] activations while the generator uses [Relu.md', but the target 'KB/Leaky Relu] activations while the generator uses [Relu.md' is not found among documentation files.
+WARNING -  Doc file 'KB/DCGAN.md' contains a link 'normal distribution.md', but the target 'KB/normal distribution.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find parallelization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/DLRM.md' contains a link 'parallelization.md', but the target 'KB/parallelization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Data Augmentation via Latent Space Interpolation for Image Classification.md' contains a link '../images/Pasted image 20230209131445.png', but the target 'images/Pasted image 20230209131445.png' is not found among documentation files. Did you mean 'images/Pasted image 20230209131445.png'?
+WARNING -  Doc file 'KB/Data Augmentation via Latent Space Interpolation for Image Classification.md' contains a link '../images/Pasted image 20230209131412.png', but the target 'images/Pasted image 20230209131412.png' is not found among documentation files. Did you mean 'images/Pasted image 20230209131412.png'?
+WARNING -  Doc file 'KB/Data Augmentation via Latent Space Interpolation for Image Classification.md' contains a link '../images/Pasted image 20230209131420.png', but the target 'images/Pasted image 20230209131420.png' is not found among documentation files. Did you mean 'images/Pasted image 20230209131420.png'?
+WARNING -  Doc file 'KB/Data Augmentation via Latent Space Interpolation for Image Classification.md' contains a link '../images/Pasted image 20230209131428.png', but the target 'images/Pasted image 20230209131428.png' is not found among documentation files. Did you mean 'images/Pasted image 20230209131428.png'?
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Data aug for spoken language.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Data aug for spoken language.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Prefrontal cortex.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Declarative memory.md' contains a link 'Prefrontal cortex.md', but the target 'KB/Prefrontal cortex.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find @DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/DeepFool.md' contains a link '@DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks.md', but the target 'KB/@DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks.md' is not found among documentation files. Did you mean 'mailto:@DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks.md'?
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Refs.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/DeepLearning.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  Doc file 'KB/DeepLearning.md' contains a link 'Refs.md', but the target 'KB/Refs.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find recall.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/DeepPERF.md' contains a link 'recall.md', but the target 'KB/recall.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Diffusion LM.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Diffusion LM.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find dropout.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find clustering] algorithm to the [covariance.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find covariance.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find clustering.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Distilling the Knowledge in a Neural Network.md' contains a link 'dropout.md', but the target 'KB/dropout.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Distilling the Knowledge in a Neural Network.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Distilling the Knowledge in a Neural Network.md' contains a link 'clustering] algorithm to the [covariance.md', but the target 'KB/clustering] algorithm to the [covariance.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Distilling the Knowledge in a Neural Network.md' contains a link 'covariance.md', but the target 'KB/covariance.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Distilling the Knowledge in a Neural Network.md' contains a link 'clustering.md', but the target 'KB/clustering.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Dynamic Sparsity.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Dynamic Sparsity.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find @Dynamic visual attention: searching for coding length increments.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Dynamic visual attention.md' contains a link '@Dynamic visual attention: searching for coding length increments.md', but the target 'KB/@Dynamic visual attention: searching for coding length increments.md' is not found among documentation files. Did you mean 'mailto:@Dynamic visual attention: searching for coding length increments.md'?
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Early Stopping tricks.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Hard Parameter Sharing] , [Soft Parameter Sharing.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Eavesdropping.md' contains a link 'Hard Parameter Sharing] , [Soft Parameter Sharing.md', but the target 'KB/Hard Parameter Sharing] , [Soft Parameter Sharing.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find recall.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find recall.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find recall.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Effects of Contextual Cues on Inferring and Remembering Meanings of New Word.md' contains a link 'recall.md', but the target 'KB/recall.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Effects of Contextual Cues on Inferring and Remembering Meanings of New Word.md' contains a link 'recall.md', but the target 'KB/recall.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Effects of Contextual Cues on Inferring and Remembering Meanings of New Word.md' contains a link 'recall.md', but the target 'KB/recall.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Effects of Regularization.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Effects of Regularization.md' contains a link 'cropping], while categories identifiable by shape (for e.g., corkscrew) see a performance degradation with aggressive [cropping.md', but the target 'KB/cropping], while categories identifiable by shape (for e.g., corkscrew) see a performance degradation with aggressive [cropping.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find density.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Embedding Human Knowledge into Deep Neural Network via Attention Map.md' contains a link 'density.md', but the target 'KB/density.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Distributions.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Ergodic.md' contains a link 'Distributions.md', but the target 'KB/Distributions.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Individual fairness.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Counterfactual fairness.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md' contains a link 'Individual fairness.md', but the target 'KB/Individual fairness.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.md' contains a link 'Counterfactual fairness.md', but the target 'KB/Counterfactual fairness.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/FTSwish.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find slimstampen.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find slimstampen.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Final Paper User Models.md' contains a link 'slimstampen.md', but the target 'KB/slimstampen.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Final Paper User Models.md' contains a link 'slimstampen.md', but the target 'KB/slimstampen.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find issues.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Fine Grained assesment.md' contains a link 'issues.md', but the target 'KB/issues.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Sampling.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Focal Loss.md' contains a link 'Sampling.md', but the target 'KB/Sampling.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find frontal lobe.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Frontal Operculum.md' contains a link 'frontal lobe.md', but the target 'KB/frontal lobe.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find centroid] of the true speaker, and away from the [centroid.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/GE2E.md' contains a link 'centroid] of the true speaker, and away from the [centroid.md', but the target 'KB/centroid] of the true speaker, and away from the [centroid.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/GPT3.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find @Generalizing Adversarial Explanations with Grad-CAM.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find VGGFace2.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Generalizing Adversarial Explanations with Grad-CAM.md' contains a link '@Generalizing Adversarial Explanations with Grad-CAM.md', but the target 'KB/@Generalizing Adversarial Explanations with Grad-CAM.md' is not found among documentation files. Did you mean 'mailto:@Generalizing Adversarial Explanations with Grad-CAM.md'?
+WARNING -  Doc file 'KB/Generalizing Adversarial Explanations with Grad-CAM.md' contains a link 'VGGFace2.md', but the target 'KB/VGGFace2.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find GAN.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Generative Models.md' contains a link 'GAN.md', but the target 'KB/GAN.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find HMM.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Logistic Regression.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find SVM.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Random Forest.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Generative vs Discriminative Models.md' contains a link 'HMM.md', but the target 'KB/HMM.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Generative vs Discriminative Models.md' contains a link 'Logistic Regression.md', but the target 'KB/Logistic Regression.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Generative vs Discriminative Models.md' contains a link 'SVM.md', but the target 'KB/SVM.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Generative vs Discriminative Models.md' contains a link 'Random Forest.md', but the target 'KB/Random Forest.md' is not found among documentation files.
+WARNING -  Doc file 'KB/GloVE.md' contains a link 'assets/king-man+woman-gensim.png', but the target 'KB/assets/king-man+woman-gensim.png' is not found among documentation files.
+WARNING -  Doc file 'KB/Grad-CAM.md' contains a link 'images/Pasted%20image%2020221118132132.png', but the target 'KB/images/Pasted image 20221118132132.png' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find modality] and the edges indicate the connection strength between one [modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Graph Based Distillation.md' contains a link 'modality] and the edges indicate the connection strength between one [modality.md', but the target 'KB/modality] and the edges indicate the connection strength between one [modality.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find clustering.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Grey sheep problem.md' contains a link 'clustering.md', but the target 'KB/clustering.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Cutout], [Random Erasing], and [Hide and Seek.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/GridMask.md' contains a link 'Cutout], [Random Erasing], and [Hide and Seek.md', but the target 'KB/Cutout], [Random Erasing], and [Hide and Seek.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find DeconvNet] and  [Deep Inside Convolutional Networks.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Guided BackProp.md' contains a link 'DeconvNet] and  [Deep Inside Convolutional Networks.md', but the target 'KB/DeconvNet] and  [Deep Inside Convolutional Networks.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Grad-CAM] and [Guided BackProp.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Occlusion Map.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Grad-CAM] is a variation of [Grad-CAM.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Grad-CAM] and Guided [Grad-CAM] is that while [Grad-CAM] focuses on finding the regions of an image that are most important for a given classification, Guided [Grad-CAM] also takes into account the positive gradients of the guided backpropagation algorithm, in order to provide a more fine-grained [visualization] of the internal representations of the network. This can make Guided [Grad-CAM.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Guided GradCAM.md' contains a link 'Grad-CAM] and [Guided BackProp.md', but the target 'KB/Grad-CAM] and [Guided BackProp.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Guided GradCAM.md' contains a link 'Occlusion Map.md', but the target 'KB/Occlusion Map.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Guided GradCAM.md' contains a link 'Grad-CAM] is a variation of [Grad-CAM.md', but the target 'KB/Grad-CAM] is a variation of [Grad-CAM.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Guided GradCAM.md' contains a link 'Grad-CAM] and Guided [Grad-CAM] is that while [Grad-CAM] focuses on finding the regions of an image that are most important for a given classification, Guided [Grad-CAM] also takes into account the positive gradients of the guided backpropagation algorithm, in order to provide a more fine-grained [visualization] of the internal representations of the network. This can make Guided [Grad-CAM.md', but the target 'KB/Grad-CAM] and Guided [Grad-CAM] is that while [Grad-CAM] focuses on finding the regions of an image that are most important for a given classification, Guided [Grad-CAM] also takes into account the positive gradients of the guided backpropagation algorithm, in order to provide a more fine-grained [visualization] of the internal representations of the network. This can make Guided [Grad-CAM.md' is not found among documentation files.
+WARNING -  Doc file 'KB/HiFI-GAN Denoising.md' contains a link '<https://arxiv.org/abs/2006.05694', but the target 'KB/<https:/arxiv.org/abs/2006.05694' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find streamlines.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Hierarchical Edge Bundling.md' contains a link 'streamlines.md', but the target 'KB/streamlines.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find SVM.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Hinge Loss.md' contains a link 'SVM.md', but the target 'KB/SVM.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/ITM Loss.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Cutout] and [CutMix.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Image Mixing and Deletion.md' contains a link 'Cutout] and [CutMix.md', but the target 'KB/Cutout] and [CutMix.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find feedback loop.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Inceptionism.md' contains a link 'feedback loop.md', but the target 'KB/feedback loop.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Influence of image classification accuracy on saliency map estimation.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find covariance.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Instance Normalization.md' contains a link 'covariance.md', but the target 'KB/covariance.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Vanishingexploding gradients.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Issues.md' contains a link 'Vanishingexploding%20gradients.md', but the target 'KB/Vanishingexploding gradients.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find dimensionality reduction.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Joint Factor Analysis.md' contains a link 'dimensionality reduction.md', but the target 'KB/dimensionality reduction.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Joint space.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Joint Velocity.md' contains a link 'Joint space.md', but the target 'KB/Joint space.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Cutout], [RandAugment] [14], [CutMix] [82] or [AutoAugment.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/KeepAugment.md' contains a link 'Cutout], [RandAugment] [14], [CutMix] [82] or [AutoAugment.md', but the target 'KB/Cutout], [RandAugment] [14], [CutMix] [82] or [AutoAugment.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find resistance.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Kernel Filters.md' contains a link 'resistance.md', but the target 'KB/resistance.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find endoscope.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Kvasir Dataset.md' contains a link 'endoscope.md', but the target 'KB/endoscope.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find eigenvector.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find eigenvector.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/LDA.md' contains a link 'eigenvector.md', but the target 'KB/eigenvector.md' is not found among documentation files.
+WARNING -  Doc file 'KB/LDA.md' contains a link 'eigenvector.md', but the target 'KB/eigenvector.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Distributions.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Label Smoothing.md' contains a link 'Distributions.md', but the target 'KB/Distributions.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Layer Normalization.md' contains a link 'images/Pasted%20image%20 20230327130254.png', but the target 'KB/images/Pasted image  20230327130254.png' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find recall.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Learning L2 German Vocabulary Through Reading.md' contains a link 'recall.md', but the target 'KB/recall.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find streamlines.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find streamlines.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Line Integral Convolution.md' contains a link 'streamlines.md', but the target 'KB/streamlines.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Line Integral Convolution.md' contains a link 'streamlines.md', but the target 'KB/streamlines.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Lp Regularization.md' contains a link 'images/Pasted%image%20220626150853.png', but the target 'KB/images/Pasted%image 220626150853.png' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/MLIM.md' contains a link 'Masked Language Modeling] (MLM) loss, alignment-based objectives are used for cross-[modality.md', but the target 'KB/Masked Language Modeling] (MLM) loss, alignment-based objectives are used for cross-[modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/MLIM.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/MLIM.md' contains a link 'Masked Language Modeling] (MLM) loss (as in BERT) for text, and image reconstruction (RECON) loss for image, coupled with [Modality.md', but the target 'KB/Masked Language Modeling] (MLM) loss (as in BERT) for text, and image reconstruction (RECON) loss for image, coupled with [Modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/MLIM.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/MLIM.md' contains a link 'Modality] Aware Masking (MAM) to boost cross-[modality.md', but the target 'KB/Modality] Aware Masking (MAM) to boost cross-[modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/MLIM.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/MLOps Learning.md' contains a link 'journals/2023_10_19.md', but the target 'KB/journals/2023_10_19.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find squared error.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/MVGrasp.md' contains a link 'squared error.md', but the target 'KB/squared error.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find random factors.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Mixed Effect Models.md' contains a link 'random factors.md', but the target 'KB/random factors.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find trees.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Moral decision making frameworks for artificial intelligence.md' contains a link 'trees.md', but the target 'KB/trees.md' is not found among documentation files.
+WARNING -  Doc file 'KB/N-dim Normal.md' contains a link 'Covariance.md|(X_{1}, …, X_{n}|[X_{1}, …, X_{n})'](X_%7B1%7D,%20%E2%80%A6,%20X_%7Bn%7D)'](X_{1}, …, X_{n})'](Covariance.md|(X_{1}, …, X_{n}|[X_{1}, …, X_{n})'](X_%7B1%7D,%20%E2%80%A6,%20X_%7Bn%7D)'.md) matr', but the target 'KB/Covariance.md|(X_{1}, …, X_{n}|[X_{1}, …, X_{n})'](X_{1}, …, X_{n})'](X_{1}, …, X_{n})'](Covariance.md|(X_{1}, …, X_{n}|[X_{1}, …, X_{n})'](X_{1}, …, X_{n})'.md) matr' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Distributions.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Distributions.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/NCE.md' contains a link 'Distributions.md', but the target 'KB/Distributions.md' is not found among documentation files.
+WARNING -  Doc file 'KB/NCE.md' contains a link 'Distributions.md', but the target 'KB/Distributions.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find dropout.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find dropout.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Network Dissection Quantifying Interpretability of Deep Visual Representions.md' contains a link 'dropout.md', but the target 'KB/dropout.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Network Dissection Quantifying Interpretability of Deep Visual Representions.md' contains a link 'dropout.md', but the target 'KB/dropout.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find SmoothGrad Square] + [Smooth-Grad] + [VarGrad.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Noise Tunnel.md' contains a link 'SmoothGrad Square] + [Smooth-Grad] + [VarGrad.md', but the target 'KB/SmoothGrad Square] + [Smooth-Grad] + [VarGrad.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Non Relational Inductive Bias.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Gaussian filter.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/OSIE.md' contains a link 'Gaussian filter.md', but the target 'KB/Gaussian filter.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Obsidian tutorial.md' contains a link 'templates/toc: true
+titler.md', but the target 'KB/templates/toc: truetitler.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Obsidian tutorial.md' contains a link 'pdf_files/3544548.3581388.pdf', but the target 'KB/pdf_files/3544548.3581388.pdf' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/On the Distinction Between Perceived Duration and Event Timing - Towards a Unified Model of Time Perception.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image2.jpg', but the target 'KB/Attachments/image2.jpg' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image12.jpg', but the target 'KB/Attachments/image12.jpg' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image10.jpg', but the target 'KB/Attachments/image10.jpg' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image8.jpg', but the target 'KB/Attachments/image8.jpg' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image9.jpg', but the target 'KB/Attachments/image9.jpg' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image6.jpg', but the target 'KB/Attachments/image6.jpg' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image4.jpg', but the target 'KB/Attachments/image4.jpg' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image1.jpg', but the target 'KB/Attachments/image1.jpg' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image5.jpg', but the target 'KB/Attachments/image5.jpg' is not found among documentation files.
+WARNING -  Doc file 'KB/OpenML <> scikit-learn hackathon.md' contains a link 'Attachments/image3.jpg', but the target 'KB/Attachments/image3.jpg' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Vanishingexploding gradients.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Orthogonal Initialization.md' contains a link 'Vanishingexploding%20gradients.md', but the target 'KB/Vanishingexploding gradients.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find hypothalamus.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Pituitary gland.md' contains a link 'hypothalamus.md', but the target 'KB/hypothalamus.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find img_p5_2.png in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/PromptIR.md' contains a link 'img_p5_2.png', but the target 'KB/img_p5_2.png' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find cropping.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find cropping.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/RICAP.md' contains a link 'cropping.md', but the target 'KB/cropping.md' is not found among documentation files.
+WARNING -  Doc file 'KB/RICAP.md' contains a link 'cropping.md', but the target 'KB/cropping.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find CIFAR]-10, [CIFAR.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find geometric transformations.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find AutoAugment] and Fast [AutoAugment.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/RandAugment.md' contains a link 'CIFAR]-10, [CIFAR.md', but the target 'KB/CIFAR]-10, [CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'KB/RandAugment.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/RandAugment.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/RandAugment.md' contains a link 'geometric transformations.md', but the target 'KB/geometric transformations.md' is not found among documentation files.
+WARNING -  Doc file 'KB/RandAugment.md' contains a link 'AutoAugment] and Fast [AutoAugment.md', but the target 'KB/AutoAugment] and Fast [AutoAugment.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find cutout.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find cutout.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Random Erasing.md' contains a link 'cutout.md', but the target 'KB/cutout.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Random Erasing.md' contains a link 'cutout.md', but the target 'KB/cutout.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find cropping.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Real Time Image Saliency for Black Box Classifiers.md' contains a link 'cropping.md', but the target 'KB/cropping.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Regularization Rate.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Regularization Rate.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Regularization.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find cropping.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find cropping.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/ResizeMix.md' contains a link 'cropping.md', but the target 'KB/cropping.md' is not found among documentation files.
+WARNING -  Doc file 'KB/ResizeMix.md' contains a link 'cropping.md', but the target 'KB/cropping.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find memory trace], the strength of each [memory trace] ([memory trace.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Revisiting variable foreperiod effects evaluating the repetition priming account.md' contains a link 'memory trace], the strength of each [memory trace] ([memory trace.md) is more dispersed and weaker as the foreperiod gets longer', but the target 'KB/memory trace], the strength of each [memory trace] ([memory trace.md) is more dispersed and weaker as the foreperiod gets longer' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/S2ST.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Vanishingexploding gradients.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/SELU.md' contains a link 'Vanishingexploding%20gradients.md', but the target 'KB/Vanishingexploding gradients.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find SPARSITY.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find downsampling.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find SPARSITY.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find SPARSITY.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'SPARSITY.md', but the target 'KB/SPARSITY.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'downsampling.md', but the target 'KB/downsampling.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'RandAugment] (Cubuk et al., 2020) in Timm (Wightman, 2019) – "rand-m9-mstd0.5- inc1", Label Smoothing (Szegedy et al., 2016) coefficient of 0.1, Mixup (Zhang et al., 2017) with ↵ = 0.8, [Cutmix] (Yun et al., 2019) with ↵ = 1.0, [Random Erasing.md) (Zhong et al., 2020) with p = 0.25, Stochastic Depth with drop rate of 0.1 for SLaK-T, 0.4 for SLaK-S, and 0.5 for SLaK-B, Layer Scale (Touvron et al., 2021c) of initial value of 1e- 6, and EMA with a decay factor of 0.9999. We train SLaK-T with NVIDIA A100 GPUs and the rest of models are trained with NVIDIA V10', but the target 'KB/RandAugment] (Cubuk et al., 2020) in Timm (Wightman, 2019) – "rand-m9-mstd0.5- inc1", Label Smoothing (Szegedy et al., 2016) coefficient of 0.1, Mixup (Zhang et al., 2017) with ↵ = 0.8, [Cutmix] (Yun et al., 2019) with ↵ = 1.0, [Random Erasing.md) (Zhong et al., 2020) with p = 0.25, Stochastic Depth with drop rate of 0.1 for SLaK-T, 0.4 for SLaK-S, and 0.5 for SLaK-B, Layer Scale (Touvron et al., 2021c) of initial value of 1e- 6, and EMA with a decay factor of 0.9999. We train SLaK-T with NVIDIA A100 GPUs and the rest of models are trained with NVIDIA V10' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'SPARSITY.md', but the target 'KB/SPARSITY.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SLAK.md' contains a link 'SPARSITY.md', but the target 'KB/SPARSITY.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Vanishingexploding gradients.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/SRN.md' contains a link 'Vanishingexploding%20gradients.md', but the target 'KB/Vanishingexploding gradients.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SaliencyMix.md' contains a link 'images/Pasted%20image%2020230508113658.png', but the target 'KB/images/Pasted image 20230508113658.png' is not found among documentation files.
+WARNING -  Doc file 'KB/SaliencyMix.md' contains a link 'images/Pasted%20image%2020230508113709.png', but the target 'KB/images/Pasted image 20230508113709.png' is not found among documentation files.
+WARNING -  Doc file 'KB/SaliencyMix.md' contains a link 'images/Pasted%20image%2020230508113721.png', but the target 'KB/images/Pasted image 20230508113721.png' is not found among documentation files.
+WARNING -  Doc file 'KB/SaliencyMix.md' contains a link 'images/Pasted%20image%2020230508113734.png', but the target 'KB/images/Pasted image 20230508113734.png' is not found among documentation files.
+WARNING -  Doc file 'KB/SaliencyMix.md' contains a link 'images/Pasted%20image%2020230508113752.png', but the target 'KB/images/Pasted image 20230508113752.png' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Word2Vec] with [gensim.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Masked Language Modeling] with [BERT.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Scalar Articles.md' contains a link 'Word2Vec] with [gensim.md', but the target 'KB/Word2Vec] with [gensim.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Scalar Articles.md' contains a link 'Masked Language Modeling] with [BERT.md', but the target 'KB/Masked Language Modeling] with [BERT.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find recall.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Second Language Vocabulary Learning , The role of context  versus translation.md' contains a link 'recall.md', but the target 'KB/recall.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Shortcuts to Quantifier Interpretation in Children and Adults.md' contains a link 'journals/2022-10-10.md', but the target 'KB/journals/2022-10-10.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/SimCLR.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Vanishingexploding gradients.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Skip Connection.md' contains a link 'Vanishingexploding%20gradients.md', but the target 'KB/Vanishingexploding gradients.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find one hot.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Skip Gram.md' contains a link 'one hot.md', but the target 'KB/one hot.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find recall.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find memory trace] actually dropped below the retrieval threshold, which means that the true rate of forgetting should be higher because this item’s activation was expected to be above the threshold (which was fixed at [ACT-R.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/SlimStampen.md' contains a link 'recall.md', but the target 'KB/recall.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SlimStampen.md' contains a link 'memory trace] actually dropped below the retrieval threshold, which means that the true rate of forgetting should be higher because this item’s activation was expected to be above the threshold (which was fixed at [ACT-R.md)’s default value', but the target 'KB/memory trace] actually dropped below the retrieval threshold, which means that the true rate of forgetting should be higher because this item’s activation was expected to be above the threshold (which was fixed at [ACT-R.md)’s default value' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find DeepLift], and [Integrated Gradients.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Smooth-Grad.md' contains a link 'DeepLift], and [Integrated Gradients.md', but the target 'KB/DeepLift], and [Integrated Gradients.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Cutout] and [CutMix.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/SmoothMix.md' contains a link 'Cutout] and [CutMix.md', but the target 'KB/Cutout] and [CutMix.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find cosine distance.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Speaker Verification.md' contains a link 'cosine distance.md', but the target 'KB/cosine distance.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find speech recognition.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find speech recognition.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/SpecAugment.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SpecAugment.md' contains a link 'speech recognition.md', but the target 'KB/speech recognition.md' is not found among documentation files.
+WARNING -  Doc file 'KB/SpecAugment.md' contains a link 'speech recognition.md', but the target 'KB/speech recognition.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find 1AB51847-C4BA-4F4A-A2AD-8E270B789B8E.webp.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find downsampling.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Stack GAN.md' contains a link '1AB51847-C4BA-4F4A-A2AD-8E270B789B8E.webp.md', but the target 'KB/1AB51847-C4BA-4F4A-A2AD-8E270B789B8E.webp.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Stack GAN.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Stack GAN.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Stack GAN.md' contains a link 'downsampling.md', but the target 'KB/downsampling.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Sampling.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Stratified Random Sampling.md' contains a link 'Sampling.md', but the target 'KB/Sampling.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find regularization.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Structural Risk Minimization.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Structural Risk Minimization.md' contains a link 'regularization.md', but the target 'KB/regularization.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find covariance.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Structural Similarity Index.md' contains a link 'covariance.md', but the target 'KB/covariance.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Structured Update.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find deep brain stimulation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Subthalamic Nucleus.md' contains a link 'deep brain stimulation.md', but the target 'KB/deep brain stimulation.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Vanishingexploding gradients.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find sparsity.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Swish.md' contains a link 'Vanishingexploding%20gradients.md', but the target 'KB/Vanishingexploding gradients.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Swish.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  Doc file 'KB/Swish.md' contains a link 'sparsity.md', but the target 'KB/sparsity.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find geometric transformations.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Test-time Augmentation.md' contains a link 'geometric transformations.md', but the target 'KB/geometric transformations.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find recurrent.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find recurrent.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/The Self Organization of Explicit Attitudes.md' contains a link 'recurrent.md', but the target 'KB/recurrent.md' is not found among documentation files.
+WARNING -  Doc file 'KB/The Self Organization of Explicit Attitudes.md' contains a link 'recurrent.md', but the target 'KB/recurrent.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Transfer Learning]  vs [Self Supervised.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Transfer Learning or  Self-supervised Learning? A Tale of  Two Pretraining Paradigms.md' contains a link 'Transfer Learning]  vs [Self Supervised.md', but the target 'KB/Transfer Learning]  vs [Self Supervised.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find 3BEF01EA-1132-4BBA-965F-4C4D75BDD9BA.webp.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Transposed Conv.md' contains a link '3BEF01EA-1132-4BBA-965F-4C4D75BDD9BA.webp.md', but the target 'KB/3BEF01EA-1132-4BBA-965F-4C4D75BDD9BA.webp.md' is not found among documentation files.
+WARNING -  Doc file 'KB/ULMFit.md' contains a link 'English%20Wikipedia.%20md', but the target 'KB/English Wikipedia. md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find @Unbiased look at dataset bias.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Selection bias.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Unbiased Look at Dataset Bias.md' contains a link '@Unbiased look at dataset bias.md', but the target 'KB/@Unbiased look at dataset bias.md' is not found among documentation files. Did you mean 'mailto:@Unbiased look at dataset bias.md'?
+WARNING -  Doc file 'KB/Unbiased Look at Dataset Bias.md' contains a link 'Selection bias.md', but the target 'KB/Selection bias.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find masked language modeling.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/VL-BEIT.md' contains a link 'masked language modeling.md', but the target 'KB/masked language modeling.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Sigmoid] -> [ill conditioning.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Vanishing Gradient.md' contains a link 'Sigmoid] -> [ill conditioning.md', but the target 'KB/Sigmoid] -> [ill conditioning.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find VQAv2.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find NLVR2.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/ViLT.md' contains a link 'VQAv2.md', but the target 'KB/VQAv2.md' is not found among documentation files.
+WARNING -  Doc file 'KB/ViLT.md' contains a link 'NLVR2.md', but the target 'KB/NLVR2.md' is not found among documentation files.
+WARNING -  Doc file 'KB/ViLT.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find squared error.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Weighted Alternating Least Squares.md' contains a link 'squared error.md', but the target 'KB/squared error.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Skip Gram] or [CBOW.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/Word2Vec.md' contains a link 'Skip Gram] or [CBOW.md', but the target 'KB/Skip Gram] or [CBOW.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find Augmentation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/X Vectors.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  Doc file 'KB/X Vectors.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  Doc file 'KB/X Vectors.md' contains a link 'Augmentation.md', but the target 'KB/Augmentation.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find autoregressive.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/XLNet.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  Doc file 'KB/XLNet.md' contains a link 'autoregressive] pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order (thereby proposing a new objective called Permutation Language Modeling), and (2) overcomes the limitations of BERT thanks to its [autoregressive.md', but the target 'KB/autoregressive] pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order (thereby proposing a new objective called Permutation Language Modeling), and (2) overcomes the limitations of BERT thanks to its [autoregressive.md' is not found among documentation files.
+WARNING -  Doc file 'KB/XLNet.md' contains a link 'autoregressive.md', but the target 'KB/autoregressive.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find brain areas.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/You can play 20 questions with nature and win.md' contains a link 'brain areas.md', but the target 'KB/brain areas.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find self distillation.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/data2vec.md' contains a link 'self distillation.md', but the target 'KB/self distillation.md' is not found among documentation files.
+WARNING -  Doc file 'KB/data2vec.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/data2vec.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/data2vec.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/data2vec.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/data2vec.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/explainability.md' contains a link 'journals/2022-10-05.md', but the target 'KB/journals/2022-10-05.md' is not found among documentation files.
+WARNING -  Doc file 'KB/explainability.md' contains a link 'journals/2022-10-17.md', but the target 'KB/journals/2022-10-17.md' is not found among documentation files.
+WARNING -  Doc file 'KB/flow.md' contains a link 'content/notes/Vision%20Explainibility.md', but the target 'KB/content/notes/Vision Explainibility.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find modality] are first given to pretrained single-[modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality] datasets can also yield competitive or even better performance than pretraining on videos, the data resource that previous three-[modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  AutoLinksPlugin unable to find modality.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/i-Code.md' contains a link 'modality] are first given to pretrained single-[modality.md', but the target 'KB/modality] are first given to pretrained single-[modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/i-Code.md' contains a link 'modality] modeling and (ii) cross-[modality.md', but the target 'KB/modality] modeling and (ii) cross-[modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/i-Code.md' contains a link 'modality] datasets can also yield competitive or even better performance than pretraining on videos, the data resource that previous three-[modality.md', but the target 'KB/modality] datasets can also yield competitive or even better performance than pretraining on videos, the data resource that previous three-[modality.md' is not found among documentation files.
+WARNING -  Doc file 'KB/i-Code.md' contains a link 'modality.md', but the target 'KB/modality.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find speech recognition.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'KB/wave2vec.md' contains a link 'speech recognition.md', but the target 'KB/speech recognition.md' is not found among documentation files.
+WARNING -  Doc file 'articles/DL/Experiments with LLM temperature.md' contains a link 'search.png', but the target 'articles/DL/search.png' is not found among documentation files.
+WARNING -  Doc file 'articles/Others/Duolingo is a platform for language learning.md' contains a link '../../CIFAR|CIFAR]-10 dataset, how to build a model to recognize if an image is in the 10 classes of [../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Others/Learnings from this time back home.md' contains a link '../../Resistance|Resistance.md', but the target 'Resistance|Resistance.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Autoencoders with Convolutions.md' contains a link '../../Dimensionality Reduction|Dimensionality Reduction.md', but the target 'Dimensionality Reduction|Dimensionality Reduction.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Autoencoders with Convolutions.md' contains a link '../../Dimensionality Reduction|dimensionality reduction.md', but the target 'Dimensionality Reduction|dimensionality reduction.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Autoencoders with Convolutions.md' contains a link '../../Dimensionality Reduction|dimensionality reduction.md', but the target 'Dimensionality Reduction|dimensionality reduction.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Building a GAN from scratch.md' contains a link '../../Dropout|Dropout.md', but the target 'Dropout|Dropout.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Building a GAN from scratch.md' contains a link '../../Strided|Strided] convolutions in the Discriminator and fractionally [../../Strided|Strided.md', but the target 'Strided|Strided.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Building the Word2Vec Model in Gensim.md' contains a link '../../visualization|visualization.md', but the target 'visualization|visualization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Building the Word2Vec Model in Gensim.md' contains a link '../../Cosine Distance|cosine distance.md', but the target 'Cosine Distance|cosine distance.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/CycleGAN #scalar.md' contains a link '../../Basic GAN|basic GAN.md', but the target 'Basic GAN|basic GAN.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/CycleGAN #scalar.md' contains a link '../../Downsampling|downsampling.md', but the target 'Downsampling|downsampling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../CIFAR|CIFAR] dataset, and write scripts to generate new images. The goal is to generate photorealistic images that resemble one of the ten classes in the [../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../Strided|Strided.md', but the target 'Strided|Strided.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../Downsampling|downsampling.md', but the target 'Downsampling|downsampling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../Strided|Strided.md', but the target 'Strided|Strided.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../Strided|Strided.md', but the target 'Strided|Strided.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../Strided|Strided.md', but the target 'Strided|Strided.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../Strided|Strided.md', but the target 'Strided|Strided.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../Initialization.md', but the target 'Initialization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../Initialization.md', but the target 'Initialization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../Initialization.md', but the target 'Initialization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/DCGAN – Adding convolution to a GAN.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Differences between Discriminative and Generative models.md' contains a link '../../Trees|trees], learn to model boundaries around classes in a dataset and estimate the conditional probability of the target variable given the data. On the other hand, generative models, such as latent Dirichlet allocation, Bayesian networks, and hidden Markov models, create new data points by estimating the joint probability distribution of the data and the target variable. Generative models are often used for unsupervised tasks, such as topic modelling and [../../Dimensionality Reduction|dimensionality reduction.md', but the target 'Dimensionality Reduction|dimensionality reduction.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Differences between Discriminative and Generative models.md' contains a link '../../Decision Boundaries|decision boundaries.md', but the target 'Decision Boundaries|decision boundaries.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Differences between Discriminative and Generative models.md' contains a link '../../Trees|trees.md', but the target 'Trees|trees.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Differences between Discriminative and Generative models.md' contains a link '../../Trees|trees] are helpful for classification but can be extended for Regression using different algorithms. These [../../Trees|trees.md', but the target 'Trees|trees.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Differences between Discriminative and Generative models.md' contains a link '../../Trees|Trees] to make better decisions by combining each tree's decisions. The most popular decision across the [../../Trees|trees.md', but the target 'Trees|trees.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Differences between Discriminative and Generative models.md' contains a link '../../LDA|LDA.md', but the target 'LDA|LDA.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Differences between Discriminative and Generative models.md' contains a link '../../LDA|LDA] models aim to accurately estimate the classwise mean and variance of the data points in a given dataset. After calculating these statistics, [../../LDA|LDA] makes predictions by estimating the probability of the new class belonging to any of the classes in the original data. In ML, [../../LDA|LDA] models are used for **topic modelling and discovery**. [../../LDA|LDA] is similar to [../../PCA|PCA] in that it also performs a [../../Dimensionality Reduction|dimensionality reduction]. But unlike [../../PCA|PCA], [../../LDA|LDA.md', but the target 'LDA|LDA.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Generating Images using GANs in Tensorflow.md' contains a link '../../Dropout|Dropout.md', but the target 'Dropout|Dropout.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Image Classification using TensorFlow.md' contains a link '../../Regularization|regularization] technique that improves performance by applying transformations on the base image. These transformations enable the model to see a much richer dataset without additional data collection. Data augmentation is extremely useful for small to medium-sized datasets. There are many augmentations, such as random flipping, random color jitter, random resized [../../Cropping|cropping.md', but the target 'Cropping|cropping.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Implementing DCGAN to generate CIFAR images.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Implementing DCGAN to generate CIFAR images.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Implementing DCGAN to generate CIFAR images.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Implementing DCGAN to generate CIFAR images.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Implementing DCGAN to generate CIFAR images.md' contains a link '../../CIFAR|CIFAR.md', but the target 'CIFAR|CIFAR.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Implementing DCGAN to generate CIFAR images.md' contains a link '../../Strided|Strided.md', but the target 'Strided|Strided.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Implementing DCGAN to generate CIFAR images.md' contains a link '../../Strided|Strided.md', but the target 'Strided|Strided.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Dropout|Dropout]**, target training bottlenecks in the architecture itself, while others, like **[../../Regularization|Regularization.md', but the target 'Regularization|Regularization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Regularization|Regularization.md', but the target 'Regularization|Regularization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Regularization|Regularization] and Transfer Learning not only optimize training time but also care for the lack of data. Algorithms such as [../../Dropout|Dropout.md', but the target 'Dropout|Dropout.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Dropout|Dropout] layers, Data augmentation, [../../Regularization|Regularization.md', but the target 'Regularization|Regularization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Dropout|Dropout.md', but the target 'Dropout|Dropout.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Dropout|Dropout.md', but the target 'Dropout|Dropout.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Dropout|Dropout] helps with smaller datasets and slightly with larger ones. If the dataset is bigger, [../../Dropout|Dropout.md', but the target 'Dropout|Dropout.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Cropping|Cropping.md', but the target 'Cropping|Cropping.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Regularization|Regularization.md', but the target 'Regularization|Regularization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Regularization|Regularization]. A [../../Regularization|regularization.md', but the target 'Regularization|regularization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Regularization|Regularization] during training, such as Data Augmentation, Early Stopping, [../../Dropout|Dropout.md', but the target 'Dropout|Dropout.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Improving Model Accuracy in Image Classification.md' contains a link '../../Regularization|regularization.md', but the target 'Regularization|regularization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Intro to Conditional GANS.md' contains a link '../../One hot|one hot.md', but the target 'One hot|one hot.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Masked Language Modeling in BERT #scalar.md' contains a link '../../Masked Language Modeling|Masked Language Modeling.md', but the target 'Masked Language Modeling|Masked Language Modeling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Masked Language Modeling in BERT #scalar.md' contains a link '../../Masked Language Modeling|Masked Language Modeling.md', but the target 'Masked Language Modeling|Masked Language Modeling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Masked Language Modeling in BERT #scalar.md' contains a link '../../Masked Language Modeling|Masked Language Modeling.md', but the target 'Masked Language Modeling|Masked Language Modeling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Masked Language Modeling in BERT #scalar.md' contains a link '../../Masked Language Modeling|Masked Language Modeling.md', but the target 'Masked Language Modeling|Masked Language Modeling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Masked Language Modeling in BERT #scalar.md' contains a link '../../Masked Language Modeling|Masked Language Modeling.md', but the target 'Masked Language Modeling|Masked Language Modeling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Reconstructing the MNIST images using an autoencoder.md' contains a link '../../Downsampling|downsampling.md', but the target 'Downsampling|downsampling.md' is not found among documentation files.
+WARNING -  AutoLinksPlugin unable to find 0.md in directory /Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts
+WARNING -  Doc file 'articles/Scalar/Siamese Network.md' contains a link '../../Dropout|Dropout.md', but the target 'Dropout|Dropout.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/StackGAN.md' contains a link '../../Downsampling|downsampling.md', but the target 'Downsampling|downsampling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/StackGAN.md' contains a link '../../Downsampling|downsampling.md', but the target 'Downsampling|downsampling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/StackGAN.md' contains a link '../../Downsampling|downsampling.md', but the target 'Downsampling|downsampling.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/StackGAN.md' contains a link '../../Covariance|covariance.md', but the target 'Covariance|covariance.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/StackGAN.md' contains a link '../../Regularization|regularization.md', but the target 'Regularization|regularization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Transfer Learning and Fine-tuning.md' contains a link '../../Initialization.md', but the target 'Initialization.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Transfer Learning and Fine-tuning.md' contains a link '../../Xception|Xception.md', but the target 'Xception|Xception.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Transfer Learning and Fine-tuning.md' contains a link '../../Xception|Xception.md', but the target 'Xception|Xception.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Transfer Learning and Fine-tuning.md' contains a link '../../Xception|Xception.md', but the target 'Xception|Xception.md' is not found among documentation files.
+WARNING -  Doc file 'articles/Scalar/Transfer Learning and Fine-tuning.md' contains a link '../../Xception|Xception] model also contains Batch Normalization layers that should not be trained when the model is unfrozen. To make sure this is the case, we disable the training mode. We also apply a **GlobalAveragePooling** followed by **[../../Dropout|Dropout.md', but the target 'Dropout|Dropout.md' is not found among documentation files.

@@ -33,3 +33,6 @@ date created: 13-07-2024
 - I dont actually hate TV. I just need something else on the side to regulate because my empathy kicks in a lot of times
 - I sometimes get too much input from things and then need to take some of it out. Like write something, draw something whatever
 - If I start getting annoyed with something that I love, it means that I probably hyperfocuses the absolute shit out and should probably give myself a break before it gets too much
+- I have learnt how to identify when my energy is low
+- Meditation is hard but the count backwards from X with 3 repeats of X per breath is the best
+- Mom really does have ADHD. No wonder she switches topics three times in every sentence

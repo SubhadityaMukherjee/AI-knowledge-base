@@ -10,12 +10,16 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
+      primary: indigo
+      accent: indigo
       scheme: slate
       toggle:
         icon: material/toggle-switch

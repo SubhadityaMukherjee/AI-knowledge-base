@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # FTSwish
-- ![Pasted%20image%2020220626150952](images/Pasted%20image%2020220626150952.png)
+- ![Pasted%20image%2020220626150952](Pasted%20image%2020220626150952.png)
 - [Relu](Relu.md) + [Sigmoid](Sigmoid.md)
 - $$\begin{equation} FTSwish: f(x) = \begin{cases} T, & \text{if}\ x < 0 \\ \frac{x}{1 + e^{-x}} + T, & \text{otherwise} \\ \end{cases} \end{equation}$$
 - As we can see, the [sparsity](sparsity.md) principle is still true - the neurons that produce negative values are taken out.

@@ -16,7 +16,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - 
 - Vectors that are metrically close to each other
 - [GloVE](GloVE.md)
-- ![im](images/Pasted%20image%2020220315235513.png)
+- ![im](Pasted%20image%2020220315235513.png)
 
 
 

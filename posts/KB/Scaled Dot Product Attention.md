@@ -18,7 +18,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Euclidean length is $\sqrt{kc}$
 - $$Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{d_{k}}})V$$
 - Generalization of [Soft Attention](Soft%20Attention.md)
-- ![im](images/Pasted%20image%2020220526133045.png)
+- ![im](Pasted%20image%2020220526133045.png)
 - [Attention Alignment](Attention%20Alignment.md) score $$\alpha_{t,i} = \frac{s_{t}^{T}h_{i}}{\sqrt{n}}$$
 
 

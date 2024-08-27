@@ -12,7 +12,7 @@ date created: Tuesday 7th February 2023, Tue
 
 - relative importance of each learning paradigm by Yann LeCun
 - At the end of the day, everything tied to Supervised Learning
-- ![images/Pasted%20image%2020230207112031.png](images/Pasted%20image%2020230207112031.png)
+- ![images/Pasted%20image%2020230207112031.png](Pasted%20image%2020230207112031.png)
 
 
 

@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
 	- [Attention](Attention.md) mechanism (borrowed from the field of information retrieval) within the context of NLP
 - Same as [Additive Attention](Additive%20Attention.md)
-- ![Pasted%20image%2020220621170726](images/Pasted%20image%2020220621170726.png)
+- ![Pasted%20image%2020220621170726](Pasted%20image%2020220621170726.png)
 
 
 

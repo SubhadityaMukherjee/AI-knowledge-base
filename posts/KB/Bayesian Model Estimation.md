@@ -28,8 +28,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Represent data with histograms and use [Monte Carlo](Monte%20Carlo)
 
 ## Example
-- ![im](images/Pasted%20image%2020220316120743.png)
-- ![im](images/Pasted%20image%2020220316120803.png)
+- ![im](Pasted%20image%2020220316120743.png)
+- ![im](Pasted%20image%2020220316120803.png)
 - Green : prior , Red: Posterior
 - The [Posterior Mean estimate](Posterior%20Mean%20estimate.md) is obtained by integrating $\int_{\mathbb{R}}\mu h(\mu|D)d\mu$
 - Since this is different from sample mean -> Prior distribution really does influence the models

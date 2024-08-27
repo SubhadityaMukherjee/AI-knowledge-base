@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Graphics, Image processing
 - Synchronous, Deterministic
 - GPU
-- ![im](images/Pasted%20image%2020220506150837.png)
+- ![im](Pasted%20image%2020220506150837.png)
 - [Vector Processor](Vector%20Processor.md)
 - Limited by [Amdahl's Law](Amdahl's%20Law.md)
 - More energy efficient than [MIMD](MIMD.md)

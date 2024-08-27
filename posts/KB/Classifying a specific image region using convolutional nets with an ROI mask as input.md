@@ -44,7 +44,7 @@ date created: Wednesday, October 5th 2022, 12:58:22 pm
 - Generating several attention maps and merging them with multiple layers of the net gave the same or worse results than generating a single attention map and merging it with the first layer
 
 ## Images
-- ![Pasted%20image%2020221005125850](images/Pasted%20image%2020221005125850.png)
+- ![Pasted%20image%2020221005125850](Pasted%20image%2020221005125850.png)
 
 
 

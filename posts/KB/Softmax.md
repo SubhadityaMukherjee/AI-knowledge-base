@@ -19,7 +19,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ## Temperature
 - Higher the T -> Softer it the distribution. Aka less confident about distribution
 - Lower -> Harder. More confident
-- ![softmax_logits](images/softmax_logits.webp)
+- ![softmax_logits](softmax_logits.webp)
 
 
 

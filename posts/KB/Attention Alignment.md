@@ -24,7 +24,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $h$ is the hidden state for the encoder
 - $s$ is the hidden state for the decoder
 - Matrix of alignment
-	- ![Pasted%20image%2020220621170423](images/Pasted%20image%2020220621170423.png)
+	- ![Pasted%20image%2020220621170423](Pasted%20image%2020220621170423.png)
 	- Final scores calculated with a [Softmax](Softmax.md)
 
 

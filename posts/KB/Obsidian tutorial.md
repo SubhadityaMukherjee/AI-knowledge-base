@@ -11,7 +11,7 @@ date created: Tuesday 14th May 2024, Tue
 
 
 ## Hello There
-- ![](images/Pasted%20image%2020240514132517.png)
+- ![](Pasted%20image%2020240514132517.png)
 
 ## Creating a File
 - Markdown basics

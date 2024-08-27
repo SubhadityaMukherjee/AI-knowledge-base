@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # ALBERT
 - Lite [BERT](BERT.md)
-- ![Pasted%20image%2020220625231702](images/Pasted%20image%2020220625231702.png)
+- ![Pasted%20image%2020220625231702](Pasted%20image%2020220625231702.png)
 - [blog](https://github.com/christianversloot/machine-learning-articles/blob/main/albert-explained-a-lite-bert.md) #[Roam-Highlights](Roam-Highlights)
 - perhaps even better when scaled to the same number of parameters as [BERT](BERT.md)
 - [Factorized Embedding Parameters](Factorized%20Embedding%20Parameters.md)

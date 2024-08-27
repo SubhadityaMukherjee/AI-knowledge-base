@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # ADVENT
 - [blog](https://valeoai.github.io/blog/2020/07/07/advent-domain-adaptation.html)
 - [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.html)
-- ![Pasted%20image%2020220625224107](images/Pasted%20image%2020220625224107.jpg)
+- ![Pasted%20image%2020220625224107](Pasted%20image%2020220625224107.jpg)
  - ADVENT is a flexible technique for bridging the gap between two different domains through [entropy](Entropy.md) minimization
 - models trained only on source domain tend to produce over-confident, i.e., low-[entropy](Entropy.md), predictions on source-like images and under-confident, i.e., high-[entropy](Entropy.md), predictions on target-like ones
 - Consequently by minimizing the [entropy](Entropy.md) on the target domain, we make the feature distributions from the two domains more similar.

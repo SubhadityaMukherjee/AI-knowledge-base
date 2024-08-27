@@ -37,6 +37,6 @@ date updated: 2023-01-25 11:59
 - In fact, a human learns about vision by living in a reduced environment with many potential local biases and yet the visual system is robust enough to overcome this.
 - Should we care about the quality of our datasets? If the goal is to reduce computer vision to a set of feature vectors that can be used in some machine learning algorithm, then maybe not. But if the goal is to build algorithms that can understand the visual world, then, having the right datasets will be crucial.
 - ## Images
-- ![images/Pasted%20image%2020230125120321.png](images/Pasted%20image%2020230125120321.png)
-- ![images/Pasted%20image%2020230125120337.png](images/Pasted%20image%2020230125120337.png)
+- ![images/Pasted%20image%2020230125120321.png](Pasted%20image%2020230125120321.png)
+- ![images/Pasted%20image%2020230125120337.png](Pasted%20image%2020230125120337.png)
 

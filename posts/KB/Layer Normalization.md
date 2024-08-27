@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Layer Normalization
 - For RNNs etc
 - Mean and variance calculated independantly for each element of the batch by aggregating over the [features](Features.md) dimensions.
-- ![Pasted%20image%20 20220621163906](images/Pasted%20image%2020220621163906.jpg) (Compared to [Batch Normalization](Batch%20Normalization.md))
+- ![Pasted%20image%20 20220621163906](Pasted%20image%2020220621163906.jpg) (Compared to [Batch Normalization](Batch%20Normalization.md))
 $$
  \begin{align*}\\
 

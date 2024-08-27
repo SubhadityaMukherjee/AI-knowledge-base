@@ -41,8 +41,8 @@ date created: Wednesday, October 12th 2022, 4:11:22 pm
 - [LIME](LIME.md)
 
 ## Pictures
-- ![images/Pasted%20image%2020230306125016.png](images/Pasted%20image%2020230306125016.png)
-- ![images/Pasted%20image%2020230306125025.png](images/Pasted%20image%2020230306125025.png)
+- ![images/Pasted%20image%2020230306125016.png](Pasted%20image%2020230306125016.png)
+- ![images/Pasted%20image%2020230306125025.png](Pasted%20image%2020230306125025.png)
 
 
 

@@ -12,8 +12,8 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Formulate object grasping as a part segmentation problem
 - Detect graspable shape primitives  
 - The [gripper](Gripper.md) is free to approach objects from arbitrary directions.
-- ![Pasted%20image%2020220928214535](images/Pasted%20image%2020220928214535.png)
-- ![Pasted%20image%2020220928214542](images/Pasted%20image%2020220928214542.png)
+- ![Pasted%20image%2020220928214535](Pasted%20image%2020220928214535.png)
+- ![Pasted%20image%2020220928214542](Pasted%20image%2020220928214542.png)
 
 
 

@@ -12,7 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Subtract average value from post stimulus period
 - Period where nothing is going on
 - 100-200 ms
-- ![im](images/Pasted%20image%2020220502154359.png)
+- ![im](Pasted%20image%2020220502154359.png)
 
 
 

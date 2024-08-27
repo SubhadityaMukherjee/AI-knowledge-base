@@ -44,7 +44,7 @@ date created: Wednesday, October 12th 2022, 4:49:06 pm
 - The results also indicate that this processing commitment is essentially immediate; i.e., as soon as listeners begin hearing the ambiguous predicate, they show a preference for the collective interpretation.
 
 ## Pictures
-- ![Pasted%20image%2020221012165526](images/Pasted%20image%2020221012165526.png)
+- ![Pasted%20image%2020221012165526](Pasted%20image%2020221012165526.png)
 
 
 

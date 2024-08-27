@@ -16,8 +16,8 @@ date modified: Wednesday, December 7th 2022, 10:37:52 pm
 - A dictionary is generated via [clustering](clustering.md) of the pool of features into N clusters (the number of the clusters is the codebook size).
 - Visual word are then defined as the centres of the extracted clusters.
 - Finally, each object is described (abstracted) by a histogram of occurrences of these visual words.
-- ![images/Pasted%20image%2020221103123459.png](images/Pasted%20image%2020221103123459.png)
-- ![images/Pasted%20image%2020221103123515.png](images/Pasted%20image%2020221103123515.png)
+- ![images/Pasted%20image%2020221103123459.png](Pasted%20image%2020221103123459.png)
+- ![images/Pasted%20image%2020221103123515.png](Pasted%20image%2020221103123515.png)
 
 
 

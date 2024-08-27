@@ -7,16 +7,16 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Bias Vs Variance
-- ![im](images/Pasted%20image%2020220312132539.png)
-- ![im](images/Pasted%20image%2020220312135948.png)
+- ![im](Pasted%20image%2020220312132539.png)
+- ![im](Pasted%20image%2020220312135948.png)
 	- m is choices of PC vectors
 	- as m increases, weight matrices grow by $10\cdot m$ . Aka more flexible models.
 	- Increasing tail of MSEtest -> overfitting. too flexible
 	- Increasing flexibility -> decrease of empirical risk
 	- Inc : very low to very high -> less and less underfitting then overfitting
 	- Best: min point in curve. But it is defined on test data which we do not have
-- ![im](images/Pasted%20image%2020220312134708.png)
-- ![im](images/Pasted%20image%2020220312134752.png)
+- ![im](Pasted%20image%2020220312134708.png)
+- ![im](Pasted%20image%2020220312134752.png)
 - Decision function should minimize [LossFunctions](LossFunctions) and yield a function with risk h. This is hopeless $$R(h) = E[L(h(X), Y)]$$
 - Tune on [Emperical Risk](Emperical%20Risk.md) instead using [Optimizers](Optimizers.md)
 - $\mathcal{H}$ is hypothesis space (related to [Fitting](Fitting.md)).
@@ -31,8 +31,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Expectation $E_{retrain}[\hat h(x)]$ . aka taken over ALL possible training runs with sampled data
 - [Quadratic Loss](Quadratic%20Loss.md) (risk) is minimized by the function $$\Delta(x) = E_{Y|X=x}[Y]$$
 	- Expectation of Y given x.
-- ![im](images/Pasted%20image%2020220315232708.png)
-- ![im](images/Pasted%20image%2020220315232721.png)
+- ![im](Pasted%20image%2020220315232708.png)
+- ![im](Pasted%20image%2020220315232721.png)
 - Bias measures how strongly the avg result deviates from optimal value
 - Variance measures how strongly the results vary around the expected value $E_{retrain}$
 - When flexibility is too low -> bias dominates(too good in train and horrible later) and underfits

@@ -13,6 +13,6 @@ date created: Monday 30th October 2023, Mon
 ## Dexter Energy
 - jordan@dexterenergy.ai
 - Jordan Cantlow
-- ![](images/Pasted%20image%2020231030122604.png)
+- ![](Pasted%20image%2020231030122604.png)
 
 - [Klue ML Engineer](Klue%20ML%20Engineer)

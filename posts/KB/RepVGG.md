@@ -22,7 +22,7 @@ categories: ['temp']
 	- identity and 1 \times 1 branches, but only for training
 	- [ImageNet](ImageNet.md)
 	- higher accuracy and show favorable accuracy-speed trade-off compared to the state-of-the-art models like [EfficientNet](EfficientNet.md) and [RegNet](RegNet.md)
-	- ![repvgg](images/repvgg.jpg)
+	- ![repvgg](repvgg.jpg)
 
 
 

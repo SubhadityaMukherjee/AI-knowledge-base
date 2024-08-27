@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # AutoEncoder
-- ![im](images/Pasted%20image%2020220310204652.png)
+- ![im](Pasted%20image%2020220310204652.png)
 - Regression by predicting a reconstruction of the data
 - Encoder $$E : \mathscr{X} \rightarrow \mathscr{F}$$
 - Decoder $$\mathscr{F} \rightarrow \mathscr{D}$$

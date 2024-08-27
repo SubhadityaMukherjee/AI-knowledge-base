@@ -26,7 +26,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Transfer performance in downstream tasks outperforms supervised pre-training and shows promising scaling behavior
 - semantics
 - Occurs by way of a rich hidden representation inside the MAE
-- ![Pasted%20image%2020220620163007](images/Pasted%20image%2020220620163007.jpg)
+- ![Pasted%20image%2020220620163007](Pasted%20image%2020220620163007.jpg)
 
 
 

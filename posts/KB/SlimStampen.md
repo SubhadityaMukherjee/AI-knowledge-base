@@ -99,10 +99,10 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Alternatively, the system could suggest the lesson that would yield the largest learning gain at the moment a student decides to start a session
 
 ## Pictures
-- ![Pasted%20image%2020221014162825](images/Pasted%20image%2020221014162825.png)
-- ![Pasted%20image%2020221014162918](images/Pasted%20image%2020221014162918.png)
-- ![Pasted%20image%2020221014162927](images/Pasted%20image%2020221014162927.png)
-- ![Pasted%20image%2020221014162855](images/Pasted%20image%2020221014162855.png)
+- ![Pasted%20image%2020221014162825](Pasted%20image%2020221014162825.png)
+- ![Pasted%20image%2020221014162918](Pasted%20image%2020221014162918.png)
+- ![Pasted%20image%2020221014162927](Pasted%20image%2020221014162927.png)
+- ![Pasted%20image%2020221014162855](Pasted%20image%2020221014162855.png)
 
 
 

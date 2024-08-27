@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 QUOTES
 
 - "Will you promise me that when you are sad, you'll think about the sky?" I don

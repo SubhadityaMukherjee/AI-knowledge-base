@@ -73,14 +73,14 @@ date created: Monday 27th February 2023, Mon
 - taking model average of models in the same basin does not disturb the performance
 
 ## Images
-- ![images/Pasted%20image%2020230306145203.png](images/Pasted%20image%2020230306145203.png)
-- ![images/Pasted%20image%2020230306145307.png](images/Pasted%20image%2020230306145307.png)
-- ![images/Pasted%20image%2020230306145327.png](images/Pasted%20image%2020230306145327.png)
-- ![images/Pasted%20image%2020230306145335.png](images/Pasted%20image%2020230306145335.png)
-- ![images/Pasted%20image%2020230306145355.png](images/Pasted%20image%2020230306145355.png)
-- ![images/Pasted%20image%2020230306145405.png](images/Pasted%20image%2020230306145405.png)
-- ![images/Pasted%20image%2020230306145416.png](images/Pasted%20image%2020230306145416.png)
-- ![images/Pasted%20image%2020230306145426.png](images/Pasted%20image%2020230306145426.png)
+- ![images/Pasted%20image%2020230306145203.png](Pasted%20image%2020230306145203.png)
+- ![images/Pasted%20image%2020230306145307.png](Pasted%20image%2020230306145307.png)
+- ![images/Pasted%20image%2020230306145327.png](Pasted%20image%2020230306145327.png)
+- ![images/Pasted%20image%2020230306145335.png](Pasted%20image%2020230306145335.png)
+- ![images/Pasted%20image%2020230306145355.png](Pasted%20image%2020230306145355.png)
+- ![images/Pasted%20image%2020230306145405.png](Pasted%20image%2020230306145405.png)
+- ![images/Pasted%20image%2020230306145416.png](Pasted%20image%2020230306145416.png)
+- ![images/Pasted%20image%2020230306145426.png](Pasted%20image%2020230306145426.png)
 
 
 

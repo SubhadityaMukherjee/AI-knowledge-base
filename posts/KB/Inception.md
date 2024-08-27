@@ -19,7 +19,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- without dilation
 	- padding $p = (k-1)/2p$
 	- since $out = in +2p -k +1$
-- ![im](images/Pasted%20image%2020220306120214.png)
+- ![im](Pasted%20image%2020220306120214.png)
 
 ### V2/V3
 - nxn [Conv](Conv.md) -> 1xn followed by nx1 [Conv](Conv.md)
@@ -27,7 +27,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - More filters (wider)
 - Distributed the computational budget in a balanced way between the depth and width of the network
 - Added [Batch Normalization](Batch%20Normalization.md)
-- ![im](images/Pasted%20image%2020220306121513.png)
+- ![im](Pasted%20image%2020220306121513.png)
 
 ## V4
 - ([from](https://publish.obsidian.md/fabian-groeger/Machine+Learning+%26+Deep+Learning/Deep+Learning/Architectures/CNN/Inception-v4))

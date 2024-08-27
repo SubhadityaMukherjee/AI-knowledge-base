@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\frac{e^x-e^{-x}}{e^x+e^{-x}}$$
 - RNN : Hidden
 - Xavier/Glorot init
-- ![Pasted%20image%2020220626151651](images/Pasted%20image%2020220626151651.jpg)
+- ![Pasted%20image%2020220626151651](Pasted%20image%2020220626151651.jpg)
 
 
 

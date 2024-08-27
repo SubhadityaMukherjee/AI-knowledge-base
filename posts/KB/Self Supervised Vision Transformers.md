@@ -20,7 +20,7 @@ categories: ['temp']
 	- instability is a major issue that degrades accuracy, and it can be hidden by apparently good results
 	- improved when training is made more stable
 	- [MoCO](MoCO.md) v3, a framework which offers an incremental improvement of [MoCO](MoCO.md)
-	- ![moco3](images/moco3.jpg)
+	- ![moco3](moco3.jpg)
 
 
 

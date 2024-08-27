@@ -14,7 +14,7 @@ categories: ['robotics']
 - Salience and forgetting mechanisms can be used to bound the memory usage which are also useful for reducing the risk of overfitting to noise in the training set.
 - Overfitting
 - Sensitive to noise
-- ![images/Pasted%20image%2020221103123756.png](images/Pasted%20image%2020221103123756.png)
+- ![images/Pasted%20image%2020221103123756.png](Pasted%20image%2020221103123756.png)
 
 
 

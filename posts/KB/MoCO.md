@@ -28,8 +28,8 @@ categories: ['temp']
 - oldest mini-batch dequeued
 - slowly progressing encoder
 - momentum update with the query encoder
-- ![moco1](images/moco1.jpg)
-- ![moco2](images/moco2.jpg)
+- ![moco1](moco1.jpg)
+- ![moco2](moco2.jpg)
 
 
 

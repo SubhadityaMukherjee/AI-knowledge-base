@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # PCA
 - m dim affine hyperplace spanned by first m eigenvectors. Only manifolds and no codebook vectors
 - Be able to reconstruct x from f(x) : decoding function $$x \approx d \circ f(x)$$
-- ![im](images/Pasted%20image%2020220312115438.png)
+- ![im](Pasted%20image%2020220312115438.png)
 
 ## Steps
 

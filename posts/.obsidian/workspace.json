@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "5dd78662a39f5dec",
+    "type": "split",
+    "children": [
+      {
+        "id": "fabdd4c798b8980c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3837d555092c2ecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e704e8ccd134ef26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d35a7a4b91ef6577",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9670b76742f2a4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cf9f6c769dec040",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8cda056869eb8dac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#distribution",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bbe1d73b62ea7ea2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "19132e1d674293ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b9577c2dd036f12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a94daba44409c65",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a24904539dd9583e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "53b6e2a491ca5c6b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "post-medium-draft:Post Medium draft": false,
+      "templater-obsidian:Templater": false,
+      "tag-page-md:Refresh tag page": false
+    }
+  },
+  "active": "e704e8ccd134ef26",
+  "lastOpenFiles": [
+    "KB/Maximum Likelihood.md",
+    "images/Pasted image 20240827215213.png",
+    "KB/Negative Log Likelihood.md",
+    "images/Pasted image 20240827215145.png",
+    "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
+    "KB/Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
+    "KB/Log Likelihood Loss.md",
+    "KB/Log likelihood criterion.md",
+    "KB/Maximum likelihood criterion.md",
+    "images/Pasted image 20240827214812.png",
+    "images/Pasted image 20240827214708.png",
+    "images/Pasted image 20240827214633.png",
+    "images/Pasted image 20240827214256.png",
+    "KB/Beta Distribution.md",
+    "KB/Node Distribution.md",
+    "KB/Class Conditional distribution.md",
+    "KB/MLE.md",
+    "KB/quotes.md",
+    "loss_Tags.md",
+    "KB/loss.md",
+    "KB/ImageNet.md",
+    "KB/Width Efficiency of Neural Networks.md",
+    "KB/Depth Efficiency of Neural Networks.md",
+    "KB/Universal Approximation Theorem.md",
+    "- the price for making the width small is only a linear increase in the network depth for networks with ReLU activation.md",
+    "- Width Efficiency of Neural Networks.md",
+    "- Liang & Srikant (2016) show that for a broad class of functions, including univariate functions, shallow networks require exponentially more hidden units than deep networks for a given upper bound on the approximation error.md",
+    "KB/Shallow vs deep networks.md",
+    "KB/Composing shallow neural networks to get deep networks.md",
+    "KB/Relu.md",
+    "KB/Matrix notation for NNs.md",
+    "images/Pasted image 20240827210048.png",
+    "images/Pasted image 20240827205806.png",
+    "images/Pasted image 20240827204853.png",
+    "images/Pasted image 20240827204450.png",
+    "KB/Book Notes/Understanding Deep Learning/Chapter 1 mindmap.pdf",
+    "templates/page.html",
+    "templates",
+    "KB/Book Notes/Understanding Deep Learning",
+    "KB/Book Notes"
+  ]
+}

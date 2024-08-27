@@ -19,8 +19,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - finite number of neurons: you can do it without needing an infinite computer
 - approximate continuous functions: continuous functions are anything which dont have breaks/holes in between. This just says that it is possible to approximate the mapping which we talked about $\mathbb{R}$ is just the set of all real numbers
 - All this boils down to the fact that a neural network can approximate any complex relation given an input and an output.
-- ![im](images/Pasted%20image%2020220316173226.png)
-- ![im](images/Pasted%20image%2020220316173244.png)
+- ![im](Pasted%20image%2020220316173226.png)
+- ![im](Pasted%20image%2020220316173244.png)
 
 ## Refs
 - [mm](https://medium.com/hackernoon/illustrative-proof-of-universal-approximation-theorem-5845c02822f6)

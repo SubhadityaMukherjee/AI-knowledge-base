@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Uses [Token Embedding](Token%20Embedding.md)
 - [Self Supervised](Self%20Supervised.md)
 - Masked [language](language.md) modeling, next sentence prediction
-- ![im](images/Pasted%20image%2020220307183916.png)
+- ![im](Pasted%20image%2020220307183916.png)
 - [CLS] : start of classification task, [SEP] between sentences, [MASK] : masked token
 - [christianversloot](https://github.com/christianversloot/machine-learning-articles/blob/main/intuitive-introduction-to-bert.md) #[Roam-Highlights](Roam-Highlights)
     - BERT base $\text{BERT}_\text{BASE}$, which has 12 Encoder Segments stacked on top of each other, has 768-dimensional intermediate state, and utilizes 12 [attention](Attention.md) heads (with hence 768/12 = 64-dimensional [attention](Attention.md) heads).

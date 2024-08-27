@@ -13,7 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - s = 0,1,2..N
 - $N\choose s$ is binomial coefficient
 - $$X \sim Bi(N,s)$$
-- ![im](images/Pasted%20image%2020220319133401.png)
+- ![im](Pasted%20image%2020220319133401.png)
 
 
 

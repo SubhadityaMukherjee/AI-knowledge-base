@@ -61,10 +61,10 @@ $$
 		- $L_{map}$ is larger than the others, hence needs to be scaled
 
 ## Images
-- ![Pasted%20image%2020221005133615](images/Pasted%20image%2020221005133615.png)
-- ![Pasted%20image%2020221005133625](images/Pasted%20image%2020221005133625.png)
-- ![Pasted%20image%2020221005133646](images/Pasted%20image%2020221005133646.png)
-- ![Pasted%20image%2020221005142449](images/Pasted%20image%2020221005142449.png)
+- ![Pasted%20image%2020221005133615](Pasted%20image%2020221005133615.png)
+- ![Pasted%20image%2020221005133625](Pasted%20image%2020221005133625.png)
+- ![Pasted%20image%2020221005133646](Pasted%20image%2020221005133646.png)
+- ![Pasted%20image%2020221005142449](Pasted%20image%2020221005142449.png)
 
 
 

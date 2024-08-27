@@ -8,8 +8,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Basic [Transformer](Transformer.md)
-- ![im](images/Pasted%20image%2020220307183126.png)
-- ![Pasted%20image%2020220621164717](images/Pasted%20image%2020220621164717.jpg)
+- ![im](Pasted%20image%2020220307183126.png)
+- ![Pasted%20image%2020220621164717](Pasted%20image%2020220621164717.jpg)
 - Feed forward blocks, are two [Dense](Dense.md) MLPs with [Relu](Relu.md). Residual connections in between
 - Uses [Attention](Attention.md)
 - [Embedding](Embedding.md) [Layers](Layers.md) transform between 1 hot and vector rep

@@ -105,12 +105,12 @@ date created: Saturday, October 15th 2022, 10:08:53 am
 - we believe mouse tracking can serve as "the poor man's eye tracker," providing detailed indices of cognitive processing to laboratories that cannot afford expensive eye-tracking equipment.
 
 ## Pictures
-- ![Pasted%20image%2020221015110329](images/Pasted%20image%2020221015110329.png)
-- ![Pasted%20image%2020221015110344](images/Pasted%20image%2020221015110344.png)
-- ![Pasted%20image%2020221015110356](images/Pasted%20image%2020221015110356.png)
-- ![Pasted%20image%2020221015110410](images/Pasted%20image%2020221015110410.png)
-- ![Pasted%20image%2020221015110425](images/Pasted%20image%2020221015110425.png)
-- ![Pasted%20image%2020221015110438](images/Pasted%20image%2020221015110438.png)
+- ![Pasted%20image%2020221015110329](Pasted%20image%2020221015110329.png)
+- ![Pasted%20image%2020221015110344](Pasted%20image%2020221015110344.png)
+- ![Pasted%20image%2020221015110356](Pasted%20image%2020221015110356.png)
+- ![Pasted%20image%2020221015110410](Pasted%20image%2020221015110410.png)
+- ![Pasted%20image%2020221015110425](Pasted%20image%2020221015110425.png)
+- ![Pasted%20image%2020221015110438](Pasted%20image%2020221015110438.png)
 
 
 

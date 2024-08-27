@@ -19,7 +19,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- p = 2
 		- [Bayesian](Bayesian.md)
 		- Encourages optimization [trajectory](Trajectory.md) perpendicular to isocurves
-		- ![im](images/Pasted%20image%2020220306133032.png)
+		- ![im](Pasted%20image%2020220306133032.png)
 - Tune $$\lambda$$
 	- Grid search : log scale
 	- Too large : underfit, too small : overfit

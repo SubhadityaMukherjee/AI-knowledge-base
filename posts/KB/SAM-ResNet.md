@@ -31,10 +31,10 @@ date created: Thursday, October 6th 2022, 1:37:05 pm
 - omposed by 20, 000 images with corresponding saliency maps computed from mouse movements
 
 ## Images
-- ![images/Pasted%20image%2020230511124255.png](images/Pasted%20image%2020230511124255.png)
-- ![images/Pasted%20image%2020230511124302.png](images/Pasted%20image%2020230511124302.png)
-- ![images/Pasted%20image%2020230511124313.png](images/Pasted%20image%2020230511124313.png)
-- ![images/Pasted%20image%2020230511124321.png](images/Pasted%20image%2020230511124321.png)
+- ![images/Pasted%20image%2020230511124255.png](Pasted%20image%2020230511124255.png)
+- ![images/Pasted%20image%2020230511124302.png](Pasted%20image%2020230511124302.png)
+- ![images/Pasted%20image%2020230511124313.png](Pasted%20image%2020230511124313.png)
+- ![images/Pasted%20image%2020230511124321.png](Pasted%20image%2020230511124321.png)
 
 
 

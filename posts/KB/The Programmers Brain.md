@@ -12,6 +12,6 @@ date created: Wednesday 19th June 2024, Wed
 - reading complicated/new code
 	- chunking : words vs letters
 - Programmers to reproduce code
-	- ![](images/Pasted%20image%2020240619133802.png)
+	- ![](Pasted%20image%2020240619133802.png)
 	- experts rely on a bunch of things to "do well"
 

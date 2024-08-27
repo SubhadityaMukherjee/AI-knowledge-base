@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Hierarchical Edge Bundling
 - Exploit the hierarchical structure to bundle non-hierarchical edges visually together
 - conceptual similarity to bundling [streamlines](streamlines.md)
-- ![im](images/Pasted%20image%2020220418123656.png)
+- ![im](Pasted%20image%2020220418123656.png)
 
 
 

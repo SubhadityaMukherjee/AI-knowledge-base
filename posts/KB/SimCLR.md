@@ -28,7 +28,7 @@ categories: ['temp']
 	- head $g(\cdot)$
 	- encoder $f(\cdot)$
 	- representation $h$
-	- ![simclr](images/simclr.jpg)
+	- ![simclr](simclr.jpg)
 
 
 

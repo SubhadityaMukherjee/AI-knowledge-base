@@ -13,7 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Coordinate transform
 	- [CDF](CDF.md)
 	- Get a [Sampler](Sampler.md) for by $$X_{i} = \varphi^{-1}\circ U_{i}$$
-	- ![im](images/Pasted%20image%2020220324113838.png)
+	- ![im](Pasted%20image%2020220324113838.png)
 
 
 

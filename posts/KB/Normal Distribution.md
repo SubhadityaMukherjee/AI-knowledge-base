@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Normal Distribution
 - $$p(x) = \frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}$$
 - Mean $\mu$ and std $\sigma$. $\mu$ is max and $\mu \pm \sigma$ is locations of zeros of second derivative
-- ![im](images/Pasted%20image%2020220319144034.png)
+- ![im](Pasted%20image%2020220319144034.png)
 - $\mathcal{N}(0,1)$
 - [Central Limit Theorem](Central%20Limit%20Theorem.md)
 

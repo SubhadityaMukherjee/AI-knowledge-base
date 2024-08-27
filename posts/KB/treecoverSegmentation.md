@@ -13,13 +13,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Rotation
 	- Jiggling ??
 	- Labeling
-		- ![im](images/Pasted%20image%2020220318094643.png) Segmentation algorithm. Canopy hide model
+		- ![im](Pasted%20image%2020220318094643.png) Segmentation algorithm. Canopy hide model
 		- Weighted [loss](loss.md) + [Focal Loss](Focal%20Loss.md)
 
 ## 2d Methods
 - [Watershed](Watershed) + [Unet](Unet.md)
-- ![im](images/Pasted%20image%2020220318100323.png)
-- ![im](images/Pasted%20image%2020220318100634.png)
+- ![im](Pasted%20image%2020220318100323.png)
+- ![im](Pasted%20image%2020220318100634.png)
 	- $\Theta$ is just clippingpng]
 	- The sqrt makes it a little smoother
 

@@ -18,7 +18,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - which yields the lowerst misclassification rate or highest [Probability](Probability.md) of correct classification
 - $f_{i}$ be the [PDF](PDF.md) for [Class Conditional distribution](Class%20Conditional%20distribution.md)
 - [Probability](Probability.md) of obtaining a correct classification for $R_{i}$ is $$\Sigma_{i=1}^{k}P(X \in R_{i}, Y = c_{i})$$
-- ![im](images/Pasted%20image%2020220318161058.png)
+- ![im](Pasted%20image%2020220318161058.png)
 - This region has curved boundaries aka decision boundaries
 	- Folded and on higher dims : very complex and fragmented
 - x is a vector

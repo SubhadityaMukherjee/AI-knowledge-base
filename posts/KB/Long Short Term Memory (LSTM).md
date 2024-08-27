@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Long Short Term Memory (LSTM)
-- ![Pasted%20image%2020220621124622](images/Pasted%20image%2020220621124622.png)
+- ![Pasted%20image%2020220621124622](Pasted%20image%2020220621124622.png)
 - Smaller chance of exploding or vanishing #gradients
 - Better ability to model long term dependencies
 - Gated connections

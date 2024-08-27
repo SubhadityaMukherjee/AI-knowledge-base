@@ -11,7 +11,7 @@ date created: Sunday 12th February 2023, Sun
 
 
 -  Each capsule is a group of neurons that is sensitive to a specific feature of the input image
-- ![images/Pasted%20image%2020230212122522.png](images/Pasted%20image%2020230212122522.png)
+- ![images/Pasted%20image%2020230212122522.png](Pasted%20image%2020230212122522.png)
 - 
 
 

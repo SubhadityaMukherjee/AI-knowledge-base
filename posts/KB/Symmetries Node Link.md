@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Symmetries Node Link
-- ![im](images/Pasted%20image%2020220418123314.png)
+- ![im](Pasted%20image%2020220418123314.png)
 
 
 

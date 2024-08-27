@@ -8,7 +8,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Biological Neuron
-- ![Pasted%20image%2020220810154324](images/Pasted%20image%2020220810154324.png)
+- ![Pasted%20image%2020220810154324](Pasted%20image%2020220810154324.png)
 - ([from](https://publish.obsidian.md/fabian-groeger/Machine+Learning+%26+Deep+Learning/Deep+Learning/Architectures/ANN/Biological+Neuron))
 - composed of 
     - cell body

@@ -19,7 +19,7 @@ categories: ['temp']
 	- 1 indicates a strong positive relationship.
 	- -1 indicates a strong negative relationship.
 	- A result of zero indicates no relationship at all.
-	- ![Pasted%20image%2020220617141155](images/Pasted%20image%2020220617141155.png)
+	- ![Pasted%20image%2020220617141155](Pasted%20image%2020220617141155.png)
 
 
 

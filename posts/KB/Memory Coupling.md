@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Memory Coupling
-- ![im](images/Pasted%20image%2020220506151823.png)
+- ![im](Pasted%20image%2020220506151823.png)
 - [TIghtly coupled](TIghtly%20coupled.md)
 
 

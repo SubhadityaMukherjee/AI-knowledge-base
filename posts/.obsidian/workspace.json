@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e704e8ccd134ef26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
+                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md"
+                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md"
               }
             }
           }
@@ -146,13 +133,18 @@
       "tag-page-md:Refresh tag page": false
     }
   },
-  "active": "e704e8ccd134ef26",
+  "active": "3837d555092c2ecb",
   "lastOpenFiles": [
+    "KB/explainability.md",
+    "KB/GradCAM++.md",
+    "KB/Back Propamine.md",
+    "KB/Thesis Flow.md",
+    "KB/Salience Map.md",
+    "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
     "KB/Maximum Likelihood.md",
     "images/Pasted image 20240827215213.png",
     "KB/Negative Log Likelihood.md",
     "images/Pasted image 20240827215145.png",
-    "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
     "KB/Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
     "KB/Log Likelihood Loss.md",
     "KB/Log likelihood criterion.md",
@@ -175,10 +167,6 @@
     "- the price for making the width small is only a linear increase in the network depth for networks with ReLU activation.md",
     "- Width Efficiency of Neural Networks.md",
     "- Liang & Srikant (2016) show that for a broad class of functions, including univariate functions, shallow networks require exponentially more hidden units than deep networks for a given upper bound on the approximation error.md",
-    "KB/Shallow vs deep networks.md",
-    "KB/Composing shallow neural networks to get deep networks.md",
-    "KB/Relu.md",
-    "KB/Matrix notation for NNs.md",
     "images/Pasted image 20240827210048.png",
     "images/Pasted image 20240827205806.png",
     "images/Pasted image 20240827204853.png",

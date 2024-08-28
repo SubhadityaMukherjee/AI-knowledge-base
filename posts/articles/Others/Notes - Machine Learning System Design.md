@@ -72,7 +72,7 @@ Of course, this is more of a short primer rather than a comprehensive guide. Fut
 
 This article is in the hopes that it will help someone out. Maybe have the help that I did not. I do not know who it will reach. But to whoever it does, best of luck :)
 
-You can contact me on [LinkedIn](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100), drop me an [Email](mailto:msubhaditya@gmail.com)
+You can contact me on [LinkedIn](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100), drop me an [[mailto:msubhaditya@gmail.com|Email]]
 
 
 

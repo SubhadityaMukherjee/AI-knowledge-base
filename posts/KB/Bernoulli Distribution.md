@@ -8,8 +8,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Bernoulli Distribution
 - Only two possible outcomes
-- [PMF](PMF.md.md) : $$Pr(y|\lambda) = \begin{cases} 1-\lambda, & \text{for i = 1} \\ \lambda,& \text{for i =2} \end{cases} = (1-\lambda)^{1-y} \cdot \lambda^{y}$$
+- [[PMF.md|PMF]] : $$Pr(y|\lambda) = \begin{cases} 1-\lambda, & \text{for i = 1} \\ \lambda,& \text{for i =2} \end{cases} = (1-\lambda)^{1-y} \cdot \lambda^{y}$$
 - Given : Data - ${x_{1}, .., x_{N}}$ and $x_{i} \in {s_{1}, s_{2}}$ then $$\hat q = \frac{1}{N}|\{i|x_{i}= s_{2}\}$$
 
-- ![Pasted image 20240828101652](Pasted%20image%2020240828101652.png)
+- ![[Pasted image 20240828101652.png]]
 

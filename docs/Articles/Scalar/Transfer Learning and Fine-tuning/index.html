@@ -10478,6 +10478,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/CvT/" class="md-nav__link">
         
   
@@ -12226,6 +12247,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -26081,6 +26123,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28648,6 +28711,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -44466,7 +44550,7 @@ date created: </p>
 :::section{.main}</li>
 </ul>
 <h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h3>
-<p>Transfer Learning is useful for smaller datasets and can be considered an intelligent weight <a href="../../Initialization.md.md">initialization</a> scheme. Instead of randomly initializing the weights of the model like we usually do, we obtain weights from a model trained on a larger dataset. Any company/individual with the funds can train a larger model and make its weights public. After doing so, we can train these models on any other similar dataset much faster than before. 
+<p>Transfer Learning is useful for smaller datasets and can be considered an intelligent weight <a href="../../../../Initialization.md">initialization</a> scheme. Instead of randomly initializing the weights of the model like we usually do, we obtain weights from a model trained on a larger dataset. Any company/individual with the funds can train a larger model and make its weights public. After doing so, we can train these models on any other similar dataset much faster than before. 
 This article explores the concept of Transfer Learning by creating a network that can identify ten different classes from the <strong>CIFAR10</strong> dataset by fine-tuning a model pre-trained on the <strong>ImageNet</strong> dataset (1000 classes). </p>
 <h3 id="transfer-learning">Transfer Learning<a class="headerlink" href="#transfer-learning" title="Permanent link">&para;</a></h3>
 <p>In a DL pipeline, Transfer Learning is usually done when the data available is too less to train a network properly. The general approach for a Transfer Learning workflow is as follows.
@@ -44518,21 +44602,21 @@ train_dataset = train_dataset.cache().batch(bs).prefetch(buffer_size=10)
 validation_dataset = validation_dataset.cache().batch(bs).prefetch(buffer_size=10)
 test_dataset = test_dataset.cache().batch(bs).prefetch(buffer_size=10)
 </code></pre>
-<p>This article uses an <strong><a href="../../Xception.md">Xception.md|../../Xception|Xception</a></strong> model pre-trained on the ImageNet dataset and applied to images 150x150x3 in size. The important point is to exclude the pre-trained model's final classification layer. This final layer is just for classification, and we only care about the layers before it.</p>
+<p>This article uses an <strong><a href="../../../../Xception">Xception</a></strong> model pre-trained on the ImageNet dataset and applied to images 150x150x3 in size. The important point is to exclude the pre-trained model's final classification layer. This final layer is just for classification, and we only care about the layers before it.</p>
 <pre><code class="language-python">model_pretrained = keras.applications.Xception(
     weights=&quot;imagenet&quot;, 
     input_shape=(150, 150, 3),
     include_top=False,
 )
 </code></pre>
-<p>The <a href="../../Xception.md">Xception.md|../../Xception|Xception</a> model architecture is shown here.
+<p>The <a href="../../../../Xception">Xception</a> model architecture is shown here.
 [IMAGE {2} arch START SAMPLE]
 <img alt="arch" src="https://hackmd.io/_uploads/Hygq2Q4qi.png" />
 [IMAGE {2} FINISH SAMPLE]</p>
 <h4 id="fine-tuning">Fine-Tuning<a class="headerlink" href="#fine-tuning" title="Permanent link">&para;</a></h4>
 <p>Now, we freeze the layers of the model we just loaded by setting the trainable parameter to False.
 After that, we create a model on top of the frozen layers and apply the data augmentations we defined.
-The <a href="../../Xception.md">Xception.md|../../Xception|Xception</a> model's caveat is that it defines the inputs are scaled from the original range of (0,255) to the range of (-1.0, 1.0). We perform this rescaling using the <strong>Rescaling</strong> layer as follows.</p>
+The <a href="../../../../Xception">Xception</a> model's caveat is that it defines the inputs are scaled from the original range of (0,255) to the range of (-1.0, 1.0). We perform this rescaling using the <strong>Rescaling</strong> layer as follows.</p>
 <pre><code class="language-python">model_pretrained.trainable = False
 
 inputs = keras.Input(shape=(150, 150, 3))
@@ -44542,7 +44626,7 @@ x = aug_transforms(inputs)
 x = rescale_layer(x)
 </code></pre>
 <h4 id="unfreeze-the-top-layers-of-the-model">Unfreeze the top layers of the model<a class="headerlink" href="#unfreeze-the-top-layers-of-the-model" title="Permanent link">&para;</a></h4>
-<p>The [Xception] model also contains Batch Normalization layers that should not be trained when the model is unfrozen. To make sure this is the case, we disable the training mode. We also apply a <strong>GlobalAveragePooling</strong> followed by <strong><a href="../../Xception.md">../../Dropout|Dropout.md|../../Xception|Xception</a></strong> layers to improve performance further. Global Average Pooling is an alternative to the Fully Connected layer (FC) that preserves spatial information better. Since our pre-trained model uses different data, these layers are useful here. The final layer is an FC layer for a binary classification task. </p>
+<p>The <a href="../../../../Xception.md">../../Xception.md</a>** layers to improve performance further. Global Average Pooling is an alternative to the Fully Connected layer (FC) that preserves spatial information better. Since our pre-trained model uses different data, these layers are useful here. The final layer is an FC layer for a binary classification task. </p>
 <pre><code class="language-python">x = model_pretrained(x, training=False)
 x = keras.layers.GlobalAveragePooling2D()(x)
 x = keras.layers.Dropout(0.2)(x) 

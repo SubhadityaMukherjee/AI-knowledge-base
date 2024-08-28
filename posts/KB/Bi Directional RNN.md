@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Not causal
 - Looks at the forward timestep dimension and also the backward
 	- Both combined to make a prediction
-- ![im](Pasted%20image%2020220307171243.png)
+- ![[Pasted image 20220307171243.png|im]]
 
 
 

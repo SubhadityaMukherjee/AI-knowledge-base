@@ -10350,6 +10350,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../CvT/" class="md-nav__link">
         
   
@@ -12098,6 +12119,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -25953,6 +25995,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28520,6 +28583,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -44189,10 +44273,10 @@
 
   <h1>Attention Alignment</h1>
 
-<h2 id="attention-alignment"><a href="Attention.md.md">Attention</a> Alignment<a class="headerlink" href="#attention-alignment" title="Permanent link">&para;</a></h2>
+<h2 id="attention-alignment"><a href="../Attention/">Attention</a> Alignment<a class="headerlink" href="#attention-alignment" title="Permanent link">&para;</a></h2>
 <ul>
 <li>If there are sequences <span class="arithmatex">\(x, y\)</span><ul>
-<li>Encoder is any <a href="Recurrent.md.md">Recurrent</a> with a forward state <span class="arithmatex">\(<span class="arithmatex">\(\overrightarrow h^{T}\)</span>\)</span> and <span class="arithmatex">\(<span class="arithmatex">\(\overleftarrow h^{T}\)</span>\)</span> for backward</li>
+<li>Encoder is any <a href="../Recurrent/">Recurrent</a> with a forward state <span class="arithmatex">\(<span class="arithmatex">\(\overrightarrow h^{T}\)</span>\)</span> and <span class="arithmatex">\(<span class="arithmatex">\(\overleftarrow h^{T}\)</span>\)</span> for backward</li>
 <li>Concat them represents the preceding and following word annotations<ul>
 <li><span class="arithmatex">\(<span class="arithmatex">\(h_{i}= [\overrightarrow h_{i}^{T}; \overleftarrow h_{i}^{T}]\)</span>\)</span>, <span class="arithmatex">\(i = 1, …, n\)</span></li>
 <li>Decoder has hidden state <span class="arithmatex">\(s_{t}= f(s_{t-1}, y_{t-1}, c_{t})\)</span> for the output word at position t for <span class="arithmatex">\(t = 1, …, m\)</span><ul>
@@ -44204,7 +44288,7 @@
 <li>
 <div class="arithmatex">\[\alpha_{t,i} = align(y_{t}, x_{i})\]</div>
 </li>
-<li>Taking <a href="Softmax.md.md">softmax</a><ul>
+<li>Taking <a href="../Softmax/">softmax</a><ul>
 <li>
 <div class="arithmatex">\[\frac{exp(score(s_{t-1}, h_{i}))}{\Sigma_{i'-1}^{n}exp(score(s_{t-1}, h_{i}'))}\]</div>
 </li>
@@ -44219,12 +44303,12 @@
 <li>
 <div class="arithmatex">\[f_{att}(h_{i}, s_{j}) = v_{a}^{T}tanh(W_{a}[h_{i};s_{j}])\]</div>
 </li>
-<li><span class="arithmatex">\(v_{a}\)</span> and <span class="arithmatex">\(W_{a}\)</span> are the learned <a href="Attention.md.md">Attention</a> params</li>
+<li><span class="arithmatex">\(v_{a}\)</span> and <span class="arithmatex">\(W_{a}\)</span> are the learned <a href="../Attention/">Attention</a> params</li>
 <li><span class="arithmatex">\(h\)</span> is the hidden state for the encoder</li>
 <li><span class="arithmatex">\(s\)</span> is the hidden state for the decoder</li>
 <li>Matrix of alignment<ul>
-<li><img alt="Pasted image 20220621170423" src="../../images/Pasted%20image%2020220621170423.png" /></li>
-<li>Final scores calculated with a <a href="Softmax.md.md">Softmax</a></li>
+<li><img alt="Pasted image 20220621170423.png" src="../../images/Pasted%20image%2020220621170423.png" /></li>
+<li>Final scores calculated with a <a href="../Softmax/">Softmax</a></li>
 </ul>
 </li>
 </ul>

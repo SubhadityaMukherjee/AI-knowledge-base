@@ -7,11 +7,11 @@ categories: ["article"]
 date modified: 
 date created: 
 ---
-# Implementing DCGAN to generate [CIFAR.md|../../CIFAR|CIFAR](../../CIFAR.md) images
+# Implementing DCGAN to generate [[../../CIFAR.md|CIFAR.md|../../CIFAR|CIFAR]] images
 
 ## What are we building?
-Creating novel images is one of the strengths of Generative Adversarial Networks (GANs). In this article, we will build a DCGAN for image generation using the [CIFAR.md|../../CIFAR|CIFAR](../../CIFAR.md) dataset. The DCGAN is a type of GAN that builds upon the Vanilla GAN and addresses some of its issues. The DCGAN is a good choice if the image data size is larger than 28x28. This network also leads to fewer chances of a mode collapse and is thus a better network than a standard GAN. 
-Here, we want the network to create realistic images to resemble any of the ten classes of the [CIFAR.md|../../CIFAR|CIFAR](../../CIFAR.md) dataset. We will create the DCGAN from scratch using PyTorch, train it and write scripts to generate our images. 
+Creating novel images is one of the strengths of Generative Adversarial Networks (GANs). In this article, we will build a DCGAN for image generation using the [[../../CIFAR.md|CIFAR.md|../../CIFAR|CIFAR]] dataset. The DCGAN is a type of GAN that builds upon the Vanilla GAN and addresses some of its issues. The DCGAN is a good choice if the image data size is larger than 28x28. This network also leads to fewer chances of a mode collapse and is thus a better network than a standard GAN. 
+Here, we want the network to create realistic images to resemble any of the ten classes of the [[../../CIFAR.md|CIFAR.md|../../CIFAR|CIFAR]] dataset. We will create the DCGAN from scratch using PyTorch, train it and write scripts to generate our images. 
 
 ### What are DGANs
 Researchers created the Vanilla GAN architecture to generate images in an unsupervised manner from image datasets. But this GAN had quite a few flaws that impacted its training. DCGANs are a modification of the Vanilla GAN architecture. The implementation of the Discriminator and Generator is configured to tackle some of the issues of the original GAN. Some of the changes are as follows. 
@@ -59,8 +59,8 @@ import matplotlib.pyplot as plt
 cudnn.benchmark = True
 ```
 
-## Implementing DCGAN to generate [CIFAR.md|../../CIFAR|CIFAR](../../CIFAR.md) images 
-We can now move on to the main DCGAN image generation process. To generate the images, we need to create a DataLoader, load the [CIFAR.md|../../CIFAR|CIFAR](../../CIFAR.md) images,  preprocess them, and send batches of this data to the GPU memory. We also need to create the network architecture and initialize the weights of its components. This network also needs to be sent to the GPU memory. 
+## Implementing DCGAN to generate [[../../CIFAR.md|CIFAR.md|../../CIFAR|CIFAR]] images 
+We can now move on to the main DCGAN image generation process. To generate the images, we need to create a DataLoader, load the [[../../CIFAR.md|CIFAR.md|../../CIFAR|CIFAR]] images,  preprocess them, and send batches of this data to the GPU memory. We also need to create the network architecture and initialize the weights of its components. This network also needs to be sent to the GPU memory. 
 After these initial steps have been completed, we can finally train the network and generate new images. 
 
 The DCGAN architecture is similar to many other GAN architectures and consists of a Generator and a Discriminator. The Generator is responsible for creating photo-realistic images from random noise to fool the Discriminator. On the other hand, the Discriminator takes the outputs of the Generator and returns the probability that the generated image is real. The Generator uses this probability to improve its generation capabilities by training the model.
@@ -117,8 +117,8 @@ plt.imshow(np.transpose(vutils.make_grid(single_batch[0].to(current_device)[:64]
 As we can see, the dataset comprises ten classes of images from which we plot a random sample.
 
 ### Defining the Discriminator
-The Discriminator in the DCGAN is responsible for classifying the images returned by the Generator as real or fake. Architecturally, the Discriminator is almost a mirror of the Generator with minor differences. The Discriminator uses a **[Strided.md|../../Strided|Strided](../../Strided.md) Convolution** and a **LeakyReLU** along with **Batch Normalization layers**. The final layer is a Sigmoid layer that returns the probability we want. 
-For DCGAN image generation, the Discriminator uses [Strided.md|../../Strided|Strided](../../Strided.md) Convolutions instead of Pooling layers. This choice allows the network to learn custom padding functions that, in turn, improve performance.
+The Discriminator in the DCGAN is responsible for classifying the images returned by the Generator as real or fake. Architecturally, the Discriminator is almost a mirror of the Generator with minor differences. The Discriminator uses a **[[../../Strided.md|Strided.md|../../Strided|Strided]] Convolution** and a **LeakyReLU** along with **Batch Normalization layers**. The final layer is a Sigmoid layer that returns the probability we want. 
+For DCGAN image generation, the Discriminator uses [[../../Strided.md|Strided.md|../../Strided|Strided]] Convolutions instead of Pooling layers. This choice allows the network to learn custom padding functions that, in turn, improve performance.
 
 ```python 
 ngpu = 1

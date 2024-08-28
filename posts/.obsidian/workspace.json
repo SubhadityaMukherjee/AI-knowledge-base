@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4df2f2b6ce4ca2d7",
+        "id": "56cfedb3157295fa",
         "type": "tabs",
         "children": [
           {
-            "id": "52c6607b9253cd48",
+            "id": "1d64f28d167ebf12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KB/Autoregressive.md",
+                "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#distribution",
+                "query": "distributions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KB/Autoregressive.md",
+                "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,11 +108,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KB/Autoregressive.md"
+                "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md"
+              }
+            }
+          },
+          {
+            "id": "7f7e667c7608f0e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -121,56 +139,115 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "markdown-importer:Open format converter": true,
       "post-medium-draft:Post Medium draft": false,
-      "templater-obsidian:Templater": false,
-      "tag-page-md:Refresh tag page": false
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "52c6607b9253cd48",
+  "floating": {
+    "id": "55477f838b7879ba",
+    "type": "floating",
+    "children": [
+      {
+        "id": "164aef704dd401af",
+        "type": "window",
+        "children": [
+          {
+            "id": "839fb3168915c32d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f4dbaf1701e9689c",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.8975434402469307,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 600,
+        "y": 80,
+        "width": 600,
+        "height": 897,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "1d64f28d167ebf12",
   "lastOpenFiles": [
-    "KB/augment.md",
-    "KB/architecture.md",
-    "KB/Aphasia.md",
-    "KB/CutMix.md",
-    "KB/Autoregressive.md",
-    "KB/Contrastive Predictive Coding.md",
-    "KB/DALL-E.md",
+    "KB/Swish.md",
+    "KB/Relu.md",
+    "KB/Sparsity.md",
+    "KB/ADE20K.md",
+    "KB/ACT-R Chunk.md",
+    "KB/Accessibility.md",
+    "KB/A voting-based system for ethical decision making.md",
+    "KB/A matter of ambiguity? Using eye movements to examine collective vs distributive interpretations of plural sets.md",
+    "KB/8 bit character set.md",
+    "KB/2 byte character set.md",
     "Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
     "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
-    "KB/Van Mises distribution.md",
+    "Book Notes/Understanding Deep Learning/Chapter 1.md",
+    "index.md",
+    "KB/Image Mixing and Deletion.md",
+    "KB/CutMix.md",
+    "KB/Cutout].md",
+    "KB/SaliencyMix.md",
+    "KB/augment.md",
+    "KB/A survey on Image Data Augmentation for Deep Learning.md",
+    "KB/Noise Injection.md",
+    "KB/Regularization.md",
+    "KB/A declarative modular framework for representing and applying ethical principles.md",
+    "KB/2 X 2 Study.md",
+    "KB/Moral Machine project.md",
+    "KB/Moral Machine project.md.md",
+    "images/Pasted image 20240828112456.png",
     "images/Pasted image 20240828105807 1.png",
     "images/Pasted image 20240828105807.png",
-    "KB/Focal Loss.md",
-    "KB/Quantile Regression.md",
-    "KB/Quantile loss.md",
     "images/Pasted image 20240828105646.png",
-    "KB/Robust regression.md",
-    "KB/Laplace Distribution.md",
     "images/Pasted image 20240828105230.png",
-    "index.md",
-    "KB/heteroscedastic nonlinear regression.md",
-    "KB/Loss for multiclass classification.md",
-    "Book Notes/Understanding Deep Learning/Chapter 1.md",
-    "Book Notes/Understanding Deep Learning/index.md",
-    "KB/Cross Entropy.md",
     "images/Pasted image 20240828102230.png",
     "images/Pasted image 20240828102220.png",
     "images/Pasted image 20240828102204.png",
     "images/Pasted image 20240828102117.png",
     "images/Pasted image 20240828102053.png",
-    "images/Pasted image 20240828102028.png",
-    "KB/Softmax.md",
-    "KB/Categorical Distribution.md",
-    "KB/Loss for binary classification.md",
-    "KB/Sigmoid.md",
-    "KB/Bernoulli Distribution.md",
     "KB/Book Notes/Understanding Deep Learning/Chapter 1 mindmap.pdf",
     "templates/page.html",
     "templates",

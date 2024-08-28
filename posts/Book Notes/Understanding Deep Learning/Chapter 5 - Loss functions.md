@@ -14,6 +14,9 @@ date created: Tuesday 27th August 2024, Tue
 - A large list of useful loss functions can be found if you search for loss on the KB
 - A loss function or cost function L[φ] returns a single number that describes the mismatch between the model predictions f[xi, φ] and their corresponding ground-truth outputs $y_i$
 
+## Distributions
+- ![[../../images/Pasted image 20240828112456.png]]
+
 ## Maximum likelihood
 ### [Log Likelihood Loss](Log%20Likelihood%20Loss.md)
 ### [Maximum Likelihood](Maximum%20Likelihood.md)
@@ -27,6 +30,11 @@ date created: Tuesday 27th August 2024, Tue
 
 ### [Loss for multiclass classification](Loss%20for%20multiclass%20classification.md)
 
+- Difference between the distributions : [[../../KB/KL Divergence|KL Divergence]] or [[../../KB/Cross Entropy|Cross Entropy]]
+
+### For multimodal
+- Fusion loss
+- Multiple attention heads : backprop from heads
 ## Other notes
 - [heteroscedastic nonlinear regression](heteroscedastic%20nonlinear%20regression.md)
 - [Robust regression](Robust%20regression.md)

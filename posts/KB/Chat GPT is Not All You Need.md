@@ -12,46 +12,46 @@ date created: Monday 29th May 2023, Mon
 
 - @gozalo-brizuelaChatGPTNotAll2023
 
-- [DALL·E 2](DALL·E%202.md.md)
+- [[DALL·E 2.md|DALL·E 2]]
 
-- [CLIP](CLIP.md.md)
+- [[CLIP.md|CLIP]]
 
-- [Stable Difusion](Stable%20Difusion.md.md)
+- [[Stable Difusion.md|Stable Difusion]]
 
-- [Muse](Muse.md.md)
+- [[Muse.md|Muse]]
 
-- [Dreamfusion](Dreamfusion.md.md)
+- [[Dreamfusion.md|Dreamfusion]]
 
-- [Magic3D](Magic3D.md.md)
+- [[Magic3D.md|Magic3D]]
 
-- [Flamingo](Flamingo.md.md)
+- [[Flamingo.md|Flamingo]]
 
-- [VisualGPT](VisualGPT.md.md)
+- [[VisualGPT.md|VisualGPT]]
 
-- [Phenaki](Phenaki.md.md)
+- [[Phenaki.md|Phenaki]]
 
-- [Soundify](Soundify.md.md)
+- [[Soundify.md|Soundify]]
 
-- [AudioLM](AudioLM.md.md)
+- [[AudioLM.md|AudioLM]]
 
-- [Jukebox](Jukebox.md.md)
+- [[Jukebox.md|Jukebox]]
 
-- [Whisper](Whisper.md.md)
+- [[Whisper.md|Whisper]]
 
-- [ChatGPT](ChatGPT.md.md)
+- [[ChatGPT.md|ChatGPT]]
 
-- [LaMDA](LaMDA.md.md)
+- [[LaMDA.md|LaMDA]]
 
-- [PEER](PEER.md.md)
+- [[PEER.md|PEER]]
 
-- [Meta AI Speech from Brain](Meta%20AI%20Speech%20from%20Brain.md.md)
+- [[Meta AI Speech from Brain.md|Meta AI Speech from Brain]]
 
-- [Codex](Codex.md.md)
+- [[Codex.md|Codex]]
 
-- [Alphacode](Alphacode.md.md)
+- [[Alphacode.md|Alphacode]]
 
-- [Galactica](Galactica.md.md)
+- [[Galactica.md|Galactica]]
 
-- [Minerva](Minerva.md.md)
+- [[Minerva.md|Minerva]]
 
-- [Imagen](Imagen.md.md)
+- [[Imagen.md|Imagen]]

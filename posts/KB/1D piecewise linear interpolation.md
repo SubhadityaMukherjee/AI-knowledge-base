@@ -6,10 +6,10 @@ date modified: Monday, October 10th 2022, 2:02:35 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# 1D Piecewise Linear [Interpolation](Interpolation.md.md)
+# 1D Piecewise Linear [[Interpolation.md|Interpolation]]
 
-# 1D Piecewise Linear [Interpolation](Interpolation.md.md)
-- ![im](Pasted%20image%2020220411124653.png)
+# 1D Piecewise Linear [[Interpolation.md|Interpolation]]
+- ![[Pasted image 20220411124653.png|im]]
 
 
 

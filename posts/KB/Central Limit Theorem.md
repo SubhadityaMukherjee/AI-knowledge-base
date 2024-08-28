@@ -7,8 +7,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Central Limit Theorem
-- When random effects of many independant small sized causes sum up to large scale observable effects : one gets the [Normal Distribution](Normal%20Distribution.md.md)
-- Let $(X_{i})_{i\in N}$ is a seq of independant, real valued, [(X_{i}- E[X_{i}](X_{i}-%20E[X_{i})%20=%20E%5B%5BX_%7Bi%7D-%20E%5BX_%7Bi%7D) $P_{S_{n}}$ of standardized sum variables converge weakly to $\mathscr{N}(0,1|[Square Integrable]$ . $$S_{n}= \frac{\Sigma_{i= 1}^{n}(X_{i}- E[X_{i}])}{\sigma(\Sigma^{n}_{i=1}X_{i})}$$
+- When random effects of many independant small sized causes sum up to large scale observable effects : one gets the [[Normal Distribution.md|Normal Distribution]]
+- Let $(X_{i})_{i\in N}$ is a seq of independant, real valued, [[X_{i}- E[X_{i}](X_{i}- E[X_{i}|(X_{i}- E[X_{i}]]%20=%20E%5B%5BX_%7Bi%7D-%20E%5BX_%7Bi%7D) $P_{S_{n}}$ of standardized sum variables converge weakly to $\mathscr{N}(0,1|[Square Integrable]$ . $$S_{n}= \frac{\Sigma_{i= 1}^{n}(X_{i}- E[X_{i}])}{\sigma(\Sigma^{n}_{i=1}X_{i})}$$
 	- Converge weakly : $$lim_{n\rightarrow\infty}\int f(x)P_{n}(dx) = \int f(x)P(dx)$$ for all $f: \mathbb{R} \rightarrow \mathbb{R}$
 	- Lebesgue Integrals
 

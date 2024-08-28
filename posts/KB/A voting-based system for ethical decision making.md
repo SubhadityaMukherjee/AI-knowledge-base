@@ -11,7 +11,7 @@ date created: Wednesday, January 18th 2023, 4:11:00 pm
 
 
 - Ritesh Noothigattu, Snehalkumar ‘Neil’ S. Gaikwad, Edmond Awad, Sohan Dsouza, Iyad Rahwan, Pradeep Ravikumar, and Ariel D. Procaccia
-- voting-based system for autonomous entities to make collective ethical decisions leverages data collected from the [Moral Machine project](Moral%20Machine%20project.md.md)
+- voting-based system for autonomous entities to make collective ethical decisions leverages data collected from the [[Moral Machine project.md|Moral Machine project]]
 - Self reported preference over different outcomes under diverse ethical dilemmas are used to learn models of preference for the human voters over different alternative outcomes.
 - individual models are then summarized to form a model that approximates the collective preference of all voters
 

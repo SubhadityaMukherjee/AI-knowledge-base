@@ -10350,6 +10350,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../CvT/" class="md-nav__link">
         
   
@@ -12098,6 +12119,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -25953,6 +25995,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28520,6 +28583,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -44192,20 +44276,20 @@
 <h2 id="bert">BERT<a class="headerlink" href="#bert" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Bidirectional Encoder rep from transformers</li>
-<li>Uses <a href="Token%20Embedding.md.md">Token Embedding</a></li>
-<li><a href="Self%20Supervised.md.md">Self Supervised</a></li>
-<li>Masked <a href="language.md.md">language</a> modeling, next sentence prediction</li>
+<li>Uses <a href="../Token%20Embedding/">Token Embedding</a></li>
+<li><a href="../Self%20Supervised/">Self Supervised</a></li>
+<li>Masked <a href="../language/">language</a> modeling, next sentence prediction</li>
 <li><img alt="im" src="../../images/Pasted%20image%2020220307183916.png" /></li>
 <li>[CLS] : start of classification task, [SEP] between sentences, [MASK] : masked token</li>
 <li>
-<p><a href="https://github.com/christianversloot/machine-learning-articles/blob/main/intuitive-introduction-to-bert.md">christianversloot</a> #<a href="Roam-Highlights">Roam-Highlights</a></p>
+<p><a href="https://github.com/christianversloot/machine-learning-articles/blob/main/intuitive-introduction-to-bert.md">christianversloot</a> #[[Roam-Highlights]]</p>
 <ul>
-<li>BERT base <span class="arithmatex">\(\text{BERT}_\text{BASE}\)</span>, which has 12 Encoder Segments stacked on top of each other, has 768-dimensional intermediate state, and utilizes 12 <a href="Attention.md.md">attention</a> heads (with hence 768/12 = 64-dimensional <a href="Attention.md.md">attention</a> heads).</li>
-<li>BERT large (<span class="arithmatex">\(\text{BERT}_\text{LARGE}\)</span>), which has 24 Encoder Segments, 1024-dimensional intermediate state, and 16 <a href="Attention.md.md">attention</a> heads (64-dimensional <a href="Attention.md.md">attention</a> heads again).</li>
+<li>BERT base <span class="arithmatex">\(\text{BERT}_\text{BASE}\)</span>, which has 12 Encoder Segments stacked on top of each other, has 768-dimensional intermediate state, and utilizes 12 <a href="../Attention/">attention</a> heads (with hence 768/12 = 64-dimensional <a href="../Attention/">attention</a> heads).</li>
+<li>BERT large (<span class="arithmatex">\(\text{BERT}_\text{LARGE}\)</span>), which has 24 Encoder Segments, 1024-dimensional intermediate state, and 16 <a href="../Attention/">attention</a> heads (64-dimensional <a href="../Attention/">attention</a> heads again).</li>
 <li>BERT utilizes the encoder segment, meaning that it outputs some vectors <span class="arithmatex">\(T_i\)</span> for every token. The first vector, <span class="arithmatex">\(T_0\)</span>, is also called <span class="arithmatex">\(C\)</span> in the BERT paper: it is the "class vector" that contains sentence-level information (or in the case of multiple sentences, information about the sentence pair). All other vectors are vectors representing information about the specific token.</li>
 <li>In other words, structuring BERT this way allows us to perform sentence-level tasks and token-level tasks. If we use BERT and want to work with sentence-level information, we build on top of the <span class="arithmatex">\(C\)</span> token.</li>
 <li>
-<p><a href="Masked%20Language%20Modeling.md.md">Masked Language Modeling</a></p>
+<p><a href="../Masked%20Language%20Modeling/">Masked Language Modeling</a></p>
 </li>
 <li>
 <p>Next Sentence Prediction (NSP)</p>
@@ -44214,8 +44298,8 @@
 <li>Constructing a training dataset for this task is simple: given an unlabeled corpus, we take a phrase, and take the next one for the 50% of cases where BERT has a next sentence. We take another phase at random given A for the 50% where this is not the case (Devlin et al., 2018). This way, we can construct a dataset where there is a 50/50 split between 'is next' and 'is not next' sentences.</li>
 </ul>
 </li>
-<li><a href="BooksCorpus.md.md">BooksCorpus</a></li>
-<li><a href="English%20Wikipedia.md.md">English Wikipedia</a></li>
+<li><a href="../BooksCorpus/">BooksCorpus</a></li>
+<li><a href="../English%20Wikipedia/">English Wikipedia</a></li>
 <li>It thus does not matter whether your downstream task involves single text or text pairs: BERT can handle it.<ul>
 <li>Sentence pairs in paraphrasing tasks.</li>
 <li>Hypothesis-premise pairs in textual entailment tasks.</li>

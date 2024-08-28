@@ -10679,6 +10679,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/CvT/" class="md-nav__link">
         
   
@@ -12427,6 +12448,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -26282,6 +26324,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28849,6 +28912,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -44857,7 +44941,7 @@ date created: </p>
 <h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h3>
 <p>The field of computer vision has been trying to create AI that creates never seen before images for decades. Generative networks such as the CycleGAN are part of a long line of such research, but one that performs extremely well in tasks ranging from converting images to paintings to changing the weather in images. The CycleGAN is rather different from many approaches before it as it is an unpaired Image2Image translation task with these tasks being cyclic in nature. In this article, we will explore what all these terms mean and how to put them into practise in a CycleGAN.</p>
 <h3 id="disclaimer">Disclaimer<a class="headerlink" href="#disclaimer" title="Permanent link">&para;</a></h3>
-<p>This is an intermediate level article and introduces a significant number of new terms. Attempting to understand this article is not recommended before mastering how a <a href="../../Basic%20GAN.md">basic GAN.md|../../Basic GAN|basic GAN</a> (eg: DCGAN) works.
+<p>This is an intermediate level article and introduces a significant number of new terms. Attempting to understand this article is not recommended before mastering how a <a href="../../../../Basic GAN">basic GAN</a> (eg: DCGAN) works.
 Being so complex, it is advised to slow down and understand a section before moving on to the next.
 :::
 :::section{.scope}</p>
@@ -44890,7 +44974,7 @@ This type of training is called adversarial training. Using a second opinion to 
 <h4 id="discriminator">Discriminator<a class="headerlink" href="#discriminator" title="Permanent link">&para;</a></h4>
 <p>Consequently, the discriminator is the “cop”. It is essentially a classifier that returns a metric of how fake the image looks. </p>
 <h4 id="encoder-decoder-architecture">Encoder Decoder Architecture<a class="headerlink" href="#encoder-decoder-architecture" title="Permanent link">&para;</a></h4>
-<p>Many networks such as the UNet and GANs have a two sided architecture that involves <a href="../../Downsampling.md">downsampling.md|../../Downsampling|downsampling</a> the image until a point and then upsampling from there on. The Encoder is the first half which downsamples the image and condenses the information in a batch of data down into the smallest possible unit. 
+<p>Many networks such as the UNet and GANs have a two sided architecture that involves <a href="../../../../Downsampling">downsampling</a> the image until a point and then upsampling from there on. The Encoder is the first half which downsamples the image and condenses the information in a batch of data down into the smallest possible unit. 
 The decoder does the opposite, it takes this smallest possible unit and attempts to recreate the original input. In the process, it learns how to traverse the latent space and create the required translation. </p>
 <h4 id="residual-block">Residual Block<a class="headerlink" href="#residual-block" title="Permanent link">&para;</a></h4>
 <p>The Encoder Decoder architecture has a major drawback, in the process of compressing the image information and reconstructing it, a lot of information is lost during the operations. The Residual Block is the answer to this dilemma. It essentially contains a “Skip Connection” that ensures that the gradients from the previous layer are carried over to the next layer. 

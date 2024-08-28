@@ -12,20 +12,20 @@ date created: Monday, November 14th 2022, 1:05:21 pm
 
 - Explain human behavior
 - Manual Control
-	- [Motor Cortex](Motor%20Cortex.md)
+	- [[Motor Cortex.md|Motor Cortex]]
 - Visual Perception
-	- [Visual Cortex](Visual%20Cortex.md.md)
+	- [[Visual Cortex.md|Visual Cortex]]
 - Problem State
-	- [Parietal lobe](Parietal%20lobe.md.md)
+	- [[Parietal lobe.md|Parietal lobe]]
 	- Store intermediate results
-- [Declarative memory](Declarative%20memory.md.md)
+- [[Declarative memory.md|Declarative memory]]
 	
 - Perception
 - Control State
-	- [Anterior Cingulate](Anterior%20Cingulate.md)
+	- [[Anterior Cingulate.md|Anterior Cingulate]]
 	- Keep track of goals
 	- What? How far?
-- [Time perception](Time%20perception.md)
+- [[Time perception.md|Time perception]]
 - Ideas always get reinforced if retrieve
 
 

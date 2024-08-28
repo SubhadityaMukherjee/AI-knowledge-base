@@ -17,7 +17,7 @@ date created: Wednesday, October 5th 2022, 12:58:22 pm
 - Hence, assuming that the region of the object in the image is known in advance and is given as a binary region of interest (ROI) mask, the goal is to classify the object in this region using a convolutional neural net.
 - This goal is achieved using a standard image classification net with the addition of a side branch, which converts the ROI mask into an attention map. This map is then combined with the image classification net
 - focus the attention on the object region while still extracting contextual cues from the background
-- [COCO](COCO.md.md)
+- [[COCO.md|COCO]]
 - OpenSurfaces materials dataset
 
 ## Network
@@ -44,7 +44,7 @@ date created: Wednesday, October 5th 2022, 12:58:22 pm
 - Generating several attention maps and merging them with multiple layers of the net gave the same or worse results than generating a single attention map and merging it with the first layer
 
 ## Images
-- ![Pasted image 20221005125850](Pasted%20image%2020221005125850.png)
+- ![[Pasted image 20221005125850.png]]
 
 
 

@@ -1672,9 +1672,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#latent-dirichlet-allocation-ldamdldalda" class="md-nav__link">
+  <a href="#latent-dirichlet-allocation-lda" class="md-nav__link">
     <span class="md-ellipsis">
-      Latent Dirichlet Allocation (LDA.md|../../LDA|LDA)
+      Latent Dirichlet Allocation (LDA)
     </span>
   </a>
   
@@ -10514,6 +10514,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/CvT/" class="md-nav__link">
         
   
@@ -12262,6 +12283,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -26117,6 +26159,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28684,6 +28747,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -44426,9 +44510,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#latent-dirichlet-allocation-ldamdldalda" class="md-nav__link">
+  <a href="#latent-dirichlet-allocation-lda" class="md-nav__link">
     <span class="md-ellipsis">
-      Latent Dirichlet Allocation (LDA.md|../../LDA|LDA)
+      Latent Dirichlet Allocation (LDA)
     </span>
   </a>
   
@@ -44525,7 +44609,7 @@ date created: </p>
 <h2 id="differences-between-discriminative-and-generative-models">Differences between Discriminative and Generative models<a class="headerlink" href="#differences-between-discriminative-and-generative-models" title="Permanent link">&para;</a></h2>
 <p>:::section{.abstract}</p>
 <h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h3>
-<p>Machine learning models can be broadly classified into discriminative and generative. Discriminative models, such as logistic regression, support vector machines, and decision [trees], learn to model boundaries around classes in a dataset and estimate the conditional probability of the target variable given the data. On the other hand, generative models, such as latent Dirichlet allocation, Bayesian networks, and hidden Markov models, create new data points by estimating the joint probability distribution of the data and the target variable. Generative models are often used for unsupervised tasks, such as topic modelling and <a href="../../Trees.md">../../Dimensionality Reduction|dimensionality reduction.md|../../Trees|trees</a>, while discriminative models are more commonly used for classification and regression.
+<p>Machine learning models can be broadly classified into discriminative and generative. Discriminative models, such as logistic regression, support vector machines, and decision <a href="../../../../Trees.md">trees</a>, while discriminative models are more commonly used for classification and regression.
 :::
 :::section{.scope}</p>
 <h3 id="scope">Scope<a class="headerlink" href="#scope" title="Permanent link">&para;</a></h3>
@@ -44554,7 +44638,7 @@ The following equation can mathematically represent Logistic Regression.
 <span class="arithmatex">\(<span class="arithmatex">\(log[\frac{y}{1-y}] = b_0 + b_1 x_1 + b_2 x_2 + … + b_n x_n\)</span>\)</span></p>
 <p>Considering the difference between Generative and Discriminative models is important in understanding why these models are Discriminative.</p>
 <h4 id="support-vector-machine">Support Vector Machine<a class="headerlink" href="#support-vector-machine" title="Permanent link">&para;</a></h4>
-<p>A Support Vector Machine (SVM) is a supervised classification and regression algorithm that uses the concept of <strong>hyperplanes</strong>. These hyperplanes can be understood as <strong>multi-dimensional linear <a href="../../Decision%20Boundaries.md">decision boundaries.md|../../Decision Boundaries|decision boundaries</a></strong> that separate groups of unequal data points. 
+<p>A Support Vector Machine (SVM) is a supervised classification and regression algorithm that uses the concept of <strong>hyperplanes</strong>. These hyperplanes can be understood as <strong>multi-dimensional linear <a href="../../../../Decision Boundaries">decision boundaries</a></strong> that separate groups of unequal data points. 
 An example of a hyperplane is shown below.</p>
 <p>[IMAGE {2 } { SVM } START SAMPLE]
 <img alt="SVM" src="https://hackmd.io/_uploads/rkOvSQPFs.png" />
@@ -44562,8 +44646,8 @@ An example of a hyperplane is shown below.</p>
 <p>An optimal fit of the SVM occurs when a hyperplane is furthest from the training data points of any of the classes—the larger this distance margin, the lower the error of the classifier. 
 To better understand how the SVM works, consider a group of data points like the one shown in the diagram. It is a good fit if the hyperplane separates the points in the space so they are clustered according to their labels. If not, further iterations of the algorithm are performed. </p>
 <h4 id="decision-tree">Decision Tree<a class="headerlink" href="#decision-tree" title="Permanent link">&para;</a></h4>
-<p>Decision <a href="../../Trees.md">trees.md|../../Trees|trees</a> are tree-based decision models that use an internal structure of a <strong>root node</strong> followed by successive child <strong>leaf nodes</strong>. The leaf nodes are a placeholder for the classification label, and the branches show the outcomes of the decision. The paths from the tree's root to the leaves represent the classifier rules. Each tree and sub-tree models a single decision and enumerates all the possible decisions to choose the best one.
-A Decision tree can be optimal if it represents most of the data with the least number of levels. Decision [trees] are helpful for classification but can be extended for Regression using different algorithms. These <a href="../../Trees.md">../../Trees|trees.md|../../Trees|trees</a> are computationally efficient, and many tree-based optimizations have been created over the years to make them perform even faster.
+<p>Decision <a href="../../../../Trees">trees</a> are tree-based decision models that use an internal structure of a <strong>root node</strong> followed by successive child <strong>leaf nodes</strong>. The leaf nodes are a placeholder for the classification label, and the branches show the outcomes of the decision. The paths from the tree's root to the leaves represent the classifier rules. Each tree and sub-tree models a single decision and enumerates all the possible decisions to choose the best one.
+A Decision tree can be optimal if it represents most of the data with the least number of levels. Decision <a href="../../../../Trees.md">trees</a> are computationally efficient, and many tree-based optimizations have been created over the years to make them perform even faster.
 An example of such a tree is shown below. 
 [IMAGE {3 } { Decision Tree } START SAMPLE]
 <img alt="Decision Tree" src="https://hackmd.io/_uploads/SJxhur7PYi.png" />
@@ -44572,14 +44656,14 @@ An example of such a tree is shown below.
 <p>[IMAGE {4 } { Random Forest } START SAMPLE]
 <img alt="Random Forest" src="https://hackmd.io/_uploads/S1wFBmPYo.png" />
 [IMAGE { 4} FINISH SAMPLE]</p>
-<p>Random Forest models use a forest of Decision [Trees] to make better decisions by combining each tree's decisions. The most popular decision across the <a href="../../Trees.md">../../Trees|trees.md|../../Trees|Trees</a> for a task is the best after the aggregation. This technique of aggregating multiple results from similar processes is called <strong>Ensembling</strong>. 
+<p>Random Forest models use a forest of Decision <a href="../../../../Trees.md">../../Trees.md</a> for a task is the best after the aggregation. This technique of aggregating multiple results from similar processes is called <strong>Ensembling</strong>. 
 The second component of the Random Forest pertains to another technique called <strong>Bagging</strong>. Bagging differs from Ensembling because, in Bagging, the data is different for every model, while in Ensembling, the different models are run on the same data. In Bagging, a random sample with replacement is chosen multiple times to create a data sample. These data samples are then used to train the model independently. After training all these models, the majority vote is taken to find a better estimate of the data.
 Random forests combine the concepts of Bagging and Ensembling to decide the best feature splits and select subsets of the same. This algorithm is better than using a single Decision Tree as it reduces bias and the net variance, generating better predictions.</p>
 <p>Bagging and Ensembling might seem like they help model the joint probability distribution, but that is not the case. Understanding the difference between Generative and Discriminative models can clear this confusion.</p>
 <h3 id="generative-models">Generative Models<a class="headerlink" href="#generative-models" title="Permanent link">&para;</a></h3>
 <p>Generative Models are a family of models that create new data points. They are generally used for unsupervised tasks. Generative Models use the joint probability distribution <span class="arithmatex">\(P(X, Y)\)</span> on a variable X and a target variable Y to model the data and perform inference by estimating the probability of the new data point belonging to any given class.</p>
-<h4 id="latent-dirichlet-allocation-ldamdldalda">Latent Dirichlet Allocation (<a href="../../LDA.md">LDA.md|../../LDA|LDA</a>)<a class="headerlink" href="#latent-dirichlet-allocation-ldamdldalda" title="Permanent link">&para;</a></h4>
-<p>[LDA] models aim to accurately estimate the classwise mean and variance of the data points in a given dataset. After calculating these statistics, [../../LDA|LDA] makes predictions by estimating the probability of the new class belonging to any of the classes in the original data. In ML, [../../LDA|LDA] models are used for <strong>topic modelling and discovery</strong>. [../../LDA|LDA] is similar to [../../PCA|PCA] in that it also performs a [../../Dimensionality Reduction|dimensionality reduction]. But unlike [../../PCA|PCA], <a href="../../LDA.md">../../LDA|LDA.md|../../LDA|LDA</a> maximizes the class separation and not the variance of the data.
+<h4 id="latent-dirichlet-allocation-lda">Latent Dirichlet Allocation (<a href="../../../../LDA">LDA</a>)<a class="headerlink" href="#latent-dirichlet-allocation-lda" title="Permanent link">&para;</a></h4>
+<p><a href="../../../../LDA.md">../../LDA.md</a> maximizes the class separation and not the variance of the data.
 This principle is illustrated in the figure below.</p>
 <p>[IMAGE {5 } { LDA } START SAMPLE]
 <img alt="LDA" src="https://hackmd.io/_uploads/rk4oHXPFi.png" />

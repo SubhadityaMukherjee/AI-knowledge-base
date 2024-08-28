@@ -7,9 +7,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # BrainWave Coherence
-- [Correlation](Correlation.md.md) in the frequency domain
+- [[Correlation.md|Correlation]] in the frequency domain
 - Unlike synchronization, this also depends on signal amplitude
-- ![im](Pasted%20image%2020220502162442.png)
+- ![[Pasted image 20220502162442.png|im]]
 	- coherence vs freq
 	- decent coherence between CZ and O1
 	- O1 and PZ has little coherence

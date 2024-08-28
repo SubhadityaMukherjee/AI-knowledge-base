@@ -12,10 +12,10 @@ date created: Saturday, December 3rd 2022, 5:10:11 pm
   ```
   
   * Tim Miller∗ and Piers Howe† and Liz Sonenberg
-- [@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences](@Explainable%20AI:%20Beware%20of%20Inmates%20Running%20the%20Asylum%20Or:%20How%20I%20Learnt%20to%20Stop%20Worrying%20and%20Love%20the%20Social%20and%20Behavioural%20Sciences.md)
+- [[@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences.md|@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences]]
 
 ## TL;DR
-- Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because [XAI](XAI.md.md) is meant for people and not programmers.
+- Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because [[XAI.md|XAI]] is meant for people and not programmers.
 
 ## Abstract
 

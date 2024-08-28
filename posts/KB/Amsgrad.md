@@ -10,7 +10,7 @@ date created: Thursday 11th May 2023, Thu
 # Amsgrad
 
 
-## Modified [Adam](Adam.md.md)
+## Modified [[Adam.md|Adam]]
 - By analyzing the proof of convergence for the Adam optimizer, they spotted a mistake in the update rule that could cause the algorithm to converge to a sub-optimal point
 - update rule of Adam
 ```python

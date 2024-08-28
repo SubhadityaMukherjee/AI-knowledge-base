@@ -9,7 +9,7 @@ date created: Monday, December 5th 2022, 1:34:40 pm
 
 # Cogntition Hazard Rates
 
-- {Proven wrong} : [Cognitive fMTP](Cognitive%20fMTP.md.md)
+- {Proven wrong} : [[Cognitive fMTP.md|Cognitive fMTP]]
 - Mathematical construct about probability
 - Continuously tracking the odds the event appeads rn given it has not happened yet
 - Idea : Use this "hazard rate" to decide when to prepare
@@ -20,7 +20,7 @@ date created: Monday, December 5th 2022, 1:34:40 pm
 - Constant, exponential, flipped exponential
 - Hazard rate is this pdf by 1-F
 - $$h(t) = \frac{f(t)}{1-F(t)}$$
-- ![Pasted%20image%2020221205133945.png](Pasted%20image%2020221205133945.png)
+- ![[Pasted image 20221205133945.png|Pasted%20image%2020221205133945.png]]
 
 ## Hazard Rates
 - How does that translate to RT?
@@ -28,8 +28,8 @@ date created: Monday, December 5th 2022, 1:34:40 pm
 	- $RT = c- h(t)$ : linear effect
 	- $RT = c+ \frac{1}{h(t)}$ : inverse relation
 - dashed : $\frac{1}{hazard}$
-- ![Pasted%20image%2020221205134112.png](Pasted%20image%2020221205134112.png)
-- ![Pasted%20image%2020221205133656.png](Pasted%20image%2020221205133656.png)
+- ![[Pasted image 20221205134112.png|Pasted%20image%2020221205134112.png]]
+- ![[Pasted image 20221205133656.png|Pasted%20image%2020221205133656.png]]
 
 ## Vs ACT-R
  - Prepare for ‘the right moment’  
@@ -37,10 +37,10 @@ date created: Monday, December 5th 2022, 1:34:40 pm
 - ‘the right moment’ is estimated based on time (pulses) and memory (DM)  
 	- No ‘time’, no explicit memory?  
 - If we are prepared→ benefit, else cost  
-	- [Scaled benefits](Scaled%20benefits.md.md) (useful for assignment)
+	- [[Scaled benefits.md|Scaled benefits]] (useful for assignment)
 	- Does not specify why/how; i.e., what preparation is  
 - No active process during the interval  
-	- [Active tracking](Active%20tracking.md.md)
+	- [[Active tracking.md|Active tracking]]
 - Once we are prepared, it doesn’t ‘go away’  
 	- A by-product of the Hazard rate
 - No memory model  
@@ -56,14 +56,14 @@ date created: Monday, December 5th 2022, 1:34:40 pm
 	- Does not keep track of time as well
 - Subjective hazard/ anticipation function
 	- Temporal uncertainty
-	- Blur the pdf such that later points are less certain using a [Gaussian filter](Gaussian%20filter.md.md) that gets wider for later points in time
+	- Blur the pdf such that later points are less certain using a [[Gaussian filter.md|Gaussian filter]] that gets wider for later points in time
 	- $$f'(t) = \frac{1}{\theta t \sqrt{2 \pi}} \int_{-\infty}^{\infty}f(\tau)e^{-\frac{(r-t)^{2}}{2 \theta^{2}t^{2}}}d \tau$$
 	- Climb to 1 after a while
 	- Hazard is more even though probs are equal in classical. This equates them and makes them less blurred out
-	- ![Pasted%20image%2020221205140951.png](Pasted%20image%2020221205140951.png)
+	- ![[Pasted image 20221205140951.png|Pasted%20image%2020221205140951.png]]
 
 ## Images
-- ![Pasted%20image%2020221205133708.png](Pasted%20image%2020221205133708.png)
+- ![[Pasted image 20221205133708.png|Pasted%20image%2020221205133708.png]]
 
 
 

@@ -233,7 +233,7 @@ eval_ds = PairedDataset(
 
 ### Neural Network Architecture 
 We can create the architecture that we described above in a few steps. 
-First, we create a function that creates blocks of Convolutions, Batch Normalisation, and ReLU with different input and output channels. We give this function the option of having a [Dropout.md|../../Dropout|Dropout](../../Dropout.md) layer at the end or skipping that layer.
+First, we create a function that creates blocks of Convolutions, Batch Normalisation, and ReLU with different input and output channels. We give this function the option of having a [[../../Dropout.md|Dropout.md|../../Dropout|Dropout]] layer at the end or skipping that layer.
 We also create another function that generates blocks of FC layers followed by ReLU layers.
 We can use these functions to create the Sequential model that defines the Siamese Network. After creating the CNN part of the architecture using the functions we defined earlier, we have to create the FC part of the network. Note that different padding and kernel sizes are used across the network. 
 The FC part of the network is blocks of Linear layers followed by ReLU activations. 
@@ -401,7 +401,7 @@ for i, data in enumerate(dl_eval, 0):
 
     eucledian_distance = F.pairwise_distance(out1, out2)
     print(label)
-    if label == torch.FloatTensor([0](0.md)):
+    if label == torch.FloatTensor([[0.md|0]]):
         label = "Original Pair Of Signature"
     else:
         label = "Forged Pair Of Signature"

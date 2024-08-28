@@ -10350,6 +10350,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../CvT/" class="md-nav__link">
         
   
@@ -12098,6 +12119,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -25953,6 +25995,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28520,6 +28583,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -44191,20 +44275,20 @@
 
 <h2 id="albert">ALBERT<a class="headerlink" href="#albert" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Lite <a href="BERT.md.md">BERT</a></li>
-<li><img alt="Pasted image 20220625231702" src="../../images/Pasted%20image%2020220625231702.png" /></li>
-<li><a href="https://github.com/christianversloot/machine-learning-articles/blob/main/albert-explained-a-lite-bert.md">blog</a> #<a href="Roam-Highlights">Roam-Highlights</a></li>
-<li>perhaps even better when scaled to the same number of parameters as <a href="BERT.md.md">BERT</a></li>
-<li><a href="Factorized%20Embedding%20Parameters.md.md">Factorized Embedding Parameters</a></li>
-<li><a href="cross-layer%20parameter%20sharing.md.md">cross-layer parameter sharing</a></li>
-<li><a href="inter-sentence%20coherence%20loss.md.md">inter-sentence coherence loss</a></li>
-<li>We can see that the ALBERT base model attempts to mimic <a href="BERT.md.md">BERT</a> base, with a hidden state size of 768, parameter sharing and a smaller <a href="Embedding.md.md">embedding</a> size due to factorization explained above. Contrary to the 108 million parameters, it has only 12 million. This makes a big difference when training the model.</li>
-<li>Another model, ALBERT xxlarge (extra-extra large) has 235 million parameters, with 12 encoder segments, 4096-dimensional hidden state and 128-dimensional <a href="Embedding.md.md">embedding</a> size. It also includes parameter sharing.</li>
-<li><a href="GLUE.md.md">GLUE</a></li>
-<li><a href="SQuAD.md.md">SQuAD</a></li>
-<li><a href="RACE.md.md">RACE</a></li>
-<li>For <a href="Factorized%20Embedding%20Parameters.md.md">Factorized Embedding Parameters</a>, the authors report good performance. Both the case where cross-layer parameters were not shared and where they were, are reported. Without sharing, larger <a href="Embedding.md.md">embedding</a> sizes give better performance. With sharing, performance boosts satisfy at an <a href="Embedding.md.md">embedding</a> size of 128 dimensions. That's why the 128-size embeddings were used in the table above.</li>
-<li>For <a href="cross-layer%20parameter%20sharing.md.md">cross-layer parameter sharing</a>, the authors looked at not performing cross-layer sharing, performing cross-layer sharing for the feedforward segments only, performing sharing for the <a href="Attention.md.md">attention</a> segments, and performing sharing for all subsegments. It turns out that sharing the parameters for the <a href="Attention.md.md">attention</a> segments is most effective, while sharing the feedforward segment parameters does not contribute significantly. This clearly illustrates the important role of the <a href="Attention.md.md">attention</a> mechanism in <a href="Transformer.md.md">Transformer</a> models. Because, however, all-segment sharing significantly decreases the number of parameters, at only slightly worse performance compared to <a href="Attention.md.md">attention</a>-only sharing, the authors to perform all-segment sharing instead.</li>
+<li>Lite <a href="../BERT/">BERT</a></li>
+<li><img alt="Pasted image 20220625231702.png" src="../../images/Pasted%20image%2020220625231702.png" /></li>
+<li><a href="https://github.com/christianversloot/machine-learning-articles/blob/main/albert-explained-a-lite-bert.md">blog</a> #[[Roam-Highlights]]</li>
+<li>perhaps even better when scaled to the same number of parameters as <a href="../BERT/">BERT</a></li>
+<li><a href="../Factorized%20Embedding%20Parameters/">Factorized Embedding Parameters</a></li>
+<li><a href="../cross-layer%20parameter%20sharing/">cross-layer parameter sharing</a></li>
+<li><a href="../inter-sentence%20coherence%20loss/">inter-sentence coherence loss</a></li>
+<li>We can see that the ALBERT base model attempts to mimic <a href="../BERT/">BERT</a> base, with a hidden state size of 768, parameter sharing and a smaller <a href="../Embedding/">embedding</a> size due to factorization explained above. Contrary to the 108 million parameters, it has only 12 million. This makes a big difference when training the model.</li>
+<li>Another model, ALBERT xxlarge (extra-extra large) has 235 million parameters, with 12 encoder segments, 4096-dimensional hidden state and 128-dimensional <a href="../Embedding/">embedding</a> size. It also includes parameter sharing.</li>
+<li><a href="../GLUE/">GLUE</a></li>
+<li><a href="../SQuAD/">SQuAD</a></li>
+<li><a href="../RACE/">RACE</a></li>
+<li>For <a href="../Factorized%20Embedding%20Parameters/">Factorized Embedding Parameters</a>, the authors report good performance. Both the case where cross-layer parameters were not shared and where they were, are reported. Without sharing, larger <a href="../Embedding/">embedding</a> sizes give better performance. With sharing, performance boosts satisfy at an <a href="../Embedding/">embedding</a> size of 128 dimensions. That's why the 128-size embeddings were used in the table above.</li>
+<li>For <a href="../cross-layer%20parameter%20sharing/">cross-layer parameter sharing</a>, the authors looked at not performing cross-layer sharing, performing cross-layer sharing for the feedforward segments only, performing sharing for the <a href="../Attention/">attention</a> segments, and performing sharing for all subsegments. It turns out that sharing the parameters for the <a href="../Attention/">attention</a> segments is most effective, while sharing the feedforward segment parameters does not contribute significantly. This clearly illustrates the important role of the <a href="../Attention/">attention</a> mechanism in <a href="../Transformer/">Transformer</a> models. Because, however, all-segment sharing significantly decreases the number of parameters, at only slightly worse performance compared to <a href="../Attention/">attention</a>-only sharing, the authors to perform all-segment sharing instead.</li>
 <li>For the SOP task, we can read that if NSP is performed on a SOP task, performance is poor. NSP on NSP of course performs well, as well as SOP on SOP. However, if SOP is performed on NSP, it performs really well. This suggests that SOP actually captures sentence coherence whereas NSP might not, and that SOP yields a better result than NSP.</li>
 </ul>
 

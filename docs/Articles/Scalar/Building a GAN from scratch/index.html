@@ -10598,6 +10598,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/CvT/" class="md-nav__link">
         
   
@@ -12346,6 +12367,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -26201,6 +26243,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28768,6 +28831,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -44729,7 +44813,7 @@ date created: </p>
 <p>The Generator can be considered a network that takes a random noise and then arranges the pixels to make it look like a real image. It is also a simple neural network composed of blocks of fully connected linear layers (FC) and Leaky ReLU activations. In the final layer of the Generator, the LeakyReLU is replaced by a Tanh activation. The Tanh activation is chosen as we do not want probabilities but want to take the generated image and squish it to the range of (-1,1). This range is the range of the MNIST data images.</p>
 <h4 id="discriminator">Discriminator<a class="headerlink" href="#discriminator" title="Permanent link">&para;</a></h4>
 <p>The second part of the network is the Discriminator, whose job is to take the images that the Generator creates and return the probability that the image is real. 
-The Discriminator is a binary classifier and comprises blocks of fully connected linear layers (FC), Leaky ReLU activations, and <a href="../../Dropout.md">Dropout.md|../../Dropout|Dropout</a> layers. The final layer of the Discriminator is a block with an FC layer and a Sigmoid at the end. The Sigmoid is responsible for returning the classification probability that we want.</p>
+The Discriminator is a binary classifier and comprises blocks of fully connected linear layers (FC), Leaky ReLU activations, and <a href="../../../../Dropout">Dropout</a> layers. The final layer of the Discriminator is a block with an FC layer and a Sigmoid at the end. The Sigmoid is responsible for returning the classification probability that we want.</p>
 <h3 id="demystifying-the-loss-function">Demystifying the loss function<a class="headerlink" href="#demystifying-the-loss-function" title="Permanent link">&para;</a></h3>
 <p>Loss functions are an essential part of any neural network pipeline. Before we learn how to make a Generative Adversarial Network, we first need to understand the loss functions.</p>
 <h4 id="discriminator-loss">Discriminator loss<a class="headerlink" href="#discriminator-loss" title="Permanent link">&para;</a></h4>
@@ -44746,7 +44830,7 @@ Mathematically, this can be represented as <span class="arithmatex">\(<span clas
 <h4 id="heuristic-loss">Heuristic loss<a class="headerlink" href="#heuristic-loss" title="Permanent link">&para;</a></h4>
 <p>Another aspect of knowing how to make a Generative Adversarial Network is understanding heuristics. These heuristics are not part of any network directly but are training guidelines that work for most GANs. (Any GAN created before 2016, at least.)
 We can use these heuristics to ensure stable reductions in the loss landscape, which is key to training a Generative Adversarial Network well.
-- If the network has any pooling layers, they can be replaced with [Strided] convolutions in the Discriminator and fractionally <a href="../../Strided.md">../../Strided|Strided.md|../../Strided|Strided</a> convolutions in the Generator.
+- If the network has any pooling layers, they can be replaced with <a href="../../../../Strided.md">../../Strided.md</a> convolutions in the Generator.
 - We can use Batch Normalization layers in the Generator and the Discriminator.
 - If the architecture is deep, we should remove FC layers for better performance.
 - As for activations, the ReLU activation should be used for all the layers. The only exception is the output layer, where a TanH activation should be used.</p>
@@ -44766,7 +44850,7 @@ After the initial set-up is completed, we can train the network and generate our
 <pre><code class="language-python">from __future__ import print_function, division
 
 from keras.datasets import mnist
-from keras.layers import Input, Dense, Reshape, Flatten, [Dropout.md|../../Dropout|Dropout](../../Dropout.md)
+from keras.layers import Input, Dense, Reshape, Flatten, [Dropout](&lt;../../../../Dropout&gt;)
 from keras.layers import BatchNormalization, Activation, ZeroPadding2D
 from keras.layers import LeakyReLU
 from keras.layers.convolutional import UpSampling2D, Conv2D

@@ -13,7 +13,7 @@ date created: Tuesday 7th February 2023, Tue
 - Some tasks are harder than others due to noise and high dimensionality
 - Another task can help the model to learn a shared feature that is harder to learn with a single task alone.
 - helps models focus into the most important features
-- Consequence of [augment](augment.md.md) 
+- Consequence of [[augment.md|augment]] 
 
 
 

@@ -31,7 +31,7 @@ This is a time of change, and this trip was the period of rest between what my l
 18. The idea of impermanence is something that I want to focus on. Every time I feel sad about not being too close to someone. Or anything. I know that its not going to last. Nothing does. Its a cycle of lows and highs. Or whatever we choose to perceive. My time here is not permanent. Neither are my grudges, or discomfort with people. 
 19. Everyone, deep down, wants similar things. Even people who appear cold and uncaring, turn out to be the most broken and confused souls. They too just want a warm hug and someone to tell them that it will be okay. Especially when they are drunk.
 20. People regret saving up a lot and never spending it when they have the time to. Mainly because they are dead.
-21. [Resistance.md|../../Resistance|Resistance](../../Resistance.md) is the biggest killer of anything. The more you resist something, the more it might be an indicator of what you truly want to do.
+21. [[../../Resistance.md|Resistance.md|../../Resistance|Resistance]] is the biggest killer of anything. The more you resist something, the more it might be an indicator of what you truly want to do.
 22. With old age and too much power, comes a sense of ego. A sense of “I am the best”.
 23. Journalling is life changing. Especially micro journaling
 24. Don’t forget to backup!

@@ -7,10 +7,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Brain Areas
-- ![im](Pasted%20image%2020220509154852.png)
-- [Cerebrum](Cerebrum.md.md)
-- [Cerebellum](Cerebellum.md.md)
-- [Brainstem](Brainstem.md.md)
+- ![[Pasted image 20220509154852.png|im]]
+- [[Cerebrum.md|Cerebrum]]
+- [[Cerebellum.md|Cerebellum]]
+- [[Brainstem.md|Brainstem]]
 
 
 

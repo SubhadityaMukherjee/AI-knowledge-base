@@ -67,7 +67,7 @@ This article is in the hopes that it will help someone out. Maybe have the help 
 Have any questions? Comment or shoot me an email.
 Like these/Want more? Buy me a coffee! [Kofi](https://ko-fi.com/subhadityamukherjee)
 Want articles on something specific? Just ask.
-You can contact me on [LinkedIn](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100), drop me an [Email](mailto:msubhaditya@gmail.com)
+You can contact me on [LinkedIn](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100), drop me an [[mailto:msubhaditya@gmail.com|Email]]
 
 
 

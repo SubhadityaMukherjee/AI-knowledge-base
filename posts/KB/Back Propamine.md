@@ -43,7 +43,7 @@ date created: Monday 29th May 2023, Mon
 - make the (global) ⌘ parameter depend on the output of one or more neurons in the network
 - Because ⌘ essentially determines the rate of plastic change, placing it under network control allows the network to determine how plastic connections should beat any given time.
 - only modification to the equations above in this simple neuromodulation variant is to replace ⌘ in Eq. 2 with the network-computed, time-varying neuromodulatory signalM (t)
-- ![img_p2_1](img_p2_1.png)
+- ![[img_p2_1.png]]
 
 ## RETROACTIVE NEUROMODULATION AND ELIGIBILITY TRACES
 - alternative neuromodulation scheme that takes inspiration from the short-term retroactive effects of neuromodulatory dopamine on Hebbian plasticity in animalbrains
@@ -51,7 +51,7 @@ date created: Monday 29th May 2023, Mon
 - Thus, Hebbian plasticity does not directly modify the synaptic weights, but creates a fast-decaying "potential" weight change, which is only incorporated into the actual weights if the synapse receives dopamine within a short time window
 - eligibility trace
 - keeping memory of which synapses contributed to recent activity, while thedopamine signal modulates the transformation of these eligibility traces into actualplastic changes.
-- ![img_p3_1](img_p3_1.png)
+- ![[img_p3_1.png]]
 
 
 

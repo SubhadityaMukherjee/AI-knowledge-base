@@ -7,8 +7,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Color Spaces
-- [Divide Oriented](Divide%20Oriented.md.md)
-- [Intuitive Color spaces](Intuitive%20Color%20spaces.md.md)
+- [[Divide Oriented.md|Divide Oriented]]
+- [[Intuitive Color spaces.md|Intuitive Color spaces]]
 
 
 

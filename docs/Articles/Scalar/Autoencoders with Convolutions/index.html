@@ -10565,6 +10565,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/CvT/" class="md-nav__link">
         
   
@@ -12313,6 +12334,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -26168,6 +26210,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28735,6 +28798,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -44640,7 +44724,7 @@ date created: </p>
 <p>:::
 :::section{.main}</p>
 <h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h3>
-<p>To be able to learn how to re-create a dataset, a model must have an understanding of the underlying <strong>latent space</strong>. The Convolutional Autoencoder compresses the information in an image dataset by applying successive convolutions. This output is passed to a Bottleneck layer, the smallest possible representation of the dataset. Using this compressed representation, the Decoder attempts to recreate the original dataset. In the process of re-creation, the compressed output resembles a sort of <strong><a href="../../Dimensionality%20Reduction.md">Dimensionality Reduction.md|../../Dimensionality Reduction|Dimensionality Reduction</a></strong> procedure, while the <strong>Reconstruction Loss</strong> can be used as a classification metric.
+<p>To be able to learn how to re-create a dataset, a model must have an understanding of the underlying <strong>latent space</strong>. The Convolutional Autoencoder compresses the information in an image dataset by applying successive convolutions. This output is passed to a Bottleneck layer, the smallest possible representation of the dataset. Using this compressed representation, the Decoder attempts to recreate the original dataset. In the process of re-creation, the compressed output resembles a sort of <strong><a href="../../../../Dimensionality Reduction">Dimensionality Reduction</a></strong> procedure, while the <strong>Reconstruction Loss</strong> can be used as a classification metric.
 This article explores the architecture and methods behind creating a Convolutional Autoencoder. </p>
 <h3 id="what-is-an-autoencoder">What is an Autoencoder?<a class="headerlink" href="#what-is-an-autoencoder" title="Permanent link">&para;</a></h3>
 <p>The convolutional Autoencoder is part of a family of models that can reduce the noise in data. In the noise reduction task, these models learn the latent space by reconstructing the data. Autoencoders are split into three main parts - the Encoder, the Bottleneck, and the Decoder. The Encoder compresses the input data while keeping the useful features. The Bottleneck is responsible for choosing the important features that can flow through it to the Decoder. Finally, the Decoder uses the features passed to it by the Bottleneck layer to reconstruct the input.</p>
@@ -44661,11 +44745,11 @@ Note that smaller bottlenecks lead to lesser overfitting (to an extent).</p>
 <h3 id="uses-of-autoencoder">Uses of Autoencoder<a class="headerlink" href="#uses-of-autoencoder" title="Permanent link">&para;</a></h3>
 <p>The Convolutional Autoencoder architecture is good for a lot of use cases. Some of these are explained below.</p>
 <h4 id="reducing-complexity">Reducing Complexity<a class="headerlink" href="#reducing-complexity" title="Permanent link">&para;</a></h4>
-<p>The Encoder of the model works very well as a <a href="../../Dimensionality%20Reduction.md">dimensionality reduction.md|../../Dimensionality Reduction|dimensionality reduction</a> technique. For example, if we consider an image dataset, we can compress every image before feeding it to another model. This compression reduces the number of input values and thus makes the model less likely to be biased toward smaller details. The Autoencoder thus helps in improving the performance of a second model.</p>
+<p>The Encoder of the model works very well as a <a href="../../../../Dimensionality Reduction">dimensionality reduction</a> technique. For example, if we consider an image dataset, we can compress every image before feeding it to another model. This compression reduces the number of input values and thus makes the model less likely to be biased toward smaller details. The Autoencoder thus helps in improving the performance of a second model.</p>
 <h4 id="anomaly-detection">Anomaly Detection<a class="headerlink" href="#anomaly-detection" title="Permanent link">&para;</a></h4>
 <p>An Autoencoder is generally used for reconstructing the base data using an Encoder-Bottleneck-Decoder architecture. Thus if the output reconstruction has a much larger error for a given sample, this sample could be an outlier. We can thus use the reconstruction error to find unusual data points in a dataset.</p>
 <h4 id="unsupervised-learning">Unsupervised Learning<a class="headerlink" href="#unsupervised-learning" title="Permanent link">&para;</a></h4>
-<p>A convolutional Autoencoder's information compression ability is a good start for an unsupervised learning problem. Using the Autoencoder as a <a href="../../Dimensionality%20Reduction.md">dimensionality reduction.md|../../Dimensionality Reduction|dimensionality reduction</a> technique allows the data to be clustered without any labels much more easily. This clustering may not be useful but can be a starting point for many other solutions.</p>
+<p>A convolutional Autoencoder's information compression ability is a good start for an unsupervised learning problem. Using the Autoencoder as a <a href="../../../../Dimensionality Reduction">dimensionality reduction</a> technique allows the data to be clustered without any labels much more easily. This clustering may not be useful but can be a starting point for many other solutions.</p>
 <h3 id="what-is-a-cnn">What is a CNN?<a class="headerlink" href="#what-is-a-cnn" title="Permanent link">&para;</a></h3>
 <p>A CNN is one of the foundation stones of Deep Learning that can take an input data sample and learn to recognize it given other such samples. A CNN generally comprises an input, multiple hidden layers, and an output. CNN's are composed of individual neurons that respond to specific sets of stimuli and combine their responses to perform many tasks such as classification, clustering, segmentation, and others. CNNs are useful because they can understand spatial and temporal dependencies given large amounts of data by learning feature "filters". Complex CNNs can model large amounts of data previously impossible for a computer to understand. </p>
 <p>A simple CNN is shown below.

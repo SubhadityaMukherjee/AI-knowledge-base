@@ -16,9 +16,9 @@ date created: Wednesday, October 12th 2022, 2:22:19 pm
 - AutoTutor has been used to compare output modalities.
 - An AutoTutor dialogue is composed of tutor turns alternating with student turns. On most of the student turns, the student makes a small contribution toward completing the whole task. Those student turns count as steps, because they are a user interface event that contributes to a solution of the whole task
 - Step analysis:
-- These are conclusions that are produced by applying knowledge components. For instance, the first two items above correspond to distinct learning events, wherein the student has applied the same [Knowledge Component](Knowledge%20Component.md.md),
+- These are conclusions that are produced by applying knowledge components. For instance, the first two items above correspond to distinct learning events, wherein the student has applied the same [[Knowledge Component.md|Knowledge Component]],
 - In addition to having a list of all anticipated correct learning events, such as the ones mentioned above, AutoTutor has a list of several of the most important incorrect learning events
-- To find out which learning events underlie the student's step, AutoTutor measures the semantic similarity between the text of the [Learning Event](Learning%20Event.md.md) and the text of the step. It uses a measure called [Latent Semantic Analysis](Latent%20Semantic%20Analysis.md.md)
+- To find out which learning events underlie the student's step, AutoTutor measures the semantic similarity between the text of the [[Learning Event.md|Learning Event]] and the text of the step. It uses a measure called [[Latent Semantic Analysis.md|Latent Semantic Analysis]]
 
 
 

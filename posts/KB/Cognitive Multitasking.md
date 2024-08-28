@@ -11,10 +11,10 @@ date created: Monday, December 12th 2022, 1:17:57 pm
 
 
 - No overlap between areas of brain in fMRI with similar tasks concurrently
-- [Threaded Cognition](Threaded%20Cognition.md.md)
+- [[Threaded Cognition.md|Threaded Cognition]]
 - Natural way of cognition, need to be prepared for a new "task"
 - If unused brain resources, put it to use
-- [Mental Fatigue](Mental%20Fatigue.md.md)
+- [[Mental Fatigue.md|Mental Fatigue]]
 
 
 

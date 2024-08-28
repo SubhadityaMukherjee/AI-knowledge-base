@@ -36,7 +36,7 @@ This plugin is a bit of a special case. Instead of providing specific functional
 While writing papers, citing them is a huge headache. Since I write my reports in LaTEX, I need the “BibTex” version from Google Scholar which is a pain. This little plugin automatically does that with a single click. You can find out how to install it [here](https://www.monperrus.net/martin/direct-bibtex-in-google-scholar).
 	- [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) , [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 - SLext
-If you write your documents in LaTEX, chances are you use [Overleaf](overleaf.com/) to do so. It is a website that makes it extremely easy to write any kind of professional document using LaTEX. But it does have limitations, and the biggest bummer for me is the lack of tabs. This plugin adds just that, and it saves me so much trouble.
+If you write your documents in LaTEX, chances are you use [[overleaf.com/|Overleaf]] to do so. It is a website that makes it extremely easy to write any kind of professional document using LaTEX. But it does have limitations, and the biggest bummer for me is the lack of tabs. This plugin adds just that, and it saves me so much trouble.
 	- [Chrome](https://chrome.google.com/webstore/detail/slext/jlajbdlfgkklpjdgnhajdohfjbihming) , [Firefox](https://addons.mozilla.org/en-US/firefox/addon/slext/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 - Sci-Hub scholar
 I firmly believe that research should not be paywalled. (Even this article is available for free [on my blog](https://subhadityamukherjee.github.io/AI-knowledge-base/) without the fancy stuff). If you are affiliated with a university or company, you might have access to as many papers as you want. But as an independent researcher? Well. Happy crying. 
@@ -82,7 +82,7 @@ Like these/Want more? Buy me a coffee! [Kofi](https://ko-fi.com/subhadityamukher
 
 Want articles on something specific? Just ask!
 
-You can always contact me on [LinkedIn](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100), or drop me an [Email](mailto:msubhaditya@gmail.com)
+You can always contact me on [LinkedIn](https://www.linkedin.com/in/subhaditya-mukherjee-a36883100), or drop me an [[mailto:msubhaditya@gmail.com|Email]]
 
 
 

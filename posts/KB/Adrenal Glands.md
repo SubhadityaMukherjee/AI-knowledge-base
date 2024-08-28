@@ -5,7 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:34 pm
 ---
 
 # Adrenal Glands
-- Located on top of each kidney, these two glands are involved in the body’s response to stress and help regulate growth, blood [glucose](Glucose.md.md) levels, and the body’s metabolic rate. They receive signals from the brain and secrete several different hormones in response, including [cortisol](Cortisol.md.md) and [adrenaline](Adrenaline.md.md).
+- Located on top of each kidney, these two glands are involved in the body’s response to stress and help regulate growth, blood [[Glucose.md|glucose]] levels, and the body’s metabolic rate. They receive signals from the brain and secrete several different hormones in response, including [[Cortisol.md|cortisol]] and [[Adrenaline.md|adrenaline]].
 
 
 

@@ -1618,9 +1618,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#stridedmdstridedstrided-convolutions" class="md-nav__link">
+  <a href="#strided-convolutions" class="md-nav__link">
     <span class="md-ellipsis">
-      Strided.md|../../Strided|Strided Convolutions
+      Strided Convolutions
     </span>
   </a>
   
@@ -10565,6 +10565,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/CvT/" class="md-nav__link">
         
   
@@ -12313,6 +12334,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -26168,6 +26210,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28735,6 +28798,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -44444,9 +44528,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#stridedmdstridedstrided-convolutions" class="md-nav__link">
+  <a href="#strided-convolutions" class="md-nav__link">
     <span class="md-ellipsis">
-      Strided.md|../../Strided|Strided Convolutions
+      Strided Convolutions
     </span>
   </a>
   
@@ -44633,17 +44717,17 @@ date created: </p>
 <h3 id="scope">Scope<a class="headerlink" href="#scope" title="Permanent link">&para;</a></h3>
 <ul>
 <li>This article explains the concept of GANs and how DCGANs differ from Vanilla GANs.</li>
-<li>It shows how to build a DCGAN from scratch using PyTorch for image generation using the <a href="../../CIFAR.md">CIFAR.md|../../CIFAR|CIFAR</a> dataset.</li>
-<li>It explains the preprocessing and loading of the <a href="../../CIFAR.md">CIFAR.md|../../CIFAR|CIFAR</a> dataset using a DataLoader.</li>
+<li>It shows how to build a DCGAN from scratch using PyTorch for image generation using the <a href="../../../../CIFAR">CIFAR</a> dataset.</li>
+<li>It explains the preprocessing and loading of the <a href="../../../../CIFAR">CIFAR</a> dataset using a DataLoader.</li>
 <li>It describes the architecture of the DCGAN and the reasoning behind the choices of layers and activation functions.</li>
 <li>The article also describes how to train the network, generate new images, and improve the training time and the results.</li>
 </ul>
 <p>:::
 :::section{.main}</p>
 <h3 id="introduction-to-dggan">Introduction to DGGAN<a class="headerlink" href="#introduction-to-dggan" title="Permanent link">&para;</a></h3>
-<p>This article will explore using a Deep Convolutional Generative Adversarial Network (DCGAN) to generate new images from the <a href="../../CIFAR.md">CIFAR.md|../../CIFAR|CIFAR</a> dataset. GANs are neural networks designed to generate new, previously unseen data similar to the input data the model trained on. DCGANs are a variation of GANs that address issues that can arise with standard GANs by using deep convolutional neural networks in both the Generator and the Discriminator.</p>
+<p>This article will explore using a Deep Convolutional Generative Adversarial Network (DCGAN) to generate new images from the <a href="../../../../CIFAR">CIFAR</a> dataset. GANs are neural networks designed to generate new, previously unseen data similar to the input data the model trained on. DCGANs are a variation of GANs that address issues that can arise with standard GANs by using deep convolutional neural networks in both the Generator and the Discriminator.</p>
 <p>This architecture allows larger image sizes than in standard GANs, as convolutional layers can efficiently process images with many pixels. Additionally, DCGANs use batch normalization and leaky ReLU activations in the Discriminator and transposed convolutional layers in the Generator, improving performance and stability during training.</p>
-<p>We will use PyTorch to build the DCGAN from scratch, train it on the [CIFAR] dataset, and write scripts to generate new images. The goal is to generate photorealistic images that resemble one of the ten classes in the <a href="../../CIFAR.md">../../CIFAR|CIFAR.md|../../CIFAR|CIFAR</a> dataset. Before we begin, we will set up the necessary libraries and create folders to store the models' images and weights. This article will guide the implementation process and explain the reasoning for some architectural choices.</p>
+<p>We will use PyTorch to build the DCGAN from scratch, train it on the <a href="../../../../CIFAR.md">../../CIFAR.md</a> dataset. Before we begin, we will set up the necessary libraries and create folders to store the models' images and weights. This article will guide the implementation process and explain the reasoning for some architectural choices.</p>
 <p>:::</p>
 <p>:::section{.main}</p>
 <h3 id="need-for-dcgan">Need for DCGAN<a class="headerlink" href="#need-for-dcgan" title="Permanent link">&para;</a></h3>
@@ -44662,8 +44746,8 @@ date created: </p>
 [IMAGE {1} { Transposed Convolution } START SAMPLE]
 <img alt="Transposed Convolution" src="https://hackmd.io/_uploads/H1RlJBoOi.png" />
 [IMAGE {1} FINISH SAMPLE]</p>
-<h4 id="stridedmdstridedstrided-convolutions"><a href="../../Strided.md">Strided.md|../../Strided|Strided</a> Convolutions<a class="headerlink" href="#stridedmdstridedstrided-convolutions" title="Permanent link">&para;</a></h4>
-<p>The stride in a Convolution determines how many steps the moving filter skips over in an image. In a general Convolution, the stride is set to 1. To perform <a href="../../Downsampling.md">downsampling.md|../../Downsampling|downsampling</a>, we can set the stride to any number above 1. Larger numbers are only sometimes good; only experimenting with the parameter can be used to understand which to pick.
+<h4 id="strided-convolutions"><a href="../../../../Strided">Strided</a> Convolutions<a class="headerlink" href="#strided-convolutions" title="Permanent link">&para;</a></h4>
+<p>The stride in a Convolution determines how many steps the moving filter skips over in an image. In a general Convolution, the stride is set to 1. To perform <a href="../../../../Downsampling">downsampling</a>, we can set the stride to any number above 1. Larger numbers are only sometimes good; only experimenting with the parameter can be used to understand which to pick.
 [IMAGE {2} {Strided Convolution} START SAMPLE]
 <img alt="Strided Convolution" src="https://hackmd.io/_uploads/ByXX1Sodj.png" />
 [IMAGE {2} FINISH SAMPLE]</p>
@@ -44691,15 +44775,15 @@ The Generator comprises blocks of <strong>Transposed Convolutions</strong>, <str
 The DCGAN authors also found that using a Batch Normalization layer after a Transposed Convolution led to the best results by aiding the gradient flow between the layers. This effect was previously never studied in depth.
 In the architecture diagram of this component, <em>nz</em> stands for the width of the input, <em>ngf</em> stands for the shape of the maps that the network creates, and <em>nc</em> refers to a count of the channels that the output will have (Eg : 3 channels for RGB, 4 for RGBA).</p>
 <h4 id="convolutional-discriminator">Convolutional Discriminator<a class="headerlink" href="#convolutional-discriminator" title="Permanent link">&para;</a></h4>
-<p>The Discriminator is a mirror of the Generator except for a few changes. The input size remains the same as the Generator (3x64x64). Instead of a De-Convolution, a <strong><a href="../../Strided.md">Strided.md|../../Strided|Strided</a> Convolution</strong> is used. A <strong>Leaky ReLU</strong> version of ReLU replaces the ReLU activations. The final layer is a <strong>Sigmoid</strong> layer to return the probability of real vs. fake. 
-The DCGAN architecture also uses <a href="../../Strided.md">Strided.md|../../Strided|Strided</a> Convolutions to downsample the images instead of Pooling, allowing the network to learn a custom pooling function. </p>
+<p>The Discriminator is a mirror of the Generator except for a few changes. The input size remains the same as the Generator (3x64x64). Instead of a De-Convolution, a <strong><a href="../../../../Strided">Strided</a> Convolution</strong> is used. A <strong>Leaky ReLU</strong> version of ReLU replaces the ReLU activations. The final layer is a <strong>Sigmoid</strong> layer to return the probability of real vs. fake. 
+The DCGAN architecture also uses <a href="../../../../Strided">Strided</a> Convolutions to downsample the images instead of Pooling, allowing the network to learn a custom pooling function. </p>
 <h3 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h3>
 <p>To generate images using a DCGAN, we first need to prepare our dataset. This process includes creating a DataLoader to load the images, preprocessing them as necessary, and sending batches of the data to the GPU memory for efficient processing.</p>
 <p>Next, we need to define the architecture of the DCGAN, including the Generator and Discriminator networks. This process involves specifying the number and type of layers and initializing the weights of these layers. We must also send the network architecture to the GPU memory for efficient processing.</p>
 <p>Once the data and network are ready, we can train the DCGAN. During training, the network learns to map random noise from the latent space to images that resemble the training data. After training, we can use the Generator to generate new images by providing random noise from the latent space.</p>
 <h4 id="defining-the-discriminator">Defining the Discriminator<a class="headerlink" href="#defining-the-discriminator" title="Permanent link">&para;</a></h4>
-<p>In the DCGAN, the Discriminator differentiates between the images generated by the Generator as real or fake. Its architecture resembles the Generator but with a few modifications. Specifically, the Discriminator incorporates <a href="../../Strided.md">Strided.md|../../Strided|Strided</a> Convolution layers, a LeakyReLU activation function, and several layers of Batch Normalization. Lastly, the output is passed through a Sigmoid layer that returns a probability value.</p>
-<p>For the process of DCGAN image generation, the Discriminator uses <a href="../../Strided.md">Strided.md|../../Strided|Strided</a> Convolutions in place of Pooling layers. This approach enables the network to develop custom padding functions, improving performance. This approach is a key technique that helps the Discriminator to distinguish between real and fake images more accurately.</p>
+<p>In the DCGAN, the Discriminator differentiates between the images generated by the Generator as real or fake. Its architecture resembles the Generator but with a few modifications. Specifically, the Discriminator incorporates <a href="../../../../Strided">Strided</a> Convolution layers, a LeakyReLU activation function, and several layers of Batch Normalization. Lastly, the output is passed through a Sigmoid layer that returns a probability value.</p>
+<p>For the process of DCGAN image generation, the Discriminator uses <a href="../../../../Strided">Strided</a> Convolutions in place of Pooling layers. This approach enables the network to develop custom padding functions, improving performance. This approach is a key technique that helps the Discriminator to distinguish between real and fake images more accurately.</p>
 <pre><code class="language-python">ngpu = 1
 nz = 100
 ngf = 64
@@ -44874,7 +44958,7 @@ optimizerG = optim.Adam(model_Gen.parameters(), lr=0.0002, betas=(0.5, 0.999))
 <img alt="Final Results" src="https://hackmd.io/_uploads/HJ5qetmti.png" />
 [IMAGE {8} FINISH SAMPLE]</p>
 <h4 id="weight-initialization">Weight Initialization<a class="headerlink" href="#weight-initialization" title="Permanent link">&para;</a></h4>
-<p>The DCGAN model requires a careful weight <a href="../../Initialization.md.md">initialization</a> scheme. If the layer is a Convolutional layer, we can take the <a href="../../Initialization.md.md">initialization</a> values from a Normal distribution in the range of (0.0,0.02). On the other hand, if the layer is a Batch Normalization layer, we can take the weights from a Normal distribution in the range of (0.0, 0.02) while we can set the bias to 0.</p>
+<p>The DCGAN model requires a careful weight <a href="../../../../Initialization.md">initialization</a> scheme. If the layer is a Convolutional layer, we can take the <a href="../../../../Initialization.md">initialization</a> values from a Normal distribution in the range of (0.0,0.02). On the other hand, if the layer is a Batch Normalization layer, we can take the weights from a Normal distribution in the range of (0.0, 0.02) while we can set the bias to 0.</p>
 <pre><code class="language-python">def weights_normal_init(m):
     classname = m.__class__.__name__
     if classname.find('Conv') != -1:
@@ -44888,9 +44972,9 @@ optimizerG = optim.Adam(model_Gen.parameters(), lr=0.0002, betas=(0.5, 0.999))
 <h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h3>
 <ul>
 <li>The article has explained the concept of GANs and the specific architecture of DCGANs, which are a variation that can handle larger images.</li>
-<li>It has also provided a step-by-step guide on how to build a DCGAN from scratch using the PyTorch library and the <a href="../../CIFAR.md">CIFAR.md|../../CIFAR|CIFAR</a> dataset.</li>
-<li>The implementation process, including loading the dataset and preprocessing it, creating the network architecture and <a href="../../Initialization.md.md">initialization</a> of weights, as well as training the network, has been explained.</li>
-<li>The final output is expected to be a set of photorealistic images that resemble one of the classes in the <a href="../../CIFAR.md">CIFAR.md|../../CIFAR|CIFAR</a> dataset, which is a significant achievement.</li>
+<li>It has also provided a step-by-step guide on how to build a DCGAN from scratch using the PyTorch library and the <a href="../../../../CIFAR">CIFAR</a> dataset.</li>
+<li>The implementation process, including loading the dataset and preprocessing it, creating the network architecture and <a href="../../../../Initialization.md">initialization</a> of weights, as well as training the network, has been explained.</li>
+<li>The final output is expected to be a set of photorealistic images that resemble one of the classes in the <a href="../../../../CIFAR">CIFAR</a> dataset, which is a significant achievement.</li>
 <li>GANs, particularly DCGANs, have a wide range of applications and can generate images of different objects, depending on the dataset used to train the network. This article provides a foundation for further research and experimentation with GANs.</li>
 </ul>
 <p>:::</p>

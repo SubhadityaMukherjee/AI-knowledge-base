@@ -10,4 +10,4 @@ date created: Tuesday 27th August 2024, Tue
 ```toc
 ```
 
--![Chapter 1 mindmap 1](Chapter%201%20mindmap%201.svg)
+- ![[../../images/Chapter 1 mindmap.svg]]

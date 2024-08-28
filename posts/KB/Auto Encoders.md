@@ -7,20 +7,20 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # AutoEncoder
-- ![im](Pasted%20image%2020220310204652.png)
+- ![[Pasted image 20220310204652.png|im]]
 - Regression by predicting a reconstruction of the data
 - Encoder $$E : \mathscr{X} \rightarrow \mathscr{F}$$
 - Decoder $$\mathscr{F} \rightarrow \mathscr{D}$$
 - $$E_\theta, D_\theta = argmin_{E_\theta, D\theta}||X-D(E(X))||^2$
-	- Learn using [Gradient Descent gradients](Gradient%20Descent%20gradients.md.md)
+	- Learn using [[Gradient Descent gradients.md|Gradient Descent gradients]]
 - Compressed rep of data -> Good for Classification or Regression
-- [MSE](MSE.md.md) : Unsupervised
+- [[MSE.md|MSE]] : Unsupervised
 
 ## Difficulties
 - dim $\mathscr{F} \lt \mathscr{X}$
 	- Cannot learn the identity function
 - usages
-    - data compression / [dimensionality reduction](dimensionality%20reduction.md.md)
+    - data compression / [[dimensionality reduction.md|dimensionality reduction]]
     - encoder to obtain features (use the latent variable as feature)
     - denoising autoencoders
         - input noisy image and try to obtain image without noise
@@ -28,8 +28,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
     - contractive autoencoder
 
 ## Types
-- [Denoising Autoencoder](Denoising%20Autoencoder.md.md)
-- [VAE](VAE.md.md)
+- [[Denoising Autoencoder.md|Denoising Autoencoder]]
+- [[VAE.md|VAE]]
 
 
 

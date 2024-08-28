@@ -14,4 +14,4 @@ $$-(ylog(p)+(1-y)log(1-p))$$
 - $$L(y, \hat y) = - \Sigma_{i}y_{i}log(\hat y_{i})+ (1-y_{i})log(1-\hat y_{i})$$
 
 
-- ![Pasted image 20240828101606](Pasted%20image%2020240828101606.png)
+- ![[Pasted image 20240828101606.png]]

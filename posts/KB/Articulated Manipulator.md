@@ -4,8 +4,8 @@ date created: Wednesday, August 10th 2022, 5:41:04 pm
 date modified: Monday, October 10th 2022, 2:02:34 pm
 ---
 
-# Articulated [Manipulator](Manipulator.md.md)
-- A [manipulator](Manipulator.md.md) with an arm that is broken into sections (links) by one or more joints. Each of the joints represents a degree of freedom in the [manipulator](Manipulator.md.md) system and allows translation and rotary motion.
+# Articulated [[Manipulator.md|Manipulator]]
+- A [[Manipulator.md|manipulator]] with an arm that is broken into sections (links) by one or more joints. Each of the joints represents a degree of freedom in the [[Manipulator.md|manipulator]] system and allows translation and rotary motion.
 
 
 

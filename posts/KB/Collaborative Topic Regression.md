@@ -9,13 +9,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Collaborative Topic Regression
 - [Collaborative Deep Learning for Recommender Systems](https://arxiv.org/abs/1409.2944)
-- Collaborative [filtering](Filtering.md.md) (CF) is a successful approach commonly used by many recommender systems
+- Collaborative [[Filtering.md|filtering]] (CF) is a successful approach commonly used by many recommender systems
 - Conventional CF-based methods use the ratings given to items by users as the sole source of information for learning to make recommendation
 - However, the ratings are often very sparse in many applications, causing CF-based methods to degrade significantly in their recommendation performance
-- To address this [sparsity](sparsity.md.md) problem, auxiliary information such as item content information may be utilized
+- To address this [[sparsity.md|sparsity]] problem, auxiliary information such as item content information may be utilized
 - Collaborative topic regression (CTR) is an appealing recent method taking this approach which tightly couples the two components that learn from two different sources of information
 - Nevertheless, the latent representation learned by CTR may not be very effective when the auxiliary information is very sparse.
-- generalizing recent advances in deep learning from i.i.d input to non-i.i.d (CF-based) input and propose a hierarchical [Bayesian](Bayesian.md.md) model called collaborative deep learning (CDL), which jointly performs deep representation learning for the content information and collaborative [filtering](Filtering.md.md) for the ratings (feedback) matrix.
+- generalizing recent advances in deep learning from i.i.d input to non-i.i.d (CF-based) input and propose a hierarchical [[Bayesian.md|Bayesian]] model called collaborative deep learning (CDL), which jointly performs deep representation learning for the content information and collaborative [[Filtering.md|filtering]] for the ratings (feedback) matrix.
 
 
 

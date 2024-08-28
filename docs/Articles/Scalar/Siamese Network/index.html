@@ -10670,6 +10670,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Cutout%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cutout]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/CvT/" class="md-nav__link">
         
   
@@ -12418,6 +12439,27 @@
   
   <span class="md-ellipsis">
     Distilling the Knowledge in a Neural Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/Distributions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distributions
   </span>
   
 
@@ -26273,6 +26315,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../KB/Moral%20Machine%20project.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moral Machine project.md
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../KB/Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence/" class="md-nav__link">
         
   
@@ -28840,6 +28903,27 @@
   
   <span class="md-ellipsis">
     Probability Density Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../KB/PDF.md/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF.md
   </span>
   
 
@@ -45016,7 +45100,7 @@ eval_ds = PairedDataset(
 </code></pre>
 <h4 id="neural-network-architecture">Neural Network Architecture<a class="headerlink" href="#neural-network-architecture" title="Permanent link">&para;</a></h4>
 <p>We can create the architecture that we described above in a few steps. 
-First, we create a function that creates blocks of Convolutions, Batch Normalisation, and ReLU with different input and output channels. We give this function the option of having a <a href="../../Dropout.md">Dropout.md|../../Dropout|Dropout</a> layer at the end or skipping that layer.
+First, we create a function that creates blocks of Convolutions, Batch Normalisation, and ReLU with different input and output channels. We give this function the option of having a <a href="../../../../Dropout">Dropout</a> layer at the end or skipping that layer.
 We also create another function that generates blocks of FC layers followed by ReLU layers.
 We can use these functions to create the Sequential model that defines the Siamese Network. After creating the CNN part of the architecture using the functions we defined earlier, we have to create the FC part of the network. Note that different padding and kernel sizes are used across the network. 
 The FC part of the network is blocks of Linear layers followed by ReLU activations. 
@@ -45163,7 +45247,7 @@ Similar to the training function, we create an evaluation function that takes th
 
     eucledian_distance = F.pairwise_distance(out1, out2)
     print(label)
-    if label == torch.FloatTensor([0](0.md)):
+    if label == torch.FloatTensor([[0.md|0]]):
         label = &quot;Original Pair Of Signature&quot;
     else:
         label = &quot;Forged Pair Of Signature&quot;

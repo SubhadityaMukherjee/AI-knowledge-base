@@ -6,7 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Basics of [Federated Learning](Federated%20Learning.md.md)
+# Basics of [[Federated Learning.md|Federated Learning]]
 
 1. Get data (Hopefully a lot)
 2. Preprocess (aka clean up) the data

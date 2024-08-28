@@ -7,11 +7,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Characteristics of Visual Variables
-- [Visual Selective](Visual%20Selective.md.md)
-- [Visual Associative](Visual%20Associative.md.md)
-- [Visual Ordered](Visual%20Ordered.md.md)
-- [Visual Quantitative](Visual%20Quantitative.md.md)
-- [Visual Length](Visual%20Length.md.md) 
+- [[Visual Selective.md|Visual Selective]]
+- [[Visual Associative.md|Visual Associative]]
+- [[Visual Ordered.md|Visual Ordered]]
+- [[Visual Quantitative.md|Visual Quantitative]]
+- [[Visual Length.md|Visual Length]] 
 
 
 

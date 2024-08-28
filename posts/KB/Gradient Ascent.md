@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Gradient Ascent
 date modified: Monday, October 10th 2022, 2:02:26 pm

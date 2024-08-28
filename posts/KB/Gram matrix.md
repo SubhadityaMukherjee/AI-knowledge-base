@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Gram matrix
-categories: ['einsum']
+tags: ['einsum']
 date modified: Monday, October 10th 2022, 2:02:26 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

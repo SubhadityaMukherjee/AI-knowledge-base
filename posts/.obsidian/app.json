@@ -4,6 +4,6 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "images",
   "newFileFolderPath": "KB",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "shortest",
   "useMarkdownLinks": false
 }

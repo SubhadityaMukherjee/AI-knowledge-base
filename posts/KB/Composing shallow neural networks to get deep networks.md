@@ -1,7 +1,7 @@
 ---
 title: Composing shallow neural networks to get deep
 toc: true
-categories:
+tags:
   - deeplearning
 date modified: Tuesday 27th August 2024, Tue
 date created: Tuesday 27th August 2024, Tue

@@ -2,7 +2,7 @@
 toc: true
 title: A matter of ambiguity? Using eye movements to examine collective vs. distributive interpretations of plural sets
 
-categories: ['language']
+tags: ['language']
 date modified: Wednesday, October 12th 2022, 4:55:27 pm
 date created: Wednesday, October 12th 2022, 4:49:06 pm
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: PEER
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## PEER

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Dreamfusion
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Dreamfusion

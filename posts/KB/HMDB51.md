@@ -1,7 +1,7 @@
 ---
 toc: true
 title: HMDB51
-categories: ['dataset']
+tags: ['dataset']
 ---
 
 ## HMDB51

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: IVFADC
-categories: ['llm']
+tags: ['llm']
 date modified: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 date created: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 ---

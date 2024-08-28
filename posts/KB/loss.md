@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [0-1 Loss.md](0-1%20Loss.md)

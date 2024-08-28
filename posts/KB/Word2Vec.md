@@ -2,7 +2,7 @@
 toc: true
 title: Word2Vec
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Thursday, December 8th 2022, 12:15:44 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

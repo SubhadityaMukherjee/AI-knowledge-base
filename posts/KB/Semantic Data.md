@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Semantic Data
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Semantic Data

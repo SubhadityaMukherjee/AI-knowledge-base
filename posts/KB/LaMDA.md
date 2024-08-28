@@ -1,7 +1,7 @@
 ---
 toc: true
 title: LaMDA
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## LaMDA

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Auto Augment
-categories: ['augment']
+tags: ['augment']
 ---
 
 ## Auto Augment

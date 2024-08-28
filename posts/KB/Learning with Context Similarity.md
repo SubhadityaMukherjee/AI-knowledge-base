@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Learning with Context Similarity
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Learning with Context Similarity

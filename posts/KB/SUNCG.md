@@ -1,7 +1,7 @@
 ---
 toc: true
 title: SUNCG
-categories: ['dataset']
+tags: ['dataset']
 ---
 
 ## SUNCG

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Free Semantic Label-based Method
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Free Semantic Label-based Method

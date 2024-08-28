@@ -2,7 +2,7 @@
 toc: true
 title: Gradient Direction
 
-categories: ['gradients']
+tags: ['gradients']
 date modified: Wednesday 21st December 2022, Wed
 date created: Wednesday 21st December 2022, Wed
 ---

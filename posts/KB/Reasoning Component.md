@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Reasoning Component
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Reasoning Component

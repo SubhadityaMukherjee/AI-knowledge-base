@@ -2,7 +2,7 @@
 toc: true
 title: Cognitive fMTP
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, December 5th 2022, 2:22:42 pm
 date created: Monday, December 5th 2022, 2:13:52 pm
 ---

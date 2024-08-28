@@ -2,7 +2,7 @@
 toc: true
 title: Analysis of Explainers of Black Box Deep Neural Networks for Computer Vision A Survey
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:48:43 pm
 date created: Wednesday, October 12th 2022, 4:11:22 pm
 ---

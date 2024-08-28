@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Particle Filter
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Particle Filter

@@ -3,7 +3,7 @@
 toc: true
 title: Siamese Network
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

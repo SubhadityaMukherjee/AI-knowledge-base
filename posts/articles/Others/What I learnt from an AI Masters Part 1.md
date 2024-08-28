@@ -3,7 +3,7 @@
 toc: true
 title: What I learnt from an AI Masters Part 1
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

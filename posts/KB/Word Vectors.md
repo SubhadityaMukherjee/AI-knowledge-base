@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Word Vectors
 date modified: Wednesday, December 7th 2022, 10:46:46 pm

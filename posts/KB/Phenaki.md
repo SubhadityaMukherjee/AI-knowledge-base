@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Phenaki
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Phenaki

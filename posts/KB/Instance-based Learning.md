@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Instance-based Learning
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Instance-based Learning

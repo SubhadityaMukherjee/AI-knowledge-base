@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Feature Augmentation
-categories: ['augment']
+tags: ['augment']
 ---
 
 

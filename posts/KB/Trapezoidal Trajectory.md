@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Trapezoidal Trajectory
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Trapezoidal Trajectory

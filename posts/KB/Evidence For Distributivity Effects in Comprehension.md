@@ -2,7 +2,7 @@
 toc: true
 title: Evidence For Distributivity Effects in Comprehension
 
-categories: ['language']
+tags: ['language']
 date modified: Tuesday, January 24th 2023, 8:26:47 pm
 date created: Tuesday, October 4th 2022, 12:42:49 pm
 ---

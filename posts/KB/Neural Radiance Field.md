@@ -2,7 +2,7 @@
 toc: true
 title: Neural Radiance Field
 
-categories: ['robotics']
+tags: ['robotics']
 date modified: Sunday, November 6th 2022, 5:10:50 pm
 date created: Tuesday, July 26th 2022, 5:03:15 pm
 ---

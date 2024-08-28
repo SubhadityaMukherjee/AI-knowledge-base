@@ -1,5 +1,5 @@
 ---
-categories: ['architecture']
+tags: ['architecture']
 date modified: Sunday, October 23rd 2022, 4:19:51 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

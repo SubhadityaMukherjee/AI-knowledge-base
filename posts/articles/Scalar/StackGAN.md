@@ -3,7 +3,7 @@
 toc: true
 title: StackGAN
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

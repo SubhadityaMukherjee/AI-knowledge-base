@@ -2,7 +2,7 @@
 toc: true
 title: Guided BackProp
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Friday, November 18th 2022, 1:37:05 pm
 date created: Friday, November 18th 2022, 1:36:13 pm
 ---

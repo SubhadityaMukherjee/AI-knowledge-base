@@ -1,7 +1,7 @@
 ---
 toc: true
 title: STL-10
-categories: ['dataset']
+tags: ['dataset']
 ---
 
 

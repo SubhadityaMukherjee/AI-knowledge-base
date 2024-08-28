@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Unbiased Look at Dataset Bias
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 25th 2023, 11:53:06 am
 date created: Wednesday, January 25th 2023, 11:50:07 am
 date updated: 2023-01-25 11:59

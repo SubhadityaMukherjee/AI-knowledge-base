@@ -2,7 +2,7 @@
 toc: true
 title: SQL-Tutor
 
-categories: ['usermodellearning']
+tags: ['usermodellearning']
 date modified: Wednesday, October 12th 2022, 2:23:16 pm
 date created: Wednesday, October 12th 2022, 2:23:15 pm
 ---

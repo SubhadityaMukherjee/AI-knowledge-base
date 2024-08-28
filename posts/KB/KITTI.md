@@ -1,7 +1,7 @@
 ---
 toc: true
 title: KITTI
-categories: ['dataset']
+tags: ['dataset']
 ---
 
 ## KITTI

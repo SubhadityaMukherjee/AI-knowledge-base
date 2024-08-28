@@ -2,7 +2,7 @@
 toc: true
 title: The Self Organization of Explicit Attitudes
 
-categories: ['language']
+tags: ['language']
 date modified: Friday, October 14th 2022, 5:13:39 pm
 date created: Friday, October 14th 2022, 5:07:15 pm
 ---

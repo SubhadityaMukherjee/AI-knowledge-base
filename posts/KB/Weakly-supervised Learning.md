@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Weakly-supervised Learning
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Weakly-supervised Learning

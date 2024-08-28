@@ -2,7 +2,7 @@
 toc: true
 title: A low-cost ethics shaping approach for designing reinforcement learning agents
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:09:29 pm
 date created: Wednesday, January 18th 2023, 4:09:28 pm
 ---

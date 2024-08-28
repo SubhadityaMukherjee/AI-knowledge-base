@@ -1,5 +1,5 @@
 ---
-categories: ['tricks']
+tags: ['tricks']
 toc: true
 title: Early Stopping
 date modified: Thursday, January 5th 2023, 8:17:54 pm

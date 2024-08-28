@@ -2,7 +2,7 @@
 toc: true
 title: LIME
 
-categories: ['uncertainty']
+tags: ['uncertainty']
 date modified: Wednesday, October 12th 2022, 4:18:29 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

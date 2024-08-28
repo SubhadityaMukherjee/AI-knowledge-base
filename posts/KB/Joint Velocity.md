@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Joint Velocity
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Joint Velocity

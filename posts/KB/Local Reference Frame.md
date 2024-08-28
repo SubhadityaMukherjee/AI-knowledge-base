@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Local Reference Frame
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Local Reference Frame

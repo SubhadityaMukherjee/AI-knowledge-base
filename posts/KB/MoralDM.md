@@ -2,7 +2,7 @@
 toc: true
 title: MoralDM
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 3:55:57 pm
 date created: Wednesday, January 18th 2023, 3:55:55 pm
 ---

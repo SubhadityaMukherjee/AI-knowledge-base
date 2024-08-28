@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Temporal Context Structure
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Temporal Context Structure

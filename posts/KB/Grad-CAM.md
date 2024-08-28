@@ -2,7 +2,7 @@
 toc: true
 title: GradCAM
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Saturday, January 14th 2023, 4:45:37 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

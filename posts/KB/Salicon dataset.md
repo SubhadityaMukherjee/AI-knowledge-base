@@ -2,7 +2,7 @@
 toc: true
 title: Salicon dataset
 
-categories: ['dataset']
+tags: ['dataset']
 date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Thursday, October 6th 2022, 1:38:15 pm
 ---

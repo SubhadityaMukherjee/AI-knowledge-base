@@ -2,7 +2,7 @@
 toc: true
 title: Ethical dilemmas
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 3:52:28 pm
 date created: Wednesday, January 18th 2023, 3:52:21 pm
 ---

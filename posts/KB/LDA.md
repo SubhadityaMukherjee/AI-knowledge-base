@@ -2,7 +2,7 @@
 toc: true
 title: LDA
 
-categories: ['temp']
+tags: ['temp']
 date modified: Sunday 25th December 2022, Sun
 date created: Sunday 25th December 2022, Sun
 ---

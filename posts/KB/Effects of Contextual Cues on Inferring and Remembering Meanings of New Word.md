@@ -2,7 +2,7 @@
 toc: true
 title: Effects of Contextual Cues on Inferring and Remembering Meanings of New Word
 
-categories: ['usermodel']
+tags: ['usermodel']
 date modified: Sunday, November 6th 2022, 5:24:08 pm
 date created: Friday, October 14th 2022, 4:47:16 pm
 ---

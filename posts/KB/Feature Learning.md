@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Feature Learning
 date modified: Monday, October 10th 2022, 2:02:28 pm

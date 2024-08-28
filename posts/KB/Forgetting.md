@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Forgetting
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Forgetting

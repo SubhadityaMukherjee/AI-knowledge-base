@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Kernel Visualization
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## # Kernel Visualization

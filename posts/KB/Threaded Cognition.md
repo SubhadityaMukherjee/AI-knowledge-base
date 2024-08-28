@@ -2,7 +2,7 @@
 toc: true
 title: Threaded Cognition
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, December 12th 2022, 1:19:12 pm
 date created: Monday, December 12th 2022, 1:18:55 pm
 ---

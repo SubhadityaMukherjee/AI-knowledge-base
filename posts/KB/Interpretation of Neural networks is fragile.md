@@ -2,7 +2,7 @@
 toc: true
 title: Interpretation of Neural networks is fragile
 
-categories: ['explainabilityexplainability']
+tags: ['explainabilityexplainability']
 date modified: Tuesday, December 6th 2022, 12:34:18 pm
 date created: Tuesday, December 6th 2022, 12:34:11 pm
 ---

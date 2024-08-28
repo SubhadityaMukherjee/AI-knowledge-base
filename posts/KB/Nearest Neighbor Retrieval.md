@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Nearest Neighbor Retrieval
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Nearest Neighbor Retrieval

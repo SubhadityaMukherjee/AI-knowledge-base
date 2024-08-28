@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Average Number of Stored Instances per Category
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Average Number of Stored Instances per Category

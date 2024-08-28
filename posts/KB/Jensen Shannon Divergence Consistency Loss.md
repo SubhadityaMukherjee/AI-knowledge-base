@@ -2,7 +2,7 @@
 toc: true
 title: Jensen Shannon Divergence Consistency Loss
 
-categories: ['loss']
+tags: ['loss']
 date modified: Monday 27th March 2023, Mon
 date created: Monday 27th March 2023, Mon
 ---

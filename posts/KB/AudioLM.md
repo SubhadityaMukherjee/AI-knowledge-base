@@ -1,7 +1,7 @@
 ---
 toc: true
 title: AudioLM
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## AudioLM

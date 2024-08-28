@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Generation with Super Resolution
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Image Generation with Super Resolution

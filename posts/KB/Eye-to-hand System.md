@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Eye-to-hand System
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Eye-to-hand System

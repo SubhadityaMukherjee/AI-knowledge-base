@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Pseudo Label
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 

@@ -2,7 +2,7 @@
 toc: true
 title: Prediction Difference Analysis
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:44:23 pm
 date created: Wednesday, October 12th 2022, 4:44:22 pm
 ---

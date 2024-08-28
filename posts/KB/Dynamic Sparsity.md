@@ -2,7 +2,7 @@
 toc: true
 title: Dynamic Sparsity
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Sunday, October 23rd 2022, 5:00:30 pm
 date created: Sunday, October 23rd 2022, 5:00:29 pm
 ---

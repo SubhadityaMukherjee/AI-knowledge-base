@@ -2,7 +2,7 @@
 toc: true
 title: GloVE
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Wednesday, December 7th 2022, 10:58:44 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

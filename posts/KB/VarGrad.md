@@ -2,7 +2,7 @@
 toc: true
 title: VarGrad
 
-categories: ['explainabilityexplainability']
+tags: ['explainabilityexplainability']
 date modified: Tuesday, December 6th 2022, 12:44:34 pm
 date created: Tuesday, December 6th 2022, 12:44:33 pm
 ---

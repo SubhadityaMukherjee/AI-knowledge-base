@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Quantifiers
-categories: ['language']
+tags: ['language']
 date modified: Thursday, November 3rd 2022, 11:32:45 am
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

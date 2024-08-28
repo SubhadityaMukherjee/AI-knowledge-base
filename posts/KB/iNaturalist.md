@@ -2,7 +2,7 @@
 toc: true
 title: iNaturalist
 
-categories: ['dataset']
+tags: ['dataset']
 date modified: Friday, January 13th 2023, 2:53:49 pm
 date created: Friday, January 13th 2023, 2:53:48 pm
 ---

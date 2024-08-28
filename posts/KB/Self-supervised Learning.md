@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Self-supervised Learning
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Self-supervised Learning

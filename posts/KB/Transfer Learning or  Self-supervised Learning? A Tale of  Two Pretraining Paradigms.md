@@ -2,7 +2,7 @@
 toc: true
 title: Transfer Learning or  Self-supervised Learning? A Tale of  Two Pretraining Paradigms
 
-categories: ['deeplearning']
+tags: ['deeplearning']
 date modified: Monday 27th March 2023, Mon
 date created: Monday 27th March 2023, Mon
 ---

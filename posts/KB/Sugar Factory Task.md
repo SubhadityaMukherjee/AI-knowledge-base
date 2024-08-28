@@ -2,7 +2,7 @@
 toc: true
 title: Sugar Factory Task
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, November 14th 2022, 1:49:21 pm
 date created: Monday, November 14th 2022, 1:45:09 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Learning Event
 
-categories: ['usermodel']
+tags: ['usermodel']
 date modified: Wednesday, October 12th 2022, 2:07:06 pm
 date created: Wednesday, October 12th 2022, 2:07:04 pm
 ---

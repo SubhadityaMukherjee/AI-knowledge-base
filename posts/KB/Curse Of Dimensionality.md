@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Curse of Dimensionality
 date modified: Monday, October 10th 2022, 2:02:30 pm

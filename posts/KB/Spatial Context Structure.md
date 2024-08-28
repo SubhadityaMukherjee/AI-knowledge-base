@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Spatial Context Structure
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Spatial Context Structure

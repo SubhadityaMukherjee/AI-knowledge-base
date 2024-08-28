@@ -2,7 +2,7 @@
 toc: true
 title: Quantifier spreading children misled by ostensive cues
 
-categories: ['language']
+tags: ['language']
 date modified: Friday, October 28th 2022, 3:48:40 pm
 date created: Tuesday, October 25th 2022, 4:18:57 pm
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Universal Quantifiers
-categories: ['language']
+tags: ['language']
 date created: Thursday, November 3rd 2022, 11:39:47 am
 date modified: Thursday, November 3rd 2022, 11:40:00 am
 ---

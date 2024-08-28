@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Cross Modal-based Methods
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Cross Modal-based Methods

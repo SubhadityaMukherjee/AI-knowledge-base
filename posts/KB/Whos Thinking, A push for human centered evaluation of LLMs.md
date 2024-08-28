@@ -2,7 +2,7 @@
 toc: true
 title: Whos Thinking, A push for human centered evaluation of LLMs
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday 24th May 2023, Wed
 date created: Wednesday 24th May 2023, Wed
 ---

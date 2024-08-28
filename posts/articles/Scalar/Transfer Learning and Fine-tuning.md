@@ -3,7 +3,7 @@
 toc: true
 title: Transfer Learning and Fine-tuning
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

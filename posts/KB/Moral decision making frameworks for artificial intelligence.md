@@ -2,7 +2,7 @@
 toc: true
 title: Moral decision making frameworks for artificial intelligence
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:05:30 pm
 date created: Wednesday, January 18th 2023, 4:05:29 pm
 ---

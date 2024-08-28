@@ -2,7 +2,7 @@
 toc: true
 title: Classifying a specific image region using convolutional nets with an ROI mask as input
 
-categories: ['explainabilityexplainability']
+tags: ['explainabilityexplainability']
 date modified: Tuesday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 12:58:22 pm
 ---

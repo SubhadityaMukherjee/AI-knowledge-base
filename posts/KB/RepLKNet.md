@@ -2,7 +2,7 @@
 toc: true
 title: RepLKNet
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Sunday, October 23rd 2022, 4:58:26 pm
 date created: Sunday, October 23rd 2022, 4:58:25 pm
 ---

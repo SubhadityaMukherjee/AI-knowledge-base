@@ -2,7 +2,7 @@
 toc: true
 title: Conditional GAN
 
-categories: ['architecturegenerative']
+tags: ['architecturegenerative']
 date modified: Sunday, December 18th 2022, 2:40:23 pm
 date created: Sunday, December 18th 2022, 2:04:16 pm
 ---

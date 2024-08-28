@@ -1,7 +1,7 @@
 ---
 toc: true
 title: The Differentiation Condition
-categories: ['language']
+tags: ['language']
 ---
 
 # The Differentiation Condition

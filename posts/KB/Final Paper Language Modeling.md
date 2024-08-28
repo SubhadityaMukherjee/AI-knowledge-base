@@ -2,7 +2,7 @@
 toc: true
 title: Final Paper LM
 
-categories: ['language']
+tags: ['language']
 date modified: Monday, October 31st 2022, 12:52:26 pm
 date created: Monday, October 24th 2022, 5:14:15 pm
 ---

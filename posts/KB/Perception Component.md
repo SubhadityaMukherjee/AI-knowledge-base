@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Perception Component
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Perception Component

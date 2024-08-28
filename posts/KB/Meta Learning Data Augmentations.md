@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Meta Learning Data Augmentations
-categories: ['augment']
+tags: ['augment']
 date created: Monday, October 10th 2022, 1:58:12 pm
 date modified: Monday, October 10th 2022, 2:02:06 pm
 ---

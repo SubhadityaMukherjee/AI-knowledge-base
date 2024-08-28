@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Muse
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Muse

@@ -2,7 +2,7 @@
 toc: true
 title: One cycle policy
 
-categories: ['optimizer']
+tags: ['optimizer']
 date modified: Thursday 11th May 2023, Thu
 date created: Thursday 11th May 2023, Thu
 ---

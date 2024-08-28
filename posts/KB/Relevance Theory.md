@@ -2,7 +2,7 @@
 toc: true
 title: Relevance Theory
 
-categories: ['language']
+tags: ['language']
 date modified: Tuesday, October 25th 2022, 4:29:24 pm
 date created: Tuesday, October 25th 2022, 4:29:23 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Sparse Evolutionary Training
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Sunday, October 23rd 2022, 5:00:39 pm
 date created: Sunday, October 23rd 2022, 5:00:38 pm
 ---

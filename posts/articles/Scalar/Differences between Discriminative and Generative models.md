@@ -3,7 +3,7 @@
 toc: true
 title: Differences between Discriminative and Generative models
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

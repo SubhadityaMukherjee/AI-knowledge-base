@@ -2,7 +2,7 @@
 toc: true
 title: Z-Space Entanglement
 
-categories: ['architecturegenerative']
+tags: ['architecturegenerative']
 date modified: Sunday 18th December 2022, Sun
 date created: Sunday 18th December 2022, Sun
 ---

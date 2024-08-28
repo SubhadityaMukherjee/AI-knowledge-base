@@ -2,7 +2,7 @@
 toc: true
 title: Binary Cross Entropy
 
-categories: ['loss']
+tags: ['loss']
 date modified: Friday, January 20th 2023, 1:52:01 pm
 date created: Friday, January 20th 2023, 1:52:00 pm
 ---

@@ -3,7 +3,7 @@
 toc: true
 title: CycleGAN #scalar
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

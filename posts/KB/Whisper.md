@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Whisper
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Whisper

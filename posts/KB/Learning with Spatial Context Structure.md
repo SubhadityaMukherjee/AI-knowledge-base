@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Learning with Spatial Context Structure
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Learning with Spatial Context Structure

@@ -2,7 +2,7 @@
 toc: true
 title: DeconvNet
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Tuesday, December 6th 2022, 12:04:42 pm
 date created: Wednesday, October 12th 2022, 4:17:49 pm
 ---

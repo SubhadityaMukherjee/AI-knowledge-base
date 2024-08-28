@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Fixed Factors
-categories: ['language']
+tags: ['language']
 ---
 
 # Fixed Factors

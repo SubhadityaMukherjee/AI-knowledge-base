@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Jukebox
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Jukebox

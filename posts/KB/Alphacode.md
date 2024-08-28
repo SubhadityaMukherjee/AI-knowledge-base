@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Alphacode
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Alphacode

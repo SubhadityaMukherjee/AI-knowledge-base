@@ -3,7 +3,7 @@
 toc: true
 title: Learnings from this time back home
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

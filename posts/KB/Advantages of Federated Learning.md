@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Advantages of Federated Learning
 date modified: Monday, October 10th 2022, 2:02:34 pm

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Downstream Task
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Downstream Task

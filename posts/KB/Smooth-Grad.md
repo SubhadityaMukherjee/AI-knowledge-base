@@ -2,7 +2,7 @@
 toc: true
 title: Smooth-Grad
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:44:30 pm
 date created: Wednesday, October 12th 2022, 4:44:29 pm
 ---

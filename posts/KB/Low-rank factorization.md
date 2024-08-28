@@ -2,7 +2,7 @@
 toc: true
 title: Low-rank factorization
 
-categories: ['knowledgedistillation']
+tags: ['knowledgedistillation']
 date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:42:00 am
 ---

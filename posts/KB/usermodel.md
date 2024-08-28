@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [Algebra Cognitive Tutor.md](Algebra%20Cognitive%20Tutor.md)

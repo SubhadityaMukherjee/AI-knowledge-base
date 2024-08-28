@@ -2,7 +2,7 @@
 toc: true
 title: Skip Gram
 
-categories: ['nlp']
+tags: ['nlp']
 date modified: Wednesday, December 7th 2022, 11:41:47 pm
 date created: Wednesday, December 7th 2022, 11:39:27 pm
 ---

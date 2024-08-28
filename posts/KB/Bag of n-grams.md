@@ -2,7 +2,7 @@
 toc: true
 title: Bag of n-grams
 
-categories: ['nlp']
+tags: ['nlp']
 date modified: Wednesday, December 7th 2022, 11:04:22 pm
 date created: Wednesday, December 7th 2022, 11:04:09 pm
 ---

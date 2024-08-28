@@ -1,7 +1,7 @@
 ---
 toc: true
 title: What I Learnt About Myself the Past Two Years
-categories: ['article']
+tags: ['article']
 date modified: 
 date created: 13-07-2024
 ---

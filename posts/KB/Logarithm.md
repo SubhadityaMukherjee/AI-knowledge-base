@@ -2,7 +2,7 @@
 toc: true
 title: Logarithm
 
-categories: ['math']
+tags: ['math']
 date modified: Tuesday, December 13th 2022, 10:31:00 pm
 date created: Tuesday, December 13th 2022, 10:30:01 pm
 ---

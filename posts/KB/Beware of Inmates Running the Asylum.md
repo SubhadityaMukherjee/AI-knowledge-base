@@ -2,7 +2,7 @@
 toc: true
 title: Beware of Inmates Running the Asylum
 
-categories: ['explainabilityexplainability']
+tags: ['explainabilityexplainability']
 date modified: Saturday, December 3rd 2022, 5:19:07 pm
 date created: Saturday, December 3rd 2022, 5:10:11 pm
 ---

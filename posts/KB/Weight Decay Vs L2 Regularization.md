@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Weight Decay Vs L2 Regularization
-categories: ['regularize']
+tags: ['regularize']
 ---
 
 ## Weight Decay Vs L2 Regularization

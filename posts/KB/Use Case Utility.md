@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Use Case Utility
-categories: ['explainability']
+tags: ['explainability']
 ---
 
 

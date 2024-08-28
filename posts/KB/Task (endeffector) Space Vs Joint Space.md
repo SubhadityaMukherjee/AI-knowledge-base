@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Task (endeffector) Space Vs. Joint Space
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Task (endeffector) Space Vs. [Joint Space](Joint Space.md)

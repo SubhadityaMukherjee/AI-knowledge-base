@@ -1,7 +1,7 @@
 ---
 toc: true
 title: ManifoldMix
-categories: ['augment']
+tags: ['augment']
 ---
 
 

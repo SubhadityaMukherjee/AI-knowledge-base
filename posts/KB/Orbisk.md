@@ -2,7 +2,7 @@
 toc: true
 title: Orbisk
 
-categories: ['jobs']
+tags: ['jobs']
 date modified: Tuesday 5th September 2023, Tue
 date created: Tuesday 5th September 2023, Tue
 ---

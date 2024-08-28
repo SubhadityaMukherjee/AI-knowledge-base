@@ -2,7 +2,7 @@
 toc: true
 title: Tracking the Continuity of Language Comprehension Computer Mouse Trajectories Suggest Parallel Syntactic Processing
 
-categories: ['language']
+tags: ['language']
 date modified: Saturday, October 15th 2022, 11:12:11 am
 date created: Saturday, October 15th 2022, 10:08:53 am
 ---

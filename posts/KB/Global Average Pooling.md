@@ -2,7 +2,7 @@
 toc: true
 title: Global Average Pooling
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Friday, November 18th 2022, 2:04:55 pm
 date created: Friday, November 18th 2022, 1:54:34 pm
 ---

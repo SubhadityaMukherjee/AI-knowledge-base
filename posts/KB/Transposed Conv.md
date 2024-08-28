@@ -2,7 +2,7 @@
 toc: true
 title: Transposed Conv
 
-categories: ['architecturegenerative']
+tags: ['architecturegenerative']
 date modified: Saturday, December 17th 2022, 1:47:49 pm
 date created: Thursday, December 15th 2022, 10:05:01 pm
 ---

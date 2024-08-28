@@ -2,7 +2,7 @@
 toc: true
 title: Final Paper User Models
 
-categories: ['usermodel']
+tags: ['usermodel']
 date modified: Monday, November 7th 2022, 12:39:26 pm
 date created: Tuesday, October 25th 2022, 3:09:48 pm
 ---

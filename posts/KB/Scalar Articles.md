@@ -2,7 +2,7 @@
 toc: true
 title: Scalar Articles
 
-categories: ['index']
+tags: ['index']
 date modified: Tuesday, December 13th 2022, 5:07:42 pm
 date created: Tuesday, December 13th 2022, 4:55:46 pm
 ---

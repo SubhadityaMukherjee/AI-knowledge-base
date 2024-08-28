@@ -2,7 +2,7 @@
 toc: true
 title: Latitude Junior ML Engineer
 
-categories: ['jobs']
+tags: ['jobs']
 date modified: Tuesday 12th September 2023, Tue
 date created: Tuesday 12th September 2023, Tue
 ---

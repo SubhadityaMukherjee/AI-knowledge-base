@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Goodhart's Law
 date modified: Monday, October 10th 2022, 2:02:26 pm

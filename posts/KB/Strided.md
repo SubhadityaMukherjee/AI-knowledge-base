@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Strided
-categories: ['architecture']
+tags: ['architecture']
 date modified: Saturday, December 17th 2022, 1:59:23 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

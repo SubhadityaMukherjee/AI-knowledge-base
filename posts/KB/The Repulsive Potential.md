@@ -1,7 +1,7 @@
 ---
 toc: true
 title: The Repulsive Potential
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # The Repulsive Potential

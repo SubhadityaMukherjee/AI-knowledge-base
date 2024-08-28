@@ -2,7 +2,7 @@
 toc: true
 title: Instance Normalization
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Sunday, December 11th 2022, 1:16:14 pm
 date created: Sunday, December 11th 2022, 1:15:01 pm
 ---

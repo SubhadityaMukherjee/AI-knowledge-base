@@ -2,7 +2,7 @@
 toc: true
 title: Collectivity, Distributivity, and the Interpretation of Plural Numerical Expressions in Child and Adult Language
 
-categories: ['language']
+tags: ['language']
 date modified: Tuesday, January 24th 2023, 8:23:36 pm
 date created: Tuesday, October 4th 2022, 12:45:01 pm
 ---

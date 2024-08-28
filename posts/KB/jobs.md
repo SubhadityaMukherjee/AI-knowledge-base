@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [ABN Amro AI Dev.md](ABN%20Amro%20AI%20Dev.md)

@@ -2,7 +2,7 @@
 toc: true
 title: Normalized Inverted Structural Similarity Index
 
-categories: ['explainabilityadversarial']
+tags: ['explainabilityadversarial']
 date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 2:55:16 pm
 ---

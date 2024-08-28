@@ -2,7 +2,7 @@
 toc: true
 title: Reconstruction loss
 
-categories: ['loss']
+tags: ['loss']
 date modified: Sunday 12th February 2023, Sun
 date created: Sunday 12th February 2023, Sun
 ---

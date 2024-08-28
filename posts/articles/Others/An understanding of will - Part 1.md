@@ -2,7 +2,7 @@
 toc: true
 title:  An understanding of will - Part 1
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

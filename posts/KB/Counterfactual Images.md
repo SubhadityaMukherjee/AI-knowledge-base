@@ -2,7 +2,7 @@
 toc: true
 title: Counterfactual Images
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Friday, November 18th 2022, 1:19:53 pm
 date created: Friday, November 18th 2022, 1:19:19 pm
 ---

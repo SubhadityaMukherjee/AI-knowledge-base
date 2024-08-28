@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [2 X 2 Study.md](2%20X%202%20Study.md)

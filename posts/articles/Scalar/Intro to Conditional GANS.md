@@ -3,7 +3,7 @@
 toc: true
 title: Intro to Conditional GANS
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Deontological ethics
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 3:52:10 pm
 date created: Wednesday, January 18th 2023, 3:52:08 pm
 ---

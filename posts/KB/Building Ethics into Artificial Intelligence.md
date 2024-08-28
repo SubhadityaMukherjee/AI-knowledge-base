@@ -2,7 +2,7 @@
 toc: true
 title: Building Ethics into Artificial Intelligence
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:11:17 pm
 date created: Wednesday, January 18th 2023, 3:24:42 pm
 ---

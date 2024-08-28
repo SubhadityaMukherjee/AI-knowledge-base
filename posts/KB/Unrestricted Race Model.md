@@ -2,7 +2,7 @@
 toc: true
 title: Unrestricted Race Model
 
-categories: ['language']
+tags: ['language']
 date modified: Saturday, October 15th 2022, 11:09:28 am
 date created: Saturday, October 15th 2022, 11:09:27 am
 ---

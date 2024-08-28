@@ -1,7 +1,7 @@
 ---
 toc: true
 title: ANOVA
-categories: ['language']
+tags: ['language']
 ---
 
 # ANOVA

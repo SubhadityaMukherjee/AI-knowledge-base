@@ -2,7 +2,7 @@
 toc: true
 title: Parent Approximations
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:43:52 pm
 date created: Wednesday, October 12th 2022, 4:43:52 pm
 ---

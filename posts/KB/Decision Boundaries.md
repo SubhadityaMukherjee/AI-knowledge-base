@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Decision Boundaries
 date modified: Sunday, November 6th 2022, 5:13:30 pm

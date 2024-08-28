@@ -2,7 +2,7 @@
 toc: true
 title: Relevance Account
 
-categories: ['language']
+tags: ['language']
 date modified: Tuesday, October 25th 2022, 4:27:24 pm
 date created: Tuesday, October 25th 2022, 4:27:23 pm
 ---

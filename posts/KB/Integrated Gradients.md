@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Integrated Gradients
-categories: ['explainabilityexplainability']
+tags: ['explainabilityexplainability']
 date modified: Tuesday, December 6th 2022, 12:46:40 pm
 date created: Tuesday, December 6th 2022, 12:46:39 pm
 ---

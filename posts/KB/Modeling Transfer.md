@@ -2,7 +2,7 @@
 toc: true
 title: Modeling Transfer
 
-categories: ['usermodellearning']
+tags: ['usermodellearning']
 date modified: Wednesday, October 12th 2022, 2:10:53 pm
 date created: Wednesday, October 12th 2022, 2:10:52 pm
 ---

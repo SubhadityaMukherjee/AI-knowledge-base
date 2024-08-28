@@ -2,7 +2,7 @@
 toc: true
 title: Andes
 
-categories: ['usermodellearning']
+tags: ['usermodellearning']
 date modified: Wednesday, October 12th 2022, 2:21:51 pm
 date created: Wednesday, October 12th 2022, 2:21:50 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: PlantCLEF
 
-categories: ['dataset']
+tags: ['dataset']
 date modified: Friday, January 13th 2023, 2:53:56 pm
 date created: Friday, January 13th 2023, 2:53:55 pm
 ---

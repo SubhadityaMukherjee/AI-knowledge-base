@@ -2,7 +2,7 @@
 toc: true
 title: Explainable Artificial Intelligence (XAI) Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Monday 6th March 2023, Mon
 date created: Monday 6th March 2023, Mon
 ---

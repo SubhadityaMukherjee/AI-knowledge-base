@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Numerically Quantified Expressions
-categories: ['language']
+tags: ['language']
 ---
 
 # Numerically Quantified Expressions

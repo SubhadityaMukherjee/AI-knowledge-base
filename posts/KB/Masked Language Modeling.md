@@ -2,7 +2,7 @@
 toc: true
 title: Masked Language Modeling
 
-categories: ['nlp']
+tags: ['nlp']
 date modified: Friday, December 9th 2022, 11:38:02 am
 date created: Thursday, December 8th 2022, 11:40:39 pm
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Global Classification Accuracy
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Global Classification Accuracy

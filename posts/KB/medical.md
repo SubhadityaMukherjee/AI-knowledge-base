@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [Acute.md](Acute.md)

@@ -2,7 +2,7 @@
 toc: true
 title: AUC-Judd
 
-categories: ['loss']
+tags: ['loss']
 date modified: Monday, October 10th 2022, 2:02:07 pm
 date created: Thursday, October 6th 2022, 1:39:42 pm
 ---

@@ -3,7 +3,7 @@
 toc: true
 title: Extensions that make writing research papers easier
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Opportunistic Learning
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Opportunistic Learning

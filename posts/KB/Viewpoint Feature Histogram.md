@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Viewpoint Feature Histogram
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Viewpoint Feature Histogram

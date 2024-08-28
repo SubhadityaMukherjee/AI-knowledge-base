@@ -2,7 +2,7 @@
 toc: true
 title: What is being Transferred in transfer learning
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Monday 27th February 2023, Mon
 date created: Monday 27th February 2023, Mon
 ---

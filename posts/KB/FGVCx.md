@@ -2,7 +2,7 @@
 toc: true
 title: FGVCx
 
-categories: ['dataset']
+tags: ['dataset']
 date modified: Friday, January 13th 2023, 2:53:42 pm
 date created: Friday, January 13th 2023, 2:53:41 pm
 ---

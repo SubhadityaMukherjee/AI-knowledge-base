@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Quadratic Potential Field
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Quadratic Potential Field

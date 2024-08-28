@@ -1,7 +1,7 @@
 ---
 toc: true
 title: StarGAN
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 

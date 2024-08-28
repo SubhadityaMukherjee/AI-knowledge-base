@@ -2,7 +2,7 @@
 toc: true
 title: FGVC Aircraft
 
-categories: ['dataset']
+tags: ['dataset']
 date modified: Friday, January 13th 2023, 2:53:37 pm
 date created: Friday, January 13th 2023, 2:53:35 pm
 ---

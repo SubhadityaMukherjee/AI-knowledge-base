@@ -3,7 +3,7 @@
 toc: true
 title: Building a GAN from scratch
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

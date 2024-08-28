@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Action Component
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Action Component

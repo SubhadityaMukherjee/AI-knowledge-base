@@ -1,7 +1,7 @@
 ---
 toc: true
 title: DALL·E 2
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## DALL·E 2

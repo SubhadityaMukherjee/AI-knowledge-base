@@ -2,7 +2,7 @@
 toc: true
 title: Consequentialist ethics
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 3:51:33 pm
 date created: Wednesday, January 18th 2023, 3:51:29 pm
 ---

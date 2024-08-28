@@ -2,7 +2,7 @@
 toc: true
 title: CogMod Final Paper
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, December 5th 2022, 2:38:50 pm
 date created: Monday, December 5th 2022, 2:38:14 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Response Based Knowledge
 
-categories: ['knowledgedistillation']
+tags: ['knowledgedistillation']
 date modified: Monday, October 10th 2022, 2:02:09 pm
 date created: Tuesday, October 4th 2022, 11:43:35 am
 ---

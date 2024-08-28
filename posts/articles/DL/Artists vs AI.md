@@ -3,7 +3,7 @@
 toc: true
 title: Artists vs AI
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Saliency vs Attention
-categories: ['explainability']
+tags: ['explainability']
 ---
 
 

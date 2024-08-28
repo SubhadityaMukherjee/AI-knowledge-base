@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Semantic Segmentation
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Semantic Segmentation

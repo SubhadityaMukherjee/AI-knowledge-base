@@ -2,7 +2,7 @@
 toc: true
 title: ACT-R Chunk
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, November 14th 2022, 1:44:17 pm
 date created: Monday, November 14th 2022, 1:42:10 pm
 ---

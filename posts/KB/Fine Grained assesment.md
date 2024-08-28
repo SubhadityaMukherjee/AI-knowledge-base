@@ -2,7 +2,7 @@
 toc: true
 title: Fine Grained assesment
 
-categories: ['usermodellearning']
+tags: ['usermodellearning']
 date modified: Wednesday, October 12th 2022, 2:18:50 pm
 date created: Wednesday, October 12th 2022, 2:18:48 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Multiple constraint-based theories
 
-categories: ['language']
+tags: ['language']
 date modified: Saturday, October 15th 2022, 11:08:56 am
 date created: Saturday, October 15th 2022, 11:08:55 am
 ---

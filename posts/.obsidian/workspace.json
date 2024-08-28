@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "56cfedb3157295fa",
+        "id": "f98f56e0ded0eab7",
         "type": "tabs",
         "children": [
           {
-            "id": "1d64f28d167ebf12",
+            "id": "50375719c3431587",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -38,7 +34,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -85,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md"
-              }
+              "state": {}
             }
           },
           {
@@ -118,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,9 +120,19 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "dfefe011e5150eb9",
+            "type": "leaf",
+            "state": {
+              "type": "chat-view",
+              "state": {
+                "file": "Chats/New Chat.md"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -147,97 +149,44 @@
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": true,
       "post-medium-draft:Post Medium draft": false,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "smart-second-brain:Open S2B Chat": false
     }
   },
-  "floating": {
-    "id": "55477f838b7879ba",
-    "type": "floating",
-    "children": [
-      {
-        "id": "164aef704dd401af",
-        "type": "window",
-        "children": [
-          {
-            "id": "839fb3168915c32d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f4dbaf1701e9689c",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.8975434402469307,
-                      "close": true
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 600,
-        "y": 80,
-        "width": 600,
-        "height": 897,
-        "maximize": false,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "1d64f28d167ebf12",
+  "active": "50375719c3431587",
   "lastOpenFiles": [
-    "KB/Swish.md",
-    "KB/Relu.md",
-    "KB/Sparsity.md",
-    "KB/ADE20K.md",
-    "KB/ACT-R Chunk.md",
-    "KB/Accessibility.md",
-    "KB/A voting-based system for ethical decision making.md",
-    "KB/A matter of ambiguity? Using eye movements to examine collective vs distributive interpretations of plural sets.md",
-    "KB/8 bit character set.md",
-    "KB/2 byte character set.md",
+    "Chats/New Chat.md",
+    "KB/OpenML <> scikit-learn hackathon.md",
+    "Chats",
     "Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
+    "Tag Pages/loss.md",
     "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
-    "Book Notes/Understanding Deep Learning/Chapter 1.md",
-    "index.md",
-    "KB/Image Mixing and Deletion.md",
-    "KB/CutMix.md",
-    "KB/Cutout].md",
-    "KB/SaliencyMix.md",
-    "KB/augment.md",
-    "KB/A survey on Image Data Augmentation for Deep Learning.md",
-    "KB/Noise Injection.md",
-    "KB/Regularization.md",
-    "KB/A declarative modular framework for representing and applying ethical principles.md",
-    "KB/2 X 2 Study.md",
-    "KB/Moral Machine project.md",
-    "KB/Moral Machine project.md.md",
+    "Tag Pages/distribution.md",
+    "KB/Exponential Distribution.md",
+    "Tag Pages/article.md",
+    "Tag Pages/ethics.md",
+    "Tag Pages/explainability.md",
+    "Tag Pages/dataset.md",
+    "Tag Pages/brain.md",
+    "Tag Pages/visualization.md",
+    "Tag Pages/augment.md",
+    "Tag Pages/robotics.md",
+    "Tag Pages/architecture.md",
+    "Tag Pages/distributions.md",
+    "KB/GAN‐based Data Augmentation.md",
+    "KB/YFCC100M.md",
+    "KB/TREPAN.md",
+    "KB/Focused Life.md",
+    "Tag Pages/lamguage.md",
+    "create_tag_pages.py",
+    "Tag Pages/index.md",
+    "Tag Pages",
+    "smart-chats/UNTITLED CHAT 2024-08-28 12 50 45.md",
+    "smart-chats/UNTITLED CHAT 2024-08-28 12 44 54.md",
+    "KB/Swish.md",
+    "smart-chats",
     "images/Pasted image 20240828112456.png",
     "images/Pasted image 20240828105807 1.png",
     "images/Pasted image 20240828105807.png",

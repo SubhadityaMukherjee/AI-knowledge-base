@@ -2,7 +2,7 @@
 toc: true
 title: Poki Data Scientist
 
-categories: ['jobs']
+tags: ['jobs']
 date modified: Tuesday 26th September 2023, Tue
 date created: Tuesday 26th September 2023, Tue
 ---

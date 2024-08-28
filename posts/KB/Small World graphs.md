@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Small World graphs
 date modified: Monday, October 10th 2022, 2:02:16 pm

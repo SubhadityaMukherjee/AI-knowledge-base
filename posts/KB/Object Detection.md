@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Object Detection
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Object Detection

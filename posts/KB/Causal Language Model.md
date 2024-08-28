@@ -2,7 +2,7 @@
 toc: true
 title: Causal Language Model
 
-categories: ['nlp']
+tags: ['nlp']
 date modified: Friday 9th December 2022, Fri
 date created: Friday 9th December 2022, Fri
 ---

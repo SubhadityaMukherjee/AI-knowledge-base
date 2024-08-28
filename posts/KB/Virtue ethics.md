@@ -2,7 +2,7 @@
 toc: true
 title: Virtue ethics
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 3:52:19 pm
 date created: Wednesday, January 18th 2023, 3:52:17 pm
 ---

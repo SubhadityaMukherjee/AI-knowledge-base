@@ -2,7 +2,7 @@
 toc: true
 title: Writing your own Markdown to LaTEX parser
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

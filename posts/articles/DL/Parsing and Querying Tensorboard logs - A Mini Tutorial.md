@@ -3,7 +3,7 @@
 toc: true
 title: Parsing and Querying Tensorboard logs - A Mini Tutorial
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

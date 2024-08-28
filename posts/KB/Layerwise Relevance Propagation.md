@@ -2,7 +2,7 @@
 toc: true
 title: Layerwise Relevance Propagation
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:43:47 pm
 date created: Wednesday, October 12th 2022, 4:43:45 pm
 ---

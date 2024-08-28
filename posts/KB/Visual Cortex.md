@@ -1,5 +1,5 @@
 ---
-categories: ['brain']
+tags: ['brain']
 date created: Wednesday, August 10th 2022, 7:05:02 pm
 date modified: Monday, January 16th 2023, 7:33:11 pm
 ---

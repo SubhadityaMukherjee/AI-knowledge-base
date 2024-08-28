@@ -2,7 +2,7 @@
 toc: true
 title: Learning L2 German Vocabulary Through Reading
 
-categories: ['usermodel']
+tags: ['usermodel']
 date modified: Thursday, November 10th 2022, 3:43:04 pm
 date created: Thursday, November 10th 2022, 3:42:28 pm
 ---

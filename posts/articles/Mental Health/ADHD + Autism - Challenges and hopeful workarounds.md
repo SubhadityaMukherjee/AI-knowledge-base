@@ -2,7 +2,7 @@
 toc: true
 title: ADHD + Autism - Challenges and hopeful workarounds
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

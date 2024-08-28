@@ -2,7 +2,7 @@
 toc: true
 title: Cycle Consistency Loss
 
-categories: ['generativeloss']
+tags: ['generativeloss']
 date modified: Sunday, December 11th 2022, 1:34:04 pm
 date created: Sunday, December 11th 2022, 1:00:35 pm
 ---

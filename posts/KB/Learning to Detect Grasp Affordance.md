@@ -2,7 +2,7 @@
 toc: true
 title: Learning to Detect Grasp Affordance
 
-categories: ['roboticsarchitecture']
+tags: ['roboticsarchitecture']
 date modified: Monday, October 10th 2022, 2:02:23 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---

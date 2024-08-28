@@ -2,7 +2,7 @@
 toc: true
 title: VattenFall Data Scientist
 
-categories: ['jobs']
+tags: ['jobs']
 date modified: Thursday 14th September 2023, Thu
 date created: Thursday 14th September 2023, Thu
 ---

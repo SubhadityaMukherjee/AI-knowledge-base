@@ -2,7 +2,7 @@
 toc: true
 title: Moral Machine project
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 3:54:36 pm
 date created: Wednesday, January 18th 2023, 3:54:34 pm
 ---

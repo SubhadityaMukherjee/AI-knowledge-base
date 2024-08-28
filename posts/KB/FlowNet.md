@@ -1,7 +1,7 @@
 ---
 toc: true
 title: FlowNet
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 - FlowNet 

@@ -1,7 +1,7 @@
 ---
 title: Chapter 1
 toc: true
-categories: 
+tags: 
 date modified: Tuesday 27th August 2024, Tue
 date created: Tuesday 27th August 2024, Tue
 ---
@@ -10,4 +10,4 @@ date created: Tuesday 27th August 2024, Tue
 ```toc
 ```
 
-- ![[../../images/Chapter 1 mindmap.svg]]
+- ![[Chapter 1 mindmap.svg]]

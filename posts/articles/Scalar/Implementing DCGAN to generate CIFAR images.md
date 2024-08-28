@@ -3,7 +3,7 @@
 toc: true
 title: Implementing DCGAN to generate CIFAR images
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

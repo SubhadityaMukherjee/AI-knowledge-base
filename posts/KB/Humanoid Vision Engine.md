@@ -2,7 +2,7 @@
 toc: true
 title: Humanoid Vision Engine
 
-categories: ['robotics']
+tags: ['robotics']
 date modified: Saturday, November 5th 2022, 12:40:36 pm
 date created: Saturday, November 5th 2022, 12:40:34 pm
 ---

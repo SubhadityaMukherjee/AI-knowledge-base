@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Stable Difusion
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Stable Difusion

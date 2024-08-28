@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Lexically Collective
-categories: ['language']
+tags: ['language']
 ---
 
 # Lexically Collective

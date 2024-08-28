@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [A survey on Image Data Augmentation for Deep Learning.md](A%20survey%20on%20Image%20Data%20Augmentation%20for%20Deep%20Learning.md)

@@ -2,7 +2,7 @@
 toc: true
 title: Comparing Data Augmentation Strategies for Deep Image Classification
 
-categories: ['explainabilityexplainability']
+tags: ['explainabilityexplainability']
 date modified: Wednesday 1st February 2023, Wed
 date created: Wednesday 1st February 2023, Wed
 ---

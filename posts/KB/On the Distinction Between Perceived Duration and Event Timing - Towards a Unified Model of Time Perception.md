@@ -1,7 +1,7 @@
 ---
 toc: true
 title: On the Distinction Between Perceived Duration and Event Timing - Towards a Unified Model of Time Perception
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday 30th January 2023, Mon
 date created: Monday 30th January 2023, Mon
 ---

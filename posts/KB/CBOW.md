@@ -2,7 +2,7 @@
 toc: true
 title: CBOW
 
-categories: ['nlp']
+tags: ['nlp']
 date modified: Wednesday, December 7th 2022, 11:45:39 pm
 date created: Wednesday, December 7th 2022, 11:00:00 pm
 ---

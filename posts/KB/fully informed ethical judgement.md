@@ -2,7 +2,7 @@
 toc: true
 title: fully informed ethical judgement
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:01:35 pm
 date created: Wednesday, January 18th 2023, 4:01:34 pm
 ---

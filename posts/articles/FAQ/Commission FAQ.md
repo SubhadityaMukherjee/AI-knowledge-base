@@ -2,7 +2,7 @@
 toc: true
 title: Commission FAQ
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

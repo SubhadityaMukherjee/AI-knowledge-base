@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Spatiotemporal Convolutional Neural Network
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Spatiotemporal Convolutional Neural Network

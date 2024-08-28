@@ -2,7 +2,7 @@
 toc: true
 title: Frobenius norm
 
-categories: ['math']
+tags: ['math']
 date modified: Monday 27th March 2023, Mon
 date created: Monday 27th March 2023, Mon
 ---

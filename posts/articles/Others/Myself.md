@@ -3,7 +3,7 @@
 toc: true
 title: Myself
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

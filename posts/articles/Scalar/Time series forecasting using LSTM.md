@@ -3,7 +3,7 @@
 toc: true
 title: Time series forecasting using LSTM
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

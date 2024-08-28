@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Faithfulness
-categories: ['explainability']
+tags: ['explainability']
 ---
 
 

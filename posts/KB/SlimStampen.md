@@ -2,7 +2,7 @@
 toc: true
 title: SlimStampen
 
-categories: ['usermodel']
+tags: ['usermodel']
 date modified: Friday, October 14th 2022, 4:29:28 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---

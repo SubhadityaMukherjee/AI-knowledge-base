@@ -3,7 +3,7 @@
 toc: true
 title: CheckEmptySections
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

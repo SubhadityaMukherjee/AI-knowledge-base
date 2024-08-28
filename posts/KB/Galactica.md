@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Galactica
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Galactica

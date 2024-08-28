@@ -2,7 +2,7 @@
 toc: true
 title: RandAugment
 
-categories: ['explainabilityaugment']
+tags: ['explainabilityaugment']
 date modified: Monday, January 16th 2023, 6:21:59 pm
 date created: Friday, November 25th 2022, 12:05:56 pm
 ---

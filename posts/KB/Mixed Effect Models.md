@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Mixed Effect Models
-categories: ['language']
+tags: ['language']
 ---
 
 # Mixed Effect Models

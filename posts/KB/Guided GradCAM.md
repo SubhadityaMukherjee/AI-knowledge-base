@@ -2,7 +2,7 @@
 toc: true
 title: Guided GradCAM
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Saturday, January 14th 2023, 5:04:24 pm
 date created: Friday, November 18th 2022, 1:09:31 pm
 ---

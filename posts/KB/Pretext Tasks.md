@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Pretext Tasks
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 

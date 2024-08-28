@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Random Factors
-categories: ['language']
+tags: ['language']
 ---
 
 # Random Factors

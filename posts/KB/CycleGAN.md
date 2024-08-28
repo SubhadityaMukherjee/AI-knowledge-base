@@ -2,7 +2,7 @@
 toc: true
 title: CycleGAN
 
-categories: ['architecturegenerative']
+tags: ['architecturegenerative']
 date modified: Wednesday, December 14th 2022, 11:20:53 am
 date created: Sunday, December 11th 2022, 12:58:09 pm
 ---

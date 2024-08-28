@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Generation with Inpainting
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Image Generation with Inpainting

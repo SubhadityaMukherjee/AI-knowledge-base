@@ -2,7 +2,7 @@
 toc: true
 title: Coverage of ethics within the artificial intelligence and machine learning academic literature
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Tuesday 31st January 2023, Tue
 date created: Tuesday 31st January 2023, Tue
 ---

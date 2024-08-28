@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Lack of Information
 date modified: Monday, October 10th 2022, 2:02:24 pm

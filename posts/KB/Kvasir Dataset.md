@@ -2,7 +2,7 @@
 toc: true
 title: Kvasir Dataset
 
-categories: ['dataset']
+tags: ['dataset']
 date modified: Monday, October 10th 2022, 2:02:24 pm
 date created: Friday, July 29th 2022, 2:51:11 pm
 ---

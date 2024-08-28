@@ -2,7 +2,7 @@
 toc: true
 title: Bayesian Rule List
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:42:59 pm
 date created: Wednesday, October 12th 2022, 4:42:58 pm
 ---

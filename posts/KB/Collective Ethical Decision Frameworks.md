@@ -2,7 +2,7 @@
 toc: true
 title: Collective Ethical Decision Frameworks
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:09:57 pm
 date created: Wednesday, January 18th 2023, 4:09:57 pm
 ---

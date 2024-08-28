@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Lexically Distributive
-categories: ['language']
+tags: ['language']
 ---
 
 # Lexically Distributive

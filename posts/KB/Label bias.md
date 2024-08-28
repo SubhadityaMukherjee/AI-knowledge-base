@@ -2,7 +2,7 @@
 toc: true
 title: Label bias
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 25th 2023, 11:54:45 am
 date created: Wednesday, January 25th 2023, 11:54:36 am
 ---

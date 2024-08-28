@@ -1,7 +1,7 @@
 ---
 title: Recipe for constructing loss functions
 toc: true
-categories:
+tags:
   - loss
   - deeplearning
 date modified: Wednesday 28th August 2024, Wed

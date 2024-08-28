@@ -2,7 +2,7 @@
 toc: true
 title: swap-dominance
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:02:40 pm
 date created: Wednesday, January 18th 2023, 4:02:38 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Minimization and reporting of negative impacts
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Monday 6th March 2023, Mon
 date created: Monday 6th March 2023, Mon
 ---

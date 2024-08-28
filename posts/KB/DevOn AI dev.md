@@ -2,7 +2,7 @@
 toc: true
 title: DevOn AI dev
 
-categories: ['jobs']
+tags: ['jobs']
 date modified: Friday 29th September 2023, Fri
 date created: Friday 29th September 2023, Fri
 ---

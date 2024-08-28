@@ -2,7 +2,7 @@
 toc: true
 title: Capture bias
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 25th 2023, 11:54:31 am
 date created: Wednesday, January 25th 2023, 11:54:30 am
 ---

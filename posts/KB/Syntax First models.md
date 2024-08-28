@@ -2,7 +2,7 @@
 toc: true
 title: Syntax First models
 
-categories: ['language']
+tags: ['language']
 date modified: Saturday, October 15th 2022, 11:08:42 am
 date created: Saturday, October 15th 2022, 11:08:40 am
 ---

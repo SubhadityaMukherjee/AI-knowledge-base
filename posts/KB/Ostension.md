@@ -2,7 +2,7 @@
 toc: true
 title: Ostension
 
-categories: ['language']
+tags: ['language']
 date modified: Tuesday, October 25th 2022, 4:29:50 pm
 date created: Tuesday, October 25th 2022, 4:29:38 pm
 ---

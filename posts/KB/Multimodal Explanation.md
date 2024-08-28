@@ -2,7 +2,7 @@
 toc: true
 title: Multimodal Explanation
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:44:43 pm
 date created: Wednesday, October 12th 2022, 4:44:42 pm
 ---

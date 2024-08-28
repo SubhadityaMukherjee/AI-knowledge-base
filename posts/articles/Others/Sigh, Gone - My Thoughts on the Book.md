@@ -3,7 +3,7 @@
 toc: true
 title: Sigh, Gone - My Thoughts on the Book
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

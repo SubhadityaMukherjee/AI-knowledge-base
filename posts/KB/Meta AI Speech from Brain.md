@@ -61,7 +61,7 @@ You can always contact me on [LinkedIn](https://www.linkedin.com/in/subhaditya-m
 ---
 toc: true
 title: Meta AI Speech from Brain
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Meta AI Speech from Brain

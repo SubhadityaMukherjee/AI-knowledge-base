@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [ACT-R Chunk.md](ACT-R%20Chunk.md)

@@ -2,7 +2,7 @@
 toc: true
 title: A declarative modular framework for representing and applying ethical principles.
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:09:17 pm
 date created: Wednesday, January 18th 2023, 4:09:16 pm
 ---

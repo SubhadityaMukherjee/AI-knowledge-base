@@ -2,7 +2,7 @@
 toc: true
 title: Salient Object Strategy
 
-categories: ['language']
+tags: ['language']
 date modified: Tuesday, October 25th 2022, 4:27:34 pm
 date created: Tuesday, October 25th 2022, 4:27:33 pm
 ---

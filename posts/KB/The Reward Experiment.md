@@ -2,7 +2,7 @@
 toc: true
 title: The Reward Experiment
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, December 5th 2022, 2:37:25 pm
 date created: Monday, December 5th 2022, 2:24:28 pm
 ---

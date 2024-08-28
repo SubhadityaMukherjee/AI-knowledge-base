@@ -1,7 +1,7 @@
 ---
 title: Log likelihood criterion
 toc: true
-categories:
+tags:
   - loss
 date modified: Tuesday 27th August 2024, Tue
 date created: Tuesday 27th August 2024, Tue

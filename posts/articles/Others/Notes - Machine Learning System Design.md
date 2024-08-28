@@ -3,7 +3,7 @@
 toc: true
 title: Notes - Machine Learning System Design
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

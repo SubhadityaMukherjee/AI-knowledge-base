@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Psycholinguistics
-categories: ['language']
+tags: ['language']
 ---
 
 # Psycholinguistics

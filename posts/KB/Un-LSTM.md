@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Un-LSTM
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 

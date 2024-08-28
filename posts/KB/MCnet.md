@@ -1,7 +1,7 @@
 ---
 toc: true
 title: MCnet
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 

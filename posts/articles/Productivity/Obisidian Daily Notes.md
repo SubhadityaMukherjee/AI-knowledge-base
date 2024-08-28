@@ -3,7 +3,7 @@
 toc: true
 title: Obisidian Daily Notes
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---
@@ -47,7 +47,7 @@ The template I use is as follows. It uses the Liquid syntax to insert entries au
 toc: true
 title: <% tp.file.toc: true
 title %>
-categories: ['temp']
+tags: ['temp']
 date modified: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 date created: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 ---

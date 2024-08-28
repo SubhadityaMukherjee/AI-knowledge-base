@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Mix
-categories: ['augment']
+tags: ['augment']
 ---
 
 ## Image Mix

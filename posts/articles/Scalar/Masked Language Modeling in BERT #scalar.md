@@ -3,7 +3,7 @@
 toc: true
 title: Masked Language Modeling in BERT #scalar
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

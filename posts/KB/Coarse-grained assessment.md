@@ -2,7 +2,7 @@
 toc: true
 title: Coarse-grained assessment
 
-categories: ['usermodellearning']
+tags: ['usermodellearning']
 date modified: Wednesday, October 12th 2022, 2:17:54 pm
 date created: Wednesday, October 12th 2022, 2:17:10 pm
 ---

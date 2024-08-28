@@ -2,7 +2,7 @@
 toc: true
 title: Sharpness and Flatness
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Monday 27th March 2023, Mon
 date created: Monday 27th March 2023, Mon
 ---

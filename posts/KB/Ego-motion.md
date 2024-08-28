@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Ego-motion
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 

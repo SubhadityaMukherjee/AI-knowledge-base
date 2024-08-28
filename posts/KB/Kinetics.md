@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Kinetics
-categories: ['dataset']
+tags: ['dataset']
 ---
 
 ## Kinetics

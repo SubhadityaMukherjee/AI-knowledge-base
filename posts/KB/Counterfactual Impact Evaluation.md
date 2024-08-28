@@ -2,7 +2,7 @@
 toc: true
 title: Counterfactual Impact Evaluation
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:43:40 pm
 date created: Wednesday, October 12th 2022, 4:43:39 pm
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Human Action Recognition
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Human Action Recognition

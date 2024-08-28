@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Occlusion
-categories: ['robotics']
+tags: ['robotics']
 date created: Thursday, November 3rd 2022, 12:42:50 pm
 date modified: Thursday, November 3rd 2022, 12:46:26 pm
 ---

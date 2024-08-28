@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Temporal order verification
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Temporal order verification 

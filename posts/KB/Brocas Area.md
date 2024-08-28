@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Brocas Area
-categories: ['brain']
+tags: ['brain']
 date modified: Sunday, November 6th 2022, 5:12:15 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

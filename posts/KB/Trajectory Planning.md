@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Trajectory Planning
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Trajectory Planning

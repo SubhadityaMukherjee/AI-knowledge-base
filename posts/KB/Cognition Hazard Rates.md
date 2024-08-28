@@ -2,7 +2,7 @@
 toc: true
 title: Cogntition Hazard Rates
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, December 5th 2022, 2:13:13 pm
 date created: Monday, December 5th 2022, 1:34:40 pm
 ---

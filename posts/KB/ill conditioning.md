@@ -2,7 +2,7 @@
 toc: true
 title: ill conditioning
 
-categories: ['gradients']
+tags: ['gradients']
 date modified: Tuesday 7th February 2023, Tue
 date created: Tuesday 7th February 2023, Tue
 ---

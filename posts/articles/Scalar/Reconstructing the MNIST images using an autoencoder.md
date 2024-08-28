@@ -3,7 +3,7 @@
 toc: true
 title: Reconstructing the MNIST images using an autoencoder
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

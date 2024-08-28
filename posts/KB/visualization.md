@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [1D piecewise linear interpolation.md](1D%20piecewise%20linear%20interpolation.md)

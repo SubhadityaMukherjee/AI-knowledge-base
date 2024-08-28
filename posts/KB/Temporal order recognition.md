@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Temporal order recognition
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Temporal order recognition 

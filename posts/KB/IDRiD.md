@@ -2,7 +2,7 @@
 toc: true
 title: IDRiD
 
-categories: ['dataset']
+tags: ['dataset']
 date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 2:31:16 pm
 ---

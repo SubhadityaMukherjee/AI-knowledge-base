@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Perceptual Messages
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Perceptual Messages

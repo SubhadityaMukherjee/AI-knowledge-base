@@ -2,7 +2,7 @@
 toc: true
 title: Causality
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:42:45 pm
 date created: Wednesday, October 12th 2022, 4:42:35 pm
 ---

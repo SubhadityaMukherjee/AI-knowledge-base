@@ -1,7 +1,7 @@
 ---
 toc: true
 title: RANSAC
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # RANSAC

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Polynomial Trajectories
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Polynomial Trajectories

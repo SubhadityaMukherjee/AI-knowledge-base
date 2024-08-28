@@ -2,7 +2,7 @@
 toc: true
 title: Cognitive Foreperiod
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, December 5th 2022, 1:34:08 pm
 date created: Monday, November 28th 2022, 1:42:39 pm
 ---

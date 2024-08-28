@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Video Generation
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Video Generation

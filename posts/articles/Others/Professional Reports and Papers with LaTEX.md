@@ -3,7 +3,7 @@
 toc: true
 title: Professional Reports and Papers with LaTEX
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

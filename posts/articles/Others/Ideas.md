@@ -3,7 +3,7 @@
 toc: true
 title: Ideas
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

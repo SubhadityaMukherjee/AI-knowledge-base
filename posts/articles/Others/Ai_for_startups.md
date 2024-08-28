@@ -3,7 +3,7 @@
 toc: true
 title: Ai_for_startups
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Distilling the Knowledge in a Neural Network
 
-categories: ['knowledgedistillation']
+tags: ['knowledgedistillation']
 date modified: Tuesday, January 24th 2023, 8:23:46 pm
 date created: Tuesday, October 4th 2022, 12:50:52 pm
 ---

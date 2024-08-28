@@ -2,7 +2,7 @@
 toc: true
 title: Cross-dataset generalization
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 25th 2023, 11:53:14 am
 date created: Wednesday, January 25th 2023, 11:53:13 am
 ---

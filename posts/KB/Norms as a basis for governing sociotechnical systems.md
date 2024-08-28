@@ -2,7 +2,7 @@
 toc: true
 title: Norms as a basis for governing sociotechnical systems
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:10:17 pm
 date created: Wednesday, January 18th 2023, 4:10:15 pm
 ---

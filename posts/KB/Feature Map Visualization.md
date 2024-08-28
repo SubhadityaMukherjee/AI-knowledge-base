@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Feature Map Visualization
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Feature Map Visualization

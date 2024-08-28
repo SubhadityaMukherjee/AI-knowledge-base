@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Generation
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Image Generation

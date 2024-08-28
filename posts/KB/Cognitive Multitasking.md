@@ -2,7 +2,7 @@
 toc: true
 title: Cognitive Multitasking
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, December 12th 2022, 1:20:28 pm
 date created: Monday, December 12th 2022, 1:17:57 pm
 ---

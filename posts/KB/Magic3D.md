@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Magic3D
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Magic3D

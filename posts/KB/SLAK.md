@@ -2,7 +2,7 @@
 toc: true
 title: SLAK
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Sunday, October 23rd 2022, 5:04:23 pm
 date created: Sunday, October 23rd 2022, 4:56:57 pm
 ---

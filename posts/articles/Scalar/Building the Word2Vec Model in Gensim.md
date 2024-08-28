@@ -3,7 +3,7 @@
 toc: true
 title: Building the Word2Vec Model in Gensim
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

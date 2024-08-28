@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Learning from Video Prediction
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 

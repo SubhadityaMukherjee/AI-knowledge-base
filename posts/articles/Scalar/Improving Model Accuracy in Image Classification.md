@@ -3,7 +3,7 @@
 toc: true
 title: Improving Model Accuracy in Image Classification
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

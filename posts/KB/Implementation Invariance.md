@@ -2,7 +2,7 @@
 toc: true
 title: Implementation Invariance
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Friday 24th March 2023, Fri
 date created: Friday 24th March 2023, Fri
 ---

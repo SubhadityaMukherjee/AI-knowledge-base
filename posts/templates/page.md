@@ -1,7 +1,7 @@
 ---
 title: <% tp.file.title %>
 toc: true
-categories: 
+tags: 
 date modified: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 date created: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 ---

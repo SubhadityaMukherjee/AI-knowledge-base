@@ -2,7 +2,7 @@
 toc: true
 title: Mastery learning
 
-categories: ['usermodellearning']
+tags: ['usermodellearning']
 date modified: Wednesday, October 12th 2022, 2:12:12 pm
 date created: Wednesday, October 12th 2022, 2:12:10 pm
 ---

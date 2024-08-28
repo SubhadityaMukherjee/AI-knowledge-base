@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Phases of Simulated User Experiments
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Phases of Simulated User Experiments

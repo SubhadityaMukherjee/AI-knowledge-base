@@ -1,5 +1,5 @@
 ---
-categories: ['explainability']
+tags: ['explainability']
 toc: true
 title: Manifold
 date modified: Tuesday, November 15th 2022, 12:47:32 pm

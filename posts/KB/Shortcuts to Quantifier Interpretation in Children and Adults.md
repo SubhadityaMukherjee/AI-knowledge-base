@@ -2,7 +2,7 @@
 toc: true
 title: Shortcuts to Quantifier Interpretation in Children and Adults
 
-categories: ['language']
+tags: ['language']
 date modified: Tuesday, January 24th 2023, 8:24:09 pm
 date created: Sunday, October 9th 2022, 3:58:45 pm
 ---

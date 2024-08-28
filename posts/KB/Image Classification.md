@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Classification
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Image Classification

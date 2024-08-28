@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [A declarative modular framework for representing and applying ethical principles.md](A%20declarative%20modular%20framework%20for%20representing%20and%20applying%20ethical%20principles.md)

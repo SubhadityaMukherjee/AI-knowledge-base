@@ -1,7 +1,7 @@
 ---
 toc: true
 title: SceneNet RGB-D
-categories: ['dataset']
+tags: ['dataset']
 ---
 
 ## SceneNet RGB-D

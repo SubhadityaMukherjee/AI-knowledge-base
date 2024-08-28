@@ -2,7 +2,7 @@
 toc: true
 title: Image Data Augmentation Survey
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Tuesday 6th June 2023, Tue
 date created: Tuesday 6th June 2023, Tue
 ---

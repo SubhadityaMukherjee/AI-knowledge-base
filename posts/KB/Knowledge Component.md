@@ -2,7 +2,7 @@
 toc: true
 title: Knowledge Component
 
-categories: ['usermodellearning']
+tags: ['usermodellearning']
 date modified: Wednesday, October 12th 2022, 2:10:05 pm
 date created: Wednesday, October 12th 2022, 2:10:04 pm
 ---

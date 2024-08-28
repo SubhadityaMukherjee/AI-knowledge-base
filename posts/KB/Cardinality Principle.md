@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Cardinality Principle
-categories: ['language']
+tags: ['language']
 ---
 
 # Cardinality Principle

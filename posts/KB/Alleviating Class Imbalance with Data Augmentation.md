@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Alleviating Class Imbalance with Data Augmentation
-categories: ['augment']
+tags: ['augment']
 date created: Monday, October 10th 2022, 1:58:13 pm
 date modified: Monday, October 10th 2022, 2:02:06 pm
 ---

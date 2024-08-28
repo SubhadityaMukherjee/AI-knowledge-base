@@ -2,7 +2,7 @@
 toc: true
 title: GenEth
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 3:53:41 pm
 date created: Wednesday, January 18th 2023, 3:53:39 pm
 ---

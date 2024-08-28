@@ -2,7 +2,7 @@
 toc: true
 title: Preferences and ethical principles in decision making
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:06:00 pm
 date created: Wednesday, January 18th 2023, 4:06:00 pm
 ---

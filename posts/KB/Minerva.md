@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Minerva
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Minerva

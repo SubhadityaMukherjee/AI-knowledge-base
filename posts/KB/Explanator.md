@@ -2,7 +2,7 @@
 toc: true
 title: Explanator
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:42:21 pm
 date created: Wednesday, October 12th 2022, 4:42:20 pm
 ---

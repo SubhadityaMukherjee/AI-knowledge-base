@@ -2,7 +2,7 @@
 toc: true
 title: Large Kernel in Attention
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Sunday, October 23rd 2022, 5:00:07 pm
 date created: Sunday, October 23rd 2022, 5:00:06 pm
 ---

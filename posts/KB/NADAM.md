@@ -2,7 +2,7 @@
 toc: true
 title: NADAM
 
-categories: ['optimizer']
+tags: ['optimizer']
 date modified: Sunday 12th February 2023, Sun
 date created: Sunday 12th February 2023, Sun
 ---

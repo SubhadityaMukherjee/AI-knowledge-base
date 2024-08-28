@@ -2,7 +2,7 @@
 toc: true
 title: partially informed ethical judgement
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:01:14 pm
 date created: Wednesday, January 18th 2023, 4:01:13 pm
 ---

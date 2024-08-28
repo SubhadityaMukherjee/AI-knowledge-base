@@ -1,5 +1,5 @@
 ---
-categories: ['temp']
+tags: ['temp']
 toc: true
 title: Self Organizing Maps
 date modified: Monday, October 10th 2022, 2:02:17 pm

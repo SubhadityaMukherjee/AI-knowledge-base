@@ -2,7 +2,7 @@
 toc: true
 title: Coping Theory
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:03:46 pm
 date created: Wednesday, January 18th 2023, 4:03:46 pm
 ---

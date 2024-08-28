@@ -3,7 +3,7 @@
 toc: true
 title: Generating Images using GANs in Tensorflow
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

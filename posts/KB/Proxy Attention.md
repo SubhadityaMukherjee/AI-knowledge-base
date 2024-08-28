@@ -2,7 +2,7 @@
 toc: true
 title: Proxy Attention
 
-categories: ['explainabilityexplainability']
+tags: ['explainabilityexplainability']
 date modified: Friday 27th January 2023, Fri
 date created: Friday 27th January 2023, Fri
 ---

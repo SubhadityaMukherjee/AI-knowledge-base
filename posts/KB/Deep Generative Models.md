@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Deep Generative Models
-categories: ['augment']
+tags: ['augment']
 ---
 
 

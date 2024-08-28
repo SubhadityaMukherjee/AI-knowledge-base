@@ -2,7 +2,7 @@
 toc: true
 title: EigenCAM
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Monday 12th June 2023, Mon
 date created: Monday 12th June 2023, Mon
 ---

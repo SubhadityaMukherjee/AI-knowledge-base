@@ -3,7 +3,7 @@
 toc: true
 title: Obsidian Plugins
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

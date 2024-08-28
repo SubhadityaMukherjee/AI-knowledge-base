@@ -2,7 +2,7 @@
 toc: true
 title: Real Time Image Saliency for Black Box Classifiers
 
-categories: ['explainabilityexplainability']
+tags: ['explainabilityexplainability']
 date modified: Monday, November 28th 2022, 11:48:00 am
 date created: Monday, November 28th 2022, 11:24:37 am
 ---

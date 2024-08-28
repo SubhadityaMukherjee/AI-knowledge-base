@@ -3,7 +3,7 @@
 toc: true
 title: GRAD
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

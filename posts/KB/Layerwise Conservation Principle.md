@@ -2,7 +2,7 @@
 toc: true
 title: Layerwise Conservation Principle
 
-categories: ['explainabilityexplainability']
+tags: ['explainabilityexplainability']
 date modified: Tuesday, January 10th 2023, 2:04:50 pm
 date created: Tuesday, January 10th 2023, 2:04:47 pm
 ---

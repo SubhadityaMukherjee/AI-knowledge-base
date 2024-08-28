@@ -1,7 +1,7 @@
 ---
 toc: true
 title: 2 X 2 Study
-categories: ['language']
+tags: ['language']
 ---
 
 # 2 X 2 Study

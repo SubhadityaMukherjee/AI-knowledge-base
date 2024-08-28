@@ -1,7 +1,7 @@
 ---
 toc: true
 title: YFCC100M
-categories: ['dataset']
+tags: ['dataset']
 ---
 
 ## YFCC100M

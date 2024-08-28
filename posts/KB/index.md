@@ -1,13 +1,13 @@
 ---
 toc: true
 title: Knowledge Base
-categories: ['index']
+tags: ['index']
 date modified: Sunday, November 6th 2022, 2:28:46 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 listing:
   sort: "date desc"
   type: table
-  categories: true
+  tags: true
   sort-ui: true
   filter-ui: false
 page-layout: full

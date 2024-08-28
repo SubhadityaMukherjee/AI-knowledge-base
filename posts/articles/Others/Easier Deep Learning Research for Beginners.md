@@ -3,7 +3,7 @@
 toc: true
 title: Easier Deep Learning Research for Beginners
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

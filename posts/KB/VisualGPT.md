@@ -1,7 +1,7 @@
 ---
 toc: true
 title: VisualGPT
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## VisualGPT

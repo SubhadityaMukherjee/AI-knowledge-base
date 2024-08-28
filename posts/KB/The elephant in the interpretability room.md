@@ -2,7 +2,7 @@
 toc: true
 title: The elephant in the interpretability room
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Monday 22nd May 2023, Mon
 date created: Monday 22nd May 2023, Mon
 ---

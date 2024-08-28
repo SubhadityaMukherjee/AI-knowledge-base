@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Mental Model Matching
-categories: ['explainability']
+tags: ['explainability']
 ---
 
 

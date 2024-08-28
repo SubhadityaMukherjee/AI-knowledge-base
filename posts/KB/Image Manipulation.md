@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Manipulation
-categories: ['augment']
+tags: ['augment']
 ---
 
 

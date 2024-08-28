@@ -2,7 +2,7 @@
 toc: true
 title: Minimal Semantic Commitment
 
-categories: ['language']
+tags: ['language']
 date modified: Wednesday, October 12th 2022, 4:53:09 pm
 date created: Wednesday, October 12th 2022, 4:53:08 pm
 ---

@@ -3,7 +3,7 @@
 toc: true
 title: Tree of Thoughts Explained Simply (LLMs Dehyped - 1)
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

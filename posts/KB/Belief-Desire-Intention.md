@@ -2,7 +2,7 @@
 toc: true
 title: Belief-Desire-Intention
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 3:57:54 pm
 date created: Wednesday, January 18th 2023, 3:57:53 pm
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Iterative Closest Point
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Iterative Closest Point

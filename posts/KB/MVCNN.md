@@ -1,7 +1,7 @@
 ---
 toc: true
 title: MVCNN
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # MVCNN

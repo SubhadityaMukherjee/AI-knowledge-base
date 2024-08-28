@@ -2,7 +2,7 @@
 toc: true
 title: Cognitive Preparation
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, December 12th 2022, 2:18:01 pm
 date created: Monday, November 28th 2022, 1:33:51 pm
 ---

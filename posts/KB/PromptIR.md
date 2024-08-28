@@ -2,7 +2,7 @@
 toc: true
 title: PromptIR
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Friday 30th June 2023, Fri
 date created: Friday 30th June 2023, Fri
 ---

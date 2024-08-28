@@ -2,7 +2,7 @@
 toc: true
 title: Soft Parameter Sharing
 
-categories: ['multitask']
+tags: ['multitask']
 date modified: Tuesday 7th February 2023, Tue
 date created: Tuesday 7th February 2023, Tue
 ---

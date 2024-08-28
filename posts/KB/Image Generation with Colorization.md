@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Generation with Colorization
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Image Generation with Colorization

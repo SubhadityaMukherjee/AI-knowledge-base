@@ -1,7 +1,7 @@
 ---
 toc: true
 title: ChatGPT
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## ChatGPT

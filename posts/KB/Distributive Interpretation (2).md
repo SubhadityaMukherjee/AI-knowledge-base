@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Distributive Interpretation (2)
-categories: ['language']
+tags: ['language']
 ---
 
 ## Distributive Interpretation (2)

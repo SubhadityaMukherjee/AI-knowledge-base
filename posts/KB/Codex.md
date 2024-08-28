@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Codex
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Codex

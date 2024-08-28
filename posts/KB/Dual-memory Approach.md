@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Dual-memory Approach
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Dual-memory Approach

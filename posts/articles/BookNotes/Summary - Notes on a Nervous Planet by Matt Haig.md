@@ -2,7 +2,7 @@
 toc: true
 title: Summary - Notes on a Nervous Planet by Matt Haig
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

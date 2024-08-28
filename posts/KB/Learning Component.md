@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Learning Component
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Learning Component

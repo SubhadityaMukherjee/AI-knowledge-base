@@ -2,7 +2,7 @@
 toc: true
 title: Social Construction of XAI, do we need one definition to rule them all
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday 24th May 2023, Wed
 date created: Wednesday 24th May 2023, Wed
 ---

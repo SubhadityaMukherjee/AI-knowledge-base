@@ -2,7 +2,7 @@
 toc: true
 title: DeepFool
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:14:24 pm
 date created: Wednesday, October 12th 2022, 4:14:13 pm
 ---

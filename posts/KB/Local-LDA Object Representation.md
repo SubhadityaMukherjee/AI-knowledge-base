@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Local-LDA Object Representation
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Local-[LDA](LDA.md) Object Representation

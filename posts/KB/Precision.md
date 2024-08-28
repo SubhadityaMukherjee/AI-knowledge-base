@@ -2,7 +2,7 @@
 toc: true
 title: Precision
 
-categories: ['loss']
+tags: ['loss']
 date modified: Monday, October 10th 2022, 2:02:19 pm
 date created: Thursday, July 28th 2022, 5:59:06 pm
 ---

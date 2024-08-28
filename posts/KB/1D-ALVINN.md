@@ -2,7 +2,7 @@
 toc: true
 title: 1D-ALVINN
 
-categories: ['multitaskdataset']
+tags: ['multitaskdataset']
 date modified: Tuesday 7th February 2023, Tue
 date created: Tuesday 7th February 2023, Tue
 ---

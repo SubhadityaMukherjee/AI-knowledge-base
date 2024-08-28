@@ -2,7 +2,7 @@
 toc: true
 title: Dynamic visual attention
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Thursday, October 6th 2022, 1:36:40 pm
 ---

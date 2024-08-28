@@ -2,7 +2,7 @@
 toc: true
 title: Identity Loss
 
-categories: ['generativeloss']
+tags: ['generativeloss']
 date modified: Sunday, December 11th 2022, 1:33:20 pm
 date created: Sunday, December 11th 2022, 1:26:44 pm
 ---

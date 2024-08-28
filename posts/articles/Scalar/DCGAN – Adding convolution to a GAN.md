@@ -3,7 +3,7 @@
 toc: true
 title: DCGAN – Adding convolution to a GAN
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

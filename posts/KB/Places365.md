@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Places365
-categories: ['dataset']
+tags: ['dataset']
 ---
 
 ## Places365

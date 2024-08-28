@@ -3,7 +3,7 @@
 toc: true
 title: Duolingo is a platform for language learning
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

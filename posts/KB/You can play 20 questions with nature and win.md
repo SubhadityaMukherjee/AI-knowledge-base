@@ -2,7 +2,7 @@
 toc: true
 title: You Can Play 20 Questions with Nature and Win
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Thursday 17th November 2022, Thu
 date created: Thursday 17th November 2022, Thu
 ---

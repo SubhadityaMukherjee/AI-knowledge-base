@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Sample Pairing
-categories: ['augment']
+tags: ['augment']
 date created: Sunday, October 9th 2022, 12:21:26 pm
 date modified: Sunday, November 6th 2022, 5:19:35 pm
 ---

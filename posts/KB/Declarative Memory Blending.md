@@ -2,7 +2,7 @@
 toc: true
 title: Declarative Memory Blending
 
-categories: ['cognitivemodel']
+tags: ['cognitivemodel']
 date modified: Monday, November 28th 2022, 1:17:50 pm
 date created: Monday, November 28th 2022, 1:07:49 pm
 ---

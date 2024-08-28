@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Erasing
-categories: ['augment']
+tags: ['augment']
 ---
 
 

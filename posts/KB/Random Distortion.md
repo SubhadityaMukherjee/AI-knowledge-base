@@ -2,7 +2,7 @@
 toc: true
 title: Random Distortion
 
-categories: ['augment']
+tags: ['augment']
 date modified: Wednesday 1st February 2023, Wed
 date created: Wednesday 1st February 2023, Wed
 ---

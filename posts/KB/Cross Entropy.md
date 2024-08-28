@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Cross Entropy
-categories: ['loss']
+tags: ['loss']
 date modified: Friday, January 20th 2023, 1:50:35 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

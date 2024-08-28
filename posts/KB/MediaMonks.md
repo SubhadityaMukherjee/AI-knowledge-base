@@ -2,7 +2,7 @@
 toc: true
 title: MediaMonks
 
-categories: ['jobs']
+tags: ['jobs']
 date modified: Wednesday 13th September 2023, Wed
 date created: Wednesday 13th September 2023, Wed
 ---

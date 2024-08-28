@@ -2,7 +2,7 @@
 toc: true
 title: Explanation is not a Technical Term
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday 24th May 2023, Wed
 date created: Wednesday 24th May 2023, Wed
 ---

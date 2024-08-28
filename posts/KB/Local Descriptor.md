@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Local Descriptor
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Local Descriptor

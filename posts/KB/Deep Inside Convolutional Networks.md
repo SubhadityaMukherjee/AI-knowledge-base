@@ -2,7 +2,7 @@
 toc: true
 title: Deep Inside Convolutional Networks
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Saturday, January 14th 2023, 4:51:44 pm
 date created: Friday, November 18th 2022, 1:28:08 pm
 ---

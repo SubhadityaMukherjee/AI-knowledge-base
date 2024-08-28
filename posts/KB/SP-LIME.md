@@ -2,7 +2,7 @@
 toc: true
 title: SP-LIME
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:44:08 pm
 date created: Wednesday, October 12th 2022, 4:44:07 pm
 ---

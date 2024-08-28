@@ -1,7 +1,7 @@
 ---
 title: Quantile loss
 toc: true
-categories:
+tags:
   - loss
 date modified: Wednesday 28th August 2024, Wed
 date created: Wednesday 28th August 2024, Wed

@@ -2,7 +2,7 @@
 toc: true
 title: Interview Tips
 
-categories: ['jobs']
+tags: ['jobs']
 date modified: Tuesday 19th September 2023, Tue
 date created: Tuesday 19th September 2023, Tue
 ---

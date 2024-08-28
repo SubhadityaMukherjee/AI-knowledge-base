@@ -2,7 +2,7 @@
 toc: true
 title: Generalizing Adversarial Explanations with Grad-CAM
 
-categories: ['explainabilityexplainabilityadversarial']
+tags: ['explainabilityexplainabilityadversarial']
 date modified: Tuesday, January 24th 2023, 8:22:50 pm
 date created: Wednesday, October 5th 2022, 2:35:36 pm
 ---

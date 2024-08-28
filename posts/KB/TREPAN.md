@@ -2,7 +2,7 @@
 toc: true
 title: TREPAN
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Wednesday, October 12th 2022, 4:43:12 pm
 date created: Wednesday, October 12th 2022, 4:43:12 pm
 ---

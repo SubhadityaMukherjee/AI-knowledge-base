@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Supervised Learning Formulation
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Supervised Learning Formulation

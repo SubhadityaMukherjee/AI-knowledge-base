@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Places
-categories: ['dataset']
+tags: ['dataset']
 ---
 
 ## Places

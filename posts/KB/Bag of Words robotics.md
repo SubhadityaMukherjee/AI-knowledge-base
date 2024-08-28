@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Bag of Words Robotics
-categories: ['robotics']
+tags: ['robotics']
 date created: Friday, November 25th 2022, 12:05:56 pm
 date modified: Wednesday, December 7th 2022, 10:37:52 pm
 ---

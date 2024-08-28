@@ -2,7 +2,7 @@
 toc: true
 title: backpropamine
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Monday 29th May 2023, Mon
 date created: Monday 29th May 2023, Mon
 ---

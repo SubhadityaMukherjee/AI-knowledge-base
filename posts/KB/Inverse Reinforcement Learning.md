@@ -2,7 +2,7 @@
 toc: true
 title: Inverse Reinforcement Learning
 
-categories: ['robotics']
+tags: ['robotics']
 date modified: Wednesday, October 26th 2022, 9:16:22 am
 date created: Wednesday, October 26th 2022, 9:16:13 am
 ---

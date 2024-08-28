@@ -2,7 +2,7 @@
 toc: true
 title: MLCompany
 
-categories: ['jobs']
+tags: ['jobs']
 date modified: Tuesday 10th October 2023, Tue
 date created: Tuesday 10th October 2023, Tue
 ---

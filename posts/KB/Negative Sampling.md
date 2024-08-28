@@ -2,7 +2,7 @@
 toc: true
 title: Negative Sampling
 
-categories: ['nlp']
+tags: ['nlp']
 date modified: Wednesday, December 7th 2022, 11:52:49 pm
 date created: Wednesday, December 7th 2022, 11:52:49 pm
 ---

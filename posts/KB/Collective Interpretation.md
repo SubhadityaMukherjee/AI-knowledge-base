@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Collective Interpretation
-categories: ['language']
+tags: ['language']
 ---
 
 ## Collective Interpretation

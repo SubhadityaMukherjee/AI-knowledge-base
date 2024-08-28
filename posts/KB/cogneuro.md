@@ -1,6 +1,6 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 
 - [Attentions and salience.md](Attentions%20and%20salience.md)

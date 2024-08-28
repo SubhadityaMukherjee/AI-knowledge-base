@@ -1,7 +1,7 @@
 ---
 title: Width Efficiency of Neural Networks
 toc: true
-categories:
+tags:
   - deeplearning
 date modified: Tuesday 27th August 2024, Tue
 date created: Tuesday 27th August 2024, Tue

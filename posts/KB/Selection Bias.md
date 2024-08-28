@@ -2,7 +2,7 @@
 toc: true
 title: Selection Bias
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 25th 2023, 11:54:16 am
 date created: Wednesday, January 25th 2023, 12:14:50 am
 ---

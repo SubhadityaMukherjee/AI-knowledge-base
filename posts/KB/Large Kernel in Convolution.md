@@ -2,7 +2,7 @@
 toc: true
 title: Large Kernel in Convolution
 
-categories: ['architecture']
+tags: ['architecture']
 date modified: Sunday, October 23rd 2022, 5:00:19 pm
 date created: Sunday, October 23rd 2022, 5:00:18 pm
 ---

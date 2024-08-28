@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Kalman Filter
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Kalman Filter

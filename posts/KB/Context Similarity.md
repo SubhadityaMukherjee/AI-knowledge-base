@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Context Similarity
-categories: ['ssl']
+tags: ['ssl']
 ---
 
 ## Context Similarity

@@ -3,7 +3,7 @@
 toc: true
 title: AI and Doom
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

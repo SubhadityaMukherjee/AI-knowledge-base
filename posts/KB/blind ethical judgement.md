@@ -2,7 +2,7 @@
 toc: true
 title: blind ethical judgement
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:01:07 pm
 date created: Wednesday, January 18th 2023, 4:01:07 pm
 ---

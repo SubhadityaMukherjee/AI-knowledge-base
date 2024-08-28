@@ -2,7 +2,7 @@
 toc: true
 title: Bag of words
 
-categories: ['nlp']
+tags: ['nlp']
 date modified: Wednesday, December 7th 2022, 11:02:42 pm
 date created: Wednesday, December 7th 2022, 11:00:14 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: The Behavior of Tutoring Systems
 
-categories: ['usermodellearning']
+tags: ['usermodellearning']
 date modified: Wednesday, October 12th 2022, 2:23:48 pm
 date created: Wednesday, October 12th 2022, 2:04:53 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Visualizing the Loss Landscape of Neural Nets
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Monday 27th March 2023, Mon
 date created: Monday 27th March 2023, Mon
 ---

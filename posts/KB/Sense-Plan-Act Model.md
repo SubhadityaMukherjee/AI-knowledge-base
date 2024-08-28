@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Sense-Plan-Act Model
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Sense-Plan-Act Model

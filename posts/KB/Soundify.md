@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Soundify
-categories: ['architecture']
+tags: ['architecture']
 ---
 
 ## Soundify

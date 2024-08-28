@@ -2,7 +2,7 @@
 toc: true
 title: Basic GAN
 
-categories: ['architecturegenerative']
+tags: ['architecturegenerative']
 date modified: Tuesday, January 10th 2023, 1:38:03 pm
 date created: Wednesday, December 21st 2022, 3:10:38 pm
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Fine-grained Object Recognition
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # Fine-grained Object Recognition

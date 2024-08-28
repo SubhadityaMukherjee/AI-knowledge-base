@@ -3,7 +3,7 @@
 toc: true
 title: Extracting Highlights from a PDF easily
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

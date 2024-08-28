@@ -2,7 +2,7 @@
 toc: true
 title: Even angels need the rules AI, roboethics, and the law
 
-categories: ['ethics']
+tags: ['ethics']
 date modified: Wednesday, January 18th 2023, 4:09:54 pm
 date created: Wednesday, January 18th 2023, 4:09:53 pm
 ---

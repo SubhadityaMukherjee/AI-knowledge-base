@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Elaborateness
-categories: ['explainability']
+tags: ['explainability']
 ---
 
 

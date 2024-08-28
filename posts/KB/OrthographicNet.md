@@ -1,7 +1,7 @@
 ---
 toc: true
 title: OrthographicNet
-categories: ['robotics']
+tags: ['robotics']
 ---
 
 # OrthographicNet

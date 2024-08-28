@@ -2,7 +2,7 @@
 toc: true
 title: Network Dissection Quantifying Interpretability of Deep Visual Representions
 
-categories: ['explainability']
+tags: ['explainability']
 date modified: Thursday, November 24th 2022, 2:02:39 pm
 date created: Thursday, November 24th 2022, 1:41:22 pm
 ---

@@ -1,5 +1,5 @@
 
 ---
-categories: ['anchor']
+tags: ['anchor']
 ---
 

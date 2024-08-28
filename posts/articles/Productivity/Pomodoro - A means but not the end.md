@@ -3,7 +3,7 @@
 toc: true
 title: Pomodoro - A means but not the end
 
-categories: ["article"]
+tags: ["article"]
 date modified: 
 date created: 
 ---

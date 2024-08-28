@@ -10,14 +10,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 ![im](Pasted%20image%2020220307171009.png)
 
-- [Recurrent](Recurrent.md)
-- [SRN](SRN.md)
-- [Stacking RNN](Stacking%20RNN.md)
-- [Bi Directional RNN](Bi%20Directional%20RNN.md)
-- [Seq2Seq](Seq2Seq.md)
-- [Temporal Conv](Temporal%20Conv.md)
-- [GRU)](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[GRU)](GRU)](GRU)](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[GRU)](GRU).md).md)
-- [LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[LSTM)](LSTM)](LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[LSTM)](LSTM).md).md)
+- [Recurrent](Recurrent.md.md)
+- [SRN](SRN.md.md)
+- [Stacking RNN](Stacking%20RNN.md.md)
+- [Bi Directional RNN](Bi%20Directional%20RNN.md.md)
+- [Seq2Seq](Seq2Seq.md.md)
+- [Temporal Conv](Temporal%20Conv.md.md)
+- [Gated Recurrent Unit (GRU|[GRU|GRU)](Gated%20Recurrent%20Unit%20(GRU)](GRU)](GRU)](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[GRU)](GRU.md).md).md)
+- [Long Short Term Memory (LSTM|[LSTM|LSTM)](Long%20Short%20Term%20Memory%20(LSTM)](LSTM)](LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[LSTM)](LSTM).md).md)
 
 
 

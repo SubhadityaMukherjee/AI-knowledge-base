@@ -11,7 +11,7 @@ page-layout: full
 title-block-banner: true
 ---
 
-About this blog
+## About this blog
 - This is my little knowledge base
 - If there is something you are looking for, just type it into the search bar
 	- Of course, since this is not google, it is not a one stop shop

@@ -10,7 +10,7 @@ date created: Wednesday, December 7th 2022, 11:00:00 pm
 # CBOW
 
 
-- Continous implementation of [Bag of words](Bag of words.md)
+- Continous implementation of [Bag of words](Bag%20of%20words.md.md)
 - tries to predict the current target word (the center word) based on the source context words (surrounding words)
 - **_“the quick brown fox jumps over the lazy dog”_**, this can be pairs of **_(context_window, target_word)_** where if we consider a context window of size 2, we have examples like **_([quick, fox], brown), ([the, brown], quick), ([the, dog], lazy)_** and so on
 - context window

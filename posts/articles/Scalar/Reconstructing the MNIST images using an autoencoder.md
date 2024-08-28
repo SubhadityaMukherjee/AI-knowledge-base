@@ -30,7 +30,7 @@ The following sections elaborate on these points.
 Before moving to the implementation, we must understand some prerequisite terms.
 
 ### Transposed Convolution
-2D Convolutions compress information from images into smaller representations by [../../Downsampling|downsampling](../../Downsampling|downsampling.md) them. Transposed Convolutions perform the opposite operation. These convolutions take compressed/small images and attempt to expand their sizes. An illustration of how this happens is as follows.
+2D Convolutions compress information from images into smaller representations by [downsampling.md|../../Downsampling|downsampling](../../Downsampling.md) them. Transposed Convolutions perform the opposite operation. These convolutions take compressed/small images and attempt to expand their sizes. An illustration of how this happens is as follows.
 
 [IMAGE {1} Transposed Conv START SAMPLE]
 ![Transposed Conv](https://hackmd.io/_uploads/S1cHysVqo.gif)

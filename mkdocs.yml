@@ -41,6 +41,7 @@ plugins:
   - roamlinks 
   - mkdocs-jupyter
   - tags
+  - caseinsensitivefiles
 
 extra_javascript:
   - javascripts/mathjax.js

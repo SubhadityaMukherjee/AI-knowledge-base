@@ -8,10 +8,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Bayesian
 - Subjective
-- [Bayes Prediction](Bayes%20Prediction.md)
-- [Bayes Rule](Bayes%20Rule.md)
-- [Bayesian Model Estimation](Bayesian%20Model%20Estimation.md)
-- [Probability](Probability.md) [density](Density.md) function
+- [Bayes Prediction](Bayes%20Prediction.md.md)
+- [Bayes Rule](Bayes%20Rule.md.md)
+- [Bayesian Model Estimation](Bayesian%20Model%20Estimation.md.md)
+- [Probability](Probability.md.md) [density](Density.md.md) function
 
 
 

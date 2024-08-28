@@ -22,8 +22,8 @@ date created: Thursday 11th May 2023, Thu
 - Ilya Loshchilov and Frank Hutter pointed out in their paper that the way weight decay is implemented in Adam in every library seems to be wrong, and proposed a simple way (which they call AdamW) to fix it
 - PhD student Jeremy Bernstein has pointed out that the claimed convergence problems are actually just signs of poorly chosen hyper-parameters, and that perhaps amsgrad won't fix things anyway. Another PhD student, Filip Korzeniowski, showed some early results that seemed to support this discouraging view of amsgrad.
 
-- [Weight Decay Vs L2 Regularization](Weight Decay Vs L2 Regularization.md)
-- [Amsgrad](Amsgrad.md)
+- [Weight Decay Vs L2 Regularization](Weight%20Decay%20Vs%20L2%20Regularization.md.md)
+- [Amsgrad](Amsgrad.md.md)
 
 
 

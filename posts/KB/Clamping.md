@@ -5,7 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:31 pm
 ---
 
 # Clamping
-- The maximum permissible [force](Force.md) acting on a body region, resulting from a robot collision where the period of contact results in a plastic deformation of a person’s soft tissue.
+- The maximum permissible [force](Force.md.md) acting on a body region, resulting from a robot collision where the period of contact results in a plastic deformation of a person’s soft tissue.
 
 
 

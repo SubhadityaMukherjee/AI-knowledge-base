@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # BrainWave Coherence
-- [Correlation](Correlation.md) in the frequency domain
+- [Correlation](Correlation.md.md) in the frequency domain
 - Unlike synchronization, this also depends on signal amplitude
 - ![im](Pasted%20image%2020220502162442.png)
 	- coherence vs freq

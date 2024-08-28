@@ -23,7 +23,7 @@ categories: ['temp']
   id:: 62a89b04-c7bf-4205-9695-39da04c2aafb
 - [Linear Regression](Linear%20Regression) to all other properties
   id:: 62a89d01-53af-46f6-82d4-362fab069b46
-- [COCO](COCO.md)
+- [COCO](COCO.md.md)
 - Single stage
   id:: 62a89d42-312d-4f3d-8235-c54a9dfafadf
 

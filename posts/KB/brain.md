@@ -157,5 +157,5 @@ categories: ['anchor']
 - [Vestibular System.md](Vestibular%20System.md)
 - [Visual Cortex.md](Visual%20Cortex.md)
 - [Wernicke Area.md](Wernicke%20Area.md)
-- [aphasia.md](aphasia.md)
+- [aphasia.md](Aphasia.md)
 - [fMRI.md](fMRI.md)

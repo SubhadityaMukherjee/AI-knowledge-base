@@ -12,7 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - where
 - $$c_{i}= o_{i}c_{i}'$$
 - ![im](Pasted%20image%2020220418003237.png)
-- First is same as [Marching Cubes](Marching%20Cubes.md)
+- First is same as [Marching Cubes](Marching%20Cubes.md.md)
 - $$I(p) = \begin{cases*}
 
 f(\sigma)& $\exists t \in [0,T], s(t) = \sigma$ \\

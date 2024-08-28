@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fabdd4c798b8980c",
+        "id": "4df2f2b6ce4ca2d7",
         "type": "tabs",
         "children": [
           {
-            "id": "3837d555092c2ecb",
+            "id": "52c6607b9253cd48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
+                "file": "KB/Autoregressive.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 272.5
   },
   "right": {
     "id": "19132e1d674293ff",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
+                "file": "KB/Autoregressive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KB/Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md"
+                "file": "KB/Autoregressive.md"
               }
             }
           }
@@ -133,48 +133,48 @@
       "tag-page-md:Refresh tag page": false
     }
   },
-  "active": "3837d555092c2ecb",
+  "active": "52c6607b9253cd48",
   "lastOpenFiles": [
-    "KB/explainability.md",
-    "KB/GradCAM++.md",
-    "KB/Back Propamine.md",
-    "KB/Thesis Flow.md",
-    "KB/Salience Map.md",
-    "KB/Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
-    "KB/Maximum Likelihood.md",
-    "images/Pasted image 20240827215213.png",
-    "KB/Negative Log Likelihood.md",
-    "images/Pasted image 20240827215145.png",
-    "KB/Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
-    "KB/Log Likelihood Loss.md",
-    "KB/Log likelihood criterion.md",
-    "KB/Maximum likelihood criterion.md",
-    "images/Pasted image 20240827214812.png",
-    "images/Pasted image 20240827214708.png",
-    "images/Pasted image 20240827214633.png",
-    "images/Pasted image 20240827214256.png",
-    "KB/Beta Distribution.md",
-    "KB/Node Distribution.md",
-    "KB/Class Conditional distribution.md",
-    "KB/MLE.md",
-    "KB/quotes.md",
-    "loss_Tags.md",
-    "KB/loss.md",
-    "KB/ImageNet.md",
-    "KB/Width Efficiency of Neural Networks.md",
-    "KB/Depth Efficiency of Neural Networks.md",
-    "KB/Universal Approximation Theorem.md",
-    "- the price for making the width small is only a linear increase in the network depth for networks with ReLU activation.md",
-    "- Width Efficiency of Neural Networks.md",
-    "- Liang & Srikant (2016) show that for a broad class of functions, including univariate functions, shallow networks require exponentially more hidden units than deep networks for a given upper bound on the approximation error.md",
-    "images/Pasted image 20240827210048.png",
-    "images/Pasted image 20240827205806.png",
-    "images/Pasted image 20240827204853.png",
-    "images/Pasted image 20240827204450.png",
+    "KB/augment.md",
+    "KB/architecture.md",
+    "KB/Aphasia.md",
+    "KB/CutMix.md",
+    "KB/Autoregressive.md",
+    "KB/Contrastive Predictive Coding.md",
+    "KB/DALL-E.md",
+    "Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
+    "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
+    "KB/Van Mises distribution.md",
+    "images/Pasted image 20240828105807 1.png",
+    "images/Pasted image 20240828105807.png",
+    "KB/Focal Loss.md",
+    "KB/Quantile Regression.md",
+    "KB/Quantile loss.md",
+    "images/Pasted image 20240828105646.png",
+    "KB/Robust regression.md",
+    "KB/Laplace Distribution.md",
+    "images/Pasted image 20240828105230.png",
+    "index.md",
+    "KB/heteroscedastic nonlinear regression.md",
+    "KB/Loss for multiclass classification.md",
+    "Book Notes/Understanding Deep Learning/Chapter 1.md",
+    "Book Notes/Understanding Deep Learning/index.md",
+    "KB/Cross Entropy.md",
+    "images/Pasted image 20240828102230.png",
+    "images/Pasted image 20240828102220.png",
+    "images/Pasted image 20240828102204.png",
+    "images/Pasted image 20240828102117.png",
+    "images/Pasted image 20240828102053.png",
+    "images/Pasted image 20240828102028.png",
+    "KB/Softmax.md",
+    "KB/Categorical Distribution.md",
+    "KB/Loss for binary classification.md",
+    "KB/Sigmoid.md",
+    "KB/Bernoulli Distribution.md",
     "KB/Book Notes/Understanding Deep Learning/Chapter 1 mindmap.pdf",
     "templates/page.html",
     "templates",
-    "KB/Book Notes/Understanding Deep Learning",
-    "KB/Book Notes"
+    "Book Notes/Understanding Deep Learning",
+    "Book Notes"
   ]
 }

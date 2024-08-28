@@ -21,8 +21,8 @@ date created: Wednesday, December 7th 2022, 11:00:14 pm
 ## Disadvantages
 - Lose all info about word order
 - Does not learn meaning of the words, so distance isnt very accurate
-- Somewhat solved by [Bag of n-grams](Bag of n-grams.md)
-- [Curse Of Dimensionality](Curse Of Dimensionality.md)
+- Somewhat solved by [Bag of n-grams](Bag%20of%20n-grams.md.md)
+- [Curse Of Dimensionality](Curse%20Of%20Dimensionality.md.md)
 
 
 

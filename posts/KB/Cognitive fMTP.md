@@ -36,7 +36,7 @@ date created: Monday, December 5th 2022, 2:13:52 pm
 - $$RT = \frac{I}{A}$$
 - More activation retrieved : faster
 - Recency weighted
-- [Declarative Memory Blending](Declarative Memory Blending.md)
+- [Declarative Memory Blending](Declarative%20Memory%20Blending.md.md)
 - Preparation := Ratio of retrieved I vs. A
 - ![Pasted%20image%2020221205142145.png](Pasted%20image%2020221205142145.png)
 
@@ -46,7 +46,7 @@ date created: Monday, December 5th 2022, 2:13:52 pm
 - ‘the right moment’ is estimated based on time (pulses) and memory (DM)  
 	- Similar; but memory ‘chunks’ contain I- and A-traces not a single moment at which one should be prepared  
 - If we are prepared→ benefit, else cost  
-	- [Scaled benefits](Scaled benefits.md)  
+	- [Scaled benefits](Scaled%20benefits.md.md)  
 	- Inhibiton increases RT; activation decreases RT  
 - No active process during timing  
 	- Continuously retrieving associated memories?  

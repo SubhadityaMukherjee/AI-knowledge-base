@@ -10,7 +10,7 @@ date created: Friday 9th December 2022, Fri
 # Causal Language Model
 
 
-- Unlike [Masked Language Modeling](Masked Language Modeling.md), this is uni-directional.
+- Unlike [Masked Language Modeling](Masked%20Language%20Modeling.md.md), this is uni-directional.
 - Can consider words to its left
 - Better for generating text
 

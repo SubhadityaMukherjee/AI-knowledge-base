@@ -12,7 +12,7 @@ date modified: Tuesday, January 17th 2023, 12:18:33 pm
 - A quick fix to overly bright or dark images is to loop through the images and decrease or increase the pixel values by a constant value.
 - Another quick color space manipulation is to splice out individual RGB color matrices.
 - Another transformation consists of restricting pixel values to a certain min or max value.
-- Similar to [geometric transformations](geometric transformations.md), a disadvantage of color space transformations is increased memory, transformation costs, and training time.
+- Similar to [geometric transformations](geometric%20transformations.md.md), a disadvantage of color space transformations is increased memory, transformation costs, and training time.
 - Additionally, color transformations may discard important color information and thus are not always a label-preserving transformation.
 - For example, when decreasing the pixel values of an image to simulate a darker environment, it may become impossible to see the objects in the image.
 - Digital image data is usually encoded as a tensor of the dimension (height × width × color channels)

@@ -8,7 +8,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Acceleration
-- Change in [Velocity](Velocity.md) wrt [Time](Time.md)
+- Change in [Velocity](Velocity.md.md) wrt [Time](Time.md.md)
 - $$a_{avg}= \Delta v/\Delta t$$
 
 

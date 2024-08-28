@@ -7,7 +7,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 ---
 
 - # AttributeMix
-- [@Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition](@Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition.md)
+- [@Attribute Mix: Semantic Data Augmentation for Fine Grained Recognition](@Attribute%20Mix:%20Semantic%20Data%20Augmentation%20for%20Fine%20Grained%20Recognition.md)
 - augments images based on se- mantically extracted image attributes
 - Image is divided into a grid of patches where highly activated six responses are pasted onto the training image. These image pairs are selected randomly in every training iteration.
 - attribute classifier by extracting k attributes (e.g., leg, head, and wings of a bird) from each image.

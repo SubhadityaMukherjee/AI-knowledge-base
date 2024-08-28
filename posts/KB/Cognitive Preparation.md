@@ -17,13 +17,13 @@ date created: Monday, November 28th 2022, 1:33:51 pm
 - Within trial
 - Block of trials
 - Across blocks of trials
-- [Cognitive Multitasking](Cognitive Multitasking.md)
+- [Cognitive Multitasking](Cognitive%20Multitasking.md.md)
 
 ## Design
 - Task has to be boring -.-
 
 ## Terms
-- [Cognitive Foreperiod](Cognitive Foreperiod.md)
+- [Cognitive Foreperiod](Cognitive%20Foreperiod.md.md)
 
 
 

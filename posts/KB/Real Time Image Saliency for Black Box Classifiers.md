@@ -68,7 +68,7 @@ date created: Monday, November 28th 2022, 11:24:37 am
 - Because most image classifiers accept only images of a fixed size and the crop can have an arbitrary size, we resize the crop to the required size disregarding aspect ratio
 
 ## The Saliency Objective
-- want to find a mask M that is smooth and performs well at both [[SSR]]([SSR].md) and SDR
+- want to find a mask M that is smooth and performs well at both [SSR](SSR.md)([SSR].md) and SDR
 - given class c of interest, and an input image X, to find a saliency map M for class c, our objective function L is given by
 - $$L(M) = \lambda_{1}TV(M) + \lambda_{2}AV(M) - log(f_{c}(\Phi(X,M)))+\lambda_{3}f_{c}(\Phi(X, 1-M))^{\lambda_{4}}$$
 - fc is a softmax probability of the class c of the black box image classifier and TV(M) is the total variation of the mask defined simply as

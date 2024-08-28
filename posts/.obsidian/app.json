@@ -3,5 +3,7 @@
   "newFileLocation": "folder",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "images",
-  "newFileFolderPath": "KB"
+  "newFileFolderPath": "KB",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": false
 }

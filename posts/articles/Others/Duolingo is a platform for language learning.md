@@ -9,7 +9,7 @@ date created:
 ---
 
 # My Take on Some ML Interview Questions - P1 #ai #inprogress
-Chip Huyen is one of my favourite authors in the space of MLOps. She has some great blogs, and a really useful book. In one of them, she asks the [following questions](https://huyenchip.com/machine-learning-systems-design/exercises.html#exercises-rWl8SQW). This blog post is my answer to the ones I felt I could contribute interesting points to. Since there are quite a few, I will probably split them up into parts. 
+Chip Huyen is one of my favourite authors in the space of MLOps. She has some great blogs, and a really useful book. In one of them, she asks the [](https://huyenchip.com/machine-learning-systems-design/exercises.html#exercises-rWl8SQW). This blog post is my answer to the ones I felt I could contribute interesting points to. Since there are quite a few, I will probably split them up into parts. 
 
 Note: These are my views on these questions. They are not a comprehensive resource by any means. Just me thinking out loud on how I would go about solving the problem. Like any research project, as more time passes, these answers might change. They are here as a way for someone starting out to get a feel for approaching problems posed to them.
 
@@ -28,7 +28,7 @@ Note: These are my views on these questions. They are not a comprehensive resour
 11. Imagine you were working on iPhone. Everytime users open their phones, you want to suggest one app they are most likely to open first with 90% accuracy. How would you do that?
 12. How would you train a model to predict whether the word "jaguar" in a sentence refers to the animal or the car?
 13. How would you create a model to recognize whether an image is a triangle, a circle, or a square?
-14. Given only [../../CIFAR|CIFAR]-10 dataset, how to build a model to recognize if an image is in the 10 classes of [../../CIFAR|CIFAR](../../CIFAR|CIFAR]-10 dataset, how to build a model to recognize if an image is in the 10 classes of [../../CIFAR|CIFAR.md)-10 or not?
+14. Given only [CIFAR]-10 dataset, how to build a model to recognize if an image is in the 10 classes of [../../CIFAR|CIFAR.md|../../CIFAR|CIFAR](../../CIFAR.md)-10 or not?
 
 
 

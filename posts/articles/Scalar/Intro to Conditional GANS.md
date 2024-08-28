@@ -90,7 +90,7 @@ The Generator in a CGAN also has a similar architecture as the DCGAN, consisting
 To train the network, we use two loss functions for the Generator and the Discriminator of the CGAN, respectively.
 
 ### Generator Loss
-Since the Generator's objective is to create better fake images gradually, it needs to minimize the difference between the predicted image and the target. The model uses [../../One hot|one hot](../../One hot|one hot.md) encoded label in this architecture to decide which features to care for. The loss function thus is the following.
+Since the Generator's objective is to create better fake images gradually, it needs to minimize the difference between the predicted image and the target. The model uses [one hot.md|../../One hot|one hot](../../One%20hot.md) encoded label in this architecture to decide which features to care for. The loss function thus is the following.
 
 $$\mathcal{L}^{(G)}(\theta^{(G)}, \theta^{(D)}) = - \mathbb{E}_{z} log \mathcal{D} (\mathcal{G} (z|y’))$$
 

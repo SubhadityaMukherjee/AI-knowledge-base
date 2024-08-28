@@ -19,7 +19,7 @@ So what does this entail? Consider the interface we have at the moment. We have 
 
 In summary, we want a query like "find me a large dataset with multiple classes of flowers" to automatically generate filters like "classification", "multiclass", "sort by size of dataset" etc.
 
-![](search.png)
+![search](search.png)
 
 ## Temperature
 

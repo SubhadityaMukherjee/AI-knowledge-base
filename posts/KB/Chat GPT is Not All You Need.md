@@ -12,46 +12,46 @@ date created: Monday 29th May 2023, Mon
 
 - @gozalo-brizuelaChatGPTNotAll2023
 
-- [DALL·E 2](DALL·E 2.md)
+- [DALL·E 2](DALL·E%202.md.md)
 
-- [CLIP](CLIP.md)
+- [CLIP](CLIP.md.md)
 
-- [Stable Difusion](Stable Difusion.md)
+- [Stable Difusion](Stable%20Difusion.md.md)
 
-- [Muse](Muse.md)
+- [Muse](Muse.md.md)
 
-- [Dreamfusion](Dreamfusion.md)
+- [Dreamfusion](Dreamfusion.md.md)
 
-- [Magic3D](Magic3D.md)
+- [Magic3D](Magic3D.md.md)
 
-- [Flamingo](Flamingo.md)
+- [Flamingo](Flamingo.md.md)
 
-- [VisualGPT](VisualGPT.md)
+- [VisualGPT](VisualGPT.md.md)
 
-- [Phenaki](Phenaki.md)
+- [Phenaki](Phenaki.md.md)
 
-- [Soundify](Soundify.md)
+- [Soundify](Soundify.md.md)
 
-- [AudioLM](AudioLM.md)
+- [AudioLM](AudioLM.md.md)
 
-- [Jukebox](Jukebox.md)
+- [Jukebox](Jukebox.md.md)
 
-- [Whisper](Whisper.md)
+- [Whisper](Whisper.md.md)
 
-- [ChatGPT](ChatGPT.md)
+- [ChatGPT](ChatGPT.md.md)
 
-- [LaMDA](LaMDA.md)
+- [LaMDA](LaMDA.md.md)
 
-- [PEER](PEER.md)
+- [PEER](PEER.md.md)
 
-- [Meta AI Speech from Brain](Meta AI Speech from Brain.md)
+- [Meta AI Speech from Brain](Meta%20AI%20Speech%20from%20Brain.md.md)
 
-- [Codex](Codex.md)
+- [Codex](Codex.md.md)
 
-- [Alphacode](Alphacode.md)
+- [Alphacode](Alphacode.md.md)
 
-- [Galactica](Galactica.md)
+- [Galactica](Galactica.md.md)
 
-- [Minerva](Minerva.md)
+- [Minerva](Minerva.md.md)
 
-- [Imagen](Imagen.md)
+- [Imagen](Imagen.md.md)

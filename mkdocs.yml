@@ -42,6 +42,10 @@ plugins:
   - mkdocs-jupyter
   - tags
   - caseinsensitivefiles
+  - exclude:
+      glob:
+        - Tag*
+        - create_tag_pages.py
 
 extra_javascript:
   - javascripts/mathjax.js

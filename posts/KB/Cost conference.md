@@ -2,7 +2,6 @@
 title: Cost conference
 toc: true
 tags:
-  - deeplearning
   - conference
 date modified: Thursday 29th August 2024, Thu
 date created: Thursday 29th August 2024, Thu
@@ -41,3 +40,12 @@ date created: Thursday 29th August 2024, Thu
 	- Industry outreach, sharing success stories
 - General
 	- Data prominence
+## TDCC - NES
+- Thematic Digital Competence Centre (TDCC) for the Natural & Engineering Sciences (NES)
+- Joanne Yeomans - Network Manager
+- [[Fairness]]
+
+## SURF
+- Monica Rotulo - ML Advisor
+- HPC and ML consultancy
+- Theoretical vs Applied ML

@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,7 +190,7 @@
       }
     ]
   },
-  "active": "50375719c3431587",
+  "active": "9cf9f6c769dec040",
   "lastOpenFiles": [
     "Tag Pages/robotics\n.md",
     "Tag Pages/visualization\n.md",

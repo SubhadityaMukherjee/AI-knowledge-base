@@ -8,21 +8,21 @@ date modified: Tuesday 27th August 2024, Tue
 date created: Tuesday 27th August 2024, Tue
 ---
 
-# Chapter 5 - Loss functions
+# Chapter 5 - Loss Functions
 ```toc
 ```
-- A large list of useful loss functions can be found [[Tag Pages/loss|loss]]
-- A large list of useful distributions can be found here [[distribution]]
+- A large list of useful loss functions can be found [[loss]]
+- A large list of useful distributions can be found here [[distributions]]
 - A loss function or cost function L[φ] returns a single number that describes the mismatch between the model predictions f[xi, φ] and their corresponding ground-truth outputs $y_i$
 
 ## Distributions
-- ![[../../images/Pasted image 20240828112456.png]]
+- ![[Pasted image 20240828112456.png]]
 
-## Maximum likelihood
+## Maximum Likelihood
 ### [[Log Likelihood Loss.md]]
 ### [[Maximum Likelihood.md]]
 
-## Constructing new loss functions
+## Constructing New Loss Functions
 ### [[Recipe for constructing loss functions.md]]
 
 ### [[Loss for univariate regression.md]]
@@ -33,10 +33,10 @@ date created: Tuesday 27th August 2024, Tue
 
 - Difference between the distributions : [[../../KB/KL Divergence|KL Divergence]] or [[../../KB/Cross Entropy|Cross Entropy]]
 
-### For multimodal
+### For Multimodal
 - Fusion loss
 - Multiple attention heads : backprop from heads
-## Other notes
+## Other Notes
 - [[heteroscedastic nonlinear regression.md]]
 - [[Robust regression.md]]
 - [[Quantile Regression.md]]

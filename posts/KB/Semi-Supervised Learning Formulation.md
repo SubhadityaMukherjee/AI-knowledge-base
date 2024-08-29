@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Semi-Supervised Learning Formulation
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Semi-Supervised Learning Formulation

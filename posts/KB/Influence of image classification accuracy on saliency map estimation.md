@@ -2,7 +2,7 @@
 toc: true
 title: Influence of image classification accuracy on saliency map estimation
 
-tags: ['explainabilityexplainability']
+tags: ['explainability']
 date modified: Tuesday, January 24th 2023, 8:25:03 pm
 date created: Thursday, October 6th 2022, 1:01:31 pm
 ---

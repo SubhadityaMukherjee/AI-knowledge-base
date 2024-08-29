@@ -3,6 +3,7 @@ toc: true
 title: OpenML <> scikit-learn hackathon
 tags:
   - deeplearning
+  - conference
 date modified: Thursday 27th June 2024, Thu
 date created: Thursday 27th June 2024, Thu
 ---
@@ -35,7 +36,7 @@ Please join the OpenML slack server and the dedicated hackathon channel for easy
 
 Slack: [https://join.slack.com/t/openml/shared_invite/zt-2ktk2cj1c-r637o20pfCc0H7PS8OUGtA](https://www.google.com/url?q=https://join.slack.com/t/openml/shared_invite/zt-2ktk2cj1c-r637o20pfCc0H7PS8OUGtA&sa=D&source=editors&ust=1719394356828983&usg=AOvVaw1EYh97yNzzjphKh0toxS9y)
 
-Channel: [#hackathon-probabl](https://www.google.com/url?q=https://openml.slack.com/archives/C070WQ85A8G&sa=D&source=editors&ust=1719394356829300&usg=AOvVaw2X3vKq6DggM93jOh8Dkgyu)
+Channel: [#conference](https://www.google.com/url?q=https://openml.slack.com/archives/C070WQ85A8G&sa=D&source=editors&ust=1719394356829300&usg=AOvVaw2X3vKq6DggM93jOh8Dkgyu)
 
 ## Wifi
 

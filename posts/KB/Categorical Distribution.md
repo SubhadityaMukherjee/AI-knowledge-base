@@ -2,7 +2,7 @@
 title: Categorical Distribution
 toc: true
 tags:
-  - distribution
+  - distributions
 date modified: Wednesday 28th August 2024, Wed
 date created: Wednesday 28th August 2024, Wed
 ---

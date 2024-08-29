@@ -12,7 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$x_i = F(x_{i-1}) + x_{i-1}$$
 - [Effect Of Depth](Effect%20Of%20Depth.md)
 - Previous layer gradient carried to next module untouched -> [loss](loss.md) surface is smoother
-- Transfer #gradients to prevent [Vanishingexploding gradients](Vanishingexploding%20gradients.md)
+- Transfer #architecture to prevent [Vanishingexploding gradients](Vanishingexploding%20gradients.md)
 - Learns the difference (residual) $$F(x) = H(x)-x$$
 
 

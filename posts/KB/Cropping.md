@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Cropping
-tags: ['augment']
+tags: ['augmentation']
 date created: Monday, October 10th 2022, 1:58:12 pm
 date modified: Monday, October 10th 2022, 2:00:43 pm
 ---

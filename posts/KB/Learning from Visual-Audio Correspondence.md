@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Learning from Visual-Audio Correspondence
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 

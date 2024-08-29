@@ -2,7 +2,7 @@
 toc: true
 title: A letter to my junior school art teacher
 
-tags: ["article"]
+tags: ["articles"]
 date modified: 
 date created: 
 ---

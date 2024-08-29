@@ -2,7 +2,7 @@
 toc: true
 title: Adversarial Loss
 
-tags: ['generativeloss']
+tags: ['loss']
 date modified: Sunday, December 11th 2022, 1:35:59 pm
 date created: Sunday, December 11th 2022, 1:35:47 pm
 ---

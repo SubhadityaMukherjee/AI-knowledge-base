@@ -2,7 +2,7 @@
 toc: true
 title: Complete AI Pipeline
 tags:
-  - ai
+  - deeplearning
 date modified: Tuesday 27th February 2024, Tue
 date created: Tuesday 27th February 2024, Tue
 ---

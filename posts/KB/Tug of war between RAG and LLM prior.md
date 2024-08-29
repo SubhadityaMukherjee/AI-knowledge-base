@@ -2,7 +2,7 @@
 toc: true
 title: Tug of war between RAG and LLM prior
 tags:
-  - llm
+  - architecture
 date modified: Thursday 30th May 2024, Thu
 date created: Thursday 30th May 2024, Thu
 ---

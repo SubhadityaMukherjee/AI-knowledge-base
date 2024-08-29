@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Learning from Video Colorization
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Learning from Video Colorization

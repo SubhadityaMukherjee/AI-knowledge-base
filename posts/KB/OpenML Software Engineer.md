@@ -2,7 +2,7 @@
 toc: true
 title: OpenML Software Engineer
 tags:
-  - jobs
+  - jobsearch
 date modified: Sunday 25th February 2024, Sun
 date created: Sunday 25th February 2024, Sun
 ---

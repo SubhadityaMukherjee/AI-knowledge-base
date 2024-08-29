@@ -2,7 +2,7 @@
 toc: true
 title: SDR
 
-tags: ['explainabilityloss']
+tags: ['loss']
 date modified: Monday, November 28th 2022, 11:26:59 am
 date created: Monday, November 28th 2022, 11:26:57 am
 ---

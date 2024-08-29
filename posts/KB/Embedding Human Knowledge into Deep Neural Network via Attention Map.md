@@ -2,7 +2,7 @@
 toc: true
 title: Embedding Human Knowledge into Deep Neural Network via Attention Map
 
-tags: ['explainabilityexplainability']
+tags: ['explainability']
 date modified: Tuesday, January 24th 2023, 8:25:25 pm
 date created: Wednesday, October 5th 2022, 1:35:39 pm
 ---

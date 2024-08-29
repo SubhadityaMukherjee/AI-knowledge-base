@@ -2,7 +2,7 @@
 toc: true
 title: Salemi and Zamani - 2024 - Evaluating Retrieval Quality in Retrieval-Augmente
 tags:
-  - llm
+  - architecture
 date modified: Wednesday 29th May 2024, Wed
 date created: Wednesday 29th May 2024, Wed
 ---

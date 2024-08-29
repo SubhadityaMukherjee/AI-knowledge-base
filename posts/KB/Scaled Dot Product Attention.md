@@ -12,7 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $q_{i}= W_{q}x_i$ , $k_{i}= W_{k}x_{i}$ , $v_{i}= W_{v}x_{i}$
 	- $w_{ij}' = q_{i}^{T}k_{j}$
 	- $y_{i}= \Sigma_{j}w_{ij}v_{j}$
-- [Softmax](Softmax.md) is sensitive to large values. Which sucks for the #gradients
+- [Softmax](Softmax.md) is sensitive to large values. Which sucks for the #architecture
 - The avg value of the dot product grows with [embedding](Embedding.md) dimension k. So scale back.
 	- $\sqrt{k}$ . Vector in $\mathbb{R}^{k}$ with all values as c
 	- Euclidean length is $\sqrt{kc}$

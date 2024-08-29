@@ -2,7 +2,7 @@
 toc: true
 title: memory trace
 
-tags: ['cogneuro']
+tags: ['cognitivemodel']
 date modified: Monday, October 10th 2022, 2:02:10 pm
 date created: Tuesday, August 2nd 2022, 9:20:39 pm
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Learning with Context Similarity
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Learning with Context Similarity

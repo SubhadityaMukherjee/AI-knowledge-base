@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Human Action Recognition
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Human Action Recognition

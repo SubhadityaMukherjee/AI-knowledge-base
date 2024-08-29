@@ -24,10 +24,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Activation usually [Sigmoid](Sigmoid.md) or [Tanh](Tanh.md)
 - BPTT
 	- ![im](Pasted%20image%2020220306185944.png)![im](Pasted%20image%2020220306190603.png)
-	- #gradients
+	- #architecture
 		- If eigen decomposition $$W = Q\wedge^tQ$$, then $$h_t = Q^T\wedge^tQ$$
 		- If less than 0 then will converge to 0 or if bigger then will explore to infinity -> long sequences
-		- Element wise clipping #tricks
+		- Element wise clipping #deeplearning
 			- [Clip](CLIP.md) if bigger than value
 		- Norm clipping
 			- [Clip](CLIP.md) if $$||g|| >v$ set $g = \frac{gv}{||g||}$

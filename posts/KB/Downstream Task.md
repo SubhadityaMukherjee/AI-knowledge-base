@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Downstream Task
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Downstream Task

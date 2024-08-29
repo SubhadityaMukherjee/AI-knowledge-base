@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Generation
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Image Generation

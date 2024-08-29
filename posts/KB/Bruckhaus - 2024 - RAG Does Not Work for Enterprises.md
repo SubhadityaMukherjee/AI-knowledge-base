@@ -2,7 +2,7 @@
 toc: true
 title: Bruckhaus - 2024 - RAG Does Not Work for Enterprises
 tags:
-  - llm
+  - architecture
 date modified: Monday 10th June 2024, Mon
 date created: Monday 10th June 2024, Mon
 ---

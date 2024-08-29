@@ -2,7 +2,7 @@
 toc: true
 title: Commission FAQ
 
-tags: ["article"]
+tags: ["articles"]
 date modified: 
 date created: 
 ---
@@ -74,7 +74,7 @@ Topics you can request for (my expertise) - AI, Computer Vision, Deep learning, 
 More info on the page linked here. This is not a free article. Although, if you do want one but can't afford it, you can still drop me a message. I can't guarantee it though.
 
 PS: This took a lot more than one deep breath. Let's see how it goes.
-#commission #computervision #python #neuralnetworks #ai #deeplearning #shellscripting #article #request #scientificresearch 
+#commission #computervision #python #deeplearning #deeplearning #deeplearning #shellscripting #articles #request #scientificresearch 
 
 
 ## Prices

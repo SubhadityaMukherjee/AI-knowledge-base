@@ -1,5 +1,6 @@
 ---
-tags: ['temp']
+tags:
+  - federatedlearning
 toc: true
 title: Basics of Federated Learning
 date modified: Monday, October 10th 2022, 2:02:33 pm

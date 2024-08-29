@@ -2,7 +2,7 @@
 toc: true
 title: croissant
 tags:
-  - metadata
+  - dataset
 date modified: Tuesday 25th June 2024, Tue
 date created: Tuesday 25th June 2024, Tue
 ---
@@ -20,7 +20,7 @@ date created: Tuesday 25th June 2024, Tue
 - Croissant does not require any changes to underlying data
 - Analysis and visualization tools work out of the box for all datasets
 - Using croissant, datasets can be exposed consistently throughout platforms
-- Collaborations with google, hugginface, google dataset search also exist
+- Collaborations with google, huggingface, google dataset search also exist
 - openml has deeper dataset description by default, slightly lesser in HF and kaggle
 - once loaded, datasets can be imported elsewhere (torch, tf etc) easily
 - Croissant editor - web app where you can use a GUI to enter the dataset descriptions

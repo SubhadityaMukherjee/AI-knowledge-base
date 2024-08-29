@@ -8,7 +8,7 @@ date modified:
 date created: 
 ---
 
-# My Take on Some ML Interview Questions - P1 #ai #inprogress
+# My Take on Some ML Interview Questions - P1 #deeplearning #inprogress
 Chip Huyen is one of my favourite authors in the space of MLOps. She has some great blogs, and a really useful book. In one of them, she asks the [[https://huyenchip.com/machine-learning-systems-design/exercises.html#exercises-rWl8SQW]]. This blog post is my answer to the ones I felt I could contribute interesting points to. Since there are quite a few, I will probably split them up into parts. 
 
 Note: These are my views on these questions. They are not a comprehensive resource by any means. Just me thinking out loud on how I would go about solving the problem. Like any research project, as more time passes, these answers might change. They are here as a way for someone starting out to get a feel for approaching problems posed to them.

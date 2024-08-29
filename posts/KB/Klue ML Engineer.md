@@ -2,7 +2,7 @@
 toc: true
 title: Klue ML Engineer
 tags:
-  - jobs
+  - jobsearch
 date modified: Monday 30th October 2023, Mon
 date created: Monday 30th October 2023, Mon
 ---

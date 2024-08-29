@@ -1,5 +1,6 @@
 ---
-tags: ['temp']
+tags:
+  - federatedlearning
 toc: true
 title: Federated Updates
 date modified: Monday, October 10th 2022, 2:02:27 pm

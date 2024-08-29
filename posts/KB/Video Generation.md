@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Video Generation
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Video Generation

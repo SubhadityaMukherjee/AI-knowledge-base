@@ -2,7 +2,7 @@
 toc: true
 title: ill conditioning
 
-tags: ['gradients']
+tags: ['architecture']
 date modified: Tuesday 7th February 2023, Tue
 date created: Tuesday 7th February 2023, Tue
 ---

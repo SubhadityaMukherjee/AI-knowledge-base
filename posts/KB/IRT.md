@@ -2,7 +2,7 @@
 toc: true
 title: IRT
 
-tags: ['usermodellearning']
+tags: ['usermodel']
 date modified: Wednesday, October 12th 2022, 2:17:39 pm
 date created: Wednesday, October 12th 2022, 2:17:39 pm
 ---

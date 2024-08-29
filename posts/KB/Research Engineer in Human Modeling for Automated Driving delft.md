@@ -2,7 +2,7 @@
 toc: true
 title: Research Engineer in Human Modeling for Automated Driving delft
 tags:
-  - mlops
+  - architecture
 date modified: Friday 10th November 2023, Fri
 date created: Friday 10th November 2023, Fri
 ---

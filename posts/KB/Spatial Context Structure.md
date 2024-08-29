@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Spatial Context Structure
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Spatial Context Structure

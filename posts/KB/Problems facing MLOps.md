@@ -2,7 +2,7 @@
 toc: true
 title: Problems facing MLOps
 tags:
-  - mlops
+  - architecture
 date modified: Friday 20th October 2023, Fri
 date created: Friday 20th October 2023, Fri
 ---

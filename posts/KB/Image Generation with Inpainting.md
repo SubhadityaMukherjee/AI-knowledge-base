@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Generation with Inpainting
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Image Generation with Inpainting

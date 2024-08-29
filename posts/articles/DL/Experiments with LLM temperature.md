@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: Experimenting with LLM temperature and its effects on answer quality
-tags: [llm]
+tags: [architecture]
 title: Experiments with Temperature
 # image: 
 author: Subhaditya Mukherjee

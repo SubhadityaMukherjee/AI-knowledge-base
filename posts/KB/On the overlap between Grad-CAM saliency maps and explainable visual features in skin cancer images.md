@@ -2,7 +2,7 @@
 toc: true
 title: On the overlap between Grad-CAM saliency maps and explainable visual features in skin cancer images
 
-tags: ['explainabilityexplainability']
+tags: ['explainability']
 date modified: Tuesday, January 24th 2023, 8:22:29 pm
 date created: Thursday, October 6th 2022, 10:29:54 am
 ---

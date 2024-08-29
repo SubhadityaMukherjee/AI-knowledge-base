@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Temporal Context Structure
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Temporal Context Structure

@@ -7,7 +7,7 @@ tags: ["article"]
 date modified: 
 date created: 
 ---
-# GRAD-Cam #dl
+# GRAD-Cam #deeplearning
 Note: This is a slightly advanced article. If you are not comfortable with training neural networks, this is probably not for you yet. Start [here](https://msubhaditya.medium.com/easier-deep-learning-research-for-beginners-935c1a6721c3?source=your_stories_page-------------------------------------) instead.
 
 ## Intro

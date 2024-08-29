@@ -2,7 +2,7 @@
 toc: true
 title: Image Mixing and Deletion
 
-tags: ['augment']
+tags: ['augmentation']
 date modified: Monday, October 10th 2022, 2:02:07 pm
 date created: Friday, October 7th 2022, 1:37:19 pm
 ---

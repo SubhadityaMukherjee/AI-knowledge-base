@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Temporal order verification
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Temporal order verification 

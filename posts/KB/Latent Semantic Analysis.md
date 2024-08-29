@@ -2,7 +2,7 @@
 toc: true
 title: Latent Semantic Analysis
 
-tags: ['usermodellearning']
+tags: ['usermodel']
 date modified: Wednesday, October 12th 2022, 2:22:52 pm
 date created: Wednesday, October 12th 2022, 2:22:51 pm
 ---

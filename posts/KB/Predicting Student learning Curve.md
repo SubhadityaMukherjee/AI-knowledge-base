@@ -2,7 +2,7 @@
 toc: true
 title: Predicting Student learning Curve
 
-tags: ['usermodellearning']
+tags: ['usermodel']
 date modified: Wednesday, October 12th 2022, 2:11:22 pm
 date created: Wednesday, October 12th 2022, 2:11:21 pm
 ---

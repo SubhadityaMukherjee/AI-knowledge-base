@@ -1,7 +1,7 @@
 ---
 toc: true
 title: HNSW
-tags: ['llm']
+tags: ['architecture']
 date modified: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 date created: <% tp.date.now("dddd Do MMMM YYYY, ddd") %>
 ---

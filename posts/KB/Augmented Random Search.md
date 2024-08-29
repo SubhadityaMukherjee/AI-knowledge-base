@@ -2,7 +2,7 @@
 toc: true
 title: Augmented Random Search
 
-tags: ['augment']
+tags: ['augmentation']
 date modified: Monday, October 10th 2022, 2:10:46 pm
 date created: Monday, October 10th 2022, 2:10:44 pm
 ---

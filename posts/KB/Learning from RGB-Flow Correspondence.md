@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Learning from RGB-Flow Correspondence
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 

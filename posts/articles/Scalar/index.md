@@ -2,7 +2,7 @@
 toc: true
 title: Scalar Academy Articles
 
-tags: ["article"]
+tags: ["articles"]
 date modified: 
 date created: 
 ---

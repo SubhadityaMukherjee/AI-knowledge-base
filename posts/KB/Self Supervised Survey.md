@@ -2,7 +2,7 @@
 toc: true
 title: Self Supervised Survey
 
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 date modified: Tuesday 6th June 2023, Tue
 date created: Tuesday 6th June 2023, Tue
 ---

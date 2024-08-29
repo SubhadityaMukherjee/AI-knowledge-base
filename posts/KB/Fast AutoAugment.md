@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Fast AutoAugment
-tags: ['augment']
+tags: ['augmentation']
 ---
 
 

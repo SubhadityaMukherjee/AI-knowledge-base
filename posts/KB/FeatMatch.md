@@ -1,7 +1,7 @@
 ---
 toc: true
 title: FeatMatch
-tags: ['augment']
+tags: ['augmentation']
 ---
 
 

@@ -7,7 +7,7 @@ tags: ["article"]
 date modified: 
 date created: 
 ---
-# Notes on “Machine Learning System Design” (for Interviews) by Chip Huyen #ai
+# Notes on “Machine Learning System Design” (for Interviews) by Chip Huyen #deeplearning
 
 These are my notes on [this article](https://github.com/chiphuyen/machine-learning-systems-design/blob/master/build/build1/consolidated.pdf) by [Chip Huyen](https://huyenchip.com/). 
 

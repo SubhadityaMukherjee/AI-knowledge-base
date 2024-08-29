@@ -2,7 +2,7 @@
 toc: true
 title: MLOps
 tags:
-  - mlops
+  - architecture
 date modified: Thursday 19th October 2023, Thu
 date created: Thursday 19th October 2023, Thu
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Generative vs Discriminative Models
 
-tags: ['architecturegenerative']
+tags: ['architecture']
 date modified: Wednesday 21st December 2022, Wed
 date created: Wednesday 21st December 2022, Wed
 ---

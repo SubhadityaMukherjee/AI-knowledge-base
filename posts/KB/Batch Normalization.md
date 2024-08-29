@@ -1,14 +1,14 @@
 ---
 toc: true
 title: Batch Normalization
-tags: ['regularize']
+tags: ['regularization']
 date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Batch Normalization
-- bias=False for Linear/Conv2D for input and True for output #tricks
-- Normalizes #activations
+- bias=False for Linear/Conv2D for input and True for output #deeplearning
+- Normalizes #architecture
 - Input [[distributions]] change per layer -> Make sure they stay similar
 - Reduces co variate shift because now the network must adapt per layer
 - During testing : use stats saved during training

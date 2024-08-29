@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Weakly Supervised Learning Formulation
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Weakly Supervised Learning Formulation

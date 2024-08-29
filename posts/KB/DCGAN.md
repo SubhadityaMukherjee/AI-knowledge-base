@@ -2,7 +2,7 @@
 toc: true
 title: DCGAN
 
-tags: ['architecturegenerative']
+tags: ['architecture']
 date modified: Saturday, December 17th 2022, 12:46:45 pm
 date created: Tuesday, December 13th 2022, 5:02:02 pm
 ---

@@ -7,7 +7,7 @@ tags: ["article"]
 date modified: 
 date created: 
 ---
-[AI For startup](https://www.linkedin.com/pulse/hitchhikers-guide-ai-startups-subhaditya-mukherjee/) #ai
+[AI For startup](https://www.linkedin.com/pulse/hitchhikers-guide-ai-startups-subhaditya-mukherjee/) #deeplearning
 
 # Hitchhikers Guide to AI for Startups
 

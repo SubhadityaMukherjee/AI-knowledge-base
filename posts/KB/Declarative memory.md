@@ -2,7 +2,7 @@
 toc: true
 title: Declarative memory
 
-tags: ['usermodelcognitivemodel']
+tags: ['usermodel']
 date modified: Monday, November 14th 2022, 1:40:38 pm
 date created: Monday, October 3rd 2022, 3:26:19 pm
 ---

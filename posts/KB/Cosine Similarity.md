@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Cosine Similarity
-tags: ['distanceloss']
+tags: ['loss']
 date modified: Wednesday, December 7th 2022, 10:55:21 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Structural Similarity Index
 
-tags: ['explainabilityadversarial']
+tags: ['explainability']
 date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 2:56:23 pm
 ---

@@ -2,7 +2,7 @@
 toc: true
 title: Schipol Data Scientist
 
-tags: ['jobs']
+tags: ['jobsearch']
 date modified: Thursday 31st August 2023, Thu
 date created: Thursday 31st August 2023, Thu
 ---

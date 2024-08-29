@@ -2,7 +2,7 @@
 toc: true
 title: Stack GAN
 
-tags: ['architecturegenerative']
+tags: ['architecture']
 date modified: Monday, December 19th 2022, 11:45:49 am
 date created: Tuesday, December 13th 2022, 5:03:53 pm
 ---

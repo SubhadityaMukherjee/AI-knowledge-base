@@ -7,7 +7,7 @@ tags: ["article"]
 date modified: 
 date created: 
 ---
-# Starting Deep Learning Research (PART 1): A start using FastAI #dl
+# Starting Deep Learning Research (PART 1): A start using FastAI #deeplearning
 {{TOC}}
 So, you took your first steps into Deep Learning. Maybe you read a few articles, did a course or two, and watched a bunch of videos. Or maybe you just heard so much about it that you wanted to learn more. 
 Welcome. 

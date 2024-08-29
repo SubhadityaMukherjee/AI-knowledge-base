@@ -2,7 +2,7 @@
 toc: true
 title: Fasai Tricks
 
-tags: ['library']
+tags: ['deeplearning']
 date modified: Monday, October 10th 2022, 2:02:28 pm
 date created: Friday, July 29th 2022, 4:06:12 pm
 ---

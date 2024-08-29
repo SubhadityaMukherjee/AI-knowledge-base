@@ -7,7 +7,7 @@ tags: ["article"]
 date modified: 
 date created: 
 ---
-Taking notes from websites to markdown - A workflow #inprogress #article
+Taking notes from websites to markdown - A workflow #inprogress #articles
 
 ## Why
 

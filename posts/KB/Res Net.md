@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Res Net
 - @heDeepResidualLearning2016
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
-- Deeper Networks have [Issues](Issues.md) because of vanishing #gradients
+- Deeper Networks have [Issues](Issues.md) because of vanishing #architecture
 - Propagate gradients forward for deeper networks
 - Skip connections
 - output of F(x) has the same dims as x -> add

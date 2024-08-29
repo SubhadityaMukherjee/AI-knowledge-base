@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Augmentation-wise Weight Sharing strategy
-tags: ['augment']
+tags: ['augmentation']
 ---
 
 

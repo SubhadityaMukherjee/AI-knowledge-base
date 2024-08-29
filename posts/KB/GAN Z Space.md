@@ -2,7 +2,7 @@
 toc: true
 title: GAN Z Space
 
-tags: ['architecturegenerative']
+tags: ['architecture']
 date modified: Sunday 18th December 2022, Sun
 date created: Sunday 18th December 2022, Sun
 ---

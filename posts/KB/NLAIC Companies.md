@@ -2,7 +2,7 @@
 toc: true
 title: NLAIC Companies
 tags:
-  - jobs
+  - jobsearch
 date modified: Thursday 30th November 2023, Thu
 date created: Thursday 30th November 2023, Thu
 ---

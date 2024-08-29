@@ -2,7 +2,7 @@
 toc: true
 title: gensim
 
-tags: ['nlplibrary']
+tags: ['language']
 date modified: Monday, January 16th 2023, 7:00:22 pm
 date created: Wednesday, December 7th 2022, 10:38:13 pm
 ---

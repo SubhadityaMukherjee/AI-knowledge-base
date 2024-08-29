@@ -2,7 +2,7 @@
 toc: true
 title: PWC Data Analyst Junior
 tags:
-  - jobs
+  - jobsearch
 date modified: Friday 10th November 2023, Fri
 date created: Friday 10th November 2023, Fri
 ---

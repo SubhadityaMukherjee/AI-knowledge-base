@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Classification
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Image Classification

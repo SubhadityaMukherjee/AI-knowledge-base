@@ -2,7 +2,7 @@
 toc: true
 title: Modeling Driver Behavior with Cognitive Architecture
 
-tags: ['usermodelcognitivemodel']
+tags: ['usermodel']
 date modified: Monday, November 14th 2022, 1:20:50 pm
 date created: Wednesday, October 12th 2022, 12:42:13 pm
 ---

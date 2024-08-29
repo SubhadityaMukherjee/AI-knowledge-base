@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Random Erasing
-tags: ['augment']
+tags: ['augmentation']
 date created: Sunday, October 9th 2022, 12:21:26 pm
 date modified: Monday, October 10th 2022, 2:00:29 pm
 ---

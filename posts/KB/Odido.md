@@ -2,7 +2,7 @@
 toc: true
 title: Odido
 tags:
-  - jobs
+  - jobsearch
 date modified: Wednesday 6th December 2023, Wed
 date created: Wednesday 6th December 2023, Wed
 ---

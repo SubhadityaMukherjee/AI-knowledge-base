@@ -2,7 +2,7 @@
 toc: true
 title: Kickstart AI
 
-tags: ['jobs']
+tags: ['jobsearch']
 date modified: Tuesday 12th September 2023, Tue
 date created: Tuesday 12th September 2023, Tue
 ---

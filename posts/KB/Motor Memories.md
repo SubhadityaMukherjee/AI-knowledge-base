@@ -2,7 +2,7 @@
 toc: true
 title: Motor Memories
 
-tags: ['cogneuro']
+tags: ['cognitivemodel']
 date modified: Monday, October 10th 2022, 2:02:21 pm
 date created: Tuesday, August 2nd 2022, 9:19:44 pm
 ---

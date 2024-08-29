@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Kernel Visualization
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## # Kernel Visualization

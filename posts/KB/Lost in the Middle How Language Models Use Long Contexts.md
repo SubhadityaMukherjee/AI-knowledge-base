@@ -2,7 +2,7 @@
 toc: true
 title: Lost in the Middle How Language Models Use Long Contexts
 tags:
-  - llm
+  - architecture
 date modified: Wednesday 12th June 2024, Wed
 date created: Wednesday 12th June 2024, Wed
 ---

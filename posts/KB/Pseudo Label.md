@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Pseudo Label
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 

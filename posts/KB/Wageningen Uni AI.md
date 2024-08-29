@@ -2,7 +2,7 @@
 toc: true
 title: Wageningen Uni AI
 
-tags: ['jobs']
+tags: ['jobsearch']
 date modified: Sunday 8th October 2023, Sun
 date created: Sunday 8th October 2023, Sun
 ---

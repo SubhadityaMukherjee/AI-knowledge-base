@@ -2,7 +2,7 @@
 toc: true
 title: Bunq
 
-tags: ['jobs']
+tags: ['jobsearch']
 date modified: Wednesday 6th September 2023, Wed
 date created: Wednesday 6th September 2023, Wed
 ---

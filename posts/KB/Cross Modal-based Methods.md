@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Cross Modal-based Methods
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Cross Modal-based Methods

@@ -2,7 +2,7 @@
 toc: true
 title: PatchGAN
 
-tags: ['generativearchitectureloss']
+tags: ['loss']
 date modified: Sunday, December 11th 2022, 1:22:46 pm
 date created: Sunday, December 11th 2022, 1:16:53 pm
 ---

@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Nearest Neighbor Retrieval
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Nearest Neighbor Retrieval

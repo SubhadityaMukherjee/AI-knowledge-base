@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Pretext Task
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Pretext Task

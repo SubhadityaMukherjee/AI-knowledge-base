@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Mix
-tags: ['augment']
+tags: ['augmentation']
 ---
 
 ## Image Mix

@@ -2,7 +2,7 @@
 toc: true
 title: Exploding Gradient
 
-tags: ['gradients']
+tags: ['architecture']
 date modified: Tuesday 7th February 2023, Tue
 date created: Tuesday 7th February 2023, Tue
 ---

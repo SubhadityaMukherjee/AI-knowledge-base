@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Object Detection
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Object Detection

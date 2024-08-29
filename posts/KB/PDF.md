@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Probability Density Function
-tags: ['distribution']
+tags: ['distributions']
 date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---

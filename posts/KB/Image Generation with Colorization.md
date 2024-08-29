@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Image Generation with Colorization
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Image Generation with Colorization

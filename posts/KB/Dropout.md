@@ -1,14 +1,14 @@
 ---
 toc: true
 title: Dropout
-tags: ['regularize']
+tags: ['regularization']
 date modified: Monday, October 10th 2022, 2:02:29 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Dropout
 - Applied to [Dense](Dense.md) [Layers](Layers.md)
-- Training : Randomly (Bernoulli, p = 0.5 say) set #activations to 0
+- Training : Randomly (Bernoulli, p = 0.5 say) set #architecture to 0
 - Generally p = 0.1, 0.5
 - Testing: Reweight by p
 	- Because after training values will increase by $$1/(1-p)$$

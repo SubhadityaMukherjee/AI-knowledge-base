@@ -2,7 +2,7 @@
 toc: true
 title: Machine Learning Tool Landscape
 tags:
-  - mlops
+  - architecture
 date modified: Friday 20th October 2023, Fri
 date created: Friday 20th October 2023, Fri
 ---

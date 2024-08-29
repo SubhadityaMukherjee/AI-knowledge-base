@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Fmix
-tags: ['augment']
+tags: ['augmentation']
 ---
 
 

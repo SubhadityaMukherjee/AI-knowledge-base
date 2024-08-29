@@ -2,7 +2,7 @@
 toc: true
 title: On the Importance of Visual Context for Data Augmentation in Scene Understanding
 
-tags: ['augment']
+tags: ['augmentation']
 date modified: Thursday 9th February 2023, Thu
 date created: Thursday 9th February 2023, Thu
 ---

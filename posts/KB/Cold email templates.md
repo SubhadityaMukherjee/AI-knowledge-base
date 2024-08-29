@@ -2,7 +2,7 @@
 toc: true
 title: Cold email templates
 
-tags: ['jobs']
+tags: ['jobsearch']
 date modified: Friday 8th September 2023, Fri
 date created: Friday 8th September 2023, Fri
 ---

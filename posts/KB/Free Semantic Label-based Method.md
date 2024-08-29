@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Free Semantic Label-based Method
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Free Semantic Label-based Method

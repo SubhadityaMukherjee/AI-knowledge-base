@@ -80,7 +80,7 @@
       "alias-helper-key": "linter-yaml-title-alias"
     },
     "capitalize-headings": {
-      "enabled": false,
+      "enabled": true,
       "style": "Title Case",
       "ignore-case-words": true,
       "ignore-words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript, I",
@@ -94,7 +94,7 @@
       "start-at-h2": false
     },
     "headings-start-line": {
-      "enabled": false
+      "enabled": true
     },
     "remove-trailing-punctuation-in-heading": {
       "enabled": false,
@@ -118,7 +118,7 @@
       "style": "space"
     },
     "convert-bullet-list-markers": {
-      "enabled": false
+      "enabled": true
     },
     "default-language-for-code-fences": {
       "enabled": false,
@@ -148,13 +148,13 @@
       "double-quote-style": "\"\""
     },
     "remove-consecutive-list-markers": {
-      "enabled": false
+      "enabled": true
     },
     "remove-empty-list-markers": {
-      "enabled": false
+      "enabled": true
     },
     "remove-hyphenated-line-breaks": {
-      "enabled": false
+      "enabled": true
     },
     "remove-multiple-spaces": {
       "enabled": false
@@ -251,16 +251,16 @@
       "enabled": false
     },
     "remove-hyphens-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "remove-leading-or-trailing-whitespace-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "remove-leftover-footnotes-from-quote-on-paste": {
       "enabled": false
     },
     "remove-multiple-blank-lines-on-paste": {
-      "enabled": false
+      "enabled": true
     }
   },
   "lintOnSave": true,

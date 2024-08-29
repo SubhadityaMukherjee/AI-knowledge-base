@@ -2,7 +2,7 @@
 toc: true
 title: FGSM
 
-tags: ['adversarialexplainability']
+tags: ['explainability']
 date modified: Monday, October 10th 2022, 2:02:08 pm
 date created: Wednesday, October 5th 2022, 2:53:25 pm
 ---

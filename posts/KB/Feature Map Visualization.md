@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Feature Map Visualization
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Feature Map Visualization

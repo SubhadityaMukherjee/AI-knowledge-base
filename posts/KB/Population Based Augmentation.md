@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Population Based Augmentation
-tags: ['augment']
+tags: ['augmentation']
 ---
 
 ## Population Based Augmentation 

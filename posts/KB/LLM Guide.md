@@ -2,7 +2,7 @@
 toc: true
 title: LLM Guide
 tags:
-  - llm
+  - architecture
 date modified: Monday 4th March 2024, Mon
 date created: Monday 4th March 2024, Mon
 ---

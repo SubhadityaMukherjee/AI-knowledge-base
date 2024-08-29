@@ -2,7 +2,7 @@
 toc: true
 title: What I learnt from an AI Masters Part 2
 
-tags: ["article"]
+tags: ["articles"]
 date modified: 
 date created: 
 ---

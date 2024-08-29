@@ -2,7 +2,7 @@
 toc: true
 title: ABN Amro AI Dev
 
-tags: ['jobs']
+tags: ['jobsearch']
 date modified: Tuesday 5th September 2023, Tue
 date created: Tuesday 5th September 2023, Tue
 ---

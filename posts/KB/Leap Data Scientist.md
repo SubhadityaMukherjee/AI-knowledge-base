@@ -2,7 +2,7 @@
 toc: true
 title: Leap Data Scientist
 
-tags: ['jobs']
+tags: ['jobsearch']
 date modified: Friday 29th September 2023, Fri
 date created: Friday 29th September 2023, Fri
 ---

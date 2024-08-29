@@ -1,7 +1,7 @@
 ---
 toc: true
 title: Temporal order recognition
-tags: ['ssl']
+tags: ['semisupervisedlearning']
 ---
 
 ## Temporal order recognition 

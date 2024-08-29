@@ -2,7 +2,7 @@
 toc: true
 title: Eraneous
 tags:
-  - jobs
+  - jobsearch
 date modified: Tuesday 14th November 2023, Tue
 date created: Tuesday 14th November 2023, Tue
 ---

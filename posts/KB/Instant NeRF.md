@@ -15,7 +15,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - new input encoding that permits the use of a smaller network without sacrificing quality
 - educing the number of floating point and memory access operations
 - near-instant training of neural graphics primitives on a single GPU for multiple tasks
-- small neural network is augmented by a multiresolution hash table of trainable feature vectors whose values are optimized through [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
+- small neural network is augmented by a multiresolution hash table of trainable feature vectors whose values are optimized through [Gradient Descent](Gradient%20Descent.md)
 - automatically focuses on relevant detail, independent of task at hand
 - low overhead
 - In a gigapixel image, they represent an image by a neural network. SDF learns a signed distance function in 3D space whose zero level-set represents a 2D surface

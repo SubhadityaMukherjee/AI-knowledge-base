@@ -43,3 +43,8 @@ date created: Tuesday 27th August 2024, Tue
 - [[Focal Loss.md]]
 - [[Van Mises distribution.md]]
 - Non probabilistic approaches - [[Hinge Loss.md]], [[AdaBoost]]
+
+## Useful Links
+- [visualizing loss functions](https://www.kaggle.com/code/mayank1101sharma/visualizing-loss-functions)
+- [visualizing the loss landscape - neurips](https://proceedings.neurips.cc/paper_files/paper/2018/file/a41b3bb3e6b050b6c9067c67f663b915-Paper.pdf)
+- [distributions -> loss functions](https://mindfulmodeler.substack.com/p/bridging-the-gap-from-statistical)

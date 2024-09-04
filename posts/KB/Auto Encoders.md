@@ -12,7 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Encoder $$E : \mathscr{X} \rightarrow \mathscr{F}$$
 - Decoder $$\mathscr{F} \rightarrow \mathscr{D}$$
 - $$E_\theta, D_\theta = argmin_{E_\theta, D\theta}||X-D(E(X))||^2$
-	- Learn using [[Gradient Descent gradients.md|Gradient Descent gradients]]
+	- Learn using [[Gradient Descent|Gradient Descent]]
 - Compressed rep of data -> Good for Classification or Regression
 - [[MSE.md|MSE]] : Unsupervised
 

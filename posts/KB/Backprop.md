@@ -1,5 +1,6 @@
 ---
-tags: ['temp']
+tags:
+  - loss
 toc: true
 title: Backprop
 date modified: Monday, October 10th 2022, 2:02:33 pm

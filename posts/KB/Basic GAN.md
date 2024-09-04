@@ -15,7 +15,7 @@ date created: Wednesday, December 21st 2022, 3:10:38 pm
 - [[Adversarial Learning.md|Adversarial Learning]]
 - ![[Pasted image 20220310210209.png|im]]
 - Min Max game $$max_D min_G V(G,D)$$ where $$V(G,D) = \mathbb{E}_{p_{data}(x)}logD(x) + \mathbb{E}_{p_{data}(x)}log(1-D(x))$$
-- G : [[Gradient Descent gradients.md|Gradient Descent gradients]]
+- G : [[Gradient Descent|Gradient Descent]]
 - D : [[Gradient Ascent.md|Gradient Ascent]]
 - Discriminator Loss (Given Generator)
 	- $$L_{disc}(D_\theta) =-\frac{1}{2}(\mathbb{E}_{x\sim p_{real}(x)}[log(D_{theta}(x))] + \mathbb{E}_{x\sim p_{latent}(x)}[log(1- D_\theta(G_\phi(z)))])$$

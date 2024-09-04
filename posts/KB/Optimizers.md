@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Optimization
-- [Gradient Descent gradients](Gradient%20Descent%20gradients.md)
+- [Gradient Descent](Gradient%20Descent.md)
 - [Adagrad](Adagrad.md)
 - [Rmsprop](Rmsprop.md)
 - [Adam](Adam.md)

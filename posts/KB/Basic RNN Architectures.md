@@ -16,8 +16,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Bi Directional RNN.md|Bi Directional RNN]]
 - [[Seq2Seq.md|Seq2Seq]]
 - [[Temporal Conv.md|Temporal Conv]]
-- [[Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[GRU|GRU|[GRU|[GRU|GRU)]]]]](GRU)](GRU)](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[[GRU.md|GRU)]].md).md)
-- [[Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[LSTM|LSTM|[LSTM|[LSTM|LSTM)]]]]](LSTM)](LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[[LSTM|LSTM)]].md).md)
+- [[GRU|[GRU|GRU|[GRU|[GRU|GRU)]]]]](GRU|[Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[GRU|GRU|[GRU|[GRU|GRU|[GRU|Gated Recurrent Unit (GRU|[GRU|GRU|[GRU|[GRU|GRU)]]]]](GRU)](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[[GRU.md|GRU)]].md).md)
+- [[LSTM|[LSTM|LSTM|[LSTM|[LSTM|LSTM)]]]]](LSTM|[Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[LSTM|LSTM|[LSTM|[LSTM|LSTM|[LSTM|Long Short Term Memory (LSTM|[LSTM|LSTM|[LSTM|[LSTM|LSTM)]]]]](LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[[LSTM|LSTM)]].md).md)
 
 
 

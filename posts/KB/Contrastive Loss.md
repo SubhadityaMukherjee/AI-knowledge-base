@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Contrastive [Loss](loss.md)
-- Minimize distance between similar inputs [Gradient Descent gradients](Gradient%20Descent%20gradients.md), maximize between dissimilar [Gradient Ascent](Gradient%20Ascent.md)
+- Minimize distance between similar inputs [Gradient Descent](Gradient%20Descent.md), maximize between dissimilar [Gradient Ascent](Gradient%20Ascent.md)
 - Learn [Embedding](Embedding.md)/Feature space using neighbors
 - dim(Embedding d) < dim(input Space D)
 - Encoded using a learnable function(NN) $$G_\theta(x) : \mathcal{R}^D \rightarrow \mathcal{R}^d$$

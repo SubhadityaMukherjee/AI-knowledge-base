@@ -14,7 +14,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - prior studies have found that embeddings leverage large-scale training datasets better than i-vectors, it can be challenging to collect substantial quantities of labeled data for training
 - use data [augmentation](Augmentation.md), consisting of added noise and reverberation, as an inexpensive method to multiply the amount of training data and improve robustness
 - Their data [augmentation](Augmentation.md) strategy employs additive noises and reverberation
-- Reverberation involves convolving room [impulse](Impulse.md) responses (RIR) with audio
+- Reverberation involves convolving room [Impulse](Impulse.md) responses (RIR) with audio
 - simulated RIRs described by [Ko et al.](https://danielpovey.com/files/2017_icassp_reverberation.pdf)
 - reverberation itself is performed with the multicondition training tools in the Kaldi ASpIRE recipe
 - For additive noise, they use the [MUSAN](MUSAN.md) dataset,

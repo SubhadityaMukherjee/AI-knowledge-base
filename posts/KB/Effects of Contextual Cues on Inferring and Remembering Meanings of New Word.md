@@ -42,7 +42,7 @@ date created: Friday, October 14th 2022, 4:47:16 pm
 - They were randomly assigned into four treatment groups, namely
 - LC— (i.e. listening group with inadequate cues); RC— (i.e. reading group with inadequate cues); LC + (i.e. listening group with adequate cues), and RC+ (i.e. reading group with adequate cues). Of the four groups, two (i.e. LC— and RC—) received cue-inadequate sentences, and the others (i.e. LC+ and RC+), cue- adequate sentences. In each pair of groups that received the same sentences, one group (i.e. LC— and LC+) took the listening test, and the other (i.e. RC— and RC+), the reading test
 - There were two independent variables. The first one, text, had two levels- sentences with adequate cues versus inadequate cues. The second one, language skills, also had two levels—reading versus listening dependent
-- These were group means in terms of: (1) measures of word inference (i.e. inferring the meanings of unfamiliar words); (2) ratings of degrees of difficulty of word inference, and (3) measures of word retention (i.e. [recall](recall.md) of the inferred meanings of the target words).
+- These were group means in terms of: (1) measures of word inference (i.e. inferring the meanings of unfamiliar words); (2) ratings of degrees of difficulty of word inference, and (3) measures of word retention (i.e. [Recall](Recall.md) of the inferred meanings of the target words).
 
 ### Task
 - Sixty discrete, semantically disconnected sentences were constructed for the experiment.
@@ -60,7 +60,7 @@ date created: Friday, October 14th 2022, 4:47:16 pm
 - The tests were presented in an open-ended, not in a multiple-choice, form
 - After reading or listening to each sentence, the subjects were asked to state (either in English or Chinese) their guesses of the contextual meaning of the target word in the sentence
 - The second task after the pretest was to rate the degrees of difficulty in terms of word inferences
-- The last task, word retention, was a cued [recall](recall.md) of the target words' inferred contextual meanings.
+- The last task, word retention, was a cued [Recall](Recall.md) of the target words' inferred contextual meanings.
 - Each target word was cued by another word from the same sentence that had been processed for inferring the contextual meaning of the target word.
 - The target words were listed in exactly the same order as they appeared in the tests for word inference.
 
@@ -96,7 +96,7 @@ date created: Friday, October 14th 2022, 4:47:16 pm
 - contextual cues being equally adequate, subjects reading the sentences scored significantly higher in both inferring and remembering the contextual meanings of unfamiliar words than those listening to the sentences.
 - This finding further sustained Carton's (1971) hypothesis that texts with adequate contextual cues minimize errors in the process of identifying and acquiring new words in a natural context
 - The presence of contextual cues means 'bridging information' (Garrod and Sanford 1981), grammatical and/or semantic, conceptual as well as perceptual.
-- Without adequate bridging information, it would seem next to impossible to infer and [recall](recall.md) the contextual meaning of any unfamiliar word.
+- Without adequate bridging information, it would seem next to impossible to infer and [Recall](Recall.md) the contextual meaning of any unfamiliar word.
 - This explains why the LC— and RC— groups scored so low on both word inference and word retention.
 - the target words associated with more powerful retrieval cues were more recallable than those associated with less powerful retrieval cues
 - Probably, more powerfully associated retrieval cues better triggered the schematic memory, which created a 'short cut' that linked the process needed for recalling the contextual meaning of the target word and the initial process involved in inferring the contextual meaning of that target word.
@@ -110,7 +110,7 @@ date created: Friday, October 14th 2022, 4:47:16 pm
 - since contextual cues being equally adequate, subjects can, within the same amount of time, better acquire vocabulary through visual patterns of learning than through oral patterns, it might follow that learners whose learning styles are congruent or similar to the subjects in this study, may well enlarge their vocabulary for reading in a more efficient way through visual ways of learning
 
 ## Pictures
-- ![Pasted%20image%2020221014165039](Pasted%20image%2020221014165039.png)
+- ![](../images/Pasted%20image%2020221014165039.png)
 
 
 

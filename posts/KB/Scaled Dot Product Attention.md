@@ -13,12 +13,12 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- $w_{ij}' = q_{i}^{T}k_{j}$
 	- $y_{i}= \Sigma_{j}w_{ij}v_{j}$
 - [Softmax](Softmax.md) is sensitive to large values. Which sucks for the #architecture
-- The avg value of the dot product grows with [embedding](Embedding.md) dimension k. So scale back.
+- The avg value of the dot product grows with [Embedding](Embedding.md) dimension k. So scale back.
 	- $\sqrt{k}$ . Vector in $\mathbb{R}^{k}$ with all values as c
 	- Euclidean length is $\sqrt{kc}$
 - $$Attention(Q, K,V) = softmax(\frac{QK^T}{\sqrt{d_{k}}})V$$
 - Generalization of [Soft Attention](Soft%20Attention.md)
-- ![im](Pasted%20image%2020220526133045.png)
+- ![](../images/Pasted%20image%2020220526133045.png)
 - [Attention Alignment](Attention%20Alignment.md) score $$\alpha_{t,i} = \frac{s_{t}^{T}h_{i}}{\sqrt{n}}$$
 
 

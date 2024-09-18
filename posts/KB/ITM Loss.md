@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # ITM Loss
-- ITM loss is an alignment loss that encompasses cross-[modality](modality.md) interaction between image and text
+- ITM loss is an alignment loss that encompasses cross-[Modality](Modality.md) interaction between image and text
 - ITM requires positive and negative pairs
 
 

@@ -18,7 +18,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Probability](Probability.md)
 - [Universal Approximation Theorem](Universal%20Approximation%20Theorem.md)
 - [Sampling](Sampling)
-- [Distributions](Distributions)
+- [Distributions](Distributions.md)
 
 
 

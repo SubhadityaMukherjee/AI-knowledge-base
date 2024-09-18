@@ -17,11 +17,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- Any value between -inf to +inf so [Softmax](Softmax.md) is applied
 	- $x_i$ is the input vector at the same pos as the current output vector $y_i$
 - Propagates info between vectors
-- ![im](Pasted%20image%2020220525183444.png)
+- ![](../images/Pasted%20image%2020220525183444.png)
 - The process
 	- Assign every word t in the vocabular an [Embedding](Embedding.md)
-	- Feeding this into a self [attention](Attention.md) layer we get another seq of vectors $y_{the}$ , $y_{cat}$ etc
-	- each of the $y_{something}$ is a weighted sum over all the [embedding](Embedding.md) vectors in the first seq weighted by their normalized dot product with $v_{something}$
+	- Feeding this into a self [Attention](Attention.md) layer we get another seq of vectors $y_{the}$ , $y_{cat}$ etc
+	- each of the $y_{something}$ is a weighted sum over all the [Embedding](Embedding.md) vectors in the first seq weighted by their normalized dot product with $v_{something}$
 	- the dot product shows how related the vectors are in the sequence
 		- weights determined by them
 		- Self-[Attention](Attention.md) layer may give more weights to those input vectors that are more similar to each other when generating the output vectors

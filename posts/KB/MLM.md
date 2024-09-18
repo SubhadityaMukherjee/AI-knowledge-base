@@ -12,7 +12,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - 15% of the words in each sequence are replaced by `[MASK]`
 - model tries to predict original values of the masked words
 - uses the context provided by the other non-masked words in the sequences
-- [loss](loss.md) function only considers the predictions of the masked words, ignores non-masked ones
+- [loss](../Tag%20Pages/loss.md) function only considers the predictions of the masked words, ignores non-masked ones
     - leads to slower convergence than with directional models
 - additions to standard architecture:
     - classification layer on top of the encoder output

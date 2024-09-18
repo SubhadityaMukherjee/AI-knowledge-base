@@ -21,7 +21,7 @@ tags: ['temp']
 	- linear computational complexity with respect to input image size
 	- shifted window based [Self Attention](Self%20Attention.md)
 	- address the challenges in adapting [Transformer](Transformer.md) from language to vision
-	- limiting self-[attention](Attention.md) computation to non-overlapping local windows while also allowing for cross-window connection
+	- limiting self-[Attention](Attention.md) computation to non-overlapping local windows while also allowing for cross-window connection
 	- flexibility to model at various scales
 	- linear computational complexity with respect to image size
 	- [ImageNet](ImageNet.md)

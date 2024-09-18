@@ -5,7 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:27 pm
 ---
 
 # Frontal Operculum
-- The part of the [frontal lobe](frontal lobe.md) that sits over the [insula](Insula.md).
+- The part of the [frontal lobe](frontal lobe.md) that sits over the [Insula](Insula.md).
 
 
 

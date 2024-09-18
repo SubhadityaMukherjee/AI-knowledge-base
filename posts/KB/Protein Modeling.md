@@ -10,11 +10,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Using [Bayesian](Bayesian.md) models
 - Task : Estimate [Probability](Probability.md) mass function(because discrete) for a finite, discrete distribution -> given a histogram from a sample
 - Large number of categories and small number of observations
-- ![im](Pasted%20image%2020220316121901.png)
+- ![](../images/Pasted%20image%2020220316121901.png)
 	- Estimate [Probability](Probability.md) distrib of amino acids in each column in a protein class. 20 dim [PMF](PMF.md) (one for each site)
 	- Can be aligned
 	- High chances of class not being present in data
-		- [MLE](MLE) will assign 0 [Probability](Probability.md) to X
+		- [MLE](MLE.md) will assign 0 [Probability](Probability.md) to X
 		- Wrong decision made for a lot of them that were not in the training set
 		- Cannot use
 - 20 dim [PMF](PMF.md) for amnio acid distrib : $\theta = (\theta_{1}, … ,\theta_{20})' = (P(X=A), …, P(X=Y))'$
@@ -26,7 +26,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- 19 dim hypervolume
 	- Continuous space and so can use [PDF](PDF.md)
 	- [Dirichlet Distribution](Dirichlet%20Distribution.md) is used to represent it because parameterized with l = 20
-- ![im](Pasted%20image%2020220316123546.png)
+- ![](../images/Pasted%20image%2020220316123546.png)
 - $\alpha$s fixed beforehand
 
 

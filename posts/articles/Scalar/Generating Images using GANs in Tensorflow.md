@@ -128,7 +128,7 @@ def build_generator():
 ```
 
 ### Defining the Discriminator
-The GAN uses the Discriminator (D) to identify how real the Generator's outputs look by returning a probability of real vs fake. This part of the network can be thought of as a binary classification problem. To solve this binary classification problem, we need a rather simple network composed of blocks of Fully Connect Layers (FC), Leaky ReLU activations and [[../../Dropout.md|Dropout.md|../../Dropout|Dropout]] layers. Note that the final layer has a block with an FC layer and a Sigmoid. 
+The GAN uses the Discriminator (D) to identify how real the Generator's outputs look by returning a probability of real vs fake. This part of the network can be thought of as a binary classification problem. To solve this binary classification problem, we need a rather simple network composed of blocks of Fully Connect Layers (FC), Leaky ReLU activations and [Dropout](../../KB/Dropout.md) layers. Note that the final layer has a block with an FC layer and a Sigmoid. 
 The final Sigmoid activation returns the classification probability that we require.
 ```python
 def build_discriminator():

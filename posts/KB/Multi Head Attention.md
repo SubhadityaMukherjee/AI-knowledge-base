@@ -8,18 +8,18 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Multi Head [Attention](Attention.md)
 - [ZihangDai et al., 2019](https://arxiv.org/abs/1901.02860)
-- which computes self-[attention](Attention.md) over the inputs, then adds back the residual and layer normalizes everything. The [attention](Attention.md) head can be split into multiple segments, hence the name _multi-head_
-- Multiple [attention](Attention.md) instances, each focusing on a different part of the input
+- which computes self-[Attention](Attention.md) over the inputs, then adds back the residual and layer normalizes everything. The [Attention](Attention.md) head can be split into multiple segments, hence the name _multi-head_
+- Multiple [Attention](Attention.md) instances, each focusing on a different part of the input
 - Words can mean different things in context
 	- If using [Self Attention](Self%20Attention.md), then this just gets summed up. Which is not very nice
-	- Several [attention](Attention.md) heads -> different output vectors
+	- Several [Attention](Attention.md) heads -> different output vectors
 	- Concatenate them and pass through a linear transform -> dimension back to k
 - $$MultiHead(Q,K,V) = Concat(head_1, head_2, …., head_h)W^O$$
 	- $$head_i = Attention(QW_i^Q, KW_i^K , VW_i^V)$$
-- W is learnable projections for [attention](Attention.md) params
-- ![im](Pasted%20image%2020220307183058.png)
+- W is learnable projections for [Attention](Attention.md) params
+- ![](../images/Pasted%20image%2020220307183058.png)
 - To improve efficiency
-	- Cut the incoming vector into chunks -> no of [attention](Attention.md) heads
+	- Cut the incoming vector into chunks -> no of [Attention](Attention.md) heads
 
 ```python
 class MultiHeadAttentionNew(nn.Module):

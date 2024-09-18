@@ -9,7 +9,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
 # Autonomic
 - Involuntary
-- [[Sympathetic.md|Sympathetic]] + [[Parasympathetic.md|Parasympathetic]]
+- [Sympathetic](Sympathetic.md) + [Parasympathetic](Parasympathetic.md)
 
 
 

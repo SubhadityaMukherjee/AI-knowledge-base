@@ -23,8 +23,8 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
         - SELU as activation 
         - custom [Initialization](Initialization.md)
             - zero mean
-            - [standard deviation](Standard%20Deviation.md): $\sqrt{\frac{1}{ \#inputs}}$
-        - if all [layers](Layers.md) are dense (in paper), but other research showed that it also works for CNNs
+            - [Standard Deviation](Standard%20Deviation.md): $\sqrt{\frac{1}{ \#inputs}}$
+        - if all [Layers](Layers.md) are dense (in paper), but other research showed that it also works for CNNs
 - has two fixed parameters α and λ
     - not hyperparameters nor learnt parameters
     - derived from the inputs (μ=0, std=1)

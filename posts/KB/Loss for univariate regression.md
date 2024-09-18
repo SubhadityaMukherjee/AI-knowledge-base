@@ -12,9 +12,9 @@ date created: Wednesday 28th August 2024, Wed
 ```
 - Predict a single scalar output $y \in \mathbb{R}$
 - Use univariate [Normal Distribution](Normal%20Distribution.md) 
-	- ![Pasted image 20240828095716](Pasted%20image%2020240828095716.png)
-- ![Pasted image 20240828095740](Pasted%20image%2020240828095740.png)
-- ![Pasted image 20240828095747](Pasted%20image%2020240828095747.png)
+	- ![](../images/Pasted%20image%2020240828095716.png)
+- ![](../images/Pasted%20image%2020240828095740.png)
+- ![](../images/Pasted%20image%2020240828095747.png)
 - Find parameters $\hat \phi$ that minimize $L[\phi]$\
 - [Least squares loss](Least%20squares%20loss.md)
 
@@ -24,14 +24,14 @@ date created: Wednesday 28th August 2024, Wed
 ### Estimating if variance constant everywhere
 - [Homoscedatic](Homoscedatic.md)
 - Since the equation does not depend on variance, we pretend $\sigma^{2}$ is a learned parameter and minimize it wrt $\phi, \sigma^{2}$
-- ![Pasted image 20240828100529](Pasted%20image%2020240828100529.png)
-- ![Pasted image 20240828100420](Pasted%20image%2020240828100420.png)
+- ![](../images/Pasted%20image%2020240828100529.png)
+- ![](../images/Pasted%20image%2020240828100420.png)
   
 ### Estimating if variance is not constant
 - [Heteroscedatic](Heteroscedatic.md) 
 - Train a network that computes both mean and variance
 - Variance should be positive, but the result of composing networks might not be. To make it, pass it through the squaring function
-- ![Pasted image 20240828100835](Pasted%20image%2020240828100835.png)
+- ![](../images/Pasted%20image%2020240828100835.png)
 
 ### [Homoscedatic](Homoscedatic.md) vs [Heteroscedatic](Heteroscedatic.md) Regression
-- ![Pasted image 20240828100938](Pasted%20image%2020240828100938.png)
+- ![](../images/Pasted%20image%2020240828100938.png)

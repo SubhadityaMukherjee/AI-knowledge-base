@@ -7,8 +7,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # ColorMap
-- [[Color Spaces.md|Color Spaces]]
-- ![[Pasted image 20220411132754.png|im]]
+- [Color Spaces](Color%20Spaces.md)
+- ![[Pasted image 20220411132754.png]]
 
 
 

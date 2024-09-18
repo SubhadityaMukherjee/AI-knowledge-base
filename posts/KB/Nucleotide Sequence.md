@@ -5,7 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:21 pm
 ---
 
 # [Nucleotide](Nucleotide.md) Sequence
-- A specific and ordered array of nucleotides that make up a specific genetic variant or [allele](Allele.md).
+- A specific and ordered array of nucleotides that make up a specific genetic variant or [Allele](Allele.md).
 
 
 

@@ -100,7 +100,7 @@ Bar + Restaurant: [Food Society Paris](https://www.google.com/url?q=https://maps
 
 # Breakout Sessions Ideas
 
-This document contains the preliminary agenda and suggestion for [breakout sessions](#h.rto8plzar1dk). Breakout sessions are discussions where we can brainstorm or exchange our experiences on specific topics. Feel free to propose additional sessions.
+This document contains the preliminary agenda and suggestion for [OpenML <> scikit-learn hackathon paris '24](#h.rto8plzar1dk). Breakout sessions are discussions where we can brainstorm or exchange our experiences on specific topics. Feel free to propose additional sessions.
 
  💡 Feel free to add new session topics below, there is a template at the end.
 

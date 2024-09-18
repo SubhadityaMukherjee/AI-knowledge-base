@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # CDF
-- get cumulative [[Density.md|density]] function $\varphi : \mathbb{R} \rightarrow [0,1]$
+- get cumulative [Density](Density.md) function $\varphi : \mathbb{R} \rightarrow [0,1]$
 
 
 

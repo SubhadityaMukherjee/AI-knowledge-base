@@ -87,7 +87,7 @@ date created: Wednesday 1st February 2023, Wed
 - combining multiple single augmentations with the original dataset is the most effective augmentation strategy with an increase in accuracy of +2.36% to 95.85%
 - Random distortion and [Gaussian distortion](Gaussian distortion.md) are the worst forms of augmentation tested leading to changes in accuracy of -0.15% and +0.05%, respectively
 - This is due to the augmented images not representing the original class and highlights the importance of the choice of augmentation
-- The most effective form of single augmentation is found to be random erasing with an increase in accuracy of +1.5%. This is due to its ability to combat the effects of occlusion, and is similar to preventing co-adaption through the use of [dropout](dropout.md).
+- The most effective form of single augmentation is found to be random erasing with an increase in accuracy of +1.5%. This is due to its ability to combat the effects of occlusion, and is similar to preventing co-adaption through the use of [Dropout](Dropout.md).
 - An interesting avenue to explore is the generalization and overfitting properties of augmentation for data scarcity
 - Validation accuracy is seen to improve with augmentation, with the most significant improvement of +31.45% for random erasing, indicating better generalization capabilities.
 - However, the model also appears to overfit the training data more
@@ -99,9 +99,9 @@ date created: Wednesday 1st February 2023, Wed
 - Late injection of augmentation improves the generalization capabilities of the network similar to the optimizer switching method of [Keskar and Socher, 2017].
 
 ## Images
-- ![images/Pasted%20image%2020230201131437.png](Pasted%20image%2020230201131437.png)
-- ![images/Pasted%20image%2020230201131458.png](Pasted%20image%2020230201131458.png)
-- ![images/Pasted%20image%2020230201131507.png](Pasted%20image%2020230201131507.png)
+- ![](../images/Pasted%20image%2020230201131437.png)
+- ![](../images/Pasted%20image%2020230201131458.png)
+- ![](../images/Pasted%20image%2020230201131507.png)
 
 
 

@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7e2f68245e29a73f",
+        "id": "b4074bb9fccc1345",
         "type": "tabs",
         "children": [
           {
-            "id": "e442554e400e9a0e",
+            "id": "2180a7104f1e283d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KB/treecoverSegmentation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c94e3336d9c869e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Book Notes/Understanding Deep Learning/Chapter 6 - Fitting models.md",
+                "file": "Book Notes/Understanding Deep Learning/Chapter 9 - Regularization.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "augmentat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 272.5,
+    "collapsed": true
   },
   "right": {
     "id": "19132e1d674293ff",
@@ -108,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KB/treecoverSegmentation.md"
+                "file": "Book Notes/Understanding Deep Learning/Chapter 9 - Regularization.md"
               }
             }
           },
@@ -126,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KB/treecoverSegmentation.md",
+                "file": "Book Notes/Understanding Deep Learning/Chapter 9 - Regularization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,14 +132,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KB/treecoverSegmentation.md",
+                "file": "Book Notes/Understanding Deep Learning/Chapter 9 - Regularization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,6 +147,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "lineage:Toggle Lineage view": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": false,
@@ -167,8 +156,7 @@
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": true,
       "post-medium-draft:Post Medium draft": true,
-      "templater-obsidian:Templater": true,
-      "obsidian-ocr:Search OCR": false
+      "templater-obsidian:Templater": true
     }
   },
   "floating": {
@@ -176,20 +164,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "6dfca59cd80e7db3",
+        "id": "223dfe41e3807df4",
         "type": "window",
         "children": [
           {
-            "id": "00bfe6d15ae93a6b",
+            "id": "2fdf5c11f6520247",
             "type": "tabs",
             "children": [
               {
-                "id": "242320a27de9c98b",
+                "id": "0ccc8d5ef27e8e84",
                 "type": "leaf",
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "KB/treecoverSegmentation.md",
+                    "file": "Book Notes/Understanding Deep Learning/Chapter 9 - Regularization.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -212,7 +200,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 1.208346118276563,
+                      "scale": 8,
                       "close": true
                     }
                   }
@@ -222,56 +210,56 @@
           }
         ],
         "direction": "vertical",
-        "x": 536,
+        "x": 594,
         "y": 80,
-        "width": 728,
+        "width": 613,
         "height": 897,
         "maximize": false,
         "zoom": 1
       }
     ]
   },
-  "active": "e442554e400e9a0e",
+  "active": "a24904539dd9583e",
   "lastOpenFiles": [
-    "Tag Pages/loss\n.md",
-    "Tag Pages/loss.md",
-    "KB/treecoverSegmentation.md",
-    "Book Notes/Understanding Deep Learning/Chapter 7 - Gradients and Initialization.md",
-    "Book Notes/Understanding Deep Learning/Chapter 6 - Fitting models.md",
-    "KB/Learning Rate Scheduling.md",
-    "KB/SGD Momentum.md",
-    "Book Notes/Understanding Deep Learning/Chapter 5 - Loss functions.md",
+    "KB/A survey on Image Data Augmentation for Deep Learning.md",
+    "Tag Pages/augmentation\n.md",
+    "KB/Regularization.md",
+    "KB/augment.md",
+    "Book Notes/Understanding Deep Learning/Chapter 9 - Regularization.md",
+    "KB/augmentation.md",
+    "KB/SGD.md",
     "KB/Gradient Descent.md",
-    "KB/OpenML <> scikit-learn hackathon paris '24.md",
-    "KB/Parallel Runner.md",
-    "KB/Vanishing Gradient.md",
-    "KB/Exploding Gradient.md",
-    "KB/Initialization.md",
-    "KB/Saddle Points.md",
-    "KB/Brainstorm openml_pytorch.md",
-    "KB/Cost conference '24.md",
-    "KB/TAILOR conference lisbon '24.md",
-    "images/TAILOR CONF →4:2\".txt",
-    "images/Pasted image 20240903130729.png",
-    "images/Pasted image 20240903130725.png",
-    "images/Pasted image 20240903130721.png",
-    "images/Pasted image 20240903130716.png",
-    "images/Pasted image 20240903130711.png",
-    "images/Pasted image 20240903130705.png",
-    "images/Pasted image 20240903130700.png",
-    "images/Pasted image 20240903130654.png",
-    "images/Pasted image 20240903130647.png",
-    "images/Pasted image 20240903130642.png",
-    "KB/OpenML Software Engineer.md",
-    "KB/Gradient Direction.md",
-    "KB/Gradient Clipping.md",
-    "KB/Backprop.md",
-    "KB/Simple Gradient Descent.md",
-    "KB/Gradient.md",
-    "KB/loss.md",
-    "Book Notes/Understanding Deep Learning/Chapter 4 - Deep Neural Networks.md",
-    "Tag Pages",
+    "images/Pasted image 20240918105841.png",
+    "images/Pasted image 20240918105821.png",
+    "KB/Lp Regularization.md",
+    "KB/Frobenius norm.md",
+    "images/Pasted image 20240918105448.png",
+    "KB/Bayesian.md",
+    "images/Pasted image 20240918104935.png",
+    "images/Pasted image 20240918104934.png",
+    "images/Pasted image 20240918104924.png",
+    "KB/Regularization Term.md",
+    "Book Notes/Understanding Deep Learning/Chapter  8 - Measuring performance.md",
+    "KB/AdamW.md",
+    "KB/Weight Decay Vs L2 Regularization.md",
+    "KB/He Initialization.md",
+    "KB/Adam.md",
+    "KB/Batch Normalization.md",
+    "KB/Bias Variance Dilemma.md",
+    "KB/Model Capacity.md",
+    "KB/Vapnik chervonenkis dimension.md",
+    "KB/Representational Capacity.md",
+    "KB/Double Descent.md",
+    "KB/Nasnet.md",
+    "KB/regularize.md",
+    "KB/Curse Of Dimensionality.md",
+    "images/Pasted image 20240917153037.png",
+    "images/Pasted image 20240917152905.png",
+    "images/Pasted image 20240917151836.png",
+    "images/Pasted image 20240917151825.png",
     "create_tag_pages.py~",
+    "images/TAILOR CONF →4:2\".txt",
+    "Tag Pages",
     "tag_lists.txt",
     "Chats",
     "create_tag_pages.py",

@@ -23,13 +23,13 @@ tags: ['temp']
 - [PASCAL VOC](PASCAL%20VOC.md)
 - [COCO](COCO.md)
 - visual representation encoder by matching an encoded query
-- to a dictionary of encoded keys using a [contrastive loss](Contrastive%20Loss.md)
+- to a dictionary of encoded keys using a [Contrastive Loss](Contrastive%20Loss.md)
 - dictionary is built as a queue, with the current mini-batch enqueued
 - oldest mini-batch dequeued
 - slowly progressing encoder
 - momentum update with the query encoder
-- ![moco1](moco1.jpg)
-- ![moco2](moco2.jpg)
+- ![](../images/moco1.jpg)
+- ![](../images/moco2.jpg)
 
 
 

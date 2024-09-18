@@ -10,14 +10,14 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 # Gradient Clipping
 - Limit the value or the norm of a gradient to a fixed Hyperparameter λ.
 - mitigate the Vanishing & Exploding Gradients, exploding ones
-- idea is to [clip](CLIP.md) the gradients during Backpropagation to a certain threshold (limit the value)
+- idea is to [CLIP](CLIP.md) the gradients during Backpropagation to a certain threshold (limit the value)
 - most often used in RNN or GAN, where Batch Normalisation is tricky to use
 - methods
-    - [clip](CLIP.md) by norm
-        - [clip](CLIP.md) the whole gradient if its L2 norm is greater than the threshold
+    - [CLIP](CLIP.md) by norm
+        - [CLIP](CLIP.md) the whole gradient if its L2 norm is greater than the threshold
         - remains the orientation
-    - [clip](CLIP.md) by value
-        - [clip](CLIP.md) the gradient by a fixed value
+    - [CLIP](CLIP.md) by value
+        - [CLIP](CLIP.md) the gradient by a fixed value
         - problem: orientation of the gradient may change due to clipping
             - example: \[0.9,100.0\]→\[0.9,1.0\]
             - however, this works well in practice

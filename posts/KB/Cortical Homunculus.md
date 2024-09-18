@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Cortical Homunculus
-- ![im](Pasted%20image%2020220509154234.png)
+- ![](../images/Pasted%20image%2020220509154234.png)
 
 
 

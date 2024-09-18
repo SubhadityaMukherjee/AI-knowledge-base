@@ -5,7 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:19 pm
 ---
 
 # Presynaptic Cell
-- In [synaptic transmission](Synaptic%20Transmission.md), the neuron that sends a nerve [impulse](Impulse.md) across the synaptic cleft to another neuron.
+- In [Synaptic Transmission](Synaptic%20Transmission.md), the neuron that sends a nerve [Impulse](Impulse.md) across the synaptic cleft to another neuron.
 
 
 

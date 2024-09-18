@@ -8,14 +8,14 @@ date created: Sunday, October 23rd 2022, 4:56:57 pm
 ---
 
 # SLAK
-- MORE CONVNETS IN THE 2020S: SCALING UP KERNELS BEYOND 51 × 51 USING [SPARSITY](SPARSITY.md)
+- MORE CONVNETS IN THE 2020S: SCALING UP KERNELS BEYOND 51 × 51 USING [Sparsity](Sparsity.md)
 - Shiwei Liu, Tianlong Chen, Xiaohan Chen, Xuxi Chen, Qiao Xiao, Boqian Wu, Tommi Ka ̈ rkka ̈ inen, Mykola Pechenizkiy, Decebal Constantin Mocanu, Zhangyang Wang
 
 
 - The dominant role of convolutional neural networks (CNNs) seems to be challenged by increasingly effective transformer-based models.
 - advanced convolutional models strike back with large ker- nels motivated by the local-window attention mechanism, showing appealing perfor- mance and efficiency
 - [RepLKNet](RepLKNet.md)
-- This study ends up with a recipe for applying extremely large kernels from the perspective of [sparsity](sparsity.md), which can smoothly scale up kernels to 61×61 with better performance
+- This study ends up with a recipe for applying extremely large kernels from the perspective of [Sparsity](Sparsity.md), which can smoothly scale up kernels to 61×61 with better performance
 - Built on this recipe, we propose Sparse Large Kernel Network (SLaK), a pure CNN architec- ture equipped with sparse factorized 51×51 kernels that can perform on par with or better than state-of-the-art hierarchical Transformers and modern ConvNet architec- tures like ConvNeXt and RepLKNet
 
 ## RELATED WORK
@@ -30,7 +30,7 @@ date created: Sunday, October 23rd 2022, 4:56:57 pm
 - naively enlarging kernel size from 7x7 to 31x31 decreases the performance although the receptive field may be enlarged by using extremely large kernels, it
 - might fail to maintain the desirable property of locality.
 - Since the stem cell in standard ResNet (He et al., 2016) and ConvNeXt results in a
-- 4x [downsampling](downsampling.md) of the input images, extreme kernels with
+- 4x [Downsampling](Downsampling.md) of the input images, extreme kernels with
 
 ## A RECIPE FOR EXTREMELY LARGE KERNELS BEYOND 31x31
 - Decomposing a large kernel into two rectangular, parallel kernels smoothly scales the kernel size up to 61x61
@@ -43,14 +43,14 @@ date created: Sunday, October 23rd 2022, 4:56:57 pm
 
 ### Use Sparse Groups, Expand More Width
 - significantly boosts the model capacity.
-- Instead of using the standard group convolution, ConvNeXt simply employs depthwise convolutions with an increased width to achieve the goal of "use more groups, expand width". In this paper, we attempt to extend this principle from a [sparsity](sparsity.md)-inspired perspective – "use sparse groups, expand more width".
-- replace the dense convolutions with sparse convolutions, where the sparse kernels are randomly constructed based on the layer-wise [sparsity](sparsity.md) ratio of SNIP (Lee et al., 2019)
-- After construction, we train the sparse model with dynamic [sparsity](sparsity.md) (Mocanu et al., 2018; Liu et al., 2021b), where the sparse weights are dynamically adapted during training by pruning the weights with the lowest magnitude and growing the same number of weights randomly.
+- Instead of using the standard group convolution, ConvNeXt simply employs depthwise convolutions with an increased width to achieve the goal of "use more groups, expand width". In this paper, we attempt to extend this principle from a [Sparsity](Sparsity.md)-inspired perspective – "use sparse groups, expand more width".
+- replace the dense convolutions with sparse convolutions, where the sparse kernels are randomly constructed based on the layer-wise [Sparsity](Sparsity.md) ratio of SNIP (Lee et al., 2019)
+- After construction, we train the sparse model with dynamic [Sparsity](Sparsity.md) (Mocanu et al., 2018; Liu et al., 2021b), where the sparse weights are dynamically adapted during training by pruning the weights with the lowest magnitude and growing the same number of weights randomly.
 - Doing so enables dynamic adaptation of sparse weights, leading to better local features.
 - As kernels are sparse throughout training, the corresponding parameter count and training/inference FLOPs are only proportional to the dense models.
-- dynamic [sparsity](sparsity.md) notably reduces more than 2.0 GFLOPs, despite causing temporary performance degradation.
-- Dynamic [sparsity](sparsity.md) allows us to computation-friendly scale the model size up
-- For example, using the same [sparsity](sparsity.md) (40%), we can expand the model width by 1.3x while keeping the parameter count and FLOPs roughly the same as the dense model
+- dynamic [Sparsity](Sparsity.md) notably reduces more than 2.0 GFLOPs, despite causing temporary performance degradation.
+- Dynamic [Sparsity](Sparsity.md) allows us to computation-friendly scale the model size up
+- For example, using the same [Sparsity](Sparsity.md) (40%), we can expand the model width by 1.3x while keeping the parameter count and FLOPs roughly the same as the dense model
 
 ### Large Kernels Generalize Better Than Small Kernels with Our Recipe
 - performance consistently increases with kernel size, up to 51x51
@@ -96,7 +96,7 @@ date created: Sunday, October 23rd 2022, 4:56:57 pm
 
 ## Some More Effects
 
-### TRADE-OFF BETWEEN [SPARSITY](SPARSITY.md) AND WIDTH
+### TRADE-OFF BETWEEN [Sparsity](Sparsity.md) AND WIDTH
 - As we expected, the model's performance keeps increasing as model width
 - increases until the width factor reaches 1.5x, after which increasing width further starts to hurt the performance apparently due to the training difficulties associated with highly sparse neural networks.
 
@@ -106,7 +106,7 @@ date created: Sunday, October 23rd 2022, 4:56:57 pm
 ### ERF QUANTITATION OF MODELS WITH DIFFERENT KERNEL SIZES
 - Larger r suggests a smoother distribution of high-contribution pixels. We can see that with global kernels, SLaK naturally considers a larger range of pixels to make decisions than ConvNeXt and RepLKNet.
 
-### CONFIGURATIONS OF DYNAMIC [SPARSITY](SPARSITY.md)
+### CONFIGURATIONS OF DYNAMIC [Sparsity](Sparsity.md)
 - Following Liu et al. (2021c), we specifically tune two factors for SLaK-T that control the strength of weight adaptation, adaptation frequency f and adaptation rate p. Adaptation frequency determines after how many training iterations we adjust the sparse weights, and the latter controls the ratio of the weight that we adjust at each adaptation
 - f = 2000
 - and p = 0.5 works best for SLak-T. For SLak-S/B, we directly choose f = 100 and p = 0.3 without careful tuning.

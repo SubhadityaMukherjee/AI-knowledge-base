@@ -42,16 +42,16 @@ date created: Monday 27th March 2023, Mon
 - Modify the image by moving it in the direction of the gradient
 
 ## MNIST Results - EAs
-- ![images/Pasted%20image%2020230327124348.png](Pasted%20image%2020230327124348.png)
+- ![](../images/Pasted%20image%2020230327124348.png)
 
 ## ImageNet Results - EAs
 - Harder to fool
 - Different runs result into differences in patterns
 - Removing repetitive patterns does not cause a dramatic confidence drop
 - Global structures are not learned
-- ![images/Pasted%20image%2020230327124359.png](Pasted%20image%2020230327124359.png)
-- ![images/Pasted%20image%2020230327124413.png](Pasted%20image%2020230327124413.png)
-- ![images/Pasted%20image%2020230327124421.png](Pasted%20image%2020230327124421.png)
+- ![](../images/Pasted%20image%2020230327124359.png)
+- ![](../images/Pasted%20image%2020230327124413.png)
+- ![](../images/Pasted%20image%2020230327124421.png)
 
 ## What about a Fooling Class?
 - MNIST

@@ -12,46 +12,46 @@ date created: Monday 29th May 2023, Mon
 
 - @gozalo-brizuelaChatGPTNotAll2023
 
-- [[DALL·E 2.md|DALL·E 2]]
+- [DALL·E 2](DALL·E%202.md)
 
-- [[CLIP.md|CLIP]]
+- [CLIP](CLIP.md)
 
-- [[Stable Difusion.md|Stable Difusion]]
+- [Stable Difusion](Stable%20Difusion.md)
 
-- [[Muse.md|Muse]]
+- [Muse](Muse.md)
 
-- [[Dreamfusion.md|Dreamfusion]]
+- [Dreamfusion](Dreamfusion.md)
 
-- [[Magic3D.md|Magic3D]]
+- [Magic3D](Magic3D.md)
 
-- [[Flamingo.md|Flamingo]]
+- [Flamingo](Flamingo.md)
 
-- [[VisualGPT.md|VisualGPT]]
+- [VisualGPT](VisualGPT.md)
 
-- [[Phenaki.md|Phenaki]]
+- [Phenaki](Phenaki.md)
 
-- [[Soundify.md|Soundify]]
+- [Soundify](Soundify.md)
 
-- [[AudioLM.md|AudioLM]]
+- [AudioLM](AudioLM.md)
 
-- [[Jukebox.md|Jukebox]]
+- [Jukebox](Jukebox.md)
 
-- [[Whisper.md|Whisper]]
+- [Whisper](Whisper.md)
 
-- [[ChatGPT.md|ChatGPT]]
+- [ChatGPT](ChatGPT.md)
 
-- [[LaMDA.md|LaMDA]]
+- [LaMDA](LaMDA.md)
 
-- [[PEER.md|PEER]]
+- [PEER](PEER.md)
 
-- [[Meta AI Speech from Brain.md|Meta AI Speech from Brain]]
+- [Meta AI Speech from Brain](Meta%20AI%20Speech%20from%20Brain.md)
 
-- [[Codex.md|Codex]]
+- [Codex](Codex.md)
 
-- [[Alphacode.md|Alphacode]]
+- [Alphacode](Alphacode.md)
 
-- [[Galactica.md|Galactica]]
+- [Galactica](Galactica.md)
 
-- [[Minerva.md|Minerva]]
+- [Minerva](Minerva.md)
 
-- [[Imagen.md|Imagen]]
+- [Imagen](Imagen.md)

@@ -14,21 +14,21 @@ date created: Sunday 12th February 2023, Sun
 - idea that the human visual system is composed of a **hierarchy of “capsules”** that process visual information at different levels of abstraction. 
 - Each capsule comprises a **group of neurons** sensitive to **specific features** of an image, such as the presence of an edge or a particular shape. 
 - These features are then combined and passed up the hierarchy to **higher-level capsules**, which extract more abstract concepts such as the identity of an object or the presence of a face.
-- Capsule Networks overcome the problem of [[translational invariance.md|translational invariance]] caused by CNNs.
+- Capsule Networks overcome the problem of [Translational Invariance](Translational%20Invariance.md) caused by CNNs.
 - Capsule Networks are able to capture better spatial relationship. 
-- Capsule Networks uses better [[downsampling.md|downsampling]] methods which do not cause loss of information seen in CNNs.
+- Capsule Networks uses better [Downsampling](Downsampling.md) methods which do not cause loss of information seen in CNNs.
 - Capsule Network perform much better than CNNs but are more computationally epensive.
 
 ## Drawbacks of pooling layers
 - **pooling layers**, which **down-sample** the input image and can lead to the **loss of important information** about the spatial relationships between objects in the image. 
 - Capsule networks aim to overcome this limitation by using a different down-sampling mechanism that preserves more spatial information.
-- [[Capsule Layer.md|Capsule Layer]]
-- [[Primary Capsule.md|Primary Capsule]]
-- [[Higher Layer Capsule.md|Higher Layer Capsule]]
+- [Capsule Layer](Capsule%20Layer.md)
+- [Primary Capsule](Primary%20Capsule.md)
+- [Higher Layer Capsule](Higher%20Layer%20Capsule.md)
 
 ## Loss
-- [[Max Margin Loss.md|Max Margin Loss]] 
-- [[Reconstruction loss.md|Reconstruction loss]]
+- [Max Margin Loss](Max%20Margin%20Loss.md) 
+- [Reconstruction loss](Reconstruction%20loss.md)
 
 ## Pros
 -   Capsule networks are more robust to image distortions and translations than traditional CNNs

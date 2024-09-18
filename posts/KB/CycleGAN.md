@@ -19,13 +19,13 @@ date created: Sunday, December 11th 2022, 12:58:09 pm
 	- $$\mathcal{L}_{GAN}(G, F, D_{X}, D_{Y}) = \mathcal{L}_{GAN}(G, D_{Y}, X, Y) + \mathcal{L}_{GAN}(F, D_{X}, X, Y) + \lambda \mathcal{L}_{cyc}(G,F)$$
 - To Solve
 - $$G^{*},F^{*} =\underset{G,F}{argmin} \underset{D_{X}, D_{Y}}{max} \mathcal{L}_{GAN}(G, F, D_{X}, D_{Y})$$
-- two stride-2 convolutions, several residual blocks, and two fractionally [strided](strided.md) convolutions with stride $\frac{1}{2}$
+- two stride-2 convolutions, several residual blocks, and two fractionally [Strided](Strided.md) convolutions with stride $\frac{1}{2}$
 - [Instance Normalization](Instance Normalization.md)
 
 ## Architecture
 
 ## Generator
-- ![Pasted%20image%2020221211132006.png](Pasted%20image%2020221211132006.png)
+- ![](../images/Pasted%20image%2020221211132006.png)
 
 ### Encoder
 - The encoder extracts features from the input image by using Convolutions and compressed the representation of image but increase the number of channels

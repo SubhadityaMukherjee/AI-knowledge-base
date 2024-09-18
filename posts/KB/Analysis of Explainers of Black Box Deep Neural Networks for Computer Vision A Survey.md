@@ -14,35 +14,35 @@ date created: Wednesday, October 12th 2022, 4:11:22 pm
   ```
 
 ## Explaining Systems
-- [[GAM.md|GAM]]
-- [[Partial Dependence Plot.md|Partial Dependence Plot]]
-- [[Salience Map.md|Salience Map]]
-- [[Explanator.md|Explanator]]
-- [[Comprehensibility.md|Comprehensibility]]
-- [[Causality.md|Causality]]
-- [[Causability.md|Causability]]
-- [[Bayesian Rule List.md|Bayesian Rule List]]
-- [[TREPAN.md|TREPAN]]
+- [GAM](GAM.md)
+- [Partial Dependence Plot](Partial%20Dependence%20Plot.md)
+- [Salience Map](Salience%20Map.md)
+- [Explanator](Explanator.md)
+- [Comprehensibility](Comprehensibility.md)
+- [Causality](Causality.md)
+- [Causability](Causability.md)
+- [Bayesian Rule List](Bayesian%20Rule%20List.md)
+- [TREPAN](TREPAN.md)
 
 ## Selected DNN Explainers
-- [[Counterfactual Impact Evaluation.md|Counterfactual Impact Evaluation]]
-- [[DeconvNet.md|DeconvNet]]
-- [[Layerwise Relevance Propagation.md|Layerwise Relevance Propagation]]
-- [[Parent Approximations.md|Parent Approximations]]
-- [[RETAIn.md|RETAIn]]
-- [[SP-LIME.md|SP-LIME]]
-- [[Deep Visual Explanation.md|Deep Visual Explanation]]
-- [[Prediction Difference Analysis.md|Prediction Difference Analysis]]
-- [[Smooth-Grad.md|Smooth-Grad]]
-- [[Multimodal Explanation.md|Multimodal Explanation]]
-- [[Summit.md|Summit]]
-- [[DeepFool.md|DeepFool]]
-- [[DeconvNet.md|DeconvNet]]
-- [[LIME.md|LIME]]
+- [Counterfactual Impact Evaluation](Counterfactual%20Impact%20Evaluation.md)
+- [DeconvNet](DeconvNet.md)
+- [Layerwise Relevance Propagation](Layerwise%20Relevance%20Propagation.md)
+- [Parent Approximations](Parent%20Approximations.md)
+- [RETAIn](RETAIn.md)
+- [SP-LIME](SP-LIME.md)
+- [Deep Visual Explanation](Deep%20Visual%20Explanation.md)
+- [Prediction Difference Analysis](Prediction%20Difference%20Analysis.md)
+- [Smooth-Grad](Smooth-Grad.md)
+- [Multimodal Explanation](Multimodal%20Explanation.md)
+- [Summit](Summit.md)
+- [DeepFool](DeepFool.md)
+- [DeconvNet](DeconvNet.md)
+- [LIME](LIME.md)
 
 ## Pictures
-- ![[Pasted image 20230306125016.png|images/Pasted%20image%2020230306125016.png]]
-- ![[Pasted image 20230306125025.png|images/Pasted%20image%2020230306125025.png]]
+- ![[Pasted image 20230306125016.png]]
+- ![[Pasted image 20230306125025.png]]
 
 
 

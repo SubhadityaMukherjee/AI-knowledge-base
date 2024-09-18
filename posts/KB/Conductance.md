@@ -100,9 +100,9 @@ $$
 - Sentences with high conductance for filters that have high conductance for the phrase "not bad". These filters are largerly focussed on negation.
 
 ## Images
-- ![Pasted%20image%2020230110140703.png](Pasted%20image%2020230110140703.png)
-- ![Pasted%20image%2020230110140713.png](Pasted%20image%2020230110140713.png)
-- ![Pasted%20image%2020230110140725.png](Pasted%20image%2020230110140725.png)
+- ![](../images/Pasted%20image%2020230110140703.png)
+- ![](../images/Pasted%20image%2020230110140713.png)
+- ![](../images/Pasted%20image%2020230110140725.png)
 
 
 

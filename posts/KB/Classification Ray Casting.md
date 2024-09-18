@@ -7,9 +7,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Classification Ray Casting
-- [[Transfer Function.md|Transfer Function]]
-- [[Pre Classification.md|Pre Classification]]
-- [[Post Classification.md|Post Classification]]
+- [Transfer Function](Transfer%20Function.md)
+- [Pre Classification](Pre%20Classification.md)
+- [Post Classification](Post%20Classification.md)
 
 
 

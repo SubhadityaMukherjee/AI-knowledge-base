@@ -11,9 +11,9 @@ date created: Tuesday 27th August 2024, Tue
 ```toc
 ```
 ## Example for simple case
-- ![Pasted image 20240827205806](Pasted%20image%2020240827205806.png)
-- A NN consists of linear transformations alternating with [loss](loss.md) functions.
-- ![Pasted image 20240827204853](Pasted%20image%2020240827204853.png)
+- ![](../images/Pasted%20image%2020240827205806.png)
+- A NN consists of linear transformations alternating with [loss](../Tag%20Pages/loss.md) functions.
+- ![](../images/Pasted%20image%2020240827204853.png)
 - or , $$\begin{align*}
 \mathbf{h = a[\theta_{0}+ \theta_{x}]} \\
 \mathbf{h' = a[\psi_{0} + \Psi h]}\\
@@ -26,4 +26,4 @@ date created: Tuesday 27th August 2024, Tue
 - Vector of biases that contribute to hidden layer $k+1$ is $\beta_{k}$ 
 - Weights that are applied to $k^{th}$ layer and contribute to hidden layer $(k+1)^{th}$ is $\Omega_{k}$ 
 - General network $y = f[x, \phi]$  with $K$ layers is now
-- ![Pasted image 20240827210048](Pasted%20image%2020240827210048.png)
+- ![](../images/Pasted%20image%2020240827210048.png)

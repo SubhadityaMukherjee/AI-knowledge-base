@@ -12,7 +12,7 @@ date created: Friday, November 18th 2022, 12:30:09 pm
 - Class Activation Mapping
 - Similar to [[Network In Network.md|Network In Network]]
 - zeroes out the negative grads during backward pass to provide more visually appealing results
-- Uses [[Global Average Pooling.md|Global Average Pooling]]
+- Uses [Global Average Pooling](Global%20Average%20Pooling.md)
 - ![[1!MFqz4qB107yEZUAPrigSEQ.png]]
 - $$\alpha_{k}^{c}= \overbrace{\frac{1}{Z}\Sigma_{i}\Sigma_{j}}^\text{global avg pool} \underbrace{\frac{\partial y^{c}}{\partial A^{k}_{ij}}}_\text{grads via backprop}$$
 - k is the index of the activation map in the last convolutional layer, and c is the class of interest. Alpha computed above shows the importance of feature map _k_ for the target class _c_.

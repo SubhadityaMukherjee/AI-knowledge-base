@@ -9313,7 +9313,7 @@ ass, you know what to do."
 
 - "What is overfitting? When your model is somehow very sensitive to the small
 random unimportant stuff in your dataset. Think of it like the dataset and the
-model having [degrees of freedom](Degrees%20of%20Freedom.md). If both are similar, then the model will not
+model having [Degrees of Freedom](Degrees%20of%20Freedom.md). If both are similar, then the model will not
 be able to ignore even minor changes in the data. But if the model is much
 larger than the data itself then it would be able to ignore the tiny
 randomness"

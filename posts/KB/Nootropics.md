@@ -5,7 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:21 pm
 ---
 
 # Nootropics
-- Drugs or supplements that are marketed as ways to improve cognitive functions like memory, [attention](Attention.md), or creativity.
+- Drugs or supplements that are marketed as ways to improve cognitive functions like memory, [Attention](Attention.md), or creativity.
 
 
 

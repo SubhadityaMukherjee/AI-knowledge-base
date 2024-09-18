@@ -28,16 +28,16 @@ date created: Monday, November 28th 2022, 11:24:37 am
 ## Image Saliency and Introduced Evidence
 - no single obvious metric that could measure the quality of the produced map
 - In simple terms, the saliency map is defined as a summarised explanation of where the classifier "looks" to make its prediction.
-- ![Pasted%20image%2020221128114522.png](Pasted%20image%2020221128114522.png)
+- ![](../images/Pasted%20image%2020221128114522.png)
 - [SSR](SSR.md)
 - [SDR](SDR.md)
 - In order to be as informative as possible we would like to find a region that performs well as both [SSR](SSR.md) and SDR.
 - Both SDR and [SSR](SSR.md) remove some evidence from the image
-- there are few ways of removing evidence, for example by blurring the evidence, setting it to a constant colour, adding noise, or by completely [cropping](cropping.md) out the unwanted parts
+- there are few ways of removing evidence, for example by blurring the evidence, setting it to a constant colour, adding noise, or by completely [Cropping](Cropping.md) out the unwanted parts
 - Unfortunately, each one of these methods introduces new evidence that can be used by the classifier as a side effec
 
 ## Fighting the Introduced Evidence
-- ![Pasted%20image%2020221128114540.png](Pasted%20image%2020221128114540.png)
+- ![](../images/Pasted%20image%2020221128114540.png)
 - by manipulating the image we always introduce some extra evidence applying a mask M to the image X to obtain the edited image E
 - the simplest case we can simply multiply X and M element-wise:
 - $$E = X \odot M$$
@@ -80,7 +80,7 @@ date created: Monday, November 28th 2022, 11:24:37 am
 - Setting $\lambda_{4}$ to a value smaller than 1 (e.g. 0.2) helps reduce this probability to very small values.
 
 ## Masking Model
-- ![Pasted%20image%2020221128114559.png](Pasted%20image%2020221128114559.png)
+- ![](../images/Pasted%20image%2020221128114559.png)
 - The mask can be found iteratively for a given image-class pair by directly optimising the objective function
 - Unfortunately, iteratively finding the mask is not only very slow, as normally more than 100 iterations are required, but it also causes the mask to greatly overfit to the image and a large TV penalty is needed to prevent adversarial artifacts from forming
 - Therefore, the produced masks are blurry, imprecise, and overfit to the specific
@@ -124,9 +124,9 @@ date created: Monday, November 28th 2022, 11:24:37 am
 - The masks produced by models trained on GoogLeNet and ResNet are sharp and precise and would produce accurate object segmentations. The saliency model trained on AlexNet produces much stronger and slightly larger saliency regions, possibly because AlexNet is a less powerful model which needs more evidence for successful classification.
 
 ## Results
-- ![Pasted%20image%2020221128114643.png](Pasted%20image%2020221128114643.png)
-- ![Pasted%20image%2020221128114652.png](Pasted%20image%2020221128114652.png)
-- ![Pasted%20image%2020221128114708.png](Pasted%20image%2020221128114708.png)
+- ![](../images/Pasted%20image%2020221128114643.png)
+- ![](../images/Pasted%20image%2020221128114652.png)
+- ![](../images/Pasted%20image%2020221128114708.png)
 
 ## Future Research
 - modifying the approach to produce high quality, weakly supervised, image segmentations
@@ -134,9 +134,9 @@ date created: Monday, November 28th 2022, 11:24:37 am
 - Lastly, our model might have biases of its own — a fact which does not seem to influence the model performance in finding biases in other black boxes according to the various metrics we used
 
 ## Images
-- ![Pasted%20image%2020221128114723.png](Pasted%20image%2020221128114723.png)
-- ![Pasted%20image%2020221128114736.png](Pasted%20image%2020221128114736.png)
-- ![Pasted%20image%2020221128114749.png](Pasted%20image%2020221128114749.png)
+- ![](../images/Pasted%20image%2020221128114723.png)
+- ![](../images/Pasted%20image%2020221128114736.png)
+- ![](../images/Pasted%20image%2020221128114749.png)
 
 
 

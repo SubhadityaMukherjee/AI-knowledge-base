@@ -16,13 +16,13 @@ date created: Tuesday, October 4th 2022, 12:50:52 pm
 - Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel
 - Many insects have a larval form that is optimized for extracting energy and nutrients from the environment and a completely different adult form that is optimized for the very different requirements of traveling and reproduction
 - training must extract structure from very large, highly redundant datasets but it does not need to operate in real time and it can use a huge amount of computation. Deployment to a large number of users, however, has much more stringent requirements on latency and computational resources.
-- The cumbersome model could be an ensemble of separately trained models or a single very large model trained with a very strong regularizer such as [dropout](dropout.md)
+- The cumbersome model could be an ensemble of separately trained models or a single very large model trained with a very strong regularizer such as [Dropout](Dropout.md)
 - we tend to identify the knowledge in a trained model with the learned parameter values and this makes it hard to see how we can change the form of the model but keep the same knowledge.
 - learned
 - where T is a temperature that is normally set to 1
 
 ## Observations
-- This net achieved 67 test errors whereas a smaller net with two hidden layers of 800 rectified linear hidden units and no [regularization](regularization.md) achieved 146 errors
+- This net achieved 67 test errors whereas a smaller net with two hidden layers of 800 rectified linear hidden units and no [Regularization](Regularization.md) achieved 146 errors
 - soft targets can transfer a great deal of knowledge to the distilled model, including the knowledge about how to generalize that is learned from translated training data even though the transfer set does not contain any translations.
 - When the distilled net had 300 or more units in each of its two hidden layers, all temperatures above 8 gave fairly similar results
 - But when this was radically reduced to 30 units per layer, temperatures in the range 2.5 to 4 worked significantly better than higher or lower temperatures.
@@ -40,14 +40,14 @@ date created: Tuesday, October 4th 2022, 12:50:52 pm
 - These weights are then slightly modified by training the specialist with half its examples coming from its special subset and half sampled at random from the remainder of the training set. After training, we can correct for the biased training set by incrementing the logit of the dustbin class by the log of the proportion by which the specialist class is oversampled.
 - In order to derive groupings of object categories for the specialists, we decided to focus on categories that our full network often confuses.
 - Even though we could have computed the confusion matrix and used it as a way to find such clusters, we opted for a simpler approach that does not require the true labels to construct the clusters. In particular, we apply a [clustering] algorithm to the [covariance](clustering] algorithm to the [covariance.md) matrix of the predictions of our generalist model, so that a set of classes Sm that are often predicted together will be used as targets for one of our specialist models, m.
-- on-line version of the K-means algorithm to the columns of the [covariance](covariance.md) matrix, and obtained reasonable clusters
+- on-line version of the K-means algorithm to the columns of the [Covariance](Covariance.md) matrix, and obtained reasonable clusters
 - One of our main claims about using soft targets instead of hard targets is that a lot of helpful information can be carried in soft targets that could not possibly be encoded with a single hard target.
 - It is even more remarkable to note that we did not have to do early stopping: the system with soft targets simply 'converged' to 57%. This shows that soft targets are a very effective way of communicating the regularities discovered by a model trained on all of the data to another model.
 - The specialists that we used in our experiments on the JFT dataset collapsed all of their non-specialist classes into a single dustbin class. If we allow specialists to have a full softmax over all classes, there may be a much better way to prevent them overfitting than using early stopping. A specialist is trained on data that is highly enriched in its special classes.
 - This means that the effective size of its training set is much smaller and it has a strong tendency to overfit on its special classes.
 - The use of specialists that are trained on subsets of the data has some resemblance to mixtures of experts which use a gating network to compute the probability of assigning each example to each expert
 - At the same time as the experts are learning to deal with the examples assigned to them, the gating network is learning to choose which experts to assign each example to based on the relative discriminative performance of the experts for that example.
-- Using the discriminative performance of the experts to determine the learned assignments is much better than simply [clustering](clustering.md) the input vectors and assigning an expert to each cluster, but it makes the training hard to parallelize: First, the weighted training set for each expert keeps changing in a way that depends on all the other experts and second, the gating network needs to compare the performance of different experts on the same example to know how to revise its assignment probabilities.
+- Using the discriminative performance of the experts to determine the learned assignments is much better than simply [Clustering](Clustering.md) the input vectors and assigning an expert to each cluster, but it makes the training hard to parallelize: First, the weighted training set for each expert keeps changing in a way that depends on all the other experts and second, the gating network needs to compare the performance of different experts on the same example to know how to revise its assignment probabilities.
 
 ## Conclusions
 - These difficulties have meant that mixtures of experts are rarely used in the regime where they might be most beneficial: tasks with huge datasets that contain distinctly different subsets.

@@ -11,8 +11,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Gaussian random noise
 	- [[Augmentation.md|Augmentation]]
 - While the algo runs
-	- [[Dropout.md|Dropout]]
-- [[Stochastic ensemble learning.md|Stochastic ensemble learning]]
+	- [Dropout](Dropout.md)
+- [Stochastic ensemble learning](Stochastic%20ensemble%20learning.md)
 
 
 

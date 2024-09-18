@@ -14,21 +14,21 @@ date created: Tuesday 3rd September 2024, Tue
 ```toc
 ```
 ## Notes from Notebook
-- ![[Pasted image 20240903130546.png]]
-- ![[Pasted image 20240903130602.png]]
-- ![[Pasted image 20240903130635.png]]
-- ![[Pasted image 20240903130642.png]]
-- ![[Pasted image 20240903130647.png]]
-- ![[Pasted image 20240903130654.png]]
-- ![[Pasted image 20240903130700.png]]
-- ![[Pasted image 20240903130705.png]]
-- ![[Pasted image 20240903130711.png]]
-- ![[Pasted image 20240903130716.png]]
-- ![[Pasted image 20240903130721.png]]
-- ![[Pasted image 20240903130725.png]]
-- ![[Pasted image 20240903130729.png]]
+- ![](../images/Pasted%20image%2020240903130546.png)
+- ![](../images/Pasted%20image%2020240903130602.png)
+- ![](../images/Pasted%20image%2020240903130635.png)
+- ![](../images/Pasted%20image%2020240903130642.png)
+- ![](../images/Pasted%20image%2020240903130647.png)
+- ![](../images/Pasted%20image%2020240903130654.png)
+- ![](../images/Pasted%20image%2020240903130700.png)
+- ![](../images/Pasted%20image%2020240903130705.png)
+- ![](../images/Pasted%20image%2020240903130711.png)
+- ![](../images/Pasted%20image%2020240903130716.png)
+- ![](../images/Pasted%20image%2020240903130721.png)
+- ![](../images/Pasted%20image%2020240903130725.png)
+- ![](../images/Pasted%20image%2020240903130729.png)
 
-## OCR Notes - processed with [[ChatGPT]] 
+## OCR Notes - processed with [ChatGPT](ChatGPT.md) 
 - Wendy Ju
     - Robots should have good manners.
     - Engagement.

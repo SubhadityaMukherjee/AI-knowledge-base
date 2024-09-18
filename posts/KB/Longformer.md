@@ -13,9 +13,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Sliding Window Attention](Sliding%20Window%20Attention.md)
 - [Dilated Sliding Window Attention](Dilated%20Sliding%20Window%20Attention.md)
 - [Global and Sliding Window Attention](Global%20and%20Sliding%20Window%20Attention.md)
-- [attention](Attention.md) mechanism that scales linearly with sequence length
-- drop-in replacement for the standard self-[attention](Attention.md)
-- local windowed [attention](Attention.md) with a task motivated global [attention](Attention.md)
+- [Attention](Attention.md) mechanism that scales linearly with sequence length
+- drop-in replacement for the standard self-[Attention](Attention.md)
+- local windowed [Attention](Attention.md) with a task motivated global [Attention](Attention.md)
 - text8
 - enwik8
 - consistently outperforms [RoBERTa](RoBERTa.md) on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA

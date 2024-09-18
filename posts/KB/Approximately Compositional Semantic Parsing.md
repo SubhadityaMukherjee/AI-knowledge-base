@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Approximately Compositional Semantic Parsing
-- which [[Semantic Analysis.md|Semantic Analysis]] processing is applied to the result of performing a syntactic parse
+- which [Semantic Analysis](Semantic%20Analysis.md) processing is applied to the result of performing a syntactic parse
 
 
 

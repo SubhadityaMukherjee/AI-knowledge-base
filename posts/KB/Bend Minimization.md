@@ -7,9 +7,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Bend Minimization
-- Curved lines easier to follow than edged lines [[Gestalt Laws.md|Gestalt Laws]]
+- Curved lines easier to follow than edged lines [Gestalt Laws](Gestalt%20Laws.md)
 - domain specific constraints and traditions have to be acknowledged
-- ![[Pasted image 20220418123038.png|im]]
+- ![[Pasted image 20220418123038.png]]
 
 
 

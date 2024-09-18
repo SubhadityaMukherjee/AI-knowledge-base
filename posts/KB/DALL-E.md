@@ -26,7 +26,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Photography, to create an image specifically tailored to one's requirements.
 	- Graphic design, with e.g. the creation of a variety of icons.
 - [Zero-Shot Text-to-Image Generation](https://arxiv.org/abs/2102.12092)
-- DALL-E which offers a simple approach for text-to-image generation based on an [autoregressive](autoregressive.md) transformer which models the text and image tokens as a single stream of data
+- DALL-E which offers a simple approach for text-to-image generation based on an [Autoregressive](Autoregressive.md) transformer which models the text and image tokens as a single stream of data
 - simple decoder-only transformer that receives both the text and the image as a single stream of 1280 tokens—256 for the text and 1024 for the image—and models all of them autoregressively
 - They find that sufficient data and scale can lead to improved generalization, both in terms of zero-shot performance relative to previous domain-specific approaches
 - and in terms of the range of capabilities that emerge from a single generative model.

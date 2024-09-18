@@ -29,4 +29,4 @@ date created: Monday 10th June 2024, Mon
 - Insufficient explainability and auditability of RAG outputs, which is essential for building trust and accountability in high-stakes enterprise use cases \[Eibich et al. 2024, Gao et al. 2024, Kamath & Liu 2021\].
 - Challenges in integrating RAG capabilities into existing enterprise systems and workflows, which often have complex security, governance, and data management requirements.
 
-## [[Dense Vector Indexes.md|Dense Vector Indexes]]
+## [Dense Vector Indexes](Dense%20Vector%20Indexes.md)

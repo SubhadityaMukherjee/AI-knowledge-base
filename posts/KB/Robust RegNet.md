@@ -18,7 +18,7 @@ tags: ['temp']
 - [Unsupervised Learning](Unsupervised%20Learning.md)
 - Discriminative [Self Supervised](Self%20Supervised.md) learning allows training models on any random group of internet images, and possibly recover salient information that helps differentiate between the images
 - [ImageNet](ImageNet.md)
-- object-centric [features](Features.md) that perform on par with supervised [features](Features.md) on most object-centric downstream tasks
+- object-centric [Features](Features.md) that perform on par with supervised [Features](Features.md) on most object-centric downstream tasks
 - learn any salient and more representative information present in diverse unbounded set of images from across the globe
 - without any data pre-processing or prior assumptions about what we want the model to learn
 - [RegNet](RegNet.md)

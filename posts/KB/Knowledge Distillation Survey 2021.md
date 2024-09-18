@@ -16,9 +16,9 @@ date created: Tuesday, October 4th 2022, 11:40:36 am
 - The main idea is that the student model mimics the teacher model in order to obtain a competitive or even a superior performance. The key problem is how to transfer the knowledge from a large teacher model to a small student model. Basically, a knowledge distillation system is composed of three key components: knowledge, dis- tillation algorithm, and teacher-student architecture.
 - Successful distillation relies on data geometry, optimization bias of distillation objective and strong monotonicity of the student classifier
 - quantified the extraction of visual concepts from the intermediate layers of a deep neural network, to explain knowledge distillation (Cheng et al., 2020). Ji & Zhu theoretically explained knowledge distillation on a wide neural network from the respective of risk bound, data efficiency and imperfect teacher (Ji and Zhu., 2020).
-- Knowledge distillation has also been explored for [label smoothing](Label%20Smoothing.md), for assessing the accuracy of the teacher and for obtaining a prior for the optimal output layer geometry (Tang et al., 2020).
+- Knowledge distillation has also been explored for [Label Smoothing](Label%20Smoothing.md), for assessing the accuracy of the teacher and for obtaining a prior for the optimal output layer geometry (Tang et al., 2020).
 - Furthermore, the knowledge transfer from one model to another in knowledge distillation can be extended to other tasks, such as adversar- ial attacks (Papernot et al., 2016), data augmenta- tion (Lee et al., 2019a; Gordon and Duh, 2019), data privacy and security (Wang et al., 2019a).
-- A vanilla knowledge distillation uses the [logits](Logits.md) of a large deep model as the teacher knowledge (Hinton et al., 2015; Kim et al., 2018; Ba and Caruana, 2014; Mirzadeh et al., 2020)
+- A vanilla knowledge distillation uses the [Logits](Logits.md) of a large deep model as the teacher knowledge (Hinton et al., 2015; Kim et al., 2018; Ba and Caruana, 2014; Mirzadeh et al., 2020)
 - Further- more, the parameters of the teacher model (or the connections between layers) also contain another knowl- edge (Liu et al., 2019c)
 - [Response Based Knowledge](Response%20Based%20Knowledge.md)
 - [Feature Based Knowledge](Feature%20Based%20Knowledge.md)

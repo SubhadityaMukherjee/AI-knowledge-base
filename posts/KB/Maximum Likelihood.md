@@ -14,7 +14,7 @@ date created: Tuesday 27th August 2024, Tue
 - Consider a model $f[x, \phi]$ that computes an output from input $x$.
 - Consider the model computes a conditional probability distribution $Pr(Y|x)$ , Y is output
 - This encourages each output $y_i$ to have high probability under $Pr(y_{i}|x_{i})$ computed from input $x_{i}$
-- ![Pasted image 20240827214256](Pasted%20image%2020240827214256.png)
+- ![](../images/Pasted%20image%2020240827214256.png)
 ## Computing a distribution over inputs
 - Choose a parametric distribution $Pr(y|\theta)$ defined on output domain y. 
 - use the network to compute one or more of the parameters $\theta$ of this distribution
@@ -29,4 +29,4 @@ date created: Tuesday 27th August 2024, Tue
 
 ## Inference
 - When we perform inference, we often want a point estimate rather than a distribution, so we return the maximum of the distribution
-- ![Pasted image 20240827215213](Pasted%20image%2020240827215213.png)
+- ![](../images/Pasted%20image%2020240827215213.png)

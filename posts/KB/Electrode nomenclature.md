@@ -12,7 +12,7 @@ title: Electrode nomenclature
 ---
 
 # Electrode Nomenclature
-- ![im](Pasted%20image%2020220502145048.png)
+- ![](../images/Pasted%20image%2020220502145048.png)
 - Bathing cap
 - Top of head
 - Cz : middle of head

@@ -15,7 +15,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ## In $\mathbb{R}^{n}$
 - it is a [PDF](PDF.md) which describes prob concentrated in the origin
 - Multi [Point Distribution](Point%20Distribution.md) -> combine dirac deltas
-- ![im](Pasted%20image%2020220319135742.png)
+- ![](../images/Pasted%20image%2020220319135742.png)
 
 
 

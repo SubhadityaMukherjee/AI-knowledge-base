@@ -40,7 +40,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - The accuracy of the response and the mismatch between expected and observed response time are used to update the value of the rate-of-forgetting parameter.
 - Using both accuracy and response time to update the model allows for adjustment of the parameter estimate after any response, not just after an incorrect response.
 - A correct but slower-than-expected response signals that the [memory trace](memory trace.md) has decayed further than assumed, meaning that the item’s true rate of forgetting is higher than the current estimate.
-- That is, when a learner arrives at the right answer but takes longer than anticipated, they likely struggled to [recall](recall.md) the information
+- That is, when a learner arrives at the right answer but takes longer than anticipated, they likely struggled to [Recall](Recall.md) the information
 - Conversely, an incorrect or missing response suggests that the activation of the
 - item’s [memory trace] actually dropped below the retrieval threshold, which means that the true rate of forgetting should be higher because this item’s activation was expected to be above the threshold (which was fixed at [ACT-R](memory trace] actually dropped below the retrieval threshold, which means that the true rate of forgetting should be higher because this item’s activation was expected to be above the threshold (which was fixed at [ACT-R.md)’s default value).
 - An unexpectedly fast correct response, on the other hand, indicates a stronger- than-expected [memory trace](memory trace.md) and implies that the estimated rate of forgetting should be adjusted downward.
@@ -77,9 +77,9 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
 ### Predicting Performance on the Exam
 - We used lasso regression (Tibshirani, 1996) to predict grades using nine predictors: a student’s accuracy during study, their cohort, their cumulative usage time, the number of days on which they used the system, the number of items they studied, the number of sessions they recorded, the number of trials they completed, their estimated rate of forgetting, and their median response time
-- The advantage of lasso regression is that the [shrinkage](Shrinkage.md) term handles multicollinearity between the predictors by shrinking their coefficients
-- The [shrinkage](Shrinkage.md) is achieved by imposing a cost function on the magnitude of the
-- coefficients themselves: the best fit is achieved by the model that minimizes the OLS with the smallest coefficients. In fact, coefficients are shrunk entirely if they do not explain sufficient variance to justify inclusion in the model. In lasso regression, predictors must be normalized to ensure that the [shrinkage](Shrinkage.md) term affects all predictors equally. A convenient consequence of normalized predictors is that their post-[shrinkage](Shrinkage.md)
+- The advantage of lasso regression is that the [Shrinkage](Shrinkage.md) term handles multicollinearity between the predictors by shrinking their coefficients
+- The [Shrinkage](Shrinkage.md) is achieved by imposing a cost function on the magnitude of the
+- coefficients themselves: the best fit is achieved by the model that minimizes the OLS with the smallest coefficients. In fact, coefficients are shrunk entirely if they do not explain sufficient variance to justify inclusion in the model. In lasso regression, predictors must be normalized to ensure that the [Shrinkage](Shrinkage.md) term affects all predictors equally. A convenient consequence of normalized predictors is that their post-[Shrinkage](Shrinkage.md)
 - coefficients directly indicate their importance: since all predictors are on the same scale, the most important predictor retains the largest (absolute) coefficient.
 - 250-fold cross-validation procedure
 
@@ -99,10 +99,10 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - Alternatively, the system could suggest the lesson that would yield the largest learning gain at the moment a student decides to start a session
 
 ## Pictures
-- ![Pasted%20image%2020221014162825](Pasted%20image%2020221014162825.png)
-- ![Pasted%20image%2020221014162918](Pasted%20image%2020221014162918.png)
-- ![Pasted%20image%2020221014162927](Pasted%20image%2020221014162927.png)
-- ![Pasted%20image%2020221014162855](Pasted%20image%2020221014162855.png)
+- ![](../images/Pasted%20image%2020221014162825.png)
+- ![](../images/Pasted%20image%2020221014162918.png)
+- ![](../images/Pasted%20image%2020221014162927.png)
+- ![](../images/Pasted%20image%2020221014162855.png)
 
 
 

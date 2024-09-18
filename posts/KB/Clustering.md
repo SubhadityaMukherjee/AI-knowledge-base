@@ -7,8 +7,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Clustering
-- [[KMeans.md|KMeans]]
-- [[SOMs.md|SOMs]]
+- [KMeans](KMeans.md)
+- [SOMs](SOMs.md)
 
 
 

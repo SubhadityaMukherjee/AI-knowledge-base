@@ -71,7 +71,7 @@ date created:
 	- combination of subjective and objective states are needed in order to make life meaningful
 	- under a simple subjectivist theory, there is reason to think that technological unemployment could enhance the overall level of meaning in our lives, but only if we make use of the right kinds of technological advances
 	- reason to think that technological unemployment could undermine the overall level of meaning in our lives, but this impact could lessened with the right kind of technological developments
-	- - The Subjective Satisfaction of Non-work 
+	- The Subjective Satisfaction of Non-work 
 	- The idea is that compulsory work takes us away from the things that we are really passionate about and that would confer upon us the most subjective satisfaction
 	- I cannot do these things because the productivist ethos of modern academia demands that I produce more peer-reviewed publications to pad out my CV.
 	- This argument assumes that if we control our own time we will spend it in a way that induces the right subjective states.

@@ -56,7 +56,7 @@ date created: Tuesday 6th June 2023, Tue
 - [SVHN](SVHN.md)
 
 - [STL-10](STL-10.md)
-- ![img_p11_1](img_p11_1.png) 
+- ![](../images/img_p11_1.png) 
 
 - [YFCC100M](YFCC100M.md)
 

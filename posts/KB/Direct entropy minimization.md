@@ -14,7 +14,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - supervision signal that could leverage visual information from the target samples, in spite of the lack of annotations
 - constrain
 - to produce high-confident predictions on target samples similarly to source samples
-- [entropy](Entropy.md) loss $\mathcal{L}_{ent}$ to maximize directly the prediction confidence in the target domain.
+- [Entropy](Entropy.md) loss $\mathcal{L}_{ent}$ to maximize directly the prediction confidence in the target domain.
 - [Shannon Entropy](Shannon%20Entropy)
 
 

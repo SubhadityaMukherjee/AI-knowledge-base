@@ -8,7 +8,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Central Nervous System
-- [[brain.md|brain]] + [[Spinal Cord]]
+- [brain](brain.md) + [[Spinal Cord]]
 
 
 

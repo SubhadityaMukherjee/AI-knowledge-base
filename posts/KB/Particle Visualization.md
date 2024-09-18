@@ -6,7 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:20 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Particle [Visualization](visualization.md)
+# Particle [visualization](visualization.md)
 - points with only a (3D) coordinate
 - potentially enriched with attributes like radius, velocity, etc.
 - scattered data [Data Structures](Data%20Structures.md)

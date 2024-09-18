@@ -13,8 +13,8 @@ tags: ['temp']
 
 ---
 
-# [[BYOL.md|BYOL]] Loss
-- Similarity [[loss.md|loss]] between $q_\theta (z_\theta)$ and $sg(z^{'}_{\xi})$
+# [BYOL](BYOL.md) Loss
+- Similarity [loss](../Tag%20Pages/loss.md) between $q_\theta (z_\theta)$ and $sg(z^{'}_{\xi})$
 - $\theta$ is trained weights
 - $\xi$ is exponentially moving average of $\theta$ and sg is stop gradient
 - $f_\theta$ is discarded, $y_\theta$ is used as image representation

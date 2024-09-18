@@ -15,7 +15,7 @@ tags: ['temp']
 
 # Dopamine
 - Dopamine is chemically expressed as C2H11NO2.
-- It is a neuro-chemical created in various parts of the brain and is critical for all kinds of brain functions including thinking, carrying, sleeping, mood, [attention](Attention.md), motivation, seeking and rewarding.
+- It is a neuro-chemical created in various parts of the brain and is critical for all kinds of brain functions including thinking, carrying, sleeping, mood, [Attention](Attention.md), motivation, seeking and rewarding.
 - The dopamine is responsible for the feeling of pleasure.
 - When a person eats, drinks or performs a pleasurable action, dopamine is stimulated in his brain to repeat the action.
 - Unexpected rewards increase the activity of dopamine neurons, acting as positive feedback signals for the brain regions associated with the preceding behavior.

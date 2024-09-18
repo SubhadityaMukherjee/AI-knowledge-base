@@ -26,10 +26,10 @@ date created: Friday, October 14th 2022, 5:07:15 pm
 - However, a continuous accrual of information causes the distributed pattern to dynamically ''sharpen'' into a confident (selected) interpretation, forcing other, partially activated, competing alternative representations, decisions, or actions to gradually die out.
 - The latter attitude will eventually activate other subsystems, such as language and memory, thus making the attitude seem explicit
 - What makes the first attitude implicit is not necessarily that it was generated in a different subsystem, but simply that it did not hold sway long enough to activate those language and memory subsystems.
-- Mental processing generically involves [recurrent](recurrent.md) processing loops (or cyclic feedback) between higher-order integrative regions and lower-level informational sources (Lamme & Roelfsema, 2000; O'Reilly, 1998; Spivey, 2007)
+- Mental processing generically involves [Recurrent](Recurrent.md) processing loops (or cyclic feedback) between higher-order integrative regions and lower-level informational sources (Lamme & Roelfsema, 2000; O'Reilly, 1998; Spivey, 2007)
 - These higher-order integrative regions enforce representational competition, in which increasing the activation of one particular interpretation inhibits alternatives.
 - The unfolding cognitive dynamics may be revealed in continuous motor output
-- Because mental processing is [recurrent](recurrent.md), motor representations begin specifying movement parameters probabilistically, rather than waiting for a perfectly completed cognitive command
+- Because mental processing is [Recurrent](Recurrent.md), motor representations begin specifying movement parameters probabilistically, rather than waiting for a perfectly completed cognitive command
 - If the phrase ''Black people'' evokes elevated dynamic competition between simultaneously active ''like'' and ''dislike'' representations, movement trajectories for ''Black people'' should exhibit evidence of nonlinear dynamics in their velocity profiles, as well as increased spatial disorder in the curviness of the trajectories.
 
 ## EXPERIMENT 1
@@ -91,11 +91,11 @@ date created: Friday, October 14th 2022, 5:07:15 pm
 - the mind may host a continuously evolving blend of (implicit) evaluative decisions from which the eventual (explicit) behavioral choice emerges.
 
 ## Pictures
-- ![Pasted%20image%2020221014170754](Pasted%20image%2020221014170754.png)
-- ![Pasted%20image%2020221014170803](Pasted%20image%2020221014170803.png)
-- ![Pasted%20image%2020221014170822](Pasted%20image%2020221014170822.png)
-- ![Pasted%20image%2020221014170834](Pasted%20image%2020221014170834.png)
-- ![Pasted%20image%2020221014170848](Pasted%20image%2020221014170848.png)
+- ![](../images/Pasted%20image%2020221014170754.png)
+- ![](../images/Pasted%20image%2020221014170803.png)
+- ![](../images/Pasted%20image%2020221014170822.png)
+- ![](../images/Pasted%20image%2020221014170834.png)
+- ![](../images/Pasted%20image%2020221014170848.png)
 
 
 

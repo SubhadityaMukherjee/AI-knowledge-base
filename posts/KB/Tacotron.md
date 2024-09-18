@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Tacotron
 - CBHG
-	- [Conv](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[Conv](GRU)](Conv](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[Conv](GRU).md).md)
+	- [Conv](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[GRU](GRU.md)](Conv](Gated Recurrent Unit (GRU|Gated Recurrent Unit (GRU|[GRU](GRU.md).md).md)
 
 ```python
 class CBHG_Old(nn.Module):

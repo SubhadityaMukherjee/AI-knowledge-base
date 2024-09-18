@@ -8,7 +8,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Parallel Coordinate Plots
-- ![Screenshot 2022-09-14 at 12.02.54 PM](Screenshot%202022-09-14%20at%2012.02.54%20PM.png)
+- ![](../images/Screenshot%202022-09-14%20at%2012.02.54%20PM.png)
 - Enhancement
 	- Permute axes (horizontally) to and swap their direction (vertically) minimize crossings
 	- Add histograms on axes to show lines per unit data value

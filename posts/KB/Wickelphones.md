@@ -8,9 +8,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Wickelphones
-- Pro: capture just enough info about the context that determines irregular past-tense [verb](Verb.md) forms ense verbs, e.g.sing -sang, ring -rang
+- Pro: capture just enough info about the context that determines irregular past-tense [Verb](Verb.md) forms ense verbs, e.g.sing -sang, ring -rang
 - 1 wickelphone = 1 input unit and 1 output unit, connection matrix of 42875 * 42875!!
-- Instead, reduce wickelphones to wickelfeatures (1210), where each wickelphone becomes 16 [features](Features.md)
+- Instead, reduce wickelphones to wickelfeatures (1210), where each wickelphone becomes 16 [Features](Features.md)
 - Verbs with same stem and [past tense](past%20tense.md)
 - English has many verbs where the past and stem are the same:
 	- put, fit, spread
@@ -25,7 +25,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Computational models (Rule-based, Connectionist and MBL) all use adult vocabulary as input to simulate children's learning
 - Children don't show vocabulary burst between State 2 and 3 (needed to produce U-shaped learning with Connectionist Model)
 - Thousands of exposures
-- No distinction between tokens and types, each [verb](Verb.md) simply included once
+- No distinction between tokens and types, each [Verb](Verb.md) simply included once
 
 
 

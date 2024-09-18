@@ -33,7 +33,7 @@ date created: Thursday 29th August 2024, Thu
 	- How long do we have to do this
 	- People dont like to share data
 	- User friendly tools
-	- Data standards : quality check - [[croissant]]
+	- Data standards : quality check - [croissant](croissant.md)
 	- Reference implementations
 	- Metrics of success
 		- Citations
@@ -44,7 +44,7 @@ date created: Thursday 29th August 2024, Thu
 ## TDCC - NES
 - Thematic Digital Competence Centre (TDCC) for the Natural & Engineering Sciences (NES)
 - Joanne Yeomans - Network Manager
-- [[Fairness]]
+- [Fairness](Fairness.md)
 
 ## SURF
 - Monica Rotulo - ML Advisor

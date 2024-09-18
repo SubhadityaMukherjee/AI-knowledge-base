@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Misyak Et Al 2010
-- Does the ability to learn statistical [non-adjacent dependencies](Non-adjacent%20dependencies.md) correlate with the ability to process [non-adjacent dependencies](Non-adjacent%20dependencies.md) in language?
+- Does the ability to learn statistical [Non-adjacent dependencies](Non-adjacent%20dependencies.md) correlate with the ability to process [Non-adjacent dependencies](Non-adjacent%20dependencies.md) in language?
 - Can we model non-adjacent dependency learning with simple SRNs?
 - allows us to see the continuous timecourse of statistical processing
 - Uses both linguistic stimulus tokens and auditory cues

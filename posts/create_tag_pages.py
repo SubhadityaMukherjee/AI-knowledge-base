@@ -33,15 +33,15 @@ for key in tag_dict:
 tag_dir = Path(
     "/Users/smukherjee/Documents/CODE/Github/AI-knowledge-base/posts/Tag Pages"
 )
-os.makedirs(tag_dir, exist_ok=True)
 
 # Create a markdown file for each tag and list the files that contain the tag.
 for tag, files in tag_dict.items():
     with open(tag_dir / f"{tag}.md", "w") as f:
         f.write(f"# {tag.capitalize()}\n\n")
         for file in files:
-            file_name = Path(file).stem
-            # print(file_name)
-            # exit(0)
-            # f.write(f'- [{file.name}](file.name})\n')
-            f.write(f"- [[{file_name}]]\n")
+            file_name = Path(file).stem.strip()
+            if file_name != tag:
+                # print(file_name)
+                # exit(0)
+                # f.write(f'- [{file.name}](file.name})\n')
+                f.write(f"- [[{file_name}]] \n")

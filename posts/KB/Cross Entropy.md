@@ -8,8 +8,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Cross [Entropy](Entropy.md)
 - [Entropy](Entropy.md)
-- Cross-[entropy](Entropy.md) is a measure from the field of information theory, building upon [entropy](Entropy.md) and generally calculating the difference between two [Probability](Probability.md) [distributions](distributions).
-- It is closely related to but is different from [KL Divergence](KL%20Divergence.md) that calculates the relative [entropy](Entropy.md) between two [Probability](Probability.md) [distributions](distributions), whereas cross-[entropy](Entropy.md) can be thought to calculate the total [entropy](Entropy.md) between the [distributions](Distributions.md).
+- Cross-[Entropy](Entropy.md) is a measure from the field of information theory, building upon [Entropy](Entropy.md) and generally calculating the difference between two [Probability](Probability.md) [Distributions](Distributions.md).
+- It is closely related to but is different from [KL Divergence](KL%20Divergence.md) that calculates the relative [Entropy](Entropy.md) between two [Probability](Probability.md) [Distributions](Distributions.md), whereas cross-[Entropy](Entropy.md) can be thought to calculate the total [Entropy](Entropy.md) between the [Distributions](Distributions.md).
 - implicit distribution $$
 p(Y|x;\theta)
 $$ -> use CE
@@ -40,7 +40,7 @@ $$ where $$
 l_{n} = -w_{y_{n}}log \frac{exp(x_{n, y_{n}})}{\Sigma_{c=1}^{C}exp(x_{n,c})}
 $$, $x$ is the input, $y$ is the target, $C$ is the number of classes
 
-- ![Pasted image 20240828102220](Pasted%20image%2020240828102220.png)
-- ![Pasted image 20240828102230](Pasted%20image%2020240828102230.png)
+- ![](../images/Pasted%20image%2020240828102220.png)
+- ![](../images/Pasted%20image%2020240828102230.png)
 - Also [Negative Log Likelihood](Negative%20Log%20Likelihood.md)
 

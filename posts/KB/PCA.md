@@ -9,14 +9,14 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # PCA
 - m dim affine hyperplace spanned by first m eigenvectors. Only manifolds and no codebook vectors
 - Be able to reconstruct x from f(x) : decoding function $$x \approx d \circ f(x)$$
-- ![im](Pasted%20image%2020220312115438.png)
+- ![](../images/Pasted%20image%2020220312115438.png)
 
 ## Steps
 
 1. Center data (A)
 	- Subtract their mean from each pattern.
 	- $$\mu = \frac{1}{N}\Sigma_{i}x_{i}$$ and getting patterns $$\hat x_{i}=x_{i}-\mu$$
-	- [Point cloud](Point%20Cloud.md) with center of [Gravity](Gravity.md) : origin
+	- [Point Cloud](Point%20Cloud.md) with center of [Gravity](Gravity.md) : origin
 		- Extend more in some "directions" characterized by unit norm direction vectors $u \in \mathbb{R}^n$ .
 		- Distance of a point from the origin in the direction of u : projection of $\bar x_i$ on u aka inner product $u'\bar x_i$
 		- Extension of cloud in direction u : Mean square dist to origin.

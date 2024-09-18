@@ -10,15 +10,15 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Words-and-Rules
 - Look up past-tense
 		- No past-tense stored? Generate form
-	- Why symbolic? It uses the abstract '[verb](Verb.md)'
+	- Why symbolic? It uses the abstract '[Verb](Verb.md)'
 	- Rules that refer to these categories are used to guide processing
 	- [past tense](past%20tense.md)
-	- Irregular forms stored in associative memory ([declarative memory](Declarative%20memory.md))
+	- Irregular forms stored in associative memory ([Declarative memory](Declarative%20memory.md))
 	- Symbolic rules produce [past tense](past%20tense.md) forms (procedural memory)
 	- look-up is quicker than rule application
 	- rule application takes more time but is always done 'on-the-fly'
 	- Time 1: Every form is memorized (irregular and regular)
-	- Time 2: child notices pattern: [verb](Verb.md) root+ed = past
+	- Time 2: child notices pattern: [Verb](Verb.md) root+ed = past
 	- Child creates a rule
 	- Child applies rule to all forms: overgeneralization
 	- Time 3: Child realizes that there are irregular and regular forms

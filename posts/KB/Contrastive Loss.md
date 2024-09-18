@@ -6,7 +6,7 @@ date modified: Monday, October 10th 2022, 2:02:31 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
-# Contrastive [Loss](loss.md)
+# Contrastive [loss](../Tag%20Pages/loss.md)
 - Minimize distance between similar inputs [Gradient Descent](Gradient%20Descent.md), maximize between dissimilar [Gradient Ascent](Gradient%20Ascent.md)
 - Learn [Embedding](Embedding.md)/Feature space using neighbors
 - dim(Embedding d) < dim(input Space D)

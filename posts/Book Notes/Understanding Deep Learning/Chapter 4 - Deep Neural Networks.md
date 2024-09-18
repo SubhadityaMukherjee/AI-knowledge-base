@@ -16,14 +16,14 @@ date created: Tuesday 27th August 2024, Tue
 - A shallow network can describe complex functions but might have too many hidden layers to be practically possible to use.
 
 ### Why did deep learning take off
-- Krizhevsky et al. (2012) aka [[ImageNet.md]]
+- Krizhevsky et al. (2012) aka [ImageNet](../../KB/ImageNet.md)
 - Larger datasets
 - Improved processing power for training
-- [[Relu.md]]
-- [[SGD.md]]
+- [Relu](../../KB/Relu.md)
+- [SGD](../../KB/SGD.md)
 
 ## Composing networks
-- [[Composing shallow neural networks to get deep networks.md]]
+- [Composing shallow neural networks to get deep networks](../../KB/Composing%20shallow%20neural%20networks%20to%20get%20deep%20networks.md)
 ## General deep neural networks
 - Consider a deep network with 2 hidden layers, each of which has 3 hidden units
 	- ![[Pasted image 20240827203741.png]]
@@ -40,12 +40,12 @@ date created: Tuesday 27th August 2024, Tue
 - Number of hidden layers ($K$)
 
 ## Matrix notation to represent deep networks
-- [[Matrix notation for NNs.md]]
+- [Matrix notation for NNs](../../KB/Matrix%20notation%20for%20NNs.md)
 
 ## Shallow vs deep networks
-- [[Shallow vs deep networks.md]]
+- [Shallow vs deep networks](../../KB/Shallow%20vs%20deep%20networks.md)
 
 ## Other notes
-- [[Universal Approximation Theorem.md]]
-- [[Depth Efficiency of Neural Networks.md]]
-- [[Width Efficiency of Neural Networks.md]]
+- [Universal Approximation Theorem](../../KB/Universal%20Approximation%20Theorem.md)
+- [Depth Efficiency of Neural Networks](../../KB/Depth%20Efficiency%20of%20Neural%20Networks.md)
+- [Width Efficiency of Neural Networks](../../KB/Width%20Efficiency%20of%20Neural%20Networks.md)

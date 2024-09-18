@@ -14,7 +14,7 @@ date created: Thursday, November 24th 2022, 1:41:22 pm
 - score the semantics of hidden units at each intermediate convolutional layer.
 - The units with semantics are given labels across a range of objects, parts, scenes, textures, materials, and colors.
 - interpretability of units is equivalent to random linear combinations of units
-- analyze the effect of training iterations, compare networks trained with different initializations, examine the impact of network depth and width, and measure the effect of [dropout](dropout.md) and batch normalization on the interpretability of deep visual representations
+- analyze the effect of training iterations, compare networks trained with different initializations, examine the impact of network depth and width, and measure the effect of [Dropout](Dropout.md) and batch normalization on the interpretability of deep visual representations
 
 ## Introduction
 - The emergence of interpretable structure suggests that deep networks may be learning disentangled representations spontaneously.
@@ -52,8 +52,8 @@ $$I_{o}U_{k,c}=\frac{\Sigma|M_{k}(x) \cap L_{c}(x|}{\Sigma|M_{k}(x) \cup L_{c}(x
 - Instead, we find that interpretability is a different quality that must be measured separately to be understood.
 
 ## Measure of Axis Aligned Interpretability
-- ![Pasted%20image%2020221124134828.png](Pasted%20image%2020221124134828.png)
-- ![Pasted%20image%2020221124134900.png](Pasted%20image%2020221124134900.png)
+- ![](../images/Pasted%20image%2020221124134828.png)
+- ![](../images/Pasted%20image%2020221124134900.png)
 
 ## Disentangled Concepts by Layer
 - Confirming intuition, color and texture concepts dominate at lower layers conv1 and conv2 while more object and part detectors emerge in conv5.
@@ -70,28 +70,28 @@ $$I_{o}U_{k,c}=\frac{\Sigma|M_{k}(x) \cap L_{c}(x|}{\Sigma|M_{k}(x) \cup L_{c}(x
 - We do not find evidence of transitions across different concept categories during training
 - For example, units in conv5 do not turn into texture or material detectors before becoming object or part detectors.
 - Comparing different random initializations, the models converge to similar levels of interpretability, both in terms of the unique detector number and the total detector number; this matches observations of convergent learning
-- For the network without [dropout](dropout.md), more texture detectors emerge but fewer object detectors
+- For the network without [Dropout](Dropout.md), more texture detectors emerge but fewer object detectors
 - Batch normalization seems to decrease interpretability significantly.
 - The batch normalization result serves as a caution that discriminative power is not the only property of a representation that should be measured.
 - batch normalization 'whitens' the activation at each layer, which smooths out scaling issues and allows a network to easily rotate axes of intermediate representations during training
 - While whitening apparently speeds training, it may also have an effect similar to random rotations analyzed in Sec. 3.2 which destroy interpretability
 - interpretability is neither a prerequisite nor an obstacle to discriminative power
-- ![Pasted%20image%2020221124135003.png](Pasted%20image%2020221124135003.png)
-- ![Pasted%20image%2020221124135014.png](Pasted%20image%2020221124135014.png)
-- ![Pasted%20image%2020221124135021.png](Pasted%20image%2020221124135021.png)
+- ![](../images/Pasted%20image%2020221124135003.png)
+- ![](../images/Pasted%20image%2020221124135014.png)
+- ![](../images/Pasted%20image%2020221124135021.png)
 
 ## Discrimination Vs. Interpretability
 - For each trained model, we extract the representation at the highest convolutional layer, and train a linear SVM with C = 0.001 on the training data for action40 action recognition task
 - Thus the supervision tasks that encourage the emergence of more concept detectors may also improve the discrimination ability of deep features.
 - accuracy on a representation when applied to a task is dependent not only on the number of concept detectors in the representation, but on the suitability of the set of represented concepts to the transfer task.
-- ![Pasted%20image%2020221124135139.png](Pasted%20image%2020221124135139.png)
+- ![](../images/Pasted%20image%2020221124135139.png)
 
 ## Layer Width Vs. Interpretability
 - Depth has been shown to be important to high discrimination ability
 - increasing the number of convolutional units at a layer significantly increases computational cost while yielding only marginal improvements in classification accuracy
 - carefully designed wide residual network can achieve classification accuracy superior to the commonly used thin and deep counterparts.
 - This may indicate a limit on the capacity of AlexNet to separate explanatory factors; or it may indicate that a limit on the number of disentangled concepts that are helpful to solve the primary task of scene classification.
-- ![Pasted%20image%2020221124135123.png](Pasted%20image%2020221124135123.png)
+- ![](../images/Pasted%20image%2020221124135123.png)
 
 
 

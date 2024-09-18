@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Causal Systems
 - Does not depend on future input
 - Has memory if current input not fully determined by previous one but influenced by earlier inputs
-- [[TIme Series.md|TIme Series]]
+- [TIme Series](TIme%20Series.md)
 
 
 

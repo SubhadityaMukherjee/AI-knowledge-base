@@ -15,7 +15,7 @@ date created: Wednesday 28th August 2024, Wed
 - The parameters are constrained to take values between zero and one, and they must collectively sum to one to ensure a valid probability distribution $$Pr(y=k) = \lambda_{k}$$
 - Network computes $K$ params from input x
 - Since the output of the network does not conform to the format, we use [Softmax](Softmax.md) so results are positive, and the K numbers sum to one
-- ![Pasted image 20240828102028](Pasted%20image%2020240828102028.png)
+- ![](../images/Pasted%20image%2020240828102028.png)
 - Loss function : [Negative Log Likelihood](Negative%20Log%20Likelihood.md)
 - This is then - [Cross Entropy](Cross%20Entropy.md)
-- ![Pasted image 20240828102204](Pasted%20image%2020240828102204.png)
+- ![](../images/Pasted%20image%2020240828102204.png)

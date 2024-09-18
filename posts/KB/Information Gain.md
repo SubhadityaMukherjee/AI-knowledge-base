@@ -5,7 +5,7 @@ date modified: Monday, October 10th 2022, 2:02:25 pm
 ---
 
 # Information Gain
-- In decision forests, the difference between a node's [entropy](Entropy.md) and the weighted (by number of examples) sum of the [entropy](Entropy.md) of its children nodes. A node's [entropy](Entropy.md) is the [entropy](Entropy.md) of the examples in that node.
+- In decision forests, the difference between a node's [Entropy](Entropy.md) and the weighted (by number of examples) sum of the [Entropy](Entropy.md) of its children nodes. A node's [Entropy](Entropy.md) is the [Entropy](Entropy.md) of the examples in that node.
 
 
 

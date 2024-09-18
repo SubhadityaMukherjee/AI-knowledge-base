@@ -117,7 +117,7 @@ The only things you need to know about it for now are :
 - A “loss function” is fancy speak that is a way of seeing how well our network is doing while it’s learning. A mini exam if you will, in the sense that the network tries to “optimise” for this exam. The better it gets, the better your final results.
 - Metrics give us somewhat precise values. Such as the grade in an exam. The “Accuracy”. Etc.
 - The other weird things that you see here are:
-	- cbs: [[|MixUp]].%20The%20first%20is%20to%20make%20sure%20that%20the%20network%20trains%20better,%20like%20the%20augmentations%20we%20spoke%20about.%20The%20second%20is%20an%20interesting%20paradigm%20that%20lets%20us%20train%20our%20models%20faster%20and%20with%20lower%20memory.%20More%20on%20that%20[here). These are advanced topics. More on that later.
+	- cbs: [Mixup](../../KB/Mixup.md)
 
 ## Teaching our AI : Part 2
 Let the Neural network.. drumroll.. learn!

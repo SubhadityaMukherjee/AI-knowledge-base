@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Turn each $a_{v}$ into k dim binary vector $v_{v} \in {0,1}^{k}$ which is 0 everywhere execpt at position v
 - Symbolic input
 - k dim one hot vector
-- ![im](Pasted%20image%2020220315234556.png)
+- ![](../images/Pasted%20image%2020220315234556.png)
 
 
 

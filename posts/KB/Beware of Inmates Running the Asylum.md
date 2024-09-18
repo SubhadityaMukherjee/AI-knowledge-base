@@ -15,7 +15,7 @@ date created: Saturday, December 3rd 2022, 5:10:11 pm
 - [[@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences.md|@Explainable AI: Beware of Inmates Running the Asylum Or: How I Learnt to Stop Worrying and Love the Social and Behavioural Sciences]]
 
 ## TL;DR
-- Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because [[XAI.md|XAI]] is meant for people and not programmers.
+- Essentially proposes to look at behavioral science research as well. Not particularly useful but is a good reminder to look at other research because [XAI](XAI.md) is meant for people and not programmers.
 
 ## Abstract
 

@@ -17,7 +17,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - more compute-efficient and results in better performance on downstream tasks
 - particularly strong for small models
 - [GLUE](GLUE.md)
-- performs comparably to [RoBERTa|[RoBERTa](RoBERTa.md)](RoBERTa.md) and [XLNet](XLNet.md) while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
+- performs comparably to [RoBERTa](RoBERTa.md) and [XLNet](XLNet.md) while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
 
 
 

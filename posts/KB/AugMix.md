@@ -16,7 +16,7 @@ date modified: Monday, October 10th 2022, 2:02:07 pm
 - This new image is later mixed with the original image to generate the final augmented output image,
 - while we considered mixing by alpha compositing, we chose to use elementwise convex combinations for simplicity. The k-dimensional vector of convex coefficients is randomly sampled from a Dirichlet(α, . . . , α) distribution. 
 - Once these images are mixed, we use a “skip connection” to combine the result of the augmentation chain and the original image through a second random convex combination sampled from a Beta(α, α) distribution. The final image incorporates several sources of randomness from the choice of operations, the severity of these operations, the lengths of the augmentation chains, and the mixing weights
-- [[Jensen Shannon Divergence Consistency Loss.md|Jensen Shannon Divergence Consistency Loss]]
+- [Jensen Shannon Divergence Consistency Loss](Jensen%20Shannon%20Divergence%20Consistency%20Loss.md)
 
 
 

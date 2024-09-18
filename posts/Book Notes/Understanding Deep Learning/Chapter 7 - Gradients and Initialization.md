@@ -10,13 +10,13 @@ date created: Wednesday 4th September 2024, Wed
 # Chapter 7 - Gradients and Initialization
 ```toc
 ```
-- [[Backprop]]
-- [[Relu]]
+- [Backprop](../../KB/Backprop.md)
+- [Relu](../../KB/Relu.md)
 - algorithmic differentiation (I think this means AD?)
-- [[Computational Graph]]
-- [[Initialization]]
-- [[Exploding Gradient]], [[Vanishing Gradient]]
-- [[Gradient Checkpointing]]
+- [Computational Graph](../../KB/Computational%20Graph.md)
+- [Initialization](../../KB/Initialization.md)
+- [Exploding Gradient](../../KB/Exploding%20Gradient.md), [Vanishing Gradient](../../KB/Vanishing%20Gradient.md)
+- [Gradient Checkpointing](../../KB/Gradient%20Checkpointing.md)
 
 ## Useful Links
 - [visualizing weights](https://distill.pub/2020/circuits/visualizing-weights/)

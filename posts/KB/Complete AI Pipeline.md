@@ -25,9 +25,9 @@ date created: Tuesday 27th February 2024, Tue
 ### Data Standards
 
 - Healthcare
-	- [[DICOM.md]]
-	- [[HL7.md]]
-	- [[FHIR.md]]
+	- [DICOM](DICOM.md)
+	- [HL7](HL7.md)
+	- [FHIR](FHIR.md)
 
 ### Data Formats
 
@@ -48,11 +48,11 @@ date created: Tuesday 27th February 2024, Tue
 		- MGF
 			- pyOpenMS
 	- MRI
-		- [[DICOM.md]]
+		- [DICOM](DICOM.md)
 	- CT
-		- [[DICOM.md]]
+		- [DICOM](DICOM.md)
 	- Ultrasound
-		- [[DICOM.md]]
+		- [DICOM](DICOM.md)
 		- SCU
 		- ACR-NEMA
 	- Functional (pre)clinical studies

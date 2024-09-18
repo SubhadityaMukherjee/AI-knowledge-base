@@ -43,8 +43,8 @@ date created: Wednesday, October 12th 2022, 4:17:49 pm
 
 ## Images
 
-- ![](1!yfVt0dZ8X6h6WoDFlyAqsw.png)
-- ![Pasted%20image%2020221012161759](Pasted%20image%2020221012161759.png)
+- ![](../images/1!yfVt0dZ8X6h6WoDFlyAqsw.png)
+- ![](../images/Pasted%20image%2020221012161759.png)
 
 
 

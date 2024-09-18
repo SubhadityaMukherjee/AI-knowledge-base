@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Normal Distribution
 - $$Pr(y|\mu, \sigma^{2}) = \frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{(y-\mu)^{2}}{2\sigma^{2}}}$$
 - Mean $\mu$ and std $\sigma$. $\mu$ is max and $\mu \pm \sigma$ is locations of zeros of second derivative
-- ![im](Pasted%20image%2020220319144034.png)
+- ![](../images/Pasted%20image%2020220319144034.png)
 - $\mathcal{N}(0,1)$
 - [Central Limit Theorem](Central%20Limit%20Theorem.md)
 
@@ -22,7 +22,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Transform $\mathscr{N}(\mu, \sigma^{2})$ to $\mathscr{N}(0,1)$
 - $$Z = \frac{X-\mu}{\sigma}$$
 - $$\int_{\frac{a-\mu}{\sigma}}^{\frac{b-\mu}{\sigma}}\frac{1}{\sqrt{2\pi}}e^{-\frac{(x)^{2}}{2}}dx$$
-- Compute by using Cumulative [density](Density.md) function $\phi$
+- Compute by using Cumulative [Density](Density.md) function $\phi$
 - Iterative solvers
 - $$\phi(\frac{b-\mu}{\sigma})-\phi(\frac{a-\mu}{\sigma})$$
 - $$\hat \mu = \frac{1}{N}\Sigma_{i}(x_{i})$$ $$\hat \sigma^{2}= \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)^2$$

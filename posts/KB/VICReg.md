@@ -11,11 +11,11 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - based on maximizing the agreement between [Embedding](Embedding.md) vectors from different views of the same image
 - rivial solution is obtained when the encoder outputs constant vectors
 - [Mode Collapse](Mode%20Collapse.md) is often avoided through implicit biases
-- explicitly avoids the collapse problem with a simple [regularization](Regularization.md) term on the variance of the embeddings along each dimension individually
-- triple objective: learning invariance to different views with a invariance term, avoiding collapse of the representations with a variance preservation term, and maximizing the information content of the representation with a [covariance](Covariance.md) [regularization](Regularization.md) term
+- explicitly avoids the collapse problem with a simple [Regularization](Regularization.md) term on the variance of the embeddings along each dimension individually
+- triple objective: learning invariance to different views with a invariance term, avoiding collapse of the representations with a variance preservation term, and maximizing the information content of the representation with a [Covariance](Covariance.md) [Regularization](Regularization.md) term
 - [Bias Vs Variance](Bias%20Vs%20Variance)
-- combines the variance term with a decorrelation mechanism based on redundancy reduction and [covariance](Covariance.md) [regularization](Regularization.md)
-- does not require the [embedding](Embedding.md) branches to be identical or even similar
+- combines the variance term with a decorrelation mechanism based on redundancy reduction and [Covariance](Covariance.md) [Regularization](Regularization.md)
+- does not require the [Embedding](Embedding.md) branches to be identical or even similar
 
 
 

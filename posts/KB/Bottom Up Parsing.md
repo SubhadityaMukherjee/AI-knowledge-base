@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Bottom Up Parsing
-- ![[Pasted image 20220506183325.png|im]]
+- ![[Pasted image 20220506183325.png]]
 
 
 

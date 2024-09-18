@@ -17,7 +17,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - At some size, the effort to understand everyone else becomes too much.
 - As a defense mechanism, people specialize, focusing on a narrower area of interest.
 - The maintainable size of the field is controlled by how its members trade off the energy between communicating and understanding.
-- [Research debt](Research%20Debt.md) is the accumulation of missing interpretive labor.
+- [Research Debt](Research%20Debt.md) is the accumulation of missing interpretive labor.
 - It’s extremely natural for young ideas to go through a stage of debt, like early prototypes in engineering.
 - The problem is that we often stop at that point.
 - Young ideas aren’t ending points for us to put in a paper and abandon.

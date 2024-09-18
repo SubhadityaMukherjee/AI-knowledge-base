@@ -8,16 +8,16 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # [EEG](EEG.md) Artifacts
 - [ICA](ICA.md)
-- ![im](Pasted%20image%2020220502145423.png)
+- ![](../images/Pasted%20image%2020220502145423.png)
 
 ## Drift
-- ![im](Pasted%20image%2020220502145641.png)A
+- ![](../images/Pasted%20image%2020220502145641.png)A
 
 ## Probably Disconnected
-- ![im](Pasted%20image%2020220502145656.png)
+- ![](../images/Pasted%20image%2020220502145656.png)
 
 ## Periodic - Probably From ECG
-- ![im](Pasted%20image%2020220502145805.png)
+- ![](../images/Pasted%20image%2020220502145805.png)
 - Arteries in neck exposed when person is nervous
 
 

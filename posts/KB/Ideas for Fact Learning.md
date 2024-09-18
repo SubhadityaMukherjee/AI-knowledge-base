@@ -20,7 +20,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- accuracy
 	- [Eye Tracking](Eye%20Tracking.md)
 	- biometric
-	- [pupil dilation](Pupil%20Dilation.md)
+	- [Pupil Dilation](Pupil%20Dilation.md)
 	- Detect learning styles
 - Framework
 	- [Gamification](Gamification.md)

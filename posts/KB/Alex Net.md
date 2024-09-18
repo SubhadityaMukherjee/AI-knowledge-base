@@ -7,9 +7,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Alex Net
-- [[Dropout.md|Dropout]] + [[Relu.md|Relu]]
+- [Dropout](Dropout.md) + [Relu](Relu.md)
 - No of filters increase according to depth
-- ![[Pasted image 20220306120121.png|im]]
+- ![[Pasted image 20220306120121.png]]
 
 
 

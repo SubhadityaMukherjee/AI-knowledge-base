@@ -14,7 +14,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Skip connections
 - output of F(x) has the same dims as x -> add
 - If only spatial dims match (aka not channels) -> concat
-- less params than [VGG](Vgg.md)
+- less params than [Vgg](Vgg.md)
 - [Skip Connection](Skip%20Connection.md)
 - Sadly, one of the creators Jian Sun passed away yesterday. (16-6-22)
 

@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Aphasia
-- Disturbance of [[language.md]] affecting speech production, comprehension, reading or writing, due to brain injury – most commonly from [[Stroke.md|stroke]] or trauma.
+- Disturbance of [language](language.md) affecting speech production, comprehension, reading or writing, due to brain injury – most commonly from [Stroke](Stroke.md) or trauma.
 - The type of aphasia depends on the brain area damaged
 
 

@@ -8,7 +8,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Grasp Point Detection
-- ![Pasted%20image%2020220928213803](Pasted%20image%2020220928213803.png)
+- ![](../images/Pasted%20image%2020220928213803.png)
 - Choose a grasp point either from above or from side by considering:
 	- Size of object’s bounding box
 	- Principle axes

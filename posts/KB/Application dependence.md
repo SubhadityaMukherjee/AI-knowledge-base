@@ -7,8 +7,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Application Dependence
-- Word and [[Sentence Segmentation.md|sentence segmentation]] are necessary
-- [[Tokenizer.md|Tokenizer]]
+- Word and [Sentence Segmentation](Sentence%20Segmentation.md) are necessary
+- [Tokenizer](Tokenizer.md)
 
 
 

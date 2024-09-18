@@ -9,13 +9,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Brain Oscillations
 - Periodic
 - Brain waves
-- [[Delta Waves.md|Delta Waves]]
-- [[Theta Waves.md|Theta Waves]]
-- [[Alpha Waves.md|Alpha Waves]]
-- [[Beta Waves.md|Beta Waves]]
-- [[Gamma Waves.md|Gamma Waves]]
-- [[Spectrogram.md|Spectrogram]]
-- ![[Pasted image 20220502160132.png|im]]
+- [Delta Waves](Delta%20Waves.md)
+- [Theta Waves](Theta%20Waves.md)
+- [Alpha Waves](Alpha%20Waves.md)
+- [Beta Waves](Beta%20Waves.md)
+- [Gamma Waves](Gamma%20Waves.md)
+- [Spectrogram](Spectrogram.md)
+- ![[Pasted image 20220502160132.png]]
 
 
 

@@ -51,14 +51,14 @@ date created: Monday, November 28th 2022, 1:42:39 pm
 - Long lasting effects
 - Even if participants were informed that things changed
 - Even a week later
-- ![[Pasted image 20221205132958.png|Pasted%20image%2020221205132958.png]]
+- ![[Pasted image 20221205132958.png]]
 
 ## Motivation Determined by
 - Time
 - Memory
 - Motivation - still works on earlier prep?
 
-- [[Cognition Hazard Rates.md|Cognition Hazard Rates]]
+- [Cognition Hazard Rates](Cognition%20Hazard%20Rates.md)
 
 
 

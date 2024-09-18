@@ -16,7 +16,7 @@ $$
 - $$
 \hat y = \lambda y_{i}+(1-\lambda)y_{j}
 $$
-- $\lambda \in [0,1](Beta%20Distribution.md)
+- $\lambda \in [Beta Distribution](Beta%20Distribution.md)
 - New example $(\hat x, \hat y)$
 
 

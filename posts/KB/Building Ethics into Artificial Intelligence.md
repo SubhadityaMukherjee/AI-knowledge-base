@@ -16,36 +16,36 @@ date created: Wednesday, January 18th 2023, 3:24:42 pm
 - taxonomy which divides the field into four areas: 1) exploring ethical dilemmas; 2) individual ethical decision frameworks; 3) collective ethical decision frameworks; and 4) ethics in human-AI interactions
 
 ## Types
-- [[Consequentialist ethics.md|Consequentialist ethics]]
-- [[Utilitarian ethics.md|Utilitarian ethics]]
-- [[Deontological ethics.md|Deontological ethics]]
-- [[Virtue ethics.md|Virtue ethics]]
-- [[Ethical dilemmas.md|Ethical dilemmas]]
+- [Consequentialist ethics](Consequentialist%20ethics.md)
+- [Utilitarian ethics](Utilitarian%20ethics.md)
+- [Deontological ethics](Deontological%20ethics.md)
+- [Virtue ethics](Virtue%20ethics.md)
+- [Ethical dilemmas](Ethical%20dilemmas.md)
 
 ## Exploring Ethical Dilemmas
 - explore the ethical dilemmas in the target application scenarios [Anderson and Anderson, 2014]
-- [[GenEth.md|GenEth]]
-- [[Moral Machine project.md|Moral Machine project]]
+- [GenEth](GenEth.md)
+- [Moral Machine project](Moral%20Machine%20project.md)
 
 ## Individual Ethical Decision Frameworks
 - AI research community largely agrees that generalized frameworks are preferred over ad-hoc rules
 - if updates are provided by people, some review mechanisms should be put in place to prevent abuse
 - moral decision-making by humans not only involves utilitarian considerations, but also moral rules.
-- Such rules often involve protected values (a.k.a. [[sacred values.md|sacred values]])
-- [[MoralDM.md|MoralDM]]
-- [[Belief-Desire-Intention.md|Belief-Desire-Intention]]
-- [[blind ethical judgement.md|blind ethical judgement]]
-- [[partially informed ethical judgement.md|partially informed ethical judgement]]
-- [[fully informed ethical judgement.md|fully informed ethical judgement]]
-- [[Moral decision making frameworks for artificial intelligence.md|Moral decision making frameworks for artificial intelligence]]
-- [[Preferences and ethical principles in decision making.md|Preferences and ethical principles in decision making]]
+- Such rules often involve protected values (a.k.a. [sacred values](sacred%20values.md))
+- [MoralDM](MoralDM.md)
+- [Belief-Desire-Intention](Belief-Desire-Intention.md)
+- [blind ethical judgement](blind%20ethical%20judgement.md)
+- [partially informed ethical judgement](partially%20informed%20ethical%20judgement.md)
+- [fully informed ethical judgement](fully%20informed%20ethical%20judgement.md)
+- [Moral decision making frameworks for artificial intelligence](Moral%20decision%20making%20frameworks%20for%20artificial%20intelligence.md)
+- [Preferences and ethical principles in decision making](Preferences%20and%20ethical%20principles%20in%20decision%20making.md)
 - [[A declarative modular framework for representing and applying ethical principles..md|A declarative modular framework for representing and applying ethical principles.]]
-- [[A low-cost ethics shaping approach for designing reinforcement learning agents.md|A low-cost ethics shaping approach for designing reinforcement learning agents]]
-- [[Even angels need the rules AI, roboethics, and the law.md|Even angels need the rules AI, roboethics, and the law]]
-- [[Norms as a basis for governing sociotechnical systems.md|Norms as a basis for governing sociotechnical systems]]
-- [[Embedding ethical principles in collective decision support systems.md|Embedding ethical principles in collective decision support systems]]
-- [[A voting-based system for ethical decision making.md|A voting-based system for ethical decision making]]
-- [[swap-dominance.md|swap-dominance]]
+- [A low-cost ethics shaping approach for designing reinforcement learning agents](A%20low-cost%20ethics%20shaping%20approach%20for%20designing%20reinforcement%20learning%20agents.md)
+- [Even angels need the rules AI, roboethics, and the law](Even%20angels%20need%20the%20rules%20AI,%20roboethics,%20and%20the%20law.md)
+- [Norms as a basis for governing sociotechnical systems](Norms%20as%20a%20basis%20for%20governing%20sociotechnical%20systems.md)
+- [Embedding ethical principles in collective decision support systems](Embedding%20ethical%20principles%20in%20collective%20decision%20support%20systems.md)
+- [A voting-based system for ethical decision making](A%20voting-based%20system%20for%20ethical%20decision%20making.md)
+- [swap-dominance](swap-dominance.md)
 - satisfying consequentialist ethics Ethics in Human-AI Interactions Belmont Report
 - [Luckin, 2017; Yu et al., 2017b]
 - 1) people's personal autonomy should not be violated (they should be able to maintain their free will when interacting with the technology); 2) benefits brought
@@ -55,12 +55,12 @@ date created: Wednesday, January 18th 2023, 3:24:42 pm
 - [Kang et al., 2015; Rosenfeld and Kraus, 2016]
 - [Stock et al., 2016]
 - large-scale study to investigate human perceptions on the ethics of persuasion by an AI agent
-- [[trolley scenario.md|trolley scenario]]
+- [trolley scenario](trolley%20scenario.md)
 - authors tested three persuasive strategies: 1) appealing to the participants emotionally; 2) presenting the participants with utilitarian arguments; and 3) lying
 - participants hold a strong preconceived negative attitude towards the persuasion agent, and argumentation-based and lying-based persuasion strategies work better than emotional persuasion strategies
 - did not show significant variation across genders or cultures
 - adoption of persuasion strategies should take into account differences in individual personality, ethical attitude and expertise in the given domain.
-- [[Coping Theory.md|Coping Theory]]
+- [Coping Theory](Coping%20Theory.md)
 - Argumentation-based explainable AI
 - [Fan and Toni, 2015; Langley et al., 2017] well suited to the consequentialist ethics
 - depending on how the explanations are used, researchers need to strike a balance on the level of details to be included

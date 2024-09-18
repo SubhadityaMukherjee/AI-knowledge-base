@@ -26,7 +26,7 @@ date created: Tuesday, October 25th 2022, 3:09:48 pm
 - Subhaditya Mukherjee
 
 ## Concept
-- Outlines the general concept of our system, meaning how we tried to adjust and improve the [slimstampen](slimstampen.md) system, and any additional improvements we made to the system.
+- Outlines the general concept of our system, meaning how we tried to adjust and improve the [SlimStampen](SlimStampen.md) system, and any additional improvements we made to the system.
 
 ### Main Idea
 - The main idea we have for this project is to improve the [SlimStampen](SlimStampen.md) system by presenting vocabulary in context. The way we would like to do this, is by presenting users with the word they need to learn in a sentence. As the learner gets better, the system will increase the difficulty by presenting words without context. If the words are presented out of context and the user makes a mistake, the correct answer will also be shown without context.
@@ -68,7 +68,7 @@ Fact(fact_id = 6, 
 - Explains how the system itself works, meaning how it switches between words and context, and how it decided which word to show next.
 
 ### Word Order
-- Similarly to the set-up of [slimstampen](slimstampen.md), we let the system decide which words to show and how based on rate of forgetting. What we changed is that we have different thresholds for when it shows the context, which context it shows, and when it shows just the word.
+- Similarly to the set-up of [SlimStampen](SlimStampen.md), we let the system decide which words to show and how based on rate of forgetting. What we changed is that we have different thresholds for when it shows the context, which context it shows, and when it shows just the word.
 - Once it enters the second context, it will not go back to the first. This is based on the assumption that the first context did not help the participant figure out the meaning of the word. Thresholds were decided through trial-and-error, based on what felt like a natural progression of conditions.
 - In the original system, the same word (and in this case also context) was shown thrice without changing at all based on input. We changed that to twice in our system.
 
@@ -122,17 +122,17 @@ Fact(fact_id = 6, 
     
 
 ### Pictures
-- **![](UvTPZadMPgK1WYnzxkbwG-f8F2hpX9TKPp1YK1vdztilQn1uzc1F-1HJ0m93d9kDafgZzFah_IJrLA_rRx5urfjEogD9WRQeemoY.png)**
-- **![](grpTUg4XllbNgQdWMxnhvYpV5gR0d5chBcLJ97RC_uVYzvNk8DeAfhohR2FDPgmruAliArS_yEPXzFJM3M8qCCr0sdymeO1WuK1q.png)**
-- ![Pasted%20image%2020221025151329](Pasted%20image%2020221025151329.png)
-- ![Pasted%20image%2020221025151334](Pasted%20image%2020221025151334.png)
-- ![Pasted%20image%2020221025151338](Pasted%20image%2020221025151338.png)
-- ![Pasted%20image%2020221025151342](Pasted%20image%2020221025151342.png)
-- **![](IiXoiU_gjEH082ajU63Rh_Y6ocSCv-ILVlnEjEM_Bvolg4IZ2RHXpdZ3kmQvKw5R9krrljKg6ryA5KmehKSd4n_pxx-QuT683CKS.png)**
-- **![](Un_DJbx9IChyxu8ItMpOu_5CwINa_vWez9vgwtGYCUIUZvnenvTvvIoIfYj5HudjDHVbBUggNme7VYd1g5Wcy7qnfpVRctBz9h-N.png)**
-- **![](2Dg32LVejSscdHR_3kh6z5J4wuKYZ_3LcPl-qtvmPotHIc2WVoeZd-_C5-PgKNWRMS6SA-cnwgjZmwXSYVcoS14IOnAvY6QmnXFz.png)**
-- **![](QNjLadcoCKy1IjcvC8b8vxLAZXiHZ4yqmAPlYlhoAhNPfF6RGECAjp6DRhw4hIXyTXmM9KiC1tZ2eq4rlFXkr7VfGQoZlWWaPEjH.png)**
-- **![](c1Lfq8XCqOQQeYvoKN4db9HGZ3ap3kNTJDcChC3wX2TBKCwvPCq6p1L_-tin9UpxcxB2WYr9-Ny9nWHbqjAtqKfEDyAJbiKlKNp3.png)**
+- **![](../images/UvTPZadMPgK1WYnzxkbwG-f8F2hpX9TKPp1YK1vdztilQn1uzc1F-1HJ0m93d9kDafgZzFah_IJrLA_rRx5urfjEogD9WRQeemoY.png)**
+- **![](../images/grpTUg4XllbNgQdWMxnhvYpV5gR0d5chBcLJ97RC_uVYzvNk8DeAfhohR2FDPgmruAliArS_yEPXzFJM3M8qCCr0sdymeO1WuK1q.png)**
+- ![](../images/Pasted%20image%2020221025151329.png)
+- ![](../images/Pasted%20image%2020221025151334.png)
+- ![](../images/Pasted%20image%2020221025151338.png)
+- ![](../images/Pasted%20image%2020221025151342.png)
+- **![](../images/IiXoiU_gjEH082ajU63Rh_Y6ocSCv-ILVlnEjEM_Bvolg4IZ2RHXpdZ3kmQvKw5R9krrljKg6ryA5KmehKSd4n_pxx-QuT683CKS.png)**
+- **![](../images/Un_DJbx9IChyxu8ItMpOu_5CwINa_vWez9vgwtGYCUIUZvnenvTvvIoIfYj5HudjDHVbBUggNme7VYd1g5Wcy7qnfpVRctBz9h-N.png)**
+- **![](../images/2Dg32LVejSscdHR_3kh6z5J4wuKYZ_3LcPl-qtvmPotHIc2WVoeZd-_C5-PgKNWRMS6SA-cnwgjZmwXSYVcoS14IOnAvY6QmnXFz.png)**
+- **![](../images/QNjLadcoCKy1IjcvC8b8vxLAZXiHZ4yqmAPlYlhoAhNPfF6RGECAjp6DRhw4hIXyTXmM9KiC1tZ2eq4rlFXkr7VfGQoZlWWaPEjH.png)**
+- **![](../images/c1Lfq8XCqOQQeYvoKN4db9HGZ3ap3kNTJDcChC3wX2TBKCwvPCq6p1L_-tin9UpxcxB2WYr9-Ny9nWHbqjAtqKfEDyAJbiKlKNp3.png)**
 
 
 

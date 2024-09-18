@@ -12,7 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Huggingface
 - general-purpose pre-trained version of BERT
 - 40% smaller, 60% faster, cheaper to pre-train, and retains 97% of the language understanding capabilities
-- [knowledge distillation](Knowledge%20Distillation.md) during the pre-training phase
+- [Knowledge Distillation](Knowledge%20Distillation.md) during the pre-training phase
 - triple loss combining language modeling, distillation and cosine-distance losses
 
 

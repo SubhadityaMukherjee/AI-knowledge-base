@@ -8,7 +8,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Friction
-- Friction scales linearly with the normal [force](Force.md).
+- Friction scales linearly with the normal [Force](Force.md).
 - Friction is not affected by the area of contact between surfaces.
 - Stationary objects have more friction than sliding objects.
 - Sliding friction is not affected by sliding velocity.

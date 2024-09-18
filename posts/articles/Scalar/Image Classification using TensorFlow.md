@@ -27,7 +27,7 @@ Before we get to the actual code, we must understand a few pre-requisite terms. 
 A Data Loader is a utility function that enables Tensorflow to optimize the data loading performance. The Loader does this by pre-allocating memory, creating batched containers, and applying many other tweaks to improve performance. 
 
 #### Data Augmentation
-Data Augmentation is a [[../../Regularization.md|regularization]], and many others.
+Data Augmentation is a [Regularization](../../KB/Regularization.md), and many others.
 
 [IMAGE {1} Data Augmentation  START SAMPLE]
 ![Data Augmentation ](https://hackmd.io/_uploads/Syb2UUV9s.png)

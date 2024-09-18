@@ -14,7 +14,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Measurement process hard to carry out in reality
 - What does unbiased means? Especially because most things related to future input that we do not have yet
 - Distibution of data points
-- [MLE](MLE)
+- [MLE](MLE.md)
 
 
 

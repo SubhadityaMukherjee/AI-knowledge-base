@@ -13,7 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Electrode nomenclature](Electrode%20nomenclature.md)
 - Cheaper than [fMRI](fMRI.md)
 - Fast signals
-- Low anatomical [specificity](Specificity.md)
+- Low anatomical [Specificity](Specificity.md)
 	- Cant find where its coming from
 	- Lots of noise
 - [EEG Artifacts](EEG%20Artifacts.md)

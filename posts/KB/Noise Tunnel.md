@@ -33,7 +33,7 @@ date created: Tuesday, December 6th 2022, 12:43:53 pm
 
 ## Using [VarGrad](VarGrad.md) 
 - variance version of the SmoothGrad
-- Using SmoothGrad ([Fig. 1c](#figure-1)) seems to detect more edges of the input image (in comparison with pure IG attribution in \[Fig. 1b\]), and that can be interpreted as detecting decision boundary. SmoothGrad-Square ([Fig. 1d](#figure-1)) and VarGrad ([Fig. 1e](#figure-1)) are removing a large amount of noise but usually also some of the important features visible on the attribution from SmoothGrad
+- Using SmoothGrad ([Noise Tunnel](#figure-1)) seems to detect more edges of the input image (in comparison with pure IG attribution in \[Fig. 1b\]), and that can be interpreted as detecting decision boundary. SmoothGrad-Square ([Noise Tunnel](#figure-1)) and VarGrad ([Noise Tunnel](#figure-1)) are removing a large amount of noise but usually also some of the important features visible on the attribution from SmoothGrad
 - $$\hat M_{c}(x) = \frac{1}{n}\Sigma_{k=1}^{n}\{M_{c}(x + \mathcal{N}(0, \sigma^{2}))\}^{2}- \{\hat M_{c}(x)\}^{2}$$
 
 ## Drawbacks 
@@ -42,7 +42,7 @@ date created: Tuesday, December 6th 2022, 12:43:53 pm
 - That is a linear increase of computation and to make the method efficient you should use at least 5 generated noise samples
 
 ## Images
-- ![images/Pasted%20image%2020230310122837.png](Pasted%20image%2020230310122837.png)
+- ![](../images/Pasted%20image%2020230310122837.png)
 
 
 

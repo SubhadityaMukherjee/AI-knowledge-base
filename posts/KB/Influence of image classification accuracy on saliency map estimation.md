@@ -29,7 +29,7 @@ date created: Thursday, October 6th 2022, 1:01:31 pm
 - [SAM-ResNet](SAM-ResNet.md)
 
 ## Components of Readout Net
-- The operation attempts to directly minimise the reconstruction error of the input image under a [sparsity](sparsity.md) constraint on an over-complete set of feature maps
+- The operation attempts to directly minimise the reconstruction error of the input image under a [Sparsity](Sparsity.md) constraint on an over-complete set of feature maps
 - The mini-batch size and learning rate were set to 1 and 10−5 during training, respectively.
 - We subtract the per-channels mean value of training images from each image as pre-processing
 
@@ -69,10 +69,10 @@ date created: Thursday, October 6th 2022, 1:01:31 pm
 - if the model is trained for the image classification task which includes a wide variety of categories, overfitting for the objects in the training dataset would be suppressed owing to a large number of categories.
 
 ## Images
-- ![Screenshot 2022-10-06 at 1.01.58 PM](Screenshot%202022-10-06%20at%201.01.58%20PM.png)
-- ![Pasted%20image%2020221006130217](Pasted%20image%2020221006130217.png){:height 598, :width 600}
-- ![Pasted%20image%2020221006130326](Pasted%20image%2020221006130326.png)
-- ![Pasted%20image%2020221006132051](Pasted%20image%2020221006132051.png)
+- ![](../images/Screenshot%202022-10-06%20at%201.01.58%20PM.png)
+- ![](../images/Pasted%20image%2020221006130217.png){:height 598, :width 600}
+- ![](../images/Pasted%20image%2020221006130326.png)
+- ![](../images/Pasted%20image%2020221006132051.png)
 
 
 

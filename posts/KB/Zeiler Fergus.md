@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Zeiler Fergus
-- multiple interleaved [layers](Layers.md) of [Conv](Conv.md), non-linear [Activation Functions](Activation%20Functions.md), local response normalizations, and max [Pooling](Pooling.md)
+- multiple interleaved [Layers](Layers.md) of [Conv](Conv.md), non-linear [Activation Functions](Activation%20Functions.md), local response normalizations, and max [Pooling](Pooling.md)
 
 
 

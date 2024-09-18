@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Subhaditya&#039;s KB</title>
+      <link>https://https://subhadityamukherjee.github.io/AI-knowledge-base/</link>
+      <description>Last 10 notes on Subhaditya&#039;s KB</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>CommonCrawl</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/CommonCrawl</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/CommonCrawl</guid>
+    <description>CommonCrawl.</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item><item>
+    <title>ColorMap</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ColorMap</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ColorMap</guid>
+    <description>ColorMap Color Spaces .</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item><item>
+    <title>Color Spaces</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Spaces</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Spaces</guid>
+    <description>Color Spaces Divide Oriented Intuitive Color spaces .</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item><item>
+    <title>Color Space Transformations</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Space-Transformations</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Space-Transformations</guid>
+    <description>Color Space Transformations Image data is encoded into 3 stacked matrices, each of size height×width. These matrices represent pixel values for an individual RGB color value Lighting biases are amongst the most frequently occurring challenges to image recognition problems A quick fix to overly bright or dark images is to loop through the images and decrease or increase the pixel values by a constant value.</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item><item>
+    <title>Color Compositing</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Compositing</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Compositing</guid>
+    <description>Color Compositing C_{i}= c_{i}+ (1-o_{i})C_{i-1} where c_{i}= o_{i}c_{i}&#039; First is same as Marching Cubes f(\sigma)&amp; \exists t \in [0,T], s(t) = \sigma \ I_{o}&amp;otherwise ...</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item><item>
+    <title>Collectivity, Distributivity, and the Interpretation of Plural Numerical Expressions in Child and Adult Language</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collectivity,-Distributivity,-and-the-Interpretation-of-Plural-Numerical-Expressions-in-Child-and-Adult-Language</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collectivity,-Distributivity,-and-the-Interpretation-of-Plural-Numerical-Expressions-in-Child-and-Adult-Language</guid>
+    <description>Collectivity, Distributivity, and the Interpretation of Plural Numerical Expressions in Child and Adult Language Kristen Syrett, Ph.D. and Rutgers, The State University of New Jersey, Linguistics, New Brunswick, United States Julien Musolino : Rutgers, The State University of New Jersey, Psychology, Piscataway, United States Intro Sentences containing plural numerical expressions (e.g., two boys) can give rise to two interpretations (collective and distributive), arising from the fact that their representation admits of a part-whole structure designed to explore children’s understanding of this distinction and its implications for the acquisition of linguistic expressions with number words.</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item><item>
+    <title>Collective Interpretation</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collective-Interpretation</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collective-Interpretation</guid>
+    <description>Collective Interpretation No scopal relation Three aliens are holding two flags. Both Np’s are interpreted individually and connected to each other .</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item><item>
+    <title>Collective Ethical Decision Frameworks</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collective-Ethical-Decision-Frameworks</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collective-Ethical-Decision-Frameworks</guid>
+    <description>Collective Ethical Decision Frameworks advocates the need of primary rules governing social norms and allowing the creation, modification and suppression of the primary rules ...</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item><item>
+    <title>Collaborative Topic Regression</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collaborative-Topic-Regression</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collaborative-Topic-Regression</guid>
+    <description>Collaborative Topic Regression Collaborative Deep Learning for Recommender Systems Collaborative Filtering (CF) is a successful approach commonly used by many recommender ...</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item><item>
+    <title>Collaborative Recommender</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collaborative-Recommender</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Collaborative-Recommender</guid>
+    <description>Collaborative Recommender Clusters users according to behavior Match with other users eg : netflix .</description>
+    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

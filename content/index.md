@@ -11,14 +11,14 @@ page-layout: full
 title-block-banner: true
 ---
 
-## About this blog
+## About This Blog
 - This is my little knowledge base
 - If there is something you are looking for, just type it into the search bar
 	- Of course, since this is not google, it is not a one stop shop
 	- In essence, it will have something on things that I learn
 - How to go about finding things?
 	- Scroll the sidebar and pick something you like. Click the links inside it to go about. Choose your own adventure.
-
+- Other things? Drop me an email :)
 ## Links
 - [My Github](https://www.github.com/SubhadityaMukherjee)
 - [Blogs](https://subhadityamukherjee.github.io/SubhadityaMukherjeegit/deeplearning.html)

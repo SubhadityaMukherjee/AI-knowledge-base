@@ -4457,10 +4457,11 @@ var defaultContentPageLayout = {
     Breadcrumbs_default(),
     ArticleTitle_default(),
     ContentMeta_default(),
-    TagList_default(),
-    Explorer_default()
+    TagList_default()
+    // Component.MobileOnly(Component.Explorer()),
   ],
   left: [
+    // Component.DesktopOnly(Component.Explorer()),
     PageTitle_default(),
     MobileOnly_default(Spacer_default()),
     Search_default(),

@@ -1,3 +1,6 @@
+---
+title: Understanding Deep Learning
+---
 # UDL Book
 - [UDL Book](https://udlbook.github.io/udlbook/)
 - [[Chapter 1 - Introduction]]

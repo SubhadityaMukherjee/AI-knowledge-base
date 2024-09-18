@@ -11,6 +11,12 @@ page-layout: full
 title-block-banner: true
 ---
 
+## Go To
+- [Tags](tags)
+- [KB](KB)
+- [Articles](Articles)
+- [Book Notes](Book-Notes)
+
 ## About This Blog
 - This is my little knowledge base
 - If there is something you are looking for, just type it into the search bar

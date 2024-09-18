@@ -1,5 +1,5 @@
 ---
-title: Chapter 1
+title: Chapter 1 - Introduction
 toc: true
 tags: 
 date modified: Tuesday 27th August 2024, Tue

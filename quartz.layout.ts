@@ -20,9 +20,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.Explorer(),
+    // Component.MobileOnly(Component.Explorer()),
   ],
   left: [
+    // Component.DesktopOnly(Component.Explorer()),
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),

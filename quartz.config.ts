@@ -1,4 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
+import { PageTitle } from "./quartz/components"
 import * as Plugin from "./quartz/plugins"
 
 /**

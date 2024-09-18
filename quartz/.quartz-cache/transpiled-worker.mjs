@@ -4457,14 +4457,14 @@ var defaultContentPageLayout = {
     Breadcrumbs_default(),
     ArticleTitle_default(),
     ContentMeta_default(),
-    TagList_default()
+    TagList_default(),
+    Explorer_default()
   ],
   left: [
     PageTitle_default(),
     MobileOnly_default(Spacer_default()),
     Search_default(),
-    Darkmode_default(),
-    DesktopOnly_default(Explorer_default())
+    Darkmode_default()
   ],
   right: [
     Graph_default(),

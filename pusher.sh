@@ -1,5 +1,5 @@
 pyenv activate openml
-python posts/create_tag_pages.py
+# python posts/create_tag_pages.py
 npx quartz build
 # mkdocs build
 if [ $# -eq 0 ]; then

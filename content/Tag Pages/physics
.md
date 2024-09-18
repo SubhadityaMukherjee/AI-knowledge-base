@@ -1,5 +1,0 @@
-# Physics
-
-
-- [[Transformer Physics]] 
-- [[physics]] 

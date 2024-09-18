@@ -202,7 +202,7 @@
 - (line 45): `AdaBoost`
 
 
-[[Book Notes/Understanding Deep Learning/Chapter 6 - Fitting models]]:
+[[Chapter 6 - Fitting models|Book Notes/Understanding Deep Learning/Chapter 6 - Fitting models]]:
 - (line 14): `../../Tag Pages/loss`
 - (line 14): `Chapter 5 - Loss functions`
 - (line 15): `../../Tag Pages/loss`
@@ -221,7 +221,7 @@
 - (line 31): `../../KB/Learning Rate Scheduling`
 
 
-[[Book Notes/Understanding Deep Learning/Chapter 7 - Gradients and Initialization]]:
+[[Chapter 7 - Gradients and Initialization|Book Notes/Understanding Deep Learning/Chapter 7 - Gradients and Initialization]]:
 - (line 13): `../../KB/Backprop`
 - (line 14): `../../KB/Relu`
 - (line 16): `../../KB/Computational Graph`
@@ -231,7 +231,7 @@
 - (line 19): `../../KB/Gradient Checkpointing`
 
 
-[[Book Notes/Understanding Deep Learning/index]]:
+[[Book-Notes/Understanding-Deep-Learning/index|Book Notes/Understanding Deep Learning/index]]:
 - (line 3): `Chapter 1`
 - (line 4): `Chapter 4 - Deep Neural Networks`
 - (line 5): `Chapter 5 - Loss functions`
@@ -2001,7 +2001,7 @@
 - (line 317): `experiments_with_temp_40_1.png`
 
 
-[[Book Notes/Understanding Deep Learning/Chapter 1]]:
+[[Chapter 1 - Introduction|Book Notes/Understanding Deep Learning/Chapter 1]]:
 - (line 13): `Chapter 1 mindmap.svg`
 
 
@@ -4091,7 +4091,7 @@
 - (line 45): `AdaBoost`
 
 
-[[Book Notes/Understanding Deep Learning/Chapter 6 - Fitting models]]:
+[[Chapter 6 - Fitting models|Book Notes/Understanding Deep Learning/Chapter 6 - Fitting models]]:
 - (line 14): `../../Tag Pages/loss`
 - (line 14): `Chapter 5 - Loss functions`
 - (line 15): `../../Tag Pages/loss`
@@ -4110,7 +4110,7 @@
 - (line 31): `../../KB/Learning Rate Scheduling`
 
 
-[[Book Notes/Understanding Deep Learning/Chapter 7 - Gradients and Initialization]]:
+[[Chapter 7 - Gradients and Initialization|Book Notes/Understanding Deep Learning/Chapter 7 - Gradients and Initialization]]:
 - (line 13): `../../KB/Backprop`
 - (line 14): `../../KB/Relu`
 - (line 16): `../../KB/Computational Graph`
@@ -4120,7 +4120,7 @@
 - (line 19): `../../KB/Gradient Checkpointing`
 
 
-[[Book Notes/Understanding Deep Learning/index]]:
+[[Book-Notes/Understanding-Deep-Learning/index|Book Notes/Understanding Deep Learning/index]]:
 - (line 3): `Chapter 1`
 - (line 4): `Chapter 4 - Deep Neural Networks`
 - (line 5): `Chapter 5 - Loss functions`
@@ -5519,7 +5519,7 @@
 - (line 317): `experiments_with_temp_40_1.png`
 
 
-[[Book Notes/Understanding Deep Learning/Chapter 1]]:
+[[Chapter 1 - Introduction|Book Notes/Understanding Deep Learning/Chapter 1]]:
 - (line 13): `Chapter 1 mindmap.svg`
 
 

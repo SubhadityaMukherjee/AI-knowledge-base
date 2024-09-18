@@ -149,10 +149,7 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/</loc>
     <lastmod>2024-09-18T11:42:10.273Z</lastmod>
   </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter--8---Measuring-performance</loc>
-    <lastmod>2024-09-18T11:42:10.278Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-1</loc>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-1---Introduction</loc>
     <lastmod>2024-09-18T11:42:10.279Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-4---Deep-Neural-Networks</loc>
@@ -166,6 +163,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-7---Gradients-and-Initialization</loc>
     <lastmod>2024-09-18T11:42:10.295Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-8---Measuring-performanc</loc>
+    <lastmod>2024-09-18T11:42:10.278Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-9---Regularization</loc>
     <lastmod>2024-09-18T11:42:10.299Z</lastmod>
@@ -6217,57 +6217,6 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/wave2vec</loc>
     <lastmod>2024-09-18T11:27:23.197Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/architecture-</loc>
-    <lastmod>2024-09-18T11:27:23.569Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/articles-</loc>
-    <lastmod>2024-09-18T11:27:23.569Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/augmentation-</loc>
-    <lastmod>2024-09-18T11:27:23.569Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/brain-</loc>
-    <lastmod>2024-09-18T11:27:23.571Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/conference-</loc>
-    <lastmod>2024-09-18T11:27:23.572Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/dataset-</loc>
-    <lastmod>2024-09-18T11:27:23.569Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/distributions-</loc>
-    <lastmod>2024-09-18T11:27:23.569Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/ethics-</loc>
-    <lastmod>2024-09-18T11:27:23.571Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/federatedlearning-</loc>
-    <lastmod>2024-09-18T11:27:23.572Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/loss-</loc>
-    <lastmod>2024-09-18T11:27:23.572Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/loss</loc>
-    <lastmod>2024-09-18T11:27:23.568Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/medical-</loc>
-    <lastmod>2024-09-18T11:27:23.571Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/physics-</loc>
-    <lastmod>2024-09-18T11:27:23.572Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/regularization-</loc>
-    <lastmod>2024-09-18T11:27:23.569Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/robotics-</loc>
-    <lastmod>2024-09-18T11:27:23.569Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/uncertainty-</loc>
-    <lastmod>2024-09-18T11:27:23.571Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Tag-Pages/visualization-</loc>
-    <lastmod>2024-09-18T11:27:23.569Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/consistency-report</loc>
     <lastmod>2024-09-18T11:27:23.572Z</lastmod>

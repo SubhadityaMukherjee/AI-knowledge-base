@@ -1,5 +1,5 @@
 # Physics
 
 
-- [Transformer Physics](../KB/Transformer%20Physics.md) 
+- [[Transformer Physics]] 
 - [[physics]] 

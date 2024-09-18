@@ -1,32 +1,35 @@
 # Architecture
 
 
-- [Best Maching Unit](../KB/Best%20Maching%20Unit.md) 
-- [Bruckhaus - 2024 - RAG Does Not Work for Enterprises](../KB/Bruckhaus%20-%202024%20-%20RAG%20Does%20Not%20Work%20for%20Enterprises.md) 
-- [Conv](../KB/Conv.md) 
-- [Dense Skip Connections](../KB/Dense%20Skip%20Connections.md) 
-- [Dense](../KB/Dense.md) 
-- [Git Commands](../KB/Git%20Commands.md) 
-- [Huber](../KB/Huber.md) 
-- [LLM Guide](../KB/LLM%20Guide.md) 
-- [Layers](../KB/Layers.md) 
-- [Lost in the Middle How Language Models Use Long Contexts](../KB/Lost%20in%20the%20Middle%20How%20Language%20Models%20Use%20Long%20Contexts.md) 
-- [ML Production Flow](../KB/ML%20Production%20Flow.md) 
-- [MLOps Learning](../KB/MLOps%20Learning.md) 
-- [Machine Learning Tool Landscape](../KB/Machine%20Learning%20Tool%20Landscape.md) 
-- [Memory to Memory Architecture](../KB/Memory%20to%20Memory%20Architecture.md) 
-- [Modeling Driver Behavior with Cognitive Architecture](../KB/Modeling%20Driver%20Behavior%20with%20Cognitive%20Architecture.md) 
-- [Perceptron](../KB/Perceptron.md) 
-- [PhD vs Startup vs Big Company](../KB/PhD%20vs%20Startup%20vs%20Big%20Company.md) 
-- [Pooling](../KB/Pooling.md) 
-- [Problems facing MLOps](../KB/Problems%20facing%20MLOps.md) 
-- [RAGAS - automated evaluation of RAG](../KB/RAGAS%20-%20automated%20evaluation%20of%20RAG.md) 
-- [Recurrent](../KB/Recurrent.md) 
-- [Register to Register Architecture](../KB/Register%20to%20Register%20Architecture.md) 
-- [Research Engineer in Human Modeling for Automated Driving delft](../KB/Research%20Engineer%20in%20Human%20Modeling%20for%20Automated%20Driving%20delft.md) 
-- [Salemi and Zamani - 2024 - Evaluating Retrieval Quality in Retrieval-Augmente](../KB/Salemi%20and%20Zamani%20-%202024%20-%20Evaluating%20Retrieval%20Quality%20in%20Retrieval-Augmente.md) 
-- [Skip Connection](../KB/Skip%20Connection.md) 
-- [Teacher Student Architecture](../KB/Teacher%20Student%20Architecture.md) 
-- [Tug of war between RAG and LLM prior](../KB/Tug%20of%20war%20between%20RAG%20and%20LLM%20prior.md) 
-- [Von Neumann Architecture](../KB/Von%20Neumann%20Architecture.md) 
-- [architecture](../KB/architecture.md) 
+- [[Best Maching Unit]] 
+- [[Bruckhaus - 2024 - RAG Does Not Work for Enterprises]] 
+- [[Conv]] 
+- [[Dense Skip Connections]] 
+- [[Dense]] 
+- [[Git Commands]] 
+- [[Huber]] 
+- [[LLM Guide]] 
+- [[Layers]] 
+- [[Lost in the Middle How Language Models Use Long Contexts]] 
+- [[ML Production Flow]] 
+- [[MLOps Learning]] 
+- [[Machine Learning Tool Landscape]] 
+- [[Memory to Memory Architecture]] 
+- [[Model Capacity]] 
+- [[Modeling Driver Behavior with Cognitive Architecture]] 
+- [[Perceptron]] 
+- [[PhD vs Startup vs Big Company]] 
+- [[Pooling]] 
+- [[Problems facing MLOps]] 
+- [[RAGAS - automated evaluation of RAG]] 
+- [[Recurrent]] 
+- [[Register to Register Architecture]] 
+- [[Representational Capacity]] 
+- [[Research Engineer in Human Modeling for Automated Driving delft]] 
+- [[Salemi and Zamani - 2024 - Evaluating Retrieval Quality in Retrieval-Augmente]] 
+- [[Skip Connection]] 
+- [[Teacher Student Architecture]] 
+- [[Tug of war between RAG and LLM prior]] 
+- [[Vapnik chervonenkis dimension]] 
+- [[Von Neumann Architecture]] 
+- [[architecture]] 

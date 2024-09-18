@@ -1,5 +1,7 @@
+pyenv activate openml
 python posts/create_tag_pages.py
-mkdocs build
+npx quartz build
+# mkdocs build
 if [ $# -eq 0 ]; then
     echo "No commit message provided"
     exit 1

@@ -10,3 +10,5 @@ title: Understanding Deep Learning
 - [[Chapter 7 - Gradients and Initialization]]
 - [[Chapter 8 - Measuring performanc]]
 - [[Chapter 9 - Regularization]]
+- [[Chapter 10 - CNNs]]
+- [[Chapter 11 - Residual Networks]]

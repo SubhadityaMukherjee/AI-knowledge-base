@@ -6,65 +6,65 @@
       <description>Last 10 notes on Subhaditya&#039;s KB</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Knowledge Base</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/</guid>
-    <description></description>
-    <pubDate>Wed, 18 Sep 2024 15:53:39 GMT</pubDate>
+    <title>Chapter 12 - Transformers</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-12---Transformers</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-12---Transformers</guid>
+    <description>Chapter 12 - Transformers Dot Product Attention Self Attention Position Encoding Scaled Dot Product Attention Multi Head Attention Layer Normalization Tokenizer Embedding Encoder ...</description>
+    <pubDate>Mon, 30 Sep 2024 14:33:23 GMT</pubDate>
   </item><item>
-    <title>Mental Health</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/Mental-Health/</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/Mental-Health/</guid>
-    <description></description>
-    <pubDate>Wed, 18 Sep 2024 15:53:16 GMT</pubDate>
+    <title>Normalization</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Normalization</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Normalization</guid>
+    <description>Normalization .</description>
+    <pubDate>Mon, 30 Sep 2024 14:20:47 GMT</pubDate>
   </item><item>
-    <title>Drafts</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/Drafts/</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/Drafts/</guid>
-    <description></description>
-    <pubDate>Wed, 18 Sep 2024 15:53:02 GMT</pubDate>
+    <title>Shake-Drop</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Shake-Drop</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Shake-Drop</guid>
+    <description>Shake-Drop draws a Bernoulli variable that decides whether each block will be subject to Shake-Shake or behave like a standard residual unit on this training step ...</description>
+    <pubDate>Mon, 30 Sep 2024 14:19:24 GMT</pubDate>
   </item><item>
-    <title>Deep Learning</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/DL/</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/DL/</guid>
-    <description></description>
-    <pubDate>Wed, 18 Sep 2024 15:52:47 GMT</pubDate>
+    <title>Shake-Shake</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Shake-Shake</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Shake-Shake</guid>
+    <description>Shake-Shake randomly re-weights the paths during the forward and backward passes. In the forward pass, this can be viewed as synthesizing random data, and in the backward pass, as injecting another form of noise into the training method.</description>
+    <pubDate>Mon, 30 Sep 2024 14:19:12 GMT</pubDate>
   </item><item>
-    <title>Book Notes</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/BookNotes/</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/BookNotes/</guid>
-    <description></description>
-    <pubDate>Wed, 18 Sep 2024 15:51:59 GMT</pubDate>
+    <title>BlockDrop</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/BlockDrop</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/BlockDrop</guid>
+    <description>BlockDrop which analyzes an existing network and decides which residual blocks to use at runtime with the goal of improving the eﬀiciency of inference ...</description>
+    <pubDate>Mon, 30 Sep 2024 14:18:39 GMT</pubDate>
   </item><item>
-    <title>Productivity</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/Productivity/</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Articles/Productivity/</guid>
-    <description></description>
-    <pubDate>Wed, 18 Sep 2024 15:48:16 GMT</pubDate>
+    <title>ResNeXt</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ResNeXt</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ResNeXt</guid>
+    <description>ResNeXt places a residual connection around multiple parallel convolutional branches.</description>
+    <pubDate>Mon, 30 Sep 2024 14:14:43 GMT</pubDate>
   </item><item>
-    <title>CommonCrawl</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/CommonCrawl</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/CommonCrawl</guid>
-    <description>CommonCrawl.</description>
-    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+    <title>Chapter 11 - Residual Networks</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-11---Residual-Networks</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-11---Residual-Networks</guid>
+    <description>Chapter 11 - Residual Networks Sequential Processing Limitations Alex Net, Vgg . image classification performance decreases again as further layers are added Exploding Gradient Residual Res Net Skip Connection Batch Normalization Architectures Res Net Dense Net Unet Highway Convolutions ResNeXt Extras BlockDrop Shake-Shake Shake-Drop .</description>
+    <pubDate>Mon, 30 Sep 2024 14:07:31 GMT</pubDate>
   </item><item>
-    <title>ColorMap</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ColorMap</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ColorMap</guid>
-    <description>ColorMap Color Spaces .</description>
-    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+    <title>PixelShuffle</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/PixelShuffle</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/PixelShuffle</guid>
+    <description>PixelShuffle Conv filters with a stride of 1/s to scale up 1D signals by a factor of s. Only the weights that lie exactly on positions are used to create the outputs, and the ones that fall between positions are discarded.</description>
+    <pubDate>Mon, 30 Sep 2024 14:03:37 GMT</pubDate>
   </item><item>
-    <title>Color Spaces</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Spaces</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Spaces</guid>
-    <description>Color Spaces Divide Oriented Intuitive Color spaces .</description>
-    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+    <title>Channels</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Channels</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Channels</guid>
+    <description>Channels .</description>
+    <pubDate>Mon, 30 Sep 2024 13:59:50 GMT</pubDate>
   </item><item>
-    <title>Color Space Transformations</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Space-Transformations</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Color-Space-Transformations</guid>
-    <description>Color Space Transformations Image data is encoded into 3 stacked matrices, each of size height×width. These matrices represent pixel values for an individual RGB color value Lighting biases are amongst the most frequently occurring challenges to image recognition problems A quick fix to overly bright or dark images is to loop through the images and decrease or increase the pixel values by a constant value.</description>
-    <pubDate>Wed, 18 Sep 2024 11:42:12 GMT</pubDate>
+    <title>Atrous Convolution</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Atrous-Convolution</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Atrous-Convolution</guid>
+    <description>Atrous Convolution The kernel size can be increased to integrate over a larger area However, it typically remains an odd number so that it can be centered around the current position ...</description>
+    <pubDate>Mon, 30 Sep 2024 09:37:34 GMT</pubDate>
   </item>
     </channel>
   </rss>

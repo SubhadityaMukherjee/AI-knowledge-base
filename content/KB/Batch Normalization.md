@@ -1,12 +1,14 @@
 ---
 toc: true
 title: Batch Normalization
-tags: ['regularization']
+tags:
+  - normalization
 date modified: Monday, October 10th 2022, 2:02:33 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Batch Normalization
+
 - bias=False for Linear/Conv2D for input and True for output #deeplearning
 - Normalizes #architecture
 - Input [[Distributions]] change per layer -> Make sure they stay similar
@@ -22,5 +24,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\hat x_{ij} \leftarrow \frac{x_{ij}-\mu_j}{\sqrt{\sigma^2_j + \epsilon}}$$
 - $$\hat x_{ij} \leftarrow \gamma \hat x_{ij} + \beta$$
 
+## Why
 
-
+- Stable forward prop
+- Higher learning rates
+- [[Regularization]]

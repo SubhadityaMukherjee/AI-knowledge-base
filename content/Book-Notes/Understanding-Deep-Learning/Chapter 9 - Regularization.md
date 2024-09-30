@@ -3,6 +3,7 @@ title: Chapter 9 - Regularization
 toc: true
 tags:
   - regularization
+  - normalization
 date modified: Wednesday 18th September 2024, Wed
 date created: Wednesday 18th September 2024, Wed
 ---

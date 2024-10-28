@@ -14,6 +14,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Too much pooling reduces performance
 	- Multiple convs first
 - Max pool + dilated/[Strided](Strided.md) convs control effective [Receptive field](Receptive%20field.md) size
-
-
-
+- [[Downsampling]]
+- ![[Pasted image 20241002113608.png]]

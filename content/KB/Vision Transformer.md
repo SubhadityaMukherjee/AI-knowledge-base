@@ -21,5 +21,3 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - finding larger ViT models develop significantly stronger intermediate representations through larger pretraining datasets
 - [MLP-Mixer](MLP-Mixer)
 
-
-

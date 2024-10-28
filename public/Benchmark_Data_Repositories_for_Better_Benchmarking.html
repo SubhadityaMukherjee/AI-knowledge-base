@@ -1,0 +1,1109 @@
+<html>
+<head>
+<style>
+/* Colors for themes */
+:root {
+    --text-color: black;
+    --background-color: white;
+    --accent-color: rgb(65, 110, 210);
+    --title-text-color: rgb(27, 27, 27);
+    --subject-text-color: rgba(0, 0, 0, 0.65);
+    --body-text-color: rgb(27, 27, 27);
+    --blockquote-text-color: rgba(0, 0, 0, 0.72);
+    --blockquote-border-color: rgba(0, 0, 0, 0.1);
+    --horizontal-line-color: rgba(0, 0, 0, 0.2);
+    --table-background-color: rgba(0, 0, 0, 0.1);
+    --tag-background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: white;
+        --background-color: rgb(28, 28, 28);
+        --accent-color: rgb(90, 200, 250);
+        --title-text-color: rgba(255, 255, 255, 0.78);
+        --subject-text-color: rgba(255, 255, 255, 0.65);
+        --body-text-color: rgba(255, 255, 255, 1.0);
+        --blockquote-text-color: rgba(255, 255, 255, 0.78);
+        --blockquote-border-color: rgba(255, 255, 255, 0.1);
+        --horizontal-line-color: rgb(111, 111, 111);
+        --table-background-color: rgba(255, 255, 255, 0.1);
+        --tag-background-color: rgb(111, 111, 111);
+    }
+}
+
+:root {
+    background-color: var(--background-color);
+    font-family: -apple-system-font, Helvetica, Roboto, Arial, sans-serif;
+}
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.2em;
+    color: var(--title-text-color);
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+h2 {
+    font-weight: normal;
+    font-size: 1.43em;
+    line-height: 1.27275em;
+    color: var(--subject-text-color);
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+}
+h3 {
+    font-size: 1.25em;
+    color: var(--title-text-color);
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+h4 {
+    font-size: 1em;
+    margin: 1em 0;
+    text-align: center;
+    color: var(--text-color);
+}
+h5 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.9em;
+    margin: 1em 0;
+    color: var(--text-color);
+}
+p:not(blockquote p), u, s  {
+    color: var(--text-color);
+}
+s {
+    text-decoration: line-through;
+}
+u {
+    text-decoration: underline;
+}
+mark.orange {
+    background-color: var(--orange-color);
+}
+mark.red {
+    background-color: var(--red-color);
+}
+mark.yellow {
+    background-color: var(--yellow-color);
+}
+mark.green {
+    background-color: var(--green-color);
+}
+mark.blue {
+    background-color: var(--blue-color);
+}
+mark.pink {
+    background-color: var(--pink-color);
+}
+mark.purple {
+    background-color: var(--purple-color);
+}
+mark.other {
+    background-color: var(--other-color);
+}
+u.orange, s.orange {
+    text-decoration-color: var(--orange-color);
+}
+u.red, s.red {
+    text-decoration-color: var(--red-color);
+}
+u.yellow, s.yellow {
+    text-decoration-color: var(--yellow-color);
+}
+u.green, s.green {
+    text-decoration-color: var(--green-color);
+}
+u.blue, s.blue {
+    text-decoration-color: var(--blue-color);
+}
+u.pink, s.pink {
+    text-decoration-color: var(--pink-color);
+}
+u.purple, s.purple {
+    text-decoration-color: var(--purple-color);
+}
+u.other, s.other {
+    text-decoration-color: var(--other-color);
+}
+li, span, th, td {
+    color: var(--text-color);
+}
+blockquote {
+    color: var(--blockquote-text-color);
+    border-left: 3px solid var(--blockquote-border-color);
+    margin-left: 2px;
+    margin-right: 6px;
+    padding-left: 16px;
+}
+blockquote.orange {
+    border-left: 3px solid var(--orange-color);
+}
+blockquote.red {
+    border-left: 3px solid var(--red-color);
+}
+blockquote.yellow {
+    border-left: 3px solid var(--yellow-color);
+}
+blockquote.green {
+    border-left: 3px solid var(--green-color);
+}
+blockquote.blue {
+    border-left: 3px solid var(--blue-color);
+}
+blockquote.pink {
+    border-left: 3px solid var(--pink-color);
+}
+blockquote.purple {
+    border-left: 3px solid var(--purple-color);
+}
+blockquote.other {
+    border-left: 3px solid var(--other-color);
+}
+
+caption, figcaption {
+    font-size: 0.85em;
+    font-style: italic;
+    color: var(--text-color);
+}
+body {
+    text-align: start;
+    word-wrap: break-word;
+}
+
+body.rtl {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+
+a[href] {
+    color: var(--accent-color);
+}
+
+body {
+    text-rendering: optimizeLegibility;
+}
+
+body * {
+    /* Scale down anything larger than our view. Max-width maintains aspect ratios on images. */
+    max-width: 100%;
+}
+
+img, table {
+    /* By default, images are centered on their own line. */
+    margin: 0.5em auto;
+    display: block;
+    height: auto;
+}
+
+figure img {
+    margin-bottom: 0;
+}
+
+figcaption > * {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.tag {
+    align-items: center;
+    background-color: var(--tag-background-color);
+    border-radius: .5em;
+    color: var(--text-color);
+    display: inline-flex;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .5em;
+    padding-right: .5em;
+    white-space: nowrap;
+}
+
+body :matches(figure) p {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+.float.left {
+    float: left;
+    margin-right: 20px;
+}
+
+.float.right {
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+ul.list-style-type-none, ol.list-style-type-none, .list-style-type-none > li {
+    list-style-type: none;
+    -webkit-padding-start: 0;
+}
+
+.list-style-type-none.code-block code {
+    white-space: pre-wrap;
+}
+
+figure {
+    margin: 0;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+}
+
+hr {
+    background: var(--horizontal-line-color);
+    height: 2px;
+    border: 0;
+}
+
+pre {
+    font-size: 1em;
+    line-height: 1.45em;
+    color: var(--text-color);
+}
+
+
+/* Collapse excess whitespace. */
+body p > p:empty,
+body div > p:empty,
+body p > div:empty,
+body div > div:empty,
+body p + br,
+body img + br
+{
+    display: none;
+}
+
+table {
+    font-size: 0.9em;
+    word-wrap: break-word;
+    border-collapse: collapse;
+}
+
+table td, body table th {
+    padding: 0.25em 0.5em;
+    border: 1px solid var(--text-color);
+}
+
+.delimiter {
+    margin-left: 0.45em;
+    margin-right: 0.45em;
+    margin-top: 0.07em;
+    padding: 0;
+}
+
+table th {
+    background-color: var(--table-background-color);
+}
+
+sup, sub {
+    line-height: 1;
+    font-size: 0.75em;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Printing and mailing. */
+body.exported {
+    font-size: 1.2em;
+}
+
+.exported {
+    line-height: 1.5em;
+}
+
+.exported a[href] {
+    text-decoration: underline;
+}
+
+body.exported {
+    margin: 0;
+    padding: 0;
+}
+
+.exported .float {
+    float: none;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+}
+
+body.exported figcaption {
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.exported .delimiter::after {
+    content: "";
+}
+
+
+@media print {
+    :root {
+        --text-color: black;
+        --background-color: white;
+        --accent-color: rgb(65, 110, 210);
+        --title-text-color: rgb(27, 27, 27);
+        --subject-text-color: rgba(0, 0, 0, 0.65);
+        --body-text-color: rgb(27, 27, 27);
+        --blockquote-text-color: rgba(0, 0, 0, 0.72);
+        --blockquote-border-color: rgba(0, 0, 0, 0.1);
+        --horizontal-line-color: rgba(0, 0, 0, 0.2);
+        --table-background-color: rgba(0, 0, 0, 0.1);
+        --tag-background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    .original-url {
+        display: none;
+    }
+    
+    body .float.left {
+        float: left !important;
+    }
+    
+    body .float.right {
+        float: right !important;
+    }
+    
+    body .float {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+
+@media screen {
+    body {
+        margin: 0;
+        padding: 0;
+        -webkit-user-select: none;
+        overflow-x: hidden;
+        -webkit-text-size-adjust: none;
+    }
+    
+    .cached embed, .cached applet, .cached object {
+        display: none !important;
+    }
+    
+    body {
+        pointer-events: auto;
+        -webkit-user-select: auto;
+        overflow: visible;
+    }
+    
+    body:focus {
+        outline: none;
+    }
+    
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        position: relative;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+    hr {
+        height: 1px;
+    }
+}
+
+@media screen and (min-width: 0px) {
+    /* Includes iPhone 5 in portrait */
+    body { padding-left: 16px; padding-right: 16px; }
+}
+
+@media screen and (min-width: 375px) {
+    /* iPhone 6 in portrait */
+    body { padding-left: 18px; padding-right: 18px; }
+}
+
+@media screen and (min-width: 414px) {
+    /* iPhone 6 Plus in portrait */
+    body { padding-left: 20px; padding-right: 20px; }
+}
+
+/* iPhone 5 in landscape (568px) */
+
+@media screen and (min-width: 667px) {
+    /* iPhone 6 in landscape */
+    body { padding-left: 40px; padding-right: 40px; }
+}
+
+@media screen and (max-width: 569px) {
+    /* iPhone 5 in landscape (568px) and smaller, including all iPhones in portrait */
+    h1 {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1.2777em;
+    }
+    h3 {
+        font-size: 1.15em;
+        line-height: 1.6em;
+    }
+    h1 + h3 {
+        margin-top: -0.65em;
+    }
+}
+
+@media screen and (min-width: 704px) {
+    /* iPad in landscape with the sidebar open */
+    body { padding-left: 42px; padding-right: 42px; }
+}
+
+@media screen and (min-width: 736px) {
+    /* iPhone 6 Plus in landscape */
+    body { padding-left: 60px; padding-right: 60px; }
+}
+
+@media only screen and (min-width: 780px) {
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    /* Readable margins. */
+    body.system { max-width: 83.2ex; }
+    body.athelas { max-width: 104ex; }
+    body.charter { max-width: 86ex; }
+    body.georgia { max-width: 94ex; }
+    body.iowan { max-width: 90ex; }
+    body.palatino { max-width: 97ex; }
+    body.seravek { max-width: 87ex; }
+    body.times { max-width: 97ex; }
+    
+    :matches(body.pingfangsc, body.pingfangtc) { max-width: 87.6ex; }
+    :matches(body.heitisc, body.heititc) { max-width: 74.8ex; }
+    :matches(body.songtisc, body.songtitc) { max-width: 102ex; }
+    :matches(body.kaitisc, body.kaititc) { max-width: 102ex; }
+    :matches(body.yuantisc, body.yuantitc) { max-width: 86.2ex; }
+    :matches(body.libiansc, body.libiantc) { max-width: 95ex; }
+    :matches(body.weibeisc, body.weibeitc) { max-width: 99ex; }
+    :matches(body.yuppysc, body.yuppytc) { max-width: 87.6ex; }
+    
+    body.hiraginosans { max-width: 75.7ex; }
+    body.hiraginokaku { max-width: 76.4ex; }
+    body.hiraginomincho { max-width: 77.5ex; }
+    body.hiraginomaru { max-width: 75.1ex; }
+    
+    body.applesdgothicneo { max-width: 82ex; }
+    body.nanumgothic { max-width: 88.6ex; }
+    body.nanummyeongjo { max-width: 94.1ex; }
+}
+
+body {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* Use slightly smaller page padding when vertically constrained. */
+@media screen and (max-height: 700px) {
+    body {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+</style>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0"/>
+</head>
+<body>
+<h1 id="value-ladendisciplinaryshiftsinmachinelearning">Value-laden disciplinary shifts in machine learning</h1>
+
+<h2 id="ravitdotansmithamilli">Ravit Dotan, Smitha Milli</h2>
+
+<h3 id="proceedingsofthe2020conferenceonfairnessaccountabilityandtransparency2020page1–https:doi.org10.11453351095.3373157"><a href="https://doi.org/10.1145/3351095.3373157">Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, 2020, Page 1–</a></h3>
+
+<h4 id="page1">Page 1</h4>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Benchmark Data Repositories for Better
+Benchmarking</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>comparatively less attention has been paid to the repositories where
+these datasets are stored, documented, and shared</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Introduction</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Benchmarking can help quantify
+progress on these tasks over time, and the availability of a well-studied, standard task evaluation
+environment can be a critical first step before moving to real-world applications, especially in high-
+stakes or expensive domains.</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Early data repositories, such as the UCI ML Repository, arose to address the data needs that come
+with ML benchmarking</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>the process of selecting a dataset is often less about a scientific or engineering application and more
+about the compositional characteristics of the data and its associated tasks, for which a particular
+class of methods is applicable</p>
+</blockquote>
+
+<h4 id="page2">Page 2</h4>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>benchmark repository</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>to describe repositories that support the discovery and use of datasets for evaluating ML models</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Valuing Datasets as Research Contributions</strong></p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Dataset Citations and Metrics</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>persistent identifier (PID), such as a DOI, that can reliably
+be used to access a dataset has been widely recommended by experts</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>ML
+datasets and their documentation frequently lack PIDs and are often only available via GitHub or
+personal/research group websites</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>In ML, however, datasets are often referred
+to using combinations of names, descriptions, and associated papers, which can be challenging to
+disambiguate</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>include the minted DOI</p>
+</blockquote>
+
+<h4 id="page3">Page 3</h4>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Connection Metadata</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>connects a dataset to associated research entities (such as the dataset’s creators or
+maintainers, publications, code, or other datasets)</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Introductory papers can
+give the data a story beyond standardized documentation, providing useful context about the problem,
+background on data collection procedures, and guidance about tasks for which the data have already
+been used.</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Introductory papers can be included in benchmark repositories as a
+standardized metadata field</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>dataset’s point of contact:
+someone responsible for answering questions about the dataset and addressing any issues</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>lthough long-term data maintenance, and determining different
+stakeholders’ responsibilities in that maintenance, remain challenging tasks [28, 60, 61], establishing
+a point of contact can help prevent the development of a disconnect between a dataset and its creators,
+which is not uncommon in ML</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Dataset Licenses</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Data repositories can include licenses as part of a dataset’s metadata.</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>it
+is ambiguous if models trained on a dataset count as “derivative work”</p>
+</blockquote>
+
+<h4 id="page4">Page 4</h4>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>current licensing practices for ML datasets are often irregular,
+conflicting, poorly documented, or over-permissive given the dataset content</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Addressing Issues with Dataset Content</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>technical flaws such as labeling errors and annotation artifacts</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>privacy
+and copyright violations</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>inclusions of hate speech or other harmful content</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>representational biases</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>miscellaneous ethical issues</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Contextual Metadata</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>including information about a dataset’s
+source, funding, collection, annotation, and preprocessing, benchmark repositories can illuminate the
+assumptions and motivations of dataset creators and flag potential dataset issues</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Data Cards</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>datasheets</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Dataset Nutrition Label</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>FAIR principles</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Data selection, filtering, and annotation processes are important design decisions that can significantly
+impact downstream performance [7, 38, 75, 100, 101]; however, they tend to be under-documented</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Quality Review</strong></p>
+</blockquote>
+
+<h4 id="page5">Page 5</h4>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>datasets containing personally identifiable information should not be released</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Benchmark repositories can help
+identify these problems throughout the data lifecycle by (1) performing a pre-release quality review
+[92] to catch issues before a dataset is shared, and (2) by serving as a centralized location to collect
+users’ reports and concerns [72] to flag issues throughout a dataset’s use and reuse</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>It is an open
+question to what extent repositories should be involved in these decisions; several popular repositories
+(e.g., Zenodo, Mendeley, etc.) view their role as only providing infrastructure and not conducting any
+kind of data review.</p>
+</blockquote>
+
+<h4 id="page6">Page 6</h4>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Dataset Revision and Deprecation</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>dataset revision by documenting data versions and connecting
+each dataset to a responsible point of contact</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>can enforce versioning by assigning a new version number
+whenever a data file is changed.</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>deprecation of datasets.</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>creators often withdraw their dataset without an explanation of why it
+was withdrawn or explicit instructions not to use the dataset</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>deprecation reports are posted in a scattered, decentralized manner via news articles,
+conference papers, or researcher or lab websites</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>it can be unclear to researchers if a
+dataset is acceptable to use; it is not uncommon for datasets to remain in use after their deprecation,
+including in published, peer-reviewed papers</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>If a deprecation report is clearly displayed in the same place where a dataset was available, it
+clarifies to researchers (and reviewers) that the dataset should not be used</p>
+</blockquote>
+
+<h4 id="page7">Page 7</h4>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Compositional and Task Metadata</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Compositional metadata</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>describe the makeup of a dataset,</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Croissant</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Task metadata</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>include the intended or appropriate ML tasks for a dataset (e.g., image classification
+or time-series prediction) and specialized metadata relevant to those tasks</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>As an example, HuggingFace Datasets
+[17], which specializes in NLP data, collects metadata on language and multilinguality, text creation,
+and fine-grained NLP tasks</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>repositories can require that data
+donors provide high-quality compositional and task metadata, including specialized task metadata,
+where appropriate</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Benchmark Metadata</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>if a repository displays a
+particular benchmarked result for a dataset, they should ensure that specific details on all settings</p>
+</blockquote>
+
+<h4 id="page8">Page 8</h4>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>and hyperparameter values used to obtain that result are available</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Encouraging Holistic Evaluation</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Kaggle [18]
+and Papers with Code</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Leaderboarding</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Further, as measures
+of uncertainty are seldom incorporated, seemingly record-breaking performance improvements are
+not always statistically significant</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Analysis Beyond Single Metrics</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>variety of metrics, capturing model size and
+complexity, energy consumption, inference latency, and the amount of data used</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>error analysis or disaggregated evaluations</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Metric Uncertainty</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Metrics shown without any measure of uncertainty can prompt fallacious conclusions, e.g., that
+one model performs definitively better than another</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>Instead, including uncertainty makes these
+benchmarked results more informative [1, 157], and a growing body of methodologies have been
+developed for estimating uncertainty, computing confidence intervals, and performing statistical
+significance testing in the context of model comparison</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>variance, uncertainty, and statistical significance
+in model analysis</p>
+</blockquote>
+
+<h4 id="page9">Page 9</h4>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Living Datasets</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>leaderboards can evaluate submitted models
+on a private, hitherto unused test set [167–169] (e.g., as done by Kaggle) or on out-of-distribution
+data</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>eaderboards can also support “living” or evolving datasets,
+to which dataset creators continuously add new examples or tasks and remove outdated or erroneous
+examples.</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>benchmarked performances of two models evaluated at two
+different points in time may not be directly comparable</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>robust models will generally outperform those using a specific trick or artifact as
+evaluations are repeated over time</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>de-incentivizing
+overfitting and helping bridge the gap between benchmarked and real-world performance.</p>
+</blockquote>
+
+<h5 id="underline:">Underline:</h5>
+
+<blockquote>
+<p><strong>Dataset Discoverability</strong></p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>there also exists a plethora
+of other high-quality datasets that could have been used but did not win the “benchmark lottery”</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>existing standards emphasize
+the importance of standardized, rich metadata [39, 129, 130], which enable searching for datasets
+via keywords, filtering, and controlled vocabularies</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>search based on compositional and task
+metadata</p>
+</blockquote>
+
+<h5 id="highlight:">Highlight:</h5>
+
+<blockquote>
+<p>UCI ML Repository’s search functionality includes a filter
+for classification, regression, clustering, or other datasets.</p>
+</blockquote>
+
+</body>
+</html>

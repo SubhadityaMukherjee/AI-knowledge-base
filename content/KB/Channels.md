@@ -13,3 +13,4 @@ date created: Monday 30th September 2024, Mon
 - ![[Pasted image 20240930160007.png]]
 - ![[Pasted image 20240930160013.png]]
 - ![[Pasted image 20240930160026.png]]
+- Many to one or one to many or one to one

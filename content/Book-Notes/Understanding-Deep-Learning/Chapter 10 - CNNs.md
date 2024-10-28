@@ -25,14 +25,17 @@ date created: Monday 30th September 2024, Mon
 - [[Downsampling]]
 - [[Pooling]]
 - [[Transposed Conv]]
+- [[1x1 conv]]
+- ![[Pasted image 20241002112437.png]]
 
 ## [[Image Classification]]
 - [[Alex Net]]
 - [[Relu]]
 - [[Vgg]]
-
+- [[Res Net]]
 ## [[Object Detection]]
 - [[YOLO]]
+- [[Non Maxima Supression]]
 
 ## [[Semantic Segmentation]]
 - [[Vgg]]
@@ -47,3 +50,5 @@ date created: Monday 30th September 2024, Mon
 - [[Xavier Initialization]]
 - [[Cutout]]
 - [[Unet]]
+- [[Mixup]]
+- [[Batch Normalization]]

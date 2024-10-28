@@ -10,6 +10,4 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[Dropout]] + [[Relu]]
 - No of filters increase according to depth
 - ![[Pasted image 20220306120121.png]]
-
-
-
+- ![[Pasted image 20241002113939.png]]

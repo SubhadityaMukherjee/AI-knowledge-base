@@ -11,7 +11,9 @@ date created: Monday 30th September 2024, Mon
 ```toc
 ```
 - [[Dot Product Attention]]
+- weight sharing -> reuse the same weights for every input token
 - [[Self Attention]]
+- [[Basic Transformer]]
 - [[Position Encoding]]
 - [[Scaled Dot Product Attention]]
 - [[Multi Head Attention]]

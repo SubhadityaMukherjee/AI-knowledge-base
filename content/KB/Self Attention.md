@@ -8,6 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Self [Attention](Attention.md)
 - [paper](https://arxiv.org/abs/1706.03762v5)
+- hypernetworks
 - Basically [Scaled Dot Product Attention](Scaled%20Dot%20Product%20Attention.md)
 - Q,K,V all from same module but prev layer
 - Weighted average over all input vectors $$y_{i}= \Sigma_{j}w_{ij}x_{j}$$
@@ -42,6 +43,4 @@ def attention(K, V, Q):
 
 ## Ref
 - [perterbloem](https://peterbloem.nl/blog/transformers)
-
-
 

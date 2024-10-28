@@ -14,6 +14,6 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- Words are written in succession with no indication of word boundaries
 - [Word Structure](Word%20Structure.md)
 - [Punctuation](Punctuation.md)
-
+- [[Sub word tokenization]]
 
 

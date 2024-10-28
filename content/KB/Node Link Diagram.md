@@ -1,7 +1,9 @@
 ---
 toc: true
 title: Node LInk Diagram
-tags: ['visualization']
+tags:
+  - visualization
+  - graph
 date modified: Monday, October 10th 2022, 2:02:21 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
@@ -19,6 +21,4 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Node Distribution](Node%20Distribution.md)
 - [Force Directed Graph Layout](Force%20Directed%20Graph%20Layout.md)
 - [Hierarchical Edge Bundling](Hierarchical%20Edge%20Bundling.md)
-
-
 

@@ -1,7 +1,9 @@
 ---
 toc: true
 title: Graphs
-tags: ['visualization']
+tags:
+  - visualization
+  - graph
 date modified: Monday, October 10th 2022, 2:02:26 pm
 date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
@@ -11,6 +13,5 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - edges $E \subseteq V \times V$
 - vertices $V$
 - [Small World graphs](Small%20World%20graphs.md)
-
-
-
+- ![[Pasted image 20241022123559.png]]
+- 

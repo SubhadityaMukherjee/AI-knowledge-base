@@ -6,65 +6,65 @@
       <description>Last 10 notes on Subhaditya&#039;s KB</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Chapter 12 - Transformers</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-12---Transformers</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-12---Transformers</guid>
-    <description>Chapter 12 - Transformers Dot Product Attention Self Attention Position Encoding Scaled Dot Product Attention Multi Head Attention Layer Normalization Tokenizer Embedding Encoder ...</description>
-    <pubDate>Mon, 30 Sep 2024 14:33:23 GMT</pubDate>
+    <title>Graph convolutional network</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-convolutional-network</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-convolutional-network</guid>
+    <description>Graph Convolutional Network spatial-based convolutional graph neural networks, or GCNs These models are convolutional in that they update each node by aggregating information ...</description>
+    <pubDate>Tue, 22 Oct 2024 11:09:16 GMT</pubDate>
   </item><item>
-    <title>Normalization</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Normalization</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Normalization</guid>
-    <description>Normalization .</description>
-    <pubDate>Mon, 30 Sep 2024 14:20:47 GMT</pubDate>
+    <title>Edge Prediction Tasks</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Edge-Prediction-Tasks</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Edge-Prediction-Tasks</guid>
+    <description>Edge Prediction Tasks Edge Prediction Tasks The network predicts whether or not there should be an edge between nodes n and m .</description>
+    <pubDate>Tue, 22 Oct 2024 11:08:28 GMT</pubDate>
   </item><item>
-    <title>Shake-Drop</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Shake-Drop</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Shake-Drop</guid>
-    <description>Shake-Drop draws a Bernoulli variable that decides whether each block will be subject to Shake-Shake or behave like a standard residual unit on this training step ...</description>
-    <pubDate>Mon, 30 Sep 2024 14:19:24 GMT</pubDate>
+    <title>Node Level Tasks</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Node-Level-Tasks</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Node-Level-Tasks</guid>
+    <description>Node Level Tasks Node Level Tasks network assigns a label (classification) or one or more values (regression) to each node of the graph, using both the graph structure and node embeddings ...</description>
+    <pubDate>Tue, 22 Oct 2024 11:08:28 GMT</pubDate>
   </item><item>
-    <title>Shake-Shake</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Shake-Shake</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Shake-Shake</guid>
-    <description>Shake-Shake randomly re-weights the paths during the forward and backward passes. In the forward pass, this can be viewed as synthesizing random data, and in the backward pass, as injecting another form of noise into the training method.</description>
-    <pubDate>Mon, 30 Sep 2024 14:19:12 GMT</pubDate>
+    <title>Graph Level Tasks</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Graph-Level-Tasks</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Graph-Level-Tasks</guid>
+    <description>Graph Level Tasks Graph Level Tasks network assigns a label or estimates one or more values from the entire graph Graph mean pooling .</description>
+    <pubDate>Tue, 22 Oct 2024 11:08:28 GMT</pubDate>
   </item><item>
-    <title>BlockDrop</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/BlockDrop</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/BlockDrop</guid>
-    <description>BlockDrop which analyzes an existing network and decides which residual blocks to use at runtime with the goal of improving the eﬀiciency of inference ...</description>
-    <pubDate>Mon, 30 Sep 2024 14:18:39 GMT</pubDate>
+    <title>Graph mean pooling</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-mean-pooling</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-mean-pooling</guid>
+    <description>Graph Mean Pooling the output node embeddings are combined (e.g., by averaging), and the resulting vector is mapped via a linear transformation or neural network to a fixed-size ...</description>
+    <pubDate>Tue, 22 Oct 2024 11:06:14 GMT</pubDate>
   </item><item>
-    <title>ResNeXt</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ResNeXt</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ResNeXt</guid>
-    <description>ResNeXt places a residual connection around multiple parallel convolutional branches.</description>
-    <pubDate>Mon, 30 Sep 2024 14:14:43 GMT</pubDate>
+    <title>Graph Neural Network</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-Neural-Network</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-Neural-Network</guid>
+    <description>Graph Neural Network model that takes the node embeddings X and the adjacency matrix A as inputs and passes them through a series of K layers. The node embeddings are updated at each layer to create intermediate “hidden” representations H_{k} before finally computing output embeddings H_{K} At the start of this network, each column of the input node embeddings X just contains information about the node itself.</description>
+    <pubDate>Tue, 22 Oct 2024 10:51:15 GMT</pubDate>
   </item><item>
-    <title>Chapter 11 - Residual Networks</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-11---Residual-Networks</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-11---Residual-Networks</guid>
-    <description>Chapter 11 - Residual Networks Sequential Processing Limitations Alex Net, Vgg . image classification performance decreases again as further layers are added Exploding Gradient Residual Res Net Skip Connection Batch Normalization Architectures Res Net Dense Net Unet Highway Convolutions ResNeXt Extras BlockDrop Shake-Shake Shake-Drop .</description>
-    <pubDate>Mon, 30 Sep 2024 14:07:31 GMT</pubDate>
+    <title>Representing Graphs</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Representing-Graphs</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Representing-Graphs</guid>
+    <description>Representing Graphs Representing Graphs Node Link Diagram Adjacency matrix .</description>
+    <pubDate>Tue, 22 Oct 2024 10:50:25 GMT</pubDate>
   </item><item>
-    <title>PixelShuffle</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/PixelShuffle</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/PixelShuffle</guid>
-    <description>PixelShuffle Conv filters with a stride of 1/s to scale up 1D signals by a factor of s. Only the weights that lie exactly on positions are used to create the outputs, and the ones that fall between positions are discarded.</description>
-    <pubDate>Mon, 30 Sep 2024 14:03:37 GMT</pubDate>
+    <title>Types of Graphs</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Types-of-Graphs</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Types-of-Graphs</guid>
+    <description>Types of Graphs Types of Graphs Directed edge - one way Undirected edge Knowledge graph - encodes a set of facts about objects, defines relations between them usually a directed heterogenous ...</description>
+    <pubDate>Tue, 22 Oct 2024 10:50:25 GMT</pubDate>
   </item><item>
-    <title>Channels</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Channels</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Channels</guid>
-    <description>Channels .</description>
-    <pubDate>Mon, 30 Sep 2024 13:59:50 GMT</pubDate>
+    <title>Challenges of Graphs</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Challenges-of-Graphs</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Challenges-of-Graphs</guid>
+    <description>Challenges of Graphs Challenges of Graphs variable topology hard to design networks that are expressive enough might be enormous may only have a monolithic graph → so cant do training ...</description>
+    <pubDate>Tue, 22 Oct 2024 10:50:25 GMT</pubDate>
   </item><item>
-    <title>Atrous Convolution</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Atrous-Convolution</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Atrous-Convolution</guid>
-    <description>Atrous Convolution The kernel size can be increased to integrate over a larger area However, it typically remains an odd number so that it can be centered around the current position ...</description>
-    <pubDate>Mon, 30 Sep 2024 09:37:34 GMT</pubDate>
+    <title>Properties of Adjacency matrix</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Properties-of-Adjacency-matrix</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Properties-of-Adjacency-matrix</guid>
+    <description>Properties of Adjacency Matrix Properties of Adjacency matrix if we raise the adjacency matrix to the power of L, the entry at position (m,n) of A^L contains the number of unique walks ...</description>
+    <pubDate>Tue, 22 Oct 2024 10:49:58 GMT</pubDate>
   </item>
     </channel>
   </rss>

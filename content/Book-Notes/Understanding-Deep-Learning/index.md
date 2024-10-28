@@ -12,3 +12,4 @@ title: Understanding Deep Learning
 - [[Chapter 9 - Regularization]]
 - [[Chapter 10 - CNNs]]
 - [[Chapter 11 - Residual Networks]]
+- [[Chapter 12 - Graph Networks]]

@@ -7,6 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Strided
+- ![[Pasted image 20241002112411.png]]
 - Normally S = 1
 - S>1 -> [Downsampling](Downsampling.md)
 - Dilated

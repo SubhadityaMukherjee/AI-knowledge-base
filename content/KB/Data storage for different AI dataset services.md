@@ -11,10 +11,64 @@ date created: Friday 27th September 2024, Fri
 ```toc
 ```
 - [Analyze data sharing platforms](https://github.com/openml/meta/issues/13)
-- HF : Folder of parquet files , with the occasional metadata csv
-- Kaggle : Pretty much anything, but usually a folder with files and metadata
-- NCBI (Bio tech info) : A tab delimited file : DataSet SOFT (but saved as a .gz archive)
-- Fastai : tar.gz
-- [COCO dataset](https://cocodataset.org/#overview) : good for checking image tasks - # [Detection](https://cocodataset.org/#detection-2020) | [DensePose](https://cocodataset.org/#densepose-2020) | [Keypoints](https://cocodataset.org/#keypoints-2020) | [Stuff](https://cocodataset.org/#stuff-2019) | [Panoptic](https://cocodataset.org/#panoptic-2020) | [Captions](https://cocodataset.org/#captions-2015)
-	- folder with files and label splits
-- [U.S. Department of Energy Office of Scientific and Technical Information](https://www.osti.gov/dataexplorer/)  (Physics): Images are in .zip, tabular in .csv and metadata as .xml
+- [[Benchmark Data Repositories for Better Benchmarking]]
+## Template
+- How do they store data?
+	- blank
+- Why is it useful?
+	- blank
+- Data upload interface
+- Data view interface
+
+## Kaggle
+- They started with datasets, and then moved on to other things
+- How do they store data?
+	- Pretty much anything, but usually a folder with files and metadata
+- Why is it useful?
+	- competitions
+	- they were the pretty much the first ones in this space
+	- community features (likes etc)
+- Data upload interface
+	- ![[Pasted image 20241007164815.png]]
+	- ![[Pasted image 20241007164830.png]]
+- Data view interface
+	- ![[Pasted image 20241007164801.png]]
+## Hugging Face
+- Started with models, integrated with deep learning libraries. they took advantage of the rise in transformer libraries and then supported all of the ones since
+- How do they store data?
+	- Folder of parquet files , with the occasional metadata csv
+- Why is it useful?
+	- easy to view the dataset directly without downloading
+	- spaces to run the data directly
+	- directly copy API command
+	- many papers published
+	- github LFS upload and discussions
+	- community features (likes etc)
+- Data upload interface
+	- ![[Pasted image 20241007163745.png]]
+	- ![[Pasted image 20241007163823.png]]
+- Data view interface
+	- ![[Pasted image 20241007163555.png]]
+
+## [NCBI](https://www.ncbi.nlm.nih.gov/gene?LinkName=geoprofiles_gene&from_uid=78694385) (Bio Tech info)
+- Specific biotech data
+- How do they store data?
+	- A tab delimited file : DataSet SOFT (but saved as a .gz archive)
+- Why is it useful?
+	- Specific data views : eg genes
+- Data view interface
+	- ![[Pasted image 20241007165737.png]]
+	- ![[Pasted image 20241007165755.png]]
+
+## [U.S. Department of Energy Office of Scientific and Technical Information](https://www.osti.gov/dataexplorer/) (Physics)
+- How do they store data?
+	- Images are in .zip, tabular in .csv and metadata as .xml
+- Why is it useful?
+- Data upload interface
+- Data view interface
+
+## Interesting Features for Us
+- Community features - likes, comments 
+- Notebooks
+- Directly copy API command
+- More PR ( implementations of recent datasets/models etc)

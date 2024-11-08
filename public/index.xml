@@ -6,65 +6,65 @@
       <description>Last 10 notes on Subhaditya&#039;s KB</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Graph convolutional network</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-convolutional-network</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-convolutional-network</guid>
-    <description>Graph Convolutional Network spatial-based convolutional graph neural networks, or GCNs These models are convolutional in that they update each node by aggregating information ...</description>
-    <pubDate>Tue, 22 Oct 2024 11:09:16 GMT</pubDate>
+    <title>OpenML x SURF</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/OpenML-x-SURF</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/OpenML-x-SURF</guid>
+    <description>OpenML X SURF supernets - architecture + weight better than transfer learning For Openml Stuff hide test data SURF What They Do consulting help key researchers doesnt scale too well ...</description>
+    <pubDate>Fri, 08 Nov 2024 12:08:10 GMT</pubDate>
   </item><item>
-    <title>Edge Prediction Tasks</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Edge-Prediction-Tasks</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Edge-Prediction-Tasks</guid>
-    <description>Edge Prediction Tasks Edge Prediction Tasks The network predicts whether or not there should be an edge between nodes n and m .</description>
-    <pubDate>Tue, 22 Oct 2024 11:08:28 GMT</pubDate>
+    <title>The Unified Causal AI Pipeline</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/The-Unified-Causal-AI-Pipeline</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/The-Unified-Causal-AI-Pipeline</guid>
+    <description>The Unified Causal AI Pipeline Sara Magliacana - prof at UvA Intro predict the effect of actions and decide effective policies - and how dl - can learn representations from unstructured ...</description>
+    <pubDate>Fri, 08 Nov 2024 09:59:28 GMT</pubDate>
   </item><item>
-    <title>Node Level Tasks</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Node-Level-Tasks</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Node-Level-Tasks</guid>
-    <description>Node Level Tasks Node Level Tasks network assigns a label (classification) or one or more values (regression) to each node of the graph, using both the graph structure and node embeddings ...</description>
-    <pubDate>Tue, 22 Oct 2024 11:08:28 GMT</pubDate>
+    <title>Kipf Normalization</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Kipf-Normalization</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Kipf-Normalization</guid>
+    <description>Kipf Normalization .</description>
+    <pubDate>Wed, 30 Oct 2024 10:47:41 GMT</pubDate>
   </item><item>
-    <title>Graph Level Tasks</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Graph-Level-Tasks</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Graph-Level-Tasks</guid>
-    <description>Graph Level Tasks Graph Level Tasks network assigns a label or estimates one or more values from the entire graph Graph mean pooling .</description>
-    <pubDate>Tue, 22 Oct 2024 11:08:28 GMT</pubDate>
+    <title>Edge Graphs</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Edge-Graphs</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Edge-Graphs</guid>
+    <description>Edge Graphs Edge Graphs each edge in the original graph becomes a node, and every two edges with a common node in the original graph create an edge in the new graph ...</description>
+    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
   </item><item>
-    <title>Graph mean pooling</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-mean-pooling</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-mean-pooling</guid>
-    <description>Graph Mean Pooling the output node embeddings are combined (e.g., by averaging), and the resulting vector is mapped via a linear transformation or neural network to a fixed-size ...</description>
-    <pubDate>Tue, 22 Oct 2024 11:06:14 GMT</pubDate>
+    <title>Layers for GNNs</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Layers-for-GNNs</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Layers-for-GNNs</guid>
+    <description>Layers for GNNs Layers for GNNs combined messages from adjacent nodes by summing them together with the transformed current node → post-multiplying the node embedding matrix H by ...</description>
+    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
   </item><item>
-    <title>Graph Neural Network</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-Neural-Network</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Graph-Neural-Network</guid>
-    <description>Graph Neural Network model that takes the node embeddings X and the adjacency matrix A as inputs and passes them through a series of K layers. The node embeddings are updated at each layer to create intermediate “hidden” representations H_{k} before finally computing output embeddings H_{K} At the start of this network, each column of the input node embeddings X just contains information about the node itself.</description>
-    <pubDate>Tue, 22 Oct 2024 10:51:15 GMT</pubDate>
+    <title>Transductive Models</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Transductive-Models</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Transductive-Models</guid>
+    <description>Transductive Models Transductive Models considers both the labeled and unlabeled data at the same time Semi Supervised It does not produce a rule but merely a labeling for the unknown ...</description>
+    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
   </item><item>
-    <title>Representing Graphs</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Representing-Graphs</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Representing-Graphs</guid>
-    <description>Representing Graphs Representing Graphs Node Link Diagram Adjacency matrix .</description>
-    <pubDate>Tue, 22 Oct 2024 10:50:25 GMT</pubDate>
+    <title>Inductive Models</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Inductive-Models</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Inductive-Models</guid>
+    <description>Inductive Models Inductive Models we exploit a training set of labeled data to learn the relation between the inputs and outputs. Then we apply this to new test data.</description>
+    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
   </item><item>
-    <title>Types of Graphs</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Types-of-Graphs</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Types-of-Graphs</guid>
-    <description>Types of Graphs Types of Graphs Directed edge - one way Undirected edge Knowledge graph - encodes a set of facts about objects, defines relations between them usually a directed heterogenous ...</description>
-    <pubDate>Tue, 22 Oct 2024 10:50:25 GMT</pubDate>
+    <title>Batching for GNN</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Batching-for-GNN</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Batching-for-GNN</guid>
+    <description>Batching for GNN Batching for GNN GIven I training graphs {X_{i}, A_{i}} and labels y_{i}, params {\Phi = \{\beta_{k}, \Omega_{k}}\}^{K}_{k=0} , SGDand Binary Cross Entropy We ...</description>
+    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
   </item><item>
-    <title>Challenges of Graphs</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Challenges-of-Graphs</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Challenges-of-Graphs</guid>
-    <description>Challenges of Graphs Challenges of Graphs variable topology hard to design networks that are expressive enough might be enormous may only have a monolithic graph → so cant do training ...</description>
-    <pubDate>Tue, 22 Oct 2024 10:50:25 GMT</pubDate>
+    <title>Example GCN Layer</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Example-GCN-Layer</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Example-GCN-Layer</guid>
+    <description>Example GCN Layer Example GCN Layer this is equivariant, can cope with any number of neighbors, uses the graph srtucture to provide a Relational Inductive Bias and parameter sharing ...</description>
+    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
   </item><item>
-    <title>Properties of Adjacency matrix</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Properties-of-Adjacency-matrix</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Properties-of-Adjacency-matrix</guid>
-    <description>Properties of Adjacency Matrix Properties of Adjacency matrix if we raise the adjacency matrix to the power of L, the entry at position (m,n) of A^L contains the number of unique walks ...</description>
-    <pubDate>Tue, 22 Oct 2024 10:49:58 GMT</pubDate>
+    <title>Parameter Sharing for Graphs</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Parameter-Sharing-for-Graphs</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Parameter-Sharing-for-Graphs</guid>
+    <description>Parameter Sharing for Graphs Parameter Sharing for Graphs We could learn a model with separate parameters associated with each node. However, now the network must independently learn the meaning of the connections in the graph at each position, and training would require many graphs with the same topology.</description>
+    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
   </item>
     </channel>
   </rss>

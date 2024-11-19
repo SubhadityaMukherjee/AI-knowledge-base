@@ -14,3 +14,6 @@ title: Understanding Deep Learning
 - [[Chapter 11 - Residual Networks]]
 - [[Chapter 12 - Transformers]]
 - [[Chapter 13 - Graph Networks]]
+- [[Chapter 14 - Unsupervised Learning]]
+- [[Chapter 15 - GAN]]
+- [[Chapter 16 - Normalizing Flows]]

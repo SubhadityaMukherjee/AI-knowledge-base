@@ -6,65 +6,65 @@
       <description>Last 10 notes on Subhaditya&#039;s KB</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>OpenML x SURF</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/OpenML-x-SURF</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/OpenML-x-SURF</guid>
-    <description>OpenML X SURF supernets - architecture + weight better than transfer learning For Openml Stuff hide test data SURF What They Do consulting help key researchers doesnt scale too well ...</description>
-    <pubDate>Fri, 08 Nov 2024 12:08:10 GMT</pubDate>
+    <title>Banach fixed point theorem</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Banach-fixed-point-theorem</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Banach-fixed-point-theorem</guid>
+    <description>Banach Fixed point Theorem A contraction mapping f[\bullet] has the property .</description>
+    <pubDate>Tue, 19 Nov 2024 18:06:00 GMT</pubDate>
   </item><item>
-    <title>The Unified Causal AI Pipeline</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/The-Unified-Causal-AI-Pipeline</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/The-Unified-Causal-AI-Pipeline</guid>
-    <description>The Unified Causal AI Pipeline Sara Magliacana - prof at UvA Intro predict the effect of actions and decide effective policies - and how dl - can learn representations from unstructured ...</description>
-    <pubDate>Fri, 08 Nov 2024 09:59:28 GMT</pubDate>
+    <title>residual flows</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/residual-flows</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/residual-flows</guid>
+    <description>Residual Flows inspiration from Res Net use Banach fixed point theorem Inverting Residual Network Layers form h&#039; = h + f[h, \phi] , if we ensure that f[h, \phi] is a contraction ...</description>
+    <pubDate>Tue, 19 Nov 2024 18:00:30 GMT</pubDate>
   </item><item>
-    <title>Kipf Normalization</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Kipf-Normalization</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Kipf-Normalization</guid>
-    <description>Kipf Normalization .</description>
-    <pubDate>Wed, 30 Oct 2024 10:47:41 GMT</pubDate>
+    <title>Elementwise Flows</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Elementwise-Flows</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Elementwise-Flows</guid>
+    <description>Elementwise Flows simplest nonlinear flow However, in practice, elementwise flows are used as components of more complex layers like coupling flows .</description>
+    <pubDate>Tue, 19 Nov 2024 17:58:59 GMT</pubDate>
   </item><item>
-    <title>Edge Graphs</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Edge-Graphs</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Edge-Graphs</guid>
-    <description>Edge Graphs Edge Graphs each edge in the original graph becomes a node, and every two edges with a common node in the original graph create an edge in the new graph ...</description>
-    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
+    <title>Multi Scale Flows</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Multi-Scale-Flows</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Multi-Scale-Flows</guid>
+    <description>Multi Scale Flows The first partition z1 is processed by a series of reversible layers with the same dimension as z1 until, at some point, z2 is appended and combined with the first partition ...</description>
+    <pubDate>Tue, 19 Nov 2024 17:57:17 GMT</pubDate>
   </item><item>
-    <title>Layers for GNNs</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Layers-for-GNNs</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Layers-for-GNNs</guid>
-    <description>Layers for GNNs Layers for GNNs combined messages from adjacent nodes by summing them together with the transformed current node → post-multiplying the node embedding matrix H by ...</description>
-    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
+    <title>Linear Flows</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Linear-Flows</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Linear-Flows</guid>
+    <description>Linear Flows f[h] = \beta+ \Omega h the determinant of the jacobian is the determinant of \Omega One way to make a linear flow that is general, eﬀicient to invert, and for which the Jacobian ...</description>
+    <pubDate>Tue, 19 Nov 2024 17:56:58 GMT</pubDate>
   </item><item>
-    <title>Transductive Models</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Transductive-Models</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Transductive-Models</guid>
-    <description>Transductive Models Transductive Models considers both the labeled and unlabeled data at the same time Semi Supervised It does not produce a rule but merely a labeling for the unknown ...</description>
-    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
+    <title>Types of Normalizing flows</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Types-of-Normalizing-flows</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Types-of-Normalizing-flows</guid>
+    <description>Types of Normalizing Flows Linear Flows Non Linear Flows Elementwise Flows coupling flows autoregressive flows residual flows Multi Scale Flows .</description>
+    <pubDate>Tue, 19 Nov 2024 17:39:54 GMT</pubDate>
   </item><item>
-    <title>Inductive Models</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Inductive-Models</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Inductive-Models</guid>
-    <description>Inductive Models Inductive Models we exploit a training set of labeled data to learn the relation between the inputs and outputs. Then we apply this to new test data.</description>
-    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
+    <title>Properties Required by Network Layers for Normalizing Flows</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Properties-Required-by-Network-Layers-for-Normalizing-Flows</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Properties-Required-by-Network-Layers-for-Normalizing-Flows</guid>
+    <description>Properties Required by Network Layers for Normalizing Flows the set of network layers must be suﬀiciently expressive to map a multivariate standard normal distribution to an arbitrary ...</description>
+    <pubDate>Tue, 19 Nov 2024 17:39:39 GMT</pubDate>
   </item><item>
-    <title>Batching for GNN</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Batching-for-GNN</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Batching-for-GNN</guid>
-    <description>Batching for GNN Batching for GNN GIven I training graphs {X_{i}, A_{i}} and labels y_{i}, params {\Phi = \{\beta_{k}, \Omega_{k}}\}^{K}_{k=0} , SGDand Binary Cross Entropy We ...</description>
-    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
+    <title>inverse autoregressive flows</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/inverse-autoregressive-flows</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/inverse-autoregressive-flows</guid>
+    <description>Inverse Autoregressive Flows A trick that allows fast learning and also fast (but approximate) sampling is to build a masked autoregressive flow to learn the distribution (the teacher) ...</description>
+    <pubDate>Tue, 19 Nov 2024 17:33:20 GMT</pubDate>
   </item><item>
-    <title>Example GCN Layer</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Example-GCN-Layer</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Example-GCN-Layer</guid>
-    <description>Example GCN Layer Example GCN Layer this is equivariant, can cope with any number of neighbors, uses the graph srtucture to provide a Relational Inductive Bias and parameter sharing ...</description>
-    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
+    <title>autoregressive flows</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/autoregressive-flows</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/autoregressive-flows</guid>
+    <description>Autoregressive Flows use them as normalizing flows a model that sequentially samples each pixel on an image, wrt the previous pixel in a fixed order consider the conditional densities ...</description>
+    <pubDate>Tue, 19 Nov 2024 17:32:17 GMT</pubDate>
   </item><item>
-    <title>Parameter Sharing for Graphs</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Parameter-Sharing-for-Graphs</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Parameter-Sharing-for-Graphs</guid>
-    <description>Parameter Sharing for Graphs Parameter Sharing for Graphs We could learn a model with separate parameters associated with each node. However, now the network must independently learn the meaning of the connections in the graph at each position, and training would require many graphs with the same topology.</description>
-    <pubDate>Wed, 30 Oct 2024 10:29:57 GMT</pubDate>
+    <title>ELBO loss</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ELBO-loss</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ELBO-loss</guid>
+    <description>ELBO Loss \log p_\theta(x_{i}) \geq \mathbb{E}_{z\sim q_{\theta (z | x_{i})}}log(p_\theta(x_{i}|z))- KL{q_\theta(z|x_{i})||p(z)} KL isKL Divergence .</description>
+    <pubDate>Tue, 19 Nov 2024 17:08:20 GMT</pubDate>
   </item>
     </channel>
   </rss>

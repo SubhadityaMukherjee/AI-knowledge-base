@@ -182,6 +182,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-13---Graph-Networks</loc>
     <lastmod>2024-10-22T07:50:37.760Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-14---Unsupervised-Learning</loc>
+    <lastmod>2024-11-18T14:41:40.874Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-4---Deep-Neural-Networks</loc>
     <lastmod>2024-09-18T11:42:10.282Z</lastmod>
   </url><url>
@@ -223,6 +226,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/2-byte-character-set</loc>
     <lastmod>2024-09-18T11:42:10.335Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/2024-11-18</loc>
+    <lastmod>2024-11-18T09:51:08.273Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/8-bit-character-set</loc>
     <lastmod>2024-09-18T11:42:10.338Z</lastmod>
@@ -337,6 +343,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Additive-Attention</loc>
     <lastmod>2024-09-18T11:42:10.572Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Additive-coupling-layer</loc>
+    <lastmod>2024-11-19T16:02:03.403Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Adjacency-matrix</loc>
     <lastmod>2024-10-22T10:41:28.739Z</lastmod>
@@ -625,6 +634,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Bahdanau-Attention</loc>
     <lastmod>2024-09-18T11:42:11.095Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Banach-fixed-point-theorem</loc>
+    <lastmod>2024-11-19T18:06:00.941Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Barycentric-Interpolation</loc>
     <lastmod>2024-09-18T11:42:11.104Z</lastmod>
@@ -1013,8 +1025,14 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Change-in-Gravitational-Potential-Energy</loc>
     <lastmod>2024-09-18T11:42:11.855Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Change-of-variable-theorem</loc>
+    <lastmod>2024-11-19T14:58:28.432Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Channels</loc>
     <lastmod>2024-09-30T13:59:50.521Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Chapter-16---Normalizing-Flows</loc>
+    <lastmod>2024-11-18T14:49:10.951Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Character-set-dependence</loc>
     <lastmod>2024-09-18T11:42:11.858Z</lastmod>
@@ -1562,6 +1580,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Dense</loc>
     <lastmod>2024-09-18T11:27:23.528Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Density-estimation-using-real-NVP</loc>
+    <lastmod>2024-11-19T16:11:06.878Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Density</loc>
     <lastmod>2024-09-18T11:27:23.053Z</lastmod>
   </url><url>
@@ -1754,6 +1775,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/EEG</loc>
     <lastmod>2024-09-18T11:27:23.536Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ELBO-loss</loc>
+    <lastmod>2024-11-19T17:08:20.880Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ELECTRA</loc>
     <lastmod>2024-09-18T11:27:23.424Z</lastmod>
   </url><url>
@@ -1828,6 +1852,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Elements-of-sets</loc>
     <lastmod>2024-09-18T11:27:23.417Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Elementwise-Flows</loc>
+    <lastmod>2024-11-19T17:58:59.347Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Ellipsoids</loc>
     <lastmod>2024-09-18T11:27:23.565Z</lastmod>
@@ -2294,6 +2321,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/GPT3</loc>
     <lastmod>2024-09-18T11:27:23.371Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/GQL-for-SQL-Users</loc>
+    <lastmod>2024-11-11T11:38:03.011Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/GRConvNet</loc>
     <lastmod>2024-09-18T11:27:23.522Z</lastmod>
   </url><url>
@@ -2756,6 +2786,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Implicitly-learning-when-to-be-ready---From-instances-to-categories</loc>
     <lastmod>2024-09-18T11:27:23.157Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Improved-variational-inference-with-inverse-autoregressive-flows</loc>
+    <lastmod>2024-11-19T17:03:10.364Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Impulse</loc>
     <lastmod>2024-09-18T11:27:23.263Z</lastmod>
   </url><url>
@@ -2960,6 +2993,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Jaccard-Distance</loc>
     <lastmod>2024-09-18T11:27:23.335Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Jacobian-Matrix</loc>
+    <lastmod>2024-11-18T15:10:43.464Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Jensen-Shannon-Divergence-Consistency-Loss</loc>
     <lastmod>2024-09-18T11:27:23.015Z</lastmod>
   </url><url>
@@ -3103,6 +3139,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Large-Kernel-in-Convolution</loc>
     <lastmod>2024-09-18T11:27:23.092Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Latent-Diffusion</loc>
+    <lastmod>2024-11-13T10:30:15.175Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Latent-Dirchlet-Allocation</loc>
     <lastmod>2024-09-18T11:27:23.309Z</lastmod>
@@ -3251,6 +3290,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Linear-Classifier-Probes</loc>
     <lastmod>2024-09-18T11:27:23.355Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Linear-Flows</loc>
+    <lastmod>2024-11-19T17:56:58.300Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Linear-Interpolated-Motion</loc>
     <lastmod>2024-09-18T11:27:23.296Z</lastmod>
   </url><url>
@@ -3349,6 +3391,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Lumbar-Puncture-or-Spinal-Tap</loc>
     <lastmod>2024-09-18T11:27:22.984Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/MADE---Masked-autoencoder-for-distribution-estimation</loc>
+    <lastmod>2024-11-19T17:01:08.798Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/MAE</loc>
     <lastmod>2024-09-18T11:27:23.296Z</lastmod>
@@ -3502,6 +3547,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Masked-Language-Modeling</loc>
     <lastmod>2024-09-18T11:27:23.151Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Masked-autoregressive-flow-for-density-estimation</loc>
+    <lastmod>2024-11-19T17:01:31.033Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Mastectomy</loc>
     <lastmod>2024-09-18T11:27:22.943Z</lastmod>
@@ -3728,6 +3776,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Multi-Head-Attention</loc>
     <lastmod>2024-09-18T11:27:23.155Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Multi-Scale-Flows</loc>
+    <lastmod>2024-11-19T17:57:17.535Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Multi-Task-Learning</loc>
     <lastmod>2024-09-18T11:27:23.463Z</lastmod>
   </url><url>
@@ -3775,6 +3826,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/NCE</loc>
     <lastmod>2024-09-18T11:27:23.256Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/NICE---non-linear-independant-components-estimation</loc>
+    <lastmod>2024-11-19T15:52:10.679Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/NIST-2008-Speaker-Recognition-Evaluation-dataset</loc>
     <lastmod>2024-09-18T11:27:23.318Z</lastmod>
@@ -4412,6 +4466,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/PromptIR</loc>
     <lastmod>2024-09-18T11:27:23.252Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Properties-Required-by-Network-Layers-for-Normalizing-Flows</loc>
+    <lastmod>2024-11-19T17:39:39.764Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Properties-of-Adjacency-matrix</loc>
     <lastmod>2024-10-22T10:49:58.596Z</lastmod>
   </url><url>
@@ -4918,6 +4975,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Scaled-benefits</loc>
     <lastmod>2024-09-18T11:27:22.987Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Scaling-matrix-for-coupling-layers</loc>
+    <lastmod>2024-11-19T16:05:15.520Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Scatter-and-Gather</loc>
     <lastmod>2024-09-18T11:27:23.313Z</lastmod>
@@ -5756,6 +5816,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Types-of-Graphs</loc>
     <lastmod>2024-10-22T10:50:25.939Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Types-of-Normalizing-flows</loc>
+    <lastmod>2024-11-19T17:39:54.843Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Types-of-Words</loc>
     <lastmod>2024-09-18T11:27:23.207Z</lastmod>
   </url><url>
@@ -5833,6 +5896,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Unsupervised-Learning</loc>
     <lastmod>2024-09-18T11:27:23.483Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Untitled-1</loc>
+    <lastmod>2024-11-11T11:38:00.147Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Untitled</loc>
     <lastmod>2024-09-18T11:27:23.095Z</lastmod>
@@ -6182,6 +6248,12 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/augmentation</loc>
     <lastmod>2024-09-18T11:27:23.558Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/autoregressive-flows</loc>
+    <lastmod>2024-11-19T17:32:17.794Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/bijective-function</loc>
+    <lastmod>2024-11-19T15:23:49.467Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/bitter_lesson</loc>
     <lastmod>2024-09-18T11:27:23.107Z</lastmod>
   </url><url>
@@ -6208,6 +6280,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/conditioning</loc>
     <lastmod>2024-09-18T11:27:22.974Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/coupling-flows</loc>
+    <lastmod>2024-11-19T15:52:47.546Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/croissant</loc>
     <lastmod>2024-09-18T11:27:22.940Z</lastmod>
@@ -6272,6 +6347,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/inter-sentence-coherence-loss</loc>
     <lastmod>2024-09-18T11:27:23.390Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/inverse-autoregressive-flows</loc>
+    <lastmod>2024-11-19T17:33:20.694Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/jobs</loc>
     <lastmod>2024-09-18T11:27:23.030Z</lastmod>
   </url><url>
@@ -6320,11 +6398,17 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/regularize</loc>
     <lastmod>2024-09-18T11:27:23.306Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/residual-flows</loc>
+    <lastmod>2024-11-19T18:00:30.577Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/robotics</loc>
     <lastmod>2024-09-18T11:27:23.453Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/sacred-values</loc>
     <lastmod>2024-09-18T11:27:23.200Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/surjection</loc>
+    <lastmod>2024-11-19T17:04:56.398Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/swap-dominance</loc>
     <lastmod>2024-09-18T11:27:23.332Z</lastmod>

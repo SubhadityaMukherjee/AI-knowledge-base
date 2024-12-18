@@ -45,4 +45,4 @@ p(\mathbf{x})
 \end{aligned}
 $$
 
-where $\det \frac{\partial f}{\partial\mathbf{z}}$ is the Jacobian determinant of the function $f$. 
+where $\det \frac{\partial f}{\partial\mathbf{z}}$ is the [[Jacobian Matrix#Jacobian Matrix|Jacobian]] determinant of the function $f$. 

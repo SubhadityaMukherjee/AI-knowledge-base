@@ -25,6 +25,4 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
         - Is not being optimized directly but trough update function
     - Update function
         - Optimizes the pattern that will be retrieved to best match the partial pattern
-
-
-
+- ![[images/a1478a6107623b3712ae0477c54bbf51_MD5.jpeg]]

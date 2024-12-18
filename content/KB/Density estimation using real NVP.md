@@ -16,8 +16,8 @@ date created: Tuesday 19th November 2024, Tue
 - different sets of latent variables for different resolutions $$z = (z^{(1)}, …, z^{(L)})$$
 	- latents corresponding to finer details can be left out during inference
 
-## Also for VAE
-- Eg: Parameterize the approximate posterior in a VAE using a flow for better inference $p_\theta(x|z)p_\theta(z)$
+## Also for [[VAE]]
+- Eg: Parameterize the approximate posterior in a [[VAE]] using a flow for better inference $p_\theta(x|z)p_\theta(z)$
 	- [[images/268644ad8a5d0ae0a9b1f6c93465616e_MD5.jpeg|Open: Pasted image 20241119171440.png]]
 ![[images/268644ad8a5d0ae0a9b1f6c93465616e_MD5.jpeg]]
 - transform into something more flexible[[images/71485bd3414e589c2d9e74c3f27fe674_MD5.jpeg|Open: Pasted image 20241119171554.png]]

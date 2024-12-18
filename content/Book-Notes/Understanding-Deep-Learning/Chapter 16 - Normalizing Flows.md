@@ -15,7 +15,7 @@ date created: Monday 18th November 2024, Mon
 - Warning : If I explain every equation **fully**, we won't get lunch. So I will share this document later.
 - ![[acdbeae2c39f724956669541acd4e3f2_MD5.jpeg]]
 ## Intro
-- GANs -> samples should be as close to real data as possible -> hard to identify distribution
+- [[Articles/Scalar/CycleGAN #scalar#GAN|GANs]] -> samples should be as close to real data as possible -> hard to identify distribution
 - Normalizing flow -> take an input distribution -> convert it to a more complicated one using a NN -> learn a probability model
 - ![[e43129be5da18e472c80f272a621bd7f_MD5.png]]
 ## Algebra
@@ -58,7 +58,7 @@ date created: Monday 18th November 2024, Mon
 - forward mapping for deep neural networks
 			- ![[76ff523a24286f0a8a8035b8107e4fd7_MD5.jpeg]]
 			- ![[f375adad1fcac49c628730e327bd387d_MD5.jpeg]]
-- Loss function
+- [[Capsule Network#Loss|Loss]] function
 	- Let us parameterize the likelihood function as a flow
 		- We have, $p_{\theta(x)}= p_{\theta}(z)\left\vert \det (\dfrac{\partial f^{-1}}{\partial \mathbf{x}}) \right\vert$
 		- Applying log on both sides, $\log p_{\theta(x)}= \log p_{\theta}(z) + \log \left\vert \det (\dfrac{\partial f^{-1}}{\partial \mathbf{x}}) \right\vert$
@@ -67,7 +67,7 @@ date created: Monday 18th November 2024, Mon
 		- $\log p_{\theta(x)}= \log p_{\theta}(z) + \Sigma_{i=1}^{K} \log \left\vert \det (\dfrac{\partial f^{-1}}{\partial \mathbf{x}}) \right\vert$
 		- Using this, we can now use [[Maximum Likelihood]] to train our model since we can calculate the log marginal likelihood exactly
 		- Exact posterior inference (unique z for a given x using ($z = f^{-1}(x$))
-	- This determinant is now very expensive to compute (of course it is :P), so we ensure that the Jacobian is triangular.
+	- This determinant is now very expensive to compute (of course it is :P), so we ensure that the [[Jacobian Matrix#Jacobian Matrix|Jacobian]] is triangular.
 		- determinant of a triangular matrix = product of it's diagonal
 		- to ensure triangular : the paper [[NICE - non linear independant components estimation]] uses [[coupling flows]]
 	- Using [[coupling flows]], we now get $$\log p_{\theta(x)}= \Sigma_{i=1}^D [\log (p_\theta(f^{-1}(x)_{i}))- log(\vert S_{ii} \vert)]$$
@@ -79,10 +79,10 @@ date created: Monday 18th November 2024, Mon
 - How do we handle different types of data - [[Types of Normalizing flows]]
 
 ## Vs Others
-- vs. VAE 
+- vs. [[VAE]] 
 	- can only get the lower bound on log-likelihood ([[ELBO loss]])
 	- approximate posterior $q_\theta(z|x)$
-- GAN
+- [[GAN]]
 	- no log likelihood, only min-max evaluation
 	- no latent variable inference
 

@@ -188,6 +188,12 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-16---Normalizing-Flows</loc>
     <lastmod>2024-11-18T14:49:10.951Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-17---VAE</loc>
+    <lastmod>2024-11-27T10:10:47.041Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-18---Diffusion</loc>
+    <lastmod>2024-12-17T15:38:44.795Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-4---Deep-Neural-Networks</loc>
     <lastmod>2024-09-18T11:42:10.282Z</lastmod>
   </url><url>
@@ -1688,9 +1694,6 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Distilling-the-Knowledge-in-a-Neural-Network</loc>
     <lastmod>2024-09-18T11:27:23.542Z</lastmod>
   </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Distributions</loc>
-    <lastmod>2024-09-18T11:27:23.013Z</lastmod>
-  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Distributive-Interpretation-(2)</loc>
     <lastmod>2024-09-18T11:27:23.311Z</lastmod>
   </url><url>
@@ -2483,9 +2486,6 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Gradient-Sensitivity</loc>
     <lastmod>2024-09-18T11:27:23.471Z</lastmod>
   </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Gradient</loc>
-    <lastmod>2024-09-18T11:27:23.507Z</lastmod>
-  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Gradio</loc>
     <lastmod>2024-09-18T11:27:23.153Z</lastmod>
   </url><url>
@@ -3140,9 +3140,6 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Large-Kernel-in-Convolution</loc>
     <lastmod>2024-09-18T11:27:23.092Z</lastmod>
   </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Latent-Diffusion</loc>
-    <lastmod>2024-11-13T10:30:15.175Z</lastmod>
-  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Latent-Dirchlet-Allocation</loc>
     <lastmod>2024-09-18T11:27:23.309Z</lastmod>
   </url><url>
@@ -3433,9 +3430,6 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/MLDoc</loc>
     <lastmod>2024-09-18T11:27:23.454Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/MLE</loc>
-    <lastmod>2024-09-18T11:27:23.210Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/MLIM</loc>
     <lastmod>2024-09-18T11:27:23.394Z</lastmod>
@@ -3736,9 +3730,6 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Moral-Machine-project</loc>
     <lastmod>2024-09-18T11:27:22.946Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Moral-Machine-project.md</loc>
-    <lastmod>2024-09-18T11:27:23.157Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Moral-decision-making-frameworks-for-artificial-intelligence</loc>
     <lastmod>2024-09-18T11:27:23.283Z</lastmod>
@@ -4130,9 +4121,6 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/PDF</loc>
     <lastmod>2024-09-18T11:27:23.427Z</lastmod>
   </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/PDF.md</loc>
-    <lastmod>2024-09-18T11:27:23.375Z</lastmod>
-  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/PEER</loc>
     <lastmod>2024-09-18T11:27:23.042Z</lastmod>
   </url><url>
@@ -4252,6 +4240,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Pharmacotherapy</loc>
     <lastmod>2024-09-18T11:27:23.267Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Phase-Transition-Model-Zoo</loc>
+    <lastmod>2024-11-27T13:10:02.396Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Phases-of-Simulated-User-Experiments</loc>
     <lastmod>2024-09-18T11:27:23.084Z</lastmod>
@@ -5093,6 +5084,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Sequential-Relation-Bias</loc>
     <lastmod>2024-09-18T11:27:23.000Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Sequential-auto-encoding-of-neural-embeddings---SANE</loc>
+    <lastmod>2024-11-20T14:37:41.718Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Sequential-effects-within-a-short-foreperiod-context-Evidence-for-the-conditioning-account-of-temporal-preparation</loc>
     <lastmod>2024-09-18T11:27:23.253Z</lastmod>
   </url><url>
@@ -5858,6 +5852,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Understandability</loc>
     <lastmod>2024-09-18T11:27:23.418Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Understanding-deep-learning-still-requires-rethinking-generalization</loc>
+    <lastmod>2024-11-27T13:22:31.489Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Undue-Inducement</loc>
     <lastmod>2024-09-18T11:27:23.263Z</lastmod>
   </url><url>
@@ -5896,12 +5893,6 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Unsupervised-Learning</loc>
     <lastmod>2024-09-18T11:27:23.483Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Untitled-1</loc>
-    <lastmod>2024-11-11T11:38:00.147Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Untitled</loc>
-    <lastmod>2024-09-18T11:27:23.095Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Untitledp</loc>
     <lastmod>2024-09-18T11:27:23.456Z</lastmod>
@@ -6131,6 +6122,9 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Weight-Decay-Vs-L2-Regularization</loc>
     <lastmod>2024-09-18T11:27:23.543Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Weight-space-learning</loc>
+    <lastmod>2024-11-20T13:05:04.100Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Weight</loc>
     <lastmod>2024-09-18T11:27:23.466Z</lastmod>
   </url><url>
@@ -6244,9 +6238,6 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/architecture</loc>
     <lastmod>2024-09-18T11:27:23.007Z</lastmod>
-  </url><url>
-    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/augmentation</loc>
-    <lastmod>2024-09-18T11:27:23.558Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/autoregressive-flows</loc>
     <lastmod>2024-11-19T17:32:17.794Z</lastmod>
@@ -6368,6 +6359,12 @@
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/memory-trace</loc>
     <lastmod>2024-09-18T11:27:23.326Z</lastmod>
   </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/notes</loc>
+    <lastmod>2024-11-29T09:56:59.646Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/openml-feedback</loc>
+    <lastmod>2024-12-04T12:24:20.056Z</lastmod>
+  </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/pGLSM</loc>
     <lastmod>2024-09-18T11:27:23.338Z</lastmod>
   </url><url>
@@ -6390,7 +6387,7 @@
     <lastmod>2024-09-18T11:27:23.473Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/quotes</loc>
-    <lastmod>2024-09-18T11:27:23.197Z</lastmod>
+    <lastmod>2024-11-27T14:25:49.257Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/random-dump</loc>
     <lastmod>2024-09-18T11:27:23.352Z</lastmod>
@@ -6418,6 +6415,9 @@
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/todo</loc>
     <lastmod>2024-09-18T11:27:23.233Z</lastmod>
+  </url><url>
+    <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/tree-parity-machine</loc>
+    <lastmod>2024-11-27T13:24:17.832Z</lastmod>
   </url><url>
     <loc>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/treecoverSegmentation</loc>
     <lastmod>2024-09-18T11:27:23.410Z</lastmod>

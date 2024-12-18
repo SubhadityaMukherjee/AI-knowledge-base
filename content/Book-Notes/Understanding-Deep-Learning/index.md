@@ -17,3 +17,4 @@ title: Understanding Deep Learning
 - [[Chapter 14 - Unsupervised Learning]]
 - [[Chapter 15 - GAN]]
 - [[Chapter 16 - Normalizing Flows]]
+- [[Chapter 17 - VAE]]

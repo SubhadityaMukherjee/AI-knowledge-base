@@ -6,65 +6,65 @@
       <description>Last 10 notes on Subhaditya&#039;s KB</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Banach fixed point theorem</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Banach-fixed-point-theorem</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Banach-fixed-point-theorem</guid>
-    <description>Banach Fixed point Theorem A contraction mapping f[\bullet] has the property .</description>
-    <pubDate>Tue, 19 Nov 2024 18:06:00 GMT</pubDate>
+    <title>Chapter 18 - Diffusion</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-18---Diffusion</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-18---Diffusion</guid>
+    <description>Chapter 18 - Diffusion Links diffusion visualized tool for doing that semantic space using CLIP embeddings How to stop worrying and write ELBO diffusion for neuroscience ...</description>
+    <pubDate>Tue, 17 Dec 2024 15:38:44 GMT</pubDate>
   </item><item>
-    <title>residual flows</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/residual-flows</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/residual-flows</guid>
-    <description>Residual Flows inspiration from Res Net use Banach fixed point theorem Inverting Residual Network Layers form h&#039; = h + f[h, \phi] , if we ensure that f[h, \phi] is a contraction ...</description>
-    <pubDate>Tue, 19 Nov 2024 18:00:30 GMT</pubDate>
+    <title>openml feedback</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/openml-feedback</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/openml-feedback</guid>
+    <description>OpenMl Feedback Damian dataset size gui interface does not really work for it bitbucket dataset class evaluation datasets automl company - pdf export, excel export monetization ...</description>
+    <pubDate>Wed, 04 Dec 2024 12:24:20 GMT</pubDate>
   </item><item>
-    <title>Elementwise Flows</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Elementwise-Flows</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Elementwise-Flows</guid>
-    <description>Elementwise Flows simplest nonlinear flow However, in practice, elementwise flows are used as components of more complex layers like coupling flows .</description>
-    <pubDate>Tue, 19 Nov 2024 17:58:59 GMT</pubDate>
+    <title>notes</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/notes</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/notes</guid>
+    <description>Notes .</description>
+    <pubDate>Fri, 29 Nov 2024 09:56:59 GMT</pubDate>
   </item><item>
-    <title>Multi Scale Flows</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Multi-Scale-Flows</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Multi-Scale-Flows</guid>
-    <description>Multi Scale Flows The first partition z1 is processed by a series of reversible layers with the same dimension as z1 until, at some point, z2 is appended and combined with the first partition ...</description>
-    <pubDate>Tue, 19 Nov 2024 17:57:17 GMT</pubDate>
+    <title>quotes</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/quotes</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/quotes</guid>
+    <description>QUOTES “Will you promise me that when you are sad, you’ll think about the sky?” I don t know why he wants me to promise him that but I nod anyway. “But why?” “Because.” He turns his face back up to the stars.</description>
+    <pubDate>Wed, 27 Nov 2024 14:25:49 GMT</pubDate>
   </item><item>
-    <title>Linear Flows</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Linear-Flows</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Linear-Flows</guid>
-    <description>Linear Flows f[h] = \beta+ \Omega h the determinant of the jacobian is the determinant of \Omega One way to make a linear flow that is general, eﬀicient to invert, and for which the Jacobian ...</description>
-    <pubDate>Tue, 19 Nov 2024 17:56:58 GMT</pubDate>
+    <title>tree parity machine</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/tree-parity-machine</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/tree-parity-machine</guid>
+    <description>Tree Parity Machine .</description>
+    <pubDate>Wed, 27 Nov 2024 13:24:17 GMT</pubDate>
   </item><item>
-    <title>Types of Normalizing flows</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Types-of-Normalizing-flows</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Types-of-Normalizing-flows</guid>
-    <description>Types of Normalizing Flows Linear Flows Non Linear Flows Elementwise Flows coupling flows autoregressive flows residual flows Multi Scale Flows .</description>
-    <pubDate>Tue, 19 Nov 2024 17:39:54 GMT</pubDate>
+    <title>Understanding deep learning still requires rethinking generalization</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Understanding-deep-learning-still-requires-rethinking-generalization</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Understanding-deep-learning-still-requires-rethinking-generalization</guid>
+    <description>Understanding Deep Learning Still Requires Rethinking Generalization unclear what variables trigger phase transitions sometimes many variables can triger generalization ...</description>
+    <pubDate>Wed, 27 Nov 2024 13:22:31 GMT</pubDate>
   </item><item>
-    <title>Properties Required by Network Layers for Normalizing Flows</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Properties-Required-by-Network-Layers-for-Normalizing-Flows</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Properties-Required-by-Network-Layers-for-Normalizing-Flows</guid>
-    <description>Properties Required by Network Layers for Normalizing Flows the set of network layers must be suﬀiciently expressive to map a multivariate standard normal distribution to an arbitrary ...</description>
-    <pubDate>Tue, 19 Nov 2024 17:39:39 GMT</pubDate>
+    <title>Phase Transition Model Zoo</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Phase-Transition-Model-Zoo</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Phase-Transition-Model-Zoo</guid>
+    <description>Phase Transition Model Zoo konstantin schurholt transfer learning, model averaging, scaling models does not always work Phase Transition in Physical Systems between phases is ...</description>
+    <pubDate>Wed, 27 Nov 2024 13:10:02 GMT</pubDate>
   </item><item>
-    <title>inverse autoregressive flows</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/inverse-autoregressive-flows</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/inverse-autoregressive-flows</guid>
-    <description>Inverse Autoregressive Flows A trick that allows fast learning and also fast (but approximate) sampling is to build a masked autoregressive flow to learn the distribution (the teacher) ...</description>
-    <pubDate>Tue, 19 Nov 2024 17:33:20 GMT</pubDate>
+    <title>Chapter 17 - VAE</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-17---VAE</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/Book-Notes/Understanding-Deep-Learning/Chapter-17---VAE</guid>
+    <description>Chapter 17 - VAE .</description>
+    <pubDate>Wed, 27 Nov 2024 10:10:47 GMT</pubDate>
   </item><item>
-    <title>autoregressive flows</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/autoregressive-flows</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/autoregressive-flows</guid>
-    <description>Autoregressive Flows use them as normalizing flows a model that sequentially samples each pixel on an image, wrt the previous pixel in a fixed order consider the conditional densities ...</description>
-    <pubDate>Tue, 19 Nov 2024 17:32:17 GMT</pubDate>
+    <title>Sequential auto encoding of neural embeddings - SANE</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Sequential-auto-encoding-of-neural-embeddings---SANE</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Sequential-auto-encoding-of-neural-embeddings---SANE</guid>
+    <description>Sequential auto encoding of neural embeddings - SANE learn compressed latent representation of model sequence contrastive loss capacity scales with model size gracefully scale ...</description>
+    <pubDate>Wed, 20 Nov 2024 14:37:41 GMT</pubDate>
   </item><item>
-    <title>ELBO loss</title>
-    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ELBO-loss</link>
-    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/ELBO-loss</guid>
-    <description>ELBO Loss \log p_\theta(x_{i}) \geq \mathbb{E}_{z\sim q_{\theta (z | x_{i})}}log(p_\theta(x_{i}|z))- KL{q_\theta(z|x_{i})||p(z)} KL isKL Divergence .</description>
-    <pubDate>Tue, 19 Nov 2024 17:08:20 GMT</pubDate>
+    <title>Weight space learning</title>
+    <link>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Weight-space-learning</link>
+    <guid>https://https:/subhadityamukherjee.github.io/AI-knowledge-base/KB/Weight-space-learning</guid>
+    <description>Weight Space Learning Damian Borth, st.gallen paper treat weights as data points - representation learning can we look at networks → infer the latent factors from the weights? is ...</description>
+    <pubDate>Wed, 20 Nov 2024 13:05:04 GMT</pubDate>
   </item>
     </channel>
   </rss>

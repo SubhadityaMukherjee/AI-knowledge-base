@@ -18,7 +18,7 @@ The following sections elaborate on these points.</p>
 <h2 id="pre-requisites">Pre-requisites<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#pre-requisites" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <p>Before moving to the implementation, we must understand some prerequisite terms.</p>
 <h3 id="transposed-convolution">Transposed Convolution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#transposed-convolution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
-<p>2D Convolutions compress information from images into smaller representations by <a href="../../KB/Downsampling" class="internal" data-slug="KB/Downsampling">Downsampling</a> them. Transposed Convolutions perform the opposite operation. These convolutions take compressed/small images and attempt to expand their sizes. An illustration of how this happens is as follows.</p>
+<p>2D Convolutions compress information from images into smaller representations by <a href="../../KB/AI/Machine-Learning/Training/Downsampling" class="internal" data-slug="KB/AI/Machine-Learning/Training/Downsampling">Downsampling</a> them. Transposed Convolutions perform the opposite operation. These convolutions take compressed/small images and attempt to expand their sizes. An illustration of how this happens is as follows.</p>
 <p>[IMAGE {1} Transposed Conv START SAMPLE]
 <img src="https://hackmd.io/_uploads/S1cHysVqo.gif" alt="Transposed Conv"/>
 [IMAGE {1} FINISH SAMPLE]</p>
@@ -168,4 +168,8 @@ Since this part of the network is used to recreate images from the compressed re
               })
             }
           });
-          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js" type="module"></script></html>
+          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../../postscript.js" type="module"></script></html>

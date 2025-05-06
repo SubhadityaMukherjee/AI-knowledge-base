@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "https://subhadityamukherjee.github.io/AI-knowledge-base/",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Daily Notes/", "ALFIE"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

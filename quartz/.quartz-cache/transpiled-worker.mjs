@@ -5594,7 +5594,7 @@ var config = {
     },
     locale: "en-US",
     baseUrl: "https://subhadityamukherjee.github.io/AI-knowledge-base/",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Daily Notes/"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

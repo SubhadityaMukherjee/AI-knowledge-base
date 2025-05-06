@@ -1,129 +1,129 @@
 <!DOCTYPE html>
-<html lang="en"><head><title>visualization</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="visualization"/><meta property="og:description" content="..."/><meta property="og:image" content="https://https://subhadityamukherjee.github.io/AI-knowledge-base//static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script></head><body data-slug="KB/visualization"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Subhaditya's KB</a></h2><div class="spacer mobile-only"></div><div class="search"><button class="search-button" id="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="search-layout" data-preview="true"></div></div></div></div><button class="darkmode" id="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../KB/">Knowledge Base</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>visualization</a></div></nav><h1 class="article-title">visualization</h1><p show-comma="true" class="content-meta"><span>Sep 18, 2024</span><span>2 min read</span></p><ul class="tags"><li><a href="../tags/anchor" class="internal tag-link">anchor</a></li></ul></div></div><article class="popover-hint"><ul>
-<li><a href="../KB/1D-piecewise-linear-interpolation" class="internal alias" data-slug="KB/1D-piecewise-linear-interpolation">1D piecewise linear interpolation</a></li>
-<li><a href="../KB/Area-Minimization" class="internal alias" data-slug="KB/Area-Minimization">Area Minimization</a></li>
-<li><a href="../KB/Asymptotic-Decider" class="internal alias" data-slug="KB/Asymptotic-Decider">Asymptotic Decider</a></li>
-<li><a href="../KB/Average-Filter" class="internal alias" data-slug="KB/Average-Filter">Average Filter</a></li>
-<li><a href="../KB/Back-To-Front-Raycasting" class="internal alias" data-slug="KB/Back-To-Front-Raycasting">Back To Front Raycasting</a></li>
-<li><a href="../KB/Barycentric-Interpolation" class="internal alias" data-slug="KB/Barycentric-Interpolation">Barycentric Interpolation</a></li>
-<li><a href="../KB/Bend-Minimization" class="internal alias" data-slug="KB/Bend-Minimization">Bend Minimization</a></li>
-<li><a href="../KB/Bilinear-Interpolation" class="internal alias" data-slug="KB/Bilinear-Interpolation">Bilinear Interpolation</a></li>
-<li><a href="../KB/Change-Blindness" class="internal alias" data-slug="KB/Change-Blindness">Change Blindness</a></li>
-<li><a href="../KB/Characteristics-of-Visual-Variables" class="internal alias" data-slug="KB/Characteristics-of-Visual-Variables">Characteristics of Visual Variables</a></li>
-<li><a href="../KB/Classification-Ray-Casting" class="internal alias" data-slug="KB/Classification-Ray-Casting">Classification Ray Casting</a></li>
-<li><a href="../KB/Clutter-In-Visualisation" class="internal alias" data-slug="KB/Clutter-In-Visualisation">Clutter In Visualisation</a></li>
-<li><a href="../KB/Color-Compositing" class="internal alias" data-slug="KB/Color-Compositing">Color Compositing</a></li>
-<li><a href="../KB/Color-Spaces" class="internal alias" data-slug="KB/Color-Spaces">Color Spaces</a></li>
-<li><a href="../KB/ColorMap" class="internal alias" data-slug="KB/ColorMap">ColorMap</a></li>
-<li><a href="../KB/Complex-Geometry" class="internal alias" data-slug="KB/Complex-Geometry">Complex Geometry</a></li>
-<li><a href="../KB/Contour" class="internal alias" data-slug="KB/Contour">Contour</a></li>
-<li><a href="../KB/Conv-Based-Noise-Reduction" class="internal alias" data-slug="KB/Conv-Based-Noise-Reduction">Conv Based Noise Reduction</a></li>
-<li><a href="../KB/Countouring-with-Transparency" class="internal alias" data-slug="KB/Countouring-with-Transparency">Countouring with Transparency</a></li>
-<li><a href="../KB/Critical-Points" class="internal alias" data-slug="KB/Critical-Points">Critical Points</a></li>
-<li><a href="../KB/Cross-Minimization" class="internal alias" data-slug="KB/Cross-Minimization">Cross Minimization</a></li>
-<li><a href="../KB/Cross-angle-Maximization" class="internal alias" data-slug="KB/Cross-angle-Maximization">Cross angle Maximization</a></li>
-<li><a href="../KB/Cuboids" class="internal alias" data-slug="KB/Cuboids">Cuboids</a></li>
-<li><a href="../KB/Curl-And-Vorticity" class="internal alias" data-slug="KB/Curl-And-Vorticity">Curl And Vorticity</a></li>
-<li><a href="../KB/Cylinders" class="internal alias" data-slug="KB/Cylinders">Cylinders</a></li>
-<li><a href="../KB/Data-Structures" class="internal alias" data-slug="KB/Data-Structures">Data Structures</a></li>
-<li><a href="../KB/Diffusion-Tensor" class="internal alias" data-slug="KB/Diffusion-Tensor">Diffusion Tensor</a></li>
-<li><a href="../KB/Divergence" class="internal alias" data-slug="KB/Divergence">Divergence</a></li>
-<li><a href="../KB/Divide-Oriented" class="internal alias" data-slug="KB/Divide-Oriented">Divide Oriented</a></li>
-<li><a href="../KB/Early-Ray-Termination" class="internal alias" data-slug="KB/Early-Ray-Termination">Early Ray Termination</a></li>
-<li><a href="../KB/Eigenvector" class="internal alias" data-slug="KB/Eigenvector">Eigenvector</a></li>
-<li><a href="../KB/Ellipsoids" class="internal alias" data-slug="KB/Ellipsoids">Ellipsoids</a></li>
-<li><a href="../KB/Entourage-Plot" class="internal alias" data-slug="KB/Entourage-Plot">Entourage Plot</a></li>
-<li><a href="../KB/Euler-Integration" class="internal alias" data-slug="KB/Euler-Integration">Euler Integration</a></li>
-<li><a href="../KB/Eulerian-Grid" class="internal alias" data-slug="KB/Eulerian-Grid">Eulerian Grid</a></li>
-<li><a href="../KB/Filtering" class="internal alias" data-slug="KB/Filtering">Filtering</a></li>
-<li><a href="../KB/Finite-Differences" class="internal alias" data-slug="KB/Finite-Differences">Finite Differences</a></li>
-<li><a href="../KB/First-order-integration" class="internal alias" data-slug="KB/First-order-integration">First order integration</a></li>
-<li><a href="../KB/Force-Directed-Graph-Layout" class="internal alias" data-slug="KB/Force-Directed-Graph-Layout">Force Directed Graph Layout</a></li>
-<li><a href="../KB/Fractional-Anisotropy" class="internal alias" data-slug="KB/Fractional-Anisotropy">Fractional Anisotropy</a></li>
-<li><a href="../KB/Front-to-Back-Raycasting" class="internal alias" data-slug="KB/Front-to-Back-Raycasting">Front to Back Raycasting</a></li>
-<li><a href="../KB/Gaussian-Filter" class="internal alias" data-slug="KB/Gaussian-Filter">Gaussian Filter</a></li>
-<li><a href="../KB/Gestalt-Laws" class="internal alias" data-slug="KB/Gestalt-Laws">Gestalt Laws</a></li>
-<li><a href="../KB/Glyphs" class="internal alias" data-slug="KB/Glyphs">Glyphs</a></li>
-<li><a href="../KB/Graphs" class="internal alias" data-slug="KB/Graphs">Graphs</a></li>
-<li><a href="../KB/Grids" class="internal alias" data-slug="KB/Grids">Grids</a></li>
-<li><a href="../KB/H3-View" class="internal alias" data-slug="KB/H3-View">H3 View</a></li>
-<li><a href="../KB/Height-Plots" class="internal alias" data-slug="KB/Height-Plots">Height Plots</a></li>
-<li><a href="../KB/Helmholtz-Theorem" class="internal alias" data-slug="KB/Helmholtz-Theorem">Helmholtz Theorem</a></li>
-<li><a href="../KB/Hierarchial-Refinement" class="internal alias" data-slug="KB/Hierarchial-Refinement">Hierarchial Refinement</a></li>
-<li><a href="../KB/Hierarchical-Edge-Bundling" class="internal alias" data-slug="KB/Hierarchical-Edge-Bundling">Hierarchical Edge Bundling</a></li>
-<li><a href="../KB/High-pass-filter" class="internal alias" data-slug="KB/High-pass-filter">High pass filter</a></li>
-<li><a href="../KB/HyperStreamlines" class="internal alias" data-slug="KB/HyperStreamlines">HyperStreamlines</a></li>
-<li><a href="../KB/ICA-Noise-Removal" class="internal alias" data-slug="KB/ICA-Noise-Removal">ICA Noise Removal</a></li>
-<li><a href="../KB/Inattentional-Blindness" class="internal alias" data-slug="KB/Inattentional-Blindness">Inattentional Blindness</a></li>
-<li><a href="../KB/Inceptionism" class="internal alias" data-slug="KB/Inceptionism">Inceptionism</a></li>
-<li><a href="../KB/Indirect-Volume-Visualization" class="internal alias" data-slug="KB/Indirect-Volume-Visualization">Indirect Volume Visualization</a></li>
-<li><a href="../KB/Information-Visualization" class="internal alias" data-slug="KB/Information-Visualization">Information Visualization</a></li>
-<li><a href="../KB/Integral-Lines" class="internal alias" data-slug="KB/Integral-Lines">Integral Lines</a></li>
-<li><a href="../KB/Interpolation" class="internal alias" data-slug="KB/Interpolation">Interpolation</a></li>
-<li><a href="../KB/Intuitive-Color-spaces" class="internal alias" data-slug="KB/Intuitive-Color-spaces">Intuitive Color spaces</a></li>
-<li><a href="../KB/Isoline" class="internal alias" data-slug="KB/Isoline">Isoline</a></li>
-<li><a href="../KB/Isosurface" class="internal alias" data-slug="KB/Isosurface">Isosurface</a></li>
-<li><a href="../KB/Lagrangian-Coherent-Structure" class="internal alias" data-slug="KB/Lagrangian-Coherent-Structure">Lagrangian Coherent Structure</a></li>
-<li><a href="../KB/Lagrangian-Grid" class="internal alias" data-slug="KB/Lagrangian-Grid">Lagrangian Grid</a></li>
-<li><a href="../KB/Laplacian-Grid-Smoothing" class="internal alias" data-slug="KB/Laplacian-Grid-Smoothing">Laplacian Grid Smoothing</a></li>
-<li><a href="../KB/Length-Optimization" class="internal alias" data-slug="KB/Length-Optimization">Length Optimization</a></li>
-<li><a href="../KB/Line-Integral-Convolution" class="internal alias" data-slug="KB/Line-Integral-Convolution">Line Integral Convolution</a></li>
-<li><a href="../KB/Mapping-to-Geometry" class="internal alias" data-slug="KB/Mapping-to-Geometry">Mapping to Geometry</a></li>
-<li><a href="../KB/Marching-Cubes" class="internal alias" data-slug="KB/Marching-Cubes">Marching Cubes</a></li>
-<li><a href="../KB/Marching-Squares" class="internal alias" data-slug="KB/Marching-Squares">Marching Squares</a></li>
-<li><a href="../KB/Marching-Tetrahedra" class="internal alias" data-slug="KB/Marching-Tetrahedra">Marching Tetrahedra</a></li>
-<li><a href="../KB/Mean-Diffusivity" class="internal alias" data-slug="KB/Mean-Diffusivity">Mean Diffusivity</a></li>
-<li><a href="../KB/Median-Filter" class="internal alias" data-slug="KB/Median-Filter">Median Filter</a></li>
-<li><a href="../KB/Mesh-Smoothing" class="internal alias" data-slug="KB/Mesh-Smoothing">Mesh Smoothing</a></li>
-<li><a href="../KB/Mesh-refinement" class="internal alias" data-slug="KB/Mesh-refinement">Mesh refinement</a></li>
-<li><a href="../KB/Midpoint-Decider" class="internal alias" data-slug="KB/Midpoint-Decider">Midpoint Decider</a></li>
-<li><a href="../KB/Midpoint-Method" class="internal alias" data-slug="KB/Midpoint-Method">Midpoint Method</a></li>
-<li><a href="../KB/Node-Link-Diagram" class="internal alias" data-slug="KB/Node-Link-Diagram">Node Link Diagram</a></li>
-<li><a href="../KB/Noise-Suppression" class="internal alias" data-slug="KB/Noise-Suppression">Noise Suppression</a></li>
-<li><a href="../KB/Notch-filter" class="internal alias" data-slug="KB/Notch-filter">Notch filter</a></li>
-<li><a href="../KB/Oblique-Slicing" class="internal alias" data-slug="KB/Oblique-Slicing">Oblique Slicing</a></li>
-<li><a href="../KB/Opacity-Correction" class="internal alias" data-slug="KB/Opacity-Correction">Opacity Correction</a></li>
-<li><a href="../KB/Orthogonal-Slicing" class="internal alias" data-slug="KB/Orthogonal-Slicing">Orthogonal Slicing</a></li>
-<li><a href="../KB/Parallel-Coordinate-Plots" class="internal alias" data-slug="KB/Parallel-Coordinate-Plots">Parallel Coordinate Plots</a></li>
-<li><a href="../KB/Particle-Visualization" class="internal alias" data-slug="KB/Particle-Visualization">Particle Visualization</a></li>
-<li><a href="../KB/Pathlines" class="internal alias" data-slug="KB/Pathlines">Pathlines</a></li>
-<li><a href="../KB/Perception" class="internal alias" data-slug="KB/Perception">Perception</a></li>
-<li><a href="../KB/Perceptually-Uniform" class="internal alias" data-slug="KB/Perceptually-Uniform">Perceptually Uniform</a></li>
-<li><a href="../KB/Phong-Lighting" class="internal alias" data-slug="KB/Phong-Lighting">Phong Lighting</a></li>
-<li><a href="../KB/Post-Classification" class="internal alias" data-slug="KB/Post-Classification">Post Classification</a></li>
-<li><a href="../KB/Postattentive-Amnesia" class="internal alias" data-slug="KB/Postattentive-Amnesia">Postattentive Amnesia</a></li>
-<li><a href="../KB/Pre-Classification" class="internal alias" data-slug="KB/Pre-Classification">Pre Classification</a></li>
-<li><a href="../KB/Pre-Integrated-Volume-Rendering" class="internal alias" data-slug="KB/Pre-Integrated-Volume-Rendering">Pre Integrated Volume Rendering</a></li>
-<li><a href="../KB/Radial-Plot" class="internal alias" data-slug="KB/Radial-Plot">Radial Plot</a></li>
-<li><a href="../KB/Raycasting" class="internal alias" data-slug="KB/Raycasting">Raycasting</a></li>
-<li><a href="../KB/Region-Growing" class="internal alias" data-slug="KB/Region-Growing">Region Growing</a></li>
-<li><a href="../KB/Runge-Kutta" class="internal alias" data-slug="KB/Runge-Kutta">Runge Kutta</a></li>
-<li><a href="../KB/Sampling-Ray-Casting" class="internal alias" data-slug="KB/Sampling-Ray-Casting">Sampling Ray Casting</a></li>
-<li><a href="../KB/Scalar-Color-Coding" class="internal alias" data-slug="KB/Scalar-Color-Coding">Scalar Color Coding</a></li>
-<li><a href="../KB/Shading" class="internal alias" data-slug="KB/Shading">Shading</a></li>
-<li><a href="../KB/Shepard-Interpolation" class="internal alias" data-slug="KB/Shepard-Interpolation">Shepard Interpolation</a></li>
-<li><a href="../KB/Slice-Based-Volume-Rendering" class="internal alias" data-slug="KB/Slice-Based-Volume-Rendering">Slice Based Volume Rendering</a></li>
-<li><a href="../KB/Spectrogram" class="internal alias" data-slug="KB/Spectrogram">Spectrogram</a></li>
-<li><a href="../KB/Stream-Ribbons" class="internal alias" data-slug="KB/Stream-Ribbons">Stream Ribbons</a></li>
-<li><a href="../KB/Stream-Surfaces" class="internal alias" data-slug="KB/Stream-Surfaces">Stream Surfaces</a></li>
-<li><a href="../KB/Streamline-Stopping-Criterion" class="internal alias" data-slug="KB/Streamline-Stopping-Criterion">Streamline Stopping Criterion</a></li>
-<li><a href="../KB/Streamlines" class="internal alias" data-slug="KB/Streamlines">Streamlines</a></li>
-<li><a href="../KB/SuperQuadrics" class="internal alias" data-slug="KB/SuperQuadrics">SuperQuadrics</a></li>
-<li><a href="../KB/Symmetries-Node-Link" class="internal alias" data-slug="KB/Symmetries-Node-Link">Symmetries Node Link</a></li>
-<li><a href="../KB/Time-Dependant-Vector-Field" class="internal alias" data-slug="KB/Time-Dependant-Vector-Field">Time Dependant Vector Field</a></li>
-<li><a href="../KB/Transfer-Function" class="internal alias" data-slug="KB/Transfer-Function">Transfer Function</a></li>
-<li><a href="../KB/Treemap" class="internal alias" data-slug="KB/Treemap">Treemap</a></li>
-<li><a href="../KB/Visual-Associative" class="internal alias" data-slug="KB/Visual-Associative">Visual Associative</a></li>
-<li><a href="../KB/Visual-Encoding" class="internal alias" data-slug="KB/Visual-Encoding">Visual Encoding</a></li>
-<li><a href="../KB/Visual-Length" class="internal alias" data-slug="KB/Visual-Length">Visual Length</a></li>
-<li><a href="../KB/Visual-Ordered" class="internal alias" data-slug="KB/Visual-Ordered">Visual Ordered</a></li>
-<li><a href="../KB/Visual-Quantitative" class="internal alias" data-slug="KB/Visual-Quantitative">Visual Quantitative</a></li>
-<li><a href="../KB/Visual-Selective" class="internal alias" data-slug="KB/Visual-Selective">Visual Selective</a></li>
-<li><a href="../KB/Visualization-Of-Layers" class="internal alias" data-slug="KB/Visualization-Of-Layers">Visualization Of Layers</a></li>
-<li><a href="../KB/Volume-Rendering-Equation" class="internal alias" data-slug="KB/Volume-Rendering-Equation">Volume Rendering Equation</a></li>
-<li><a href="../KB/Volume-Visualization" class="internal alias" data-slug="KB/Volume-Visualization">Volume Visualization</a></li>
-<li><a href="../KB/Volumetric-Illumination" class="internal alias" data-slug="KB/Volumetric-Illumination">Volumetric Illumination</a></li>
-<li><a href="../KB/Voxel-Projection" class="internal alias" data-slug="KB/Voxel-Projection">Voxel Projection</a></li>
+<html lang="en"><head><title>visualization</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="visualization"/><meta property="og:description" content="..."/><meta property="og:image" content="https://https://subhadityamukherjee.github.io/AI-knowledge-base//static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script></head><body data-slug="KB/visualization"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Subhaditya's KB</a></h2><div class="spacer mobile-only"></div><div class="search"><button class="search-button" id="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="search-layout" data-preview="true"></div></div></div></div><button class="darkmode" id="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../KB/">KB</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>visualization</a></div></nav><h1 class="article-title">visualization</h1><p show-comma="true" class="content-meta"><span>Sep 18, 2024</span><span>2 min read</span></p><ul class="tags"><li><a href="../tags/anchor" class="internal tag-link">anchor</a></li></ul></div></div><article class="popover-hint"><ul>
+<li><a href="../KB/Visualization/1D-piecewise-linear-interpolation" class="internal alias" data-slug="KB/Visualization/1D-piecewise-linear-interpolation">1D piecewise linear interpolation</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Area-Minimization" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Area-Minimization">Area Minimization</a></li>
+<li><a href="../KB/Visualization/Asymptotic-Decider" class="internal alias" data-slug="KB/Visualization/Asymptotic-Decider">Asymptotic Decider</a></li>
+<li><a href="../KB/Visualization/Average-Filter" class="internal alias" data-slug="KB/Visualization/Average-Filter">Average Filter</a></li>
+<li><a href="../KB/Visualization/Back-To-Front-Raycasting" class="internal alias" data-slug="KB/Visualization/Back-To-Front-Raycasting">Back To Front Raycasting</a></li>
+<li><a href="../KB/Visualization/Barycentric-Interpolation" class="internal alias" data-slug="KB/Visualization/Barycentric-Interpolation">Barycentric Interpolation</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Bend-Minimization" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Bend-Minimization">Bend Minimization</a></li>
+<li><a href="../KB/Visualization/Bilinear-Interpolation" class="internal alias" data-slug="KB/Visualization/Bilinear-Interpolation">Bilinear Interpolation</a></li>
+<li><a href="../KB/Visualization/Change-Blindness" class="internal alias" data-slug="KB/Visualization/Change-Blindness">Change Blindness</a></li>
+<li><a href="../KB/Visualization/Characteristics-of-Visual-Variables" class="internal alias" data-slug="KB/Visualization/Characteristics-of-Visual-Variables">Characteristics of Visual Variables</a></li>
+<li><a href="../KB/Visualization/Classification-Ray-Casting" class="internal alias" data-slug="KB/Visualization/Classification-Ray-Casting">Classification Ray Casting</a></li>
+<li><a href="../KB/Visualization/Clutter-In-Visualisation" class="internal alias" data-slug="KB/Visualization/Clutter-In-Visualisation">Clutter In Visualisation</a></li>
+<li><a href="../KB/Visualization/Color-Compositing" class="internal alias" data-slug="KB/Visualization/Color-Compositing">Color Compositing</a></li>
+<li><a href="../KB/Visualization/Color-Spaces" class="internal alias" data-slug="KB/Visualization/Color-Spaces">Color Spaces</a></li>
+<li><a href="../KB/Visualization/ColorMap" class="internal alias" data-slug="KB/Visualization/ColorMap">ColorMap</a></li>
+<li><a href="../KB/Visualization/Complex-Geometry" class="internal alias" data-slug="KB/Visualization/Complex-Geometry">Complex Geometry</a></li>
+<li><a href="../KB/Visualization/Contour" class="internal alias" data-slug="KB/Visualization/Contour">Contour</a></li>
+<li><a href="../KB/Visualization/Conv-Based-Noise-Reduction" class="internal alias" data-slug="KB/Visualization/Conv-Based-Noise-Reduction">Conv Based Noise Reduction</a></li>
+<li><a href="../KB/Visualization/Countouring-with-Transparency" class="internal alias" data-slug="KB/Visualization/Countouring-with-Transparency">Countouring with Transparency</a></li>
+<li><a href="../KB/Visualization/Critical-Points" class="internal alias" data-slug="KB/Visualization/Critical-Points">Critical Points</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Cross-Minimization" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Cross-Minimization">Cross Minimization</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Cross-angle-Maximization" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Cross-angle-Maximization">Cross angle Maximization</a></li>
+<li><a href="../KB/Visualization/Cuboids" class="internal alias" data-slug="KB/Visualization/Cuboids">Cuboids</a></li>
+<li><a href="../KB/Visualization/Curl-And-Vorticity" class="internal alias" data-slug="KB/Visualization/Curl-And-Vorticity">Curl And Vorticity</a></li>
+<li><a href="../KB/Visualization/Cylinders" class="internal alias" data-slug="KB/Visualization/Cylinders">Cylinders</a></li>
+<li><a href="../KB/Visualization/Data-Structures" class="internal alias" data-slug="KB/Visualization/Data-Structures">Data Structures</a></li>
+<li><a href="../KB/Visualization/Diffusion-Tensor" class="internal alias" data-slug="KB/Visualization/Diffusion-Tensor">Diffusion Tensor</a></li>
+<li><a href="../KB/Visualization/Divergence" class="internal alias" data-slug="KB/Visualization/Divergence">Divergence</a></li>
+<li><a href="../KB/Visualization/Divide-Oriented" class="internal alias" data-slug="KB/Visualization/Divide-Oriented">Divide Oriented</a></li>
+<li><a href="../KB/Visualization/Early-Ray-Termination" class="internal alias" data-slug="KB/Visualization/Early-Ray-Termination">Early Ray Termination</a></li>
+<li><a href="../KB/Visualization/Eigenvector" class="internal alias" data-slug="KB/Visualization/Eigenvector">Eigenvector</a></li>
+<li><a href="../KB/Visualization/Ellipsoids" class="internal alias" data-slug="KB/Visualization/Ellipsoids">Ellipsoids</a></li>
+<li><a href="../KB/Visualization/Entourage-Plot" class="internal alias" data-slug="KB/Visualization/Entourage-Plot">Entourage Plot</a></li>
+<li><a href="../KB/Visualization/Euler-Integration" class="internal alias" data-slug="KB/Visualization/Euler-Integration">Euler Integration</a></li>
+<li><a href="../KB/Visualization/Eulerian-Grid" class="internal alias" data-slug="KB/Visualization/Eulerian-Grid">Eulerian Grid</a></li>
+<li><a href="../KB/Visualization/Filtering" class="internal alias" data-slug="KB/Visualization/Filtering">Filtering</a></li>
+<li><a href="../KB/Visualization/Finite-Differences" class="internal alias" data-slug="KB/Visualization/Finite-Differences">Finite Differences</a></li>
+<li><a href="../KB/Visualization/First-order-integration" class="internal alias" data-slug="KB/Visualization/First-order-integration">First order integration</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Force-Directed-Graph-Layout" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Force-Directed-Graph-Layout">Force Directed Graph Layout</a></li>
+<li><a href="../KB/Visualization/Fractional-Anisotropy" class="internal alias" data-slug="KB/Visualization/Fractional-Anisotropy">Fractional Anisotropy</a></li>
+<li><a href="../KB/Visualization/Front-to-Back-Raycasting" class="internal alias" data-slug="KB/Visualization/Front-to-Back-Raycasting">Front to Back Raycasting</a></li>
+<li><a href="../KB/Visualization/Gaussian-Filter" class="internal alias" data-slug="KB/Visualization/Gaussian-Filter">Gaussian Filter</a></li>
+<li><a href="../KB/Visualization/Gestalt-Laws" class="internal alias" data-slug="KB/Visualization/Gestalt-Laws">Gestalt Laws</a></li>
+<li><a href="../KB/Visualization/Glyphs" class="internal alias" data-slug="KB/Visualization/Glyphs">Glyphs</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Graphs" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Graphs">Graphs</a></li>
+<li><a href="../KB/Visualization/Grids" class="internal alias" data-slug="KB/Visualization/Grids">Grids</a></li>
+<li><a href="../KB/Visualization/H3-View" class="internal alias" data-slug="KB/Visualization/H3-View">H3 View</a></li>
+<li><a href="../KB/Visualization/Height-Plots" class="internal alias" data-slug="KB/Visualization/Height-Plots">Height Plots</a></li>
+<li><a href="../KB/Visualization/Helmholtz-Theorem" class="internal alias" data-slug="KB/Visualization/Helmholtz-Theorem">Helmholtz Theorem</a></li>
+<li><a href="../KB/Visualization/Hierarchial-Refinement" class="internal alias" data-slug="KB/Visualization/Hierarchial-Refinement">Hierarchial Refinement</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Hierarchical-Edge-Bundling" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Hierarchical-Edge-Bundling">Hierarchical Edge Bundling</a></li>
+<li><a href="../KB/Visualization/High-pass-filter" class="internal alias" data-slug="KB/Visualization/High-pass-filter">High pass filter</a></li>
+<li><a href="../KB/Visualization/HyperStreamlines" class="internal alias" data-slug="KB/Visualization/HyperStreamlines">HyperStreamlines</a></li>
+<li><a href="../KB/Visualization/ICA-Noise-Removal" class="internal alias" data-slug="KB/Visualization/ICA-Noise-Removal">ICA Noise Removal</a></li>
+<li><a href="../KB/Visualization/Inattentional-Blindness" class="internal alias" data-slug="KB/Visualization/Inattentional-Blindness">Inattentional Blindness</a></li>
+<li><a href="../KB/Visualization/Inceptionism" class="internal alias" data-slug="KB/Visualization/Inceptionism">Inceptionism</a></li>
+<li><a href="../KB/Visualization/Indirect-Volume-Visualization" class="internal alias" data-slug="KB/Visualization/Indirect-Volume-Visualization">Indirect Volume Visualization</a></li>
+<li><a href="../KB/Visualization/Information-Visualization" class="internal alias" data-slug="KB/Visualization/Information-Visualization">Information Visualization</a></li>
+<li><a href="../KB/Visualization/Integral-Lines" class="internal alias" data-slug="KB/Visualization/Integral-Lines">Integral Lines</a></li>
+<li><a href="../KB/Visualization/Interpolation" class="internal alias" data-slug="KB/Visualization/Interpolation">Interpolation</a></li>
+<li><a href="../KB/Visualization/Intuitive-Color-spaces" class="internal alias" data-slug="KB/Visualization/Intuitive-Color-spaces">Intuitive Color spaces</a></li>
+<li><a href="../KB/Visualization/Isoline" class="internal alias" data-slug="KB/Visualization/Isoline">Isoline</a></li>
+<li><a href="../KB/Visualization/Isosurface" class="internal alias" data-slug="KB/Visualization/Isosurface">Isosurface</a></li>
+<li><a href="../KB/Visualization/Lagrangian-Coherent-Structure" class="internal alias" data-slug="KB/Visualization/Lagrangian-Coherent-Structure">Lagrangian Coherent Structure</a></li>
+<li><a href="../KB/Visualization/Lagrangian-Grid" class="internal alias" data-slug="KB/Visualization/Lagrangian-Grid">Lagrangian Grid</a></li>
+<li><a href="../KB/Visualization/Laplacian-Grid-Smoothing" class="internal alias" data-slug="KB/Visualization/Laplacian-Grid-Smoothing">Laplacian Grid Smoothing</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Length-Optimization" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Length-Optimization">Length Optimization</a></li>
+<li><a href="../KB/Visualization/Line-Integral-Convolution" class="internal alias" data-slug="KB/Visualization/Line-Integral-Convolution">Line Integral Convolution</a></li>
+<li><a href="../KB/Visualization/Mapping-to-Geometry" class="internal alias" data-slug="KB/Visualization/Mapping-to-Geometry">Mapping to Geometry</a></li>
+<li><a href="../KB/Visualization/Marching-Cubes" class="internal alias" data-slug="KB/Visualization/Marching-Cubes">Marching Cubes</a></li>
+<li><a href="../KB/Visualization/Marching-Squares" class="internal alias" data-slug="KB/Visualization/Marching-Squares">Marching Squares</a></li>
+<li><a href="../KB/Visualization/Marching-Tetrahedra" class="internal alias" data-slug="KB/Visualization/Marching-Tetrahedra">Marching Tetrahedra</a></li>
+<li><a href="../KB/Visualization/Mean-Diffusivity" class="internal alias" data-slug="KB/Visualization/Mean-Diffusivity">Mean Diffusivity</a></li>
+<li><a href="../KB/Visualization/Median-Filter" class="internal alias" data-slug="KB/Visualization/Median-Filter">Median Filter</a></li>
+<li><a href="../KB/Visualization/Mesh-Smoothing" class="internal alias" data-slug="KB/Visualization/Mesh-Smoothing">Mesh Smoothing</a></li>
+<li><a href="../KB/Visualization/Mesh-refinement" class="internal alias" data-slug="KB/Visualization/Mesh-refinement">Mesh refinement</a></li>
+<li><a href="../KB/Visualization/Midpoint-Decider" class="internal alias" data-slug="KB/Visualization/Midpoint-Decider">Midpoint Decider</a></li>
+<li><a href="../KB/Visualization/Midpoint-Method" class="internal alias" data-slug="KB/Visualization/Midpoint-Method">Midpoint Method</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Node-Link-Diagram" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Node-Link-Diagram">Node Link Diagram</a></li>
+<li><a href="../KB/Visualization/Noise-Suppression" class="internal alias" data-slug="KB/Visualization/Noise-Suppression">Noise Suppression</a></li>
+<li><a href="../KB/Visualization/Notch-filter" class="internal alias" data-slug="KB/Visualization/Notch-filter">Notch filter</a></li>
+<li><a href="../KB/Visualization/Oblique-Slicing" class="internal alias" data-slug="KB/Visualization/Oblique-Slicing">Oblique Slicing</a></li>
+<li><a href="../KB/Visualization/Opacity-Correction" class="internal alias" data-slug="KB/Visualization/Opacity-Correction">Opacity Correction</a></li>
+<li><a href="../KB/Visualization/Orthogonal-Slicing" class="internal alias" data-slug="KB/Visualization/Orthogonal-Slicing">Orthogonal Slicing</a></li>
+<li><a href="../KB/Visualization/Parallel-Coordinate-Plots" class="internal alias" data-slug="KB/Visualization/Parallel-Coordinate-Plots">Parallel Coordinate Plots</a></li>
+<li><a href="../KB/Visualization/Particle-Visualization" class="internal alias" data-slug="KB/Visualization/Particle-Visualization">Particle Visualization</a></li>
+<li><a href="../KB/Visualization/Pathlines" class="internal alias" data-slug="KB/Visualization/Pathlines">Pathlines</a></li>
+<li><a href="../KB/Visualization/Perception" class="internal alias" data-slug="KB/Visualization/Perception">Perception</a></li>
+<li><a href="../KB/Visualization/Perceptually-Uniform" class="internal alias" data-slug="KB/Visualization/Perceptually-Uniform">Perceptually Uniform</a></li>
+<li><a href="../KB/Visualization/Phong-Lighting" class="internal alias" data-slug="KB/Visualization/Phong-Lighting">Phong Lighting</a></li>
+<li><a href="../KB/Visualization/Post-Classification" class="internal alias" data-slug="KB/Visualization/Post-Classification">Post Classification</a></li>
+<li><a href="../KB/Visualization/Postattentive-Amnesia" class="internal alias" data-slug="KB/Visualization/Postattentive-Amnesia">Postattentive Amnesia</a></li>
+<li><a href="../KB/Visualization/Pre-Classification" class="internal alias" data-slug="KB/Visualization/Pre-Classification">Pre Classification</a></li>
+<li><a href="../KB/Visualization/Pre-Integrated-Volume-Rendering" class="internal alias" data-slug="KB/Visualization/Pre-Integrated-Volume-Rendering">Pre Integrated Volume Rendering</a></li>
+<li><a href="../KB/Visualization/Radial-Plot" class="internal alias" data-slug="KB/Visualization/Radial-Plot">Radial Plot</a></li>
+<li><a href="../KB/Visualization/Raycasting" class="internal alias" data-slug="KB/Visualization/Raycasting">Raycasting</a></li>
+<li><a href="../KB/Visualization/Region-Growing" class="internal alias" data-slug="KB/Visualization/Region-Growing">Region Growing</a></li>
+<li><a href="../KB/Visualization/Runge-Kutta" class="internal alias" data-slug="KB/Visualization/Runge-Kutta">Runge Kutta</a></li>
+<li><a href="../KB/Visualization/Sampling-Ray-Casting" class="internal alias" data-slug="KB/Visualization/Sampling-Ray-Casting">Sampling Ray Casting</a></li>
+<li><a href="../KB/Visualization/Scalar-Color-Coding" class="internal alias" data-slug="KB/Visualization/Scalar-Color-Coding">Scalar Color Coding</a></li>
+<li><a href="../KB/Visualization/Shading" class="internal alias" data-slug="KB/Visualization/Shading">Shading</a></li>
+<li><a href="../KB/Visualization/Shepard-Interpolation" class="internal alias" data-slug="KB/Visualization/Shepard-Interpolation">Shepard Interpolation</a></li>
+<li><a href="../KB/Visualization/Slice-Based-Volume-Rendering" class="internal alias" data-slug="KB/Visualization/Slice-Based-Volume-Rendering">Slice Based Volume Rendering</a></li>
+<li><a href="../KB/Medical/Brain/Spectrogram" class="internal alias" data-slug="KB/Medical/Brain/Spectrogram">Spectrogram</a></li>
+<li><a href="../KB/Visualization/Stream-Ribbons" class="internal alias" data-slug="KB/Visualization/Stream-Ribbons">Stream Ribbons</a></li>
+<li><a href="../KB/Visualization/Stream-Surfaces" class="internal alias" data-slug="KB/Visualization/Stream-Surfaces">Stream Surfaces</a></li>
+<li><a href="../KB/Visualization/Streamline-Stopping-Criterion" class="internal alias" data-slug="KB/Visualization/Streamline-Stopping-Criterion">Streamline Stopping Criterion</a></li>
+<li><a href="../KB/Visualization/Streamlines" class="internal alias" data-slug="KB/Visualization/Streamlines">Streamlines</a></li>
+<li><a href="../KB/Visualization/SuperQuadrics" class="internal alias" data-slug="KB/Visualization/SuperQuadrics">SuperQuadrics</a></li>
+<li><a href="../KB/AI/Machine-Learning/Graph/Symmetries-Node-Link" class="internal alias" data-slug="KB/AI/Machine-Learning/Graph/Symmetries-Node-Link">Symmetries Node Link</a></li>
+<li><a href="../KB/Visualization/Time-Dependant-Vector-Field" class="internal alias" data-slug="KB/Visualization/Time-Dependant-Vector-Field">Time Dependant Vector Field</a></li>
+<li><a href="../KB/Visualization/Transfer-Function" class="internal alias" data-slug="KB/Visualization/Transfer-Function">Transfer Function</a></li>
+<li><a href="../KB/Visualization/Treemap" class="internal alias" data-slug="KB/Visualization/Treemap">Treemap</a></li>
+<li><a href="../KB/Visualization/Visual-Associative" class="internal alias" data-slug="KB/Visualization/Visual-Associative">Visual Associative</a></li>
+<li><a href="../KB/Visualization/Visual-Encoding" class="internal alias" data-slug="KB/Visualization/Visual-Encoding">Visual Encoding</a></li>
+<li><a href="../KB/Visualization/Visual-Length" class="internal alias" data-slug="KB/Visualization/Visual-Length">Visual Length</a></li>
+<li><a href="../KB/Visualization/Visual-Ordered" class="internal alias" data-slug="KB/Visualization/Visual-Ordered">Visual Ordered</a></li>
+<li><a href="../KB/Visualization/Visual-Quantitative" class="internal alias" data-slug="KB/Visualization/Visual-Quantitative">Visual Quantitative</a></li>
+<li><a href="../KB/Visualization/Visual-Selective" class="internal alias" data-slug="KB/Visualization/Visual-Selective">Visual Selective</a></li>
+<li><a href="../KB/Visualization/Visualization-Of-Layers" class="internal alias" data-slug="KB/Visualization/Visualization-Of-Layers">Visualization Of Layers</a></li>
+<li><a href="../KB/Visualization/Volume-Rendering-Equation" class="internal alias" data-slug="KB/Visualization/Volume-Rendering-Equation">Volume Rendering Equation</a></li>
+<li><a href="../KB/Visualization/Volume-Visualization" class="internal alias" data-slug="KB/Visualization/Volume-Visualization">Volume Visualization</a></li>
+<li><a href="../KB/Visualization/Volumetric-Illumination" class="internal alias" data-slug="KB/Visualization/Volumetric-Illumination">Volumetric Illumination</a></li>
+<li><a href="../KB/Visualization/Voxel-Projection" class="internal alias" data-slug="KB/Visualization/Voxel-Projection">Voxel Projection</a></li>
 </ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false}"></div><button id="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
                 s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
                 c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
@@ -134,7 +134,7 @@
                 C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
                 S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
                 s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../Articles/Scalar/Building-the-Word2Vec-Model-in-Gensim" class="internal">Building the Word2Vec Model in Gensim</a></li><li><a href="../KB/Demographic-Parity" class="internal">Demographic Parity</a></li><li><a href="../KB/Indirect-Volume-Visualization" class="internal">Indirect Volume Visualization</a></li><li><a href="../KB/Information-Visualization" class="internal">Information Visualization</a></li><li><a href="../KB/Interpretability-vs-Neuroscience" class="internal">Interpretability vs Neuroscience</a></li><li><a href="../KB/Orthogonal-Slicing" class="internal">Orthogonal Slicing</a></li><li><a href="../KB/Particle-Visualization" class="internal">Particle Visualization</a></li><li><a href="../KB/Visualization-Of-Layers" class="internal">Visualization Of Layers</a></li><li><a href="../KB/Volume-Visualization" class="internal">Volume Visualization</a></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.3.1</a> © 2025</p><ul><li><a href="https://github.com/SubhadityaMukherjee/AI-knowledge-base/">GitHub</a></li></ul></footer></div></body><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../Articles/Scalar/Building-the-Word2Vec-Model-in-Gensim" class="internal">Building the Word2Vec Model in Gensim</a></li><li><a href="../KB/AI/Ethics/Demographic-Parity" class="internal">Demographic Parity</a></li><li><a href="../KB/Medical/Brain/Cognitive-Modeling/Interpretability-vs-Neuroscience" class="internal">Interpretability vs Neuroscience</a></li><li><a href="../KB/Visualization/Indirect-Volume-Visualization" class="internal">Indirect Volume Visualization</a></li><li><a href="../KB/Visualization/Information-Visualization" class="internal">Information Visualization</a></li><li><a href="../KB/Visualization/Orthogonal-Slicing" class="internal">Orthogonal Slicing</a></li><li><a href="../KB/Visualization/Particle-Visualization" class="internal">Particle Visualization</a></li><li><a href="../KB/Visualization/Visualization-Of-Layers" class="internal">Visualization Of Layers</a></li><li><a href="../KB/Visualization/Volume-Visualization" class="internal">Volume Visualization</a></li><li><a href="../KB/_Index_of_KB" class="internal">_Index_of_KB</a></li></ul></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.3.1</a> © 2025</p><ul><li><a href="https://github.com/SubhadityaMukherjee/AI-knowledge-base/">GitHub</a></li></ul></footer></div></body><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
 </script><script type="module">
           let mermaidImport = undefined
           document.addEventListener('nav', async () => {
@@ -153,4 +153,8 @@
               })
             }
           });
-          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>
+          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../postscript.js" type="module"></script></html>

@@ -178,7 +178,7 @@ For simplicity, we only use the first 1000 data points. Setting the <em>load_sub
 <span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span></code></pre></figure>
 <h3 id="neural-network-architecture">Neural Network Architecture<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#neural-network-architecture" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>We can create the architecture that we described above in a few steps.
-First, we create a function that creates blocks of Convolutions, Batch Normalisation, and ReLU with different input and output channels. We give this function the option of having a <a href="../../KB/Dropout" class="internal" data-slug="KB/Dropout">Dropout</a> layer at the end or skipping that layer.
+First, we create a function that creates blocks of Convolutions, Batch Normalisation, and ReLU with different input and output channels. We give this function the option of having a <a href="../../KB/AI/Machine-Learning/Training/Normalization/Dropout" class="internal" data-slug="KB/AI/Machine-Learning/Training/Normalization/Dropout">Dropout</a> layer at the end or skipping that layer.
 We also create another function that generates blocks of FC layers followed by ReLU layers.
 We can use these functions to create the Sequential model that defines the Siamese Network. After creating the CNN part of the architecture using the functions we defined earlier, we have to create the FC part of the network. Note that different padding and kernel sizes are used across the network.
 The FC part of the network is blocks of Linear layers followed by ReLU activations.
@@ -393,4 +393,8 @@ Similar to the training function, we create an evaluation function that takes th
               })
             }
           });
-          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js" type="module"></script></html>
+          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../../postscript.js" type="module"></script></html>

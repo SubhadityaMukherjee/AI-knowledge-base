@@ -31,4 +31,17 @@ date created: Friday 2nd May 2025, Fri
 - Do we need the automl system to generate a model or just use the automl system to do this. Eg: we would run an llm over the users code and then have results. 
 	- There is no normal "model" that can do this reliably.
 	- We need two kinds of models essentially - one thats an LLM like chatgpt that can do many things and another that does a model search + refinement over existing architectures to find the best model. 
-- How would user interaction using a screen reader look like? For the output that is
+- How would user intera ction using a screen reader look like? For the output that is
+
+## Meeting Notes
+- 2025-05-09
+	- UAB Barcelona
+	- People
+		- Kate - communication
+		- Chiara - anthropologist, vulnerable groups
+		- Hari S - Philosophy of science 
+	- Difficulties
+		- voice interaction
+		- cannot type
+	- Person who will use automl system - designer user
+	- Ethical models and suggestions

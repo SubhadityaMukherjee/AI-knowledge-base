@@ -13,3 +13,4 @@ date created: Tuesday 6th May 2025, Tue
 - what if a batch fails?
 - Olmo
 - Data parallelism
+- Zero redundancy optimizer 

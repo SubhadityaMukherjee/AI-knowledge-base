@@ -2487,10 +2487,6 @@ Even though we touched the moon and Mars, we still cannot touch the truth"
 we are standing on the precipice as well. Do not fear because we are like the
 flowers. We did not step off."
 
-- "The History of every major Galactic Civilization tends to pass through three
-distinct and recognizable phases, those of Survival, Inquiry and
-Sophistication, otherwise known as the How, Why and Where phases."
-
 - "Every time you and me connect with each other a little bit of heart is born
 between us. Heart isn t something inside you. But whenever you think of
 someone, whenever you remember someone. That's when heart is born. If you were
@@ -2579,25 +2575,9 @@ utter foolishness. Nature is not good or evil. It just is."
 - "If you leave it then it's one step closer to giving up. And every relationship
 is worth a second shot."
 
-- "Certain people say that the real world has been constructed by the human mind,
-since our ways are governed by the artificial categories into which we place
-essentially undifferentiated things, things weaker than our words for them."
-
-- "We believe that we invent symbols. The truth is that they invent us; we are
-their creatures, shaped by their hard, defining edges"
-
 - "Where I put you, there you lie, Never let a stranger spy, Like glass grow to
 any eye, Not of me. Here be safe, never leave it, Should a hand come, deceive
 it, Let strange eyes not believe it, Till I see."
-
-- "In that contradiction will reside the appeal of this new belief. One can t
-found a novel theology on Nothing, and nothing is so secure a foundation as a
-contradiction. Look at the great successes of the past—they say their deities
-are the masters of all the universes, and yet that they require grandmothers to
-defend them, as if they were children frightened by poultry. Or that the
-authority that punishes no one while there exists a chance for reformation will
-punish everyone when there is no possibility anyone will become the better for
-it."
 
 - "You have humor! That's excellent! There are few advantages, I ll tell you,
 that profit a man more than humor. Humor will draw a crowd. Humor will calm a
@@ -3503,13 +3483,6 @@ sacrifice their lives for justice. They achieved honor by martyring themselves.
 They were willing to sacrifice themselves, at the expense of their lives for
 freedom and all life."
 
-- "The ways of the world are full of vicissitudes, and in it, there is the grief
-at separation and joy in union, the suffering of life and death. No matter how
-thick a history book is, it would not be able to record everything down.
-However, it is such infinite matters of the past that can pass by with a finger
-snap. In one's old age, while looking back at the past, only then would you
-feel like everything was ephemeral"
-
 - "Live for the moments in life when everything's going by slow yet all too fast,
 when you re at peace with yourself because you re spending it with the people
 you love or simply just with yourself. Whether it's reading, writing, going on
@@ -4294,9 +4267,6 @@ age! As if the self had no relation to the self, and one only looked in mirrors
 to have one’s arrogance confirmed; as if the act of self-regarding was not as
 subtle, fraught and ever-changing as any bond between twin souls."
 
-- "Sometimes when you find certain things with certain qualities, it’s just
-fate."
-
 - "Life is a war against boredom."
 
 - "A samurais sword is not something you put in a sheath its something you put in
@@ -4752,7 +4722,7 @@ being entrusted with it."
 question."
 
 - "For the weakest has but to try his strength to find it, and then he shall be
-strong.'"
+strong."
 
 - "There are a thousand ways to tell if someone is lying to you. You don’t need
 to be able to glimpse into their mind to catch all of the little signs of
@@ -4959,8 +4929,6 @@ keeps its brain."
 - "Always use the proper name for things. Fear of a name increases fear of the
 thing itself."
 
-- "After all, to the well-organized mind, death is but the next great adventure."
-
 - "It does not do to dwell on dreams and forget to live."
 
 - "Strange how nearsighted being invisible can make you."
@@ -4995,8 +4963,6 @@ and they do nothing."
 
 - "Armor does more than protect; it conceals. Helms hide faces—and your opponent
 becomes a mystery, an enigma."
-
-- "That’s what you do when you love someone—you notice and notice and notice."
 
 - "This was his spirit, his integrity. Some things in the world are more
 important than life or death, and that noble, unbendable, unbreakable spirit is
@@ -5655,7 +5621,6 @@ son. I have to . . . find the courage on my own. "
 we can do is to remind each other that we're related, for better or worse ...
 and try to keep the maiming and killing to a minimum."
 
-- "The most dangerous flaws are those which are good in moderation," she said.
 - "Evil is easy to fight. Lack of wisdom... that is very hard indeed."
 
 - "Happily Ever After doesn’t exist. Every day you wake up and decide to love
@@ -5908,12 +5873,6 @@ challenge and creating something. It is painful, but it's  fulfilling. So thank
 you. For sweeping away the dust that had collected on my body. .. For
 encountering me... ever since that day... my world, even the keyboard... became
 colorful."
-
-- "You know, I discovered something. Everyone has something... something deep
-inside their hearts. For some, it might be enmity. For others, admiration.
-Wishes, a craving for the spotlight, feelings that one wants to deliver,
-feelings for ones mother. Everyone was supported by their own feelings. I
-realize now that, perhaps, no one can stand alone on stage."
 
 - "Letting you go was never easy because the half of my heart joined you and left
 me."
@@ -6227,9 +6186,6 @@ acting as my aspiration, to have my spirit as my realm, and when I open my
 eyes, I will draw out my heart’s desires… This is the reason why I can draw,
 but you can only copy."
 
-- "There is a saying that goes that the people who are lonely may be different
-from each other, but all of them stare at the moon."
-
 - "Willpower is an abstract term. It’s like a person’s resolve, like a beacon of
 light in a person’s life… However, it is still an abstract thing… If no one
 attacks me, then I won’t attack, but if someone attacks me, I will definitely
@@ -6269,11 +6225,6 @@ deities and become the Emperor!"
 
 - "Perhaps the greatest sorrow in the world is when you don’t even know why
 you’re sad…"
-
-- "Everything in the world is a cause, if there are no intense changes and if
-there is nothing that would turn the tides of the world, then it would be
-difficult for us to see the real nature of people, who are affected by the
-things in the world…"
 
 - "Are we all allowed to impose our will on others because our power is greater
 than theirs?"
@@ -6340,9 +6291,6 @@ opened his eyes. If Life means that we have to subjugate ourselves to the
 heavens before we can call ourselves humans, then the opposite can happen as
 well, we can still say that we have Life when the heavens bow down to us!"
 
-- "If you do not have a place in your heart you call home, you will wander no
-matter where you are…"
-
 - "What you see might not be the truth, and what you believe doesn’t exist… might
 not necessarily not exist."
 
@@ -6352,11 +6300,6 @@ What does it mean to be asleep, and what does it mean to be awake? All of this�
 is just the world you see, and no one else… can see it. It is like fate, you
 can choose to submit to it or to fight against it. It is like life, where
 moments of joy and sadness exist together. "
-
-- "If I’m not bothered by my past, then why should I be bothered by my future? If
-I don’t cling to the idea of who I am, then why should I think about who is
-me…? The high winds may be strong, but they cannot extinguish the flames in my
-heart. Sooner or later… they will set the world ablaze!"
 
 - "But most of the time, happiness will only last for a short moment, because
 there is an eye in the world that belongs to loneliness, and it does not want
@@ -7722,12 +7665,6 @@ one part of the rain in the world. You will never know how much rain there is
 when it stops… You can only see the surface of the muddy water on the ground
 and never the bottom… "
 
-- "If you stay on your Dao1 but have no method of solving a particular problem
-now, that method will eventually come to you. If you have the skills and power,
-but have strayed from your Dao, then you cannot use your skills, and your power
-will forever stay stagnant! I don’t understand the Dao’ meant by those in the
-other worlds, but now…"
-
 - "A delusion starts like any other idea, as an egg. Identical on the outside,
 perfectly formed. From the shell, you’d never know anything was wrongs what’s
 inside that matters."
@@ -7854,15 +7791,6 @@ then why can’t that persistence grant me peace?"
 - "The Golden Roc’s heart and its will are reflected as it flies through the
 world. Within its eyes, there is nothing in the world that can stop its path.
 It can fly endlessly in this vast sky"
-
-The place where I was born still did things according to the laws of the
-universe…
-
-- "When I was born, the Berserkers had weakened… If the heavens are heartless,
-then we will all be separated… The earth was heartless, and it made my Dark
-Mountain die… When war begins, the moon will shatter into millions of pieces…
-The roads leading to our homes will become unfamiliar to us, and we will
-grieve… "
 
 - "Always treat it as if he is still alive and kill him again, maybe twice, or
 even more."
@@ -8018,9 +7946,6 @@ diamond-cutter shatters his gem with a blow of a knife?"
 can stand in their way. Their movement become headlong—faster and faster and
 faster. They put aside all thought of obstacles and forget that a precipice
 does not show itself to the man in a blind rush until it’s too late."
-
-You are a placebo responder. Your body plays tricks on your mind. You cannot be
-trusted.’
 
 - "How often it is that the angry man rages denial of what his inner self is
 telling him."
@@ -8295,10 +8220,6 @@ else to pursue. Live being true to the single purpose of the moment."
 - "Saving one dog will not change the world, but surely for that one dog, the
 world will change forever."
 
-- "He wasn’t in a safe little story where wrongs were automatically righted; he
-was still in the real world, where bad, bitter things happened for no reason,
-and people paid for things that weren’t their fault."
-
 - "For the true magician there is no very clear line between what lies inside the
 mind and what lies outside it. If you desire something, it will become
 substance. If you despise it, you will see it destroyed. A master magician is
@@ -8306,15 +8227,6 @@ not much different from a child or a madman in that respect. It takes a very
 clear head and a very strong will to operate once you are in that place. And
 you will find out very quickly whether or not you have that clarity and that
 strength."
-
-- "Everybody has their own idiopathic reaction to their childhood home."
-
-- "So you have to promise me, Quentin. Let’s never get like this, with these
-stupid hobbies nobody cares about. Just doing pointless things all day and
-hating each other and waiting to die. Well, you drive a hard bargain," he said.
-- "But okay. I promise. I’m serious, Quentin. It’s not going to be easy. It’s
-going to be so much harder than you think. They don’t even know, Quentin. They
-think they’re happy. That’s the worst part."
 
 - "Sometimes I wonder if man was really meant to discover magic," Fogg said
 expansively. "It doesn’t really make sense. It’s a little too perfect, don’t
@@ -8496,11 +8408,6 @@ home… However, many parents and relatives weren’t able to meet their childre
 even at their dying moment. If one had the chose again, would they still take
 that step to become a cultivator…"
 
-- "The flame moved with the wind just like how the wind makes the plants move,
-which makes it look like the mountain is moving, but in reality…" Wang Lin
-pondered."In reality, the mountain didn’t move, the flame didn’t move, what
-moved was the wind!"
-
 - "Dao is like a thought, and everyone’s thoughts are different. If one wants to
 enrich one’s own mind, they must learn other people’s thoughts as well."
 
@@ -8565,11 +8472,6 @@ and ponder about the unknown…"
 
 - "life springs from the dirt of the earth, and water too clean often harbors no
 fish.’
-
-."Seeking dao… In truth, it is bringing the dao into your heart, this is
-dao-seeking. The so-called comprehension and domain are the same. You keep a
-comprehension in your heart and slowly experience it until it merges with your
-dao. Eventually, it will become a domain, an ideal."
 
 - "When we’re passionate about something, we want other people to also be
 passionate about it. It validates ourselves. We don’t care if our passion is
@@ -8680,8 +8582,6 @@ happiness."
 
 - "A wealth of information creates a poverty of attention."
 
-- "Chop wood, carry water. Chop wood, carry water. Chop wood, carry water."
-
 - "With my sighted eye I see what’s before me, and with my unsighted eye I see
 what’s hidden"
 
@@ -8744,7 +8644,7 @@ Tomorrow morning the critic will be gone, but the writer will still be there
 facing the blank page."
 
 - "I'm not sure if the most spoken words in the average american household are 'I
-love you' or 'I want that'"
+love you' or 'I want that"
 
 - "Eternity is in love with the creations of time."
 
@@ -9110,8 +9010,6 @@ person's  angle as well as from your own."
 - "The universe is largely left up to chance, and the control you think you have…
 much of it is a delusion."
 
-- "The world has never complained about how busy it is. "
-
 - "Those who work in a playful, relaxed manner tend to work efficiently and
 creatively. Those who work nonstop, driven only by stress, work without joy."
 
@@ -9414,12 +9312,6 @@ that you can't give up on your family, no matter how tempting they make it. It
 doesn't matter if they hate you, or embarrass you, or simply don't appreciate
 your genius for inventing the Internet—"
 
-- "You see, in times of trouble, even gods can lose faith. They start putting
-their trust in the wrong things. They stop looking at the big picture and start
-being selfish. But I’m the goddess of marriage, you see. I’m used to
-perseverance. You have to rise above the squabbling and chaos, and keep
-believing. You have to always keep your goals in mind."
-
 - "You’re not so different from me, demigod. Even when I’m out of the water, the
 water is within me. It is my life source."
 
@@ -9510,10 +9402,6 @@ if you give someone a dream, you defend it to the end."
 - "What you lacked was not wind. It's  courage that's  allowed you to become the
 first flying birds of this world."
 
-- "In the perpetual meantime of a sheltered eternity, most are content to live,
-and not to dream.But in the hidden corners where the gods' gaze does not fall,
-there are those who dream of dreaming."
-
 - "My greatest wish? It has always been to roam free and experience the whole
 world. Now I would add that wherever I go, it simply must be with you! Each day
 with you is an adventure, and where adventurers go, storytellers must follow!"
@@ -9545,21 +9433,12 @@ way out. A selfish indulgence, even."
 - "Rex Lapis once said: "Ones who break their contracts shall suffer the Wrath of
 the Rock."
 
-- " When people see the object of their dreams, how many are really able to
-control their desire and follow the contract...?"
-
-- " The story continues that some among her people realized at last that this
+- "The story continues that some among her people realized at last that this
 gentle, kind, but weak god could never protect anyone in wartime. The Archon
 War was cruel in the extreme. Instead of consigning her to the agony of defeat,
 they thought, perhaps it would be better to give her a quick release."
 
-- " Faith in a god who has already passed will do you no good."
-
-- " History records, but history may be changed. This incident proved that. Time
-is a mighty force, and histories twist in its flow... I need to find a better
-way of recording history in order to engrave its truth. Stone carvings were one
-such ancient method. But unchanging stone, immovable earth, even one such as
-myself... Someday, we may all disappear."
+- "Faith in a god who has already passed will do you no good."
 
 - "Kun Jun: Then again, the memories of ore can shift with the passage of time
 and the changing of the environment. Is there a pattern to it? Hmm, difficult
@@ -9567,7 +9446,7 @@ to say... I feel that ore memories tend to be from the recent past. So there's
 never any ancient memories? Rocks endure, but as eons pass their memories are
 erased. Those memories that survive are rooted in powerful emotion or thought."
 
-- " The memories of rocks do not last long. Those memories that survive are
+- "The memories of rocks do not last long. Those memories that survive are
 rooted in powerful emotion. But as time passes, so these memories fade into
 obscurity. Erosion is the world's  greatest destroyer of memories. Eragon:
 Erosion...? Kun Jun: Erosion ground Azhdaha's  consciousness into oblivion.
@@ -9575,12 +9454,7 @@ Slowly, he forgot the face of his old friend, and his memories of defending
 Liyue Harbor disintegrated. Kun Jun: Azhdaha, now incomplete, became
 irascible... aggressive."
 
-- " Curious how swords and daggers are blind, yet their creators see so much.
-Perhaps empathy is mankind's  proudest achievement after all?"
-
-- " A heart of stone is a heart nonetheless"
-
-- " When the door opens, it is time to leave"
+- "A heart of stone is a heart nonetheless"
 
 - "Zhongli : People abandon and surrender the things they love to pursue the
 right path. Perhaps this is the erosion imposed on me by the natural order of
@@ -9799,12 +9673,7 @@ trick."
 - "When we surrender our ability to choose, something or someone else will step
 in to choose for us."
 
-- "The ability to choose cannot be taken away or even given away—it can only be
-forgotten."
-
 - "My first act of free will shall be to believe in free will."
-
-- "You cannot overestimate the unimportance of practically everything."
 
 - "In every set of facts, something essential is hidden. And a good journalist
 knows that finding it involves exploring those pieces of information and
@@ -9845,8 +9714,6 @@ extent, I actually enjoy being busy."
 - "The world is experienced according to the state of one’s mind."
 
 - "It’s not the situation that is troubling us, but our perspective on it."
-
-- "Don’t struggle to heal your wounds. Just pour time into your heart and wait."
 
 - "Do you not feel compassion for yourself as you struggle through life? You are
 so eager to help your friends, but you treat yourself so poorly."
@@ -10251,10 +10118,6 @@ beautiful sedan chair to sit in, you still need others to lift you up."
 turn weapons of war into gifts of jade and silk. It's  not easy to do, but he
 pulled it off perfectly. Really incredible!"
 
-- "Xiaochun…" he said softly. "You’re right. As long as we’re alive, there are
-endless possibilities. But just because we die doesn’t mean that our hopes and
-dreams die with us!"
-
 - "Bai Xiaochun had always thought of himself as somewhat of a nobody, and
 definitely not a hero. But as he proceeded through life, he had slowly come to
 acquire a sense of duty and responsibility."
@@ -10418,22 +10281,12 @@ time here."
 towards himself and subtly reveal some of his own thoughts that would make the
 other party wonder."
 
-- "Whatever you brag about the most is what you lack the most. "Whatever it is
-that you want others to know that you own the most of is what you want to
-possess the most."
-
 - "The more he wanted to obtain something, the more he would have to sacrifice.
 Only he could determine whether the sacrifice was equivalent to the reward and
 whether it was worth it, not anyone else."
 
 - "The mind is restless, Krishna, impetuous, self-willed, hard to train: to
 master the mind seems as difficult as to master the mighty winds."
-
-- "Our job is not to "go with our gut" or fixate on the first impression we form
-about an issue. No, we need to be strong enough to resist thinking that is too
-neat, too plausible, and therefore almost always wrong. Because if the leader
-can’t take the time to develop a clear sense of the bigger picture, who will?
-If the leader isn’t thinking through all the way to the end, who is?"
 
 - "Keep strong, if possible. In any case, keep cool. Have unlimited patience.
 Never corner an opponent, and always assist him to save face. Put yourself in
@@ -11044,9 +10897,6 @@ in it. How do you teach a fish to fly? Here is the key: End the delusion of
 time. Time and mind are inseparable. Remove time from the mind and it stops
 unless you choose to use it."
 
-- "There is no salvation in time. You cannot be free in the future. Presence is
-the key to freedom, so you can only be free now."
-
 - "Everything is honored, but nothing matters. Forms are born and die, yet you
 are aware of the eternal underneath the forms. You know that "nothing real can
 be threatened."
@@ -11604,7 +11454,7 @@ coping mechanism. It's our go-to as thinking beings."
 for some it’s women, for some even religion, family, the king, dreams,
 children…power. All of us had to spend our lives drunk on something
 else we’d have no cause to keep pushing on. Everyone…was a slave to
-something.”
+something."
 
 - "I'm simply an accident. Why take it all so seriously?"
 
@@ -11614,16 +11464,16 @@ something.”
 
 - "Man stands face to face with the irrational. He feels within him his longing
 for happiness and for reason. The absurd is born of this confrontation between
-the human need and the unreasonable silence of the world.”
+the human need and the unreasonable silence of the world."
 
 "After
 having struggled madly to solve all problems, after having suffered on
 the heights of despair, in the supreme hour of revelation, you will
-find that the only answer, the only reality, is silence.”
+find that the only answer, the only reality, is silence."
 
 - "Everything that is formulated becomes more tolerable."
 
-- "Every man is happy until happiness is suddenly a goal”
+- "Every man is happy until happiness is suddenly a goal"
 
 - "The truth is, you are already worthy of being loved. You don’t need to be
 convinced of your self-worth by taking on society’s demands and living up to
@@ -11635,16 +11485,16 @@ have been, coping with your father’s rage alone, trying to protect your
 siblings, without even your mother to help you."
 
 - "I sometimes believe my mom caused me to have ADHD or at least she worsened it.
-I can see a lot of correlations, like my "laziness” (her words) coming from her
+I can see a lot of correlations, like my "laziness" (her words) coming from her
 lack of parenting and holding me accountable in a normal way. Or the way that I
 zone out a lot / have issues focusing being because of a list of reasons
 including dissociation to protect myself or being use to being unheard. It’s
 kind of hard to explain it all, but you get the point hopefully."
 
-- "I woke up yesterday at noon. but for today”
+- "I woke up yesterday at noon. but for today"
 
 - "Life always waits for some crisis to occur before revealing itself at its most
-brilliant.”
+brilliant."
 
 - "Shower your child with attention, and make her feel secure in your love.  This
 way she won’t grow up starved for other people’s acknowledgment."
@@ -11657,7 +11507,7 @@ you don't want to appear the fool do you?"
 
 - "Lengthy deliberation often leads to a terrible decision. If you think and
 worry too much before doing something, your boat goes to the mountain instead
-of the ocean.”
+of the ocean."
 
 - "We are so good at creating something from nothing that we make our own lives
 fantasy and give ourselves a hard time. Color dodge the shit out of your life.
@@ -11673,38 +11523,38 @@ live in guilt and shame for so long."
 - "O archon seeker, do you now understand? She and her wisdom have long been
 found by you. Along your journey we were in every flower and blade of grass,
 every ray of sparkling sun, and every breath of dancing wind. So long as you
-continue to think and ponder, well be wherever you go.”
+continue to think and ponder, well be wherever you go."
 
 - "Fate will only ever show you the beginning of a journey. It is up to you for
-forge your own ending.”
+forge your own ending."
 
 - "Analogies are wonderful tools. They let you use existing knowledge to
-understand unfamiliar things.”
+understand unfamiliar things."
 
 - "I believe that the Archons revelations are never more than vague hints.
-Anything more specific is beyond the reach of mere mortals.”
+Anything more specific is beyond the reach of mere mortals."
 
-- "If you trust your instincts and overcome your fears, the sun will surely rise”
+- "If you trust your instincts and overcome your fears, the sun will surely rise"
 
-- "Knowledge always comes at a price.”
+- "Knowledge always comes at a price."
 
 - "Tomorrow will come. Everyone assumes this as common knowledge, but the only
 way you can know for sure is if you experience tomorrow. How many ‘today’s’ has
 it been? Is it possible that today will be followed by yesterday? Does tomorrow
-truly exist as anything beyond a made up concept?”
+truly exist as anything beyond a made up concept?"
 
 - "That’s why it makes no sense to waste your energy thinking about things you
-will learn tomorrow.”
+will learn tomorrow."
 
 - "Dreams are fantastical, complex and full of imagination. Peoples brains are
 most active when they’re dreaming. In other words, the dreams are rich bundles
-of human wisdom.”
+of human wisdom."
 
 - "There will always be frustrations in life, but I know that the point of living
-is to not leave behind any regrets.”
+is to not leave behind any regrets."
 
 - "When the north wind blows, some dandelion seeds are blown across the sea to
-Inazuma, while others get swept away to Liyue.”
+Inazuma, while others get swept away to Liyue."
 
 - "Jeht: I don't have family traditions, and I don't even remember my mother's
 face. I only have you, and you only have me. There is no large tree and no
@@ -11722,31 +11572,31 @@ accept Tirzad's commission? Don't tell me it's because you want to take a look
 at your past.  Jeht: I think you just can't forget the desert and the hot winds
 that sweep it.  Jeht: The strange thing is that I have no memories of the
 desert, but coming here makes me feel like I've returned home all the same.
-Jeht: I love the sand, just like I love Paimon and Benben.”
+Jeht: I love the sand, just like I love Paimon and Benben."
 
 - "O stars high above the wasteland; O nightingales weary from the day; It's time
 to take off the crown of roses; Cleanse yourself with wine made from grapes.
 Sleep, close your eyes; Yon golden slumber summons thee, wandering sand; Drink
-not that bitter salt water; For the sorrows of tomorrow have gone away.”
+not that bitter salt water; For the sorrows of tomorrow have gone away."
 
-- "Underestimate the sand and you'll pay with your life.”
+- "Underestimate the sand and you'll pay with your life."
 
 - "The door is protecting something very important, and so much time has passed
-that it has almost forgotten how it used to open.”
+that it has almost forgotten how it used to open."
 
 - "Coming to the desert is like returning home, and in the end, I'm a grain of
-sand. I was born here, and I shall be buried here as well.”
+sand. I was born here, and I shall be buried here as well."
 
 - "Ufairah and I were like a bird and a fish, but Al-Ahmar's secrets allowed our
 fates to intertwine. Now, you and I, people from different lands, are again
-here for those very same secrets.”
+here for those very same secrets."
 
-- "A man chained by hatred cannot raise a daughter.”
+- "A man chained by hatred cannot raise a daughter."
 
 - "There was the Door to which I found no Key; There was the Veil through which I
 might not see: Some little talk awhile of Me and Thee There was--and then no
 more of Thee and Me." "Each Morn a thousand Roses brings, you say: Yes, but
-where leaves the Rose of Yesterday?”
+where leaves the Rose of Yesterday?"
 
 - "Agree to disagree. But, your appearance just made this a whole lot more
 interesting."
@@ -11760,7 +11610,7 @@ humanity. We will defy this world with a power from beyond."
 
 - "Beauty is a waste when the beholder has no taste."
 
-- "Nobody ever feels alone when they set off a firework”
+- "Nobody ever feels alone when they set off a firework"
 
 - "There will always be those who dare to brave the lightning's glow".
 
@@ -11770,7 +11620,7 @@ moment you obtain it."
 - "I know, I know, you can't get me out of your mind. But you really don't need
 to call my name all the time."
 
-- "Never stop searching, even for a brief flash of light”
+- "Never stop searching, even for a brief flash of light"
 
 - "We have always... had enough time"
 
@@ -11780,9 +11630,7 @@ see,simply because they do not wish to look.
 - "To endure hardship you must prepare for hardship"
 
 - "What you might not realize is that all too often… people have far more to lose
-by chasing their dreams”
-
-- "A heart made of stone is a heart nonetheless"
+by chasing their dreams"
 
 - "If you’re not willing to communicate, then the problem just sits there. If you
 just keep staring at it without doing anything, eventually you’ll watch every
@@ -11805,7 +11653,7 @@ ugliness."
 planted long ago.Just like your appearance in that tavern.Time is just waiting
 for those seeds to sprout".
 
-- "I'm all for work-life balance, but I think this is pushing it.”
+- "I'm all for work-life balance, but I think this is pushing it."
 
 - "For those that live too long, the friends of days gone by and scenes from
 their adventures live on in their memories. As such i have no regrets in
@@ -11848,7 +11696,7 @@ did this during the Archon war"
 - "Someday even bedrock returns to dust"
 
 - "For dawn to come, there must be those willing to pierce the darkness with
-their light.”
+their light."
 
 - "When one's fervent ambition burns brightly, the gods will cast their gaze upon
 you. Some ambitions have the power to heal wounds. to bring victory. to inspire
@@ -11906,12 +11754,12 @@ left for those who come after to debate."
 
 - "The fate that brings people together is not a cord so easily cut."
 
-- "He” is unhappy. "He” is displeased with the disturbance caused by "words of
-the tone,” which drown out the wisdom of the "words of the heart”. The "words
-of the tongue” are like pouring rain. They shake the eardrums and disrupt the
-heart. "The words of the heart” are like fog. They deep in naturally,
+- "He" is unhappy. "He” is displeased with the disturbance caused by "words of
+the tone," which drown out the wisdom of the "words of the heart”. The "words
+of the tongue" are like pouring rain. They shake the eardrums and disrupt the
+heart. "The words of the heart" are like fog. They deep in naturally,
 enshrouding.. do not use your tongue do not use your ears, listen with your
-heart”."
+heart"."
 
 - "There are so many disappointments to face. Some are huge, some are small, some
 are what they are.  Some are deep wounds that change the course of your life.
@@ -11945,13 +11793,13 @@ there is, also, still hope to shed light on those places."
 thrive."
 
 - "Aranishat, you should admit defeat. Don't be like a stubborn twig that refuses
-to bend against strong gusts. You will break just like it.”
+to bend against strong gusts. You will break just like it."
 
 
 - "The unseen and uncatchable that slips past the moon's gaze and encourages the
-growth of sprouts”
+growth of sprouts"
 
-- "Hmm, the children of the forest aren't distinguished by age.”
+- "Hmm, the children of the forest aren't distinguished by age."
 
 - "Zhongli: I ended an era with my own two hands. I have always wondered how I
 should... remember that which I ended.  Zhongli: History records, but history
@@ -11964,11 +11812,11 @@ Therefore, I thought of you, Traveler.  Zhongli: You are one who crosses the
 celestial atlas, and who passes through countless worlds. If our history is
 engraved in your memory, it will one day accompany you into another world.
 Zhongli: As long as a Traveler like you is able to record what happened, then a
-backup of sorts will exist for times and tides of Teyvat.”
+backup of sorts will exist for times and tides of Teyvat."
 
 - "Life may exist in all kinds of unfathomable forms and in all manner of
 unthinkable environments. Mysterious, yet tenacious... Perhaps this is what
-makes life so special.”
+makes life so special."
 
 - "To those who seek shall just reward be given in proportion to their wisdom and
 work."
@@ -11981,28 +11829,28 @@ companions.  Yae Miko: Only a deep commitment to his ambition to become the
 best made it possible for him to rise above the pain of these encounters — to
 focus on the way ahead.  Yae Miko: When that ambition disappeared, he began to
 doubt himself. As he battled his growing anxiety... he slowly descended into
-the state you see him in now.”
+the state you see him in now."
 
-- "The wind that blows from afar carries fresh life to these shores...”
+- "The wind that blows from afar carries fresh life to these shores..."
 
 - "How else can you catch a thief except by being familiar with how a thief
-thieves?”
+thieves?"
 
 - "Only those who have traveled understand the meaning of a journey. I hope
-she'll find what she's been looking for...”
+she'll find what she's been looking for..."
 
 - "The essence of the Amenoma Art is to have the patience to move mountains and
-unrelenting willpower”
+unrelenting willpower"
 
 - "Then again, the memories of ore can shift with the passage of time and the
-changing of the environment”
+changing of the environment"
 
 - "He who bears the weight of memory is destined to shoulder the burden of truth.
-As it ought to be.”
+As it ought to be."
 
 - "In the wilderness, snow falls on a spring day. In an instant it will melt.
 Even where it is fleeting and leaves no trace. Even where it will never fall
-again...”
+again..."
 
 - " Kun Jun: Curious how swords and daggers are blind, yet their creators see so
 much. Perhaps empathy is mankind's proudest achievement after all?  Zhongli:
@@ -12023,27 +11871,23 @@ of time, those people, those past and future relationships
 predetermined by fate... They will be waiting for you.  Zhongli: I do
 not pretend to match your rhetoric when it comes to the subject of a
 life long-lived. I fear that the life of an elemental being is longer
-than any in this world.”
+than any in this world."
 
 - "The greater the power, the greater the danger erosion may bring about. The
-millennia may come and go, but even a stone may tire.”
+millennia may come and go, but even a stone may tire."
 
 - "But as long as you firmly believe that you are on the right path... everything
-has meaning.”
+has meaning."
 
 - "A fleeting moment, a thousand years in the mortal world. The rocks feel it,
-and so too does the earth and the god”
+and so too does the earth and the god"
 
 - "Nachtigal: I think you're being too stubborn. There's always a choice in life.
 Nachtigal: I mean, just look at Bonifaz and I. We weren't born as traveling
 merchants, and no one in our families has even been to Sumeru...  Nachtigal:
 But we're still here with the northern wind at our backs. We don't regret our
 choice at all. Seeing the boundless world unfold before our eyes fills us with
-a sense of freedom.”
-
-- "The desert holds only the past. It has no future. If what lies beneath the
-sand and wind can be described as the truth, then I can only say that it
-perhaps isn't something that will bring joy to everyone.”
+a sense of freedom."
 
 - "Venti: "Fill up the barrels and store them away, Then wait, wait for a windier
 day.  Wax the bottles, seal them tight, For the south wind that soothes, for
@@ -12060,14 +11904,14 @@ for the wind to sing along.  Where do we turn once the thousand winds
     take flight?  To the tales of the lyre, to the sweet dream of
     tonight."
 
-- "You know, no two waves are ever the same...”
+- "You know, no two waves are ever the same..."
 
 - "The sun nurtures many good things, but it can't do anything about the problems
-lurking in the shadows.”
+lurking in the shadows."
 
 - "The ancient writers once emphasized the virtues of "edification through
 immersion" — that is to say that human temperament and character can be
-affected by being steeped in aromas and lovely scents.”
+affected by being steeped in aromas and lovely scents."
 
 - "Dear young master, you still have a long life ahead of you. There shall be
 plenty of opportunities to drink — in the future, that is."
@@ -12407,7 +12251,7 @@ right amount of each or I’ll be on the path to falling apart again. "
 - "The only gods out here are the odds"
 
 - "The muse is shy. She wants to be seen but not stared at. If you expect too
-much, its like a date and she just wont show up.”
+much, its like a date and she just wont show up."
 
 - "It's said that the gods favor fools as they were more entertaining to watch."
 
@@ -12425,147 +12269,147 @@ robust, but each one of them don’t necessarily get the credits they deserve."
 
 - "Always demand a deadline. A deadline weeds out the extraneous and the
 ordinary. It prevents you from trying to make it perfect, so you have to make
-it different. Different is better.”
+it different. Different is better."
 
 - "Don’t be afraid to ask a question that may sound stupid because 99% of the
 time everyone else is thinking of the same question and is too embarrassed to
-ask it.”
+ask it."
 
 - "A worthy goal for a year is to learn enough about a subject so that you can’t
-believe how ignorant you were a year earlier.”
+believe how ignorant you were a year earlier."
 
 - "Pros are just amateurs who know how to gracefully recover from their mistakes.
 
-- "Extraordinary claims should require extraordinary evidence to be believed.”
+- "Extraordinary claims should require extraordinary evidence to be believed."
 
 - "Don’t take it personally when someone turns you down. Assume they are like
 you: busy, occupied, distracted. Try again later. It’s amazing how often a
-second try works.”
+second try works."
 
 - "The purpose of a habit is to remove that action from self-negotiation. You no
 longer expend energy deciding whether to do it. You just do it. Good habits can
-range from telling the truth, to flossing.”
+range from telling the truth, to flossing."
 
-- "Promptness is a sign of respect.”
+- "Promptness is a sign of respect."
 
 - "To make something good, just do it. To make something great, just re-do it,
-re-do it, re-do it. The secret to making fine things is in remaking them.”
+re-do it, re-do it. The secret to making fine things is in remaking them."
 
 - "If you are looking for something in your house, and you finally find it, when
 you’re done with it, don’t put it back where you found it. Put it back where
-you first looked for it.”
+you first looked for it."
 
 - "Separate the processes of creation from improving. You can’t write and edit,
 or sculpt and polish, or make and analyze at the same time. If you do, the
 editor stops the creator. While you invent, don’t select. While you sketch,
 don’t inspect. While you write the first draft, don’t reflect. At the start,
-the creator mind must be unleashed from judgement.”
+the creator mind must be unleashed from judgement."
 
 - "You are what you do. Not what you say, not what you believe, not how you vote,
-but what you spend your time on.”
+but what you spend your time on."
 
 - "Be prepared: When you are 90% done any large project (a house, a film, an
 event, an app) the rest of the myriad details will take a second 90% to
-complete.”
+complete."
 
 - "Before you are old, attend as many funerals as you can bear, and listen.
 Nobody talks about the departed’s achievements. The only thing people will
-remember is what kind of person you were while you were achieving.”
+remember is what kind of person you were while you were achieving."
 
 - "For every dollar you spend purchasing something substantial, expect to pay a
-dollar in repairs, maintenance, or disposal by the end of its life.”
+dollar in repairs, maintenance, or disposal by the end of its life."
 
 - "Anything real begins with the fiction of what could be. Imagination is
 therefore the most potent force in the universe, and a skill you can get better
 at. It’s the one skill in life that benefits from ignoring what everyone else
-knows.”
+knows."
 
 - "On vacation go to the most remote place on your itinerary first, bypassing the
 cities. You’ll maximize the shock of otherness in the remote, and then later
-you’ll welcome the familiar comforts of a city on the way back.”
+you’ll welcome the familiar comforts of a city on the way back."
 
 - "When you get an invitation to do something in the future, ask yourself: would
 you accept this if it was scheduled for tomorrow? Not too many promises will
-pass that immediacy filter.”
+pass that immediacy filter."
 
-- "Art is in what you leave out.”
+- "Art is in what you leave out."
 
 - "Rule of 7 in research. You can find out anything if you are willing to go
 seven levels. If the first source you ask doesn’t know, ask them who you should
 ask next, and so on down the line. If you are willing to go to the 7th source,
-you’ll almost always get your answer.”
+you’ll almost always get your answer."
 
 - "Most really amazing or great things are done by people doing them for the
-first time.”
+first time."
 
 - "The universe is conspiring behind your back to make you a success. This will
-be much easier to do if you embrace this pronoia.”
+be much easier to do if you embrace this pronoia."
 
 - "It’s not an apology if it comes with an excuse. It is not a compliment if it
-comes with a request”
+comes with a request"
 
-- "Only imperfect beings can make art because art begins in what is broken.”
+- "Only imperfect beings can make art because art begins in what is broken."
 
 - "If someone is trying to convince you it’s not a pyramid scheme, it’s a pyramid
-scheme.”
+scheme."
 
-- "The reward for good work is more work.”
+- "The reward for good work is more work."
 
 - "The foundation of maturity: Just because it’s not your fault doesn’t mean it’s
-not your responsibility.”
+not your responsibility."
 
-- "You are only as young as the last time you changed your mind.”
+- "You are only as young as the last time you changed your mind."
 
 - "The worst evils in history have always been committed by those who truly
-believed they were combating evil. Beware of combating evil.”
+believed they were combating evil. Beware of combating evil."
 
-- "Don’t loan money to a friend unless you are ready to make it a gift”
+- "Don’t loan money to a friend unless you are ready to make it a gift"
 
-- "If you can’t tell what you desperately need, it’s probably sleep.”
+- "If you can’t tell what you desperately need, it’s probably sleep."
 
 - "When playing Monopoly, spend all you have to buy, barter, or trade for the
-Orange properties. Don’t bother with Utilities.”
+Orange properties. Don’t bother with Utilities."
 
 - "If you borrow something, try to return it in better shape than you received
-it. Clean it, sharpen it, fill it up”
+it. Clean it, sharpen it, fill it up"
 
-- "To quiet a crowd or a drunk, just whisper.”
+- "To quiet a crowd or a drunk, just whisper."
 
 - "You are given the gift of life in order to discover what your gift in life is.
 You will complete your mission when you figure out what your mission is. This
-is not a paradox. This is the way.”
+is not a paradox. This is the way."
 
-- "Don’t treat people as bad as they are. Treat them as good as you are.”
+- "Don’t treat people as bad as they are. Treat them as good as you are."
 
 - "We are not bodies that temporarily have souls. We are souls that temporarily
-have bodies.”
+have bodies."
 
-- "If your goal does not have a schedule, it is a dream.”
+- "If your goal does not have a schedule, it is a dream."
 
-- "The greatest breakthroughs are missed because they look like hard work.”
+- "The greatest breakthroughs are missed because they look like hard work."
 
-- "People can’t remember more than 3 points from a speech.”
+- "People can’t remember more than 3 points from a speech."
 
-- "Many backward steps are made by standing still.”
+- "Many backward steps are made by standing still."
 
-- "You don’t marry a person, you marry a family.”
+- "You don’t marry a person, you marry a family."
 
 - "When making something, always get a few extras — extra material, extra parts,
 extra space, extra finishes. The extras serve as backups for mistakes, reduce
 stress, and fill your inventory for the future. They are the cheapest
-insurance.”
+insurance."
 
-- "To combat an adversary, become their friend.”
+- "To combat an adversary, become their friend."
 
 - "Take one simple thing — almost anything — but take it extremely seriously, as
 if it was the only thing in the world, or maybe the entire world is in it — and
-by taking it seriously you’ll light up the sky.”
+by taking it seriously you’ll light up the sky."
 
 - "Advice like these are not laws. They are like hats. If one doesn’t fit, try
-another.”
+another."
 
 - "Painting is complete as a distraction. I know of nothing which, without
-exhausting the body, more entirely absorbs the mind.”
+exhausting the body, more entirely absorbs the mind."
 
 - "This beginning with Audacity, or being thrown into the middle of it, is
 already a very great part of the art of painting."
@@ -12579,7 +12423,7 @@ conception."
 - "Go out into the sunlight and be happy with what you see."
 
 - "We cannot aspire to masterpieces. We may content ourselves with a joy ride in
-a paint-box. And for this Audacity is the only ticket.”
+a paint-box. And for this Audacity is the only ticket."
 
 - "The profoundest eternal questions are met only with a boundless and eternal
 silence."
@@ -12733,10 +12577,6 @@ special."
 
 - "People sometimes express their longing through hate."
 
-- "Lengthy deliberation often leads to a terrible decision." If you think and
-worry too much before doing something, "your boat goes to the mountain instead
-of the ocean." Now and then it is necessary"
-
 - "Being alone makes the world pause for a moment and helps to restore harmony."
 
 - "When someone you love is in pain, the most meaningful gift you can give is
@@ -12784,10 +12624,6 @@ the long run,"
 
 - "Change will last longer when it's not forced but when it comes about because
 they have been convinced of its need."
-
-- "If we think of the child as a stranger, we focus on the inconvenience to
-ourselves, but if we think of the child as a family member, we become
-merciful,"
 
 - "If you take home a cat and care for it, even one that's been abandoned and is
 dirty, it won't be long before it becomes the cutest cat in the world."
@@ -12971,9 +12807,6 @@ apparent separateness, in an insanely complex world of continuous problems and
 conflict, a world that reflects the ever- increasing fragmentation of the
 mind."
 
-- "A belief may be comforting. Only through your own experience, however, does it
-become liberating."
-
 - "The beginning of freedom is the realization that you are not the possessing
 entity the thinker. Knowing this enables you to observe the entity. The moment
 you start watching the thinker, a higher level of consciousness becomes
@@ -12982,9 +12815,6 @@ activated"
 - "One day you may catch yourself smiling at the voice in your head, as you would
 smile at the antics of a child. This means that you no longer take the content
 of your mind all that seriously, as your sense of self does not depend on it."
-
-- "Every time you create a gap in the stream of mind, the light of your
-consciousness grows stronger."
 
 - "Thinking and consciousness are not synonymous. Thinking is only a small aspect
 of consciousness. Thought cannot exist without consciousness, but consciousness
@@ -13141,11 +12971,6 @@ entirely."
 looks simple doesn't mean it is; the aesthetics of simplicity cloak artifice or
 even unsustainable excess."
 
-- "Because there's an infinite amount of things we can now see or know, there are
-also an infinite number of ways we can discover that we don't measure up, that
-we're not good enough, that things aren't as great as they could be. And this
-rips us apart inside."
-
 - "Wanting positive experience is a negative experience; accepting negative
 experience is a positive experience."
 
@@ -13209,13 +13034,13 @@ whets your appetite with a taste of success."
 And don't forget the language of omens. And, above all, don't forget to follow
 your Personal Legend through to its conclusion."
 
-- "You cannot trust a man if you don't know his house.'"
+- "You cannot trust a man if you don't know his house."
 
 - "I can give you,' said the wisest of wise men. 'The secret of happiness is to
 see all the marvels of the world, and"
 
 - "The secret of happiness is to see all the marvels of the world, and never to
-forget the drops of oil on the spoon.'"
+forget the drops of oil on the spoon."
 
 - "A shepherd may like to travel, but he should never forget about his sheep."
 
@@ -13278,7 +13103,7 @@ eating or sleeping, or like seeking love or finding a job. He had never thought
 of them in terms of a language used by God to indicate what he should do."
 
 - "Don't be impatient," he repeated to himself. "It's like the camel driver said:
-'Eat when it's time to eat. And move along when it's time to move along.'"
+'Eat when it's time to eat. And move along when it's time to move along."
 
 - "The dunes are changed by the wind, but the desert never changes."
 
@@ -13379,7 +13204,7 @@ because it is evil, but so that we can, in addition to realizing our dreams,
 master the lessons we've learned as we've moved toward that dream. That's the
 point at which most people give up. It's the point at which, as we say in the
 language of the desert, one 'dies of thirst just when the palm trees have
-appeared on the horizon.'"
+appeared on the horizon."
 
 - "When you possess great treasures within you, and try to tell others of them,
 seldom are you believed."
@@ -13607,7 +13432,7 @@ realised that a more general overload was the problem. A life overload."
 
 - "As Nicholas Kristof pointed out in a 2017 New York Times article, 'if just
 about the worst thing that can happen is for a parent to lose a child, that's
-about half as likely as it was in 1990.'"
+about half as likely as it was in 1990."
 
 - "It sometimes feels as if we have temporarily solved the problem of scarcity
 and replaced it with the problem of excess."
@@ -13625,10 +13450,10 @@ freedom', but all this freedom of choice really is a miracle."
 - "We don't need another world. Everything we need is here, if we give up
 thinking we need everything."
 
-- "He who fears he shall suffer, already suffers what he fears.'"
+- "He who fears he shall suffer, already suffers what he fears."
 
 - "Ours is a world of nuclear giants and ethical infants. We know more about
-killing than we know about living.'"
+killing than we know about living."
 
 - "Sex isn't really what sells. What sells is fear."
 
@@ -13639,7 +13464,7 @@ where your anxiety disorder ends and where actual news begins."
 
 - "We seldom realise, for example, that our most private thoughts and emotions
 are not actually our own. For we think in terms of languages and images which
-we did not invent, but which were given to us by our society.'"
+we did not invent, but which were given to us by our society."
 
 - "But this change – even within the last four millennia – is not a smooth,
 straight upward line. It is the kind of steepening curve that would intimidate
@@ -13679,13 +13504,13 @@ better bodies."
 trying to make everyone equally anxious, rather than equally free."
 
 - "In nature,' wrote Alice Walker, 'nothing is perfect and everything is perfect.
-Trees can be contorted, bent in weird ways, and they're still beautiful.'"
+Trees can be contorted, bent in weird ways, and they're still beautiful."
 
 - "Why don't you do what I do? Let it wash all over you. Allow yourself just to
 be as you are. Just be."
 
 - "Everybody dies,' wrote Nora Ephron. 'There's nothing you can do about it.
-Whether or not you eat six almonds a day.'"
+Whether or not you eat six almonds a day."
 
 - "Reframe your idea of beauty. Be a rebel against marketing. Look forward to
 being the wise elder. Be the complex elegance of a melting candle. Be a map
@@ -13740,7 +13565,7 @@ to all the other nerve cells. Sending the overload back and forth. Overloaded
 neurons on a nervous planet. Ready to crash."
 
 - "The Internet is the first thing that humanity has built that humanity doesn't
-understand, the largest experiment in anarchy that we have ever had.'"
+understand, the largest experiment in anarchy that we have ever had."
 
 - "LIFE OVERLOAD IS a feeling that partly stems from how contracted and
 concentrated the world seems to have become. The human world has sped up and
@@ -13797,7 +13622,7 @@ tactic of systematically using 'the public's disorientation following a
 collective shock' for corporate or political gain."
 
 - "We don't go into a state of shock when something big and bad happens,' she
-says. 'It has to be something big and bad that we do not yet understand.'"
+says. 'It has to be something big and bad that we do not yet understand."
 
 - "I remember once, during depression, staring up at a clear sky of stars. The
 wonder of the universe. At the bottom of the pit, I always had to force myself
@@ -13814,7 +13639,7 @@ message."
 subject – such as the famed cognitive psychologist Steven Pinker – have pointed
 out that, despite all its horrors, society is less violent than it used to be."
 
-- "Some people talk to animals. Not many listen though. That's the problem.'"
+- "Some people talk to animals. Not many listen though. That's the problem."
 
 - "Cynicism was a luxury for the non-suicidal."
 
@@ -13896,17 +13721,17 @@ of things. When I do too much, think too much, absorb too much, eat too badly,
 sleep too little, work too hard, get too frazzled by life, there it is. A
 repetitive strain injury of the mind."
 
-- "6.Don't grab life by the throat. 'Life should be touched, not strangled,'"
+- "6.Don't grab life by the throat. 'Life should be touched, not strangled,"
 
 - "save lives. But, as C.S. Lewis once put it, 'The frequent attempt to conceal
 mental pain increases the burden: it is easier to say "My tooth is aching" than
-to say "My heart is broken".'"
+to say "My heart is broken"."
 
 - "this collision between one's image of oneself and what one actually is is
 always very painful and there are two things you can do about it, you can meet
 the collision head-on and try and become what you really are or you can retreat
 and try to remain what you thought you were, which is a fantasy, in which you
-will certainly perish.'"
+will certainly perish."
 
 - "Because there is, I suppose, a clear self doing the asking. But when I was ill
 these weren't simply abstract concerns. These were desperate mysteries to
@@ -13947,7 +13772,7 @@ still be able to spend time with the people I love. The anxiety retreated, like
 a criminal under the spotlight of an investigation."
 
 - "Perhaps when we find ourselves wanting everything it is because we are
-dangerously near to wanting nothing.'"
+dangerously near to wanting nothing."
 
 - "WE ARE BEING sold unhappiness, because unhappiness is where the money is. Much
 of what is sold to us is the idea that we could be better than who we are if we
@@ -13990,11 +13815,11 @@ time they reach that age, they have large mortgages, children to school, houses
 in the suburbs that necessitate at least two cars per family, and a sense that
 life is not worth living without really good wine and expensive holidays
 abroad. What are they supposed to do, go back to digging up roots? No, they
-double their efforts and keep slaving away.'"
+double their efforts and keep slaving away."
 
 - "I want to say, in all seriousness, that a great deal of harm is being done in
 the modern world by belief in the virtuousness of work, and that the road to
-happiness and prosperity lies in an organised diminution of work.'"
+happiness and prosperity lies in an organised diminution of work."
 
 - "As our schoolchildren are also discovering, all this testing and evaluating
 makes us stress about the future rather than be comfortable with the present."
@@ -14029,11 +13854,11 @@ seems to be about doing less with more. Activity isn't always the same as
 achievement."
 
 - "One of the symptoms of an approaching nervous breakdown is the belief that
-one's work is terribly important.'"
+one's work is terribly important."
 
 - "Progress,' wrote C.S. Lewis, 'means getting nearer to the place you want to
 be. And if you have taken a wrong turning, then to go forward does not get you
-any nearer.'"
+any nearer."
 
 - "In a world that can get too much, a world where we are running out of mind
 space, fictional worlds are essential."
@@ -14077,7 +13902,7 @@ what?' 'It. The rushing after nothing. Humans seem in such a rush to escape
 where they are. Why? Is it the air? Does it not hold you up well enough? Maybe
 you need more time in the sea. I would say: stop it. Don't just take your time,
 be your time. Move fast or slow, but be aware you will always take yourself
-with you. Be happy to paddle in the water of existence.'"
+with you. Be happy to paddle in the water of existence."
 
 - "Look at my head. It's tiny. My brain-to-body-mass ratio is embarrassing. But
 it doesn't matter, you see. If you take life carefully, you can focus. You can
@@ -14108,9 +13933,9 @@ happening, it's hard to hear the song at all. And like that overcrowded song
 we, too, can feel a bit lost."
 
 - "There is only one corner of the universe you can be certain of improving, and
-that's your own self.'"
+that's your own self."
 
-- "Nature does not hurry, yet everything is accomplished.'"
+- "Nature does not hurry, yet everything is accomplished."
 
 - "Don't try to pin yourself down. Don't try to understand, once and for all, who
 you are. As the philosopher Alan Watts said, 'trying to define yourself is like
@@ -14119,7 +13944,7 @@ trying to bite your own teeth'."
 - "There is no future. Planning for the future is just planning for another
 present in which you will be planning for the future."
 
-- "No one can make you feel inferior without your consent.'"
+- "No one can make you feel inferior without your consent."
 
 - "And I did, like lots of people, get happy, fleetingly, at each career goal I
 set myself, but my mind quickly got used to the previous achievement and found
@@ -14132,7 +13957,7 @@ things. The only difference is that now no one feels sorry for you."
 - "Simplify your life. Take away what doesn't need to be there."
 
 - "The thing is to free one's self,' wrote Virginia Woolf, struggling with the
-task. 'To let it find its dimensions, not be impeded.'"
+task. 'To let it find its dimensions, not be impeded."
 
 - "Everything special about humans – our capacity for love and art and friendship
 and stories and all the rest – is not a product of modern life, it is a product
@@ -14148,7 +13973,7 @@ broad-minded enough to change when change is healthy, we can engage with this
 beautiful world without being worried it will steal who we are."
 
 - "For after all,' wrote the poet Henry Wadsworth Longfellow, 'the best thing one
-can do when it is raining is let it rain.'"
+can do when it is raining is let it rain."
 
 - "overwhelm isn't having too much to do; it's not knowing where to start."
 
@@ -14308,7 +14133,7 @@ possible in my life."
 
 - "Master, I understand that the body is the basis. A good body is like uncut
 jade, it can be cut into many good things. And a weak body is like impure jade,
-even with excellent craftsmanship, nothing good can come from it.'"
+even with excellent craftsmanship, nothing good can come from it."
 
 - "If a craftsman is to do a good job, he shall need good tools."
 
@@ -14317,7 +14142,7 @@ lights. They are dazzling. As for human, not even a Xiantian expert can live
 longer than several hundred years. Instead of living my whole life in
 mediocrity, why don't I learn from the meteors? In my limited life, I'll burn
 my passion of life and stimulate the blood in my veins, making my life radiate
-the most dazzling light. Only in this way will I die with no regret.'"
+the most dazzling light. Only in this way will I die with no regret."
 
 - "Generally, people who are alone are independent and self-reliant. This is
 because if a person is usually alone they will naturally ponder. Pondering
@@ -14354,9 +14179,6 @@ cares about. However, to our minds, that small world is the entire universe.
 Our reality is not the infinitely stretching cosmos but the small part we
 choose to focus on. Reality exists because our minds exist. Without the mind,
 there would be no universe."
-
-- "But then I realize it isn't the outside world that is a whirlwind; it is only
-my mind. The world has never complained about how busy it is"
 
 - "We feel unhappy not just because something bad has happened, but also because
 of the swirling thoughts about what happened."
@@ -14634,7 +14456,7 @@ to experiment with not doing anything, saying anything, or impressing anyone.
 You are not asked to advise, be useful, or advise anyone. Even when others are
 expressing distress, you can practice ‘just’ listening and offering your quiet
 presence. This will help you gradually realize that your mere existence is
-sufficient and that ”doing” has its limits. "
+sufficient and that "doing” has its limits. "
 
 - "I’m not so weird to me."
 
@@ -14647,7 +14469,7 @@ You did nothing to get it, nor can you get rid of it.  It was given to you at
 birth. You are wired that way.  You love deeply, but you may not be able to say
 it.  You see beauty where others don’t, but you may not have a pal who
 appreciates it alongside you.  You have a unique sense of humor, and those who
-understand it are delighted by your presence.  "A normal day” for you is a
+understand it are delighted by your presence.  "A normal day" for you is a
 roller coaster ride for others. You have a million shades of emotions, nuanced
 observations, and complex thoughts at any given hour.  Your thoughts are deep
 and complex. When you read a book, listen to a song, or watch a movie, what you
@@ -14673,7 +14495,7 @@ your intensity and drive for what others see as odd, you will find it easier to
 navigate the world.  Your interpersonal fragility will decrease because you no
 longer depend on other people’s love, acceptance, praise, approval, and
 appreciation.  In the past, if a friend went silent, you might immediately
-think you had done "too much.” You would wonder if you had said too much,
+think you had done "too much." You would wonder if you had said too much,
 revealed too much, acted too extremely, or acted in a way that elicited their
 judgment. You might have fallen into the trap of self-blame and shame. You
 might blame yourself for acting the way you did.  You might be unable to do
@@ -14740,12 +14562,12 @@ us"
 - "And as the ancient saying went, it is easy to dodge the spear in the open,
   but hard to avoid a stab in the dark."
 
-- "Xiaochun…” he said softly. "You’re right. As long as we’re alive, there are
+- "Xiaochun…" he said softly. "You’re right. As long as we’re alive, there are
   endless possibilities. But just because we die doesn’t mean that our hopes
   and dreams die with us! "I can’t speak for anyone else, but I can say that
   when I look at all of these graves, I'm absolutely certain… that these
   disciples who died in battle did it because of the Dao that existed in their
-  hearts!”
+  hearts!"
 
 - "You often found it easier just to adapt to their ideas of what was best for
   you rather than trying to figure it out for yourself. But in all this
@@ -14761,7 +14583,7 @@ us"
 - "You cannot desire something, predominantly focus on the absence of it, and
   then expect to receive it,"
 
-- "You would not walk into a brightly lit room and look for the "dark switch.”
+- "You would not walk into a brightly lit room and look for the "dark switch."
   In other words, you would not expect to find a switch that would flood an
   inky darkness into the room to cover the brightness of the light—you would
   find a switch that would resist the light, for in the absence of the light there is darkness."
@@ -14769,8 +14591,6 @@ us"
 - "In a world that often seems too crowded or busy to notice beautiful things
   or make meaningful connections, there is still room for each of us to grow in
   the ways we were meant to."
-
-- "Conforming to convention is emptiness,” replied Meng Hao. "Yielding to and complying with the Heavens is well and good. Unending persistence is fine, too. However, I cannot choose either of those.”
 
 - "It is hard for me to resent my parents, although I envy them their naivete."
 
@@ -14780,217 +14600,439 @@ us"
 
 - "But because of the weight of the secrets, we become more humble and understanding."
 
-- "Why should your life be destroyed by the easy criticism of those who do not know you or care about you?”"
+- "Why should your life be destroyed by the easy criticism of those who do not know you or
+care about you?"
 
-- "Just as a mother looks at her child with love, look at your own suffering with compassion. You will soon feel that you are not alone. There is a soft inner core of love and caring at the heart of every suffering. You are not thrown into this world alone."
+- "Just as a mother looks at her child with love, look at your own suffering with
+compassion. You will soon feel that you are not alone. There is a soft inner core of love
+and caring at the heart of every suffering. You are not thrown into this world alone."
 
-- "The greatest gift that parents can give their child is to be happy themselves. If the parents are happy, then the child can grow up into a happy and confident adult. But if the parents are not happy, then the child can feel worthless— unable to make his parents happy no matter what."
-
-- "The reason adolescents don’t listen to their parents and stubbornly try to have their own way is that they are learning to be independent. It is normal, so don’t worry too much."
+- "The reason adolescents don’t listen to their parents and stubbornly try to have their
+own way is that they are learning to be independent. It is normal, so don’t worry too
+much."
 
 - "Do your best to give your children someone to look up to."
 
-- "It is nearly impossible for a son or daughter to change a parent’s personality, values, or behavior. Even if children consider their parents problematic in some way, they have neither the right nor the responsibility to change them"
+- "It is nearly impossible for a son or daughter to change a parent’s personality, values,
+or behavior. Even if children consider their parents problematic in some way, they have
+neither the right nor the responsibility to change them"
 
-- "If you assume that, since you’ve been together for so long, you should be able to read each other’s minds, there are so many things you will fail to understand about each other."
+- "If you assume that, since you’ve been together for so long, you should be able to read
+each other’s minds, there are so many things you will fail to understand about each
+other."
 
-- "When someone is showing his temper, it could be because he wants us to hear about his current situation and empathize. Rather than arguing, try to understand his deeper needs"
+- "When someone is showing his temper, it could be because he wants us to hear about his
+current situation and empathize. Rather than arguing, try to understand his deeper needs"
 
-- "If we think of the child as a stranger, we focus on the inconvenience to ourselves, but if we think of the child as a family member, we become merciful, wondering whether the child is uncomfortable or in pain"
+- "If we think of the child as a stranger, we focus on the inconvenience to ourselves, but
+if we think of the child as a family member, we become merciful, wondering whether the
+child is uncomfortable or in pain"
 
-- "If you give something your full attention, whatever it is, and examine it closely, it will come to attract your interest and care."
+- "If you give something your full attention, whatever it is, and examine it closely, it
+will come to attract your interest and care."
 
-- "My interest in philosophy started where I’d imagine it starts for most people: a dissatisfaction with what I had been told about life combined with a curiosity about what I had not."
+- "My interest in philosophy started where I’d imagine it starts for most people: a
+dissatisfaction with what I had been told about life combined with a curiosity about what
+I had not."
 
-- "My desire for knowledge is intermittent; but my desire to commune with the spirit of the universe, to be intoxicated with the fumes, call it, of that divine nectar, to bear my head through atmospheres and over heights"
+- "My desire for knowledge is intermittent; but my desire to commune with the spirit of
+the universe, to be intoxicated with the fumes, call it, of that divine nectar, to bear my
+head through atmospheres and over heights"
 
-- "My desire for knowledge is intermittent; but my desire to commune with the spirit of the universe, to be intoxicated with the fumes, call it, of that divine nectar, to bear my head through atmospheres and over heights unknown to my feet, is perennial and constant."
+- "My desire for knowledge is intermittent; but my desire to commune with the spirit of
+the universe, to be intoxicated with the fumes, call it, of that divine nectar, to bear my
+head through atmospheres and over heights unknown to my feet, is perennial and constant."
 
-- "the experience and effects of concrete knowledge can be fleeting, but the wonder found in the spirit of the unknown can be constant and enduring"
+- "the experience and effects of concrete knowledge can be fleeting, but the wonder found
+in the spirit of the unknown can be constant and enduring"
 
-- "Nobody ever figures out what life is all about, and it doesn’t matter. Explore the world. Nearly everything is really interesting if you go into it deeply enough,"
+- "Nobody ever figures out what life is all about, and it doesn’t matter. Explore the
+world. Nearly everything is really interesting if you go into it deeply enough,"
 
-- "Through our eyes, the universe is perceiving itself. Through our ears, the universe is listening to its harmonies. We are the witnesses through which the universe becomes"
+- "Through our eyes, the universe is perceiving itself. Through our ears, the universe is
+listening to its harmonies. We are the witnesses through which the universe becomes"
 
-- "Through our eyes, the universe is perceiving itself. Through our ears, the universe is listening to its harmonies. We are the witnesses through which the universe becomes conscious of its glory, of its magnificence,"
+- "Through our eyes, the universe is perceiving itself. Through our ears, the universe is
+listening to its harmonies. We are the witnesses through which the universe becomes
+conscious of its glory, of its magnificence,"
 
-- "As we experience more of life, and we are continually disappointed by our optimism’s inability to align with the real conditions of the world, our optimism is beaten further and further into submission."
+- "As we experience more of life, and we are continually disappointed by our optimism’s
+inability to align with the real conditions of the world, our optimism is beaten further
+and further into submission."
 
-- "healthy dose of pessimism is necessary in our ability to adequately deal with this life. It helps us mitigate our expectations and serves as padding that protects us from life’s constant attempts to beat our spirit out of us. Pessimism counterbalances the ridiculously overly optimistic expectations of the culture we live in and helps us adapt out of the deeply detached, unrealistic perspective that we likely formed as children. It reminds us that things won’t always go our way or always be that nice, but rather, things will go wrong a lot, but despite this, we can still be ok."
+- "healthy dose of pessimism is necessary in our ability to adequately deal with this
+life. It helps us mitigate our expectations and serves as padding that protects us from
+life’s constant attempts to beat our spirit out of us. Pessimism counterbalances the
+ridiculously overly optimistic expectations of the culture we live in and helps us adapt
+out of the deeply detached, unrealistic perspective that we likely formed as children. It
+reminds us that things won’t always go our way or always be that nice, but rather, things
+will go wrong a lot, but despite this, we can still be ok."
 
-- "To be completely optimistic about the rules always working in our favor would be foolish. However, to be completely pessimistic about the game as a whole simply because the rules don’t always work in our favor would be equally foolish."
+- "To be completely optimistic about the rules always working in our favor would be
+foolish. However, to be completely pessimistic about the game as a whole simply because
+the rules don’t always work in our favor would be equally foolish."
 
-- "the dirt of life, it is up to us to plant the seeds, watch the flowers grow, and enjoy their beauty, even in spite of the fact that we know that they will die."
+- "the dirt of life, it is up to us to plant the seeds, watch the flowers grow, and enjoy
+their beauty, even in spite of the fact that we know that they will die."
 
-- "In the dirt of life, it is up to us to plant the seeds, watch the flowers grow, and enjoy their beauty, even in spite of the fact that we know that they will die."
+- "In the dirt of life, it is up to us to plant the seeds, watch the flowers grow, and
+enjoy their beauty, even in spite of the fact that we know that they will die."
 
 - "Perhaps all reality is a prison and time is its guard"
 
-- "Perhaps what we should and only can do is to try to enjoy the process of playing with the blocks of philosophy like children playing with toy blocks for no reason other than the curiosity and fun of it; not because in the end the blocks will provide something that stays up forever, but because we inevitably will take the blocks down, put them away for a little while, and then play with them again on another day, in a different way."
+- "Perhaps what we should and only can do is to try to enjoy the process of playing with
+the blocks of philosophy like children playing with toy blocks for no reason other than
+the curiosity and fun of it; not because in the end the blocks will provide something that
+stays up forever, but because we inevitably will take the blocks down, put them away for a
+little while, and then play with them again on another day, in a different way."
 
-- "Kōans did not spring up out of lack of thought or contemplation, but rather, out of a specific sort of contemplation: a self-referential thinking that denies its ability to be a single, concrete, and universal thought that answers or understands what might exist beyond itself. Zen and the lesson of the kōans suggest that we should flow with life, ask questions, contemplate them, but not become tricked by any singular idea or answer that might tempt us into a final resolution"
+- "Kōans did not spring up out of lack of thought or contemplation, but rather, out of a
+specific sort of contemplation: a self-referential thinking that denies its ability to be
+a single, concrete, and universal thought that answers or understands what might exist
+beyond itself. Zen and the lesson of the kōans suggest that we should flow with life, ask
+questions, contemplate them, but not become tricked by any singular idea or answer that
+might tempt us into a final resolution"
 
-- "Just like how the center of a tornado is calm with little to no motion, despite it being surrounded by a coil of rapid, violent wind, we can live in the center of the tornado of knowing and unknowing and still remain calm and at ease."
+- "Just like how the center of a tornado is calm with little to no motion, despite it
+being surrounded by a coil of rapid, violent wind, we can live in the center of the
+tornado of knowing and unknowing and still remain calm and at ease."
 
-- "it takes no more than a sick stomach or migraine to realize just how heavy this corporeal weight is, how stricken and limited by it we are. We are stuck inside the body, captives to it, subject to its faulty and fragile mechanisms that do and will break, keeping us bound in space according to its condition—until it finally turns itself off, and us with it."
+- "it takes no more than a sick stomach or migraine to realize just how heavy this
+corporeal weight is, how stricken and limited by it we are. We are stuck inside the body,
+captives to it, subject to its faulty and fragile mechanisms that do and will break,
+keeping us bound in space according to its condition—until it finally turns itself off,
+and us with it."
 
 - "We can only think through the mind, and we can only think in the way our mind thinks."
 
-- "It is a demonstration of humanity’s overzealous ego and anthropocentrism to think that so long as no other humans tell them what to do, they are free."
+- "It is a demonstration of humanity’s overzealous ego and anthropocentrism to think that
+so long as no other humans tell them what to do, they are free."
 
-- "Freedom can be manifested only in the void of beliefs, in the absence of axioms, and only where the laws have no more authority than a hypothesis,"
+- "Freedom can be manifested only in the void of beliefs, in the absence of axioms, and
+only where the laws have no more authority than a hypothesis,"
 
-- "Like the desire for perfect, unending happiness, the desire for complete and absolute freedom is impossible. But like happiness, it is, in its true, ultimate form, a state that comes and goes, unattainable in the ideal but attainable in the moment—in the moments when we surrender to the complete unified image of being, when we cease trying to square circles and placate everything that contests us, when we stop trying to escape what cannot be escaped. It is the classic lesson: the Chinese finger trap, the Tao in Taoism, Nirvana in Buddhism, the silence of Wittgenstein; the harder one tries, the harder one flails, the more entrenched one becomes."
+- "Like the desire for perfect, unending happiness, the desire for complete and absolute
+freedom is impossible. But like happiness, it is, in its true, ultimate form, a state that
+comes and goes, unattainable in the ideal but attainable in the moment—in the moments when
+we surrender to the complete unified image of being, when we cease trying to square
+circles and placate everything that contests us, when we stop trying to escape what cannot
+be escaped. It is the classic lesson: the Chinese finger trap, the Tao in Taoism, Nirvana
+in Buddhism, the silence of Wittgenstein; the harder one tries, the harder one flails, the
+more entrenched one becomes."
 
-- "for you can only be free when even the desire of seeking freedom becomes a harness to you, and when you cease to speak of freedom as a goal and a fulfilment."
+- "for you can only be free when even the desire of seeking freedom becomes a harness to
+you, and when you cease to speak of freedom as a goal and a fulfilment."
 
-- "In truth that which you call freedom is the strongest of these chains, though its links glitter in the sun and dazzle your eyes."
+- "In truth that which you call freedom is the strongest of these chains, though its links
+glitter in the sun and dazzle your eyes."
 
-- "When we persist with the belief that things outside of ourselves or things in the future will provide us with a form of ultimate happiness, we exchange the real moments of our lives for ones that do not exist. We become dependent on things outside of ourselves that we cannot control, and we endlessly run on a treadmill of unceasing desire."
+- "When we persist with the belief that things outside of ourselves or things in the
+future will provide us with a form of ultimate happiness, we exchange the real moments of
+our lives for ones that do not exist. We become dependent on things outside of ourselves
+that we cannot control, and we endlessly run on a treadmill of unceasing desire."
 
-- "We can and should engage our nature to progress and pursue bigger, faster, better, and more interesting things, but we should ensure that in our pursuits, we are intentional about what we are doing so as to ensure that we are not being careless with our time and wasting our experience of life"
+- "We can and should engage our nature to progress and pursue bigger, faster, better, and
+more interesting things, but we should ensure that in our pursuits, we are intentional
+about what we are doing so as to ensure that we are not being careless with our time and
+wasting our experience of life"
 
-- "No matter what task we undertake, we will do it wastefully if we assume that anything beyond the task itself will provide anything better than the experience of focus and presence in the task."
+- "No matter what task we undertake, we will do it wastefully if we assume that anything
+beyond the task itself will provide anything better than the experience of focus and
+presence in the task."
 
-- "Until we have begun to go without them, we fail to realize how unnecessary many things are. We’ve been using them not because we needed them but because we had them"
+- "Until we have begun to go without them, we fail to realize how unnecessary many things
+are. We’ve been using them not because we needed them but because we had them"
 
-- "It is now that we must find time and it is now that we must find happiness if it is either that we are seeking, because if we do not focus the lens through which we view life right now, everything we see from this moment forward will remain out of focus"
+- "It is now that we must find time and it is now that we must find happiness if it is
+either that we are seeking, because if we do not focus the lens through which we view life
+right now, everything we see from this moment forward will remain out of focus"
 
-- "Starting from birth, we seemingly run, if not sprint, through life, racing out of every moment, unsatisfied with what life is and constantly looking to the future for what life could be if we could just obtain something more or different. Our cultures overwhelm us with the reinforcement of this idea, convincing us that our duty is to achieve, buy, own, and live perfect, unaffected lives. This delusion, however, frenzies us with an anxiety that we are then told, by culture, that we can rid ourselves of if we just achieve a few more things, make a little more money, be a little more popular, and buy a little more stuff, creating an endless feedback loop of unsatisfied hunger. If we cave into this, we surrender our life, we give up our self."
+- "Starting from birth, we seemingly run, if not sprint, through life, racing out of every
+moment, unsatisfied with what life is and constantly looking to the future for what life
+could be if we could just obtain something more or different. Our cultures overwhelm us
+with the reinforcement of this idea, convincing us that our duty is to achieve, buy, own,
+and live perfect, unaffected lives. This delusion, however, frenzies us with an anxiety
+that we are then told, by culture, that we can rid ourselves of if we just achieve a few
+more things, make a little more money, be a little more popular, and buy a little more
+stuff, creating an endless feedback loop of unsatisfied hunger. If we cave into this, we
+surrender our life, we give up our self."
 
-- "We don’t have much, if any, control over what happens to us, how people see and treat us, or what happens because of what we do, and in the big picture, none of it really matters all that much anyway. And so, we must define our happiness not by what we own or achieve, not by how others see us, not by some bigger picture of life, but by how we think and see our self and live our own life through what we deem virtuous and relevant"
+- "We don’t have much, if any, control over what happens to us, how people see and treat
+us, or what happens because of what we do, and in the big picture, none of it really
+matters all that much anyway. And so, we must define our happiness not by what we own or
+achieve, not by how others see us, not by some bigger picture of life, but by how we think
+and see our self and live our own life through what we deem virtuous and relevant"
 
-- "But of course, after a point, worrying about the future, the unknown, and the potential for things to go wrong is nothing but a useless handicap"
+- "But of course, after a point, worrying about the future, the unknown, and the potential
+for things to go wrong is nothing but a useless handicap"
 
-- "Once one has done everything that is rationally and realistically preventative, one should work to revert their attention back to the present, leaving all additional concern about the future for the future."
+- "Once one has done everything that is rationally and realistically preventative, one
+should work to revert their attention back to the present, leaving all additional concern
+about the future for the future."
 
-- "But worrying about what one cannot know nor control in the future has no value to either, and comes at the cost of the present."
+- "But worrying about what one cannot know nor control in the future has no value to
+either, and comes at the cost of the present."
 
-- "We are more often frightened than hurt; and we suffer more from imagination than from reality."
+- "We are more often frightened than hurt; and we suffer more from imagination than from
+reality."
 
-- "Man is not worried by real problems so much as by his imagined anxieties about real problems."
+- "Man is not worried by real problems so much as by his imagined anxieties about real
+problems."
 
-- "There is a spectrum of human horrors, some far worse and more trying than others. In some cases, it is largely improbable to recover in the true sense of the term. But even if this is true, and one is worried about these sorts of horrible things happening, then again, they haven’t happened yet."
+- "There is a spectrum of human horrors, some far worse and more trying than others. In
+some cases, it is largely improbable to recover in the true sense of the term. But even if
+this is true, and one is worried about these sorts of horrible things happening, then
+again, they haven’t happened yet."
 
-- "Human history is carved through trenches. We dip in and out of oscillating hardships, founded or unfounded. We are plagued by plagues and hatred and conflict and mortal fragility. But if we are fortunate enough to worry about something that is potentially not survivable happening to us as opposed to trying to survive something that already has, it is perhaps worth trying to be ok while we still are."
+- "Human history is carved through trenches. We dip in and out of oscillating hardships,
+founded or unfounded. We are plagued by plagues and hatred and conflict and mortal
+fragility. But if we are fortunate enough to worry about something that is potentially not
+survivable happening to us as opposed to trying to survive something that already has, it
+is perhaps worth trying to be ok while we still are."
 
-- "Men are thrifty in guarding their private property, but as soon as it comes to wasting time, they are most extravagant with the one commodity for which it’s respectable to be greedy,"
+- "Men are thrifty in guarding their private property, but as soon as it comes to wasting
+time, they are most extravagant with the one commodity for which it’s respectable to be
+greedy,"
 
-- "Seneca thought that because the present is so brief and immaterial, we mostly struggle to properly perceive and value"
+- "Seneca thought that because the present is so brief and immaterial, we mostly struggle
+to properly perceive and value"
 
-- "Unlike the majority of possessions in life, you can’t see, hold, or truly know time, making it incomprehensibly slippery and abstract. Seneca thought that because the present is so brief and immaterial, we mostly struggle to properly perceive and value it"
+- "Unlike the majority of possessions in life, you can’t see, hold, or truly know time,
+making it incomprehensibly slippery and abstract. Seneca thought that because the present
+is so brief and immaterial, we mostly struggle to properly perceive and value it"
 
-- "It is inevitable that life will be not just very short but very miserable for those who acquire by great toil what they must keep by greater toil"
+- "It is inevitable that life will be not just very short but very miserable for those who
+acquire by great toil what they must keep by greater toil"
 
-- "It seems that, in this, the worthiest use of time is in some sense spending it on reflecting on time itself. By considering, or at least pondering time and how to best use it, one is paradoxically using it well."
+- "It seems that, in this, the worthiest use of time is in some sense spending it on
+reflecting on time itself. By considering, or at least pondering time and how to best use
+it, one is paradoxically using it well."
 
-- "Wasted time or well-spent time is all the same when viewed from a sufficient distance, and it is only the individual who can examine, consider, and determine the best way to balance and claim their time in each moment. And, of course, all anyone can ever do is try their best."
+- "Wasted time or well-spent time is all the same when viewed from a sufficient distance,
+and it is only the individual who can examine, consider, and determine the best way to
+balance and claim their time in each moment. And, of course, all anyone can ever do is try
+their best."
 
-- "What makes the sad song that I listen to when I’m in my worst of moods work is that it validates my feelings and transmutes them rather than denies them."
+- "What makes the sad song that I listen to when I’m in my worst of moods work is that it
+validates my feelings and transmutes them rather than denies them."
 
-- "We are perhaps the only stop on this evolutionary train that is outside the tunnel of darkness, able to take the material of everything and make it into something beautiful or helpful or interesting, to understand and create the meaning of meaning itself. And to do so just because we can, because the universe, for some reason, gave us a blank page to write on."
+- "We are perhaps the only stop on this evolutionary train that is outside the tunnel of
+darkness, able to take the material of everything and make it into something beautiful or
+helpful or interesting, to understand and create the meaning of meaning itself. And to do
+so just because we can, because the universe, for some reason, gave us a blank page to
+write on."
 
-- "As an assessment of the nature of reality, he would describe the Will as a sort of malevolent force that we, as individual selves, become victims of in its process of continuation, deceived by our own mind and body to go against our fundamental interests and yearnings in order to carry it out. Since the Will has no aim or purpose other than its perpetual continuation, then the Will can never be satisfied. And since we are expressions of it, neither can we. Thus, we are driven to consume beings, things, ideas, goals, circumstances, and all the rest, constantly hoping that we will feel satisfaction or happiness as a result, while constantly being left in the wake of each achievement unsatisfied."
+- "As an assessment of the nature of reality, he would describe the Will as a sort of
+malevolent force that we, as individual selves, become victims of in its process of
+continuation, deceived by our own mind and body to go against our fundamental interests
+and yearnings in order to carry it out. Since the Will has no aim or purpose other than
+its perpetual continuation, then the Will can never be satisfied. And since we are
+expressions of it, neither can we. Thus, we are driven to consume beings, things, ideas,
+goals, circumstances, and all the rest, constantly hoping that we will feel satisfaction
+or happiness as a result, while constantly being left in the wake of each achievement
+unsatisfied."
 
-- "The safest way of not being very miserable is not to expect to be very happy,” he wrote."
+- "The safest way of not being very miserable is not to expect to be very happy," he
+wrote."
 
 - "There can be no turning against the Will if the Will is doing the turning."
 
-- "We are merely born into a crazy, sad, violent reality with a mind and body that are often all in conspiracy against us."
+- "We are merely born into a crazy, sad, violent reality with a mind and body that are
+often all in conspiracy against us."
 
 - "There are no facts, only interpretations,"
 
 - "If we have our own why in life, we shall get along with almost any how,"
 
-- "My formula for greatness in a human being is amor fati: that one wants nothing to be different, not forward, not backward, not in all eternity. Not merely bear what is necessary, still less conceal it . . . but love it."
+- "My formula for greatness in a human being is amor fati: that one wants nothing to be
+different, not forward, not backward, not in all eternity. Not merely bear what is
+necessary, still less conceal it . . . but love it."
 
-- "But in this reality, the one we must live, there was no option to have done differently, and there is no other way for things to go. Every decision you’ve made was the best and only decision you could’ve made at the time with the information you had and the state of mind you were in. And every condition of life that either these decisions led to or that are fundamental to life in general, you have no control over and cannot change."
+- "But in this reality, the one we must live, there was no option to have done
+differently, and there is no other way for things to go. Every decision you’ve made was
+the best and only decision you could’ve made at the time with the information you had and
+the state of mind you were in. And every condition of life that either these decisions led
+to or that are fundamental to life in general, you have no control over and cannot
+change."
 
-- "I want to learn more and more to see as beautiful what is necessary in things; then I shall be one of those who make things"
+- "I want to learn more and more to see as beautiful what is necessary in things; then I
+shall be one of those who make things"
 
-- "I want to learn more and more to see as beautiful what is necessary in things; then I shall be one of those who make things beautiful. Amor fati: let that be my love henceforth! I do not want to wage war against what is ugly. I do not want to accuse; I do not even want to accuse those who accuse. Looking away shall be my only negation"
+- "I want to learn more and more to see as beautiful what is necessary in things; then I
+shall be one of those who make things beautiful. Amor fati: let that be my love
+henceforth! I do not want to wage war against what is ugly. I do not want to accuse; I do
+not even want to accuse those who accuse. Looking away shall be my only negation"
 
-- "Ultimately, the question may not be how much you love your life right now, but how much you could and how. And perhaps sometimes the only way to experience the beauty of things is to think about things in a beautiful way."
+- "Ultimately, the question may not be how much you love your life right now, but how much
+you could and how. And perhaps sometimes the only way to experience the beauty of things
+is to think about things in a beautiful way."
 
 - "What’s scarier than an opponent who smiles while being beaten?"
 
-- "Even in writing about the futility and meaninglessness of life and its endeavors, the power of the creative process can, in some sense, save the writer from the very content of their own work, paradoxically making the futility and meaninglessness of life that they discuss somewhat less futile and meaningless."
+- "Even in writing about the futility and meaninglessness of life and its endeavors, the
+power of the creative process can, in some sense, save the writer from the very content of
+their own work, paradoxically making the futility and meaninglessness of life that they
+discuss somewhat less futile and meaningless."
 
-- "When all the current reasons—moral, esthetic, religious, social, and so on—no longer guide one’s life, how can one sustain life without succumbing to nothingness? Only by a connection with the absurd, by love of absolute uselessness, loving something which does not have substance but which simulates an illusion of life. I live because the mountains do not laugh and the worms do not sing."
+- "When all the current reasons—moral, esthetic, religious, social, and so on—no longer
+guide one’s life, how can one sustain life without succumbing to nothingness? Only by a
+connection with the absurd, by love of absolute uselessness, loving something which does
+not have substance but which simulates an illusion of life. I live because the mountains
+do not laugh and the worms do not sing."
 
-- "Everything that is formulated becomes more tolerable"
+- "Cursed with the gift of consciousness, we are all inescapably forced into a beautiful
+confrontation of the void and the absurd inevitability of creating meaning and
+somethingness out of it."
 
-- "Cursed with the gift of consciousness, we are all inescapably forced into a beautiful confrontation of the void and the absurd inevitability of creating meaning and somethingness out of it."
-
-- "In other words, one of the greatest writers and thinkers of the century lived his life with his work buried in some drawer, aware, unaware, or indifferent to the fact that he was sitting on some the most significant works in modern history. He was, in the eyes of his father, an inadequate disappointment—and yet, in the eyes of history, he is an immensely important individual. One can only wonder how many individuals like Kafka have walked and continue to walk this earth, completely disconnected or restricted from ever seeing who they really are or could be. How many Kafkas have lived and died without ever sharing their voice with the world; voices that would have changed it forever?"
+- "In other words, one of the greatest writers and thinkers of the century lived his life
+with his work buried in some drawer, aware, unaware, or indifferent to the fact that he
+was sitting on some the most significant works in modern history. He was, in the eyes of
+his father, an inadequate disappointment—and yet, in the eyes of history, he is an
+immensely important individual. One can only wonder how many individuals like Kafka have
+walked and continue to walk this earth, completely disconnected or restricted from ever
+seeing who they really are or could be. How many Kafkas have lived and died without ever
+sharing their voice with the world; voices that would have changed it forever?"
 
 - "How many people never know who they’ll be after they’re gone?"
 
-- "Perhaps in this, Kafka is suggesting that the struggle to find solace and understanding is both inescapable and impossible. As conscious, rational beings, we fight against the absurdity, trying to resolve the discrepancy between us and the universe. But ironically, we only serve to perpetuate the very struggle we are trying to resolve by trying to resolve the unresolvable. And in this sense, on some level, we almost want the struggle."
+- "Perhaps in this, Kafka is suggesting that the struggle to find solace and understanding
+is both inescapable and impossible. As conscious, rational beings, we fight against the
+absurdity, trying to resolve the discrepancy between us and the universe. But ironically,
+we only serve to perpetuate the very struggle we are trying to resolve by trying to
+resolve the unresolvable. And in this sense, on some level, we almost want the struggle."
 
-- "Don’t bend; don’t water it down; don’t try to make it logical; don’t edit your own soul according to the fashion. Rather, follow your most intense obsessions mercilessly"
+- "Don’t bend; don’t water it down; don’t try to make it logical; don’t edit your own soul
+according to the fashion. Rather, follow your most intense obsessions mercilessly"
 
-- "I think we ought to read only the kind of books that wound or stab us. If the book we’re reading doesn’t wake us up with a blow to the head, what are we reading for? So that it will make us happy . . . Good Lord, we would be happy precisely if we had no books. Kafka’s"
+- "I think we ought to read only the kind of books that wound or stab us. If the book
+we’re reading doesn’t wake us up with a blow to the head, what are we reading for? So that
+it will make us happy . . . Good Lord, we would be happy precisely if we had no books.
+Kafka’s"
 
-- "Existence precedes essence.”"
+- "Existence precedes essence."
 
 - "life exists for itself. Beyond itself, it is intrinsically meaningless."
 
-- "We each have our little flickers of time here. No one else will ever know much, if anything, of what it’s like to be who we are. And for the most part, no one will ever really care. Our life is ultimately our life, and so long as we are not harming others in the process, we must create a life of our own meaning, determining our own objects of importance, committing to their pursuit, and reaping the significance and wonder of life along the way."
+- "We each have our little flickers of time here. No one else will ever know much, if
+anything, of what it’s like to be who we are. And for the most part, no one will ever
+really care. Our life is ultimately our life, and so long as we are not harming others in
+the process, we must create a life of our own meaning, determining our own objects of
+importance, committing to their pursuit, and reaping the significance and wonder of life
+along the way."
 
-- "However, perhaps it is less about getting a potential course of life right and more about attempting to do so with self-honesty and virtue—to live a life that can be looked back on with the knowledge that some of our decisions were perhaps wrong in their effects but right in their intention not to sell ourselves short."
+- "However, perhaps it is less about getting a potential course of life right and more
+about attempting to do so with self-honesty and virtue—to live a life that can be looked
+back on with the knowledge that some of our decisions were perhaps wrong in their effects
+but right in their intention not to sell ourselves short."
 
 - "At any street corner, the feeling of absurdity can strike any man in the face."
 
-- "Does such a thing as 'the fatal flaw,' that showy dark crack running down the middle of a life, exist outside literature? I used to think it didn't. Now I think it does. And I think that mine is this: a morbid longing for the picturesque at all costs."
+- "Does such a thing as 'the fatal flaw,' that showy dark crack running down the middle of
+a life, exist outside literature? I used to think it didn't. Now I think it does. And I
+think that mine is this: a morbid longing for the picturesque at all costs."
 
-- "'Perhaps in certain ways it is a helpful construct in talking about"
+- "Perhaps in certain ways it is a helpful construct in talking about"
 
-- "'Psychology is a terrible word.' He agreed vigorously. 'Yes, it is terrible, isn't it?' he said, but with an expression that indicated that he thought it rather tasteless of me even to use it. 'Perhaps in certain ways it is a helpful construct in talking about a certain kind of mind. The country people who live around me are fascinating because their lives are so closely bound to fate that they really are predestined."
+- "Psychology is a terrible word.' He agreed vigorously. 'Yes, it is terrible, isn't it?'
+he said, but with an expression that indicated that he thought it rather tasteless of me
+even to use it. 'Perhaps in certain ways it is a helpful construct in talking about a
+certain kind of mind. The country people who live around me are fascinating because their
+lives are so closely bound to fate that they really are predestined."
 
-- "Why does that obstinate little voice in our heads torment us so?' he said, looking round the table. 'Could it be because it reminds us that we are alive, of our mortality, of our individual souls – which, after all, we are too afraid to surrender but yet make us feel more miserable than any other thing? But isn't it also pain that often makes us most aware of self? It is a terrible thing to learn as a child that one is a being separate from all the world, that no one and no thing hurts along with one's burned tongues and skinned knees, that one's aches and pains are all one's own. Even more terrible, as we grow older, to learn that no person, no matter how beloved, can ever truly understand us. Our own selves make us most unhappy, and that's why we're so anxious to lose them, don't you think?"
+- "Why does that obstinate little voice in our heads torment us so?' he said, looking
+round the table. 'Could it be because it reminds us that we are alive, of our mortality,
+of our individual souls – which, after all, we are too afraid to surrender but yet make us
+feel more miserable than any other thing? But isn't it also pain that often makes us most
+aware of self? It is a terrible thing to learn as a child that one is a being separate
+from all the world, that no one and no thing hurts along with one's burned tongues and
+skinned knees, that one's aches and pains are all one's own. Even more terrible, as we
+grow older, to learn that no person, no matter how beloved, can ever truly understand us.
+Our own selves make us most unhappy, and that's why we're so anxious to lose them, don't
+you think?"
 
-- "'Aristotle says in the Poetics,' said Henry, 'that objects such as corpses, painful to view in themselves, can become delightful to contemplate in a work of art.'"
+- "Aristotle says in the Poetics,' said Henry, 'that objects such as corpses, painful to
+view in themselves, can become delightful to contemplate in a work of art."
 
-- "'Death is the mother of beauty,' said Henry. 'And what is beauty?' 'Terror,' 'Well said,' said Julian. 'Beauty is rarely soft or consolatory. Quite the contrary. Genuine beauty is always quite alarming.'"
+- "Death is the mother of beauty,' said Henry. 'And what is beauty?' 'Terror,' 'Well
+said,' said Julian. 'Beauty is rarely soft or consolatory. Quite the contrary. Genuine
+beauty is always quite alarming."
 
-- "'We don't like to admit it,' said Julian, 'but the idea of losing control is one that fascinates controlled people such as ourselves more than almost anything. All truly civilized people – the ancients no less than us – have civilized themselves through the willful repression of the old, animal self. Are we, in this room, really very different from the Greeks or the Romans? Obsessed with duty, piety, loyalty, sacrifice? All those things which are to modern tastes so chilling?'"
+- "We don't like to admit it,' said Julian, 'but the idea of losing control is one that
+fascinates controlled people such as ourselves more than almost anything. All truly
+civilized people – the ancients no less than us – have civilized themselves through the
+willful repression of the old, animal self. Are we, in this room, really very different
+from the Greeks or the Romans? Obsessed with duty, piety, loyalty, sacrifice? All those
+things which are to modern tastes so chilling?"
 
-- "'And it's a temptation for any intelligent person, and especially for perfectionists such as the ancients and ourselves, to try to murder the primitive, emotive, appetitive self. But that is a mistake.' 'Why?' said Francis, leaning slightly forward. Julian arched an eyebrow; his long, wise nose gave his profile a forward tilt, like an Etruscan in a bas-relief. 'Because it is dangerous to ignore the existence of the irrational. The more cultivated a person is, the more intelligent, the more repressed, then the more he needs some method of channeling the primitive impulses he's worked so hard to subdue. Otherwise those powerful old forces will mass and strengthen until they are violent enough to break free, more violent for the delay, often strong enough to sweep the will away entirely."
+- "And it's a temptation for any intelligent person, and especially for perfectionists
+such as the ancients and ourselves, to try to murder the primitive, emotive, appetitive
+self. But that is a mistake.' 'Why?' said Francis, leaning slightly forward. Julian arched
+an eyebrow; his long, wise nose gave his profile a forward tilt, like an Etruscan in a
+bas-relief. 'Because it is dangerous to ignore the existence of the irrational. The more
+cultivated a person is, the more intelligent, the more repressed, then the more he needs
+some method of channeling the primitive impulses he's worked so hard to subdue. Otherwise
+those powerful old forces will mass and strengthen until they are violent enough to break
+free, more violent for the delay, often strong enough to sweep the will away entirely."
 
 - "Pragma tists are often strangely superstitious."
 
-- "'Do you remember what we were speaking of earlier, of how bloody, terrible things are sometimes the most beautiful?' he said. 'It's a very Greek idea, and a very profound one. Beauty is terror. Whatever we call beautiful, we quiver before it. And what could be more terrifying and beautiful, to souls like the Greeks or our own, than to lose control completely? To throw off the chains of being for an instant, to shatter the accident of our mortal selves?"
+- "Do you remember what we were speaking of earlier, of how bloody, terrible things are
+sometimes the most beautiful?' he said. 'It's a very Greek idea, and a very profound one.
+Beauty is terror. Whatever we call beautiful, we quiver before it. And what could be more
+terrifying and beautiful, to souls like the Greeks or our own, than to lose control
+completely? To throw off the chains of being for an instant, to shatter the accident of
+our mortal selves?"
 
-- "Beauty is terror. We want to be devoured by it, to hide ourselves in that fire which refines us.'"
+- "Beauty is terror. We want to be devoured by it, to hide ourselves in that fire which
+refines us."
 
 - "The chronological sorting of memories is an interesting business."
 
-- "Grown children (an oxymoron, I realize) veer instinctively to extremes; the young scholar is much more a pedant than his older counterpart."
+- "Grown children (an oxymoron, I realize) veer instinctively to extremes; the young
+scholar is much more a pedant than his older counterpart."
 
-- "I suppose there is a certain crucial interval in everyone's life when character is fixed forever;"
+- "I suppose there is a certain crucial interval in everyone's life when character is
+fixed forever;"
 
-- "Sometimes, when there's been an accident and reality is too sudden and strange to comprehend, the surreal will take over. Action slows to a dreamlike glide, frame by frame; the motion of a hand, a sentence spoken, fills an eternity. Little things – a cricket on a stem, the veined branches on a leaf- are magnified, brought from the background in achingly clear focus."
+- "Sometimes, when there's been an accident and reality is too sudden and strange to
+comprehend, the surreal will take over. Action slows to a dreamlike glide, frame by frame;
+the motion of a hand, a sentence spoken, fills an eternity. Little things – a cricket on a
+stem, the veined branches on a leaf- are magnified, brought from the background in
+achingly clear focus."
 
-- "It seemed my whole life was composed of these disjointed fractions of time, hanging around in one public place and then another, as if I were waiting for trains that never came."
+- "It seemed my whole life was composed of these disjointed fractions of time, hanging
+around in one public place and then another, as if I were waiting for trains that never
+came."
 
-- "But, like the Invisible Man in H. G. Wells, I discovered that my gift had its price, which took the form of, in my case as in his, a sort of mental darkness. It seemed that people failed to meet my eye, made as if to walk through me; my superstitions began to transform themselves into something like mania."
+- "But, like the Invisible Man in H. G. Wells, I discovered that my gift had its price,
+which took the form of, in my case as in his, a sort of mental darkness. It seemed that
+people failed to meet my eye, made as if to walk through me; my superstitions began to
+transform themselves into something like mania."
 
-- "drink tonight?' One likes to think there's something in it, that old platitude amor vincit omnia. But if I've learned one thing in my short sad life, it is that that particular platitude is a lie. Love doesn't conquer everything. And whoever thinks it does is a fool."
+- "drink tonight?' One likes to think there's something in it, that old platitude amor
+vincit omnia. But if I've learned one thing in my short sad life, it is that that
+particular platitude is a lie. Love doesn't conquer everything. And whoever thinks it does
+is a fool."
 
-- "'I suppose that when anyone accustomed to working with the mind is faced with a straightforward action, there's a tendency to embellish, to make it overly clever. On paper there's a certain symmetry. Now that I'm faced with the prospect of executing it I realize how hideously complicated it is.'"
+- "I suppose that when anyone accustomed to working with the mind is faced with a
+straightforward action, there's a tendency to embellish, to make it overly clever. On
+paper there's a certain symmetry. Now that I'm faced with the prospect of executing it I
+realize how hideously complicated it is."
 
-- "'I never realized, you know, how much we rely on appearances,'"
+- "I never realized, you know, how much we rely on appearances,"
 
 - "When the snow finally melted it went as quickly as it had come."
 
-- "'About a Hindu saint being able to slay a thousand on the battlefield and it not being a sin unless he felt remorse.'"
+- "About a Hindu saint being able to slay a thousand on the battlefield and it not being a
+sin unless he felt remorse."
 
-- "Alas, poor gentleman, He look'd not like the ruins of his youth But like the ruins of those ruins."
+- "Alas, poor gentleman, He look'd not like the ruins of his youth But like the ruins of
+those ruins."
 
-- "You must know, a truly sincere heart is always lustrous!”"
+- "You must know, a truly sincere heart is always lustrous!"
 
-- "Punishing one’s self for something one can no longer alter…that is nothing more than being made a fool of by fate! The only one who rules over myself…is myself!”"
+- "Punishing one’s self for something one can no longer alter…that is nothing more than
+being made a fool of by fate! The only one who rules over myself…is myself!"
 
 - "Live neither in the entanglements of outer things, nor in inner feelings of emptiness."
 
@@ -14998,79 +15040,124 @@ us"
 
 - "The more you talk and think about it, the further astray you wander from the truth."
 
-- "To return to the root is to find meaning, but to pursue appearances is to miss the source."
+- "To return to the root is to find meaning, but to pursue appearances is to miss the
+source."
 
 - "Do not search for the truth; only cease to cherish opinions."
 
-- "A person’s true nature is only revealed when he’s pushed right to the edge, am I right? Now that their bellies are full, and they are feeling all nice and comfy, they are acting like a bunch of spoiled a.s.sholes. I don’t like guys like Kang Seok, but that b.a.s.t.a.r.d’s opinions aren’t half wrong." "…." "You continue being nice to them, they’ll eventually end up thinking that it’s their birthright or something. Well, in any case…. Don’t ever trust those two stinking b*tches, okay?"
+- "A person’s true nature is only revealed when he’s pushed right to the edge, am I right?
+Now that their bellies are full, and they are feeling all nice and comfy, they are acting
+like a bunch of spoiled a.s.sholes. I don’t like guys like Kang Seok, but that
+b.a.s.t.a.r.d’s opinions aren’t half wrong." "…." "You continue being nice to them,
+they’ll eventually end up thinking that it’s their birthright or something. Well, in any
+case…. Don’t ever trust those two stinking b*tches, okay?"
 
-- "He told himself, 'you find yourself in a such a favorable position, so much better than compared to other people, yet is this all you can do?"
+- "He told himself, 'you find yourself in a such a favorable position, so much better than
+compared to other people, yet is this all you can do?"
 
-- "When he was still addicted to gambling, he was constantly on edge. The victim mentality took center stage in his heart and caused him to choke up over nothing important; often, he’d get defensive and angry even if he was in the wrong."
+- "When he was still addicted to gambling, he was constantly on edge. The victim mentality
+took center stage in his heart and caused him to choke up over nothing important; often,
+he’d get defensive and angry even if he was in the wrong."
 
-- "Therefore whatever you desire for men to do to you, you shall also do to them; for this is the law and the prophets." "Is that…. the Golden Rule?"
+- "Therefore whatever you desire for men to do to you, you shall also do to them; for this
+is the law and the prophets." "Is that…. the Golden Rule?"
 
-- "Hiya~. And I heard that when a girl bears a grudge, even snow will fall in the middle of a Summer"
+- "Hiya~. And I heard that when a girl bears a grudge, even snow will fall in the middle
+of a Summer"
 
-- "There will be other expeditions in the future. I pray that you don’t bet everything on this one."
+- "There will be other expeditions in the future. I pray that you don’t bet everything on
+this one."
 
-- "Money and fame? Of course, they sounded nice. However, none of them compared to his own self-worth he had regained after such a struggle."
+- "Money and fame? Of course, they sounded nice. However, none of them compared to his own
+self-worth he had regained after such a struggle."
 
-- "Goodwill with goodwill, and malice with malice… I’ve learned a lot during this expedition." "I agree. After all, humans aren't the only race who possess intelligence."
+- "Goodwill with goodwill, and malice with malice… I’ve learned a lot during this
+expedition." "I agree. After all, humans aren't the only race who possess intelligence."
 
-- "There is no right or wrong in matters of survival. In this world, whether you are a righteous man or of a wicked persuasion, you have to gather under one banner and pool your resources to survive. That is the case, even now."
+- "There is no right or wrong in matters of survival. In this world, whether you are a
+righteous man or of a wicked persuasion, you have to gather under one banner and pool your
+resources to survive. That is the case, even now."
 
-- "However, didn’t Gula say it? The future was not that easy to change. That he’d have to go through unimaginable trials and tribulations. That he needed to exceed his own limits"
+- "However, didn’t Gula say it? The future was not that easy to change. That he’d have to
+go through unimaginable trials and tribulations. That he needed to exceed his own limits"
 
-- "Wait. Even if you don't do anything, there will be people who curse you. The more famous you get, the more hate you'll receive. Some people will even resent you. That's not the end of it. There will be a ton of people who are going to try to use you, even if you didn't do anything wrong."
+- "Wait. Even if you don't do anything, there will be people who curse you. The more
+famous you get, the more hate you'll receive. Some people will even resent you. That's not
+the end of it. There will be a ton of people who are going to try to use you, even if you
+didn't do anything wrong."
 
-- "Just look at celebrities. Sure, some of them might deserve the hate they receive, but there are a lot more who don't. Do you know why haters leave mean comments or attack them on their social media? It's simple. Because they're unhappy, because they want attention, because they're bored, because they don't like the way someone looks, because they just want to argue, because they're jealous. There are countless reasons."
+- "Just look at celebrities. Sure, some of them might deserve the hate they receive, but
+there are a lot more who don't. Do you know why haters leave mean comments or attack them
+on their social media? It's simple. Because they're unhappy, because they want attention,
+because they're bored, because they don't like the way someone looks, because they just
+want to argue, because they're jealous. There are countless reasons."
 
 - "What heals a wounded heart isn't time or medicine. It's sincerity"
 
 - "Humans all have a limit to their vessel. The same goes for ghosts."
 
-- "I think life is like the four seasons. When spring pa.s.ses, summer comes. When summer leaves, autumn comes knocking. And when autumn departs, winter enters."
+- "I think life is like the four seasons. When spring pa.s.ses, summer comes. When summer
+leaves, autumn comes knocking. And when autumn departs, winter enters."
 
-- "In the four seasons of life, spring won't come just by waiting." "…." "You have to endure the bitter cold and struggle to break through the frozen earth. Only then can you see the light of day and welcome spring."
+- "In the four seasons of life, spring won't come just by waiting." "…." "You have to
+endure the bitter cold and struggle to break through the frozen earth. Only then can you
+see the light of day and welcome spring."
 
-- "The moment the youth realized that he wasn't special, the only thing he could do was put in painstaking, bloodcurdling effort."
+- "The moment the youth realized that he wasn't special, the only thing he could do was
+put in painstaking, bloodcurdling effort."
 
-- "You're right. It is hard. After all, you have to unite people who aren't like you and people who aren't like each other."
+- "You're right. It is hard. After all, you have to unite people who aren't like you and
+people who aren't like each other."
 
-- "They might think I'm just being c.o.c.ky." "Only if you introduce yourself arrogantly. Depending on your att.i.tude or the situation, things might have gone in a different direction."
+- "They might think I'm just being c.o.c.ky." "Only if you introduce yourself arrogantly.
+Depending on your att.i.tude or the situation, things might have gone in a different
+direction."
 
-- "Words have different weights depending on who says them. The words of a famous, authoritative person are different than the words of a nameless brat." Kazuki muttered endlessly. "And fame is the strongest card in your possession. What's wrong about using something you've built up fair and square"
+- "Words have different weights depending on who says them. The words of a famous,
+authoritative person are different than the words of a nameless brat." Kazuki muttered
+endlessly. "And fame is the strongest card in your possession. What's wrong about using
+something you've built up fair and square"
 
 - "You need to know your value a bit more,"
 
-- "You should find a style that suits your nature. You know, wear the clothes that fit you."
+- "You should find a style that suits your nature. You know, wear the clothes that fit
+you."
 
 - "He who wishes to wear the crown, bear its weight."
 
 - "The bigger your goals are, the bigger burden you must face."
 
-- "A leader is not someone who is placed in that position by someone else. A leader is someone who wishes to become a leader himself."
+- "A leader is not someone who is placed in that position by someone else. A leader is
+someone who wishes to become a leader himself."
 
 - "People tend to get hasty when they aren't able to finish everything in time."
 
 - "In front of profit, justification changes depending on the situation and power at hand"
 
-- "One could never predict everything in life, and life was bound to be full of ups and downs, but now that he had experienced this irony of fate, he couldn’t help but feel bewildered."
+- "One could never predict everything in life, and life was bound to be full of ups and
+downs, but now that he had experienced this irony of fate, he couldn’t help but feel
+bewildered."
 
-- "One could never predict everything in life, and life was bound to be full of ups and downs, but now that he had experienced this irony of fate, he couldn’t help but feel bewildered. On the other hand, he felt a bit creeped out. Ian told him about this. That an action he considered insignificant might cause huge waves."
+- "One could never predict everything in life, and life was bound to be full of ups and
+downs, but now that he had experienced this irony of fate, he couldn’t help but feel
+bewildered. On the other hand, he felt a bit creeped out. Ian told him about this. That an
+action he considered insignificant might cause huge waves."
 
-- "Rather than struggling to overcome this emotion, he accepted it fully to get used to it"
+- "Rather than struggling to overcome this emotion, he accepted it fully to get used to
+it"
 
-- "You lose a war when you get scared.”"
+- "You lose a war when you get scared."
 
-- "Life isn’t a game you can see the ending of after clicking on one or two choices, is it?"
+- "Life isn’t a game you can see the ending of after clicking on one or two choices, is
+it?"
 
-- "Because you’re so uncomfortable with getting anything from my parents that they’re too careful with doing anything for you"
+- "Because you’re so uncomfortable with getting anything from my parents that they’re too
+careful with doing anything for you"
 
 - "Enduring an injustice makes you a person, but enduring a loss makes you a pushover"
 
-- "A world where one only pursues their own freedom and success, throwing aside all morals and responsibilities. A world poisoned by self-indulgence.”"
+- "A world where one only pursues their own freedom and success, throwing aside all morals
+and responsibilities. A world poisoned by self-indulgence."
 
 - "New wine has to be brewed in a new keg"
 
@@ -15078,105 +15165,186 @@ us"
 
 - "To grow, one must first face their flaws."
 
-- "That was just how human psychology worked. After hogging a jar of honey for a long time, they wouldn’t feel comfortable sharing it with someone else."
+- "That was just how human psychology worked. After hogging a jar of honey for a long
+time, they wouldn’t feel comfortable sharing it with someone else."
 
 - "Seeing it once is better than hearing it a thousand times."
 
-- "There is no such thing as an eternal war. A war will end. Whether that be in a constructive way or a destructive way."
+- "There is no such thing as an eternal war. A war will end. Whether that be in a
+constructive way or a destructive way."
 
-- "There’s no rule saying that battles have to be conducted with weapons. You can use words, money, or even law, religion, pen, and other things as well.”"
+- "There’s no rule saying that battles have to be conducted with weapons. You can use
+words, money, or even law, religion, pen, and other things as well."
 
-- "Do you know what the most important thing is when a scammer is preparing to strike?” Seol Jihu raised one of his eyebrows. Kim Hannah continued without batting an eye. "It’s simple — to make sure the person getting scammed doesn’t know he’s getting scammed.” "….” "Only when the scam is successful would they realize, ‘Ah, that was a scam.’"
+- "Do you know what the most important thing is when a scammer is preparing to strike?"
+Seol Jihu raised one of his eyebrows. Kim Hannah continued without batting an eye. "It’s
+simple — to make sure the person getting scammed doesn’t know he’s getting scammed.” "….”
+"Only when the scam is successful would they realize, ‘Ah, that was a scam.’"
 
-- "When apologizing for a mistake, one should not be overly dignified, but one should also not lower oneself more than necessary"
+- "When apologizing for a mistake, one should not be overly dignified, but one should also
+not lower oneself more than necessary"
 
-- "When apologizing for a mistake, one should not be overly dignified, but one should also not lower oneself more than necessary either."
+- "When apologizing for a mistake, one should not be overly dignified, but one should also
+not lower oneself more than necessary either."
 
-- "Unless there was someone to say harsh words and correct mistakes, a child would grow up without knowing right and wrong."
+- "Unless there was someone to say harsh words and correct mistakes, a child would grow up
+without knowing right and wrong."
 
-- "—You’re a terrifying man if you said that intentionally. But if you said that sincerely, then you’re an even more terrifying person."
+- "—You’re a terrifying man if you said that intentionally. But if you said that
+sincerely, then you’re an even more terrifying person."
 
-- "I’ve learned a lot this time and found a lot of things I have to keep learning.” Seol Jihu candidly spoke. Hao Win peered at him from across the crystal. —…That’s your scariest trait. It was an unexpected remark. —You’re a terrifying man if you said that intentionally. But if you said that sincerely, then you’re an even more terrifying person. "Huh?” —People change as their accomplishments stack and their position grows higher. They begin to think, ‘I’ve earned this much. I’ve achieved all these things. What would you know?’ They naturally begin to get full of themselves. He crossed his arms and continued in a tired voice. —It’s not easy to keep your initial resolve. I’m no exception to this. Seol"
+- "I’ve learned a lot this time and found a lot of things I have to keep learning." Seol
+Jihu candidly spoke. Hao Win peered at him from across the crystal. —…That’s your scariest
+trait. It was an unexpected remark. —You’re a terrifying man if you said that
+intentionally. But if you said that sincerely, then you’re an even more terrifying person.
+"Huh?” —People change as their accomplishments stack and their position grows higher. They
+begin to think, ‘I’ve earned this much. I’ve achieved all these things. What would you
+know?’ They naturally begin to get full of themselves. He crossed his arms and continued
+in a tired voice. —It’s not easy to keep your initial resolve. I’m no exception to this.
+Seol"
 
-- "She remembered the saying, three men can speak a tiger into existence. Even a lie would seem real if enough people said it."
+- "She remembered the saying, three men can speak a tiger into existence. Even a lie would
+seem real if enough people said it."
 
-- "There was a saying that people would confuse goodwill for privilege if it went on for too long"
+- "There was a saying that people would confuse goodwill for privilege if it went on for
+too long"
 
-- "I can’t do something that goes against the law, but I also can’t stand by and watch other people do things that go against the law. Being an unmoving spectator isn’t a crime, but it is injustice."
+- "I can’t do something that goes against the law, but I also can’t stand by and watch
+other people do things that go against the law. Being an unmoving spectator isn’t a crime,
+but it is injustice."
 
-- "Being talented does not mean being smart or intelligent. It also has nothing to do with how they normally act."
+- "Being talented does not mean being smart or intelligent. It also has nothing to do with
+how they normally act."
 
-- "As someone once said, it was foolish to resent someone for their inborn talent; rather, one should try to take one step every day for ten, twenty years. Then one day, they would meet the person they always wanted to become."
+- "As someone once said, it was foolish to resent someone for their inborn talent; rather,
+one should try to take one step every day for ten, twenty years. Then one day, they would
+meet the person they always wanted to become."
 
 - "Just like how a genius had their own path, an ordinary person had their own path."
 
 - "I thought I could do it somehow, but… Sometimes I get so tired like today…"
 
-- "I thought I'd be fine…" He smacked his lips before continuing. "I thought I could do it somehow, but… Sometimes I get so tired like today…"
+- "I thought I'd be fine…" He smacked his lips before continuing. "I thought I could do it
+somehow, but… Sometimes I get so tired like today…"
 
-- "it was inevitable for amazing things to become familiar and new things to become worn-out. Such was the natural order of the world."
+- "it was inevitable for amazing things to become familiar and new things to become
+worn-out. Such was the natural order of the world."
 
-- "I just was, actually. The past despair is what makes the present peace all the more precious, isn’t it?” Phi Sora flinched. She raised her head again"
+- "I just was, actually. The past despair is what makes the present peace all the more
+precious, isn’t it?" Phi Sora flinched. She raised her head again"
 
-- "Sure. Perhaps you really were trash like you say. I won’t say the past is past. Wrongdoings of the past are wrongdoings nonetheless. But even if you committed a terrible sin, depending on whether you take that opportunity to learn from your mistakes or remain the same, you can either be recycled or become a waste.”"
+- "Sure. Perhaps you really were trash like you say. I won’t say the past is past.
+Wrongdoings of the past are wrongdoings nonetheless. But even if you committed a terrible
+sin, depending on whether you take that opportunity to learn from your mistakes or remain
+the same, you can either be recycled or become a waste."
 
 - "But laying one’s weakness out in the open takes a lot of courage."
 
-- "Words, especially in philosophy, aren’t used to logically explain that one plus one is two. No matter how nice something sounds, you need to ruminate over it and interpret it in such a way that it benefits you personally."
+- "Words, especially in philosophy, aren’t used to logically explain that one plus one is
+two. No matter how nice something sounds, you need to ruminate over it and interpret it in
+such a way that it benefits you personally."
 
-- "Words, especially in philosophy, aren’t used to logically explain that one plus one is two. No matter how nice something sounds, you need to ruminate over it and interpret it in such a way that it benefits you personally. Doubt is the origin of wisdom. Isn’t that what Descartes said?"
+- "Words, especially in philosophy, aren’t used to logically explain that one plus one is
+two. No matter how nice something sounds, you need to ruminate over it and interpret it in
+such a way that it benefits you personally. Doubt is the origin of wisdom. Isn’t that what
+Descartes said?"
 
-- "Humans are not born for the sake of existing. Humans exist first. They decide on the meaning of life and their own values afterward. Through their own choice.”"
+- "Humans are not born for the sake of existing. Humans exist first. They decide on the
+meaning of life and their own values afterward. Through their own choice."
 
-- "Existentialism emphasizes the freedom of choice and the consequence of that choice. Depending on what you choose to do and how you choose to take responsibility, you can decide what life you will lead and what death you will meet.”"
+- "Existentialism emphasizes the freedom of choice and the consequence of that choice.
+Depending on what you choose to do and how you choose to take responsibility, you can
+decide what life you will lead and what death you will meet."
 
-- "In other words, human beings are not trapped by destiny. They are existences capable of pioneering their own fate. They can decide for themselves by choosing and taking responsibility.”"
+- "In other words, human beings are not trapped by destiny. They are existences capable of
+pioneering their own fate. They can decide for themselves by choosing and taking
+responsibility."
 
-- "There are countless people in this world. Naturally, countless fates are intertwined with each other in incomprehensible ways. Kind of like the stars in the night sky.”"
+- "There are countless people in this world. Naturally, countless fates are intertwined
+with each other in incomprehensible ways. Kind of like the stars in the night sky."
 
-- "Looking at the rising sun, Seol Jihu vowed internally. To become a sun that gives off the light on its own. To become a star that can share its light to other people. Both in Paradise and on Earth."
+- "Looking at the rising sun, Seol Jihu vowed internally. To become a sun that gives off
+the light on its own. To become a star that can share its light to other people. Both in
+Paradise and on Earth."
 
-- "Those Who Meet Eventually Bid Farewell While Those Who Have Parted Eventually Meet Again"
+- "Those Who Meet Eventually Bid Farewell While Those Who Have Parted Eventually Meet
+Again"
 
-- "Look. There’s a limit to improving your skills through simple repet.i.tive training. Even spear techniques like Thrust, Strike, and Cut have their limits. And of course, mindless repet.i.tion is even less effective for physical body skills like Intuition.”"
+- "Look. There’s a limit to improving your skills through simple repet.i.tive training.
+Even spear techniques like Thrust, Strike, and Cut have their limits. And of course,
+mindless repet.i.tion is even less effective for physical body skills like Intuition."
 
-- "Stop a.s.suming that if you keep trying, it will somehow work. Don’t you have a brain? You’ve walked this path more than a thousand times already.”"
+- "Stop a.s.suming that if you keep trying, it will somehow work. Don’t you have a brain?
+You’ve walked this path more than a thousand times already."
 
 - "If your destination is far away, you need to think about getting there step"
 
 - "Every flow has its ebbs, all that’s fair must fade."
 
-- "You’re an engineering major, right?” "Yes.” "I think sometimes you just think too hard. When you solve a problem, you expect each step to be logical and precise, like math.”"
+- "You’re an engineering major, right?" "Yes.” "I think sometimes you just think too hard.
+When you solve a problem, you expect each step to be logical and precise, like math.”"
 
-- "A soft answer turns away wrath. Sometimes the same word changes meaning depending on the context. You say one thing, and others will interpret it in hundreds of different ways."
+- "A soft answer turns away wrath. Sometimes the same word changes meaning depending on
+the context. You say one thing, and others will interpret it in hundreds of different
+ways."
 
-- "By lost, I mean that we momentarily lose touch with ourselves and with the full extent of our possibilities. Instead, we fall into a robotlike way of seeing and thinking and doing. In those moments, we break contact with what is deepest in ourselves and affords us perhaps our greatest opportunities for creativity, learning, and growing. If we are not careful, those clouded moments can stretch out and become most of our lives."
+- "By lost, I mean that we momentarily lose touch with ourselves and with the full extent
+of our possibilities. Instead, we fall into a robotlike way of seeing and thinking and
+doing. In those moments, we break contact with what is deepest in ourselves and affords us
+perhaps our greatest opportunities for creativity, learning, and growing. If we are not
+careful, those clouded moments can stretch out and become most of our lives."
 
-- "We pay a high price for this mistaken and unexamined assumption, for our almost willful ignoring of the richness of our present moments. The fallout accumulates silently, coloring our lives without our knowing it or being able to do something about it. We may never quite be where we actually are, never quite touch the fullness of our possibilities. Instead, we lock ourselves into a personal fiction that we already know who we are, that we know where we are and where we are going, that we know what is happening—all the while remaining enshrouded in thoughts, fantasies, and impulses, mostly about the past and about the future, about what we want and like, and what we fear and don’t like, which spin out continuously, veiling our direction and the very ground we are standing on."
+- "We pay a high price for this mistaken and unexamined assumption, for our almost willful
+ignoring of the richness of our present moments. The fallout accumulates silently,
+coloring our lives without our knowing it or being able to do something about it. We may
+never quite be where we actually are, never quite touch the fullness of our possibilities.
+Instead, we lock ourselves into a personal fiction that we already know who we are, that
+we know where we are and where we are going, that we know what is happening—all the while
+remaining enshrouded in thoughts, fantasies, and impulses, mostly about the past and about
+the future, about what we want and like, and what we fear and don’t like, which spin out
+continuously, veiling our direction and the very ground we are standing on."
 
 - "Only that day dawns to which we are awake."
 
-- "understanding the nature of life and mind. Intelligence is the door to freedom and alert attention is the mother"
+- "understanding the nature of life and mind. Intelligence is the door to freedom and
+alert attention is the mother"
 
 - "Intelligence is the door to freedom and alert attention is the mother of intelligence."
 
-- "expectations. So, in meditation practice, the best way to get somewhere is to let go of trying to get anywhere at all."
+- "expectations. So, in meditation practice, the best way to get somewhere is to let go of
+trying to get anywhere at all."
 
-- "If your mind isn’t clouded by unnecessary things, This is the best season of your life."
+- "If your mind isn’t clouded by unnecessary things, This is the best season of your
+life."
 
 - "mistakes were often as revealing as the right answers."
 
-- "The truly correct proof is one that strikes a harmonious balance between strength and flexibility. There are plenty of proofs that are technically correct but are messy and inelegant or counterintuitive. But it's not something you can put into words—explaining why a formula is beautiful is like trying to explain why the stars are beautiful."
+- "The truly correct proof is one that strikes a harmonious balance between strength and
+flexibility. There are plenty of proofs that are technically correct but are messy and
+inelegant or counterintuitive. But it's not something you can put into words—explaining
+why a formula is beautiful is like trying to explain why the stars are beautiful."
 
-- "It was just a little puzzle," he would say, "a game"; and his tone sounded more sad than modest. "The person who made the problem already knew the answer. Solving a problem for which you know there's an answer is like climbing a mountain with a guide, along a trail someone else has laid. In mathematics, the truth is somewhere out there in a place no one knows, beyond all the beaten paths. And it's not always at the top of the mountain. It might be in a crack on the smoothest cliff or somewhere deep in the valley."
+- "It was just a little puzzle," he would say, "a game"; and his tone sounded more sad
+than modest. "The person who made the problem already knew the answer. Solving a problem
+for which you know there's an answer is like climbing a mountain with a guide, along a
+trail someone else has laid. In mathematics, the truth is somewhere out there in a place
+no one knows, beyond all the beaten paths. And it's not always at the top of the mountain.
+It might be in a crack on the smoothest cliff or somewhere deep in the valley."
 
-- "A problem has a rhythm of its own, just like a piece of music," the Professor said. "Once you get the rhythm, you get the sense of the problem as a whole, and you can see where the traps might be waiting."
+- "A problem has a rhythm of its own, just like a piece of music," the Professor said.
+"Once you get the rhythm, you get the sense of the problem as a whole, and you can see
+where the traps might be waiting."
 
-- "Math has proven the existence of God, because it is absolute and without contradiction; but the devil must exist as well, because we cannot prove it."
+- "Math has proven the existence of God, because it is absolute and without contradiction;
+but the devil must exist as well, because we cannot prove it."
 
-- "Eternal truths are ultimately invisible, and you won't find them in material things or natural phenomena, or even in human emotions. Mathematics, however, can illuminate them, can give them expression—in fact, nothing can prevent it from doing so."
+- "Eternal truths are ultimately invisible, and you won't find them in material things or
+natural phenomena, or even in human emotions. Mathematics, however, can illuminate them,
+can give them expression—in fact, nothing can prevent it from doing so."
 
-- "So you think that zero was there waiting for us when humans came into being, like the flowers and the stars? You should have more respect for human progress. We made the zero, through great pain and struggle."
+- "So you think that zero was there waiting for us when humans came into being, like the
+flowers and the stars? You should have more respect for human progress. We made the zero,
+through great pain and struggle."
 
 - "Attention is the beginning of devotion"
 
@@ -15186,7 +15354,9 @@ us"
 
 - "THE WISDOM OF LIFE CONSISTS IN THE ELIMINATION OF NONESSENTIALS."
 
-- "In this example is the basic value proposition of Essentialism: only once you give yourself permission to stop trying to do it all, to stop saying yes to everyone, can you make your highest contribution towards the things that really matter."
+- "In this example is the basic value proposition of Essentialism: only once you give
+yourself permission to stop trying to do it all, to stop saying yes to everyone, can you
+make your highest contribution towards the things that really matter."
 
 - "It took courage, as it always does, to eliminate the nonessential."
 
@@ -15194,246 +15364,365 @@ us"
 
 - "the pursuit of success can be a catalyst for failure."
 
-- "the more choices we are forced to make, the more the quality of our decisions deteriorates."
+- "the more choices we are forced to make, the more the quality of our decisions
+deteriorates."
 
-- "It is not just the number of choices that has increased exponentially, it is also the strength and number of outside influences on our decisions that has increased."
+- "It is not just the number of choices that has increased exponentially, it is also the
+strength and number of outside influences on our decisions that has increased."
 
-- "Instead of reacting to the social pressures pulling you to go in a million directions, you will learn a way to reduce, simplify, and focus on what is absolutely essential by eliminating everything else."
+- "Instead of reacting to the social pressures pulling you to go in a million directions,
+you will learn a way to reduce, simplify, and focus on what is absolutely essential by
+eliminating everything else."
 
 - "If I didn't already own this, how much would I spend to buy it?"
 
-- "One paradox of Essentialism is that Essentialists actually explore more options than their Nonessentialist counterparts."
+- "One paradox of Essentialism is that Essentialists actually explore more options than
+their Nonessentialist counterparts."
 
 - "Remember, when we forfeit our right to choose, someone else will choose for us."
 
-- "There is tremendous freedom in learning that we can eliminate the nonessentials, that we are no longer controlled by other people's agendas, and that we get to choose."
+- "There is tremendous freedom in learning that we can eliminate the nonessentials, that
+we are no longer controlled by other people's agendas, and that we get to choose."
 
-- "That's when I realized that in sacrificing my power to choose I had made a choice—a bad one."
+- "That's when I realized that in sacrificing my power to choose I had made a choice—a bad
+one."
 
-- "The ability to choose cannot be taken away or even given away—it can only be forgotten."
+- "The ability to choose cannot be taken away or even given away—it can only be
+forgotten."
 
 - "My first act of free will shall be to believe in free will."
 
-- "MOST OF WHAT EXISTS IN THE UNIVERSE—OUR ACTIONS, AND ALL OTHER FORCES, RESOURCES, AND IDEAS—HAS LITTLE VALUE AND YIELDS LITTLE RESULT; ON THE OTHER HAND, A FEW THINGS WORK FANTASTICALLY WELL AND HAVE TREMENDOUS IMPACT."
+- "to be acted upon. As economist Thomas Sowell wrote: "There are no solutions. There are
+only trade-offs."7 Jim"
 
-- "the Law of the Vital Few."2 His observation was that you could massively improve the quality of a product by resolving a tiny fraction of the problems."
+- "Trade-offs are not something to be ignored or decried. They are something to be
+embraced and made deliberately, strategically, and thoughtfully."
 
-- "You cannot overestimate the unimportance of practically everything."9"
+- "Ironically, in a Nonessentialist culture these things—space, listening, playing,
+sleeping, and selecting—can be seen as trivial distractions. At best they are considered
+nice to have. At worst they are derided as evidence of weakness and wastefulness"
 
-- "You have to look at every opportunity and say, 'Well, no … I'm sorry. We're not going to do a thousand different things that really won't contribute much to the end result we are trying to achieve.' "
+- "If somebody can't make the meeting because of too much going on, that tells me either
+we're doing something inefficiently or we need to hire more people."
 
-- "A strategic position is not sustainable unless there are trade-offs with other positions."
+- "We have sold ourselves into a fast-food model of education, and it's impoverishing our
+spirit and our energies as much as fast food is depleting our physical bodies.…
+Imagination is the source of every form of human achievement. And it's the one thing that
+I believe we are systematically jeopardizing in the way we educate our children and
+ourselves."2 In this he is correct. This idea that play is trivial stays with us as we
+reach adulthood and only becomes more ingrained as we enter the workplace. Sadly, not only
+do far too few companies and organizations foster play; many unintentionally undermine it.
+True, some companies and executives give lip service to the value of play in sparking
+creativity, yet most still fail to create the kind of playful culture that sparks true
+exploration. None of this should surprise us. Modern corporations were born out of the
+Industrial Revolution, when their entire reason for being was to achieve efficiency in the
+mass production of goods. Furthermore, these early managers looked to the military—a
+rather less-than-playful entity—for their inspiration (indeed, the language of the
+military is still strong in corporations today; we still often talk of employees being on
+the front lines, and the word company itself is a term for a military unit). While the
+industrial era is long behind us, those mores, structures, and systems continue to pervade
+most modern organizations. Play, which I would define as anything we do simply for the joy
+of doing rather than as a means to an end—whether"
 
-- "I didn't start out with the goal of devoting all of myself to my job. It crept in over time. Each year that went by, slight modifications became the new normal. First I spent a half-hour on Sunday organizing my e-mail, to-do list, and calendar to make Monday morning easier. Then I was working a few hours on Sunday, then all day. My boundaries slipped away until work was all that was left."
-
-- "to be acted upon. As economist Thomas Sowell wrote: "There are no solutions. There are only trade-offs."7 Jim"
-
-- "Trade-offs are not something to be ignored or decried. They are something to be embraced and made deliberately, strategically, and thoughtfully."
-
-- "Ironically, in a Nonessentialist culture these things—space, listening, playing, sleeping, and selecting—can be seen as trivial distractions. At best they are considered nice to have. At worst they are derided as evidence of weakness and wastefulness"
-
-- "If somebody can't make the meeting because of too much going on, that tells me either we're doing something inefficiently or we need to hire more people."
-
-- "For some reason there is a false association with the word focus. As with choice, people tend to think of focus as a thing. Yes, focus is something we have. But focus is also something we do."
-
-- "Of course, nobody likes to be bored. But by abolishing any chance of being bored we have also lost the time we used to have to think and process."
-
-- "WHERE IS THE KNOWLEDGE WE HAVE LOST IN INFORMATION?"
-
-- "As someone once said to me, the faintest pencil is better than the strongest memory."
-
-- "A LITTLE NONSENSE NOW AND THEN, IS CHERISHED BY THE WISEST MEN."
-
-- "We have sold ourselves into a fast-food model of education, and it's impoverishing our spirit and our energies as much as fast food is depleting our physical bodies.… Imagination is the source of every form of human achievement. And it's the one thing that I believe we are systematically jeopardizing in the way we educate our children and ourselves."2 In this he is correct. This idea that play is trivial stays with us as we reach adulthood and only becomes more ingrained as we enter the workplace. Sadly, not only do far too few companies and organizations foster play; many unintentionally undermine it. True, some companies and executives give lip service to the value of play in sparking creativity, yet most still fail to create the kind of playful culture that sparks true exploration. None of this should surprise us. Modern corporations were born out of the Industrial Revolution, when their entire reason for being was to achieve efficiency in the mass production of goods. Furthermore, these early managers looked to the military—a rather less-than-playful entity—for their inspiration (indeed, the language of the military is still strong in corporations today; we still often talk of employees being on the front lines, and the word company itself is a term for a military unit). While the industrial era is long behind us, those mores, structures, and systems continue to pervade most modern organizations. Play, which I would define as anything we do simply for the joy of doing rather than as a means to an end—whether"
-
-- "When I examine myself and my methods of thought, I come to the conclusion that the gift of fantasy has meant more to me than my talent for absorbing positive knowledge."
-
-- "Pushing oneself to the limit is easy! The real challenge for the person who thrives on challenges is not to work hard."
-
-- "If you think you are so tough you can do anything I have a challenge for you. If you really want to do something hard: say no to an opportunity so you can take a nap."
+- "Pushing oneself to the limit is easy! The real challenge for the person who thrives on
+challenges is not to work hard."
 
 - "If the answer isn't a definite yes then it should be a no."
 
-- "So why is it so hard in the moment to dare to choose what is essential over what is nonessential?"
+- "So why is it so hard in the moment to dare to choose what is essential over what is
+nonessential? One simple answer is we are unclear about what is essential. When this
+happens we become defenseless."
 
-- "So why is it so hard in the moment to dare to choose what is essential over what is nonessential? One simple answer is we are unclear about what is essential. When this happens we become defenseless."
+- "Nonessentialists say yes because of feelings of social awkwardness and pressure. They
+say yes automatically, without thinking, often in pursuit of the rush one gets from having
+pleased someone. But Essentialists know that after the rush comes the pang of regret. They
+know they will soon feel bullied and resentful—both at the other person and at
+themselves."
 
-- "Nonessentialists say yes because of feelings of social awkwardness and pressure. They say yes automatically, without thinking, often in pursuit of the rush one gets from having pleased someone. But Essentialists know that after the rush comes the pang of regret. They know they will soon feel bullied and resentful—both at the other person and at themselves."
+- "When people ask us to do something, we can confuse the request with our relationship
+with them. Sometimes they seem so interconnected, we forget that denying the request is
+not the same as denying the person."
 
-- "When people ask us to do something, we can confuse the request with our relationship with them. Sometimes they seem so interconnected, we forget that denying the request is not the same as denying the person."
+- "But part of living the way of the Essentialist is realizing respect is far more
+valuable than popularity in the long run."
 
-- "But part of living the way of the Essentialist is realizing respect is far more valuable than popularity in the long run."
+- "Saying no is its own leadership capability. It is not just a peripheral skill. As with
+any ability, we start with limited experience."
 
-- "Saying no is its own leadership capability. It is not just a peripheral skill. As with any ability, we start with limited experience."
+- "Saying no is its own leadership capability. It is not just a peripheral skill. As with
+any ability, we start with limited experience. We are novices at "no."
 
-- "Saying no is its own leadership capability. It is not just a peripheral skill. As with any ability, we start with limited experience. We are novices at "no."
-
-- "HALF OF THE TROUBLES OF THIS LIFE CAN BE TRACED TO SAYING YES TOO QUICKLY AND NOT SAYING NO SOON ENOUGH."
+- "HALF OF THE TROUBLES OF THIS LIFE CAN BE TRACED TO SAYING YES TOO QUICKLY AND NOT
+SAYING NO SOON ENOUGH."
 
 - "nobody in the history of the world has washed their rental car!"
 
-- "Abandoning a project that you've invested a lot in feels like you've wasted everything, and waste is something we're told to avoid,"
+- "Abandoning a project that you've invested a lot in feels like you've wasted everything,
+and waste is something we're told to avoid,"
 
-- "It's natural not to want to let go of what we wasted on a bad choice, but when we don't, we doom ourselves to keep wasting even more."
+- "It's natural not to want to let go of what we wasted on a bad choice, but when we
+don't, we doom ourselves to keep wasting even more."
 
-- "Instead of trying to budget your time on the basis of existing commitments, assume that all bets are off. All previous commitments are gone. Then begin from scratch, asking which you would add today."
+- "Instead of trying to budget your time on the basis of existing commitments, assume that
+all bets are off. All previous commitments are gone. Then begin from scratch, asking which
+you would add today."
 
-- "In a reverse pilot you test whether removing an initiative or activity will have any negative consequences."
+- "In a reverse pilot you test whether removing an initiative or activity will have any
+negative consequences."
 
-- "In other words, a good film editor makes it hard not to see what's important because she eliminates everything but the elements that absolutely need to be there."
+- "In other words, a good film editor makes it hard not to see what's important because
+she eliminates everything but the elements that absolutely need to be there."
 
 - "It's true that doing less can be harder, both in art and in life."
 
-- "The best surgeon is not the one who makes the most incisions; similarly, the best editors can sometimes be the least intrusive, the most restrained."
+- "The best surgeon is not the one who makes the most incisions; similarly, the best
+editors can sometimes be the least intrusive, the most restrained."
 
 - "NO IS A COMPLETE SENTENCE."
-- "But what most people don't realize is that the problem is not just that the boundaries have been blurred; it's that the boundary of work has edged insidiously into family territory. It is hard to imagine executives in most companies who would be comfortable with employees bringing their children to work on Monday morning, yet they seem to have no problem expecting their employees to come into the office or to work on a project on a Saturday or Sunday."
+- "But what most people don't realize is that the problem is not just that the boundaries
+have been blurred; it's that the boundary of work has edged insidiously into family
+territory. It is hard to imagine executives in most companies who would be comfortable
+with employees bringing their children to work on Monday morning, yet they seem to have no
+problem expecting their employees to come into the office or to work on a project on a
+Saturday or Sunday."
 
-- "Boundaries are a little like the walls of a sandcastle. The second we let one fall over, the rest of them come crashing down."
+- "Boundaries are a little like the walls of a sandcastle. The second we let one fall
+over, the rest of them come crashing down."
 
-- "Remember, forcing these people to solve their own problems is equally beneficial for you and for them."
+- "Remember, forcing these people to solve their own problems is equally beneficial for
+you and for them."
 
-- "when we don't set clear boundaries in our lives we can end up imprisoned by the limits others have set for us."
+- "when we don't set clear boundaries in our lives we can end up imprisoned by the limits
+others have set for us."
 
-- "The only thing we can expect (with any great certainty) is the unexpected. Therefore, we can either wait for the moment and react to it or we can prepare. We can create a buffer."
+- "The only thing we can expect (with any great certainty) is the unexpected. Therefore,
+we can either wait for the moment and react to it or we can prepare. We can create a
+buffer."
 
-- "Instead of trying to improve every aspect of the facility he needs to identify the "Herbie": the part of the process that is slower relative to every other part of the plant"
+- "Instead of trying to improve every aspect of the facility he needs to identify the
+"Herbie": the part of the process that is slower relative to every other part of the
+plant"
 
-- "Being good with a hammer, the Nonessentialist thinks everything is a nail. Thus he applies more and more pressure, but this ends up only adding more friction and frustration. Indeed, in some situations the harder you push on someone the harder he or she will push back."
+- "Being good with a hammer, the Nonessentialist thinks everything is a nail. Thus he
+applies more and more pressure, but this ends up only adding more friction and
+frustration. Indeed, in some situations the harder you push on someone the harder he or
+she will push back."
 
 - "When we don't know what we're really trying to achieve, all change is arbitrary."
 
-- "Removing obstacles does not have to be hard or take a superhuman effort. Instead, we can start small. It's kind of like dislodging a boulder at the top of a hill. All it takes is a small shove, then momentum will naturally build."
+- "Removing obstacles does not have to be hard or take a superhuman effort. Instead, we
+can start small. It's kind of like dislodging a boulder at the top of a hill. All it takes
+is a small shove, then momentum will naturally build."
 
-- "Each time a young person was recognized and commended for doing something good, he or she was that much more motivated to continue doing good until, eventually, doing good became natural and effortless."
+- "Each time a young person was recognized and commended for doing something good, he or
+she was that much more motivated to continue doing good until, eventually, doing good
+became natural and effortless."
 
 - "of all forms of human motivation the most effective one is progress."
 
-- "It is the process Pixar uses on their movies. Instead of starting with a script, they start with storyboards—or what have been described as the comic book version of a movie. They try ideas out and see what works. They do this in small cycles hundreds of times. Then they put out a movie to small groups of people to give them advance feedback."
+- "It is the process Pixar uses on their movies. Instead of starting with a script, they
+start with storyboards—or what have been described as the comic book version of a movie.
+They try ideas out and see what works. They do this in small cycles hundreds of times.
+Then they put out a movie to small groups of people to give them advance feedback."
 
 - "We don't actually finish our films, we release them."
 
 - "ROUTINE, IN AN INTELLIGENT MAN, IS A SIGN OF AMBITION."
 
-- "This power of a routine grows out of our brain's ability to take over entirely until the process becomes fully unconscious."
+- "This power of a routine grows out of our brain's ability to take over entirely until
+the process becomes fully unconscious."
 
-- "There is a difference between losing and being beaten. Being beaten means they are better than you. They are faster, stronger, and more talented." To Larry, losing means something else. It means you lost focus. It means you didn't concentrate on what was essential."
+- "There is a difference between losing and being beaten. Being beaten means they are
+better than you. They are faster, stronger, and more talented." To Larry, losing means
+something else. It means you lost focus. It means you didn't concentrate on what was
+essential."
 
-- "Multitasking itself is not the enemy of Essentialism; pretending we can "multifocus" is."
+- "Multitasking itself is not the enemy of Essentialism; pretending we can "multifocus"
+is."
 
-- "Suppose you are drinking a cup of tea. When you hold your cup, you may like to breathe in, to bring your mind back to your body, and you become fully present. And when you are truly there, something else is also there—life, represented by the cup of tea. In that moment you are real, and the cup of tea is real. You are not lost in the past, in the future, in your projects, in your worries. You are free from all of these afflictions. And in that state of being free, you enjoy your tea. That is the moment of happiness, and of peace." Pay attention through the day"
+- "Suppose you are drinking a cup of tea. When you hold your cup, you may like to breathe
+in, to bring your mind back to your body, and you become fully present. And when you are
+truly there, something else is also there—life, represented by the cup of tea. In that
+moment you are real, and the cup of tea is real. You are not lost in the past, in the
+future, in your projects, in your worries. You are free from all of these afflictions. And
+in that state of being free, you enjoy your tea. That is the moment of happiness, and of
+peace." Pay attention through the day"
 
 - "BEWARE THE BARRENNESS OF A BUSY LIFE."
 
-- "Every choice we make to pursue the essential and eliminate the nonessential builds on itself, making that choice more and more habitual until it becomes virtually second nature."
+- "Every choice we make to pursue the essential and eliminate the nonessential builds on
+itself, making that choice more and more habitual until it becomes virtually second
+nature."
 
-- "I continue to discover almost daily that I can do less and less—in order to contribute more."
+- "I continue to discover almost daily that I can do less and less—in order to contribute
+more."
 
-- "If one's life is simple, contentment has to come. Simplicity is extremely important for happiness."
+- "If one's life is simple, contentment has to come. Simplicity is extremely important for
+happiness."
 
-- "The course of history is determined not by battles, by sieges, or usurpations, but by the actions of the individual. The strongest city, the largest army is, at its most basic level, a collection of individuals. Their decisions, their passions, their foolishness, and their dreams shape the years to come. If there is any lesson to be learned from history, it is that all too often the fate of armies, of cities, of entire realms rests upon the actions of one person. In that dire moment of uncertainty, that person's decision, good or bad, right or wrong, big or small, can unwittingly change the world. But history can be quite the slattern. One never knows who that person is, where he might be, or what decision he might make. It is almost enough to make me believe in Destiny."
+- "The course of history is determined not by battles, by sieges, or usurpations, but by
+the actions of the individual. The strongest city, the largest army is, at its most basic
+level, a collection of individuals. Their decisions, their passions, their foolishness,
+and their dreams shape the years to come. If there is any lesson to be learned from
+history, it is that all too often the fate of armies, of cities, of entire realms rests
+upon the actions of one person. In that dire moment of uncertainty, that person's
+decision, good or bad, right or wrong, big or small, can unwittingly change the world. But
+history can be quite the slattern. One never knows who that person is, where he might be,
+or what decision he might make. It is almost enough to make me believe in Destiny."
 
 - "I think men who lust for power are capable of almost anything."
 
-- "When you reach my age, Amara, people show themselves to you very clearly. They write their intentions and beliefs through their actions, their lies."
+- "When you reach my age, Amara, people show themselves to you very clearly. They write
+their intentions and beliefs through their actions, their lies."
 
-- "But the power to shake mountains does little good if the knife is already buried in one's throat"
+- "But the power to shake mountains does little good if the knife is already buried in
+one's throat"
 
-- "There are some people who will never understand what loyalty means. They could tell you what it was, of course, but they will never know. They will never see it from the inside. They couldn't imagine a world where something like that was real."
+- "There are some people who will never understand what loyalty means. They could tell you
+what it was, of course, but they will never know. They will never see it from the inside.
+They couldn't imagine a world where something like that was real."
 
-- "Courage." Tavi sighed. "As near as I can figure it, all courage gets you is more of a beating than if you'd run away."
+- "Courage." Tavi sighed. "As near as I can figure it, all courage gets you is more of a
+beating than if you'd run away."
 
-- "There's two kinds of bad men in the world. I mean, there's all kinds of ways for a man to go bad, but when you get right down to it, there's only about two kinds of men who will hurt others with forethought. Premeditation. Men that don't figure there's anyone else alive who matters but them. And men who figure that there's something that matters more than anyone's life. Even their own." He shook his head. "First one is common enough. Petty, small. They're everywhere. People who just don't give a scorched crow about anyone else. Mostly, the bad they do doesn't amount to much. "The second kind is like your patriserus. People who hold something dear above their own lives, above anyone else's. They'll fight to protect it and kill to protect it, and the whole time they'll be thinking to themselves that it has to be done. That it's the right thing to do." Bernard glanced up at her and said, "Dangerous those. Very dangerous."
+- "There's two kinds of bad men in the world. I mean, there's all kinds of ways for a man
+to go bad, but when you get right down to it, there's only about two kinds of men who will
+hurt others with forethought. Premeditation. Men that don't figure there's anyone else
+alive who matters but them. And men who figure that there's something that matters more
+than anyone's life. Even their own." He shook his head. "First one is common enough.
+Petty, small. They're everywhere. People who just don't give a scorched crow about anyone
+else. Mostly, the bad they do doesn't amount to much. "The second kind is like your
+patriserus. People who hold something dear above their own lives, above anyone else's.
+They'll fight to protect it and kill to protect it, and the whole time they'll be thinking
+to themselves that it has to be done. That it's the right thing to do." Bernard glanced up
+at her and said, "Dangerous those. Very dangerous."
 
-- "Sometimes," Bernard rumbled, "the only smart thing to do is nothing. Sometimes you just have to be still and see how events begin to unfold before you move. Be patient."
+- "Sometimes," Bernard rumbled, "the only smart thing to do is nothing. Sometimes you just
+have to be still and see how events begin to unfold before you move. Be patient."
 
-- "If the beginning of wisdom is in realizing that one knows nothing, then the beginning of understanding is in realizing that all things exist in accord with a single truth: large things are made of smaller things. Drops of ink are shaped into letters, letters form words, words form sentences, and sentences combine to express thought. So it is with the growth of plants that spring from seeds, as well as with walls built of many stones. So it is with mankind, as the customs and traditions of our progenitors blend together to form the foundation for our own cities, history, and way of life. Be they dead stone, living flesh, or rolling sea; be they idle times or events of world-shattering proportion, market days, or desperate battles, to this law, all things hold: Large things are made from small things. Significance is cumulative—but not always obvious."
-
-- "Don't struggle to heal your wounds. Just pour time into your heart and wait"
+- "If the beginning of wisdom is in realizing that one knows nothing, then the beginning
+of understanding is in realizing that all things exist in accord with a single truth:
+large things are made of smaller things. Drops of ink are shaped into letters, letters
+form words, words form sentences, and sentences combine to express thought. So it is with
+the growth of plants that spring from seeds, as well as with walls built of many stones.
+So it is with mankind, as the customs and traditions of our progenitors blend together to
+form the foundation for our own cities, history, and way of life. Be they dead stone,
+living flesh, or rolling sea; be they idle times or events of world-shattering proportion,
+market days, or desperate battles, to this law, all things hold: Large things are made
+from small things. Significance is cumulative—but not always obvious."
 
 - "you've been unable to change a bad situation, even after many attempts, you should"
 
-- "If you've been unable to change a bad situation, even after many attempts, you should change how you look at the situation"
+- "If you've been unable to change a bad situation, even after many attempts, you should
+change how you look at the situation"
 
-- "Awareness is inherently pure, like the open sky. Stress, irritation, and anger can temporarily cloud the sky, but they can never pollute it."
+- "Awareness is inherently pure, like the open sky. Stress, irritation, and anger can
+temporarily cloud the sky, but they can never pollute it."
 
-- "The martial path was lonely. It was a source of great happiness if one found a confidant."
+- "The martial path was lonely. It was a source of great happiness if one found a
+confidant."
 
-- "The Azure Yang Lord's uninhibited life was filled with ups and down. Having felt both extreme happiness and sadness, he knew how difficult it was to earn happiness. If he could make this moment last forever, that would be a blissful matter… However, be it the Azure Yang Lord or the ancient Great Empress, they knew that these days were not going to last."
+- "The Azure Yang Lord's uninhibited life was filled with ups and down. Having felt both
+extreme happiness and sadness, he knew how difficult it was to earn happiness. If he could
+make this moment last forever, that would be a blissful matter… However, be it the Azure
+Yang Lord or the ancient Great Empress, they knew that these days were not going to last."
 
-- "Warriors had to suffer hardship and experience numerous life and death encounters. If they were not careful, they would lose their lives. They had to restrain their desires and endure lonely decades of reclusive training. Wasn't all this for them to lead a free life and do as they pleased when their power succeeded on reaching unprecedented heights!? Everything in the world depended on one's preference. To do as the heart pleased!"
-
-- "The ways of the world are full of vicissitudes, and in it, there is the grief at separation and joy in union, the suffering of life and death. No matter how thick a history book is, it would not be able to record everything down. However, it is such infinite matters of the past that can pass by with a finger snap. In one's old age, while looking back at the past, only then would you feel like everything was ephemeral."
+- "Warriors had to suffer hardship and experience numerous life and death encounters. If
+they were not careful, they would lose their lives. They had to restrain their desires and
+endure lonely decades of reclusive training. Wasn't all this for them to lead a free life
+and do as they pleased when their power succeeded on reaching unprecedented heights!?
+Everything in the world depended on one's preference. To do as the heart pleased!"
 
 - "The further he walked, the tinier he felt."
 
-- "Against the vast cosmos, the lives of people were like ants. It was like how bacteria did not know what it meant for the first and last day of the month, or how mole crickets did not know the seasons. What was a mortal's life to the Universe? Yi Yun did not want to remain like a speck of dust in the Universe."
+- "Against the vast cosmos, the lives of people were like ants. It was like how bacteria
+did not know what it meant for the first and last day of the month, or how mole crickets
+did not know the seasons. What was a mortal's life to the Universe? Yi Yun did not want to
+remain like a speck of dust in the Universe."
 
-- "In a warrior's world, we may have the power to cause great destruction, have long lifespans, and are able to lead extravagant lives, but the pressure is intense. Be it life-and-death trials or breakthroughs that require great risks, or the sense of urgency of being killed by someone else at any moment in time, it forces us to continuously forge ahead." "The accumulation of all these pressure naturally need an opportunity for it to be released."
+- "In a warrior's world, we may have the power to cause great destruction, have long
+lifespans, and are able to lead extravagant lives, but the pressure is intense. Be it
+life-and-death trials or breakthroughs that require great risks, or the sense of urgency
+of being killed by someone else at any moment in time, it forces us to continuously forge
+ahead." "The accumulation of all these pressure naturally need an opportunity for it to be
+released."
 
-- "Before one's heart reduced to mediocrity, Great Dao lies within one's heart!"
-
-- "Those without sufficient strength but can bear disgrace and a heavy burden are people who I appreciate as well."
-
-- "Time is like a flowing river. Everything and anything can be washed away by that river."
+- "Time is like a flowing river. Everything and anything can be washed away by that
+river."
 
 - "Everyone had their own time, but time treated everyone equally."
 
-- "Were destruction and finality the end? Matter in the Universe could not remain eternal. They would eventually proceed towards destruction, including the Universe. But what happened after destruction? Could it be that all that was left was eternal 'nothingness'? Everything in the world underwent birth and death. A drop of water could evaporate and become part of a cloud before condensing into new drops of rain. Plants would wither, but the fruits that they bore could give rise to seeds. Mortals would die of age, but babies would grow up into adults. Stars could be destroyed, but new stars would eventually be born… Everything in the world underwent a cycle, so it definitely included the Universe. The destruction of the Universe was the beginnings of a new Universe. It was just that the cycle was immensely long that it was beyond the imagination of mere mortals. New Universe… Yi Yun suddenly seemed to realize something. What were the beginnings of the Universe? Dao begets One, One begets Two… Before Yin-Yang and Space-time was Chaos! Rebirth after destruction was Chaos and Major Destruction respectively. They were both two Great Dao of Supremacy! Why were there two Great Dao of Supremacy? They might be like Yin-Yang, Space-time, Water-Fire, just two sides of the Universe. The two could supplement each other and not a single one was dispensable."
+- "Were destruction and finality the end? Matter in the Universe could not remain eternal.
+They would eventually proceed towards destruction, including the Universe. But what
+happened after destruction? Could it be that all that was left was eternal 'nothingness'?
+Everything in the world underwent birth and death. A drop of water could evaporate and
+become part of a cloud before condensing into new drops of rain. Plants would wither, but
+the fruits that they bore could give rise to seeds. Mortals would die of age, but babies
+would grow up into adults. Stars could be destroyed, but new stars would eventually be
+born… Everything in the world underwent a cycle, so it definitely included the Universe.
+The destruction of the Universe was the beginnings of a new Universe. It was just that the
+cycle was immensely long that it was beyond the imagination of mere mortals. New Universe…
+Yi Yun suddenly seemed to realize something. What were the beginnings of the Universe? Dao
+begets One, One begets Two… Before Yin-Yang and Space-time was Chaos! Rebirth after
+destruction was Chaos and Major Destruction respectively. They were both two Great Dao of
+Supremacy! Why were there two Great Dao of Supremacy? They might be like Yin-Yang,
+Space-time, Water-Fire, just two sides of the Universe. The two could supplement each
+other and not a single one was dispensable."
 
-- "But if a warrior does not have any aspirations, he won't be able to go far either."
+- "Chaos in the world leads to the suffering of all life, but it is something some people
+are willing to see. Heroes are born in difficult times."
 
-- "To what end do we practice martial arts for? If we can't depend on the sword, so what about death? One's true richness of heart is not to be annihilated!"
-
-- "Helping a man once gains gratitude, but not helping that man again gains hatred."
-
-- "grinding a chopper will not hold up the work of cutting firewood"
-
-- "As the saying goes, he who gets other's kindness but does not repay is not a gentleman."
-
-- "History changes erratically. Time is enough to wipe away many things."
-
-- "Chaos in the world leads to the suffering of all life, but it is something some people are willing to see. Heroes are born in difficult times."
-
-- "Humans were warlike, to begin with. It was common among humans to fight unceasingly for their interests. Furthermore, there were some perverse people who wanted revenge on the world. Such people were even more dangerous. There was no limit to what they would do. Yi Yun knew that there was evil deeply rooted in human nature. However, he was not a person who would bemoan the state of the universe and mankind, much less the kind who would question life after seeing the ugly nature of humans and eventually decide to destroy the entire world in a crazy fit. He was only Yi Yun, an ordinary person that pursued the martial path, wanting his life to escape the cycle of samsara."
-
-- "When one postures to impress a girl, his failure becomes all the more foolish."
-
-- "When warriors took lives or destroyed an item, or even shattered a world, they could not avoid violence. Only time could turn everything into dust in an infinitely calm manner simply by passing. It was silent from beginning to end. Time was the most unique power of destruction. Yi"
-
-- "A man who loses position and influence may be subjected to much indignity. It's all fated…"
+- "Humans were warlike, to begin with. It was common among humans to fight unceasingly for
+their interests. Furthermore, there were some perverse people who wanted revenge on the
+world. Such people were even more dangerous. There was no limit to what they would do. Yi
+Yun knew that there was evil deeply rooted in human nature. However, he was not a person
+who would bemoan the state of the universe and mankind, much less the kind who would
+question life after seeing the ugly nature of humans and eventually decide to destroy the
+entire world in a crazy fit. He was only Yi Yun, an ordinary person that pursued the
+martial path, wanting his life to escape the cycle of samsara."
 
 - "He who understands the times is a wise man."
 
-- "Yi Yun refused to believe that someone would forgo their lives for a master who had not won the hearts of people."
+- "Life, from lifeforms as large as towering trees to bugs as small as ants, the reason
+for all they do is for the continuation of their bloodline."
 
-- "We warriors have been cultivating our entire lives. What was it for? It's not to enjoy riches or sex. Nor is it about being placed on a pedestal while enslaving those beneath us! We cultivate to fight against our fate! We do not wish to to let Samsara run its course, so we cultivate for years! Our martial heritage has been passed down for millions of years, billions of years, and will be so for trillions of years! It's not for us to kneel down to beg for mercy after gaining mastery. With the backbone broken, there's no way one can straighten one's back."
+- "In this Sinkhole that was filled with despair, a bunch of seniors were forging ahead
+bearing the burdens, so as to hold up the sky for the young. Although these seniors had
+their backs hunched from the pressures of time, to the point of not being able to bear the
+weight any further, that was already sufficient, no matter how tiny that piece of sky they
+held up was. They had already done everything they could have done."
 
-- "The Heavenly Dao's evolution is unending. Creation and Destruction are interchangeable, forming a complete circle. Be it life or a universe, they have formation, existence, disintegration, and emptiness; birth, aging, illness, and death. You wanted to devour the Heavenly Dao, robbing and changing the fate of the universe. You wanted to empower yourself by initiating the deaths of millions; hence, you were destined to be abandoned by the Heavenly Dao."
+- "Every artist has thousands of bad drawings in them and the only way to get rid of them
+is to draw them out. - Chuck Jones"
 
-- "Legends were typically like this. They would not be eclipsed with the passage of time, but instead, they became histories that one tried to live up to."
+- "I spent years trying to behave "appropriately" so that other people would accept me,
+because underneath I felt like my true self was unworthy and underserving. Once I
+unravelled this ball I realized that I was just as worthy and deserving as anyone else,
+and I could start being myself—my true self."
 
-- "Life, from lifeforms as large as towering trees to bugs as small as ants, the reason for all they do is for the continuation of their bloodline."
+- "Realize that 9 times out of 10, when you're worried about what other people think -
+it's a projection. You're projecting your own fears and your own internalized
+self-judgment onto other people. You're pinning on them what you yourself think. So when
+we take responsibility for letting go of other people's judgments we empower ourselves to
+stop being harsh and judgmental with ourselves too. Because ultimately they go
+hand-in-hand."
 
-- "In this Sinkhole that was filled with despair, a bunch of seniors were forging ahead bearing the burdens, so as to hold up the sky for the young. Although these seniors had their backs hunched from the pressures of time, to the point of not being able to bear the weight any further, that was already sufficient, no matter how tiny that piece of sky they held up was. They had already done everything they could have done."
+- "Often when we get lost in worrying about what everyone else thinks it's because we're
+existing in a state of perpetual comparison. We look at what everyone else is doing and
+think that unless we're doing similarly we failed"
 
-- "The crests and troughs of life are all but ephemeral mists. How nice if reunion and separation were fixed in place of that first meeting. A thousand years pass and happiness a certainty, but how much was sadness in exchange?"
-
-- "Every artist has thousands of bad drawings in them and the only way to get rid of them is to draw them out. - Chuck Jones"
-
-- "I spent years trying to behave "appropriately" so that other people would accept me, because underneath I felt like my true self was unworthy and underserving. Once I unravelled this ball I realized that I was just as worthy and deserving as anyone else, and I could start being myself—my true self."
-
-- "Realize that 9 times out of 10, when you're worried about what other people think - it's a projection. You're projecting your own fears and your own internalized self-judgment onto other people. You're pinning on them what you yourself think. So when we take responsibility for letting go of other people's judgments we empower ourselves to stop being harsh and judgmental with ourselves too. Because ultimately they go hand-in-hand."
-
-- "Often when we get lost in worrying about what everyone else thinks it's because we're existing in a state of perpetual comparison. We look at what everyone else is doing and think that unless we're doing similarly we failed"
-
-- "For me I think the lack of "off leash" non-self-regulation time also ties directly into the "revenge bedtime procrastination" phenom. I often find myself doing practically nothing or the mindless scrolling even though I am physically and mentally tired and WANT to sleep, but my brain is like "I HAVENT HAD A RUN AROUND TODAY WE MUST STAY UP"
+- "For me I think the lack of "off leash" non-self-regulation time also ties directly into
+the "revenge bedtime procrastination" phenom. I often find myself doing practically
+nothing or the mindless scrolling even though I am physically and mentally tired and WANT
+to sleep, but my brain is like "I HAVENT HAD A RUN AROUND TODAY WE MUST STAY UP"
 
 - "The absurd does not liberate; it binds."
 
 - "The wisdom of life consists in the elimination of nonessentials."
 
-- "In this example is the basic value proposition of Essentialism: only once you give yourself permission to stop trying to do it all, to stop saying yes to everyone, can you make your highest contribution towards the things that really matter."
+- "In this example is the basic value proposition of Essentialism: only once you give
+yourself permission to stop trying to do it all, to stop saying yes to everyone, can you
+make your highest contribution towards the things that really matter."
 
 - "It took courage, as it always does, to eliminate the nonessential."
 
@@ -15441,53 +15730,66 @@ us"
 
 - "the pursuit of success can be a catalyst for failure."
 
-- "the more choices we are forced to make, the more the quality of our decisions deteriorates."
+- "the more choices we are forced to make, the more the quality of our decisions
+deteriorates."
 
-- "It is not just the number of choices that has increased exponentially, it is also the strength and number of outside influences on our decisions that has increased."
+- "It is not just the number of choices that has increased exponentially, it is also the
+strength and number of outside influences on our decisions that has increased."
 
-- "Instead of reacting to the social pressures pulling you to go in a million directions, you will learn a way to reduce, simplify, and focus on what is absolutely essential by eliminating everything else."
+- "Instead of reacting to the social pressures pulling you to go in a million directions,
+you will learn a way to reduce, simplify, and focus on what is absolutely essential by
+eliminating everything else."
 
 - "If I didn't already own this, how much would I spend to buy it?"
 
-- "One paradox of Essentialism is that Essentialists actually explore more options than their Nonessentialist counterparts."
+- "One paradox of Essentialism is that Essentialists actually explore more options than
+their Nonessentialist counterparts."
 
 - "Remember, when we forfeit our right to choose, someone else will choose for us."
 
-- "There is tremendous freedom in learning that we can eliminate the nonessentials, that we are no longer controlled by other people's agendas, and that we get to choose."
+- "There is tremendous freedom in learning that we can eliminate the nonessentials, that
+we are no longer controlled by other people's agendas, and that we get to choose."
 
-- "That's when I realized that in sacrificing my power to choose I had made a choice—a bad one."
+- "That's when I realized that in sacrificing my power to choose I had made a choice—a bad
+one."
 
-- "The ability to choose cannot be taken away or even given away—it can only be forgotten."
+- "The ability to choose cannot be taken away or even given away—it can only be
+forgotten."
 
-- "My first act of free will shall be to believe in free will."
+- "Most of what exists in the universe—our actions, and all other forces, resources, and
+ideas—has little value and yields little result; on the other hand, a few things work
+fantastically well and have tremendous impact."
 
-- "Most of what exists in the universe—our actions, and all other forces, resources, and ideas—has little value and yields little result; on the other hand, a few things work fantastically well and have tremendous impact."
-
-- "the Law of the Vital Few.  His observation was that you could massively improve the quality of a product by resolving a tiny fraction of the problems."
+- "the Law of the Vital Few.  His observation was that you could massively improve the
+quality of a product by resolving a tiny fraction of the problems."
 
 - "You cannot overestimate the unimportance of practically everything.
 
-- "You have to look at every opportunity and say, 'Well, no … I'm sorry. We're not going to do a thousand different things that really won't contribute much to the end result we are trying to achieve.' "
+- "You have to look at every opportunity and say, 'Well, no … I'm sorry. We're not going
+to do a thousand different things that really won't contribute much to the end result we
+are trying to achieve.' "
 
-- "A strategic position is not sustainable unless there are trade-offs with other positions."
+- "A strategic position is not sustainable unless there are trade-offs with other
+positions."
 
-- "I didn't start out with the goal of devoting all of myself to my job. It crept in over time. Each year that went by, slight modifications became the new normal. First I spent a half-hour on Sunday organizing my e-mail, to-do list, and calendar to make Monday morning easier. Then I was working a few hours on Sunday, then all day. My boundaries slipped away until work was all that was left."
+- "I didn't start out with the goal of devoting all of myself to my job. It crept in over
+time. Each year that went by, slight modifications became the new normal. First I spent a
+half-hour on Sunday organizing my e-mail, to-do list, and calendar to make Monday morning
+easier. Then I was working a few hours on Sunday, then all day. My boundaries slipped away
+until work was all that was left."
 
-- "to be acted upon. As economist Thomas Sowell wrote: "There are no solutions. There are only trade-offs."7 Jim"
+- "to be acted upon. As economist Thomas Sowell wrote: "There are no solutions. There are
+only trade-offs."7 Jim"
 
-- "Trade-offs are not something to be ignored or decried. They are something to be embraced and made deliberately, strategically, and thoughtfully."
+- "Trade-offs are not something to be ignored or decried. They are something to be
+embraced and made deliberately, strategically, and thoughtfully."
 
-- "Ironically, in a Nonessentialist culture these things—space, listening, playing, sleeping, and selecting—can be seen as trivial distractions. At best they are considered nice to have."
+- "For some reason there is a false association with the word focus. As with choice,
+people tend to think of focus as a thing. Yes, focus is something we have. But focus is
+also something we do."
 
-- "Ironically, in a Nonessentialist culture these things—space, listening, playing, sleeping, and selecting—can be seen as trivial distractions. At best they are considered nice to have. At worst they are derided as evidence of weakness and wastefulness"
-
-- "If somebody can't make the meeting because of too much going on, that tells me either we're doing something inefficiently or we need to hire more people."
-
-- "For some reason there is a false association with the word focus. As with choice, people tend to think of focus as a thing. Yes, focus is something we have. But focus is also something"
-
-- "For some reason there is a false association with the word focus. As with choice, people tend to think of focus as a thing. Yes, focus is something we have. But focus is also something we do."
-
-- "Of course, nobody likes to be bored. But by abolishing any chance of being bored we have also lost the time we used to have to think and process."
+- "Of course, nobody likes to be bored. But by abolishing any chance of being bored we
+have also lost the time we used to have to think and process."
 
 - "Where is the knowledge we have lost in information?"
 
@@ -15495,172 +15797,310 @@ us"
 
 - "A little nonsense now and then, is cherished by the wisest men."
 
-- "We have sold ourselves into a fast-food model of education, and it's impoverishing our spirit and our energies as much as fast food is depleting our physical bodies.… Imagination is the source of every form of human achievement. And it's the one thing that I believe we are systematically jeopardizing in the way we educate our children and ourselves."2 In this he is correct. This idea that play is trivial stays with us as we reach adulthood and only becomes more ingrained as we enter the workplace. Sadly, not only do far too few companies and organizations foster play; many unintentionally undermine it. True, some companies and executives give lip service to the value of play in sparking creativity, yet most still fail to create the kind of playful culture that sparks true exploration. None of this should surprise us. Modern corporations were born out of the Industrial Revolution, when their entire reason for being was to achieve efficiency in the mass production of goods. Furthermore, these early managers looked to the military—a rather less-than-playful entity—for their inspiration (indeed, the language of the military is still strong in corporations today; we still often talk of employees being on the front lines, and the word company itself is a term for a military unit). While the industrial era is long behind us, those mores, structures, and systems continue to pervade most modern organizations. Play, which I would define as anything we do simply for the joy of doing rather than as a means to an end—whether"
+- "So why is it so hard in the moment to dare to choose what is essential over what is
+nonessential?"
 
-- "When I examine myself and my methods of thought, I come to the conclusion that the gift of fantasy has meant more to me than my talent for absorbing positive knowledge."
+- "So why is it so hard in the moment to dare to choose what is essential over what is
+nonessential? One simple answer is we are unclear about what is essential. When this
+happens we become defenseless."
 
-- "Pushing oneself to the limit is easy! The real challenge for the person who thrives on challenges is not to work hard."
+- "Nonessentialists say yes because of feelings of social awkwardness and pressure. They
+say yes automatically, without thinking, often in pursuit of the rush one gets from having
+pleased someone. But Essentialists know that after the rush comes the pang of regret. They
+know they will soon feel bullied and resentful—both at the other person and at
+themselves."
 
-- "If you think you are so tough you can do anything I have a challenge for you. If you really want to do something hard: say no to an opportunity so you can take a nap."
+- "When people ask us to do something, we can confuse the request with our relationship
+with them. Sometimes they seem so interconnected, we forget that denying the request is
+not the same as denying the person."
 
-- "If the answer isn't a definite yes then it should be a no."
+- "But part of living the way of the Essentialist is realizing respect is far more
+valuable than popularity in the long run."
 
-- "So why is it so hard in the moment to dare to choose what is essential over what is nonessential?"
+- "Saying no is its own leadership capability. It is not just a peripheral skill. As with
+any ability, we start with limited experience. We are novices at "no."
 
-- "So why is it so hard in the moment to dare to choose what is essential over what is nonessential? One simple answer is we are unclear about what is essential. When this happens we become defenseless."
-
-- "Nonessentialists say yes because of feelings of social awkwardness and pressure. They say yes automatically, without thinking, often in pursuit of the rush one gets from having pleased someone. But Essentialists know that after the rush comes the pang of regret. They know they will soon feel bullied and resentful—both at the other person and at themselves."
-
-- "When people ask us to do something, we can confuse the request with our relationship with them. Sometimes they seem so interconnected, we forget that denying the request is not the same as denying the person."
-
-- "But part of living the way of the Essentialist is realizing respect is far more valuable than popularity in the long run."
-
-- "Saying no is its own leadership capability. It is not just a peripheral skill. As with any ability, we start with limited experience. We are novices at "no."
-
-- "Half of the troubles of this life can be traced to saying yes too quickly and not saying no soon enough."
+- "Half of the troubles of this life can be traced to saying yes too quickly and not
+saying no soon enough."
 
 - "nobody in the history of the world has washed their rental car!"
 
-- "Abandoning a project that you've invested a lot in feels like you've wasted everything, and waste is something we're told to avoid,"
+- "Abandoning a project that you've invested a lot in feels like you've wasted everything,
+and waste is something we're told to avoid,"
 
-- "It's natural not to want to let go of what we wasted on a bad choice, but when we don't, we doom ourselves to keep wasting even more."
+- "It's natural not to want to let go of what we wasted on a bad choice, but when we
+don't, we doom ourselves to keep wasting even more."
 
-- "Instead of trying to budget your time on the basis of existing commitments, assume that all bets are off. All previous commitments are gone. Then begin from scratch, asking which you would add today."
+- "Instead of trying to budget your time on the basis of existing commitments, assume that
+all bets are off. All previous commitments are gone. Then begin from scratch, asking which
+you would add today."
 
-- "In a reverse pilot you test whether removing an initiative or activity will have any negative consequences."
+- "In a reverse pilot you test whether removing an initiative or activity will have any
+negative consequences."
 
-- "In other words, a good film editor makes it hard not to see what's important because she eliminates everything but the elements that absolutely need to be there."
+- "In other words, a good film editor makes it hard not to see what's important because
+she eliminates everything but the elements that absolutely need to be there."
 
 - "It's true that doing less can be harder, both in art and in life."
 
-- "The best surgeon is not the one who makes the most incisions; similarly, the best editors can sometimes be the least intrusive, the most restrained."
+- "The best surgeon is not the one who makes the most incisions; similarly, the best
+editors can sometimes be the least intrusive, the most restrained."
 
 - "No is a complete sentence."
 
-- "But what most people don't realize is that the problem is not just that the boundaries have been blurred; it's that the boundary of work has edged insidiously into family territory. It is hard to imagine executives in most companies who would be comfortable with employees bringing their children to work on Monday morning, yet they seem to have no problem expecting their employees to come into the office or to work on a project on a Saturday or Sunday."
-- "Boundaries are a little like the walls of a sandcastle. The second we let one fall over, the rest of them come crashing down."
+- "But what most people don't realize is that the problem is not just that the boundaries
+have been blurred; it's that the boundary of work has edged insidiously into family
+territory. It is hard to imagine executives in most companies who would be comfortable
+with employees bringing their children to work on Monday morning, yet they seem to have no
+problem expecting their employees to come into the office or to work on a project on a
+Saturday or Sunday."
+- "Boundaries are a little like the walls of a sandcastle. The second we let one fall
+over, the rest of them come crashing down."
 
-- "Remember, forcing these people to solve their own problems is equally beneficial for you and for them."
+- "Remember, forcing these people to solve their own problems is equally beneficial for
+you and for them."
 
-- "When we don't set clear boundaries in our lives we can end up imprisoned by the limits others have set for us."
+- "When we don't set clear boundaries in our lives we can end up imprisoned by the limits
+others have set for us."
 
-- "The only thing we can expect (with any great certainty) is the unexpected. Therefore, we can either wait for the moment and react to it or we can prepare. We can create a buffer."
+- "The only thing we can expect (with any great certainty) is the unexpected. Therefore,
+we can either wait for the moment and react to it or we can prepare. We can create a
+buffer."
 
-- "Instead of trying to improve every aspect of the facility he needs to identify the "Herbie": the part of the process that is slower relative to every other part of the plant"
+- "Instead of trying to improve every aspect of the facility he needs to identify the
+"Herbie": the part of the process that is slower relative to every other part of the
+plant"
 
-- "Being good with a hammer, the Nonessentialist thinks everything is a nail. Thus he applies more and more pressure, but this ends up only adding more friction and frustration. Indeed, in some situations the harder you push on someone the harder he or she will push back."
+- "Being good with a hammer, the Nonessentialist thinks everything is a nail. Thus he
+applies more and more pressure, but this ends up only adding more friction and
+frustration. Indeed, in some situations the harder you push on someone the harder he or
+she will push back."
 
 - "When we don't know what we're really trying to achieve, all change is arbitrary."
 
-- "Removing obstacles does not have to be hard or take a superhuman effort. Instead, we can start small. It's kind of like dislodging a boulder at the top of a hill. All it takes is a small shove, then momentum will naturally build."
+- "Removing obstacles does not have to be hard or take a superhuman effort. Instead, we
+can start small. It's kind of like dislodging a boulder at the top of a hill. All it takes
+is a small shove, then momentum will naturally build."
 
-- "Each time a young person was recognized and commended for doing something good, he or she was that much more motivated to continue doing good until, eventually, doing good became natural and effortless."
+- "Each time a young person was recognized and commended for doing something good, he or
+she was that much more motivated to continue doing good until, eventually, doing good
+became natural and effortless."
 
 - "of all forms of human motivation the most effective one is progress."
 
-- "It is the process Pixar uses on their movies. Instead of starting with a script, they start with storyboards—or what have been described as the comic book version of a movie. They try ideas out and see what works. They do this in small cycles hundreds of times. Then they put out a movie to small groups of people to give them advance feedback."
+- "It is the process Pixar uses on their movies. Instead of starting with a script, they
+start with storyboards—or what have been described as the comic book version of a movie.
+They try ideas out and see what works. They do this in small cycles hundreds of times.
+Then they put out a movie to small groups of people to give them advance feedback."
 
 - "We don't actually finish our films, we release them."
 
 - "Routine, in an intelligent man, is a sign of ambition."
 
-- "This power of a routine grows out of our brain's ability to take over entirely until the process becomes fully unconscious."
+- "This power of a routine grows out of our brain's ability to take over entirely until
+the process becomes fully unconscious."
 
-- "There is a difference between losing and being beaten. Being beaten means they are better than you. They are faster, stronger, and more talented." To Larry, losing means something else. It means you lost focus. It means you didn't concentrate on what was essential."
+- "There is a difference between losing and being beaten. Being beaten means they are
+better than you. They are faster, stronger, and more talented." To Larry, losing means
+something else. It means you lost focus. It means you didn't concentrate on what was
+essential."
 
-- "Multitasking itself is not the enemy of Essentialism; pretending we can "multifocus" is."
+- "Multitasking itself is not the enemy of Essentialism; pretending we can "multifocus"
+is."
 
-- "Suppose you are drinking a cup of tea. When you hold your cup, you may like to breathe in, to bring your mind back to your body, and you become fully present. And when you are truly there, something else is also there—life, represented by the cup of tea. In that moment you are real, and the cup of tea is real. You are not lost in the past, in the future, in your projects, in your worries. You are free from all of these afflictions. And in that state of being free, you enjoy your tea. That is the moment of happiness, and of peace." Pay attention through the day"
+- "Suppose you are drinking a cup of tea. When you hold your cup, you may like to breathe
+in, to bring your mind back to your body, and you become fully present. And when you are
+truly there, something else is also there—life, represented by the cup of tea. In that
+moment you are real, and the cup of tea is real. You are not lost in the past, in the
+future, in your projects, in your worries. You are free from all of these afflictions. And
+in that state of being free, you enjoy your tea. That is the moment of happiness, and of
+peace." Pay attention through the day"
 
 - "Beware the barrenness of a busy life."
 
-- "Every choice we make to pursue the essential and eliminate the nonessential builds on itself, making that choice more and more habitual until it becomes virtually second nature."
+- "Every choice we make to pursue the essential and eliminate the nonessential builds on
+itself, making that choice more and more habitual until it becomes virtually second
+nature."
 
-- "I continue to discover almost daily that I can do less and less—in order to contribute more."
+- "I continue to discover almost daily that I can do less and less—in order to contribute
+more."
 
-- "If one's life is simple, contentment has to come. Simplicity is extremely important for happiness."
+- "If one's life is simple, contentment has to come. Simplicity is extremely important for
+happiness."
 
-- "The course of history is determined not by battles, by sieges, or usurpations, but by the actions of the individual. The strongest city, the largest army is, at its most basic level, a collection of individuals. Their decisions, their passions, their foolishness, and their dreams shape the years to come. If there is any lesson to be learned from history, it is that all too often the fate of armies, of cities, of entire realms rests upon the actions of one person. In that dire moment of uncertainty, that person's decision, good or bad, right or wrong, big or small, can unwittingly change the world. But history can be quite the slattern. One never knows who that person is, where he might be, or what decision he might make. It is almost enough to make me believe in Destiny."
+- "The course of history is determined not by battles, by sieges, or usurpations, but by
+the actions of the individual. The strongest city, the largest army is, at its most basic
+level, a collection of individuals. Their decisions, their passions, their foolishness,
+and their dreams shape the years to come. If there is any lesson to be learned from
+history, it is that all too often the fate of armies, of cities, of entire realms rests
+upon the actions of one person. In that dire moment of uncertainty, that person's
+decision, good or bad, right or wrong, big or small, can unwittingly change the world. But
+history can be quite the slattern. One never knows who that person is, where he might be,
+or what decision he might make. It is almost enough to make me believe in Destiny."
 
 - "I think men who lust for power are capable of almost anything."
 
-- "When you reach my age, Amara, people show themselves to you very clearly. They write their intentions and beliefs through their actions, their lies."
+- "When you reach my age, Amara, people show themselves to you very clearly. They write
+their intentions and beliefs through their actions, their lies."
 
-- "But the power to shake mountains does little good if the knife is already buried in one's throat"
+- "But the power to shake mountains does little good if the knife is already buried in
+one's throat"
 
-- "There are some people who will never understand what loyalty means. They could tell you what it was, of course, but they will never know. They will never see it from the inside. They couldn't imagine a world where something like that was real."
+- "There are some people who will never understand what loyalty means. They could tell you
+what it was, of course, but they will never know. They will never see it from the inside.
+They couldn't imagine a world where something like that was real."
 
-- "Courage." Tavi sighed. "As near as I can figure it, all courage gets you is more of a beating than if you'd run away."
+- "Courage." Tavi sighed. "As near as I can figure it, all courage gets you is more of a
+beating than if you'd run away."
 
-- "There's two kinds of bad men in the world. I mean, there's all kinds of ways for a man to go bad, but when you get right down to it, there's only about two kinds of men who will hurt others with forethought. Premeditation. Men that don't figure there's anyone else alive who matters but them. And men who figure that there's something that matters more than anyone's life. Even their own." He shook his head. "First one is common enough. Petty, small. They're everywhere. People who just don't give a scorched crow about anyone else. Mostly, the bad they do doesn't amount to much. "The second kind is like your patriserus. People who hold something dear above their own lives, above anyone else's. They'll fight to protect it and kill to protect it, and the whole time they'll be thinking to themselves that it has to be done. That it's the right thing to do." Bernard glanced up at her and said, "Dangerous those. Very dangerous."
+- "There's two kinds of bad men in the world. I mean, there's all kinds of ways for a man
+to go bad, but when you get right down to it, there's only about two kinds of men who will
+hurt others with forethought. Premeditation. Men that don't figure there's anyone else
+alive who matters but them. And men who figure that there's something that matters more
+than anyone's life. Even their own." He shook his head. "First one is common enough.
+Petty, small. They're everywhere. People who just don't give a scorched crow about anyone
+else. Mostly, the bad they do doesn't amount to much. "The second kind is like your
+patriserus. People who hold something dear above their own lives, above anyone else's.
+They'll fight to protect it and kill to protect it, and the whole time they'll be thinking
+to themselves that it has to be done. That it's the right thing to do." Bernard glanced up
+at her and said, "Dangerous those. Very dangerous."
 
-- "Sometimes," Bernard rumbled, "the only smart thing to do is nothing. Sometimes you just have to be still and see how events begin to unfold before you move. Be patient."
+- "Sometimes," Bernard rumbled, "the only smart thing to do is nothing. Sometimes you just
+have to be still and see how events begin to unfold before you move. Be patient."
 
-- "If the beginning of wisdom is in realizing that one knows nothing, then the beginning of understanding is in realizing that all things exist in accord with a single truth: large things are made of smaller things. Drops of ink are shaped into letters, letters form words, words form sentences, and sentences combine to express thought. So it is with the growth of plants that spring from seeds, as well as with walls built of many stones. So it is with mankind, as the customs and traditions of our progenitors blend together to form the foundation for our own cities, history, and way of life. Be they dead stone, living flesh, or rolling sea; be they idle times or events of world-shattering proportion, market days, or desperate battles, to this law, all things hold: Large things are made from small things. Significance is cumulative—but not always obvious."
+- "If the beginning of wisdom is in realizing that one knows nothing, then the beginning
+of understanding is in realizing that all things exist in accord with a single truth:
+large things are made of smaller things. Drops of ink are shaped into letters, letters
+form words, words form sentences, and sentences combine to express thought. So it is with
+the growth of plants that spring from seeds, as well as with walls built of many stones.
+So it is with mankind, as the customs and traditions of our progenitors blend together to
+form the foundation for our own cities, history, and way of life. Be they dead stone,
+living flesh, or rolling sea; be they idle times or events of world-shattering proportion,
+market days, or desperate battles, to this law, all things hold: Large things are made
+from small things. Significance is cumulative—but not always obvious."
 
 - "Don't struggle to heal your wounds. Just pour time into your heart and wait"
 
-- "If you've been unable to change a bad situation, even after many attempts, you should change how you look at the situation"
+- "If you've been unable to change a bad situation, even after many attempts, you should
+change how you look at the situation"
 
-- "Awareness is inherently pure, like the open sky. Stress, irritation, and anger can temporarily cloud the sky, but they can never pollute it."
+- "Awareness is inherently pure, like the open sky. Stress, irritation, and anger can
+temporarily cloud the sky, but they can never pollute it."
 
 - "Having critics means what you're doing is getting people's attention"
 
-- "To be happy, it's not necessary to expend great effort so we get somewhere else. Instead, relax into the present moment while finding humor in your life. With humor, life becomes light and leisurely. And laughter always brings people to experience openness and joy"
+- "To be happy, it's not necessary to expend great effort so we get somewhere else.
+Instead, relax into the present moment while finding humor in your life. With humor, life
+becomes light and leisurely. And laughter always brings people to experience openness and
+joy"
 
 - "Humor opens closed hearts."
 
-- "as frequently as you can as a family. Although we see our family every day, we don't really get to be with"
+- "as frequently as you can as a family. Although we see our family every day, we don't
+really get to be with"
 
-- "Although we see our family every day, we don't really get to be with one another. A change in environment can do wonders and can bring families closer. A good family trip can prevent divorce. What makes music beautiful is the distance between one note and another. What makes speech eloquent is the appropriate pause between words. From time to time we should take a breath and notice the silence between sounds. When you have to make an important decision,"
+- "Although we see our family every day, we don't really get to be with one another. A
+change in environment can do wonders and can bring families closer. A good family trip can
+prevent divorce. What makes music beautiful is the distance between one note and another.
+What makes speech eloquent is the appropriate pause between words. From time to time we
+should take a breath and notice the silence between sounds. When you have to make an
+important decision,"
 
-- "The world will keep turning even without you. Let go of the idea that your way is the only way, that you are the only one who can make it happen"
+- "The world will keep turning even without you. Let go of the idea that your way is the
+only way, that you are the only one who can make it happen"
 
-- "Therefore, much like a mirror reflects what is before it without judgment or identification with the image, simply reflect the negative emotion—let's say it's anger—and watch dispassionately. You will see the anger slowly changing shape, either revealing a deeper layer of emotion or disappearing on its own. If another layer of emotion is revealing itself, attend to it the way you did with your anger."
+- "Therefore, much like a mirror reflects what is before it without judgment or
+identification with the image, simply reflect the negative emotion—let's say it's
+anger—and watch dispassionately. You will see the anger slowly changing shape, either
+revealing a deeper layer of emotion or disappearing on its own. If another layer of
+emotion is revealing itself, attend to it the way you did with your anger."
 
-- "pure attention without judgment is not only the highest form of human intelligence, but also the expression of love"
+- "pure attention without judgment is not only the highest form of human intelligence, but
+also the expression of love"
 
 - "No person can be found Who has been, is, or will be Only criticized Or only praised."
 
-- "When someone criticizes another, you might think he deserves it. But if you look more closely, you'll see that the critic is complaining because he did not get his way."
+- "When someone criticizes another, you might think he deserves it. But if you look more
+closely, you'll see that the critic is complaining because he did not get his way."
 
-- "As we resist, we are in constant motion trying to adjust, and yet we still remain unhappy about what is"
+- "As we resist, we are in constant motion trying to adjust, and yet we still remain
+unhappy about what is"
 
-- "When you cannot control even your own mind, what makes you think you can control others?"
+- "When you cannot control even your own mind, what makes you think you can control
+others?"
 
-- "Whether it is an object, a thought, or a feeling, if it has emerged out of emptiness, it will soon change its form and eventually retreat back to emptiness. Seekers in search of the eternal Truth must look beyond its impermanent nature and become aware of "that" which knows impermanence"
+- "Whether it is an object, a thought, or a feeling, if it has emerged out of emptiness,
+it will soon change its form and eventually retreat back to emptiness. Seekers in search
+of the eternal Truth must look beyond its impermanent nature and become aware of "that"
+which knows impermanence"
 
-- "Spirituality must be practiced not just in solitude but also among people. Open up to people around you and feel connected. This is the true challenge of spiritual practice."
+- "Spirituality must be practiced not just in solitude but also among people. Open up to
+people around you and feel connected. This is the true challenge of spiritual practice."
 
-- "Feelings are often born from a matrix of conditions beyond your control. Just like you can't control the weather, or your boss's mood, you can't control the feelings in your body. They are just passing through, like clouds in the sky. They, too, dissipate on their own. But if you take them too seriously and start internalizing them as part of your identity, then you will resuscitate them every time you think about the past. Remember that you are neither your feelings nor the story your mind tells about you to make sense of them. You are the vast silence that knows of their emergence and their disappearance"
+- "Feelings are often born from a matrix of conditions beyond your control. Just like you
+can't control the weather, or your boss's mood, you can't control the feelings in your
+body. They are just passing through, like clouds in the sky. They, too, dissipate on their
+own. But if you take them too seriously and start internalizing them as part of your
+identity, then you will resuscitate them every time you think about the past. Remember
+that you are neither your feelings nor the story your mind tells about you to make sense
+of them. You are the vast silence that knows of their emergence and their disappearance"
 
-- "Of all the words that pour out of our mouths every day, how many are really ours, and how many are borrowed from others?"
+- "Of all the words that pour out of our mouths every day, how many are really ours, and
+how many are borrowed from others?"
 
-- "Everything in this universe is evanescent. Because it is evanescent, it is also precious. Spend this precious moment wisely and beautifully. The mind cannot have two thoughts at once. See if you can think two thoughts at exactly the same time. Well? Is it possible? We can be consumed by anger for a long time without realizing we have been angry. Similarly, we are easily lost in thought without knowing we have been thinking. Even when we are awake we are no different from a sleepwalker. We do things without the awareness of doing them. Just because our eyes are open does not mean we are awake. Being awake means that"
+- "Everything in this universe is evanescent. Because it is evanescent, it is also
+precious. Spend this precious moment wisely and beautifully. The mind cannot have two
+thoughts at once. See if you can think two thoughts at exactly the same time. Well? Is it
+possible? We can be consumed by anger for a long time without realizing we have been
+angry. Similarly, we are easily lost in thought without knowing we have been thinking.
+Even when we are awake we are no different from a sleepwalker. We do things without the
+awareness of doing them. Just because our eyes are open does not mean we are awake. Being
+awake means that"
 
-- "When I gaze upon water, I become water. When I look at a flower, I become the flower. The flower riding on the water, yippee!"
+- "When I gaze upon water, I become water. When I look at a flower, I become the flower.
+The flower riding on the water, yippee!"
 
-- "A long time ago, there was only one mind, which became bored by being alone for so long. So it decided to split into two. But since the two knew they were originally one, playing together was not much fun— as if playing both sides of a chess game. So the two minds agreed to forget where they came from; they pretended not to know each other. As time passed, they also forgot about their agreement. They forgot they were actually one and the same. This is the condition of our existence. We forget that we are originally from one mind."
+- "A long time ago, there was only one mind, which became bored by being alone for so
+long. So it decided to split into two. But since the two knew they were originally one,
+playing together was not much fun— as if playing both sides of a chess game. So the two
+minds agreed to forget where they came from; they pretended not to know each other. As
+time passed, they also forgot about their agreement. They forgot they were actually one
+and the same. This is the condition of our existence. We forget that we are originally
+from one mind."
 
-- "Life is like theater. You are assigned a role. If you don't like the role, keep in mind that you have the power to re-create the role you want"
+- "Life is like theater. You are assigned a role. If you don't like the role, keep in mind
+that you have the power to re-create the role you want"
 
-- "something I should have known all along. When we're first given a job, especially one we've been working toward for a long time, it's easy to become overly enthusiastic, as we are eager to prove ourselves. But in our excitement, we make the mistake of equating our own eagerness with effectiveness"
+- "something I should have known all along. When we're first given a job, especially one
+we've been working toward for a long time, it's easy to become overly enthusiastic, as we
+are eager to prove ourselves. But in our excitement, we make the mistake of equating our
+own eagerness with effectiveness"
 
-- "When we're first given a job, especially one we've been working toward for a long time, it's easy to become overly enthusiastic, as we are eager to prove ourselves. But in our excitement, we make the mistake of equating our own eagerness with effectiveness. Getting the job done well is more important than one's feelings of doing a good job. It takes wisdom to discern that these two are not always related. In some cases, one's zealous efforts can get in the way of achieving the desired outcome, especially if one is unable to see the needs of the others working toward it together"
+- "When we're first given a job, especially one we've been working toward for a long time,
+it's easy to become overly enthusiastic, as we are eager to prove ourselves. But in our
+excitement, we make the mistake of equating our own eagerness with effectiveness. Getting
+the job done well is more important than one's feelings of doing a good job. It takes
+wisdom to discern that these two are not always related. In some cases, one's zealous
+efforts can get in the way of achieving the desired outcome, especially if one is unable
+to see the needs of the others working toward it together"
 
 - "The world notices your efforts more quickly than you think"
 
-- "It is important that you work hard, but don't be enamored of the feeling of working hard. If you are drunk on that feeling, then you care less about the actual work than about how you appear to others to be working hard."
+- "It is important that you work hard, but don't be enamored of the feeling of working
+hard. If you are drunk on that feeling, then you care less about the actual work than
+about how you appear to others to be working hard."
 
 - "A person does not live the way he says he would. He lives the way he has been living"
 
 - "A vow to help others can summon immense energy from within."
 
-- "When you are making a decision, try to assess how many people it will benefit. If it satisfies only your ego and unnecessarily hurts many, then it is the wrong decision"
+- "When you are making a decision, try to assess how many people it will benefit. If it
+satisfies only your ego and unnecessarily hurts many, then it is the wrong decision"
 
 - "Isn't it better to be happy together than to be right alone?"
 
-- "One lesson of maturity is that we should not take our thoughts too seriously, and must learn to curb our ego and see the bigger picture."
+- "One lesson of maturity is that we should not take our thoughts too seriously, and must
+learn to curb our ego and see the bigger picture."
 
 - "Criticism without a solution is merely an inflation of the critic's ego."
 
@@ -15668,296 +16108,568 @@ us"
 
 - "Don't try to make it perfect. Instead, make it interesting!"
 
-- "After mastering eighteen levels of kung fu, you can hurt someone with the flick of a finger. But if you go on to master all thirty-six levels, you choose to retreat when the weak foolishly come to fight"
+- "After mastering eighteen levels of kung fu, you can hurt someone with the flick of a
+finger. But if you go on to master all thirty-six levels, you choose to retreat when the
+weak foolishly come to fight"
 
-- "From this experience I realized that the art of maintaining a good relationship can be compared to sitting by a fireplace. If we sit too close for too long, we become hot and possibly burned. If we sit too far away, we cannot feel the warmth. Similarly, no matter how well we get along with someone, if we stick too close without building in some personal space, we soon feel trapped and burned out; it is easy to take the relationship for granted and feel resentful about not having enough privacy and independence. On the other hand, if we put in too little effort to stay in touch with friends and family, we can't feel the warmth of their love. Striking a balance is key"
+- "From this experience I realized that the art of maintaining a good relationship can be
+compared to sitting by a fireplace. If we sit too close for too long, we become hot and
+possibly burned. If we sit too far away, we cannot feel the warmth. Similarly, no matter
+how well we get along with someone, if we stick too close without building in some
+personal space, we soon feel trapped and burned out; it is easy to take the relationship
+for granted and feel resentful about not having enough privacy and independence. On the
+other hand, if we put in too little effort to stay in touch with friends and family, we
+can't feel the warmth of their love. Striking a balance is key"
 
-- "cup was full. Perplexed, Maeng demanded to know what he was doing. "You seem to know that too much tea will ruin the floor," the master answered, "but how do you not know that too much knowledge will ruin one's character?"
+- "cup was full. Perplexed, Maeng demanded to know what he was doing. "You seem to know
+that too much tea will ruin the floor," the master answered, "but how do you not know that
+too much knowledge will ruin one's character?"
 
 - "If you lower your head, you won't bump into trouble."
 
-- "Do not expect others to follow your way. When things always go your way, it is easy to become arrogant."
+- "Do not expect others to follow your way. When things always go your way, it is easy to
+become arrogant."
 
-- "The end of a sushi roll, with the filling sticking out, is often tastier than a piece sliced neatly from the middle. Someone slick and well-put-together can come across as cold and alienating, while an average guy without pretense is more genuine and attractive"
+- "The end of a sushi roll, with the filling sticking out, is often tastier than a piece
+sliced neatly from the middle. Someone slick and well-put-together can come across as cold
+and alienating, while an average guy without pretense is more genuine and attractive"
 
 - "People say hurtful things because they themselves have been hurt."
 
-- "If you wish to communicate effectively with others, better to describe what you are feeling rather than go on the offensive. For instance, say, "I am very sad to hear that," not, "Why do you always make me sad?"
-
-- "When you criticize someone, see if you are doing so out of envy. Your criticism reveals more about yourself than you realize. Even if you are correct, people still may find you unappealing. If you wish to communicate effectively with others, better to describe what you are feeling rather than go on the offensive. For instance, say, "I am very sad to hear that," not, "Why do you always make me sad?" You"
+- "When you criticize someone, see if you are doing so out of envy. Your criticism reveals
+more about yourself than you realize. Even if you are correct, people still may find you
+unappealing. If you wish to communicate effectively with others, better to describe what
+you are feeling rather than go on the offensive. For instance, say, "I am very sad to hear
+that," not, "Why do you always make me sad?" 
 
 - "You want people to hear you rather than have to defend themselves from you"
 
-- "When blinded by anger, we make choices we later regret. Leaving the room before the bridge is burned is a sign of maturity"
+- "When blinded by anger, we make choices we later regret. Leaving the room before the
+bridge is burned is a sign of maturity"
 
 - "The best revenge is love"
 
-- "Paper wrapped around incense smells of incense, and string binding fish smells of fish."
+- "Paper wrapped around incense smells of incense, and string binding fish smells of
+fish."
 
-- "The best way to hide your wealth is to give it away. If you are generous with your wealth, the money that would have disappeared sooner or later"
+- "The best way to hide your wealth is to give it away. If you are generous with your
+wealth, the money that would have disappeared sooner or later"
 
-- "Whether we like it or not, we are all connected, and it is unthinkable to be happy all by oneself."
+- "Whether we like it or not, we are all connected, and it is unthinkable to be happy all
+by oneself."
 
-- "Inside of us there is a steep mountain of fear and a deep river of grief. But there is also the compassionate eye witnessing your inner landscape. May you find your inner witness, the source of freedom and healing."
+- "Inside of us there is a steep mountain of fear and a deep river of grief. But there is
+also the compassionate eye witnessing your inner landscape. May you find your inner
+witness, the source of freedom and healing."
 
 - "Does the person you hate deserve to be carried around in your heart?"
 
 - "Humans are like mirrors: We reflect each other."
 
-- "When you lower yourself, the world elevates you. When you elevate yourself, the world lowers you"
+- "When you lower yourself, the world elevates you. When you elevate yourself, the world
+lowers you"
 
-- "When you keep clashing with someone, it may be the world's way of asking you to look closely at yourself. When you don't like someone, try to figure out what it is you don't like; see whether you have a similar flaw within yourself. The flaw that you immediately notice in someone you meet is probably a flaw of yours, too. If you didn't have it, you wouldn't have noticed it so quickly."
+- "When you keep clashing with someone, it may be the world's way of asking you to look
+closely at yourself. When you don't like someone, try to figure out what it is you don't
+like; see whether you have a similar flaw within yourself. The flaw that you immediately
+notice in someone you meet is probably a flaw of yours, too. If you didn't have it, you
+wouldn't have noticed it so quickly."
 
-- "For spiritual practitioners, relationships are the final test. Even if you have awakened to your enlightened nature, there is still further to go in your spiritual journey if you're not living harmoniously with others"
+- "For spiritual practitioners, relationships are the final test. Even if you have
+awakened to your enlightened nature, there is still further to go in your spiritual
+journey if you're not living harmoniously with others"
 
-- "Demonstrations of love are small, compared with the great thing that is hidden behind them"
+- "Demonstrations of love are small, compared with the great thing that is hidden behind
+them"
 
-- "Love is like an uninvited guest. Love will come when it wants to. Love will leave when you ask more of it"
+- "Love is like an uninvited guest. Love will come when it wants to. Love will leave when
+you ask more of it"
 
-- "If you look for love, in pursuit of what it can give you, it will hide itself. If you ask love to arrive because you are now ready, it will skip your door. Love is like an uninvited guest. Love will come when it wants to. Love will leave when you ask more of it. If you attempt to find a love that meets certain criteria, your new love may also make certain demands of you. Drop your demands quickly when love knocks on your door. Love is warm and freeing. It is innocent, like a child without a hidden agenda. We"
+- "If you look for love, in pursuit of what it can give you, it will hide itself. If you
+ask love to arrive because you are now ready, it will skip your door. Love is like an
+uninvited guest. Love will come when it wants to. Love will leave when you ask more of it.
+If you attempt to find a love that meets certain criteria, your new love may also make
+certain demands of you. Drop your demands quickly when love knocks on your door. Love is
+warm and freeing. It is innocent, like a child without a hidden agenda. We"
 
-- "We can determine how close we are to someone by asking, "Can I act like a little kid in front of that person?" When we love someone, we feel like a little kid in our heart"
+- "We can determine how close we are to someone by asking, "Can I act like a little kid in
+front of that person?" When we love someone, we feel like a little kid in our heart"
 
-- "Why can't I give her a gift and tell her I love her?" Your words and gifts will mean more to her when she is ready. Love her, not your feelings."
+- "Why can't I give her a gift and tell her I love her?" Your words and gifts will mean
+more to her when she is ready. Love her, not your feelings."
 
-- "Love needs to be balanced. If you like him more than he likes you, give him time and space to catch up. It is important to hold back your emotions when your feelings are not in balance with his."
+- "Love needs to be balanced. If you like him more than he likes you, give him time and
+space to catch up. It is important to hold back your emotions when your feelings are not
+in balance with his."
 
-- "I want you to know that I love your ordinariness, because I, too, am ordinary. The truth is, we are all ordinary"
+- "I want you to know that I love your ordinariness, because I, too, am ordinary. The
+truth is, we are all ordinary"
 
-- "No matter how famous or beautiful one is, no matter how much money or power one has, no matter how many wonderful accomplishments one has had, we all have our share of setbacks, heartbreak, and loss. We have to face challenges we have no control over. Loneliness and the fear of death will accompany us to our final days. Everyone is on the same treacherous journey of life's tainted glory."
+- "No matter how famous or beautiful one is, no matter how much money or power one has, no
+matter how many wonderful accomplishments one has had, we all have our share of setbacks,
+heartbreak, and loss. We have to face challenges we have no control over. Loneliness and
+the fear of death will accompany us to our final days. Everyone is on the same treacherous
+journey of life's tainted glory."
 
-- "When we are in love, we like to do nice things for the one we love. But it is equally important to refrain from doing unnecessary things. We often overlook that part"
+- "When we are in love, we like to do nice things for the one we love. But it is equally
+important to refrain from doing unnecessary things. We often overlook that part"
 
-- "We like to get involved in other people's business, thinking we are doing so for them. We offer unsolicited help and interfere with their lives. We take away their power and make them feel incapable. This stems from our desire for control and recognition. It has little to do with love"
+- "We like to get involved in other people's business, thinking we are doing so for them.
+We offer unsolicited help and interfere with their lives. We take away their power and
+make them feel incapable. This stems from our desire for control and recognition. It has
+little to do with love"
 
-- "Moreover, when I meet someone new, do I make an effort to see who he is beneath his social markers? Or am I reducing people to their background and failing to see who they really are? I am reminded again that anyone, including those young boys, can be our spiritual teacher if we are willing to open our hearts to them."
+- "Moreover, when I meet someone new, do I make an effort to see who he is beneath his
+social markers? Or am I reducing people to their background and failing to see who they
+really are? I am reminded again that anyone, including those young boys, can be our
+spiritual teacher if we are willing to open our hearts to them."
 
-- "Life is like a slice of pizza. It looks delicious in an advertisement, but when we actually have it, it is not as good as we imagined. If you envy someone's life, remember the pizza in the ad. It always looks better than it is."
+- "Life is like a slice of pizza. It looks delicious in an advertisement, but when we
+actually have it, it is not as good as we imagined. If you envy someone's life, remember
+the pizza in the ad. It always looks better than it is."
 
-- "Always go with your first choice if you can afford it. It is better than a life filled with regrets."
+- "Always go with your first choice if you can afford it. It is better than a life filled
+with regrets."
 
-- "It makes sense that Scandinavia should be famous for furniture design, since people in a cold climate spend more time inside their homes. Similarly, Italy is renowned for designer apparel; it makes sense that people in a warm climate should pay more attention to how they appear outdoors. Where you live shapes you. Do you live in a place conducive to the pursuit of your dreams"
+- "It makes sense that Scandinavia should be famous for furniture design, since people in
+a cold climate spend more time inside their homes. Similarly, Italy is renowned for
+designer apparel; it makes sense that people in a warm climate should pay more attention
+to how they appear outdoors. Where you live shapes you. Do you live in a place conducive
+to the pursuit of your dreams"
 
-- "The biggest obstacle to learning is pretending to know even when you don't. It is better to admit you don't know something; if you pretend, you have to act as if you knew all along. It is easier to learn when you set aside your pride and are honest. The compassionate gaze of the wounded soul is"
+- "The biggest obstacle to learning is pretending to know even when you don't. It is
+better to admit you don't know something; if you pretend, you have to act as if you knew
+all along. It is easier to learn when you set aside your pride and are honest. The
+compassionate gaze of the wounded soul is"
 
-- "if we are brutally honest with ourselves, most things we do for others are in fact for ourselves. We pray for the well-being of our family because we need them to be around. We shed tears when our partner dies because of the impending loneliness. We sacrifice for our children in the hope that they will grow up the way we want. Unless we become enlightened like the Buddha or Jesus, it is difficult to abandon our deeprooted preoccupation with ourselves."
+- "if we are brutally honest with ourselves, most things we do for others are in fact for
+ourselves. We pray for the well-being of our family because we need them to be around. We
+shed tears when our partner dies because of the impending loneliness. We sacrifice for our
+children in the hope that they will grow up the way we want. Unless we become enlightened
+like the Buddha or Jesus, it is difficult to abandon our deeprooted preoccupation with
+ourselves."
 
-- "Stop worrying about what others think and just do what your heart wishes. Do not crowd your mind with "what ifs." Uncomplicate your life and own up to your desires. Only when you are happy can you help to make the world a happier place"
+- "Stop worrying about what others think and just do what your heart wishes. Do not crowd
+your mind with "what ifs." Uncomplicate your life and own up to your desires. Only when
+you are happy can you help to make the world a happier place"
 
-- "A majestic tree is the first to be cut down and used for lumber, whereas a modest one lives on. Likewise, a real master conceals his virtue and never boasts of his excellence"
+- "A majestic tree is the first to be cut down and used for lumber, whereas a modest one
+lives on. Likewise, a real master conceals his virtue and never boasts of his excellence"
 
-- "If someone shares his problems with you, don't feel the need to have the solutions. Just listen sincerely. This is often more helpful."
+- "If someone shares his problems with you, don't feel the need to have the solutions.
+Just listen sincerely. This is often more helpful."
 
-- "A foolish person thinks, "I already know that." He keeps anything new from coming into his mind. A wise person thinks, "I don't know the whole story." She opens herself up to even greater wisdom. An ordinary person mainly notices particular things he likes or dislikes. A wise person notices both the whole and the particulars. When you share your problems with your friends, you do not expect them to have the solutions. You are just grateful they are there for you and willing to listen. If someone shares his problems with you, don't feel the need to have the solutions. Just listen sincerely. This is often more helpful. When"
+- "A foolish person thinks, "I already know that." He keeps anything new from coming into
+his mind. A wise person thinks, "I don't know the whole story." She opens herself up to
+even greater wisdom. An ordinary person mainly notices particular things he likes or
+dislikes. A wise person notices both the whole and the particulars. When you share your
+problems with your friends, you do not expect them to have the solutions. You are just
+grateful they are there for you and willing to listen. If someone shares his problems with
+you, don't feel the need to have the solutions. Just listen sincerely. This is often more
+helpful. When"
 
-- "When you share your problems with your friends, you do not expect them to have the solutions. You are just grateful they are there for you and willing to listen. If someone shares his problems with you, don't feel the need to have the solutions. Just listen sincerely. This is often more helpful. When I look deeply within myself, I realize what it is that I really want from others: attentive ears that listen to what I am saying, kind words that acknowledge my existence and worth, gentle eyes that accept my flaws and insecurities. I resolve to be that person for those around me"
+- "When you share your problems with your friends, you do not expect them to have the
+solutions. You are just grateful they are there for you and willing to listen. If someone
+shares his problems with you, don't feel the need to have the solutions. Just listen
+sincerely. This is often more helpful. When I look deeply within myself, I realize what it
+is that I really want from others: attentive ears that listen to what I am saying, kind
+words that acknowledge my existence and worth, gentle eyes that accept my flaws and
+insecurities. I resolve to be that person for those around me"
 
 - "When our greed is awakened, we are cheated"
 
 - "The reward for someone who works hard is more work."
 
-- "If we're quick to grant a favor, then people quickly forget their gratitude. If we grant a favor with several conditions, then people express immense gratitude"
+- "If we're quick to grant a favor, then people quickly forget their gratitude. If we
+grant a favor with several conditions, then people express immense gratitude"
 
-- "According to the Lotus Sutra, the Buddha makes the prophesy about his disciples because he has a supernatural ability to foresee when they would achieve the final stage of buddhahood. But I do not think they automatically attained enlightenment because they received the Buddha's prophesy; I think it had a lot to do with the Buddha's faith in them, which motivated them to work harder to accomplish what their teacher predicted. Like Ms. Lee's words to me, the Buddha's trusting words and his loving gaze transformed the lives of his five hundred disciples. One word of encouragement, said with kindness and hope, can change a person's future, the way it did for the five hundred disciples and for me"
+- "According to the Lotus Sutra, the Buddha makes the prophesy about his disciples because
+he has a supernatural ability to foresee when they would achieve the final stage of
+buddhahood. But I do not think they automatically attained enlightenment because they
+received the Buddha's prophesy; I think it had a lot to do with the Buddha's faith in
+them, which motivated them to work harder to accomplish what their teacher predicted. Like
+Ms. Lee's words to me, the Buddha's trusting words and his loving gaze transformed the
+lives of his five hundred disciples. One word of encouragement, said with kindness and
+hope, can change a person's future, the way it did for the five hundred disciples and for
+me"
 
-- "No matter how famous, powerful, or rich some people are, they are not very different from anyone else. We long for deep connection and unconditional acceptance. We have the same insecurities and need for approval. There is no reason to feel inferior"
+- "No matter how famous, powerful, or rich some people are, they are not very different
+from anyone else. We long for deep connection and unconditional acceptance. We have the
+same insecurities and need for approval. There is no reason to feel inferior"
 
-- "A restaurant specializing in a few good dishes is more likely to develop a good reputation than one with a lengthy menu."
+- "A restaurant specializing in a few good dishes is more likely to develop a good
+reputation than one with a lengthy menu."
 
-- "When it comes to learning a new skill, there are two kinds of people. One kind prefers to first study the typewriter, while the other starts by pounding on the keys. One kind likes to first master the grammar of a foreign language, while the other learns in the trenches, using body language if they must. Generally speaking, the second type tends to learn faster than the first, because the latter is not afraid of making mistakes. There is no such thing as being completely prepared. Life is an adventure, through which we learn and mature. Of course, we must consider all our options carefully. But if we wait for 100 percent certainty, then it is often too late."
+- "When it comes to learning a new skill, there are two kinds of people. One kind prefers
+to first study the typewriter, while the other starts by pounding on the keys. One kind
+likes to first master the grammar of a foreign language, while the other learns in the
+trenches, using body language if they must. Generally speaking, the second type tends to
+learn faster than the first, because the latter is not afraid of making mistakes. There is
+no such thing as being completely prepared. Life is an adventure, through which we learn
+and mature. Of course, we must consider all our options carefully. But if we wait for 100
+percent certainty, then it is often too late."
 
-- "The college you graduated from is not that important. The life you have chosen to live after college is."
+- "The college you graduated from is not that important. The life you have chosen to live
+after college is."
 
-- "When you look for a job, try to find out how long a company's employees stay at the company. This is more important than the size of the company or the salary offered. If people keep leaving, then that says a lot."
+- "When you look for a job, try to find out how long a company's employees stay at the
+company. This is more important than the size of the company or the salary offered. If
+people keep leaving, then that says a lot."
 
-- "Dedication to one's job should not be measured by how late one works or how often one forgoes a vacation but by how effectively one works and what kind of contribution one makes to the business."
+- "Dedication to one's job should not be measured by how late one works or how often one
+forgoes a vacation but by how effectively one works and what kind of contribution one
+makes to the business."
 
 - "The vaguest and least effective statement: "I will have whatever."
 
-- "Those who have not realized their True Self live like the blind, unintentionally scratching someone else's leg. If you would like to scratch your own leg, first awaken to your True Self."
+- "Those who have not realized their True Self live like the blind, unintentionally
+scratching someone else's leg. If you would like to scratch your own leg, first awaken to
+your True Self."
 
-- "Some may think that life in such a community is repressed, strict, and difficult, but that is not the case. A monastic life is characterized by simple beauty and unexpected joy. Monks find happiness in things that may seem trivial to those who pursue the material trappings of success. Watching the seasons change—the blossoming of the magnolias, the dazzling fall foliage, the first snowfall—brings indescribable joy and gratitude. A simple meal made with fresh ingredients from the nearby mountains is a source of great contentment. Because our monastic brothers are our friends, teachers, and family, we are never lonely"
+- "Some may think that life in such a community is repressed, strict, and difficult, but
+that is not the case. A monastic life is characterized by simple beauty and unexpected
+joy. Monks find happiness in things that may seem trivial to those who pursue the material
+trappings of success. Watching the seasons change—the blossoming of the magnolias, the
+dazzling fall foliage, the first snowfall—brings indescribable joy and gratitude. A simple
+meal made with fresh ingredients from the nearby mountains is a source of great
+contentment. Because our monastic brothers are our friends, teachers, and family, we are
+never lonely"
 
-- "If our faith can be shaken from merely learning about a different tradition, then that faith is not worth keeping"
+- "If our faith can be shaken from merely learning about a different tradition, then that
+faith is not worth keeping"
 
 - "when the essence is forgotten, ritual takes over."
 
 - "He who knows only one religion knows none."
 
-- "A spiritual leader is a finger pointing at the moon. If the finger attempts to become the moon, this can lead to a grave sin."
+- "A spiritual leader is a finger pointing at the moon. If the finger attempts to become
+the moon, this can lead to a grave sin."
 
-- "Above all, please understand that what makes you feel tense and awkward is not the spirituality itself but the pressure from your family to conform. You may resent their coerciveness and self-righteousness"
+- "Above all, please understand that what makes you feel tense and awkward is not the
+spirituality itself but the pressure from your family to conform. You may resent their
+coerciveness and self-righteousness. You may feel their spiritual path is strange and
+unorthodox."
 
-- "Above all, please understand that what makes you feel tense and awkward is not the spirituality itself but the pressure from your family to conform. You may resent their coerciveness and self-righteousness. You may feel their spiritual path is strange and unorthodox."
+- "In the beginning, our prayer takes the shape of, "Please grant me this, please grant me
+that," and then develops into, "Thank you for everything," and then matures into, "I want
+to resemble you." Eventually it transcends language"
 
-- "In the beginning, our prayer takes the shape of, "Please grant me this, please grant me that," and then develops into, "Thank you for everything," and then matures into, "I want to resemble you." Eventually it transcends language"
+- "then try to pray this way as well— "Enlarge my heart to hold and accept the things I
+cannot." Do not bargain with God, Buddha, or any divine being to give you what you want in
+exchange for material offerings. If you do not know how to solve a problem in your life,
+give prayer a try. As you bring your attention inward and sincerely seek an answer,
+something sacred within you unlocks the door of inner wisdom. If you are desperately
+looking to meet someone special, send your prayer out to the universe. The universe is an
+amazing matchmaker. Monastics can pray for many years because their prayers of happiness
+for others make them happy. As I prepare to officiate at my friend's wedding, I become
+joyous. For unenlightened people, not every day is a good day, because they feel happy
+only when things happen the way they want them to. For enlightened people, every single
+day is a good day, because they feel free knowing that nothing can take away their wisdom.
+When an unenlightened person does good, he tries to leave his mark. When an enlightened
+person does good, he leaves no marks. The holier a person is, the more likely it is that
+she describes herself as a sinner. This is because she doesn't lie to herself. "
 
-- "then try to pray this way as well— "Enlarge my heart to hold and accept the things I cannot." Do not bargain with God, Buddha, or any divine being to give you what you want in exchange for material offerings. If you do not know how to solve a problem in your life, give prayer a try. As you bring your attention inward and sincerely seek an answer, something sacred within you unlocks the door of inner wisdom. If you are desperately looking to meet someone special, send your prayer out to the universe. The universe is an amazing matchmaker. Monastics can pray for many years because their prayers of happiness for others make them happy. As I prepare to officiate at my friend's wedding, I become joyous. For unenlightened people, not every day is a good day, because they feel happy only when things happen the way they want them to. For enlightened people, every single day is a good day, because they feel free knowing that nothing can take away their wisdom. When an unenlightened person does good, he tries to leave his mark. When an enlightened person does good, he leaves no marks. The holier a person is, the more likely it is that she describes herself as a sinner. This is because she doesn't lie to herself. "
-
-- "The saints are what they are not because their sanctity makes them admirable to others but because the gift of sainthood makes it possible for them to admire everybody else."
+- "The saints are what they are not because their sanctity makes them admirable to others
+but because the gift of sainthood makes it possible for them to admire everybody else."
 
 - "Everything is impermanent, including the world's most comfortable posture."
 
-- "If you begin to believe what others say about you, they will begin to control you. Not everything that appears in your mind is true. Do not let someone else's opinion rule your life."
+- "If you begin to believe what others say about you, they will begin to control you. Not
+everything that appears in your mind is true. Do not let someone else's opinion rule your
+life."
 
 - "If children do not receive enough attention, psychological problems often emerge."
 
-- "If I like myself, it is easy for me to like people around me. But if I am unhappy with myself, it is easy to feel unhappy with those around me. May you become your own biggest fan!"
+- "If I like myself, it is easy for me to like people around me. But if I am unhappy with
+myself, it is easy to feel unhappy with those around me. May you become your own biggest
+fan!"
 
-- "The absurd is essentially a divorce. It lies in neither of the elements compared; it is born of their confrontation."
+- "The absurd is essentially a divorce. It lies in neither of the elements compared; it is
+born of their confrontation."
 
-- "neither the human nor the universe are necessarily absurd on their own, but rather, their relationship is absurd. As humans, we exist with an innate desire for meaning, reason, and order, but yet, we simultaneously exist in a universe that appears to lack all of the above. So far as we can tell, the universe is completely indifferent. Thus, what we want and expect from the universe is fundamentally in contradiction with what we get. In this conflict, the absurdity of the human experience is found."
+- "neither the human nor the universe are necessarily absurd on their own, but rather,
+their relationship is absurd. As humans, we exist with an innate desire for meaning,
+reason, and order, but yet, we simultaneously exist in a universe that appears to lack all
+of the above. So far as we can tell, the universe is completely indifferent. Thus, what we
+want and expect from the universe is fundamentally in contradiction with what we get. In
+this conflict, the absurdity of the human experience is found."
 
-- "Unlike anything else in the known universe, we are able to consciously observe, consider, reason, and act. As a result of our unique abilities, we ask ourselves why. We desperately try to find the answer. We get increasingly clever in our attempts, yet every time, just like the rock in The Myth of Sisyphus, at some point, we return to the bottom of the hill, leaving us to start anew."
+- "Unlike anything else in the known universe, we are able to consciously observe,
+consider, reason, and act. As a result of our unique abilities, we ask ourselves why. We
+desperately try to find the answer. We get increasingly clever in our attempts, yet every
+time, just like the rock in The Myth of Sisyphus, at some point, we return to the bottom
+of the hill, leaving us to start anew."
 
 - "The struggle itself towards the heights is enough to fill a man's heart."
 
-- "Everyone is experiencing the same dissonance of being, living their own story through the nauseating rollercoaster of ups and downs to nowhere. It is both banal and almost hollow to say that we should be compassionate and kind to others because of this. Every first-grade child knows this in fewer words. The notion of togetherness and compassion is sold to us in soda and fast-food commercials as well as nearly every Disney movie. It is so commodified, clichéd, and obvious that it's hard to even take seriously the idea of needing to consider it further. Life isn't a soda commercial nor a Disney movie, and it isn't anywhere near as clean as a first-grade child could likely even imagine. There is a world filled with malevolence and anger and greed and impatience and all the rest. But for this very reason—because compassion is so trite and yet still seemingly so hard and absent—it is perhaps all the more essential and rational to give it serious focus and effort."
+- "Everyone is experiencing the same dissonance of being, living their own story through
+the nauseating rollercoaster of ups and downs to nowhere. It is both banal and almost
+hollow to say that we should be compassionate and kind to others because of this. Every
+first-grade child knows this in fewer words. The notion of togetherness and compassion is
+sold to us in soda and fast-food commercials as well as nearly every Disney movie. It is
+so commodified, clichéd, and obvious that it's hard to even take seriously the idea of
+needing to consider it further. Life isn't a soda commercial nor a Disney movie, and it
+isn't anywhere near as clean as a first-grade child could likely even imagine. There is a
+world filled with malevolence and anger and greed and impatience and all the rest. But for
+this very reason—because compassion is so trite and yet still seemingly so hard and
+absent—it is perhaps all the more essential and rational to give it serious focus and
+effort."
 
-- "There is but one thing that seems to have any positive effect against such absurdity: a sort of compassion for the whole. We must try to remember that everyone is in it, and everyone is flailing against it for the same reasons as everyone else. Thus, within limits perhaps, everyone deserves such consideration and compassion."
+- "There is but one thing that seems to have any positive effect against such absurdity: a
+sort of compassion for the whole. We must try to remember that everyone is in it, and
+everyone is flailing against it for the same reasons as everyone else. Thus, within limits
+perhaps, everyone deserves such consideration and compassion."
 
 - "Man can do what he wills but he cannot will what he wills."
 
 - "We see the world not as it is, but as we are,"
 
-- "In all cases, for the most part, knowing what the real color of things are (metaphorically speaking) is perhaps minimally relevant to living and thriving as an individual and as a species. Perhaps what matters more is that we can agree and disagree on subjective things sufficiently well enough, cordially enough, and often enough. And it seems as though that in order to do so, if such a feat is possible, the prerequisite is a willingness to embrace often being wrong."
+- "In all cases, for the most part, knowing what the real color of things are
+(metaphorically speaking) is perhaps minimally relevant to living and thriving as an
+individual and as a species. Perhaps what matters more is that we can agree and disagree
+on subjective things sufficiently well enough, cordially enough, and often enough. And it
+seems as though that in order to do so, if such a feat is possible, the prerequisite is a
+willingness to embrace often being wrong."
 
 - "We so often take personally what the world does without us in mind."
 
-- "Those who are often angered reveal themselves to be a strange sort of optimist, still in denial of the tragedies of this life and the death of their youthful innocence—the belief that life can be what it can't."
+- "Those who are often angered reveal themselves to be a strange sort of optimist, still
+in denial of the tragedies of this life and the death of their youthful innocence—the
+belief that life can be what it can't."
 
-- "A theory in psychology known as appraisal theory, initially developed by psychologist Magda Arnold, suggests that our emotional responses are in large part created by our conscious evaluations of events—how we view, interpret, and label stimuli rather than the stimuli themselves. In other words, in between our primary experience of an event and our emotional experience of an event, there is a filtering process that occurs through and is based on our cognitive faculties. In this space, how we think based on our experiences, perceptions, views, and values determines what we feel."
+- "A theory in psychology known as appraisal theory, initially developed by psychologist
+Magda Arnold, suggests that our emotional responses are in large part created by our
+conscious evaluations of events—how we view, interpret, and label stimuli rather than the
+stimuli themselves. In other words, in between our primary experience of an event and our
+emotional experience of an event, there is a filtering process that occurs through and is
+based on our cognitive faculties. In this space, how we think based on our experiences,
+perceptions, views, and values determines what we feel."
 
-- "For the stoics, events in the world are objective and neutral, and our qualitative emotional experiences are merely a product of the narratives we tell ourselves. "It doesn't hurt me unless I interpret it's happening as harmful to me. I can choose not to," wrote Marcus Aurelius."
+- "For the stoics, events in the world are objective and neutral, and our qualitative
+emotional experiences are merely a product of the narratives we tell ourselves. "It
+doesn't hurt me unless I interpret it's happening as harmful to me. I can choose not to,"
+wrote Marcus Aurelius."
 
-- "Rather, if we realize that the world has not singled us out, that most people are good people trying their best, that ignorance is far more often behind the curtain and not malice, that our emotions are not the result of being made victims by others but by us not taking ownership of them ourselves, that life is inherently difficult and suffering is fundamental to everyone, we can perhaps more accurately evaluate if what we are angered by is worthy of being angry about, and how."
+- "Rather, if we realize that the world has not singled us out, that most people are good
+people trying their best, that ignorance is far more often behind the curtain and not
+malice, that our emotions are not the result of being made victims by others but by us not
+taking ownership of them ourselves, that life is inherently difficult and suffering is
+fundamental to everyone, we can perhaps more accurately evaluate if what we are angered by
+is worthy of being angry about, and how."
 
-- "Knowing how to know and be yourself versus actually knowing and being it is like knowing the mechanics of how to surf on paper and then going out into the ocean and encountering an actual wave."
+- "Knowing how to know and be yourself versus actually knowing and being it is like
+knowing the mechanics of how to surf on paper and then going out into the ocean and
+encountering an actual wave."
 
-- "Of course, it feels very nice to be liked. In certain cases, it is essential. Our wellbeing depends to some degree on the quality of our social relations, which require us to be sufficiently liked by at least some people some amount of the time."
+- "Of course, it feels very nice to be liked. In certain cases, it is essential. Our
+wellbeing depends to some degree on the quality of our social relations, which require us
+to be sufficiently liked by at least some people some amount of the time."
 
-- "In infancy and early childhood, we are inadvertently conditioned by our parents, teachers, and other people we encounter to feel like we are the center of all attention, the most important thing in the world and beyond. Everything we do is relevant, consequential, or impressive. When we walk for the first time, it's the most important thing that could have happened in the world that day. If we draw on the wall, it's the worst thing. But of course, the world did not care about either of those things that day at all. As we age and are further socialized into the world, we slowly but surely realize that the world mostly has never and will never care about what just about anyone does, including us. We are not really at the center of anything at all, not even our own minds. We are not important in any grand sense. No one really cares."
+- "In infancy and early childhood, we are inadvertently conditioned by our parents,
+teachers, and other people we encounter to feel like we are the center of all attention,
+the most important thing in the world and beyond. Everything we do is relevant,
+consequential, or impressive. When we walk for the first time, it's the most important
+thing that could have happened in the world that day. If we draw on the wall, it's the
+worst thing. But of course, the world did not care about either of those things that day
+at all. As we age and are further socialized into the world, we slowly but surely realize
+that the world mostly has never and will never care about what just about anyone does,
+including us. We are not really at the center of anything at all, not even our own minds.
+We are not important in any grand sense. No one really cares."
 
-- "In his famous twentieth-century play, No Exit, Jean-Paul Sartre wrote, "You remember all we were told about the torture-chambers, the fire and brimstone, the "burning marl." Old wives' tales! There's no need for red-hot pokers. Hell is other people!"
+- "In his famous twentieth-century play, No Exit, Jean-Paul Sartre wrote, "You remember
+all we were told about the torture-chambers, the fire and brimstone, the "burning marl."
+Old wives' tales! There's no need for red-hot pokers. Hell is other people!"
 
 - "Even on the highest throne in the world, we are still sitting on our ass,"
 
-- "I am not who you think I am; I am not who I think I am; I am who I think you think I am,"
+- "I am not who you think I am; I am not who I think I am; I am who I think you think I
+am,"
 
-- "I have sometimes thought that, in order to be a good minister, it was necessary to leave the ministry,"
+- "I have sometimes thought that, in order to be a good minister, it was necessary to
+leave the ministry,"
 
-- "No man," he wrote, "can antedate his experience or guess what faculty or feeling a new object shall unlock, any more than he can draw today the face of a person whom he shall see tomorrow for the first time." In other words, no one can know what life will be like tomorrow nor what such life may cause one to think or feel. However, one must move with it and live according to the present now."
+- "No man," he wrote, "can antedate his experience or guess what faculty or feeling a new
+object shall unlock, any more than he can draw today the face of a person whom he shall
+see tomorrow for the first time." In other words, no one can know what life will be like
+tomorrow nor what such life may cause one to think or feel. However, one must move with it
+and live according to the present now."
 
-- "Arguably, great artists and writers aren't popular because they say something no one has thought of or experienced before, but because they say something that most of us have but weren't sure we were right in doing so. Emerson"
+- "Arguably, great artists and writers aren't popular because they say something no one
+has thought of or experienced before, but because they say something that most of us have
+but weren't sure we were right in doing so. Emerson"
 
-- "Perhaps so long as one authentically stands in their own position of confusion and limitation, they have still remained in accordance with their own relative truth and greatness, and the notion of self-reliance holds steady."
+- "Perhaps so long as one authentically stands in their own position of confusion and
+limitation, they have still remained in accordance with their own relative truth and
+greatness, and the notion of self-reliance holds steady."
 
-- "One's shadow does not disappear by looking away from it. In the same way that one cannot literally evade the shadow of their body by outrunning it, there is no move or evasive tactic that separates the individual from their psychological shadow. The danger, rather, is in the attempt to do so—the ignorance and denial of it. Jung wrote: Good does not"
+- "One's shadow does not disappear by looking away from it. In the same way that one
+cannot literally evade the shadow of their body by outrunning it, there is no move or
+evasive tactic that separates the individual from their psychological shadow. The danger,
+rather, is in the attempt to do so—the ignorance and denial of it. Jung wrote: Good does
+not"
 
-- "One must know of a problem to be able to fix it, and it is an act of healing to admit that one is sick."
+- "One must know of a problem to be able to fix it, and it is an act of healing to admit
+that one is sick."
 
-- "man is a worm and food for worms. This is the paradox: he is out of nature and hopelessly in it; he is dual, up in the stars and yet housed in a heart-pumping, breath-gasping body that once belonged to a fish and still carries the gill-marks to prove it."
+- "man is a worm and food for worms. This is the paradox: he is out of nature and
+hopelessly in it; he is dual, up in the stars and yet housed in a heart-pumping,
+breath-gasping body that once belonged to a fish and still carries the gill-marks to prove
+it."
 
-- "What does it mean to be a self-conscious animal? The idea is ludicrous, if it is not monstrous. It means to know that one is food for worms. This is the terror: to have emerged from nothing, to have a name, consciousness of self, deep inner feelings, an excruciating inner yearning for life and self-expression and with all this yet to die. It seems like a hoax."
+- "What does it mean to be a self-conscious animal? The idea is ludicrous, if it is not
+monstrous. It means to know that one is food for worms. This is the terror: to have
+emerged from nothing, to have a name, consciousness of self, deep inner feelings, an
+excruciating inner yearning for life and self-expression and with all this yet to die. It
+seems like a hoax."
 
-- "One must be careful to not make the singularness of their shot at existence a pressure to get it all right—to do all the right things and think all the right thoughts and feel all the right feelings."
+- "One must be careful to not make the singularness of their shot at existence a pressure
+to get it all right—to do all the right things and think all the right thoughts and feel
+all the right feelings."
 
-- "The point is quite the opposite; you will mostly do a lot of the wrong things, think a lot of the wrong thoughts, and feel a lot of the wrong feelings. But precisely because this is your one shot at life, this must be ok. You are driving blind through the most impossibly complex, strange maze that you know ends in a head-on collision with a wall. What use is getting more upset or guilty about feeling upset or guilty in an existence that set you up? Of course, this is far easier said than done, but perhaps in true, deep contemplations of one's mortality, at least on occasion, this reminder can sometimes serve more as a sedative and not merely a stimulant."
+- "The point is quite the opposite; you will mostly do a lot of the wrong things, think a
+lot of the wrong thoughts, and feel a lot of the wrong feelings. But precisely because
+this is your one shot at life, this must be ok. You are driving blind through the most
+impossibly complex, strange maze that you know ends in a head-on collision with a wall.
+What use is getting more upset or guilty about feeling upset or guilty in an existence
+that set you up? Of course, this is far easier said than done, but perhaps in true, deep
+contemplations of one's mortality, at least on occasion, this reminder can sometimes serve
+more as a sedative and not merely a stimulant."
 
-- "It is strange and rather terrifying to consider that we can be something for now and nothing forever—but perhaps it is only because of the fact that we are nothing forever that we can be something for now."
+- "It is strange and rather terrifying to consider that we can be something for now and
+nothing forever—but perhaps it is only because of the fact that we are nothing forever
+that we can be something for now."
 
-- "We might never know what nothing is until we know nothing at all. And even then, we might not. We are all free to imagine nothing however we like. Because if nothingness is in fact the source and destiny that connects us all, then perhaps, through nothing, anything is possible."
+- "We might never know what nothing is until we know nothing at all. And even then, we
+might not. We are all free to imagine nothing however we like. Because if nothingness is
+in fact the source and destiny that connects us all, then perhaps, through nothing,
+anything is possible."
 
-- "If we are to be fully human and fully alive and aware, it seems that we must be willing to suffer for our pleasures."
+- "If we are to be fully human and fully alive and aware, it seems that we must be willing
+to suffer for our pleasures."
 
-- "the more one tries to remove or escape the negative experience of life, the more negative it becomes. Rather, the more one faces it willingly and intentionally, the stronger and more equipped one becomes—the more meaningful and positive the pain and hardship can be made to feel ."
+- "the more one tries to remove or escape the negative experience of life, the more
+negative it becomes. Rather, the more one faces it willingly and intentionally, the
+stronger and more equipped one becomes—the more meaningful and positive the pain and
+hardship can be made to feel ."
 
-- "However, beyond this area of exceptional misery, there still exists a realm of suffering and unhappiness entrenched in human life that appears to be unshakeable, even when one's circumstances are relatively good. This realm can draw the healthy, decent, prosperous person to self-hatred and self-sabotage, to addiction and suicide. It is the realm of misery in the background of any and every moment that should be enjoyed simply and happily but isn't. It is the mental pain that is specific to no one but applicable to everyone."
+- "However, beyond this area of exceptional misery, there still exists a realm of
+suffering and unhappiness entrenched in human life that appears to be unshakeable, even
+when one's circumstances are relatively good. This realm can draw the healthy, decent,
+prosperous person to self-hatred and self-sabotage, to addiction and suicide. It is the
+realm of misery in the background of any and every moment that should be enjoyed simply
+and happily but isn't. It is the mental pain that is specific to no one but applicable to
+everyone."
 
-- "The person who depends on their ability to accomplish away the struggle, sadness, and uncertainty of life, could accomplish the whole world just to be met with a disappointment so intense that it would destroy whatever is left of them. Perhaps, then, our quality of life is not found in the heights of our happiness or pleasures but in how we choose to consider and look at what surrounds these extremes, how we attempt to create a life of personal intention, meaning, and decency, and justify the inevitable lows rather than always trying to escape them."
+- "The person who depends on their ability to accomplish away the struggle, sadness, and
+uncertainty of life, could accomplish the whole world just to be met with a disappointment
+so intense that it would destroy whatever is left of them. Perhaps, then, our quality of
+life is not found in the heights of our happiness or pleasures but in how we choose to
+consider and look at what surrounds these extremes, how we attempt to create a life of
+personal intention, meaning, and decency, and justify the inevitable lows rather than
+always trying to escape them."
 
-- "every exhalation, there is a breath to come so long as we keep breathing. In every moment of hardship, pain, confusion, or weakness, there is a story taking place filled with the potential for triumph and vitality worthy of tears bursting with wonder and fondness for life, so long as we keep moving. So long as there is life in us, there is the rare and exclusively human"
+- "In every exhalation, there is a breath to come so long as we keep breathing. In every
+moment of hardship, pain, confusion, or weakness, there is a story taking place filled
+with the potential for triumph and vitality worthy of tears bursting with wonder and
+fondness for life, so long as we keep moving. So long as there is life in us, there is the
+rare and exclusively human opportunity to take this chaotic, thrashing existence, this
+strange nothingness, and make it something. There is the chance to connect and love and
+help, to feel and think and live, to experience the cosmic everything. And at some point,
+perhaps that is enough."
 
-- "In every exhalation, there is a breath to come so long as we keep breathing. In every moment of hardship, pain, confusion, or weakness, there is a story taking place filled with the potential for triumph and vitality worthy of tears bursting with wonder and fondness for life, so long as we keep moving. So long as there is life in us, there is the rare and exclusively human opportunity to take this chaotic, thrashing existence, this strange nothingness, and make it something. There is the chance to connect and love and help, to feel and think and live, to experience the cosmic everything. And at some point, perhaps that is enough."
+- "When you get the shit kicked out of you long enough . . . you will have a tendency to
+say what you really mean," said"
 
-- "When you get the shit kicked out of you long enough . . . you will have a tendency to say what you really mean," said"
+- "Too many writers write for the wrong reasons. They want to get famous or they want to
+get rich or they want to get laid by the girls with the bluebells in their hair . . . When
+everything works best, it's not because you chose writing, but because writing chose you.
+It's when you're mad with it. When it's stuffed in your ears, nostrils, under your finger
+nails. It's when there's no hope but that."
 
-- "Too many writers write for the wrong reasons. They want to get famous or they want to get rich or they want to get laid by the girls with the bluebells in their hair . . . When everything works best, it's not because you chose writing, but because writing chose you. It's when you're mad with it. When it's stuffed in your ears, nostrils, under your finger nails. It's when there's no hope but that."
+- "There are degrees of madness, and the madder you are the more obvious it will be to
+other people. Most of my life I have hidden my madness within myself but it is there,"
 
-- "There are degrees of madness, and the madder you are the more obvious it will be to other people. Most of my life I have hidden my madness within myself but it is there,"
+- "Men are so necessarily mad, that not to be mad would amount to another form of
+madness,"
 
-- "Men are so necessarily mad, that not to be mad would amount to another form of madness,"
+- "Like a wild elephant, the untamed mind can inflict enormous damage on ourselves and
+those around us."
 
-- "Like a wild elephant, the untamed mind can inflict enormous damage on ourselves and those around us."
+- "One traditional Tibetan doctor whom I know once commented on people living in the West,
+"From the perspective of Tibetan medicine, you are all suffering from nervous disorders.
+But given how ill you are, you are coping remarkably well!"
 
-- "One traditional Tibetan doctor whom I know once commented on people living in the West, "From the perspective of Tibetan medicine, you are all suffering from nervous disorders. But given how ill you are, you are coping remarkably well!"
+- "Physicians don't heal abrasions, and surgeons don't mend bone fractures. Instead, they
+do whatever they can to allow the body to heal itself—by keeping the wound clean, setting
+the broken bone, and so on."
 
-- "Physicians don't heal abrasions, and surgeons don't mend bone fractures. Instead, they do whatever they can to allow the body to heal itself—by keeping the wound clean, setting the broken bone, and so on."
+- "The reason we don't devote more time to balancing our minds is that we are betting our
+lives that we can find the happiness we seek by chasing fleeting pleasures. Psychologists
+have called this the hedonic treadmill, and the first step to escaping from this
+exhausting grind is to seek a vision of genuine happiness that draws on our own, largely
+untapped inner resources."
 
-- "The reason we don't devote more time to balancing our minds is that we are betting our lives that we can find the happiness we seek by chasing fleeting pleasures. Psychologists have called this the hedonic treadmill,11 and the first step to escaping from this exhausting grind is to seek a vision of genuine happiness that draws on our own, largely untapped inner resources."
+- "During the path of cultivation, he would meet enemies one by one. If he wanted to
+improve, he would have to constantly look towards the future and review the past. Only
+then, he would be able to improve slowly."
 
-- "During the path of cultivation, he would meet enemies one by one. If he wanted to improve, he would have to constantly look towards the future and review the past. Only then, he would be able to improve slowly."
-
-- "When there are too many debts, one stops to worry.'"
-- "The martial path was lonely. It was a source of great happiness if one found a confidant."
-
-- "The Azure Yang Lord's uninhibited life was filled with ups and down. Having felt both extreme happiness and sadness, he knew how difficult it was to earn happiness. If he could make this moment last forever, that would be a blissful matter… However, be it the Azure Yang Lord or the ancient Great Empress, they knew that these days were not going to last."
-
-- "Warriors had to suffer hardship and experience numerous life and death encounters. If they were not careful, they would lose their lives. They had to restrain their desires and endure lonely decades of reclusive training. Wasn't all this for them to lead a free life and do as they pleased when their power succeeded on reaching unprecedented heights!? Everything in the world depended on one's preference. To do as the heart pleased!"
-
-- "The ways of the world are full of vicissitudes, and in it, there is the grief at separation and joy in union, the suffering of life and death. No matter how thick a history book is, it would not be able to record everything down. However, it is such infinite matters of the past that can pass by with a finger snap. In one's old age, while looking back at the past, only then would you feel like everything was ephemeral."
-
-- "The further he walked, the tinier he felt."
-
-- "Against the vast cosmos, the lives of people were like ants. It was like how bacteria did not know what it meant for the first and last day of the month, or how mole crickets did not know the seasons. What was a mortal's life to the Universe? Yi Yun did not want to remain like a speck of dust in the Universe."
-
-- "In a warrior's world, we may have the power to cause great destruction, have long lifespans, and are able to lead extravagant lives, but the pressure is intense. Be it life-and-death trials or breakthroughs that require great risks, or the sense of urgency of being killed by someone else at any moment in time, it forces us to continuously forge ahead." "The accumulation of all these pressure naturally need an opportunity for it to be released."
+- "When there are too many debts, one stops to worry."
+- "The martial path was lonely. It was a source of great happiness if one found a
+confidant."
 
 - "Before one's heart reduced to mediocrity, Great Dao lies within one's heart!"
 
-- "Those without sufficient strength but can bear disgrace and a heavy burden are people who I appreciate as well."
-
-- "Everyone had their own time, but time treated everyone equally."
-
-- "Were destruction and finality the end? Matter in the Universe could not remain eternal. They would eventually proceed towards destruction, including the Universe. But what happened after destruction? Could it be that all that was left was eternal 'nothingness'? Everything in the world underwent birth and death. A drop of water could evaporate and become part of a cloud before condensing into new drops of rain. Plants would wither, but the fruits that they bore could give rise to seeds. Mortals would die of age, but babies would grow up into adults. Stars could be destroyed, but new stars would eventually be born… Everything in the world underwent a cycle, so it definitely included the Universe. The destruction of the Universe was the beginnings of a new Universe. It was just that the cycle was immensely long that it was beyond the imagination of mere mortals. New Universe… Yi Yun suddenly seemed to realize something. What were the beginnings of the Universe? Dao begets One, One begets Two… Before Yin-Yang and Space-time was Chaos! Rebirth after destruction was Chaos and Major Destruction respectively. They were both two Great Dao of Supremacy! Why were there two Great Dao of Supremacy? They might be like Yin-Yang, Space-time, Water-Fire, just two sides of the Universe. The two could supplement each other and not a single one was dispensable."
+- "Those without sufficient strength but can bear disgrace and a heavy burden are people
+who I appreciate as well."
 
 - "But if a warrior does not have any aspirations, he won't be able to go far either."
 
-- "To what end do we practice martial arts for? If we can't depend on the sword, so what about death? One's true richness of heart is not to be annihilated!"
+- "To what end do we practice martial arts for? If we can't depend on the sword, so what
+about death? One's true richness of heart is not to be annihilated!"
 
 - "Helping a man once gains gratitude, but not helping that man again gains hatred."
 
 - "grinding a chopper will not hold up the work of cutting firewood"
 
-- "As the saying goes, he who gets other's kindness but does not repay is not a gentleman."
+- "As the saying goes, he who gets other's kindness but does not repay is not a
+gentleman."
 
 - "speaking."History changes erratically. Time is enough to wipe away many things."
 
-- "Chaos in the world leads to the suffering of all life, but it is something some people are willing to see. Heroes are born in difficult times."
-
-- "Humans were warlike, to begin with. It was common among humans to fight unceasingly for their interests. Furthermore, there were some perverse people who wanted revenge on the world. Such people were even more dangerous. There was no limit to what they would do. Yi Yun knew that there was evil deeply rooted in human nature. However, he was not a person who would bemoan the state of the universe and mankind, much less the kind who would question life after seeing the ugly nature of humans and eventually decide to destroy the entire world in a crazy fit. He was only Yi Yun, an ordinary person that pursued the martial path, wanting his life to escape the cycle of samsara."
-
 - "When one postures to impress a girl, his failure becomes all the more foolish."
 
-- "When warriors took lives or destroyed an item, or even shattered a world, they could not avoid violence. Only time could turn everything into dust in an infinitely calm manner simply by passing. It was silent from beginning to end. Time was the most unique power of destruction. Yi"
+- "When warriors took lives or destroyed an item, or even shattered a world, they could
+not avoid violence. Only time could turn everything into dust in an infinitely calm manner
+simply by passing. It was silent from beginning to end. Time was the most unique power of
+destruction."
 
-- "A man who loses position and influence may be subjected to much indignity. It's all fated…"
+- "A man who loses position and influence may be subjected to much indignity. It's all
+fated…"
 
-- "He who understands the times is a wise man."
+- "Yi Yun refused to believe that someone would forgo their lives for a master who had not
+won the hearts of people."
 
-- "Yi Yun refused to believe that someone would forgo their lives for a master who had not won the hearts of people."
+- "We warriors have been cultivating our entire lives. What was it for? It's not to enjoy
+riches or sex. Nor is it about being placed on a pedestal while enslaving those beneath
+us! We cultivate to fight against our fate! We do not wish to to let Samsara run its
+course, so we cultivate for years! Our martial heritage has been passed down for millions
+of years, billions of years, and will be so for trillions of years! It's not for us to
+kneel down to beg for mercy after gaining mastery. With the backbone broken, there's no
+way one can straighten one's back."
 
-- "We warriors have been cultivating our entire lives. What was it for? It's not to enjoy riches or sex. Nor is it about being placed on a pedestal while enslaving those beneath us! We cultivate to fight against our fate! We do not wish to to let Samsara run its course, so we cultivate for years! Our martial heritage has been passed down for millions of years, billions of years, and will be so for trillions of years! It's not for us to kneel down to beg for mercy after gaining mastery. With the backbone broken, there's no way one can straighten one's back."
+- "The Heavenly Dao's evolution is unending. Creation and Destruction are interchangeable,
+forming a complete circle. Be it life or a universe, they have formation, existence,
+disintegration, and emptiness; birth, aging, illness, and death. You wanted to devour the
+Heavenly Dao, robbing and changing the fate of the universe. You wanted to empower
+yourself by initiating the deaths of millions; hence, you were destined to be abandoned by
+the Heavenly Dao."
 
-- "The Heavenly Dao's evolution is unending. Creation and Destruction are interchangeable, forming a complete circle. Be it life or a universe, they have formation, existence, disintegration, and emptiness; birth, aging, illness, and death. You wanted to devour the Heavenly Dao, robbing and changing the fate of the universe. You wanted to empower yourself by initiating the deaths of millions; hence, you were destined to be abandoned by the Heavenly Dao."
+- "Legends were typically like this. They would not be eclipsed with the passage of time,
+but instead, they became histories that one tried to live up to."
 
-- "Legends were typically like this. They would not be eclipsed with the passage of time, but instead, they became histories that one tried to live up to."
-
-- "Life, from lifeforms as large as towering trees to bugs as small as ants, the reason for all they do is for the continuation of their bloodline."
-
-- "In this Sinkhole that was filled with despair, a bunch of seniors were forging ahead bearing the burdens, so as to hold up the sky for the young. Although these seniors had their backs hunched from the pressures of time, to the point of not being able to bear the weight any further, that was already sufficient, no matter how tiny that piece of sky they held up was. They had already done everything they could have done."
-
-- "The crests and troughs of life are all but ephemeral mists. How nice if reunion and separation were fixed in place of that first meeting. A thousand years pass and happiness a certainty, but how much was sadness in exchange?"
+- "The crests and troughs of life are all but ephemeral mists. How nice if reunion and
+separation were fixed in place of that first meeting. A thousand years pass and happiness
+a certainty, but how much was sadness in exchange?"
 
 - "Imagination comes from limitations. When you can do anything it gets debilitating"
 
@@ -15969,514 +16681,1070 @@ us"
 
 - "Where there is a will, there grows a forest"
 
-- "It's frustrating navigating my feelings because they are all self-imposed - the only person I can get angry at is, well, myself. "
+- "It's frustrating navigating my feelings because they are all self-imposed - the only
+person I can get angry at is, well, myself. "
 
-- "The Heavens and Earth will not move; neither will the stone turn in the flowing river. There is still a long journey ahead of us. It's just as you have always said. There's no need to force yourself to do anything. We just hope Teacher can return safely; that is our only request."
+- "The Heavens and Earth will not move; neither will the stone turn in the flowing river.
+There is still a long journey ahead of us. It's just as you have always said. There's no
+need to force yourself to do anything. We just hope Teacher can return safely; that is our
+only request."
 
-- "You can try to run from the sun as hard as you can, but you can never outrun the sunlight"
+- "You can try to run from the sun as hard as you can, but you can never outrun the
+sunlight"
 
-- "A sect's decline is not due to the external pressures but due to the internal disputes and lack of unity"
+- "A sect's decline is not due to the external pressures but due to the internal disputes
+and lack of unity"
 
 - "Literature lasts for eternity,
 
-- A Martial artist retires at death."
+- "A Martial artist retires at death."
 
-- "When things are moving so fast, it's good to remember that sometimes you'll waste a lot of effort or get scooped. The best thing you can do is to just accept it and keep going on your process. You're not alone in this one."
+- "When things are moving so fast, it's good to remember that sometimes you'll waste a lot
+of effort or get scooped. The best thing you can do is to just accept it and keep going on
+your process. You're not alone in this one."
 
 - "Am I the creator if I simply role the dice until I win the lottery?"
 
-- "If you write a piece of code and it seems simple to you, but others think it is complex, then it is complex."
+- "If you write a piece of code and it seems simple to you, but others think it is
+complex, then it is complex."
 
-- "Ironically, there never seems to be enough time to do something as idle as contemplate the very nature of time."
+- "Ironically, there never seems to be enough time to do something as idle as contemplate
+the very nature of time."
 
-- "In work, he writes, time is horizontal, a pattern of forward-leaning labor time punctuated by little gaps of rest that simply refresh us for more work. For Pieper, those little gaps are not leisure. True leisure, instead, exists on a "vertical" axis of time, one whose totality cuts through or negates the entire dimension of workaday time, "run[ning] at right angles to work." If such moments happen to refresh us for work, that is merely secondary."
+- "In work, he writes, time is horizontal, a pattern of forward-leaning labor time
+punctuated by little gaps of rest that simply refresh us for more work. For Pieper, those
+little gaps are not leisure. True leisure, instead, exists on a "vertical" axis of time,
+one whose totality cuts through or negates the entire dimension of workaday time,
+"run[ning] at right angles to work." If such moments happen to refresh us for work, that
+is merely secondary."
 
-- "As long as slowness is invoked merely to make the machine of capitalism run faster, it risks being a cosmetic fix, another little gap on the horizontal plane of work time."
+- "As long as slowness is invoked merely to make the machine of capitalism run faster, it
+risks being a cosmetic fix, another little gap on the horizontal plane of work time."
 
-- "What first appears to be a wish for more time may turn out to be just one part of a simple, yet vast, desire for autonomy, meaning, and purpose."
+- "What first appears to be a wish for more time may turn out to be just one part of a
+simple, yet vast, desire for autonomy, meaning, and purpose."
 
-- "There is a lonely absurdity in the idea of racing against the clock at the end of time, as evidenced in a headline by the parody site Reductress: "Woman Waiting for Evidence That World Will Still Exist in 2050 Before She Starts Working Toward Goals."
+- "There is a lonely absurdity in the idea of racing against the clock at the end of time,
+as evidenced in a headline by the parody site Reductress: "Woman Waiting for Evidence That
+World Will Still Exist in 2050 Before She Starts Working Toward Goals."
 
-- "What I find in chronos is not comfort but dread and nihilism, a form of time that bears down on me, on others, relentlessly. Here, my actions don't matter. The world worsens as assuredly as my hair is graying, and the future is something to get over with. In contrast, what I find in kairos is a lifeline, a sliver of the audacity to imagine something different. Hope and desire, after all, can exist only on the differential between today and an undetermined tomorrow."
+- "What I find in chronos is not comfort but dread and nihilism, a form of time that bears
+down on me, on others, relentlessly. Here, my actions don't matter. The world worsens as
+assuredly as my hair is graying, and the future is something to get over with. In
+contrast, what I find in kairos is a lifeline, a sliver of the audacity to imagine
+something different. Hope and desire, after all, can exist only on the differential
+between today and an undetermined tomorrow."
 
-- "Tomorrow was growing raw out of the husk of today, and in it, I'd be different. All of us would."
+- "Tomorrow was growing raw out of the husk of today, and in it, I'd be different. All of
+us would."
 
-- "How much someone's time is valued is not measured simply by a wage, but by who does what kind of work and whose temporality has to line up with whose, whether that means rushing or waiting or both."
+- "How much someone's time is valued is not measured simply by a wage, but by who does
+what kind of work and whose temporality has to line up with whose, whether that means
+rushing or waiting or both."
 
 - "The lava moves, and it's not because of us."
 
-- "The future is always over the horizon, and to be alive is to be in transit. For a few minutes, a sunrise collects all that ineffable bittersweetness into a single burning point."
+- "The future is always over the horizon, and to be alive is to be in transit. For a few
+minutes, a sunrise collects all that ineffable bittersweetness into a single burning
+point."
 
-- "In turn, looking for kairos while living largely in chronos puts you in that difficult gray area between personal agency and structural limits, an area long explored by social theorists but also simply experienced by anyone negotiating life in a social world."
+- "In turn, looking for kairos while living largely in chronos puts you in that difficult
+gray area between personal agency and structural limits, an area long explored by social
+theorists but also simply experienced by anyone negotiating life in a social world."
 
 - "Sometimes the best muse is the thing you're so afraid of you almost cannot speak it."
 
-- "Landes suggests that a crucial deviation happened with the development of Christian canonical hours, particularly under the sixth-century Rule of Saint Benedict. The Rule, which subsequently spread to other orders, specified seven times during the day when Benedictine monks should pray, as well as an eighth in the middle of the night. Determining that "idleness is the enemy of the soul," the Rule also described punishments for monks who failed to hurry sufficiently upon the signal for work or prayer."
+- "Landes suggests that a crucial deviation happened with the development of Christian
+canonical hours, particularly under the sixth-century Rule of Saint Benedict. The Rule,
+which subsequently spread to other orders, specified seven times during the day when
+Benedictine monks should pray, as well as an eighth in the middle of the night.
+Determining that "idleness is the enemy of the soul," the Rule also described punishments
+for monks who failed to hurry sufficiently upon the signal for work or prayer."
 
-- "A clock hour was meant to be an hour, no matter where or what the season, just as a man-hour would be expected to be an hour, no matter who the man. This was as useful for regulating labor as it was for conquering land."
+- "A clock hour was meant to be an hour, no matter where or what the season, just as a
+man-hour would be expected to be an hour, no matter who the man. This was as useful for
+regulating labor as it was for conquering land."
 
 - "Clocks arrived as tools of domination."
 
-- "On a larger scale, they graded native populations as being more or less "progressed" into modernity based on how removed their systems of time seemed from nature—a"
+- "On a larger scale, they graded native populations as being more or less "progressed"
+into modernity based on how removed their systems of time seemed from nature—a"
 
-- "As would be the case in many different contexts going forward, the science of recording labor days was inextricable from the project of intensifying them."
+- "As would be the case in many different contexts going forward, the science of recording
+labor days was inextricable from the project of intensifying them."
 
-- "none of us who toil for our daily bread are free. At one time…we were chattel slaves; today we are, one and all, white and black, wage slaves."
+- "none of us who toil for our daily bread are free. At one time…we were chattel slaves;
+today we are, one and all, white and black, wage slaves."
 
-- "When the relationship of time to literal money is expressed as a natural fact, it obscures the political relationship between the seller of time and its buyer. This may seem obvious, but if time is money, it is so in a way that's different for a worker than for an employer. For the worker, time is a certain amount of money—the wage. But the buyer, or employer, hires a worker to create surplus value; this excess is what defines productivity under capitalism. From an employer's point of view, purchased time could always yield more money."
+- "When the relationship of time to literal money is expressed as a natural fact, it
+obscures the political relationship between the seller of time and its buyer. This may
+seem obvious, but if time is money, it is so in a way that's different for a worker than
+for an employer. For the worker, time is a certain amount of money—the wage. But the
+buyer, or employer, hires a worker to create surplus value; this excess is what defines
+productivity under capitalism. From an employer's point of view, purchased time could
+always yield more money."
 
 - "The only reward for working faster is more work."
 
-- "In this way, Taylorism rendered labor more abstract and fungible, hastening a process that has often been referred to as "de-skilling." Among other things, this deepened the divide between how different kinds of time are valued. As Braverman puts it, "Every step in the labor process is divorced, so far as possible, from special knowledge of training and reduced to simple labor. Meanwhile, the relatively few persons for whom special knowledge and training are reserved are freed so far as possible from the obligations of simple labor. In this way a structure is given to all labor processes that at its extremes polarizes those whose time is infinitely valuable and those whose time is worth almost nothing."
+- "In this way, Taylorism rendered labor more abstract and fungible, hastening a process
+that has often been referred to as "de-skilling." Among other things, this deepened the
+divide between how different kinds of time are valued. As Braverman puts it, "Every step
+in the labor process is divorced, so far as possible, from special knowledge of training
+and reduced to simple labor. Meanwhile, the relatively few persons for whom special
+knowledge and training are reserved are freed so far as possible from the obligations of
+simple labor. In this way a structure is given to all labor processes that at its extremes
+polarizes those whose time is infinitely valuable and those whose time is worth almost
+nothing."
 
-- "The more fragmented and minutely timeable work becomes, the more meaningless it becomes."
+- "The more fragmented and minutely timeable work becomes, the more meaningless it
+becomes."
 
 - "A psychopath would make a terrible content moderator."
 
-- "At Cognizant, where humans keep coming in for work despite the conditions, one worker tells Newton that they are merely "bodies in seats."
+- "At Cognizant, where humans keep coming in for work despite the conditions, one worker
+tells Newton that they are merely "bodies in seats."
 
-- "The tragedy of fungible labor time lies first in its historical association with coercion, exploitation, and the imagining of people as machines. Time is the punitive dimension in which the wage worker is both measured and squeezed. But beyond that, an overemphasis on fungible time upholds an impoverished view of what time and labor are in the first place."
+- "The tragedy of fungible labor time lies first in its historical association with
+coercion, exploitation, and the imagining of people as machines. Time is the punitive
+dimension in which the wage worker is both measured and squeezed. But beyond that, an
+overemphasis on fungible time upholds an impoverished view of what time and labor are in
+the first place."
 
 - "Just because you're going forward doesn't mean I'm going backward."
 
-- "As a form of Protestantism, seventeeth-century Puritanism invited introspection and constant evaluation of the self against a high moral standard, a practice that included the use of daily journals where self-observation and measurement could take place."
+- "As a form of Protestantism, seventeeth-century Puritanism invited introspection and
+constant evaluation of the self against a high moral standard, a practice that included
+the use of daily journals where self-observation and measurement could take place."
 
-- "A feeling of time pressure can result from constantly having to switch tasks or coordinate with external factors. Here,"
+- "A feeling of time pressure can result from constantly having to switch tasks or
+coordinate with external factors. Here,"
 
-- "Self-help has generally promised to revolutionize your life, not the social or economic hierarchy—and you can't really blame anyone for not fulfilling a promise they never made. At the same time, even seemingly practical self-help can read as an invitation to find a niche in a brutal world and wait for the storm to pass you over."
+- "Self-help has generally promised to revolutionize your life, not the social or economic
+hierarchy—and you can't really blame anyone for not fulfilling a promise they never made.
+At the same time, even seemingly practical self-help can read as an invitation to find a
+niche in a brutal world and wait for the storm to pass you over."
 
-- "If time management is not simply an issue of numerical hours but of some people having more control over their time than others, then the most realistic and expansive version of time management has to be collective:"
+- "If time management is not simply an issue of numerical hours but of some people having
+more control over their time than others, then the most realistic and expansive version of
+time management has to be collective:"
 
 - "Excess work and performance escalate into auto-exploitation."
 
-- "Trained to set her sights on infinity, she never experiences the feeling of having actually reached a goal and, instead, exhibits the "auto-aggression" of the master and mastered rolled into one. She is forever "jumping over [her] own shadow," frustrated at the impossible gap between what is and what could be."
+- "Trained to set her sights on infinity, she never experiences the feeling of having
+actually reached a goal and, instead, exhibits the "auto-aggression" of the master and
+mastered rolled into one. She is forever "jumping over [her] own shadow," frustrated at
+the impossible gap between what is and what could be."
 
-- "Social comparison is probably as old as time, but to compare a wide range of people using the same grades, you have to be able to turn those people into data and decide what you're optimizing for."
+- "Social comparison is probably as old as time, but to compare a wide range of people
+using the same grades, you have to be able to turn those people into data and decide what
+you're optimizing for."
 
-- "If, in Taylorism, the measurement of work was an attempt to intensify it, then, in eugenics, the measurement of people was an attempt to "mold" them in a specific direction, a mechanistic combination of Mendelian genetics and social Darwinism."
+- "If, in Taylorism, the measurement of work was an attempt to intensify it, then, in
+eugenics, the measurement of people was an attempt to "mold" them in a specific direction,
+a mechanistic combination of Mendelian genetics and social Darwinism."
 
-- "this is "a terrible time to have a midlife crisis." But advice for winning the rat race assumes that you're running"
+- "this is "a terrible time to have a midlife crisis." But advice for winning the rat race
+assumes that you're running"
 
-- "But advice for winning the rat race assumes that you're running in it, rather than peeling away from a vanishing dream."
+- "But advice for winning the rat race assumes that you're running in it, rather than
+peeling away from a vanishing dream."
 
-- "Slow living is now 'for sale' and approaches a consumerist lifestyle mostly for middle-class metropolitan dwellers—the majority of whom are probably far from holding transformative, progressivist or even socialist agendas. Arguably, many would admit that 'it all needs to slow down,' but such slowness would then be, more often than not, consumed, and consumed privately."
+- "Slow living is now 'for sale' and approaches a consumerist lifestyle mostly for
+middle-class metropolitan dwellers—the majority of whom are probably far from holding
+transformative, progressivist or even socialist agendas. Arguably, many would admit that
+'it all needs to slow down,' but such slowness would then be, more often than not,
+consumed, and consumed privately."
 
-- "It's just that, as the experience economy expands to include commodified notions of things like slowness, community, authenticity, and "nature"—all while income inequality yawns wider and the signs of climate change intensify—I feel the panic of watching possible exits blocked. I keep wanting to do something instead of consume the experience of it. But seeking new ways of being, I find only new ways of spending."
+- "It's just that, as the experience economy expands to include commodified notions of
+things like slowness, community, authenticity, and "nature"—all while income inequality
+yawns wider and the signs of climate change intensify—I feel the panic of watching
+possible exits blocked. I keep wanting to do something instead of consume the experience
+of it. But seeking new ways of being, I find only new ways of spending."
 
-- "Whether conspicuous, compensatory, or both, consumption has long had a relationship to leisure, which can make leisure a strange kind of circumscribed freedom."
+- "Whether conspicuous, compensatory, or both, consumption has long had a relationship to
+leisure, which can make leisure a strange kind of circumscribed freedom."
 
-- "Sociologists have observed that once assembly-line jobs made it difficult to see how well or hard someone had worked, what became visible instead was how much someone was able to consume. This consumption, in turn, became the new way to signal how hard one had worked."
+- "Sociologists have observed that once assembly-line jobs made it difficult to see how
+well or hard someone had worked, what became visible instead was how much someone was able
+to consume. This consumption, in turn, became the new way to signal how hard one had
+worked."
 
-- "What makes you unique?" is a standard interview question. As a result, what once looked like leisure so easily becomes the arena both of the eternal self-upgrade and the search for some uniqueness to exploit. Marketing advice formerly given to companies—for example to "find your niche"—is now applicable to individuals during every moment of the day."
+- "What makes you unique?" is a standard interview question. As a result, what once looked
+like leisure so easily becomes the arena both of the eternal self-upgrade and the search
+for some uniqueness to exploit. Marketing advice formerly given to companies—for example
+to "find your niche"—is now applicable to individuals during every moment of the day."
 
-- "true leisure requires the kind of emptiness in which you remember the fact of your own aliveness."
+- "true leisure requires the kind of emptiness in which you remember the fact of your own
+aliveness."
 
-- "Leisure is not refreshment-for-work but something completely different that exists for its own sake."
+- "Leisure is not refreshment-for-work but something completely different that exists for
+its own sake."
 
-- "If I exhibited the leisure mindset while in line for groceries, it was at least in part because I wasn't worried about paying for them."
+- "If I exhibited the leisure mindset while in line for groceries, it was at least in part
+because I wasn't worried about paying for them."
 
-- "Pieper's definition of leisure emphasizes wholeness; it is "when a man is at one with himself, when he acquiesces in his own being."
+- "Pieper's definition of leisure emphasizes wholeness; it is "when a man is at one with
+himself, when he acquiesces in his own being."
 
-- "Heartbreak did not make me love the birds less; it did not make the ocean less beautiful; it only suffused my seeing them with a deep desire for things to be different."
+- "Heartbreak did not make me love the birds less; it did not make the ocean less
+beautiful; it only suffused my seeing them with a deep desire for things to be different."
 
-- "momentary pattern of light. Perhaps this is precisely what Pieper meant with his "vertical" time—maybe it is vertical not just in that it's the opposite of horizontal, but also in that it reaches deep into the recesses of history even as it stretches up toward an infinite and utopian ideal."
+- "momentary pattern of light. Perhaps this is precisely what Pieper meant with his
+"vertical" time—maybe it is vertical not just in that it's the opposite of horizontal, but
+also in that it reaches deep into the recesses of history even as it stretches up toward
+an infinite and utopian ideal."
 
-- "Rest is not some cute lil luxury item you grant to yourself as an extra treat after you've worked like a machine and are now burned out," Hersey tweeted in October 2020. "Rest is our path to liberation. A portal for healing. A right."
+- "Rest is not some cute lil luxury item you grant to yourself as an extra treat after
+you've worked like a machine and are now burned out," Hersey tweeted in October 2020.
+"Rest is our path to liberation. A portal for healing. A right."
 
-- "Hersey uses social media for work but is critical of the way it encourages a grind culture with historical roots in capitalism and white supremacy."
+- "Hersey uses social media for work but is critical of the way it encourages a grind
+culture with historical roots in capitalism and white supremacy."
 
 - "introduced"—for example, indentured or wage labor. Whereas"
 
-- "Whereas the source of boredom for the leisure class was free time, the source of boredom for everyone else was work, and working people had no problem deciding what to do with whatever leisure time they were allotted."
+- "Whereas the source of boredom for the leisure class was free time, the source of
+boredom for everyone else was work, and working people had no problem deciding what to do
+with whatever leisure time they were allotted."
 
-- "In its least useful form, the concept of leisure time reflects an undignified process: working to buy the temporary experience of freedom and then faithfully breathing air in the little gaps that are allowed in the horizontal plane of work. Rest and recreation are applied like maintenance, the leisure machine to the feeding machine."
+- "In its least useful form, the concept of leisure time reflects an undignified process:
+working to buy the temporary experience of freedom and then faithfully breathing air in
+the little gaps that are allowed in the horizontal plane of work. Rest and recreation are
+applied like maintenance, the leisure machine to the feeding machine."
 
-- "At its most useful, however, leisure time is an interim means of questioning the bounds of the work that surrounds it. Like a stent in a culture that can't stand what looks like emptiness, it might provide that vertical crack in the horizontal scale of work and not-work—that critical pause during which the worker wonders why she works so much, where collective grief is processed, and where the edges of something new start to become visible."
+- "At its most useful, however, leisure time is an interim means of questioning the bounds
+of the work that surrounds it. Like a stent in a culture that can't stand what looks like
+emptiness, it might provide that vertical crack in the horizontal scale of work and
+not-work—that critical pause during which the worker wonders why she works so much, where
+collective grief is processed, and where the edges of something new start to become
+visible."
 
-- "What songs are audible when the wind stops? What has been kept alive in the time snatched from work and sheltered from ongoing destruction—what moments of recognition, what ways of relating, what other imagined worlds, what other selves? What other kinds of time?"
+- "What songs are audible when the wind stops? What has been kept alive in the time
+snatched from work and sheltered from ongoing destruction—what moments of recognition,
+what ways of relating, what other imagined worlds, what other selves? What other kinds of
+time?"
 
-- "In his 2021 special, Inside, Bo Burnham deadpans that "the outside world, the non-digital world, is merely a theatrical space in which one stages and records content for the much more real, much more vital, digital space. One should only engage with the outside world as one engages with a coal mine. Suit up, gather what is needed, and return to the surface."
+- "In his 2021 special, Inside, Bo Burnham deadpans that "the outside world, the
+non-digital world, is merely a theatrical space in which one stages and records content
+for the much more real, much more vital, digital space. One should only engage with the
+outside world as one engages with a coal mine. Suit up, gather what is needed, and return
+to the surface."
 
-- "For Bergson, time was duration—something creating, developing, and somewhat mysterious, as opposed to abstract and measurable. According to him, all our problems conceiving of the true nature of time stemmed from wanting to imagine discrete moments sitting side by side in space. He further noted that this "space" was not concrete environmental space, but something purely conceptual: Think of that green-on-black grid that sometimes shows up in the virtual nonspace of sci-fi movies, and think of moments in this kind of time as cubes existing in that space. (This conception also provided the grounds for the concept of fungible time I mention in chapters 1 and 2.) Bergson thought that our predisposition toward thinking of time in these kinds of spatial terms came from our experience manipulating inert matter; we wanted to see time in the same way, as something we could cut up, stack, and move around."
+- "For Bergson, time was duration—something creating, developing, and somewhat mysterious,
+as opposed to abstract and measurable. According to him, all our problems conceiving of
+the true nature of time stemmed from wanting to imagine discrete moments sitting side by
+side in space. He further noted that this "space" was not concrete environmental space,
+but something purely conceptual: Think of that green-on-black grid that sometimes shows up
+in the virtual nonspace of sci-fi movies, and think of moments in this kind of time as
+cubes existing in that space. (This conception also provided the grounds for the concept
+of fungible time I mention in chapters 1 and 2.) Bergson thought that our predisposition
+toward thinking of time in these kinds of spatial terms came from our experience
+manipulating inert matter; we wanted to see time in the same way, as something we could
+cut up, stack, and move around."
 
-- "Time as expressed in these processes—which Bergson explains using what he calls the élan vital (usually translated as "vital impetus" or "life force")—is not an abstract quantity to be counted up and measured. Instead, it's another irreversible turn of the kaleidoscope, something driving division, reproduction, growth, decay, and complexity. The old adage "You never step in the same river twice" also speaks quite well to what Bergson is describing, especially if you go on to consider the shifts in evolution of the riverbank, the canyon that the river may be slowly carving, and maybe even the cellular processes in your foot."
+- "Time as expressed in these processes—which Bergson explains using what he calls the
+élan vital (usually translated as "vital impetus" or "life force")—is not an abstract
+quantity to be counted up and measured. Instead, it's another irreversible turn of the
+kaleidoscope, something driving division, reproduction, growth, decay, and complexity. The
+old adage "You never step in the same river twice" also speaks quite well to what Bergson
+is describing, especially if you go on to consider the shifts in evolution of the
+riverbank, the canyon that the river may be slowly carving, and maybe even the cellular
+processes in your foot."
 
-- "Meanwhile, as you stand there thinking about it, the live edge of the lava is moving forward into the future, which is imminent in every present moment but also contains the history of everything that happened before. Another example would be a seed that has fallen from one individual in a generation of plants and that contains the instructions for a future plant."
+- "Meanwhile, as you stand there thinking about it, the live edge of the lava is moving
+forward into the future, which is imminent in every present moment but also contains the
+history of everything that happened before. Another example would be a seed that has
+fallen from one individual in a generation of plants and that contains the instructions
+for a future plant."
 
-- "Clock time is not the only form of time reckoning we experience, but it is certainly primary in how many of us think about the "stuff" of time. And it was an allegiance to clock time that allowed colonists, anthropologists, and contemporary Western observers in general to view non-Western and indigenous cultures as being without, or outside, time."
+- "Clock time is not the only form of time reckoning we experience, but it is certainly
+primary in how many of us think about the "stuff" of time. And it was an allegiance to
+clock time that allowed colonists, anthropologists, and contemporary Western observers in
+general to view non-Western and indigenous cultures as being without, or outside, time."
 
-- "We don't have a word for nonlinear in our languages because nobody would consider traveling, thinking, or talking in a straight line in the first place. The winding path is just how a path is, and therefore it needs no name."
+- "We don't have a word for nonlinear in our languages because nobody would consider
+traveling, thinking, or talking in a straight line in the first place. The winding path is
+just how a path is, and therefore it needs no name."
 
-- "by every subsequent wave. Look again at the pebbles. Make no mistake: They are neither signs nor symbols of time. No—they really are two things at once: seafloor from the last ice age, and future sand."
+- "by every subsequent wave. Look again at the pebbles. Make no mistake: They are neither
+signs nor symbols of time. No—they really are two things at once: seafloor from the last
+ice age, and future sand."
 
-- "Resting here gives us a very different sense of being "on time." Rather than avatars passing through an empty calendar square, we are actually on top of the material outcome of processes that span millions of years into both the past and the future. Suddenly, everything we look at is suffused with concrete time: not just the pebbles, crags, and cliffs, but also the fog's slow movement to the south; each wave's unrepeatable expression of tides and wind; the frenetic activity of the beach flies; the dispersion of air and water through our bodies; and even the chemicals flashing across our synapses as we think these very thoughts. They, too, will never repeat, and they, too, make the world anew."
+- "Resting here gives us a very different sense of being "on time." Rather than avatars
+passing through an empty calendar square, we are actually on top of the material outcome
+of processes that span millions of years into both the past and the future. Suddenly,
+everything we look at is suffused with concrete time: not just the pebbles, crags, and
+cliffs, but also the fog's slow movement to the south; each wave's unrepeatable expression
+of tides and wind; the frenetic activity of the beach flies; the dispersion of air and
+water through our bodies; and even the chemicals flashing across our synapses as we think
+these very thoughts. They, too, will never repeat, and they, too, make the world anew."
 
 - "ROCKS WILL TEACH you the inseparability of time and space."
 
-- "I see that the events of the past are still present….This impression is a glimpse not of timelessness but timefulness, an acute consciousness of how the world is made by—indeed, made of—time."
+- "I see that the events of the past are still present….This impression is a glimpse not
+of timelessness but timefulness, an acute consciousness of how the world is made
+by—indeed, made of—time."
 
-- "Newtonian time is the kind of time that can be measured, bought, and sold. Wage work requires us to see time as "stuff" divorced from bodies and environmental context."
+- "Newtonian time is the kind of time that can be measured, bought, and sold. Wage work
+requires us to see time as "stuff" divorced from bodies and environmental context."
 
-- "There is no inherent reason for a season to be any length of time, much less of four equal, mutually exclusive lengths. Until relatively recently, the naming and recognition of seasons or seasonal entities was an indicator of some action to be taken: collecting, hunting, harvesting."
+- "There is no inherent reason for a season to be any length of time, much less of four
+equal, mutually exclusive lengths. Until relatively recently, the naming and recognition
+of seasons or seasonal entities was an indicator of some action to be taken: collecting,
+hunting, harvesting."
 
-- "If, as Deloria puts it, each place exhibits a "personality," then it is made out of as much when as who: a string of overlapping developments like the tracks of a song. This song sounds slightly different in each place:"
+- "If, as Deloria puts it, each place exhibits a "personality," then it is made out of as
+much when as who: a string of overlapping developments like the tracks of a song. This
+song sounds slightly different in each place:"
 
 - "invisibility is part of the very nature of habit."
 
-- "In the translator's afterword to a 2010 edition of An Attempt at Exhausting a Place in Paris, Marc Lowenthal emphasizes the "attempt" in Perec's toc: true
-title, writing that "time, unarrestable, works against [Perec's] project….Every bus that passes, every person who walks by, every object, thing, and event—everything that happens and that does not happen ultimately serves no other function than that of so many chronometers, so many signals, methods, and clues for marking time, for eroding permanence."
+- "In the translator's afterword to a 2010 edition of An Attempt at Exhausting a Place in
+Paris, Marc Lowenthal emphasizes the "attempt" in Perec's toc: true title, writing that
+"time, unarrestable, works against [Perec's] project….Every bus that passes, every person
+who walks by, every object, thing, and event—everything that happens and that does not
+happen ultimately serves no other function than that of so many chronometers, so many
+signals, methods, and clues for marking time, for eroding permanence."
 
 - "The Birds Are Not on Lockdown, and More People Are Watching Them,"
 
-- "it might "give us peace and calm to see that even though our rhythm is interrupted, there is a larger rhythm that continues to go on."
+- "it might "give us peace and calm to see that even though our rhythm is interrupted,
+there is a larger rhythm that continues to go on."
 
-- "Most living entities and systems on this planet obviously do not live by the Western human clock (though some, like the crows who memorize a city's daily garbage truck route, do of course adapt to the timing of human activities). To watch a brown creeper as it inches up and down, peering into crevices and extracting bugs with its little dentist beak, is thus a way of catching a ride out of the grid and toward a time sense so different that it is barely imaginable to us."
+- "Most living entities and systems on this planet obviously do not live by the Western
+human clock (though some, like the crows who memorize a city's daily garbage truck route,
+do of course adapt to the timing of human activities). To watch a brown creeper as it
+inches up and down, peering into crevices and extracting bugs with its little dentist
+beak, is thus a way of catching a ride out of the grid and toward a time sense so
+different that it is barely imaginable to us."
 
 - "The literal tree in front of you is encoding time and change at this literal moment."
 
-- "This exercise of unfreezing something in time is not hard to do. If you want to see time that isn't fungible, just pick a point in space—a branch, a yard, a sidewalk square, a webcam—and simply keep watch. A story is being written there. Like the larger and larger wind patterns on Windy.com, this story is inseparable from the story of all life, even yours. This story is, finally, the signature of "it": the restless, unstoppable, constantly overturning thing that makes it all go."
+- "This exercise of unfreezing something in time is not hard to do. If you want to see
+time that isn't fungible, just pick a point in space—a branch, a yard, a sidewalk square,
+a webcam—and simply keep watch. A story is being written there. Like the larger and larger
+wind patterns on Windy.com, this story is inseparable from the story of all life, even
+yours. This story is, finally, the signature of "it": the restless, unstoppable,
+constantly overturning thing that makes it all go."
 
-- "The world, just like the architecture of a city, becomes a patchwork of outcomes from different weeks, decades, and centuries, all of it being built upon and eroded—pushing, trickling, and winging forward into the unknown."
+- "The world, just like the architecture of a city, becomes a patchwork of outcomes from
+different weeks, decades, and centuries, all of it being built upon and eroded—pushing,
+trickling, and winging forward into the unknown."
 
-- "In a display case, a thing becomes only a facsimile of itself, like a drum hung on the gallery wall," Kimmerer writes. "A drum becomes authentic when human hand meets wood and hide. Only then do they fulfill its intention."
+- "In a display case, a thing becomes only a facsimile of itself, like a drum hung on the
+gallery wall," Kimmerer writes. "A drum becomes authentic when human hand meets wood and
+hide. Only then do they fulfill its intention."
 
-- "Having specifically studied how mosses "decide" to grow on a rock, Kimmerer knows that the mosses that grow on rocks are "inordinately resistant to domestication."
+- "Having specifically studied how mosses "decide" to grow on a rock, Kimmerer knows that
+the mosses that grow on rocks are "inordinately resistant to domestication."
 
 - "Owning diminishes the innate sovereignty of the thing,"
 
-- "To see something in time is to allow that it has a life and to allow that this life entails more than the mechanistic cause-and-effect of a Newtonian world. In this way of thinking, mosses "decide" which rocks to live on, and even rocks have lives."
+- "To see something in time is to allow that it has a life and to allow that this life
+entails more than the mechanistic cause-and-effect of a Newtonian world. In this way of
+thinking, mosses "decide" which rocks to live on, and even rocks have lives."
 
-- "The specifically disorienting part, for me, was when it showed Canada geese passing over New York City. Seen as part of a journey the geese had taken for thousands of years, the skyline looked suddenly alien to me; "New York" became an odd conglomeration of hard shapes and protrusions along a particular riverbank. The city existed for the geese, too, but they read it differently, perhaps as a signpost on a path of other signposts that may have included other rivers. Their flight path tied these places together into one big calendar. As"
+- "The specifically disorienting part, for me, was when it showed Canada geese passing
+over New York City. Seen as part of a journey the geese had taken for thousands of years,
+the skyline looked suddenly alien to me; "New York" became an odd conglomeration of hard
+shapes and protrusions along a particular riverbank. The city existed for the geese, too,
+but they read it differently, perhaps as a signpost on a path of other signposts that may
+have included other rivers. Their flight path tied these places together into one big
+calendar. As"
 
-- "THE word experience has a common origin with experiment. To experience something is to be present for it, to be the responsive co-creator of something that is happening—like the ducks and geese who make migration happen by sensing the weather and deciding when to leave."
+- "THE word experience has a common origin with experiment. To experience something is to
+be present for it, to be the responsive co-creator of something that is happening—like the
+ducks and geese who make migration happen by sensing the weather and deciding when to
+leave."
 
-- "Experience isn't merely the best teacher; it's the only teacher. If she's learned anything raising Jax, it's that there are no shortcuts; if you want to create the common sense that comes from twenty years of being in the world, you need to devote twenty years to the task. You can't assemble an equivalent collection of heuristics in less time; experience is algorithmically incompressible."
+- "Experience isn't merely the best teacher; it's the only teacher. If she's learned
+anything raising Jax, it's that there are no shortcuts; if you want to create the common
+sense that comes from twenty years of being in the world, you need to devote twenty years
+to the task. You can't assemble an equivalent collection of heuristics in less time;
+experience is algorithmically incompressible."
 
-- "The real paradox is a mind that conceives of the world as inert but that may come to see itself as bound to the same laws of determinism as everything else—in a way, the ultimate self-own."
+- "The real paradox is a mind that conceives of the world as inert but that may come to
+see itself as bound to the same laws of determinism as everything else—in a way, the
+ultimate self-own."
 
-- "Freedom is choice, and choice is scattered throughout the universe, pushing forward and acting upon what would constrain it."
+- "Freedom is choice, and choice is scattered throughout the universe, pushing forward and
+acting upon what would constrain it."
 
-- "For Bergson, the everyday experience of learning and recognition demonstrates both the freshness of each moment and the irreversibility of time. He describes walking through a familiar town where the buildings don't seem to change. But as he thinks back to the first time he ever observed those buildings, a comparison emerges that momentarily unfreezes the world: "It seems that these objects, continually perceived by me and constantly impressing themselves on my mind, have ended by borrowing from me something of my own conscious existence; like myself they have lived, and like myself they have grown old. This is not a mere illusion: for if today's impression were absolutely identical with that of yesterday, what difference would there be between perceiving and recognizing, between learning and remembering?"
+- "For Bergson, the everyday experience of learning and recognition demonstrates both the
+freshness of each moment and the irreversibility of time. He describes walking through a
+familiar town where the buildings don't seem to change. But as he thinks back to the first
+time he ever observed those buildings, a comparison emerges that momentarily unfreezes the
+world: "It seems that these objects, continually perceived by me and constantly impressing
+themselves on my mind, have ended by borrowing from me something of my own conscious
+existence; like myself they have lived, and like myself they have grown old. This is not a
+mere illusion: for if today's impression were absolutely identical with that of yesterday,
+what difference would there be between perceiving and recognizing, between learning and
+remembering?"
 
-- "Like rocks pushing up out of the depths and the water that wears them down; like browned and ripened buckeye fruits falling off the tree and rolling down the hill; like poetry, which strains the boundaries of an ossified language; or like Bergson's cascading rocket that can never be arrested—the co-creation events of our lives do not play out in an external, homogenous time. They are the stuff of time itself."
+- "Like rocks pushing up out of the depths and the water that wears them down; like
+browned and ripened buckeye fruits falling off the tree and rolling down the hill; like
+poetry, which strains the boundaries of an ossified language; or like Bergson's cascading
+rocket that can never be arrested—the co-creation events of our lives do not play out in
+an external, homogenous time. They are the stuff of time itself."
 
-- "the future can cease to look like an abstract horizon toward which your abstract ego plods in its lonely container of a body. Instead, "it," that irrepressible force that drives this moment into the next, is a thing that is speaking back to you always—even and especially from unexpected places. The task for many of us is to learn once more how to hear."
+- "the future can cease to look like an abstract horizon toward which your abstract ego
+plods in its lonely container of a body. Instead, "it," that irrepressible force that
+drives this moment into the next, is a thing that is speaking back to you always—even and
+especially from unexpected places. The task for many of us is to learn once more how to
+hear."
 
-- "it is one thing to acknowledge the past and future losses that follow from what has occurred; it is another to truly see history and the future proceeding with the same grim amorality as the video playhead, where nothing is driving it except itself. In failing to recognize the agency of both human and nonhuman actors, such a view makes struggle and contingency invisible and produces nihilism, nostalgia, and ultimately paralysis."
+- "it is one thing to acknowledge the past and future losses that follow from what has
+occurred; it is another to truly see history and the future proceeding with the same grim
+amorality as the video playhead, where nothing is driving it except itself. In failing to
+recognize the agency of both human and nonhuman actors, such a view makes struggle and
+contingency invisible and produces nihilism, nostalgia, and ultimately paralysis."
 
-- "some relationships arguably end in the first place because partners have stopped seeing each other in time, one partner having replaced the living, changing other with a static image that can impart no surprises, only a comforting presence."
+- "some relationships arguably end in the first place because partners have stopped seeing
+each other in time, one partner having replaced the living, changing other with a static
+image that can impart no surprises, only a comforting presence."
 
-- "a Westerner's attempt to arrive at the idea of how things are "supposed to be" is usually fraught, because it doesn't take into account who is doing the supposing."
+- "a Westerner's attempt to arrive at the idea of how things are "supposed to be" is
+usually fraught, because it doesn't take into account who is doing the supposing."
 
-- "that?…Mountain time and city time appear to be bifocal. Even with geology functioning at such remarkably short intervals,"
+- "A super-event in 1934? In 1938? In 1969? In 1978? Who is going to remember
+that?… Mountain time and city time appear to be bifocal. Even with geology functioning at
+such remarkably short intervals, people have ample time to forget it."
 
-- "A super-event in 1934? In 1938? In 1969? In 1978? Who is going to remember that?…Mountain time and city time appear to be bifocal. Even with geology functioning at such remarkably short intervals, people have ample time to forget it."
+- "Fire was part of a reciprocal responsibility between one subject (humans) and another
+(land)."
 
-- "Fire was part of a reciprocal responsibility between one subject (humans) and another (land)."
+- "The land is not really the place (separate from ourselves) where we act out the drama
+of our isolate destinies. It is not a means of survival, a setting for our affairs….It is
+rather a part of our being, dynamic, significant, real. It is our self."
 
-- "The land is not really the place (separate from ourselves) where we act out the drama of our isolate destinies. It is not a means of survival, a setting for our affairs….It is rather a part of our being, dynamic, significant, real. It is our self."
+- "To think deterministically is to take things for granted, both forward and backward in
+time. Just as I misunderstood the forested mountains as a child, projecting them into a
+supposedly uniform past, the concept of the Anthropocene has the potential to make the
+outcomes of specific actions by specific people seem like a natural and inevitable
+condition."
 
-- "To think deterministically is to take things for granted, both forward and backward in time. Just as I misunderstood the forested mountains as a child, projecting them into a supposedly uniform past, the concept of the Anthropocene has the potential to make the outcomes of specific actions by specific people seem like a natural and inevitable condition."
+- "Human beings were rendered economic machines that seek to maximize their share of
+sparse natural resources. The inscription of a bio-evolutionary and thus inevitable
+impulse behind the ascent of Western Man—"we all want to grab more resources, Europeans
+just did it better than everyone else"—came to vindicate capitalism, white supremacy, and
+imperial expansion. The West invented Man and projected Him onto the past as natural and
+timeless, rather than historical and cultural."
 
-- "Human beings were rendered economic machines that seek to maximize their share of sparse natural resources. The inscription of a bio-evolutionary and thus inevitable impulse behind the ascent of Western Man—"we all want to grab more resources, Europeans just did it better than everyone else"—came to vindicate capitalism, white supremacy, and imperial expansion. The West invented Man and projected Him onto the past as natural and timeless, rather than historical and cultural."
-
-- "The story of Enlightenment Man teaches me an all-too-common truth: that the people who stand to gain the most from determinism (in others) are typically the people doing the determining."
+- "The story of Enlightenment Man teaches me an all-too-common truth: that the people who
+stand to gain the most from determinism (in others) are typically the people doing the
+determining."
 
 - "We just sell the cigarettes; you're the ones smoking them."
 
-- "In the meantime, energy companies' emphasis on consumption is disingenuous. This rhetoric echoes Big Tobacco's effort to portray itself as a neutral purveyor of what consumers just can't seem to help but demand. In other words, We just sell the cigarettes; you're the ones smoking them. A framing like this one portrays climate change as solely"
+- "In the meantime, energy companies' emphasis on consumption is disingenuous. This
+rhetoric echoes Big Tobacco's effort to portray itself as a neutral purveyor of what
+consumers just can't seem to help but demand. In other words, We just sell the cigarettes;
+you're the ones smoking them. A framing like this one portrays climate change as solely"
 
-- "A framing like this one portrays climate change as solely "our" fault, where the "our" is an aggregate of consumers who should attend to their carbon footprint calculators. All the while, as Aronoff writes, "every shred of evidence suggests the [energy] industry is moving full speed ahead in the opposite direction, pushing more exploration and more production as temperatures rise, seas swell, and fires burn." One smoky day while I was writing this chapter, a Wells Fargo ATM asked me if I wanted to donate to help with the wildfires. I stared back at the screen. Wells Fargo is one of the largest funders of fossil fuels, having invested $198 billion into the coal, oil, and gas industry in the four years following the Paris Agreement. Just as the industry of individual time management resells the idea of time as money to the isolated bootstrapper, energy companies sell the idea of the carbon footprint to conceal larger and more significant avenues of change. These include both technological and political tools to which we already have access. For Klein, Aronoff, and others, some of those tools would be public regulation and oversight—things like the Green New Deal—and standing up to the global trade agreements that favor the suicidal time horizon of energy companies. Indeed, Klein has an entire chapter toc: true
-titled "Planning and Banning." Klein acknowledges that this is an uphill battle in the United States, where both planning and banning are currently decried as government overreach. Nevertheless, she writes, "we should be clear about the nature of the challenge: it is not that 'we' are broke or that we lack options. It is that our political class is utterly unwilling to go where the money is (unless it's for a campaign contribution), and the corporate class is dead set against paying its fair share." For her part, Aronoff takes great pains throughout her book to remind us that the hill in the uphill battle is historically specific: "In positing all of human existence as an endless striving toward market society, neoliberals had to erase not just the possibility of a future but all memory of a past when humans managed to organize themselves in other ways. The kinds of tools needed to navigate out of the climate crisis—things like public ownership, full employment, or even just tough regulations—have receded into memory." Aronoff is talking mostly about policies of the New Deal era, before a globalized economy took hold and the perception of government regulation soured in a neoliberal atmosphere. But one could extend this notion of political amnesia even further back, as an echo of what serynada describes: rewriting the history of Man as an economic machine. Again, purgatory is enervating. Like a fog machine spewing a priori dystopia, energy companies are still selling their certain future, still designing targets and portraying us as drifting helplessly toward them. I think back on my nightmares, about how the future looks there. Who wrote that scenario? — A PIER JUTS out from the promenade into that uncompromising ocean. The moment we move past the"
+- "A framing like this one portrays climate change as solely "our" fault, where the "our"
+is an aggregate of consumers who should attend to their carbon footprint calculators. All
+the while, as Aronoff writes, "every shred of evidence suggests the [energy] industry is
+moving full speed ahead in the opposite direction, pushing more exploration and more
+production as temperatures rise, seas swell, and fires burn." One smoky day while I was
+writing this chapter, a Wells Fargo ATM asked me if I wanted to donate to help with the
+wildfires. I stared back at the screen. Wells Fargo is one of the largest funders of
+fossil fuels, having invested $198 billion into the coal, oil, and gas industry in the
+four years following the Paris Agreement. Just as the industry of individual time
+management resells the idea of time as money to the isolated bootstrapper, energy
+companies sell the idea of the carbon footprint to conceal larger and more significant
+avenues of change. These include both technological and political tools to which we
+already have access. For Klein, Aronoff, and others, some of those tools would be public
+regulation and oversight—things like the Green New Deal—and standing up to the global
+trade agreements that favor the suicidal time horizon of energy companies. Indeed, Klein
+has an entire chapter toc: true titled "Planning and Banning." Klein acknowledges that
+this is an uphill battle in the United States, where both planning and banning are
+currently decried as government overreach. Nevertheless, she writes, "we should be clear
+about the nature of the challenge: it is not that 'we' are broke or that we lack options.
+It is that our political class is utterly unwilling to go where the money is (unless it's
+for a campaign contribution), and the corporate class is dead set against paying its fair
+share." For her part, Aronoff takes great pains throughout her book to remind us that the
+hill in the uphill battle is historically specific: "In positing all of human existence as
+an endless striving toward market society, neoliberals had to erase not just the
+possibility of a future but all memory of a past when humans managed to organize
+themselves in other ways. The kinds of tools needed to navigate out of the climate
+crisis—things like public ownership, full employment, or even just tough regulations—have
+receded into memory." Aronoff is talking mostly about policies of the New Deal era, before
+a globalized economy took hold and the perception of government regulation soured in a
+neoliberal atmosphere. But one could extend this notion of political amnesia even further
+back, as an echo of what serynada describes: rewriting the history of Man as an economic
+machine. Again, purgatory is enervating. Like a fog machine spewing a priori dystopia,
+energy companies are still selling their certain future, still designing targets and
+portraying us as drifting helplessly toward them. I think back on my nightmares, about how
+the future looks there. Who wrote that scenario? — A PIER JUTS out from the promenade into
+that uncompromising ocean. The moment we move past the"
 
-- "Without suppressing grief, there has to be a different way of thinking about time than the one in which"
+- "Without suppressing grief, there has to be a different way of thinking about time than
+the one in which"
 
-- "Rather, to the nihilist who cannot imagine the future, I am highlighting a perspective that has survived, and continues to survive, the long-ago end of the world. There are many people and places that could accept neither Enlightenment Man's march of progress nor the billiard ball declinism of the Anthropocene—because that narrative was inherently premised upon their destruction, commodification, and relegation to a state of nonbeing. For those people and places, the historical past can never be an object of nostalgia, and the future has always been in jeopardy. If you don't want to kick the can down the road, look to those who never recognized the road in the first place. BACK ON THE seawall, there is a circle of five wooden posts that looks like a miniature Stonehenge, that most iconic of calendrical tools."
+- "Rather, to the nihilist who cannot imagine the future, I am highlighting a perspective
+that has survived, and continues to survive, the long-ago end of the world. There are many
+people and places that could accept neither Enlightenment Man's march of progress nor the
+billiard ball declinism of the Anthropocene—because that narrative was inherently premised
+upon their destruction, commodification, and relegation to a state of nonbeing. For those
+people and places, the historical past can never be an object of nostalgia, and the future
+has always been in jeopardy. If you don't want to kick the can down the road, look to
+those who never recognized the road in the first place. BACK ON THE seawall, there is a
+circle of five wooden posts that looks like a miniature Stonehenge, that most iconic of
+calendrical tools."
 
 - "The land is chief, man is its servant."
 
-- "NEVER TURN YOUR BACK ON THE OCEAN. That sign always puts me in my place. It reminds me that the beach is not an amenity for humans—that I can be there, but I'd better learn the laws of the ocean if I want to stay alive."
+- "NEVER TURN YOUR BACK ON THE OCEAN. That sign always puts me in my place. It reminds me
+that the beach is not an amenity for humans—that I can be there, but I'd better learn the
+laws of the ocean if I want to stay alive."
 
 - "I grew up on a false plateau I took for infinity."
 
-- "Observing that the Greek word apokalypsis meant "through the concealed," Washuta writes that "apocalypse has very little to do with the end of the world and everything to do with vision that sees the hidden, that dismantles the screen."
+- "Observing that the Greek word apokalypsis meant "through the concealed," Washuta writes
+that "apocalypse has very little to do with the end of the world and everything to do with
+vision that sees the hidden, that dismantles the screen."
 
 - "We live according to the sun, not the clock."
 
 - "Cynicism and nihilism will make you dry up, like soil compacted by neglect and abuse."
 
-- "As Marx writes in Capital, "Après moi, le déluge [After me, the flood] is the watchword of every capitalist and of every capitalist nation."
+- "As Marx writes in Capital, "Après moi, le déluge [After me, the flood] is the watchword
+of every capitalist and of every capitalist nation."
 
-- "Language is dynamic, unruly, always splintering. It has to be, because in order to use it, we take words and constructions we never chose and make them do what we—as collectives, however big or small—want them to do."
+- "Language is dynamic, unruly, always splintering. It has to be, because in order to use
+it, we take words and constructions we never chose and make them do what we—as
+collectives, however big or small—want them to do."
 
-- "Just because a language is imposed, it doesn't mean it can be controlled; and just because it's spoken, it doesn't mean it's been internalized."
+- "Just because a language is imposed, it doesn't mean it can be controlled; and just
+because it's spoken, it doesn't mean it's been internalized."
 
 - "An inside joke makes a new inside, a new center."
 
-- "Time was never a specific minute, but rather spaces of time, like early morning, just afternoon, or just before midnight. The real meaning of Indian time comes from…nake nula waun yelo, a phrase in traditional songs that means 'I'm ready for whatever, any place, always prepared.' "
+- "Time was never a specific minute, but rather spaces of time, like early morning, just
+afternoon, or just before midnight. The real meaning of Indian time comes from…nake nula
+waun yelo, a phrase in traditional songs that means 'I'm ready for whatever, any place,
+always prepared.' "
 
-- "But if, just for a moment, we leave behind historically and culturally specific notions of clock-based punctuality and time as money, then Filipino time actually doesn't appear to be a problem at all. If you and everyone you know are on it, then it's just time."
+- "But if, just for a moment, we leave behind historically and culturally specific notions
+of clock-based punctuality and time as money, then Filipino time actually doesn't appear
+to be a problem at all. If you and everyone you know are on it, then it's just time."
 
-- "Speaking a language is a way of participating in the making, preservation, and evolving of worlds."
+- "Speaking a language is a way of participating in the making, preservation, and evolving
+of worlds."
 
-- "Study is what you do with other people. It's talking and walking around with other people, working, dancing, suffering, some irreducible convergence of all three, held under the name of speculative practice….The point of calling it "study" is to mark that the incessant and irreversible intellectuality of these activities is already present."
+- "Study is what you do with other people. It's talking and walking around with other
+people, working, dancing, suffering, some irreducible convergence of all three, held under
+the name of speculative practice….The point of calling it "study" is to mark that the
+incessant and irreversible intellectuality of these activities is already present."
 
-- "In this partitioned, soundproof, PCB lined office jungle, truly the worst fate is to believe in your boss's dream, to strive for the company good."
+- "In this partitioned, soundproof, PCB lined office jungle, truly the worst fate is to
+believe in your boss's dream, to strive for the company good."
 
-- "Mould writes that, in either case, creativity is not actually creative, because it merely "produces more of the same form of society." If it makes progress, it is the progress of capitalist logic into ever-more-minute corners of our daily lives, making what Braverman calls "the universal market" even more universal."
+- "Mould writes that, in either case, creativity is not actually creative, because it
+merely "produces more of the same form of society." If it makes progress, it is the
+progress of capitalist logic into ever-more-minute corners of our daily lives, making what
+Braverman calls "the universal market" even more universal."
 
 - "Why are individuals expected to be "resilient" when corporations are not?"
 
-- "The demand for less work might be made "not so that we can have, do, or be what we already want, do, or are, but because it might allow us to consider and experiment with different kinds of lives, with wanting, doing, and being otherwise."
+- "The demand for less work might be made "not so that we can have, do, or be what we
+already want, do, or are, but because it might allow us to consider and experiment with
+different kinds of lives, with wanting, doing, and being otherwise."
 
-- "What does one do when one finds oneself marking time on the job? One develops a lot of cynicism, apathy, and anger to which there is no outlet."
+- "What does one do when one finds oneself marking time on the job? One develops a lot of
+cynicism, apathy, and anger to which there is no outlet."
 
 - "To keep walking is to keep living, to keep inquiring, and to keep hoping."
 
-- "This simple gesture, and the story of the beans, made me realize how broken my mental mechanisms were for thinking about anything beyond the transactional exchange."
+- "This simple gesture, and the story of the beans, made me realize how broken my mental
+mechanisms were for thinking about anything beyond the transactional exchange."
 
 - "Time can have many rhythms, and rhythms can take on many meanings."
 
-- "Tempo and intensity surround us at every level: we know that a birthday tomorrow can feel like an eternity to a little child whilst a birthday one year ago can seem like only yesterday to an old person. The dormant period of winter is followed by a burst of growth in spring….'Our' social time as it emerges from common usage is inseparable from the rhythms of the earth. Complexity reigns supreme."
+- "Tempo and intensity surround us at every level: we know that a birthday tomorrow can
+feel like an eternity to a little child whilst a birthday one year ago can seem like only
+yesterday to an old person. The dormant period of winter is followed by a burst of growth
+in spring….'Our' social time as it emerges from common usage is inseparable from the
+rhythms of the earth. Complexity reigns supreme."
 
-- "Saying it meant that you could take time and give time, but also that you could plant time and grow more of it and that there were different varieties of time. It meant that all your time grew out of someone else's time, maybe out of something someone planted long ago. It meant that time was not the currency of a zero-sum game and that, sometimes, the best way for me to get more time would be to give it to you, and the best way for you to get some would be to give it back to me. If time were not a commodity, then time, our time, would not be as scarce as it seemed just a moment ago. Together, we could have all the time in the world."
+- "Saying it meant that you could take time and give time, but also that you could plant
+time and grow more of it and that there were different varieties of time. It meant that
+all your time grew out of someone else's time, maybe out of something someone planted long
+ago. It meant that time was not the currency of a zero-sum game and that, sometimes, the
+best way for me to get more time would be to give it to you, and the best way for you to
+get some would be to give it back to me. If time were not a commodity, then time, our
+time, would not be as scarce as it seemed just a moment ago. Together, we could have all
+the time in the world."
 
-- "In "Why Time Management Is Ruining Our Lives," Oliver Burkeman observes that keeping a detailed log of your time use, in an effort to save time or spend it more wisely, ironically "heightens your awareness of the minutes ticking by, then lost forever." Whether on the level of minutes or of life stages and benchmarks, the more you stare at time, the more cruelly it seems to slip through your fingers."
+- "In "Why Time Management Is Ruining Our Lives," Oliver Burkeman observes that keeping a
+detailed log of your time use, in an effort to save time or spend it more wisely,
+ironically "heightens your awareness of the minutes ticking by, then lost forever."
+Whether on the level of minutes or of life stages and benchmarks, the more you stare at
+time, the more cruelly it seems to slip through your fingers."
 
-- "the product offered by a capitalist version of wellness is "the means to remake oneself into an ever more perfect self-correcting machine capable of setting goals and moving toward them with smooth determination."
+- "the product offered by a capitalist version of wellness is "the means to remake oneself
+into an ever more perfect self-correcting machine capable of setting goals and moving
+toward them with smooth determination."
 
-- "How long does it take, or should it take, for a body to move through the world, the forty-plus-hour work week, the demands of caregiving for ailing parents, the daily commute of the body with its changing needs over the life span—a pregnant body, an aging one, a body in recovery after a bad injury?" Hendren asks. "Is the clock of industrial time built for bodies at all?"
+- "How long does it take, or should it take, for a body to move through the world, the
+forty-plus-hour work week, the demands of caregiving for ailing parents, the daily commute
+of the body with its changing needs over the life span—a pregnant body, an aging one, a
+body in recovery after a bad injury?" Hendren asks. "Is the clock of industrial time built
+for bodies at all?"
 
-- "It's actually okay to be on a spectrum of reality. It means that there are times when it's juicier, there are times when it's drier, there's times when I'm gonna be tired, there's times when I'm going to have a lot of energy. It's actually part of being alive. It is being alive."
+- "It's actually okay to be on a spectrum of reality. It means that there are times when
+it's juicier, there are times when it's drier, there's times when I'm gonna be tired,
+there's times when I'm going to have a lot of energy. It's actually part of being alive.
+It is being alive."
 
-- "Too worn out to grasp, and forced to sit back, the tired and resigned person finds that something else floods in: the world, in all its detail, its constantly acting and infinitely dispersed agents, and its minute-by-minute changes."
+- "Too worn out to grasp, and forced to sit back, the tired and resigned person finds that
+something else floods in: the world, in all its detail, its constantly acting and
+infinitely dispersed agents, and its minute-by-minute changes."
 
-- "deep tiredness loosens the strictures of identity. Things flicker, twinkle, and vibrate at the edges."
+- "deep tiredness loosens the strictures of identity. Things flicker, twinkle, and vibrate
+at the edges."
 
-- "Maybe "the point" isn't to live more, in the literal sense of a longer or more productive life, but rather, to be more alive in any given moment—a movement outward and across, rather than shooting forward on a narrow, lonely track."
+- "Maybe "the point" isn't to live more, in the literal sense of a longer or more
+productive life, but rather, to be more alive in any given moment—a movement outward and
+across, rather than shooting forward on a narrow, lonely track."
 
-- "Disability highlights something that is true for all of us: No matter how independent and fit we may feel, we are not simply alive but, rather, kept alive—against odds that some people are nonetheless privileged enough to ignore."
+- "Disability highlights something that is true for all of us: No matter how independent
+and fit we may feel, we are not simply alive but, rather, kept alive—against odds that
+some people are nonetheless privileged enough to ignore."
 
-- "People do not spring up from the soil like mushrooms," she writes. "People need to be cared for and nurtured throughout their lives by other people."
+- "People do not spring up from the soil like mushrooms," she writes. "People need to be
+cared for and nurtured throughout their lives by other people."
 
-- "For me, death is when I can no longer engage with the world around me; when I can no longer take anything in and, therefore, can no longer connect."
+- "For me, death is when I can no longer engage with the world around me; when I can no
+longer take anything in and, therefore, can no longer connect."
 
-- "what's the use of building your body if you can't build your mind?'"
+- "what's the use of building your body if you can't build your mind?"
 
-- "It is, therefore, a severe and grave misinterpretation of man to deal with him as if he were a closed system."
+- "It is, therefore, a severe and grave misinterpretation of man to deal with him as if he
+were a closed system."
 
-- "A lack of "direct access" to the mental states of those selves makes us less prone to see them as having evolving inner lives."
+- "A lack of "direct access" to the mental states of those selves makes us less prone to
+see them as having evolving inner lives."
 
-- "No matter how optimized, healthy, and productive I am, I simply will not become more or better forever, which means there are things I will never do and never be. Just like this book, which could have been anything when I started it, my life will take some paths and not others—and then it will end, the thread pulled out of the ball, with no witch to indulge me by taking it back. Realizing that I cannot be everything is in one sense incredibly freeing: It means I am not responsible for being everything. Yet the fact that life ends, for anyone who enjoys being alive and in the world, is also inherently sorrowful."
+- "No matter how optimized, healthy, and productive I am, I simply will not become more or
+better forever, which means there are things I will never do and never be. Just like this
+book, which could have been anything when I started it, my life will take some paths and
+not others—and then it will end, the thread pulled out of the ball, with no witch to
+indulge me by taking it back. Realizing that I cannot be everything is in one sense
+incredibly freeing: It means I am not responsible for being everything. Yet the fact that
+life ends, for anyone who enjoys being alive and in the world, is also inherently
+sorrowful."
 
-- "I feel alive if I'm not alone in the air, but embraced by it. I feel alive when someone's eyes light up, and mine do too. I feel alive if I can look at a deer and see it looking back at me; if, when geese speak, it sounds like language; if, when I walk on the ground, I feel it pushing back against me."
+- "I feel alive if I'm not alone in the air, but embraced by it. I feel alive when
+someone's eyes light up, and mine do too. I feel alive if I can look at a deer and see it
+looking back at me; if, when geese speak, it sounds like language; if, when I walk on the
+ground, I feel it pushing back against me."
 
-- "No one is responsible for an emergence; no one can glory in it, since it always occurs in the interstice."
+- "No one is responsible for an emergence; no one can glory in it, since it always occurs
+in the interstice."
 
-- "But when I understand that this glass is already broken, every minute with it is precious."
+- "But when I understand that this glass is already broken, every minute with it is
+precious."
 
-- "With nothing but distance between you and your destination, it may as well have already taken place. It's as though you had an amazing set of binoculars that let you see something far away in such detail that you didn't actually need to go there. Let's just get it over with, says the heartbroken subject, unable to enjoy her already-broken cup."
+- "With nothing but distance between you and your destination, it may as well have already
+taken place. It's as though you had an amazing set of binoculars that let you see
+something far away in such detail that you didn't actually need to go there. Let's just
+get it over with, says the heartbroken subject, unable to enjoy her already-broken cup."
 
-- "You're turning time into space, he would say. You're imagining empty blocks of time stretching out in front of you, mentally crossing that distance toward the thing you think has already happened, instead of admitting the creative aspect of time that is ever evolving and shifting, each second heaving the world—and you—through the crust of the present and into the future."
+- "You're turning time into space, he would say. You're imagining empty blocks of time
+stretching out in front of you, mentally crossing that distance toward the thing you think
+has already happened, instead of admitting the creative aspect of time that is ever
+evolving and shifting, each second heaving the world—and you—through the crust of the
+present and into the future."
 
-- "Could it be that the opposite of looking assuredly through binoculars at a flat space would be the perspective you get when rounding a mountain trail—one where, even though you know where you are, things look different at every turn?"
+- "Could it be that the opposite of looking assuredly through binoculars at a flat space
+would be the perspective you get when rounding a mountain trail—one where, even though you
+know where you are, things look different at every turn?"
 
-- "Though my episodic memory goes back only so far, my existence is explained by older things: my mother's immigration, a war whose exigencies threw my grandparents together, and the fish swimming off the coast of Estancia, on the eastern tip of Iloilo. The people who fished there have something to do with me, just as I continue to have something to do with them."
+- "Though my episodic memory goes back only so far, my existence is explained by older
+things: my mother's immigration, a war whose exigencies threw my grandparents together,
+and the fish swimming off the coast of Estancia, on the eastern tip of Iloilo. The people
+who fished there have something to do with me, just as I continue to have something to do
+with them."
 
-- "Kinship moves in cycles, the land moves in seasonal cycles, the sky moves in stellar cycles, and time is so bound up in those things that it is not even a separate concept from space. We experience time in a very different way from people immersed in flat schedules and story-less surfaces. In our spheres of existence, time does not go in a straight line, and it is as tangible as the ground we stand on."
+- "Kinship moves in cycles, the land moves in seasonal cycles, the sky moves in stellar
+cycles, and time is so bound up in those things that it is not even a separate concept
+from space. We experience time in a very different way from people immersed in flat
+schedules and story-less surfaces. In our spheres of existence, time does not go in a
+straight line, and it is as tangible as the ground we stand on."
 
-- "Compared to chronos, kairos sounds like the domain of those wayfarers who knew that time is inseparable from space and that every place-moment demands close attention, lest you miss your opportunity. It's not that you can't plan, but that the time in the plan doesn't appear flat, dead, inert. Instead, in the "meantime," you wait with your ear to the ground for patterns of vibration that will never repeat themselves. Faced with flatness, you look for an opening. When it comes, you take it, and you don't look back."
+- "Compared to chronos, kairos sounds like the domain of those wayfarers who knew that
+time is inseparable from space and that every place-moment demands close attention, lest
+you miss your opportunity. It's not that you can't plan, but that the time in the plan
+doesn't appear flat, dead, inert. Instead, in the "meantime," you wait with your ear to
+the ground for patterns of vibration that will never repeat themselves. Faced with
+flatness, you look for an opening. When it comes, you take it, and you don't look back."
 
-- "You can make the same mistake in the opposite direction, forgetting that the future will contain many such moments of doubt—or even neglecting to notice when you're in one."
+- "You can make the same mistake in the opposite direction, forgetting that the future
+will contain many such moments of doubt—or even neglecting to notice when you're in one."
 
-- "The past would crush you with tradition, and the future would crush you with determinism. Hence the importance and fragility of the "gap" (another term for "non-time") in the toc: true
-title of Arendt's preface, "The Gap between Past and Future." To live in the gap between past and future is quite simply the human condition, even if culturally dominant and politically convenient views of time, history, and the future obscure it from us. Looking mournfully to the future in which something new can never happen, we can't see ourselves standing in the gap, the only place where anything new is capable of happening. It makes me wonder if one meaning of "having time" is to halve time—to make a cut in chronos and hold the past and the future apart as much as hope will allow.[*5] — EVERY PIECE OF writing is a time capsule. It assembles fragments of its own world and sends them onward to a reader who exists in a different one, not just in space but also in time. Even writing privately in a journal presupposes a future self who will be reading it—and a future at all. In the case of this book, I cannot know what has happened between the time I am writing this and the time in which you are encountering it. But I can tell you that I am living in a moment of doubt. Perhaps you are, too. That evening when I saw the indistinguishable figure, I had been headed to the place where the road ends, a designated "natural area" called Raab's Lagoon. There, after the pavement turns to grass, you pass under alder and fir trees and come to a bench dedicated to a man who died in 2016. If you keep going, the pathway juts out into the water, part of an artificial barrier between the waters of Quartermaster Harbor and the smaller lagoon. Across a small breach through which the harbor water flows, the barrier continues on until it hits the other side of the lagoon. The first time I visited, the water in the breach didn't seem to be moving in any particular direction. It was high tide, though I didn't know that at the time; having just arrived, I thought the area always looked like that. Over the course of a few weeks, I inevitably became familiar with the tides, because Quartermaster Harbor was right outside the door of my room. When the tide was high, you could hear the water plopping and the plastic canoe docks banging against the wooden posts, something I started to call "the song of the dock." When the tide was lower, white-winged scoters, migratory diving ducks with a surreal flourish of a white feather under their eyes, would appear in loose flocks and dive for the mussels at the bottom. When the tide was all the way out, the mussel shells were maximally revealed, and both people"
+- "The past would crush you with tradition, and the future would crush you with
+determinism. Hence the importance and fragility of the "gap" (another term for "non-time")
+in the toc: true title of Arendt's preface, "The Gap between Past and Future." To live in
+the gap between past and future is quite simply the human condition, even if culturally
+dominant and politically convenient views of time, history, and the future obscure it from
+us. Looking mournfully to the future in which something new can never happen, we can't see
+ourselves standing in the gap, the only place where anything new is capable of happening.
+It makes me wonder if one meaning of "having time" is to halve time—to make a cut in
+chronos and hold the past and the future apart as much as hope will allow.[*5] — EVERY
+PIECE OF writing is a time capsule. It assembles fragments of its own world and sends them
+onward to a reader who exists in a different one, not just in space but also in time. Even
+writing privately in a journal presupposes a future self who will be reading it—and a
+future at all. In the case of this book, I cannot know what has happened between the time
+I am writing this and the time in which you are encountering it. But I can tell you that I
+am living in a moment of doubt. Perhaps you are, too. That evening when I saw the
+indistinguishable figure, I had been headed to the place where the road ends, a designated
+"natural area" called Raab's Lagoon. There, after the pavement turns to grass, you pass
+under alder and fir trees and come to a bench dedicated to a man who died in 2016. If you
+keep going, the pathway juts out into the water, part of an artificial barrier between the
+waters of Quartermaster Harbor and the smaller lagoon. Across a small breach through which
+the harbor water flows, the barrier continues on until it hits the other side of the
+lagoon. The first time I visited, the water in the breach didn't seem to be moving in any
+particular direction. It was high tide, though I didn't know that at the time; having just
+arrived, I thought the area always looked like that. Over the course of a few weeks, I
+inevitably became familiar with the tides, because Quartermaster Harbor was right outside
+the door of my room. When the tide was high, you could hear the water plopping and the
+plastic canoe docks banging against the wooden posts, something I started to call "the
+song of the dock." When the tide was lower, white-winged scoters, migratory diving ducks
+with a surreal flourish of a white feather under their eyes, would appear in loose flocks
+and dive for the mussels at the bottom. When the tide was all the way out, the mussel
+shells were maximally revealed, and both people"
 
 - "The mind always wants to categorize and compare,"
 
-- "A belief may be comforting. Only through your own experience, however, does it become liberating."
+- "A belief may be comforting. Only through your own experience, however, does it become
+liberating."
 
-- "So the single most vital step on your journey toward enlightenment is this: learn to disidentify from your mind. Every time you create a gap in the stream of mind, the light of your consciousness grows stronger."
+- "So the single most vital step on your journey toward enlightenment is this: learn to
+disidentify from your mind. Every time you create a gap in the stream of mind, the light
+of your consciousness grows stronger."
 
 - "Emotion arises at the place where mind and body meet."
 
-- "If you really want to know your mind, the body will always give you a truthful reflection, so look at the emotion or rather feel it in your body. If there is an apparent conflict between them, the thought will be the lie, the emotion will be the truth."
+- "If you really want to know your mind, the body will always give you a truthful
+reflection, so look at the emotion or rather feel it in your body. If there is an apparent
+conflict between them, the thought will be the lie, the emotion will be the truth."
 
-- "doorway into Being. ¤ An emotion usually represents an amplified and energized thought pattern, and because of its often overpowering energetic charge, it is not easy initially to stay present enough to be able to watch it. It wants to take you over, and it usually succeeds unless there is enough presence in you."
+- "doorway into Being. ¤ An emotion usually represents an amplified and energized thought
+pattern, and because of its often overpowering energetic charge, it is not easy initially
+to stay present enough to be able to watch it. It wants to take you over, and it usually
+succeeds unless there is enough presence in you."
 
-- "Basically, all emotions are modifications of one primordial, undifferentiated emotion that has its origin in the loss of awareness of who you are beyond name and form. Because of its undifferentiated nature, it is hard to find a name that precisely describes this emotion. "Fear" comes close, but apart from a continuous sense of threat, it also includes a deep sense of abandonment and incompleteness."
+- "Basically, all emotions are modifications of one primordial, undifferentiated emotion
+that has its origin in the loss of awareness of who you are beyond name and form. Because
+of its undifferentiated nature, it is hard to find a name that precisely describes this
+emotion. "Fear" comes close, but apart from a continuous sense of threat, it also includes
+a deep sense of abandonment and incompleteness."
 
 - "the harder the mind struggles to get rid of the pain, the greater the pain."
 
 - "Pleasure is always derived from something outside you, whereas joy arises from within."
 
-- "Even when the sky is heavily overcast, the sun hasn't disappeared. It's still there on the other side of the clouds."
+- "Even when the sky is heavily overcast, the sun hasn't disappeared. It's still there on
+the other side of the clouds."
 
-- "All cravings are the mind seeking salvation or fulfillment in external things and in the future as a substitute for the joy of Being."
+- "All cravings are the mind seeking salvation or fulfillment in external things and in
+the future as a substitute for the joy of Being."
 
-- "Pain is inevitable as long as you are identified with your mind, which is to say as long as you are unconscious, spiritually speaking."
+- "Pain is inevitable as long as you are identified with your mind, which is to say as
+long as you are unconscious, spiritually speaking."
 
-- "The pain that you create now is always some form of nonacceptance, some form of unconscious resistance to what is."
+- "The pain that you create now is always some form of nonacceptance, some form of
+unconscious resistance to what is."
 
 - "In other words, the more you are identified with your mind, the more you suffer."
 
-- "Yes, we need the mind as well as time to function in this world, but there comes a point where they take over our lives, and this is where dysfunction, pain, and sorrow set in."
+- "Yes, we need the mind as well as time to function in this world, but there comes a
+point where they take over our lives, and this is where dysfunction, pain, and sorrow set
+in."
 
-- "The accumulation of time in the collective and individual human mind also holds a vast amount of residual pain from the past."
+- "The accumulation of time in the collective and individual human mind also holds a vast
+amount of residual pain from the past."
 
-- "Always say "yes" to the present moment. What could be more futile, more insane, than to create inner resistance to something that already"
+- "Always say "yes" to the present moment. What could be more futile, more insane, than to
+create inner resistance to something that already"
 
-- "What could be more futile, more insane, than to create inner resistance to something that already is?"
+- "What could be more futile, more insane, than to create inner resistance to something
+that already is?"
 
-- "By watching the mechanics of the mind, you step out of its resistance patterns, and you can then allow the present moment to be."
+- "By watching the mechanics of the mind, you step out of its resistance patterns, and you
+can then allow the present moment to be."
 
-- "Accept then act. Whatever the present moment contains, accept it as if you had chosen it. Always work with it, not against it. Make it your friend and ally, not your enemy. This will miraculously transform your whole life."
+- "Accept then act. Whatever the present moment contains, accept it as if you had chosen
+it. Always work with it, not against it. Make it your friend and ally, not your enemy.
+This will miraculously transform your whole life."
 
 - "Pain can only feed on pain. Pain cannot feed on joy. It finds it quite indigestible."
 
-- "Once the pain-body has taken you over, you want more pain. You become a victim or a perpetrator. You want to inflict pain, or you want to suffer pain, or both. There isn't really much difference between the two."
+- "Once the pain-body has taken you over, you want more pain. You become a victim or a
+perpetrator. You want to inflict pain, or you want to suffer pain, or both. There isn't
+really much difference between the two."
 
 - "Where there is anger, there is always pain underneath."
 
-- "your own light will quickly grow stronger. When a log that has only just started to burn is placed next to one that is burning fiercely, and after"
+- "your own light will quickly grow stronger. When a log that has only just started to
+burn is placed next to one that is burning fiercely, and after"
 
-- "When a log that has only just started to burn is placed next to one that is burning fiercely, and after a while they are separated again, the first log will be burning with much greater intensity. After all, it is the same fire."
+- "When a log that has only just started to burn is placed next to one that is burning
+fiercely, and after a while they are separated again, the first log will be burning with
+much greater intensity. After all, it is the same fire."
 
 - "an emotion is the body's reaction to your mind."
 
 - "To the ego, death is always just around the corner."
 
-- "Power over others is weakness disguised as strength. True power is within, and it is available to you now."
+- "Power over others is weakness disguised as strength. True power is within, and it is
+available to you now."
 
 - "The secret of life is to "die before you die" and find that there is no death."
 
-- "Studying the complexities of the mind may make you a good psychologist, but doing so won't take you beyond the mind, just as the study of madness isn't enough to create sanity."
+- "Studying the complexities of the mind may make you a good psychologist, but doing so
+won't take you beyond the mind, just as the study of madness isn't enough to create
+sanity."
 
-- "The ego's needs are endless. It feels vulnerable and threatened and so lives in a state of fear and want."
+- "The ego's needs are endless. It feels vulnerable and threatened and so lives in a state
+of fear and want."
 
-- "When you are present, you can allow the mind to be as it is without getting entangled in it. The mind in itself is not dysfunctional. It is a wonderful tool. Dysfunction sets in when you seek your self in it and mistake it for who you are. It then becomes the egoic mind and takes over your whole life."
+- "When you are present, you can allow the mind to be as it is without getting entangled
+in it. The mind in itself is not dysfunctional. It is a wonderful tool. Dysfunction sets
+in when you seek your self in it and mistake it for who you are. It then becomes the egoic
+mind and takes over your whole life."
 
-- "The eternal present is the space within which your whole life unfolds, the one factor that remains constant. Life is now. There was never a time when your life was not now, nor will there ever be."
+- "The eternal present is the space within which your whole life unfolds, the one factor
+that remains constant. Life is now. There was never a time when your life was not now, nor
+will there ever be."
 
-- "What you think of as the past is a memory trace, stored in the mind, of a former Now. When you remember the past, you reactivate a memory trace and you do so now. The future is an imagined Now, a projection of the mind."
+- "What you think of as the past is a memory trace, stored in the mind, of a former Now.
+When you remember the past, you reactivate a memory trace and you do so now. The future is
+an imagined Now, a projection of the mind."
 
-- "Time is what keeps the light from reaching us. There is no greater obstacle to God than time."
+- "Time is what keeps the light from reaching us. There is no greater obstacle to God than
+time."
 
-- "The mind cannot know the tree. It can only know facts or information about the tree. My mind cannot know you, only labels, judgments, facts, and opinions about you. Being alone knows directly."
+- "The mind cannot know the tree. It can only know facts or information about the tree. My
+mind cannot know you, only labels, judgments, facts, and opinions about you. Being alone
+knows directly."
 
-- "heavy burden of psychological time. If you set yourself a goal and work toward it, you are using clock time. You are aware of where you want to go, but you honor and give your fullest attention to the"
+- "heavy burden of psychological time. If you set yourself a goal and work toward it, you
+are using clock time. You are aware of where you want to go, but you honor and give your
+fullest attention to the"
 
-- "If you set yourself a goal and work toward it, you are using clock time. You are aware of where you want to go, but you honor and give your fullest attention to the step that you are taking at this moment. If you then become excessively focused on the goal, perhaps because you are seeking happiness, fulfillment, or a more complete sense of self in it, the Now is no longer honored. It becomes reduced to a mere stepping stone to the future, with no intrinsic value. Clock time then turns into psychological time. Your life's journey is no longer an adventure, just an obsessive need to arrive, to attain, to "make it." You no longer see or smell the flowers by the wayside either, nor are you aware of the beauty and the miracle of life that unfolds all around you when you are present in the Now."
+- "If you set yourself a goal and work toward it, you are using clock time. You are aware
+of where you want to go, but you honor and give your fullest attention to the step that
+you are taking at this moment. If you then become excessively focused on the goal, perhaps
+because you are seeking happiness, fulfillment, or a more complete sense of self in it,
+the Now is no longer honored. It becomes reduced to a mere stepping stone to the future,
+with no intrinsic value. Clock time then turns into psychological time. Your life's
+journey is no longer an adventure, just an obsessive need to arrive, to attain, to "make
+it." You no longer see or smell the flowers by the wayside either, nor are you aware of
+the beauty and the miracle of life that unfolds all around you when you are present in the
+Now."
 
 - "belief in a future heaven creates a present hell."
 
-- "Guilt, regret, resentment, grievances, sadness, bitterness, and all forms of nonforgiveness are caused by too much past, and not enough presence."
+- "Guilt, regret, resentment, grievances, sadness, bitterness, and all forms of
+nonforgiveness are caused by too much past, and not enough presence."
 
-- "If all your problems or perceived causes of suffering or unhappiness were miraculously removed for you today, but you had not become more present, more conscious, you would soon find yourself with a similar set of problems or causes of suffering, like a shadow that follows you wherever you go."
+- "If all your problems or perceived causes of suffering or unhappiness were miraculously
+removed for you today, but you had not become more present, more conscious, you would soon
+find yourself with a similar set of problems or causes of suffering, like a shadow that
+follows you wherever you go."
 
-- "There is no salvation in time. You cannot be free in the future. Presence is the key to freedom, so you can only be free now."
+- "There is no salvation in time. You cannot be free in the future. Presence is the key to
+freedom, so you can only be free now."
 
-- "Hope is what keeps you going, but hope keeps you focused on the future, and this continued focus perpetuates your denial of the Now and therefore your unhappiness."
+- "Hope is what keeps you going, but hope keeps you focused on the future, and this
+continued focus perpetuates your denial of the Now and therefore your unhappiness."
 
 - "The mind unconsciously loves problems because they give you an identity of sorts."
 
-- "Problem" means that you are dwelling on a situation mentally without there being a true intention or possibility of taking action now and that you are unconsciously making it part of your sense of self. You become so overwhelmed by your life situation that you lose your sense of life, of Being. Or you are carrying in your mind the insane burden of a hundred things that you will or may have to do in the future instead of focusing your attention on the one thing that you can do now."
+- "Problem" means that you are dwelling on a situation mentally without there being a true
+intention or possibility of taking action now and that you are unconsciously making it
+part of your sense of self. You become so overwhelmed by your life situation that you lose
+your sense of life, of Being. Or you are carrying in your mind the insane burden of a
+hundred things that you will or may have to do in the future instead of focusing your
+attention on the one thing that you can do now."
 
-- "If you cannot be present even in normal circumstances, such as when you are sitting alone in a room, walking in the woods, or listening to someone, then you certainly won't be able to stay conscious when something "goes wrong" or you are faced with difficult people or situations, with loss or the threat of loss. You will be taken over by a reaction, which ultimately is always some form of fear, and pulled into deep unconsciousness. Those challenges are your tests."
+- "If you cannot be present even in normal circumstances, such as when you are sitting
+alone in a room, walking in the woods, or listening to someone, then you certainly won't
+be able to stay conscious when something "goes wrong" or you are faced with difficult
+people or situations, with loss or the threat of loss. You will be taken over by a
+reaction, which ultimately is always some form of fear, and pulled into deep
+unconsciousness. Those challenges are your tests."
 
-- "When you learn to be the witness of your thoughts and emotions, which is an essential part of being present, you may be surprised when you first become aware of the background "static" of ordinary unconsciousness and realize how rarely, if ever, you are truly at ease within yourself. On the level of your thinking, you will find a great deal of resistance in the form of judgment, discontent, and mental projection away from the Now. On the emotional level, there will be an undercurrent of unease, tension, boredom, or nervousness. Both are aspects of the mind in its habitual resistance mode."
+- "When you learn to be the witness of your thoughts and emotions, which is an essential
+part of being present, you may be surprised when you first become aware of the background
+"static" of ordinary unconsciousness and realize how rarely, if ever, you are truly at
+ease within yourself. On the level of your thinking, you will find a great deal of
+resistance in the form of judgment, discontent, and mental projection away from the Now.
+On the emotional level, there will be an undercurrent of unease, tension, boredom, or
+nervousness. Both are aspects of the mind in its habitual resistance mode."
 
 - "Unhappiness spreads more easily than a physical disease."
 
-- "Once you realize that a certain kind of food makes you sick, would you carry on eating that food and keep asserting that it is okay to be sick?"
+- "Once you realize that a certain kind of food makes you sick, would you carry on eating
+that food and keep asserting that it is okay to be sick?"
 
-- "When you complain, you make yourself into a victim. When you speak out, you are in your power."
+- "When you complain, you make yourself into a victim. When you speak out, you are in your
+power."
 
-- "is there something that you "should" be doing but are not doing it? Get up and do it now. Alternatively, completely accept your inactivity, laziness, or passivity at this moment, if that is your choice. Go into it fully. Enjoy it. Be as lazy or inactive as you can. If you go into it fully and consciously, you will soon come out of it. Or maybe you won't. Either way, there is no inner conflict, no resistance, no negativity."
+- "is there something that you "should" be doing but are not doing it? Get up and do it
+now. Alternatively, completely accept your inactivity, laziness, or passivity at this
+moment, if that is your choice. Go into it fully. Enjoy it. Be as lazy or inactive as you
+can. If you go into it fully and consciously, you will soon come out of it. Or maybe you
+won't. Either way, there is no inner conflict, no resistance, no negativity."
 
-- "Stress is caused by being "here" but wanting to be "there," or being in the present but wanting to be in the future. Its a split that tears you apart inside."
+- "Stress is caused by being "here" but wanting to be "there," or being in the present but
+wanting to be in the future. Its a split that tears you apart inside."
 
-- "Waiting is a state of mind. Basically, it means that you want the future; you don't want the present. You don't want what you've got, and you want what you haven't got."
+- "Waiting is a state of mind. Basically, it means that you want the future; you don't
+want the present. You don't want what you've got, and you want what you haven't got."
 
-- "So give up waiting as a state of mind. When you catch yourself slipping into waiting . . . snap out of it. Come into the present moment."
+- "So give up waiting as a state of mind. When you catch yourself slipping into waiting .
+. . snap out of it. Come into the present moment."
 
-- "Your outer journey may contain a million steps; your inner journey only has one: the step you are taking right now."
+- "Your outer journey may contain a million steps; your inner journey only has one: the
+step you are taking right now."
 
-- "gain the world and lose your soul," as Jesus puts it. Ultimately, of course, every outer purpose is doomed to "fail" sooner or later, simply because it is subject to the law of impermanence of all things."
+- "gain the world and lose your soul," as Jesus puts it. Ultimately, of course, every
+outer purpose is doomed to "fail" sooner or later, simply because it is subject to the law
+of impermanence of all things."
 
-- "Ultimately, of course, every outer purpose is doomed to "fail" sooner or later, simply because it is subject to the law of impermanence of all things. The sooner you realize that your outer purpose cannot give you lasting fulfillment, the better. When you have seen the limitations of your outer purpose, you give up your unrealistic expectation that it should make you happy, and you make it subservient to your inner purpose."
+- "Ultimately, of course, every outer purpose is doomed to "fail" sooner or later, simply
+because it is subject to the law of impermanence of all things. The sooner you realize
+that your outer purpose cannot give you lasting fulfillment, the better. When you have
+seen the limitations of your outer purpose, you give up your unrealistic expectation that
+it should make you happy, and you make it subservient to your inner purpose."
 
 - "The past cannot survive in your presence. It can only survive in your absence."
 
-- "What do you mean by "rooted within yourself"? It means to inhabit your body fully. To always have some of your attention in the inner energy field of your body. To feel the body from within, so to speak. Body awareness keeps you present."
+- "What do you mean by "rooted within yourself"? It means to inhabit your body fully. To
+always have some of your attention in the inner energy field of your body. To feel the
+body from within, so to speak. Body awareness keeps you present."
 
-- "If a fish is born in your aquarium and you call it John, write out a birth certificate, tell him about his family history, and two minutes later he gets eaten by another fish thats tragic. But ifs only tragic because you projected a separate self where there was none. You got hold of a fraction of a dynamic process, a molecular dance, and made a separate entity out of it."
+- "If a fish is born in your aquarium and you call it John, write out a birth certificate,
+tell him about his family history, and two minutes later he gets eaten by another fish
+thats tragic. But ifs only tragic because you projected a separate self where there was
+none. You got hold of a fraction of a dynamic process, a molecular dance, and made a
+separate entity out of it."
 
-- "Consciousness takes on the disguise of forms until they reach such complexity that it completely loses itself in them."
+- "Consciousness takes on the disguise of forms until they reach such complexity that it
+completely loses itself in them."
 
 - "The teacher and the taught together create the teaching."
 
-- "Even if there is noise, there is always some silence underneath and in between the sounds. Listening to the silence immediately creates stillness inside you."
+- "Even if there is noise, there is always some silence underneath and in between the
+sounds. Listening to the silence immediately creates stillness inside you."
 
-- "You can study and talk about honey for as long as you like, but you won't really know it until you taste it. After you have tasted it, the word becomes less important to you. You won't be attached to it anymore."
+- "You can study and talk about honey for as long as you like, but you won't really know
+it until you taste it. After you have tasted it, the word becomes less important to you.
+You won't be attached to it anymore."
 
-- "An image, no matter how beautiful or powerful, is already defined in form, so there is less scope for penetrating more deeply."
+- "An image, no matter how beautiful or powerful, is already defined in form, so there is
+less scope for penetrating more deeply."
 
-- "The light of their consciousness was not yet strong enough to make friends with their animal nature, to allow it to be and even enjoy that aspect of themselves let alone to go deeply into it to find the divine hidden within it, the reality within the illusion. So they did what they had to do. They began to disassociate from their body. They now saw themselves as having a body, rather than just being it."
+- "The light of their consciousness was not yet strong enough to make friends with their
+animal nature, to allow it to be and even enjoy that aspect of themselves let alone to go
+deeply into it to find the divine hidden within it, the reality within the illusion. So
+they did what they had to do. They began to disassociate from their body. They now saw
+themselves as having a body, rather than just being it."
 
 - "Forgiveness is to offer no resistance to life to allow life to live through you."
 
 - "Before you enter the temple, forgive."
 
-- "In any thought activity, make it a habit to go back and forth every few minutes or so between thinking and an inner kind of listening, an inner stillness. We could say. don't just think with your head, think with your whole body."
+- "In any thought activity, make it a habit to go back and forth every few minutes or so
+between thinking and an inner kind of listening, an inner stillness. We could say. don't
+just think with your head, think with your whole body."
 
-- "opening up. Every sound is born out of silence, dies back into silence, and during its life span is surrounded by silence. Silence enables the sound to be."
+- "opening up. Every sound is born out of silence, dies back into silence, and during its
+life span is surrounded by silence. Silence enables the sound to be."
 
-- "Every sound is born out of silence, dies back into silence, and during its life span is surrounded by silence. Silence enables the sound to be. It is an intrinsic but unmanifested part 0fevery sound, every musical note, every song, every word."
+- "Every sound is born out of silence, dies back into silence, and during its life span is
+surrounded by silence. Silence enables the sound to be. It is an intrinsic but
+unmanifested part 0fevery sound, every musical note, every song, every word."
 
-- "Everybody pays attention to the things in space, but who pays attention to space itself?"
+- "Everybody pays attention to the things in space, but who pays attention to space
+itself?"
 
-- "Once you have a theory, ifs not too hard to find evidence to substantiate it, at least until some other theory comes along."
+- "Once you have a theory, ifs not too hard to find evidence to substantiate it, at least
+until some other theory comes along."
 
-- "At least two points of reference are needed for distance and space to come into being. Space comes into being the moment the One becomes two, and as "two" become the "ten thousand things," as Lao Tse calls the manifested world, space becomes more and more vast. So world and space arise simultaneously."
+- "At least two points of reference are needed for distance and space to come into being.
+Space comes into being the moment the One becomes two, and as "two" become the "ten
+thousand things," as Lao Tse calls the manifested world, space becomes more and more vast.
+So world and space arise simultaneously."
 
 - "If there were no illusion, there would be no enlightenment."
 
-- "You see time as the means to salvation, whereas in truth it is the greatest obstacle to salvation."
+- "You see time as the means to salvation, whereas in truth it is the greatest obstacle to
+salvation."
 
-- "The positive already contains within itself the as yet unmanifested negative. Both are in fact different aspects of the same dysfunction."
+- "The positive already contains within itself the as yet unmanifested negative. Both are
+in fact different aspects of the same dysfunction."
 
-- "The reason why the romantic love relationship is such an intense and universally sought-after experience is that it seems to offer liberation from a deep-seated state of fear, need, lack, and incompleteness that is part of the human condition in its unredeemed and unenlightened state."
+- "The reason why the romantic love relationship is such an intense and universally
+sought-after experience is that it seems to offer liberation from a deep-seated state of
+fear, need, lack, and incompleteness that is part of the human condition in its unredeemed
+and unenlightened state."
 
 - "Every addiction starts with pain and ends with pain."
 
-- "To disidentify from thinking is to be the silent watcher of your thoughts and behavior, especially the repetitive patterns of your mind and the roles played by the ego."
+- "To disidentify from thinking is to be the silent watcher of your thoughts and behavior,
+especially the repetitive patterns of your mind and the roles played by the ego."
 
-- "The bond that connects you with that person is the same bond that connects you with the person sitting next to you on a bus, or with a bird, a tree, a flower. Only the degree of intensity with which it is felt differs."
+- "The bond that connects you with that person is the same bond that connects you with the
+person sitting next to you on a bus, or with a bird, a tree, a flower. Only the degree of
+intensity with which it is felt differs."
 
-- "when you know there is disharmony and you hold that "knowing," through your knowing a new factor has come in, and the disharmony cannot remain unchanged."
+- "when you know there is disharmony and you hold that "knowing," through your knowing a
+new factor has come in, and the disharmony cannot remain unchanged."
 
-- "You cannot transform yourself, and you certainly cannot transform your partner or anybody else. All you can do is create a space for transformation to happen, for grace and love to enter."
+- "You cannot transform yourself, and you certainly cannot transform your partner or
+anybody else. All you can do is create a space for transformation to happen, for grace and
+love to enter."
 
-- "Judgment is either to confuse someone's unconscious behavior with who they are or to project your own unconsciousness onto another person and mistake that for who they are."
+- "Judgment is either to confuse someone's unconscious behavior with who they are or to
+project your own unconsciousness onto another person and mistake that for who they are."
 
-- "It is not easy to live with an enlightened person, or rather it is so easy that the ego finds it extremely threatening."
+- "It is not easy to live with an enlightened person, or rather it is so easy that the ego
+finds it extremely threatening."
 
-- "As a general rule, the major obstacle for men tends to be the thinking mind, and the major obstacle for women the pain-body, although in certain individual cases the opposite may be true, and in others the two factors may be equal."
+- "As a general rule, the major obstacle for men tends to be the thinking mind, and the
+major obstacle for women the pain-body, although in certain individual cases the opposite
+may be true, and in others the two factors may be equal."
 
-- "if you are trapped in a nightmare you will probably be more strongly motivated to awaken than someone who is just caught in the ups and downs of an ordinary dream."
+- "if you are trapped in a nightmare you will probably be more strongly motivated to
+awaken than someone who is just caught in the ups and downs of an ordinary dream."
 
-- "A victim identity is the belief that the past is more powerful than the present, which is the opposite of the truth."
+- "A victim identity is the belief that the past is more powerful than the present, which
+is the opposite of the truth."
 
-- "In Being, male and female are one. Your form may continue to have certain needs, but Being has none. It is already complete and whole. If those needs are met, that is beautiful, but whether or not they are met makes no difference to your deep inner state. So it is perfectly possible for an enlightened person, if the need for the male or female polarity is not met, to feel a sense of lack or incompleteness on the outer level of his or her being, yet at the same time be totally complete, fulfilled, and at peace within. In"
+- "In Being, male and female are one. Your form may continue to have certain needs, but
+Being has none. It is already complete and whole. If those needs are met, that is
+beautiful, but whether or not they are met makes no difference to your deep inner state.
+So it is perfectly possible for an enlightened person, if the need for the male or female
+polarity is not met, to feel a sense of lack or incompleteness on the outer level of his
+or her being, yet at the same time be totally complete, fulfilled, and at peace within.
+In"
 
 - "Acute unhappiness can be a great awakener."
 
 - "Happiness depends on conditions being perceived as positive; inner peace does not."
 
-- "For example, when a loved one has just died, or you feel your own death approaching, you cannot be happy. It is impossible. But you can be at peace. There may be sadness and tears, but provided that you have relinquished resistance, underneath the sadness you will feel a deep serenity, a stillness, a sacred presence. This is the emanation of Being, this is inner peace, the good that has no opposite."
+- "For example, when a loved one has just died, or you feel your own death approaching,
+you cannot be happy. It is impossible. But you can be at peace. There may be sadness and
+tears, but provided that you have relinquished resistance, underneath the sadness you will
+feel a deep serenity, a stillness, a sacred presence. This is the emanation of Being, this
+is inner peace, the good that has no opposite."
 
-- "Accept whatever comes to you woven in the pattern of your destiny, for what could more aptly fit your needs?"
+- "Accept whatever comes to you woven in the pattern of your destiny, for what could more
+aptly fit your needs?"
 
 - "You cannot have an argument with a fully conscious person."
 
@@ -16484,229 +17752,389 @@ title of Arendt's preface, "The Gap between Past and Future." To live in the gap
 
 - "Growth is usually considered positive, but nothing can grow forever."
 
-- "The cyclical nature of the universe is closely linked with the impermanence of all things and situations."
+- "The cyclical nature of the universe is closely linked with the impermanence of all
+things and situations."
 
 - "The happiness that is derived from some secondary source is never very deep."
 
-- "Have you ever seen an unhappy flower or a stressed oak tree? Have you come across a depressed dolphin, a frog that has a problem with self-esteem, a cat that cannot relax, or a bird that carries hatred and resentment? The only animals that may occasionally experience something akin to negativity or show signs of neurotic behavior are those that live in close contact with humans and so link into the human mind and its insanity."
+- "Have you ever seen an unhappy flower or a stressed oak tree? Have you come across a
+depressed dolphin, a frog that has a problem with self-esteem, a cat that cannot relax, or
+a bird that carries hatred and resentment? The only animals that may occasionally
+experience something akin to negativity or show signs of neurotic behavior are those that
+live in close contact with humans and so link into the human mind and its insanity."
 
-- "When you have reached a certain degree of presence, you don't need negativity anymore to tell you what is needed in your life situation. But as long as negativity is there, use it. Use it as a kind of signal that reminds you to be more present."
+- "When you have reached a certain degree of presence, you don't need negativity anymore
+to tell you what is needed in your life situation. But as long as negativity is there, use
+it. Use it as a kind of signal that reminds you to be more present."
 
-- "Even the slightest irritation is significant and needs to be acknowledged and looked at; otherwise, there will be a cumulative build-up of unobserved reactions."
+- "Even the slightest irritation is significant and needs to be acknowledged and looked
+at; otherwise, there will be a cumulative build-up of unobserved reactions."
 
-- "As an alternative to dropping a negative reaction, you can make it disappear by imagining yourself becoming transparent to the external cause of the reaction."
+- "As an alternative to dropping a negative reaction, you can make it disappear by
+imagining yourself becoming transparent to the external cause of the reaction."
 
-- "When you accept what is, every piece of meat every moment is the best. That is enlightenment."
+- "When you accept what is, every piece of meat every moment is the best. That is
+enlightenment."
 
-- "You don't resist change by mentally clinging to any situation. Your inner peace does not depend on it. You abide in Being unchanging, timeless, deathless and you are no longer dependent for fulfillment or happiness on the outer world of constantly fluctuating forms. You can enjoy them, play with them, create new forms, appreciate the beauty of it all. But there will be no need to attach yourself to any of it."
+- "You don't resist change by mentally clinging to any situation. Your inner peace does
+not depend on it. You abide in Being unchanging, timeless, deathless and you are no longer
+dependent for fulfillment or happiness on the outer world of constantly fluctuating forms.
+You can enjoy them, play with them, create new forms, appreciate the beauty of it all. But
+there will be no need to attach yourself to any of it."
 
 - "Compassion is the awareness of a deep bond between yourself and all creatures."
 
-- "Surrender is a purely inner phenomenon. It does not mean that on the outer level you cannot take action and change the situation."
+- "Surrender is a purely inner phenomenon. It does not mean that on the outer level you
+cannot take action and change the situation."
 
-- "¤ If you find your life situation unsatisfactory or even intolerable, it is only by surrendering first that you can break the unconscious resistance pattern"
+- "If you find your life situation unsatisfactory or even intolerable, it is only by
+surrendering first that you can break the unconscious resistance pattern that perpetuates
+that situation."
 
-- "If you find your life situation unsatisfactory or even intolerable, it is only by surrendering first that you can break the unconscious resistance pattern that perpetuates that situation."
-
-- "Surrender is perfectly compatible with taking action, initiating change or achieving goals. But in the surrendered state a totally different energy, a different quality, flows into your doing."
+- "Surrender is perfectly compatible with taking action, initiating change or achieving
+goals. But in the surrendered state a totally different energy, a different quality, flows
+into your doing."
 
 - "Look at the lilies, how they grow; they neither toil nor spin."
 
-- "Any action you take may not bear fruit immediately. Until it does do not resist what is. If there is no action you can take, and you cannot remove yourself from the situation either, then use the situation to make you go more deeply into surrender, more deeply into the Now, more deeply into Being. When you enter this timeless dimension of the present, change often comes about in strange ways without the need for a great deal of doing on your part. Life becomes helpful and cooperative."
+- "Any action you take may not bear fruit immediately. Until it does do not resist what
+is. If there is no action you can take, and you cannot remove yourself from the situation
+either, then use the situation to make you go more deeply into surrender, more deeply into
+the Now, more deeply into Being. When you enter this timeless dimension of the present,
+change often comes about in strange ways without the need for a great deal of doing on
+your part. Life becomes helpful and cooperative."
 
-- "In Taoism, there is a term called wu wei, which is usually translated as "actionless activity" or "sitting quietly doing nothing." In ancient China, this was regarded as one of the highest achievements or virtues. It is radically different from inactivity in the ordinary state of consciousness, or rather unconsciousness, which stems from fear, inertia, or indecision. The real "doing nothing" implies inner nonresistance and intense alertness. On the other hand, if action is required, you will no longer react from your conditioned mind, but you will respond to the situation out of your conscious presence. In that state, your mind is free of concepts, including the concept of nonviolence. So who can predict what you will do?"
+- "In Taoism, there is a term called wu wei, which is usually translated as "actionless
+activity" or "sitting quietly doing nothing." In ancient China, this was regarded as one
+of the highest achievements or virtues. It is radically different from inactivity in the
+ordinary state of consciousness, or rather unconsciousness, which stems from fear,
+inertia, or indecision. The real "doing nothing" implies inner nonresistance and intense
+alertness. On the other hand, if action is required, you will no longer react from your
+conditioned mind, but you will respond to the situation out of your conscious presence. In
+that state, your mind is free of concepts, including the concept of nonviolence. So who
+can predict what you will do?"
 
-- "Withdraw time from the illness. Do not give it any past or future. Let it force you into intense present-moment awareness and see what happens."
+- "Withdraw time from the illness. Do not give it any past or future. Let it force you
+into intense present-moment awareness and see what happens."
 
 - "The condition that is labeled "illness" has nothing to do with who you truly are."
 
-- "If you cannot accept what is outside, then accept what is inside. If you cannot accept the external condition, accept the internal condition. This means: Do not resist the pain. Allow it to be there. Surrender to the grief, despair, fear, loneliness, or whatever form the suffering takes. Witness it without labeling it mentally. Embrace it. Then see how the miracle of surrender transmutes deep suffering into deep peace."
+- "If you cannot accept what is outside, then accept what is inside. If you cannot accept
+the external condition, accept the internal condition. This means: Do not resist the pain.
+Allow it to be there. Surrender to the grief, despair, fear, loneliness, or whatever form
+the suffering takes. Witness it without labeling it mentally. Embrace it. Then see how the
+miracle of surrender transmutes deep suffering into deep peace."
 
 - "Suffering does not diminish in intensity when you make it unconscious."
 
-- "The mind, conditioned as it is by the past, always seeks to re- create what it knows and is familiar with. Even if it is painful, at least it is familiar. The mind always adheres to the known. The unknown is dangerous because it has no control over it. Thats why the mind dislikes and ignores the present moment. Present-moment awareness creates a gap not only in the stream of mind but also in the past-future continuum. Nothing truly new and creative can come into this world except through that gap, that clear space of infinite possibility."
+- "The mind, conditioned as it is by the past, always seeks to re- create what it knows
+and is familiar with. Even if it is painful, at least it is familiar. The mind always
+adheres to the known. The unknown is dangerous because it has no control over it. Thats
+why the mind dislikes and ignores the present moment. Present-moment awareness creates a
+gap not only in the stream of mind but also in the past-future continuum. Nothing truly
+new and creative can come into this world except through that gap, that clear space of
+infinite possibility."
 
-- "What comes to mind when we ask "Who am I?" consists of those things we have been paying attention to over the years. The same goes for our impressions of other people. The reality that appears to us is not so much what's out there as it is those aspects of the world we have focused on."
+- "What comes to mind when we ask "Who am I?" consists of those things we have been paying
+attention to over the years. The same goes for our impressions of other people. The
+reality that appears to us is not so much what's out there as it is those aspects of the
+world we have focused on."
 
 - "Before we can develop attentional stability, we first need to learn to relax."
 
-- "We are all aware of the way the body heals itself. Physicians don't heal abrasions, and surgeons don't mend bone fractures. Instead, they do whatever they can to allow the body to heal itself—by keeping the wound clean, setting the broken bone, and so on. These are so common that it's easy to lose sight of the extraordinary nature of the body's own healing power."
+- "We are all aware of the way the body heals itself. Physicians don't heal abrasions, and
+surgeons don't mend bone fractures. Instead, they do whatever they can to allow the body
+to heal itself—by keeping the wound clean, setting the broken bone, and so on. These are
+so common that it's easy to lose sight of the extraordinary nature of the body's own
+healing power."
 
-- "When a stream is polluted, one may try to add antidotes to the toxins in the water, hoping such additives will neutralize the damage. But the more straightforward and sensible approach is simply to stop the flow of contamination into the stream. When this is done, over time the flow of the water through soil, stones, and vegetation can purify the stream completely."
+- "When a stream is polluted, one may try to add antidotes to the toxins in the water,
+hoping such additives will neutralize the damage. But the more straightforward and
+sensible approach is simply to stop the flow of contamination into the stream. When this
+is done, over time the flow of the water through soil, stones, and vegetation can purify
+the stream completely."
 
-- "Genuine happiness is a symptom of a balanced, healthy mind, just as a sense of physical well-being is a sign of a healthy body."
+- "Genuine happiness is a symptom of a balanced, healthy mind, just as a sense of physical
+well-being is a sign of a healthy body."
 
-- "We do not exist independently from others, so our well-being cannot arise independently of others either."
+- "We do not exist independently from others, so our well-being cannot arise independently
+of others either."
 
-- "The reason we don't devote more time to balancing our minds is that we are betting our lives that we can find the happiness we seek by chasing fleeting pleasures."
+- "However busy we may be, or think we are, no one is paying us enough to have demands on
+our minds every single moment of the day."
 
-- "However busy we may be, or think we are, no one is paying us enough to have demands on our minds every single moment of the day."
+- "In the seen there is only the seen; in the heard, there is only the heard; in the
+sensed, there is only the sensed; in the mentally perceived, there is only the mentally
+perceived."
 
-- "In the seen there is only the seen; in the heard, there is only the heard; in the sensed, there is only the sensed; in the mentally perceived, there is only the mentally perceived."
+- "to divide your attention, consider your priorities. If something's worth doing, it's
+worth doing well, and if something's not worth doing, it's not worth doing at all."
 
-- "to divide your attention, consider your priorities. If something's worth doing, it's worth doing well, and if something's not worth doing, it's not worth doing at all."
-
-- "When you start to experience the inner calm, simplicity, and quietude of shamatha practice, you may become attached to this state of mind, and that can result in apathetic indifference to those around you and the world at large. You've got your own quiet space of serenity, and you may not want to be disturbed. The worthy venture of meditative training becomes derailed when it results in such complacency; it can become little more than a substitute for Prozac or Valium. The real aim of this practice is to cultivate mental balance that results in genuine happiness, and indifference to others is not a sign of genuine happiness or mental health."
+- "When you start to experience the inner calm, simplicity, and quietude of shamatha
+practice, you may become attached to this state of mind, and that can result in apathetic
+indifference to those around you and the world at large. You've got your own quiet space
+of serenity, and you may not want to be disturbed. The worthy venture of meditative
+training becomes derailed when it results in such complacency; it can become little more
+than a substitute for Prozac or Valium. The real aim of this practice is to cultivate
+mental balance that results in genuine happiness, and indifference to others is not a sign
+of genuine happiness or mental health."
 
 - "The quality of our lives reflects the ways we have cultivated our minds until now."
 
-- "Virtually anything may catalyze unhappiness, but its true source is always in the mind."
+- "Virtually anything may catalyze unhappiness, but its true source is always in the
+mind."
 
-- "Solitary meditation doesn't cause mental imbalances, but uncovers them. Boredom may set in, especially when the mind succumbs to laxity, and restlessness often comes in the wake of excitation. With perseverance you can move beyond these imbalances and begin to discover the well-being that arises from a balanced mind. But this requires courage to face your own inner demons and persist in the practice despite the emotional upheavals that are bound to occur in the course of this training."
+- "Solitary meditation doesn't cause mental imbalances, but uncovers them. Boredom may set
+in, especially when the mind succumbs to laxity, and restlessness often comes in the wake
+of excitation. With perseverance you can move beyond these imbalances and begin to
+discover the well-being that arises from a balanced mind. But this requires courage to
+face your own inner demons and persist in the practice despite the emotional upheavals
+that are bound to occur in the course of this training."
 
-- "those who have accustomed themselves to having few desires and contentment can find joy in solitude, whereas those who have not found such equilibrium are bound either to sink into laxity and depression or to float up into excitation and restlessness."
+- "those who have accustomed themselves to having few desires and contentment can find joy
+in solitude, whereas those who have not found such equilibrium are bound either to sink
+into laxity and depression or to float up into excitation and restlessness."
 
-- "What you make doesn't have to be witnessed, recorded, sold, or encased in glass for it to be a work of art."
+- "What you make doesn't have to be witnessed, recorded, sold, or encased in glass for it
+to be a work of art."
 
-- "by the mere fact of being alive, we are active participants in the ongoing process of creation."
+- "by the mere fact of being alive, we are active participants in the ongoing process of
+creation."
 
-- "Attuned choice by attuned choice, your entire life is a form of self-expression. You exist as a creative being in a creative universe. A singular work of art."
+- "Attuned choice by attuned choice, your entire life is a form of self-expression. You
+exist as a creative being in a creative universe. A singular work of art."
 
 - "The taste and beauty are in the eye of the beholder."
 
-- "If you have an idea you're excited about and you don't bring it to life, it's not uncommon for the idea to find its voice through another maker. This isn't because the other artist stole your idea, but because the idea's time has come."
+- "If you have an idea you're excited about and you don't bring it to life, it's not
+uncommon for the idea to find its voice through another maker. This isn't because the
+other artist stole your idea, but because the idea's time has come."
 
-- "The best artists tend to be the ones with the most sensitive antennae to draw in the energy resonating at a particular moment. Many great artists first develop sensitive antennae not to create art but to protect themselves. They have to protect themselves because everything hurts more. They feel everything more deeply."
+- "The best artists tend to be the ones with the most sensitive antennae to draw in the
+energy resonating at a particular moment. Many great artists first develop sensitive
+antennae not to create art but to protect themselves. They have to protect themselves
+because everything hurts more. They feel everything more deeply."
 
-- "Artists who are able to continually create great works throughout their lives often manage to preserve these childlike qualities. Practicing a way of being that allows you to see the world through uncorrupted, innocent eyes can free you to act in concert with the universe's timetable."
+- "Artists who are able to continually create great works throughout their lives often
+manage to preserve these childlike qualities. Practicing a way of being that allows you to
+see the world through uncorrupted, innocent eyes can free you to act in concert with the
+universe's timetable."
 
-- "Clouds never truly disappear. They change form. They turn into rain and become part of the ocean, and then evaporate and return to being clouds. The same is true of art."
+- "Clouds never truly disappear. They change form. They turn into rain and become part of
+the ocean, and then evaporate and return to being clouds. The same is true of art."
 
 - "As soon as you label an aspect of Source, you're no longer noticing, you're studying."
 
-- "Analysis is a secondary function. The awareness happens first as a pure connection with the object of your attention. If something strikes me as interesting or beautiful, first I live that experience. Only afterward might I attempt to understand it."
+- "Analysis is a secondary function. The awareness happens first as a pure connection with
+the object of your attention. If something strikes me as interesting or beautiful, first I
+live that experience. Only afterward might I attempt to understand it."
 
 - "The universe is only as large as our perception of it."
 
-- "doesn't fit easily within the limits of our belief system. The more raw data we can take in, and the"
+- "doesn't fit easily within the limits of our belief system. The more raw data we can
+take in, and the"
 
-- "The more raw data we can take in, and the less we shape it, the closer we get to nature."
+- "The more raw data we can take in, and the less we shape it, the closer we get to
+nature."
 
-- "One can think of the creative act as taking the sum of our vessel's contents as potential material, selecting for elements that seem useful or significant in the moment, and re-presenting them. This is Source drawn through us and made into books, movies, buildings, paintings, meals, businesses—whatever projects we embark on. If we choose to share what we make, our work can recirculate and become source material for others."
+- "One can think of the creative act as taking the sum of our vessel's contents as
+potential material, selecting for elements that seem useful or significant in the moment,
+and re-presenting them. This is Source drawn through us and made into books, movies,
+buildings, paintings, meals, businesses—whatever projects we embark on. If we choose to
+share what we make, our work can recirculate and become source material for others."
 
-- "What we create allows us to share glimpses of an inner landscape, one that is beyond our understanding. Art is our portal to the unseen world."
+- "The world of reason can be narrow and filled with dead ends, while a spiritual
+viewpoint is limitless and invites fantastic possibilities. The unseen world is
+boundless."
 
-- "The world of reason can be narrow and filled with dead ends, while a spiritual viewpoint is limitless and invites fantastic possibilities. The unseen world is boundless."
+- "The practice of spirituality is a way of looking at a world where you're not alone.
+There are deeper meanings behind the surface. The energy around you can be harnessed to
+elevate your work. You are part of something much larger than can be explained—a world of
+immense possibilities."
 
-- "The practice of spirituality is a way of looking at a world where you're not alone. There are deeper meanings behind the surface. The energy around you can be harnessed to elevate your work. You are part of something much larger than can be explained—a world of immense possibilities."
+- "If a piece of work, a fragment of consciousness, or an element of nature is somehow
+allowing us to access something bigger, that is its spiritual component made manifest. It
+awards us a glimpse of the unseen."
 
-- "If a piece of work, a fragment of consciousness, or an element of nature is somehow allowing us to access something bigger, that is its spiritual component made manifest. It awards us a glimpse of the unseen."
+- "If we aren't looking for clues, they'll pass by without us ever knowing. Notice
+connections and consider where they lead."
 
-- "If we aren't looking for clues, they'll pass by without us ever knowing. Notice connections and consider where they lead."
-
-- "the universe is nudging you with little reminders that it's on your side and wants to provide everything you need to complete your mission."
+- "the universe is nudging you with little reminders that it's on your side and wants to
+provide everything you need to complete your mission."
 
 - "Look for what you notice but no one else sees."
 
-- "Awareness needs constant refreshing. If it becomes a habit, even a good habit, it will need to be reinvented again and again. Until one day, you notice that you are always in the practice of awareness, at all times, in all places, living your life in a state of constant openness to receiving."
-
-- "Living life as an artist is a practice. You are either engaging in the practice or you're not."
+- "Awareness needs constant refreshing. If it becomes a habit, even a good habit, it will
+need to be reinvented again and again. Until one day, you notice that you are always in
+the practice of awareness, at all times, in all places, living your life in a state of
+constant openness to receiving."
 
 - "The real work of the artist is a way of being in the world."
 
-- "Because there's an endless amount of data available to us and we have a limited bandwidth to conserve, we might consider carefully curating the quality of what we allow in."
+- "Because there's an endless amount of data available to us and we have a limited
+bandwidth to conserve, we might consider carefully curating the quality of what we allow
+in."
 
-- "Of all the great works that we can experience, nature is the most absolute and enduring. We can witness it change through the seasons. We"
+- "Of all the great works that we can experience, nature is the most absolute and
+enduring. We can witness it change through the seasons."
 
-- "We don't have to understand nature to appreciate it. This is true of all things. Simply be aware of moments when your breath"
+- "We don't have to understand nature to appreciate it. This is true of all things. Simply
+be aware of moments when your breath"
 
-- "We don't have to understand nature to appreciate it. This is true of all things. Simply be aware of moments when your breath gets taken away by something of great beauty."
+- "We don't have to understand nature to appreciate it. This is true of all things. Simply
+be aware of moments when your breath gets taken away by something of great beauty."
 
 - "Nature transcends our tendencies to label and classify, to reduce and limit."
 
 - "It is said the ocean provides a closer reflection of who we are than any mirror."
 
-- "Even if an element seems static, whether a work of art in a museum or an everyday object in a kitchen, when we look at it deeply, we can see a newness. We recognize aspects unnoticed before. Reread the same book over and over, and we'll likely find new themes, undercurrents, details, and connections."
+- "Even if an element seems static, whether a work of art in a museum or an everyday
+object in a kitchen, when we look at it deeply, we can see a newness. We recognize aspects
+unnoticed before. Reread the same book over and over, and we'll likely find new themes,
+undercurrents, details, and connections."
 
 - "You can't step into the same stream"
 
-- "Our inner world is every bit as interesting, beautiful, and surprising as nature itself. It is, after all, born of nature."
+- "Our inner world is every bit as interesting, beautiful, and surprising as nature
+itself. It is, after all, born of nature."
 
-- "Ultimately, it doesn't make a difference whether your content originates on the inside or the outside. If a beautiful thought or phrase comes to mind, or if you see a beautiful sunset, one's not better than the other. Both are equally beautiful in different ways. It's helpful to consider there are always more options available to us than we might realize."
+- "Ultimately, it doesn't make a difference whether your content originates on the inside
+or the outside. If a beautiful thought or phrase comes to mind, or if you see a beautiful
+sunset, one's not better than the other. Both are equally beautiful in different ways.
+It's helpful to consider there are always more options available to us than we might
+realize."
 
-- "It isn't uncommon, out of the gibberish, for a story to unfold or key phrases to appear."
+- "It isn't uncommon, out of the gibberish, for a story to unfold or key phrases to
+appear."
 
-- "sleep. Memories can also be thought of as dreamlike. They're more a romantic"
+- "Memories can also be thought of as dreamlike. They're more a romantic story than a
+faithful document of a life event."
 
-- "Memories can also be thought of as dreamlike. They're more a romantic story than a faithful document of a life event."
-
-- "Tomorrow presents another opportunity for awareness, but it's never an opportunity for the same awareness."
+- "Tomorrow presents another opportunity for awareness, but it's never an opportunity for
+the same awareness."
 
 - "It helps to realize that it's better to follow the universe than those around you."
 
 - "Self-doubt lives in all of us. And while we may wish it gone, it is there to serve"
 
-- "Flaws are human, and the attraction of art is the humanity held in it. If we were machinelike, the art wouldn't resonate. It would be soulless. With life comes pain, insecurity, and fear."
+- "Flaws are human, and the attraction of art is the humanity held in it. If we were
+machinelike, the art wouldn't resonate. It would be soulless. With life comes pain,
+insecurity, and fear."
 
-- "If a creator is so afraid of judgment that they're unable to move forward, it might be that the desire to share the work isn't as strong as the desire to protect themselves. Perhaps art isn't their role. Their temperament might serve a different pursuit. This path is not for everyone. Adversity is part of the process."
+- "If a creator is so afraid of judgment that they're unable to move forward, it might be
+that the desire to share the work isn't as strong as the desire to protect themselves.
+Perhaps art isn't their role. Their temperament might serve a different pursuit. This path
+is not for everyone. Adversity is part of the process."
 
-- "One of the reasons so many great artists die of overdoses early in their lives is because they're using drugs to numb a very painful existence. The reason it's painful is the reason they became artists in the first place: their incredible sensitivity."
+- "One of the reasons so many great artists die of overdoses early in their lives is
+because they're using drugs to numb a very painful existence. The reason it's painful is
+the reason they became artists in the first place: their incredible sensitivity."
 
-- "If you see tremendous beauty or tremendous pain where other people see little or nothing at all, you're confronted with big feelings all the time. These emotions can be confusing and overwhelming. When those around you don't see what you see and feel what you feel, this can lead to a sense of isolation and a general feeling of not belonging, of otherness."
+- "If you see tremendous beauty or tremendous pain where other people see little or
+nothing at all, you're confronted with big feelings all the time. These emotions can be
+confusing and overwhelming. When those around you don't see what you see and feel what you
+feel, this can lead to a sense of isolation and a general feeling of not belonging, of
+otherness."
 
 - "All art is a work in progress."
 
 - "some things are too important to be taken seriously."
 
-- "the Buddhist concept of papancha, which translates as preponderance of thoughts. This speaks to the mind's tendency to respond to our experiences with an avalanche of mental chatter."
+- "the Buddhist concept of papancha, which translates as preponderance of thoughts. This
+speaks to the mind's tendency to respond to our experiences with an avalanche of mental
+chatter."
 
-- "The imperfections you're tempted to fix might prove to be what make the work great. And sometimes not."
+- "The imperfections you're tempted to fix might prove to be what make the work great. And
+sometimes not."
 
-- "Distraction is one of the best tools available to the artist when used skillfully. In some cases, it's the only way to get where we are going."
+- "Distraction is one of the best tools available to the artist when used skillfully. In
+some cases, it's the only way to get where we are going."
 
-- "Nothing begins with us. The more we pay attention, the more we begin to realize that all the work we ever do is a collaboration."
+- "Nothing begins with us. The more we pay attention, the more we begin to realize that
+all the work we ever do is a collaboration."
 
-- "The inspired-artist aspect of your self may be in conflict with the craftsperson aspect, disappointed that the craftsperson is unable to create the physical embodiment of the inspired artist's vision."
+- "The inspired-artist aspect of your self may be in conflict with the craftsperson
+aspect, disappointed that the craftsperson is unable to create the physical embodiment of
+the inspired artist's vision."
 
-- "A painting is just a painting until you put a frame on it and hang it on the wall, then it's called art. What's considered art is simply an agreement. And none of it is true."
+- "A painting is just a painting until you put a frame on it and hang it on the wall, then
+it's called art. What's considered art is simply an agreement. And none of it is true."
 
-- "A completed project is only made up of our intention and our experiments around it. Remove intention and all that's left is the ornamental shell."
+- "A completed project is only made up of our intention and our experiments around it.
+Remove intention and all that's left is the ornamental shell."
 
 - "Not all projects take time, but they do take a lifetime."
 
-- "Most creators think of themselves as the conductor of the orchestra. If we zoom out of our small view of reality, we function more as an instrumentalist in a much larger symphony the universe is orchestrating. We may not have a great understanding of what this magnum opus is because we only see the small part we play."
+- "Most creators think of themselves as the conductor of the orchestra. If we zoom out of
+our small view of reality, we function more as an instrumentalist in a much larger
+symphony the universe is orchestrating. We may not have a great understanding of what this
+magnum opus is because we only see the small part we play."
 
-- "Similarly, the total output of human creativity, in all its kaleidoscopic breadth, pieces together the fabric forming our culture. The underlying intention of our work is the aspect allowing it to fit neatly into this fabric. Rarely if ever do we know the grand intention, yet if we surrender to the creative impulse, our singular piece of the puzzle takes its proper shape."
+- "Similarly, the total output of human creativity, in all its kaleidoscopic breadth,
+pieces together the fabric forming our culture. The underlying intention of our work is
+the aspect allowing it to fit neatly into this fabric. Rarely if ever do we know the grand
+intention, yet if we surrender to the creative impulse, our singular piece of the puzzle
+takes its proper shape."
 
 - "Intention is all there is. The work is just a reminder."
 
 - "Rules, by their nature, are limitations."
 
-- "Rules direct us to average behaviors. If we're aiming to create works that are exceptional, most rules don't apply. Average is nothing to aspire to. The goal is not to fit in. If anything, it's to amplify the differences, what doesn't fit, the special characteristics unique to how you see the world. Instead of sounding like others, value your own voice. Develop it. Cherish it."
+- "Rules direct us to average behaviors. If we're aiming to create works that are
+exceptional, most rules don't apply. Average is nothing to aspire to. The goal is not to
+fit in. If anything, it's to amplify the differences, what doesn't fit, the special
+characteristics unique to how you see the world. Instead of sounding like others, value
+your own voice. Develop it. Cherish it."
 
-- "The reason to make art is to innovate and self-express, show something new, share what's inside, and communicate your singular perspective."
+- "The reason to make art is to innovate and self-express, show something new, share
+what's inside, and communicate your singular perspective."
 
 - "In the beginning, we approach our craft with a template of what's come before."
 
-- "As soon as you use a label to describe what you're working on, there's a temptation to conform to its rules."
+- "As soon as you use a label to describe what you're working on, there's a temptation to
+conform to its rules."
 
-- "Often, the most innovative ideas come from those who master the rules to such a degree that they can see past them or from those who never learned them at all."
+- "Often, the most innovative ideas come from those who master the rules to such a degree
+that they can see past them or from those who never learned them at all."
 
 - "Rules obeyed unconsciously are far stronger than the ones set on purpose."
 
-- "Holding every rule as breakable is a healthy way to live as an artist. It loosens constraints that promote a predictable sameness in our working methods."
+- "Holding every rule as breakable is a healthy way to live as an artist. It loosens
+constraints that promote a predictable sameness in our working methods."
 
-- "Once you have a new framework, some elements of your older process may find their way back into the work, and that's okay."
+- "Once you have a new framework, some elements of your older process may find their way
+back into the work, and that's okay."
 
-- "For any rules you accept of what you can and cannot do as an artist . . . of what your voice is and isn't . . . of what's required to do the work and what you don't need . . . it would be worthwhile to try the opposite."
+- "For any rules you accept of what you can and cannot do as an artist . . . of what your
+voice is and isn't . . . of what's required to do the work and what you don't need . . .
+it would be worthwhile to try the opposite."
 
 - "Think of a rule as an imbalance."
 
-- "Though to say that we listen with the ears, or the mind, might be a misconception. We listen with the whole body, our whole self."
+- "Though to say that we listen with the ears, or the mind, might be a misconception. We
+listen with the whole body, our whole self."
 
-- "Many of us experience life as if we're taking it in through a pair of headphones. We strip away the full register. We hear information, but don't detect the subtler vibrations of feeling in the body."
+- "Many of us experience life as if we're taking it in through a pair of headphones. We
+strip away the full register. We hear information, but don't detect the subtler vibrations
+of feeling in the body."
 
-- "If it's music you're listening to, consider closing your eyes. You may find yourself getting lost in the experience. When the piece ends, you might be surprised by where you find yourself. You've been transported to another place. The place where the music lives."
+- "If it's music you're listening to, consider closing your eyes. You may find yourself
+getting lost in the experience. When the piece ends, you might be surprised by where you
+find yourself. You've been transported to another place. The place where the music lives."
 
-- "Formulating an opinion is not listening. Neither is preparing a response, or defending our position or attacking another's. To listen impatiently is to hear nothing at all."
+- "Formulating an opinion is not listening. Neither is preparing a response, or defending
+our position or attacking another's. To listen impatiently is to hear nothing at all."
 
 - "Listening is suspending disbelief."
 
 - "More often than not, there are no right answers, just different perspectives."
 
-- "Many of our beliefs were learned before we had a choice in what we were taught. Some of them might go back generations and may no longer apply. Some may never have applied."
+- "Many of our beliefs were learned before we had a choice in what we were taught. Some of
+them might go back generations and may no longer apply. Some may never have applied."
 
-- "The lottery winner isn't ultimately happy after their sudden change of fortune. The home built hastily rarely survives the first storm. The single-sentence summary of a book or news event is no substitute for the full story."
+- "The lottery winner isn't ultimately happy after their sudden change of fortune. The
+home built hastily rarely survives the first storm. The single-sentence summary of a book
+or news event is no substitute for the full story."
 
 - "Re-reading even a well-understood paragraph or page can be revelatory."
 
@@ -16714,203 +18142,358 @@ title of Arendt's preface, "The Gap between Past and Future." To live in the gap
 
 - "Impatience is an argument with reality."
 
-- "When it comes to the creative process, patience is accepting that the majority of the work we do is out of our control. We can't force greatness to happen. All we can do is invite it in and await it actively. Not anxiously, as this might scare it off. Simply in a state of continual welcoming."
+- "When it comes to the creative process, patience is accepting that the majority of the
+work we do is out of our control. We can't force greatness to happen. All we can do is
+invite it in and await it actively. Not anxiously, as this might scare it off. Simply in a
+state of continual welcoming."
 
-- "If we remove time from the equation of a work's development, what we're left with is patience."
+- "If we remove time from the equation of a work's development, what we're left with is
+patience."
 
-- "Even the masterpieces that have been produced on tight timelines are the sum of decades spent patiently laboring on other works."
+- "Even the masterpieces that have been produced on tight timelines are the sum of decades
+spent patiently laboring on other works."
 
-- "What was it that allowed a machine to devise a move no one steeped in the game had ever made in thousands of years of play? It wasn't necessarily its intelligence. It was the fact that the machine learned the game from scratch, with no coach, no human intervention, no lessons based on an expert's past experience. The AI followed the fixed rules, not the millennia of accepted cultural norms attached to them. It didn't take into account the three-thousand-year-old traditions and conventions of Go. It didn't accept the narrative of how to properly play this game. It wasn't held back by limiting beliefs."
+- "What was it that allowed a machine to devise a move no one steeped in the game had ever
+made in thousands of years of play? It wasn't necessarily its intelligence. It was the
+fact that the machine learned the game from scratch, with no coach, no human intervention,
+no lessons based on an expert's past experience. The AI followed the fixed rules, not the
+millennia of accepted cultural norms attached to them. It didn't take into account the
+three-thousand-year-old traditions and conventions of Go. It didn't accept the narrative
+of how to properly play this game. It wasn't held back by limiting beliefs."
 
-- "One Go expert commented, "After humanity spent thousands of years improving our tactics, computers tell us that humans are completely wrong . . . I would go as far as to say not a single human has touched the edge of the truth of Go."
+- "One Go expert commented, "After humanity spent thousands of years improving our
+tactics, computers tell us that humans are completely wrong . . . I would go as far as to
+say not a single human has touched the edge of the truth of Go."
 
-- "To see what no human has seen before, to know what no human has known before, to create as no human has created before, it may be necessary to see as if through eyes that have never seen, know through a mind that has never thought, create with hands that have never been trained."
+- "To see what no human has seen before, to know what no human has known before, to create
+as no human has created before, it may be necessary to see as if through eyes that have
+never seen, know through a mind that has never thought, create with hands that have never
+been trained."
 
-- "Did the computer win because it knew more than the grandmaster or because it knew less?"
+- "Did the computer win because it knew more than the grandmaster or because it knew
+less?"
 
 - "Experience provides wisdom to draw from, but it tempers the power of naivete."
 
 - "The more ingrained your adopted approach, the harder it is to see past it."
 
-- "Just as an infant is selfish, they're protective of their art in a way that's not always cooperative."
+- "Just as an infant is selfish, they're protective of their art in a way that's not
+always cooperative."
 
-- "A child has no set of premises it relies on to make sense of the world. It may serve you to do the same. Any label you assume before sitting down to create, even one as foundational as sculptor, rapper, author, or entrepreneur, could be doing more harm than good. Strip away the labels. Now how do you see the world?"
+- "A child has no set of premises it relies on to make sense of the world. It may serve
+you to do the same. Any label you assume before sitting down to create, even one as
+foundational as sculptor, rapper, author, or entrepreneur, could be doing more harm than
+good. Strip away the labels. Now how do you see the world?"
 
-- "If you spent your whole life living near the ocean, your experience of it would almost certainly be less dramatic."
+- "If you spent your whole life living near the ocean, your experience of it would almost
+certainly be less dramatic."
 
-- "As artists, we aim to live in a way in which we see the extraordinary hidden in the seemingly mundane. Then challenge ourselves to share what we see in a way that allows others a glimpse of this remarkable beauty."
+- "As artists, we aim to live in a way in which we see the extraordinary hidden in the
+seemingly mundane. Then challenge ourselves to share what we see in a way that allows
+others a glimpse of this remarkable beauty."
 
-- "For the lungs to draw in air, they must first be emptied. For the mind to draw inspiration, it wants space to welcome the new. The universe seeks balance. Through this absence, you are inviting energy in."
+- "For the lungs to draw in air, they must first be emptied. For the mind to draw
+inspiration, it wants space to welcome the new. The universe seeks balance. Through this
+absence, you are inviting energy in."
 
-- "To vary your inspiration, consider varying your inputs. Turn the sound off to watch a film, listen to the same song on repeat, read only the first word of each sentence in a short story, arrange stones by size or color, learn to lucid dream."
+- "To vary your inspiration, consider varying your inputs. Turn the sound off to watch a
+film, listen to the same song on repeat, read only the first word of each sentence in a
+short story, arrange stones by size or color, learn to lucid dream."
 
-- "The work yielded may not be used in the current project, but it may be of use another time. Or it may not. The task of the artist is simply to recognize the transmission and stay with it in gratitude, until it truly runs its course."
+- "The work yielded may not be used in the current project, but it may be of use another
+time. Or it may not. The task of the artist is simply to recognize the transmission and
+stay with it in gratitude, until it truly runs its course."
 
 - "In terms of priority, inspiration comes first. You come next. The audience comes last."
 
 - "A full, imperfect version is generally more helpful than a seemingly perfect fragment."
 
-- "Wooden often said the only person you're ever competing against is yourself. The rest is out of your control."
+- "Wooden often said the only person you're ever competing against is yourself. The rest
+is out of your control."
 
-- "If you set a routine that is oppressive, you'll likely find excuses not to show up. It's in the interest of your art to create an easily achievable schedule to start with."
+- "If you set a routine that is oppressive, you'll likely find excuses not to show up.
+It's in the interest of your art to create an easily achievable schedule to start with."
 
-- "As if catching fish, we walk to the water, bait the hook, cast the line, and patiently wait. We cannot control the fish, only the presence of our line."
+- "As if catching fish, we walk to the water, bait the hook, cast the line, and patiently
+wait. We cannot control the fish, only the presence of our line."
 
 - "The work reveals itself as you go."
 
-- "Not every seed must grow. But it may be there is a right time for each one. If a seed does not seem to be developing or responding, consider storing it rather than discarding it. In nature, some seeds lie dormant in anticipation of the season most conducive to their growth. This is true of art as well. There are ideas whose time has not yet come. Or perhaps their time has come, but you are not yet ready to engage with them. Other times, developing a different seed may shed light on a dormant one."
+- "Not every seed must grow. But it may be there is a right time for each one. If a seed
+does not seem to be developing or responding, consider storing it rather than discarding
+it. In nature, some seeds lie dormant in anticipation of the season most conducive to
+their growth. This is true of art as well. There are ideas whose time has not yet come. Or
+perhaps their time has come, but you are not yet ready to engage with them. Other times,
+developing a different seed may shed light on a dormant one."
 
-- "As we lose enthusiasm, we often continue to labor on a seed, believing that the work has to turn out for the better because we've invested so much time in it. If the energy continues to drop, it does not necessarily mean that the seed is bad. We just may not have found the right experiment for it. Perhaps we need to step away for a time and shift perspective."
+- "As we lose enthusiasm, we often continue to labor on a seed, believing that the work
+has to turn out for the better because we've invested so much time in it. If the energy
+continues to drop, it does not necessarily mean that the seed is bad. We just may not have
+found the right experiment for it. Perhaps we need to step away for a time and shift
+perspective."
 
-- "Excitement tends to be the best barometer for selecting which seeds to focus on. When something interesting starts to come together, it arouses delight. It's an energizing feeling of wanting more. A feeling of leaning forward. Follow that energy."
+- "Excitement tends to be the best barometer for selecting which seeds to focus on. When
+something interesting starts to come together, it arouses delight. It's an energizing
+feeling of wanting more. A feeling of leaning forward. Follow that energy."
 
-- "There is a gap between imagination and reality. An idea might seem brilliant in our mind. But once employed, it might not work at all. Another might seem dreary at first. Then, upon execution, it might be exactly what's called for. To dismiss an idea because it"
+- "There is a gap between imagination and reality. An idea might seem brilliant in our
+mind. But once employed, it might not work at all. Another might seem dreary at first.
+Then, upon execution, it might be exactly what's called for. To dismiss an idea because
+it"
 
 - "Descriptions do not do ideas justice."
 
 - "Art may only exist, and the artist may only evolve, by completing the work."
 
-- "While crafting, make deadlines for your own motivation, not necessarily to be shared with others unless it helps with accountability. Once the Craft phase is nearing an end, then we might start thinking in terms of fixed deadlines."
+- "While crafting, make deadlines for your own motivation, not necessarily to be shared
+with others unless it helps with accountability. Once the Craft phase is nearing an end,
+then we might start thinking in terms of fixed deadlines."
 
-- "Art is a reflection of the artist's inner and outer world during the period of creation. Extending the period complicates the artist's ability to capture a state of being. The result can be a loss of connection and enthusiasm for the work over time."
+- "Art is a reflection of the artist's inner and outer world during the period of
+creation. Extending the period complicates the artist's ability to capture a state of
+being. The result can be a loss of connection and enthusiasm for the work over time."
 
-- "To avoid demo-itis, there is a simple technique. Unless actively working to make something better, avoid listening to it, reading it, playing it, looking at it, or showing it to friends. Work as far forward as you can while crafting and then step away, without repetitively consuming the unfinished work. By not accepting the work-in-progress as the standard version, we leave room for growth, change, and development to continue."
+- "To avoid demo-itis, there is a simple technique. Unless actively working to make
+something better, avoid listening to it, reading it, playing it, looking at it, or showing
+it to friends. Work as far forward as you can while crafting and then step away, without
+repetitively consuming the unfinished work. By not accepting the work-in-progress as the
+standard version, we leave room for growth, change, and development to continue."
 
-- "We mistake the fantasy version of the work in our minds for what the actual work has the possibility to become. There may indeed be times when our mental conception of a piece translates almost directly into the physical realm. At other times, it's an unrealistic idealized version. And sometimes, our vision for the work is a goal to work toward, and in the process we come to learn we'll reach a new and unexpected destination."
+- "We mistake the fantasy version of the work in our minds for what the actual work has
+the possibility to become. There may indeed be times when our mental conception of a piece
+translates almost directly into the physical realm. At other times, it's an unrealistic
+idealized version. And sometimes, our vision for the work is a goal to work toward, and in
+the process we come to learn we'll reach a new and unexpected destination."
 
-- "Falling short of grander visions might actually put the work exactly where it wants to be."
+- "Falling short of grander visions might actually put the work exactly where it wants to
+be."
 
 - "Artists allow us to see what we are unable to see, but somehow already know."
 
-- "The reason we create art isn't with the intention of making something useful for someone else. We create to express who we are. Who we are and where we are on our journey."
+- "The reason we create art isn't with the intention of making something useful for
+someone else. We create to express who we are. Who we are and where we are on our
+journey."
 
 - "A point of view is different from having a point."
 
-- "It's impossible to imitate another artist's point of view. We can only swim in the same waters. So feel free to copy the works that inspire you on the road to finding your own voice. It's a time-tested tradition."
+- "It's impossible to imitate another artist's point of view. We can only swim in the same
+waters. So feel free to copy the works that inspire you on the road to finding your own
+voice. It's a time-tested tradition."
 
-- "Whatever the situation, if a task is challenging to accomplish, there's often a way to design the surroundings to naturally encourage the performance you're striving for."
+- "Whatever the situation, if a task is challenging to accomplish, there's often a way to
+design the surroundings to naturally encourage the performance you're striving for."
 
 - "We interrogate ourselves when we offer our work up to others."
 
-- "If someone chooses to share feedback, listen to understand the person, not the work. People will tell you more about themselves than about the art when giving feedback. We each see a unique world."
+- "If someone chooses to share feedback, listen to understand the person, not the work.
+People will tell you more about themselves than about the art when giving feedback. We
+each see a unique world."
 
 - "Art doesn't get made on the clock. But it can get finished on the clock."
 
-- "When the last chapter is about to end, we may create excuses to put off the completion of the work."
+- "When the last chapter is about to end, we may create excuses to put off the completion
+of the work."
 
-- "Hanging on to your work is like spending years writing the same entry in a diary. Moments and opportunities are lost. The next works are robbed of being brought to life."
+- "Hanging on to your work is like spending years writing the same entry in a diary.
+Moments and opportunities are lost. The next works are robbed of being brought to life."
 
-- "In an environment where nothing is permanent, we produce static artifacts. Mementos of spirit. We hope they'll live forever, holding resonance through each passing decade. Some might, many won't. It's impossible to know. We can only keep building."
+- "In an environment where nothing is permanent, we produce static artifacts. Mementos of
+spirit. We hope they'll live forever, holding resonance through each passing decade. Some
+might, many won't. It's impossible to know. We can only keep building."
 
-- "If the mind creates a world that is limited, where we think we don't have enough worthwhile ideas or material, we will not see the inspiration the universe is providing."
+- "If the mind creates a world that is limited, where we think we don't have enough
+worthwhile ideas or material, we will not see the inspiration the universe is providing."
 
-- "Finishers might benefit from taking more time in the early phases. Writing beyond the minimum requirement, experimenting with other materials, considerations, and perspectives. Allowing themselves space for improvisation and surprise in the process. Experimenters might benefit from taking an aspect of the work through to completion. It might be a drawing, a song,or the chapter of a book. Even making one foundational decision from which to build can help."
+- "Finishers might benefit from taking more time in the early phases. Writing beyond the
+minimum requirement, experimenting with other materials, considerations, and perspectives.
+Allowing themselves space for improvisation and surprise in the process. Experimenters
+might benefit from taking an aspect of the work through to completion. It might be a
+drawing, a song,or the chapter of a book. Even making one foundational decision from which
+to build can help."
 
-- "As artists, we get to create a new set of rules each and every time we play. After careful consideration, we may choose to break them in the midst of a project if a discovery impels us."
+- "As artists, we get to create a new set of rules each and every time we play. After
+careful consideration, we may choose to break them in the midst of a project if a
+discovery impels us."
 
 - "We create our art so we may inhabit it ourselves."
 
-- "And any story beyond "I want to make the best thing I can make, whatever it is" are all undermining forces in the quest for greatness."
+- "And any story beyond "I want to make the best thing I can make, whatever it is" are all
+undermining forces in the quest for greatness."
 
-- "It's not uncommon to long for outward success, hopeful it will fill a void inside ourselves. Some imagine achievement as a remedy to fix or heal a sense of not being enough."
+- "It's not uncommon to long for outward success, hopeful it will fill a void inside
+ourselves. Some imagine achievement as a remedy to fix or heal a sense of not being
+enough."
 
-- "If you are living in the belief that success will cure your pain, when the treatment comes and doesn't work, it can lead to hopelessness. A depression can accompany the realization that what you've spent most of your life chasing hasn't fixed your insecurities and vulnerabilities. More likely, with the stakes and consequences now higher, it has only amplified the pressure. And we are never taught how to handle this epic disappointment."
+- "If you are living in the belief that success will cure your pain, when the treatment
+comes and doesn't work, it can lead to hopelessness. A depression can accompany the
+realization that what you've spent most of your life chasing hasn't fixed your
+insecurities and vulnerabilities. More likely, with the stakes and consequences now
+higher, it has only amplified the pressure. And we are never taught how to handle this
+epic disappointment."
 
-- "Art has the power to snap us out of our transfixion, open our minds to what's possible, and reconnect with the eternal energy that moves through all things."
+- "Art has the power to snap us out of our transfixion, open our minds to what's possible,
+and reconnect with the eternal energy that moves through all things."
 
-- "The ecstatic is our compass, pointing to our true north. It arises genuinely in the process of creation. You're working and struggling, and suddenly you notice a shift. A revelation. A small tweak is made, a new angle is revealed, and it takes your breath away."
+- "The ecstatic is our compass, pointing to our true north. It arises genuinely in the
+process of creation. You're working and struggling, and suddenly you notice a shift. A
+revelation. A small tweak is made, a new angle is revealed, and it takes your breath
+away."
 
-- "So little was needed to make the leap from mediocrity to greatness. The leap can't always be understood, but when it happens, it's clear and enlivening."
+- "So little was needed to make the leap from mediocrity to greatness. The leap can't
+always be understood, but when it happens, it's clear and enlivening."
 
-- "Many artists come to realize long after their work is released that it was actually a shockingly vulnerable and cryptic form of public confession."
+- "Many artists come to realize long after their work is released that it was actually a
+shockingly vulnerable and cryptic form of public confession."
 
 - "When we don't have context, new ideas appear foreign or awkward."
 
-- "Be aware of strong responses. If you're immediately turned off by an experience, it's worth examining why. Powerful reactions often indicate deeper wells of meaning. And perhaps by exploring them, you'll be led to the next step on your creative path."
+- "Be aware of strong responses. If you're immediately turned off by an experience, it's
+worth examining why. Powerful reactions often indicate deeper wells of meaning. And
+perhaps by exploring them, you'll be led to the next step on your creative path."
 
-- "Art is about the maker. Its aim: to be an expression of who we are. This makes competition absurd."
+- "Art is about the maker. Its aim: to be an expression of who we are. This makes
+competition absurd."
 
 - "comparison is the thief of joy."
 
-- "No system exists that can rank which work is most reflective of the maker. Great art is an invitation, calling to creators everywhere to strive for still higher and deeper levels."
+- "No system exists that can rank which work is most reflective of the maker. Great art is
+an invitation, calling to creators everywhere to strive for still higher and deeper
+levels."
 
-- "Perfection is finally obtained not when there is no longer anything to add, but when there's no longer anything to take away."
+- "Perfection is finally obtained not when there is no longer anything to add, but when
+there's no longer anything to take away."
 
 - "From a distance, what can we know to be true?"
 
-- "We live in a mysterious world full of uncertainties. And we regularly make assumptions to explain them. Coming to terms with the complexity of our human experience allows us to exit our natural state of confusion. To survive. Generally our explanations are guesses. These vague hypotheticals become fixed in our minds as fact. We are interpretation machines, and this process of labeling and detaching is efficient but not accurate. We are the unreliable narrators of our own experience."
+- "We live in a mysterious world full of uncertainties. And we regularly make assumptions
+to explain them. Coming to terms with the complexity of our human experience allows us to
+exit our natural state of confusion. To survive. Generally our explanations are guesses.
+These vague hypotheticals become fixed in our minds as fact. We are interpretation
+machines, and this process of labeling and detaching is efficient but not accurate. We are
+the unreliable narrators of our own experience."
 
-- "Each artist works with their own balance of strengths and weaknesses. And there is no rule that more praiseworthy strengths or romanticized self-destruction equals better art. Expressing yourself is all that matters."
+- "Each artist works with their own balance of strengths and weaknesses. And there is no
+rule that more praiseworthy strengths or romanticized self-destruction equals better art.
+Expressing yourself is all that matters."
 
-- "We will never know a work's true meaning. It's helpful to remember that there are forces at work beyond our comprehension. Let's make art, and let others make the stories."
+- "We will never know a work's true meaning. It's helpful to remember that there are
+forces at work beyond our comprehension. Let's make art, and let others make the stories."
 
-- "If any distractions come along during that period, don't ignore them or focus on them. Don't give them any energy at all. Let them pass, like clouds parting around a mountain."
+- "If any distractions come along during that period, don't ignore them or focus on them.
+Don't give them any energy at all. Let them pass, like clouds parting around a mountain."
 
-- "As artists, we are on a continual quest to get closer to the universe by getting closer to self. Moving ever nearer to the point where we can no longer tell where one begins and the other ends. We're on a distant metaphysical journey from the here to the now. It's helpful to work as if the project you're engaged in is bigger than you."
+- "As artists, we are on a continual quest to get closer to the universe by getting closer
+to self. Moving ever nearer to the point where we can no longer tell where one begins and
+the other ends. We're on a distant metaphysical journey from the here to the now. It's
+helpful to work as if the project you're engaged in is bigger than you."
 
-- "When you acknowledge a weakness, always consider how it could either be removed or improved before discarding the entire piece."
+- "When you acknowledge a weakness, always consider how it could either be removed or
+improved before discarding the entire piece."
 
-- "Many of us are taught to create through sheer will. If we choose surrender, the ideas that want to come through us will not be blocked."
+- "Many of us are taught to create through sheer will. If we choose surrender, the ideas
+that want to come through us will not be blocked."
 
-- "For the artist, whose job is testing possibilities, success is as much ruling out a solution as finding one that works."
+- "For the artist, whose job is testing possibilities, success is as much ruling out a
+solution as finding one that works."
 
-- "In the process of experimentation, we allow ourselves to make mistakes, to go too far, to go even further, to be inept. There is no failure, as every step we take is necessary to reach our destination, including the missteps. Each experiment is valuable in its own way if we learn something from it. Even if we can't comprehend its worth, we are still practicing our craft, moving ever so much closer to mastery."
+- "In the process of experimentation, we allow ourselves to make mistakes, to go too far,
+to go even further, to be inept. There is no failure, as every step we take is necessary
+to reach our destination, including the missteps. Each experiment is valuable in its own
+way if we learn something from it. Even if we can't comprehend its worth, we are still
+practicing our craft, moving ever so much closer to mastery."
 
 - "Humanity breathes in mistakes."
 
-- "Making great art may not always require great effort, but without it, you'll never know."
+- "Making great art may not always require great effort, but without it, you'll never
+know."
 
 - "Creativity is something you are, not only something you do."
 
 - "Quality isn't based on the amount of time invested."
 
-- "If you sit down to write with no preparation or forethought, you might bypass the conscious mind and draw from the unconscious. You may find that what emerges holds a charge that cannot be duplicated through rational means."
+- "If you sit down to write with no preparation or forethought, you might bypass the
+conscious mind and draw from the unconscious. You may find that what emerges holds a
+charge that cannot be duplicated through rational means."
 
-- "If we were to learn anything, it would be to free ourselves from any beliefs or baggage or dogma that gets in the way of us acting according to our true nature. The closer we get to a childlike state of free self-expression, the purer our test and the better our art."
+- "If we were to learn anything, it would be to free ourselves from any beliefs or baggage
+or dogma that gets in the way of us acting according to our true nature. The closer we get
+to a childlike state of free self-expression, the purer our test and the better our art."
 
-- "Once a work is complete, no amount of testing can guarantee we've made the best possible version. These qualities are not measurable. We test to identify which is the best version from the options at hand."
+- "Once a work is complete, no amount of testing can guarantee we've made the best
+possible version. These qualities are not measurable. We test to identify which is the
+best version from the options at hand."
 
-- "When the work has five mistakes, it's not yet completed. When it has eight mistakes, it might be."
+- "When the work has five mistakes, it's not yet completed. When it has eight mistakes, it
+might be."
 
-- "If we like what we are creating, we don't have to know why. Sometimes the reasons are obvious, sometimes not. And they can change over time. It could be good for any of a thousand different reasons. When we're making things we love, our mission is accomplished. There's nothing at all to figure out."
+- "If we like what we are creating, we don't have to know why. Sometimes the reasons are
+obvious, sometimes not. And they can change over time. It could be good for any of a
+thousand different reasons. When we're making things we love, our mission is accomplished.
+There's nothing at all to figure out."
 - "Holding your work hostage to meaning is a limitation."
 
 - "is far more powerful than our plans"
 
 - "Art is far more powerful than our plans for it."
 
-- "Art is above and beyond judgment. It either speaks to you or it doesn't. The artist's only responsibility is to the work itself. There are no other requirements. You're free to create what you will."
+- "Art is above and beyond judgment. It either speaks to you or it doesn't. The artist's
+only responsibility is to the work itself. There are no other requirements. You're free to
+create what you will."
 
-- "Whether you have a powerful passion or a tortured compulsion, neither makes the art any better or worse. If you are able to choose between these paths, consider selecting the more sustainable one. An artist earns the toc: true
-title simply through self-expression, as they work in their own way at their own pace."
+- "Whether you have a powerful passion or a tortured compulsion, neither makes the art any
+better or worse. If you are able to choose between these paths, consider selecting the
+more sustainable one. An artist earns the toc: true title simply through self-expression,
+as they work in their own way at their own pace."
 
-- "Established artists generally draw from their personal experience and recommend the solutions that worked for them. These tend to be specific to their journey, not yours. It's worth remembering that their way is not the way."
+- "Established artists generally draw from their personal experience and recommend the
+solutions that worked for them. These tend to be specific to their journey, not yours.
+It's worth remembering that their way is not the way."
 
 - "The passive element of practice is as important as the active one."
 
-- "I'm both a professor and student, because if you're no longer a student, you don't have the right to call yourself a professor."
+- "I'm both a professor and student, because if you're no longer a student, you don't have
+the right to call yourself a professor."
 
-- "If you feel unable to hit a note or faithfully paint an image, it's helpful to remember that the challenge is not that you can't do it, but that you haven't done it yet. Avoid thinking in impossibilities."
+- "If you feel unable to hit a note or faithfully paint an image, it's helpful to remember
+that the challenge is not that you can't do it, but that you haven't done it yet. Avoid
+thinking in impossibilities."
 
-- "Having the knowledge won't hurt the work. How you use the knowledge may. You have new tools. You don't have to use them."
+- "Having the knowledge won't hurt the work. How you use the knowledge may. You have new
+tools. You don't have to use them."
 
-- "If we train ourselves to step away from the work, to truly detach from it, to distract ourselves completely, to dive fully into something else . . . After being away for a long enough period of time, when we come back, we just may be able to see it as if for the first time."
+- "If we train ourselves to step away from the work, to truly detach from it, to distract
+ourselves completely, to dive fully into something else . . . After being away for a long
+enough period of time, when we come back, we just may be able to see it as if for the
+first time."
 
-- "A way to practice keeping a clean slate is to avoid looking at the work too often. If you finish a section or come to a sticking point, consider putting the project away and not engaging with it for a period of time. Let it sit for a minute, a week, or longer, while you go get lost."
+- "A way to practice keeping a clean slate is to avoid looking at the work too often. If
+you finish a section or come to a sticking point, consider putting the project away and
+not engaging with it for a period of time. Let it sit for a minute, a week, or longer,
+while you go get lost."
 
 - "The context changes the content."
 
 - "The social norms of any time and place are another contextual box that art lives in."
 
-- "When a piece isn't living up to your expectations, consider changing the context. Look past the principle element, examine the variables around it. Play with different combinations. Place it next to other works. Surprise yourself."
+- "When a piece isn't living up to your expectations, consider changing the context. Look
+past the principle element, examine the variables around it. Play with different
+combinations. Place it next to other works. Surprise yourself."
 
-- "If the work is thrilling one day and isn't for a long while after, you may have experienced a false indicator. When the moments of joy seem like a distant memory and the work feels like an obligation to a past idea, this could mean you've either gone too far or that particular seed wasn't actually ready to germinate yet."
+- "If the work is thrilling one day and isn't for a long while after, you may have
+experienced a false indicator. When the moments of joy seem like a distant memory and the
+work feels like an obligation to a past idea, this could mean you've either gone too far
+or that particular seed wasn't actually ready to germinate yet."
 
-- "Every artist creates a dynamic history. A living museum of finished objects. One work after another. Begun, completed, released. Begun, completed, released. Over and over again. Each a time stamp commemorating a moment of passage. A moment filled with energy, now forever embodied in a work of art."
+- "Every artist creates a dynamic history. A living museum of finished objects. One work
+after another. Begun, completed, released. Begun, completed, released. Over and over
+again. Each a time stamp commemorating a moment of passage. A moment filled with energy,
+now forever embodied in a work of art."
 
-- "Within every artist, there's a child emptying a box of crayons onto the floor, searching for just the right color to draw the sky."
+- "Within every artist, there's a child emptying a box of crayons onto the floor,
+searching for just the right color to draw the sky."
 
-- "If you're looking for the work to support you, you may be asking too much of it. We create in service to art, not for what we can get from art."
+- "If you're looking for the work to support you, you may be asking too much of it. We
+create in service to art, not for what we can get from art."
 
 - "Creativity is contagious."
 
@@ -16918,9 +18501,12 @@ title simply through self-expression, as they work in their own way at their own
 
 - "Sometimes the most valuable touch a collaborator can have is no touch at all."
 
-- "Believing an idea is best because it's ours is an error of inexperience. The ego demands personal authorship, inflating itself at the expense of the art. It can reject new methods that appear counterintuitive and protect familiar ones."
+- "Believing an idea is best because it's ours is an error of inexperience. The ego
+demands personal authorship, inflating itself at the expense of the art. It can reject new
+methods that appear counterintuitive and protect familiar ones."
 
-- "Great decisions aren't made in a spirit of sacrifice. They're made by the mutual recognition of the best solution available."
+- "Great decisions aren't made in a spirit of sacrifice. They're made by the mutual
+recognition of the best solution available."
 
 - "The more clinical the feedback, the better it will be received."
 
@@ -16928,476 +18514,955 @@ title simply through self-expression, as they work in their own way at their own
 
 - "It helps to keep in mind that language is an imperfect means of communication."
 
-- "We like to think of ourselves as consistent, rational beings, possessing certain attributes and not others. Yet a person who is completely consistent, who possesses no contradictions, comes across as less real. Wooden. Plastic."
+- "We like to think of ourselves as consistent, rational beings, possessing certain
+attributes and not others. Yet a person who is completely consistent, who possesses no
+contradictions, comes across as less real. Wooden. Plastic."
 
-- "Art goes deeper than thought. Deeper than the stories about yourself. It breaks through inner walls and accesses what's behind. If we get out of the way and let the art do its work, it may yield the sincerity we seek. And sincerity may look nothing like we expected."
+- "Art goes deeper than thought. Deeper than the stories about yourself. It breaks through
+inner walls and accesses what's behind. If we get out of the way and let the art do its
+work, it may yield the sincerity we seek. And sincerity may look nothing like we
+expected."
 
-- "The editor's role is to gather and sift. Amplifying what's vital and whittling away the excess. Culling the work down to the best version of itself."
+- "The editor's role is to gather and sift. Amplifying what's vital and whittling away the
+excess. Culling the work down to the best version of itself."
 
-- "The editor is required to set ego aside. Ego pridefully attaches to individual elements of a work. The editor's role is to remain unattached and see beyond these passions to find unity and balance. Talented artists who are unskilled editors can"
+- "The editor is required to set ego aside. Ego pridefully attaches to individual elements
+of a work. The editor's role is to remain unattached and see beyond these passions to find
+unity and balance. Talented artists who are unskilled editors can do subpar work and fail
+to live up to their gift's promise."
 
-- "The editor is required to set ego aside. Ego pridefully attaches to individual elements of a work. The editor's role is to remain unattached and see beyond these passions to find unity and balance. Talented artists who are unskilled editors can do subpar work and fail to live up to their gift's promise."
+- "As we move closer to the completion of a project, it can be helpful to drastically cut
+the work back to only what's necessary, to conduct a ruthless edit."
 
-- "As we move closer to the completion of a project, it can be helpful to drastically cut the work back to only what's necessary, to conduct a ruthless edit."
-
-- "Making the simple complicated is commonplace," Charles Mingus once said. "Making the complicated simple, awesomely simple, that's creativity."
+- "Making the simple complicated is commonplace," Charles Mingus once said. "Making the
+complicated simple, awesomely simple, that's creativity."
 
 - "Art is a reverberation of an impermanent life."
 
-- "Just as each small stroke on a canvas can't step aside to see the whole painting, we're unable to take in the great whole of relationships and counterbalance that surrounds us in all directions."
+- "Just as each small stroke on a canvas can't step aside to see the whole painting, we're
+unable to take in the great whole of relationships and counterbalance that surrounds us in
+all directions."
 
-- "The magic is not in the analyzing or the understanding. The magic lives in the wonder of what we do not know."
+- "The magic is not in the analyzing or the understanding. The magic lives in the wonder
+of what we do not know."
 
-- "The widespread use of chopsticks shaped the development of Chinese cuisine—the reason there's so much preparatory chopping involved in making a Chinese meal is because dishes had to consist of bite-size pieces that could easily be grasped with chopsticks, since  nothing was sliced at the table."
+- "The widespread use of chopsticks shaped the development of Chinese cuisine—the reason
+there's so much preparatory chopping involved in making a Chinese meal is because dishes
+had to consist of bite-size pieces that could easily be grasped with chopsticks, since
+nothing was sliced at the table."
 
-- "As she fingered the pamphlets, I realized it was new to her, this idea of vegetarianism not as a mark of poverty but a conscious lifestyle choice, and coming from my place of privilege, I hadn't understood her wariness about it."
+- "As she fingered the pamphlets, I realized it was new to her, this idea of vegetarianism
+not as a mark of poverty but a conscious lifestyle choice, and coming from my place of
+privilege, I hadn't understood her wariness about it."
 
-- "The golden rule of beauraucracy, give me a problem, and Im willing to spend any amount of someone elses money to solve it"
+- "The golden rule of beauraucracy, give me a problem, and Im willing to spend any amount
+of someone elses money to solve it"
 
 - "the less money the higher the expectations"
 
-- "Life feels more romantic when life is a performance when youre mimicking what that romantic scene is in the film that you saw."
+- "Life feels more romantic when life is a performance when youre mimicking what that
+romantic scene is in the film that you saw."
 
 - "It's harder to see than to paint."
 
-- "When you're a people-pleaser, you unconsciously wear a facade of niceness that hides your true feelings from your family, colleagues, friends, lovers — essentially giving up your needs for the sake of everyone else's. For years I thought that niceness was one of my best, most pure qualities. Only recently have I realized that this was how I tried to protect myself and, in fact, was an attempt to control what other people thought of me."
+- "When you're a people-pleaser, you unconsciously wear a facade of niceness that hides
+your true feelings from your family, colleagues, friends, lovers — essentially giving up
+your needs for the sake of everyone else's. For years I thought that niceness was one of
+my best, most pure qualities. Only recently have I realized that this was how I tried to
+protect myself and, in fact, was an attempt to control what other people thought of me."
 
-- "People-pleasing had so fundamentally shaped my relationship to myself and was a deep layer that had kept me from living authentically for the vast majority of my life. I'd been playing a role instead of being a person."
+- "People-pleasing had so fundamentally shaped my relationship to myself and was a deep
+layer that had kept me from living authentically for the vast majority of my life. I'd
+been playing a role instead of being a person."
 
-- "Do you dedicate more time to other people than yourself? Have you neglected self-care, because you're just too busy taking care of others? If the answer is yes, then it's time to re-evaluate your priorities."
+- "Do you dedicate more time to other people than yourself? Have you neglected self-care,
+because you're just too busy taking care of others? If the answer is yes, then it's time
+to re-evaluate your priorities."
 
 - "The more action you take, the more you want to take action"
 
 - "When you add value to people's lives, they are eager to share your story with everyone"
 
-- "It seems evident that very few people can simply sit still. Children spin in circles until they collapse with dizziness."
+- "It seems evident that very few people can simply sit still. Children spin in circles
+until they collapse with dizziness."
 
 - "Pretend its like eating the last candy you will ever eat in your life"
 
-- "ather than just accepting, what I learned is that you have to also appreciate what's right in front of you including the simple things. It's the small details that actually matter."
+- "ather than just accepting, what I learned is that you have to also appreciate what's
+right in front of you including the simple things. It's the small details that actually
+matter."
 
-- "Creative people do not have the gift of novelty, they have the gift of being able to turn large amounts of chaotic information into order"
+- "Creative people do not have the gift of novelty, they have the gift of being able to
+turn large amounts of chaotic information into order"
 
-- "Growing up we learn feeling words from adults who simultaneously shame us for using them."
+- "Growing up we learn feeling words from adults who simultaneously shame us for using
+them."
 
 - "Young man, don't be too rampant. The road of life is still very long"
 
-- "Some would say. "All problems that could be solved with money are not problems." Clearly those who say that are all rich people."
+- "Some would say. "All problems that could be solved with money are not problems."
+Clearly those who say that are all rich people."
 
-- "The greatness of any artform cannot be in the technique, as important as technique is. Nobody loves a song because the singer hit all the notes correctly. They love it because the melodies and rhythms and interactions of the instruments give them a feeling. It's the same with imagery. Good composers know how to create an image that haunts, or entertains, or somehow emotionally involves a viewer, and that happens on a primal level through compositional choices. And even though I believe it is a talent, it is realized through practice and training. As with music. Musicians and artists both compose. The good ones move our emotions"
+- "The greatness of any artform cannot be in the technique, as important as technique is.
+Nobody loves a song because the singer hit all the notes correctly. They love it because
+the melodies and rhythms and interactions of the instruments give them a feeling. It's the
+same with imagery. Good composers know how to create an image that haunts, or entertains,
+or somehow emotionally involves a viewer, and that happens on a primal level through
+compositional choices. And even though I believe it is a talent, it is realized through
+practice and training. As with music. Musicians and artists both compose. The good ones
+move our emotions"
 
 - "A wound can only begin healing when it's noticed and attended to."
 
-- "History only seems simple, unified and natural when we forget about all the voices that go unheard."
+- "History only seems simple, unified and natural when we forget about all the voices that
+go unheard."
 
-- "People are strange when you're a stranger
-Faces look ugly when you're alone
-Women seem wicked when you're unwanted
-Streets are uneven when you're down
-When you're strange faces come out of the rain
-When you're strange no one remembers your name"
+- "People are strange when you're a stranger Faces look ugly when you're alone Women seem
+wicked when you're unwanted Streets are uneven when you're down When you're strange faces
+come out of the rain When you're strange no one remembers your name"
 
-- "Kant saw humanity as a race mature enough to leave home but not mature enough to know how to live well alone"
+- "Kant saw humanity as a race mature enough to leave home but not mature enough to know
+how to live well alone"
 
-- "The world is but a stage.
-Why cry, when you can laugh instead?
-For laughter is humanity's preserve.
-Laugh it all off, fret not,
-Let's just enjoy the moment."
+- "The world is but a stage. Why cry, when you can laugh instead? For laughter is
+humanity's preserve. Laugh it all off, fret not, Let's just enjoy the moment."
 
 - "Dread is anxiety on steroids,"
 
-- "For us vertebrates, the core of the stress-response is built around the fact that your muscles are going to work like crazy."
+- "For us vertebrates, the core of the stress-response is built around the fact that your
+muscles are going to work like crazy."
 
-- "The stress response cycle needs to complete, and just eliminating the stressor isn't enough to do that."
+- "The stress response cycle needs to complete, and just eliminating the stressor isn't
+enough to do that."
 
-- "This is the upside-down world we live in: in most situations in the modern, post-industrial West, the stress itself will kill you faster than the stressor will—unless you do something to complete the stress response cycle."
+- "This is the upside-down world we live in: in most situations in the modern,
+post-industrial West, the stress itself will kill you faster than the stressor will—unless
+you do something to complete the stress response cycle."
 
-- "Just don't forget that these survival strategies do not deal with the stress itself. They postpone your body's need to complete the cycle; they don't replace it."
+- "Just don't forget that these survival strategies do not deal with the stress itself.
+They postpone your body's need to complete the cycle; they don't replace it."
 
 - "If anxiety starts, it ends." "It just ends?" "Yeah. If you let it, it just ends."
 
 - "Wellness is not a state of being, but a state of action."
 
-- "When something feels uncomfortable, you're probably doing something that creates more and better progress than if it were easy."
+- "When something feels uncomfortable, you're probably doing something that creates more
+and better progress than if it were easy."
 
-- "Or, as Douglas Adams's character Dirk Gently puts it, "I rarely end up where I was intending to go, but often I end up somewhere that I needed to be"
+- "Or, as Douglas Adams's character Dirk Gently puts it, "I rarely end up where I was
+intending to go, but often I end up somewhere that I needed to be"
 
-- "Part of recovering from a loss is turning toward your grief with kindness and compassion, as well as completing the cycle of stress brought on by failure. But another part is recognizing failing's unintended positive outcomes."
+- "Part of recovering from a loss is turning toward your grief with kindness and
+compassion, as well as completing the cycle of stress brought on by failure. But another
+part is recognizing failing's unintended positive outcomes."
 
-- "Heck no. Sometimes you need to close the door on the world and allow yourself to feel comfortable and safe—as long as it's not the only thing you're doing. Think of it as a short-term survival strategy. You also need a plan and a sense of what value there is in the struggle."
+- "Heck no. Sometimes you need to close the door on the world and allow yourself to feel
+comfortable and safe—as long as it's not the only thing you're doing. Think of it as a
+short-term survival strategy. You also need a plan and a sense of what value there is in
+the struggle."
 
-- "When you paint the dingiest wall in a room, it just makes the other walls look dingier."
+- "When you paint the dingiest wall in a room, it just makes the other walls look
+dingier."
 
-- "It's normal for change to be difficult. Sometimes it gets worse before it gets better. Sometimes a solution to one problem creates another. Sometimes there's not enough organization and positive attitude in the world to save a marriage. Sometimes—as Julie would eventually find—what it takes to save a marriage is saving yourself."
+- "It's normal for change to be difficult. Sometimes it gets worse before it gets better.
+Sometimes a solution to one problem creates another. Sometimes there's not enough
+organization and positive attitude in the world to save a marriage. Sometimes—as Julie
+would eventually find—what it takes to save a marriage is saving yourself."
 
-- "We have been taught that letting go of a goal is the same as failing. We share stories of people overcoming the odds to achieve remarkable things in the face of great resistance, which is inspiring. But these stories too often imply that we are the controllers of our destinies—as if we control the amount of nuts and seeds in a particular patch of forest. If we "fail" to achieve a goal, it's because there is something wrong with us. We didn't fight hard enough. We didn't "believe."
+- "We have been taught that letting go of a goal is the same as failing. We share stories
+of people overcoming the odds to achieve remarkable things in the face of great
+resistance, which is inspiring. But these stories too often imply that we are the
+controllers of our destinies—as if we control the amount of nuts and seeds in a particular
+patch of forest. If we "fail" to achieve a goal, it's because there is something wrong
+with us. We didn't fight hard enough. We didn't "believe."
 
-- "But there is a deep, wide chasm between us and the realization of those possibilities. Our default action in the face of that chasm is to do whatever it takes to get to the other side, and keep on doing it, no matter what, until we get there. But then we get exhausted and we wonder if we can accomplish any of the things we hope for, without destroying ourselves in the process."
+- "But there is a deep, wide chasm between us and the realization of those possibilities.
+Our default action in the face of that chasm is to do whatever it takes to get to the
+other side, and keep on doing it, no matter what, until we get there. But then we get
+exhausted and we wonder if we can accomplish any of the things we hope for, without
+destroying ourselves in the process."
 
-- "That freedom comes when we have abundance enough and safety enough to let go of what is broken and reach for something new."
+- "That freedom comes when we have abundance enough and safety enough to let go of what is
+broken and reach for something new."
 
-- "You can chart the progress of women in America by the things Disney heroines sing about in their "I Want" songs."
+- "You can chart the progress of women in America by the things Disney heroines sing about
+in their "I Want" songs."
 
-- "Meaning is the feeling that you "matter in some larger sense. Lives may be experienced as meaningful when they are felt to have significance beyond the trivial or momentary, to have purpose, or to have a coherence that transcends chaos."
+- "Meaning is the feeling that you "matter in some larger sense. Lives may be experienced
+as meaningful when they are felt to have significance beyond the trivial or momentary, to
+have purpose, or to have a coherence that transcends chaos."
 
-- "But rarely is meaning something that we find at the end of a long, hard journey. For most of us, meaning is what sustains us on the long, hard journey, no matter what we find at the end. Meaning is not found; it is made."
+- "But rarely is meaning something that we find at the end of a long, hard journey. For
+most of us, meaning is what sustains us on the long, hard journey, no matter what we find
+at the end. Meaning is not found; it is made."
 
-- "When an airplane bounces into a sudden pocket of turbulence, you grab the arms of your seat, as if by holding your seat, you can hold the plane steady. You, of course, know it doesn't work that way, but your hands don't. They will hold on to anything they can reach, and the very fact of holding on makes the turbulence more tolerable."
+- "When an airplane bounces into a sudden pocket of turbulence, you grab the arms of your
+seat, as if by holding your seat, you can hold the plane steady. You, of course, know it
+doesn't work that way, but your hands don't. They will hold on to anything they can reach,
+and the very fact of holding on makes the turbulence more tolerable."
 
-- "We are not our own worst enemy. Nor is the enemy the other people in the game. The enemy is the game itself, which tries to convince us that it's not the enemy."
+- "We are not our own worst enemy. Nor is the enemy the other people in the game. The
+enemy is the game itself, which tries to convince us that it's not the enemy."
 
-- "Self-care" is, indeed, selfish because it uses personal resources to promote a giver's well-being, rather than someone else's."
+- "Self-care" is, indeed, selfish because it uses personal resources to promote a giver's
+well-being, rather than someone else's."
 
-- "In so many ways, most of us tend to ignore or forget about advantages we've received, but remember the obstacles we've overcome, because the struggle against the obstacles requires more effort and energy than the easy parts."
+- "In so many ways, most of us tend to ignore or forget about advantages we've received,
+but remember the obstacles we've overcome, because the struggle against the obstacles
+requires more effort and energy than the easy parts."
 
-- "Just because the road looks flat doesn't mean it is. Just because you can't see the ocean doesn't mean it's not there. You can infer the landscape by looking at the shapes of the people who grew in those environments. Instead of wondering why they aren't thriving on the level playing field, imagine how the field can be changed to allow everyone to thrive."
+- "Just because the road looks flat doesn't mean it is. Just because you can't see the
+ocean doesn't mean it's not there. You can infer the landscape by looking at the shapes of
+the people who grew in those environments. Instead of wondering why they aren't thriving
+on the level playing field, imagine how the field can be changed to allow everyone to
+thrive."
 
 - "The truth will set you free, but first it will piss you off."
 
-- "All your body requires of you is that you turn toward it with kindness and compassion, with nonjudgment and plain-vanilla acceptance of all your contradictory emotions, beliefs, and longings."
+- "All your body requires of you is that you turn toward it with kindness and compassion,
+with nonjudgment and plain-vanilla acceptance of all your contradictory emotions, beliefs,
+and longings."
 
-- "Everyone is the new hotness. You are the new hotness. So is she. So are they. So are we."
+- "Everyone is the new hotness. You are the new hotness. So is she. So are they. So are
+we."
 
-- "Many of us have grown into world-class ignorers of our own needs, just as we were taught to be. We don't even notice that we're ignoring our needs. Our bodies are sending us all kinds of signals, but we live from the neck up, only attending to the noise in our heads and shutting out the noise coming from the other 95 percent of our internal experience."
+- "Many of us have grown into world-class ignorers of our own needs, just as we were
+taught to be. We don't even notice that we're ignoring our needs. Our bodies are sending
+us all kinds of signals, but we live from the neck up, only attending to the noise in our
+heads and shutting out the noise coming from the other 95 percent of our internal
+experience."
 
-- "Contact with another person is a basic biological need; loneliness is a form of starvation."
+- "Contact with another person is a basic biological need; loneliness is a form of
+starvation."
 
-- "We're made of energy. The nature of energy is to be shared, to spread, to connect one thing to another. Sharing space with other people means that our energy influences theirs, and theirs influences ours. It's physics. And psychology. And unavoidable. And amazing."
+- "We're made of energy. The nature of energy is to be shared, to spread, to connect one
+thing to another. Sharing space with other people means that our energy influences theirs,
+and theirs influences ours. It's physics. And psychology. And unavoidable. And amazing."
 
-- "people tend to take better care of themselves when they're in a high-quality relationship. In other words, our "self-care" is facilitated by the ways we care for and are cared for by someone else."
+- "people tend to take better care of themselves when they're in a high-quality
+relationship. In other words, our "self-care" is facilitated by the ways we care for and
+are cared for by someone else."
 
-- "Rage gives you strength and energy and the urge to fight, and sharing that energy in the Bubble changes it from something potentially dangerous to something safe and potentially transformative."
+- "Rage gives you strength and energy and the urge to fight, and sharing that energy in
+the Bubble changes it from something potentially dangerous to something safe and
+potentially transformative."
 
-- "The pleasure of synchronized movement is built into our biology, and it's a powerful tool to access your greatest well-being."
+- "The pleasure of synchronized movement is built into our biology, and it's a powerful
+tool to access your greatest well-being."
 
 - "When it's inconvenient, it's probably doing the most for you."
 
-- "What makes you stronger is whatever happens to you after you survive the thing that didn't kill you. What makes you stronger is rest."
+- "What makes you stronger is whatever happens to you after you survive the thing that
+didn't kill you. What makes you stronger is rest."
 
 - "You don't have to set yourself on fire to keep other people warm."
 
-- "Caring for myself is not self-indulgence, it is self-preservation, and that is an act of political warfare."
+- "Caring for myself is not self-indulgence, it is self-preservation, and that is an act
+of political warfare."
 
-- "Mental rest is not idleness; it is the time necessary for your brain to process the world."
+- "Mental rest is not idleness; it is the time necessary for your brain to process the
+world."
 
-- "Boredom is the discomfort you experience when your brain is in active-attention mode, but can't latch on to anything to attend"
+- "Boredom is the discomfort you experience when your brain is in active-attention mode,
+but can't latch on to anything to attend"
 
-- "Everybody knows a muscle that isn't used will atrophy. We all know a muscle that is worked constantly, without rest, will grow fatigued and eventually fail in exhaustion. And we all know a muscle that gets worked and rested and worked and rested will grow stronger."
+- "Everybody knows a muscle that isn't used will atrophy. We all know a muscle that is
+worked constantly, without rest, will grow fatigued and eventually fail in exhaustion. And
+we all know a muscle that gets worked and rested and worked and rested will grow
+stronger."
 
-- "Our whole body, including our brain, is working hard as we sleep, to accomplish life-preserving tasks that can be best achieved when we're not around to interfere."
+- "Our whole body, including our brain, is working hard as we sleep, to accomplish
+life-preserving tasks that can be best achieved when we're not around to interfere."
 
-- "If you've dealt with the stressors but haven't dealt with the stress itself, your brain won't let you rest. It will constantly scan for the lion that's about to"
+- "If you've dealt with the stressors but haven't dealt with the stress itself, your brain
+won't let you rest. It will constantly scan for the lion that's about to come after you,
+so when you try to go to sleep, your brain won't let you fall asleep, or it will wake you
+up over and over, checking for that lion. Complete the cycle, so your brain can transition
+into rest."
 
-- "If you've dealt with the stressors but haven't dealt with the stress itself, your brain won't let you rest. It will constantly scan for the lion that's about to come after you, so when you try to go to sleep, your brain won't let you fall asleep, or it will wake you up over and over, checking for that lion. Complete the cycle, so your brain can transition into rest."
+- "I don't want a doctor who's been awake for twenty hours; I don't want a lawyer who
+bills more than twelve hours a day—I know how sloppy work gets when somebody is
+fatigued—and you shouldn't want an engineer who isn't sleeping seven hours a night. Your
+work is crap if your brain isn't rested."
 
-- "I don't want a doctor who's been awake for twenty hours; I don't want a lawyer who bills more than twelve hours a day—I know how sloppy work gets when somebody is fatigued—and you shouldn't want an engineer who isn't sleeping seven hours a night. Your work is crap if your brain isn't rested."
+- "Hi, rage. I know our family raised us to believe we didn't matter unless we were
+perfect, and perfect means we never stop working, and it's right to be angry that we
+didn't get the warm, unconditional acceptance every child is born deserving. Let's treat
+ourselves as we wanted to be treated, granting ourselves permission to be human."
 
-- "Hi, rage. I know our family raised us to believe we didn't matter unless we were perfect, and perfect means we never stop working, and it's right to be angry that we didn't get the warm, unconditional acceptance every child is born deserving. Let's treat ourselves as we wanted to be treated, granting ourselves permission to be human."
+- "Mine is more like a teenage version: the smart, quiet, yet sad and downtrodden girl who
+always sat in the back of class and no one talked to….When something goes wrong, I can
+hear her 'told you so' voice in the back of my mind."
 
-- "Mine is more like a teenage version: the smart, quiet, yet sad and downtrodden girl who always sat in the back of class and no one talked to….When something goes wrong, I can hear her 'told you so' voice in the back of my mind."
+- "This uncomfortable, fragile part of ourselves serves a very important function. She
+grew inside us, to manage the chasm between who we are and who Human Giver Syndrome
+expects us to be. She is the part of us that has the impossible, tormenting task of
+bridging the unbridgeable chasm between us and this "expected-us." It's a form of torture,
+like Sisyphus rolling a rock up a hill only to have it roll back down each time. She's
+forever oscillating from rage to helpless despair."
 
-- "This uncomfortable, fragile part of ourselves serves a very important function. She grew inside us, to manage the chasm between who we are and who Human Giver Syndrome expects us to be. She is the part of us that has the impossible, tormenting task of bridging the unbridgeable chasm between us and this "expected-us." It's a form of torture, like Sisyphus rolling a rock up a hill only to have it roll back down each time. She's forever oscillating from rage to helpless despair."
+- "Listen to her stories—never forgetting she's a madwoman. Remind her that you are the
+grown-up, the homeowner, or the teacher, and she can trust you to maintain the attic so
+that she always has a safe place to stay. Thank her for the hard work she has done to help
+you survive."
 
-- "Listen to her stories—never forgetting she's a madwoman. Remind her that you are the grown-up, the homeowner, or the teacher, and she can trust you to maintain the attic so that she always has a safe place to stay. Thank her for the hard work she has done to help you survive."
+- "Guilt is, 'I made a mistake.' Shame is, 'I am a mistake.' " With guilt, as opposed to
+shame, there is at least a pretense that one day you might deserve to participate fully in
+the human experience. With shame, your core self is judged."
 
-- "Guilt is, 'I made a mistake.' Shame is, 'I am a mistake.' " With guilt, as opposed to shame, there is at least a pretense that one day you might deserve to participate fully in the human experience. With shame, your core self is judged."
+- "Are we really working toward our goals only because we'll torture ourselves if we stop,
+so that as soon as we put down the whip we'll sink into eternal apathy? Of course not. In
+fact, it's the opposite: We only whip ourselves because our goals matter so much that
+we're willing to suffer this self-inflicted pain if that's what it takes. And we believe
+that because we've always done it that way, it must be why we've accomplished as much as
+we have."
 
-- "Are we really working toward our goals only because we'll torture ourselves if we stop, so that as soon as we put down the whip we'll sink into eternal apathy? Of course not. In fact, it's the opposite: We only whip ourselves because our goals matter so much that we're willing to suffer this self-inflicted pain if that's what it takes. And we believe that because we've always done it that way, it must be why we've accomplished as much as we have."
+- "When people with depression try to be self-reassuring, their brains respond with threat
+activation.12 In fact, fear of compassion for self is linked to fear of compassion from
+others. That means that somewhere inside them, they believe that if they're isolated,
+that's good; isolation protects others from their real, core badness."
 
-- "When people with depression try to be self-reassuring, their brains respond with threat activation.12 In fact, fear of compassion for self is linked to fear of compassion from others. That means that somewhere inside them, they believe that if they're isolated, that's good; isolation protects others from their real, core badness."
+- "And she realized "Perfect Julie" was just a defense she had constructed, to protect her
+real madwoman—who wasn't a woman at all, but a little girl. This little girl was sensitive
+and afraid of rejection. She loved books and theater. She put on "Perfect Julie" the way a
+little girl might put on her mother's shoes and lipstick, playing pretend. She wore
+"adulting" as a costume. It had been a game at first, like playing house, back when she
+was Diana's age. But as Julie had gotten older, the Perfect Julie costume became necessary
+to disguise the fact that she was, underneath it all, just a girl who didn't want to make
+anyone mad."
 
-- "And she realized "Perfect Julie" was just a defense she had constructed, to protect her real madwoman—who wasn't a woman at all, but a little girl. This little girl was sensitive and afraid of rejection. She loved books and theater. She put on "Perfect Julie" the way a little girl might put on her mother's shoes and lipstick, playing pretend. She wore "adulting" as a costume. It had been a game at first, like playing house, back when she was Diana's age. But as Julie had gotten older, the Perfect Julie costume became necessary to disguise the fact that she was, underneath it all, just a girl who didn't want to make anyone mad."
+- "Beating ourselves up results in pain, obviously, so at the same time that we're beating
+ourselves up, we're looking for ways to manage that pain, to make it bearable."
 
-- "Beating ourselves up results in pain, obviously, so at the same time that we're beating ourselves up, we're looking for ways to manage that pain, to make it bearable."
+- "Whichever metaphor you prefer, self-compassion isn't always a comfortable or peaceful
+experience, but it does help us grow mightier."
 
-- "Whichever metaphor you prefer, self-compassion isn't always a comfortable or peaceful experience, but it does help us grow mightier."
+- "lot of us have a quiet little voice worrying that we'll get up in that corporate office
+and have no idea what we're actually doing. As a person with a hobby, you're not ready for
+all of that now, and it's difficult to imagine what it will feel like and how ready you
+could be after you go through the process of growing. The difficulty of imagining
+ourselves with the knowledge, expertise, and strengths we will gain in the future can stop
+us entirely from moving toward that future."
 
-- "lot of us have a quiet little voice worrying that we'll get up in that corporate office and have no idea what we're actually doing. As a person with a hobby, you're not ready for all of that now, and it's difficult to imagine what it will feel like and how ready you could be after you go through the process of growing. The difficulty of imagining ourselves with the knowledge, expertise, and strengths we will gain in the future can stop us entirely from moving toward that future."
-
-- "It's really strange when we're doing our best, and our best falls short of what the world expects from us. When we can turn toward that strangeness with observational distance, then we are best enabled to be the change we want to see in the world."
+- "It's really strange when we're doing our best, and our best falls short of what the
+world expects from us. When we can turn toward that strangeness with observational
+distance, then we are best enabled to be the change we want to see in the world."
 
 - "Being grateful for good things doesn't erase the difficult things"
 
-- "The cure for burnout is not "self-care"; it is all of us caring for one another. So we'll say it one more time: Trust your body. Be kind to yourself. You are enough, just as you are right now. Your joy matters. Please tell everyone you know."
+- "The cure for burnout is not "self-care"; it is all of us caring for one another. So
+we'll say it one more time: Trust your body. Be kind to yourself. You are enough, just as
+you are right now. Your joy matters. Please tell everyone you know."
 
 - "Humans are not built to do big things alone; we are built to do them together."
 
-- "even if I felt like a social pariah in my classes, at least I would have a better vocabulary than these philistines"
+- "even if I felt like a social pariah in my classes, at least I would have a better
+vocabulary than these philistines"
 
-- "I realized that there was some prestige in being smart, or at least appearing smart. Sounding smart was not the same social Teflon as being good-looking or athletic or funny, but hell, if someone could give me some props for being good at school, I would take nerd props over no props at all."
+- "I realized that there was some prestige in being smart, or at least appearing smart.
+Sounding smart was not the same social Teflon as being good-looking or athletic or funny,
+but hell, if someone could give me some props for being good at school, I would take nerd
+props over no props at all."
 
-- "They belonged in a way that I never could, and their regard for me was sweet and sour. How Asian."
+- "They belonged in a way that I never could, and their regard for me was sweet and sour.
+How Asian."
 
-- "But in the course of reading great books, something happened. My reading molded me, the tool hammering its hand into shape. By some miracle—and by miracle, I mean great teachers—I pushed past the shallowness and stupidity of my own motivations. I fell in love with the actual literature and the actual ideas of great literature."
+- "But in the course of reading great books, something happened. My reading molded me, the
+tool hammering its hand into shape. By some miracle—and by miracle, I mean great
+teachers—I pushed past the shallowness and stupidity of my own motivations. I fell in love
+with the actual literature and the actual ideas of great literature."
 
 - "The medium has no depth, but the content does."
 
-- "If you catch me in my off-guard moments, I'll tell you that at some points in my life, I wanted to be white. It's not a proud feeling, but it's not a feeling that comes from the shame of being brown. It's a tired feeling. Tired of the crushing racism. Tired of not belonging. It's the exhaustion from fighting for your right to exist."
+- "If you catch me in my off-guard moments, I'll tell you that at some points in my life,
+I wanted to be white. It's not a proud feeling, but it's not a feeling that comes from the
+shame of being brown. It's a tired feeling. Tired of the crushing racism. Tired of not
+belonging. It's the exhaustion from fighting for your right to exist."
 
-- "Faith. Knowledge. Doubt. They weaved in and out of our lives with a baroque intricacy, a background fugue to our stumblings on the stage."
+- "Faith. Knowledge. Doubt. They weaved in and out of our lives with a baroque intricacy,
+a background fugue to our stumblings on the stage."
 
-- "What do you have control over? And what is beyond your control? As Camus's protagonist, Dr. Rieux offers an answer: when the world is coming apart, you do your job."
+- "What do you have control over? And what is beyond your control? As Camus's protagonist,
+Dr. Rieux offers an answer: when the world is coming apart, you do your job."
 
-- "That was the delusion. We weren't like everybody else. I now had the menace of knowing, and it infected everything I did. I was reminded of it constantly in ways large and small: my parents' wobbly accents as my English became arrow-straight, the long and confusing searches in the grocery stores for simple items, the stares from strangers at the mall. These reminders that my family was not a normal American family—that we didn't look like the rest of our town, that we were from somewhere else—wove into my very fabric a need to belong, a need that was a glittering and slippery yarn. I would never be able to untangle it from who I was and who I wanted to be, and it seemed that if I tugged on this thread, everything would unravel and leave me exposed."
+- "That was the delusion. We weren't like everybody else. I now had the menace of knowing,
+and it infected everything I did. I was reminded of it constantly in ways large and small:
+my parents' wobbly accents as my English became arrow-straight, the long and confusing
+searches in the grocery stores for simple items, the stares from strangers at the mall.
+These reminders that my family was not a normal American family—that we didn't look like
+the rest of our town, that we were from somewhere else—wove into my very fabric a need to
+belong, a need that was a glittering and slippery yarn. I would never be able to untangle
+it from who I was and who I wanted to be, and it seemed that if I tugged on this thread,
+everything would unravel and leave me exposed."
 
-- "Bà Ngoại's ire wasn't the anger of personal damages but the anger of being shamed, a singular dishonor that she and my parents bore heavily. If our elders felt that we kids had done something to embarrass them or to cause them to lose face, our punishment was administered as if the entire town were watching and judging them as parents. Puritanical in its purity and unflinching in its deliverance. The severity of our punishment was commensurate to their own perception of their parenting."
+- "Bà Ngoại's ire wasn't the anger of personal damages but the anger of being shamed, a
+singular dishonor that she and my parents bore heavily. If our elders felt that we kids
+had done something to embarrass them or to cause them to lose face, our punishment was
+administered as if the entire town were watching and judging them as parents. Puritanical
+in its purity and unflinching in its deliverance. The severity of our punishment was
+commensurate to their own perception of their parenting."
 
-- "Bà Ngoại, my grandmother. Gentle one moment, violent in the next. Violence was sometimes kindness. Sometimes it was love. Sometimes it was rage. But it was everywhere, always."
+- "Bà Ngoại, my grandmother. Gentle one moment, violent in the next. Violence was
+sometimes kindness. Sometimes it was love. Sometimes it was rage. But it was everywhere,
+always."
 
-- "But if I allowed myself to be harmed by words, I was showing them that I belonged at least by virtue of understanding their language. And all I wanted was to belong."
+- "But if I allowed myself to be harmed by words, I was showing them that I belonged at
+least by virtue of understanding their language. And all I wanted was to belong."
 
-- "Kids covet things. They see something that other kids have, and they want that thing. They see a cool T-shirt with Darth Vader on it, and they want that shirt, too. Soon they want the house, the hair, the skin color."
+- "Kids covet things. They see something that other kids have, and they want that thing.
+They see a cool T-shirt with Darth Vader on it, and they want that shirt, too. Soon they
+want the house, the hair, the skin color."
 
-- "As an adult, I can explain and even understand where his anger came from (PTSD as a refugee, his own abuse as a child, the cycle of abuse that can perpetuate itself in a culture that equated obedient children with great parenting). As a second grader, I knew this violence as my only reality. If I spilled something, disobeyed, did something too quickly or too slowly."
+- "As an adult, I can explain and even understand where his anger came from (PTSD as a
+refugee, his own abuse as a child, the cycle of abuse that can perpetuate itself in a
+culture that equated obedient children with great parenting). As a second grader, I knew
+this violence as my only reality. If I spilled something, disobeyed, did something too
+quickly or too slowly."
 
-- "The wish for different parents fuels the archetypal fairy tales about evil stepmothers and children left in the woods. These fairy tales pivot around the wish that our parents, irascible and imperfect, aren't even our real parents, that a fairy godmother will reveal to us our true royal bloodline or magical lineage. Whether you're Harry Potter or Luke Skywalker or Cinderella, the fantasy is that the adults who are raising you aren't even your real parents, that your real parents are kinder and magical."
+- "The wish for different parents fuels the archetypal fairy tales about evil stepmothers
+and children left in the woods. These fairy tales pivot around the wish that our parents,
+irascible and imperfect, aren't even our real parents, that a fairy godmother will reveal
+to us our true royal bloodline or magical lineage. Whether you're Harry Potter or Luke
+Skywalker or Cinderella, the fantasy is that the adults who are raising you aren't even
+your real parents, that your real parents are kinder and magical."
 
-- "My past was worse than my present, and if my present indicated my future, I could live with that."
+- "My past was worse than my present, and if my present indicated my future, I could live
+with that."
 
-- "As an adult, I've been able to understand that my father was not as trapped by his past as I thought he was. He was often violent and angry, but now I can look back and see that he tried to do fun things from time to time, things that didn't fit into the narrow, cartoonish image that I formed of him."
+- "As an adult, I've been able to understand that my father was not as trapped by his past
+as I thought he was. He was often violent and angry, but now I can look back and see that
+he tried to do fun things from time to time, things that didn't fit into the narrow,
+cartoonish image that I formed of him."
 
-- "But even if the past is unchangeable, maybe our perspective of the past can change. And maybe the way we see past events can change, and if that can change, maybe the past event itself does change—not in action or outcome but in purpose and intent."
+- "But even if the past is unchangeable, maybe our perspective of the past can change. And
+maybe the way we see past events can change, and if that can change, maybe the past event
+itself does change—not in action or outcome but in purpose and intent."
 
-- "How could I explain to Lou that we were symbols? That some people would never be able to see us as just people? That we were symbols of a painful and confusing war? Symbols of the refugees they saw on TV? Symbols of what they were afraid of? Symbols of the people who had shot at them and killed their friends, brothers, and sons? Symbols of whatever they wanted to see?"
+- "How could I explain to Lou that we were symbols? That some people would never be able
+to see us as just people? That we were symbols of a painful and confusing war? Symbols of
+the refugees they saw on TV? Symbols of what they were afraid of? Symbols of the people
+who had shot at them and killed their friends, brothers, and sons? Symbols of whatever
+they wanted to see?"
 
-- "I did learn a lesson that night. In the void of their departure, I learned to appear greater than I was. My brother needed me to be more than his nine-year-old brother. I learned that even if I didn't have a clue about driving or having a job or being a parent, the symbolism of being a parent—the basic act of making toast and washing plates—was enough for Lou. That was the power of the symbol."
+- "I did learn a lesson that night. In the void of their departure, I learned to appear
+greater than I was. My brother needed me to be more than his nine-year-old brother. I
+learned that even if I didn't have a clue about driving or having a job or being a parent,
+the symbolism of being a parent—the basic act of making toast and washing plates—was
+enough for Lou. That was the power of the symbol."
 
 - "Kids don't have a euphemistic or subtle way of speaking about life."
 
-- "Symbolism in our waking Jungian dream was a two-way mirror. We were symbols for our American neighbors, but our neighbors—with their polished cars, grand homes, backyard swing sets—they symbolized something for us, too. They glittered as goals, mirages toward which we endlessly stumbled."
+- "Symbolism in our waking Jungian dream was a two-way mirror. We were symbols for our
+American neighbors, but our neighbors—with their polished cars, grand homes, backyard
+swing sets—they symbolized something for us, too. They glittered as goals, mirages toward
+which we endlessly stumbled."
 
-- "Did I think that I could upend their expectations without any resistance? Of course, I was technically the same kid, but I had gotten the message: I couldn't try too hard to change or fit in, especially if it involved something as dramatic as changing my name. That was too much. Too symbolic. Too real."
+- "Did I think that I could upend their expectations without any resistance? Of course, I
+was technically the same kid, but I had gotten the message: I couldn't try too hard to
+change or fit in, especially if it involved something as dramatic as changing my name.
+That was too much. Too symbolic. Too real."
 
-- "Jung says that the process of becoming an individual begins with a wounding of the ego, and mine was undeniably wounded."
+- "Jung says that the process of becoming an individual begins with a wounding of the ego,
+and mine was undeniably wounded."
 
-- "But if literature moves you deeply, does it matter where it comes from? Does it matter that it's trashy or lowbrow? Isn't that emotional connection one of the purposes of art? To make you feel—really feel—emotions? To resonate with your life? And perhaps, in that connection, to introduce you to a world that lies beyond your own perspective, the utopia beyond your myopia?"
+- "But if literature moves you deeply, does it matter where it comes from? Does it matter
+that it's trashy or lowbrow? Isn't that emotional connection one of the purposes of art?
+To make you feel—really feel—emotions? To resonate with your life? And perhaps, in that
+connection, to introduce you to a world that lies beyond your own perspective, the utopia
+beyond your myopia?"
 
-- "Emma Bovary's books made her yearn for a dreamworld of emotional dramas and searing affairs. They seeded a delusion in her that grew quickly and blinded her, choking out the light except for the glow of fictitious hope. She was not ready for the quiet boredom of a married woman's life, and the yearning that flourished inside her made her own life repulsive to her. Could art do that? Could it make you long and loathe at the same time?"
+- "Emma Bovary's books made her yearn for a dreamworld of emotional dramas and searing
+affairs. They seeded a delusion in her that grew quickly and blinded her, choking out the
+light except for the glow of fictitious hope. She was not ready for the quiet boredom of a
+married woman's life, and the yearning that flourished inside her made her own life
+repulsive to her. Could art do that? Could it make you long and loathe at the same time?"
 
-- "It would be decades before I diagnosed the lump of alienation, dual consciousness, and self-hatred, but it was already growing quickly, bilious and caustic. I only saw myself as the piece that did not fit in the puzzle."
+- "It would be decades before I diagnosed the lump of alienation, dual consciousness, and
+self-hatred, but it was already growing quickly, bilious and caustic. I only saw myself as
+the piece that did not fit in the puzzle."
 
-- "Our imaginations, our self-reflection, were circumscribed by what we saw, limited and funneled into someone else's view of who we were. We saw ourselves as others saw us, and when we were in the media (which was not frequent), our stereotypes were reinforced in the books we read, the movies we saw, the things our friends said to us."
+- "Our imaginations, our self-reflection, were circumscribed by what we saw, limited and
+funneled into someone else's view of who we were. We saw ourselves as others saw us, and
+when we were in the media (which was not frequent), our stereotypes were reinforced in the
+books we read, the movies we saw, the things our friends said to us."
 
-- "With my mother, I lacked the words to tell her what I needed. With my father, I lacked the trust to tell him, the trust that he wouldn't respond with violence or disappointment, the trust that he could give me heartfelt advice, that he could see the olive branch I was extending to him if I shared an intimate and personal experience with him. I didn't believe that he would be anyone different from who he had been (no matter how much I wanted or needed him to be different)."
+- "With my mother, I lacked the words to tell her what I needed. With my father, I lacked
+the trust to tell him, the trust that he wouldn't respond with violence or disappointment,
+the trust that he could give me heartfelt advice, that he could see the olive branch I was
+extending to him if I shared an intimate and personal experience with him. I didn't
+believe that he would be anyone different from who he had been (no matter how much I
+wanted or needed him to be different)."
 
-- "In Vietnamese, the word for country and the word for water are the same: nước. Context obviously makes it clear if you're talking about the former or the latter, but in Vietnamese, your country is not the terra firma or the nationality; it's the water. The waters that feed the soil. The waters that lap your shores. If you ask someone where they're from, you're asking them literally from what waters do they come."
+- "In Vietnamese, the word for country and the word for water are the same: nước. Context
+obviously makes it clear if you're talking about the former or the latter, but in
+Vietnamese, your country is not the terra firma or the nationality; it's the water. The
+waters that feed the soil. The waters that lap your shores. If you ask someone where
+they're from, you're asking them literally from what waters do they come."
 
-- "Old water. New water. Old country. New country. Aqua vitae. Giver of life. Destroyer of memories."
+- "Old water. New water. Old country. New country. Aqua vitae. Giver of life. Destroyer of
+memories."
 
-- "My perceived need to read changed, slowly and surprisingly, into a desire to read—a desire that I didn't fight."
+- "My perceived need to read changed, slowly and surprisingly, into a desire to read—a
+desire that I didn't fight."
 
-- "Their kindness was confusing for me, and it was easier for me to play the simple role of a teenager being angry with his parents. It was easier for me to fixate on the cool new stereo and not to think about why I got a cool new stereo from my parents. In the midst of my own changes, I wasn't able to change my perspective on my mom and dad, to consider that my parents might be changing. Maybe they wanted to change the story of parents being the antagonists in their children's lives. We didn't have the script for that scene. I missed the cues for the dialogue, and the curtain closed on another moment of disconnection."
+- "Their kindness was confusing for me, and it was easier for me to play the simple role
+of a teenager being angry with his parents. It was easier for me to fixate on the cool new
+stereo and not to think about why I got a cool new stereo from my parents. In the midst of
+my own changes, I wasn't able to change my perspective on my mom and dad, to consider that
+my parents might be changing. Maybe they wanted to change the story of parents being the
+antagonists in their children's lives. We didn't have the script for that scene. I missed
+the cues for the dialogue, and the curtain closed on another moment of disconnection."
 
 - "Hatred required calories that I didn't have."
 
-- "Punk rock had paved a way for me through my first two years of high school, but I was beginning to realize that maybe anarchy and nihilism were not a blueprint for building a future. Punk rock was an explosive for detonating the present so that I could rebuild my future from the rubble."
+- "Punk rock had paved a way for me through my first two years of high school, but I was
+beginning to realize that maybe anarchy and nihilism were not a blueprint for building a
+future. Punk rock was an explosive for detonating the present so that I could rebuild my
+future from the rubble."
 
-- "It is a terrible thing for a man to find out suddenly that all his life he has been speaking nothing but the truth."
+- "It is a terrible thing for a man to find out suddenly that all his life he has been
+speaking nothing but the truth."
 
-- "This was the real lesson I learned from Malcolm X, the one I had been avoiding, and like Malcolm, I had to evolve my own thinking. But for me, that meant confronting a hideous truth about who the racists were. This was the hardest thing he had written about. It would be a long time before I could begin to understand how big racism was and how it affected me, but I had to take the first step, to acknowledge the reality of life, to tackle the hardest truth if I wanted to fight it. We all were the racists."
+- "This was the real lesson I learned from Malcolm X, the one I had been avoiding, and
+like Malcolm, I had to evolve my own thinking. But for me, that meant confronting a
+hideous truth about who the racists were. This was the hardest thing he had written about.
+It would be a long time before I could begin to understand how big racism was and how it
+affected me, but I had to take the first step, to acknowledge the reality of life, to
+tackle the hardest truth if I wanted to fight it. We all were the racists."
 
-- "In retrospect, I realized how my parents draped the hopes of college and greatness upon me, their eldest born. They snuffed out their own ambitions, exchanging their dreams for their children's, hoping that our lives would be full of possibilities and free from devastation. My vague but lustrous potential would be built upon the heavy shards of their broken futures."
+- "In retrospect, I realized how my parents draped the hopes of college and greatness upon
+me, their eldest born. They snuffed out their own ambitions, exchanging their dreams for
+their children's, hoping that our lives would be full of possibilities and free from
+devastation. My vague but lustrous potential would be built upon the heavy shards of their
+broken futures."
 
-- "My aspirations for greatness were the antithesis of punk, and I knew it. And for the first time I realized that the most punk thing for me to do was to be who I was without pretention or preamble or grandiose posturing. I had read it in Nietzsche but didn't know what it really meant: become who you are. But becoming who you are required throwing away who you thought you were, unloading expectations both internal and external."
+- "My aspirations for greatness were the antithesis of punk, and I knew it. And for the
+first time I realized that the most punk thing for me to do was to be who I was without
+pretention or preamble or grandiose posturing. I had read it in Nietzsche but didn't know
+what it really meant: become who you are. But becoming who you are required throwing away
+who you thought you were, unloading expectations both internal and external."
 
-- "I just never understood the logic behind buying souvenirs. After all, it's the memory we want, not the souvenir, and once the memory goes, what meaning does the souvenir have? That's like keeping training wheels on your bicycle. I think most of us spend far too much time looking back at our past anyway and not worrying enough about the future without an attic full of old prom dresses, dried corsages, books, toys you don't play with anymore and photo albums of pictures we had thought were long gone."
+- "I just never understood the logic behind buying souvenirs. After all, it's the memory
+we want, not the souvenir, and once the memory goes, what meaning does the souvenir have?
+That's like keeping training wheels on your bicycle. I think most of us spend far too much
+time looking back at our past anyway and not worrying enough about the future without an
+attic full of old prom dresses, dried corsages, books, toys you don't play with anymore
+and photo albums of pictures we had thought were long gone."
 
-- "I don't need souvenirs, and I don't want souvenirs. None of you need souvenirs either. As long as you laugh, won't you carry all the good times with you? And as long as you cry, won't you carry all the bad times with you? So wherever we all end up and wherever we are all going, I know we don't need souvenirs because laughter will always be laughter, and tears will always be tears."
+- "I don't need souvenirs, and I don't want souvenirs. None of you need souvenirs either.
+As long as you laugh, won't you carry all the good times with you? And as long as you cry,
+won't you carry all the bad times with you? So wherever we all end up and wherever we are
+all going, I know we don't need souvenirs because laughter will always be laughter, and
+tears will always be tears."
 
-- "Oh, I don't know about that. It was okay. I messed it up a little from my nerves, I guess. I feel … I feel weirdly let down. So much hype around everything, you know?" I reflexively shrugged at Molly's compliment, deflecting praise as I always did because I was so unaccustomed to hearing earnest accolades. Any kind remark made me feel vulnerable, forced me to confront myself and my purported excellence, a task that felt impossible and undeserved."
+- "Oh, I don't know about that. It was okay. I messed it up a little from my nerves, I
+guess. I feel … I feel weirdly let down. So much hype around everything, you know?" I
+reflexively shrugged at Molly's compliment, deflecting praise as I always did because I
+was so unaccustomed to hearing earnest accolades. Any kind remark made me feel vulnerable,
+forced me to confront myself and my purported excellence, a task that felt impossible and
+undeserved."
 
-- "Teenagers and truck drivers: We're all on our way to somewhere else. We're all sitting at these booths, knowing that we're not at our final destination. This is not the last stop for any of us. We're all en route to far-off places, but our arrival? Who knows? Our arrival will be dictated by things we both can and can't control, unforeseen things. I'm going to college to study English and art, but who knows if that'll happen? Conor's joined the army, but what if he gets killed in Iraq? What about you or my brother? What's next? And we might get to our destination directly, but maybe it'll be in a roundabout, crazy way."
+- "Teenagers and truck drivers: We're all on our way to somewhere else. We're all sitting
+at these booths, knowing that we're not at our final destination. This is not the last
+stop for any of us. We're all en route to far-off places, but our arrival? Who knows? Our
+arrival will be dictated by things we both can and can't control, unforeseen things. I'm
+going to college to study English and art, but who knows if that'll happen? Conor's joined
+the army, but what if he gets killed in Iraq? What about you or my brother? What's next?
+And we might get to our destination directly, but maybe it'll be in a roundabout, crazy
+way."
 
-- "In a world that often seems too crowded or busy to notice beautiful things or make meaningful connections, there is still room for each of us to grow in the ways we were meant to."
+- "In a world that often seems too crowded or busy to notice beautiful things or make
+meaningful connections, there is still room for each of us to grow in the ways we were
+meant to."
 
-- "Whenever you meditate, bear in mind the phrase "without distraction and without grasping," and put this into practice."
+- "Whenever you meditate, bear in mind the phrase "without distraction and without
+grasping," and put this into practice."
 
-- "If you fill a gourd with just a little water and shake it, it makes a lot of noise. But if you fill it to the brim and shake it, it makes no sound."
+- "If you fill a gourd with just a little water and shake it, it makes a lot of noise. But
+if you fill it to the brim and shake it, it makes no sound."
 
 - "Let your mind be a gracious host in the midst of unruly guests."
 
-- "Like Einstein's theory that physical space is warped by bodies of matter within it, it sometimes feels as if the space of awareness is warped by the contents of the mind."
+- "Like Einstein's theory that physical space is warped by bodies of matter within it, it
+sometimes feels as if the space of awareness is warped by the contents of the mind."
 
-- "At times, when we become fixated on something, our minds seem to become very small. Trivial issues loom up in our awareness as if they were very large and important. In reality, they haven't become large. Our minds have become small. The experienced magnitude of the contents of the mind is relative to the spaciousness of the mind."
+- "At times, when we become fixated on something, our minds seem to become very small.
+Trivial issues loom up in our awareness as if they were very large and important. In
+reality, they haven't become large. Our minds have become small. The experienced magnitude
+of the contents of the mind is relative to the spaciousness of the mind."
 
-- "Let the space of your mind be emotionally neutral, like physical space, which could not care less whether bullets or hummingbirds streak through it."
+- "Let the space of your mind be emotionally neutral, like physical space, which could not
+care less whether bullets or hummingbirds streak through it."
 
-- "What we observe is not nature in itself but nature exposed to our method of questioning."
+- "What we observe is not nature in itself but nature exposed to our method of
+questioning."
 
-- "As an analogy, consider a researcher who measured only the vibrations created by the musical instruments as an orchestra played Beethoven's Pastoral Symphony. He would find that before anyone heard any music, the instruments vibrated in specific ways, so he might very well conclude that those vibrations are the sole cause of the symphony. What he will have left out is the role of the composer, the conductor, the skills and emotional states of the musicians, the audience, and so on. While he's right that the vibrations of the instruments played a critical role in producing the music, his eliminative approach has blinded him to a myriad of other influences, and he will be oblivious of the fact that many people can compose and play tunes in their minds, with no vibrating musical instruments exerting any causal role."
+- "As an analogy, consider a researcher who measured only the vibrations created by the
+musical instruments as an orchestra played Beethoven's Pastoral Symphony. He would find
+that before anyone heard any music, the instruments vibrated in specific ways, so he might
+very well conclude that those vibrations are the sole cause of the symphony. What he will
+have left out is the role of the composer, the conductor, the skills and emotional states
+of the musicians, the audience, and so on. While he's right that the vibrations of the
+instruments played a critical role in producing the music, his eliminative approach has
+blinded him to a myriad of other influences, and he will be oblivious of the fact that
+many people can compose and play tunes in their minds, with no vibrating musical
+instruments exerting any causal role."
 
-- "All phenomena are preceded by the mind. When the mind is comprehended, all phenomena are comprehended. By bringing the mind under control, all things are brought under control."
+- "All phenomena are preceded by the mind. When the mind is comprehended, all phenomena
+are comprehended. By bringing the mind under control, all things are brought under
+control."
 
-- "'The mind that is established in equipoise comes to know reality as it is.'"
+- "The mind that is established in equipoise comes to know reality as it is."
 
-- "One of the ways of stopping science would be only to do experiments in the region where you know the law. But experimenters search most diligently, and with the greatest effort, in exactly those places where it seems most likely that we can prove our theories wrong. In other words, we are trying to prove ourselves wrong as quickly as possible, because only in that way can we find progress."
+- "One of the ways of stopping science would be only to do experiments in the region where
+you know the law. But experimenters search most diligently, and with the greatest effort,
+in exactly those places where it seems most likely that we can prove our theories wrong.
+In other words, we are trying to prove ourselves wrong as quickly as possible, because
+only in that way can we find progress."
 
 - "a person whose mind is distracted lives between the fangs of mental afflictions."
 
-- "The success of the McDonald's model suggests that many people have come to prefer a world in which there are few surprises."
+- "The success of the McDonald's model suggests that many people have come to prefer a
+world in which there are few surprises."
 
-- "'If you want to be happy, you mustn't fear the following truths but confront them head-on: one, that we are always unhappy, and that our sadness, suffering and fear have good reasons for existing. Two, that there is no real way to separate these feelings completely from ourselves.'"
+- "If you want to be happy, you mustn't fear the following truths but confront them
+head-on: one, that we are always unhappy, and that our sadness, suffering and fear have
+good reasons for existing. Two, that there is no real way to separate these feelings
+completely from ourselves."
 
-- "I've always thought that art is about moving hearts and minds. Art has given me faith: faith that today may not have been perfect but was still a pretty good day, or faith that even after a long day of being depressed, I can still burst into laughter over something very small."
+- "I've always thought that art is about moving hearts and minds. Art has given me faith:
+faith that today may not have been perfect but was still a pretty good day, or faith that
+even after a long day of being depressed, I can still burst into laughter over something
+very small."
 
-- "I've also realised that revealing my darkness is just as natural a thing to do as revealing my light."
+- "I've also realised that revealing my darkness is just as natural a thing to do as
+revealing my light."
 
-- "I was very serious about friendships when I was little, like most children. But after being bullied in elementary school and middle school, I think by the time I reached high school I'd developed a fear of straying from the herd, and was nervous about friendships in general. That fear was reflected in my romantic relationships, and I decided not to expect too much from friends or friendships anymore. Psychiatrist: I see. Do you find your"
+- "I was very serious about friendships when I was little, like most children. But after
+being bullied in elementary school and middle school, I think by the time I reached high
+school I'd developed a fear of straying from the herd, and was nervous about friendships
+in general. That fear was reflected in my romantic relationships, and I decided not to
+expect too much from friends or friendships anymore. Psychiatrist: I see. Do you find
+your"
 
-- "Perhaps you're co-dependent on your work as well. When you get good results, your worth is realised and you relax, but that satisfaction doesn't last long – that's the problem. It's like you're running inside a hamster wheel."
+- "Perhaps you're co-dependent on your work as well. When you get good results, your worth
+is realised and you relax, but that satisfaction doesn't last long – that's the problem.
+It's like you're running inside a hamster wheel."
 
-- "Sometimes the best thing to do with people who would never listen to you in the first place is to avoid them altogether."
+- "Sometimes the best thing to do with people who would never listen to you in the first
+place is to avoid them altogether."
 
 - "If it doesn't make you feel good, don't go out of your way to do it."
 
-- "I'd like you not to give too much credit to what people say about you. The moment you set out to be more empathic is the moment it becomes a chore. That would result in your empathy decreasing, if anything. It's good not to fake interest in things you're not interested in."
+- "I'd like you not to give too much credit to what people say about you. The moment you
+set out to be more empathic is the moment it becomes a chore. That would result in your
+empathy decreasing, if anything. It's good not to fake interest in things you're not
+interested in."
 
-- "Because there's really no end to worrying once you set your mind to it. If you shift your perspective from their past to your present, you can start perceiving your personal experiences in a more positive manner. From 'How sad they didn't realise this' to 'How lucky it is that I realise this.'"
+- "Because there's really no end to worrying once you set your mind to it. If you shift
+your perspective from their past to your present, you can start perceiving your personal
+experiences in a more positive manner. From 'How sad they didn't realise this' to 'How
+lucky it is that I realise this."
 
-- "It's like with your guilt. You want to strangle someone, and then you automatically feel guilty about having had that thought. Your own anger turns you into a guilty person. There's a desire to punish yourself, shall we say. You have this superego that exerts control over you, a superego built not only from your own experiences but cobbled together from all sorts of things that you admire, creating an idealised version of yourself. But that idealised version of yourself is, in the end, only an ideal. It's not who you actually are. You keep failing to meet that ideal in the real world, and then you punish yourself. If you have a strict superego, the act of being punished eventually becomes gratifying. For example, if you're suspicious of the love you're receiving, and so act out until your partner lashes out and leaves you, you feel relief. You eventually become controlled more by imaginary outside forces than anything that is actually you."
+- "It's like with your guilt. You want to strangle someone, and then you automatically
+feel guilty about having had that thought. Your own anger turns you into a guilty person.
+There's a desire to punish yourself, shall we say. You have this superego that exerts
+control over you, a superego built not only from your own experiences but cobbled together
+from all sorts of things that you admire, creating an idealised version of yourself. But
+that idealised version of yourself is, in the end, only an ideal. It's not who you
+actually are. You keep failing to meet that ideal in the real world, and then you punish
+yourself. If you have a strict superego, the act of being punished eventually becomes
+gratifying. For example, if you're suspicious of the love you're receiving, and so act out
+until your partner lashes out and leaves you, you feel relief. You eventually become
+controlled more by imaginary outside forces than anything that is actually you."
 
-- "when your life satisfaction falls, it's natural to retreat into primitive measures. And eating and sleeping happen to be our most instinctive base measures."
+- "when your life satisfaction falls, it's natural to retreat into primitive measures. And
+eating and sleeping happen to be our most instinctive base measures."
 
 - "I'm needlessly harsh towards myself, so I need comforting, someone who is on my side."
 
-- "I'm very good at immersing myself emotionally, and I'm very empathic; I also feel pressured to be empathic, which means whenever someone would share an experience with me, I'd find myself lying and saying I'd been through the same thing. I would lie to make others laugh or to get attention, while simultaneously chastising myself for lying."
+- "I'm very good at immersing myself emotionally, and I'm very empathic; I also feel
+pressured to be empathic, which means whenever someone would share an experience with me,
+I'd find myself lying and saying I'd been through the same thing. I would lie to make
+others laugh or to get attention, while simultaneously chastising myself for lying."
 
-- "We often lie when our cognitive abilities become impaired for whatever reason. Like when we're drunk, for instance. You know how our memory or judgement falters after a few drinks, right? We subconsciously start lying to fill in the blanks. How many times have you seen drunk people insist they're not drunk? We also find ourselves announcing things that have nothing to do with the context."
+- "We often lie when our cognitive abilities become impaired for whatever reason. Like
+when we're drunk, for instance. You know how our memory or judgement falters after a few
+drinks, right? We subconsciously start lying to fill in the blanks. How many times have
+you seen drunk people insist they're not drunk? We also find ourselves announcing things
+that have nothing to do with the context."
 
-- "Psychiatrist: Why are you so aware of all the hardships others are going through? Me: (Realisation hits.) You're right. Wouldn't it be more natural for me not to know? Psychiatrist: So, complain. Let others know how hard things are for you. Me: I wouldn't know what to say. Psychiatrist: Observe how other people are saying it. They're saying they're having a hard time – that's how you know, so clearly, that they are. But I think you're the kind of person who would ask someone who wasn't having a hard time if they were having a hard time. Me: (I burst into tears at this point.) You mean I was just pretending to be kind all this time? Psychiatrist: You are kind. There's nothing you can do about that. Me: But I don't think it's kindness, I think it's just . . . being pathetic. Psychiatrist: You're attempting to silence your own complaints by thinking, At least I'm better off than them. And the world is full of so much suffering that it's the easiest thing to find people who are having a harder time than you are. But once you do, you then insist on taking the extra step of berating yourself: How could I have been so blind to that person's hardships until now?"
+- "Psychiatrist: Why are you so aware of all the hardships others are going through? Me:
+(Realisation hits.) You're right. Wouldn't it be more natural for me not to know?
+Psychiatrist: So, complain. Let others know how hard things are for you. Me: I wouldn't
+know what to say. Psychiatrist: Observe how other people are saying it. They're saying
+they're having a hard time – that's how you know, so clearly, that they are. But I think
+you're the kind of person who would ask someone who wasn't having a hard time if they were
+having a hard time. Me: (I burst into tears at this point.) You mean I was just pretending
+to be kind all this time? Psychiatrist: You are kind. There's nothing you can do about
+that. Me: But I don't think it's kindness, I think it's just . . . being pathetic.
+Psychiatrist: You're attempting to silence your own complaints by thinking, At least I'm
+better off than them. And the world is full of so much suffering that it's the easiest
+thing to find people who are having a harder time than you are. But once you do, you then
+insist on taking the extra step of berating yourself: How could I have been so blind to
+that person's hardships until now?"
 
-- "Psychiatrist: I feel like you're not very interested in yourself. Me: Even when I keep a diary of my feelings? Psychiatrist: Is that not more of a record of yourself in the third person?"
+- "Psychiatrist: I feel like you're not very interested in yourself. Me: Even when I keep
+a diary of my feelings? Psychiatrist: Is that not more of a record of yourself in the
+third person?"
 
-- "When you're having a hard time, it's natural to feel like you're having the hardest time in the world. And it's not selfish to feel that way. Just because certain conditions in your life are relatively better, it doesn't mean you're better off in general"
+- "When you're having a hard time, it's natural to feel like you're having the hardest
+time in the world. And it's not selfish to feel that way. Just because certain conditions
+in your life are relatively better, it doesn't mean you're better off in general"
 
 - "It's not the pills that make people addicted to them."
 
-- "It's just your opinion. It's not like there's any right or wrong to it. Of course, others may have their own expectations, or you may feel pressured to sound impressive in your critiques because of your studies and your job. But the moment you think to yourself, Well, this is the way I am, and what can you do about it, you'll feel much freer. Me: Oh. Just the thought of"
+- "It's just your opinion. It's not like there's any right or wrong to it. Of course,
+others may have their own expectations, or you may feel pressured to sound impressive in
+your critiques because of your studies and your job. But the moment you think to yourself,
+Well, this is the way I am, and what can you do about it, you'll feel much freer. Me: Oh.
+Just the thought of"
 
 - "Forgetfulness can be liberating, you know."
 
-- "You put a lot of stock in what other people think. It's because your satisfaction with yourself is so low. But your life is your life, your body is your body – and you have responsibility over it. Right now, you don't process the input that comes to you through a mechanism of rationality or mediation, you go straight to the extreme. Self-surveillance isn't necessarily a bad thing, but there is so much you can do with the input, such as rationalising or finding a different way to think about things – but you only do one thing with it. There can be so many reasons for something, but you're so focused on the result of it that you don't see the reasons. You keep focusing on, I'm sad, I want to cry, I'm angry, which only amplifies these emotions."
+- "You put a lot of stock in what other people think. It's because your satisfaction with
+yourself is so low. But your life is your life, your body is your body – and you have
+responsibility over it. Right now, you don't process the input that comes to you through a
+mechanism of rationality or mediation, you go straight to the extreme. Self-surveillance
+isn't necessarily a bad thing, but there is so much you can do with the input, such as
+rationalising or finding a different way to think about things – but you only do one thing
+with it. There can be so many reasons for something, but you're so focused on the result
+of it that you don't see the reasons. You keep focusing on, I'm sad, I want to cry, I'm
+angry, which only amplifies these emotions."
 
-- "I think you need to spatially separate your work and your rest. If you were stressed at work, you ought to be relaxing when you're home,"
+- "I think you need to spatially separate your work and your rest. If you were stressed at
+work, you ought to be relaxing when you're home,"
 
-- "Your mood is extremely important. It determines how you interpret the random events of life."
+- "Your mood is extremely important. It determines how you interpret the random events of
+life."
 
-- "It's just a hobby after all. You mustn't let your hobby become stressful. But I hope if you don't do it isn't out of fear."
+- "It's just a hobby after all. You mustn't let your hobby become stressful. But I hope if
+you don't do it isn't out of fear."
 
-- "Usually before a dream becomes reality, we tend to think we'll wish for nothing else if only the dream is realised. Imagine how you'd feel if you always remembered that your dream has already been fulfilled. Everything that comes after would be like a lovely bonus. When you feel envious of something, try to imagine how you would look to your twenty-year-old self."
+- "Usually before a dream becomes reality, we tend to think we'll wish for nothing else if
+only the dream is realised. Imagine how you'd feel if you always remembered that your
+dream has already been fulfilled. Everything that comes after would be like a lovely
+bonus. When you feel envious of something, try to imagine how you would look to your
+twenty-year-old self."
 
-- "But the you of the present is looking at your life and past as if you're a failure. When in truth, from the perspective of a younger you, you're the very picture of success."
+- "But the you of the present is looking at your life and past as if you're a failure.
+When in truth, from the perspective of a younger you, you're the very picture of success."
 
-- "when my face looked like a bleak black-and-white film still in the mirror – could that girl have imagined she would become me one day?"
+- "when my face looked like a bleak black-and-white film still in the mirror – could that
+girl have imagined she would become me one day?"
 
-- "I've worked hard to get here. And now I make a living doing what I enjoy. I've no anxieties about whether this is the right path for me. All I want is to get better at it. That's enough for me – why did I torture myself by comparing myself to someone else? If twenty-year-old me met me today, she would cry with joy. And that's enough for me."
+- "I've worked hard to get here. And now I make a living doing what I enjoy. I've no
+anxieties about whether this is the right path for me. All I want is to get better at it.
+That's enough for me – why did I torture myself by comparing myself to someone else? If
+twenty-year-old me met me today, she would cry with joy. And that's enough for me."
 
 - "more you sacrifice, the more you'll begin to expect a payback."
 
-- "You keep obsessively holding yourself to these idealised standards, forcing yourself to fit them. It's another way, among many, for you to keep punishing yourself."
+- "You keep obsessively holding yourself to these idealised standards, forcing yourself to
+fit them. It's another way, among many, for you to keep punishing yourself."
 
 - "You try to hide your obsession because you are aware of it, I mean."
 
 - "Your self-esteem determines how you feel about the sincerity of others."
 
-- "You have sympathy for social minorities. Perhaps that comes from seeing yourself as disadvantaged?"
+- "You have sympathy for social minorities. Perhaps that comes from seeing yourself as
+disadvantaged?"
 
 - "We are so bad at mourning in our society. Maybe it's a failure of respect."
 
-- "I think it's good to experience complete solitude in an unfamiliar environment. You're not hitting rock bottom right now. When we're sinking in water, it can be a relief to feel the ground beneath our feet, the rock bottom, because we know we can kick against it to rise again. But if you can't feel the ground in life, the fear can be overwhelming. So maybe it's good to find your rock bottom."
+- "I think it's good to experience complete solitude in an unfamiliar environment. You're
+not hitting rock bottom right now. When we're sinking in water, it can be a relief to feel
+the ground beneath our feet, the rock bottom, because we know we can kick against it to
+rise again. But if you can't feel the ground in life, the fear can be overwhelming. So
+maybe it's good to find your rock bottom."
 
-- "Mother clearly hated how she had passed on this part of herself to us, which was why she was always angry at our faults."
+- "Mother clearly hated how she had passed on this part of herself to us, which was why
+she was always angry at our faults."
 
-- "Accepting your burdens and putting them down isn't an occasional posture; it's something you need to practise for the rest of your life."
+- "Accepting your burdens and putting them down isn't an occasional posture; it's
+something you need to practise for the rest of your life."
 
-- "Books never tire of me. And in time they present a solution, quietly waiting until I am fully healed."
+- "Books never tire of me. And in time they present a solution, quietly waiting until I am
+fully healed."
 
 - "We always put modifiers in front of ourselves, and I'm no exception to that."
 
-- "to expect someone to always be a certain way or consistently do a certain thing can be a huge burden on them."
+- "to expect someone to always be a certain way or consistently do a certain thing can be
+a huge burden on them."
 
-- "When life becomes something one just lives through, when the demands of survival take up all of our time and effort, leaving no strength for any other demands, and when time rushes by drying up or rotting whatever we have had to neglect, expecting someone to carry on being the same is truly too much of a burden."
+- "When life becomes something one just lives through, when the demands of survival take
+up all of our time and effort, leaving no strength for any other demands, and when time
+rushes by drying up or rotting whatever we have had to neglect, expecting someone to carry
+on being the same is truly too much of a burden."
 
-- "There are days when I wish I were numb, when I'm desperate to feel nothing. I want to be simple and cold and totally without feeling. Empathy has a large presence in my life, and it can cast a very long shadow. I can be watching a television drama or a movie, listening to a song or looking at a photograph, listening to someone's story or writing my own, and my heart and mood will sink. Like a punctum they pierce me without context, a feeling I am very used to now and tired of."
+- "There are days when I wish I were numb, when I'm desperate to feel nothing. I want to
+be simple and cold and totally without feeling. Empathy has a large presence in my life,
+and it can cast a very long shadow. I can be watching a television drama or a movie,
+listening to a song or looking at a photograph, listening to someone's story or writing my
+own, and my heart and mood will sink. Like a punctum they pierce me without context, a
+feeling I am very used to now and tired of."
 
-- "Life is as messy as a bag whose owner never cleans it out. You have no idea when you might reach in and pull out a piece of old trash, and you're afraid someone is going to look through your bag someday. Maybe your 'baggage' is like an old bag, too. You toss it around any which way, not caring how worn it gets or where it lands, and no one notices. You can't afford a new bag so you carefully and painstakingly hold it so the rough patches don't show."
+- "Life is as messy as a bag whose owner never cleans it out. You have no idea when you
+might reach in and pull out a piece of old trash, and you're afraid someone is going to
+look through your bag someday. Maybe your 'baggage' is like an old bag, too. You toss it
+around any which way, not caring how worn it gets or where it lands, and no one notices.
+You can't afford a new bag so you carefully and painstakingly hold it so the rough patches
+don't show."
 
-- "Changing your mindset takes some work, but the beauty is when you begin to understand there's a huge difference between being busy and being productive. This is something so many of us struggle with because we falsely believe that we need to be busy, that we are supposed to fill our days."
+- "Changing your mindset takes some work, but the beauty is when you begin to understand
+there's a huge difference between being busy and being productive. This is something so
+many of us struggle with because we falsely believe that we need to be busy, that we are
+supposed to fill our days."
 
-- "Balance is just one of the stories we tell ourselves. We all have a library of folklore filled with stories about ourselves that we believe: we are supposed to be a certain way, have a certain job, or live a certain life."
+- "Balance is just one of the stories we tell ourselves. We all have a library of folklore
+filled with stories about ourselves that we believe: we are supposed to be a certain way,
+have a certain job, or live a certain life."
 
-- "I quieted the stories in my head and reset my expectations to make them realistic for my life. I'm not going to say I've completely gotten rid of the guilt, but I feel so much better because I changed my way of thinking."
+- "I quieted the stories in my head and reset my expectations to make them realistic for
+my life. I'm not going to say I've completely gotten rid of the guilt, but I feel so much
+better because I changed my way of thinking."
 
-- "Ask any kindergartner what they are good at, and you'll need to sit through a laundry list of topics: art, running, painting, climbing trees, eating potato chips—seriously, five-year-olds think they are amazing at everything! But wait ten years and ask the very same child, and she'll think of almost nothing; at best you'll maybe hear one or two things she believes she excels in. What happens to us in this space of time? How do we lose our belief in ourselves? We've allowed the world to define us and reinforce these limiting beliefs, but it's time to break through."
+- "Ask any kindergartner what they are good at, and you'll need to sit through a laundry
+list of topics: art, running, painting, climbing trees, eating potato chips—seriously,
+five-year-olds think they are amazing at everything! But wait ten years and ask the very
+same child, and she'll think of almost nothing; at best you'll maybe hear one or two
+things she believes she excels in. What happens to us in this space of time? How do we
+lose our belief in ourselves? We've allowed the world to define us and reinforce these
+limiting beliefs, but it's time to break through."
 
 - "Sometimes we have to let go of our old stories."
 
-- "Because so many of us live in a state of either/or, we tend to push aside other things we really want to do. Far too many of us have pushed aside our aspirations because we believe we don't have time or don't have the right to pursue them."
+- "Because so many of us live in a state of either/or, we tend to push aside other things
+we really want to do. Far too many of us have pushed aside our aspirations because we
+believe we don't have time or don't have the right to pursue them."
 
-- "Too often we hand over the reins, allowing others to imprison us with their own agendas and urgent fires that need putting out. We think we don't have control over how our day runs, but we do. We've simply forgotten that we have the ability to choose to spend time on our own priorities."
+- "Too often we hand over the reins, allowing others to imprison us with their own agendas
+and urgent fires that need putting out. We think we don't have control over how our day
+runs, but we do. We've simply forgotten that we have the ability to choose to spend time
+on our own priorities."
 
-- "Have you ever experienced that feeling of having no control over your day? As if your world is so rigid and made up of so many rules you don't really get to choose the life you live? That, my friend, is learned helplessness."
+- "Have you ever experienced that feeling of having no control over your day? As if your
+world is so rigid and made up of so many rules you don't really get to choose the life you
+live? That, my friend, is learned helplessness."
 
 - "It's not reality2 that makes us feel stuck; it's the lens we use to view the world."
 
-- "We want to believe our kids need us, and sometimes in the busy rush of our everyday life, we forget they are capable of being more independent."
+- "We want to believe our kids need us, and sometimes in the busy rush of our everyday
+life, we forget they are capable of being more independent."
 
 - "We all have these invisible choices, don't we?"
 
-- "Have you ever watched a squirrel aiming to get something she wants? Perched in a tree, tail twitching, she sees a bird feeder and is drawn to it. The homeowners, though, are smart, and they've added all kinds of obstacles to make it "squirrel-proof." Does our squirrel take a look, decide she has no chance of getting to the seeds, and toss in the towel? Absolutely not. A squirrel will attack the problem from all angles, testing and pushing the boundaries of what she knows she can and cannot do, until she sits triumphantly atop that feeder with a belly full of birdseed."
+- "Have you ever watched a squirrel aiming to get something she wants? Perched in a tree,
+tail twitching, she sees a bird feeder and is drawn to it. The homeowners, though, are
+smart, and they've added all kinds of obstacles to make it "squirrel-proof." Does our
+squirrel take a look, decide she has no chance of getting to the seeds, and toss in the
+towel? Absolutely not. A squirrel will attack the problem from all angles, testing and
+pushing the boundaries of what she knows she can and cannot do, until she sits
+triumphantly atop that feeder with a belly full of birdseed."
 
-- "Finding choices isn't only possible, it's essential to thrive. You just have to start actively looking for them—that's a choice in and of itself."
+- "Finding choices isn't only possible, it's essential to thrive. You just have to start
+actively looking for them—that's a choice in and of itself."
 
-- "It's possible for your future to look brighter, for you to focus on the things that are important to you. But to do that, your priorities have to take priority. It's possible to have a job that makes you happy and to spend time on the things you really want."
+- "It's possible for your future to look brighter, for you to focus on the things that are
+important to you. But to do that, your priorities have to take priority. It's possible to
+have a job that makes you happy and to spend time on the things you really want."
 
-- "Our North Star is a combination of our mission, vision statement, and core values. Each one answers the question of who you are at your heart. The mission statement tells us what we are doing now, the vision statement tells of where we want to be, and the core values tell us how these can be defined through our actions. Like pieces of a puzzle, they come together to create the completed picture of why we make the choices we do. They become the North Star we need to guide us and help us navigate through decisions."
+- "Our North Star is a combination of our mission, vision statement, and core values. Each
+one answers the question of who you are at your heart. The mission statement tells us what
+we are doing now, the vision statement tells of where we want to be, and the core values
+tell us how these can be defined through our actions. Like pieces of a puzzle, they come
+together to create the completed picture of why we make the choices we do. They become the
+North Star we need to guide us and help us navigate through decisions."
 
-- "Human beings are works in progress2 that mistakenly think they are finished. The person you are right now is transient, as fleeting and as temporary as all the people you've ever been. The one constant in our lives is change."
+- "Human beings are works in progress2 that mistakenly think they are finished. The person
+you are right now is transient, as fleeting and as temporary as all the people you've ever
+been. The one constant in our lives is change."
 
-- "Your mission statement isn't about your job itself—it's about what your job does and why you do it."
+- "Your mission statement isn't about your job itself—it's about what your job does and
+why you do it."
 
-- "Remembering that I'll be dead soon15 is the most important tool I've ever encountered to help me make the big choices in life." We don't have to wait until we receive bad news from the doctor or read our obituary in the paper. We can begin to make those big choices now, using our North Star to help guide us."
+- "Remembering that I'll be dead soon15 is the most important tool I've ever encountered
+to help me make the big choices in life." We don't have to wait until we receive bad news
+from the doctor or read our obituary in the paper. We can begin to make those big choices
+now, using our North Star to help guide us."
 
 - "Don't spend time beating on a wall, hoping to transform it into a door."
 
-- "For too long, I had no idea where to spend my time or how to spend my energy. I wasn't productive—I was simply running around being busy, filling my days but not my soul."
+- "For too long, I had no idea where to spend my time or how to spend my energy. I wasn't
+productive—I was simply running around being busy, filling my days but not my soul."
 
-- "It seems like this abundance of information should make life easier, but when we are bombarded with so much of it, the paradox is that decision making becomes more difficult. This is when the feeling of overwhelm begins to settle in and we simply don't know where to start."
+- "It seems like this abundance of information should make life easier, but when we are
+bombarded with so much of it, the paradox is that decision making becomes more difficult.
+This is when the feeling of overwhelm begins to settle in and we simply don't know where
+to start."
 
-- "We have to cut in order to really grow and flourish. I know this seems counterintuitive, but think of a garden: Do you plant the flowers one on top of another? Do you squeeze so many in that there is no room? Or do you allow each plant to have space—space to receive the rain and the sun, space to spread their leaves and grow? That's what we need: space to allow ourselves to focus. The only way to have that space is to actively create it for ourselves. We need boundaries."
+- "We have to cut in order to really grow and flourish. I know this seems
+counterintuitive, but think of a garden: Do you plant the flowers one on top of another?
+Do you squeeze so many in that there is no room? Or do you allow each plant to have
+space—space to receive the rain and the sun, space to spread their leaves and grow? That's
+what we need: space to allow ourselves to focus. The only way to have that space is to
+actively create it for ourselves. We need boundaries."
 
 - "Perfectionism is just fear in fancy shoes and a mink coat."
 
-- "Remember, efficiency is doing a lot of work; effectiveness is doing the important work. Quality wins every time. And yes, we want to use less energy and time, but not at the expense of quality. Sometimes we are so caught up in deadlines, we don't realize that the processes we believe make us faster are working against us."
+- "Remember, efficiency is doing a lot of work; effectiveness is doing the important work.
+Quality wins every time. And yes, we want to use less energy and time, but not at the
+expense of quality. Sometimes we are so caught up in deadlines, we don't realize that the
+processes we believe make us faster are working against us."
 
-- "Writing on paper deepens the relationship between the information and your brain, and it creates the ability for you to see your bread crumbs to help uncover patterns. It allows you to see the bigger picture, which can sometimes feel abstract—it helps you uncover what's important, which is where you really want to spend your time."
+- "Writing on paper deepens the relationship between the information and your brain, and
+it creates the ability for you to see your bread crumbs to help uncover patterns. It
+allows you to see the bigger picture, which can sometimes feel abstract—it helps you
+uncover what's important, which is where you really want to spend your time."
 
-- "No matter which bowl I choose, I will end up eating the amount of ice cream that fills it. My idea of how much ice cream I need expands to the size of the bowl I have. Time works in exactly the same way."
+- "No matter which bowl I choose, I will end up eating the amount of ice cream that fills
+it. My idea of how much ice cream I need expands to the size of the bowl I have. Time
+works in exactly the same way."
 
-- "We don't realize that without failure we wouldn't be as successful as we are. Our shortcomings and mistakes are all part of our path."
+- "We don't realize that without failure we wouldn't be as successful as we are. Our
+shortcomings and mistakes are all part of our path."
 
-- "Instead of saying, "I don't have time," try saying, "It's not a priority," and see how that feels."
+- "Instead of saying, "I don't have time," try saying, "It's not a priority," and see how
+that feels."
 
-- "Overwhelm isn't having too much to do; it's not knowing where to start. Our long checklist doesn't show us where to start. Instead, it confuses us more, spinning us in circles as we feverishly scan our tasks, wondering how we will possibly get it all done. Yes, it makes us feel busy, but it doesn't make us productive"
+- "Overwhelm isn't having too much to do; it's not knowing where to start. Our long
+checklist doesn't show us where to start. Instead, it confuses us more, spinning us in
+circles as we feverishly scan our tasks, wondering how we will possibly get it all done.
+Yes, it makes us feel busy, but it doesn't make us productive"
 
-- "You see, dopamine doesn't distinguish between important and unimportant; it just knows that crossing items off our lists feels good."
+- "You see, dopamine doesn't distinguish between important and unimportant; it just knows
+that crossing items off our lists feels good."
 
-- "if you prioritize the important tasks, you get to a place where you don't have any urgent tasks."
+- "if you prioritize the important tasks, you get to a place where you don't have any
+urgent tasks."
 
-- "Oftentimes we feel that something is important because we believe it's something we are supposed to do—even if it's not something we really want. These tasks are so deeply entwined with our stories and our need for perfection that we don't even realize it. We feel tied to the obligation, and we lose sight of why we are even doing the task in the first place."
+- "Oftentimes we feel that something is important because we believe it's something we are
+supposed to do—even if it's not something we really want. These tasks are so deeply
+entwined with our stories and our need for perfection that we don't even realize it. We
+feel tied to the obligation, and we lose sight of why we are even doing the task in the
+first place."
 
 - "Are we allowing our stories to dictate our days?"
 
 - "A good plan includes the three Rs—record, reward, and redirect."
 
-- "You see, traditions are systems—they take the thinking out of tasks. Routines and rituals do that for us, too, but on a daily basis—they help streamline our days and make it easier for us to enjoy each day."
+- "You see, traditions are systems—they take the thinking out of tasks. Routines and
+rituals do that for us, too, but on a daily basis—they help streamline our days and make
+it easier for us to enjoy each day."
 
 - "Decision fatigue loves laundry stress; they're best friends."
 
-- "How did the river go from intimidating to entertaining? All it took was structuring our run. We took some time to create a plan, and suddenly the crushing power of the river didn't seem so out of control. We owned the river that day, and it felt good."
+- "How did the river go from intimidating to entertaining? All it took was structuring our
+run. We took some time to create a plan, and suddenly the crushing power of the river
+didn't seem so out of control. We owned the river that day, and it felt good."
 
-- "One of the biggest mistakes I see people make is planning out the entire week in one sitting,"
+- "One of the biggest mistakes I see people make is planning out the entire week in one
+sitting,"
 
 - "It's amazing the deep connections we can make when we strip away everything else."
 
@@ -17407,29 +19472,51 @@ Let's just enjoy the moment."
 
 - "The world will see you the way you see you, and treat you the way you treat yourself."
 
-- "We've all experienced that vague sense of dissatisfaction with our day. Time passes in a blur as we sit at our desks without really paying attention to the tasks or even the people around us. We punch the clock, getting work done, but when the day closes we feel like we accomplished nothing. This is why we feel unsatisfied when we lay our heads on our pillows, why we wonder where the day has gone."
+- "We've all experienced that vague sense of dissatisfaction with our day. Time passes in
+a blur as we sit at our desks without really paying attention to the tasks or even the
+people around us. We punch the clock, getting work done, but when the day closes we feel
+like we accomplished nothing. This is why we feel unsatisfied when we lay our heads on our
+pillows, why we wonder where the day has gone."
 
-- "Harmony can be found in the 168 hours we have each week, but so many people choose to focus—almost hawklike—on just the 24 hours of each day. Twenty-four hours is such a tiny snapshot of the whole picture, literally one-seventh of our week. And yet each day is treated as if it stands alone, so there's a tendency to look at this tiny snapshot as our chance at achieving this mythical balance."
+- "Harmony can be found in the 168 hours we have each week, but so many people choose to
+focus—almost hawklike—on just the 24 hours of each day. Twenty-four hours is such a tiny
+snapshot of the whole picture, literally one-seventh of our week. And yet each day is
+treated as if it stands alone, so there's a tendency to look at this tiny snapshot as our
+chance at achieving this mythical balance."
 
 - "Any given 24 hours might not be balanced, but the 168-hour week as a whole can be."
 
-- "We have a tendency to beat ourselves up and to notice only the things we didn't do well, when in reality we are doing much better than we think."
+- "We have a tendency to beat ourselves up and to notice only the things we didn't do
+well, when in reality we are doing much better than we think."
 
 - "It's all about effectiveness over efficiency."
 
-- "Sharks glide through the salty water at the top of the food chain, but they are burdened with the constant task of movement. For sharks to breathe, oxygen-rich water must continually flow over their gills. Their fins act like the wings of a fighter jet, giving them lift. If a shark stops moving, it will sink to the sandy bottom of the ocean floor and suffocate. Sharks are predators in constant motion, which has led scientists for years to wonder, If sharks can never stop moving, how do they sleep?"
+- "Sharks glide through the salty water at the top of the food chain, but they are
+burdened with the constant task of movement. For sharks to breathe, oxygen-rich water must
+continually flow over their gills. Their fins act like the wings of a fighter jet, giving
+them lift. If a shark stops moving, it will sink to the sandy bottom of the ocean floor
+and suffocate. Sharks are predators in constant motion, which has led scientists for years
+to wonder, If sharks can never stop moving, how do they sleep?"
 
-- "We have the time, but the idea of intentionally creating space for this unstructured time feels uncomfortable. It feels silly because we are grown-ups and we don't think we need recess. But we do. Whitespace is essential for our own well-being."
+- "We have the time, but the idea of intentionally creating space for this unstructured
+time feels uncomfortable. It feels silly because we are grown-ups and we don't think we
+need recess. But we do. Whitespace is essential for our own well-being."
 
-- "the beauty of acknowledging our stories is that we have the ability to rewrite our own endings."
+- "the beauty of acknowledging our stories is that we have the ability to rewrite our own
+endings."
 
-- "We are taught by society—by our upbringing—to be givers. We give, we give, we give, and we feel guilty taking."
+- "We are taught by society—by our upbringing—to be givers. We give, we give, we give, and
+we feel guilty taking."
 
-- "To bring out the best in others7, I first have to bring out the best in me. I cannot give what I do not have."
+- "To bring out the best in others7, I first have to bring out the best in me. I cannot
+give what I do not have."
 
-- "We have a thousand words for busy13 but no single word for the true opposite—at least not a positive one. There isn't an English word for slowing down and savoring time."
+- "We have a thousand words for busy13 but no single word for the true opposite—at least
+not a positive one. There isn't an English word for slowing down and savoring time."
 
-- "We all want to be acknowledged. We falsely believe we have to be everywhere in order to be seen. I think we all worry about being forgotten. We all want to make our mark on this world."
+- "We all want to be acknowledged. We falsely believe we have to be everywhere in order to
+be seen. I think we all worry about being forgotten. We all want to make our mark on this
+world."
 
 - "Committing to nothing means you're distracted by everything."
 
@@ -17437,33 +19524,64 @@ Let's just enjoy the moment."
 
 - "every time we say yes, we say no to something else."
 
-- "You may not control all the events that happen to you, but you can decide not to be reduced by them."
+- "You may not control all the events that happen to you, but you can decide not to be
+reduced by them."
 
-- "Our brain can overlook countless items in our surroundings, but once our brain takes notice of something it considers significant (in my case, pregnant women), it starts to pull those occurrences out of the background noise. Because of our selective attention,1 it feels as if they are appearing again and again in our world. Really, the truth is, those things were there all along; we just didn't take notice. It's our mindset kicking in."
+- "Our brain can overlook countless items in our surroundings, but once our brain takes
+notice of something it considers significant (in my case, pregnant women), it starts to
+pull those occurrences out of the background noise. Because of our selective attention,1
+it feels as if they are appearing again and again in our world. Really, the truth is,
+those things were there all along; we just didn't take notice. It's our mindset kicking
+in."
 
-- "While I love the crystal-clear waters of the beaches, it does limit me from seeing the mountains and rivers."
+- "While I love the crystal-clear waters of the beaches, it does limit me from seeing the
+mountains and rivers."
 
-- "If I spent all my time in the mountains,3 I would miss diving with sea turtles, but if I only swam the warm waters of the Caribbean, I'd never get to see the sun set on the mountains."
+- "If I spent all my time in the mountains,3 I would miss diving with sea turtles, but if
+I only swam the warm waters of the Caribbean, I'd never get to see the sun set on the
+mountains."
 
-- "The world has arrived at an age of cheap complex devices of great reliability; and something is bound to come of it. -VANNEVAR BUSH"
+- "The world has arrived at an age of cheap complex devices of great reliability; and
+something is bound to come of it. -VANNEVAR BUSH"
 
 - "Very few tools transform their culture."
 
-- "Humans often anthropomorphize the objects they use, especially when they become fond of their interaction with those objects."
+- "Humans often anthropomorphize the objects they use, especially when they become fond of
+their interaction with those objects."
 
-- "As with most media from which things are built, whether the thing is a cathedral, a bacterium, a sonnet, a fugue or a word processor, architecture dominates material. To understand clay is not to understand the pot. What a pot is all about can be appreciated better by understanding the creators and users of the pot and their need both to inform the material with their meaning and to extract meaning from the form."
+- "As with most media from which things are built, whether the thing is a cathedral, a
+bacterium, a sonnet, a fugue or a word processor, architecture dominates material. To
+understand clay is not to understand the pot. What a pot is all about can be appreciated
+better by understanding the creators and users of the pot and their need both to inform
+the material with their meaning and to extract meaning from the form."
 
-- "You're doing this because that's the dream," he said. "Don't mess with my dream, and I'll like you."
+- "You're doing this because that's the dream," he said. "Don't mess with my dream, and
+I'll like you."
 
-- "You know, we don't grow most of the food we eat. We wear clothes other people make. We speak a language that other people developed. We use a mathematics that other people evolved  I mean, we're constantly taking things. It's a wonderful, ecstatic feeling to create something that puts it back in the pool of human experience and knowledge."
+- "You know, we don't grow most of the food we eat. We wear clothes other people make. We
+speak a language that other people developed. We use a mathematics that other people
+evolved  I mean, we're constantly taking things. It's a wonderful, ecstatic feeling to
+create something that puts it back in the pool of human experience and knowledge."
 
 - "Crusades are not completed in a day, even in a year."
 
-- "improve its abilities to wrestle problems into submission. Something to augment human powers. That was the word he used, augment. The other word he would come to use was crusade. Engelbart was embarking on a crusade to augment human capabilities by applying new technologies and developing ways to interact with that technology. He ultimately would realize, and even surpass, what Vannevar Bush had written in his terribly important yet unappreciated essay in the Atlantic. Crusades are not completed in a day, even in a year."
+- "improve its abilities to wrestle problems into submission. Something to augment human
+powers. That was the word he used, augment. The other word he would come to use was
+crusade. Engelbart was embarking on a crusade to augment human capabilities by applying
+new technologies and developing ways to interact with that technology. He ultimately would
+realize, and even surpass, what Vannevar Bush had written in his terribly important yet
+unappreciated essay in the Atlantic. Crusades are not completed in a day, even in a year."
 
-- "The territory you see through the augmented window in your new vehicle is not the normal landscape of plains and trees and oceans, but an informationscape in which the features are words, numbers, graphs, images, concepts, paragraphs, arguments, relationships, formulas, diagrams, proofs, bodies of literature and schools of criticism." We now have a term for this informationscape: cyberspace."
+- "The territory you see through the augmented window in your new vehicle is not the
+normal landscape of plains and trees and oceans, but an informationscape in which the
+features are words, numbers, graphs, images, concepts, paragraphs, arguments,
+relationships, formulas, diagrams, proofs, bodies of literature and schools of criticism."
+We now have a term for this informationscape: cyberspace."
 
-- "The tablet become a page become a screen become a world, a virtual world. Its depths increase with every image and word or number, with every addition, every contribution, of fact or thought. Its corridors form wherever electricity runs with intelligence. Its chambers bloom wherever data gathers and is stored . "
+- "The tablet become a page become a screen become a world, a virtual world. Its depths
+increase with every image and word or number, with every addition, every contribution, of
+fact or thought. Its corridors form wherever electricity runs with intelligence. Its
+chambers bloom wherever data gathers and is stored . "
 
 - "His vision was at the mercy of those he inspired."
 
@@ -17471,113 +19589,195 @@ Let's just enjoy the moment."
 
 - "The medium is the message."
 
-- "The computer is a medium! I had always thought of it as a tool, perhaps a vehicle-a much weaker conception. What McLuhan was saying is that if the personal computer is truly a new medium then the very use of it would actually change the thought patterns of an entire civilization."
+- "The computer is a medium! I had always thought of it as a tool, perhaps a vehicle-a
+much weaker conception. What McLuhan was saying is that if the personal computer is truly
+a new medium then the very use of it would actually change the thought patterns of an
+entire civilization."
 
-- "The Alan Kay style of virtual designing, which he continued long after visualizing the Dynabook, consists of creating imaginative abstractions of what can be, going through the motions of gathering a team to build the thing, and discovering important new techniques and innovations in the process. The real product is the body of ideas that circulate from the vision."
+- "The Alan Kay style of virtual designing, which he continued long after visualizing the
+Dynabook, consists of creating imaginative abstractions of what can be, going through the
+motions of gathering a team to build the thing, and discovering important new techniques
+and innovations in the process. The real product is the body of ideas that circulate from
+the vision."
 
 - "Metaphor, it turns out, is the key to making computers comprehensible."
 
-- "if it didn't hit the streets, it wasn't worth doing. Ideas were useless if they didn't get out there."
+- "if it didn't hit the streets, it wasn't worth doing. Ideas were useless if they didn't
+get out there."
 
-- "people are more important than computers, and that computer systems should be designed to alleviate human frailties, rather than have the human succumb to the needs of the machine"
-
-- "How can you believe any criticism when everything you do turns to"
+- "people are more important than computers, and that computer systems should be designed
+to alleviate human frailties, rather than have the human succumb to the needs of the
+machine"
 
 - "How can you believe any criticism when everything you do turns to gold?"
 
-- "The proper lesson from all this was that personal computer companies are just as well off letting others produce great software."
+- "The proper lesson from all this was that personal computer companies are just as well
+off letting others produce great software."
 
-- "when you start looking at a problem and it seems really simple, with simple solutions, you don't really understand the complexity of the problem. Your solutions are way over-simplified. Then you get into the problem, and you see that it's really complicated, and you come up with all these convoluted solutions. That's sort of the middle, and that's where most people stop, and the solutions tend to work for a while. But the really great person will keep on going and find the key, the underlying principle of the problem. And come up with an elegant, really beautiful solution that works."
+- "when you start looking at a problem and it seems really simple, with simple solutions,
+you don't really understand the complexity of the problem. Your solutions are way
+over-simplified. Then you get into the problem, and you see that it's really complicated,
+and you come up with all these convoluted solutions. That's sort of the middle, and that's
+where most people stop, and the solutions tend to work for a while. But the really great
+person will keep on going and find the key, the underlying principle of the problem. And
+come up with an elegant, really beautiful solution that works."
 
-- "A lot of times people don't do great things because great things really aren't expected of them and because nobody really demands they try and nobody says, 'Hey, that's the culture here, to do great things"
+- "A lot of times people don't do great things because great things really aren't expected
+of them and because nobody really demands they try and nobody says, 'Hey, that's the
+culture here, to do great things"
 
-- "What did I learn from Steve Jobs?" he repeated. "That ignorance [of what you can't do] is great. We learned to keep on trying and trying. We weren't the best, but we tried the hardest. We were just a bunch oflucky nerds."
+- "What did I learn from Steve Jobs?" he repeated. "That ignorance [of what you can't do]
+is great. We learned to keep on trying and trying. We weren't the best, but we tried the
+hardest. We were just a bunch oflucky nerds."
 
 - "Real artists ship."
 
-- "When you're trying to spread a religion you have to be pretty strict at first. After you get them converted, you can relax,"
+- "When you're trying to spread a religion you have to be pretty strict at first. After
+you get them converted, you can relax,"
 
-- "Those in charge of the marketplace regarded computing as a rite of passage, a sort of hazing. Only by acquiring knowledge in this needlessly arcane system could one gain admittance to the society of adepts. It was not a joyous society, but one of stiffupper-lips."
+- "Those in charge of the marketplace regarded computing as a rite of passage, a sort of
+hazing. Only by acquiring knowledge in this needlessly arcane system could one gain
+admittance to the society of adepts. It was not a joyous society, but one of
+stiffupper-lips."
 
 - "What I didn't understand was that most people didn't get to make their own decisions."
 
-- "Breakthroughs like PageMaker have two sorts of effects. The first is to increase the ease and reduce the cost of performing previously expensive, time-consuming tasks. The second, and possibly more significant, is to empower people who otherwise could never afford to do the task in the first place."
+- "Breakthroughs like PageMaker have two sorts of effects. The first is to increase the
+ease and reduce the cost of performing previously expensive, time-consuming tasks. The
+second, and possibly more significant, is to empower people who otherwise could never
+afford to do the task in the first place."
 
 - "When the going gets weird, the weird turn pro."
 
-- "What's the difference between Apple and Boy Scouts? The Boy Scouts have adult supervision."
+- "What's the difference between Apple and Boy Scouts? The Boy Scouts have adult
+supervision."
 
-- "There was a time, I know, when I conducted much of the same sorts of business that I currently engage in, without requiring a machine that makes more calculations in a morning's work than all the combined arithmetical operations of humanity performed by hand, over the span of recorded history."
+- "There was a time, I know, when I conducted much of the same sorts of business that I
+currently engage in, without requiring a machine that makes more calculations in a
+morning's work than all the combined arithmetical operations of humanity performed by
+hand, over the span of recorded history."
 
-- "Still, I am hard pressed for proof that, for all its magic, Macintosh has enabled me to be more productive. I feel that it has, with every inch of my being. But after my recent fiasco with On Location and Word, I sometimes question whether this is an illusion."
+- "Still, I am hard pressed for proof that, for all its magic, Macintosh has enabled me to
+be more productive. I feel that it has, with every inch of my being. But after my recent
+fiasco with On Location and Word, I sometimes question whether this is an illusion."
 
-- "This gap between accepted reality (computers make us more productive) and the quantifiable result (they don't), has come to be known as the Productivity Paradox. A true puzzler: If computers enable us to get so much work done, in a much shorter period of time  why can't we measure it? Where did the productivity go?"
+- "This gap between accepted reality (computers make us more productive) and the
+quantifiable result (they don't), has come to be known as the Productivity Paradox. A true
+puzzler: If computers enable us to get so much work done, in a much shorter period of time
+why can't we measure it? Where did the productivity go?"
 
-- "But maybe productivity is not the main benefit from computers. As its designers understood, the point of Macintosh was not to prod you into piling up x more reams of paper, but to change the way you interact with information, to empower you to manipulate information with confidence, to augment your creative powers, and to change the very way you think."
+- "But maybe productivity is not the main benefit from computers. As its designers
+understood, the point of Macintosh was not to prod you into piling up x more reams of
+paper, but to change the way you interact with information, to empower you to manipulate
+information with confidence, to augment your creative powers, and to change the very way
+you think."
 
-- "Something happens to companies when they get to be a few billion dollars," he said. "They sort of turn into vanilla companies. They add a lot of layers of management. They get really into process rather than result, rather than products. They lose touch with their customers. Their soul goes away."
+- "Something happens to companies when they get to be a few billion dollars," he said.
+"They sort of turn into vanilla companies. They add a lot of layers of management. They
+get really into process rather than result, rather than products. They lose touch with
+their customers. Their soul goes away."
 
-- "Macintosh tells people as they use it, 'You don't have to take things too seriously.'"
+- "Macintosh tells people as they use it, 'You don't have to take things too seriously."
 
-- "Each new purchase brought its small dopamine rush that faded as soon as the thing was out of its box and taking up space."
+- "Each new purchase brought its small dopamine rush that faded as soon as the thing was
+out of its box and taking up space."
 
 - "Minimalism was a brand to identify with as much as a way of coping with mess."
 
-- "Every advertisement for a new product implied that you should dislike what you already had."
+- "Every advertisement for a new product implied that you should dislike what you already
+had."
 
 - "There was really nothing wrong with our lives at all."
 
-- "Minimalism also seemed sometimes to be a form of individualism, an excuse to put yourself first by thinking, I shouldn't have to deal with this person, place, or thing because it doesn't fit within my worldview."
+- "Minimalism also seemed sometimes to be a form of individualism, an excuse to put
+yourself first by thinking, I shouldn't have to deal with this person, place, or thing
+because it doesn't fit within my worldview."
 
-- "It makes sense that millennials embrace minimalism. My generation has never had a healthy relationship with material stability. There are always too few resources at hand or too much competition for what's left, a scenario that's engulfing not just one age group but a wider swath of people every year. Even as the traditional economy falls apart, we're awash in social media noise and new platforms competing for our attention, labor, and cash. Stability is no longer the default."
+- "It makes sense that millennials embrace minimalism. My generation has never had a
+healthy relationship with material stability. There are always too few resources at hand
+or too much competition for what's left, a scenario that's engulfing not just one age
+group but a wider swath of people every year. Even as the traditional economy falls apart,
+we're awash in social media noise and new platforms competing for our attention, labor,
+and cash. Stability is no longer the default."
 
-- "Maybe the longing for less is the constant shadow of humanity's self-doubt: What if we were better off without everything we've gained in modern society? If the trappings of civilization leave us so dissatisfied, then maybe their absence is preferable, and we should"
-
-- "Maybe the longing for less is the constant shadow of humanity's self-doubt: What if we were better off without everything we've gained in modern society? If the trappings of civilization leave us so dissatisfied, then maybe their absence is preferable, and we should abandon them in order to seek some deeper truth."
+- "Maybe the longing for less is the constant shadow of humanity's self-doubt: What if we
+were better off without everything we've gained in modern society? If the trappings of
+civilization leave us so dissatisfied, then maybe their absence is preferable, and we
+should abandon them in order to seek some deeper truth."
 
 - "We should not believe the lack of silver and gold to be proof of the simple life."
 
 - "Your bedroom might be cleaner, but the world stays bad."
 
-- "Minimalism is thus a kind of last resort. When we can't control our material security or life path, the only possibility left is to lower our expectations to the point where they're easier to achieve, which could mean living in a train car, or a camper van."
+- "Minimalism is thus a kind of last resort. When we can't control our material security
+or life path, the only possibility left is to lower our expectations to the point where
+they're easier to achieve, which could mean living in a train car, or a camper van."
 
-- "We like to think that we can do without, rough it to prove that we're not so soft or bound to the past."
+- "We like to think that we can do without, rough it to prove that we're not so soft or
+bound to the past."
 
-- "If we don't establish our identities with the volume of things we consume, then we feel more attuned to the way we consume them and the careful decisions we make between one thing and another. It's a species of the narcissism of small differences. We take pride in the small details that we have actually chosen from our limited options, which might make us feel better about not being able to change our circumstances as a whole."
+- "If we don't establish our identities with the volume of things we consume, then we feel
+more attuned to the way we consume them and the careful decisions we make between one
+thing and another. It's a species of the narcissism of small differences. We take pride in
+the small details that we have actually chosen from our limited options, which might make
+us feel better about not being able to change our circumstances as a whole."
 
-- "Consumerism causes a kind of alienation, in the Marxist sense: When workers are separated from the products of their labor and compensated by an hourly wage, they can't find satisfaction in their jobs or the remainder of family life. Thus they turn to acquiring capital as the only form of self-fulfillment. We work only to accumulate stuff and in turn the accumulated stuff dominates us, further distancing us from non-commodified things like relationships, joy, and community. Labor "is therefore not the satisfaction of a need, but only a means for satisfying needs external to it," Karl Marx wrote in 1844."
+- "Consumerism causes a kind of alienation, in the Marxist sense: When workers are
+separated from the products of their labor and compensated by an hourly wage, they can't
+find satisfaction in their jobs or the remainder of family life. Thus they turn to
+acquiring capital as the only form of self-fulfillment. We work only to accumulate stuff
+and in turn the accumulated stuff dominates us, further distancing us from non-commodified
+things like relationships, joy, and community. Labor "is therefore not the satisfaction of
+a need, but only a means for satisfying needs external to it," Karl Marx wrote in 1844."
 
-- "Minimalism is a perfect fit because it allows for just enough character to make a space interesting but not too much. The rest gets smoothed over into blankness."
+- "Minimalism is a perfect fit because it allows for just enough character to make a space
+interesting but not too much. The rest gets smoothed over into blankness."
 
 - "When a word or style spreads everywhere, it tends to lose its original meaning."
 
-- "The veneer of minimalist style becomes like an organic food label, expensive green juices, or complex skin treatments being sold as a "no-makeup" look. It's another class-dependent way of feeling better about yourself by buying a product, as Spartan as the product might be. It takes a lot of money to look this simple."
+- "The veneer of minimalist style becomes like an organic food label, expensive green
+juices, or complex skin treatments being sold as a "no-makeup" look. It's another
+class-dependent way of feeling better about yourself by buying a product, as Spartan as
+the product might be. It takes a lot of money to look this simple."
 
-- "It was better to go without a couch than buy one that wasn't perfect. That commitment to taste might be rarified, but it probably didn't endear Jobs to his family, who might have preferred a place to sit."
+- "It was better to go without a couch than buy one that wasn't perfect. That commitment
+to taste might be rarified, but it probably didn't endear Jobs to his family, who might
+have preferred a place to sit."
 
 - "The need for simplicity, taken to an extreme, can wipe function away entirely."
 
-- "Minimalist design encourages us to forget everything a product relies on and imagine, in this example, that the internet consists of carefully shaped glass and steel alone."
+- "Minimalist design encourages us to forget everything a product relies on and imagine,
+in this example, that the internet consists of carefully shaped glass and steel alone."
 
-- "For the sake of narrative it's always tempting to link a biographical cause to an artist's work, like a stem to a flower."
+- "For the sake of narrative it's always tempting to link a biographical cause to an
+artist's work, like a stem to a flower."
 
 - "Curation by definition is not an original act."
 
-- "Minimalism can be oppressive. The style can make you feel like you don't belong in a space unless you conform to it, as in upscale cafés or severe hotel lobbies."
+- "Minimalism can be oppressive. The style can make you feel like you don't belong in a
+space unless you conform to it, as in upscale cafés or severe hotel lobbies."
 
-- "(The problem with being both a critic and an artist is that you'll probably like work that resembles yours.)"
+- "(The problem with being both a critic and an artist is that you'll probably like work
+that resembles yours.)"
 
-- "It isn't necessary for a work to have a lot of things to look at, to compare, to analyze one by one, to contemplate," Judd wrote in 1964. "The thing as a whole, its quality as a whole, is what is interesting."
+- "It isn't necessary for a work to have a lot of things to look at, to compare, to
+analyze one by one, to contemplate," Judd wrote in 1964. "The thing as a whole, its
+quality as a whole, is what is interesting."
 
-- "Writing about emptiness is difficult because words document presence. As soon as you point to something in writing,"
-
-- "Writing about emptiness is difficult because words document presence. As soon as you point to something in writing, it's there, even if what you point to is empty floor."
+- "Writing about emptiness is difficult because words document presence. As soon as you
+point to something in writing, it's there, even if what you point to is empty floor."
 
 - "You have to know what to look for, even if you're looking for absence."
 
-- "According to Minimalist principles, we have to fight the need to anthropomorphize or impose a metaphorical meaning on the installation. The boxes do not symbolize anything."
+- "According to Minimalist principles, we have to fight the need to anthropomorphize or
+impose a metaphorical meaning on the installation. The boxes do not symbolize anything."
 
-- "This is Minimalism's most powerful and frightening insight. It has nothing to do with the aesthetic cues associated with lowercase-m minimalism, the consumer products, interior decoration, the curated items of clothing. Minimalism doesn't need to look good. It tries to make us understand that the sense of artistic beauty humanity has built up over millennia—the varieties of colors, stories recounted, and bodies represented—is also an artificial creation, not as inevitable as we think it is."
+- "This is Minimalism's most powerful and frightening insight. It has nothing to do with
+the aesthetic cues associated with lowercase-m minimalism, the consumer products, interior
+decoration, the curated items of clothing. Minimalism doesn't need to look good. It tries
+to make us understand that the sense of artistic beauty humanity has built up over
+millennia—the varieties of colors, stories recounted, and bodies represented—is also an
+artificial creation, not as inevitable as we think it is."
 
 - "A definition of art finally occurred to me. Art is everything at once."
 
@@ -17587,266 +19787,634 @@ Let's just enjoy the moment."
 
 - "Our heads are victims of the prevailing clutter as much as our spaces."
 
-- "Silence can be a kind of nothingness, an erasure of the world in favor of a more manageable blankness, an absense of perception. We use silence to paper over experiences we don't like, creating a blockade between ourselves and sensation. It's a natual response to the excess of information that we confront every day in the form of emails, texts, advertising, and noise."
+- "Silence can be a kind of nothingness, an erasure of the world in favor of a more
+manageable blankness, an absense of perception. We use silence to paper over experiences
+we don't like, creating a blockade between ourselves and sensation. It's a natual response
+to the excess of information that we confront every day in the form of emails, texts,
+advertising, and noise."
 
 - "As the prestige of language falls, that of silence rises." Sontag's evocation"
 
-- "One good thing about extreme simplicity to the point of boredom is that it makes you focus on whatever is available to you,"
+- "One good thing about extreme simplicity to the point of boredom is that it makes you
+focus on whatever is available to you,"
 
-- "The simplest tune in the world can become grating just the same over hundreds of listens, the way even the most elegant, seamless design gets boring if you see it everywhere."
+- "The simplest tune in the world can become grating just the same over hundreds of
+listens, the way even the most elegant, seamless design gets boring if you see it
+everywhere."
 
-- "all art is made from preexisting material, and any change that one makes is a creative act."
+- "all art is made from preexisting material, and any change that one makes is a creative
+act."
 
-- "The Generic City is what is left after large sections of urban life crossed over to cyberspace." Instead of marking the walls with graffiti, we type on our screens. We post photos of things on Instagram instead of creating them for ourselves. We end up in a desiccated malaise: According to Koolhaas, ambience inspires only "weak and distended sensation, few and far between emotions, discreet and mysterious like a large space lit by a bed lamp."
+- "The Generic City is what is left after large sections of urban life crossed over to
+cyberspace." Instead of marking the walls with graffiti, we type on our screens. We post
+photos of things on Instagram instead of creating them for ourselves. We end up in a
+desiccated malaise: According to Koolhaas, ambience inspires only "weak and distended
+sensation, few and far between emotions, discreet and mysterious like a large space lit by
+a bed lamp."
 
-- "To escape the ambience—to feel anything—we have to be willing to risk hearing something unpleasant and being taken out of our familiar comfort zones. We need to recapture the awe and the surprise of silence."
+- "To escape the ambience—to feel anything—we have to be willing to risk hearing something
+unpleasant and being taken out of our familiar comfort zones. We need to recapture the awe
+and the surprise of silence."
 
-- "In Zen they say: If something is boring after two minutes, try it for four. If still boring, try it for eight, sixteen, thirty-two, and so on. Eventually one discovers that it's not boring at all but very interesting,"
+- "In Zen they say: If something is boring after two minutes, try it for four. If still
+boring, try it for eight, sixteen, thirty-two, and so on. Eventually one discovers that
+it's not boring at all but very interesting,"
 
 - "applause. As Cage wrote, "The"
 
 - "The best purpose is no purpose at all."
 
-- "Conversation strives toward silence,"23 Walter Benjamin wrote, "and the listener is really the silent partner."
+- "Conversation strives toward silence,"23 Walter Benjamin wrote, "and the listener is
+really the silent partner."
 
 - "What we require is silence; but what silence requires is that I go on talking,"
 
-- "Minimalism can often lead to a stultifying sameness as everything becomes as simple as possible—the elegant, ambient, blank style that I've described. It whitewashes both literally and metaphorically, at times privileging the Westernized, sanitized versions of external influences while deemphasizing their origins. Minimalism's sources get rebranded as high-minded art made by solo geniuses instead of the products of a globalized culture, even if the artists themselves readily acknowledged their debts."
+- "Minimalism can often lead to a stultifying sameness as everything becomes as simple as
+possible—the elegant, ambient, blank style that I've described. It whitewashes both
+literally and metaphorically, at times privileging the Westernized, sanitized versions of
+external influences while deemphasizing their origins. Minimalism's sources get rebranded
+as high-minded art made by solo geniuses instead of the products of a globalized culture,
+even if the artists themselves readily acknowledged their debts."
 
-- "Minimalism as it appears in the West is inherently oppositional, posing itself against something, as a departure from a current state—cleanliness against mess, absence against presence, and silence against noise."
+- "Minimalism as it appears in the West is inherently oppositional, posing itself against
+something, as a departure from a current state—cleanliness against mess, absence against
+presence, and silence against noise."
 
-- "minimalism itself is not a homogenous thing. It's the combination of what might at first seem to be opposites, the way light is inextricable from shadow."
+- "minimalism itself is not a homogenous thing. It's the combination of what might at
+first seem to be opposites, the way light is inextricable from shadow."
 
-- "We look all around ourselves for instructions on how to live only to be confronted with the basic unknowability of the world. And so we turn to some new mode of control, such as minimalism, only to be infected with the suspicion that it, too, is unreal, a map to no territory."
+- "We look all around ourselves for instructions on how to live only to be confronted with
+the basic unknowability of the world. And so we turn to some new mode of control, such as
+minimalism, only to be infected with the suspicion that it, too, is unreal, a map to no
+territory."
 
-- "Anyone who explains this or that, yes and no, is himself the man of yes and no." To echo the ending of so many of the monk's analyses: When you understand that, you will understand nothing."
+- "Anyone who explains this or that, yes and no, is himself the man of yes and no." To
+echo the ending of so many of the monk's analyses: When you understand that, you will
+understand nothing."
 
-- "Mono no aware is the beauty of transience, the way a falling leaf or sunlight gilding the edge of a rock at the end of the day can incite a sudden gut-punch awareness that life is evanescent."
+- "Mono no aware is the beauty of transience, the way a falling leaf or sunlight gilding
+the edge of a rock at the end of the day can incite a sudden gut-punch awareness that life
+is evanescent."
 
-- "The Buddhist acceptance of ephemerality didn't necessarily kill desire but made it all the more intense by giving the Heians a taste for ephemerality itself; they pursued the most beautiful evanescence possible."
+- "The Buddhist acceptance of ephemerality didn't necessarily kill desire but made it all
+the more intense by giving the Heians a taste for ephemerality itself; they pursued the
+most beautiful evanescence possible."
 
-- "If life was so arbitrary then one may as well embrace the contradictions and the possibilities."
+- "If life was so arbitrary then one may as well embrace the contradictions and the
+possibilities."
 
-- "The desire that everything be just right, matched with everything else around it in a unified whole, leads easily to intolerance."
+- "The desire that everything be just right, matched with everything else around it in a
+unified whole, leads easily to intolerance."
 
-- "Man first of all exists, encounters himself,24 surges up in the world—and defines himself afterwards,"
+- "Man first of all exists, encounters himself,24 surges up in the world—and defines
+himself afterwards,"
 
 - "To do is to be."
 
-- "In the midst of existence, most living things deny time. They grow and reproduce in order to fight the inevitable. Life strives to be permanent, though it cannot be. Even the slow natural decay of a flower in the ground is a consequence of this struggle to survive as long as possible."
+- "In the midst of existence, most living things deny time. They grow and reproduce in
+order to fight the inevitable. Life strives to be permanent, though it cannot be. Even the
+slow natural decay of a flower in the ground is a consequence of this struggle to survive
+as long as possible."
 
-- "It's not about consuming the right things or throwing out the wrong; it's about challenging your deepest beliefs in an attempt to engage with things as they are, to not shy away from reality or its lack of answers. To believe or commit too strongly to one particular way of seeing or being is to miss out on all the other possibilities and to allow yourself to be defined too much by one thing."
+- "It's not about consuming the right things or throwing out the wrong; it's about
+challenging your deepest beliefs in an attempt to engage with things as they are, to not
+shy away from reality or its lack of answers. To believe or commit too strongly to one
+particular way of seeing or being is to miss out on all the other possibilities and to
+allow yourself to be defined too much by one thing."
 
-- "No wonder that in the twenty-first century, when so many feel modernity has failed the West—that our civilization has come close to destroying itself and our lifestyles appear gaudy and pointless—absence is appealing once more. Embracing it reflects the need for a new way of thinking as well as consuming, one that makes a virtue of incompleteness and irresolution. Minimalism is"
+- "No wonder that in the twenty-first century, when so many feel modernity has failed the
+West—that our civilization has come close to destroying itself and our lifestyles appear
+gaudy and pointless—absence is appealing once more. Embracing it reflects the need for a
+new way of thinking as well as consuming, one that makes a virtue of incompleteness and
+irresolution. Minimalism is"
 
-- "Languages, it seemed, did not only sprout in continuity like new branches from the same tree from where they started, but were like different trees that happened to be neighbours stretching their branches, touching each other and sharing structure."
+- "Languages, it seemed, did not only sprout in continuity like new branches from the same
+tree from where they started, but were like different trees that happened to be neighbours
+stretching their branches, touching each other and sharing structure."
 
-- "The first slave languages to appear were pidgins—stripped down, unstable codes made up on the spot. It was just adults throwing new words together—words they heard from the white people who owned the estates. But it was children, with the genetic ability to pick up a first language out of all the talk they hear, who pieced together the pidgin words and made them into creoles that could do everything natural languages did. When parents, and indeed a whole community, is reduced to connecting through a pidgin, that pidgin becomes the only input the children get for working out their first language. Fortunately, children are able to take this raw material and impose a regular structure on it, with rules for grammar and syntax and a standardized vocabulary, turning it into a creole. A creole, according to this model, is simply a pidgin that has—due to the innate ability of young children—evolved into a native language and, in the process, fleshed out and become stable. Creole languages were like evolution happening before our eyes."
+- "The first slave languages to appear were pidgins—stripped down, unstable codes made up
+on the spot. It was just adults throwing new words together—words they heard from the
+white people who owned the estates. But it was children, with the genetic ability to pick
+up a first language out of all the talk they hear, who pieced together the pidgin words
+and made them into creoles that could do everything natural languages did. When parents,
+and indeed a whole community, is reduced to connecting through a pidgin, that pidgin
+becomes the only input the children get for working out their first language. Fortunately,
+children are able to take this raw material and impose a regular structure on it, with
+rules for grammar and syntax and a standardized vocabulary, turning it into a creole. A
+creole, according to this model, is simply a pidgin that has—due to the innate ability of
+young children—evolved into a native language and, in the process, fleshed out and become
+stable. Creole languages were like evolution happening before our eyes."
 
 - "A story always starts before it can be told."
 
-- "TODAY, INDIAN AMERICAN FAMILIES like ours represent an American success story. But it is easy to forget that, long before they called us "the good immigrants," they called us "the bad immigrants."
+- "TODAY, INDIAN AMERICAN FAMILIES like ours represent an American success story. But it
+is easy to forget that, long before they called us "the good immigrants," they called us
+"the bad immigrants."
 
-- "For much of their history, Canada and America barred Asians from entry. In 1882, America enacted the Chinese Exclusion Act, the first significant race-based immigration ban in the country's history. America later extended the ban to all of Asia. Canada passed a similar set of laws, and both countries curbed citizenship, land, and other rights for Asian laborers already within their borders. While America's racial segregation was more explicit, both countries shared a commitment to building a white nation. That changed during the Cold War, when America wanted to promote itself as a liberal democracy capable of leading the world. Politicians reversed decades of discriminatory policy, reinventing America as a melting pot."
+- "For much of their history, Canada and America barred Asians from entry. In 1882,
+America enacted the Chinese Exclusion Act, the first significant race-based immigration
+ban in the country's history. America later extended the ban to all of Asia. Canada passed
+a similar set of laws, and both countries curbed citizenship, land, and other rights for
+Asian laborers already within their borders. While America's racial segregation was more
+explicit, both countries shared a commitment to building a white nation. That changed
+during the Cold War, when America wanted to promote itself as a liberal democracy capable
+of leading the world. Politicians reversed decades of discriminatory policy, reinventing
+America as a melting pot."
 
-- "In India's highly stratified society, middle- and upper-class Indians from dominant castes typically access the best schools and jobs that feed into opportunities in America, which favor immigrants who bring specialized skills in tech and science. The result: an American diasporic community that is roughly nine times more educated than Indians in India. These conditions enabled Indian families like ours—families that had been thrice-filtered and stratified—to prosper like few other immigrant groups have ever done in America."
+- "In India's highly stratified society, middle- and upper-class Indians from dominant
+castes typically access the best schools and jobs that feed into opportunities in America,
+which favor immigrants who bring specialized skills in tech and science. The result: an
+American diasporic community that is roughly nine times more educated than Indians in
+India. These conditions enabled Indian families like ours—families that had been
+thrice-filtered and stratified—to prosper like few other immigrant groups have ever done
+in America."
 
-- "I was, as historian Vijay Prashad observed in The Karma of Brown Folk, "unaware of how we are used as a weapon by those whom we ourselves fear and yet emulate."
+- "I was, as historian Vijay Prashad observed in The Karma of Brown Folk, "unaware of how
+we are used as a weapon by those whom we ourselves fear and yet emulate."
 
-- "When we had nothing to throw back at the slurs thrown at us, when we had to silently swallow the humiliation of knowing that we were inferior in our own country, Yush and I found solace in the idea that success was part of our destiny. The belief that we were exceptional protected us. Until it didn't. Because stories designed to uphold hierarchies protect only one group—those at the very top."
+- "When we had nothing to throw back at the slurs thrown at us, when we had to silently
+swallow the humiliation of knowing that we were inferior in our own country, Yush and I
+found solace in the idea that success was part of our destiny. The belief that we were
+exceptional protected us. Until it didn't. Because stories designed to uphold hierarchies
+protect only one group—those at the very top."
 
-- "Myths imbue the ordinary and mundane with celestial meaning. But this is also what makes them so dangerous: They do not reveal truths. Rather, they obscure any part of our realities that do not conform to the fantastical narrative"
+- "Myths imbue the ordinary and mundane with celestial meaning. But this is also what
+makes them so dangerous: They do not reveal truths. Rather, they obscure any part of our
+realities that do not conform to the fantastical narrative"
 
-- "It is not hard to see how the myth reinforces America's existing social and racial order, then, seducing its adherents with the promise of belonging in a country where their position remains tenuous and their acceptance is always in question. Rather than fostering solidarity over the ways in which white America disenfranchises those who look unlike them, the myth sows division among Asian ethnic communities. The myth encourages those at the top of the economic ladder to reinforce it, pushing those at the bottom further down. The privilege of the few sets constraints upon the many. The myth erases the legacy of racial exclusion from America's collective consciousness while perpetuating racial exclusion. The myth creates cognitive dissonance and then tells us that this dissonance does not exist. The myth splits our psyches, then calls this violence peace. The myth forces our minds to forget that which our bodies cannot: that belonging is always conditional."
+- "It is not hard to see how the myth reinforces America's existing social and racial
+order, then, seducing its adherents with the promise of belonging in a country where their
+position remains tenuous and their acceptance is always in question. Rather than fostering
+solidarity over the ways in which white America disenfranchises those who look unlike
+them, the myth sows division among Asian ethnic communities. The myth encourages those at
+the top of the economic ladder to reinforce it, pushing those at the bottom further down.
+The privilege of the few sets constraints upon the many. The myth erases the legacy of
+racial exclusion from America's collective consciousness while perpetuating racial
+exclusion. The myth creates cognitive dissonance and then tells us that this dissonance
+does not exist. The myth splits our psyches, then calls this violence peace. The myth
+forces our minds to forget that which our bodies cannot: that belonging is always
+conditional."
 
-- "The problems between you and me began when I started trying to create context around things that were meant to be forgotten. Our problems began when I started searching for a way to explain everything that felt so inexplicable. Our problems began when I was expected to shrink myself, as you had been forced to do, but instead I insisted on expanding."
+- "The problems between you and me began when I started trying to create context around
+things that were meant to be forgotten. Our problems began when I started searching for a
+way to explain everything that felt so inexplicable. Our problems began when I was
+expected to shrink myself, as you had been forced to do, but instead I insisted on
+expanding."
 
-- "The world we live in, which demands perfection and achievement, teaches us we cannot love ourselves as we are. The myth teaches us to think greatness always resides outside us instead of within"
+- "The world we live in, which demands perfection and achievement, teaches us we cannot
+love ourselves as we are. The myth teaches us to think greatness always resides outside us
+instead of within"
 
-- "I used to think that memories followed a straight line, starting at one point and ending at another, held together by the backbone of the strong linear narrative of cause and effect that takes each of us from birth to death. Now I think of memories as haphazard blots of ink in a Rorschach test that we assemble along the spine of the story we are told about who we are. If given enough space, time, and support, we can arrange the memories along a story that we write for ourselves, extracting new meaning from events experienced one way and later understood as another."
+- "I used to think that memories followed a straight line, starting at one point and
+ending at another, held together by the backbone of the strong linear narrative of cause
+and effect that takes each of us from birth to death. Now I think of memories as haphazard
+blots of ink in a Rorschach test that we assemble along the spine of the story we are told
+about who we are. If given enough space, time, and support, we can arrange the memories
+along a story that we write for ourselves, extracting new meaning from events experienced
+one way and later understood as another."
 
-- "I had underestimated the power and the depth of that desire and how the force of that current swept up the rest of us."
+- "I had underestimated the power and the depth of that desire and how the force of that
+current swept up the rest of us."
 
-- "There was a time when my outspokenness brought us together instead of tearing us apart. There was a time when speaking my mind was received not as a threat but as an act of love."
+- "There was a time when my outspokenness brought us together instead of tearing us apart.
+There was a time when speaking my mind was received not as a threat but as an act of
+love."
 
-- "I didn't know how to get the girls in my class to see me as special or good, but I learned that winning over adults was easy."
+- "I didn't know how to get the girls in my class to see me as special or good, but I
+learned that winning over adults was easy."
 
-- "Even though my friends were not always nice to me, I felt good about myself because I excelled in school."
+- "Even though my friends were not always nice to me, I felt good about myself because I
+excelled in school."
 
-- "Now I wonder who we could have been if we saw our ethnicity not as something to manipulate into belonging in white America but as an opportunity to understand why we were treated differently in the first place."
+- "Now I wonder who we could have been if we saw our ethnicity not as something to
+manipulate into belonging in white America but as an opportunity to understand why we were
+treated differently in the first place."
 
-- "Until then, I thought adults always told the truth. I thought that the rules adults enforced existed to keep us safe, and I thought that adults followed all the rules that they made us follow. I saw this as the distinction between childhood and adulthood: Kids didn't know the rules for how to behave, and being an adult meant following the rules well. I wondered, then, if sometimes adults told us things that they thought were good for us because they wanted us to behave one way, but they acted another, because that was more convenient for them. This struck me as the most unfair, wrong, unjust thing in the world."
+- "Until then, I thought adults always told the truth. I thought that the rules adults
+enforced existed to keep us safe, and I thought that adults followed all the rules that
+they made us follow. I saw this as the distinction between childhood and adulthood: Kids
+didn't know the rules for how to behave, and being an adult meant following the rules
+well. I wondered, then, if sometimes adults told us things that they thought were good for
+us because they wanted us to behave one way, but they acted another, because that was more
+convenient for them. This struck me as the most unfair, wrong, unjust thing in the world."
 
-- "I do not know what India represented to Papa, but I suspect he carried nostalgia for a place that never existed, a utopia created by the frozen impressions and desires of a nine-year-old boy who moved to a white country that shunned him."
+- "I do not know what India represented to Papa, but I suspect he carried nostalgia for a
+place that never existed, a utopia created by the frozen impressions and desires of a
+nine-year-old boy who moved to a white country that shunned him."
 
-- "In the forgotten history of this influential board game, I recognize the arc of my own obscured cultural past. I see a deep self-knowledge abandoned and forgotten, replaced with a story that asserts the power of the very people who ensured our history's erasure, then marketed it back to us as our truth. I wonder now how this shaped his psyche and spirit: When, even in his own country, his people's stories did not matter, he was forced to study his oppressor's greatness, and learned to deny his own."
+- "In the forgotten history of this influential board game, I recognize the arc of my own
+obscured cultural past. I see a deep self-knowledge abandoned and forgotten, replaced with
+a story that asserts the power of the very people who ensured our history's erasure, then
+marketed it back to us as our truth. I wonder now how this shaped his psyche and spirit:
+When, even in his own country, his people's stories did not matter, he was forced to study
+his oppressor's greatness, and learned to deny his own."
 
-- "In Dadaji's story, I see how Papa's ancestors grasped for security by seeking educational attainment, specifically through math and science, and by learning the ways of the white man. In Papa's lineage, I see people who strove to ascend to feel secure. It is under these auspices that Dadaji rose from poverty and that Papa rose from a lower-class upbringing in Canada to the upper-middle class as an adult. Papa followed this common immigrant road map and imprinted the map upon Yush and me. But along the way, we forgot that this is not necessarily who we are—it is who we felt pressured to become."
+- "In Dadaji's story, I see how Papa's ancestors grasped for security by seeking
+educational attainment, specifically through math and science, and by learning the ways of
+the white man. In Papa's lineage, I see people who strove to ascend to feel secure. It is
+under these auspices that Dadaji rose from poverty and that Papa rose from a lower-class
+upbringing in Canada to the upper-middle class as an adult. Papa followed this common
+immigrant road map and imprinted the map upon Yush and me. But along the way, we forgot
+that this is not necessarily who we are—it is who we felt pressured to become."
 
-- "A deeply sensitive, wounded brown boy grew into a deeply sensitive, wounded brown man who sought to gain respect, status, and security by embracing the only role that embraced him: that of the high-achieving Indian kid."
+- "A deeply sensitive, wounded brown boy grew into a deeply sensitive, wounded brown man
+who sought to gain respect, status, and security by embracing the only role that embraced
+him: that of the high-achieving Indian kid."
 
-- "The difference in treatment between son and daughter would ripple through generations, one learning entoc: true
-titlement, the other learning injustice. One sibling would lean into nostalgia for lost culture to justify his behavior, while the other would struggle to reclaim her lost culture, observing how tradition was so often invoked to evade accountability and prevent change."
+- "The difference in treatment between son and daughter would ripple through generations,
+one learning entoc: true titlement, the other learning injustice. One sibling would lean
+into nostalgia for lost culture to justify his behavior, while the other would struggle to
+reclaim her lost culture, observing how tradition was so often invoked to evade
+accountability and prevent change."
 
-- "I saw that on the page, my words mattered as much as those of someone like Shel Silverstein. The page could not ignore me or treat me differently just because I was small or dark-skinned or a girl. On the page, I could show people things that I had trouble showing them any other way."
+- "I saw that on the page, my words mattered as much as those of someone like Shel
+Silverstein. The page could not ignore me or treat me differently just because I was small
+or dark-skinned or a girl. On the page, I could show people things that I had trouble
+showing them any other way."
 
 - "Creativity poured out of me as a natural expression, touching everything that I did."
 
-- "It's not that I wanted to be white, Mummy. I loved my bronze skin. There was no food better than your jeera-and-haldi-spiced aloo gobi. I felt glamorous in the deep-blush silver-lined lehenga that Naniji and Nanaji sent me from India. But I yearned for the freedom that I associated with whiteness. I felt like a simile, my personhood contextualized by whatever popular image I conjured in the minds of others—usually, Apu from The Simpsons. "Thank you, come again!" kids joked, asking if my parents owned a Kwik-E-Mart. They wondered out loud why my hands were brown on one side and white on the other and wanted to know where I was really from. I was envious that white people didn't have to liken themselves to something else in order to be understood. They could appear as they wanted to appear, without question or comparison."
+- "It's not that I wanted to be white, Mummy. I loved my bronze skin. There was no food
+better than your jeera-and-haldi-spiced aloo gobi. I felt glamorous in the deep-blush
+silver-lined lehenga that Naniji and Nanaji sent me from India. But I yearned for the
+freedom that I associated with whiteness. I felt like a simile, my personhood
+contextualized by whatever popular image I conjured in the minds of others—usually, Apu
+from The Simpsons. "Thank you, come again!" kids joked, asking if my parents owned a
+Kwik-E-Mart. They wondered out loud why my hands were brown on one side and white on the
+other and wanted to know where I was really from. I was envious that white people didn't
+have to liken themselves to something else in order to be understood. They could appear as
+they wanted to appear, without question or comparison."
 
-- "AS I STROVE TO meet Papa's expectations, the joy I had once taken from my hobbies faded. Reading, writing, and even painting started to feel rote and mechanical. The fact that things I loved could seem tedious scared me. I read books to extract facts and words, guzzling them like Papa's nutrient-rich Ensure. I doubt that you or Papa noticed my creativity clamping shut, because I barely noticed. I continued to paint and draw—only now I did it to impress the hypothetical white Harvard admissions officers of Papa's imagination."
+- "AS I STROVE TO meet Papa's expectations, the joy I had once taken from my hobbies
+faded. Reading, writing, and even painting started to feel rote and mechanical. The fact
+that things I loved could seem tedious scared me. I read books to extract facts and words,
+guzzling them like Papa's nutrient-rich Ensure. I doubt that you or Papa noticed my
+creativity clamping shut, because I barely noticed. I continued to paint and draw—only now
+I did it to impress the hypothetical white Harvard admissions officers of Papa's
+imagination."
 
-- "If I could answer Papa's question today, I would say this: Art kept my spirit alive. Expressing myself, whether by drawing, writing, or dancing, was an assertion of my existence that enabled me to connect to something deeper than simply what I was expected to produce in the world. Later, when I felt too blocked to create, consuming art broke my sense of isolation and helped me see parts of myself in work created by others. When I forgot who I was, creating art helped me find my way back. Art was my entry point to learning how to love myself. Now I feel sad that Papa might not know what it means to connect with oneself or with someone else in this way."
+- "If I could answer Papa's question today, I would say this: Art kept my spirit alive.
+Expressing myself, whether by drawing, writing, or dancing, was an assertion of my
+existence that enabled me to connect to something deeper than simply what I was expected
+to produce in the world. Later, when I felt too blocked to create, consuming art broke my
+sense of isolation and helped me see parts of myself in work created by others. When I
+forgot who I was, creating art helped me find my way back. Art was my entry point to
+learning how to love myself. Now I feel sad that Papa might not know what it means to
+connect with oneself or with someone else in this way."
 
-- "But my treatment of you wasn't simply mimicry, either. It was a clumsy expression of anger over how mother was raising daughter to learn that to be good is to betray oneself, to forever contort oneself to fit into impossible, contradictory expectations of womanhood that felt stifling."
+- "But my treatment of you wasn't simply mimicry, either. It was a clumsy expression of
+anger over how mother was raising daughter to learn that to be good is to betray oneself,
+to forever contort oneself to fit into impossible, contradictory expectations of womanhood
+that felt stifling."
 
-- "Papa wanted me to remain invisible. But from what I could tell, dating relied upon being seen, noticed, and chosen. America, too, sat high up on a stage, forcing the rest of the world to behold its spectacle. Being seen—well, that was about the most American thing I could think of. Unfortunately, I was seen as little more than the mule"
+- "Papa wanted me to remain invisible. But from what I could tell, dating relied upon
+being seen, noticed, and chosen. America, too, sat high up on a stage, forcing the rest of
+the world to behold its spectacle. Being seen—well, that was about the most American thing
+I could think of. Unfortunately, I was seen as little more than the mule"
 
-- "As I began to love my body, I understood myself beyond my capacity for academic performance. I saw that I was so much more than what others perceived me to be."
+- "As I began to love my body, I understood myself beyond my capacity for academic
+performance. I saw that I was so much more than what others perceived me to be."
 
-- "Papa's anger was not new, but this was the first time that I did not see any part of his rage toward me as justifiable. And it was the first time that I recall you piling on, berating me the way that he did. Your words hurt far more than what Papa said. After he was done yelling at me, you yelled for another hour. You said hurtful things, things that sounded like what Papa would say. I knew that you didn't mean any of it, but I didn't understand where your anger came from. From you, hateful words sounded clunky and unnatural. It was as if you needed a place to express your anger, and this was the only forum available. I think Papa's words to me gave you a template for your rage."
+- "Papa's anger was not new, but this was the first time that I did not see any part of
+his rage toward me as justifiable. And it was the first time that I recall you piling on,
+berating me the way that he did. Your words hurt far more than what Papa said. After he
+was done yelling at me, you yelled for another hour. You said hurtful things, things that
+sounded like what Papa would say. I knew that you didn't mean any of it, but I didn't
+understand where your anger came from. From you, hateful words sounded clunky and
+unnatural. It was as if you needed a place to express your anger, and this was the only
+forum available. I think Papa's words to me gave you a template for your rage."
 
-- "He could have shown Yush and me how to love ourselves in the face of whiteness. But he could not teach us what he did not know himself."
+- "He could have shown Yush and me how to love ourselves in the face of whiteness. But he
+could not teach us what he did not know himself."
 
-- "The truth is, I had no idea if Drew could have appreciated me for who I really was. I never gave him the chance. I couldn't accept myself, so how could I let Drew?"
+- "The truth is, I had no idea if Drew could have appreciated me for who I really was. I
+never gave him the chance. I couldn't accept myself, so how could I let Drew?"
 
-- "I think I know why you busted me: My defiance hurt you. You had become a casualty in the war between Papa and me. You worked so hard to keep the peace at home. And here I was, poking the bull to get him to charge. My antics made a mockery of all that you had put up with to provide stability. I wonder now if you perceived my behavior as a personal rejection, not just of your efforts as a mother but of my duty within the family. Everyone had a role to play, and everyone continued to play their part, except for me. It is true that I took out my anger in ways that were hurtful. I spat in the face of your sacrifice, and for that, I am sorry."
+- "I think I know why you busted me: My defiance hurt you. You had become a casualty in
+the war between Papa and me. You worked so hard to keep the peace at home. And here I was,
+poking the bull to get him to charge. My antics made a mockery of all that you had put up
+with to provide stability. I wonder now if you perceived my behavior as a personal
+rejection, not just of your efforts as a mother but of my duty within the family. Everyone
+had a role to play, and everyone continued to play their part, except for me. It is true
+that I took out my anger in ways that were hurtful. I spat in the face of your sacrifice,
+and for that, I am sorry."
 
-- "I resented that whenever I succeeded, Papa credited himself and his Indian values, but when I failed, that failure was uniquely mine, a product of my Americanness. I felt so ashamed that I was—as I put it then—"bad at being Indian." At the time I thought I was abdicating my identity. Now I see that I was asserting"
+- "resented that whenever I succeeded, Papa credited himself and his Indian values, but
+when I failed, that failure was uniquely mine, a product of my Americanness. I felt so
+ashamed that I was—as I put it then—"bad at being Indian." At the time I thought I was
+abdicating my identity. Now I see that I was asserting it."
 
-- "resented that whenever I succeeded, Papa credited himself and his Indian values, but when I failed, that failure was uniquely mine, a product of my Americanness. I felt so ashamed that I was—as I put it then—"bad at being Indian." At the time I thought I was abdicating my identity. Now I see that I was asserting it."
+- "Yush's love taught me that a fight does not have to become a war that ends in the total
+annihilation of another."
 
-- "Yush's love taught me that a fight does not have to become a war that ends in the total annihilation of another."
+- "I viewed Yush's talent in science and math as a gift and wished that, like him, I was
+naturally skilled in the exact ways that capitalism rewards. I never thought about the
+toll that his success took on him or what kind of pressure he must have felt to maintain
+it. I thought Yush—whose name means "glory" in Sanskrit—was blessed. Now I know that he
+was cursed."
 
-- "I viewed Yush's talent in science and math as a gift and wished that, like him, I was naturally skilled in the exact ways that capitalism rewards. I never thought about the toll that his success took on him or what kind of pressure he must have felt to maintain it. I thought Yush—whose name means "glory" in Sanskrit—was blessed. Now I know that he was cursed."
+- "Papa said that he valued achievement, but it seemed like he was willing to bend the
+rules to appear that way—even if that involved cheating."
 
-- "Papa said that he valued achievement, but it seemed like he was willing to bend the rules to appear that way—even if that involved cheating."
+- "I thought Papa was in pain because I had been such a bad student in high school. I
+thought that if I became a Good Indian Girl, our relationship would improve and he would
+be at peace. I want you to remember that I tried to be that daughter, Mummy. And I want
+you to know that trying taught me that achieving perfection would not have kept our family
+whole."
 
-- "I thought Papa was in pain because I had been such a bad student in high school. I thought that if I became a Good Indian Girl, our relationship would improve and he would be at peace. I want you to remember that I tried to be that daughter, Mummy. And I want you to know that trying taught me that achieving perfection would not have kept our family whole."
+- "was nervous about my best friends seeing my family life so intimately, and I was
+nervous about what Papa might find when seeing me with these white friends up close. I
+felt a dissonance that I could not yet articulate, a tear in what W.E.B. Du Bois called
+the "double-consciousness" of race, not knowing how to meld my distinct identities. I
+understood these two versions of myself as Indian—my home self—and American—my outside
+self. I was anxious that either I would not be Indian enough for Papa or I would not be
+American enough for Nancy and Marin. Ultimately, I'd be outed as a fraud by everyone I
+cared about."
 
-- "was nervous about my best friends seeing my family life so intimately, and I was nervous about what Papa might find when seeing me with these white friends up close. I felt a dissonance that I could not yet articulate, a tear in what W.E.B. Du Bois called the "double-consciousness" of race, not knowing how to meld my distinct identities. I understood these two versions of myself as Indian—my home self—and American—my outside self. I was anxious that either I would not be Indian enough for Papa or I would not be American enough for Nancy and Marin. Ultimately, I'd be outed as a fraud by everyone I cared about."
+- "EVERYWHERE I WENT, PEOPLE saw me as Indian. But India was the only place in the world I
+felt American. The specter of India loomed so large over my life, yet my entire actual
+lived experience with a vast country of over one billion people and hundreds of spoken
+tongues was probably no more than about three months, total. I do not know how long we
+stayed when you took me as a baby, when I learned the Hindi that I can still speak in
+choppy waves."
 
-- "EVERYWHERE I WENT, PEOPLE saw me as Indian. But India was the only place in the world I felt American. The specter of India loomed so large over my life, yet my entire actual lived experience with a vast country of over one billion people and hundreds of spoken tongues was probably no more than about three months, total. I do not know how long we stayed when you took me as a baby, when I learned the Hindi that I can still speak in choppy waves."
+- "Your dad would hate to have me as a daughter," she said. "Why?" I asked. "Because I
+would tell him exactly what I think, and I don't think he'd like that." Then she asked me,
+"Why do you act like a child when you're with your dad?" "What do you mean?" I said,
+getting defensive. I received her question as judgment from a white woman who didn't
+understand anything about the stress of navigating life with two different identities.
+Nancy had crossed a line that she wasn't supposed to cross. "You pretend to not know
+things that you know. You ask him questions when you already know the answer to them.
+You're smart, but around your dad, you play dumb." The truth of Nancy's words hit
+something deep inside me, a place that I had numbed. In that moment, I felt humiliated—but
+also recognized. Something I had put to sleep had been awakened, and I could not ignore
+it."
 
-- "Your dad would hate to have me as a daughter," she said. "Why?" I asked. "Because I would tell him exactly what I think, and I don't think he'd like that." Then she asked me, "Why do you act like a child when you're with your dad?" "What do you mean?" I said, getting defensive. I received her question as judgment from a white woman who didn't understand anything about the stress of navigating life with two different identities. Nancy had crossed a line that she wasn't supposed to cross. "You pretend to not know things that you know. You ask him questions when you already know the answer to them. You're smart, but around your dad, you play dumb." The truth of Nancy's words hit something deep inside me, a place that I had numbed. In that moment, I felt humiliated—but also recognized. Something I had put to sleep had been awakened, and I could not ignore it."
+- "At the time, I scolded Yush for passing on an opportunity for success that I would
+never have, a chance to be among the truly elite. But Yush was happier at home. I think
+Yush would have been happy with a simple life. What I think he didn't feel sure about was
+whether, if he chose that simple life, he'd still be loved and respected."
 
-- "At the time, I scolded Yush for passing on an opportunity for success that I would never have, a chance to be among the truly elite. But Yush was happier at home. I think Yush would have been happy with a simple life. What I think he didn't feel sure about was whether, if he chose that simple life, he'd still be loved and respected."
+- "None of us knew then that what Yush dealt with was not an anomaly but a tragically
+common symptom of the pressures he faced. We didn't know that Asian American college
+students are more likely to deal with suicidal thoughts and attempt suicide than white
+students—straddling multiple cultures, experiencing racism, and living up to narrow
+expectations of achievement exerts extreme stress on the mind and body. To navigate those
+pressures, Yush and I learned to repress our feelings and forge onward,"
 
-- "None of us knew then that what Yush dealt with was not an anomaly but a tragically common symptom of the pressures he faced. We didn't know that Asian American college students are more likely to deal with suicidal thoughts and attempt suicide than white students—straddling multiple cultures, experiencing racism, and living up to narrow expectations of achievement exerts extreme stress on the mind and body. To navigate those pressures, Yush and I learned to repress our feelings and forge onward,"
+- "There was no way for us to talk about any of this, because we did not know these
+problems even existed. We found out about a problem like most families do, when it became
+so big that it exploded in front of us and we could no longer avoid dealing with it. And
+we dealt with it the way most families do: quickly and quietly. We swept up the mess, put
+things back as best we could, and continued to live in the same way, as if nothing had
+ever happened. We didn't know that by trying to forget, we were more deeply committing
+ourselves to the very circumstances and problems that had caused the explosion in the
+first place. We didn't know that we were teaching Yush not to resolve his pain but to find
+more-creative ways to hide it. Now I wonder what decisions Yush would later have made if
+he had been encouraged to talk about his mental health, rather than feel pressured to stay
+quiet."
 
-- "There was no way for us to talk about any of this, because we did not know these problems even existed. We found out about a problem like most families do, when it became so big that it exploded in front of us and we could no longer avoid dealing with it. And we dealt with it the way most families do: quickly and quietly. We swept up the mess, put things back as best we could, and continued to live in the same way, as if nothing had ever happened. We didn't know that by trying to forget, we were more deeply committing ourselves to the very circumstances and problems that had caused the explosion in the first place. We didn't know that we were teaching Yush not to resolve his pain but to find more-creative ways to hide it. Now I wonder what decisions Yush would later have made if he had been encouraged to talk about his mental health, rather than feel pressured to stay quiet."
+- "But as our family struggled to find some sense of normalcy, I began to question the
+idea of normal. Yush's best friend, who also lived with depression, said, "This is a dumb
+analogy, but it sort of fits. It's like in Men in Black. If you don't believe in aliens,
+you walk around like everything is normal. But once you become aware of depression and how
+it lies to your mind, it's like you know about the aliens. You can't go back to the way
+you used to think, and you can't believe how uninformed you were." It was not the most
+eloquent analogy, but it captured my sentiments. For the first time in my life, I began to
+wonder what else I had failed to see because I had blocked it from view."
 
-- "But as our family struggled to find some sense of normalcy, I began to question the idea of normal. Yush's best friend, who also lived with depression, said, "This is a dumb analogy, but it sort of fits. It's like in Men in Black. If you don't believe in aliens, you walk around like everything is normal. But once you become aware of depression and how it lies to your mind, it's like you know about the aliens. You can't go back to the way you used to think, and you can't believe how uninformed you were." It was not the most eloquent analogy, but it captured my sentiments. For the first time in my life, I began to wonder what else I had failed to see because I had blocked it from view."
+- "Writing demands conviction. But the last thing that I could put on my page was me—not
+that I even really knew who that was. I prided myself on my ability to be a chameleon: to
+change myself to reflect what others needed of me when they needed it. This, I thought,
+was the quality that made me unique—that was what made me me."
 
-- "Writing demands conviction. But the last thing that I could put on my page was me—not that I even really knew who that was. I prided myself on my ability to be a chameleon: to change myself to reflect what others needed of me when they needed it. This, I thought, was the quality that made me unique—that was what made me me."
-
-- "I had originally listened to Buaji because I respected her. But that summer, I began to see how owning my reactions and behavior liberated me. By not responding to Papa's tantrums, I took myself out of them entirely, to the point where I could recognize the absurdity of his actions. I started to understand the directionality of the movement, how it traveled from one source and then stopped at another. His outbursts were a pattern—not an anomaly. I didn't understand what caused his anger, but I was no longer willing to submit to the repetitive cycle."
+- "I had originally listened to Buaji because I respected her. But that summer, I began to
+see how owning my reactions and behavior liberated me. By not responding to Papa's
+tantrums, I took myself out of them entirely, to the point where I could recognize the
+absurdity of his actions. I started to understand the directionality of the movement, how
+it traveled from one source and then stopped at another. His outbursts were a pattern—not
+an anomaly. I didn't understand what caused his anger, but I was no longer willing to
+submit to the repetitive cycle."
 
 - "Questions are dangerous. Questions lead to dissent."
 
-- "In our family, loving someone meant rescuing them or letting yourself be rescued by them. But when I needed help to cope with work and the chaos at home, no one in our family had the capacity to support me, because everyone was dealing with their own, bigger problems. As I rescued myself, I wondered if that could be a form of love, too: the ability to take care of oneself well enough to not require saving."
+- "In our family, loving someone meant rescuing them or letting yourself be rescued by
+them. But when I needed help to cope with work and the chaos at home, no one in our family
+had the capacity to support me, because everyone was dealing with their own, bigger
+problems. As I rescued myself, I wondered if that could be a form of love, too: the
+ability to take care of oneself well enough to not require saving."
 
-- "I would not be able to write or paint anything authentic for years, plagued by that question. I would struggle to believe that anything I created could ever really matter, because it didn't seem to matter to the people who were supposed to love me the most."
+- "I would not be able to write or paint anything authentic for years, plagued by that
+question. I would struggle to believe that anything I created could ever really matter,
+because it didn't seem to matter to the people who were supposed to love me the most."
 
-- "In a capitalist society, the measure of wellness isn't a person's actual health or happiness but how far one can rise or how much wealth one can accumulate. Somebody seen as "unwell" is unable to produce and to achieve."
+- "In a capitalist society, the measure of wellness isn't a person's actual health or
+happiness but how far one can rise or how much wealth one can accumulate. Somebody seen as
+"unwell" is unable to produce and to achieve."
 
-- "I had spent a good portion of my life feeling cheated out of the exceptional family I was told I had. I believed that if I held the same values and followed the rules laid before me, I could make that perfect family materialize. When that didn't happen, and most of the people around me doubled down on that message—to suggest that we were not happy because I was not adhering to the rules closely enough—I felt like I was losing my mind. Now I had learned that the secret of having a happy family was pretending to be perfect. I felt robbed. I didn't want to do that, and I couldn't accept that as the answer. I didn't understand how no one else in our family felt the same level of indignation that I did over living a lie."
+- "I had spent a good portion of my life feeling cheated out of the exceptional family I
+was told I had. I believed that if I held the same values and followed the rules laid
+before me, I could make that perfect family materialize. When that didn't happen, and most
+of the people around me doubled down on that message—to suggest that we were not happy
+because I was not adhering to the rules closely enough—I felt like I was losing my mind.
+Now I had learned that the secret of having a happy family was pretending to be perfect. I
+felt robbed. I didn't want to do that, and I couldn't accept that as the answer. I didn't
+understand how no one else in our family felt the same level of indignation that I did
+over living a lie."
 
-- "But wasn't society a little ill, too, for normalizing the idea that the rules didn't apply to him because of his status?"
+- "But wasn't society a little ill, too, for normalizing the idea that the rules didn't
+apply to him because of his status?"
 
-- "NO ONE IN OUR family had died, yet I felt an emotional death. My grief wasn't just about losing my relationship with you. The rickety bridge to my cultural identity had also collapsed. I had mostly participated in Indian culture through family events, like Diwali celebrations or weddings, where I could wear lehengas and speak unsteady Hindi among relatives. As I distanced myself from family, without many friends with whom to create my own traditions, I withdrew from all things Indian. I had once prided myself on being a devoted daughter, but I was ashamed that I could no longer call myself that, either."
+- "NO ONE IN OUR family had died, yet I felt an emotional death. My grief wasn't just
+about losing my relationship with you. The rickety bridge to my cultural identity had also
+collapsed. I had mostly participated in Indian culture through family events, like Diwali
+celebrations or weddings, where I could wear lehengas and speak unsteady Hindi among
+relatives. As I distanced myself from family, without many friends with whom to create my
+own traditions, I withdrew from all things Indian. I had once prided myself on being a
+devoted daughter, but I was ashamed that I could no longer call myself that, either."
 
-- "I'd been raised to believe that comfort was the result of hard work or innate intellect, but I was starting to understand that fulfillment of these basic human needs was tied to a person's body, bloodline, and the origins of their birth. Papa's wealth had made me feel entoc: true
-titled to a level of security that no one is owed or guaranteed. I had a simplistic understanding of the world and how it worked because it worked well enough for me, and it was only when it stopped working for me that I began to think about the ways in which it failed to work for others."
+- "I'd been raised to believe that comfort was the result of hard work or innate
+intellect, but I was starting to understand that fulfillment of these basic human needs
+was tied to a person's body, bloodline, and the origins of their birth. Papa's wealth had
+made me feel entoc: true titled to a level of security that no one is owed or guaranteed.
+I had a simplistic understanding of the world and how it worked because it worked well
+enough for me, and it was only when it stopped working for me that I began to think about
+the ways in which it failed to work for others."
 
-- "I began to think of success not as a job toc: true
-title, wealth, prestige, or social network but as the ability to be myself in the world. To know that, as a woman who had been taught that I needed to serve a man to be complete, I could instead build a life for myself that I loved, and that I could sustain that life by myself. I hoped that, maybe if you saw me live this way, you might choose to come back to me."
+- "I began to think of success not as a job toc: true title, wealth, prestige, or social
+network but as the ability to be myself in the world. To know that, as a woman who had
+been taught that I needed to serve a man to be complete, I could instead build a life for
+myself that I loved, and that I could sustain that life by myself. I hoped that, maybe if
+you saw me live this way, you might choose to come back to me."
 
-- "At the very moment I started seeing myself as an equal and asked for the same opportunities and rights as my mostly white peers, I was cut down to size, put in my place, reminded that I should be grateful to be allowed among them at all. I saw that I was not valued for my perspectives, only for what I could produce."
+- "At the very moment I started seeing myself as an equal and asked for the same
+opportunities and rights as my mostly white peers, I was cut down to size, put in my
+place, reminded that I should be grateful to be allowed among them at all. I saw that I
+was not valued for my perspectives, only for what I could produce."
 
-- "MUMMY, I HAD WANTED to think that fame and wealth—conventional notions of success—didn't matter to me anymore. But they did. I didn't get approval from you or Papa or Yush, and the desire to be validated was so deep in me that now I sought it on an even larger stage: the whole world, demanding that everyone look at the very thing that no one in our home could acknowledge—my perspective. But now I could see that, while the world loved what I did, it still didn't love me. I didn't know what to do with my ugly desire for validation or the world's ugly response to it."
+- "MUMMY, I HAD WANTED to think that fame and wealth—conventional notions of
+success—didn't matter to me anymore. But they did. I didn't get approval from you or Papa
+or Yush, and the desire to be validated was so deep in me that now I sought it on an even
+larger stage: the whole world, demanding that everyone look at the very thing that no one
+in our home could acknowledge—my perspective. But now I could see that, while the world
+loved what I did, it still didn't love me. I didn't know what to do with my ugly desire
+for validation or the world's ugly response to it."
 
-- "It's a strange thing to miss someone who is right there. When I talk to you is when I miss you the most, because I am confronted by what I cannot have."
+- "It's a strange thing to miss someone who is right there. When I talk to you is when I
+miss you the most, because I am confronted by what I cannot have."
 
-- "WE HAD EACH BEEN raised to believe that every unknown could be resolved through willpower and intellect, a message reinforced by America's rigid conception of who we are supposed to be. The truth is, society doesn't raise people to aspire to be kind or compassionate or happy. It pressures adults to achieve and accomplish. It teaches people that what matters more than their character or how they treat others or how they feel about themselves is how much money they can hoard, who they know, how famous they can get, and how much power they wield over others. Emotions have no basis in this framework. They are a nuisance, a hindrance, a distraction, a weakness."
+- "WE HAD EACH BEEN raised to believe that every unknown could be resolved through
+willpower and intellect, a message reinforced by America's rigid conception of who we are
+supposed to be. The truth is, society doesn't raise people to aspire to be kind or
+compassionate or happy. It pressures adults to achieve and accomplish. It teaches people
+that what matters more than their character or how they treat others or how they feel
+about themselves is how much money they can hoard, who they know, how famous they can get,
+and how much power they wield over others. Emotions have no basis in this framework. They
+are a nuisance, a hindrance, a distraction, a weakness."
 
-- "I HAD THOUGHT OF love as a taut chain with a tight clasp that carried our weight as we clutched one another, no matter what dragged any of us down. I had believed that when I love someone, I should hold on regardless of what else I have to give up in order to keep them. The more one gives up, the greater the love, I thought. To love someone well was to perform perfection for them, and to be loved well was for them to perform perfection for me. But that is not true love. That is self-abandonment masquerading as love."
+- "I HAD THOUGHT OF love as a taut chain with a tight clasp that carried our weight as we
+clutched one another, no matter what dragged any of us down. I had believed that when I
+love someone, I should hold on regardless of what else I have to give up in order to keep
+them. The more one gives up, the greater the love, I thought. To love someone well was to
+perform perfection for them, and to be loved well was for them to perform perfection for
+me. But that is not true love. That is self-abandonment masquerading as love."
 
-- "I had once thought that I came from a line of Gods, and I had punished myself for failing to be Godlike. But we were not Gods, and I was not the avatar for our family's unraveling. I was just another product of inherited trauma, unresolved grief, and reactive survival mechanisms, like everyone else who came before me. We were mortals who felt ashamed when we failed to appear omnipotent. Now I see that my job was to release my ancestors from this burden, to allow those who come next the freedom to be ordinary."
+- "I had once thought that I came from a line of Gods, and I had punished myself for
+failing to be Godlike. But we were not Gods, and I was not the avatar for our family's
+unraveling. I was just another product of inherited trauma, unresolved grief, and reactive
+survival mechanisms, like everyone else who came before me. We were mortals who felt
+ashamed when we failed to appear omnipotent. Now I see that my job was to release my
+ancestors from this burden, to allow those who come next the freedom to be ordinary."
 
-- "Language was always the companion of empire, and as such, together they begin, grow, and flourish. And later, together, they fall."
+- "Language was always the companion of empire, and as such, together they begin, grow,
+and flourish. And later, together, they fall."
 
-- "He buried his past life, not because it was so terrible but because abandoning it was the only way to survive."
+- "He buried his past life, not because it was so terrible but because abandoning it was
+the only way to survive."
 
-- "'Every language is complex in its own way. Latin just happens to work its complexity into the shape of the word."
+- "Every language is complex in its own way. Latin just happens to work its complexity
+into the shape of the word."
 
-- "Words and phrases you think are carved into your bones can disappear in no time.'"
+- "Words and phrases you think are carved into your bones can disappear in no time."
 
-- "A lie was not a lie if it was never uttered; questions that were never asked did not need answers."
+- "A lie was not a lie if it was never uttered; questions that were never asked did not
+need answers."
 
-- "'Whenever the English see me, they try to determine what kind of story they know me from,' Ramy said. 'Either I'm a dirty thieving lascar, or I'm a servant in some nabob's house. And I realized in Yorkshire that it's easier if they think I'm a Mughal prince.'"
+- "Whenever the English see me, they try to determine what kind of story they know me
+from,' Ramy said. 'Either I'm a dirty thieving lascar, or I'm a servant in some nabob's
+house. And I realized in Yorkshire that it's easier if they think I'm a Mughal prince."
 
 - "If they're going to tell stories about you, use it to your advantage."
 
-- "The English are never going to think I'm posh, but if I fit into their fantasy, then they'll at least think I'm royalty.'"
+- "The English are never going to think I'm posh, but if I fit into their fantasy, then
+they'll at least think I'm royalty."
 
-- "Travel sounds fun until you realize what you really want is to stay at home with a cup of tea and a stack of books by a warm fire.'"
+- "Travel sounds fun until you realize what you really want is to stay at home with a cup
+of tea and a stack of books by a warm fire."
 
-- "'Translation, from time immemorial, has been the facilitator of peace. Translation makes possible communication, which in turn makes possible the kind of diplomacy, trade, and cooperation between foreign peoples that brings wealth and prosperity to all."
+- "Translation, from time immemorial, has been the facilitator of peace. Translation
+makes possible communication, which in turn makes possible the kind of diplomacy, trade,
+and cooperation between foreign peoples that brings wealth and prosperity to all."
 
-- "'That's the thing about secret societies,' said Griffin. 'They're easy to romanticize. You think it's this long courting process – that you'll be inducted, shown a whole new world, shown all the levers and people at play. If you've formed your only impression of secret societies from novels and penny dreadfuls, then you might expect rituals and passwords and secret meetings in abandoned warehouses."
+- "That's the thing about secret societies,' said Griffin. 'They're easy to romanticize.
+You think it's this long courting process – that you'll be inducted, shown a whole new
+world, shown all the levers and people at play. If you've formed your only impression of
+secret societies from novels and penny dreadfuls, then you might expect rituals and
+passwords and secret meetings in abandoned warehouses."
 
-- "'Language does not exist as a nomenclature for a set of universal concepts,'"
+- "Language does not exist as a nomenclature for a set of universal concepts,"
 
-- "So you see, translators do not so much deliver a message as they rewrite the original. And herein lies the difficulty – rewriting is still writing, and writing always reflects the author's ideology and biases."
+- "So you see, translators do not so much deliver a message as they rewrite the original.
+And herein lies the difficulty – rewriting is still writing, and writing always reflects
+the author's ideology and biases."
 
-- "He was a child starved of affection, which he now had in abundance – and was it so wrong for him to cling to what he had?"
+- "He was a child starved of affection, which he now had in abundance – and was it so
+wrong for him to cling to what he had?"
 
-- "'What makes the English superior is guns. Guns, and the willingness to use them on innocent people.'"
+- "What makes the English superior is guns. Guns, and the willingness to use them on
+innocent people."
 
-- "Unpretty women were so much easier to deal with in some ways—you didn't have to face the pain of their probable unattainability."
+- "Unpretty women were so much easier to deal with in some ways—you didn't have to face
+the pain of their probable unattainability."
 
-- "For so accustomed are we to electric lights that the sight of a naked bulb beneath an ordinary milk glass shade seems simpler and more natural than any gratuitous attempt to hide"
+- "For so accustomed are we to electric lights that the sight of a naked bulb beneath an
+ordinary milk glass shade seems simpler and more natural than any gratuitous attempt to
+hide it."
 
-- "For so accustomed are we to electric lights that the sight of a naked bulb beneath an ordinary milk glass shade seems simpler and more natural than any gratuitous attempt to hide it."
+- "The cleanliness of what can be seen only calls up the more clearly thoughts of what
+cannot be seen."
 
-- "The cleanliness of what can be seen only calls up the more clearly thoughts of what cannot be seen."
-
-- "An insignificant little piece of writing equipment, when one thinks of it, has had a vast, almost boundless, influence on our culture."
+- "An insignificant little piece of writing equipment, when one thinks of it, has had a
+vast, almost boundless, influence on our culture."
 
 - "And so we distort the arts themselves to curry favor for them with the machines."
 
-- "In making for ourselves a place to live, we first spread a parasol to throw a shadow on the earth, and in the pale light of the shadow we put together a house."
+- "In making for ourselves a place to live, we first spread a parasol to throw a shadow on
+the earth, and in the pale light of the shadow we put together a house."
 
-- "If the roof of a Japanese house is a parasol, the roof of a Western house is no more than a cap, with as small a visor as possible so as to allow the sunlight to penetrate directly beneath the eaves."
+- "If the roof of a Japanese house is a parasol, the roof of a Western house is no more
+than a cap, with as small a visor as possible so as to allow the sunlight to penetrate
+directly beneath the eaves."
 
-- "A light room would no doubt have been more convenient for us, too, than a dark room. The quality that we call beauty, however, must always grow from the realities of life, and our ancestors, forced to live in dark rooms, presently came to discover beauty in shadows, ultimately to guide shadows towards beauty's ends."
+- "A light room would no doubt have been more convenient for us, too, than a dark room.
+The quality that we call beauty, however, must always grow from the realities of life, and
+our ancestors, forced to live in dark rooms, presently came to discover beauty in shadows,
+ultimately to guide shadows towards beauty's ends."
 
-- "This was the genius of our ancestors, that by cutting off the light from this empty space they imparted to the world of shadows that formed there a quality of mystery and depth superior to that of any wall painting or ornament. The technique seems simple, but was by no means so simply achieved. We"
+- "This was the genius of our ancestors, that by cutting off the light from this empty
+space they imparted to the world of shadows that formed there a quality of mystery and
+depth superior to that of any wall painting or ornament. The technique seems simple, but
+was by no means so simply achieved. We can imagine with little difficulty what
+extraordinary pains were taken with each invisible detail—the placement of the window in
+the shelving recess, the depth of the crossbeam, the height of the threshold. But for me
+the most exquisite touch is the pale white glow of the shoji in the study bay; I need only
+pause before it and I forget the passage of time."
 
-- "This was the genius of our ancestors, that by cutting off the light from this empty space they imparted to the world of shadows that formed there a quality of mystery and depth superior to that of any wall painting or ornament. The technique seems simple, but was by no means so simply achieved. We can imagine with little difficulty what extraordinary pains were taken with each invisible detail—the placement of the window in the shelving recess, the depth of the crossbeam, the height of the threshold. But for me the most exquisite touch is the pale white glow of the shoji in the study bay; I need only pause before it and I forget the passage of time."
+- "But I see why in ancient times statues of the Buddha were gilt with gold and why gold
+leaf covered the walls of the homes of the nobility. Modem man, in his well-lit house,
+knows nothing of the beauty of gold; but those who lived in the dark houses of the past
+were not merely captivated by its beauty, they also knew its practical value; for gold, in
+these dim rooms, must have served the function of a reflector. Their use of gold leaf and
+gold dust was not mere extravagance. Its reflective properties were put to use as a source
+of illumination."
 
-- "But I see why in ancient times statues of the Buddha were gilt with gold and why gold leaf covered the walls of the homes of the nobility. Modem man, in his well-lit house, knows nothing of the beauty of gold; but those who lived in the dark houses of the past were not merely captivated by its beauty, they also knew its practical value; for gold, in these dim rooms, must have served the function of a reflector. Their use of gold leaf and gold dust was not mere extravagance. Its reflective properties were put to use as a source of illumination."
+- "Beautiful though such a face may be, it is after all made up; it has nothing of the
+immediate beauty of the flesh."
 
-- "Beautiful though such a face may be, it is after all made up; it has nothing of the immediate beauty of the flesh."
+- "The unseen for us does not exist. The person who insists upon seeing her ugliness, like
+the person who would shine a hundred-candlepower light upon the picture alcove, drives
+away whatever beauty may reside there."
 
-- "The unseen for us does not exist. The person who insists upon seeing her ugliness, like the person who would shine a hundred-candlepower light upon the picture alcove, drives away whatever beauty may reside there."
+- "As even this trifle suggests, pitch darkness has always occupied our fantasies, while
+in the West even ghosts are as clear as glass."
 
-- "As even this trifle suggests, pitch darkness has always occupied our fantasies, while in the West even ghosts are as clear as glass."
-
-- "we Orientals tend to seek our satisfactions in whatever surroundings we happen to find ourselves, to content ourselves with things as they are; and so darkness causes us no discontent, we resign ourselves to it as inevitable. If light is scarce then light is scarce; we will immerse ourselves in the darkness and there discover its own particular beauty. But the progressive Westerner is determined always to better his lot. From candle to oil lamp, oil lamp to gaslight, gaslight to electric light—his quest for a brighter light never ceases, he spares no pains to eradicate even the minutest shadow."
+- "we Orientals tend to seek our satisfactions in whatever surroundings we happen to find
+ourselves, to content ourselves with things as they are; and so darkness causes us no
+discontent, we resign ourselves to it as inevitable. If light is scarce then light is
+scarce; we will immerse ourselves in the darkness and there discover its own particular
+beauty. But the progressive Westerner is determined always to better his lot. From candle
+to oil lamp, oil lamp to gaslight, gaslight to electric light—his quest for a brighter
+light never ceases, he spares no pains to eradicate even the minutest shadow."
 
 - "The older we get the more we seem to think that everything was better in the past."
 
-- "Yet of this I am convinced, that the conveniences of modern culture cater exclusively to youth, and that the times grow increasingly inconsiderate of old people."
+- "Yet of this I am convinced, that the conveniences of modern culture cater exclusively
+to youth, and that the times grow increasingly inconsiderate of old people."
 
-- "One of the oldest and most deeply ingrained of Japanese attitudes to literary style holds that too obvious a structure is contrivance, that too orderly an exposition falsifies the ruminations of the heart, that the truest representation of the searching mind is just to "follow the brush."
+- "One of the oldest and most deeply ingrained of Japanese attitudes to literary style
+holds that too obvious a structure is contrivance, that too orderly an exposition
+falsifies the ruminations of the heart, that the truest representation of the searching
+mind is just to "follow the brush."
 
-- "'We'll keep making the wrong decisions,' a friend told me, 'and we'll keep enjoying the consequences.'"
+- "We'll keep making the wrong decisions,' a friend told me, 'and we'll keep enjoying the
+consequences."
 
 - "When a person meets misfortune, even drinking water would get stuck in the teeth."
 
-- "He envied the disciples of the larger sects. No matter what spell, it required self-comprehension after it reached a certain level. But learning from the experiences of the people that had studied it before them would greatly decrease the detours that they had to take."
+- "He envied the disciples of the larger sects. No matter what spell, it required
+self-comprehension after it reached a certain level. But learning from the experiences of
+the people that had studied it before them would greatly decrease the detours that they
+had to take."
 
 - "Work and relax, that was the right way."
 
@@ -17856,23 +20424,27 @@ title, wealth, prestige, or social network but as the ability to be myself in th
 
 - "The joy after surviving a calamity made everything seem so beautiful."
 
-- "To cultivate the sword, what cannot be lost is purity. But the five elements birth and defeat each other, and are difficult to make pure."
+- "To cultivate the sword, what cannot be lost is purity. But the five elements birth and
+defeat each other, and are difficult to make pure."
 
-- "Ha ha, cultivation is long and difficult. If there isn't a strong and resolute heart, how can one achieve the path?"
+- "Ha ha, cultivation is long and difficult. If there isn't a strong and resolute heart,
+how can one achieve the path?"
 
 - "the existing official wasn't as good as the existing manager."
 
 - "A clever companion was much better than a stupid one."
 
-- "Anything that required study, it had to be built from the ground up, there were no tricks."
+- "Anything that required study, it had to be built from the ground up, there were no
+tricks."
 
-- "All kinds of comprehension, it wasn't a building in the sky. Without a solid base, even if you understood it, you could not produce it."
+- "All kinds of comprehension, it wasn't a building in the sky. Without a solid base, even
+if you understood it, you could not produce it."
 
 - "Cultivation, it was to have a steady heart, and not waver!"
 
 - "In any case, the barefoot weren't afraid then those wearing shoes."
 
-- “Stop trying to convince everyone that you suck, focus on the positives“
+- "Stop trying to convince everyone that you suck, focus on the positives“
 
 - "As you get better, the goalposts get further away"
 
@@ -17880,505 +20452,1822 @@ title, wealth, prestige, or social network but as the ability to be myself in th
 
 - "Sticky notes are a great way of telling you what you failed to do"
 
-- "Relationships are about mutual giving -- not about just avoiding everything you don't both like equally."
+- "Relationships are about mutual giving -- not about just avoiding everything you don't
+both like equally."
 
-- “People, generally speaking, want outcomes. They don’t care how it’s done or what is used to get there. No one goes to the hardware store to buy a drill. They go there to buy holes."
+- "People, generally speaking, want outcomes. They don’t care how it’s done or what is
+used to get there. No one goes to the hardware store to buy a drill. They go there to buy
+holes."
 
-- "What's the point of living your life with your hands and feet tied? You should create a sky shaking, earth shattering way for yourself!"
+- "What's the point of living your life with your hands and feet tied? You should create a
+sky shaking, earth shattering way for yourself!"
 
-- "According to the history books, most of the falls of any ancient emperor were caused by their suspicions of their ministers; their suspicions made them ill and therefore led to their death"
+- "According to the history books, most of the falls of any ancient emperor were caused by
+their suspicions of their ministers; their suspicions made them ill and therefore led to
+their death"
 
-- "The waves in the back always push the ones in the front in the Yangtze river, so of course each generation has to be stronger than the next"
+- "The waves in the back always push the ones in the front in the Yangtze river, so of
+course each generation has to be stronger than the next"
 
 - "The hardest part is not learning how to use the tools but know what to do with them"
 
 - "The universe will never give you peace in something you were not meant to settle in"
 
-- "When I was a teen, I'd self harm, but now I just occasionally inconvenience myself in different ways when I feel bad or guilty about something I've said or done."
+- "When I was a teen, I'd self harm, but now I just occasionally inconvenience myself in
+different ways when I feel bad or guilty about something I've said or done."
 
-- "When we're in a dangerous situation as a child, we're not allowed to get angry because the abusers are dangerous. So we turn our anger back at ourselves. The abusers contribute to this on purpose, making us feel like we had some control over the situation when we did not. That's what abusers do."
+- "When we're in a dangerous situation as a child, we're not allowed to get angry because
+the abusers are dangerous. So we turn our anger back at ourselves. The abusers contribute
+to this on purpose, making us feel like we had some control over the situation when we did
+not. That's what abusers do."
 
-- "You're hurting yourself in an attempt to soothe yourself. And because you had abusive parents who were probably prone to punishment, you're doing that to yourself. You are imitating them, what they did to you."
+- "You're hurting yourself in an attempt to soothe yourself. And because you had abusive
+parents who were probably prone to punishment, you're doing that to yourself. You are
+imitating them, what they did to you."
 
 - "They see me ho'ing, they hatin"
 
 - "Thousands of miles fly by in a dream and thousands of years like a racing steed"
 
-- “Taking rejections personally is the biggest enemy of a creative professional. Don’t let your work become your whole identity.”
+- "Taking rejections personally is the biggest enemy of a creative professional. Don’t let
+your work become your whole identity."
 
 - "This is your job, and as long as you’re being paid for it, just let it go."
 
-- "What horrifies me most is the idea of being
-useless: well-educated, brilliantly promising, and
-fading out info an idifierent middle age."
+- "What horrifies me most is the idea of being useless: well-educated, brilliantly
+promising, and fading out info an idifierent middle age."
 
-- "we have kitchens to clean because our bellies are full. we have beds to make because we did not have to sleep on floors. our laundry is piling because we have so many clothes to choose from and so many ways to make them dirty. our arms are full because our hearts are
-full. celebrate the messy. celebrate every little thing that needs to be done. life is too short and too beautiful to let the little things slip away."
+- "we have kitchens to clean because our bellies are full. we have beds to make because we
+did not have to sleep on floors. our laundry is piling because we have so many clothes to
+choose from and so many ways to make them dirty. our arms are full because our hearts are
+full. celebrate the messy. celebrate every little thing that needs to be done. life is too
+short and too beautiful to let the little things slip away."
 
-- “It’s easy to say I wish my partner did more for me. It’s hard to do more for your partner”
+- "It’s easy to say I wish my partner did more for me. It’s hard to do more for your
+partner"
 
 - "If you stop and think about it, your life is a lot longer as an old guy than as a kid."
 
-- "To her, reuniting with her Aranara friend is the "result." But recapturing her past joy and belief in herself is the "process," and that's where our help is needed.I'm guessing that her sudden illness made her feel like she may not be able to realize her dreams anymore. It also made it difficult for her to hold onto the happy memories and dreams she had.Everyone has their own imagination. After some chance coincidence, she met an "Aranara."So as long as we help her rediscover that same feeling she once had, her "Aranara" will return naturally.Oh, so that's what you're thinking...Adults only want to believe in objective reality. In doing so, they may unintentionally do harm to the innocent fantasies of children.But I think there are ways to get even subjective things back."
+- "To her, reuniting with her Aranara friend is the "result." But recapturing her past joy
+and belief in herself is the "process," and that's where our help is needed.I'm guessing
+that her sudden illness made her feel like she may not be able to realize her dreams
+anymore. It also made it difficult for her to hold onto the happy memories and dreams she
+had.Everyone has their own imagination. After some chance coincidence, she met an
+"Aranara."So as long as we help her rediscover that same feeling she once had, her
+"Aranara" will return naturally.Oh, so that's what you're thinking...Adults only want to
+believe in objective reality. In doing so, they may unintentionally do harm to the
+innocent fantasies of children.But I think there are ways to get even subjective things
+back."
 
-- "I'm so happy... I almost forgot how it feels to be this happy...You know, at first, it felt like my world had shrunk down to a tiny space.But as long as I continue moving forward, new sights will always appear in front of me, and my world will keep expanding before my eyes.Even though I don't know how I did it, I know I have you all to thank.Oh, that's not important. What's important is that you've remembered the joy of going through the world.Our memories don't just symbolize our past. They can also shine a light on our future.Once you find the hope in your heart again, that happiness will come back to you."
+- "I'm so happy... I almost forgot how it feels to be this happy...You know, at first, it
+felt like my world had shrunk down to a tiny space.But as long as I continue moving
+forward, new sights will always appear in front of me, and my world will keep expanding
+before my eyes.Even though I don't know how I did it, I know I have you all to thank.Oh,
+that's not important. What's important is that you've remembered the joy of going through
+the world.Our memories don't just symbolize our past. They can also shine a light on our
+future.Once you find the hope in your heart again, that happiness will come back to you."
 
-- "Dreams themselves may be imaginary, but they're also experiences that can never be relived or replicated.If we were sticklers about truth and fiction, we would've missed out on so much beauty and emotion."
+- "Dreams themselves may be imaginary, but they're also experiences that can never be
+relived or replicated.If we were sticklers about truth and fiction, we would've missed out
+on so much beauty and emotion."
 
 - "That might sound silly to you... Like, why do you have to be happy just because it is?
-But that's the magic of a smile. If you don't believe me, try it. Look at it a few times every day, and you'll understand."
+But that's the magic of a smile. If you don't believe me, try it. Look at it a few times
+every day, and you'll understand."
 
-- "People use fireworks to remember their most precious memories, and these memories sparkle and shine each time the fireworks fly.
-In other words, fireworks symbolize the past.
-And shooting stars make people think of wishes because wishes carry people's brilliant hopes and expectations for the future.
-One represents the past, and the other the future. They both bloom in the sky, but have completely different meanings behind them."
+- "People use fireworks to remember their most precious memories, and these memories
+sparkle and shine each time the fireworks fly. In other words, fireworks symbolize the
+past. And shooting stars make people think of wishes because wishes carry people's
+brilliant hopes and expectations for the future. One represents the past, and the other
+the future. They both bloom in the sky, but have completely different meanings behind
+them."
 
-- "Underneath their hard shell is often a vulnerable human, who fails to provide you with nurture because they never received it themselves. Their dysfunctional behaviours are rooted in a painful past. To these parents, their fundamental experience in life is that of being groundless. From a young age, they did not feel protected or guided but were ‘thrown into’ a precarious and scary world. They had to survive challenges, protect themselves and seek direction in the world while their parents remained weak or absent. At some point in their life, perhaps on an unconscious level, they decided they would make better parents to themselves than their real parents could. They took over the role and became the powerful figure they had been searching for. Since their own sense of invincibility is the only thing that they have ever been able to count on, they fiercely protect it with all they have. This is why they demand compliance from others to reinforce their authority and are extremely defensive and reactive to anything that threatens their sense of control. "
+- "Underneath their hard shell is often a vulnerable human, who fails to provide you with
+nurture because they never received it themselves. Their dysfunctional behaviours are
+rooted in a painful past. To these parents, their fundamental experience in life is that
+of being groundless. From a young age, they did not feel protected or guided but were
+‘thrown into’ a precarious and scary world. They had to survive challenges, protect
+themselves and seek direction in the world while their parents remained weak or absent. At
+some point in their life, perhaps on an unconscious level, they decided they would make
+better parents to themselves than their real parents could. They took over the role and
+became the powerful figure they had been searching for. Since their own sense of
+invincibility is the only thing that they have ever been able to count on, they fiercely
+protect it with all they have. This is why they demand compliance from others to reinforce
+their authority and are extremely defensive and reactive to anything that threatens their
+sense of control. "
 
-- "One has never found oneself lacking in basic comforts. On the contrary, it is the gesture that one values above all else. So long as you've shown proper respect and consideration, the quantity or quality of the gift is but a trivial matter."
+- "One has never found oneself lacking in basic comforts. On the contrary, it is the
+gesture that one values above all else. So long as you've shown proper respect and
+consideration, the quantity or quality of the gift is but a trivial matter."
 
-- "A name is but a simple label we carry with us on our journey through the world. Why would one be offended by such a trivial matter?"
+- "A name is but a simple label we carry with us on our journey through the world. Why
+would one be offended by such a trivial matter?"
 
-- "That is not to say that your words paint an inaccurate picture. One has always lived by a single ideal: eschew all action and abide by no rule. One does as one pleases and speaks as one pleases. Others may critique or praise as they see fit, yet one places little weight in such judgments."
+- "That is not to say that your words paint an inaccurate picture. One has always lived by
+a single ideal: eschew all action and abide by no rule. One does as one pleases and speaks
+as one pleases. Others may critique or praise as they see fit, yet one places little
+weight in such judgments."
 
-- "When dwelling between mountain and forest, away from the struggles and troubles of the mortal world, a mortal form is hardly the most fitting of choices."
+- "When dwelling between mountain and forest, away from the struggles and troubles of the
+mortal world, a mortal form is hardly the most fitting of choices."
 
-- "'Tis a truth most evident: One always recognizes one's own... no matter what form they may take."
+- "Tis a truth most evident: One always recognizes one's own... no matter what form they
+may take."
 
-- "When it is time for one's progeny to leave the nest, it is the responsibility of an elder to let them fly free. Yet when your wings grow weary and the night grows dark, just know that you always have a place to which to return. Tis a refuge referred to by many a name in mortal writing: "Home," "nest," "haven"... Whatever its denomination may be, its essence remains quite unchanged. One speaks, of course, of a place not unlike one's own abode. One's disciples are free to come and go as they wish, yet the door remains forever open to those who wish to return... One rather hopes you count yourself among them."
+- "When it is time for one's progeny to leave the nest, it is the responsibility of an
+elder to let them fly free. Yet when your wings grow weary and the night grows dark, just
+know that you always have a place to which to return. Tis a refuge referred to by many a
+name in mortal writing: "Home," "nest," "haven"... Whatever its denomination may be, its
+essence remains quite unchanged. One speaks, of course, of a place not unlike one's own
+abode. One's disciples are free to come and go as they wish, yet the door remains forever
+open to those who wish to return... One rather hopes you count yourself among them."
 
-- "Tears are a necessary part of maturation. Sometimes, there is scarcely a better vehicle to wash away the toll of stress and misery. Now that the issue has been resolved, you should also take a moment to relax. Give yourself some time to rest, take a nap if you must. One will wake you in due time."
+- "Tears are a necessary part of maturation. Sometimes, there is scarcely a better vehicle
+to wash away the toll of stress and misery. Now that the issue has been resolved, you
+should also take a moment to relax. Give yourself some time to rest, take a nap if you
+must. One will wake you in due time."
 
-- "Every individual must find their own path to enlightenment. So long as one retains a pureness of spirit, one's dietary proclivities are quite irrelevant."
+- "Every individual must find their own path to enlightenment. So long as one retains a
+pureness of spirit, one's dietary proclivities are quite irrelevant."
 
-- "Not unlike the ocean tides, so too shall the movement of people ebb and flow. From turmoil to peace, enlightenment to aspiration — human society possesses limitless potential. In another thousand years, the scene we witness here may change in ways that are impossible for either of us to imagine."
+- "Not unlike the ocean tides, so too shall the movement of people ebb and flow. From
+turmoil to peace, enlightenment to aspiration — human society possesses limitless
+potential. In another thousand years, the scene we witness here may change in ways that
+are impossible for either of us to imagine."
 
 - "I’m a self-sufficient adult and abandonment no longer means the end of my life."
 
-- "It can be both aggravating and overwhelming when your parents repeatedly raise groundless fears, make false claims or subscribe to conspiracy theories. Perhaps you have realised by now that no amount of reassurance will ease their worries, but you may still be tempted to challenge their thinking or try to eradicate their fears with logic. Besides being futile, these efforts will likely backfire as your parents’ fears are real to them. In fact, these are the pillars of their existence. For many years, they have relied on a rigid and absolute way of feeling safe in the world. They hold onto their defensive system so tightly because if they don’t, their sense of self will crumble. Therefore, the more you try to challenge their views, the more defensiveness and pushback you will face from them. To have a productive interaction, try not to ridicule, tease or undermine their paranoia, or convince them that they may be wrong. Instead, allow them to have their say. If they try to force you to agree with them, it is within your rights to remain firm and honest. You do not have to share their beliefs, but you can validate their feelings, or remain non-reactive. On the other hand, bear in mind that when your parents are in a fearful place, their cognitive abilities will tend to regress, and they may not be capable of abstract thinking or logical reasoning. Therefore, when you speak, try to be clear, explicit and non-metaphorical, to reduce the chances of misinterpretation."
+- "It can be both aggravating and overwhelming when your parents repeatedly raise
+groundless fears, make false claims or subscribe to conspiracy theories. Perhaps you have
+realised by now that no amount of reassurance will ease their worries, but you may still
+be tempted to challenge their thinking or try to eradicate their fears with logic. Besides
+being futile, these efforts will likely backfire as your parents’ fears are real to them.
+In fact, these are the pillars of their existence. For many years, they have relied on a
+rigid and absolute way of feeling safe in the world. They hold onto their defensive system
+so tightly because if they don’t, their sense of self will crumble. Therefore, the more
+you try to challenge their views, the more defensiveness and pushback you will face from
+them. To have a productive interaction, try not to ridicule, tease or undermine their
+paranoia, or convince them that they may be wrong. Instead, allow them to have their say.
+If they try to force you to agree with them, it is within your rights to remain firm and
+honest. You do not have to share their beliefs, but you can validate their feelings, or
+remain non-reactive. On the other hand, bear in mind that when your parents are in a
+fearful place, their cognitive abilities will tend to regress, and they may not be capable
+of abstract thinking or logical reasoning. Therefore, when you speak, try to be clear,
+explicit and non-metaphorical, to reduce the chances of misinterpretation."
 
 - "It's amazing how a little tomorrow can make up for a whole lot of yesterday"
 
-- "To survive the lack of or inconsistent parenting input, we learned to withdraw our needs from others and even ourselves."
+- "To survive the lack of or inconsistent parenting input, we learned to withdraw our
+needs from others and even ourselves."
 
-- "We fear the thing we want the most.If our experience had taught us that being angry would lead to someone deserting us, or that our sadness was a burden, it makes sense that we default to hiding our feelings. We learn to shut off our emotions – first to others, then to ourselves, to prevent potential rejection or exile from the family and community"
+- "We fear the thing we want the most.If our experience had taught us that being angry
+would lead to someone deserting us, or that our sadness was a burden, it makes sense that
+we default to hiding our feelings. We learn to shut off our emotions – first to others,
+then to ourselves, to prevent potential rejection or exile from the family and community"
 
-- "As our need for love has been frustrated, we construct a facade of pretending not to have any needs, and eventually, we start to believe we really don't need love. Then, we feel our lives to be flat and numb. To make up for our inner emptiness, we try to establish our values through 'doing' rather than 'being'. We might be high-achievers in the professional arenas or appear successful, independent, and self-contained, but deep down our battle with perfectionism, shame and loneliness keep us away from living life fully. Our loneliness is perpetuated as we continue to live with a facade, rather than letting others see our raw, unedited self."
+- "As our need for love has been frustrated, we construct a facade of pretending not to
+have any needs, and eventually, we start to believe we really don't need love. Then, we
+feel our lives to be flat and numb. To make up for our inner emptiness, we try to
+establish our values through 'doing' rather than 'being'. We might be high-achievers in
+the professional arenas or appear successful, independent, and self-contained, but deep
+down our battle with perfectionism, shame and loneliness keep us away from living life
+fully. Our loneliness is perpetuated as we continue to live with a facade, rather than
+letting others see our raw, unedited self."
 
-- "When you have a grasp on eternity your eyes won't ever see the battle or the lost people that hurt you. You will see a beautiful story of hope, in every character."
+- "We feel that we are not a big enough container for our dreams, and we are so used to
+the disquiet longings in solitude that the idea of getting what we want terrifies us."
 
-- "We feel that we are not a big enough container for our dreams, and we are so used to the disquiet longings in solitude that the idea of getting what we want terrifies us."
+- "Instead of being fixated on the wrong that had been done to me— the obsession to return
+to innocence— I began to see my heartbreaks as necessary. Without them, I would never have
+known true belonging, which is inclusive of exile, not in spite of it."
 
-- "Instead of being fixated on the wrong that had been done to me— the obsession to return to innocence— I began to see my heartbreaks as necessary. Without them, I would never have known true belonging, which is inclusive of exile, not in spite of it."
-
-- "It may seem paradoxical at first glance, but the answer to healing from defensive non-attachment is actually to affirm our ultimate autonomy and resilience. We push away good things in life because deep down, we worry that we would not survive losses and heartbreaks. If we know we are strong enough to go through grieve, disappointment and heartbreaks, then placing our trust in someone's hand would become much less threatening. To melt away our armour, we ought to feel safe and grounded within ourselves. We could allow ourselves to graduate from a child-like way of need, into a mature, grounded way of relating. As an adult, the basis of our courage to trust and to love does not lie in the hands of others but our strengths. It is not that we have the blind faith that others will not hurt, disappointment or betray us, but we trust that we could grieve, digest the disaster, and bounce back from it. Unlike the helpless child we once were, we are more resourceful, resilient and adaptable than we think we are. We do not have to fear dependency, for we are never truly dependent on another. We are both dependent and independent— and when the time comes, we can summon the strength that is needed to adapt. As children, we need from others utmost reliability, consistency and availability. As adults, we rely on our ability to self-contain and self-soothe. Unlike a child, we know that people can break promises, withhold their love, and change the way they act. But rather than counting on others to create a haven for us, we do that for ourselves. We no longer need our partner to guess our needs, fulfil our desires or stand up for us, but we can assert ourselves to the world. We may also become aware of our deprived needs as a child and the longings, and become our own best parents. We no longer live in fear of 'being dropped' as a baby would be; we stand on our own two feet. Rather than being pulled by insatiable hunger, we simply appreciate the love, attention and respect offered by others when they are freely given. Then, our understanding of relationships becomes much more nuanced We do not need absolute safety and certainty, we can hold the paradoxes of trust and disappointment, separation and attachment, and find our ways in the flux of life."
-
-- "To love at all is to be vulnerable. Love anything, and your heart will be wrung and possibly broken. If you want to make sure of keeping it intact you must give it to no one, not even an animal. Wrap it carefully round with hobbies and little luxuries; avoid all entanglements. Lock it up safe in the casket or coffin of your selfishness. But in that casket, safe, dark, motionless, airless, it will change. It will not be broken; it will become unbreakable, impenetrable, irredeemable. To love is to be vulnerable."
+- "It may seem paradoxical at first glance, but the answer to healing from defensive
+non-attachment is actually to affirm our ultimate autonomy and resilience. We push away
+good things in life because deep down, we worry that we would not survive losses and
+heartbreaks. If we know we are strong enough to go through grieve, disappointment and
+heartbreaks, then placing our trust in someone's hand would become much less threatening.
+To melt away our armour, we ought to feel safe and grounded within ourselves. We could
+allow ourselves to graduate from a child-like way of need, into a mature, grounded way of
+relating. As an adult, the basis of our courage to trust and to love does not lie in the
+hands of others but our strengths. It is not that we have the blind faith that others will
+not hurt, disappointment or betray us, but we trust that we could grieve, digest the
+disaster, and bounce back from it. Unlike the helpless child we once were, we are more
+resourceful, resilient and adaptable than we think we are. We do not have to fear
+dependency, for we are never truly dependent on another. We are both dependent and
+independent— and when the time comes, we can summon the strength that is needed to adapt.
+As children, we need from others utmost reliability, consistency and availability. As
+adults, we rely on our ability to self-contain and self-soothe. Unlike a child, we know
+that people can break promises, withhold their love, and change the way they act. But
+rather than counting on others to create a haven for us, we do that for ourselves. We no
+longer need our partner to guess our needs, fulfil our desires or stand up for us, but we
+can assert ourselves to the world. We may also become aware of our deprived needs as a
+child and the longings, and become our own best parents. We no longer live in fear of
+'being dropped' as a baby would be; we stand on our own two feet. Rather than being pulled
+by insatiable hunger, we simply appreciate the love, attention and respect offered by
+others when they are freely given. Then, our understanding of relationships becomes much
+more nuanced We do not need absolute safety and certainty, we can hold the paradoxes of
+trust and disappointment, separation and attachment, and find our ways in the flux of
+life."
 
 - "He is terribly afraid of dying because he hasn't yet lived."
 
-- "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light."
+- "We can easily forgive a child who is afraid of the dark; the real tragedy of life is
+when men are afraid of the light."
 
-- "In Hyper-criticalness, you have designed your life to meet very high standards about most things. These might have been standards you have internalized from other sources like your parents or competitive schooling, but they now feel like 'yours'. You constantly feel like you must be doing something, producing something, and achieving something. You struggle to slow down or relax. In order to meet your own standards, you may sacrifice health, leisure, and relationships. You are perfectionistic and would notice the smallest thing that does not align with the bigger picture. You might also be preoccupied with speed and efficiency and feel anxious if you think you might be wasting time. You may impose a lot of rules, moral standards, and 'shoulds' on yourself and others. Even you know being critical of others is detrimental to your relationship, you cannot help yourself."
+- "In Hyper-criticalness, you have designed your life to meet very high standards about
+most things. These might have been standards you have internalized from other sources like
+your parents or competitive schooling, but they now feel like 'yours'. You constantly feel
+like you must be doing something, producing something, and achieving something. You
+struggle to slow down or relax. In order to meet your own standards, you may sacrifice
+health, leisure, and relationships. You are perfectionistic and would notice the smallest
+thing that does not align with the bigger picture. You might also be preoccupied with
+speed and efficiency and feel anxious if you think you might be wasting time. You may
+impose a lot of rules, moral standards, and 'shoulds' on yourself and others. Even you
+know being critical of others is detrimental to your relationship, you cannot help
+yourself."
 
-- "Things ain't really been sweet for me, I lost that piece of me, I don't think that's peace for me, that might not be meant for me, my heart not something they need and your love not something I need, tough love when you come around me, I'm the bad guy if that's what they need"
+- "Things ain't really been sweet for me, I lost that piece of me, I don't think that's
+peace for me, that might not be meant for me, my heart not something they need and your
+love not something I need, tough love when you come around me, I'm the bad guy if that's
+what they need"
 
-- "Are you looking to move onwards and upwards or run away? Look before you leap, you don't want to appear the fool do you?"
+- "The suffering manifested in your life is you taking on a portion of the collective
+darkness, you do not deserve this suffering, this is the same as a firefighter going to
+fight the flames Its even harder if you dont remember you are a firefighter and you find
+yourself amidst the flames, if you can face the pain in your life with positivity, with
+light, you are helping this entire planet, every single human being is being helped by
+that, does this make sense?"
 
-- "The suffering manifested in your life is you taking on a portion of the collective darkness, you do not deserve this suffering, this is the same as a firefighter going to fight the flames
-Its even harder if you dont remember you are a firefighter and you find yourself amidst the flames, if you can face the pain in your life with positivity, with light, you are helping this entire planet, every single human being is being helped by that, does this make sense?"
+- "You are the Universe in the way that a wave is to the ocean. You are of the ocean but a
+wave."
 
-- "You are the Universe in the way that a wave is to the ocean. You are of the ocean but a wave."
-
-- "We seldom see where the chapters of our lives begin and end until we are gifted the benediction of hindsight. So I’m having my adventures and moving further on the path so I can get that hindsight."
+- "We seldom see where the chapters of our lives begin and end until we are gifted the
+benediction of hindsight. So I’m having my adventures and moving further on the path so I
+can get that hindsight."
 
 - "Something I remind myself often is that rejection is simply a redirection."
 
-- "Dreams are like paper kites, with them do our hopes take flight, sailing high above the clouds, they yearn for something more profound,,yet try we may and try we might, a deeper truth waits in plain sight, though we hang our hopes in skies abound, many joys lie on the ground."
+- "Dreams are like paper kites, with them do our hopes take flight, sailing high above the
+clouds, they yearn for something more profound,,yet try we may and try we might, a deeper
+truth waits in plain sight, though we hang our hopes in skies abound, many joys lie on the
+ground."
 
-- "Humans have nothing but unknowns. Even if they act like they know everything, that's surely a lie. That's why there's no way but to spend your whole life learning it. There's plenty of wisdom you won't find in a book, and I agree with your opinion, Lyle."
+- "Humans have nothing but unknowns. Even if they act like they know everything, that's
+surely a lie. That's why there's no way but to spend your whole life learning it. There's
+plenty of wisdom you won't find in a book, and I agree with your opinion, Lyle."
 
-- "Humans, you know. Someone who wasn't standing out up to now, when you leave work to them, you see they can suddenly accomplish it? Yeah, that happens. Up to that point, they thought it was fine if they didn't do anything. But when work's left to them, they suddenly feel no one but them can do it. That type."
+- "Humans, you know. Someone who wasn't standing out up to now, when you leave work to
+them, you see they can suddenly accomplish it? Yeah, that happens. Up to that point, they
+thought it was fine if they didn't do anything. But when work's left to them, they
+suddenly feel no one but them can do it. That type."
 
-- "Lyle, don't think everyone's the same as you. Without thinking of the consequences, there will surely be some who'll attack you just because you look like you have money. Make sure you're firm with monetary exchanges. There were lots of times when I had to give out rewards, and when you end up in that position, it's easy to understand. If you're not reliable in such fields, it will affect your credibility."
+- "Lyle, don't think everyone's the same as you. Without thinking of the consequences,
+there will surely be some who'll attack you just because you look like you have money.
+Make sure you're firm with monetary exchanges. There were lots of times when I had to give
+out rewards, and when you end up in that position, it's easy to understand. If you're not
+reliable in such fields, it will affect your credibility."
 
 - "Don't just assume that everyone around you is a wise guy like you."
 
-- "Even here in the Underworld, everybody—even monsters—needed a little attention once in a while."
+- "Even here in the Underworld, everybody—even monsters—needed a little attention once in
+a while."
 
 - "For some reason sugar and caffeine always calmed down my hyperactive brain."
 
-- "Percy, the hardest part about being a god is that you must often act indirectly, especially when it comes to your own children. If we were to intervene every time our children had a problem … well, that would only create more problems and more resentment. But I believe if you give it some thought, you will see that Poseidon has been paying attention to you. He has answered your prayers."
+- "Percy, the hardest part about being a god is that you must often act indirectly,
+especially when it comes to your own children. If we were to intervene every time our
+children had a problem … well, that would only create more problems and more resentment.
+But I believe if you give it some thought, you will see that Poseidon has been paying
+attention to you. He has answered your prayers."
 
-- "My point is you heroes never change. You accuse us gods of being vain. You should look at yourselves. You take what you want, use whoever you have to, and then you betray everyone around you."
+- "My point is you heroes never change. You accuse us gods of being vain. You should look
+at yourselves. You take what you want, use whoever you have to, and then you betray
+everyone around you."
 
 - "The most dangerous flaws are those which are good in moderation"
 
-- "You see, in times of trouble, even gods can lose faith. They start putting their trust in the wrong things. They stop looking at the big picture and start being selfish. But I'm the goddess of marriage, you see. I'm used to perseverance. You have to rise above the squabbling and chaos, and keep believing. You have to always keep your goals in mind."
+- "You see, in times of trouble, even gods can lose faith. They start putting their trust
+in the wrong things. They stop looking at the big picture and start being selfish. But I'm
+the goddess of marriage, you see. I'm used to perseverance. You have to rise above the
+squabbling and chaos, and keep believing. You have to always keep your goals in mind."
 
-- "Maybe that's why monsters fade," I said. "Maybe it's not about what the mortals believe. Maybe it's because you give up on yourself."
+- "Maybe that's why monsters fade," I said. "Maybe it's not about what the mortals
+believe. Maybe it's because you give up on yourself."
 
-- "It isn't easy being a brilliant inventor," Hephaestus rumbled. "Always alone. Always misunderstood. Easy to turn bitter, make horrible mistakes. People are more difficult to work with than machines. And when you break a person, he can't be fixed."
+- "It isn't easy being a brilliant inventor," Hephaestus rumbled. "Always alone. Always
+misunderstood. Easy to turn bitter, make horrible mistakes. People are more difficult to
+work with than machines. And when you break a person, he can't be fixed."
 
-- "I don't know if Daedalus will help you, lad, but don't judge someone until you've stood at his forge and worked with his hammer, eh?"
+- "I don't know if Daedalus will help you, lad, but don't judge someone until you've stood
+at his forge and worked with his hammer, eh?"
 
 - "A real artist must be good at many things."
 
-- "I picked up Pandora's jar. The spirit of Hope fluttered inside, trying to warm the cold container. "Hestia," I said, "I give this to you as an offering." The goddess tilted her head. "I am the least of the gods. Why would you trust me with this?" "You're the last Olympian," I said. "And the most important." "And why is that, Percy Jackson?" "Because Hope survives best at the hearth"
+- "I picked up Pandora's jar. The spirit of Hope fluttered inside, trying to warm the cold
+container. "Hestia," I said, "I give this to you as an offering." The goddess tilted her
+head. "I am the least of the gods. Why would you trust me with this?" "You're the last
+Olympian," I said. "And the most important." "And why is that, Percy Jackson?" "Because
+Hope survives best at the hearth"
 
-- "there are times when you have to light one fire to put out another. There are no drugs that will make you immune to stress or to pain, or that will by themselves magically solve your life's problems or promote healing. It will take conscious effort on your part to move in a direction of healing, inner peace, and well-being. This means learning to work with the very stress and pain that are causing you to suffer."
+- "there are times when you have to light one fire to put out another. There are no drugs
+that will make you immune to stress or to pain, or that will by themselves magically solve
+your life's problems or promote healing. It will take conscious effort on your part to
+move in a direction of healing, inner peace, and well-being. This means learning to work
+with the very stress and pain that are causing you to suffer."
 
-- "You can't sail straight into the wind, and if you only know how to sail with the wind at your back, you will only go where the wind blows you. But if you know how to use the wind's energy and are patient, you can sometimes get where you want to go. You can still be in control."
+- "You can't sail straight into the wind, and if you only know how to sail with the wind
+at your back, you will only go where the wind blows you. But if you know how to use the
+wind's energy and are patient, you can sometimes get where you want to go. You can still
+be in control."
 
-- "To a great extent, our ability to influence our circumstances depends on how we see things. Our beliefs about ourselves and about our own capabilities as well as how we see the world and the forces at play in it all affect what we will find possible. How we see things affects how much energy we have for doing things and our choices about where to channel what energy we do have."
+- "To a great extent, our ability to influence our circumstances depends on how we see
+things. Our beliefs about ourselves and about our own capabilities as well as how we see
+the world and the forces at play in it all affect what we will find possible. How we see
+things affects how much energy we have for doing things and our choices about where to
+channel what energy we do have."
 
-- "Some of our biggest stresses actually come from our reactions to the smallest, most insignificant events when they threaten our sense of control in one way or another: the car breaking down just when you have someplace important to go, your children not listening to you for the tenth time in as many minutes, long lines at the supermarket checkout."
+- "Some of our biggest stresses actually come from our reactions to the smallest, most
+insignificant events when they threaten our sense of control in one way or another: the
+car breaking down just when you have someplace important to go, your children not
+listening to you for the tenth time in as many minutes, long lines at the supermarket
+checkout."
 
-- "As is so often the case, the public hero that others admire can leave quite a trail of private hurt in his wake."
+- "As is so often the case, the public hero that others admire can leave quite a trail of
+private hurt in his wake."
 
-- "life is always in flux, that everything we think is permanent is actually only temporary and constantly changing. This includes our ideas, our opinions, our relationships, our jobs, our possessions, our creations, our bodies, everything."
+- "life is always in flux, that everything we think is permanent is actually only
+temporary and constantly changing. This includes our ideas, our opinions, our
+relationships, our jobs, our possessions, our creations, our bodies, everything."
 
-- "Each person, without exception, has a unique story that gives meaning and coherence to that person's perception of his or her life, illness, and pain, and what he or she believes is possible."
+- "Each person, without exception, has a unique story that gives meaning and coherence to
+that person's perception of his or her life, illness, and pain, and what he or she
+believes is possible."
 
 - "You can observe a lot by just watching."
 
 - "a map is not the territory it portrays. "
 
-- "Much of the time you may get away with being only partially conscious like this. At least it seems that way. But what you are missing is more important than you realize. If you are only partially conscious over a period of years, if you habitually run through your moments without being fully in them, you may miss some of the most precious experiences of your life, such as connecting with the people you love, or with sunsets or the crisp morning air."
+- "Much of the time you may get away with being only partially conscious like this. At
+least it seems that way. But what you are missing is more important than you realize. If
+you are only partially conscious over a period of years, if you habitually run through
+your moments without being fully in them, you may miss some of the most precious
+experiences of your life, such as connecting with the people you love, or with sunsets or
+the crisp morning air."
 
-- "In reality we are being driven by our likes and dislikes, totally unaware of the tyranny of our own thoughts and the self-destructive behaviors they often result in."
+- "In reality we are being driven by our likes and dislikes, totally unaware of the
+tyranny of our own thoughts and the self-destructive behaviors they often result in."
 
 - "The means and the end of meditation are really the same."
 
-- "Patience can be a particularly helpful quality to invoke when the mind is agitated. It can help us to accept this wandering tendency of the mind while reminding us that we don't have to get caught up in its travels. Practicing patience reminds us that we don't have to fill up our moments with activity and with more thinking in order for them to be rich. In fact, it helps us to remember that quite the opposite is true. To be patient is simply to be completely open to each moment, accepting it in its fullness, knowing that, like the butterfly, things can only unfold in their own time."
+- "Patience can be a particularly helpful quality to invoke when the mind is agitated. It
+can help us to accept this wandering tendency of the mind while reminding us that we don't
+have to get caught up in its travels. Practicing patience reminds us that we don't have to
+fill up our moments with activity and with more thinking in order for them to be rich. In
+fact, it helps us to remember that quite the opposite is true. To be patient is simply to
+be completely open to each moment, accepting it in its fullness, knowing that, like the
+butterfly, things can only unfold in their own time."
 
-- "open, "beginner's" mind allows us to be receptive to new possibilities and prevents us from getting stuck in the rut of our own expertise, which often thinks it knows more than it does. No moment is the same as any other. Each is unique and contains unique possibilities. Beginner's mind reminds us of this simple truth."
+- "open, "beginner's" mind allows us to be receptive to new possibilities and prevents us
+from getting stuck in the rut of our own expertise, which often thinks it knows more than
+it does. No moment is the same as any other. Each is unique and contains unique
+possibilities. Beginner's mind reminds us of this simple truth."
 
-- "Perhaps it's time to acknowledge that escaping into the woods as a response to a typical, innocently asked Monday-morning question is not a viable option. Instead, I will have to respond."
+- "Perhaps it's time to acknowledge that escaping into the woods as a response to a
+typical, innocently asked Monday-morning question is not a viable option. Instead, I will
+have to respond."
 
 - "Goodness me, the social faux pas were I to respond honestly!"
 
-- "After all, if they truly wanted me to do something, wouldn't they ask, rather than just hint in such a vague way? The whole thing is so fraught with uncertainty: even if I had spotted the implication, it's likely I'd then spend a frantic few moments second-guessing myself in a panic – 'But what if they don't mean that and I end up looking presumptuous?' – by which time they've probably given up and closed the window themselves."
+- "After all, if they truly wanted me to do something, wouldn't they ask, rather than just
+hint in such a vague way? The whole thing is so fraught with uncertainty: even if I had
+spotted the implication, it's likely I'd then spend a frantic few moments second-guessing
+myself in a panic – 'But what if they don't mean that and I end up looking presumptuous?'
+– by which time they've probably given up and closed the window themselves."
 
-- "By responding with a 'Fine, thanks', I will have lied twice. Once with the 'fine' – my weekend was awful and I'm still feeling terrible about it (hence the huge coffee) – and second with the 'thanks' – I've nothing to be thankful for here: they've just forced me to lie about my feelings when I would rather have said nothing at all."
+- "By responding with a 'Fine, thanks', I will have lied twice. Once with the 'fine' – my
+weekend was awful and I'm still feeling terrible about it (hence the huge coffee) – and
+second with the 'thanks' – I've nothing to be thankful for here: they've just forced me to
+lie about my feelings when I would rather have said nothing at all."
 
-- "It's a process I'm very familiar with, whereby I consider every possible likely outcome that I can imagine, and try to figure out how I'll cope with it should it come to pass, rather like when Doctor Strange visits millions of future timelines searching for the one where the Avengers win the day."
+- "It's a process I'm very familiar with, whereby I consider every possible likely outcome
+that I can imagine, and try to figure out how I'll cope with it should it come to pass,
+rather like when Doctor Strange visits millions of future timelines searching for the one
+where the Avengers win the day."
 
-- "We tend to slide from crisis to crisis when talking to people, and behind it all is a brain whirring over the potential problems, analysing every facet."
+- "We tend to slide from crisis to crisis when talking to people, and behind it all is a
+brain whirring over the potential problems, analysing every facet."
 
-- "The fact is, there's no discernible logic to turn-taking in neurotypical conversation. It just happens, and it happens fairly well, with interactions only occasionally going wrong. If"
+- "The fact is, there's no discernible logic to turn-taking in neurotypical conversation.
+It just happens, and it happens fairly well, with interactions only occasionally going
+wrong. If"
 
-- "The problem is that the earnest zeal with which we approach our favourite things is very rarely matched by the neurotypical listener. I've often pondered whether neurotypical people are even capable of the same intense level of interest in a topic."
+- "The problem is that the earnest zeal with which we approach our favourite things is
+very rarely matched by the neurotypical listener. I've often pondered whether neurotypical
+people are even capable of the same intense level of interest in a topic."
 
-- "We may struggle to identify others' emotions (and our own, truth be told), but I wager most autistic people will eventually notice the boredom on the face of the person we're sharing with – usually because it's paired with them telling us to shut the hell up. This hurts. We love our interests and much of the time see them as one of the only topics worth discussing – I mean, surely it's better than small talk? – and talking about them is so intensely joyful, as well as being cathartic and stress-relieving."
+- "We may struggle to identify others' emotions (and our own, truth be told), but I wager
+most autistic people will eventually notice the boredom on the face of the person we're
+sharing with – usually because it's paired with them telling us to shut the hell up. This
+hurts. We love our interests and much of the time see them as one of the only topics worth
+discussing – I mean, surely it's better than small talk? – and talking about them is so
+intensely joyful, as well as being cathartic and stress-relieving."
 
-- "It always feels to me that the neurotypical world puts arbitrary limits on how passionate one is 'allowed' to be about a subject. Crossing this line is a social faux pas that ranks somewhere around telling inappropriate jokes at a funeral, but it isn't based on anything real or important."
+- "It always feels to me that the neurotypical world puts arbitrary limits on how
+passionate one is 'allowed' to be about a subject. Crossing this line is a social faux pas
+that ranks somewhere around telling inappropriate jokes at a funeral, but it isn't based
+on anything real or important."
 
-- "though autistic people may struggle to understand neurotypical viewpoints, neurotypicals have just as much difficulty understanding us. The difference is that we're hyper-aware of our struggle and go out of our way to compensate for the difference, while you lot (with the greatest respect) don't seem to have a bloody clue."
+- "though autistic people may struggle to understand neurotypical viewpoints,
+neurotypicals have just as much difficulty understanding us. The difference is that we're
+hyper-aware of our struggle and go out of our way to compensate for the difference, while
+you lot (with the greatest respect) don't seem to have a bloody clue."
 
-- "There's something about eye contact in Western society that's peculiar, at least to my autistic eyes. It seems to be held in such high regard for something so fleeting and ambiguous, and the general rule of thumb appears to be that eye contact equals trustworthiness. Far be it from me to question such a bizarre belief (as if liars are incapable of eye contact, and that's their singular weakness …); it's enough to note that there are many good reasons why eye contact may be impossible at any given moment, and that placing such high value upon it might therefore be rather ill-advised."
+- "There's something about eye contact in Western society that's peculiar, at least to my
+autistic eyes. It seems to be held in such high regard for something so fleeting and
+ambiguous, and the general rule of thumb appears to be that eye contact equals
+trustworthiness. Far be it from me to question such a bizarre belief (as if liars are
+incapable of eye contact, and that's their singular weakness …); it's enough to note that
+there are many good reasons why eye contact may be impossible at any given moment, and
+that placing such high value upon it might therefore be rather ill-advised."
 
-- "Masking is something that almost all autistic people will learn to do at some point in their life. It often begins in childhood when we realise that something is apparently 'wrong' with us. We notice that our social skills don't seem to cut it, that we're frequently at a loss to understand what's going on, and that our attempts to make and keep friends are clumsier or less successful than our peers. We learn that the depth of our interests and the way we express that passion is unacceptable to everyone else, and that our sensory sensitivity annoys people who don't seem to ever want to understand it. Frequently, we're mistreated because of all or some of these things; sometimes we're bullied; occasionally even abused. In this apparently life-or-death situation, it becomes clear to us that we're going to have to adapt, and so, usually by ourselves and with very little assistance from anyone else, we learn to mask. We learn to adopt a kind of persona – based on all the things our extremely observant brains have noticed in other people – in order to please those around us so they stop bullying us or causing us harm."
+- "Masking is something that almost all autistic people will learn to do at some point in
+their life. It often begins in childhood when we realise that something is apparently
+'wrong' with us. We notice that our social skills don't seem to cut it, that we're
+frequently at a loss to understand what's going on, and that our attempts to make and keep
+friends are clumsier or less successful than our peers. We learn that the depth of our
+interests and the way we express that passion is unacceptable to everyone else, and that
+our sensory sensitivity annoys people who don't seem to ever want to understand it.
+Frequently, we're mistreated because of all or some of these things; sometimes we're
+bullied; occasionally even abused. In this apparently life-or-death situation, it becomes
+clear to us that we're going to have to adapt, and so, usually by ourselves and with very
+little assistance from anyone else, we learn to mask. We learn to adopt a kind of persona
+– based on all the things our extremely observant brains have noticed in other people – in
+order to please those around us so they stop bullying us or causing us harm."
 
-- "Autistic people frequently report using elements of personalities they observe – a friend, perhaps, or even a favourite fictional character – as building blocks for their mask, almost as if we're constructing them out of LEGO bricks, and I can certainly empathise with this. I would study (still do, though at least now I'm more aware of what I'm doing) personalities with the care of a collector, trying things on like a shopper in the market for a new pair of jeans."
+- "Autistic people frequently report using elements of personalities they observe – a
+friend, perhaps, or even a favourite fictional character – as building blocks for their
+mask, almost as if we're constructing them out of LEGO bricks, and I can certainly
+empathise with this. I would study (still do, though at least now I'm more aware of what
+I'm doing) personalities with the care of a collector, trying things on like a shopper in
+the market for a new pair of jeans."
 
-- "Often – and I did this myself, without being aware of it – we instinctively relax a little on finding out we're autistic. There's a strange catharsis in finding out you're neurodivergent, a kind of epiphany that there's a reason why things are the way they are. As a result, we exhale for the first time in years, lean into our autistic traits a little, let our mask slip and … well, we pay the price almost immediately. We learn very quickly that our unmasked selves are simply not welcome and so we hurriedly fix our masks back on – nail them firm for fear of them dislodging – and realise we'll never be free to be ourselves. I think of all the concepts elaborated in this book,"
+- "Often – and I did this myself, without being aware of it – we instinctively relax a
+little on finding out we're autistic. There's a strange catharsis in finding out you're
+neurodivergent, a kind of epiphany that there's a reason why things are the way they are.
+As a result, we exhale for the first time in years, lean into our autistic traits a
+little, let our mask slip and … well, we pay the price almost immediately. We learn very
+quickly that our unmasked selves are simply not welcome and so we hurriedly fix our masks
+back on – nail them firm for fear of them dislodging – and realise we'll never be free to
+be ourselves. I think of all the concepts elaborated in this book,"
 
-- "(it's amazing how cruel a person can be to themselves when trying to explain behaviour caused by a disability they don't know they have)."
+- "(it's amazing how cruel a person can be to themselves when trying to explain behaviour
+caused by a disability they don't know they have)."
 
 - "Autistic people must be allowed to self-isolate in order to recuperate."
 
 - "Phone calls are like entertainment radio: dead air is a crime."
 
-- "Autistic people regularly report feeling like 'emotional sponges' – upon walking into a room where some kind of conflict has taken place, we'll so frequently immediately take on board all of that negative emotion (some might call it the 'vibe' or 'atmosphere') that it can result in our having to sit down, or even bursting into tears."
+- "Autistic people regularly report feeling like 'emotional sponges' – upon walking into a
+room where some kind of conflict has taken place, we'll so frequently immediately take on
+board all of that negative emotion (some might call it the 'vibe' or 'atmosphere') that it
+can result in our having to sit down, or even bursting into tears."
 
-- "Many autistic people report having what we've collectively labelled 'hyper-empathy' – a kind of extreme set of emotional responses to people and animals in dangerous or upsetting situations. I mentioned my strong response to seeing children in distress earlier, but it's by no means limited to that. Other interesting features of this type of autistic empathy might include extreme empathy (and I mean extreme) towards animals."
+- "Many autistic people report having what we've collectively labelled 'hyper-empathy' – a
+kind of extreme set of emotional responses to people and animals in dangerous or upsetting
+situations. I mentioned my strong response to seeing children in distress earlier, but
+it's by no means limited to that. Other interesting features of this type of autistic
+empathy might include extreme empathy (and I mean extreme) towards animals."
 
-- "For now, the myth of autistic introversion endures, and sociable autistic people continue to be tarred by that brush, from school age all the way up to retirement. Autistic children at school, spending every lunch and breaktime alone hiding in the library or in some undiscovered nook under the stairs, are not seen as sources for concern. 'It's OK,' teachers may reason, 'they're autistic.' As such they fly low and under the radar, their intense loneliness eventually metastasising into something more dangerous – depression."
+- "For now, the myth of autistic introversion endures, and sociable autistic people
+continue to be tarred by that brush, from school age all the way up to retirement.
+Autistic children at school, spending every lunch and breaktime alone hiding in the
+library or in some undiscovered nook under the stairs, are not seen as sources for
+concern. 'It's OK,' teachers may reason, 'they're autistic.' As such they fly low and
+under the radar, their intense loneliness eventually metastasising into something more
+dangerous – depression."
 
 - "we seek to replicate success when we experience it, right down to the minutiae."
 
-- "Everyone has a fairly standard morning routine of course – the classic 'shit, shower, shave' is testament to that, though why anyone would shave after a shower is beyond me. But how many of these people would fear their entire day is going to come crashing down if they accidentally or by necessity swap around the order a little, or, worse, miss something out altogether? If I miss a segment of my morning ritual – for example, the bit where I sit down on the living-room sofa with a coffee and check Twitter groggily – then I'll feel intensely uncomfortable for hours after, a similar feeling to knowing you've left the gas hob on and you're two hours from home, a kind of jumpy, extreme anxiety based on a fear that something truly terrible will ensue from your own foolishness."
+- "Everyone has a fairly standard morning routine of course – the classic 'shit, shower,
+shave' is testament to that, though why anyone would shave after a shower is beyond me.
+But how many of these people would fear their entire day is going to come crashing down if
+they accidentally or by necessity swap around the order a little, or, worse, miss
+something out altogether? If I miss a segment of my morning ritual – for example, the bit
+where I sit down on the living-room sofa with a coffee and check Twitter groggily – then
+I'll feel intensely uncomfortable for hours after, a similar feeling to knowing you've
+left the gas hob on and you're two hours from home, a kind of jumpy, extreme anxiety based
+on a fear that something truly terrible will ensue from your own foolishness."
 
-- "It takes enormous amounts of time and energy to switch focus as an autistic person. I've likened it in the past to turning circles for vehicles. Neurotypicals are able to switch tasks as easily as a car can make a U-turn. Autistic people, on the other hand, seem to make U-turns at the same pace as an ocean liner, requiring huge amounts of patience."
+- "It takes enormous amounts of time and energy to switch focus as an autistic person.
+I've likened it in the past to turning circles for vehicles. Neurotypicals are able to
+switch tasks as easily as a car can make a U-turn. Autistic people, on the other hand,
+seem to make U-turns at the same pace as an ocean liner, requiring huge amounts of
+patience."
 
-- "An autistic person will have their issues around changing tasks and changing focus, but will eventually manage these on their own terms (with care and a peaceful setting, ideally). Interrupt that slow, gentle process with an external question, demand or event (a partner asking for something, a phone ringing, a knock at the door), however, and all hell breaks loose internally. That slow process, the cruise liner turning about – as painstaking as carefully untangling Christmas lights in early December – is suddenly broken. Our hyperfocus is disturbed and our mood follows a predictable path. The result is likely to be anger, irritation, despair or actual pain; the social relationship with the person making the demand is tarnished and possibly broken, and the cycle continues towards desperately trying to avoid that situation ever, ever happening again. PDA as we know it is born."
+- "An autistic person will have their issues around changing tasks and changing focus, but
+will eventually manage these on their own terms (with care and a peaceful setting,
+ideally). Interrupt that slow, gentle process with an external question, demand or event
+(a partner asking for something, a phone ringing, a knock at the door), however, and all
+hell breaks loose internally. That slow process, the cruise liner turning about – as
+painstaking as carefully untangling Christmas lights in early December – is suddenly
+broken. Our hyperfocus is disturbed and our mood follows a predictable path. The result is
+likely to be anger, irritation, despair or actual pain; the social relationship with the
+person making the demand is tarnished and possibly broken, and the cycle continues towards
+desperately trying to avoid that situation ever, ever happening again. PDA as we know it
+is born."
 
-- "I suppose this is a big part of the problem: we autistic people find little workarounds, tricks and bespoke solutions to our personal difficulties. Yet these are often ever-so-slightly odd, meaning that when neurotypical people spot us in the act they may assume that we're up to no good, in that peculiarly pessimistic way that they have."
+- "I suppose this is a big part of the problem: we autistic people find little
+workarounds, tricks and bespoke solutions to our personal difficulties. Yet these are
+often ever-so-slightly odd, meaning that when neurotypical people spot us in the act they
+may assume that we're up to no good, in that peculiarly pessimistic way that they have."
 
-- "Beyond the need for a place to hide and recuperate, special interests enable us to focus our brains in a strangely pleasurable way. When the constant demand of looking at the 'big picture' in life gets too much and too boring, the ability to tweak our brain's lens to precisely focus our laser-like attention on something specific is a wonderful feeling, rather like it's allowing our brain to do what's natural for it, rather than expecting it to cope with the wide view, which can feel so … false."
+- "Beyond the need for a place to hide and recuperate, special interests enable us to
+focus our brains in a strangely pleasurable way. When the constant demand of looking at
+the 'big picture' in life gets too much and too boring, the ability to tweak our brain's
+lens to precisely focus our laser-like attention on something specific is a wonderful
+feeling, rather like it's allowing our brain to do what's natural for it, rather than
+expecting it to cope with the wide view, which can feel so … false."
 
-- "We approach the world like laser beams, I suppose, rather than wider car headlights or floodlights, with everything within the narrow focus of our attention drilled down into its very depths. And this"
+- "We approach the world like laser beams, I suppose, rather than wider car headlights or
+floodlights, with everything within the narrow focus of our attention drilled down into
+its very depths. And this"
 
-- "Autism is called an 'invisible disability', and sometimes I think that term might be more literal than we realise."
+- "Autism is called an 'invisible disability', and sometimes I think that term might be
+more literal than we realise."
 
-- "Because of how poorly the school was accommodating my particular neurodivergence, I was forced to rebel and lie and dissemble, despite the fact that doing so went against every law-abiding, if clumsy, bone in my body. Why couldn't they allow me to play sports that weren't team games – like badminton or tennis – or ones that were more ordered and structured, like athletics? Why was it always football and rugby, for goodness's sake?"
+- "Because of how poorly the school was accommodating my particular neurodivergence, I was
+forced to rebel and lie and dissemble, despite the fact that doing so went against every
+law-abiding, if clumsy, bone in my body. Why couldn't they allow me to play sports that
+weren't team games – like badminton or tennis – or ones that were more ordered and
+structured, like athletics? Why was it always football and rugby, for goodness's sake?"
 
-- "No one ever asked me if I really wanted to do it; but then, I didn't ask myself either."
+- "No one ever asked me if I really wanted to do it; but then, I didn't ask myself
+either."
 
-- "Authority and hierarchy are social constructs and, as I've been at pains to point out, autistic people have our own, different, culture that doesn't seem to include it."
+- "Authority and hierarchy are social constructs and, as I've been at pains to point out,
+autistic people have our own, different, culture that doesn't seem to include it."
 
-- "And so, like an archaeologist drawing conclusions about the past from the evidence of the present day, I can say with some certainty that I must have realised that I had to hide my stims at some point. Why else would they be so subtle, so 'inoffensive'?"
+- "And so, like an archaeologist drawing conclusions about the past from the evidence of
+the present day, I can say with some certainty that I must have realised that I had to
+hide my stims at some point. Why else would they be so subtle, so 'inoffensive'?"
 
-- "Autistic people often seem to have a very deep and strong sense of what's right, what's reasonable and what's fair. This is not to say that we're unerring moral arbiters; after all, our sense of what's fair may be affected by any number of factors, such as privilege, experience, upbringing and so on, and therefore not match others' opinions and values. Nevertheless, the strength of feeling and conviction is likely to be a feature for many autistic people."
+- "Autistic people often seem to have a very deep and strong sense of what's right, what's
+reasonable and what's fair. This is not to say that we're unerring moral arbiters; after
+all, our sense of what's fair may be affected by any number of factors, such as privilege,
+experience, upbringing and so on, and therefore not match others' opinions and values.
+Nevertheless, the strength of feeling and conviction is likely to be a feature for many
+autistic people."
 
-- "In my experience, autistic people are good pattern spotters and often excellent at working out the rules of any given situation. This is what makes us so good at masking, after all. We figure out the rules, and then we play the game. The problem is that figuring out the rules doesn't prepare you for how to handle those who decide to cheat."
+- "In my experience, autistic people are good pattern spotters and often excellent at
+working out the rules of any given situation. This is what makes us so good at masking,
+after all. We figure out the rules, and then we play the game. The problem is that
+figuring out the rules doesn't prepare you for how to handle those who decide to cheat."
 
-- "I find that when my stress levels reach a particular point, my voice begins to falter as a tool, becoming less reliable and less focused, and I begin to lose my vocabulary and grammar. The spoken word is by no means guaranteed in the autistic community, and we don't deserve to be overlooked as a result of this."
+- "I find that when my stress levels reach a particular point, my voice begins to falter
+as a tool, becoming less reliable and less focused, and I begin to lose my vocabulary and
+grammar. The spoken word is by no means guaranteed in the autistic community, and we don't
+deserve to be overlooked as a result of this."
 
-- "When the ears of the student are ready to hear, then cometh the lips to fill them with wisdom."
+- "When the ears of the student are ready to hear, then cometh the lips to fill them with
+wisdom."
 
 - "The lips of Wisdom are closed, except to the ears of Understanding."
 
-- "Everything is Dual; everything has poles; everything has its pair of opposites; like and unlike are the same; opposites are identical in nature, but different in degree; extremes meet; all truths are but half-truths; all paradoxes may be reconciled."
+- "Everything is Dual; everything has poles; everything has its pair of opposites; like
+and unlike are the same; opposites are identical in nature, but different in degree;
+extremes meet; all truths are but half-truths; all paradoxes may be reconciled."
 
-- "Everything flows, out and in; everything has its tides; all things rise and fall; the pendulum-swing manifests in everything; the measure of the swing to the right is the measure of the swing to the left; rhythm compensates"
+- "Everything flows, out and in; everything has its tides; all things rise and fall; the
+pendulum-swing manifests in everything; the measure of the swing to the right is the
+measure of the swing to the left; rhythm compensates"
 
 - "To the pure, all things are pure; to the base, all things are base."
 
 - "Nothing endures but Change."
 
-- "And still more presumptuous are those who attempt to ascribe to THE ALL the personality, qualities, properties, characteristics and attributes of themselves, ascribing to THE ALL the human emotions, feelings, and characteristics, even down to the pettiest qualities of mankind, such as jealousy, susceptibility to flattery and praise, desire for offerings and worship, and all the other survivals from the days of the childhood of the race. Such ideas are not worthy of grown men and women, and are rapidly being discarded."
+- "And still more presumptuous are those who attempt to ascribe to THE ALL the
+personality, qualities, properties, characteristics and attributes of themselves,
+ascribing to THE ALL the human emotions, feelings, and characteristics, even down to the
+pettiest qualities of mankind, such as jealousy, susceptibility to flattery and praise,
+desire for offerings and worship, and all the other survivals from the days of the
+childhood of the race. Such ideas are not worthy of grown men and women, and are rapidly
+being discarded."
 
-- "Nothing can rise higher than its source—nothing is evolved unless it is involved—nothing manifests in the effect, unless it is in the cause."
+- "Nothing can rise higher than its source—nothing is evolved unless it is
+involved—nothing manifests in the effect, unless it is in the cause."
 
-- "But do not yield to the temptation which, as The Kybalion states, overcomes the half-wise and which causes them to be hypnotized by the apparent unreality of things, the consequence being that they wander about like dream-people dwelling in a world of dreams, ignoring the practical work and life of man, the end being that "they are broken against the rocks and torn asunder by the elements, by reason of their folly."
+- "But do not yield to the temptation which, as The Kybalion states, overcomes the
+half-wise and which causes them to be hypnotized by the apparent unreality of things, the
+consequence being that they wander about like dream-people dwelling in a world of dreams,
+ignoring the practical work and life of man, the end being that "they are broken against
+the rocks and torn asunder by the elements, by reason of their folly."
 
 - "Transmutation, not presumptuous denial, is the weapon of the Master."
 
-- "And, in the degree that Man realizes the existence of the Indwelling Spirit immanent within his being, so will he rise in the spiritual scale of life. This is what spiritual development means—the recognition, realization, and manifestation of the Spirit within us."
+- "And, in the degree that Man realizes the existence of the Indwelling Spirit immanent
+within his being, so will he rise in the spiritual scale of life. This is what spiritual
+development means—the recognition, realization, and manifestation of the Spirit within
+us."
 
-- "I must create a system or be enslaved by another man's; I will not reason and compare: my business is to create."
+- "I must create a system or be enslaved by another man's; I will not reason and compare:
+my business is to create."
 
 - "Disney had reinterpreted Christianity for mass culture."
 
-- "In numerous ways Disney struck what may be the very fundament of entertainment: the promise of a perfect world that conforms to our wishes."
+- "In numerous ways Disney struck what may be the very fundament of entertainment: the
+promise of a perfect world that conforms to our wishes."
 
-- "In an idealized world where wish fulfillment prevailed, Disney had consistently concretized the ideal and provided the pleasure of things made simple and pure the way one imagined they should be, or at least the way one imagined they should be from childhood."
+- "In an idealized world where wish fulfillment prevailed, Disney had consistently
+concretized the ideal and provided the pleasure of things made simple and pure the way one
+imagined they should be, or at least the way one imagined they should be from childhood."
 
-- "Whether in his movies or in his theme parks, Disney always promised a fantasy in which one could exercise the privileges of childhood—privileges he never abandoned in his own life. This will to power also explained why animation was his preferred medium. In animation one took the inanimate and brought it to life, or the illusion of life. In animation one could exercise the power of a god."
+- "Whether in his movies or in his theme parks, Disney always promised a fantasy in which
+one could exercise the privileges of childhood—privileges he never abandoned in his own
+life. This will to power also explained why animation was his preferred medium. In
+animation one took the inanimate and brought it to life, or the illusion of life. In
+animation one could exercise the power of a god."
 
-- "Disney's best animations—Snow White and the Seven Dwarfs, Pinocchio, Bambi, and Dumbo—were archetypal expressions of this idea. In large measure, they were about the process of a child making his or her claim upon the world, about the process of overcoming obstacles to become whatever he or she wanted to be."
+- "Disney's best animations—Snow White and the Seven Dwarfs, Pinocchio, Bambi, and
+Dumbo—were archetypal expressions of this idea. In large measure, they were about the
+process of a child making his or her claim upon the world, about the process of overcoming
+obstacles to become whatever he or she wanted to be."
 
-- "'In this life you only have a set number of chances. If you grab them when they appear, you'll succeed. If you don't, you'll be doomed to a life of mediocrity.'"
+- "Isn't it enough to see that a garden is beautiful without having to believe that there
+are fairies at the bottom of it too?"
 
-- "Isn't it enough to see that a garden is beautiful without having to believe that there are fairies at the bottom of it too?"
+- "I mean, what's the use of our sitting up half the night arguing that there may or may
+not be a God if this machine only goes and gives you his bleeding phone number the next
+morning?"
 
-- "I mean, what's the use of our sitting up half the night arguing that there may or may not be a God if this machine only goes and gives you his bleeding phone number the next morning?"
+- "Perhaps I'm old and tired," he continued, "but I always think that the chances of
+finding out what really is going on are so absurdly remote that the only thing to do is to
+say hang the sense of it and just keep yourself occupied. Look at me: I design coastlines.
+I got an award for Norway."
 
-- "Perhaps I'm old and tired," he continued, "but I always think that the chances of finding out what really is going on are so absurdly remote that the only thing to do is to say hang the sense of it and just keep yourself occupied. Look at me: I design coastlines. I got an award for Norway."
+- "The History of every major Galactic Civilization tends to pass through three distinct
+and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as
+the How, Why and Where phases. "For instance, the first phase is characterized by the
+question How can we eat? the second by the question Why do we eat? and the third by the
+question Where shall we have lunch?"
 
-- "The History of every major Galactic Civilization tends to pass through three distinct and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as the How, Why and Where phases. "For instance, the first phase is characterized by the question How can we eat? the second by the question Why do we eat? and the third by the question Where shall we have lunch?"
+- "if life is going to exist in a Universe of this size, then the one thing it cannot
+afford to have is a sense of proportion."
 
-- "if life is going to exist in a Universe of this size, then the one thing it cannot afford to have is a sense of proportion."
+- "The trouble with most forms of transport, he thought, is basically that not one of them
+is worth all the bother."
 
-- "The trouble with most forms of transport, he thought, is basically that not one of them is worth all the bother."
+- "Life was, in short, ridiculously easy and for a while at least they were able to cope
+with the problems of aimlessness and isolation by deciding to ignore them. When the
+craving for company became too great they would know where to find it, but for the moment
+they were happy to feel that the Golgafrinchans were hundreds of miles behind them."
 
-- "Life was, in short, ridiculously easy and for a while at least they were able to cope with the problems of aimlessness and isolation by deciding to ignore them. When the craving for company became too great they would know where to find it, but for the moment they were happy to feel that the Golgafrinchans were hundreds of miles behind them."
-
-- "History is never altered you see, it just fits together like a jigsaw. Funny old thing, life, isn't it?"
+- "History is never altered you see, it just fits together like a jigsaw. Funny old thing,
+life, isn't it?"
 
 
 - "Sometimes, all it takes is taking a leap of faith and enjoying the adventure."
 
-- "Elden Ring's story will still have its special place in my heart. The whole story about this world is a story of gods, greater beings so above the little mortals they pretend to protect, but the end if the game is precisely about the opposite, those small beings each having their own wishes and desires, and deciding what the world should be instead of those eldritch entities. You can rule by yourself an imperfect world, after the greater will is forced to renounce his control over life or death to keep itself here. A scorned woman can choose her own god of undeath, to change the place of the tarnished as oppressed to rulers. The mad prisoner can take his revenge upon the world, by cursing all things so the greater being lose all control over the souls of this land. A silent prophet, with no name for himself, can repare the golden order by himself at the cost of his life, when a goddess like Marika was never capable of it. You and Ranni, the demigoddess spurning the control of the greater will, can together take the gods out of this land to travel far away, and let the Lands Between decide its own fate. Or you can make true the wish of the burning eyed believers, and scorch the whole world to return to the origin of life itself, the ultimate price to shatter the greater will invasion."
+- "Elden Ring's story will still have its special place in my heart. The whole story about
+this world is a story of gods, greater beings so above the little mortals they pretend to
+protect, but the end if the game is precisely about the opposite, those small beings each
+having their own wishes and desires, and deciding what the world should be instead of
+those eldritch entities. You can rule by yourself an imperfect world, after the greater
+will is forced to renounce his control over life or death to keep itself here. A scorned
+woman can choose her own god of undeath, to change the place of the tarnished as oppressed
+to rulers. The mad prisoner can take his revenge upon the world, by cursing all things so
+the greater being lose all control over the souls of this land. A silent prophet, with no
+name for himself, can repare the golden order by himself at the cost of his life, when a
+goddess like Marika was never capable of it. You and Ranni, the demigoddess spurning the
+control of the greater will, can together take the gods out of this land to travel far
+away, and let the Lands Between decide its own fate. Or you can make true the wish of the
+burning eyed believers, and scorch the whole world to return to the origin of life itself,
+the ultimate price to shatter the greater will invasion."
 
-- "The game make you think it's a story about gods, Marika's bloodline, heroes of forgotten time, but it's in fact a story of how those small nobodies spurned by grace that are the Tarnished will have the last words, at the end of a long journey."
+- "The game make you think it's a story about gods, Marika's bloodline, heroes of
+forgotten time, but it's in fact a story of how those small nobodies spurned by grace that
+are the Tarnished will have the last words, at the end of a long journey."
 
-- "Not putting your heart and mind into sword practice makes one merely a slave of the sword"
+- "Not putting your heart and mind into sword practice makes one merely a slave of the
+sword"
 
-- "King Calm Sea once told me"—Fairy Meng looked at Meng Chuan and continued—"that cultivation requires one to follow one's intuition and follow what one likes the most before forging forward. You will go further and further. When you look back after a few decades, you would've far surpassed your former self. I'll share this saying with you as well. Follow your heart and proceed down what you like the most."
+- "King Calm Sea once told me"—Fairy Meng looked at Meng Chuan and continued—"that
+cultivation requires one to follow one's intuition and follow what one likes the most
+before forging forward. You will go further and further. When you look back after a few
+decades, you would've far surpassed your former self. I'll share this saying with you as
+well. Follow your heart and proceed down what you like the most."
 
-- "Qi will only move when the mind moves. If the mind does not move, then Qi will also remain still!"
+- "Okay, stop getting downcast. If you can't figure things out at the moment, stop mulling
+over it and think about it again when your head is clearer. Like the old people say, even
+if the sky collapses, there's nothing to be afraid of. If worst comes to worst, may it
+be."
 
-- "Okay, stop getting downcast. If you can't figure things out at the moment, stop mulling over it and think about it again when your head is clearer. Like the old people say, even if the sky collapses, there's nothing to be afraid of. If worst comes to worst, may it be."
+- "To elevate yourself as a sheepdog amongst a herd of sheeps, you have to understand the
+rules set by the shepherd. Only if you can understand the rules, can you become a
+shepherd. If you can't do either, then your only fate is to toil all your life in a sheep
+pen. If the shepherd is cold, your wool will be shaved for him. This is called
+selflessness. If the shepherd is hungry, you shall lay on the butcher block and scream
+your devotion for his cause"
 
-- "To elevate yourself as a sheepdog amongst a herd of sheeps, you have to understand the rules set by the shepherd. Only if you can understand the rules, can you become a shepherd. If you can't do either, then your only fate is to toil all your life in a sheep pen. If the shepherd is cold, your wool will be shaved for him. This is called selflessness. If the shepherd is hungry, you shall lay on the butcher block and scream your devotion for his cause"
-
-- "Three millennia of recorded history, fraught with power, lust, and greed. Ninety thousand miles of meditation, only to return to gardening, wine and poetry"
+- "Three millennia of recorded history, fraught with power, lust, and greed. Ninety
+thousand miles of meditation, only to return to gardening, wine and poetry"
 
 - "A man does not mature into pragmatism; he simply accepts reality more readily. "
 
-- "If love lives on sharing and chains you like fetters
-Then hate, more than anything, depends on freedom."
-Love and hate coiling and twisting together. Tell me, what can I do to save you?
-If love is spilt milk, Then who can protect whom?
-For whom will my heart wait? Tell me, what can I do to save you? 
-If passion is a fatal poison,
-Then who can protect whom? How can I make this love immortal?"
+- "If love lives on sharing and chains you like fetters Then hate, more than anything,
+depends on freedom." Love and hate coiling and twisting together. Tell me, what can I do
+to save you? If love is spilt milk, Then who can protect whom? For whom will my heart
+wait? Tell me, what can I do to save you? If passion is a fatal poison, Then who can
+protect whom? How can I make this love immortal?"
 
-- "The maturity of a man ought not to come from his own pragmatism, but rather from his ability to accept this trait shown in others. To become gentle, gentle toward others, to let go of grudges and to look at the world with a pair of sympathetic eyes and a compassionate heart. It was not about how many epigrams one could spew out to indicate that they had reached a higher level of wisdom, or about one's ability to convince others with impressive speech, but rather about the habit of blaming others less and understanding them more. The true sign of maturity was tolerance and the absence of animosity... Those from the top did not compete, whereas those at the bottom fought for every inch. A man of virtue does not show it, whereas those purporting it will flaunt constantly."
+- "The maturity of a man ought not to come from his own pragmatism, but rather from his
+ability to accept this trait shown in others. To become gentle, gentle toward others, to
+let go of grudges and to look at the world with a pair of sympathetic eyes and a
+compassionate heart. It was not about how many epigrams one could spew out to indicate
+that they had reached a higher level of wisdom, or about one's ability to convince others
+with impressive speech, but rather about the habit of blaming others less and
+understanding them more. The true sign of maturity was tolerance and the absence of
+animosity... Those from the top did not compete, whereas those at the bottom fought for
+every inch. A man of virtue does not show it, whereas those purporting it will flaunt
+constantly."
 
-- "the freight of friendship sails for the distance, and the solidarity between brothers outlives heaven and earth..."
+- "the freight of friendship sails for the distance, and the solidarity between brothers
+outlives heaven and earth..."
 
-- "He had learnt that the most important trait of maturity was to be able to joke about everyone, including himself."
+- "He had learnt that the most important trait of maturity was to be able to joke about
+everyone, including himself."
 
-- "Being a guardian is all about protecting the way, seeing the way and focusing on it. If Heaven's Laws shows you the way, then what is there to doubt, even when facing death? Good luck"
+- "Being a guardian is all about protecting the way, seeing the way and focusing on it. If
+Heaven's Laws shows you the way, then what is there to doubt, even when facing death? Good
+luck"
 
-- "When it comes to helping others, it is the thought that matters. Kindness, no matter how insignificant it can seem at the moment, can often steer one's life into another, and usually better direction."
+- "When it comes to helping others, it is the thought that matters. Kindness, no matter
+how insignificant it can seem at the moment, can often steer one's life into another, and
+usually better direction."
 
-- "Though bones and minds were chained
-You cut down the thorns again and again
-Your pride will not be slain
-From the heart to the veins"
+- "Though bones and minds were chained You cut down the thorns again and again Your pride
+will not be slain From the heart to the veins"
 
-- "Our journey begins anew. Life passes like a fleeting rain, eventually merging with the ground. May our next encounter be... under a clear sky."
+- "Our journey begins anew. Life passes like a fleeting rain, eventually merging with the
+ground. May our next encounter be... under a clear sky."
 
-- "Our existence is fleeting as dawn's dew, destined for oblivion. On the still waters of oblivion, I guide the wandering souls. "
+- "Our existence is fleeting as dawn's dew, destined for oblivion. On the still waters of
+oblivion, I guide the wandering souls. "
 
-- "I weep for the departed... Stream forth...
-The gleam of old blades
-Restore this lost memory...
-Apply, your color."
+- "I weep for the departed... Stream forth... The gleam of old blades Restore this lost
+memory... Apply, your color."
 
-- "Everyone has a past. But for some, their past is a silent abyss filled with those who drowned in it"
+- "Everyone has a past. But for some, their past is a silent abyss filled with those who
+drowned in it"
 
-- "Do not go searching for what doesn't want to be found. For in order to not be found, what doesn't want to be seen will go through extreme measures to make sure that all who go searching... will wind up not being found."
+- "Do not go searching for what doesn't want to be found. For in order to not be found,
+what doesn't want to be seen will go through extreme measures to make sure that all who go
+searching... will wind up not being found."
 
-- “The sun sets above the blue mountain, the autumn moon with the wind of spring. The morning is fine like hair and night is like snow, whether you succeed or fail when you look back there’s nothing left.”
+- "The sun sets above the blue mountain, the autumn moon with the wind of spring. The
+morning is fine like hair and night is like snow, whether you succeed or fail when you
+look back there’s nothing left."
 
-- "Painting is just that. Taking what looks shit, look less shit until it suddenly starts to look good."
+- "Painting is just that. Taking what looks shit, look less shit until it suddenly starts
+to look good."
 
-- "Only when a person had seen more and experienced the true world could he be said to have truly grown.
+- "Only when a person had seen more and experienced the true world could he be said to
+have truly grown.
 
-- "He remembered that the elder had once told him to think whenever he encountered any problems. If he did not understand a particular problem, then he could choose to place himself in the other person’s shoes and think in that person’s position to attempt finding a new line of thought.
+- "He remembered that the elder had once told him to think whenever he encountered any
+problems. If he did not understand a particular problem, then he could choose to place
+himself in the other person’s shoes and think in that person’s position to attempt finding
+a new line of thought.
 
-- "Separation, Beginning, and Nurture. Beginning is known as the evil of disaster. Its pattern is different from the patterns that make up a person. This event itself is a disaster and has grown into a major catastrophe. Cutting down this catastrophe should originally be a good thing, but in this chaotic set up, once I cut down the evil of disaster, it’ll cause a chain reaction, and it won’t be a blessing but a calamity!’
+- "Separation, Beginning, and Nurture. Beginning is known as the evil of disaster. Its
+pattern is different from the patterns that make up a person. This event itself is a
+disaster and has grown into a major catastrophe. Cutting down this catastrophe should
+originally be a good thing, but in this chaotic set up, once I cut down the evil of
+disaster, it’ll cause a chain reaction, and it won’t be a blessing but a calamity!’
 
-- "You should enjoy the little detours to the fullest. Because that's where you'll find the things more important than what you want."
+- "You should enjoy the little detours to the fullest. Because that's where you'll find
+the things more important than what you want."
 
-- "A true peerless master will not care whether a sect is strong or weak. The apex does not care whether one comes from peasantry or royalty!"
+- "A true peerless master will not care whether a sect is strong or weak. The apex does
+not care whether one comes from peasantry or royalty!"
 
-- "A fight to the death, it is not just being scrupulous as the earth, but it is also as courageous as the heaven. When meeting your enemy face-to-face in a narrow path, the braver one will win! Your heart is bright like a mirror, able to see clearly the downy feathers in the autumns; however, you are lacking the will to fight a bloody battle to the end – lacking the courage and enlightenment to fight a battle to the death!"
+- "A fight to the death, it is not just being scrupulous as the earth, but it is also as
+courageous as the heaven. When meeting your enemy face-to-face in a narrow path, the
+braver one will win! Your heart is bright like a mirror, able to see clearly the downy
+feathers in the autumns; however, you are lacking the will to fight a bloody battle to the
+end – lacking the courage and enlightenment to fight a battle to the death!"
 
-- "Everyone is just trying to co-exist in this world. If one can’t see others while looking down, one just needs to look up. Everyone should take a step back and notice the high sky and vast ocean. Why the need to talk about killing each other?"
+- "Everyone is just trying to co-exist in this world. If one can’t see others while
+looking down, one just needs to look up. Everyone should take a step back and notice the
+high sky and vast ocean. Why the need to talk about killing each other?"
 
-- "The path of cultivation is endless; as long as one stuck to it, this would already be correct. However, in the end, without a little interest, a little personal hobby, wouldn’t it all be meaningless?"
+- "The path of cultivation is endless; as long as one stuck to it, this would already be
+correct. However, in the end, without a little interest, a little personal hobby, wouldn’t
+it all be meaningless?"
 
 - "Fallen leaves returning to their root; this is but an impossible wish for me."
 
-- "Time is endless; there will be a day when even the ocean dries up and the mountains erode, a time where even the blue seas turn into mulberry fields. Why the need to suffer like this!?"
+- "Time is endless; there will be a day when even the ocean dries up and the mountains
+erode, a time where even the blue seas turn into mulberry fields. Why the need to suffer
+like this!?"
 
-- "There is a harsh saying: people who live in peaceful times will not have the fierceness to compete against the heavens for a bowl of rice. 
+- "There is a harsh saying: people who live in peaceful times will not have the fierceness
+to compete against the heavens for a bowl of rice.
 
-- "Millions of miles along with the endless vicissitudes of life... There are some things that will not change."
+- "Millions of miles along with the endless vicissitudes of life... There are some things
+that will not change."
 
-- "The path of the grand dao is solitary." Li Qiye sighed softly and said: "The 3,000 dao are very long, so as one walks on a path, many things will slowly disappear. Even those who could walk with you towards the apex will eventually leave one day. Walking on the path of the grand dao alone might not necessarily be a bad thing since the day will be inevitable. This way, they can at least enter this endless primordial chaos without any hesitation."
+- "The path of the grand dao is solitary." Li Qiye sighed softly and said: "The 3,000 dao
+are very long, so as one walks on a path, many things will slowly disappear. Even those
+who could walk with you towards the apex will eventually leave one day. Walking on the
+path of the grand dao alone might not necessarily be a bad thing since the day will be
+inevitable. This way, they can at least enter this endless primordial chaos without any
+hesitation."
 
-- "The cultivation world was where the strong ruled. If he couldn’t even protect himself and his family, then what right did he have to show compassion?
+- "The cultivation world was where the strong ruled. If he couldn’t even protect himself
+and his family, then what right did he have to show compassion?
 
-- "It’s just that in this world, there were too many unexpected matters, like under special circumstances an ant could kill an elephant, and while straws are light, they could still crush a camel. Some things in this world just don’t have a proper explanation.
+- "It’s just that in this world, there were too many unexpected matters, like under
+special circumstances an ant could kill an elephant, and while straws are light, they
+could still crush a camel. Some things in this world just don’t have a proper explanation.
 
-- "Life is like a bowl of water. In its blandness, there’s a barely noticeable sweetness
+- "All of the glorious moments of the past had become distant memories…
 
-- "All of the glorious moments of the past had become distant memories… 
+- "Memories are like water in your palm; it doesn’t matter whether you have your hand open
+or if it’s holding it tightly, it will still leak drop by drop until it’s all gone.
+However, the coolness of the water is unforgettable.
 
-- "The rainy night is beautiful in its mood and endlessness. The plants silently absorb the water and the scent of death on them quietly disappears. This is the beauty of the rain and the taste of life."
+- "Love is like a river; the left shore is the joyous laughter that can brighten up 1000
+years of sadness and the right shore is an eternal silence lingering under the
+candlelight. What flows between them is years of fading loneliness.
 
-- "What is death… death is to die. If a person dies, then it is death, and if the heart dies, then it forgets… that is death."
-
-- "The water falling in this puddle today is life. Tomorrow, when there is no water falling, then this puddle is death. Dead water is water without life and flow." 
-
-- "Memories are like water in your palm; it doesn’t matter whether you have your hand open or if it’s holding it tightly, it will still leak drop by drop until it’s all gone. However, the coolness of the water is unforgettable. 
-
-- "Love is like a river; the left shore is the joyous laughter that can brighten up 1000 years of sadness and the right shore is an eternal silence lingering under the candlelight. What flows between them is years of fading loneliness. 
-
-- "Nostalgia isn’t scary; what is scary is when one is completely lost in his nostalgia and is unable to bring himself out of it.
+- "Nostalgia isn’t scary; what is scary is when one is completely lost in his nostalgia
+and is unable to bring himself out of it.
 
 - "Cultivators walk against the heavens and are destined to be forever lonely…
 
-- "Lonely people always remember every single person that appeared in their life. 
+- "Lonely people always remember every single person that appeared in their life.
 
-- "A person will always have one thing where no matter how clever he is, his calm will immediately collapse. Even when facing endless danger, facing life and death, he will still have to keep on persisting! 
+- "A person will always have one thing where no matter how clever he is, his calm will
+immediately collapse. Even when facing endless danger, facing life and death, he will
+still have to keep on persisting!
 
-- "If you have any problems with your cultivation, you can come and ask me. Remember one thing: having no talent isn’t terrifying, what is terrifying is laziness. Us cultivators walk against the heavens. We can’t relax our hearts and our bodies. If we do, how will we be able to walk against the heavens to cultivate? Go inside, hurry up and cultivate." 
+- "If you have any problems with your cultivation, you can come and ask me. Remember one
+thing: having no talent isn’t terrifying, what is terrifying is laziness. Us cultivators
+walk against the heavens. We can’t relax our hearts and our bodies. If we do, how will we
+be able to walk against the heavens to cultivate? Go inside, hurry up and cultivate."
 
-- "Karma is a path after the life and death domain. It can be said that karma is the root of life and death; it is because there is a karmatic cause of life that there is a karmatic effect of life."
+- "Karma is a path after the life and death domain. It can be said that karma is the root
+of life and death; it is because there is a karmatic cause of life that there is a
+karmatic effect of life."
 
-- "It was like a person’s lifespan. Although filled with reluctance and unwillingness to leave when the cold, snowy wind comes, they couldn’t help but be taken by the breeze. 
+- "It was like a person’s lifespan. Although filled with reluctance and unwillingness to
+leave when the cold, snowy wind comes, they couldn’t help but be taken by the breeze.
 
-- "The dust was just like heaven-defying cultivators that desired to reach the heavens but were put down by the rain. Just like cultivators, how many specks of dust could actually ascend to the heavens…
+- "The dust was just like heaven-defying cultivators that desired to reach the heavens but
+were put down by the rain. Just like cultivators, how many specks of dust could actually
+ascend to the heavens…
 
-- "Falling leaves will all eventually return to the roots of the tree. They were like children who would leave when tired but would always return to their love ones. 
+- "Falling leaves will all eventually return to the roots of the tree. They were like
+children who would leave when tired but would always return to their love ones.
 
 - " Those who seek dao understand in the morning and are dead by dusk, regrettable…
 
-- "However, after 1,000 years of cultivation, there is no way I would take people’s words at face value. Just like black and white, if one looks at them separately, they are very distinct, but if you mix them, then grey appears!
+- "However, after 1,000 years of cultivation, there is no way I would take people’s words
+at face value. Just like black and white, if one looks at them separately, they are very
+distinct, but if you mix them, then grey appears!
 
-- "After life and death was karma. After Wang Lin’s domain went through a metamorphosis, he was like a head scholar among mortals. He no longer cared about life and death, but pursued the true meaning of the world.
+- "After life and death was karma. After Wang Lin’s domain went through a metamorphosis,
+he was like a head scholar among mortals. He no longer cared about life and death, but
+pursued the true meaning of the world.
 
-- "There was an old saying: cultivators walk through the heavens and adapt the heavens as their own heart. Only then can they hold both heaven and earth and understand what dao is! Although this sounds complicated, it has its own reason.
+- "There was an old saying: cultivators walk through the heavens and adapt the heavens as
+their own heart. Only then can they hold both heaven and earth and understand what dao is!
+Although this sounds complicated, it has its own reason.
 
-- "Seeking dao… In truth, it is bringing the dao into your heart, this is dao-seeking. The so-called comprehension and domain are the same. You keep a comprehension in your heart and slowly experience it until it merges with your dao. Eventually, it will become a domain, an ideal."
+- "Seeking dao… In truth, it is bringing the dao into your heart, this is dao-seeking. The
+so-called comprehension and domain are the same. You keep a comprehension in your heart
+and slowly experience it until it merges with your dao. Eventually, it will become a
+domain, an ideal."
 
-- "The sundered night born from the sea, time flows like memories… It isn’t that there is no eternity, but that a moment of eternity will intoxicate you. It will make your heart shatter. It will make you unwilling to awaken so you can continue pursuing it with a smile forever, until you disappear into eternity in a dream.
+- "The sundered night born from the sea, time flows like memories… It isn’t that there is
+no eternity, but that a moment of eternity will intoxicate you. It will make your heart
+shatter. It will make you unwilling to awaken so you can continue pursuing it with a smile
+forever, until you disappear into eternity in a dream.
 
-- "The greatest distance in the world isn’t the end of the world or yin and yang, but being forgotten
+- "The greatest distance in the world isn’t the end of the world or yin and yang, but
+being forgotten
 
-- "The world is an inn for all living things. Time is a guest of the ages. The difference between life and death is like being awakened from a dream!" 
+- "The world is an inn for all living things. Time is a guest of the ages. The difference
+between life and death is like being awakened from a dream!"
 
-- "If you see yourself as part of this world, if you become the heavens and earth, then this rain is your blood. Why stop them… wind, rain, snow, thunder, and all of nature. You are them, they are you, how can they hinder you
+- "If you see yourself as part of this world, if you become the heavens and earth, then
+this rain is your blood. Why stop them… wind, rain, snow, thunder, and all of nature. You
+are them, they are you, how can they hinder you
 
-- "Leaves have roots. When they fall, they return to their roots. Humans have souls, and the soul feels sorrow when remembering one’s parents. 
+- "Leaves have roots. When they fall, they return to their roots. Humans have souls, and
+the soul feels sorrow when remembering one’s parents.
 
-- " All people have parents. The sadness of losing both parents seems to slowly dissipate as time passes. However, in truth, it is buried deep within your bones. Who can forget…
+- " All people have parents. The sadness of losing both parents seems to slowly dissipate
+as time passes. However, in truth, it is buried deep within your bones. Who can forget…
 
-- "The life-like dream before one awakens. Life is like a play, but who am I… Dreaming is living and waking up is dying, or the dream is dying and waking up is living… The moments of closing and opening the eyes are the moments of life and death, or perhap it is when one can’t separate the real and fake lives…
+- "The life-like dream before one awakens. Life is like a play, but who am I… Dreaming is
+living and waking up is dying, or the dream is dying and waking up is living… The moments
+of closing and opening the eyes are the moments of life and death, or perhap it is when
+one can’t separate the real and fake lives…
 
-- "What is karma? I seek a wooden house, but this mountain has no wood, so I plant this lone tree. During sunrise, I harvest the branches. During midday, I harvest the wood. And during sunset, I harvest the roots… What is karma. Planting the tree is karmic cause and harvesting the wood is karmic effect… The day the house took form, it also became a karmic cycle…"
+- "What is karma? I seek a wooden house, but this mountain has no wood, so I plant this
+lone tree. During sunrise, I harvest the branches. During midday, I harvest the wood. And
+during sunset, I harvest the roots… What is karma. Planting the tree is karmic cause and
+harvesting the wood is karmic effect… The day the house took form, it also became a karmic
+cycle…"
 
-- "As years pass, people will see the willow leaves cover the city. They don’t understand that the willow leaves come to find the person they are connected to. Each willow leaf represents the entire life of a person…
+- "As years pass, people will see the willow leaves cover the city. They don’t understand
+that the willow leaves come to find the person they are connected to. Each willow leaf
+represents the entire life of a person…
 
-- "Karma, it can’t be cut because it is void… Karma is karma. Fate gathers to be scattered in the void."
+- "Karma, it can’t be cut because it is void… Karma is karma. Fate gathers to be scattered
+in the void."
 
-- "Memories are like water in your palm. Although the water will flow away, the palm will remember the temperature of the water. Then, when the palm holds the water again, the palm will remember, and the water will also remember the warmth of the palm.
+- "Memories are like water in your palm. Although the water will flow away, the palm will
+remember the temperature of the water. Then, when the palm holds the water again, the palm
+will remember, and the water will also remember the warmth of the palm.
 
 - "I cover the world in fire only so you won’t have a reason to be cold.
 
-- "If life and death were a rope, countless lives and deaths would connect together to form circles. These countless circles would form a net, and that net would be karma. This large karma net would be used to catch oneself in the river of reincarnation. The river of reincarnation contains true and false, and only with a pair of eyes that can see through true and false can one throw the net to fish oneself out.
+- "If life and death were a rope, countless lives and deaths would connect together to
+form circles. These countless circles would form a net, and that net would be karma. This
+large karma net would be used to catch oneself in the river of reincarnation. The river of
+reincarnation contains true and false, and only with a pair of eyes that can see through
+true and false can one throw the net to fish oneself out.
 
-- "A reincarnation is a lifetime, and one has many ties in life. How could it be all cut so easily? This is the power of reincarnation… It can make one unable to free themselves or not want to free themselves." There was confusion in Wang Lin’s eyes, and he seemed to gain more enlightenment in this confusion.
+- "A reincarnation is a lifetime, and one has many ties in life. How could it be all cut
+so easily? This is the power of reincarnation… It can make one unable to free themselves
+or not want to free themselves." There was confusion in Wang Lin’s eyes, and he seemed to
+gain more enlightenment in this confusion.
 
 - "oppressive societies create the monsters they ultimately come to hate and fear.
 
-- "Legs are the wind, the land, and the root of all strength" 
+- "Legs are the wind, the land, and the root of all strength"
 
-- "Whilst the monkey cried incessantly from one side of a river to another, the dreadfully cold wind froze his crotch!
+- "Whilst the monkey cried incessantly from one side of a river to another, the dreadfully
+cold wind froze his crotch!
 
-- "How powerful is a practitioner isn’t solely based on the power of his moves, it’s more important that the spirit is strong! If your spirit loses to a pile of broken rocks, no matter how powerful you become you will still be a total failure!" 
+- "How powerful is a practitioner isn’t solely based on the power of his moves, it’s more
+important that the spirit is strong! If your spirit loses to a pile of broken rocks, no
+matter how powerful you become you will still be a total failure!"
 
-- "It’s easy to destroy the god in the temple but difficult to destroy the god in your heart.
+- "It’s easy to destroy the god in the temple but difficult to destroy the god in your
+heart.
 
-- "As what Buddhism goes by, if there’s a Buddha in you heart, it’s hard for you to become Buddha. 
+- "As what Buddhism goes by, if there’s a Buddha in you heart, it’s hard for you to become
+Buddha.
 
-- "Eight hundred old men idle at home, filled with ambitions that never cease; rising to the heaven after death, clouds still float and water still flows!
+- "Eight hundred old men idle at home, filled with ambitions that never cease; rising to
+the heaven after death, clouds still float and water still flows!
 
-- "The sentence that there’s no end to learning is wrong and it should be there’s no end to creating. One can’t achieve only by learning, learning all one’s life. It is creation that has no limit. You’re still young now and need to absorb the stuff that others have created. When your knowledge has accumulated to a certain extent, you must try to create. If you always learn, you will always be a student but once you create a move, you will be master."
+- "The sentence that there’s no end to learning is wrong and it should be there’s no end
+to creating. One can’t achieve only by learning, learning all one’s life. It is creation
+that has no limit. You’re still young now and need to absorb the stuff that others have
+created. When your knowledge has accumulated to a certain extent, you must try to create.
+If you always learn, you will always be a student but once you create a move, you will be
+master."
 
-- "I cant keep saying im in a perpetual state of learning to perfect something. Youll never perfect something, you just have to put yourself out there and face trial by fire.
+- "I cant keep saying im in a perpetual state of learning to perfect something. Youll
+never perfect something, you just have to put yourself out there and face trial by fire.
 
 - "When life is weak and one’s direction is lost, coming and going like a lunatic.
 
-- "To the people of Disabled Elderly Village, the disability of the body was not a disability. Their true disabilities lay in their hearts.
+- "To the people of Disabled Elderly Village, the disability of the body was not a
+disability. Their true disabilities lay in their hearts.
 
 - "The true disability is when both the body and the heart are disabled.
 
-- "One’s life was nothing more than a cultivation path, and it was easy to be led astray by an extreme way of thinking. Anyone who didn’t have a mature reflection and unmovable thoughts would easily be led astray by their own heart.
+- "One’s life was nothing more than a cultivation path, and it was easy to be led astray
+by an extreme way of thinking. Anyone who didn’t have a mature reflection and unmovable
+thoughts would easily be led astray by their own heart.
 
 - "the people of the village had said that one can lose a battle, but not their bearing.
 
-- "Ordinary people can only see the danger, but wise people can see the opportunity that lies with the danger. However, only those with the abilities can be able to grasp this opportunity!
+- "Ordinary people can only see the danger, but wise people can see the opportunity that
+lies with the danger. However, only those with the abilities can be able to grasp this
+opportunity!
 
-- "One should not think about boasting, for after the crisis comes hope. When looking at the sky and sea, a journey taken seems but a smoke!
+- "One should not think about boasting, for after the crisis comes hope. When looking at
+the sky and sea, a journey taken seems but a smoke!
 
-- "Only by breaking the despair in one’s heart can one blaze with stronger hope and fighting spirit.
+- "Only by breaking the despair in one’s heart can one blaze with stronger hope and
+fighting spirit.
 
-- "Heaven never bars one’s way; it’s mostly humans themselves barring their own way by giving up hope! I never give up so I can make my way out alive!"
+- "Heaven never bars one’s way; it’s mostly humans themselves barring their own way by
+giving up hope! I never give up so I can make my way out alive!"
 
-- "How can a man not have any ambition in this world, if one doesn’t have any, what’s the difference between them and a dried fish?" 
+- "How can a man not have any ambition in this world, if one doesn’t have any, what’s the
+difference between them and a dried fish?"
 
-- "A true leader can change a bad thing into something good, to twist everyone’s hearts together to form a rope.
+- "A true leader can change a bad thing into something good, to twist everyone’s hearts
+together to form a rope.
 
-- "You only notice the stain in your life but have forgotten the saplings you have left behind. They have already grown into towering trees and lush green forest. Your Highness, look forward." 
+- "You only notice the stain in your life but have forgotten the saplings you have left
+behind. They have already grown into towering trees and lush green forest. Your Highness,
+look forward."
 
-- "Big sister, this is the difficult part in breaking the god in one’s heart and breaking the god in the temple. The more terrifying the god is, the more fearful and respectful, the foolish commoners would be, which makes it easier for the gods to receive worships. Imperial Preceptor is trying to reform the popular custom to break the god in the people’s hearts. No matter divine arts practitioner or god, they must work for the people and serve the people."
+- "Big sister, this is the difficult part in breaking the god in one’s heart and breaking
+the god in the temple. The more terrifying the god is, the more fearful and respectful,
+the foolish commoners would be, which makes it easier for the gods to receive worships.
+Imperial Preceptor is trying to reform the popular custom to break the god in the people’s
+hearts. No matter divine arts practitioner or god, they must work for the people and serve
+the people."
+
+- "After all, to the well-organized mind, death is but the next great adventure. You know,
+the Stone was really not such a wonderful thing. As much money and life as you could want!
+The two things most human beings would choose above all — the trouble is, humans do have a
+knack of choosing precisely those things that are worst for them."
+
+- "You-Know-Who —" "Call him Voldemort, Harry. Always use the proper name for things. Fear
+of a name increases fear of the thing itself."
+
+- "You think the dead we have loved ever truly leave us? You think that we don’t recall
+them more clearly than ever in times of great trouble?"
+
+- "Dumbledore was the one who stuck up for me after Dad went. Got me the gamekeeper
+job . . . trusts people, he does. Gives ’em second chances . . . tha’s what sets him apar’
+from other Heads, see. He’ll accept anyone at Hogwarts, s’long as they’ve got the talent.
+Knows people can turn out okay even if their families weren’ . . . well . . . all tha’
+respectable. But some don’ understand that. There’s some who’d always hold it against
+yeh . . . there’s some who’d even pretend they just had big bones rather than stand up an’
+say — I am what I am, an’ I’m not ashamed. ‘Never be ashamed,’ my ol’ dad used ter say,
+‘there’s some who’ll hold it against you, but they’re not worth botherin’ with.’"
+
+- "Understanding is the first step to acceptance, and only with acceptance can there be
+recovery."
+
+- "Numbing the pain for a while will make it worse when you finally feel"
+
+- "If I thought I could help you," Dumbledore said gently, “by putting you into an
+enchanted sleep and allowing you to postpone the moment when you would have to think about
+what has happened tonight, I would do it. But I know better. Numbing the pain for a while
+will make it worse when you finally feel it."
+
+- "As Hagrid had said, what would come, would come . . . and he would have to meet it when
+it did."
+
+- "Trivial hurts, tiny human accidents," said Firenze, as his hooves thudded over the
+mossy floor. "These are of no more significance than the scurryings of ants to the wide
+universe, and are unaffected by planetary movements."
+
+- "Youth cannot know how age thinks and feels. But old men are guilty if they forget what
+it was to be young . . ."
+
+- "He has never wanted to occupy the throne himself; he prefers the backseat — more room
+to spread out, you see."
+
+- "people find it far easier to forgive others for being wrong than being right,"
+
+- "Age is foolish and forgetful when it underestimates youth. . . ."
+
+- "Death is but crossing the world, as friends do the seas; they live in one another
+still. For they must needs be present, that love and live in that which is omnipresent. In
+this divine glass, they see face to face; and their converse is free, as well as pure.
+This is the comfort of friends, that though they may be said to die, yet their friendship
+and society are, in the best sense, ever present, because immortal."
+
+- "The worst part of holding the memories is not the pain. It’s the loneliness of it.
+Memories need to be shared."
+
+- "After all, no matter how great the treasures are, our lives are more important. But if
+we work together, we can cover each other’s weaknesses. We might even be able to obtain
+serendipities.
+
+- "What I seek isn’t a Dao, but to have my mind acting as my aspiration, to have my spirit
+as my realm, and when I open my eyes, I will draw out my heart’s desires… This is the
+reason why I can draw, but you can only copy."
+
+- "If all the people in the world are drunk and you are the only one sober, then it means
+that all the people in the world are awake, and you are asleep…"
+
+- "A person’s emotions and desires were one of the sources that affected a person’s life.
+They would make a person be unable to clear his mind and cause disorder within him. When
+that disorder appeared and the person did not deal with it properly, then it would be
+difficult for him to continue with his practice. If his heart was no longer calm, then it
+was impossible for him to immerse his mind in anything else."
+
+- "There is a saying that goes that the people who are lonely may be different from each
+other, but all of them stare at the moon."
+
+- "There is no right or wrong in a battlefield. There is only obedience in a battlefield."
+
+- "‘You can retreat once, you can retreat twice, but once you retreat thrice, then even if
+you don’t die, you have already been abandoned by the battle…"
+
+- "Courage was needed for a person to self-destruct. That courage needed was usually more
+than what was required to kill someone or what was required to be killed. This was a
+personal choice, and that person would need to struggle with his own thoughts, would need
+true courage before he could do it. Perhaps there would be plenty of times where many
+people did not have this sort of courage, but on a battlefield, even if someone did not
+choose to self-destruct, there was a high possibility that he would not be able to leave
+alive anyway. A true man would rather die and bring his enemy down with him!"
+
+- "If you charge forward when you face a powerful warrior, it is a form of courage. If you
+charge forward when you face hundreds and thousands of powerful warriors, it is still a
+form of courage… Perhaps some day, you will come to understand how it feels like."
+
+- "The past is no longer here." Su Ming turned around and cast the young man a flat look.
+"The past may be gone, but we have to keep a tight grip of the present, because what you
+do know will decide your future."
+
+- "If you want to obtain something, then you must pay for it. If the reward is great, then
+the price for it will be greater… Riches will only be gained if you take risks.
+
+- "The world changes constantly but will eventually end up the same in the end1, the white
+mountains and black waters may seem different but are all the same… Transformation to
+Divinity!"
+
+- "‘Everything in the world is a cause, if there are no intense changes and if there is
+nothing that would turn the tides of the world, then it would be difficult for us to see
+the real nature of people, who are affected by the things in the world… I understand what
+the elder meant now.’"
+
+- "Sometimes, there was no such thing as what you should do and what you shouldn’t do when
+it came to how you should act in certain matters. In those occasions, you only need to
+feel what you must do it, and that was what you should do!"
+
+- "‘When I have given up on everything, then at that time… will I still be me..? I yearn
+for power, I want to become strong, but the base for all this must be that I do not give
+up on anything!"
+
+- "Death turns me into an Immortal, the Immortals fuse time into our Dao, and time always
+changes!"
+
+- "When a person found that the things he treasured the most might possibly be fake time
+and again, how would he end up…? Either he would give up, or… he would rise!"
+
+- "When you no longer know who you are, you will be you!"
+
+- "The word Life has the letter human located right above, and in the middle is a line,
+separating the heavens and mortals. The letter right underneath means to bow… Does it mean
+that if we bow to heaven, only then can we obtain Life and live as humans? If Life means
+that we have to bow to heaven before we can become humans, then Life can also be the
+heavens bowing down to us humans!"
+
+- "Wind Separation does not mean having wind leave me, but I… will be the one leaving wind
+behind. It does not mean that I do not exist where there is wind, but where I exist, there
+will be no wind,"
+
+- "‘Perhaps this is how memories really are… Once you find the end, you will also find the
+start… Is… this Life?’"
+
+- "The Life of the stone falling into the river in the sky… will only appear when the
+falling stone appears, will only be special because of that falling stone, and will be
+alone because of itself . In the end, the splashes caused by that falling stone will fuse
+into the river, and no one will be able to find the stone ever again
+
+- "All things in the world have Lives, and this Life does not mean the state of being
+alive, but is the manifestation of what we have sensed from our past lives in our current
+lives."
+
+- "He was also a person without a home, so why should he make things hard for people
+bearing the same plight…?"
+
+- "A flower in blossom for a thousand years, watches the world change alone as time
+passes. She watches with a smile fora smile for a thousand years, to find that her beloved
+is already beside her…
+
+- "At times, prosperity did not mean living in luxury, but a bustle of activity."
+
+- "If you do not have a place in your heart you call home, you will wander no matter where
+you are…"
+
+- "If I’m not bothered by my past, then why should I be bothered by my future? If I don’t
+cling to the idea of who I am, then why should I think about who is me…? The high winds
+may be strong, but they cannot extinguish the flames in my heart . Sooner or later… they
+will set the world ablaze!"
+
+- "To lack confidence at the outset seems rational to me," he explained. “It doesn’t
+matter that something you’ve done before worked out well. Your last piece is never going
+to write your next one for you."
+
+- "Listen to me carefully," Fogg was saying. “Most people are blind to magic. They move
+through a blank and empty world. They’re bored with their lives, and there’s nothing they
+can do about it. They’re eaten alive by longing, and they’re dead before they die. "But
+you live in the magical world, and it’s a great gift. And if you want to get killed here,
+you’ll find plenty of opportunities without killing each other."
+
+- "The entire time he’d been at Brakebills, through First Year, the exams, the whole
+disaster with Penny, right up until the night he joined the Physical Kids, Quentin had
+been holding his breath without knowing it. He realized only now that he’d been waiting
+for Brakebills to vanish around him like a daydream. Even aside from the many and varied
+laws of thermodynamics that were violated there on a regular basis, it was just too good
+to be true. It was like Fillory that way. Fillory never lasted forever. Ember and Umber
+promptly kicked the Chatwins out at the end of every book. Deep down Quentin felt like a
+tourist who at the end of the day would be herded back onto some dirty, lumbering,
+snorting tour bus—with ripped vinyl seats and overhead TVs and a stinking toilet—and
+shipped home, clutching a tacky souvenir postcard and watching as the towers and hedges
+and peaks and gables of Brakebills dwindled in the rearview mirror. But it hadn’t
+happened. And now he understood, he really got, that it wasn’t going to happen. He’d
+wasted so much time thinking, It’s all a dream, and It should have been somebody else, and
+Nothing lasts forever. It was time he started acting like who he was: a nineteen-year-old
+student at a secret college for real, actual magic."
+
+- "She tortured everybody around her, but only because she was more tortured than anyone."
+
+- "He wasn’t in a safe little story where wrongs were automatically righted; he was still
+in the real world, where bad, bitter things happened for no reason, and people paid for
+things that weren’t their fault."
+
+- "When a magician casts a spell, he does not first mentally review the Major, Minor,
+Tertiary, and Quaternary Circumstances. He does not search his soul to determine the phase
+of the moon, and the nearest body of water, and the last time he wiped his ass. When he
+wishes to cast a spell he simply casts it. When he wishes to fly, he simply flies. When he
+wants the dishes done, they simply are."
+
+- "Everybody has their own idiopathic reaction to their childhood home."
+
+- "So you have to promise me, Quentin. Let’s never get like this, with these stupid
+hobbies nobody cares about. Just doing pointless things all day and hating each other and
+waiting to die." "Well, you drive a hard bargain,” he said. “But okay. I promise.” “I’m
+serious, Quentin. It’s not going to be easy. It’s going to be so much harder than you
+think. They don’t even know, Quentin. They think they’re happy. That’s the worst part."
+
+- "Or you know what it is? You hate yourself so much, you’ll hurt anybody who loves you.
+That’s it, isn’t it? Just to get even with them for loving you. I never saw that before
+now."
+
+- "("any education that neglects the experience of delight will be a dry and tasteless
+diet with no nourishment in it")."
+
+- "all, as Philip says, free and democratic reading is a vital part of the Republic of
+Heaven, and delight always an aspect of storytelling."
+
+- "I take it that art, literature, children’s literature, do not exist in an ivory tower;
+I take it that we’re inextricably part of the world, the whole world; and that we have
+several kinds of responsibility that follow from that."
+
+- "I’m just going to say that we should all insist that we’re properly paid for what we
+do. We should sell our work for as much as we can decently get for it, and we shouldn’t be
+embarrassed about it. Some tender and sentimental people—especially young people—are
+rather shocked when I tell them that I write books to make money, and I want to make a
+lot, if I can."
+
+- "Here’s a useful piece of advice to young writers: cultivate a reputation—which need
+have no basis in reality—but cultivate a reputation of being very fond of money. If the
+people you have to deal with think that you like the folding stuff a great deal, they’ll
+think twice before they offer you very small amounts of it. What’s more, by expecting to
+get paid properly for the work we do, we’re helping our fellow writers in their subsequent
+dealings with schools, or festivals, or prisons, or whatever. I feel not a flicker of
+shame about declaring that I want as much money for my work as I can get. But, of course,
+what that money is buying, what it’s for, is security, and space, and peace and quiet, and
+time."
+
+- "We should try always to use language to illuminate, reveal and clarify rather than
+obscure, mislead and conceal. The language should be safe in our hands—safer than it is in
+those of politicians, for example; at the least, people should be able to say that we
+haven’t left it any poorer, or clumsier, or less precise."
+
+- "When it comes to imaginative language, to rich and inventive imagery, we have to
+beware. But what we have to beware of is too much caution. We must never say to ourselves:
+"That’s a good image—very clever; too clever for this book, though—save it up for
+something important."
+
+- "Stories should earn their own tears and not pilfer them from elsewhere."
+
+- "When it comes to the sheer craft of depicting things, describing them, saying what
+happened, the film director and playwright David Mamet said something very interesting. He
+said that the basic storytelling question is: "Where do I put the camera?"
+
+- "A storyteller should be invisible, as far as I’m concerned; and the best way to make
+sure of that is to make the story itself so interesting that the teller just…disappears."
+
+- "A culture that never encounters any others becomes first inward-looking, and then
+stagnant, and then rotten. We are responsible—there’s that word again—for bringing fresh
+streams of story into our own cultures from all over the world, and welcoming experience
+from every quarter, and offering our own experience in return."
+
+- "Some commentators—not very well-informed ones, but they have quite loud voices—say that
+children’s books shouldn’t deal with matters like sex and drugs, with violence, or
+homosexuality, or abortion, or child abuse. Taboos do change over time: only a couple of
+generations ago, it was rare to find a children’s book that confronted divorce. Against
+that, I’ve heard it said that children should be able to find in a children’s book
+anything that they might realistically encounter in life. Children do know about these
+things: they talk about them, they ask questions about them, they meet some of them,
+sometimes, at home; shouldn’t they be able to read about them in stories?"
+
+- "to be said for it, but we should remember that tragedy is uplifting too, if it shows
+the human spirit at its finest."
+
+- "The true aim of writing," said Samuel Johnson, “is to enable the reader better to
+enjoy life, or better to endure it." Children need both those kinds of help, just as
+grown-ups do."
+
+- "Easy cynicism is no more truthful than easy optimism, though it seems to be so to the
+young."
+
+- "The last responsibility I want to look at is one that every storyteller has to
+acknowledge, and it’s a responsibility that trumps every other. It’s a responsibility to
+the story itself. I first became conscious of this when I noticed that I’d developed the
+habit of hunching my shoulders to protect my work from prying eyes. There are various
+equivalents of the hunched shoulder and the encircling arm: if we’re working on the
+computer, for example, we tend to keep a lot of empty space at the foot of the piece, so
+that if anyone comes into the room we can immediately press that key that takes us to the
+end of the file, and show nothing but a blank screen. We’re protecting it. There’s
+something fragile there, something fugitive, which shows itself only to us, because it
+trusts us to maintain it in this half-resolved, half-unformed condition without exposing
+it to the harsh light of someone else’s scrutiny, because a stranger’s gaze would either
+make it flee altogether or fix it for good in a state that might not be what it wanted to
+become."
+
+- "no man can serve two masters."
+
+- "have to keep the story’s counsel: there are secrets between us, and it would be the
+grossest breach of confidence to give them away."
+
+- "To become so grand that you refuse to let your work be edited—and we can all think of a
+few writers who got to that point—is to be a bad servant, not a good one."
+
+- "Art, whatever kind of art it is, is like the mysterious music described in the words of
+the greatest writer of all, the "sounds and sweet airs, that give delight and hurt not."
+To bear the responsibility of giving delight and hurting not is one of the greatest
+privileges a human being can have, and I ask nothing more than the chance to go on being
+responsible for it till the end of my days."
+
+- "The world of books is not a collection of random units of self-interest, but a living
+ecology. Or it used to be, and should be still. Whenever we can see something going on in
+any field where we can make a difference on the side of virtue, we have a responsibility
+to make it."
+
+- "The dao of the heavens is something everyone can prove and everyone can confirm. The
+heavens is not dao. Dao is formed by the will of the heavens and earth. Everyone can have
+this will! "Just like the fish that lives in the river. It doesn’t violate the heavens or
+provoke yin and yang, it lives peacefully and free! This river is the heavens, the world.
+The fish is all living things that exist inside the world! "However, the net pulls the
+fish out from the river. This net is dao, the laws of the world! No matter where you are,
+you won’t be able to escape dao! "This net will one day pull the fish out from the river.
+Once out of the river, the fish will face the laws of the world. Either it obeys and
+enters the reincarnation cycle or it must revolt! Break the net and revolt! "Cultivators
+are like the struggling fish. The more they fiercely the struggle, the more they defy dao!
+"This is dao! Whether it is life and death or karma, all of it is formed by the will of
+dao! I’m karma!"
+
+- "People have spirit, so they can comprehend dao. Beasts have souls, so they can also be
+enlightened. Everything in this world that has a spirit or soul can comprehend dao! "This
+planet has a soul and can also be enlightened!"
+
+- "For the first time, he personally felt that the passage of time was like a ruthless
+river that washed away all his good memories of the past..."
+
+- "For us cultivators, one hundred years, one thousand years pass in the blink of an eye.
+Most relatives will have passed away, and those that remain feel alienated… Once you step
+on the path of cultivation, you are doomed to a life of hardship. "When you’re walking
+down the path of cultivation, when you turn your head you can’t see where you came from,
+and when you look at the path ahead, it is shrouded in fog."
+
+- "The flame moved with the wind just like how the wind makes the plants move, which
+makes it look like the mountain is moving, but in reality…" Wang Lin pondered. "In
+reality, the mountain didn’t move, the flame didn’t move, what moved was the wind!"
+
+- "The wind only blew the surface, yet the mountain seemed to move, but in reality, it
+was my heart that moved! My heart moved, so the mountain moved!"
+
+- "The apricot tree blooms white flowers. The daughter won’t be taken by a daoist family.
+Last year, Lang the Second went up the mountain, and a year later, Lang the First was a
+bag of bones. The cry of the daughter accompanies the dead but takes the coffin as family…
+The apricot tree blooms white flowers and children shouldn’t be taken by daoists. If asked
+about my age, I still haven’t found my dao. The dog barks, the cat scratches, scaring the
+daoist back home."
+
+- "We are all antennae for creative thought. Some transmissions come on strong, others are
+more faint. If your antenna isn’t sensitively tuned, you’re likely to lose the data in the
+noise. Particularly since the signals coming through are often more subtle than the
+content we collect through sensory awareness. They are energetic more than tactile,
+intuitively perceived more than consciously recorded."
+
+- "The world is the doer and we are the witness."
+
+- "Changing the instrument is not always the easiest way to change the sound of the music,
+but it can be the most powerful. No matter what tools you use to create, the true
+instrument is you."
+
+- "What we create allows us to share glimpses of an inner landscape, one that is beyond
+our understanding. Art is our portal to the unseen world."
+
+- "When we take notice of the cycles of the planet, and choose to live in accordance with
+its seasons, something remarkable happens. We become connected. We begin to see ourselves
+as part of a greater whole that is constantly regenerating itself. And we may then tap
+into this all-powerful propagating force and ride its creative wave."
+
+- "Living life as an artist is a practice. You are either engaging in the practice or
+you’re not."
+
+- "You know, it’s funny. When you have the flu you feel like you are going to die, but
+when you are dying, most of the time you feel just fine."
+
+- "The core premise of economic theory is that people choose by optimizing."
+
+- "Economists get in trouble when they make a highly specific prediction that depends
+explicitly on everyone being economically sophisticated."
+
+- "Just as all that appears imperishable tends toward its own destruction, those moments
+that at the time seem the most fleeting recreate themselves - not only in my memory (which
+in the final accounting loses nothing) but in the throbbing of my heart and the prickling
+of my hair, making themselves new just as our Commonwealth reconstitutes itself each
+morning in the shrill tones of its own clarions."
+
+- "Certain mystes aver that the real world has been constructed by the human mind, since
+our ways are governed by the artificial categories into which we place essentially
+undifferentiated things, things weaker than our words for them."
+
+- "We believe that we invent symbols. The truth is that they invent us; we are their
+creatures, shaped by their hard, defining edges. When soldiers take their oath they are
+given a coin, an asimi stamped with the profile of the Autarch. Their acceptance of that
+coin is their acceptance of the special duties and burdens of military life - they are
+soldiers from that moment, though they may know nothing of the management of arms. I did
+not know that then, but it is a profound mistake to believe that we must know of such
+things to be influenced by them, and in fact to believe so is to believe in the most
+debased and superstitious kind of magic. The would-be sorcerer alone has faith in the
+efficacy of pure knowledge; rational people know that things act of themselves or not at
+all."
+
+- "before they come too near to being men, boys often have an almost female insight."
+
+- "I felt that it could have and should have changed everything, but it was only the
+episode of a few months, and when it was over and he was gone, it was only another winter
+passed and the"
+
+- "There are encounters that change nothing. Urth turns her aged face to the sun and he
+beams upon her snows; they scintillate and coruscate until each little point of ice
+hanging from the swelling sides of the towers seems the Claw of the Conciliator, the most
+precious of gems. Then everyone except the wisest believes that the snow must melt and
+give way to a protracted summer beyond summer. Nothing of the sort occurs. The paradise
+endures for a watch or two, then shadows blue as watered milk lengthen on the snow, which
+shifts and dances under the spur of an east wind. Night comes, and all is at it was."
+
+- "You love him, so another may love him. You love him, so you may love another."
+
+- "Of the trail of ink there is no end,"
+
+- "One can't found a novel theology on Nothing, and nothing is so secure a foundation as a
+contradiction. Look at the great successes of the past - they say their deities are the
+masters of all the universes, and yet that they require grandmothers to defend them, as if
+they were children frightened by poultry. Or that the authority that punishes no one while
+there exists a chance for reformation will punish everyone when there is no possibility
+anyone will become the better for it."
+
+- "That's so, I'm sure. When you're brought up in the guild it seems like the center of
+the world. But when you're a little older - this is what I've found myself, and I know I
+can rely on you not to tell tales - something pops in your head, and you discover it isn't
+the linchpin of this universe after all, only a well-paid, unpopular business you happen
+to have fallen into."
+
+- "Men are said to desire women, Severian. Why do they despise the women they obtain?"
+
+- "Hope is a psychological mechanism unaffected by external realities."
+
+- "Time is like a song, the path is never ending, and the love last forever."
+
+- "You don’t live if you never go crazy."
+
+- "It was just that the more intelligent one was, the easier they would waste time on
+solving a simple problem."
+
+- "Your Majesty, it might look like you control all the power and are unrivaled in the
+world, however, when you find yourself utterly isolated and sinking into desperate
+straits, no one will come to save you."
+
+- The gods want the people to be stupid, not daring to resist and revolt, while foolish
+people will willingly remain stupid, not wanting to resist and revolt.
+
+- When Nothingness Is Treated As Something, Something Becomes Nothing
+
+- People are always too critical of good people and too tolerant of bad people.
+
+- If one’s entire knowledge was being imbued directly, how could one seek to change its
+foundation?
+
+- "Time doesn’t matter for cultivation if one is like a tree without roots or water
+without its source."
+
+-  When power had been let out of the cage, it was very difficult to put it back in again.
+When servility was being brought out, it was very difficult to straighten those bent backs
+and knees again.
+
+- "If an old farmer farmed for his entire life and thought only about that, it would be
+hard for him to get out of it. He would be a farmer forever. If his focus wasn’t just on
+his land, he could discover a more vast world outside. He wouldn’t be limited to that
+land, and he could walk out of that land for greater attainments!"
+
+- We try to reduce what we are poor in to make us richer in what we are rich in.
+
+- As the saying goes, once you are at the edge of something, you have to return
+
+- "Hell is the place where the person you are meets the person you could have been."
+
+- It can be seen that living for a long time doesn't make you smarter. What's terrifying
+is that living for a long time will make you rely more on experience instead of your own
+brain. When you fall into experience, you will be in danger.
+
+- In the land of Dou Qi, there is one famous sentence: If you find yourself stuck in a
+ditch or forsaken by the world, don’t panic. Take two steps forward and maybe you’ll find
+yourself stronger than ever before.
+
+- As they said, love for a person extends even to the crows on his roof.
+-  This so-called ‘knot’ was a place in the heart that the mind could not reason with. In
+a martial artist’s journey, they not only cultivated their bodies, but they also
+cultivated their hearts and minds. They had to be true to themselves, and follow their
+desires, whether it was love or hate. Otherwise, what was the point? If they tortured
+themselves to cultivate, and practiced martial arts day and night, and felt the desolation
+and loneliness at the same time, and yet had to bear everything in life patiently even as
+they suffered countless humiliations, then what exactly was the point of practicing
+martial arts? Why not just be a normal, common person? A martial artist had a proud heart.
+They would not keep things in their heart such as losing an important contest or fight.
+Things like that could not frustrate their proud hearts.
+
+- The wise old saying said that if you weren’t planning to give something to a beggar, you
+shouldn’t at least kick his begging bowl.
+
+-  "In the four seasons of life, spring won’t come just by waiting. You have to endure the
+bitter cold and struggle to break through the frozen earth. Only then can you see the
+light of day and welcome spring."
+
+-  "Think about it carefully. If you're being compelled by someone who's apparently
+stronger and shows off their desire, what will happen?" I'd feel scared. Right? So you
+also need to show off your weakness. Protect someone with your strong points while you let
+your weaknesses be protected by the other person. You must build that kind of
+relationship."
+
+- If you don't act like that and forget about everything occasionally, you can't possibly
+go on living. Since life is full of painful things after all. Even if it's forcibly, if
+you don't create some good times then you'll be crushed.
+
+- When a man accomplishes his mission, fame and fortune become irrelevant
+
+- "Without the nation, there’s no home. Without the skin, where can the hair be attached
+to?"
+
+- In this world, each being is pulled forward by their mysterious fate. To live freely
+without constraints, even if one would not blindly follow their fate, one would also not
+struggle against it pointlessly. This was the philosophy that was closest to the Dao.
+
+- "Sometimes when you find certain things with certain qualities, it’s just fate."
+
+- "We are all powerless until we find the drive in ourselves to go out onto the open
+world, find things to improve ourselves, study our demons and beat them. There is such
+satisfaction in it. Most of the time it is just us holding ourselves back by thinking that
+somethings are inherently hard and not facing them at all"
+
+- "Ambition is a sanctioned drug, that society wants to see us overdose on."
+
+- "His job required his full attention, until it didn't need him at all"
+
+- The consequences of our actions are always so complicated, so diverse, that predicting
+the future is a very difficult business indeed
+
+- "If your long journey makes you drift too far away
+And if the dust and time still weigh you down, pulling you astray
+If passing years change you somehow
+Fret not, this simple rhyme will still be there with you now
+Please know that I stay to wait
+Please know that I stay to see
+Through all the changing seasons, sun and rain
+Right here I stand
+I am still here
+Waiting for you
+Here I will stay
+These silent fading melodies hold memories from our past, you see
+These gentle echoes still convey old promises from you and me
+Offering comfort through the silent years
+Dispelling lonely fears
+Know I wait
+I wait
+I wait
+Know I wait
+Wait for you"
+
+
+- "To learn about a nation's god, start with the nation's people!"
+
+- "To appreciate magic, you should focus on the show happening on stage rather than
+getting caught up in trying to see that which has been intentionally hidden."
+
+- "I know there's no such thing as "magic." The real trick of a magician is holding the
+audience in the palm of their hand."
+
+- "After all, heavy is the head that wears the cutsie crown."
+
+- "Just like His Grace said, paying attention to every little detail is the key to
+prosperity. Hmm, maybe this is the true meaning of "rebirth,"
+
+- "Once a criminal, always a criminal, we're marked for life."
+
+- "Where there's water, there will be ships. People believe that hope can always be found
+at the end of a voyage."
+
+- "Gut feelings often do not require justification."
+
+- "That's how things are now... The living are so exhausted that they've no strength to
+spare any words for the dead."
+
+- "Everything looks so clean after it rains — even the gravestones."
+
+- "There's no point in being depressed while we still have a disaster on our hands."
+
+- "Just as prophecies are usually only the future as seen from the perspectives of the
+gods, could things be happening in hidden corners where the gods' gaze does not fall?"
+
+- "She said that humans are creatures that are saddened easily, yes, and you can only lift
+their spirits by feeding them delicious food — so, please try the cakes here."
+
+- "Give up? Ahh... I do love the sound of that phrase. It would mean finally coming to
+terms with fate, but also... for me to finally be free."
+
+- "Fate is really unreasonable, isn't it? It has no heart, and obeys no rules. The
+prophecy has only just started to come true, and so many people have already lost their
+lives..."
+
+- "Besides, everyone knows that the main difference between a human and a god is the
+possession of "authority." Gods can do what humans cannot — that's why they're worshipped
+as gods."
+
+- "The scales of justice should not weigh heavy in the hands of its god. On one side, it
+must carry fairness and justice, and on the other, praise and applause."
+
+- "Hmm. It is strange, how words can often leave a bitter taste in the mouth when it
+finally comes time to say them out loud."
+
+- "It is only natural for those who are greater than humanity to possess a different sort
+of common sense, which is why there are so many problems in our attempts to communicate
+with humans."
+
+- "To live is in itself a blessing. But once a person dies, the bonds he once had with
+this world shall all turn to curses."
+
+- "I, too, believe it unwise to make too many blind guesses when information is lacking.
+The same is true of being at court."
+
+- "For one thing, I believe peak conditioning can only be achieved through consistent
+training over a long timespan. Cramming in a workout at the last minute does next to
+nothing for you."
+
+- "When I was young, I used to lie on the roof of my house, gazing up at the stars... And
+often, my mind would drift to this question... "Is this starry sky actually real?" But my
+grandma would tell me, the answer to that question doesn't really matter. "Think of all
+the people in our village who spend their entire lives here," she'd say. To them, that
+little village is their whole world. And so, if it's our destiny to live beneath this sky
+all our lives, then whatever may or may not lie beyond — this is our world, and that sky
+is real to us. Uh... Paimon kinda gets you... but also not really... Is it kind of like...
+how journeying with (Traveler) is everything to Paimon right now? That seems kind of
+right... But also not really. I really treasured my "world." For a really long time... The
+village was my everything — the houses, the scenery, stories I always loved to hear about
+the Savior. But I could never bring myself to agree with grandma. Even if the village was
+my entire world, I still had to know what lay outside its borders!"
+
+- "Partings are inevitable, of course, but distance makes the heart grow fonder, right?
+One thing will never change, though. We'll always have the memories we made together
+during this time."
+
+- "Our forebearers carved 'miracles' into obsidian rock, yet future bearers looked upon
+them and saw 'strength. The miracles of the past become the motivations of the present.
+The limitations of the past become the breakthroughs of today"
+
+- "The victors shall burn bright, while the losers must turn to ash."
+
+- "You don't have to prove anything to anyone. You know your own heart, so stop beating
+yourself up over other people's opinions."
+
+- "Exploit your opponent's weaknesses while maximizing your own strengths, and you're sure
+to find opportunities to turn the tides in your favor!"
+
+- "To bathe in a hot spring is to completely empty your mind. As such, swimming around the
+pool is incredibly disruptive and impolite"
+
+- "Life is a journey in which there's no turning back, so forge ahead and don't hold
+back."
+
+- "Every battle, every sacrifice is in pursuit of a future where we get to stop fighting."
+
+- "Don't let desperation cloud your judgment..."
+
+- "The nature of battle is unpredictable. You never know how it's going to end. Losing a
+friend is tragic, but when that happens, the best thing you can do is focus on how to
+prevent further casualties... I appreciate what you're trying to say, Chief Wayna, but if
+the price of "maturity" is abandoning a friend in need, I'll choose foolishness any day."
+
+- "Can a fisherman claim victory if he fails to bring back his catch?" — that's what he
+asked me in the end. The experience was far more valuable than the prize itself."
+
+- "Most people perceive time as a linear concept, almost like a straight line that can
+only move forward. We cannot change the past or predict the future. But, there's also a
+different theory, one that I believe to be closer to the truth. Namely, that the "past,"
+"present," and "future" all exist at once. A—At once? Paimon's not sure she understands...
+Let's say your journey ended right now. Thinking back on your experience in each nation,
+which one would you say was the most important? I'd have to say all of them. Exactly. Even
+at the end of your journey, the things you experienced along the way don't cease to exist.
+They become part of who you are. Take out a portion of that journey, and you would likely
+make very different decisions, and eventually arrive at a very different destination. The
+future is the same way. It exists even though it has yet to come to pass. We just lack the
+means to perceive it. Of course, there are those with the power to foresee the future.
+They simply call it by a different name — "fate." You're quite familiar with that concept,
+I would imagine... That does kinda make sense! The future hasn't happened, but it already
+exists... Humanity excels at living in the present, but too often, we forget the past and
+neglect the future."
+
+- "Surely as the echoes of life resound through heaven and earth, so too shall our stories
+remain eternal."
+
+- "You've never had to work for your own strength, so you will never understand the true
+source of our power. The courage we have to stand before you and not back down... It comes
+from our friendship. The power lies not in the ideal itself... But in our commitment to
+upholding that ideal, and in our decision to stand together and fight!"
+
+- "The people and events of the past are never truly lost to us. We simply carry them with
+us in a different form. In that sense, we didn't lose anything at all."
+
+- "If you still have regrets, let them fuel your resolve in the battles to come. Your
+deeds will become new legends and nurture new forms of power, just like the items once
+stored here."
+
+- "You feel loss keenly. It seems to stir up feelings of regret in you... But this is
+something I have long since come to terms with."
+
+- "I suppose, but so what? Don't forget, time takes many forms. The past, present, and
+future co-exist, and all are equally important. Even if the future ends in destruction,
+that's still no reason to give up on the here and now. And it's precisely because we
+humans cannot know our fate that we will never give up on our struggle."
+
+- "Wealth leads to unending conflicts between people, yet you alone transcend the value of
+gold. Baleful thunder and wrathful waves bring terror to mortal hearts, yet again and
+again, you've braved them to find new worlds."
+
+- "A family does whatever it takes to protect their own."
+
+- "When walking in the forest, it is only natural to encounter wild beasts. However, not
+every beast has the courage to come out and bite."
+
+- "May your flame forever burn pure and bright."
+
+- "A new future deserves a new meaning, a chance to take a definitive step forward."
+
+- "For those cursed with immortality, release from the mortal coil is the greatest form of
+peace."
+
+- "We are the inheritors of memory and legend. Those who grew alongside sun and wind.
+Those who forged our own destiny and future. That is Natlan's fire, the lifeblood of our
+nation. The fallen are never truly lost to us. We will be reunited one day."
+
+- "The weight of fate is decided by the one who has to bear it."
+
+- "Sing your final song with pride, like a hero's march to the other side."
+
+- "In the beginning, there was darkness. Until someone set themselves aflame. Only then did the universe know light."
+
+- "Having foretold his own death, the omniscient man holds a feast in celebration."
+
+- "We love this world because it contains everything we hold dear... everything that has
+happened here has moved us, shaped us, and turned us into who we are today. Giving up our
+memories and history would mean rewriting everything. The people of this world would then
+become fundamentally different beings, their physical bodies the only connection to their
+former selves."
+
+- "No matter what path lies before us, we still have a destination. If we lose our way now, we will lose the meaning of our existence."
+
+- "Never slow down, and never hold back. Spread your wings and fly free, like the fiercest qucusaur in the sky. Show the world who the bravest Flower-Feather warrior is... Because that's who you are... and that's the sister I'm proud of."
+
+- "How unfair life can be... She's had the odds stacked against her from the very beginning, and each step forward has been an agonizing one. Maybe she would have been better off embracing her pain... But her journey goes on, and one question looms large in her mind: If she could rise above the layers of pain, and ascend over the dark clouds of her mind... what, then, would she find? Maybe the glorious light of the sun, or maybe a dark, empty void. There is only one way to find out. She needs to spread her wings and soar to new heights... that is the true meaning of life."
+
+- "My life's suffering shall be my epitaph. To remember the pain I endured...And, finally, transcended."
+
+- "We fight for the people we love, and also for the chance to see them again."
+
+- "As long as blood still runs through your veins, even the tiniest spark of steel against stone can ignite a flame."
+
+- "Even amid everlasting darkness, our bonds remain eternal."
+
+- "It's important to listen to your limits. Just like in training, pushing too hard will only hurt you in the long run. Everyone needs time to rest."
+
+- "When facing an impossible situation, you just need to act. And if you fail, so what? That's just life."
+
+- "But, I am of the belief that, in this world, no destiny is unchangeable, no death inevitable, and no rule unbreakable. So, before the final moment truly arrives, we must fight harder than ever."
+
+- "Maybe you'll change in the future, but you can still be proud of who you are now."
+
+- "Y'know, I used take a lot of things for granted. Growing up, it's easy to think that everything around you will just exist forever. But the battle taught me that very few things in life are permanent. Like this path, for example... It's the same one we walked before, but now, the view is completely different. It makes the things we love even more precious. So, I want to do as much as I can to defend my family and friends, so I can move forward without regrets."
+
+- "When future generations look back on our accomplishment, they, too, will see our deeds for their greater significance."
+
+- "May the skies forever be clear and bright, and may we always be free to spread our wings and soar."
+
+- "The dead draw solace from the living, and the living push forward in honor of the dead."
+
+- "We all have our own journey, and we need to see it through to the end. Not all adventurers go down in history..."
+
+- "The most idealistic and righteous among us are the most fragile, so I must protect his edge. A strong hand is required to stand against a strong foe."
+
+- "We embark on a pilgrimage, for the wishes of the people. We choose to battle, to earn a glorious name. And in the end, we burn to cinders for a dream."
+
+- "With fear comes darkness, and with darkness comes dominion. In darkness the world was born, and so it shall return."
+
+- "When you're hungry, you go eat something tasty, and when you're tired, you go lie down in a nice comfy bed, alright? Seriously, don't punish yourself like this."
+
+- "It is only by fate that people's paths may cross."
+
+- "It was like I took a look at the world and, on the surface, it looked like a vast realm with so many places I could go. Then I looked a little closer. And there was nowhere for me to go at all."
+
+- "The play has an ending, but life goes on."

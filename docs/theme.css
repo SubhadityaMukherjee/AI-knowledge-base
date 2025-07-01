@@ -4,7 +4,7 @@ Minimal Theme by @kepano
 
 User interface replacement for Obsidian.
 
-Designed to be used with the Minimal Theme Settings 
+Designed to be used with the Minimal Theme Settings
 plugin and the Hider plugin.
 
 Sponsor my work:
@@ -26,7 +26,7 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in 
+The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -613,21 +613,21 @@ settings:
 		format: hex
 		default-light: '#'
 		default-dark: '#'
-	-  
+	-
 		id: graph-node-tag
 		title: Tag node color
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
 		default-dark: '#'
-	-  
+	-
 		id: graph-node-attachment
 		title: Attachment node color
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
 		default-dark: '#'
-	-  
+	-
 		id: graph-node-unresolved
 		title: Unresolved node color
 		type: variable-themed-color
@@ -688,7 +688,7 @@ settings:
 				value: small-caps
 			-
 				label: All small caps
-				value: all-small-caps 
+				value: all-small-caps
 	-
 		id: h1-style
 		title: H1 font style
@@ -892,7 +892,7 @@ settings:
 				value: small-caps
 			-
 				label: All small caps
-				value: all-small-caps 
+				value: all-small-caps
 	-
 		id: h4-style
 		title: H4 font style
@@ -911,7 +911,7 @@ settings:
 		title: H4 divider line
 		description: Adds a border below the heading
 		type: class-toggle
-		default: false   
+		default: false
 	-
 		id: level-5-headings
 		title: Level 5 Headings
@@ -924,7 +924,7 @@ settings:
 		description: Name of the font as it appears on your system
 		type: variable-text
 		default: ''
-	- 
+	-
 		id: h5-size
 		title: H5 font size
 		description: Accepts any CSS font-size value
@@ -960,7 +960,7 @@ settings:
 				value: small-caps
 			-
 				label: All small caps
-				value: all-small-caps 
+				value: all-small-caps
 	-
 		id: h5-style
 		title: H5 font style
@@ -1265,21 +1265,21 @@ settings:
 		max: 60
 		step: 1
 		format: px
-	-  
+	-
 		id: gutter-background
 		title: Gutter background
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
 		default-dark: '#'
-	-  
+	-
 		id: line-number-color
 		title: Line number color
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
 		default-dark: '#'
-	-  
+	-
 		id: line-number-color-active
 		title: Active line number color
 		type: variable-themed-color
@@ -1545,7 +1545,7 @@ settings:
 		default: none
 	-
 		id: maximize-tables-off
-		title: Maximize table width 
+		title: Maximize table width
 		description: Determines how wide tables should behave when they become wider than the line width
 		type: class-select
 		allowEmpty: false
@@ -1577,7 +1577,7 @@ settings:
 		title: Cell lines
 		description: Display borders around all table cells globally
 		type: class-toggle
-		default: false 
+		default: false
 	-
 		id: row-alt
 		title: Striped rows
@@ -2081,7 +2081,7 @@ settings:
 		title: Card border width
 		type: variable-text
 		default: 1px
-	- 
+	-
 		id: cards-background
 		title: Card background color
 		type: variable-themed-color
@@ -2397,9 +2397,19 @@ span[alt="recent-new-post--hidden"] .el-table table tbody tr td:nth-child(6) ul 
     margin-right: 0.75em; /* Horizontal space between hashtags */
     margin-bottom: 0.4em; /* Vertical space if they wrap */
     /* If hashtags are links, you can style the <a> element inside here */
-    /* Example: 
+    /* Example:
     span[alt="recent-new-post--hidden"] .el-table table tbody tr td:nth-child(6) ul li a {
         text-decoration: none;
     }
     */
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  background: white;
+  max-width: 100%;
+  display: block;
+  margin: 1rem auto;
 }

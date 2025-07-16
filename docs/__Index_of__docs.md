@@ -11,6 +11,7 @@
  [[index|index]]
  [[listings.json|listings.json]]
  [[My Art|My Art]]
+ [[My Blogs|My Blogs]]
  [[publish.css|publish.css]]
  [[publish.js|publish.js]]
  [[robots.txt|robots.txt]]

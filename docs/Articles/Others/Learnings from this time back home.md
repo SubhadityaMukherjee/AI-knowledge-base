@@ -7,7 +7,7 @@ date modified:
 date created: 
 publish: "false"
 ---
-Lessons for future me : Part 1 - 31st Aug 2022 #learnings
+# Lessons for future me : Part 1 - 31st Aug 2022
 
 This is a time of change, and this trip was the period of rest between what my life was, and what it will become soon. I needed it. A break. A space between me and everything that I thought mattered. It gave me the time and environment to learn a lot more about myself and what I want to do in my life from now on until whenever my time comes. This is a list of the things that I realised in this holiday. It is probably not an exhaustive list, but it is something to look back on in the future and see how much this changed my life.
 

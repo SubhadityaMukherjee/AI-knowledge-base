@@ -1,4 +1,3 @@
-
 ---
 toc: true
 title: Parsing and Querying Tensorboard logs - A Mini Tutorial

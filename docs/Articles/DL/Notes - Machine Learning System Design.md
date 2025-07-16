@@ -1,4 +1,3 @@
-
 ---
 toc: true
 title: Notes - Machine Learning System Design

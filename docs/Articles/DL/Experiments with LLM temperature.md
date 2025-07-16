@@ -2,13 +2,12 @@
 toc: true
 layout: post
 description: Experimenting with LLM temperature and its effects on answer quality
-tags: [architecture]
+tags:
+  - architecture
 title: Experiments with Temperature
-# image: 
 author: Subhaditya Mukherjee
-date : 2024-07-08
+date created: 2024-07-08
 ---
-
 # Experimenting With Temperature (LLMs)
 
 Over the past few months at OpenML, we have been experimenting with LLM models in an attempt to improve the search experience for our users. While our existing implementation uses ElasticSearch, we wanted to also have the option of having a more "semantic" search experience. 

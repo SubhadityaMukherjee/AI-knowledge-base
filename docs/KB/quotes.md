@@ -22168,7 +22168,7 @@ former selves."
 
 - "We believe that we invent symbols. The truth is that they invent us; we are their creatures, shaped by their hard, defining edges. When soldiers take their oath they are given a coin, an asimi stamped with the profile of the Autarch. Their acceptance of that coin is their acceptance of the special duties and burdens of military life - they are soldiers from that moment, though they may know nothing of the management of arms. I did not know that then, but it is a profound mistake to believe that we must know of such things to be influenced by them, and in fact to believe so is to believe in the most debased and superstitious kind of magic. The would-be sorcerer alone has faith in the efficacy of pure knowledge; rational people know that things act of themselves or not at all."
 
-- "before they come too near to being men, boys often have an almost female insight."
+- "Before they come too near to being men, boys often have an almost female insight."
 
 - "I felt that it could have and should have changed everything, but it was only the episode of a few months, and when it was over and he was gone, it was only another winter passed and the"
 
@@ -22178,9 +22178,10 @@ former selves."
 
 - "You love him, so another may love him. You love him, so you may love another.""
 
-- "'Of the trail of ink there is no end,'"
+- "Of the trail of ink there is no end"
 
 - "One can't found a novel theology on Nothing, and nothing is so secure a foundation as a contradiction. Look at the great successes of the past - they say their deities are the masters of all the universes, and yet that they require grandmothers to defend them, as if they were children frightened by poultry. Or that the authority that punishes no one while there exists a chance for reformation will punish everyone when there is no possibility anyone will become the better for it.""
 
 - "That's so, I'm sure. When you're brought up in the guild it seems like the center of the world. But when you're a little older - this is what I've found myself, and I know I can rely on you not to tell tales - something pops in your head, and you discover it isn't the linchpin of this universe after all, only a well-paid, unpopular business you happen to have fallen into."
 
+- "The circumstances of one’s birth are irrelevant. It is what you do with the gift of life that determines who you are."

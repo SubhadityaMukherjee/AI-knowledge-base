@@ -19,6 +19,7 @@ zoom: "true"
 - Everything here is either drawn using Gouache or on [Procreate](https://procreate.com/)
 - For commissions : Try sending me an [Email](mailto:msubhaditya@gmail.com) . (Warning, this is completely dependant on how much time I have)
 ## Art
+- It was some really good ramen (from [Takumi ramen amsterdam](https://maps.app.goo.gl/kRXNGcHGGi4c24Wu8)) though ;p , Jul 2025![[Untitled_Artwork.webp]]
 - Okay hear me out - Elden ring (Erdtree) + Harry potter (Quidditch) , Jul 2025![[eldhar.webp]]
 - Doggo sniffing our peace lily :) ![[doggo.webp]]
 - My Grandma![[grandma.webp]]

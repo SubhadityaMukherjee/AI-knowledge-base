@@ -1,11 +1,8 @@
 # %%
-import os
 from pathlib import Path
-import yaml
 from glob import glob
 from datetime import datetime
 import re
-from typing import Dict
 
 from collections import OrderedDict
 
@@ -15,7 +12,8 @@ from collections import OrderedDict
 # %%
 
 
-def format_today():
+def format_today() -> str:
+    """Get todays date in a nice format"""
     dt = datetime.today()
     day = dt.day
     if 11 <= day <= 13:
@@ -28,6 +26,7 @@ def format_today():
 
 # %%
 def parse_custom_date(line) -> datetime:
+    """Get datetime object from obsidian date created field"""
     # Extract date part using regex
     match = re.search(r"(\w+)\s+(\d{1,2})(st|nd|rd|th)\s+(\w+)\s+(\d{4})", line)
     if not match:
@@ -42,7 +41,9 @@ def parse_custom_date(line) -> datetime:
 
 
 # %%
-def get_date_created(text):
+def get_date_created(text) -> datetime:
+    """Get date created line and return an absurd year (3000) if no date is found.
+    This would let us sort by date even if it doesnt exist"""
     date_created: datetime = datetime(3000, 10, 10)
     for line in text:
         if "date created" in line:
@@ -52,7 +53,12 @@ def get_date_created(text):
 
 
 # %%
-def get_first_few_lines(text, max_lines=5):
+def get_first_few_lines(text, max_lines=5) -> str:
+    """Get first couple of lines a little smartly. Check if theres a table of contents,
+    get the text below it, check for H1 and apply logic based on this. Get a max of max_lines
+    Snippets per article are in a "code" block
+    Add some basic cleaning.
+    """
     toc_line = None
     header_line = None
 
@@ -78,48 +84,26 @@ def get_first_few_lines(text, max_lines=5):
     cleaned = [line.strip().replace("```", "") for line in snippet]
     text_ret = "\n".join(cleaned) + "\n..."
 
-    # Wrap it *properly* in its own fenced block
     return f"\n```md\n{text_ret}\n```\n"
-
-
-generated_page_template: str = f"""---
-title: Articles
-toc: true
-tags: 
-date modified: {format_today()}
-date created: Wednesday 16th July 2025, Wed
----\n
-# Articles sorted by recency :)
-- Click the link to navigate to the full thing
-\n
-"""
 
 
 # %%
 def should_skip(text):
+    """If publish is false, then skip showing it here for obvious reasons."""
     return any('publish: "false"' in line or "publish: false" in line for line in text)
 
 
 def generate_page(
     generated_page_template: str,
-    get_date_created,
-    get_first_few_lines,
-    should_skip,
     all_articles,
     save_dir="docs/My Blogs.md",
-):
+) -> None:
+    """
+    Generate the final page and write it to save_dir
+    """
     for article in all_articles:
         category_dict = OrderedDict()
-        with open(article, "r") as fp:
-            text = fp.readlines()
-            date_created = get_date_created(text=text)
-            summary = get_first_few_lines(text=text)
-            skip_publish = should_skip(text=text)
-            category_dict[article] = {
-                "date_created": date_created,
-                "summary": summary,
-                "skip": skip_publish,
-            }
+        process_single_article(article, category_dict)
         sorted_category_dict = OrderedDict(
             sorted(category_dict.items(), key=lambda x: x[1]["date_created"])
         )
@@ -133,8 +117,36 @@ def generate_page(
         fp.write(generated_page_template)
 
 
-if __name__ == "__main__":
+def process_single_article(article, category_dict):
+    with open(article, "r") as fp:
+        text = fp.readlines()
+        date_created = get_date_created(text=text)
+        summary = get_first_few_lines(text=text)
+        skip_publish = should_skip(text=text)
+        category_dict[article] = {
+            "date_created": date_created,
+            "summary": summary,
+            "skip": skip_publish,
+        }
 
+
+if __name__ == "__main__":
+    message = """
+- Here are my articles sorted by recency. Feel free to click whatever seems interesting
+- If you want to see something of a particular topic, send me an [email](mailto:msubhaditya@gmail.com)
+"""
+
+    generated_page_template: str = f"""---
+title: Blogs
+toc: true
+tags: 
+date modified: {format_today()}
+date created: Wednesday 16th July 2025, Wed
+---\n
+# My Blogs
+{message}
+\n
+    """
     path_to_articles = Path("docs/Articles/*/*.md")
     path_to_articles = glob(str(path_to_articles), recursive=True)
     filter_out = ["__Index", "index"]
@@ -146,9 +158,6 @@ if __name__ == "__main__":
 
     generate_page(
         generated_page_template=generated_page_template,
-        get_date_created=get_date_created,
-        get_first_few_lines=get_first_few_lines,
-        should_skip=should_skip,
         all_articles=all_articles,
         save_dir="docs/My Blogs.md",
     )

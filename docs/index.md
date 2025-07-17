@@ -13,7 +13,7 @@ title-block-banner: true
 ## Hello! I am Subhaditya Mukherjee. Great to meet you!! :) 
 I am currently working as a software research engineer at [OpenML Labs](https://amore-labs.github.io/website/).
 ## Navigate to things
-- [[__Index_of__Articles|Blogs]]
+- [[My Blogs|Blogs]]
 - [[My Art]]
 - [[__Index_of__KB|Knowledge Base]]
 - [Github](https://www.github.com/SubhadityaMukherjee)

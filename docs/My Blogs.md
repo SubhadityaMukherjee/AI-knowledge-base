@@ -1,23 +1,26 @@
 ---
-title: Articles
+title: Blogs
 toc: true
 tags: 
-date modified: Wednesday 16th July 2025, Wed
+date modified: Thursday 17th July 2025, Thu
 date created: Wednesday 16th July 2025, Wed
 ---
 
-# Articles sorted by recency :)
-- Click the link to navigate to the full thing
+# My Blogs
+
+- Here are my articles sorted by recency. Feel free to click whatever seems interesting
+- If you want to see something of a particular topic, send me an [email](mailto:msubhaditya@gmail.com)
 
 
-- [[DRAFT BookTalk - Piranesi]]
+
+    - [[BookTalk - Piranesi]]
 
 ```md
-- piranesi means trapped
-- what was it about
-- house with ancient statues and sea
-- Piranesi wakes up with no real memory of who he is and just knows he loves the "house"
-- writing style reminded me of the book The Slow Regard of Silent Things by Patrick Rothfuss
+
+Piranesi means trapped.
+
+The story is about a house with ancient statues and the sea. Piranesi wakes up with no real memory of who he is and just knows he loves the "house." The writing style reminded me of the book _The Slow Regard of Silent Things_ by Patrick Rothfuss.
+
 ...
 ```
 
@@ -28,28 +31,6 @@ date created: Wednesday 16th July 2025, Wed
 Notes on a nervous planet is a book that brings a lot of important points about the collective overwhelm that we as a “modern” society face. Social media, lack of sleep, odd working hours, loneliness. Neither of these were aspects that we were really prepared to deal with. But before treating a disease, we must know what the symptoms are and why they showed up in the first place. (At the end of the article, there is a long is list of what you can do to avoid overwhelm.)
 
 This is a summary and my thoughts (chapter wise, mostly) on the book. I try to cover what stuck out to me the most and in turn, hope that it helps someone out. If you like the summary, you will like the book more.
-
-...
-```
-
-- [[Commission FAQ]]
-
-```md
-
-## Name
-Full form article about anything related to AI/Neural networks/Technical writing.
-
-## Description
-...
-```
-
-- [[Writing your own Markdown to LaTEX parser]]
-
-```md
-
-## What we want
-
-## Disclaimers
 
 ...
 ```

@@ -1,10 +1,11 @@
 ---
 toc: true
 title: Commission FAQ
-
-tags: ["articles"]
+tags:
+  - articles
 date modified: 
 date created: 
+publish: "false"
 ---
 # Commission FAQ
 

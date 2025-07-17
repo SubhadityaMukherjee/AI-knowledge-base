@@ -1,10 +1,11 @@
 ---
 toc: true
 title: Writing your own Markdown to LaTEX parser
-
-tags: ["articles"]
+tags:
+  - articles
 date modified: 
 date created: 
+publish: "false"
 ---
 # Writing your own Markdown to LaTEX parser
 
